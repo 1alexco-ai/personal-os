@@ -1,128 +1,66 @@
 {
- "generatedAt": "2026-07-19T11:45:00-04:00",
- "note": "Sunday afternoon edition - the World Cup final kicks off at 3pm.",
- "interests": [
-  {
-   "id": "markets",
-   "label": "Markets & Macro",
-   "weight": 1.2
+  "schema_version": 2,
+  "edition": {
+    "id": "2026-07-19",
+    "date": "2026-07-19",
+    "type": "weekday",
+    "generated_at": "2026-07-19T12:30:00-04:00",
+    "timezone": "America/New_York",
+    "title": "Personal OS",
+    "front_page_letter": {
+      "greeting": "Good Sunday",
+      "body_paragraphs": [
+        "The month Miami spent at the center of the world ends this afternoon. The final kicks off at 3, and if you're not at Hard Rock you have three free county parks and every screen in Wynwood to choose from. Enjoy it; the city won't sound like this again for a while.",
+        "The quieter story is the week ahead. The Fed meets in ten days with hike odds near a coin flip, Warsh has stopped telling markets what he'll do, and Friday's tape suggests positioning has started without him: chips sold hard, the Nasdaq gave up nearly three percent on the week. Alphabet, Intel and Tesla all report into that nervousness. If rates and the AI trade are going to collide, this is the week it happens.",
+        "The Marlins picked a bad weekend to go cold. Swept in Milwaukee, cushion thinning, Houston next. Baseball's cruelty is that a 20-6 June buys you exactly nothing in July."
+      ],
+      "read_only_three": [
+        {"target_type": "theme", "target_id": "theme-fed-week", "label": "Fed week: the hike question is live"},
+        {"target_type": "delta", "target_id": "delta-marlins-swept", "label": "What changed for the Marlins"},
+        {"target_type": "rabbit_hole", "target_id": "rh-2026-07-19", "label": "The rabbit hole: why Stoicism keeps returning"}
+      ]
+    },
+    "market_context": [
+      {"label": "S&P 500", "value": "7,457.69", "change": "-1.0%", "observed": "Fri close 7/17", "note": "chip-led selloff"},
+      {"label": "Nasdaq", "value": "25,520.24", "change": "-1.4%", "observed": "Fri close 7/17", "note": "-2.9% on the week"},
+      {"label": "10Y Treasury", "value": "4.55%", "change": "-0.01", "observed": "Fri close 7/17", "note": ""},
+      {"label": "FOMC", "value": "10 days", "change": "~46.5% hike odds", "observed": "CME FedWatch 7/13", "note": "Jul 28-29"}
+    ],
+    "public_day_context": {"date_label": "Sunday, July 19", "weather": "90 / 80, strong UV, wet-season afternoon storms possible", "public_event": "World Cup final, 3pm - free watch parties at Tropical, Amelia Earhart and Palmetto parks"},
+    "what_changed": [
+      {"id": "delta-marlins-swept", "thread_id": "thread-marlins-wildcard", "change_type": "worsened", "title": "Marlins swept out of the break", "previous_state": "Hit the All-Star break 52-45, holding the wild card pole position after a franchise-record June.", "current_state": "Swept in Milwaukee - 2-1 in ten innings, then 8-6 twice. Three straight losses, Houston series next.", "why_it_matters": "The cushion is real but thinning; the Houston series now carries weight it should not have needed to.", "confidence": "high", "source": {"publisher": "Yahoo Sports", "url": "https://sports.yahoo.com/articles/brewers-score-vs-marlins-today-185206584.html"}},
+      {"id": "delta-fed-week", "thread_id": "thread-fed-rate-path", "change_type": "advanced", "title": "Fed week arrives with positioning already visible", "previous_state": "Hike odds were rising through last week; Warsh hawkish, no forward guidance.", "current_state": "Meeting is 10 days out, odds near a coin flip, and Friday's chip-led selloff (Nasdaq -2.9% on the week) suggests markets are positioning early.", "why_it_matters": "A hike repricing hits rate-sensitive assets first - the tape is already telling you where the nerves are.", "confidence": "medium", "source": {"publisher": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-july-17-dow-sp-500-nasdaq-092345307.html"}},
+      {"id": "delta-wc-final", "thread_id": "thread-wc-miami-2026", "change_type": "resolved", "title": "The World Cup ends today", "previous_state": "Miami hosted through the knockouts; bronze final played at Hard Rock yesterday.", "current_state": "Final kicks off at 3pm. Miami's hosting role concludes with county-wide watch parties.", "why_it_matters": "Last day to be part of it - and the city gets its summer back tomorrow.", "confidence": "high", "source": {"publisher": "Axios Miami", "url": "https://www.axios.com/local/miami/2026/07/14/free-world-cup-watch-parties-miami"}},
+      {"id": "delta-dolphins-camp", "thread_id": "thread-dolphins-hafley-rebuild", "change_type": "advanced", "title": "Dolphins camp opens tomorrow", "previous_state": "Camp schedule announced; Hafley's first season taking shape on paper.", "current_state": "Rookies report Monday to Baptist Health; veterans follow July 28.", "why_it_matters": "The rebuild stops being theoretical this week.", "confidence": "high", "source": {"publisher": "Local 10", "url": "https://www.local10.com/sports/local/2026/07/08/dolphins-training-camp-2026-dates-times-and-what-fans-need-to-know/"}}
+    ],
+    "themes": [
+      {"id": "theme-fed-week", "topic": "markets", "topic_label": "Markets & Macro", "title": "Fed week: the hike question is live", "importance": 0.94, "thesis": "For the first time in this cycle, a July hike is a genuine coin flip.", "synthesis": "The FOMC meets July 28-29 with FedWatch odds near 46.5% and a chair who has deliberately stopped offering guidance. Inflation is the reason: CPI at 4.2%, the hottest since 2023. With no signal from Warsh, every data print this week does the talking.", "new_today": "Fed week begins with positioning already visible in Friday's selloff.", "why_it_matters": "Your world reprices off this meeting - debt costs, cap rates, and the second half of the year.", "thread_id": "thread-fed-rate-path", "confidence": "high", "sources": [{"role": "analysis", "publisher": "Forbes", "headline": "Fed Meeting Tracker 2026", "url": "https://www.forbes.com/sites/investor-hub/article/fed-meeting-tracker-interest-rate-strategy/"}, {"role": "primary_reporting", "publisher": "CNBC", "headline": "A July rate hike? The odds are rising", "url": "https://www.cnbc.com/2026/07/13/-a-july-rate-hike-from-the-fed-the-odds-are-rising.html"}, {"role": "background", "publisher": "Federal Reserve", "headline": "Monetary Policy Report, July 2026", "url": "https://www.federalreserve.gov/monetarypolicy/files/20260710_mprfullreport.pdf"}]},
+      {"id": "theme-ai-earnings", "topic": "markets", "topic_label": "Markets & Macro", "title": "The AI trade meets a rate wall", "importance": 0.86, "thesis": "This week tests whether the AI trade can absorb higher-for-longer rates.", "synthesis": "Alphabet, Intel, Tesla and GE Vernova all report during Fed week, right after semiconductors led the market lower. The Nasdaq gave up nearly 3% last week. PMIs and new home sales fill out the calendar - a full stress test of growth assets against a hawkish backdrop.", "new_today": "Friday closed with chips leading the decline; earnings begin midweek.", "why_it_matters": "If the AI complex cracks under rate pressure, it moves everything - including real asset allocations.", "thread_id": null, "confidence": "medium", "sources": [{"role": "primary_reporting", "publisher": "Yahoo Finance", "headline": "Dow, S&P 500, Nasdaq post weekly losses as semiconductors get smoked", "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-july-17-dow-sp-500-nasdaq-092345307.html"}, {"role": "background", "publisher": "Trading Economics", "headline": "Week Ahead - Jul 20th", "url": "https://tradingeconomics.com/calendar?article=29362&importance=2&startdate=2026-07-17"}]},
+      {"id": "theme-wc-finale", "topic": "miami", "topic_label": "Miami Life & Culture", "title": "The last day of Miami's World Cup", "importance": 0.92, "thesis": "A month of hosting ends at 3pm - go be part of the ending.", "synthesis": "The final plays this afternoon, and the county built one last day around it: free watch parties at Tropical, Amelia Earhart and Palmetto parks from 2pm, a big screen at the Miami Beach Bandshell, and Grails running it across 75 TVs with no cover. Tomorrow the city exhales.", "new_today": "Final day - everything above is today only.", "why_it_matters": "These collective-city moments are rare; this one closes this afternoon.", "thread_id": "thread-wc-miami-2026", "confidence": "high", "sources": [{"role": "local_perspective", "publisher": "Axios Miami", "headline": "Free World Cup watch parties around Miami", "url": "https://www.axios.com/local/miami/2026/07/14/free-world-cup-watch-parties-miami"}, {"role": "primary_reporting", "publisher": "Miami-Dade County", "headline": "Final watch parties at three county parks", "url": "https://www.miamidade.gov/global/release.page?Mduid_release=rel178404988187139"}]},
+      {"id": "theme-marlins-slide", "topic": "sports", "topic_label": "Miami Sports", "title": "The Marlins' cushion thins", "importance": 0.84, "thesis": "Three losses in Milwaukee turned a comfortable wild card lead into a real race.", "synthesis": "The sweep stings for its shape as much as its substance: an extra-innings one-run loss, then two games the bullpen could not hold. The 20-6 June still matters - it built the cushion now being spent - but the Houston series ahead is suddenly consequential.", "new_today": "Sunday's 8-6 loss completed the sweep.", "why_it_matters": "The first real pennant-race baseball in Miami in years is happening now, not in September.", "thread_id": "thread-marlins-wildcard", "confidence": "high", "sources": [{"role": "primary_reporting", "publisher": "Yahoo Sports", "headline": "Brewers 8, Marlins 6", "url": "https://sports.yahoo.com/articles/brewers-score-vs-marlins-today-185206584.html"}, {"role": "background", "publisher": "Sports Illustrated", "headline": "All-Star week came at the perfect time", "url": "https://www.si.com/mlb/marlins/onsi/2026-all-star-week-came-at-perfect-time-for-miami-marlins"}]},
+      {"id": "theme-franchise-clocks", "topic": "sports", "topic_label": "Miami Sports", "title": "Three franchises, three clocks", "importance": 0.78, "thesis": "Miami's teams are running on deliberately different timelines - and that's the story.", "synthesis": "The Heat traded for Giannis and are monitoring Klay Thompson. The Panthers rebuilt their roster in eleven days around Tkachuk. The Dolphins, meanwhile, are asking for patience: rookies report tomorrow to a first-year coach with a young roster. Win-now, win-again, and wait - all in one market.", "new_today": "Dolphins rookies report tomorrow; camp battles start taking shape.", "why_it_matters": "Knowing which clock each team is on tells you how to watch the next twelve months.", "thread_id": "thread-heat-giannis-era", "confidence": "high", "sources": [{"role": "analysis", "publisher": "Yahoo Sports", "headline": "Heat, Panthers went big, but Dolphins are asking for patience", "url": "https://sports.yahoo.com/articles/heat-panthers-went-big-dolphins-173347632.html"}, {"role": "local_perspective", "publisher": "Miami Sports Wire", "headline": "Dolphins camp preview", "url": "https://miamisportswire.com/dolphins-news/"}]},
+      {"id": "theme-summer-table", "topic": "miami", "topic_label": "Miami Life & Culture", "title": "The summer table", "importance": 0.72, "thesis": "The city's eating map is being redrawn while everyone watches soccer.", "synthesis": "La Sponda opens on Grove Isle with bay views, a Michelin-trained Greek arrives at Manoli in the Grove, PopUp Bagels lands in Brickell, and China Grill returns to South Beach after a decade. Meanwhile it is peak mango season everywhere - the county's best seasonal excuse to eat well.", "new_today": "Nothing new today - this is the standing map for the next month of dinners.", "why_it_matters": "Openings this dense come once a summer; the good tables will be gone by September.", "thread_id": "thread-miami-summer-openings", "confidence": "medium", "sources": [{"role": "primary_reporting", "publisher": "Miami New Times", "headline": "9 most anticipated openings of summer", "url": "https://www.miaminewtimes.com/food-drink/most-anticipated-miami-restaurants-opening-summer-2026-40548512/"}, {"role": "background", "publisher": "The Infatuation", "headline": "Miami new-openings guide", "url": "https://www.theinfatuation.com/miami/guides/new-miami-restaurant-openings"}]},
+      {"id": "theme-stoa-returns", "topic": "living", "topic_label": "Art of Living", "title": "Why the Stoa keeps returning", "importance": 0.7, "thesis": "Stoicism's revival is less a trend than a recurring answer to loud decades.", "synthesis": "Philosophy Now devotes a full issue to Stoicism's place in history and modern life, while USC's writeup traces why a 2,300-year-old system keeps finding new footholds: it treats attention as the scarce resource and offers drills, not slogans. Useful framing for a week when the news will try to spend your attention for you.", "new_today": "A quality cluster of serious writing, versus the usual listicle Stoicism.", "why_it_matters": "This is your operating philosophy getting proper intellectual treatment.", "thread_id": null, "confidence": "medium", "sources": [{"role": "primary_reporting", "publisher": "Philosophy Now", "headline": "Stoicism in History and Modern Life (Issue 157)", "url": "https://philosophynow.org/issues/157/Stoicism_in_History_and_Modern_Life"}, {"role": "analysis", "publisher": "USC Dornsife", "headline": "A 2,300-year-old philosophy finds a foothold", "url": "https://dornsife.usc.edu/news/stories/stoicism-philosophy-for-modern-times/"}]}
+    ],
+    "rabbit_hole": {"id": "rh-2026-07-19", "title": "Stoicism in History and Modern Life", "creator": "Philosophy Now, Issue 157", "format": "magazine issue (several essays)", "minutes": 45, "why": "A full issue of serious philosophy writing on why the Stoa endures - history, criticism, and practice, not quotes on sunsets. The right companion for a week that will test the discipline of attention.", "url": "https://philosophynow.org/issues/157/Stoicism_in_History_and_Modern_Life", "related_interest": "living", "weekend_save": true},
+    "beautiful_thing": {"id": "bt-2026-07-19", "title": "Miami Marine Stadium", "creator": "Hilario Candela", "era": "1963", "body": "A 27-year-old Cuban-born architect designed this concrete grandstand on Virginia Key with a folded-plate roof that cantilevers 65 feet over the seats - no columns, just origami in concrete holding itself above the water. It hosted powerboat races and Sunday concerts until Hurricane Andrew closed it in 1992, and it has stood since as Miami's most beautiful ruin: graffitied, salt-worn, and still structurally daring by any era's standard. Preservationists have fought for decades to bring it back. Look at what a young immigrant architect thought Miami deserved.", "url": "https://en.wikipedia.org/wiki/Miami_Marine_Stadium", "image": null, "alt": null},
+    "noticing_prompt": {"id": "np-2026-07-19", "text": "Wherever the final has you this afternoon, spend one minute watching the crowd instead of the screen. Collective attention is its own spectacle."},
+    "reading_queue": [],
+    "quote": {"text": "We suffer more often in imagination than in reality.", "attribution": "Seneca"}
   },
-  {
-   "id": "miami",
-   "label": "Miami Life & Culture",
-   "weight": 1.3
-  },
-  {
-   "id": "sports",
-   "label": "Miami Sports",
-   "weight": 1.0
-  },
-  {
-   "id": "living",
-   "label": "Art of Living",
-   "weight": 1.1
-  }
- ],
- "readingList": [],
- "items": [
-  {
-   "topic": "miami",
-   "topicLabel": "Miami Life & Culture",
-   "title": "World Cup FINAL today, 3pm - where to watch it in Miami",
-   "url": "https://www.axios.com/local/miami/2026/07/14/free-world-cup-watch-parties-miami",
-   "source": "Axios Miami",
-   "blurb": "Free county watch parties 2-6pm at Amelia Earhart Park, Tropical Park and Palmetto; big screen at the Miami Beach Bandshell; Grails Wynwood has it on 75+ TVs, no cover.",
-   "score": 0.98
-  },
-  {
-   "topic": "markets",
-   "topicLabel": "Markets & Macro",
-   "title": "Fed week is here: hike odds at 46.5% for July 29",
-   "url": "https://www.forbes.com/sites/investor-hub/article/fed-meeting-tracker-interest-rate-strategy/",
-   "source": "Forbes",
-   "blurb": "FOMC meets July 28-29 with CPI running 4.2% - hottest since 2023. Warsh has scrapped forward guidance entirely, so the data this week does the talking.",
-   "score": 0.92
-  },
-  {
-   "topic": "sports",
-   "topicLabel": "Miami Sports",
-   "title": "Marlins swept in Milwaukee - rough restart after the break",
-   "url": "https://sports.yahoo.com/articles/brewers-score-vs-marlins-today-185206584.html",
-   "source": "Yahoo Sports",
-   "blurb": "2-1 in ten, then 8-6 twice. Three straight to the NL Central leaders; the wild card cushion needs defending in Houston next.",
-   "score": 0.88
-  },
-  {
-   "topic": "sports",
-   "topicLabel": "Miami Sports",
-   "title": "Heat and Panthers went big - the Dolphins are preaching patience",
-   "url": "https://sports.yahoo.com/articles/heat-panthers-went-big-dolphins-173347632.html",
-   "source": "Yahoo Sports",
-   "blurb": "Sharp read on the three-franchise split screen: Giannis and Tkachuk arrive while Hafley rebuilds with youth. Heat still monitoring Klay Thompson.",
-   "score": 0.85
-  },
-  {
-   "topic": "markets",
-   "topicLabel": "Markets & Macro",
-   "title": "Week ahead: PMIs, new home sales, and the AI trade gets tested",
-   "url": "https://tradingeconomics.com/calendar?article=29362&importance=2&startdate=2026-07-17",
-   "source": "Trading Economics",
-   "blurb": "Alphabet, Intel, Tesla and GE Vernova all report - a real stress test for the AI trade with rates repricing underneath it.",
-   "score": 0.84
-  },
-  {
-   "topic": "sports",
-   "topicLabel": "Miami Sports",
-   "title": "Dolphins rookies report tomorrow - the Hafley era gets real",
-   "url": "https://miamisportswire.com/dolphins-news/",
-   "source": "Miami Sports Wire",
-   "blurb": "Malik Willis (3yr, $67.5M) leads a young roster into Baptist Health. Proctor, Grant and Savaiinaea are the names to watch in camp.",
-   "score": 0.8
-  },
-  {
-   "topic": "living",
-   "topicLabel": "Art of Living",
-   "title": "Philosophy Now: Stoicism in History and Modern Life",
-   "url": "https://philosophynow.org/issues/157/Stoicism_in_History_and_Modern_Life",
-   "source": "Philosophy Now",
-   "blurb": "A full issue on why the Stoa keeps returning - proper philosophy writing, not listicle Stoicism. Good with Sunday coffee.",
-   "score": 0.78
-  },
-  {
-   "topic": "miami",
-   "topicLabel": "Miami Life & Culture",
-   "title": "Rubell Museum + the Jon & Vinny's garden residency",
-   "url": "https://www.timeout.com/miami/things-to-do/best-things-to-do-in-miami",
-   "source": "Time Out",
-   "blurb": "7,700 works of contemporary art, then pizza and soft serve in the garden. A proper Sunday double-bill in Allapattah.",
-   "score": 0.75
-  },
-  {
-   "topic": "living",
-   "topicLabel": "Art of Living",
-   "title": "Why a 2,300-year-old philosophy found a foothold now",
-   "url": "https://dornsife.usc.edu/news/stories/stoicism-philosophy-for-modern-times/",
-   "source": "USC Dornsife",
-   "blurb": "The academic take on the Stoic revival - attention as the scarce resource, and the view from above as original mindfulness.",
-   "score": 0.74
-  },
-  {
-   "topic": "miami",
-   "topicLabel": "Miami Life & Culture",
-   "title": "Miami Takeover returns July 24-27",
-   "url": "https://www.miamiandbeaches.com/event/miami-takeover/27424",
-   "source": "Miami & Beaches",
-   "blurb": "The 18th annual DC-to-Miami culture weekend - Go-Go, spoken word, art and R&B across the beach. Next weekend's anchor event.",
-   "score": 0.72
-  },
-  {
-   "topic": "miami",
-   "topicLabel": "Miami Life & Culture",
-   "title": "Peak mango season has taken over the county",
-   "url": "https://miamishoot.com/miami-in-july-2026/",
-   "source": "Miami Shoot",
-   "blurb": "Smoothies, salsas, desserts and farmers market hauls - the seasonal excuse to eat well all week.",
-   "score": 0.68
-  }
- ]
+  "threads": [
+    {"id": "thread-fed-rate-path", "title": "Federal Reserve rate path", "topic": "markets", "status": "active", "last_updated": "2026-07-19", "updates": 2, "current_state": "FOMC July 28-29; hike odds near 46.5%; Warsh offering no guidance; 10Y at 4.55%.", "timeline": [{"date": "2026-07-18", "summary": "Hike odds rising toward 46%; BofA sees three hikes by December.", "change_type": "advanced"}, {"date": "2026-07-19", "summary": "Fed week arrives; positioning visible in Friday's chip-led selloff.", "change_type": "advanced"}]},
+    {"id": "thread-marlins-wildcard", "title": "Marlins wild card race", "topic": "sports", "status": "active", "last_updated": "2026-07-19", "updates": 2, "current_state": "52-48 after the Milwaukee sweep; Houston next; cushion built in June being spent in July.", "timeline": [{"date": "2026-07-18", "summary": "Hit the break 52-45, WC pole position.", "change_type": "new"}, {"date": "2026-07-19", "summary": "Swept in Milwaukee.", "change_type": "worsened"}]},
+    {"id": "thread-heat-giannis-era", "title": "Heat: the Giannis era begins", "topic": "sports", "status": "active", "last_updated": "2026-07-19", "updates": 1, "current_state": "Giannis in for Herro, Ware, Jaquez, Jakucionis; Klay Thompson being monitored.", "timeline": [{"date": "2026-07-18", "summary": "Blockbuster trade lands the two-time MVP.", "change_type": "new"}]},
+    {"id": "thread-dolphins-hafley-rebuild", "title": "Dolphins rebuild under Hafley", "topic": "sports", "status": "active", "last_updated": "2026-07-19", "updates": 2, "current_state": "Rookies report July 20; veterans July 28; Willis at QB; patience year.", "timeline": [{"date": "2026-07-18", "summary": "Camp schedule announced.", "change_type": "new"}, {"date": "2026-07-19", "summary": "Rookies report tomorrow.", "change_type": "advanced"}]},
+    {"id": "thread-miami-summer-openings", "title": "Miami summer restaurant wave", "topic": "miami", "status": "watch", "last_updated": "2026-07-18", "updates": 1, "current_state": "La Sponda, Manoli, PopUp Bagels, China Grill - the busiest opening stretch in recent memory.", "timeline": [{"date": "2026-07-18", "summary": "Nine most-anticipated openings named.", "change_type": "new"}]},
+    {"id": "thread-wc-miami-2026", "title": "World Cup in Miami", "topic": "miami", "status": "resolved", "last_updated": "2026-07-19", "updates": 2, "current_state": "Final today at 3pm; Miami's hosting month concludes.", "timeline": [{"date": "2026-07-18", "summary": "Bronze final at Hard Rock.", "change_type": "advanced"}, {"date": "2026-07-19", "summary": "Final day; watch parties county-wide.", "change_type": "resolved"}]}
+  ],
+  "topic_filters": [
+    {"id": "markets", "label": "Markets & Macro"},
+    {"id": "miami", "label": "Miami Life & Culture"},
+    {"id": "sports", "label": "Miami Sports"},
+    {"id": "living", "label": "Art of Living"}
+  ],
+  "meta": {"content_freshness": {"markets": "2026-07-17 close", "news": "2026-07-19 morning", "weather": "2026-07-19"}, "feedback_endpoint_mode": "github_contents", "minimum_client_schema_version": 1}
 }
