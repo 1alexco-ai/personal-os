@@ -344,17 +344,49 @@ function renderHeader() {
 }
 
 // ============ edition sections ============
+function isEvening() { var h = new Date().getHours(); return h >= 17 || h < 4; }
 function renderEdition(main) {
   renderHeader();
   var e = EDITION;
   if (e.front_page_letter && (e.front_page_letter.body_paragraphs || e.front_page_letter.body)) main.appendChild(sectionLetter(e.front_page_letter));
+  if (e.evening_unwind && isEvening()) main.appendChild(sectionUnwind(e.evening_unwind));
   if (e.what_changed && e.what_changed.length) main.appendChild(sectionDeltas(e.what_changed));
   if ((e.market_context && e.market_context.length) || e.public_day_context) main.appendChild(sectionToday(e));
   if (e.themes && e.themes.length) main.appendChild(sectionThemes(e.themes));
   if (e.rabbit_hole && e.rabbit_hole.url) main.appendChild(sectionRabbit(e.rabbit_hole));
   if (e.beautiful_thing && e.beautiful_thing.title) main.appendChild(sectionBeautiful(e.beautiful_thing));
   if (e.noticing_prompt && e.noticing_prompt.text) main.appendChild(sectionNoticing(e.noticing_prompt));
+  if (e.evening_unwind && !isEvening()) main.appendChild(sectionUnwind(e.evening_unwind));
   if (e.reading_queue && e.reading_queue.length) main.appendChild(sectionQueue(e.reading_queue));
+}
+function sectionUnwind(u) {
+  var s = sec('Evening Unwind ☾');
+  var c = el('article', 'featurecard');
+  if (u.evening_quote && u.evening_quote.text) {
+    var q = el('p', 'notice', '“' + u.evening_quote.text + '”');
+    c.appendChild(q);
+    c.appendChild(el('div', 'sub', [u.evening_quote.attribution, u.evening_quote.source].filter(Boolean).join(' · ')));
+  }
+  if (u.evening_prompt) {
+    var p = el('p', null, u.evening_prompt);
+    p.style.marginTop = '8px';
+    c.appendChild(p);
+  }
+  var wrap = el('div', 'notewrap');
+  var inp = el('input'); inp.placeholder = 'Reflect (private, optional)…'; inp.setAttribute('aria-label', 'Evening reflection note');
+  var b = el('button', null, 'Keep'); b.type = 'button';
+  b.onclick = function() {
+    var v = inp.value.trim(); if (!v) return;
+    notes.unshift({ text: v, d: new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric' }) });
+    store.set('notes', notes);
+    queueAction({ target_type: 'evening_prompt', target_id: u.id || null, action: 'note', text: v });
+    inp.value = '';
+    showToast('Kept — synced to the brain');
+  };
+  wrap.appendChild(inp); wrap.appendChild(b);
+  c.appendChild(wrap);
+  s.appendChild(c);
+  return s;
 }
 function sec(title) {
   var s = el('section'); s.appendChild(el('hr', 'hair'));
@@ -491,14 +523,16 @@ function threadById(id) { return (DATA.threads || []).find(function(t) { return 
 function drawThemes(wrap, themes) {
   var list = themes.filter(function(t) { return !dismissed[t.id]; });
   if (activeTopic) list = list.filter(function(t) { return t.topic === activeTopic; });
-  list = list.slice().sort(function(a, b) { return (b.importance || 0) - (a.importance || 0); });
+  var evenNow = isEvening();
+  function eff(t) { return (t.importance || 0) + (evenNow && t.affinity === 'evening' ? 0.15 : 0); }
+  list = list.slice().sort(function(a, b) { return eff(b) - eff(a); });
   if (!list.length) { wrap.appendChild(el('div', 'muted', 'Nothing in this lane today.')); return; }
   list.forEach(function(t) { wrap.appendChild(themeCard(t)); });
 }
 function themeCard(t) {
   var c = el('article', 'theme'); c.id = t.id; c.tabIndex = -1;
   var top = el('div', 'top');
-  var lab = el('span', 'tlabel', t.topic_label || t.topic); lab.style.color = TOPIC_COLORS[t.topic] || 'var(--c-custom)';
+  var lab = el('span', 'tlabel', (t.topic_label || t.topic) + (t.affinity === 'evening' ? ' ☾' : '')); lab.style.color = TOPIC_COLORS[t.topic] || 'var(--c-custom)';
   top.appendChild(lab);
   if (t.confidence && t.confidence !== 'high') top.appendChild(el('span', 'meta', 'confidence: ' + t.confidence));
   c.appendChild(top);
