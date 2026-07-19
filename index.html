@@ -14,14 +14,14 @@
   :root {
     color-scheme: light;
     --bg: #faf8f4; --card: #ffffff; --ink: #1e2126; --ink-soft: #5c6370; --ink-faint: #9aa1ac;
-    --line: #e8e4dc; --accent: #0e7a6d;
+    --line: #e8e4dc; --accent: #0e7a6d; --star: #d9a441;
     --c-markets: #1f6f8b; --c-miami: #d96a50; --c-sports: #0e7a6d; --c-living: #8d6b94; --c-custom: #6b7280;
   }
-  * { margin: 0; padding: 0; box-sizing: border-box; }
+  * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
   body {
     background: var(--bg); color: var(--ink);
     font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    padding: 26px 18px calc(50px + env(safe-area-inset-bottom));
+    padding: 26px 18px calc(64px + env(safe-area-inset-bottom));
     max-width: 720px; margin: 0 auto;
   }
   .kicker { font-size: 11px; letter-spacing: 2.5px; text-transform: uppercase; color: var(--ink-faint); margin-bottom: 6px; }
@@ -31,27 +31,73 @@
   .chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 18px 0 16px; }
   .chip {
     border: 1px solid var(--line); background: var(--card); border-radius: 999px;
-    padding: 5px 12px; font-size: 13px; cursor: pointer; display: inline-flex; gap: 7px; align-items: center;
+    padding: 5px 12px; font-size: 13px; cursor: pointer; display: inline-flex; gap: 7px; align-items: center; color: var(--ink);
   }
   .chip .dot { width: 8px; height: 8px; border-radius: 50%; }
   .chip.active { border-color: var(--ink); box-shadow: 0 0 0 1px var(--ink); }
-  h2 { font-size: 11.5px; letter-spacing: 2px; text-transform: uppercase; color: var(--ink-faint); font-weight: 600; margin: 22px 0 10px; }
+  h2 { font-size: 11.5px; letter-spacing: 2px; text-transform: uppercase; color: var(--ink-faint); font-weight: 600; margin: 24px 0 10px; }
   .card {
     background: var(--card); border: 1px solid var(--line); border-radius: 14px;
-    padding: 14px 16px 13px; margin-bottom: 11px;
+    padding: 14px 16px 12px; margin-bottom: 11px; transition: opacity .3s, transform .3s;
   }
+  .card.gone { opacity: 0; transform: translateX(30px); }
   .card .top { display: flex; align-items: center; gap: 8px; margin-bottom: 5px; }
   .tchip { font-size: 10px; letter-spacing: 1px; text-transform: uppercase; font-weight: 700; padding: 2px 8px; border-radius: 999px; color: #fff; }
   .card .src { color: var(--ink-faint); font-size: 12px; }
   .card h3 { font-family: Georgia, serif; font-size: 16.5px; font-weight: 500; line-height: 1.32; margin: 2px 0 5px; }
   .card h3 a { color: inherit; text-decoration: none; }
   .card p { color: var(--ink-soft); font-size: 13.5px; }
-  .read { padding: 8px 0; border-bottom: 1px solid var(--line); font-size: 14px; }
-  .read:last-child { border-bottom: none; }
-  .read a { color: var(--ink); text-decoration: none; }
+  .acts { display: flex; gap: 6px; margin-top: 10px; }
+  .acts button {
+    border: 1px solid var(--line); background: transparent; border-radius: 9px;
+    font-size: 12.5px; padding: 5px 11px; cursor: pointer; color: var(--ink-soft);
+  }
+  .acts button.starred { border-color: var(--star); color: #8a6414; background: #fdf6e3; }
+  .panel { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 14px 16px; margin-bottom: 14px; }
+  .panel h2 { margin: 0 0 8px; }
+  .row { display: flex; align-items: center; gap: 9px; padding: 7px 0; font-size: 14px; border-bottom: 1px solid var(--line); }
+  .row:last-child { border-bottom: none; }
+  .row input[type=checkbox] { accent-color: var(--accent); width: 17px; height: 17px; cursor: pointer; flex-shrink: 0; }
+  .row.done .txt { text-decoration: line-through; color: var(--ink-faint); }
+  .row .txt { flex: 1; min-width: 0; overflow-wrap: anywhere; }
+  .row .txt a { color: var(--ink); text-decoration: none; }
+  .row .x { color: var(--ink-faint); cursor: pointer; font-size: 17px; border: none; background: none; padding: 0 4px; flex-shrink: 0; }
+  .adder { display: flex; gap: 7px; margin-top: 9px; }
+  .adder input {
+    flex: 1; border: 1px solid var(--line); border-radius: 9px; padding: 8px 11px; font-size: 14px; background: var(--bg); color: var(--ink); min-width: 0;
+  }
+  .adder input:focus { outline: none; border-color: var(--accent); }
+  .adder button { border: none; background: var(--accent); color: #fff; border-radius: 9px; padding: 8px 14px; font-size: 14px; cursor: pointer; flex-shrink: 0; }
+  .habit { display: flex; align-items: center; gap: 10px; padding: 8px 0; border-bottom: 1px solid var(--line); font-size: 14px; }
+  .habit:last-child { border-bottom: none; }
+  .habit .streak { color: var(--ink-faint); font-size: 12px; margin-left: auto; flex-shrink: 0; }
+  .habit .tick {
+    width: 30px; height: 30px; border-radius: 50%; border: 1.5px solid var(--line); background: transparent;
+    cursor: pointer; font-size: 14px; color: transparent; flex-shrink: 0;
+  }
+  .habit .tick.on { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .note-item { font-size: 14px; padding: 8px 0; border-bottom: 1px solid var(--line); display: flex; gap: 9px; }
+  .note-item:last-child { border-bottom: none; }
+  .note-item .d { color: var(--ink-faint); font-size: 11.5px; white-space: nowrap; padding-top: 2px; }
   .muted { color: var(--ink-faint); font-size: 13.5px; }
   .foot { margin-top: 26px; font-size: 12px; color: var(--ink-faint); line-height: 1.6; }
+  .foot a { color: var(--ink-soft); }
   .err { background: #fdf3ee; border: 1px solid #eed6c8; color: #8a4a2e; border-radius: 12px; padding: 14px 16px; font-size: 13.5px; }
+  #status {
+    position: fixed; bottom: calc(12px + env(safe-area-inset-bottom)); right: 14px; font-size: 12px; color: var(--ink-faint);
+    background: var(--card); border: 1px solid var(--line); border-radius: 999px; padding: 6px 13px; cursor: pointer; z-index: 5;
+  }
+  #status.dirty { color: #8a6414; border-color: var(--star); }
+  #status.bad { color: #a04030; border-color: #ddb0a0; }
+  .modal-bg { position: fixed; inset: 0; background: rgba(30,33,38,.45); display: none; align-items: center; justify-content: center; padding: 20px; z-index: 10; }
+  .modal-bg.show { display: flex; }
+  .modal { background: var(--card); border-radius: 16px; padding: 20px; max-width: 420px; width: 100%; }
+  .modal h3 { font-family: Georgia, serif; font-size: 19px; font-weight: 500; margin-bottom: 8px; }
+  .modal p { font-size: 13.5px; color: var(--ink-soft); margin-bottom: 12px; }
+  .modal input { width: 100%; border: 1px solid var(--line); border-radius: 9px; padding: 9px 11px; font-size: 13px; background: var(--bg); color: var(--ink); }
+  .modal .btns { display: flex; gap: 8px; margin-top: 12px; justify-content: flex-end; }
+  .modal button { border-radius: 9px; padding: 8px 15px; font-size: 14px; cursor: pointer; border: 1px solid var(--line); background: transparent; color: var(--ink-soft); }
+  .modal button.go { background: var(--accent); border-color: var(--accent); color: #fff; }
 </style>
 </head>
 <body>
@@ -60,10 +106,30 @@
   <div class="quote" id="quote"></div>
   <div class="chips" id="chips"></div>
   <div id="feed"><div class="muted">Loading today's edition…</div></div>
-  <div id="readingwrap"></div>
-  <div class="foot">Read-only mirror · stars, habits &amp; notes live in Cowork on desktop · re-learned and republished every morning.</div>
+
+  <div class="panel"><h2>To-Dos</h2><div id="todos"></div>
+    <div class="adder"><input id="todoIn" placeholder="Add a to-do…"><button onclick="addTodo()">Add</button></div></div>
+  <div class="panel"><h2>Habits</h2><div id="habits"></div>
+    <div class="adder"><input id="habitIn" placeholder="New habit…"><button onclick="addHabit()">Add</button></div></div>
+  <div class="panel"><h2>Reading List</h2><div id="reading"></div></div>
+  <div class="panel"><h2>Notes &amp; Ideas</h2><div id="notes"></div>
+    <div class="adder"><input id="noteIn" placeholder="Capture a thought…"><button onclick="addNote()">Add</button></div></div>
+
+  <div class="foot">Stars, dismissals &amp; notes sync to the brain each morning at 7:10 ET · to-dos &amp; habits live on this device ·
+    <a href="#" onclick="openSetup(); return false;">sync setup</a></div>
+  <div id="status" onclick="statusTap()">…</div>
+
+  <div class="modal-bg" id="modalbg">
+    <div class="modal">
+      <h3>Connect this device</h3>
+      <p>Paste your GitHub token to let this page save stars, dismissals and notes to your brain. It's stored only on this device, and can only touch your personal-os repo.</p>
+      <input id="tokenIn" type="password" placeholder="github_pat_…" autocomplete="off">
+      <div class="btns"><button onclick="closeSetup()">Cancel</button><button class="go" onclick="saveToken()">Save</button></div>
+    </div>
+  </div>
 
 <script>
+const REPO = '1alexco-ai/personal-os';
 const TOPIC_COLORS = { markets: 'var(--c-markets)', miami: 'var(--c-miami)', sports: 'var(--c-sports)', living: 'var(--c-living)' };
 const QUOTES = [
   ['You have power over your mind, not outside events. Realize this, and you will find strength.', 'Marcus Aurelius'],
@@ -81,8 +147,77 @@ const QUOTES = [
 ];
 const $ = id => document.getElementById(id);
 const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-let data = null, activeTopic = null;
+const store = {
+  get(k, d) { try { const v = localStorage.getItem('pos.' + k); return v ? JSON.parse(v) : d; } catch(e) { return d; } },
+  set(k, v) { try { localStorage.setItem('pos.' + k, JSON.stringify(v)); } catch(e) {} }
+};
+const todayKey = () => { const d = new Date(); return d.getFullYear() + '-' + String(d.getMonth()+1).padStart(2,'0') + '-' + String(d.getDate()).padStart(2,'0'); };
 
+let data = null, activeTopic = null;
+let todos = store.get('todos', []);
+let habits = store.get('habits', []);
+let notes = store.get('notes', []);
+let localReading = store.get('reading', []);
+let dismissed = store.get('dismissed', {});
+let starred = store.get('starred', {});
+let pending = store.get('pending', []);
+let authBad = false;
+
+// ---------- sync (GitHub Contents API) ----------
+function token() { try { return localStorage.getItem('pos.token') || ''; } catch(e) { return ''; } }
+function openSetup() { $('modalbg').classList.add('show'); $('tokenIn').focus(); }
+function closeSetup() { $('modalbg').classList.remove('show'); }
+function saveToken() {
+  const v = $('tokenIn').value.trim();
+  if (v) { try { localStorage.setItem('pos.token', v); } catch(e) {} authBad = false; }
+  $('tokenIn').value = '';
+  closeSetup(); setStatus();
+  if (pending.length) flushNow();
+}
+function statusTap() { if (!token() || authBad) openSetup(); else flushNow(); }
+
+let flushTimer = null;
+function queueAction(a) {
+  a.id = Date.now() + '-' + Math.random().toString(36).slice(2, 7);
+  a.at = new Date().toISOString();
+  a.device = 'mobile';
+  pending.push(a);
+  store.set('pending', pending);
+  setStatus();
+  if (!token()) { openSetup(); return; }
+  clearTimeout(flushTimer);
+  flushTimer = setTimeout(flushNow, 6000);
+}
+async function flushNow() {
+  if (!pending.length || !token()) { setStatus(); return; }
+  const batch = pending.slice();
+  $('status').textContent = 'syncing…';
+  try {
+    const name = 'feedback/fb-' + new Date().toISOString().replace(/[:.]/g, '-') + '-' + Math.random().toString(36).slice(2, 6) + '.json';
+    const body = JSON.stringify({ createdAt: new Date().toISOString(), source: 'mobile', actions: batch }, null, 1);
+    const r = await fetch('https://api.github.com/repos/' + REPO + '/contents/' + name, {
+      method: 'PUT',
+      headers: { 'Authorization': 'Bearer ' + token(), 'Accept': 'application/vnd.github+json', 'Content-Type': 'application/json' },
+      body: JSON.stringify({ message: 'feedback (mobile)', content: btoa(unescape(encodeURIComponent(body))) })
+    });
+    if (r.status === 401 || r.status === 403 || r.status === 404) { authBad = true; setStatus(); return; }
+    if (!r.ok) throw new Error('http ' + r.status);
+    authBad = false;
+    pending = pending.filter(p => !batch.some(b => b.id === p.id));
+    store.set('pending', pending);
+  } catch(e) { /* keep queue; retried on next action or tap */ }
+  setStatus();
+}
+function setStatus() {
+  const el = $('status');
+  el.classList.remove('dirty', 'bad');
+  if (!token()) { el.textContent = pending.length ? pending.length + ' queued · tap to connect' : 'tap to connect sync'; el.classList.add(pending.length ? 'dirty' : 'bad'); return; }
+  if (authBad) { el.textContent = 'token invalid · tap to fix'; el.classList.add('bad'); return; }
+  if (pending.length) { el.textContent = pending.length + ' change' + (pending.length > 1 ? 's' : '') + ' → brain'; el.classList.add('dirty'); }
+  else el.textContent = 'brain synced ✓';
+}
+
+// ---------- header ----------
 function header() {
   const now = new Date(), h = now.getHours();
   $('greeting').textContent = (h < 5 ? 'Up late, Alex.' : h < 12 ? 'Good morning, Alex.' : h < 18 ? 'Good afternoon, Alex.' : 'Good evening, Alex.');
@@ -91,6 +226,8 @@ function header() {
   const q = QUOTES[(now.getFullYear() * 372 + now.getMonth() * 31 + now.getDate()) % QUOTES.length];
   $('quote').innerHTML = '&ldquo;' + esc(q[0]) + '&rdquo; <span>— ' + esc(q[1]) + '</span>';
 }
+
+// ---------- chips + feed ----------
 function chips() {
   const el = $('chips');
   el.innerHTML = '';
@@ -104,7 +241,7 @@ function chips() {
 }
 function feed() {
   const el = $('feed');
-  let items = ((data && data.items) || []).slice();
+  let items = ((data && data.items) || []).filter(i => !dismissed[i.url]);
   if (activeTopic) items = items.filter(i => i.topic === activeTopic);
   items.sort((a, b) => (b.score || 0) - (a.score || 0));
   el.innerHTML = '';
@@ -112,25 +249,136 @@ function feed() {
   items.forEach(i => {
     const d = document.createElement('div');
     d.className = 'card';
+    const isStar = !!starred[i.url];
     d.innerHTML =
       '<div class="top"><span class="tchip" style="background:' + (TOPIC_COLORS[i.topic] || 'var(--c-custom)') + '">' + esc(i.topicLabel || i.topic) + '</span><span class="src">' + esc(i.source || '') + '</span></div>' +
       '<h3><a href="' + esc(i.url) + '" target="_blank" rel="noopener">' + esc(i.title) + '</a></h3>' +
-      '<p>' + esc(i.blurb || '') + '</p>';
+      '<p>' + esc(i.blurb || '') + '</p>' +
+      '<div class="acts">' +
+        '<button class="star ' + (isStar ? 'starred' : '') + '">' + (isStar ? '★ Starred' : '☆ Star') + '</button>' +
+        '<button class="save">+ List</button>' +
+        '<button class="dis">✕ Less</button>' +
+      '</div>';
+    d.querySelector('.star').onclick = ev => {
+      const b = ev.currentTarget;
+      if (starred[i.url]) { delete starred[i.url]; b.classList.remove('starred'); b.textContent = '☆ Star'; }
+      else { starred[i.url] = true; b.classList.add('starred'); b.textContent = '★ Starred'; queueAction({ type: 'star', topic: i.topic, title: i.title, url: i.url }); }
+      store.set('starred', starred);
+    };
+    d.querySelector('.save').onclick = () => {
+      if (!localReading.some(r => r.url === i.url)) {
+        localReading.unshift({ title: i.title, url: i.url });
+        store.set('reading', localReading);
+        queueAction({ type: 'star', topic: i.topic, title: i.title, url: i.url, save: true });
+        reading();
+      }
+    };
+    d.querySelector('.dis').onclick = () => {
+      dismissed[i.url] = true;
+      store.set('dismissed', dismissed);
+      queueAction({ type: 'dismiss', topic: i.topic, title: i.title });
+      d.classList.add('gone');
+      setTimeout(feed, 300);
+    };
     el.appendChild(d);
   });
 }
-function reading() {
-  const list = (data && data.readingList) || [];
-  const el = $('readingwrap');
-  if (!list.length) { el.innerHTML = ''; return; }
-  el.innerHTML = '<h2>On Your Reading List</h2>' + list.slice(0, 10).map(r =>
-    '<div class="read"><a href="' + esc(r.url) + '" target="_blank" rel="noopener">' + esc(r.title) + '</a></div>').join('');
+
+// ---------- organizer ----------
+function renderTodos() {
+  const el = $('todos');
+  el.innerHTML = todos.length ? '' : '<div class="muted">Clear slate.</div>';
+  todos.forEach((t, i) => {
+    const r = document.createElement('div');
+    r.className = 'row' + (t.done ? ' done' : '');
+    r.innerHTML = '<input type="checkbox" ' + (t.done ? 'checked' : '') + '><span class="txt">' + esc(t.text) + '</span><button class="x">×</button>';
+    r.querySelector('input').onchange = () => { t.done = !t.done; store.set('todos', todos); renderTodos(); };
+    r.querySelector('.x').onclick = () => { todos.splice(i, 1); store.set('todos', todos); renderTodos(); };
+    el.appendChild(r);
+  });
 }
-header();
+function addTodo() {
+  const v = $('todoIn').value.trim(); if (!v) return;
+  todos.unshift({ text: v, done: false }); $('todoIn').value = '';
+  store.set('todos', todos); renderTodos();
+}
+function habitStreak(h) {
+  let s = 0; const d = new Date();
+  if (!(h.days || []).includes(todayKey())) d.setDate(d.getDate() - 1);
+  for (;;) {
+    const k = d.getFullYear() + '-' + String(d.getMonth()+1).padStart(2,'0') + '-' + String(d.getDate()).padStart(2,'0');
+    if ((h.days || []).includes(k)) { s++; d.setDate(d.getDate() - 1); } else break;
+  }
+  return s;
+}
+function renderHabits() {
+  const el = $('habits');
+  el.innerHTML = habits.length ? '' : '<div class="muted">Add something worth repeating.</div>';
+  habits.forEach(h => {
+    const on = (h.days || []).includes(todayKey());
+    const s = habitStreak(h);
+    const r = document.createElement('div');
+    r.className = 'habit';
+    r.innerHTML = '<button class="tick' + (on ? ' on' : '') + '">✓</button><span>' + esc(h.label) + '</span><span class="streak">' + (s > 0 ? s + 'd streak' : '—') + '</span>';
+    r.querySelector('.tick').onclick = () => {
+      h.days = h.days || [];
+      const k = todayKey();
+      if (h.days.includes(k)) h.days = h.days.filter(x => x !== k); else h.days.push(k);
+      store.set('habits', habits); renderHabits();
+    };
+    el.appendChild(r);
+  });
+}
+function addHabit() {
+  const v = $('habitIn').value.trim(); if (!v) return;
+  habits.push({ label: v, days: [] }); $('habitIn').value = '';
+  store.set('habits', habits); renderHabits();
+}
+function reading() {
+  const el = $('reading');
+  const brainList = (data && data.readingList) || [];
+  const merged = [...localReading];
+  brainList.forEach(b => { if (!merged.some(m => m.url === b.url)) merged.push(b); });
+  el.innerHTML = merged.length ? '' : '<div class="muted">Tap “+ List” on a story to save it here.</div>';
+  merged.slice(0, 12).forEach(m => {
+    const r = document.createElement('div');
+    r.className = 'row';
+    r.innerHTML = '<span class="txt"><a href="' + esc(m.url) + '" target="_blank" rel="noopener">' + esc(m.title) + '</a></span><button class="x">×</button>';
+    r.querySelector('.x').onclick = () => {
+      localReading = localReading.filter(x => x.url !== m.url);
+      store.set('reading', localReading);
+      queueAction({ type: 'reading_done', url: m.url });
+      reading();
+    };
+    el.appendChild(r);
+  });
+}
+function renderNotes() {
+  const el = $('notes');
+  el.innerHTML = notes.length ? '' : '<div class="muted">Thoughts land here — and in the brain.</div>';
+  notes.slice(0, 10).forEach((n, i) => {
+    const r = document.createElement('div');
+    r.className = 'note-item';
+    r.innerHTML = '<span class="d">' + esc(n.d) + '</span><span style="flex:1">' + esc(n.text) + '</span><button class="x" style="border:none;background:none;color:var(--ink-faint);cursor:pointer;font-size:16px">×</button>';
+    r.querySelector('.x').onclick = () => { notes.splice(i, 1); store.set('notes', notes); renderNotes(); };
+    el.appendChild(r);
+  });
+}
+function addNote() {
+  const v = $('noteIn').value.trim(); if (!v) return;
+  notes.unshift({ text: v, d: new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric' }) });
+  $('noteIn').value = '';
+  store.set('notes', notes);
+  queueAction({ type: 'note', text: v });
+  renderNotes();
+}
+
+// ---------- boot ----------
+header(); renderTodos(); renderHabits(); renderNotes(); reading(); setStatus();
 fetch('data.json?t=' + Date.now(), { cache: 'no-store' })
   .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
   .then(j => { data = j; header(); chips(); feed(); reading(); })
-  .catch(() => { $('feed').innerHTML = '<div class="err">No edition published yet. The morning learner publishes daily — check back after 7:10am ET, or make sure GitHub Pages is enabled.</div>'; });
+  .catch(() => { $('feed').innerHTML = '<div class="err">No edition published yet. The morning learner publishes daily — check back after 7:10am ET.</div>'; });
 </script>
 </body>
 </html>
