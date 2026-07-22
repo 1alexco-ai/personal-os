@@ -4,26 +4,26 @@
     "id": "2026-07-22",
     "date": "2026-07-22",
     "type": "weekday",
-    "generated_at": "2026-07-22T09:30:00-04:00",
+    "generated_at": "2026-07-22T13:46:00-04:00",
     "timezone": "America/New_York",
     "title": "Personal OS",
     "front_page_letter": {
-      "greeting": "Good Wednesday",
+      "greeting": "Good Wednesday afternoon",
       "body_paragraphs": [
-        "Two threads that should move together didn't yesterday. Stocks rallied hard - the S&P and Nasdaq both snapped three-day losing streaks on chip earnings - even as Brent crude pushed past $91 and Fed hike odds ticked up to 16.6% from 13.3%. Markets are pricing risk and opportunity separately this week, which rarely lasts long. Mediators are still pushing a 10-day ceasefire in the Iran conflict; Washington is simultaneously moving fighter jets into the region in case it fails.",
-        "Locally, your two summer storylines diverged further. The Marlins' skid reached eight straight, their longest since April 2024, with Max Meyer's neck strain now landing him on the IL for a fifth consecutive season. The Dolphins, meanwhile, quietly locked up linebacker Jordyn Brooks on a three-year extension, their third rebuild cornerstone signed this offseason. One team's floor is falling out; the other's foundation is getting poured in real time.",
-        "Beyond the feed: Cecilia Vicuna's thirty-foot red wool sculpture at PAMM, built around the ancient Andean quipu, closes August 9 and is worth seeing before it comes down. In Hong Kong, researchers built a plastic that eats itself in six days flat, using bacteria that wake up on command. Neither will matter next week. Both are the kind of thing worth actually noticing this one."
+        "The oil story hasn't cooled off since this morning - it's gotten louder. The U.S. carried out its eleventh consecutive night of strikes on Iran, and Brent crude pushed past $92, up from $91.10 at Tuesday's close. Markets shrugged for about half a session: the Dow and S&P are up modestly today while the Nasdaq is essentially flat, with Alphabet and Tesla earnings after the close doing more to hold everyone's attention than the war is. Fed hike odds haven't moved from Tuesday's 16.6%, which means the market is still treating oil as a slow-burn risk rather than an emergency - a read that gets tested every night the strikes continue.",
+        "The Marlins' skid is confirmed at eight straight, and the final score deserves a correction from what circulated this morning: Houston won 5-3, not 5-8, with Jeremy Pena's leadoff homer and a three-run shot from Isaac Paredes doing the damage before Joe Mack's seventh-inning homer made it respectable. Sandy Alcantara takes the mound tonight in Houston looking to snap it. Meanwhile the Dolphins' rebuild keeps its slow, deliberate shape - rookies are in, veterans arrive next Tuesday, and the first joint practice (Aug. 12, at Washington) is now on the calendar.",
+        "Otherwise, today asks less of you than most. The rest-ethic piece you starred this morning is worth sitting with again tonight, and the CBRE capital markets report you saved is queued for the weekend, right where it belongs."
       ],
       "read_only_three": [
         {
           "target_type": "theme",
-          "target_id": "theme-fed-week-countdown",
-          "label": "Stocks rally while hike odds and oil both climb"
+          "target_id": "theme-iran-hormuz-standoff",
+          "label": "Eleven nights of strikes, oil past $92"
         },
         {
           "target_type": "delta",
-          "target_id": "delta-marlins-skid-eight",
-          "label": "The skid hits eight - longest since 2024"
+          "target_id": "delta-marlins-score-correction",
+          "label": "The eighth loss, corrected: Houston 5, Miami 3"
         },
         {
           "target_type": "beautiful_thing",
@@ -38,14 +38,14 @@
         "value": "7,509.20",
         "change": "+0.89%",
         "observed": "Tue close 7/21",
-        "note": "snapped a 3-day losing streak on chip earnings"
+        "note": "Wed session running roughly +0.2% intraday as of midday, still open"
       },
       {
         "label": "Nasdaq",
         "value": "25,837.21",
         "change": "+1.29%",
         "observed": "Tue close 7/21",
-        "note": "Micron +12% led the rally"
+        "note": "Wed session roughly flat to -0.1% intraday; Alphabet, Tesla earnings due after the close"
       },
       {
         "label": "10Y Treasury",
@@ -58,84 +58,42 @@
         "label": "FOMC",
         "value": "7 days",
         "change": "~16.6% hike odds (83.4% hold)",
-        "observed": "CME FedWatch 7/21",
+        "observed": "CME FedWatch 7/21, unchanged as of Wed",
         "note": "Jul 28-29"
       }
     ],
     "public_day_context": {
       "date_label": "Wednesday, July 22",
-      "weather": "90-91 / passing clouds, light SE breeze, wet-season afternoon storms possible",
-      "public_event": "Marlins-Astros series finale tonight at Daikin Park, 8:10 PM ET"
+      "weather": "Low 90s with a heat index near 100-108F this afternoon; scattered sea-breeze storms developing this afternoon and drifting west into evening",
+      "public_event": "Marlins-Astros series finale tonight at Daikin Park, 8:10 PM ET - Sandy Alcantara vs. Peter Lambert"
     },
     "what_changed": [
       {
-        "id": "delta-marlins-skid-eight",
-        "thread_id": "thread-marlins-wildcard",
-        "change_type": "worsened",
-        "title": "Marlins' skid reaches eight straight",
-        "previous_state": "Entering Tuesday, Miami had lost seven straight, including Monday's loss to Houston.",
-        "current_state": "Miami lost again Tuesday, 5-8, its eighth consecutive loss - the franchise's longest skid since April 2024.",
-        "why_it_matters": "The June cushion is now fully gone, and the schedule isn't getting easier.",
-        "confidence": "high",
-        "source": {
-          "publisher": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/mlb/miami-marlins-houston-astros-460720118/"
-        }
-      },
-      {
-        "id": "delta-dolphins-brooks-extension",
-        "thread_id": "thread-dolphins-hafley-rebuild",
-        "change_type": "advanced",
-        "title": "Dolphins lock up Jordyn Brooks through 2029",
-        "previous_state": "Camp opened Monday with rookies reporting; no financial commitments had been made public.",
-        "current_state": "Miami signed Brooks to a three-year, $51.3M extension Tuesday - the rebuild's third pillar signing after Achane and Brewer.",
-        "why_it_matters": "The first real financial signal of how committed this rebuild is to its own timeline.",
-        "confidence": "high",
-        "source": {
-          "publisher": "NFL.com",
-          "url": "https://www.nfl.com/news/dolphins-lb-jordyn-brooks-three-year-51-million-extension"
-        }
-      },
-      {
-        "id": "delta-stocks-rally-chip-earnings",
-        "thread_id": "thread-fed-rate-path",
-        "change_type": "improved",
-        "title": "Stocks snap a three-day losing streak",
-        "previous_state": "Monday's close was down slightly (-0.19% S&P), pressured by oil.",
-        "current_state": "The S&P rose 0.89% and the Nasdaq 1.29% Tuesday, led by a chip-earnings rally.",
-        "why_it_matters": "Equities and the Fed's rate math are now telling two different stories at once.",
-        "confidence": "high",
-        "source": {
-          "publisher": "TheStreet",
-          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-21-2026"
-        }
-      },
-      {
-        "id": "delta-fed-odds-tick-up",
-        "thread_id": "thread-fed-rate-path",
-        "change_type": "advanced",
-        "title": "Hike odds tick back up to 16.6%",
-        "previous_state": "Hike odds were 13.3% as of Monday's CME FedWatch reading.",
-        "current_state": "Hike odds rose to 16.6% (83.4% hold) as of Tuesday, even as June CPI data (released July 14) showed inflation cooling to 3.5%.",
-        "why_it_matters": "The Fed's caution is now visibly about oil and Iran, not the inflation print itself.",
-        "confidence": "high",
-        "source": {
-          "publisher": "CME Group",
-          "url": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html"
-        }
-      },
-      {
-        "id": "delta-oil-brent-91",
+        "id": "delta-iran-strikes-eleven-nights",
         "thread_id": "thread-iran-hormuz-crisis",
         "change_type": "worsened",
-        "title": "Brent tops $91 as a new ceasefire proposal emerges",
-        "previous_state": "Brent was at $89.22 Monday, up about 20% this month.",
-        "current_state": "Brent rose another 2.11% to $91.10 Tuesday, even as Qatar, Egypt, and Pakistan proposed a 10-day ceasefire.",
-        "why_it_matters": "The market isn't yet pricing in the ceasefire proposal succeeding.",
+        "title": "Strikes reach an eleventh straight night as oil tops $92",
+        "previous_state": "As of Tuesday, the U.S. had carried out roughly nine nights of strikes, with Brent at $91.10.",
+        "current_state": "The U.S. has now struck Iran for eleven consecutive nights; Brent crude is above $92 and reviving inflation concern.",
+        "why_it_matters": "Each additional night narrows the odds that the 10-day ceasefire proposal lands before it's overtaken by events.",
         "confidence": "high",
         "source": {
-          "publisher": "CNBC",
-          "url": "https://www.cnbc.com/2026/07/21/us-iran-war-trump-hormuz-houthis.html"
+          "publisher": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-july-22-dow-sp-500-nasdaq-alphabet-tesla-earnings-083644887.html"
+        }
+      },
+      {
+        "id": "delta-marlins-score-correction",
+        "thread_id": "thread-marlins-wildcard",
+        "change_type": "unchanged",
+        "title": "Eighth straight loss confirmed, final score corrected",
+        "previous_state": "This morning's edition listed Tuesday's final as 5-8.",
+        "current_state": "The confirmed final was Houston 5, Miami 3 - Pena and Paredes homered, Imai worked six strong innings, and Joe Mack's two-run homer in the seventh made it look closer than it was. The eight-game skid itself is unchanged and confirmed by multiple box scores.",
+        "why_it_matters": "Same losing streak, more accurate picture of how these games are actually being lost - starting pitching is mostly holding; the deficit comes from a handful of mistake pitches.",
+        "confidence": "high",
+        "source": {
+          "publisher": "MLB.com",
+          "url": "https://www.mlb.com/gameday/marlins-vs-astros/2026/07/21/824165/final/box"
         }
       }
     ],
@@ -145,26 +103,26 @@
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Ten-day ceasefire, or ten more days of strikes",
-        "importance": 0.93,
-        "thesis": "Mediators want a pause; Washington is preparing for the opposite.",
-        "synthesis": "Qatar, Egypt, and Pakistan have proposed a 10-day ceasefire meant to revive last month's collapsed interim deal and reopen the Strait of Hormuz, but the U.S. carried out fresh strikes Monday night as the Houthis threatened their own blockade of Saudi Arabia. Iran now describes itself as in full-scale war with the U.S., and the Pentagon has moved fighter jets and refueling aircraft into the region - preparation, officials say, for the talks to fail. Defense Secretary Hegseth put the war's cost at $37.5 billion as of Tuesday.",
-        "new_today": "The 10-day ceasefire proposal is new; so is the $37.5B cost estimate and Iran's full-scale war framing.",
-        "why_it_matters": "Every day this runs past the FOMC meeting is another day oil is doing the Fed's job for it - just not in a way anyone would choose.",
+        "title": "Eleven nights in, the ceasefire math gets harder",
+        "importance": 0.94,
+        "thesis": "Every additional night of strikes is a night the 10-day ceasefire proposal isn't being tested.",
+        "synthesis": "The U.S. carried out its eleventh consecutive night of strikes on Iran as of Wednesday, and Brent crude pushed past $92 - up from $91.10 at Tuesday's close - reviving inflation concerns that had briefly taken a back seat to chip-earnings optimism. The Qatar-Egypt-Pakistan ceasefire proposal from earlier this week hasn't visibly slowed anything on the ground. Hegseth's $37.5B war-cost estimate from Tuesday still stands as the most recent official figure.",
+        "new_today": "The strike count moved from nine nights (Tuesday) to eleven (Wednesday), and Brent moved from $91.10 to above $92.",
+        "why_it_matters": "Every day this runs past the FOMC meeting is another day oil is doing the Fed's job for it - just not in a way anyone would choose - and the gap between the diplomatic track and the strikes is now wide enough to notice.",
         "thread_id": "thread-iran-hormuz-crisis",
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
+            "publisher": "Yahoo Finance",
+            "headline": "Stock market today: Dow, S&P 500, Nasdaq waver with Alphabet, Tesla earnings on deck",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-july-22-dow-sp-500-nasdaq-alphabet-tesla-earnings-083644887.html"
+          },
+          {
+            "role": "background",
             "publisher": "CNBC",
             "headline": "U.S. strikes Iran and Houthis threaten Saudi Arabia shipping as mediators push 10-day ceasefire",
             "url": "https://www.cnbc.com/2026/07/21/us-iran-war-trump-hormuz-houthis.html"
-          },
-          {
-            "role": "analysis",
-            "publisher": "Axios",
-            "headline": "Iran mediators push new ceasefire as Trump eyes all-out war",
-            "url": "https://www.axios.com/2026/07/21/iran-war-ceasefire-proposal-trump-troops"
           },
           {
             "role": "background",
@@ -179,26 +137,20 @@
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Stocks rally, hike odds rise - both at once",
-        "importance": 0.9,
-        "thesis": "The market did two contradictory things in the same session.",
-        "synthesis": "The S&P 500 and Nasdaq both snapped three-day losing streaks Tuesday, up 0.89% and 1.29% on a chip-led earnings rally led by Micron. At the same time, CME FedWatch odds of a July 29 hike ticked up to 16.6% (from 13.3% Monday) as Brent crude pushed past $91. June's CPI print, released July 14, actually showed headline inflation cooling to 3.5% y/y (core 2.6%) - better than expected - which is why the Fed's caution now reads as almost entirely about oil and geopolitics, not the underlying data.",
-        "new_today": "Stocks rallied and hike odds rose in the same session - a genuine divergence, not noise.",
-        "why_it_matters": "This is the actual input to CRE debt costs and cap rates for the back half of the year: not whether inflation is cooling, which it is, but whether oil forces the Fed's hand anyway.",
+        "title": "A quieter session, the same unresolved question",
+        "importance": 0.88,
+        "thesis": "Tuesday's rally didn't carry through - which is itself informative.",
+        "synthesis": "After Tuesday's chip-led rally (S&P +0.89%, Nasdaq +1.29%), Wednesday's session has been more subdued: the Dow up around 0.3%, the S&P roughly flat to slightly positive, and the Nasdaq giving back a touch as chip momentum fades and oil climbs. Alphabet and Tesla report after today's close, which is likely doing more to hold the market in place than the Iran story is. FOMC hike odds are unchanged at 16.6% (83.4% hold) heading into next week's meeting.",
+        "new_today": "The rally didn't extend into Wednesday; earnings, not the war, are now the session's proximate driver.",
+        "why_it_matters": "For CRE debt costs and cap rates, a market that's stopped reacting to daily oil headlines is either calmer or complacent - worth watching which one it turns out to be after Thursday's Big Tech prints.",
         "thread_id": "thread-fed-rate-path",
-        "confidence": "high",
+        "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "TheStreet",
-            "headline": "Stock Market Today (July 21, 2026): Nasdaq, S&P 500 climbs as earnings lift market, Middle East tensions loom",
-            "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-21-2026"
-          },
-          {
-            "role": "analysis",
-            "publisher": "U.S. Bureau of Labor Statistics",
-            "headline": "Consumer Price Index Summary - June 2026",
-            "url": "https://www.bls.gov/news.release/cpi.nr0.htm"
+            "publisher": "Yahoo Finance",
+            "headline": "Stock market today: Dow, S&P 500, Nasdaq waver with Alphabet, Tesla earnings on deck",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-july-22-dow-sp-500-nasdaq-alphabet-tesla-earnings-083644887.html"
           },
           {
             "role": "background",
@@ -213,32 +165,26 @@
         "affinity": "morning",
         "topic": "sports",
         "topic_label": "Miami Sports",
-        "title": "Eight straight, and it's not just bad luck anymore",
+        "title": "Eight straight - and the box score says it's still close games, not blowouts",
         "importance": 0.78,
-        "thesis": "This is now the longest losing streak in two years, not a rough week.",
-        "synthesis": "Miami fell 5-8 to Houston again Tuesday, its eighth consecutive loss - the franchise's longest skid since April 2024. Max Meyer, the All-Star right-hander, landed on the 15-day IL with a neck strain; it's the fifth straight season he's made an IL trip. The streak has erased essentially all of the cushion built during a franchise-record 20-6 June, and it started before the All-Star break even ended.",
-        "new_today": "The streak extended to eight Tuesday night; Meyer's IL history is now a recognized pattern, not a one-off.",
-        "why_it_matters": "The wild-card math is unforgiving in a division this tight - eight losses in three weeks is the difference between a real October push and a September fade.",
+        "thesis": "The streak is real, but these are one-swing losses, not collapses.",
+        "synthesis": "Houston beat Miami 5-3 Tuesday - the Marlins' eighth straight loss and the franchise's longest skid since April 2024. Jeremy Pena's leadoff homer and Isaac Paredes' three-run shot did the damage; Tatsuya Imai worked six strong innings for Houston, but Joe Mack's two-run homer in the seventh kept it from getting away entirely. Max Meyer remains on the 15-day IL with a neck strain, his fifth straight season with an IL trip. Sandy Alcantara starts tonight's series finale looking to end the streak.",
+        "new_today": "Final score confirmed as 5-3, not 5-8; box score detail (Pena, Paredes, Mack home runs) now available.",
+        "why_it_matters": "Eight losses by a run or two apiece is a fixable problem in a way that eight blowouts wouldn't be - tonight's game is a real test of whether this roster still believes that.",
         "thread_id": "thread-marlins-wildcard",
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Yahoo Sports",
-            "headline": "Losing Streak Hits Seven as Astros Take Care of Marlins Monday",
-            "url": "https://sports.yahoo.com/articles/losing-streak-hits-seven-astros-035405064.html"
-          },
-          {
-            "role": "analysis",
-            "publisher": "Sports Illustrated / Fish On First",
-            "headline": "Marlins' Losing Streak Reaches Seven With Loss to Astros",
-            "url": "https://www.si.com/mlb/marlins/onsi/marlins-losing-streak-reaches-seven-with-loss-astros"
+            "publisher": "MLB.com",
+            "headline": "Phillips settles in, but early trouble pushes Marlins' skid to 8 straight",
+            "url": "https://www.mlb.com/news/tyler-phillips-marlins-astros-loss"
           },
           {
             "role": "primary_reporting",
-            "publisher": "Yahoo Sports",
-            "headline": "Miami Marlins 5 - Houston Astros 8: Final score, results, recap, box score, stats",
-            "url": "https://sports.yahoo.com/mlb/miami-marlins-houston-astros-460720118/"
+            "publisher": "MLB.com",
+            "headline": "MLB Gameday: Marlins 3, Astros 5 Final Score (07/21/2026)",
+            "url": "https://www.mlb.com/gameday/marlins-vs-astros/2026/07/21/824165/final/box"
           }
         ]
       },
@@ -248,31 +194,25 @@
         "topic": "sports",
         "topic_label": "Miami Sports",
         "title": "The rebuild just got its third anchor",
-        "importance": 0.75,
+        "importance": 0.73,
         "thesis": "A patience-year roster doesn't lock up a linebacker through 2029 unless it means it.",
-        "synthesis": "Miami signed Jordyn Brooks to a three-year, $51.3 million extension ($35M guaranteed) Tuesday, keeping him through 2029. GM Jon-Eric Sullivan and coach Jeff Hafley identified Brooks early as one of the rebuild's pillars - he's now the third such player extended this offseason, joining running back De'Von Achane and center Aaron Brewer.",
-        "new_today": "The Brooks extension was announced Tuesday, the first hard financial commitment of camp week.",
+        "synthesis": "Miami signed Jordyn Brooks to a three-year, $51.3 million extension ($35M guaranteed) Tuesday, keeping him through 2029 - the rebuild's third pillar signing after Achane and Brewer. Rookies reported this week; veterans arrive July 28. The first joint practice is now set for Aug. 12 at Washington, with the Giants visiting Miami Gardens Aug. 20.",
+        "new_today": "Joint-practice schedule (Aug. 12 at Washington, Aug. 20 hosting the Giants) is now confirmed.",
         "why_it_matters": "This is the tell for how serious the Hafley regime is about its timeline - you don't guarantee $35M to a linebacker in a true tank year.",
         "thread_id": "thread-dolphins-hafley-rebuild",
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Washington Post / AP",
-            "headline": "Linebacker Jordyn Brooks agrees to 3-year extension with Dolphins, AP source says",
-            "url": "https://www.washingtonpost.com/sports/nfl/2026/07/21/miami-dolphins-jordyn-brooks-contract/2440f4a2-8527-11f1-9cec-0fb26676f07e_story.html"
-          },
-          {
-            "role": "analysis",
             "publisher": "NFL.com",
             "headline": "Report: Dolphins LB Jordyn Brooks agrees to three-year, $51.3M extension",
             "url": "https://www.nfl.com/news/dolphins-lb-jordyn-brooks-three-year-51-million-extension"
           },
           {
             "role": "background",
-            "publisher": "The Phinsider",
-            "headline": "Jordyn Brooks signs multi-year contract extension with Miami Dolphins ahead of training camp",
-            "url": "https://www.thephinsider.com/miami-dolphins-news/121053/miami-dolphins-jordyn-brooks-contract-extension-salary-cap-2026-training-camp-details"
+            "publisher": "Yahoo Sports",
+            "headline": "Key Miami Dolphins NFL training camp, joint practice dates released",
+            "url": "https://sports.yahoo.com/articles/miami-dolphins-training-camp-joint-184258220.html"
           }
         ]
       },
@@ -285,7 +225,7 @@
         "importance": 0.62,
         "thesis": "The stadium got the headlines; the civic center next door is the more interesting government story.",
         "synthesis": "Miami topped off an eight-story, 257,000-square-foot Civic Center at Miami Freedom Park on July 10, days after securing a $193 million construction permit. The building - developed by Adler Development, built by Moss Construction - is part of the 130-acre, $1 billion Freedom Park project anchored by Inter Miami's stadium, which also includes a $20 million pedestrian bridge from the Metrorail station. Completion is targeted for spring 2028.",
-        "new_today": "First look at the topped-off structure and the project's full scope.",
+        "new_today": "No new developments today; carried forward as still relevant and unresolved.",
         "why_it_matters": "A real, financed, under-construction civic asset next to a private stadium deal - worth tracking as a model for how the city pairs public buildings with private development.",
         "thread_id": "thread-miami-freedom-park-civic",
         "confidence": "medium",
@@ -304,10 +244,10 @@
         "topic": "miami",
         "topic_label": "Miami Life & Culture",
         "title": "The summer list is almost fully checked off",
-        "importance": 0.65,
+        "importance": 0.63,
         "thesis": "The anticipated list from three weeks ago is nearly exhausted - which means it's time to look at fall's.",
-        "synthesis": "Manoli finally opened in Coconut Grove this week, alongside Crisppi's, Redhead Burger (Doral), Star Burger, and Flight West in South Miami. That leaves La Sponda and PopUp Bagels as the only holdovers from the original summer list still pending. Fall's list is already forming: Genghis Cohen, Royale Pizza Napoletana, Miami Slice, and Levain Bakery's first Miami location, opening in Coconut Grove.",
-        "new_today": "Manoli's opening closes out most of the original summer list; the fall list is now public.",
+        "synthesis": "Manoli opened in Coconut Grove this week, alongside Crisppi's, Redhead Burger (Doral), Star Burger, and Flight West in South Miami. That leaves La Sponda and PopUp Bagels as the only holdovers from the original summer list still pending. Fall's list is already forming: Genghis Cohen, Royale Pizza Napoletana, Miami Slice, and Levain Bakery's first Miami location, opening in Coconut Grove.",
+        "new_today": "No new developments today; carried forward.",
         "why_it_matters": "Worth booking the summer stragglers before attention - and reservations - shift to the fall names.",
         "thread_id": "thread-miami-summer-openings",
         "confidence": "medium",
@@ -317,12 +257,6 @@
             "publisher": "Miami New Times",
             "headline": "New Miami restaurant openings and closings this week",
             "url": "https://www.miaminewtimes.com/food-drink/new-miami-restaurant-openings-and-closings-this-week-40569137/"
-          },
-          {
-            "role": "analysis",
-            "publisher": "Miami New Times",
-            "headline": "The 6 most anticipated Miami restaurant openings this fall",
-            "url": "https://www.miaminewtimes.com/food-drink/most-anticipated-miami-restaurant-openings-this-fall-40567505/"
           }
         ]
       },
@@ -332,11 +266,11 @@
         "topic": "living",
         "topic_label": "Art of Living",
         "title": "Rest is not the wellness problem it's marketed as",
-        "importance": 0.6,
+        "importance": 0.72,
         "thesis": "The Stoics didn't treat rest as indulgence - they treated it as maintenance.",
         "synthesis": "A cluster of recent Stoic writing converges on the same corrective: burnout isn't fixed by meditation apps or boundary-setting scripts, it's a signal that effort is going somewhere that doesn't compound. The Stoic frame treats deliberate rest, reflection, and reading as part of the discipline itself, not a break from it - what one recent piece called a resting ethic rather than a reward earned by output.",
-        "new_today": "Nothing urgent - this is standing practice, offered on a week that could use it.",
-        "why_it_matters": "A useful correction for anyone measuring a day's worth by how much of it got spent.",
+        "new_today": "Nothing new to report; you starred this one this morning, so it's carried forward and weighted up rather than replaced.",
+        "why_it_matters": "You flagged operating at redline this week - this is the piece worth actually re-reading tonight, not just starring.",
         "thread_id": null,
         "confidence": "medium",
         "sources": [
@@ -363,7 +297,7 @@
         "importance": 0.58,
         "thesis": "The most useful materials science this month solves a problem by building in its own ending.",
         "synthesis": "Researchers at the Chinese University of Hong Kong embedded dormant Bacillus subtilis spores into a common 3D-printing polymer. Left alone, the plastic behaves normally; heated, the spores wake up and secrete two cooperating enzymes - one that chops the polymer into pieces, one that chews those pieces into base molecules - breaking the material down completely in six days with no microplastic residue.",
-        "new_today": "Published mid-July; this is the first cycle of coverage.",
+        "new_today": "No new developments today; carried forward.",
         "why_it_matters": "A small, concrete example of solving a waste problem by design rather than by better recycling - worth noticing precisely because it isn't trying to be a headline.",
         "thread_id": null,
         "confidence": "high",
@@ -389,7 +323,7 @@
       "creator": "CBRE Research",
       "format": "research report",
       "minutes": 25,
-      "why": "Ties together everything else in today's edition - the oil shock, the Fed's caution, and the actual cap-rate mechanics - into the one lens that matters most for your own work. Twenty-five minutes here is worth more than another day of headline-chasing on the Iran story.",
+      "why": "You saved this one this morning for the weekend - it ties together the oil shock, the Fed's caution, and the actual cap-rate mechanics into the lens that matters most for your own work.",
       "url": "https://www.cbre.com/insights/books/us-real-estate-market-outlook-2026/capital-markets",
       "related_interest": "markets"
     },
@@ -404,19 +338,27 @@
       "alt": null
     },
     "noticing_prompt": {
-      "id": "np-2026-07-22",
-      "text": "Count how many times today you say yes to something out of habit before you've actually decided - the gap between the two is usually smaller than it feels."
+      "id": "np-2026-07-22-pm",
+      "text": "Notice one thing today you kept carrying only because putting it down felt like it wasn't allowed - not because it still needed carrying."
     },
     "evening_unwind": {
       "id": "eu-2026-07-22",
       "evening_quote": {
-        "text": "Men are disturbed not by the things which happen, but by the opinions about the things.",
-        "attribution": "Epictetus",
-        "source": "Enchiridion, 1"
+        "text": "People look for retreats for themselves, in the country, by the coast, or in the hills... There is nowhere that a person can find a more peaceful and trouble-free retreat than in his own mind.",
+        "attribution": "Marcus Aurelius",
+        "source": "Meditations, 4.3"
       },
-      "evening_prompt": "What did you carry today because you decided to, and what did you carry only because putting it down felt like it wasn't allowed?"
+      "evening_prompt": "What would you have to believe about your own worth to let tonight's unfinished list actually stay unfinished?"
     },
-    "reading_queue": [],
+    "reading_queue": [
+      {
+        "id": "rq-cbre-capital-markets",
+        "title": "U.S. Real Estate Market Outlook 2026: Capital Markets",
+        "url": "https://www.cbre.com/insights/books/us-real-estate-market-outlook-2026/capital-markets",
+        "verdict": "weekend",
+        "reason": "Saved this morning specifically for weekend reading - ties directly to the Fed/oil story running all week."
+      }
+    ],
     "quote": {
       "text": "We suffer more often in imagination than in reality.",
       "attribution": "Seneca"
@@ -429,8 +371,8 @@
       "topic": "markets",
       "status": "active",
       "last_updated": "2026-07-22",
-      "updates": 2,
-      "current_state": "Mediators (Qatar, Egypt, Pakistan) have proposed a 10-day ceasefire to revive last month's collapsed deal, but the U.S. struck again Monday night and the Houthis are threatening a Saudi blockade. Iran calls it a full-scale war; the Pentagon has moved fighter jets and refueling aircraft into the region. Brent is at $91.10, up 2.11% Tuesday. Hegseth estimates the war has cost $37.5B.",
+      "updates": 3,
+      "current_state": "The U.S. has now struck Iran for eleven consecutive nights. Brent crude is above $92, up from $91.10 Tuesday. The Qatar/Egypt/Pakistan 10-day ceasefire proposal has not visibly slowed the strikes. Hegseth's $37.5B war-cost estimate from Tuesday still stands as the latest figure.",
       "timeline": [
         {
           "date": "2026-07-21",
@@ -441,6 +383,11 @@
           "date": "2026-07-22",
           "summary": "10-day ceasefire formally proposed by Qatar/Egypt/Pakistan; US strikes continue, Iran calls it full-scale war, Brent tops $91, war cost estimated at $37.5B.",
           "change_type": "advanced"
+        },
+        {
+          "date": "2026-07-22",
+          "summary": "By Wednesday, strikes reach an eleventh consecutive night; Brent pushes past $92, reviving inflation concern.",
+          "change_type": "worsened"
         }
       ]
     },
@@ -450,8 +397,8 @@
       "topic": "markets",
       "status": "active",
       "last_updated": "2026-07-22",
-      "updates": 4,
-      "current_state": "FOMC meets July 28-29. Hike odds ticked up to 16.6% (83.4% hold) Tuesday from 13.3% Monday, even as June CPI (released July 14) showed inflation cooling to 3.5% y/y, core 2.6%. 10Y at 4.60%. Stocks rallied Tuesday (S&P +0.89%, Nasdaq +1.29%) on chip earnings despite the oil-driven Fed caution.",
+      "updates": 5,
+      "current_state": "FOMC meets July 28-29. Hike odds unchanged at 16.6% (83.4% hold) as of Wednesday. 10Y at 4.60%. Tuesday's chip-led rally (S&P +0.89%, Nasdaq +1.29%) did not carry into Wednesday, which is running more subdued as oil climbs and traders await Alphabet and Tesla earnings after today's close.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -472,6 +419,11 @@
           "date": "2026-07-22",
           "summary": "Hike odds tick back up to 16.6% as oil keeps climbing; stocks rally anyway on chip earnings; June CPI confirmed at 3.5%.",
           "change_type": "advanced"
+        },
+        {
+          "date": "2026-07-22",
+          "summary": "Wednesday's session runs subdued (Dow +0.3%, S&P roughly flat, Nasdaq slightly negative) as oil-driven inflation concern resurfaces ahead of Big Tech earnings; hike odds unchanged at 16.6%.",
+          "change_type": "watch"
         }
       ]
     },
@@ -482,7 +434,7 @@
       "status": "active",
       "last_updated": "2026-07-22",
       "updates": 4,
-      "current_state": "Lost again to Houston Tuesday, 5-8, an eighth straight loss - the franchise's longest skid since April 2024. Max Meyer (neck strain) is on the IL for a fifth consecutive season. The June cushion is gone.",
+      "current_state": "Lost to Houston 5-3 Tuesday (score corrected from an earlier misreport), an eighth straight loss - the franchise's longest skid since April 2024. Max Meyer (neck strain) is on the IL for a fifth consecutive season. Sandy Alcantara starts tonight's series finale looking to end the streak.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -501,7 +453,7 @@
         },
         {
           "date": "2026-07-22",
-          "summary": "Lost again 5-8; streak reaches eight straight, longest since April 2024.",
+          "summary": "Lost again, confirmed final Houston 5, Miami 3; streak reaches eight straight, longest since April 2024. Pena and Paredes homered for Houston; Joe Mack homered for Miami in the seventh.",
           "change_type": "worsened"
         }
       ]
@@ -538,8 +490,8 @@
       "topic": "sports",
       "status": "active",
       "last_updated": "2026-07-22",
-      "updates": 4,
-      "current_state": "Rookies reported Monday; veterans report July 28. Jordyn Brooks signed a three-year, $51.3M extension Tuesday, the rebuild's third pillar commitment after Achane and Brewer.",
+      "updates": 5,
+      "current_state": "Rookies reported this week; veterans report July 28. Jordyn Brooks signed a three-year, $51.3M extension Tuesday, the rebuild's third pillar commitment after Achane and Brewer. First joint practice now confirmed for Aug. 12 at Washington; Giants visit Miami Gardens Aug. 20.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -559,6 +511,11 @@
         {
           "date": "2026-07-22",
           "summary": "Jordyn Brooks signs three-year, $51.3M extension through 2029.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-07-22",
+          "summary": "Joint-practice schedule confirmed: Aug. 12 at Washington, Aug. 20 hosting the Giants.",
           "change_type": "advanced"
         }
       ]
@@ -647,8 +604,8 @@
   ],
   "meta": {
     "content_freshness": {
-      "markets": "2026-07-21 close",
-      "news": "2026-07-22 morning",
+      "markets": "2026-07-22 midday (Tue 7/21 close; Wed intraday)",
+      "news": "2026-07-22 midday",
       "weather": "2026-07-22"
     },
     "feedback_endpoint_mode": "github_contents",
