@@ -1,170 +1,170 @@
 {
   "schema_version": 2,
   "edition": {
-    "id": "2026-07-21",
-    "date": "2026-07-21",
+    "id": "2026-07-22",
+    "date": "2026-07-22",
     "type": "weekday",
-    "generated_at": "2026-07-21T09:30:00-04:00",
+    "generated_at": "2026-07-22T09:30:00-04:00",
     "timezone": "America/New_York",
     "title": "Personal OS",
     "front_page_letter": {
-      "greeting": "Good Tuesday",
+      "greeting": "Good Wednesday",
       "body_paragraphs": [
-        "Two macro stories are colliding eight days before the Fed meets, and neither was on the radar a week ago. The US has bombed Iran for nine straight nights, oil is up roughly 20% this month, and the market's response has been to slash hike odds from a near coin flip to 13 percent - cheaper money and expensive oil arriving at the same time, which is not usually how this works.",
-        "Locally, your two summer storylines split in opposite directions today. The Marlins' cushion, built on a 20-6 June, is gone - Max Meyer's hurt, the skid is somewhere between four and six games depending who's counting, and Houston isn't offering a reset. Hafley's Dolphins, meanwhile, stopped being theoretical this morning: rookies reported to Baptist Health, which means the patience-year talk now has actual practice film behind it.",
-        "Beyond the feed: China Grill is back at Bal Harbour after a decade away, and a two-week expedition off Brazil just catalogued 31 species no one had seen before. Neither will move a market. Both are more interesting than most of what will this week."
+        "Two threads that should move together didn't yesterday. Stocks rallied hard - the S&P and Nasdaq both snapped three-day losing streaks on chip earnings - even as Brent crude pushed past $91 and Fed hike odds ticked up to 16.6% from 13.3%. Markets are pricing risk and opportunity separately this week, which rarely lasts long. Mediators are still pushing a 10-day ceasefire in the Iran conflict; Washington is simultaneously moving fighter jets into the region in case it fails.",
+        "Locally, your two summer storylines diverged further. The Marlins' skid reached eight straight, their longest since April 2024, with Max Meyer's neck strain now landing him on the IL for a fifth consecutive season. The Dolphins, meanwhile, quietly locked up linebacker Jordyn Brooks on a three-year extension, their third rebuild cornerstone signed this offseason. One team's floor is falling out; the other's foundation is getting poured in real time.",
+        "Beyond the feed: Cecilia Vicuna's thirty-foot red wool sculpture at PAMM, built around the ancient Andean quipu, closes August 9 and is worth seeing before it comes down. In Hong Kong, researchers built a plastic that eats itself in six days flat, using bacteria that wake up on command. Neither will matter next week. Both are the kind of thing worth actually noticing this one."
       ],
       "read_only_three": [
         {
           "target_type": "theme",
-          "target_id": "theme-iran-oil-shock",
-          "label": "The war repricing the Fed"
+          "target_id": "theme-fed-week-countdown",
+          "label": "Stocks rally while hike odds and oil both climb"
         },
         {
           "target_type": "delta",
-          "target_id": "delta-marlins-skid",
-          "label": "The Marlins' cushion is gone"
+          "target_id": "delta-marlins-skid-eight",
+          "label": "The skid hits eight - longest since 2024"
         },
         {
-          "target_type": "rabbit_hole",
-          "target_id": "rh-2026-07-21",
-          "label": "The rabbit hole: what's actually happening with Iran"
+          "target_type": "beautiful_thing",
+          "target_id": "bt-2026-07-22",
+          "label": "A 30-foot quipu closes soon at PAMM"
         }
       ]
     },
     "market_context": [
       {
         "label": "S&P 500",
-        "value": "7,443.28",
-        "change": "-0.19%",
-        "observed": "Mon close 7/20",
-        "note": "oil-driven decline amid Iran conflict"
+        "value": "7,509.20",
+        "change": "+0.89%",
+        "observed": "Tue close 7/21",
+        "note": "snapped a 3-day losing streak on chip earnings"
       },
       {
         "label": "Nasdaq",
-        "value": "25,508.07",
-        "change": "-0.05%",
-        "observed": "Mon close 7/20",
-        "note": ""
+        "value": "25,837.21",
+        "change": "+1.29%",
+        "observed": "Tue close 7/21",
+        "note": "Micron +12% led the rally"
       },
       {
         "label": "10Y Treasury",
-        "value": "4.59%",
-        "change": "+0.02",
-        "observed": "Mon close 7/20",
+        "value": "4.60%",
+        "change": "+0.01",
+        "observed": "Tue close 7/21",
         "note": ""
       },
       {
         "label": "FOMC",
-        "value": "8 days",
-        "change": "~13.3% hike odds (86.7% hold)",
-        "observed": "CME FedWatch 7/20",
+        "value": "7 days",
+        "change": "~16.6% hike odds (83.4% hold)",
+        "observed": "CME FedWatch 7/21",
         "note": "Jul 28-29"
       }
     ],
     "public_day_context": {
-      "date_label": "Tuesday, July 21",
-      "weather": "89-90 / high humidity, wet-season afternoon storms possible",
-      "public_event": "Dolphins rookies report to training camp at Baptist Health"
+      "date_label": "Wednesday, July 22",
+      "weather": "90-91 / passing clouds, light SE breeze, wet-season afternoon storms possible",
+      "public_event": "Marlins-Astros series finale tonight at Daikin Park, 8:10 PM ET"
     },
     "what_changed": [
       {
-        "id": "delta-fed-odds-collapse",
-        "thread_id": "thread-fed-rate-path",
-        "change_type": "reversed",
-        "title": "Hike odds collapse from coin flip to 13%",
-        "previous_state": "A week ago hike odds were near 46.5%, with a hawkish Fed offering no forward guidance.",
-        "current_state": "CME FedWatch now shows an 86.7% probability of a hold; hike odds down to 13.3%, even as the 10Y ticked up to 4.59%.",
-        "why_it_matters": "The debt-cost math for the second half just moved further and faster than the inflation data alone explains.",
+        "id": "delta-marlins-skid-eight",
+        "thread_id": "thread-marlins-wildcard",
+        "change_type": "worsened",
+        "title": "Marlins' skid reaches eight straight",
+        "previous_state": "Entering Tuesday, Miami had lost seven straight, including Monday's loss to Houston.",
+        "current_state": "Miami lost again Tuesday, 5-8, its eighth consecutive loss - the franchise's longest skid since April 2024.",
+        "why_it_matters": "The June cushion is now fully gone, and the schedule isn't getting easier.",
         "confidence": "high",
         "source": {
-          "publisher": "The Motley Fool",
-          "url": "https://www.fool.com/money/banks/articles/will-the-fed-cut-rates-in-july-2026-heres-what-the-markets-say/"
+          "publisher": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/mlb/miami-marlins-houston-astros-460720118/"
         }
       },
       {
-        "id": "delta-iran-oil-shock",
+        "id": "delta-dolphins-brooks-extension",
+        "thread_id": "thread-dolphins-hafley-rebuild",
+        "change_type": "advanced",
+        "title": "Dolphins lock up Jordyn Brooks through 2029",
+        "previous_state": "Camp opened Monday with rookies reporting; no financial commitments had been made public.",
+        "current_state": "Miami signed Brooks to a three-year, $51.3M extension Tuesday - the rebuild's third pillar signing after Achane and Brewer.",
+        "why_it_matters": "The first real financial signal of how committed this rebuild is to its own timeline.",
+        "confidence": "high",
+        "source": {
+          "publisher": "NFL.com",
+          "url": "https://www.nfl.com/news/dolphins-lb-jordyn-brooks-three-year-51-million-extension"
+        }
+      },
+      {
+        "id": "delta-stocks-rally-chip-earnings",
+        "thread_id": "thread-fed-rate-path",
+        "change_type": "improved",
+        "title": "Stocks snap a three-day losing streak",
+        "previous_state": "Monday's close was down slightly (-0.19% S&P), pressured by oil.",
+        "current_state": "The S&P rose 0.89% and the Nasdaq 1.29% Tuesday, led by a chip-earnings rally.",
+        "why_it_matters": "Equities and the Fed's rate math are now telling two different stories at once.",
+        "confidence": "high",
+        "source": {
+          "publisher": "TheStreet",
+          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-21-2026"
+        }
+      },
+      {
+        "id": "delta-fed-odds-tick-up",
+        "thread_id": "thread-fed-rate-path",
+        "change_type": "advanced",
+        "title": "Hike odds tick back up to 16.6%",
+        "previous_state": "Hike odds were 13.3% as of Monday's CME FedWatch reading.",
+        "current_state": "Hike odds rose to 16.6% (83.4% hold) as of Tuesday, even as June CPI data (released July 14) showed inflation cooling to 3.5%.",
+        "why_it_matters": "The Fed's caution is now visibly about oil and Iran, not the inflation print itself.",
+        "confidence": "high",
+        "source": {
+          "publisher": "CME Group",
+          "url": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html"
+        }
+      },
+      {
+        "id": "delta-oil-brent-91",
         "thread_id": "thread-iran-hormuz-crisis",
-        "change_type": "new",
-        "title": "US-Iran conflict is now moving markets directly",
-        "previous_state": "Not previously tracked in this edition.",
-        "current_state": "The US has struck Iran for nine straight nights, Brent is up roughly 20% this month to $89.22, and mediators are floating a 10-day ceasefire the White House has not accepted.",
-        "why_it_matters": "Oil-driven inflation risk is now colliding directly with Fed week.",
+        "change_type": "worsened",
+        "title": "Brent tops $91 as a new ceasefire proposal emerges",
+        "previous_state": "Brent was at $89.22 Monday, up about 20% this month.",
+        "current_state": "Brent rose another 2.11% to $91.10 Tuesday, even as Qatar, Egypt, and Pakistan proposed a 10-day ceasefire.",
+        "why_it_matters": "The market isn't yet pricing in the ceasefire proposal succeeding.",
         "confidence": "high",
         "source": {
           "publisher": "CNBC",
-          "url": "https://www.cnbc.com/2026/07/20/oil-prices-today-brent-wti-crude-us-iran-centcom-hormuz.html"
-        }
-      },
-      {
-        "id": "delta-marlins-skid",
-        "thread_id": "thread-marlins-wildcard",
-        "change_type": "worsened",
-        "title": "Marlins' skid extends into Houston",
-        "previous_state": "Swept three straight in Milwaukee coming out of the All-Star break.",
-        "current_state": "Lost the Astros opener 7-4 Monday; All-Star Max Meyer is now on the injured list with a neck strain.",
-        "why_it_matters": "The wild card cushion built in June is essentially spent.",
-        "confidence": "medium",
-        "source": {
-          "publisher": "ESPN",
-          "url": "https://www.espn.com/mlb/game/_/gameId/401816194/marlins-astros"
-        }
-      },
-      {
-        "id": "delta-dolphins-camp-live",
-        "thread_id": "thread-dolphins-hafley-rebuild",
-        "change_type": "advanced",
-        "title": "Dolphins training camp is officially open",
-        "previous_state": "Camp schedule announced; rookies expected to report this week.",
-        "current_state": "Rookies reported to Baptist Health this morning; veterans follow July 28.",
-        "why_it_matters": "The rebuild moves from plan to practice film.",
-        "confidence": "high",
-        "source": {
-          "publisher": "MiamiDolphins.com",
-          "url": "https://www.miamidolphins.com/news/dolphins-announce-schedule-for-2026-training-camp-presented-by-baptist-health"
-        }
-      },
-      {
-        "id": "delta-miami-restaurants-open",
-        "thread_id": "thread-miami-summer-openings",
-        "change_type": "advanced",
-        "title": "The summer restaurant wave starts landing",
-        "previous_state": "Nine anticipated openings named, none yet confirmed open.",
-        "current_state": "China Grill (at Bal Harbour, not South Beach as first reported), Suite Habana, and Stand are now open; La Sponda, Manoli, and PopUp Bagels remain ahead.",
-        "why_it_matters": "Worth booking before the good tables fill up.",
-        "confidence": "medium",
-        "source": {
-          "publisher": "Miami New Times",
-          "url": "https://www.miaminewtimes.com/food-drink/most-anticipated-miami-restaurants-opening-summer-2026-40548512/"
+          "url": "https://www.cnbc.com/2026/07/21/us-iran-war-trump-hormuz-houthis.html"
         }
       }
     ],
     "themes": [
       {
-        "id": "theme-iran-oil-shock",
+        "id": "theme-iran-hormuz-standoff",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "The war repricing the Fed",
-        "importance": 0.95,
-        "thesis": "A month-old conflict just became the biggest variable in Fed week.",
-        "synthesis": "The US has struck Iran for nine consecutive nights after the deaths of three American service members, and Iran has retaliated against tankers in the Strait of Hormuz - the Houthis followed Monday by declaring their own blockade against Saudi Arabia. Brent is up roughly 20% since June to $89.22, WTI to $83.23. Mediators are floating a 10-day ceasefire; the White House has not committed to one.",
-        "new_today": "Trump vowed Iran would pay for the deaths of three service members; oil extended its climb and dragged the S&P down with it Monday.",
-        "why_it_matters": "Energy costs feed straight into the inflation print the Fed is watching eight days out - which is likely why hike odds just collapsed rather than rose.",
+        "title": "Ten-day ceasefire, or ten more days of strikes",
+        "importance": 0.93,
+        "thesis": "Mediators want a pause; Washington is preparing for the opposite.",
+        "synthesis": "Qatar, Egypt, and Pakistan have proposed a 10-day ceasefire meant to revive last month's collapsed interim deal and reopen the Strait of Hormuz, but the U.S. carried out fresh strikes Monday night as the Houthis threatened their own blockade of Saudi Arabia. Iran now describes itself as in full-scale war with the U.S., and the Pentagon has moved fighter jets and refueling aircraft into the region - preparation, officials say, for the talks to fail. Defense Secretary Hegseth put the war's cost at $37.5 billion as of Tuesday.",
+        "new_today": "The 10-day ceasefire proposal is new; so is the $37.5B cost estimate and Iran's full-scale war framing.",
+        "why_it_matters": "Every day this runs past the FOMC meeting is another day oil is doing the Fed's job for it - just not in a way anyone would choose.",
         "thread_id": "thread-iran-hormuz-crisis",
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
             "publisher": "CNBC",
-            "headline": "Oil prices rise after Trump says Iran will pay for killing U.S. service members",
-            "url": "https://www.cnbc.com/2026/07/20/oil-prices-today-brent-wti-crude-us-iran-centcom-hormuz.html"
+            "headline": "U.S. strikes Iran and Houthis threaten Saudi Arabia shipping as mediators push 10-day ceasefire",
+            "url": "https://www.cnbc.com/2026/07/21/us-iran-war-trump-hormuz-houthis.html"
           },
           {
             "role": "analysis",
-            "publisher": "CNN",
-            "headline": "US completes more strikes against Iran after Trump warning to Tehran",
-            "url": "https://www.cnn.com/2026/07/20/world/live-news/iran-war-trump"
+            "publisher": "Axios",
+            "headline": "Iran mediators push new ceasefire as Trump eyes all-out war",
+            "url": "https://www.axios.com/2026/07/21/iran-war-ceasefire-proposal-trump-troops"
           },
           {
             "role": "background",
@@ -175,30 +175,30 @@
         ]
       },
       {
-        "id": "theme-fed-week",
+        "id": "theme-fed-week-countdown",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Hike odds collapse to 13%",
-        "importance": 0.93,
-        "thesis": "The coin-flip hike Alex was tracking last week is now a rounding error.",
-        "synthesis": "CME FedWatch put a July hike at 46.5% eight days ago; as of Monday it is 13.3%, with an 86.7% probability the Fed holds at 3.50-3.75%. Inflation itself has not cooled - CPI is still 4.2%, PCE 4.1% - so the repricing looks driven by the Iran-oil shock and the accompanying equity wobble rather than better data. The 10Y ticked up anyway, to 4.59%, as oil pushed inflation expectations higher even while hike bets fell.",
-        "new_today": "Hike odds fell from a coin flip to a long shot in a single week - the sharpest repricing of this cycle.",
-        "why_it_matters": "This is the input that reprices CRE debt costs and cap rates for the second half of the year, and it just moved further and faster than the inflation data alone would explain.",
+        "title": "Stocks rally, hike odds rise - both at once",
+        "importance": 0.9,
+        "thesis": "The market did two contradictory things in the same session.",
+        "synthesis": "The S&P 500 and Nasdaq both snapped three-day losing streaks Tuesday, up 0.89% and 1.29% on a chip-led earnings rally led by Micron. At the same time, CME FedWatch odds of a July 29 hike ticked up to 16.6% (from 13.3% Monday) as Brent crude pushed past $91. June's CPI print, released July 14, actually showed headline inflation cooling to 3.5% y/y (core 2.6%) - better than expected - which is why the Fed's caution now reads as almost entirely about oil and geopolitics, not the underlying data.",
+        "new_today": "Stocks rallied and hike odds rose in the same session - a genuine divergence, not noise.",
+        "why_it_matters": "This is the actual input to CRE debt costs and cap rates for the back half of the year: not whether inflation is cooling, which it is, but whether oil forces the Fed's hand anyway.",
         "thread_id": "thread-fed-rate-path",
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "The Motley Fool",
-            "headline": "Will the Fed Cut Rates in July 2026? Here's What the Markets Say",
-            "url": "https://www.fool.com/money/banks/articles/will-the-fed-cut-rates-in-july-2026-heres-what-the-markets-say/"
+            "publisher": "TheStreet",
+            "headline": "Stock Market Today (July 21, 2026): Nasdaq, S&P 500 climbs as earnings lift market, Middle East tensions loom",
+            "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-21-2026"
           },
           {
             "role": "analysis",
-            "publisher": "CNBC",
-            "headline": "S&P 500 closes slightly lower on Monday, weighed down by rising oil prices",
-            "url": "https://www.cnbc.com/2026/07/19/stock-market-today-live-updates.html"
+            "publisher": "U.S. Bureau of Labor Statistics",
+            "headline": "Consumer Price Index Summary - June 2026",
+            "url": "https://www.bls.gov/news.release/cpi.nr0.htm"
           },
           {
             "role": "background",
@@ -209,222 +209,216 @@
         ]
       },
       {
-        "id": "theme-marlins-slide",
+        "id": "theme-marlins-skid-eight",
         "affinity": "morning",
         "topic": "sports",
         "topic_label": "Miami Sports",
-        "title": "The skid keeps going in Houston",
-        "importance": 0.8,
-        "thesis": "The cushion built in June is gone, and Houston is not offering a reset.",
-        "synthesis": "Miami lost the series opener to the Astros 7-4 Monday, extending a slide that started before the All-Star break - some accounts put it at six straight games and counting. All-Star right-hander Max Meyer is out with a neck strain, and shortstop Otto Lopez has missed back-to-back games. The record has slipped toward .500 territory in a race the Marlins were leading three weeks ago.",
-        "new_today": "Monday's 7-4 loss extended the skid, with Meyer now on the injured list.",
-        "why_it_matters": "This was supposed to be the summer of the first real Marlins playoff race in years; two more losses in Houston and it stops being one.",
+        "title": "Eight straight, and it's not just bad luck anymore",
+        "importance": 0.78,
+        "thesis": "This is now the longest losing streak in two years, not a rough week.",
+        "synthesis": "Miami fell 5-8 to Houston again Tuesday, its eighth consecutive loss - the franchise's longest skid since April 2024. Max Meyer, the All-Star right-hander, landed on the 15-day IL with a neck strain; it's the fifth straight season he's made an IL trip. The streak has erased essentially all of the cushion built during a franchise-record 20-6 June, and it started before the All-Star break even ended.",
+        "new_today": "The streak extended to eight Tuesday night; Meyer's IL history is now a recognized pattern, not a one-off.",
+        "why_it_matters": "The wild-card math is unforgiving in a division this tight - eight losses in three weeks is the difference between a real October push and a September fade.",
         "thread_id": "thread-marlins-wildcard",
-        "confidence": "medium",
+        "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "ESPN",
-            "headline": "Marlins vs. Astros box score, July 20 2026",
-            "url": "https://www.espn.com/mlb/game/_/gameId/401816194/marlins-astros"
+            "publisher": "Yahoo Sports",
+            "headline": "Losing Streak Hits Seven as Astros Take Care of Marlins Monday",
+            "url": "https://sports.yahoo.com/articles/losing-streak-hits-seven-astros-035405064.html"
           },
           {
             "role": "analysis",
-            "publisher": "Bleacher Nation",
-            "headline": "Astros vs. Marlins: Injury Report, Updates and Probable Starters - July 20",
-            "url": "https://www.bleachernation.com/stats-and-news/2026/07/20/astros-vs-marlins-injury-report-updates-probable-starters-july-20/"
+            "publisher": "Sports Illustrated / Fish On First",
+            "headline": "Marlins' Losing Streak Reaches Seven With Loss to Astros",
+            "url": "https://www.si.com/mlb/marlins/onsi/marlins-losing-streak-reaches-seven-with-loss-astros"
           },
           {
-            "role": "analysis",
-            "publisher": "Sports Illustrated",
-            "headline": "The Miami Marlins Current Losing Streak Comes at an Alarming Time",
-            "url": "https://www.si.com/mlb/marlins/onsi/the-miami-marlins-current-losing-streak-comes-at-alarming-time"
+            "role": "primary_reporting",
+            "publisher": "Yahoo Sports",
+            "headline": "Miami Marlins 5 - Houston Astros 8: Final score, results, recap, box score, stats",
+            "url": "https://sports.yahoo.com/mlb/miami-marlins-houston-astros-460720118/"
           }
         ]
       },
       {
-        "id": "theme-dolphins-camp-opens",
+        "id": "theme-dolphins-brooks-extension",
         "affinity": "morning",
         "topic": "sports",
         "topic_label": "Miami Sports",
-        "title": "Hafley's first camp is real now",
-        "importance": 0.82,
-        "thesis": "The patience-year talk stops being theoretical the moment pads go on.",
-        "synthesis": "Rookies reported to the Baptist Health Training Complex this morning; veterans follow July 28. The first public practice is Aug 2, with a joint session against the Giants on Aug 20 and one open practice at Hard Rock Stadium on Aug 8 - all free. It is the sixth straight year Baptist Health has hosted camp.",
-        "new_today": "Camp officially opened today with rookies reporting.",
-        "why_it_matters": "This is the start of the actual evidence for or against a Hafley rebuild that has so far only existed on paper.",
+        "title": "The rebuild just got its third anchor",
+        "importance": 0.75,
+        "thesis": "A patience-year roster doesn't lock up a linebacker through 2029 unless it means it.",
+        "synthesis": "Miami signed Jordyn Brooks to a three-year, $51.3 million extension ($35M guaranteed) Tuesday, keeping him through 2029. GM Jon-Eric Sullivan and coach Jeff Hafley identified Brooks early as one of the rebuild's pillars - he's now the third such player extended this offseason, joining running back De'Von Achane and center Aaron Brewer.",
+        "new_today": "The Brooks extension was announced Tuesday, the first hard financial commitment of camp week.",
+        "why_it_matters": "This is the tell for how serious the Hafley regime is about its timeline - you don't guarantee $35M to a linebacker in a true tank year.",
         "thread_id": "thread-dolphins-hafley-rebuild",
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "MiamiDolphins.com",
-            "headline": "Dolphins announce schedule for 2026 Training Camp presented by Baptist Health",
-            "url": "https://www.miamidolphins.com/news/dolphins-announce-schedule-for-2026-training-camp-presented-by-baptist-health"
+            "publisher": "Washington Post / AP",
+            "headline": "Linebacker Jordyn Brooks agrees to 3-year extension with Dolphins, AP source says",
+            "url": "https://www.washingtonpost.com/sports/nfl/2026/07/21/miami-dolphins-jordyn-brooks-contract/2440f4a2-8527-11f1-9cec-0fb26676f07e_story.html"
+          },
+          {
+            "role": "analysis",
+            "publisher": "NFL.com",
+            "headline": "Report: Dolphins LB Jordyn Brooks agrees to three-year, $51.3M extension",
+            "url": "https://www.nfl.com/news/dolphins-lb-jordyn-brooks-three-year-51-million-extension"
           },
           {
             "role": "background",
-            "publisher": "DolphinsTalk",
-            "headline": "Dolphins Reveal Public Training Camp Schedule in Full",
-            "url": "https://dolphinstalk.com/2026/07/dolphins-reveal-public-training-camp-schedule-in-full/"
+            "publisher": "The Phinsider",
+            "headline": "Jordyn Brooks signs multi-year contract extension with Miami Dolphins ahead of training camp",
+            "url": "https://www.thephinsider.com/miami-dolphins-news/121053/miami-dolphins-jordyn-brooks-contract-extension-salary-cap-2026-training-camp-details"
           }
         ]
       },
       {
-        "id": "theme-franchise-clocks",
-        "affinity": "evening",
-        "topic": "sports",
-        "topic_label": "Miami Sports",
-        "title": "Three clocks, one summer",
-        "importance": 0.68,
-        "thesis": "Miami's title-track teams are filling in the roster math while the patience-year team just starts practicing.",
-        "synthesis": "The Heat's post-Giannis roster is ten players deep with $20.5M under the hard cap for five spots left to fill; sportsbooks moved their title odds from 30-1 to 18-1. The Panthers wrapped development camp in Fort Lauderdale, locked up a forward on an eight-year extension, and open the 2026-27 season on the road against Cup champion Carolina. Neither is urgent reading tonight - both are worth knowing before the season starts.",
-        "new_today": "The Panthers released their 2026-27 schedule; the Heat's cap situation is now public.",
-        "why_it_matters": "Knowing the Heat and Panthers are both win-now while the Dolphins are still finding their roster tells you how differently to watch each of your teams this year.",
-        "thread_id": "thread-heat-giannis-era",
-        "confidence": "medium",
-        "sources": [
-          {
-            "role": "analysis",
-            "publisher": "Athlon Sports",
-            "headline": "Heat Make Roster Move Eight Days After Giannis Antetokounmpo Trade",
-            "url": "https://athlonsports.com/nba/miami-heat/heat-make-roster-move-eight-days-after-giannis-antetokounmpo-trade"
-          },
-          {
-            "role": "primary_reporting",
-            "publisher": "NHL.com",
-            "headline": "Florida Panthers Announce 2026-27 Regular Season Schedule",
-            "url": "https://www.nhl.com/panthers/news/florida-panthers-announce-2026-27-regular-season-schedule"
-          }
-        ]
-      },
-      {
-        "id": "theme-summer-table",
+        "id": "theme-freedom-park-civic-center",
         "affinity": "evening",
         "topic": "miami",
         "topic_label": "Miami Life & Culture",
-        "title": "The summer table, now open",
-        "importance": 0.78,
-        "thesis": "The anticipated list from three days ago is starting to become an actual reservation list.",
-        "synthesis": "China Grill is back - not in South Beach as first reported, but at Bal Harbour Shops, with the old lobster pancakes and lamb spare ribs alongside new dishes. Suite Habana opened a new South Beach location, Stand (from the Shingo team) is running breakfast and lunch on Miracle Mile with an izakaya dinner service coming this fall, and a Toronto hospitality team took over the old Planta Queen space in Coconut Grove. La Sponda, Manoli, and PopUp Bagels are still ahead this summer.",
-        "new_today": "Several of the anticipated openings are now confirmed open, including China Grill's actual location.",
-        "why_it_matters": "The eating map keeps redrawing itself while the city's attention was on the World Cup - worth catching before these tables get hard to book.",
+        "title": "An eight-story bet on a $1 billion neighborhood",
+        "importance": 0.62,
+        "thesis": "The stadium got the headlines; the civic center next door is the more interesting government story.",
+        "synthesis": "Miami topped off an eight-story, 257,000-square-foot Civic Center at Miami Freedom Park on July 10, days after securing a $193 million construction permit. The building - developed by Adler Development, built by Moss Construction - is part of the 130-acre, $1 billion Freedom Park project anchored by Inter Miami's stadium, which also includes a $20 million pedestrian bridge from the Metrorail station. Completion is targeted for spring 2028.",
+        "new_today": "First look at the topped-off structure and the project's full scope.",
+        "why_it_matters": "A real, financed, under-construction civic asset next to a private stadium deal - worth tracking as a model for how the city pairs public buildings with private development.",
+        "thread_id": "thread-miami-freedom-park-civic",
+        "confidence": "medium",
+        "sources": [
+          {
+            "role": "primary_reporting",
+            "publisher": "The Real Deal",
+            "headline": "Miami secures $193M permit to build civic center at Miami Freedom Park",
+            "url": "https://therealdeal.com/miami/2026/07/16/miami-civic-center-construction-starts-at-miami-freedom-park/"
+          }
+        ]
+      },
+      {
+        "id": "theme-miami-restaurant-wave-continues",
+        "affinity": "evening",
+        "topic": "miami",
+        "topic_label": "Miami Life & Culture",
+        "title": "The summer list is almost fully checked off",
+        "importance": 0.65,
+        "thesis": "The anticipated list from three weeks ago is nearly exhausted - which means it's time to look at fall's.",
+        "synthesis": "Manoli finally opened in Coconut Grove this week, alongside Crisppi's, Redhead Burger (Doral), Star Burger, and Flight West in South Miami. That leaves La Sponda and PopUp Bagels as the only holdovers from the original summer list still pending. Fall's list is already forming: Genghis Cohen, Royale Pizza Napoletana, Miami Slice, and Levain Bakery's first Miami location, opening in Coconut Grove.",
+        "new_today": "Manoli's opening closes out most of the original summer list; the fall list is now public.",
+        "why_it_matters": "Worth booking the summer stragglers before attention - and reservations - shift to the fall names.",
         "thread_id": "thread-miami-summer-openings",
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
             "publisher": "Miami New Times",
-            "headline": "9 most anticipated Miami restaurants opening summer 2026",
-            "url": "https://www.miaminewtimes.com/food-drink/most-anticipated-miami-restaurants-opening-summer-2026-40548512/"
+            "headline": "New Miami restaurant openings and closings this week",
+            "url": "https://www.miaminewtimes.com/food-drink/new-miami-restaurant-openings-and-closings-this-week-40569137/"
           },
           {
-            "role": "local_perspective",
-            "publisher": "AOL / local roundup",
-            "headline": "New restaurants are opening across Miami. Here are some of the latest",
-            "url": "https://www.aol.com/articles/restaurants-opening-across-miami-latest-083000000.html"
+            "role": "analysis",
+            "publisher": "Miami New Times",
+            "headline": "The 6 most anticipated Miami restaurant openings this fall",
+            "url": "https://www.miaminewtimes.com/food-drink/most-anticipated-miami-restaurant-openings-this-fall-40567505/"
           }
         ]
       },
       {
-        "id": "theme-stoa-returns",
+        "id": "theme-stoic-rest-ethic",
         "affinity": "evening",
         "topic": "living",
         "topic_label": "Art of Living",
-        "title": "Control what's actually yours",
+        "title": "Rest is not the wellness problem it's marketed as",
         "importance": 0.6,
-        "thesis": "The oldest Stoic drill is also the most useful one for a week this loud.",
-        "synthesis": "New academic writing on Stoicism keeps circling back to the same mechanism: separating what you can control from what you cannot is not a mood, it is a practiced skill. It is a useful lens for a week where a war, a Fed reversal, and a losing streak all showed up within 48 hours, none of which change what is actually in front of you today.",
-        "new_today": "Nothing urgent - this is standing practice, not news, which is the point.",
-        "why_it_matters": "Your operating philosophy, applied to an unusually loud news week instead of an abstract one.",
+        "thesis": "The Stoics didn't treat rest as indulgence - they treated it as maintenance.",
+        "synthesis": "A cluster of recent Stoic writing converges on the same corrective: burnout isn't fixed by meditation apps or boundary-setting scripts, it's a signal that effort is going somewhere that doesn't compound. The Stoic frame treats deliberate rest, reflection, and reading as part of the discipline itself, not a break from it - what one recent piece called a resting ethic rather than a reward earned by output.",
+        "new_today": "Nothing urgent - this is standing practice, offered on a week that could use it.",
+        "why_it_matters": "A useful correction for anyone measuring a day's worth by how much of it got spent.",
         "thread_id": null,
         "confidence": "medium",
         "sources": [
           {
             "role": "analysis",
-            "publisher": "Asploro Open Access Publications",
-            "headline": "Applying Philosophy of Stoicism for Psychological Control in Recent Complex Society",
-            "url": "https://asploro.com/jhcr/applying-philosophy-of-stoicism-for-psychological-control-in-recent-complex-society/"
+            "publisher": "Stoic Coffee",
+            "headline": "Finding Your Pace: Stoic Advice for Dealing with Burnout",
+            "url": "https://stoic.coffee/blog/368-finding-your-pace-stoic-advice-for-dealing-with-burnout/"
           },
           {
             "role": "background",
-            "publisher": "Modern Stoicism",
-            "headline": "Articles",
-            "url": "https://modernstoicism.com/articles/"
+            "publisher": "The Stoic Manual",
+            "headline": "How to Prevent & Overcome Burnout - by Stoic Philosophy",
+            "url": "https://www.thestoicmanual.com/p/how-to-prevent-and-overcome-burnout"
           }
         ]
       },
       {
-        "id": "theme-deep-sea-noticing",
+        "id": "theme-living-plastic-breakthrough",
         "affinity": "evening",
         "topic": "living",
         "topic_label": "Art of Living",
-        "title": "What 31 new species say about noticing",
-        "importance": 0.55,
-        "thesis": "The most interesting discoveries this month are happening somewhere no one is watching.",
-        "synthesis": "A Schmidt Ocean Institute expedition spent two weeks off Brazil and came back with 31 previously unknown deep-sea species, found in the midwater zone between sunlit surface and seafloor. Separately, researchers expanded the Global Ocean Gene Catalog by more than 50% - over 500 million newly catalogued genes - and found evolution runs markedly faster in the deep ocean than near the surface. NOAA begins a 28-day expedition to the Cook Islands seabed this week.",
-        "new_today": "The gene-catalog and species findings both published within the past two weeks.",
-        "why_it_matters": "A small, deliberate reminder that most of what is actually happening in the world is not on anyone's feed - the literal version of the noticing habit you already practice.",
+        "title": "Plastic that eats itself in six days",
+        "importance": 0.58,
+        "thesis": "The most useful materials science this month solves a problem by building in its own ending.",
+        "synthesis": "Researchers at the Chinese University of Hong Kong embedded dormant Bacillus subtilis spores into a common 3D-printing polymer. Left alone, the plastic behaves normally; heated, the spores wake up and secrete two cooperating enzymes - one that chops the polymer into pieces, one that chews those pieces into base molecules - breaking the material down completely in six days with no microplastic residue.",
+        "new_today": "Published mid-July; this is the first cycle of coverage.",
+        "why_it_matters": "A small, concrete example of solving a waste problem by design rather than by better recycling - worth noticing precisely because it isn't trying to be a headline.",
         "thread_id": null,
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Weather.com",
-            "headline": "Scientists discovered 31 new deep-sea species off Brazil",
-            "url": "https://weather.com/2026/07/14/science/nature/scientists-discovered-31-new-deep-sea-species-off-brazil-in-just-two-weeks"
+            "publisher": "ScienceDaily",
+            "headline": "New living plastic self-destructs in just 6 days without leaving microplastics",
+            "url": "https://www.sciencedaily.com/releases/2026/07/260715083552.htm"
           },
           {
             "role": "analysis",
-            "publisher": "ScienceDaily",
-            "headline": "Deep-sea life has a secret food source scientists never expected",
-            "url": "https://www.sciencedaily.com/releases/2026/07/260711010127.htm"
-          },
-          {
-            "role": "background",
-            "publisher": "NOAA Ocean Exploration",
-            "headline": "Ocean Exploration in the Field: 2026",
-            "url": "https://oceanexplorer.noaa.gov/expedition-2026-expeditions/"
+            "publisher": "New Atlas",
+            "headline": "Bacteria-boosted living plastic breaks down on command",
+            "url": "https://newatlas.com/materials/living-plastic-breaks-down-on-command/"
           }
         ]
       }
     ],
     "rabbit_hole": {
-      "id": "rh-2026-07-21",
-      "title": "The 2026 Iran War",
-      "creator": "Britannica editors",
-      "format": "long-form explainer",
+      "id": "rh-2026-07-22",
+      "title": "U.S. Real Estate Market Outlook 2026: Capital Markets",
+      "creator": "CBRE Research",
+      "format": "research report",
       "minutes": 25,
-      "why": "Markets just repriced the Fed around this conflict without most coverage explaining how it got here - the strikes, the Strait of Hormuz, and the collapsed June ceasefire in one sitting. Twenty-five minutes now will make every market story this week easier to read.",
-      "url": "https://www.britannica.com/event/2026-Iran-war",
+      "why": "Ties together everything else in today's edition - the oil shock, the Fed's caution, and the actual cap-rate mechanics - into the one lens that matters most for your own work. Twenty-five minutes here is worth more than another day of headline-chasing on the Iran story.",
+      "url": "https://www.cbre.com/insights/books/us-real-estate-market-outlook-2026/capital-markets",
       "related_interest": "markets"
     },
     "beautiful_thing": {
-      "id": "bt-2026-07-21",
-      "title": "1111 Lincoln Road",
-      "creator": "Herzog and de Meuron",
-      "era": "2010",
-      "body": "A seven-level parking garage in Miami Beach that refuses to look like one: raw concrete floors of varying height, no exterior walls, and enough structural drama that it now hosts weddings, fashion shows, and a ground-floor restaurant instead of just cars. Herzog and de Meuron - the Swiss firm behind Tate Modern and the Bird's Nest stadium - treated a utilitarian building type as a chance to make public sculpture you can drive through. It remains one of the only parking structures ever discussed seriously as architecture.",
-      "url": "https://en.wikipedia.org/wiki/1111_Lincoln_Road",
+      "id": "bt-2026-07-22",
+      "title": "Quipu Gut",
+      "creator": "Cecilia Vicuna",
+      "era": "2017",
+      "body": "A 30-foot column of dyed red, unspun wool - fifty strands, knotted rhythmically - hanging from the double-height ceiling of PAMM's main gallery. Vicuna, a Chilean poet and artist born in Santiago in 1948, built the piece around the quipu, the knotted-cord system Andean societies used to record information for centuries before European contact. It was first shown at documenta 14 in Kassel, Germany, alongside a video of Vicuna and her crew performing the ritual steps of the installation, chanting as they worked. It closes at PAMM on August 9.",
+      "url": "https://www.pamm.org/en/exhibition/cecilia-vicuna-quipu-gut/",
       "image": null,
       "alt": null
     },
     "noticing_prompt": {
-      "id": "np-2026-07-21",
-      "text": "Notice the exact moment the light changes color before today's afternoon storm arrives - it happens fast, and almost nobody watches it happen on purpose."
+      "id": "np-2026-07-22",
+      "text": "Count how many times today you say yes to something out of habit before you've actually decided - the gap between the two is usually smaller than it feels."
     },
     "evening_unwind": {
-      "id": "eu-2026-07-21",
+      "id": "eu-2026-07-22",
       "evening_quote": {
-        "text": "If you seek tranquility, do less.",
-        "attribution": "Marcus Aurelius",
-        "source": "Meditations, 4.24"
+        "text": "Men are disturbed not by the things which happen, but by the opinions about the things.",
+        "attribution": "Epictetus",
+        "source": "Enchiridion, 1"
       },
-      "evening_prompt": "What today actually required your full effort, and what only felt like it did?"
+      "evening_prompt": "What did you carry today because you decided to, and what did you carry only because putting it down felt like it wasn't allowed?"
     },
     "reading_queue": [],
     "quote": {
-      "text": "It is not that we have a short time to live, but that we waste a lot of it.",
+      "text": "We suffer more often in imagination than in reality.",
       "attribution": "Seneca"
     }
   },
@@ -434,14 +428,19 @@
       "title": "US-Iran conflict and the Strait of Hormuz",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-07-21",
-      "updates": 1,
-      "current_state": "The US has struck Iran nine consecutive nights after three American service members were killed; Iran has targeted tankers in the Strait of Hormuz and the Houthis declared a blockade against Saudi Arabia Monday. Brent is up roughly 20% this month to $89.22. Mediators are floating a 10-day ceasefire; the White House has not committed.",
+      "last_updated": "2026-07-22",
+      "updates": 2,
+      "current_state": "Mediators (Qatar, Egypt, Pakistan) have proposed a 10-day ceasefire to revive last month's collapsed deal, but the U.S. struck again Monday night and the Houthis are threatening a Saudi blockade. Iran calls it a full-scale war; the Pentagon has moved fighter jets and refueling aircraft into the region. Brent is at $91.10, up 2.11% Tuesday. Hegseth estimates the war has cost $37.5B.",
       "timeline": [
         {
           "date": "2026-07-21",
           "summary": "First tracked: nine nights of US strikes, oil up about 20% this month, 10-day ceasefire being mediated.",
           "change_type": "new"
+        },
+        {
+          "date": "2026-07-22",
+          "summary": "10-day ceasefire formally proposed by Qatar/Egypt/Pakistan; US strikes continue, Iran calls it full-scale war, Brent tops $91, war cost estimated at $37.5B.",
+          "change_type": "advanced"
         }
       ]
     },
@@ -450,9 +449,9 @@
       "title": "Federal Reserve rate path",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-07-21",
-      "updates": 3,
-      "current_state": "FOMC meets July 28-29. Hike odds collapsed from 46.5% to 13.3% in a week (CME FedWatch, 7/20); 10Y at 4.59%. The repricing looks driven by the Iran-oil shock more than by the inflation data itself.",
+      "last_updated": "2026-07-22",
+      "updates": 4,
+      "current_state": "FOMC meets July 28-29. Hike odds ticked up to 16.6% (83.4% hold) Tuesday from 13.3% Monday, even as June CPI (released July 14) showed inflation cooling to 3.5% y/y, core 2.6%. 10Y at 4.60%. Stocks rallied Tuesday (S&P +0.89%, Nasdaq +1.29%) on chip earnings despite the oil-driven Fed caution.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -468,6 +467,11 @@
           "date": "2026-07-21",
           "summary": "Hike odds collapse to 13.3% (86.7% hold) amid Iran-driven oil shock; 10Y ticks up to 4.59%.",
           "change_type": "reversed"
+        },
+        {
+          "date": "2026-07-22",
+          "summary": "Hike odds tick back up to 16.6% as oil keeps climbing; stocks rally anyway on chip earnings; June CPI confirmed at 3.5%.",
+          "change_type": "advanced"
         }
       ]
     },
@@ -476,23 +480,28 @@
       "title": "Marlins wild card race",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-07-21",
-      "updates": 3,
-      "current_state": "Lost the Astros opener 7-4 Monday, extending a skid some outlets put at six straight games; Max Meyer (neck strain) is now on the IL. The June cushion is essentially gone.",
+      "last_updated": "2026-07-22",
+      "updates": 4,
+      "current_state": "Lost again to Houston Tuesday, 5-8, an eighth straight loss - the franchise's longest skid since April 2024. Max Meyer (neck strain) is on the IL for a fifth consecutive season. The June cushion is gone.",
       "timeline": [
         {
           "date": "2026-07-18",
-          "summary": "Hit the break 52-45, WC pole position.",
+          "summary": "Hit the break 52-45, holding WC pole position.",
           "change_type": "new"
         },
         {
           "date": "2026-07-19",
-          "summary": "Swept in Milwaukee.",
+          "summary": "Swept in Milwaukee; three straight losses out of the break.",
           "change_type": "worsened"
         },
         {
           "date": "2026-07-21",
-          "summary": "Lost Astros opener 7-4; Meyer placed on IL with neck strain.",
+          "summary": "Lost Astros opener; Meyer placed on IL with neck strain; streak at seven.",
+          "change_type": "worsened"
+        },
+        {
+          "date": "2026-07-22",
+          "summary": "Lost again 5-8; streak reaches eight straight, longest since April 2024.",
           "change_type": "worsened"
         }
       ]
@@ -502,9 +511,9 @@
       "title": "Heat: the Giannis era begins",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-07-21",
-      "updates": 2,
-      "current_state": "Ten players on standard contracts with $20.5M under the hard cap for five roster spots; championship odds moved from 30-1 to 18-1 since the trade. Panthers wrapped development camp and open 2026-27 on the road against Cup champion Carolina.",
+      "last_updated": "2026-07-22",
+      "updates": 3,
+      "current_state": "Ten players on standard contracts with $20.5M under the hard cap for five roster spots; Tim Hardaway Jr. signed a one-year, $6.5M deal. Championship odds moved from 30-1 to 18-1 since the Giannis trade.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -515,6 +524,11 @@
           "date": "2026-07-21",
           "summary": "Roster construction and cap details public; Panthers release 2026-27 schedule.",
           "change_type": "advanced"
+        },
+        {
+          "date": "2026-07-22",
+          "summary": "Tim Hardaway Jr. signs one-year, $6.5M deal, filling out the wing rotation.",
+          "change_type": "advanced"
         }
       ]
     },
@@ -523,9 +537,9 @@
       "title": "Dolphins rebuild under Hafley",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-07-21",
-      "updates": 3,
-      "current_state": "Rookies reported to Baptist Health this morning; veterans report July 28. First public practice Aug 2, joint practice with the Giants Aug 20.",
+      "last_updated": "2026-07-22",
+      "updates": 4,
+      "current_state": "Rookies reported Monday; veterans report July 28. Jordyn Brooks signed a three-year, $51.3M extension Tuesday, the rebuild's third pillar commitment after Achane and Brewer.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -541,6 +555,11 @@
           "date": "2026-07-21",
           "summary": "Rookies reported; camp officially underway.",
           "change_type": "advanced"
+        },
+        {
+          "date": "2026-07-22",
+          "summary": "Jordyn Brooks signs three-year, $51.3M extension through 2029.",
+          "change_type": "advanced"
         }
       ]
     },
@@ -549,9 +568,9 @@
       "title": "Miami summer restaurant wave",
       "topic": "miami",
       "status": "active",
-      "last_updated": "2026-07-21",
-      "updates": 2,
-      "current_state": "China Grill (Bal Harbour, not South Beach as first reported), Suite Habana, and Stand are now open. La Sponda, Manoli, and PopUp Bagels remain ahead this summer.",
+      "last_updated": "2026-07-22",
+      "updates": 3,
+      "current_state": "Manoli opened in Coconut Grove this week alongside Crisppi's, Redhead Burger, Star Burger, and Flight West. La Sponda and PopUp Bagels remain the only summer holdovers. Fall list now public: Genghis Cohen, Royale Pizza Napoletana, Miami Slice, Levain Bakery.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -562,6 +581,27 @@
           "date": "2026-07-21",
           "summary": "Several openings confirmed live, including China Grill's actual location.",
           "change_type": "advanced"
+        },
+        {
+          "date": "2026-07-22",
+          "summary": "Manoli opens; fall 2026 anticipated list published.",
+          "change_type": "advanced"
+        }
+      ]
+    },
+    {
+      "id": "thread-miami-freedom-park-civic",
+      "title": "Miami Freedom Park Civic Center",
+      "topic": "miami",
+      "status": "emerging",
+      "last_updated": "2026-07-22",
+      "updates": 1,
+      "current_state": "An eight-story, 257,000-sq-ft Civic Center topped off July 10 within the $1B, 130-acre Freedom Park development anchored by Inter Miami's stadium. $193M permit secured; completion targeted spring 2028.",
+      "timeline": [
+        {
+          "date": "2026-07-22",
+          "summary": "First tracked: civic center topped off, full project scope confirmed ($1B, 130 acres, spring 2028 completion).",
+          "change_type": "new"
         }
       ]
     },
@@ -569,7 +609,7 @@
       "id": "thread-wc-miami-2026",
       "title": "World Cup in Miami",
       "topic": "miami",
-      "status": "dormant",
+      "status": "resolved",
       "last_updated": "2026-07-19",
       "updates": 2,
       "current_state": "Concluded July 19 with the final; no further coverage expected.",
@@ -607,9 +647,9 @@
   ],
   "meta": {
     "content_freshness": {
-      "markets": "2026-07-20 close",
-      "news": "2026-07-21 morning",
-      "weather": "2026-07-21"
+      "markets": "2026-07-21 close",
+      "news": "2026-07-22 morning",
+      "weather": "2026-07-22"
     },
     "feedback_endpoint_mode": "github_contents",
     "minimum_client_schema_version": 1
