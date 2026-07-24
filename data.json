@@ -1,249 +1,274 @@
 {
   "schema_version": 2,
   "edition": {
-    "id": "2026-07-23",
-    "date": "2026-07-23",
+    "id": "2026-07-24",
+    "date": "2026-07-24",
     "type": "weekday",
-    "generated_at": "2026-07-23T09:30:00-04:00",
+    "generated_at": "2026-07-24T09:30:00-04:00",
     "timezone": "America/New_York",
     "title": "Personal OS",
     "front_page_letter": {
-      "greeting": "Good Thursday",
+      "greeting": "Good Friday",
       "body_paragraphs": [
-        "The ceasefire never happened. Mediators floated a 10-day pause; instead the U.S. kept striking, Brent closed Wednesday at $94.13 - the highest since early June - and Strait of Hormuz traffic has roughly halved since its July 7 peak. Markets noticed less than you'd expect: the S&P and Nasdaq gave back most of Tuesday's chip rally, the 10-year rose to 4.66%, and FOMC odds are genuinely unsettled across every source with five days left. Nobody actually knows what the Fed does next week - a more honest place to be than pretending otherwise.",
-        "Locally, the Marlins' skid reached nine - Alcantara's start ended like the last eight did, on a pair of eighth-inning homers - and they're off tonight before the Padres visit Friday. The Heat may have tipped their hand on a bigger story: their own channel briefly posted a 'LeBron James introductory press conference' link before pulling it, and ESPN now has Miami on his short list with Cleveland and Philadelphia. One team can't buy a win; the other might be about to rewrite its whole trajectory.",
-        "Beyond the feed: the Sagrada Familia was finished this summer, 144 years after it started, almost exactly a century after Gaudi died - proof some work runs on its own clock. This month's Stoic Gym issue is devoted to sacrifice: the unglamorous kind nobody sees, done because it's right, not because it's watched. Worth sitting with this week."
+        "Oil crossed $100 a barrel for the first time since May - Brent closed Thursday at $100.69, up about 7%, after Iran struck a Kuwaiti airbase and the Houthis hit two Saudi tankers in the Red Sea. Stocks took it directly: the S&P fell 1.21%, the Nasdaq 2.15% on top of a 14.5% Tesla drop and a 7% Alphabet slide after earnings, and the 10-year yield jumped to 4.70% - its highest since January 2025. FOMC hike odds for next week's meeting roughly doubled overnight, to about 35%. None of that was priced in a week ago; five days out, the Fed's job just got harder.",
+        "Locally, the Heat's accidental leak keeps looking less accidental - the press-conference page was real prep work, just published early - and Kalshi bettors now put Miami's odds of landing LeBron at 51%, up from 39%, though his agent says there's still no timetable. The Marlins get their first game back tonight after the nine-game skid, hosting the Padres at loanDepot Park with the wild-card cushion long gone.",
+        "Beyond the feed: an Aeon essay out this week argues the 'ancient world' most of us were taught is a fraction of the real one, if you're willing to look past Greece and Rome. And Miami Beach's Art Deco district is quietly marking its own centennial - a hundred years since the 1926 hurricane forced the rebuild that became the neighborhood's whole identity. Worth a slower read this weekend."
       ],
       "read_only_three": [
-        {"target_type": "theme", "target_id": "theme-iran-oil-standoff", "label": "Ceasefire stalls, Brent hits $94"},
-        {"target_type": "delta", "target_id": "delta-heat-lebron-signal", "label": "The Heat accidentally tease a LeBron pursuit"},
-        {"target_type": "beautiful_thing", "target_id": "bt-2026-07-23", "label": "A last chance to see Adnan's mural at The Bass"}
+        {"target_type": "theme", "target_id": "theme-iran-oil-100", "label": "Oil breaks $100 as the war widens"},
+        {"target_type": "delta", "target_id": "delta-heat-odds-51", "label": "Kalshi moves the Heat to 51% on LeBron"},
+        {"target_type": "rabbit_hole", "target_id": "rh-2026-07-24", "label": "A bigger, older 'ancient world' than you learned"}
       ]
     },
     "market_context": [
-      {"label": "S&P 500", "value": "7,498.48", "change": "-0.14%", "observed": "Wed close 7/22", "note": "gave back most of Tuesday's chip-earnings rally"},
-      {"label": "Nasdaq", "value": "25,691.72", "change": "-0.56%", "observed": "Wed close 7/22", "note": "cooled after Tuesday's Micron-led surge"},
-      {"label": "10Y Treasury", "value": "4.66%", "change": "+0.06", "observed": "Wed close 7/22", "note": "up on Iran-driven inflation risk"},
-      {"label": "FOMC", "value": "5 days", "change": "~16.6% hike odds (83.4% hold)", "observed": "CME FedWatch 7/21 - odds fluid across sources this week", "note": "Jul 28-29"}
+      {"label": "S&P 500", "value": "7,408.30", "change": "-1.21%", "observed": "Thu close 7/23", "note": "steepest drop in weeks as oil topped $100 and Tesla/Alphabet earnings disappointed"},
+      {"label": "Nasdaq", "value": "25,137.69", "change": "-2.15%", "observed": "Thu close 7/23", "note": "Tesla -14.5%, Alphabet -7% led the slide"},
+      {"label": "10Y Treasury", "value": "4.70%", "change": "+0.04", "observed": "Thu close 7/23", "note": "highest since January 2025"},
+      {"label": "FOMC", "value": "4 days", "change": "~35% hike odds (65% hold)", "observed": "CME FedWatch 7/23 - odds still moving fast, more than doubled from Wednesday's 16.6%", "note": "Jul 28-29"}
     ],
     "public_day_context": {
-      "date_label": "Thursday, July 23",
-      "weather": "High near 90, low 82; scattered afternoon-into-evening storms, typical late-July wet-season pattern",
-      "public_event": "Marlins off today after being swept by Houston; next up is a weekend series against the Padres starting Friday"
+      "date_label": "Friday, July 24",
+      "weather": "High near 89, feels like 105 with the heat index; 40% chance of afternoon storms - dangerous heat if you're outside for long",
+      "public_event": "Marlins host the Padres tonight at loanDepot Park, first pitch 7:10 PM; Miami Takeover festival opens across Miami Beach and Downtown"
     },
     "what_changed": [
       {
-        "id": "delta-marlins-streak-nine",
-        "thread_id": "thread-marlins-wildcard",
-        "change_type": "worsened",
-        "title": "Skid extends to nine as Astros complete the sweep",
-        "previous_state": "Entering Wednesday, Miami had lost eight straight, its longest skid since April 2024.",
-        "current_state": "Alcantara's start Wednesday ended in a 5-2 loss - Alvarez and Paredes hit back-to-back eighth-inning homers - completing Houston's three-game sweep and extending the streak to nine.",
-        "why_it_matters": "Nine straight is new territory for this roster this season; the wild-card cushion built in June is now a deficit.",
-        "confidence": "high",
-        "source": {"publisher": "Washington Post", "url": "https://www.washingtonpost.com/sports/mlb/2026/07/22/marlins-astros-score/7d79fcb8-8643-11f1-9cec-0fb26676f07e_story.html"}
-      },
-      {
-        "id": "delta-heat-lebron-signal",
-        "thread_id": "thread-heat-giannis-era",
-        "change_type": "new",
-        "title": "Heat accidentally tip their hand on a possible LeBron pursuit",
-        "previous_state": "No indication the Heat were in play for any further marquee addition beyond finishing out the post-Giannis roster.",
-        "current_state": "Miami's own team channel briefly posted a 'LeBron James introductory press conference' livestream link dated July 27 before deleting it; ESPN's Shams Charania reports Miami is one of three teams, with Cleveland and Philadelphia, that LeBron is considering.",
-        "why_it_matters": "If real, this reshapes a roster that's already hard-capped and nearly out of space - worth watching closely, but still unconfirmed.",
-        "confidence": "medium",
-        "source": {"publisher": "ESPN", "url": "https://www.espn.com/nba/story/_/id/49422103/heat-say-link-lebron-james-presser-posted-mistake"}
-      },
-      {
-        "id": "delta-iran-ceasefire-stalls",
+        "id": "delta-oil-breaks-100",
         "thread_id": "thread-iran-hormuz-crisis",
         "change_type": "worsened",
-        "title": "Ceasefire proposal stalls as oil hits a five-week high",
-        "previous_state": "As of Tuesday, mediators had floated a 10-day ceasefire, strikes had reached eleven consecutive nights, and Brent stood above $92.",
-        "current_state": "The ceasefire has not been adopted; Brent closed Wednesday at $94.13, the highest since June 8, while Strait of Hormuz transits fell to 25 ships from a July 7 peak of 49, and the Saudi-led coalition says it will respond with force to the Houthis' blockade threat.",
-        "why_it_matters": "The diplomatic and military tracks are diverging further, not converging - more nights of strikes looks like the base case, not fewer.",
+        "title": "Oil breaks $100 for the first time since May",
+        "previous_state": "As of Wednesday, Brent had closed at $94.13, a five-week high, with the ceasefire proposal stalled and Strait of Hormuz transits down to 25 ships.",
+        "current_state": "Brent settled at $100.69 Thursday, up about 7%, after Iran struck Kuwait's Al-Salem airbase and the Houthis hit two Saudi Arabian tankers in the Red Sea - the 13th consecutive night of US strikes on Iran.",
+        "why_it_matters": "This crossed from a contained strike campaign into a regional supply threat touching Kuwait and Saudi shipping directly - the scenario that breaks inflation forecasts.",
         "confidence": "high",
-        "source": {"publisher": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/7/9/strait-of-hormuz-what-has-happened-since-the-us-iran-mou-on-june-17"}
+        "source": {"publisher": "CNBC", "url": "https://www.cnbc.com/2026/07/23/oil-prices-today-wti-brent-trump-iran-hormuz.html"}
       },
       {
-        "id": "delta-equities-give-back-rally",
+        "id": "delta-fed-hike-odds-double",
         "thread_id": "thread-fed-rate-path",
-        "change_type": "reversed",
-        "title": "Tuesday's rally reverses as earnings loom",
-        "previous_state": "Tuesday's chip-earnings rally lifted the S&P 0.89% and the Nasdaq 1.29%.",
-        "current_state": "Wednesday gave most of that back - S&P -0.14% to 7,498.48, Nasdaq -0.56% to 25,691.72 - while the 10Y rose to 4.66% on Iran-driven inflation risk.",
-        "why_it_matters": "The market's rally-then-give-back pattern over the past two weeks suggests no one has real conviction yet on which risk - oil or rates - wins out.",
+        "change_type": "worsened",
+        "title": "Hike odds more than double overnight",
+        "previous_state": "CME FedWatch had hike odds at roughly 16.6% as of Wednesday, dispersed but stable across sources.",
+        "current_state": "Odds moved to roughly 35% by Thursday as oil-driven inflation risk collided with a heavy earnings week - more than double in a single session.",
+        "why_it_matters": "Five days from the meeting, the Fed now has to weigh a genuine oil shock against an economy that was cooling on its own terms.",
         "confidence": "medium",
-        "source": {"publisher": "The Motley Fool", "url": "https://www.fool.com/coverage/stock-market-today/2026/07/22/stock-market-today-july-22-nasdaq-slides-prior-to-tesla-and-alphabet-s-earnings-after-market-close/"}
+        "source": {"publisher": "The Motley Fool", "url": "https://www.fool.com/investing/2026/07/24/probability-july-fed-rate-hike-tripled-last-week/"}
+      },
+      {
+        "id": "delta-stocks-selloff-earnings",
+        "thread_id": "thread-fed-rate-path",
+        "change_type": "worsened",
+        "title": "Stocks drop hardest in weeks on oil plus earnings",
+        "previous_state": "Wednesday's session had already reversed Tuesday's chip-earnings rally (S&P -0.14%, Nasdaq -0.56%).",
+        "current_state": "Thursday's drop was sharper: S&P -1.21% to 7,408.30, Nasdaq -2.15% to 25,137.69, with Tesla down 14.5% on an earnings miss and Alphabet down 7% after raising 2026 capex guidance to $195-205 billion.",
+        "why_it_matters": "Oil, rates, and now AI-capex anxiety are all pulling the same direction at once - a harder mix to underwrite against than any one of them alone.",
+        "confidence": "high",
+        "source": {"publisher": "The Motley Fool", "url": "https://www.fool.com/coverage/stock-market-today/2026/07/23/stock-market-today-july-23-tesla-stock-crashes-on-earnings-miss-and-rising-ai-spending/"}
+      },
+      {
+        "id": "delta-heat-odds-51",
+        "thread_id": "thread-heat-giannis-era",
+        "change_type": "advanced",
+        "title": "Kalshi moves the Heat to 51% on LeBron",
+        "previous_state": "As of Wednesday, the leaked presser link was reported as a staffing mistake, with ESPN naming Miami one of three teams LeBron was considering.",
+        "current_state": "The Heat confirmed the presser page itself was real prep work - built in case of a signing - just published early; Kalshi bettors pushed Miami's odds to 51%, up from 39% before the leak, though agent Rich Paul says there's no timetable.",
+        "why_it_matters": "Betting markets are now pricing this as more likely than not, against a roster that's already hard-capped - the math someone has to make work just got more real.",
+        "confidence": "medium",
+        "source": {"publisher": "Yahoo Sports", "url": "https://sports.yahoo.com/nba/article/heat-confirm-the-lebron-james-introductory-press-conference-youtube-video-was-published-accidentally-after-latest-rumors-043327502.html"}
+      },
+      {
+        "id": "delta-marlins-padres-opener",
+        "thread_id": "thread-marlins-wildcard",
+        "change_type": "watch",
+        "title": "Marlins open the Padres series tonight",
+        "previous_state": "Miami was off Thursday after the nine-game skid, set to host the Padres starting Friday.",
+        "current_state": "Miami (52-51, 8.5 games back) hosts San Diego tonight at loanDepot Park, first pitch 7:10 PM, with German Marquez starting for the Padres - the first game since the skid-ending sweep loss.",
+        "why_it_matters": "The wild-card cushion is gone; tonight is the first real read on whether the off day changed anything.",
+        "confidence": "high",
+        "source": {"publisher": "Bleacher Nation", "url": "https://www.bleachernation.com/picks/2026/07/22/miami-marlins-vs-san-diego-padres-series-july-24-26-odds-starting-pitchers-predictions/"}
+      },
+      {
+        "id": "delta-cre-deal-volume-down",
+        "thread_id": "thread-cre-capital-markets-2026",
+        "change_type": "new",
+        "title": "CRE deal volume down 24% year over year",
+        "previous_state": "No prior tracking of 2026 CRE capital-markets volume in this edition's threads.",
+        "current_state": "CBRE's Q2 2026 capital markets update shows deal volume down 24% year over year, construction spending 2.7% below plan, and hiring slowing across the sector - guidance now favors disciplined underwriting over volume for the second half.",
+        "why_it_matters": "This is the environment behind the headline rates and oil numbers - the market was already getting more selective before this week's shock made financing costs less predictable too.",
+        "confidence": "medium",
+        "source": {"publisher": "CBRE", "url": "https://www.cbre.com/insights/books/us-real-estate-market-outlook-2026/capital-markets"}
       }
     ],
     "themes": [
       {
-        "id": "theme-iran-oil-standoff",
+        "id": "theme-iran-oil-100",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "The ceasefire that never was",
-        "importance": 0.95,
-        "thesis": "Eleven-plus nights of strikes became a stall, not a start, and oil is pricing it that way.",
-        "synthesis": "Brent crude closed Wednesday at $94.13, up 3.43% and the highest since June 8, as the Qatar-Egypt-Pakistan ceasefire proposal remains unadopted with no visible movement on the ground. Strait of Hormuz transits fell to 25 ships Wednesday from a peak of 49 on July 7, and the Houthis' threatened blockade of Saudi shipping has the Saudi-led coalition vowing a forceful response rather than de-escalation.",
-        "new_today": "Brent moved from roughly $92 to $94.13; Strait transits hit a five-week low; the ceasefire proposal remains stalled with no counter-offer on record.",
-        "why_it_matters": "Oil doing the Fed's job for it, five days before the FOMC meets, complicates any CRE underwriting that assumed inflation risk was fading.",
+        "title": "Oil breaks $100 as the war widens",
+        "importance": 0.97,
+        "thesis": "The conflict just crossed a line oil traders had been pricing as unlikely - a supply-threatening regional war, not a contained strike campaign.",
+        "synthesis": "Brent crude settled at $100.69 Thursday, up about 7% and its highest close since May, after Iranian forces struck Kuwait's Al-Salem airbase and Houthi militants hit two Saudi Arabian tankers in the Red Sea - the first confirmed Houthi tanker strikes since the blockade threat surfaced. It was the 13th consecutive night of US strikes on Iran; Trump told Axios he's 'considering a massive attack' and is 'close to making a decision.' The UN Secretary-General called the situation 'getting out of control,' and the US Senate failed to advance a resolution rebuking Trump over the war, though the House passed a measure to limit his war powers.",
+        "new_today": "Oil crossed $100 for the first time since May; Iran struck a Kuwaiti target for the first time; the Houthis carried out their first confirmed tanker strikes.",
+        "why_it_matters": "This is no longer a contained strike campaign against one country - it's now touching Kuwait and Saudi shipping directly, which is exactly the supply-shock scenario that breaks inflation forecasts and CRE underwriting models alike.",
         "thread_id": "thread-iran-hormuz-crisis",
         "confidence": "high",
         "sources": [
-          {"role": "primary_reporting", "publisher": "CNBC", "headline": "U.S. strikes Iran and Houthis threaten Saudi Arabia shipping as mediators push 10-day ceasefire", "url": "https://www.cnbc.com/2026/07/21/us-iran-war-trump-hormuz-houthis.html"},
-          {"role": "background", "publisher": "Al Jazeera", "headline": "Strait of Hormuz: What has happened since the US-Iran MOU on June 17", "url": "https://www.aljazeera.com/news/2026/7/9/strait-of-hormuz-what-has-happened-since-the-us-iran-mou-on-june-17"},
-          {"role": "background", "publisher": "Trading Economics", "headline": "Brent Crude Oil", "url": "https://tradingeconomics.com/commodity/brent-crude-oil"}
+          {"role": "primary_reporting", "publisher": "CNBC", "headline": "Brent crude crosses $100 after tankers reportedly struck off Saudi Arabia", "url": "https://www.cnbc.com/2026/07/23/oil-prices-today-wti-brent-trump-iran-hormuz.html"},
+          {"role": "analysis", "publisher": "CNN", "headline": "Oil tops $100 a barrel, Houthi attack in Red Sea marks new escalation", "url": "https://www.cnn.com/2026/07/23/world/live-news/iran-war-trump"},
+          {"role": "background", "publisher": "The Jerusalem Post", "headline": "Live Updates: Latest from Israel, Iran, and Middle East", "url": "http://www.jpost.com/middle-east/iran-news/2026-07-24/live-updates-903529"}
         ]
       },
       {
-        "id": "theme-fed-markets-pause",
+        "id": "theme-fed-odds-flip",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Markets give back the rally, five days from the Fed",
-        "importance": 0.88,
-        "thesis": "A quiet pullback after a loud rally is itself a data point about conviction.",
-        "synthesis": "Wednesday's session reversed most of Tuesday's chip-led gains - S&P down 0.14% to 7,498.48, Nasdaq down 0.56% to 25,691.72 - while the 10-year Treasury rose to 4.66% on Iran-driven inflation concern. FOMC hike-odds readings are genuinely dispersed across sources this week; treat any single figure as a snapshot, not a consensus. Underneath it, CBRE projects 2026 CRE investment volume up 16% to $562 billion with 55% of investors raising allocations, even as office CMBS delinquency sits near record highs.",
-        "new_today": "Wednesday's close reversed Tuesday's rally; the CBRE capital-markets outlook adds a data point on where institutional money is actually moving.",
-        "why_it_matters": "For CRE debt costs and cap rates, a market that can't decide between an oil shock and a rate cut is the harder environment to underwrite in - worse than either one settling.",
+        "title": "Hike odds double overnight as stocks take the hit",
+        "importance": 0.93,
+        "thesis": "Markets stopped treating the oil shock as background noise and started pricing it directly into the Fed decision.",
+        "synthesis": "The S&P 500 fell 1.21% to 7,408.30 and the Nasdaq dropped 2.15% to 25,137.69 Thursday, with Tesla down 14.5% on a profit and free-cash-flow miss despite a 25% delivery jump, and Alphabet down 7% after raising its 2026 capex guidance to $195-205 billion from $180-190 billion. The 10-year Treasury yield jumped to 4.70%, its highest since January 2025. CME FedWatch hike-odds readings moved from roughly 16.6% Wednesday to about 35% by Thursday - more than double in a single session.",
+        "new_today": "The 1%+ equity selloff, the 10-year's move to a post-January-2025 high, and hike odds more than doubling are all new since Wednesday's close.",
+        "why_it_matters": "Five days from the meeting, the Fed now has to weigh a genuine oil-driven inflation shock against an economy that was cooling on its own terms - a much harder call than it looked to be facing a week ago.",
         "thread_id": "thread-fed-rate-path",
-        "confidence": "medium",
-        "sources": [
-          {"role": "primary_reporting", "publisher": "The Motley Fool", "headline": "Stock market today: Nasdaq slides prior to Tesla and Alphabet's earnings", "url": "https://www.fool.com/coverage/stock-market-today/2026/07/22/stock-market-today-july-22-nasdaq-slides-prior-to-tesla-and-alphabet-s-earnings-after-market-close/"},
-          {"role": "analysis", "publisher": "CBRE", "headline": "Investors set to deploy more capital in 2026 as U.S. commercial real estate market stabilizes", "url": "https://www.cbre.com/press-releases/investors-set-to-deploy-more-capital-in-2026-as-us-commercial-real-estate-market-stabilizes"},
-          {"role": "background", "publisher": "CRE Direct", "headline": "REIT fortunes start turning around", "url": "https://crenews.com/2026/07/20/reit-fortunes-start-turning-around/"}
-        ]
-      },
-      {
-        "id": "theme-marlins-nine-straight",
-        "affinity": "morning",
-        "topic": "sports",
-        "topic_label": "Miami Sports",
-        "title": "Nine straight, and an off day to sit with it",
-        "importance": 0.8,
-        "thesis": "The sweep is complete; the question now is whether an off day helps or just delays the reckoning.",
-        "synthesis": "Houston completed a three-game sweep Wednesday when Alcantara's start ended in a 5-2 loss on back-to-back eighth-inning homers from Yordan Alvarez and Isaac Paredes - Miami's ninth consecutive loss, a new mark for the season. Max Meyer remains on the IL with a neck strain, now under evaluation by spine specialist Dr. Robert Watkins IV in Los Angeles. Miami is off Thursday before hosting the Padres for a weekend series starting Friday.",
-        "new_today": "The streak moved from eight to nine as the sweep was completed; Meyer's case has escalated to a specialist evaluation.",
-        "why_it_matters": "Nine straight erases the last of the June cushion; the Padres series is a real test of whether this roster still believes in itself.",
-        "thread_id": "thread-marlins-wildcard",
         "confidence": "high",
         "sources": [
-          {"role": "primary_reporting", "publisher": "ESPN", "headline": "Astros 5-2 Marlins (Jul 22, 2026) Final Score", "url": "https://www.espn.com/mlb/game/_/gameId/401816224/marlins-astros"},
-          {"role": "primary_reporting", "publisher": "Washington Post", "headline": "Alvarez and Paredes hit back-to-back homers in Astros' 5-2 win over Marlins", "url": "https://www.washingtonpost.com/sports/mlb/2026/07/22/marlins-astros-score/7d79fcb8-8643-11f1-9cec-0fb26676f07e_story.html"},
-          {"role": "background", "publisher": "ESPN", "headline": "Marlins place All-Star pitcher Max Meyer on injured list with neck strain", "url": "https://www.espn.com/mlb/story/_/id/49413224/marlins-place-all-star-pitcher-max-meyer-injured-list-neck-strain"}
+          {"role": "primary_reporting", "publisher": "The Motley Fool", "headline": "Stock Market Today, July 23: Tesla Stock Crashes on Earnings Miss and Rising AI Spending", "url": "https://www.fool.com/coverage/stock-market-today/2026/07/23/stock-market-today-july-23-tesla-stock-crashes-on-earnings-miss-and-rising-ai-spending/"},
+          {"role": "analysis", "publisher": "CNBC", "headline": "The 10-year Treasury yield could test 5% after its latest spike", "url": "https://www.cnbc.com/2026/07/23/the-10-year-treasury-yield-could-test-5percent-after-its-latest-spike.html"},
+          {"role": "background", "publisher": "The Motley Fool", "headline": "The Probability of a July Fed Rate Hike Has Tripled Over the Last Week", "url": "https://www.fool.com/investing/2026/07/24/probability-july-fed-rate-hike-tripled-last-week/"}
         ]
       },
       {
-        "id": "theme-heat-lebron-signal",
+        "id": "theme-cre-capital-markets-headwinds",
+        "affinity": "morning",
+        "topic": "markets",
+        "topic_label": "Markets & Macro",
+        "title": "CRE deal volume down 24%, and the Fed just got less predictable",
+        "importance": 0.75,
+        "thesis": "Deal volume was already thinning before this week's oil shock complicated the rate picture further.",
+        "synthesis": "CBRE's Q2 2026 capital markets update shows US commercial real estate deal volume down 24% year over year, with construction spending running 2.7% below plan and hiring slowing across the sector. The report frames the second half of 2026 as favoring disciplined underwriting and careful capitalization over volume - guidance issued before this week's oil-driven jump in the 10-year yield, which now makes that caution look prescient rather than conservative.",
+        "new_today": "The 24% deal-volume decline and the construction-spending shortfall are new data points from CBRE's Q2 update.",
+        "why_it_matters": "This is the environment Alex underwrites in day to day - a market getting more selective right as financing costs get less predictable, not more.",
+        "thread_id": "thread-cre-capital-markets-2026",
+        "confidence": "medium",
+        "sources": [
+          {"role": "primary_reporting", "publisher": "CBRE", "headline": "U.S. Real Estate Market Outlook 2026 - Capital Markets", "url": "https://www.cbre.com/insights/books/us-real-estate-market-outlook-2026/capital-markets"},
+          {"role": "analysis", "publisher": "CRE Daily", "headline": "Fed Signals Uncertainty in Inflation and CRE Rate Outlook", "url": "https://www.credaily.com/briefs/fed-signals-uncertainty-in-inflation-and-cre-rate-outlook/"},
+          {"role": "background", "publisher": "PR Newswire / BBG", "headline": "BBG Releases 2026 Mid-Year CRE Outlook: A Market Defined by Precision", "url": "https://www.prnewswire.com/news-releases/bbg-releases-2026-mid-year-cre-outlook-a-market-defined-by-precision-302819127.html"}
+        ]
+      },
+      {
+        "id": "theme-heat-lebron-odds",
         "affinity": "morning",
         "topic": "sports",
         "topic_label": "Miami Sports",
-        "title": "An accidental leak, and suddenly LeBron is a Miami story",
-        "importance": 0.75,
-        "thesis": "A press-conference link that shouldn't have gone live is now the offseason's biggest open question.",
-        "synthesis": "The Heat's own social team briefly posted, then deleted, a livestream link titled 'LeBron James Introductory Press Conference' dated July 27, calling it a staffing mistake. ESPN's Shams Charania reports Miami is one of three teams - alongside Cleveland and Philadelphia - that LeBron is genuinely considering. Miami is already hard-capped at the first apron after the Giannis trade, with a handful of open roster spots and little room beneath it.",
-        "new_today": "The leaked link and the Charania report are both new; nothing like this had surfaced before Wednesday.",
-        "why_it_matters": "A roster already built around Giannis, Bam, and Wiggins has almost no practical room for another star - which makes this either a rumor worth dismissing or a very hard problem worth watching.",
+        "title": "Odds move on LeBron, even if the timeline doesn't",
+        "importance": 0.85,
+        "thesis": "Betting markets are now doing what the Heat's own leak couldn't - actually pricing the outcome.",
+        "synthesis": "The Heat confirmed the leaked 'LeBron James Introductory Press Conference' YouTube page, dated July 27, was real prep work built in case of a signing, published by mistake rather than fabricated from nothing. Kalshi bettors treated the leak as signal anyway, pushing Miami's odds of landing James to 51%, up from 39% beforehand. His agent, Rich Paul, says there's still no timetable for a decision, with Cleveland and Philadelphia the other two teams in the mix.",
+        "new_today": "The Kalshi odds move to 51% and the framing of the page as 'prepared, not fabricated' are both new since Wednesday.",
+        "why_it_matters": "A roster already hard-capped after the Giannis trade would need real subtraction to make room - odds moving this fast suggest someone close to the situation thinks that math is being worked out.",
         "thread_id": "thread-heat-giannis-era",
         "confidence": "medium",
         "sources": [
-          {"role": "primary_reporting", "publisher": "ESPN", "headline": "Heat say link to LeBron James presser was posted by mistake", "url": "https://www.espn.com/nba/story/_/id/49422103/heat-say-link-lebron-james-presser-posted-mistake"},
-          {"role": "background", "publisher": "Hot Hot Hoops", "headline": "How the Giannis Antetokounmpo trade shapes the Miami Heat's salary cap", "url": "https://hothothoops.com/2026/06/24/how-giannis-antetokounmpo-trade-shapes-miami-heat-salary-cap-2026-offseason/"}
+          {"role": "primary_reporting", "publisher": "Yahoo Sports", "headline": "Heat confirm the LeBron James introductory press conference YouTube video was published accidentally after latest rumors", "url": "https://sports.yahoo.com/nba/article/heat-confirm-the-lebron-james-introductory-press-conference-youtube-video-was-published-accidentally-after-latest-rumors-043327502.html"},
+          {"role": "analysis", "publisher": "Yahoo Sports", "headline": "Miami Heat Get Major Clarity on LeBron James Decision", "url": "https://sports.yahoo.com/articles/miami-heat-major-clarity-lebron-010054193.html"},
+          {"role": "background", "publisher": "Bleacher Report", "headline": "LeBron James' Timeline for 2026 NBA Free-Agency Decision Updated Amid Cavs, Heat, 76ers Rumors", "url": "https://bleacherreport.com/articles/25456687-lebron-james-timeline-2026-nba-free-agency-decision-updated-amid-cavs-heat-76ers-rumors"}
         ]
       },
       {
-        "id": "theme-sagrada-familia-centennial",
-        "affinity": "evening",
-        "topic": "living",
-        "topic_label": "Art of Living",
-        "title": "A cathedral finished, a century later than planned",
-        "importance": 0.68,
-        "thesis": "Some of the best work simply runs on its own clock, not the one anyone watching would have chosen.",
-        "synthesis": "The Sagrada Familia was completed this summer after 144 years of construction, when the final 100-ton cross was set atop the Tower of Jesus Christ, making it the world's tallest church at 172.5 meters. Pope Leo XIV attended a commemorative Mass June 9-10. The completion lands almost exactly on the centenary of architect Antoni Gaudi's death (June 10, 1926), a milestone Spain has declared an official Event of Exceptional Public Interest, with commemorations running into December.",
-        "new_today": "Outside your usual feed: the finished basilica is the throughline of Gaudi's centenary year, still unfolding through commemorations into December.",
-        "why_it_matters": "A reminder, on a week that's mostly been about urgency, that patience is sometimes just the correct timescale for the thing being built.",
-        "thread_id": null,
+        "id": "theme-marlins-padres-series",
+        "affinity": "morning",
+        "topic": "sports",
+        "topic_label": "Miami Sports",
+        "title": "Nine losses later, a chance to actually answer something",
+        "importance": 0.72,
+        "thesis": "An off day doesn't fix anything on its own - tonight's opener against the Padres is the actual test.",
+        "synthesis": "Miami (52-51, 8.5 games back in the NL East) opens a three-game series at home against the Padres tonight at loanDepot Park, first pitch 7:10 PM, with German Marquez starting for San Diego. It's the first game since Wednesday's sweep-completing loss extended the skid to nine, and the first real read on whether Thursday's off day changed anything.",
+        "new_today": "The series opener, tonight's matchup, and the 8.5-game deficit are specific to today.",
+        "why_it_matters": "The wild-card cushion built in June is gone; this series is close to must-win territory if the season is still meant to mean something in September.",
+        "thread_id": "thread-marlins-wildcard",
         "confidence": "high",
         "sources": [
-          {"role": "primary_reporting", "publisher": "Forbes", "headline": "Sagrada Familia completion coverage", "url": "https://www.forbes.com/sites/ceciliarodriguez/2026/06/10/"},
-          {"role": "background", "publisher": "Aleteia", "headline": "Pope Leo XIV at the Sagrada Familia commemorative Mass", "url": "https://aleteia.org"}
+          {"role": "primary_reporting", "publisher": "Bleacher Nation", "headline": "Miami Marlins vs. San Diego Padres Series July 24-26: Odds, Starting Pitchers & Predictions", "url": "https://www.bleachernation.com/picks/2026/07/22/miami-marlins-vs-san-diego-padres-series-july-24-26-odds-starting-pitchers-predictions/"},
+          {"role": "background", "publisher": "ESPN", "headline": "Padres vs. Marlins (Jul 24, 2026) Live Score", "url": "https://www.espn.com/mlb/game/_/gameId/401816242/padres-marlins"}
         ]
       },
       {
-        "id": "theme-stoic-sacrifice",
-        "affinity": "evening",
-        "topic": "living",
-        "topic_label": "Art of Living",
-        "title": "The sacrifice nobody sees",
-        "importance": 0.78,
-        "thesis": "The Stoics treated unwitnessed effort as its own reward, not a debt owed to anyone's applause.",
-        "synthesis": "The Stoic Gym's July 2026 journal devotes its entire issue to sacrifice: Brandon Tumblin's 'The Sacrifice Nobody Sees,' Shirley Kwosek Sciacca's 'The Quiet Gifts We Give,' and Chuck Chakrapani's framing piece, 'Stoic Sacrifice,' together arguing that providing for others without recognition is a form of virtue in itself, not a cost extracted from you.",
-        "new_today": "New this month: the entire issue is built around this theme, not just one essay in passing.",
-        "why_it_matters": "Directly adjacent to what you wrote this week about guilt and providing - worth reading as description of what you're already doing, not as another instruction.",
-        "thread_id": null,
-        "confidence": "medium",
-        "sources": [
-          {"role": "primary_reporting", "publisher": "The Stoic Gym", "headline": "THE STOIC, The Journal of The Stoic Gym, 7/2026", "url": "https://thestoicgym.substack.com/p/the-stoic-the-journal-of-the-stoic"}
-        ]
-      },
-      {
-        "id": "theme-miami-weekend-culture",
+        "id": "theme-miami-beach-deco-century",
         "affinity": "evening",
         "topic": "miami",
         "topic_label": "Miami Life & Culture",
-        "title": "A full weekend before August arrives",
-        "importance": 0.6,
-        "thesis": "Two very different versions of Miami culture are both closing out at once - one for a weekend, one for good.",
-        "synthesis": "Miami Takeover, the 18th-annual four-day multicultural lifestyle festival, runs Friday through Monday across Miami Beach and Downtown. Meanwhile, The Bass's 'Faire Foyer' - Sarah Crowner's dialogue with a monumental Etel Adnan ceramic mural, the only one of its kind by Adnan in the U.S. - closes Sunday, July 26, after nearly a year on view.",
-        "new_today": "Miami Takeover's schedule and the Faire Foyer closing date are both worth acting on this specific weekend, not a generic one.",
-        "why_it_matters": "Worth deciding now, not Saturday morning, since one of these two closes for good on Sunday.",
+        "title": "A hurricane, a rebuild, and a hundred years of Art Deco",
+        "importance": 0.65,
+        "thesis": "Miami Beach's most recognizable identity was never the plan - it was what got built after the plan got destroyed.",
+        "synthesis": "The Great Miami Hurricane of 1926 leveled much of Miami Beach; the pastel, geometric Art Deco buildings that came to define the neighborhood didn't start appearing until 1933, built by architects borrowing forms from ocean liners and machines. Barbara Capitman and a group of friends founded the Miami Design Preservation League in 1976, as a bicentennial project, to save those same buildings from demolition when they were considered too new and too modest to matter; the district made the National Register in 1979, the first 20th-century historic district in the country and now the largest concentration of Art Deco buildings anywhere.",
+        "new_today": "Outside the feed: a century since the storm that forced the rebuild, and a half-century since the League that saved what got built.",
+        "why_it_matters": "A useful corrective on a week that's mostly been about oil and odds - the thing everyone now recognizes as Miami Beach's identity was almost torn down twice, once by a hurricane and once by neglect.",
+        "thread_id": null,
+        "confidence": "high",
+        "sources": [
+          {"role": "primary_reporting", "publisher": "Miami Design Preservation League", "headline": "A Brief History of MDPL", "url": "https://mdpl.org/about-us/about-miami-design-preservation-league/a-brief-history-of-mdpl/"},
+          {"role": "background", "publisher": "Miami and Beaches", "headline": "Intro to Art Deco on Miami Beach", "url": "https://www.miamiandbeaches.com/things-to-do/history-and-heritage/art-deco-historic-district"}
+        ]
+      },
+      {
+        "id": "theme-miami-takeover-weekend",
+        "affinity": "evening",
+        "topic": "miami",
+        "topic_label": "Miami Life & Culture",
+        "title": "Miami Takeover opens, and the Adnan mural's last weekend arrives",
+        "importance": 0.58,
+        "thesis": "Two different Miami culture stories are peaking at once - a four-day party starting tonight, and a nearly year-long exhibition ending Sunday.",
+        "synthesis": "Miami Takeover's 18th annual weekend runs Friday through Monday across Miami Beach and Downtown, opening tonight with a poolside meet-and-greet at the Z Ocean Hotel and an all-white party at The Urban, followed by Saturday's Art of Go-Go Culture Fest at the Miami Beach Bandshell. Meanwhile, at The Bass, Sarah Crowner's 'Faire Foyer' - built around Etel Adnan's monumental ceramic mural, the only work of its kind by Adnan in the US - closes for good this Sunday, July 26, after nearly a year on view.",
+        "new_today": "Today is the actual start of Miami Takeover; the Adnan mural now has two days left rather than 'this weekend' in the abstract.",
+        "why_it_matters": "One of these closes permanently in 48 hours - worth deciding tonight, not Sunday afternoon, which one actually gets your time.",
         "thread_id": null,
         "confidence": "medium",
         "sources": [
-          {"role": "primary_reporting", "publisher": "The Bass", "headline": "Faire Foyer: Sarah Crowner in Dialogue with Etel Adnan", "url": "https://thebass.org/art/faire-foyer-sarah-crowner-in-dialogue-with-etel-adnan/"},
-          {"role": "local_perspective", "publisher": "Eventbrite Miami", "headline": "Miami Takeover 2026 Weekend Experience", "url": "https://www.eventbrite.com/e/miami-takeover-2026-weekend-experience-july-2427-2026-tickets-1981916634004"}
+          {"role": "primary_reporting", "publisher": "Eventbrite", "headline": "Miami Takeover 2026 Weekend Experience", "url": "https://www.eventbrite.com/e/miami-takeover-2026-weekend-experience-july-2427-2026-tickets-1981916634004"},
+          {"role": "local_perspective", "publisher": "Patch", "headline": "The Miami Takeover is Returning to Miami Beach July 24-27, 2026", "url": "https://patch.com/florida/miami/calendar/event/20260724/82908dec-2686-467b-befb-6cba4590c4ae/the-miami-takeover-is-returning-to-miami-beach-july-24-27-2026-for-the-largest-cultural-beach-fest"},
+          {"role": "background", "publisher": "The Bass", "headline": "Faire Foyer: Sarah Crowner in Dialogue with Etel Adnan", "url": "https://thebass.org/art/faire-foyer-sarah-crowner-in-dialogue-with-etel-adnan/"}
         ]
       }
     ],
     "rabbit_hole": {
-      "id": "rh-2026-07-23",
-      "title": "The End of Reading Is Here",
-      "creator": "Rose Horowitch, The Atlantic",
-      "format": "magazine feature",
-      "minutes": 25,
-      "why": "It isn't really about reading - it's about what happens to sustained attention once everything else got easier to skim, which is exactly the tension under your noticing interest. And it's this month's most-argued-about piece in the circles worth trusting on it, from NPR's coverage to a pointed rebuttal at Miller's Book Review.",
-      "url": "https://www.theatlantic.com/magazine/2026/08/reading-crisis-postliterate-age/687618/",
+      "id": "rh-2026-07-24",
+      "title": "Uncovering a Global Ancient History Beyond Greece and Rome",
+      "creator": "Carlos Noreña, Aeon",
+      "format": "essay",
+      "minutes": 20,
+      "why": "Noreña, a Berkeley historian, argues the 'ancient world' most of us were taught is a fraction of the real one - the Indian Ocean, not the Mediterranean, was the actual geographic core of premodern Afro-Eurasia. It's the kind of reframe that changes how you read everything else this week without asking anything of you in return.",
+      "url": "https://aeon.co/essays/uncovering-a-global-ancient-history-beyond-greece-and-rome",
       "related_interest": "living"
     },
     "beautiful_thing": {
-      "id": "bt-2026-07-23",
-      "title": "Faire Foyer: Sarah Crowner in Dialogue with Etel Adnan",
-      "creator": "Sarah Crowner and Etel Adnan",
-      "era": "Adnan's mural and 1960s photographs; Crowner's installation, 2025-2026",
-      "body": "At The Bass in Miami Beach, Sarah Crowner built a semicircular, carpeted alcove - 'faire foyer,' to make a hearth - around a monumental ceramic mural by Etel Adnan, the only work of its kind Adnan made in the United States. Adnan, a Lebanese-American painter and poet who lived from 1925 to 2021, is known for radiant, geometric landscapes; Crowner surrounds the mural with her own reflective bronze sculptures, cast from enlarged beach stones and placed so shifting light bounces color onto the ceramic surface, alongside rarely seen photographs Adnan took of the California coastline in the 1960s. It closes Sunday, July 26, after opening last August.",
-      "url": "https://thebass.org/art/faire-foyer-sarah-crowner-in-dialogue-with-etel-adnan/",
+      "id": "bt-2026-07-24",
+      "title": "The Cross Atop the Tower of Jesus Christ, Sagrada Familia",
+      "creator": "Antoni Gaudi (design); completed by the Sagrada Familia workshop",
+      "era": "Designed in the early 1900s; installed February 20, 2026",
+      "body": "The four-armed cross crowning Barcelona's Sagrada Familia is 17 meters tall and 13.5 meters wide, clad in white enameled ceramic and three layers of curved laminated glass, cut and polished so the surface catches light from different angles. Gaudi specified, in his own words, that it should shine by day and give light by night. The cross is hollow, as he intended, so visitors can climb inside it for a 180-degree view over the city he never lived to see it finished over.",
+      "url": "https://visitarsagradafamilia.com/en/cross-jesus-sagrada-familia/",
       "image": null,
       "alt": null
     },
     "noticing_prompt": {
-      "id": "np-2026-07-23",
-      "text": "Notice one thing today that you only saw because you'd already stopped moving - a sentence, a face, a shift in light - the kind of thing a scroll never actually rewards."
+      "id": "np-2026-07-24",
+      "text": "Notice one thing today that was built to outlast the person who built it - a building, a garden, a room someone else will inherit - and what that changes about how carefully it was made."
     },
     "evening_unwind": {
-      "id": "eu-2026-07-23",
+      "id": "eu-2026-07-24",
       "evening_quote": {
-        "text": "Give your eyes time to unlearn what they have seen, and your ears to grow accustomed to more wholesome words.",
-        "attribution": "Seneca",
-        "source": "Letters to Lucilius, Letter 69"
+        "text": "Nowhere can a man find a quieter or more untroubled retreat than in his own soul.",
+        "attribution": "Marcus Aurelius",
+        "source": "Meditations, 4.3"
       },
-      "evening_prompt": "What did you do today that no one saw and that you did anyway - and can you let that be enough tonight, without needing it counted?"
+      "evening_prompt": "What looked like a crisis by nine this morning, and how much of it will still be worth mentioning by name a week from now?"
     },
     "reading_queue": [],
     "quote": {
-      "text": "Men are disturbed not by the things which happen, but by their opinions about the things.",
-      "attribution": "Epictetus"
+      "text": "We suffer more often in imagination than in reality.",
+      "attribution": "Seneca"
     }
   },
   "threads": [
@@ -252,14 +277,15 @@
       "title": "US-Iran conflict and the Strait of Hormuz",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-07-23",
-      "updates": 4,
-      "current_state": "The proposed 10-day ceasefire has not been adopted. Brent crude closed Wednesday at $94.13, up 3.43% and the highest since June 8. Strait of Hormuz transits fell to 25 ships Wednesday from a peak of 49 on July 7, and the Saudi-led coalition says it will respond with force to the Houthis' blockade threat.",
+      "last_updated": "2026-07-24",
+      "updates": 5,
+      "current_state": "Brent settled at $100.69 Thursday, up about 7% and the highest since May, after Iran struck Kuwait's Al-Salem airbase and the Houthis hit two Saudi tankers in the Red Sea - the 13th consecutive night of US strikes. Trump says he is considering a 'massive attack' on Iran; the UN Secretary-General warns the situation is 'getting out of control.'",
       "timeline": [
         {"date": "2026-07-21", "summary": "First tracked: nine nights of US strikes, oil up about 20% this month, 10-day ceasefire being mediated.", "change_type": "new"},
         {"date": "2026-07-22", "summary": "10-day ceasefire formally proposed; US strikes continue, Iran calls it full-scale war, Brent tops $91, war cost estimated at $37.5B.", "change_type": "advanced"},
         {"date": "2026-07-22", "summary": "By Wednesday, strikes reach an eleventh consecutive night; Brent pushes past $92, reviving inflation concern.", "change_type": "worsened"},
-        {"date": "2026-07-23", "summary": "Ceasefire proposal remains unadopted; Brent closes at $94.13, a five-week high; Strait transits fall to 25 ships from a peak of 49; Saudi coalition vows a forceful response to the Houthi blockade threat.", "change_type": "worsened"}
+        {"date": "2026-07-23", "summary": "Ceasefire proposal remains unadopted; Brent closes at $94.13, a five-week high; Strait transits fall to 25 ships from a peak of 49; Saudi coalition vows a forceful response to the Houthi blockade threat.", "change_type": "worsened"},
+        {"date": "2026-07-24", "summary": "13th consecutive night of strikes; Iran hits Kuwait's Al-Salem airbase, Houthis strike two Saudi tankers in the Red Sea; Brent crosses $100 for the first time since May; Trump considers a 'massive attack'; UN warns the situation is getting out of control.", "change_type": "worsened"}
       ]
     },
     {
@@ -267,16 +293,17 @@
       "title": "Federal Reserve rate path",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-07-23",
-      "updates": 6,
-      "current_state": "FOMC meets July 28-29, five days out. Wednesday's session gave back most of Tuesday's chip rally: S&P -0.14% to 7,498.48, Nasdaq -0.56% to 25,691.72, while the 10Y rose to 4.66% on Iran-driven inflation risk. Hike-odds readings are genuinely dispersed across sources this week (CME FedWatch's own 7/21 read: 16.6% hike / 83.4% hold) - treat any single number as a snapshot, not a consensus.",
+      "last_updated": "2026-07-24",
+      "updates": 7,
+      "current_state": "FOMC meets July 28-29, four days out. Thursday's session dropped sharply on oil and earnings: S&P -1.21% to 7,408.30, Nasdaq -2.15% to 25,137.69, with Tesla -14.5% and Alphabet -7%. The 10Y jumped to 4.70%, its highest since January 2025. CME FedWatch hike odds surged to roughly 35% from 16.6% a day earlier.",
       "timeline": [
         {"date": "2026-07-18", "summary": "Hike odds rising toward 46%; BofA sees three hikes by December.", "change_type": "advanced"},
         {"date": "2026-07-19", "summary": "Fed week arrives; positioning visible in Friday's chip-led selloff.", "change_type": "advanced"},
         {"date": "2026-07-21", "summary": "Hike odds collapse to 13.3% (86.7% hold) amid Iran-driven oil shock; 10Y ticks up to 4.59%.", "change_type": "reversed"},
         {"date": "2026-07-22", "summary": "Hike odds tick back up to 16.6% as oil keeps climbing; stocks rally anyway on chip earnings; June CPI confirmed at 3.5%.", "change_type": "advanced"},
         {"date": "2026-07-22", "summary": "Wednesday's session runs subdued as oil-driven inflation concern resurfaces ahead of Big Tech earnings; hike odds unchanged at 16.6%.", "change_type": "watch"},
-        {"date": "2026-07-23", "summary": "Wednesday's close confirmed as a reversal of Tuesday's rally (S&P -0.14%, Nasdaq -0.56%); 10Y up to 4.66%; FOMC odds still dispersed across sources.", "change_type": "watch"}
+        {"date": "2026-07-23", "summary": "Wednesday's close confirmed as a reversal of Tuesday's rally (S&P -0.14%, Nasdaq -0.56%); 10Y up to 4.66%; FOMC odds still dispersed across sources.", "change_type": "watch"},
+        {"date": "2026-07-24", "summary": "Sharp selloff on oil breaking $100 plus Tesla/Alphabet earnings: S&P -1.21%, Nasdaq -2.15%; 10Y to 4.70%, highest since Jan 2025; hike odds more than double to roughly 35%.", "change_type": "worsened"}
       ]
     },
     {
@@ -284,15 +311,16 @@
       "title": "Marlins wild card race",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-07-23",
-      "updates": 5,
-      "current_state": "Houston completed a three-game sweep Wednesday: Alcantara's start ended in a 5-2 loss on back-to-back eighth-inning homers from Alvarez and Paredes, extending the skid to nine straight - a new high for the season. Max Meyer remains on the IL with a neck strain, now under evaluation by spine specialist Dr. Robert Watkins IV. Miami is off Thursday before hosting the Padres starting Friday.",
+      "last_updated": "2026-07-24",
+      "updates": 6,
+      "current_state": "Miami (52-51, 8.5 games back) hosts the Padres tonight at loanDepot Park, first pitch 7:10 PM, with German Marquez starting for San Diego - the first game since Wednesday's sweep-completing loss extended the skid to nine straight.",
       "timeline": [
         {"date": "2026-07-18", "summary": "Hit the break 52-45, holding WC pole position.", "change_type": "new"},
         {"date": "2026-07-19", "summary": "Swept in Milwaukee; three straight losses out of the break.", "change_type": "worsened"},
         {"date": "2026-07-21", "summary": "Lost Astros opener; Meyer placed on IL with neck strain; streak at seven.", "change_type": "worsened"},
         {"date": "2026-07-22", "summary": "Lost again, confirmed final Houston 5, Miami 3; streak reaches eight straight, longest since April 2024.", "change_type": "worsened"},
-        {"date": "2026-07-23", "summary": "Alcantara's start ends in a 5-2 loss as Alvarez and Paredes go deep back-to-back in the eighth, completing Houston's sweep; streak reaches nine straight. Off day Thursday before hosting the Padres Friday.", "change_type": "worsened"}
+        {"date": "2026-07-23", "summary": "Alcantara's start ends in a 5-2 loss as Alvarez and Paredes go deep back-to-back in the eighth, completing Houston's sweep; streak reaches nine straight. Off day Thursday before hosting the Padres Friday.", "change_type": "worsened"},
+        {"date": "2026-07-24", "summary": "Off day behind them, Miami opens a three-game series at home against the Padres, first pitch 7:10 PM; German Marquez starts for San Diego.", "change_type": "watch"}
       ]
     },
     {
@@ -300,14 +328,15 @@
       "title": "Heat: the Giannis era begins",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-07-23",
-      "updates": 4,
-      "current_state": "Miami's own team channel briefly posted, then deleted, a 'LeBron James Introductory Press Conference' livestream link dated July 27; ESPN's Shams Charania reports Miami is one of three teams, with Cleveland and Philadelphia, that LeBron is considering. Unconfirmed, but a real, sourced report against an already hard-capped roster with only a handful of open spots.",
+      "last_updated": "2026-07-24",
+      "updates": 5,
+      "current_state": "The Heat confirmed the leaked 'LeBron James Introductory Press Conference' page (dated July 27) was real prep work published by mistake, not fabricated. Kalshi bettors moved Miami's odds of landing James to 51%, up from 39%; agent Rich Paul says there's no timetable, with Cleveland and Philadelphia the other two teams in the mix.",
       "timeline": [
         {"date": "2026-07-18", "summary": "Blockbuster trade lands the two-time MVP.", "change_type": "new"},
         {"date": "2026-07-21", "summary": "Roster construction and cap details public; Panthers release 2026-27 schedule.", "change_type": "advanced"},
         {"date": "2026-07-22", "summary": "Tim Hardaway Jr. signs one-year, $6.5M deal, filling out the wing rotation.", "change_type": "advanced"},
-        {"date": "2026-07-23", "summary": "Heat's social team accidentally posts and deletes a LeBron introductory press conference link dated July 27; ESPN reports Miami is one of three teams LeBron is weighing.", "change_type": "watch"}
+        {"date": "2026-07-23", "summary": "Heat's social team accidentally posts and deletes a LeBron introductory press conference link dated July 27; ESPN reports Miami is one of three teams LeBron is weighing.", "change_type": "watch"},
+        {"date": "2026-07-24", "summary": "Heat confirm the page was real prep work published by mistake; Kalshi odds move to 51% from 39%; Rich Paul says no timetable exists.", "change_type": "advanced"}
       ]
     },
     {
@@ -351,6 +380,18 @@
       "timeline": [
         {"date": "2026-07-22", "summary": "First tracked: civic center topped off, full project scope confirmed ($1B, 130 acres, spring 2028 completion).", "change_type": "new"}
       ]
+    },
+    {
+      "id": "thread-cre-capital-markets-2026",
+      "title": "2026 CRE capital markets under pressure",
+      "topic": "markets",
+      "status": "emerging",
+      "last_updated": "2026-07-24",
+      "updates": 1,
+      "current_state": "CBRE's Q2 2026 capital markets update shows deal volume down 24% year over year, construction spending 2.7% below plan, and hiring slowing sector-wide; guidance favors disciplined underwriting for the second half, issued just before this week's oil-driven jump in the 10-year yield.",
+      "timeline": [
+        {"date": "2026-07-24", "summary": "First tracked: CBRE Q2 update shows deal volume down 24% YoY, construction spending below plan, hiring slowing; outlook favors disciplined underwriting.", "change_type": "new"}
+      ]
     }
   ],
   "topic_filters": [
@@ -361,9 +402,9 @@
   ],
   "meta": {
     "content_freshness": {
-      "markets": "2026-07-22 close (Wed)",
-      "news": "2026-07-23 morning",
-      "weather": "2026-07-23"
+      "markets": "2026-07-23 close (Thu)",
+      "news": "2026-07-24 morning",
+      "weather": "2026-07-24"
     },
     "feedback_endpoint_mode": "github_contents",
     "minimum_client_schema_version": 1
