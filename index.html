@@ -356,6 +356,7 @@ function renderEdition(main) {
   if (e.rabbit_hole && e.rabbit_hole.url) main.appendChild(sectionRabbit(e.rabbit_hole));
   if (e.beautiful_thing && e.beautiful_thing.title) main.appendChild(sectionBeautiful(e.beautiful_thing));
   if (e.noticing_prompt && e.noticing_prompt.text) main.appendChild(sectionNoticing(e.noticing_prompt));
+  if (e.daily_puzzle && e.daily_puzzle.prompt) main.appendChild(sectionPuzzle(e.daily_puzzle));
   if (e.evening_unwind && !isEvening()) main.appendChild(sectionUnwind(e.evening_unwind));
   if (e.reading_queue && e.reading_queue.length) main.appendChild(sectionQueue(e.reading_queue));
 }
@@ -728,6 +729,35 @@ function sectionNoticing(n) {
   };
   wrap.appendChild(inp); wrap.appendChild(b);
   c.appendChild(wrap);
+  s.appendChild(c);
+  return s;
+}
+function sectionPuzzle(p) {
+  var s = sec('Daily Puzzle');
+  var c = el('article', 'featurecard'); c.id = p.id || 'puzzle';
+  var TYPE_LABEL = { riddle: 'Riddle', lateral: 'Lateral thinking', logic: 'Logic', wordplay: 'Wordplay', math: 'Math' };
+  var label = TYPE_LABEL[p.type] || (p.type ? p.type.charAt(0).toUpperCase() + p.type.slice(1) : 'Puzzle');
+  c.appendChild(el('div', 'sub', label));
+  var q = el('p', 'serif', p.prompt); q.style.fontSize = '1rem'; q.style.lineHeight = '1.65'; c.appendChild(q);
+  var act = el('div', 'act');
+  // optional hint (revealed first)
+  var hintBox = null;
+  if (p.hint) {
+    hintBox = el('div', 'expander'); hintBox.hidden = true; hintBox.appendChild(el('p', 'why', p.hint));
+    var hb = el('button', null, 'Show hint'); hb.type = 'button'; hb.setAttribute('aria-expanded', 'false');
+    hb.onclick = function() { var open = hintBox.hidden; hintBox.hidden = !open; hb.setAttribute('aria-expanded', String(open)); hb.textContent = open ? 'Hide hint' : 'Show hint'; };
+    act.appendChild(hb);
+  }
+  // solution (+ optional explanation), hidden until asked for
+  var solBox = el('div', 'expander'); solBox.hidden = true;
+  var sol = el('p', 'newtoday'); sol.appendChild(el('b', null, 'Solution ')); sol.appendChild(document.createTextNode(p.solution || '')); solBox.appendChild(sol);
+  if (p.explanation) solBox.appendChild(el('p', 'why', p.explanation));
+  var sb = el('button', null, 'Reveal solution'); sb.type = 'button'; sb.setAttribute('aria-expanded', 'false');
+  sb.onclick = function() { var open = solBox.hidden; solBox.hidden = !open; sb.setAttribute('aria-expanded', String(open)); sb.textContent = open ? 'Hide solution' : 'Reveal solution'; };
+  act.appendChild(sb);
+  c.appendChild(act);
+  if (hintBox) c.appendChild(hintBox);
+  c.appendChild(solBox);
   s.appendChild(c);
   return s;
 }
