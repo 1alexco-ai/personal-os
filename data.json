@@ -1,248 +1,254 @@
 {
   "schema_version": 2,
   "edition": {
-    "id": "2026-07-26",
-    "date": "2026-07-26",
-    "type": "weekly",
-    "generated_at": "2026-07-26T09:30:00-04:00",
+    "id": "2026-07-27",
+    "date": "2026-07-27",
+    "type": "weekday",
+    "generated_at": "2026-07-27T09:30:00-04:00",
     "timezone": "America/New_York",
     "title": "Personal OS",
     "front_page_letter": {
-      "greeting": "Good Sunday",
+      "greeting": "Good Monday",
       "body_paragraphs": [
-        "LeBron's decision took seven weeks of speculation and about as long as a text message to actually land: Philadelphia, not Miami, not Cleveland. Kalshi had the Heat as betting favorite Friday morning; by afternoon, Rich Paul was telling ESPN that James chose to protect the memory of a title already won rather than risk a second act. Miami's roster is settled now, the question answered without them. The Marlins have no equivalent resolution: eleven straight losses tied the franchise's worst skid since June 2011, and a team that sat ten games over .500 on July 9 is back to breakeven the hard way. Today's finale against the Padres decides whether it gets worse.",
-        "The war changed shape this week more than it ended. Direct U.S. strikes on Iran paused Friday night after thirteen consecutive nights, but the Houthis opened a new front Saturday, hitting Saudi Aramco facilities in Jizan and Yanbu hard enough to read as retaliation, not de-escalation. Oil eased off its $100 peak on the pause; whether Saturday undoes that is a Monday question. The Fed meets Tuesday and Wednesday with hike odds still near 34%, an odd place to be after a month spent insisting inflation was cooling. Closer to home, Witkoff and Monroe Capital closed $303 million to break ground on the old Miami Arena site downtown, proof capital still moves on the right deals even as South Florida sales volume runs 13% below last year.",
-        "Nothing came in from you this week - no stars, no saves, no notes - so every weight just drifted toward its baseline: Markets and Miami eased slightly, Sports ticked back up, Art of Living settled too. Nothing dramatic, just the system waiting on a signal, not inventing one. The reading list is empty, which is a clean slate, not a backlog. If you have twenty-some minutes this weekend, Skye Cleary's reread of Sartre's Existentialism Is a Humanism is a genuinely different register than the Stoicism this paper usually leans on. And if you're near Miami Beach today, Etel Adnan's ceramic mural comes down from The Bass tonight, for good."
+        "Miami's record book got rewritten twice in three days. The Marlins lost again Sunday, 5-3, Manny Machado and Jackson Merrill going deep in the eighth to erase a three-run deficit - the twelfth straight loss, no longer tying the 2011 mark but breaking it outright. A team that was ten games over .500 on July 9 is now 52-53, under water for the first time since June. There's no game today; the only question left is whether Tuesday brings relief or a thirteenth.",
+        "Everything else eased over the weekend. The US-Iran pause held into Monday, no new strikes reported since Friday, and oil gave back nearly everything the war had added to it - Brent tumbling toward the mid-$80s, down roughly 7% in a session, as Trump signaled openness to real talks. Futures like the relief: Dow and S&P are pointed 0.8% higher, the Nasdaq nearly double that. It arrives two days before the Fed's own verdict - hike odds near 35%, having nearly tripled from 12% a week ago, with September's already priced at 82% regardless of what Wednesday brings.",
+        "Closer to your own lane: a two-acre parcel inside Miami Worldcenter just hit the market, expected to clear $100 million on land bought for $44 million six years ago - more evidence the capital is selective, not gone. And if you want something with a longer half-life than a rate decision: astronomers confirmed the first atmosphere ever found on a rocky planet in a habitable zone, 48 light-years out. Closer to home, Jack Pierson's reflection on his own Miami years has three weeks left at The Bass."
       ],
       "read_only_three": [
-        {"target_type": "theme", "target_id": "theme-lebron-signs-sixers", "label": "LeBron picks Philadelphia over the Heat"},
-        {"target_type": "delta", "target_id": "delta-marlins-streak-eleven", "label": "Marlins tie the franchise's worst-ever skid"},
-        {"target_type": "beautiful_thing", "target_id": "bt-2026-07-26", "label": "Adnan's mural comes down tonight, for good"}
+        {"target_type": "theme", "target_id": "theme-marlins-twelve-straight", "label": "Marlins break the record outright at 12"},
+        {"target_type": "delta", "target_id": "delta-iran-oil-crater", "label": "Oil craters as the Iran pause holds"},
+        {"target_type": "beautiful_thing", "target_id": "bt-2026-07-27", "label": "The Bass's Art Deco library, showing Jack Pierson"}
       ]
     },
     "market_context": [
-      {"label": "S&P 500", "value": "7,412", "change": "+0.05%", "observed": "Fri close 7/24", "note": "eked out a gain despite a volatile week; real estate and financials led"},
-      {"label": "Nasdaq", "value": "24,976", "change": "-0.64%", "observed": "Fri close 7/24", "note": "tech underperformed again; third straight losing session"},
-      {"label": "10Y Treasury", "value": "4.69%", "change": "-0.01", "observed": "Fri close 7/24", "note": "essentially flat, just off Thursday's highest close since January 2025"},
-      {"label": "FOMC", "value": "2 days", "change": "~34% hike odds (66% hold)", "observed": "CME FedWatch, week of 7/24 - eased from Thursday's ~36.5% spike", "note": "Jul 28-29, decision Wed 2 PM ET"}
+      {"label": "S&P 500", "value": "7,412", "change": "+0.05%", "observed": "Fri close 7/24", "note": "futures pointing to a stronger open Monday (+0.8%) as oil craters and Iran-US tensions ease"},
+      {"label": "Nasdaq", "value": "24,976", "change": "-0.64%", "observed": "Fri close 7/24", "note": "Nasdaq-100 futures jumping about 1.6% premarket Monday, snapping back from Friday's tech-led weakness"},
+      {"label": "10Y Treasury", "value": "4.69%", "change": "-0.01", "observed": "Fri close 7/24", "note": "easing further to about 4.64% in Monday trading as the oil-driven inflation scare fades"},
+      {"label": "FOMC", "value": "1 day", "change": "~35% hike odds (65% hold)", "observed": "CME FedWatch, Monday morning 7/27 - odds have nearly tripled from about 12% a week ago", "note": "Jul 28-29, decision Wed 2 PM ET; September hike odds have climbed further, to roughly 82%"}
     ],
     "public_day_context": {
-      "date_label": "Sunday, July 26",
-      "weather": "High near 91, low 78; thunderstorms likely this afternoon and evening, typical late-summer wet-season pattern",
-      "public_event": "Marlins host the Padres in today's series finale at loanDepot Park, first pitch 1:40 PM; Etel Adnan's ceramic mural closes for good tonight at The Bass"
+      "date_label": "Monday, July 27",
+      "weather": "Mostly sunny early, turning cloudy with an 80% chance of afternoon and evening thunderstorms; highs in the low 90s, humid",
+      "public_event": "Dolphins veterans report to training camp at Baptist Health Training Complex Tuesday, opening Jeff Hafley's first camp as head coach; the Marlins are off today after Sunday's franchise-record 12th straight loss"
     },
     "what_changed": [
       {
-        "id": "delta-lebron-signs-sixers",
-        "thread_id": "thread-heat-giannis-era",
-        "change_type": "resolved",
-        "title": "LeBron signs with the 76ers, not the Heat",
-        "previous_state": "As of Friday morning, Kalshi had Miami's odds of landing LeBron at 51%, up from 39%, with Cleveland at 27% and agent Rich Paul saying there was no timetable.",
-        "current_state": "LeBron James signed a two-year, $8 million deal with the Philadelphia 76ers Friday afternoon. Rich Paul told ESPN he had initially believed James was headed to Miami, but James chose to protect the memory of a title already won rather than risk a second Miami chapter; James later posted 'forever love' for the cities in the running, Miami included.",
-        "why_it_matters": "Ends the summer's biggest open question for Miami sports; the Heat's roster, hard-capped since the Giannis trade, is now final without further subtraction.",
-        "confidence": "high",
-        "source": {"publisher": "ESPN", "url": "https://www.espn.com/nba/story/_/id/49440164/lebron-chooses-76ers-sign-2-year-8-million-contract"}
-      },
-      {
-        "id": "delta-marlins-streak-eleven",
+        "id": "delta-marlins-streak-twelve",
         "thread_id": "thread-marlins-wildcard",
         "change_type": "worsened",
-        "title": "Marlins tie their worst losing streak since 2011",
-        "previous_state": "Entering Friday, Miami had lost nine straight and stood 52-51, 8.5 games back, hosting the Padres that night.",
-        "current_state": "Miami lost both weekend games to San Diego, 4-2 Friday and 7-2 Saturday, extending the skid to 11 straight - a franchise record last matched in June 2011 - and falling to 52-52, their first .500 record since June 19. The team stood 10 games over .500 as recently as July 9.",
-        "why_it_matters": "This is no longer a rough patch inside a playoff push; it's a collapse from an 89-win pace in barely two weeks, and today's finale decides whether it becomes the outright worst streak in team history.",
+        "title": "Marlins break their own record: 12 straight losses",
+        "previous_state": "Entering Sunday, Miami had lost 11 straight, tying the franchise record last matched in June 2011, and stood 52-52.",
+        "current_state": "Miami lost again Sunday, 5-3 to San Diego - Manny Machado and Jackson Merrill homered in the eighth to erase a three-run deficit - making it 12 straight losses, an outright franchise record, and dropping the Marlins to 52-53, their first losing record since mid-June.",
+        "why_it_matters": "This is no longer tying history, it's making it; a team on an 89-win pace three weeks ago has fully inverted its season in a way that will define how this front office is judged this winter.",
         "confidence": "high",
-        "source": {"publisher": "ESPN", "url": "https://www.espn.com/mlb/game/_/gameId/401816257/padres-marlins"}
+        "source": {"publisher": "ESPN", "url": "https://www.espn.com/mlb/game/_/gameId/401816272/padres-marlins"}
       },
       {
-        "id": "delta-iran-strikes-pause-red-sea",
+        "id": "delta-iran-oil-crater",
         "thread_id": "thread-iran-hormuz-crisis",
-        "change_type": "watch",
-        "title": "Direct strikes pause; the Houthis open a front on Saudi Arabia",
-        "previous_state": "As of Friday, the US had struck Iran for 13 consecutive nights, Iran's Revolutionary Guard had hit Kuwait, and sirens had sounded across Bahrain, Kuwait, and Qatar; Brent held near $100.",
-        "current_state": "The US carried out no new strikes overnight Friday into Saturday, the first pause since the ceasefire collapsed, as an Omani delegation arrived in Tehran to discuss Strait of Hormuz shipping. Saturday, Iran-aligned Houthi rebels fired dozens of ballistic missiles and drones at Saudi Aramco facilities in Jizan and Yanbu, starting large fires. Brent had already eased to about $96.80 Friday, down nearly 4% on the day but still up over 12% for the week.",
-        "why_it_matters": "A pause is not a resolution when the fight just relocated to Saudi oil infrastructure; Monday's oil price is the real test of how markets read this weekend.",
+        "change_type": "improved",
+        "title": "The pause holds, and oil gives back the war premium",
+        "previous_state": "As of Saturday, the US-Iran strike pause was one day old and untested, while the Houthis had just opened a new front against Saudi Aramco facilities; Brent held near $96.80, still up over 12% on the week.",
+        "current_state": "The pause carried through the weekend with no new US strikes on Iran and no further Houthi attacks reported since Saturday. Brent crude tumbled toward the mid-$80s Monday, down roughly 7% on the session, as Trump signaled openness to renewed talks with Tehran.",
+        "why_it_matters": "A one-day pause was easy to dismiss; a weekend-long one that markets are pricing as real is a different signal - though the Aramco strikes mean the underlying dispute hasn't actually been resolved, just quieted.",
         "confidence": "high",
-        "source": {"publisher": "CNN", "url": "https://www.cnn.com/2026/07/25/world/live-news/iran-war-trump"}
+        "source": {"publisher": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-july-27-dow-sp-500-nasdaq-080412540.html"}
       },
       {
-        "id": "delta-fed-odds-ease-34",
+        "id": "delta-fed-futures-rally",
         "thread_id": "thread-fed-rate-path",
         "change_type": "improved",
-        "title": "Hike odds ease slightly to 34% as stocks split Friday",
-        "previous_state": "Thursday's close saw hike odds more than double to roughly 36.5% (63.5% hold), with the S&P down 1.21% and the 10Y at its highest since January 2025.",
-        "current_state": "Friday, hike odds eased to about 34% (66% hold) per CME FedWatch. Stocks were mixed: the S&P edged up 0.05% to 7,412, the Nasdaq fell 0.64% to 24,976 on continued tech weakness, and the 10Y held essentially flat at 4.69%.",
-        "why_it_matters": "A small step back from Thursday's spike, but hike odds this elevated two trading days before an FOMC decision remain unusual; the meeting itself is now the story.",
+        "title": "Futures jump as Fed week opens with hike odds still historically high",
+        "previous_state": "Friday's close was mixed and cautious, hike odds near 34% heading into the weekend, 10Y flat at 4.69%.",
+        "current_state": "Monday premarket, Dow and S&P futures are up about 0.8% and Nasdaq-100 futures near 1.6% on the oil pullback; the 10Y has eased to roughly 4.64%. CME FedWatch has hike odds around 35% for Wednesday's decision - nearly tripled from 12% a week ago - while September odds have climbed to about 82%.",
+        "why_it_matters": "Markets are treating the oil de-escalation as more important than the Fed's own signal right now, which sets up Wednesday to either confirm that relief or puncture it.",
         "confidence": "high",
-        "source": {"publisher": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-july-24-dow-sp-500-nasdaq-081854465.html"}
+        "source": {"publisher": "The Motley Fool", "url": "https://www.fool.com/investing/2026/07/27/82-chance-fed-rate-hike-by-mid-september-heres-why/"}
       },
       {
-        "id": "delta-miami-worldcenter-loan",
+        "id": "delta-miami-worldcenter-site-listed",
         "thread_id": "thread-miami-worldcenter-development",
         "change_type": "new",
-        "title": "$303M breaks ground on the old Miami Arena site",
-        "previous_state": "No prior tracking of Miami Worldcenter financing in this edition's threads.",
-        "current_state": "Witkoff and Monroe Capital secured a $303 million construction loan from Athene Annuity and J.P. Morgan for the first phase of 700 North Miami Avenue: an 894-unit residential tower plus retail and parking on the roughly five-acre site of the old Miami Arena, demolished in 2008. Three more towers, rising 50 to 53 stories, are planned for the same site under a Kobi Karp design.",
-        "why_it_matters": "A marquee construction loan closing the same week South Florida sales volume runs 13% below last year says the slowdown is about selectivity, not a closed spigot.",
+        "title": "A second Worldcenter parcel hits the market",
+        "previous_state": "This thread's only tracked event was the $303M construction loan closing on the 700 North Miami Avenue site.",
+        "current_state": "A separate two-acre site in Miami Worldcenter, known as One Miami World at 1001 NE First St, has been listed for sale by owner Abbhi Capital through Cushman & Wakefield, with no asking price disclosed but expectations well above $100 million - versus the $44 million Abbhi paid to assemble the site in 2020.",
+        "why_it_matters": "A land seller testing more than double the six-year appreciation, in the same weeks a construction lender closed $303M nearby, reads as the district maturing, not slowing.",
         "confidence": "high",
-        "source": {"publisher": "The Real Deal", "url": "https://therealdeal.com/miami/2026/07/21/witkoff-monroe-capital-nab-303-million-loan-for-miami-resi/"}
+        "source": {"publisher": "Bisnow", "url": "https://www.bisnow.com/south-florida/news/land/miami-worldcenter-development-site-hits-the-market-135209"}
       }
     ],
     "themes": [
       {
-        "id": "theme-lebron-signs-sixers",
-        "affinity": "morning",
-        "topic": "sports",
-        "topic_label": "Miami Sports",
-        "title": "LeBron picks Philadelphia, and Miami's summer gets its answer",
-        "importance": 0.95,
-        "thesis": "The betting favorite lost the bet - LeBron chose to protect a memory instead.",
-        "synthesis": "LeBron James signed a two-year, $8 million contract with the Philadelphia 76ers on Friday, ending a three-team race that also included Miami and Cleveland, with Golden State floated as a dark horse. Klutch Sports' Rich Paul told ESPN's Ramona Shelburne he initially thought James was headed to Miami, but James ultimately chose not to risk a return to a place where the memory of what he'd already won might not survive a lesser encore. Bronny is not part of the move; James called it his 'last decision,' framed around one more legitimate championship run rather than money. He later posted 'forever love' for the cities that recruited him, Miami included. Heat president Pat Riley, whose relationship with James had reportedly thawed in recent years, said the team was disappointed but moves forward with its roster as built.",
-        "new_today": "The signing itself, the contract terms, and Rich Paul's account of why Philadelphia won out - all confirmed since Friday morning's edition, which still had Miami as the 51% Kalshi favorite.",
-        "why_it_matters": "This was the last unresolved question hanging over the Heat's offseason; with it answered, the post-Giannis roster is what it is heading into camp, with no further scrambling for cap space.",
-        "thread_id": "thread-heat-giannis-era",
-        "confidence": "high",
-        "sources": [
-          {"role": "primary_reporting", "publisher": "ESPN", "headline": "LeBron picks 76ers as 'last decision,' to sign 2-year, $8M deal", "url": "https://www.espn.com/nba/story/_/id/49440164/lebron-chooses-76ers-sign-2-year-8-million-contract"},
-          {"role": "analysis", "publisher": "ESPN", "headline": "LeBron chooses 76ers: Why not Cavs or Heat? Here's what Windy knows", "url": "https://www.espn.com/nba/story/_/id/49443519/lebron-76ers-cavaliers-heat-everything-windhorst-knows-stunning-decision"},
-          {"role": "local_perspective", "publisher": "Heat Nation", "headline": "Heat lose out on LeBron James as Riley's roster search enters a new phase", "url": "https://heatnation.com/team-news/heat-lose-out-on-lebron-james-as-rileys-roster-search-enters-a-new-phase/"}
-        ]
-      },
-      {
-        "id": "theme-iran-strikes-pause-red-sea-flares",
+        "id": "theme-oil-craters-iran-pause-holds",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "The strikes on Iran pause; the war doesn't",
-        "importance": 0.9,
-        "thesis": "A quiet night in Iran came with a loud one in Saudi Arabia - this conflict is relocating, not ending.",
-        "synthesis": "The US carried out no new strikes on Iran overnight Friday into Saturday, the first pause since the ceasefire collapsed after 13 consecutive nights of strikes, as an Omani diplomatic delegation arrived in Tehran to discuss managing Strait of Hormuz shipping traffic. But Saturday, Iran-aligned Houthi rebels fired dozens of ballistic missiles and drones at Saudi Aramco facilities in Jizan and Yanbu, setting large fires across an industrial area anchored by a major oil refinery - widely read as retaliation for Saudi strikes on a Houthi-held coastal city in Yemen. Brent crude, which topped $100 Thursday for the first time since May, eased to about $96.80 Friday, down nearly 4% on the day but still up more than 12% on the week. Trump had signaled Friday that talks with Iran were 'getting more serious'; an Iranian official dismissed the suggestion hours later.",
-        "new_today": "The overnight pause itself, the Omani delegation, and the new Houthi strikes on Saudi Aramco facilities - all developments since Friday morning's edition.",
-        "why_it_matters": "A pause in one theater doesn't mean de-escalation if the fight just moved to Saudi oil infrastructure; Monday's oil pricing is the real test of how markets read this weekend.",
+        "title": "The pause holds through the weekend, and oil gives most of it back",
+        "importance": 0.88,
+        "thesis": "A ceasefire that survives 48 hours reads differently to markets than one that survives one night.",
+        "synthesis": "The US-Iran strike pause that began Friday night carried through the weekend with no new American strikes and no fresh Houthi attacks reported since Saturday's strikes on Saudi Aramco facilities in Jizan and Yanbu. Brent crude, which had held near $96.80 Friday and briefly topped $100 Thursday, tumbled toward the mid-$80s Monday morning - down roughly 7% in the session - as President Trump signaled openness to renewed talks with Tehran and traders priced the pause as durable rather than tactical. It's the sharpest single-session pullback since the crisis began three weeks ago.",
+        "new_today": "The pause surviving the full weekend, Monday's steep oil pullback, and Trump's public openness to talks - all confirmed since Saturday's edition, which still had Brent near $97 and the Aramco strikes read as a live escalation.",
+        "why_it_matters": "Oil at $100 was doing the Fed's tightening work for it; oil in the mid-$80s takes real pressure off two days before the FOMC decision, though the underlying dispute over Hormuz and Saudi shipping remains unresolved, just quiet.",
         "thread_id": "thread-iran-hormuz-crisis",
         "confidence": "high",
         "sources": [
-          {"role": "primary_reporting", "publisher": "CNN", "headline": "Live updates: US-Iran war; Washington and Tehran appear to pause strikes as Red Sea tensions flare", "url": "https://www.cnn.com/2026/07/25/world/live-news/iran-war-trump"},
-          {"role": "background", "publisher": "Al Jazeera", "headline": "Iran war updates: Trump warns of unprecedented 'massive attack' on Iran", "url": "https://www.aljazeera.com/news/liveblog/2026/7/23/iran-war-live-us-launches-new-attacks-houthis-attack-2-saudi-oil-tankers"}
+          {"role": "primary_reporting", "publisher": "Yahoo Finance", "headline": "Stock market today: Dow, S&P 500, Nasdaq futures rise as oil tumbles, investors brace for busy week", "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-july-27-dow-sp-500-nasdaq-080412540.html"},
+          {"role": "background", "publisher": "Al Jazeera", "headline": "New front in US-Iran war escalates as Houthis fire at Saudi oil facilities", "url": "https://www.aljazeera.com/news/2026/7/26/new-front-in-us-iran-war-escalates-as-houthis-fire-at-saudi-oil-facilities"}
         ]
       },
       {
-        "id": "theme-fed-week-arrives",
+        "id": "theme-fomc-week-begins",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Fed week arrives with hike odds still historically high",
+        "title": "Fed week opens with hike odds nearly tripled from a week ago",
         "importance": 0.85,
-        "thesis": "Two days out, the market still can't decide if this is a hike meeting.",
-        "synthesis": "The FOMC meets Tuesday and Wednesday, with a decision due 2 PM Wednesday and a press conference from Fed Chair Kevin Warsh to follow. CME FedWatch had hike odds at roughly 34% (66% hold) heading into the weekend, down slightly from Thursday's post-selloff spike near 36.5% but still far above where the month started. Friday's session was mixed - the S&P edged up 0.05% to 7,412, the Nasdaq fell 0.64% to 24,976 on continued tech weakness, and the Dow rose 0.46% - while the 10-year Treasury held essentially flat at 4.69%, just off Thursday's highest close since January 2025.",
-        "new_today": "Friday's actual closing numbers and the eased-but-still-elevated hike odds, confirmed since Thursday's sharper selloff.",
-        "why_it_matters": "Hike odds this high, this close to a meeting, is not where the Fed wanted to be after months of framing inflation as under control - the oil shock did that on its own.",
+        "thesis": "The FOMC hasn't decided anything yet, but the last seven days already reset what a 'normal' outcome would look like.",
+        "synthesis": "The FOMC's two-day meeting begins Tuesday, with a decision due 2 PM Wednesday and Fed Chair Kevin Warsh's press conference to follow. CME FedWatch has hike odds sitting around 35% (65% hold) Monday morning, up from just 12% a week ago - a repricing driven almost entirely by the Iran-driven oil spike, even as that same oil price is now retreating. Futures are reacting to the oil relief more than the meeting itself: Dow and S&P futures up about 0.8%, Nasdaq-100 futures near 1.6%, the 10-year easing to roughly 4.64%. Looking further out, September hike odds have climbed to about 82%, regardless of what happens Wednesday.",
+        "new_today": "Monday's futures rally, the eased 10-year yield, and the specific 35%/82% odds split - all developments since Friday's mixed, cautious close.",
+        "why_it_matters": "A Fed meeting where the inflation trigger (oil) is actively reversing in real time, two days before the vote, is an unusual position for the committee to legislate from.",
         "thread_id": "thread-fed-rate-path",
         "confidence": "high",
         "sources": [
-          {"role": "primary_reporting", "publisher": "Yahoo Finance", "headline": "Stock market today: Nasdaq slips, Dow and S&P 500 recover to close a volatile week on Wall Street", "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-july-24-dow-sp-500-nasdaq-081854465.html"},
-          {"role": "analysis", "publisher": "CNBC", "headline": "Treasury yields slide as oil prices fall amid hopes for new U.S.-Iran peace talks", "url": "https://www.cnbc.com/2026/07/24/treasury-yields-bonds-us-debt.html"}
+          {"role": "primary_reporting", "publisher": "The Motley Fool", "headline": "There's Now an 82% Chance of a Fed Rate Hike by mid-September -- Here's Why", "url": "https://www.fool.com/investing/2026/07/27/82-chance-fed-rate-hike-by-mid-september-heres-why/"},
+          {"role": "analysis", "publisher": "Yahoo Finance", "headline": "Stock market today: Dow, S&P 500, Nasdaq futures rise as oil tumbles, investors brace for busy week", "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-july-27-dow-sp-500-nasdaq-080412540.html"}
         ]
       },
       {
-        "id": "theme-marlins-decade-skid",
+        "id": "theme-marlins-twelve-straight",
         "affinity": "morning",
         "topic": "sports",
         "topic_label": "Miami Sports",
-        "title": "Eleven straight, and a season that flipped in two weeks",
-        "importance": 0.82,
-        "thesis": "A team ten games over .500 on July 9 is now fighting not to set a franchise-worst record.",
-        "synthesis": "Miami dropped both weekend games to San Diego - 4-2 Friday, 7-2 Saturday, with Ty France driving in three - extending the losing streak to 11, tying the franchise record last matched in June 2011 and reached only twice before that. The Marlins fell to 52-52, their first .500 record since June 19, a stunning reversal from July 9, when they sat 10 games over .500 and on pace for an 89-win season. Today's series finale against the Padres, first pitch 1:40 PM at loanDepot Park, decides whether Miami snaps the streak or sets a new franchise worst at 12.",
-        "new_today": "Saturday's loss, the tied franchise record, and today's stakes - all developments since Friday morning's nine-game-streak edition.",
-        "why_it_matters": "This has moved past a bad stretch inside a playoff race into genuine franchise history, the wrong kind - worth watching today less for the standings than for how a clubhouse responds to a real crisis of confidence.",
+        "title": "Twelve straight, and the record is now Miami's alone",
+        "importance": 0.87,
+        "thesis": "A tie is a footnote; a new franchise-worst is the story itself.",
+        "synthesis": "Miami blew a three-run lead and lost 5-3 to San Diego Sunday, with Manny Machado and Jackson Merrill both homering in the eighth inning. It's the Marlins' twelfth consecutive loss, surpassing the tie with June 2011 set Saturday and standing alone now as the longest losing streak in franchise history. Miami falls to 52-53, its first losing record since mid-June, a complete reversal from sitting ten games over .500 and on an 89-win pace as recently as July 9. The team is off Monday before opening a series Tuesday.",
+        "new_today": "Sunday's loss and the streak becoming an outright record - Saturday's game had only tied it.",
+        "why_it_matters": "Two weeks ago this was a wild-card story; it's now a case study in how fast a good season can come apart, and how a clubhouse responds when the games stop mattering for the standings but keep mattering for pride.",
         "thread_id": "thread-marlins-wildcard",
         "confidence": "high",
         "sources": [
-          {"role": "primary_reporting", "publisher": "ESPN", "headline": "Padres 7-2 Marlins (Jul 25, 2026) Final Score", "url": "https://www.espn.com/mlb/game/_/gameId/401816257/padres-marlins"},
-          {"role": "background", "publisher": "MLB.com", "headline": "Marlins' losing streak reaches 10 games", "url": "https://www.mlb.com/marlins/news/marlins-losing-streak-reaches-10-games"}
+          {"role": "primary_reporting", "publisher": "ESPN", "headline": "Padres 5-3 Marlins (Jul 26, 2026) Final Score", "url": "https://www.espn.com/mlb/game/_/gameId/401816272/padres-marlins"},
+          {"role": "background", "publisher": "MLB.com", "headline": "Padres 5, Marlins 3 Final Score", "url": "https://www.mlb.com/gameday/padres-vs-marlins/2026/07/26/823840/final/box"}
         ]
       },
       {
-        "id": "theme-miami-worldcenter-financing",
+        "id": "theme-miami-worldcenter-site-listed",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "$303 million breaks ground where the old Miami Arena stood",
-        "importance": 0.68,
-        "thesis": "A marquee construction loan says the CRE slowdown is about selectivity, not a closed spigot.",
-        "synthesis": "Witkoff, in partnership with Monroe Capital, secured a $303 million loan from Athene Annuity and Life Company and J.P. Morgan Chase to begin construction on the first phase of 700 North Miami Avenue, part of the Miami Worldcenter development. The financing refinances about $57.3 million in existing debt and provides $245.3 million in new construction funding for an 894-unit residential tower with over 17,000 square feet of retail and a nine-story, 167,000-square-foot parking garage. Three more towers, designed by Kobi Karp and rising 50 to 53 stories, are planned for the same nearly five-acre site, once home to the Miami Arena, the Heat's original venue, demolished in 2008. The loan lands the same week South Florida commercial sales volume is running down 13% year over year to $5.42 billion in the first half of 2026.",
-        "new_today": "The loan closing and its terms are new since last tracked; the South Florida H1 volume figure adds local specificity to the national CBRE data already in this edition's threads.",
-        "why_it_matters": "Directly in Alex's lane: a top-tier sponsor still finding construction debt at scale on a well-located site is the clearest read on where lenders' actual risk appetite sits right now, more useful than any aggregate volume number.",
+        "title": "A second Worldcenter site tests what land is actually worth right now",
+        "importance": 0.66,
+        "thesis": "One block from where a lender just wrote a $303M check, a landowner is betting the market will pay more than double what it did in 2020.",
+        "synthesis": "Coral Gables-based Abbhi Capital has tapped Cushman & Wakefield to market a two-acre site at 1001 NE First St, known as One Miami World, one of the last large undeveloped parcels in the 27-acre Miami Worldcenter district. No asking price has been disclosed, but brokers expect well over $100 million - more than double the $44 million Abbhi paid to assemble the site in 2020. The listing lands the same week South Florida commercial sales volume is running 13% below last year and just days after Witkoff and Monroe Capital closed $303 million in construction financing one block over at 700 North Miami Avenue.",
+        "new_today": "The listing itself, the pricing expectations, and the 2020 purchase price for comparison - not previously tracked in this edition's threads.",
+        "why_it_matters": "Land pricing is a cleaner signal than a lender's underwriting: if this parcel actually trades near $100M, it says sponsors still believe in this specific few blocks of downtown regardless of the broader volume slowdown.",
         "thread_id": "thread-miami-worldcenter-development",
         "confidence": "high",
         "sources": [
-          {"role": "primary_reporting", "publisher": "The Real Deal", "headline": "Witkoff, Monroe Capital Nab $303 Million Loan for Miami Resi", "url": "https://therealdeal.com/miami/2026/07/21/witkoff-monroe-capital-nab-303-million-loan-for-miami-resi/"},
-          {"role": "background", "publisher": "Florida YIMBY", "headline": "700 North Miami Avenue Secures $302.6 Million Construction Loan, Set to Begin First Phase at Miami Worldcenter", "url": "https://floridayimby.com/2026/07/700-north-miami-avenue-secures-302-6-million-construction-loan-set-to-begin-first-phase-at-miami-worldcenter.html"}
+          {"role": "primary_reporting", "publisher": "Bisnow", "headline": "Miami Worldcenter Site Listed For Sale, Expected To Fetch Over $100M", "url": "https://www.bisnow.com/south-florida/news/land/miami-worldcenter-development-site-hits-the-market-135209"},
+          {"role": "background", "publisher": "CRE Daily", "headline": "One Miami World Site at Miami Worldcenter Hits The Market", "url": "https://www.credaily.com/briefs/one-miami-world-site-at-miami-worldcenter-hits-the-market/"}
         ]
       },
       {
-        "id": "theme-basquiat-pamm-heritage",
+        "id": "theme-dolphins-camp-opens-hafley",
+        "affinity": "morning",
+        "topic": "sports",
+        "topic_label": "Miami Sports",
+        "title": "Hafley's first camp opens tomorrow, a week after the rookies",
+        "importance": 0.55,
+        "thesis": "The Dolphins are running the slowest, most deliberate offseason in Miami sports this year, on purpose.",
+        "synthesis": "Dolphins veterans report Tuesday to the Baptist Health Training Complex in Miami Gardens, a week after rookies opened camp under first-year head coach Jeff Hafley and new general manager Jon-Eric Sullivan. Camp runs through August 26, with the first fan-facing practice set for August 2. This year's camp has a visibly different character than past seasons - a roster stripped down to journeyman veterans and a 13-man draft class, built around a short, deliberate rebuild rather than a push for the postseason.",
+        "new_today": "The confirmed report date, camp's full window through August 26, and the August 2 public-practice date - not previously specified in this edition's threads.",
+        "why_it_matters": "While the Heat and Panthers are built to win now, the Dolphins are the one Miami team explicitly not trying to - worth watching for how a fanbase used to urgency responds to patience.",
+        "thread_id": "thread-dolphins-hafley-rebuild",
+        "confidence": "high",
+        "sources": [
+          {"role": "primary_reporting", "publisher": "DolphinsTalk", "headline": "Location and Reporting Dates for Dolphins' 2026 Training Camp Revealed", "url": "https://dolphinstalk.com/2026/06/location-and-reporting-dates-for-dolphins-2026-training-camp-revealed/"},
+          {"role": "analysis", "publisher": "ESPN", "headline": "2026 Miami Dolphins training camp preview: What role will the draft class play?", "url": "https://www.espn.com/nfl/story/_/id/49096889/2026-miami-dolphins-training-camp-preview"}
+        ]
+      },
+      {
+        "id": "theme-jack-pierson-bass-miami-years",
         "affinity": "evening",
         "topic": "miami",
         "topic_label": "Miami Life & Culture",
-        "title": "Basquiat's Caribbean lines, on view through next summer",
-        "importance": 0.62,
-        "thesis": "Ten Basquiat works, on loan from a single collector, are a rare chance to see the artist's Haitian and Puerto Rican inheritance up close.",
-        "synthesis": "Basquiat: Figures, Signs, Symbols opened June 25 at Perez Art Museum Miami, drawing nine paintings and one sculpture from Ken Griffin's collection - the largest Basquiat presentation Florida has seen. The show, co-curated by Franklin Sirmans and Megan Kincaid, centers on Basquiat's use of portraiture, script, and language; among the works on view is Untitled (Tenant) (1982), a 74-by-96-inch acrylic and oil stick canvas. Basquiat's father was Haitian and his mother Puerto Rican, and that dual heritage runs through the show's language and symbol-driven pieces in ways rarely assembled at this scale outside New York.",
-        "new_today": "Not new this week, but newly relevant: with the exhibition running through June 2027, this is a standing recommendation rather than a closing-soon alert.",
-        "why_it_matters": "Miami's Caribbean and Latin American character shows up in its art collections as much as its restaurants; this is one of the more direct expressions of it on view right now.",
+        "title": "Jack Pierson's own Miami years, three weeks left to see them",
+        "importance": 0.6,
+        "thesis": "An artist who first came to Miami Beach in 1984 looking for a reprieve from New York built a whole show out of what that reprieve became.",
+        "synthesis": "Jack Pierson: The Miami Years has been on view at The Bass since last September and closes August 16. It's the first exhibition built specifically around Pierson's decades-long relationship with the city, beginning with a six-month stay in Miami Beach in the winter of 1984 that became, by his account, an incubator for both his work and his life; South Beach's queer nightlife and sun offered a counterweight to New York's pressure that he kept returning to. The show spans photography, sculpture, and installation, anchored by ARRAY (MIAMI), a ten-by-fourteen-foot collage of photographs, posters, and ephemera tracing those visits.",
+        "new_today": "Not new this week, but timely: with three weeks left before it closes, this moves from a standing recommendation to a last-call one.",
+        "why_it_matters": "Pierson emerged alongside Nan Goldin and David Armstrong documenting intimate, bohemian queer life in the early '90s; seeing that lens turned specifically on Miami is a different register than the city usually gets in its own art collections.",
         "thread_id": null,
-        "confidence": "medium",
+        "confidence": "high",
         "sources": [
-          {"role": "primary_reporting", "publisher": "Perez Art Museum Miami", "headline": "Basquiat: Figures, Signs, Symbols", "url": "https://www.pamm.org/en/exhibition/basquiat-figures-signs-symbols/"},
-          {"role": "background", "publisher": "ARTnews", "headline": "Record-Breaking $110.5 M. Basquiat Painting, Now Owned by Ken Griffin, to Go on View in Miami This Summer", "url": "https://www.artnews.com/art-news/news/basquiat-exhibition-pamm-ken-griffin-loan-1234779935/"}
+          {"role": "primary_reporting", "publisher": "The Bass", "headline": "Jack Pierson: The Miami Years", "url": "https://thebass.org/art/jack-pierson-the-miami-years/"},
+          {"role": "background", "publisher": "Aperture", "headline": "Jack Pierson Revisits His Miami Moment", "url": "https://aperture.org/editorial/jack-pierson-revisits-his-miami-moment"}
+        ]
+      },
+      {
+        "id": "theme-lhs1140b-atmosphere",
+        "affinity": "evening",
+        "topic": "living",
+        "topic_label": "Art of Living",
+        "title": "Forty-eight light-years out, a rocky planet turns out to have air",
+        "importance": 0.6,
+        "thesis": "The first confirmed atmosphere on a rocky, habitable-zone world answers a question astronomers have been asking since before they could actually test it.",
+        "synthesis": "Using Chile's Magellan Clay telescope across two observing windows in 2024 and 2025, a Harvard-led team detected helium escaping the upper atmosphere of LHS 1140 b, a super-Earth 48 light-years away orbiting a red dwarf within its star's habitable zone. The planet is 1.73 times Earth's radius and 5.6 times its mass; the escaping helium confirms it has held onto a real atmosphere for over three billion years, rather than having been stripped bare by its star, as most rocky planets this close in are assumed to be. It's the first time this detection method has worked on a rocky world at all.",
+        "new_today": "The published findings themselves - the paper appeared in Science on July 17, with coverage continuing to spread through the science press this week.",
+        "why_it_matters": "This is one of the harder open questions in exoplanet science actually getting resolved, not just modeled - a rare case of a prediction surviving contact with a real measurement, worth sitting with for its own sake.",
+        "thread_id": null,
+        "confidence": "high",
+        "sources": [
+          {"role": "primary_reporting", "publisher": "Space.com", "headline": "Astronomers discover 1st atmosphere around a rocky Earth-like planet in the habitable zone", "url": "https://www.space.com/astronomy/exoplanets/astronomers-discover-1st-atmosphere-around-a-rocky-earth-like-planet-in-the-habitable-zone"},
+          {"role": "background", "publisher": "EarthSky", "headline": "1st atmosphere detected on Earth-like, habitable-zone world", "url": "https://earthsky.org/space/1st-atmosphere-detected-on-rocky-habitable-zone-exoplanet-lhs-1140-b/"}
         ]
       }
     ],
     "rabbit_hole": {
-      "id": "rh-2026-07-26",
-      "title": "Re-reading Sartre's Lecture Existentialism Is a Humanism",
-      "creator": "Skye Cleary, Aeon",
+      "id": "rh-2026-07-27",
+      "title": "What We Think Is a Decline in Literacy Is a Design Problem",
+      "creator": "Carlo Iacono, Aeon",
       "format": "essay",
-      "minutes": 22,
-      "why": "Cleary revisits Sartre's 1945 defense of radical freedom - that we are not born with a fixed nature but define ourselves entirely through what we choose to do. It's a genuinely different philosophical register than the Stoicism this paper usually reaches for, worth the full sit precisely because it argues the opposite instinct: not acceptance, but responsibility for everything, including what feels forced.",
-      "url": "https://aeon.co/essays/re-reading-sartres-lecture-existentialism-is-a-humanism",
+      "minutes": 20,
+      "why": "Iacono's argument isn't that screens ruined reading - it's that we built an attention environment optimized to prevent exactly the sustained focus reading requires, then quietly blamed the reader for it. Worth the sit because it reframes a familiar complaint into a solvable design question rather than a moral one.",
+      "url": "https://aeon.co/essays/what-we-think-is-a-decline-in-literacy-is-a-design-problem",
       "related_interest": "living"
     },
     "beautiful_thing": {
-      "id": "bt-2026-07-26",
-      "title": "Untitled (ceramic mural)",
-      "creator": "Etel Adnan",
-      "era": "2023, conceived from a 2020 sketch",
-      "body": "At The Bass in Miami Beach, Etel Adnan's ceramic mural is built from 165 individual tiles, each 16 by 16 inches, assembled into a single work roughly 173 by 260 inches overall - the only mural of its kind by Adnan in the United States. Adnan, a Lebanese-American poet and painter who worked well into her nineties, conceived the piece from a 2020 sketch; its blocks of saturated color and simplified forms carry the same economy as her small oil-on-canvas landscapes, scaled up to architecture. Tonight is the last chance to see it - the installation, paired with new work by Sarah Crowner, closes for good after today.",
-      "url": "https://thebass.org/art/faire-foyer-sarah-crowner-in-dialogue-with-etel-adnan/",
+      "id": "bt-2026-07-27",
+      "title": "The Bass (formerly the Miami Beach Public Library and Art Center)",
+      "creator": "Russell Pancoast, architect",
+      "era": "1930, with additions through 1950",
+      "body": "Before it held art, this building held books: Russell Pancoast, grandson of Miami Beach founder John Collins, designed it as the city's public library and art center at the onset of the Great Depression, meant to inject civic pride into a young city. It's one of Miami Beach's first Art Deco buildings, but the material sets it apart from the ones that followed - oolitic limestone cladding with stepped massing and carved ornament that nods less to South Beach's later streamline moderne and more to Mesoamerican stonework from the Yucatan. Pancoast folded in three additions between 1937 and 1950 before the building became The Bass in 1964, and architect Arata Isozaki added a further wing in 2001.",
+      "url": "https://sah-archipedia.org/buildings/FL-01-086-0062",
       "image": null,
       "alt": null
     },
     "noticing_prompt": {
-      "id": "np-2026-07-26",
-      "text": "Notice one thing today that's ending without ceremony - a streak, an exhibit's last afternoon, a summer stretch running out - and watch how it changes your attention, knowing it won't come back."
+      "id": "np-2026-07-27",
+      "text": "Notice something today that's actually two weeks worse or two weeks better than it was, and ask whether you noticed it change in real time, or only now, looking back."
     },
     "daily_puzzle": {
-      "id": "dp-2026-07-26",
-      "type": "logic",
-      "prompt": "Three editors closed out last night's paper - Reyes, Voss, and Kim - each responsible for a different section (Markets, Sports, Culture), and each leaving the building at a different hour (6, 8, or 10 PM). Kim closed the Markets section. Whoever left at 6 PM closed Sports. Reyes left later than Voss. Kim left before Reyes. Who closed which section, and when did each leave?",
-      "hint": "Start with Kim's section, then ask what would have to be true if Reyes had closed Sports.",
-      "solution": "Voss closed Sports and left at 6 PM. Kim closed Markets and left at 8 PM. Reyes closed Culture and left at 10 PM.",
-      "explanation": "Kim has Markets from the first clue. If Reyes had closed Sports, the second clue would put Reyes at 6 PM - but the third clue requires Voss to leave earlier than Reyes, and nothing leaves before 6. So Voss closed Sports and left at 6, leaving Reyes with Culture. The last clue then fixes Kim at 8 and Reyes at 10."
+      "id": "dp-2026-07-27",
+      "type": "riddle",
+      "prompt": "Every morning, an editor races to beat me before 9:30. Every losing streak is just me, quietly working against one side of the scoreboard. You can waste me, spend me, or claim to kill me - but no one has ever actually made me stop. What am I?",
+      "hint": "It isn't money, and it isn't luck - both of those can run out. This can't.",
+      "solution": "Time.",
+      "explanation": "Every image in the prompt - a deadline, a streak, something 'wasted' or 'spent' or 'killed' - is really just time described differently; the one property none of those phrases can override is that it keeps moving regardless."
     },
     "evening_unwind": {
-      "id": "eu-2026-07-26",
+      "id": "eu-2026-07-27",
       "evening_quote": {
-        "text": "Confine yourself to the present.",
-        "attribution": "Marcus Aurelius",
-        "source": "Meditations, 8.7"
+        "text": "When the light has been removed and my wife has fallen silent, I examine my entire day and go back over what I've done and said.",
+        "attribution": "Seneca",
+        "source": "On Anger, Book III, 36"
       },
-      "evening_prompt": "LeBron's decision took seven weeks to build up and about as long as a text message to actually land - what's something you've been carrying that might resolve faster than it feels like it will?"
+      "evening_prompt": "The Marlins' streak became a record today, and the Iran pause quietly became a weekend - both took longer to arrive than they'll take to stop mattering; what from today will be in that second category by Wednesday?"
     },
     "reading_queue": [],
     "quote": {
-      "text": "The impediment to action advances action. What stands in the way becomes the way.",
+      "text": "Waste no more time arguing about what a good man should be. Be one.",
       "attribution": "Marcus Aurelius"
     }
   },
@@ -252,18 +258,19 @@
       "title": "US-Iran conflict and the Strait of Hormuz",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-07-26",
-      "updates": 8,
-      "current_state": "The US paused strikes on Iran overnight Friday into Saturday for the first time since the ceasefire collapsed, as Omani mediators arrived in Tehran to discuss Strait of Hormuz shipping. But Saturday, Houthi rebels fired dozens of missiles and drones at Saudi Aramco facilities in Jizan and Yanbu, opening a new front against Saudi oil infrastructure. Brent eased to about $96.80 Friday (-4%) but remains up over 12% on the week; markets reopen Monday with the Aramco strikes still unpriced.",
+      "last_updated": "2026-07-27",
+      "updates": 9,
+      "current_state": "The pause in direct US strikes on Iran carried through the weekend into Monday, with no new strikes reported and no further Houthi attacks since Saturday's strikes on Saudi Aramco facilities. Brent crude tumbled toward the mid-$80s Monday, down roughly 7% on the session, as Trump signaled openness to renewed talks with Tehran - the sharpest single-session pullback since the crisis began.",
       "timeline": [
         {"date": "2026-07-21", "summary": "First tracked: nine nights of US strikes, oil up about 20% this month, 10-day ceasefire being mediated.", "change_type": "new"},
         {"date": "2026-07-22", "summary": "10-day ceasefire formally proposed; US strikes continue, Iran calls it full-scale war, Brent tops $91, war cost estimated at $37.5B.", "change_type": "advanced"},
         {"date": "2026-07-22", "summary": "By Wednesday, strikes reach an eleventh consecutive night; Brent pushes past $92, reviving inflation concern.", "change_type": "worsened"},
         {"date": "2026-07-23", "summary": "Ceasefire proposal remains unadopted; Brent closes at $94.13, a five-week high; Strait transits fall to 25 ships from a peak of 49; Saudi coalition vows a forceful response to the Houthi blockade threat.", "change_type": "worsened"},
         {"date": "2026-07-24", "summary": "13th consecutive night of strikes; Iran hits Kuwait and the Houthis strike two Saudi tankers; Brent crosses $100 for the first time since May; Trump considers a 'massive attack'.", "change_type": "worsened"},
-        {"date": "2026-07-24", "summary": "Iran's Revolutionary Guard launches a fresh drone attack on Kuwait; sirens sound across Bahrain, Kuwait, and Qatar; Iran rejects an Iraqi-mediated ceasefire proposal; Trump says he's considering a 'massive attack, bigger than ever before'; Brent holds near $100.", "change_type": "worsened"},
+        {"date": "2026-07-24", "summary": "Iran's Revolutionary Guard launches a fresh drone attack on Kuwait; sirens sound across Bahrain, Kuwait, and Qatar; Iran rejects an Iraqi-mediated ceasefire proposal; Brent holds near $100.", "change_type": "worsened"},
         {"date": "2026-07-25", "summary": "US carries out no new strikes overnight for the first time since the ceasefire collapsed; an Omani delegation arrives in Tehran to discuss Strait of Hormuz shipping; Brent eases to about $96.80, down nearly 4% but still up over 12% on the week.", "change_type": "improved"},
-        {"date": "2026-07-25", "summary": "Iran-aligned Houthi rebels fire dozens of ballistic missiles and drones at Saudi Aramco facilities in Jizan and Yanbu, starting large fires; read as retaliation for Saudi strikes on a Houthi-held Yemeni coastal city.", "change_type": "worsened"}
+        {"date": "2026-07-25", "summary": "Iran-aligned Houthi rebels fire dozens of ballistic missiles and drones at Saudi Aramco facilities in Jizan and Yanbu, starting large fires; read as retaliation for Saudi strikes on a Houthi-held Yemeni coastal city.", "change_type": "worsened"},
+        {"date": "2026-07-27", "summary": "The pause holds through the weekend into Monday with no new strikes reported on either front; Brent tumbles toward the mid-$80s, down roughly 7% on the session, as Trump signals openness to renewed talks with Tehran.", "change_type": "improved"}
       ]
     },
     {
@@ -271,9 +278,9 @@
       "title": "Federal Reserve rate path",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-07-26",
-      "updates": 9,
-      "current_state": "FOMC meets Tuesday-Wednesday (Jul 28-29), decision 2 PM Wednesday, press conference from Fed Chair Kevin Warsh to follow. Friday's close was mixed - S&P +0.05% to 7,412, Nasdaq -0.64% to 24,976, 10Y flat at 4.69% - with hike odds easing slightly to about 34% (66% hold) from Thursday's post-selloff spike near 36.5%, still historically elevated two trading days out.",
+      "last_updated": "2026-07-27",
+      "updates": 10,
+      "current_state": "FOMC's two-day meeting begins Tuesday, decision due 2 PM Wednesday. Monday premarket, Dow/S&P futures are up about 0.8% and Nasdaq-100 futures near 1.6% on the oil pullback; the 10Y has eased to roughly 4.64%. CME FedWatch hike odds sit around 35% (65% hold), up from just 12% a week ago, while September odds have climbed to about 82%.",
       "timeline": [
         {"date": "2026-07-18", "summary": "Hike odds rising toward 46%; BofA sees three hikes by December.", "change_type": "advanced"},
         {"date": "2026-07-19", "summary": "Fed week arrives; positioning visible in Friday's chip-led selloff.", "change_type": "advanced"},
@@ -283,7 +290,8 @@
         {"date": "2026-07-23", "summary": "Wednesday's close confirmed as a reversal of Tuesday's rally (S&P -0.14%, Nasdaq -0.56%); 10Y up to 4.66%; FOMC odds still dispersed across sources.", "change_type": "watch"},
         {"date": "2026-07-24", "summary": "Sharp selloff on oil breaking $100 plus Tesla/Alphabet earnings: S&P -1.21%, Nasdaq -2.15%; 10Y to 4.70%, highest since Jan 2025; hike odds more than double to roughly 36.5%.", "change_type": "worsened"},
         {"date": "2026-07-24", "summary": "CME FedWatch hike odds confirmed at roughly 36.5% (63.5% hold); 10Y ticks to about 4.71% in Friday trading.", "change_type": "worsened"},
-        {"date": "2026-07-24", "summary": "Friday's close: S&P +0.05% to 7,412, Nasdaq -0.64% to 24,976 on continued tech weakness, 10Y flat at 4.69%; CME FedWatch hike odds ease slightly to about 34% (66% hold) heading into the weekend.", "change_type": "watch"}
+        {"date": "2026-07-24", "summary": "Friday's close: S&P +0.05% to 7,412, Nasdaq -0.64% to 24,976 on continued tech weakness, 10Y flat at 4.69%; CME FedWatch hike odds ease slightly to about 34% (66% hold) heading into the weekend.", "change_type": "watch"},
+        {"date": "2026-07-27", "summary": "Monday premarket: futures jump (Dow/S&P +0.8%, Nasdaq +1.6%) as oil craters; 10Y eases to about 4.64%; hike odds around 35% for Wednesday, September odds climb to about 82%.", "change_type": "improved"}
       ]
     },
     {
@@ -291,9 +299,9 @@
       "title": "Marlins wild card race",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-07-26",
-      "updates": 9,
-      "current_state": "Miami dropped both weekend games to San Diego, falling to 52-52 (.500) with an 11-game losing streak that ties the franchise record last set in June 2011. The collapse is dramatic in scope: Miami sat 10 games over .500 on July 9, on an 89-win pace. Today's series finale (1:40 PM, loanDepot Park) decides whether the Marlins snap the streak or set a new franchise worst at 12.",
+      "last_updated": "2026-07-27",
+      "updates": 10,
+      "current_state": "Miami lost again Sunday, 5-3 to San Diego, its twelfth straight loss - now an outright franchise record, surpassing the tie with June 2011. The Marlins fall to 52-53, their first losing record since mid-June, a complete reversal from sitting ten games over .500 on July 9. Off Monday before opening a series Tuesday.",
       "timeline": [
         {"date": "2026-07-18", "summary": "Hit the break 52-45, holding WC pole position.", "change_type": "new"},
         {"date": "2026-07-19", "summary": "Swept in Milwaukee; three straight losses out of the break.", "change_type": "worsened"},
@@ -302,7 +310,8 @@
         {"date": "2026-07-23", "summary": "Alcantara's start ends in a 5-2 loss as Alvarez and Paredes go deep back-to-back in the eighth, completing Houston's sweep; streak reaches nine straight. Off day Thursday before hosting the Padres Friday.", "change_type": "worsened"},
         {"date": "2026-07-24", "summary": "Confirmed: Miami is 52-51, 8.5 games back, ahead of Friday's opener.", "change_type": "watch"},
         {"date": "2026-07-24", "summary": "Lost to the Padres 4-2 Friday night, the 10th straight loss, first time since June 2011; Miami falls to 52-52, first .500 record since June 19.", "change_type": "worsened"},
-        {"date": "2026-07-25", "summary": "Lost again, 7-2, Ty France driving in three for San Diego; the streak reaches 11, tying the franchise record last matched in June 2011. Miami was 10 games over .500 as recently as July 9.", "change_type": "worsened"}
+        {"date": "2026-07-25", "summary": "Lost again, 7-2, Ty France driving in three for San Diego; the streak reaches 11, tying the franchise record last matched in June 2011. Miami was 10 games over .500 as recently as July 9.", "change_type": "worsened"},
+        {"date": "2026-07-27", "summary": "Lost Sunday 5-3 to San Diego, Machado and Merrill homering in the eighth to erase a three-run deficit; the streak reaches 12, an outright franchise record. Miami falls to 52-53, its first losing record since mid-June.", "change_type": "worsened"}
       ]
     },
     {
@@ -328,15 +337,16 @@
       "title": "Dolphins rebuild under Hafley",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-07-22",
-      "updates": 5,
-      "current_state": "Rookies reported this week; veterans report July 28. Jordyn Brooks signed a three-year, $51.3M extension Tuesday, the rebuild's third pillar commitment after Achane and Brewer. First joint practice confirmed for Aug. 12 at Washington; Giants visit Miami Gardens Aug. 20.",
+      "last_updated": "2026-07-27",
+      "updates": 6,
+      "current_state": "Veterans report Tuesday, July 28 to the Baptist Health Training Complex, a week after rookies opened camp. Camp runs through August 26, with the first fan-facing practice August 2. Jordyn Brooks' extension, the rookie class, and joint practices (Aug. 12 at Washington, Aug. 20 vs. Giants) remain the season's building blocks under Hafley and GM Jon-Eric Sullivan.",
       "timeline": [
         {"date": "2026-07-18", "summary": "Camp schedule announced.", "change_type": "new"},
         {"date": "2026-07-19", "summary": "Rookies report tomorrow.", "change_type": "advanced"},
         {"date": "2026-07-21", "summary": "Rookies reported; camp officially underway.", "change_type": "advanced"},
         {"date": "2026-07-22", "summary": "Jordyn Brooks signs three-year, $51.3M extension through 2029.", "change_type": "advanced"},
-        {"date": "2026-07-22", "summary": "Joint-practice schedule confirmed: Aug. 12 at Washington, Aug. 20 hosting the Giants.", "change_type": "advanced"}
+        {"date": "2026-07-22", "summary": "Joint-practice schedule confirmed: Aug. 12 at Washington, Aug. 20 hosting the Giants.", "change_type": "advanced"},
+        {"date": "2026-07-27", "summary": "Veterans confirmed to report Tuesday, July 28; camp runs through Aug. 26 with the first public practice Aug. 2.", "change_type": "advanced"}
       ]
     },
     {
@@ -382,12 +392,13 @@
       "id": "thread-miami-worldcenter-development",
       "title": "Miami Worldcenter's next phase",
       "topic": "markets",
-      "status": "emerging",
-      "last_updated": "2026-07-26",
-      "updates": 1,
-      "current_state": "Witkoff and Monroe Capital secured a $303M construction loan (Athene Annuity and J.P. Morgan) for phase one of 700 North Miami Avenue: an 894-unit tower plus retail and parking on the roughly five-acre former Miami Arena site. Three more towers (50-53 stories, Kobi Karp design) are planned for the same site.",
+      "status": "active",
+      "last_updated": "2026-07-27",
+      "updates": 2,
+      "current_state": "Witkoff and Monroe Capital's $303M construction loan for 700 North Miami Avenue is now joined by a separate listing: a two-acre site nearby, One Miami World, expected to fetch well over $100M versus its $44M 2020 purchase price - two different signals pointing the same way on this district's near-term prospects.",
       "timeline": [
-        {"date": "2026-07-26", "summary": "First tracked: $303M construction loan closes for phase one of 700 North Miami Avenue; full four-tower buildout planned for the old Miami Arena site.", "change_type": "new"}
+        {"date": "2026-07-26", "summary": "First tracked: $303M construction loan closes for phase one of 700 North Miami Avenue; full four-tower buildout planned for the old Miami Arena site.", "change_type": "new"},
+        {"date": "2026-07-27", "summary": "A separate two-acre parcel, One Miami World, is listed for sale via Cushman & Wakefield, expected to fetch well over $100M versus the $44M paid to assemble it in 2020.", "change_type": "advanced"}
       ]
     }
   ],
@@ -399,11 +410,12 @@
   ],
   "meta": {
     "content_freshness": {
-      "markets": "2026-07-24 close (Fri)",
-      "news": "2026-07-25/26 weekend",
-      "weather": "2026-07-26"
+      "markets": "2026-07-27 premarket (Mon)",
+      "news": "2026-07-25/27 weekend into Monday",
+      "weather": "2026-07-27"
     },
     "feedback_endpoint_mode": "github_contents",
-    "minimum_client_schema_version": 1
+    "minimum_client_schema_version": 1,
+    "mode": "brain"
   }
 }
