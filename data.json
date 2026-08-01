@@ -1,271 +1,243 @@
 {
   "schema_version": 2,
   "edition": {
-    "id": "2026-07-31",
-    "date": "2026-07-31",
+    "id": "2026-08-01",
+    "date": "2026-08-01",
     "type": "weekday",
-    "generated_at": "2026-07-31T09:30:00-04:00",
+    "generated_at": "2026-08-01T09:30:00-04:00",
     "timezone": "America/New_York",
     "title": "Personal OS",
     "front_page_letter": {
-      "greeting": "Good Friday",
+      "greeting": "Good Saturday",
       "body_paragraphs": [
-        "Thursday looked like relief after Wednesday's damage - the S&P jumped 1.7% to 7,437.64 and the Nasdaq 2.8% to 25,122.18, Microsoft alone up 15% on AI earnings that finally showed a payoff. But the bond market didn't join the party: the 10-year rose another 8 basis points to 4.704%, its highest close of the run, even as stocks celebrated. That's the second day in a row rates have refused to confirm what equities are telling you, with tomorrow's jobs report the next real test.",
-        "Iran's war took a similarly ambiguous turn. Tehran's army claims it struck US assets at bases in Kuwait and Bahrain overnight - neither government has confirmed it - and the US, notably, launched no fresh strikes for the first time since Wednesday's heavy wave. Read generously, that's a pause. Egypt, meanwhile, got its first taste of the conflict when a drone of unknown origin hit two gas vessels at its Damietta port. Oil eased anyway, down to $87.78, on early signs Hormuz shipping is recovering - a market betting on calm it can't yet verify.",
-        "Miami's stakes are smaller but real: the Marlins lost at the Mets to snap a three-game streak, and the trade-deadline noise around Otto Lopez got louder, with Boston reportedly eyeing a bigger package that includes catcher Liam Hicks. Three days to the deadline. And if you want something that isn't waiting on tomorrow's data, tonight's rabbit hole revisits Sartre's case that freedom and responsibility are inseparable - worth sitting with on a day when a Fed vote, a war room, and an unconfirmed Iranian claim all made decisions that landed on you anyway."
+        "Friday gave you a rerun of Thursday with a different star: Amazon jumped about 13% - its biggest single-day gain in over a decade - on an earnings beat, dragging the S&P up 0.7% to 7,489.72 and the Nasdaq up 1% to 25,373.85, and capping the Dow's fourth straight winning month. But the 10-year Treasury topped 4.70% for the first time since January 2025, and the 30-year hit its highest level since 2007. Two straight days now: stocks keep buying the AI trade, bonds keep pricing in something less comfortable, and neither is budging toward the other.",
+        "Yesterday's Iran 'pause' didn't survive the weekend. Kuwait's army says it intercepted a fresh wave of Iranian drones early this morning, aimed at a government facility and civilian vehicles - the attack Iran claimed Thursday and nobody had confirmed. Trump told his Cabinet at Camp David the US is planning new strikes on Iran 'as soon as this weekend.' Five months into a war that began with Ali Khamenei's assassination, only 28% of Americans approve of how he's handling it.",
+        "Closer to home: the Marlins beat the Mets 5-2 to move to 56-55, still alive for the Wild Card, while Cleveland joins Boston in calling about Otto Lopez - though the actual odds of a trade, per one insider, sit around 25% with two days left. And Miami's priciest office towers just crossed $200 a square foot for the first time, with Peter Thiel's family office paying a record $250 at 830 Brickell. If you want out of all of it tonight, tonight's rabbit hole makes the case that deep time, not headlines, is the only scale that actually explains where nuclear danger comes from - and where it might go."
       ],
       "read_only_three": [
-        {"target_type": "theme", "target_id": "theme-microsoft-led-markets-rally", "label": "Stocks roar back on Microsoft's AI earnings - but the bond market still isn't buying the all-clear"},
-        {"target_type": "theme", "target_id": "theme-iran-conflict-pause-claims", "label": "Iran claims new strikes on Kuwait and Bahrain; the US goes quiet for the first night since Wednesday"},
-        {"target_type": "rabbit_hole", "target_id": "rh-2026-07-31", "label": "Sartre's case that freedom and responsibility can't be separated - worth it on a day decisions kept landing on you"}
+        {"target_type": "theme", "target_id": "theme-iran-kuwait-drones-fresh-strikes-planned", "label": "Kuwait confirms the drone attack Iran claimed yesterday; Trump says new US strikes are coming this weekend"},
+        {"target_type": "theme", "target_id": "theme-amazon-earnings-second-rally-day", "label": "Amazon's ~13% surge extends the rally to a second day - the 10-year tops 4.70% for the first time since January 2025"},
+        {"target_type": "rabbit_hole", "target_id": "rh-2026-08-01", "label": "Why only deep time can make sense of nuclear-scale danger - a good companion for a five-month-old war"}
       ]
     },
     "market_context": [
-      {"label": "S&P 500", "value": "7,437.64", "change": "+1.70%", "observed": "Thu close 7/30", "note": "erased most of Wednesday's Fed-driven selloff, led by a tech rotation into AI-linked names after Microsoft's earnings beat"},
-      {"label": "Nasdaq", "value": "25,122.18", "change": "+2.80%", "observed": "Thu close 7/30", "note": "Microsoft alone rose about 15% on strong AI-earnings results; broader tech gained roughly 4%"},
-      {"label": "10Y Treasury", "value": "4.704%", "change": "+8bp", "observed": "Thu close 7/30", "note": "its highest close of the stretch - the bond market kept pricing in Fed-behind-the-curve risk even as equities rallied hard"},
-      {"label": "FOMC", "value": "Held, 3.50-3.75%", "change": "~54% odds of a hike at the Sept 16 meeting", "observed": "as of Thu morning 7/30, up from ~38% pre-decision", "note": "Friday's jobs report (Aug 1) is the next data point that could move these odds meaningfully"}
+      {"label": "S&P 500", "value": "7,489.72", "change": "+0.70%", "observed": "Fri close 7/31", "note": "second straight day of gains, capping the Dow's fourth straight winning month; markets are closed Saturday"},
+      {"label": "Nasdaq", "value": "25,373.85", "change": "+1.00%", "observed": "Fri close 7/31", "note": "Amazon's ~13% earnings-driven surge, its biggest single-day gain in over a decade, did for Friday what Microsoft did for Thursday"},
+      {"label": "10Y Treasury", "value": "~4.75%", "change": "topped 4.70% intraday/close", "observed": "Fri close 7/31", "note": "highest level since January 2025; the 30-year hit its highest since 2007. Sources vary slightly (4.74-4.75%) on the exact closing print"},
+      {"label": "FOMC", "value": "Held, 3.50-3.75%", "change": "~53% Polymarket odds of a 25bp hike at the Sept 15-16 meeting (vs. ~32% implied by SOFR futures)", "observed": "as of Sat morning 8/1", "note": "no jobs report today - August 1 is a Saturday, so the report shifts to the following Friday, Aug 7"}
     ],
     "public_day_context": {
-      "date_label": "Friday, July 31",
-      "weather": "Mostly sunny and hot, high near 92°F with humidity around 56%; drier air is keeping rain chances lower than typical for late July, but a moderate-to-major heat risk is forecast through the weekend.",
-      "public_event": "The Marlins play game two of their four-game series at the Mets tonight after Thursday's 4-2 loss, three days before the August 3 trade deadline; the Dolphins hold their second training camp practice, with the first fan-open practice set for August 2."
+      "date_label": "Saturday, August 1",
+      "weather": "Partly cloudy this morning near 85°F; a Heat Advisory is in effect for Miami-Dade and Broward from 11 AM to 6 PM with peak heat index values of 105-110°F, and scattered afternoon-into-evening storms are likely, especially along the coast.",
+      "public_event": "Miami Spice's discounted dining season kicks off today and runs through September 30; the Marlins continue their series at the Mets, and the Dolphins hold their first fan-open training camp practice tomorrow, August 2."
     },
     "what_changed": [
       {
-        "id": "delta-iran-kuwait-bahrain-claims-us-pause",
+        "id": "delta-iran-kuwait-drones-confirmed-fresh-strikes-planned",
         "thread_id": "thread-iran-hormuz-crisis",
-        "change_type": "advanced",
-        "title": "Iran claims strikes on Kuwait and Bahrain; the US pauses for the first night since Wednesday",
-        "previous_state": "The US launched a 'heavy wave' of strikes on Iran Wednesday night; Iran retaliated against Jordan and Kuwait, killing a worker in Kuwait, and Qatar formally condemned Iran's strikes as violations of sovereignty.",
-        "current_state": "Iran's army claims it struck US assets at Kuwait's Ahmad al-Jaber Air Base and Bahrain's Sheikh Isa Air Base overnight; neither government has confirmed the claims, and the US carried out no fresh strikes on Iran overnight - the first pause since Wednesday. Egypt says a drone of unknown origin hit two gas vessels at its Damietta port, a possible first sign the conflict is pulling in a new country.",
-        "why_it_matters": "An unconfirmed claim plus a US pause could be the start of a real lull, or just the gap before the next round - the distinction matters enormously for oil and rate-sensitive capital, and today's evidence doesn't yet settle it either way.",
-        "confidence": "medium",
-        "source": {"publisher": "Al Jazeera", "url": "https://www.aljazeera.com/news/liveblog/2026/7/31/iran-war-live-irgc-claims-retaliatory-attack-on-kuwait"}
+        "change_type": "worsened",
+        "title": "Kuwait confirms the drone attack Iran claimed yesterday; Trump says new US strikes are coming this weekend",
+        "previous_state": "Iran's army claimed unconfirmed strikes on Kuwait and Bahrain Thursday night; the US went a full night without new strikes, its first pause since Wednesday's heavy wave.",
+        "current_state": "Kuwait's army confirms it intercepted a fresh wave of Iranian drones early Saturday, aimed at a government facility and civilian vehicles; a tanker was separately hit by an unidentified projectile near Oman. Trump told his Cabinet at Camp David the US is planning new strikes on Iran 'as soon as this weekend.'",
+        "why_it_matters": "Yesterday's pause read like it might be the start of something real; less than 48 hours later, both sides are back to attacking and threatening to attack. The distinction between a lull and a gap between rounds keeps resolving the same way.",
+        "confidence": "high",
+        "source": {"publisher": "CNN", "url": "https://www.cnn.com/2026/08/01/world/live-news/iran-war-trump"}
       },
       {
-        "id": "delta-microsoft-earnings-rally-bonds-diverge",
+        "id": "delta-amazon-earnings-second-rally-day-yields-climb",
         "thread_id": "thread-fed-rate-path",
-        "change_type": "reversed",
-        "title": "Microsoft's earnings beat erases most of Wednesday's selloff - but bonds don't follow",
-        "previous_state": "Wednesday's Fed-driven selloff was compounded overnight by Meta's earnings miss; futures pointed to only a modest Thursday bounce as of Thursday morning.",
-        "current_state": "The S&P closed Thursday up 1.7% to 7,437.64 and the Nasdaq up 2.8% to 25,122.18, with Microsoft surging about 15% on AI-earnings results that finally showed a return on spending. The 10-year yield still rose another 8bp to 4.704%, its highest close of the run.",
-        "why_it_matters": "Equities just told you the AI-capex bet still works and the Fed scare is overblown; bonds are telling you neither of those things. For rate-sensitive CRE capital, the bond market's read is the one that matters, and it hasn't budged toward calm.",
+        "change_type": "advanced",
+        "title": "Amazon's ~13% surge extends the rally into a second day; the 10-year tops 4.70% for the first time since January 2025",
+        "previous_state": "Thursday's close saw Microsoft-driven gains nearly erase the post-Fed selloff, with the 10-year rising to 4.704%, its highest close of the stretch.",
+        "current_state": "Friday closed the S&P up 0.7% to 7,489.72 and the Nasdaq up 1% to 25,373.85 on an Amazon earnings beat (~13% single-day gain, its biggest in over a decade), capping the Dow's fourth straight winning month. The 10-year yield topped 4.70% for the first time since January 2025, and the 30-year hit its highest level since 2007.",
+        "why_it_matters": "Two straight days of the same divergence turns a curiosity into a pattern - equities and the AI trade keep getting bought, and the cost of capital keeps getting more expensive at the same time.",
         "confidence": "high",
         "source": {"publisher": "CNBC", "url": "https://www.cnbc.com/2026/07/30/stock-market-today-live-updates.html"}
       },
       {
-        "id": "delta-marlins-mets-loss-lopez-trade-heat",
+        "id": "delta-marlins-win-lopez-guardians-interest",
         "thread_id": "thread-marlins-wildcard",
         "change_type": "advanced",
-        "title": "Marlins lose at the Mets as the Otto Lopez trade market widens",
-        "previous_state": "Miami had won three straight, capped by a comeback sweep of the Phillies, and entered a four-game set at the Mets four days before the deadline.",
-        "current_state": "The Mets beat Miami 4-2 on Luis Robert Jr.'s eighth-inning two-run single, snapping Miami's streak. Separately, Boston is reportedly weighing a bigger package for Otto Lopez that could also include catcher Liam Hicks, after a wrist injury to Red Sox infielder Curtis Mead sharpened Boston's need - though Miami is described as still in a 'listening' stage rather than committed to moving him.",
-        "why_it_matters": "Three days from the deadline, the gap between 'listening' and 'committed' is exactly where Miami's front office has room to change its mind - a few more losses like Thursday's could tip it.",
+        "title": "Marlins beat the Mets again; Cleveland joins the Otto Lopez market with two days left",
+        "previous_state": "Miami lost to the Mets Thursday, snapping a three-game streak; Boston was reportedly weighing a bigger Lopez package including catcher Liam Hicks.",
+        "current_state": "Miami beat the Mets 5-2, improving to 56-55 and staying 2.5 games back of the final Wild Card spot. The Guardians have now also shown interest in Lopez, per new reporting, though insider Jon Morosi puts trade odds at roughly 25%, with most signals pointing toward Miami keeping him.",
+        "why_it_matters": "More suitors usually means a higher price, not a higher chance of a deal - worth watching whether Miami's front office reads it that way with two days left.",
         "confidence": "high",
-        "source": {"publisher": "ESPN", "url": "https://www.espn.com/mlb/boxscore/_/gameId/401816322"}
+        "source": {"publisher": "MLB Trade Rumors", "url": "https://www.mlbtraderumors.com/2026/07/marlins-trade-rumors-otto-lopez-xavier-edwards-heriberto-hernandez.html"}
       },
       {
-        "id": "delta-dolphins-camp-day-two",
-        "thread_id": "thread-dolphins-hafley-rebuild",
-        "change_type": "advanced",
-        "title": "Camp's toughest practice yet, with a pointed emphasis on discipline",
-        "previous_state": "Day One reporting covered Willie Gay Jr.'s pick-six, Achane's full participation, and small individual storylines like Austin Jackson's recovery and Michael Taaffe's interception.",
-        "current_state": "Practice two ran as Hafley's staff had flagged - the longest and hardest of the week - with a deliberate shift away from 7-on-7 drills toward individual and 11-on-11 work, and an explicit coaching emphasis on cutting down penalties this year.",
-        "why_it_matters": "A staff that names its own hardest practice in advance and states a penalty target out loud is telling you what it thinks cost this team games last year - a specific, checkable claim as the season approaches.",
-        "confidence": "high",
-        "source": {"publisher": "Yahoo Sports", "url": "https://sports.yahoo.com/articles/miami-dolphins-training-camp-practice-152227587.html"}
-      },
-      {
-        "id": "delta-miami-office-deals-pebb-wynwood",
+        "id": "delta-miami-office-rent-record-lease-leasing-surge",
         "thread_id": "thread-cre-capital-markets-2026",
         "change_type": "advanced",
-        "title": "Two fresh deals put real numbers behind Miami's rent story",
-        "previous_state": "The thread's most recent data point was aggregate: Miami's average asking office rent, at $59.66/sq ft, now the highest of any US market.",
-        "current_state": "Pebb Capital bought a seven-story, 97,500-sq-ft office building at 119 Washington Ave in Miami Beach, with ACORE Capital providing $69M in acquisition financing; separately, a Wynwood commercial sale at 380 and 320 NW 26th Street closed at $24.5M, the region's priciest trade that week.",
-        "why_it_matters": "These are individual transactions putting real dollar figures behind the aggregate rent data - useful ground truth for what buyers are actually paying for Miami product right now.",
+        "title": "Miami's top office towers cross $200/sqft as Q2 leasing jumps 45% year over year",
+        "previous_state": "The thread's most recent individual data points were two July closed transactions: a $69M-financed Miami Beach office purchase and a $24.5M Wynwood sale.",
+        "current_state": "Rents in Miami's most sought-after towers broke $200/sqft in July for the first time, anchored by Peter Thiel's family office paying a record $250/sqft at 830 Brickell. Citywide Q2 leasing activity jumped nearly 45% year-over-year to 1.3 million square feet.",
+        "why_it_matters": "A named record lease from a named tenant is about as concrete as this story gets - Manhattan-level rents, in a market that didn't have them five years ago.",
         "confidence": "high",
-        "source": {"publisher": "Commercial Real Estate Direct", "url": "https://crenews.com/2026/07/24/acore-lends-69mln-to-fund-purchase-of-miami-office/"}
+        "source": {"publisher": "World Red Eye", "url": "https://worldredeye.com/2026/07/wre-news-miami-now-has-the-highest-office-rents-in-the-u-s/"}
       }
     ],
     "themes": [
       {
-        "id": "theme-iran-conflict-pause-claims",
+        "id": "theme-iran-kuwait-drones-fresh-strikes-planned",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Iran claims new strikes on Kuwait and Bahrain - and the US goes quiet",
-        "importance": 0.88,
-        "thesis": "An unconfirmed Iranian claim plus a US night without new strikes could be the start of a real pause, or just the gap between rounds - and the market is choosing to believe the former without proof.",
-        "synthesis": "Iran's army says it struck US assets at Kuwait's Ahmad al-Jaber Air Base and Bahrain's Sheikh Isa Air Base overnight, targeting aircraft shelters, satellite communications, and support buildings, in response to Wednesday's 'heavy wave' of US strikes. Neither Kuwaiti nor Bahraini officials have confirmed the claims. The US, meanwhile, conducted no new strikes on Iran overnight - the first pause since the heavy wave began. Egypt says a drone of unknown origin hit two gas vessels at its Damietta port Wednesday, a possible first sign the war is drawing in a new country. Brent crude eased 1.4% to $87.78 Friday as Hormuz tanker traffic shows tentative signs of recovery.",
-        "new_today": "Iran's unconfirmed claims against Kuwait and Bahrain, the first quiet US night since Wednesday, and Egypt's Damietta port incident.",
-        "why_it_matters": "This is the first genuinely ambiguous signal in two weeks of escalation - unverified claims and a US pause instead of a clear reversal or a clear worsening - and oil is already pricing in the optimistic read before it's confirmed.",
+        "title": "Kuwait intercepts a fresh Iranian drone wave; Trump says new US strikes are coming 'as soon as this weekend'",
+        "importance": 0.87,
+        "thesis": "Yesterday's ambiguous pause turns out to have been exactly that - a pause - as Kuwait confirms the attack it and the US had left unconfirmed a day earlier, and Washington signals it's about to escalate again.",
+        "synthesis": "Kuwait's army says it intercepted and destroyed a fresh wave of Iranian drones early Saturday, aimed at a government facility and civilian vehicles; officials call it 'Iranian aggression' and report no casualties. Separately, a tanker was hit by an unidentified projectile near the Strait of Hormuz off Oman's coast. At a Camp David Cabinet meeting, Trump said the US is planning a new wave of strikes on Iran 'as soon as this weekend,' though officials cautioned the plan could still be called off, and repeated that 'at some point, they're going to say we just can't take it anymore.' The war is five months old - it began with the February 28 assassination of Supreme Leader Ali Khamenei - and only 28% of Americans approve of how Trump has handled it.",
+        "new_today": "Kuwait's confirmed drone interception, the Oman-area tanker incident, and Trump's Camp David comments signaling imminent new strikes.",
+        "why_it_matters": "Thursday and Friday's 'first pause since Wednesday' framing didn't hold even one more day - a pattern worth remembering the next time this war looks like it's cooling off, and directly relevant to the oil and rate exposure running through Alex's other markets reading.",
         "thread_id": "thread-iran-hormuz-crisis",
-        "confidence": "medium",
+        "confidence": "high",
         "sources": [
-          {"role": "primary_reporting", "publisher": "Al Jazeera", "headline": "Iran war live: IRGC claims 'retaliatory attack' on Kuwait", "url": "https://www.aljazeera.com/news/liveblog/2026/7/31/iran-war-live-irgc-claims-retaliatory-attack-on-kuwait"},
-          {"role": "analysis", "publisher": "CNBC", "headline": "Iran targets strategic U.S. assets in Kuwait, Bahrain after Egypt drone attack", "url": "https://www.cnbc.com/2026/07/31/us-iran-war-trump-hormuz.html"},
-          {"role": "background", "publisher": "CNBC", "headline": "Oil prices today: Strait of Hormuz crude flows recover, Trump's Iran tariff push", "url": "https://www.cnbc.com/2026/07/31/oil-prices-today-brent-wti-hormuz-trump-iran-.html"}
+          {"role": "primary_reporting", "publisher": "CNN", "headline": "Live updates: US-Iran war news; Trump warns fresh strikes on Iran are coming as Kuwait reports drone attacks", "url": "https://www.cnn.com/2026/08/01/world/live-news/iran-war-trump"},
+          {"role": "analysis", "publisher": "Middle East Eye", "headline": "Kuwaiti army intercepts Iranian drones", "url": "https://www.middleeasteye.net/live-blog/live-blog-update/kuwaiti-army-intercepts-iranian-drones-0"},
+          {"role": "background", "publisher": "Al Jazeera", "headline": "Iran war live: Tehran attacks Kuwait, threatens region with 'flames of war'", "url": "https://www.aljazeera.com/news/liveblog/2026/7/31/iran-war-live-iran-says-it-has-a-plan-to-respond-to-any-us-attacks"}
         ]
       },
       {
-        "id": "theme-microsoft-led-markets-rally",
+        "id": "theme-amazon-earnings-second-rally-day",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Microsoft's AI earnings erase Wednesday's selloff - bonds aren't celebrating",
-        "importance": 0.85,
-        "thesis": "Equities just re-priced the AI-capex bet as sound and the Fed scare as overblown; the bond market is refusing to agree with either verdict.",
-        "synthesis": "The S&P 500 closed Thursday up 1.7% to 7,437.64 and the Nasdaq up 2.8% to 25,122.18, nearly erasing Wednesday's worst-session-in-weeks selloff. Microsoft led the charge, surging roughly 15% after AI-linked earnings showed the spending is finally converting to profit, with broader tech up about 4%. But the 10-year Treasury yield rose another 8 basis points to 4.704%, its highest close of the stretch, even as stocks rallied - the same divergence that showed up Thursday morning has now held through a full close.",
-        "new_today": "Thursday's confirmed closing numbers, Microsoft's specific earnings-driven surge, and the 10-year's continued climb despite the equity rally.",
-        "why_it_matters": "Rates are the operating system of Alex's professional world; a bond market that keeps climbing through an equity rally is a clearer signal about the actual cost of capital than the stock market's mood swings.",
+        "title": "Amazon's ~13% surge extends the rally into a second day - the 10-year still isn't following",
+        "importance": 0.83,
+        "thesis": "Two straight days, two different Big Tech earnings beats, the same divergence: equities keep re-pricing higher while the 10-year keeps climbing right alongside them.",
+        "synthesis": "The S&P 500 closed Friday up 0.7% to 7,489.72 and the Nasdaq up 1% to 25,373.85, capping the Dow's fourth straight winning month, as Amazon shares jumped roughly 13% - the stock's biggest single-day gain in over a decade - on an earnings beat. It's the same shape as Thursday's Microsoft-driven rally. But the 10-year Treasury yield topped 4.70% for the first time since January 2025, and the 30-year hit its highest level since 2007. Oil also ticked up: Brent gained past $90 and WTI to $84.67, as Iran said Friday it struck two tankers transiting the Strait of Hormuz. Prediction markets now price roughly 53% odds of a 25bp hike at the September 15-16 FOMC meeting, well above the ~32% implied by SOFR futures and up from about 38% before July's hold vote.",
+        "new_today": "Friday's confirmed closing numbers, Amazon's specific earnings-driven surge, the 10-year crossing 4.70% for the first time since January 2025, and current prediction-market hike odds.",
+        "why_it_matters": "Two consecutive days of 'stocks up, bonds still selling off' is a pattern, not a one-day quirk - and for rate-sensitive CRE capital, the bond market's verdict is the one that compounds.",
         "thread_id": "thread-fed-rate-path",
         "confidence": "high",
         "sources": [
-          {"role": "primary_reporting", "publisher": "CNBC", "headline": "Nasdaq futures rise as tech stocks lead sharp Wall Street rebound: Live updates", "url": "https://www.cnbc.com/2026/07/30/stock-market-today-live-updates.html"},
-          {"role": "analysis", "publisher": "The Motley Fool", "headline": "Stock Market Midday, July 30: Microsoft Soars 15%, Boosting Tech Stocks", "url": "https://www.fool.com/coverage/stock-market-today/2026/07/30/stock-market-midday-july-30-microsoft-soars-15-boosting-tech-stocks/"},
-          {"role": "background", "publisher": "Yahoo Finance", "headline": "Treasury yields continue to rise as Wall Street calls out Fed's 'inflation credibility shock'", "url": "https://finance.yahoo.com/markets/article/treasury-yields-continue-to-rise-as-wall-street-calls-out-feds-inflation-credibility-shock-122430505.html"}
+          {"role": "primary_reporting", "publisher": "CNBC", "headline": "S&P 500 closes higher Friday as Amazon surges; Dow posts fourth straight winning month: Live updates", "url": "https://www.cnbc.com/2026/07/30/stock-market-today-live-updates.html"},
+          {"role": "analysis", "publisher": "TheStreet", "headline": "Stock Market Today (July 31, 2026): Dow edges higher as bond yields surge, Apple slides", "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-31-2026"},
+          {"role": "background", "publisher": "CNBC", "headline": "Oil prices rise after Iran says it attacked two tankers transiting Strait of Hormuz", "url": "https://www.cnbc.com/2026/07/31/oil-prices-today-brent-wti-hormuz-trump-iran-.html"}
         ]
       },
       {
-        "id": "theme-marlins-mets-loss-trade-heat",
+        "id": "theme-marlins-mets-win-lopez-market-widens",
         "affinity": "morning",
         "topic": "sports",
         "topic_label": "Miami Sports",
-        "title": "Miami's streak ends at the Mets as the Lopez trade market widens",
+        "title": "Marlins beat the Mets again as Cleveland joins Boston in the Otto Lopez market - two days from the deadline",
         "importance": 0.6,
-        "thesis": "A three-day-old winning streak just ended at exactly the wrong moment for a front office trying to decide whether it's a buyer, a seller, or neither.",
-        "synthesis": "The Mets beat Miami 4-2 Thursday on Luis Robert Jr.'s two-run single in the eighth, snapping the Marlins' three-game streak. Separately, Boston is reportedly considering a larger package for All-Star shortstop Otto Lopez that could also pull in catcher Liam Hicks, after a wrist injury sidelined Red Sox infielder Curtis Mead for 6-8 weeks and sharpened Boston's need. Miami, per one MLB insider, remains in a 'listening and feeling out' stage rather than committed to moving Lopez.",
-        "new_today": "Thursday's loss to the Mets and the specific detail that Boston's Lopez interest has widened to include Liam Hicks.",
-        "why_it_matters": "Three days before the deadline, Miami's front office is genuinely undecided - the next two games at Citi Field are as much a data point for Peter Bendix as they are for the standings.",
+        "thesis": "Same pattern as the last week: Miami keeps playing meaningful baseball while more teams call about its best trade chip.",
+        "synthesis": "Miami beat the Mets 5-2 at Citi Field, improving to 56-55 and staying 2.5 games back of the final NL Wild Card spot. Otto Lopez - hitting a major-league-leading .331 with 22 steals and his first All-Star selection - has now drawn interest from the Guardians in addition to the Red Sox, per new reporting, though MLB insider Jon Morosi still puts the odds of a trade at only about 25%, with 'all indications' pointing toward Lopez staying. The deadline is 6pm ET Monday, August 3.",
+        "new_today": "Friday/Saturday's 5-2 win, the Guardians' addition to the Lopez market, and Morosi's specific 25% trade-probability estimate.",
+        "why_it_matters": "Two days out, the numbers argue against a trade - Miami's actually playing meaningful baseball, and Lopez is having a career year - even as the rumor mill widens. Worth tracking which signal wins by Monday evening.",
         "thread_id": "thread-marlins-wildcard",
         "confidence": "high",
         "sources": [
-          {"role": "primary_reporting", "publisher": "ESPN", "headline": "Marlins vs. Mets (Jul 30, 2026) Box Score", "url": "https://www.espn.com/mlb/boxscore/_/gameId/401816322"},
-          {"role": "analysis", "publisher": "Boston.com", "headline": "Jeff Passan floats blockbuster trade for Red Sox and Marlins", "url": "https://www.boston.com/sports/boston-red-sox/2026/07/30/boston-red-sox-trade-rumors-deadline-miami-marlins-otto-lopez-liam-hicks/"},
-          {"role": "background", "publisher": "Heavy.com", "headline": "Red Sox Get Concerning Update on Marlins Otto Lopez Trade Rumors", "url": "https://heavy.com/sports/mlb/boston-red-sox/concerning-update-marlins-otto-lopez-rumors/"}
+          {"role": "primary_reporting", "publisher": "ESPN", "headline": "Miami Marlins @ New York Mets", "url": "https://www.espn.com/mlb/game/_/gameId/401816349/marlins-mets"},
+          {"role": "analysis", "publisher": "MLB Trade Rumors", "headline": "Marlins Open To Offers On Otto Lopez, Xavier Edwards", "url": "https://www.mlbtraderumors.com/2026/07/marlins-trade-rumors-otto-lopez-xavier-edwards-heriberto-hernandez.html"},
+          {"role": "background", "publisher": "Yahoo Sports", "headline": "Latest Marlins Trade Buzz: Otto Lopez", "url": "https://sports.yahoo.com/articles/latest-marlins-trade-buzz-otto-224926971.html"}
         ]
       },
       {
-        "id": "theme-dolphins-camp-day-two",
-        "affinity": "morning",
-        "topic": "sports",
-        "topic_label": "Miami Sports",
-        "title": "Camp's hardest practice yet comes with a pointed message on discipline",
-        "importance": 0.35,
-        "thesis": "A coaching staff that tells you in advance which practice will be hardest, and says out loud what it's trying to fix, is giving you a specific claim to check against the season.",
-        "synthesis": "Miami's second training camp practice ran Thursday as Hafley's staff had flagged - the longest and toughest session of the week - with a deliberate shift toward individual and 11-on-11 work over 7-on-7 drills, which Hafley says fosters bad habits. The staff has also set an explicit emphasis on cutting down penalties in 2026.",
-        "new_today": "Practice two's structure and Hafley's stated reasoning, plus the season-long penalty emphasis.",
-        "why_it_matters": "Coaches naming their own priorities out loud, this early, gives Alex a concrete thing to track as the season starts - not just vibes from camp reporting.",
-        "thread_id": "thread-dolphins-hafley-rebuild",
-        "confidence": "high",
-        "sources": [
-          {"role": "primary_reporting", "publisher": "Yahoo Sports", "headline": "Miami Dolphins training camp practice report: There were fumbles, INTs", "url": "https://sports.yahoo.com/articles/miami-dolphins-training-camp-practice-152227587.html"},
-          {"role": "background", "publisher": "ESPN", "headline": "2026 Miami Dolphins training camp: Latest intel, updates", "url": "https://www.espn.com/nfl/story/_/id/49410015/miami-dolphins-training-camp-2026-intel-updates"}
-        ]
-      },
-      {
-        "id": "theme-miami-cre-office-deals",
+        "id": "theme-miami-office-rents-record-lease-leasing-surge",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Two real deals put dollar figures behind Miami's rent story",
-        "importance": 0.58,
-        "thesis": "Aggregate rent data says Miami office space is now pricier than New York's; two individual transactions this month show what that actually looks like in a signed contract.",
-        "synthesis": "Pebb Capital, a Boca Raton investment manager, bought a seven-story, 97,500-sq-ft boutique office building at 119 Washington Ave in Miami Beach, with ACORE Capital providing $69M in acquisition financing. Separately, a Wynwood commercial sale at 380 and 320 NW 26th Street - roughly 13,000 sq ft combined - closed at $24.5M, the region's most expensive commercial trade that week.",
-        "new_today": "Both transactions' specific terms, sized against the broader Miami-rent story this edition has tracked since July 24.",
-        "why_it_matters": "Individual closed deals are harder to argue with than an aggregate rent index - this is what buyers are actually paying to own Miami product this month, not just what landlords are asking.",
+        "title": "Miami's priciest office towers cross $200/sqft for the first time as Q2 leasing jumps 45%",
+        "importance": 0.6,
+        "thesis": "The aggregate rent story keeps getting more specific: a named record lease, a named tenant, and now a leasing-volume number to go with it.",
+        "synthesis": "Rents in Miami's most sought-after office towers broke $200 a square foot in July, a level unheard of before the pandemic - anchored by Peter Thiel's family office, which is paying a record $250/sqft for roughly 18,200 square feet at 830 Brickell, the most expensive office lease in Miami-Dade County history. Q2 leasing activity citywide jumped nearly 45% year-over-year to 1.3 million square feet, with the average asking rent up 7% to $67.12/sqft - a different read than the $59.66/sqft figure this thread cited last week, reflecting different data methodology, but pointing the same direction.",
+        "new_today": "The $200/sqft threshold being crossed, the Thiel lease's specific terms, and the Q2 leasing-volume figures - first dedicated coverage of all three in this edition.",
+        "why_it_matters": "This is what 'highest office rents of any US market' looks like in a signed lease: Manhattan- and San Francisco-comparable rates in a market that didn't have them five years ago.",
         "thread_id": "thread-cre-capital-markets-2026",
         "confidence": "high",
         "sources": [
-          {"role": "primary_reporting", "publisher": "Commercial Real Estate Direct", "headline": "ACORE Lends $69Mln to Fund Purchase of Miami Office", "url": "https://crenews.com/2026/07/24/acore-lends-69mln-to-fund-purchase-of-miami-office/"},
-          {"role": "analysis", "publisher": "The Real Deal", "headline": "South Florida Top Real Estate Deals: July 27, 2026", "url": "https://therealdeal.com/miami/2026/07/28/south-florida-top-real-estate-deals-july-27-2026/"}
+          {"role": "primary_reporting", "publisher": "World Red Eye", "headline": "Miami Now Has the Highest Office Rents in the U.S.", "url": "https://worldredeye.com/2026/07/wre-news-miami-now-has-the-highest-office-rents-in-the-u-s/"},
+          {"role": "analysis", "publisher": "Bisnow", "headline": "Peter Thiel Takes Space At 830 Brickell For Family Office", "url": "https://www.bisnow.com/south-florida/news/office/peter-thiel-takes-space-at-830-brickell-for-family-office-134872"},
+          {"role": "background", "publisher": "The Real Deal", "headline": "Peter Thiel's family office revealed as tenant signing pricey lease at 830 Brickell", "url": "https://therealdeal.com/miami/2026/06/04/peter-thiels-family-office-inks-record-lease-at-830-brickell/"}
         ]
       },
       {
-        "id": "theme-brain-decisions-earlier-than-thought",
+        "id": "theme-amazonia-lost-civilization-lidar",
         "affinity": "evening",
         "topic": "living",
         "topic_label": "Art of Living",
-        "title": "New research says your brain decides earlier than the textbook model claims",
-        "importance": 0.45,
-        "thesis": "The tidy picture of decisions rising cleanly from sensation to judgment turns out to be wrong - even basic sensory regions are already shaping the verdict.",
-        "synthesis": "A study led by University of Illinois engineering professor Yurii Vlasov, published in the Proceedings of the National Academy of Sciences, found decision-related signals in the primary somatosensory cortex - a region traditionally thought to handle only basic sensory processing. Rather than information flowing strictly upward from sensation to the prefrontal cortex where a 'choice' gets made, the research shows rapid feedback loops in which higher brain regions shape even early sensory processing. The findings are drawing interest from AI researchers looking to design systems that think more like biological brains while using far less power.",
-        "new_today": "First dedicated coverage of the Vlasov PNAS findings in this edition.",
-        "why_it_matters": "It's a small, well-evidenced correction to a very confident old model of how choices get made - a useful thing to sit with on a day when a Fed vote and an unconfirmed military claim both reminded Alex how much of what shapes a decision happens before anyone notices they're deciding.",
+        "title": "LiDAR finds a civilization of millions hiding under the Amazon canopy",
+        "importance": 0.5,
+        "thesis": "The rainforest that looks like untouched wilderness turns out to be sitting on top of one of the largest ancient societies archaeology has found - proof that 'empty' is often just a failure of the instruments used to look.",
+        "synthesis": "Airborne laser scanning has revealed nearly 400 previously unknown earthwork sites across roughly 183,000 square kilometers of southwestern Amazonia, evidence of a multicultural civilization that flourished between 600 BCE and 850 CE and was home to millions of people. Researchers found monumental ceremonial architecture - the largest site spans 50 hectares - and extrapolate that the full territory could contain 24,000 to 30,000 such earthwork centers, far more than previously estimated. The findings, published in Nature, upend the old assumption that the pre-Columbian Amazon was too resource-poor to support large, complex societies.",
+        "new_today": "First dedicated coverage of the Nature LiDAR findings in this edition.",
+        "why_it_matters": "It's appreciation-worthy science with zero urgency attached to it - a real counterweight on a day built around a war that might restart by tomorrow, and a good prompt for how much of what looks empty is really just unmeasured.",
         "thread_id": null,
         "confidence": "high",
         "sources": [
-          {"role": "primary_reporting", "publisher": "ScienceDaily", "headline": "Scientists discovered the brain doesn't make decisions the way we thought", "url": "https://www.sciencedaily.com/releases/2026/07/260712011757.htm"},
-          {"role": "background", "publisher": "SciTechDaily", "headline": "New Research Challenges Long-Held Beliefs About How the Brain Makes Decisions", "url": "https://scitechdaily.com/new-research-challenges-long-held-beliefs-about-how-the-brain-makes-decisions/"}
+          {"role": "primary_reporting", "publisher": "Nature", "headline": "Earthworks spotted in the Amazon hint at huge ancient civilization", "url": "https://www.nature.com/articles/d41586-026-02367-x"},
+          {"role": "background", "publisher": "Scientific American", "headline": "Hundreds of Ancient, Never-Before-Seen 'Earthworks' Discovered in the Amazon", "url": "https://www.scientificamerican.com/article/hundreds-of-ancient-never-before-seen-earthworks-discovered-in-the-amazon/"}
         ]
       },
       {
-        "id": "theme-kikai-caldera-refilling",
+        "id": "theme-glymphatic-sleep-alzheimers-gene",
         "affinity": "evening",
         "topic": "living",
         "topic_label": "Art of Living",
-        "title": "A supervolcano that erupted 7,300 years ago is quietly refilling",
-        "importance": 0.4,
-        "thesis": "Deep time is still running underneath Japan, on a schedule that makes today's news cycle look like a rounding error.",
-        "synthesis": "Researchers at Kobe University used seismic surveys to detect a magma reservoir refilling beneath Japan's Kikai Caldera, the site of the largest Holocene-era eruption roughly 7,300 years ago. The reservoir sits unusually close to the surface, 2.5 to 6 kilometers down, and chemical analysis suggests the magma is newly injected rather than leftover material from the ancient eruption. The study doesn't suggest an eruption is imminent, but it offers a rare direct look at how giant caldera systems - including ones like Yellowstone - actually recharge over millennia.",
-        "new_today": "First dedicated coverage of the Kobe University findings in this edition.",
-        "why_it_matters": "It's a genuine piece of appreciation-worthy science with no urgency attached to it at all - a useful counterweight on a day otherwise built entirely around things that feel urgent right now.",
+        "title": "A single gene may decide how much a bad night's sleep costs your brain later",
+        "importance": 0.42,
+        "thesis": "Sleep's brain-cleaning function turns out to be genetically gated - the same lost night of sleep may matter far more for some people than others.",
+        "synthesis": "Researchers examined the AQP4 gene, which regulates fluid movement through the brain's glymphatic system - the overnight process that clears amyloid-beta and tau, the proteins associated with Alzheimer's. In a randomized crossover trial, normal sleep, compared with sleep deprivation, measurably increased overnight clearance of these Alzheimer's-linked biomarkers into blood plasma, and the effect appears to vary with AQP4 variants - meaning genetic risk for Alzheimer's may be amplified or dampened by sleep habits in ways specific to the individual.",
+        "new_today": "First dedicated coverage of the AQP4/glymphatic clearance findings in this edition.",
+        "why_it_matters": "It's a concrete mechanism, not just a correlation - a real answer to why 'sleep more' lands differently for different people, worth filing away against every future night that gets cut short for no good reason.",
         "thread_id": null,
         "confidence": "high",
         "sources": [
-          {"role": "primary_reporting", "publisher": "ScienceDaily", "headline": "One of Earth's most explosive supervolcanoes is recharging with fresh magma", "url": "https://www.sciencedaily.com/releases/2026/07/260725105644.htm"},
-          {"role": "background", "publisher": "ScienceAlert", "headline": "One of Earth's Most Explosive Volcanoes Is Quietly Refilling With Magma", "url": "https://www.sciencealert.com/one-of-earths-most-explosive-volcanoes-is-quietly-refilling-with-magma"}
+          {"role": "primary_reporting", "publisher": "Nature Communications", "headline": "The glymphatic system clears amyloid beta and tau from brain to plasma in humans", "url": "https://www.nature.com/articles/s41467-026-68374-8"},
+          {"role": "background", "publisher": "Newsweek", "headline": "Alzheimer's Risk May Be Determined by One Daily Habit Combined With Genes", "url": "https://www.newsweek.com/alzheimers-risk-may-determined-one-daily-habit-combined-genes-12118361"}
         ]
       }
     ],
     "rabbit_hole": {
-      "id": "rh-2026-07-31",
-      "title": "Re-reading Sartre's Lecture Existentialism Is a Humanism",
-      "creator": "Skye Cleary, Aeon Essays",
+      "id": "rh-2026-08-01",
+      "title": "Only the Deep Past Can Make Sense of Terrifying Nuclear Futures",
+      "creator": "Maria Stavrinaki, Aeon Essays",
       "format": "essay",
-      "minutes": 20,
-      "why": "Today handed you a Fed vote, an unconfirmed military claim, and a trade-deadline front office all making decisions that land on you without your input. Sartre's 1945 lecture argues the opposite isn't relief but a heavier kind of freedom - that even under conditions you didn't choose, you're still the one who has to decide what to make of them.",
-      "url": "https://aeon.co/essays/re-reading-sartres-lecture-existentialism-is-a-humanism",
+      "minutes": 22,
+      "why": "Five months into a war that started with an assassination and hasn't stopped escalating, it's worth reading a historian's case that we can only grasp nuclear-scale danger by first understanding deep time - the same geological thinking that produced the atomic age is the thinking we need to actually reckon with it.",
+      "url": "https://aeon.co/essays/only-the-deep-past-can-make-sense-of-terrifying-nuclear-futures",
       "related_interest": "living"
     },
     "beautiful_thing": {
-      "id": "bt-2026-07-31",
-      "title": "The cloud paintings of Baruj Salinas",
-      "creator": "Baruj Salinas",
-      "era": "1977, Barcelona",
-      "body": "Salinas, a Havana-born architect turned painter exiled from Cuba in 1959, spent the late 1970s in Barcelona working alongside Joan Miró and Antoni Tàpies, where he began a sustained series of abstract works built around clouds - a subject he returned to for decades, alongside a lifelong interest in cosmology. He co-founded the Grupo de Artistas Latinoamericanos in 1960s Miami and eventually settled back in Coral Gables, where he taught at Miami Dade College until his death in 2024. His work is held in the collections of the Art Institute of Chicago and the National Institute of Fine Arts in Mexico City.",
-      "url": "https://en.wikipedia.org/wiki/Baruj_Salinas",
+      "id": "bt-2026-08-01",
+      "title": "Vizcaya",
+      "creator": "Francis Burrall Hoffman Jr. (architecture), Diego Suárez (gardens)",
+      "era": "1914-1922, Miami",
+      "body": "James Deering, who made his fortune running International Harvester, built Vizcaya as a winter retreat on Biscayne Bay, moving in on Christmas Day, 1916. He hired architect Francis Burrall Hoffman Jr. to design a 34-room villa modeled on an Italian Renaissance estate, the young Colombian landscape architect Diego Suárez to lay out its formal gardens, and Paul Chalfin to assemble European antiques - many centuries older than the house itself - into new compositions throughout the rooms. Deering spent his final winters there before his death in 1925; his family later conveyed the estate to Miami-Dade County, and it was designated a National Historic Landmark in 1994.",
+      "url": "https://vizcaya.org/main-house/",
       "image": null,
       "alt": null
     },
     "noticing_prompt": {
-      "id": "np-2026-07-31",
-      "text": "Notice how fast today's rally turned Wednesday's panic into a footnote - then ask which of your own worries from a few days ago have already quietly become footnotes too."
+      "id": "np-2026-08-01",
+      "text": "Notice how easily 'the report comes out tomorrow' gets said as fact before anyone checks what day tomorrow actually is. What else are you taking on faith today that a five-second check would settle?"
     },
     "daily_puzzle": {
-      "id": "dp-2026-07-31",
-      "type": "math",
-      "prompt": "A runner improves her mile time by 10% on Monday, then improves that new time by another 10% on Tuesday. After both improvements, she's running a 6-minute-45-second mile. What was her time before Monday's improvement?",
-      "hint": "Two successive 10% cuts don't add up to a 20% cut - work out what they actually multiply the original time by, then undo that.",
-      "solution": "8 minutes 20 seconds. 6:45 is 405 seconds; two successive 10% reductions leave 0.9 x 0.9 = 0.81 of the original time, so 405 / 0.81 = 500 seconds, or 8:20.",
-      "explanation": "Percentage cuts compound multiplicatively, not additively - undoing them means dividing by the product of the factors, not adding the percentages back."
+      "id": "dp-2026-08-01",
+      "type": "logic",
+      "prompt": "Every month, on the first Friday, an economist wakes at 8:25 a.m. to catch the jobs report land at 8:30 sharp - a ritual she's kept for a decade. This month, she sleeps straight through it, and nothing is wrong: no missed report, no career change, no broken alarm clock. Why does she get to sleep in?",
+      "hint": "Not every month's first day falls on the same weekday.",
+      "solution": "This month's first day is a Saturday, not a Friday - the jobs report always lands on the first Friday of the month, and this month that doesn't arrive until the following week.",
+      "explanation": "'The first Friday of the month' isn't a fixed date - it drifts depending on what weekday the month happens to start on."
     },
     "evening_unwind": {
-      "id": "eu-2026-07-31",
+      "id": "eu-2026-08-01",
       "evening_quote": {
-        "text": "Seek not that the things which happen should happen as you wish; but wish the things which happen to be as they are, and you will have a tranquil flow of life.",
-        "attribution": "Epictetus",
-        "source": "Enchiridion, 8"
+        "text": "There are more things, Lucilius, likely to frighten us than there are to crush us; we suffer more often in imagination than in reality.",
+        "attribution": "Seneca",
+        "source": "Letters to Lucilius, 13"
       },
-      "evening_prompt": "Of today's two unresolved things - the market's bet that the war is pausing, the bond market's bet that the Fed isn't done - which one will you actually still be thinking about by Sunday?"
+      "evening_prompt": "Of today's warnings - the drones intercepted, the strikes still only promised - how much had already cost you something by dinner, and how much was only ever the imagining?"
     },
     "reading_queue": [
-      {"title": "U.S. Real Estate Market Outlook 2026: Capital Markets", "url": "https://www.cbre.com/insights/books/us-real-estate-market-outlook-2026/capital-markets", "verdict": "still_valuable", "reason": "Two more days of yield-vs-equity divergence make this capital-markets chapter more relevant, not less."},
-      {"title": "What We Think Is a Decline in Literacy Is a Design Problem", "url": "https://aeon.co/essays/what-we-think-is-a-decline-in-literacy-is-a-design-problem", "verdict": "weekend", "reason": "Still an unhurried read, well suited to the weekend now two days out."}
+      {"title": "U.S. Real Estate Market Outlook 2026: Capital Markets", "url": "https://www.cbre.com/insights/books/us-real-estate-market-outlook-2026/capital-markets", "verdict": "still_valuable", "reason": "Another day of record Miami office rents against a still-climbing 10-year makes the capital-markets chapter more relevant, not less."},
+      {"title": "What We Think Is a Decline in Literacy Is a Design Problem", "url": "https://aeon.co/essays/what-we-think-is-a-decline-in-literacy-is-a-design-problem", "verdict": "read_soon", "reason": "It's the weekend now - a good match for an unhurried read."}
     ],
     "quote": {
-      "text": "Waste no more time arguing about what a good man should be. Be one.",
+      "text": "The impediment to action advances action. What stands in the way becomes the way.",
       "attribution": "Marcus Aurelius"
     }
   },
@@ -275,9 +247,9 @@
       "title": "US-Iran conflict and the Strait of Hormuz",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-07-31",
-      "updates": 15,
-      "current_state": "Iran's army claims it struck US assets at Kuwait's Ahmad al-Jaber Air Base and Bahrain's Sheikh Isa Air Base overnight Thursday into Friday; neither government has confirmed the claims, and the US carried out no fresh strikes on Iran overnight - the first pause since Wednesday's 'heavy wave.' Egypt says a drone of unknown origin hit two gas vessels at its Damietta port, a possible first sign the conflict is drawing in a new country. Brent crude eased 1.4% to $87.78 Friday as Hormuz tanker traffic shows tentative signs of recovery.",
+      "last_updated": "2026-08-01",
+      "updates": 17,
+      "current_state": "Kuwait's army confirms it intercepted a fresh wave of Iranian drones early Saturday, aimed at a government facility and civilian vehicles; a tanker was separately hit by an unidentified projectile near Oman. Trump told his Cabinet at Camp David the US is planning new strikes on Iran 'as soon as this weekend.' The war, now five months old since the February 28 assassination of Supreme Leader Ali Khamenei, has only 28% approval for Trump's handling of it. Brent crude is back above $90 and WTI near $84.67 after Iran said Friday it struck two tankers transiting the Strait of Hormuz.",
       "timeline": [
         {"date": "2026-07-21", "summary": "First tracked: nine nights of US strikes, oil up about 20% this month, 10-day ceasefire being mediated.", "change_type": "new"},
         {"date": "2026-07-22", "summary": "10-day ceasefire formally proposed; US strikes continue, Iran calls it full-scale war, Brent tops $91, war cost estimated at $37.5B.", "change_type": "advanced"},
@@ -293,7 +265,9 @@
         {"date": "2026-07-30", "summary": "The US launches a 'heavy wave' of new strikes on Iran; Iranian state media reports at least three civilians killed. Iran retaliates against Jordan and Kuwait, killing a worker at a Chinese-owned building in Kuwait. Trump says it is now 'our turn' to hit Iran hard.", "change_type": "worsened"},
         {"date": "2026-07-30", "summary": "Qatar formally condemns Iran's strikes on Jordan and Kuwait as violations of sovereignty - the first significant regional diplomatic reaction against Tehran this round.", "change_type": "advanced"},
         {"date": "2026-07-31", "summary": "Iran's army claims strikes on US assets at Kuwait's Ahmad al-Jaber Air Base and Bahrain's Sheikh Isa Air Base; neither government confirms it. The US conducts no fresh strikes overnight - the first pause since Wednesday's heavy wave.", "change_type": "watch"},
-        {"date": "2026-07-31", "summary": "Egypt reports a drone of unknown origin hit two gas vessels at its Damietta port, a possible first sign the conflict is pulling in a new country; Brent eases 1.4% to $87.78 as Hormuz tanker traffic shows tentative recovery.", "change_type": "watch"}
+        {"date": "2026-07-31", "summary": "Egypt reports a drone of unknown origin hit two gas vessels at its Damietta port, a possible first sign the conflict is pulling in a new country; Brent eases 1.4% to $87.78 as Hormuz tanker traffic shows tentative recovery.", "change_type": "watch"},
+        {"date": "2026-08-01", "summary": "Kuwait's army confirms it intercepted a fresh wave of Iranian drones aimed at a government facility and civilian vehicles, the attack Iran claimed Thursday and nobody had confirmed. A tanker is hit by an unidentified projectile near Oman.", "change_type": "worsened"},
+        {"date": "2026-08-01", "summary": "At Camp David, Trump says the US is planning new strikes on Iran 'as soon as this weekend'; only 28% of Americans approve of his handling of the five-month-old war. Brent back above $90, WTI near $84.67.", "change_type": "worsened"}
       ]
     },
     {
@@ -301,9 +275,9 @@
       "title": "Federal Reserve rate path",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-07-31",
-      "updates": 16,
-      "current_state": "The FOMC voted 9-3 on July 29 to hold its target range at 3.50-3.75%; the three dissents (Hammack, Kashkari, Logan) preferred a hike. Thursday's close nearly erased the post-decision selloff - S&P +1.7% to 7,437.64, Nasdaq +2.8% to 25,122.18, led by a 15% Microsoft surge on strong AI earnings - but the 10-year yield still rose another 8bp to 4.704%, its highest close of the stretch, even as equities rallied. Odds of a hike at the September 16 meeting stood near 54% as of Thursday morning, up from about 38% pre-decision. Friday's jobs report (August 1) is the next major catalyst.",
+      "last_updated": "2026-08-01",
+      "updates": 18,
+      "current_state": "Friday closed the S&P up 0.7% to 7,489.72 and the Nasdaq up 1% to 25,373.85 on an Amazon earnings beat (~13% single-day gain, its biggest in over a decade), capping the Dow's fourth straight winning month - the same shape as Thursday's Microsoft-driven rally. The 10-year yield topped 4.70% for the first time since January 2025, and the 30-year hit its highest level since 2007. Prediction markets price roughly 53% odds of a 25bp hike at the September 15-16 FOMC meeting, versus about 32% implied by SOFR futures. No jobs report today - August's first Friday, and the next real catalyst, is August 7.",
       "timeline": [
         {"date": "2026-07-18", "summary": "Hike odds rising toward 46%; BofA sees three hikes by December.", "change_type": "advanced"},
         {"date": "2026-07-19", "summary": "Fed week arrives; positioning visible in Friday's chip-led selloff.", "change_type": "advanced"},
@@ -318,7 +292,9 @@
         {"date": "2026-07-29", "summary": "FOMC votes 9-3 to hold at 3.50-3.75%; Hammack, Kashkari, and Logan dissent in favor of a hike. Market reads the hold as hawkish-in-disguise: S&P -1.52% to 7,316.15, Nasdaq -1.74% to 24,442.94, 10Y up to roughly 4.66%.", "change_type": "new"},
         {"date": "2026-07-30", "summary": "Meta misses Q2 earnings on legal/severance charges and guides to $130-145B in AI capex this year; shares fall nearly 10%, adding a second worry to the Fed-driven selloff even as broader futures point to a Thursday bounce.", "change_type": "worsened"},
         {"date": "2026-07-30", "summary": "Thursday morning: 10Y holds near 4.68%, 30Y hits roughly 5.24% (a multidecade high); hike odds for the next meeting jump to about 54% from 38% pre-decision, even as equity futures rebound.", "change_type": "watch"},
-        {"date": "2026-07-30", "summary": "Thursday's close: S&P +1.7% to 7,437.64, Nasdaq +2.8% to 25,122.18, Microsoft up about 15% on AI earnings - nearly erasing the post-Fed selloff. The 10-year still rose 8bp to 4.704%, its highest close of the stretch.", "change_type": "reversed"}
+        {"date": "2026-07-30", "summary": "Thursday's close: S&P +1.7% to 7,437.64, Nasdaq +2.8% to 25,122.18, Microsoft up about 15% on AI earnings - nearly erasing the post-Fed selloff. The 10-year still rose 8bp to 4.704%, its highest close of the stretch.", "change_type": "reversed"},
+        {"date": "2026-08-01", "summary": "Friday's close: S&P +0.7% to 7,489.72, Nasdaq +1% to 25,373.85, Amazon up ~13% (its biggest single-day gain in over a decade) on an earnings beat - the Dow's fourth straight winning month. The 10-year topped 4.70% for the first time since January 2025; the 30-year hit its highest since 2007.", "change_type": "advanced"},
+        {"date": "2026-08-01", "summary": "Prediction markets price roughly 53% odds of a September 25bp hike, versus ~32% implied by SOFR futures. No jobs report today; the next release, for July, is pushed to Friday, August 7.", "change_type": "watch"}
       ]
     },
     {
@@ -326,9 +302,9 @@
       "title": "Marlins wild card race",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-07-31",
-      "updates": 16,
-      "current_state": "The Mets beat Miami 4-2 Thursday on Luis Robert Jr.'s eighth-inning two-run single, ending Miami's three-game winning streak. Boston is reportedly weighing a larger trade package for All-Star shortstop Otto Lopez that could also include catcher Liam Hicks, after a wrist injury sidelined Red Sox infielder Curtis Mead for 6-8 weeks; Miami is described as still in a 'listening and feeling out' stage on Lopez rather than committed to a deal. The club has said it will keep Alcantara, Eury Perez, Max Meyer, and Joe Mack, remains open on Edwards, Lopez, Hicks, and Hernandez, and could field calls on veteran relievers, three days before the August 3 deadline.",
+      "last_updated": "2026-08-01",
+      "updates": 18,
+      "current_state": "Miami beat the Mets 5-2 at Citi Field, improving to 56-55 and staying 2.5 games back of the final NL Wild Card spot. Otto Lopez - hitting a major-league-leading .331 with 22 steals and his first All-Star selection - has drawn interest from the Guardians in addition to the Red Sox, though insider Jon Morosi puts trade odds at roughly 25%, with most signals pointing toward Miami keeping him. The deadline is 6pm ET Monday, August 3.",
       "timeline": [
         {"date": "2026-07-18", "summary": "Hit the break 52-45, holding WC pole position.", "change_type": "new"},
         {"date": "2026-07-19", "summary": "Swept in Milwaukee; three straight losses out of the break.", "change_type": "worsened"},
@@ -344,7 +320,9 @@
         {"date": "2026-07-29", "summary": "Down 6-0, Miami completes the sweep of the Phillies with an 8-6 win, its biggest comeback of the season; Conine's go-ahead pinch-hit homer and two RBIs each from Lopez, Hernández, and Edwards. Miami improves to 55-54, three straight wins, opening at the Mets next.", "change_type": "improved"},
         {"date": "2026-07-30", "summary": "Deadline plan detail expands: Miami could also field calls on veteran relievers 31 or older - Anthony Bender, Michael Petersen, Lake Bachar, and John King - alongside the position-player names already in play, four days before the August 3 deadline.", "change_type": "advanced"},
         {"date": "2026-07-31", "summary": "Mets beat Miami 4-2 on Luis Robert Jr.'s eighth-inning two-run single, snapping Miami's three-game winning streak.", "change_type": "worsened"},
-        {"date": "2026-07-31", "summary": "Boston reportedly weighs a bigger package for Otto Lopez that could include catcher Liam Hicks, after a wrist injury sidelines Red Sox infielder Curtis Mead for 6-8 weeks; Miami remains in a 'listening' stage rather than committed to a deal, three days before the deadline.", "change_type": "advanced"}
+        {"date": "2026-07-31", "summary": "Boston reportedly weighs a bigger package for Otto Lopez that could include catcher Liam Hicks, after a wrist injury sidelines Red Sox infielder Curtis Mead for 6-8 weeks; Miami remains in a 'listening' stage rather than committed to a deal, three days before the deadline.", "change_type": "advanced"},
+        {"date": "2026-08-01", "summary": "Miami beats the Mets 5-2, improving to 56-55 and staying 2.5 games back of the final Wild Card spot.", "change_type": "improved"},
+        {"date": "2026-08-01", "summary": "The Guardians join Boston in showing interest in Otto Lopez; insider Jon Morosi puts the odds of a trade at roughly 25%, with most signals pointing toward Miami keeping him, two days before the deadline.", "change_type": "advanced"}
       ]
     },
     {
@@ -391,16 +369,17 @@
       "title": "Miami summer restaurant wave",
       "topic": "miami",
       "status": "active",
-      "last_updated": "2026-07-30",
-      "updates": 6,
-      "current_state": "Crisppi's opened a second Miami location in West Miami (a former Pollo Tropical drive-thru on SW Eighth Street) and Flight West opened in South Miami pairing live-fire cooking with an ambitious whiskey program, joining Manoli, Redhead Burger, Star Burger, and Stephen Starr's Slim's among this summer's arrivals. Fall list remains: Genghis Cohen, Royale Pizza Napoletana, Miami Slice, Levain Bakery.",
+      "last_updated": "2026-08-01",
+      "updates": 7,
+      "current_state": "Miami Spice's discounted dining season ($40 lunch/brunch, $50-65 dinner prix fixe) kicks off today and runs through September 30. Crisppi's opened a second Miami location in West Miami (a former Pollo Tropical drive-thru on SW Eighth Street) and Flight West opened in South Miami pairing live-fire cooking with an ambitious whiskey program, joining Manoli, Redhead Burger, Star Burger, and Stephen Starr's Slim's among this summer's arrivals. Fall list remains: Genghis Cohen, Royale Pizza Napoletana, Miami Slice, Levain Bakery.",
       "timeline": [
         {"date": "2026-07-18", "summary": "Nine most-anticipated openings named for summer.", "change_type": "new"},
         {"date": "2026-07-21", "summary": "Several openings confirmed live, including China Grill's actual location.", "change_type": "advanced"},
         {"date": "2026-07-22", "summary": "Manoli opens; fall 2026 anticipated list published.", "change_type": "advanced"},
         {"date": "2026-07-28", "summary": "Stephen Starr's Slim's opens at Bal Harbour Shops in the former Makoto space, one of several July arrivals across Brickell, Coconut Grove, and Coral Gables.", "change_type": "advanced"},
         {"date": "2026-07-29", "summary": "Crisppi's opens a second location in West Miami; Flight West opens in South Miami pairing live-fire cooking with an ambitious whiskey program.", "change_type": "advanced"},
-        {"date": "2026-07-30", "summary": "Both openings get their first dedicated edition coverage, including the detail that Crisppi's second location took over a former Pollo Tropical drive-thru on SW Eighth Street.", "change_type": "advanced"}
+        {"date": "2026-07-30", "summary": "Both openings get their first dedicated edition coverage, including the detail that Crisppi's second location took over a former Pollo Tropical drive-thru on SW Eighth Street.", "change_type": "advanced"},
+        {"date": "2026-08-01", "summary": "Miami Spice's discounted dining season opens citywide, running through September 30 with $40 lunch/brunch and $50-65 dinner prix-fixe menus.", "change_type": "advanced"}
       ]
     },
     {
@@ -420,15 +399,16 @@
       "title": "2026 CRE capital markets under pressure",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-07-31",
-      "updates": 5,
-      "current_state": "South Florida commercial sales volume remains down 13% year over year, and the summer's biggest single industrial deal - Waste Management's $379M purchase of 146 acres in Medley - was 96% seller-financed. Miami's average office asking rent, $59.66/sq ft, is now the highest of any US market, ahead of New York's $50.56. Two individual July deals put dollar figures behind that story: Pebb Capital's $69M-financed purchase of a Miami Beach office building, and a $24.5M Wynwood commercial sale.",
+      "last_updated": "2026-08-01",
+      "updates": 6,
+      "current_state": "South Florida commercial sales volume remains down 13% year over year, and the summer's biggest single industrial deal - Waste Management's $379M purchase of 146 acres in Medley - was 96% seller-financed. Rents in Miami's most sought-after office towers broke $200/sqft in July for the first time, anchored by Peter Thiel's family office paying a record $250/sqft at 830 Brickell - the most expensive office lease in county history. Q2 leasing citywide jumped nearly 45% year-over-year to 1.3 million square feet, with average asking rent readings ranging $59.66-$67.12/sqft depending on methodology, still the highest of any US market.",
       "timeline": [
         {"date": "2026-07-24", "summary": "First tracked: CBRE Q2 update shows deal volume down 24% YoY, construction spending below plan, hiring slowing.", "change_type": "new"},
         {"date": "2026-07-26", "summary": "South Florida-specific data surfaces: commercial sales volume down 13% year over year to $5.42B in H1 2026.", "change_type": "advanced"},
         {"date": "2026-07-28", "summary": "Waste Management pays $379M for 146 acres in Medley to build a landfill; $366M of the price, 96%, is seller financing rather than a bank loan.", "change_type": "advanced"},
         {"date": "2026-07-30", "summary": "A LoopNet analysis of roughly 5,000 office listings finds Miami's average asking rent, $59.66/sq ft, now the highest in the US, ahead of New York's $50.56 - a sign of how much capital has relocated to Miami since 2020 even as deal volume overall stays soft.", "change_type": "advanced"},
-        {"date": "2026-07-31", "summary": "Pebb Capital buys a Miami Beach office building with $69M in ACORE Capital financing; a Wynwood commercial parcel sells for $24.5M, the region's priciest trade that week - real transactions behind the aggregate rent data.", "change_type": "advanced"}
+        {"date": "2026-07-31", "summary": "Pebb Capital buys a Miami Beach office building with $69M in ACORE Capital financing; a Wynwood commercial parcel sells for $24.5M, the region's priciest trade that week - real transactions behind the aggregate rent data.", "change_type": "advanced"},
+        {"date": "2026-08-01", "summary": "Rents in Miami's top towers cross $200/sqft for the first time, anchored by Peter Thiel's family office paying a record $250/sqft at 830 Brickell; Q2 leasing citywide up nearly 45% YoY to 1.3M sq ft.", "change_type": "advanced"}
       ]
     },
     {
@@ -466,9 +446,9 @@
   ],
   "meta": {
     "content_freshness": {
-      "markets": "2026-07-31 (Fri; Thursday's close confirmed, Friday oil move fresh, jobs report pending Aug 1)",
-      "news": "2026-07-30/31",
-      "weather": "2026-07-31"
+      "markets": "2026-08-01 (Sat; Friday's close confirmed, markets closed today, no jobs report - next release Aug 7)",
+      "news": "2026-07-31/08-01",
+      "weather": "2026-08-01"
     },
     "feedback_endpoint_mode": "github_contents",
     "minimum_client_schema_version": 1,
