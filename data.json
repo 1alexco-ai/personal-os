@@ -1,243 +1,321 @@
 {
   "schema_version": 2,
   "edition": {
-    "id": "2026-08-01",
-    "date": "2026-08-01",
-    "type": "weekday",
-    "generated_at": "2026-08-01T09:30:00-04:00",
+    "id": "2026-08-02",
+    "date": "2026-08-02",
+    "type": "weekly",
+    "generated_at": "2026-08-02T09:30:00-04:00",
     "timezone": "America/New_York",
     "title": "Personal OS",
     "front_page_letter": {
-      "greeting": "Good Saturday",
+      "greeting": "Good Sunday",
       "body_paragraphs": [
-        "Friday gave you a rerun of Thursday with a different star: Amazon jumped about 13% - its biggest single-day gain in over a decade - on an earnings beat, dragging the S&P up 0.7% to 7,489.72 and the Nasdaq up 1% to 25,373.85, and capping the Dow's fourth straight winning month. But the 10-year Treasury topped 4.70% for the first time since January 2025, and the 30-year hit its highest level since 2007. Two straight days now: stocks keep buying the AI trade, bonds keep pricing in something less comfortable, and neither is budging toward the other.",
-        "Yesterday's Iran 'pause' didn't survive the weekend. Kuwait's army says it intercepted a fresh wave of Iranian drones early this morning, aimed at a government facility and civilian vehicles - the attack Iran claimed Thursday and nobody had confirmed. Trump told his Cabinet at Camp David the US is planning new strikes on Iran 'as soon as this weekend.' Five months into a war that began with Ali Khamenei's assassination, only 28% of Americans approve of how he's handling it.",
-        "Closer to home: the Marlins beat the Mets 5-2 to move to 56-55, still alive for the Wild Card, while Cleveland joins Boston in calling about Otto Lopez - though the actual odds of a trade, per one insider, sit around 25% with two days left. And Miami's priciest office towers just crossed $200 a square foot for the first time, with Peter Thiel's family office paying a record $250 at 830 Brickell. If you want out of all of it tonight, tonight's rabbit hole makes the case that deep time, not headlines, is the only scale that actually explains where nuclear danger comes from - and where it might go."
+        "Sunday closes out a week that spent five days promising escalation and one morning promising the opposite. Trump told his Cabinet at Camp David Friday that new strikes on Iran were coming 'as soon as this weekend'; by Sunday morning he'd cancelled them, citing an agreed framework to reopen the Strait of Hormuz after calls with Saudi Arabia's crown prince and pressure from Qatar, the UAE, Turkey, and Pakistan. Iran's own state media hasn't confirmed any of it, and Fars dismissed Trump's terms as a 'wish list.' Five months in, that gap between announcement and confirmation is the pattern worth remembering, not the announcement itself.",
+        "The market's read on all of it stayed unbothered through Friday's close - the S&P and Nasdaq extended their rally on Amazon's ~13% earnings surge, even as the 10-year topped 4.70% for the first time since January 2025. With markets shut all weekend, the next real test isn't the Iran headline but Friday's July jobs report, against Kalshi odds now favoring a September hike over a hold for the first time this cycle.",
+        "Locally, three clocks are running out at once: the Marlins - winners of six of their last seven - have about a day left before Monday's trade deadline decides Otto Lopez's summer; early voting opens tomorrow on Marine Stadium's restoration referendum; and Terra's marina application for the old Seaquarium site, 325 slips and a 500-boat dry stack, is now public alongside it. The Dolphins, by contrast, just opened camp to the public for the first time this season - a rare story this week with nothing left to decide.",
+        "The throughline: most of this week's biggest stories are open questions dressed as settled ones - worth treating this morning's calm as provisional, not resolved. Two housekeeping notes: no mobile feedback came in this week, so nothing below was starred by you, and this run couldn't reach the private notes that normally track your reading - so nothing was learned or adjusted either. Both resume once that connection is back."
       ],
       "read_only_three": [
-        {"target_type": "theme", "target_id": "theme-iran-kuwait-drones-fresh-strikes-planned", "label": "Kuwait confirms the drone attack Iran claimed yesterday; Trump says new US strikes are coming this weekend"},
-        {"target_type": "theme", "target_id": "theme-amazon-earnings-second-rally-day", "label": "Amazon's ~13% surge extends the rally to a second day - the 10-year tops 4.70% for the first time since January 2025"},
-        {"target_type": "rabbit_hole", "target_id": "rh-2026-08-01", "label": "Why only deep time can make sense of nuclear-scale danger - a good companion for a five-month-old war"}
+        {"target_type": "theme", "target_id": "theme-iran-strikes-cancelled-deal-pending", "label": "Trump cancels planned Iran strikes, citing a deal 'rapidly' coming together on Hormuz - Iran hasn't confirmed"},
+        {"target_type": "theme", "target_id": "theme-marlins-deadline-eve", "label": "Marlins win their sixth of seven, one day from a trade deadline that could still send Otto Lopez elsewhere"},
+        {"target_type": "rabbit_hole", "target_id": "rh-2026-08-02", "label": "What Socrates, Montaigne, and the Stoics actually meant by philosophy as a way of living, not just a doctrine"}
       ]
     },
     "market_context": [
-      {"label": "S&P 500", "value": "7,489.72", "change": "+0.70%", "observed": "Fri close 7/31", "note": "second straight day of gains, capping the Dow's fourth straight winning month; markets are closed Saturday"},
-      {"label": "Nasdaq", "value": "25,373.85", "change": "+1.00%", "observed": "Fri close 7/31", "note": "Amazon's ~13% earnings-driven surge, its biggest single-day gain in over a decade, did for Friday what Microsoft did for Thursday"},
-      {"label": "10Y Treasury", "value": "~4.75%", "change": "topped 4.70% intraday/close", "observed": "Fri close 7/31", "note": "highest level since January 2025; the 30-year hit its highest since 2007. Sources vary slightly (4.74-4.75%) on the exact closing print"},
-      {"label": "FOMC", "value": "Held, 3.50-3.75%", "change": "~53% Polymarket odds of a 25bp hike at the Sept 15-16 meeting (vs. ~32% implied by SOFR futures)", "observed": "as of Sat morning 8/1", "note": "no jobs report today - August 1 is a Saturday, so the report shifts to the following Friday, Aug 7"}
+      {"label": "S&P 500", "value": "7,489.72", "change": "+0.70%", "observed": "Fri close 7/31", "note": "no trading over the weekend; still the most recent print heading into Monday"},
+      {"label": "Nasdaq", "value": "25,373.85", "change": "+1.00%", "observed": "Fri close 7/31", "note": "Amazon's ~13% earnings-driven surge extended the rally to a second straight session"},
+      {"label": "10Y Treasury", "value": "~4.75%", "change": "closed above 4.70% Friday", "observed": "Fri close 7/31", "note": "highest level since January 2025; the 30-year hit its highest since 2007"},
+      {"label": "FOMC", "value": "Held, 3.50-3.75%", "change": "Kalshi: ~57% odds of a 25bp hike at the Sept 16 meeting, ~42% hold, ~2% cut", "observed": "as of Sun morning 8/2", "note": "up from ~53% on Polymarket Friday - platforms disagree on the exact number, but both point the same direction. July's jobs report, the next real catalyst, lands Friday Aug 7 at 8:30am ET; economists expect roughly 100,000-130,000 jobs added and unemployment holding at 4.2%"}
     ],
     "public_day_context": {
-      "date_label": "Saturday, August 1",
-      "weather": "Partly cloudy this morning near 85°F; a Heat Advisory is in effect for Miami-Dade and Broward from 11 AM to 6 PM with peak heat index values of 105-110°F, and scattered afternoon-into-evening storms are likely, especially along the coast.",
-      "public_event": "Miami Spice's discounted dining season kicks off today and runs through September 30; the Marlins continue their series at the Mets, and the Dolphins hold their first fan-open training camp practice tomorrow, August 2."
+      "date_label": "Sunday, August 2",
+      "weather": "Hot and humid with a high near 91°F and a low around 83°F overnight; expect afternoon-into-evening thunderstorms, typical for early August.",
+      "public_event": "The Dolphins hold their first public training camp practice today as part of the NFL's 'Back Together Weekend'; Miami Spice's discounted dining season continues through September 30; early voting for the Marine Stadium referendum begins tomorrow, August 3."
     },
     "what_changed": [
       {
-        "id": "delta-iran-kuwait-drones-confirmed-fresh-strikes-planned",
+        "id": "delta-iran-strikes-cancelled-deal-pending",
         "thread_id": "thread-iran-hormuz-crisis",
-        "change_type": "worsened",
-        "title": "Kuwait confirms the drone attack Iran claimed yesterday; Trump says new US strikes are coming this weekend",
-        "previous_state": "Iran's army claimed unconfirmed strikes on Kuwait and Bahrain Thursday night; the US went a full night without new strikes, its first pause since Wednesday's heavy wave.",
-        "current_state": "Kuwait's army confirms it intercepted a fresh wave of Iranian drones early Saturday, aimed at a government facility and civilian vehicles; a tanker was separately hit by an unidentified projectile near Oman. Trump told his Cabinet at Camp David the US is planning new strikes on Iran 'as soon as this weekend.'",
-        "why_it_matters": "Yesterday's pause read like it might be the start of something real; less than 48 hours later, both sides are back to attacking and threatening to attack. The distinction between a lull and a gap between rounds keeps resolving the same way.",
-        "confidence": "high",
-        "source": {"publisher": "CNN", "url": "https://www.cnn.com/2026/08/01/world/live-news/iran-war-trump"}
+        "change_type": "reversed",
+        "title": "Trump cancels the Iran strikes he'd promised Friday, citing a deal Iran hasn't confirmed",
+        "previous_state": "At Camp David Friday, Trump told his Cabinet the US was planning new strikes on Iran 'as soon as this weekend,' even as officials cautioned the plan could still be called off.",
+        "current_state": "Trump says he's cancelled the planned attack, citing an agreed framework to reopen the Strait of Hormuz after appeals from Saudi Arabia's MBS and pressure from Qatar, the UAE, Turkey, and Pakistan. Iranian state media has given no sign Iran agrees, and Iran's Fars news agency called Trump's terms a 'wish list.'",
+        "why_it_matters": "The war has reversed course like this before and not held. Worth watching whether Tehran says anything at all in the next few days, rather than reading Washington's framing as the full story.",
+        "confidence": "medium",
+        "source": {"publisher": "CNBC", "url": "https://www.cnbc.com/2026/08/02/trump-planned-attack-on-iran-canceled-after-reaching-outline-of-deal.html"}
       },
       {
-        "id": "delta-amazon-earnings-second-rally-day-yields-climb",
-        "thread_id": "thread-fed-rate-path",
-        "change_type": "advanced",
-        "title": "Amazon's ~13% surge extends the rally into a second day; the 10-year tops 4.70% for the first time since January 2025",
-        "previous_state": "Thursday's close saw Microsoft-driven gains nearly erase the post-Fed selloff, with the 10-year rising to 4.704%, its highest close of the stretch.",
-        "current_state": "Friday closed the S&P up 0.7% to 7,489.72 and the Nasdaq up 1% to 25,373.85 on an Amazon earnings beat (~13% single-day gain, its biggest in over a decade), capping the Dow's fourth straight winning month. The 10-year yield topped 4.70% for the first time since January 2025, and the 30-year hit its highest level since 2007.",
-        "why_it_matters": "Two straight days of the same divergence turns a curiosity into a pattern - equities and the AI trade keep getting bought, and the cost of capital keeps getting more expensive at the same time.",
-        "confidence": "high",
-        "source": {"publisher": "CNBC", "url": "https://www.cnbc.com/2026/07/30/stock-market-today-live-updates.html"}
-      },
-      {
-        "id": "delta-marlins-win-lopez-guardians-interest",
+        "id": "delta-marlins-win-again-deadline-tomorrow",
         "thread_id": "thread-marlins-wildcard",
         "change_type": "advanced",
-        "title": "Marlins beat the Mets again; Cleveland joins the Otto Lopez market with two days left",
-        "previous_state": "Miami lost to the Mets Thursday, snapping a three-game streak; Boston was reportedly weighing a bigger Lopez package including catcher Liam Hicks.",
-        "current_state": "Miami beat the Mets 5-2, improving to 56-55 and staying 2.5 games back of the final Wild Card spot. The Guardians have now also shown interest in Lopez, per new reporting, though insider Jon Morosi puts trade odds at roughly 25%, with most signals pointing toward Miami keeping him.",
-        "why_it_matters": "More suitors usually means a higher price, not a higher chance of a deal - worth watching whether Miami's front office reads it that way with two days left.",
+        "title": "Marlins beat the Mets again Saturday, 6-2 - one day now from the trade deadline",
+        "previous_state": "Miami beat the Mets 5-2 Friday, improving to 56-55, with the Guardians newly reported alongside Boston in the Otto Lopez market and Morosi's odds of a trade at roughly 25%.",
+        "current_state": "Miami won again Saturday, 6-2, on homers from Javier Sanoja and Griffin Conine, its sixth win in seven games. The trade deadline is 6pm ET Monday, August 3 - about a day away - with no reported change yet to Lopez's trade odds.",
+        "why_it_matters": "Every game Miami wins while contending makes the case for keeping Lopez, not selling him, a little stronger - the deadline will show which argument the front office actually believed.",
         "confidence": "high",
-        "source": {"publisher": "MLB Trade Rumors", "url": "https://www.mlbtraderumors.com/2026/07/marlins-trade-rumors-otto-lopez-xavier-edwards-heriberto-hernandez.html"}
+        "source": {"publisher": "MLB.com", "url": "https://www.mlb.com/gameday/marlins-vs-mets/2026/08/01/823594"}
       },
       {
-        "id": "delta-miami-office-rent-record-lease-leasing-surge",
-        "thread_id": "thread-cre-capital-markets-2026",
+        "id": "delta-fed-hike-odds-jobs-report-ahead",
+        "thread_id": "thread-fed-rate-path",
+        "change_type": "watch",
+        "title": "September hike odds edge higher on Kalshi as Friday's jobs report becomes the week's real catalyst",
+        "previous_state": "Friday morning, Polymarket priced roughly 53% odds of a 25bp September hike, versus about 32% implied by SOFR futures.",
+        "current_state": "Kalshi now prices about 57% odds of a hike, 42% hold, and 2% cut for the September 16 meeting. The two platforms disagree on the exact number, but both have moved the same direction since Wednesday's FOMC hold. July's jobs report - the next hard data point - is due Friday, August 7, with economists expecting roughly 100,000-130,000 jobs added and unemployment steady at 4.2%.",
+        "why_it_matters": "A prediction-market number moving on no new data is noise; a real jobs report moving it Friday would be signal. Worth knowing which one you're looking at.",
+        "confidence": "medium",
+        "source": {"publisher": "Kalshi", "url": "https://kalshi.com/markets/kxfeddecision/fed-meeting/kxfeddecision-26sep"}
+      },
+      {
+        "id": "delta-dolphins-first-public-practice",
+        "thread_id": "thread-dolphins-hafley-rebuild",
         "change_type": "advanced",
-        "title": "Miami's top office towers cross $200/sqft as Q2 leasing jumps 45% year over year",
-        "previous_state": "The thread's most recent individual data points were two July closed transactions: a $69M-financed Miami Beach office purchase and a $24.5M Wynwood sale.",
-        "current_state": "Rents in Miami's most sought-after towers broke $200/sqft in July for the first time, anchored by Peter Thiel's family office paying a record $250/sqft at 830 Brickell. Citywide Q2 leasing activity jumped nearly 45% year-over-year to 1.3 million square feet.",
-        "why_it_matters": "A named record lease from a named tenant is about as concrete as this story gets - Manhattan-level rents, in a market that didn't have them five years ago.",
+        "title": "Dolphins open training camp to the public for the first time this season",
+        "previous_state": "Camp's second practice ran Thursday behind closed doors, with a shift toward individual and 11-on-11 work and an emphasis on cutting penalties.",
+        "current_state": "Today's practice, part of the NFL's 'Back Together Weekend,' is free and open to fans for the first time this camp, showcasing new additions like quarterback Malik Willis and rookies Kadyn Proctor, Chris Johnson, Jacob Rodriguez, and Chris Bell.",
+        "why_it_matters": "The first look the public gets at Hafley's rebuild in person, four days before the Hard Rock Stadium practice and three weeks before the Giants joint practice.",
         "confidence": "high",
-        "source": {"publisher": "World Red Eye", "url": "https://worldredeye.com/2026/07/wre-news-miami-now-has-the-highest-office-rents-in-the-u-s/"}
+        "source": {"publisher": "Local 10 News", "url": "https://www.local10.com/sports/local/2026/07/08/dolphins-training-camp-2026-dates-times-and-what-fans-need-to-know/"}
+      },
+      {
+        "id": "delta-seaquarium-marina-marine-stadium-vote",
+        "thread_id": "thread-marine-stadium-referendum",
+        "change_type": "new",
+        "title": "Virginia Key's public waterfront faces two decisions this week - a marina application at the old Seaquarium, early voting on Marine Stadium",
+        "previous_state": "The Marine Stadium referendum thread had tracked only the deal terms and the August 18 vote date; no coverage yet of the adjacent Seaquarium site's redevelopment.",
+        "current_state": "Terra Group and David Martin have applied to build what could be Miami-Dade's largest marina at the shuttered Seaquarium - 325 slips, a 500-boat dry stack, a fuel depot - with potential late-2026 groundbreaking pending environmental review. Separately, early voting on Marine Stadium's 40-year management referendum begins tomorrow, August 3, running through August 16 ahead of the August 18 vote.",
+        "why_it_matters": "Same stretch of public waterfront, two separate decisions about who gets to use it, both moving in the same week - worth tracking as one story, not two.",
+        "confidence": "high",
+        "source": {"publisher": "WLRN", "url": "https://www.wlrn.org/environment/2026-07-09/seaquarium-mega-yachts-marine-park"}
+      },
+      {
+        "id": "delta-panthers-markstrom-schmid",
+        "thread_id": null,
+        "change_type": "new",
+        "title": "Panthers rebuild their goaltending, trading for Jacob Markstrom and re-signing Akira Schmid",
+        "previous_state": "No prior coverage of Panthers goaltending moves in this edition.",
+        "current_state": "Florida acquired Jacob Markstrom, 36, and forward prospect Angus Crookshank from New Jersey for Evan Rodrigues, Jesper Boqvist, and Ben Steeves - a homecoming for Markstrom, who Florida originally drafted in 2008. Separately, the Panthers avoided an arbitration hearing with Akira Schmid, signing him to a new deal that likely slots him as backup behind Markstrom.",
+        "why_it_matters": "A quieter, cheaper version of the roster churn the Heat went through this summer - worth a line for a team that's been to the Cup final as recently as anyone in the sport.",
+        "confidence": "high",
+        "source": {"publisher": "NHL.com", "url": "https://www.nhl.com/news/new-jersey-devils-trade-goalie-jacob-markstrom-to-florida-panthers"}
       }
     ],
     "themes": [
       {
-        "id": "theme-iran-kuwait-drones-fresh-strikes-planned",
+        "id": "theme-iran-strikes-cancelled-deal-pending",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Kuwait intercepts a fresh Iranian drone wave; Trump says new US strikes are coming 'as soon as this weekend'",
-        "importance": 0.87,
-        "thesis": "Yesterday's ambiguous pause turns out to have been exactly that - a pause - as Kuwait confirms the attack it and the US had left unconfirmed a day earlier, and Washington signals it's about to escalate again.",
-        "synthesis": "Kuwait's army says it intercepted and destroyed a fresh wave of Iranian drones early Saturday, aimed at a government facility and civilian vehicles; officials call it 'Iranian aggression' and report no casualties. Separately, a tanker was hit by an unidentified projectile near the Strait of Hormuz off Oman's coast. At a Camp David Cabinet meeting, Trump said the US is planning a new wave of strikes on Iran 'as soon as this weekend,' though officials cautioned the plan could still be called off, and repeated that 'at some point, they're going to say we just can't take it anymore.' The war is five months old - it began with the February 28 assassination of Supreme Leader Ali Khamenei - and only 28% of Americans approve of how Trump has handled it.",
-        "new_today": "Kuwait's confirmed drone interception, the Oman-area tanker incident, and Trump's Camp David comments signaling imminent new strikes.",
-        "why_it_matters": "Thursday and Friday's 'first pause since Wednesday' framing didn't hold even one more day - a pattern worth remembering the next time this war looks like it's cooling off, and directly relevant to the oil and rate exposure running through Alex's other markets reading.",
+        "title": "Trump cancels planned Iran strikes, citing a deal 'rapidly' coming together on Hormuz - Iran hasn't confirmed",
+        "importance": 0.9,
+        "thesis": "After a week of escalating threats culminating in a promise of imminent new strikes, Trump abruptly calls them off, claiming the outline of a deal to reopen the Strait of Hormuz - but Tehran's own state media gives no sign it agrees.",
+        "synthesis": "Trump told reporters he cancelled a planned attack on Iran after Saudi Crown Prince Mohammed bin Salman and other regional leaders - Qatar, the UAE, Turkey, Pakistan - pressed for de-escalation, and said the 'perimeters of a deal' had been agreed, centered on the immediate, total reopening of the Strait of Hormuz and an end to Iran's nuclear ambitions. Iranian state media gave no indication Tehran had requested the halt or changed its position on the strait, and the Fars news agency, close to Iran's Revolutionary Guard, dismissed Trump's terms as a 'wish list.' The war, five months old since the February 28 assassination of Supreme Leader Ali Khamenei, has followed this shape before: a announced pause that doesn't survive confirmation.",
+        "new_today": "Trump's cancellation announcement, the claimed deal framework on Hormuz, MBS's Saturday call with Trump, and Iran's non-confirmation via Fars.",
+        "why_it_matters": "This is the most consequential of the war's several 'pauses' so far because it comes with an actual claimed framework, not just a quiet night - but the pattern all week was promise-then-reversal, and this is a promise from only one side of the conflict. Directly upstream of the oil and rate exposure running through the rest of this edition.",
         "thread_id": "thread-iran-hormuz-crisis",
-        "confidence": "high",
+        "confidence": "medium",
         "sources": [
-          {"role": "primary_reporting", "publisher": "CNN", "headline": "Live updates: US-Iran war news; Trump warns fresh strikes on Iran are coming as Kuwait reports drone attacks", "url": "https://www.cnn.com/2026/08/01/world/live-news/iran-war-trump"},
-          {"role": "analysis", "publisher": "Middle East Eye", "headline": "Kuwaiti army intercepts Iranian drones", "url": "https://www.middleeasteye.net/live-blog/live-blog-update/kuwaiti-army-intercepts-iranian-drones-0"},
-          {"role": "background", "publisher": "Al Jazeera", "headline": "Iran war live: Tehran attacks Kuwait, threatens region with 'flames of war'", "url": "https://www.aljazeera.com/news/liveblog/2026/7/31/iran-war-live-iran-says-it-has-a-plan-to-respond-to-any-us-attacks"}
+          {"role": "primary_reporting", "publisher": "CNBC", "headline": "Trump says he has canceled a planned attack on Iran after reaching an agreement over the 'perimeters of a deal'", "url": "https://www.cnbc.com/2026/08/02/trump-planned-attack-on-iran-canceled-after-reaching-outline-of-deal.html"},
+          {"role": "analysis", "publisher": "NPR", "headline": "Trump says he's cancelling Iran strikes, deal pending", "url": "https://www.npr.org/2026/08/02/nx-s1-5917113/trump-says-hes-cancelling-iran-strikes-deal-pending"},
+          {"role": "counterpoint", "publisher": "Al Jazeera", "headline": "Iran war live: Tehran warns of 'decisive response' to any US-Israeli aggression", "url": "https://www.aljazeera.com/news/liveblog/2026/8/2/iran-war-live-tehran-warns-of-decisive-response-to-any-us-aggression"}
         ]
       },
       {
-        "id": "theme-amazon-earnings-second-rally-day",
+        "id": "theme-fed-hike-odds-jobs-report-ahead",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Amazon's ~13% surge extends the rally into a second day - the 10-year still isn't following",
-        "importance": 0.83,
-        "thesis": "Two straight days, two different Big Tech earnings beats, the same divergence: equities keep re-pricing higher while the 10-year keeps climbing right alongside them.",
-        "synthesis": "The S&P 500 closed Friday up 0.7% to 7,489.72 and the Nasdaq up 1% to 25,373.85, capping the Dow's fourth straight winning month, as Amazon shares jumped roughly 13% - the stock's biggest single-day gain in over a decade - on an earnings beat. It's the same shape as Thursday's Microsoft-driven rally. But the 10-year Treasury yield topped 4.70% for the first time since January 2025, and the 30-year hit its highest level since 2007. Oil also ticked up: Brent gained past $90 and WTI to $84.67, as Iran said Friday it struck two tankers transiting the Strait of Hormuz. Prediction markets now price roughly 53% odds of a 25bp hike at the September 15-16 FOMC meeting, well above the ~32% implied by SOFR futures and up from about 38% before July's hold vote.",
-        "new_today": "Friday's confirmed closing numbers, Amazon's specific earnings-driven surge, the 10-year crossing 4.70% for the first time since January 2025, and current prediction-market hike odds.",
-        "why_it_matters": "Two consecutive days of 'stocks up, bonds still selling off' is a pattern, not a one-day quirk - and for rate-sensitive CRE capital, the bond market's verdict is the one that compounds.",
+        "title": "Rate-hike odds edge above 55% for September as Friday's jobs report becomes the week's real catalyst",
+        "importance": 0.72,
+        "thesis": "With markets closed all weekend, the interesting number isn't Friday's confirmed close - it's what prediction markets are pricing for a decision six weeks out, and what Friday's jobs report will do to that number.",
+        "synthesis": "Friday's close stands: S&P 500 up 0.7% to 7,489.72, Nasdaq up 1% to 25,373.85 on Amazon's ~13% earnings-driven surge, the Dow's fourth straight winning month, and the 10-year yield above 4.70% for the first time since January 2025. Prediction markets have kept drifting hawkish since Wednesday's FOMC hold: Kalshi now prices roughly 57% odds of a 25bp hike at the September 16 meeting versus 42% for a hold and just 2% for a cut, up from Polymarket's 53% hike reading Friday morning. The next actual data, not sentiment, arrives Friday, August 7 at 8:30am ET with July's jobs report - economists expect roughly 100,000-130,000 jobs added and unemployment holding at 4.2%, versus June's 57,000 net jobs.",
+        "new_today": "Kalshi's updated hike/hold/cut split and the specific consensus forecast for Friday's jobs report.",
+        "why_it_matters": "Two straight days of stocks up and yields up was a pattern last week; the market now pricing a hike as more likely than a hold is a genuinely new place for this cycle to be, and for rate-sensitive CRE capital, it's the number that compounds.",
         "thread_id": "thread-fed-rate-path",
         "confidence": "high",
         "sources": [
-          {"role": "primary_reporting", "publisher": "CNBC", "headline": "S&P 500 closes higher Friday as Amazon surges; Dow posts fourth straight winning month: Live updates", "url": "https://www.cnbc.com/2026/07/30/stock-market-today-live-updates.html"},
-          {"role": "analysis", "publisher": "TheStreet", "headline": "Stock Market Today (July 31, 2026): Dow edges higher as bond yields surge, Apple slides", "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-31-2026"},
-          {"role": "background", "publisher": "CNBC", "headline": "Oil prices rise after Iran says it attacked two tankers transiting Strait of Hormuz", "url": "https://www.cnbc.com/2026/07/31/oil-prices-today-brent-wti-hormuz-trump-iran-.html"}
+          {"role": "primary_reporting", "publisher": "CNBC", "headline": "S&P 500 closes higher Friday as Amazon surges; Dow posts fourth straight winning month", "url": "https://www.cnbc.com/2026/07/30/stock-market-today-live-updates.html"},
+          {"role": "analysis", "publisher": "Kalshi", "headline": "Fed decision in September - odds & predictions", "url": "https://kalshi.com/markets/kxfeddecision/fed-meeting/kxfeddecision-26sep"},
+          {"role": "background", "publisher": "Kiplinger", "headline": "What to Look Out for in Economic Data This Week (August 3-7)", "url": "https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar"}
         ]
       },
       {
-        "id": "theme-marlins-mets-win-lopez-market-widens",
+        "id": "theme-marlins-deadline-eve",
         "affinity": "morning",
         "topic": "sports",
         "topic_label": "Miami Sports",
-        "title": "Marlins beat the Mets again as Cleveland joins Boston in the Otto Lopez market - two days from the deadline",
+        "title": "Marlins win their sixth of seven, one day from a trade deadline that could still send Otto Lopez elsewhere",
         "importance": 0.6,
-        "thesis": "Same pattern as the last week: Miami keeps playing meaningful baseball while more teams call about its best trade chip.",
-        "synthesis": "Miami beat the Mets 5-2 at Citi Field, improving to 56-55 and staying 2.5 games back of the final NL Wild Card spot. Otto Lopez - hitting a major-league-leading .331 with 22 steals and his first All-Star selection - has now drawn interest from the Guardians in addition to the Red Sox, per new reporting, though MLB insider Jon Morosi still puts the odds of a trade at only about 25%, with 'all indications' pointing toward Lopez staying. The deadline is 6pm ET Monday, August 3.",
-        "new_today": "Friday/Saturday's 5-2 win, the Guardians' addition to the Lopez market, and Morosi's specific 25% trade-probability estimate.",
-        "why_it_matters": "Two days out, the numbers argue against a trade - Miami's actually playing meaningful baseball, and Lopez is having a career year - even as the rumor mill widens. Worth tracking which signal wins by Monday evening.",
+        "thesis": "Miami keeps making the strongest possible case against trading its best player, right up to the day the front office has to decide whether it agrees.",
+        "synthesis": "Miami beat the Mets 6-2 Saturday on home runs from Javier Sanoja and Griffin Conine, its sixth win in its last seven games. Otto Lopez - hitting near .330 with career highs in hits and doubles and his first All-Star selection - remains in trade talks with the Red Sox and Guardians, though MLB insider Jon Morosi still puts the odds of a deal at roughly 25%. The deadline is 6pm ET Monday, August 3.",
+        "new_today": "Saturday's 6-2 win and the team's sixth-win-in-seven streak heading into deadline day.",
+        "why_it_matters": "By Monday evening this either resolves or it doesn't - either way, this is the last edition before the deadline outcome is known.",
         "thread_id": "thread-marlins-wildcard",
         "confidence": "high",
         "sources": [
-          {"role": "primary_reporting", "publisher": "ESPN", "headline": "Miami Marlins @ New York Mets", "url": "https://www.espn.com/mlb/game/_/gameId/401816349/marlins-mets"},
-          {"role": "analysis", "publisher": "MLB Trade Rumors", "headline": "Marlins Open To Offers On Otto Lopez, Xavier Edwards", "url": "https://www.mlbtraderumors.com/2026/07/marlins-trade-rumors-otto-lopez-xavier-edwards-heriberto-hernandez.html"},
-          {"role": "background", "publisher": "Yahoo Sports", "headline": "Latest Marlins Trade Buzz: Otto Lopez", "url": "https://sports.yahoo.com/articles/latest-marlins-trade-buzz-otto-224926971.html"}
+          {"role": "primary_reporting", "publisher": "MLB.com", "headline": "MLB Gameday: Marlins 6, Mets 2 Final Score", "url": "https://www.mlb.com/gameday/marlins-vs-mets/2026/08/01/823594"},
+          {"role": "analysis", "publisher": "Yahoo Sports", "headline": "Latest Marlins Trade Buzz: Otto Lopez", "url": "https://sports.yahoo.com/articles/latest-marlins-trade-buzz-otto-224926971.html"},
+          {"role": "background", "publisher": "MLB.com", "headline": "When is the MLB Trade Deadline 2026? Date, time, candidates, storylines", "url": "https://www.mlb.com/news/when-is-the-mlb-trade-deadline-2026-date-time-candidates-storylines"}
         ]
       },
       {
-        "id": "theme-miami-office-rents-record-lease-leasing-surge",
+        "id": "theme-virginia-key-waterfront-crossroads",
+        "affinity": "morning",
+        "topic": "miami",
+        "topic_label": "Miami Life & Culture",
+        "title": "Virginia Key's public waterfront faces two decisions this week - superyachts at the old Seaquarium, a rebuilt Marine Stadium",
+        "importance": 0.62,
+        "thesis": "Two separate decisions about the same stretch of public waterfront - the shuttered Seaquarium's marina redevelopment and Marine Stadium's management referendum - both reach key moments in the same week.",
+        "synthesis": "The Seaquarium closed in October 2025 after 70 years; developer David Martin's Terra Group bought the lease for $22.5 million and has applied to build what could be Miami-Dade's largest marina - 325 slips (about 90 for yachts over 80 feet), a 500-boat dry stack, a fuel depot, and floating docks extending partway across the channel - alongside a Fishermen's Village-style restaurant district and public baywalk. Environmental regulators have raised concerns about wetlands, coral, and water quality; if approved, demolition could begin late 2026 with an opening target around 2029. A short distance away, early voting opens tomorrow, August 3, on Referendum #172, a 40-year deal letting Global Spectrum/Oak View Group and Breakwater Hospitality manage a restored Marine Stadium; the city would keep 93% of event revenue and 85% of sponsorship income, with $10 million upfront and a separate $65-85 million restoration bond to follow. The vote is August 18.",
+        "new_today": "First dedicated coverage of the Seaquarium marina application's specific scope, and the start of early voting on the Marine Stadium referendum.",
+        "why_it_matters": "Two very different visions for public waterfront access, decided within weeks of each other on the same peninsula - worth tracking together for anyone who cares how Miami's shoreline gets used.",
+        "thread_id": "thread-marine-stadium-referendum",
+        "confidence": "high",
+        "sources": [
+          {"role": "primary_reporting", "publisher": "WLRN", "headline": "Out with the Seaquarium and in with mega yachts? The new plan for the old marine park", "url": "https://www.wlrn.org/environment/2026-07-09/seaquarium-mega-yachts-marine-park"},
+          {"role": "analysis", "publisher": "Axios Miami", "headline": "What to know about Miami Marine Stadium referendum", "url": "https://www.axios.com/local/miami/2026/07/29/miami-marine-stadium-referendum-election"},
+          {"role": "background", "publisher": "Ballotpedia", "headline": "Miami, Florida, Referendum 2, Management Agreement with Global Spectrum (August 2026)", "url": "https://ballotpedia.org/Miami,_Florida,_Referendum_2,_Management_Agreement_with_Global_Spectrum_to_Manage_Events_at_Miami_Marine_Stadium_and_Flex_Park_Measure_(August_2026)"}
+        ]
+      },
+      {
+        "id": "theme-miami-office-rents-weekly-recap",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Miami's priciest office towers cross $200/sqft for the first time as Q2 leasing jumps 45%",
-        "importance": 0.6,
-        "thesis": "The aggregate rent story keeps getting more specific: a named record lease, a named tenant, and now a leasing-volume number to go with it.",
-        "synthesis": "Rents in Miami's most sought-after office towers broke $200 a square foot in July, a level unheard of before the pandemic - anchored by Peter Thiel's family office, which is paying a record $250/sqft for roughly 18,200 square feet at 830 Brickell, the most expensive office lease in Miami-Dade County history. Q2 leasing activity citywide jumped nearly 45% year-over-year to 1.3 million square feet, with the average asking rent up 7% to $67.12/sqft - a different read than the $59.66/sqft figure this thread cited last week, reflecting different data methodology, but pointing the same direction.",
-        "new_today": "The $200/sqft threshold being crossed, the Thiel lease's specific terms, and the Q2 leasing-volume figures - first dedicated coverage of all three in this edition.",
-        "why_it_matters": "This is what 'highest office rents of any US market' looks like in a signed lease: Manhattan- and San Francisco-comparable rates in a market that didn't have them five years ago.",
+        "title": "Miami's office market keeps compounding: a record $250/sqft lease, and now the citywide average is setting records too",
+        "importance": 0.58,
+        "thesis": "The top-of-market record from Peter Thiel's 830 Brickell lease isn't an outlier - the citywide average asking rent is now at an all-time high as well.",
+        "synthesis": "Miami's full-service asking office rent reached an all-time high of $63.63 per square foot this quarter, up 2.0% from Q1 and 6.3% year over year, with 429,712 square feet of positive absorption in Q2 - a different figure than the $200/sqft trophy-tower rate or the $59.66-67.12/sqft range cited by other sources last week, reflecting different methodologies across trophy, class-A, and full-service averages, but all pointing the same direction.",
+        "new_today": "This quarter's specific full-service asking-rent and absorption figures, first dedicated coverage in this edition.",
+        "why_it_matters": "However it's measured, Miami's office market keeps setting records at every level - trophy towers and citywide averages alike - five years after most of this capital arrived.",
         "thread_id": "thread-cre-capital-markets-2026",
-        "confidence": "high",
+        "confidence": "medium",
         "sources": [
-          {"role": "primary_reporting", "publisher": "World Red Eye", "headline": "Miami Now Has the Highest Office Rents in the U.S.", "url": "https://worldredeye.com/2026/07/wre-news-miami-now-has-the-highest-office-rents-in-the-u-s/"},
-          {"role": "analysis", "publisher": "Bisnow", "headline": "Peter Thiel Takes Space At 830 Brickell For Family Office", "url": "https://www.bisnow.com/south-florida/news/office/peter-thiel-takes-space-at-830-brickell-for-family-office-134872"},
-          {"role": "background", "publisher": "The Real Deal", "headline": "Peter Thiel's family office revealed as tenant signing pricey lease at 830 Brickell", "url": "https://therealdeal.com/miami/2026/06/04/peter-thiels-family-office-inks-record-lease-at-830-brickell/"}
+          {"role": "primary_reporting", "publisher": "TenantBase", "headline": "Miami Commercial Real Estate Market Report - Focus: Q2 2026 Market Trends", "url": "https://www.tenantbase.com/miami-fort-lauderdale/q2-2026/"},
+          {"role": "background", "publisher": "World Red Eye", "headline": "Miami Now Has the Highest Office Rents in the U.S.", "url": "https://worldredeye.com/2026/07/wre-news-miami-now-has-the-highest-office-rents-in-the-u-s/"}
         ]
       },
       {
-        "id": "theme-amazonia-lost-civilization-lidar",
-        "affinity": "evening",
-        "topic": "living",
-        "topic_label": "Art of Living",
-        "title": "LiDAR finds a civilization of millions hiding under the Amazon canopy",
-        "importance": 0.5,
-        "thesis": "The rainforest that looks like untouched wilderness turns out to be sitting on top of one of the largest ancient societies archaeology has found - proof that 'empty' is often just a failure of the instruments used to look.",
-        "synthesis": "Airborne laser scanning has revealed nearly 400 previously unknown earthwork sites across roughly 183,000 square kilometers of southwestern Amazonia, evidence of a multicultural civilization that flourished between 600 BCE and 850 CE and was home to millions of people. Researchers found monumental ceremonial architecture - the largest site spans 50 hectares - and extrapolate that the full territory could contain 24,000 to 30,000 such earthwork centers, far more than previously estimated. The findings, published in Nature, upend the old assumption that the pre-Columbian Amazon was too resource-poor to support large, complex societies.",
-        "new_today": "First dedicated coverage of the Nature LiDAR findings in this edition.",
-        "why_it_matters": "It's appreciation-worthy science with zero urgency attached to it - a real counterweight on a day built around a war that might restart by tomorrow, and a good prompt for how much of what looks empty is really just unmeasured.",
+        "id": "theme-dolphins-camp-opens-to-fans",
+        "affinity": "morning",
+        "topic": "sports",
+        "topic_label": "Miami Sports",
+        "title": "Dolphins open training camp to the public for the first time this season",
+        "importance": 0.48,
+        "thesis": "Hafley's rebuild gets its first public checkpoint, four practices and eleven days after veterans reported.",
+        "synthesis": "Today's practice, part of the NFL's 'Back Together Weekend,' is free and open to fans for the first time this camp, starting at 9:30am and showcasing new additions - quarterback Malik Willis and rookies Kadyn Proctor, Chris Johnson, Jacob Rodriguez, and Chris Bell - alongside the returning core already flagged this week: Willie Gay Jr.'s pick-six, Tyreek-adjacent depth pieces, and Achane back after offseason shoulder surgery. The next public dates are a Hard Rock Stadium practice August 8 and a joint practice with the Giants August 20; camp runs through August 26.",
+        "new_today": "The first public practice itself and the specific rookies and additions fans will see.",
+        "why_it_matters": "The first outside look at whether training-camp buzz - cut-penalties emphasis, a healthier Austin Jackson - translates to anything visible in person.",
+        "thread_id": "thread-dolphins-hafley-rebuild",
+        "confidence": "high",
+        "sources": [
+          {"role": "primary_reporting", "publisher": "Local 10 News", "headline": "Dolphins training camp 2026: Dates, times and what fans need to know", "url": "https://www.local10.com/sports/local/2026/07/08/dolphins-training-camp-2026-dates-times-and-what-fans-need-to-know/"},
+          {"role": "analysis", "publisher": "Miami Dolphins", "headline": "Dolphins announce schedule for 2026 Training Camp", "url": "https://www.miamidolphins.com/news/dolphins-announce-schedule-for-2026-training-camp-presented-by-baptist-health"},
+          {"role": "background", "publisher": "DolphinsTalk", "headline": "Dolphins Reveal Public Training Camp Schedule in Full", "url": "https://dolphinstalk.com/2026/07/dolphins-reveal-public-training-camp-schedule-in-full/"}
+        ]
+      },
+      {
+        "id": "theme-panthers-heat-offseason-roundup",
+        "affinity": "morning",
+        "topic": "sports",
+        "topic_label": "Miami Sports",
+        "title": "Panthers reload in net with Markstrom and Schmid; the Heat's offseason quietly wraps around cap space",
+        "importance": 0.4,
+        "thesis": "While the Marlins and Dolphins carried the week's headlines, Florida's other two teams made their own smaller, no less real moves.",
+        "synthesis": "The Panthers traded for goaltender Jacob Markstrom, 36, and forward prospect Angus Crookshank from New Jersey, sending back Evan Rodrigues, Jesper Boqvist, and Ben Steeves - a homecoming for Markstrom, whom Florida originally drafted in 2008. Days earlier the Panthers had acquired Akira Schmid from Vegas and, on August 1, avoided an arbitration hearing by signing him to a new deal, likely as Markstrom's backup. Separately, the Heat's post-Giannis offseason has settled with Norman Powell gone to Chicago and Tim Hardaway Jr. and Simone Fontecchio re-signed; roughly $12 million in mid-level exception and $20.5 million in first-apron space remain unused as free agency winds down.",
+        "new_today": "First dedicated coverage of the Markstrom trade and Schmid's new contract, plus a check-in on where the Heat's offseason stands.",
+        "why_it_matters": "A quieter, cheaper version of the roster churn the Heat went through this summer - worth a line for a team that's been to the Cup final as recently as anyone in the sport.",
         "thread_id": null,
         "confidence": "high",
         "sources": [
-          {"role": "primary_reporting", "publisher": "Nature", "headline": "Earthworks spotted in the Amazon hint at huge ancient civilization", "url": "https://www.nature.com/articles/d41586-026-02367-x"},
-          {"role": "background", "publisher": "Scientific American", "headline": "Hundreds of Ancient, Never-Before-Seen 'Earthworks' Discovered in the Amazon", "url": "https://www.scientificamerican.com/article/hundreds-of-ancient-never-before-seen-earthworks-discovered-in-the-amazon/"}
+          {"role": "primary_reporting", "publisher": "NHL.com", "headline": "Markstrom traded to Panthers by Devils for 3 forwards", "url": "https://www.nhl.com/news/new-jersey-devils-trade-goalie-jacob-markstrom-to-florida-panthers"},
+          {"role": "background", "publisher": "Sports Illustrated", "headline": "Miami Heat Offseason Recap", "url": "https://www.si.com/nba/heat/miami-heat-offseason-recap-unexpected-trades-maintain-competitive-pace-01k22etygz8g"}
         ]
       },
       {
-        "id": "theme-glymphatic-sleep-alzheimers-gene",
+        "id": "theme-galapagos-giant-daisies-evolution",
         "affinity": "evening",
         "topic": "living",
         "topic_label": "Art of Living",
-        "title": "A single gene may decide how much a bad night's sleep costs your brain later",
+        "title": "The same leaf shape, evolved four different ways: what Darwin's daisies show about how evolution repeats itself",
         "importance": 0.42,
-        "thesis": "Sleep's brain-cleaning function turns out to be genetically gated - the same lost night of sleep may matter far more for some people than others.",
-        "synthesis": "Researchers examined the AQP4 gene, which regulates fluid movement through the brain's glymphatic system - the overnight process that clears amyloid-beta and tau, the proteins associated with Alzheimer's. In a randomized crossover trial, normal sleep, compared with sleep deprivation, measurably increased overnight clearance of these Alzheimer's-linked biomarkers into blood plasma, and the effect appears to vary with AQP4 variants - meaning genetic risk for Alzheimer's may be amplified or dampened by sleep habits in ways specific to the individual.",
-        "new_today": "First dedicated coverage of the AQP4/glymphatic clearance findings in this edition.",
-        "why_it_matters": "It's a concrete mechanism, not just a correlation - a real answer to why 'sleep more' lands differently for different people, worth filing away against every future night that gets cut short for no good reason.",
+        "thesis": "Convergent evolution turns out to run on different genetic engines even within one small island chain - a tidy rebuttal to the idea that evolution has just one way of solving a given problem.",
+        "synthesis": "Scalesia, the Galapagos' giant daisies, independently evolved similar lobed, heat-tolerant leaf shapes across multiple lineages adapted to hot, dry lowlands and humid highland forests alike. A new Nature Communications study finds that while the outward leaf forms converged, the underlying genetic changes did not - each lineage arrived at a comparable shape through a distinct combination of genes rather than one shared pathway. Every Scalesia species alive today emerged within roughly the last million years.",
+        "new_today": "First dedicated coverage of the Nature Communications findings in this edition.",
+        "why_it_matters": "Appreciation-worthy with zero urgency attached - a genuine counterweight after a week of deadlines, and an echo of an idea worth sitting with: that similar-looking outcomes are often built from underneath in entirely different ways.",
         "thread_id": null,
         "confidence": "high",
         "sources": [
-          {"role": "primary_reporting", "publisher": "Nature Communications", "headline": "The glymphatic system clears amyloid beta and tau from brain to plasma in humans", "url": "https://www.nature.com/articles/s41467-026-68374-8"},
-          {"role": "background", "publisher": "Newsweek", "headline": "Alzheimer's Risk May Be Determined by One Daily Habit Combined With Genes", "url": "https://www.newsweek.com/alzheimers-risk-may-determined-one-daily-habit-combined-genes-12118361"}
+          {"role": "primary_reporting", "publisher": "Nature Communications", "headline": "The genomic basis of adaptive leaf variation in the Galapagos giant daisies", "url": "https://www.nature.com/articles/s41467-026-71865-3"},
+          {"role": "background", "publisher": "ScienceDaily", "headline": "Scientists found evolution repeating itself in the Galapagos Islands", "url": "https://www.sciencedaily.com/releases/2026/07/260729051537.htm"}
+        ]
+      },
+      {
+        "id": "theme-miami-art-deco-preservation-history",
+        "affinity": "evening",
+        "topic": "living",
+        "topic_label": "Art of Living",
+        "title": "How a fight to save pastel hotels in the 1970s became the reason Ocean Drive looks the way it does",
+        "importance": 0.38,
+        "thesis": "Miami Beach's Art Deco district survived not by accident but because a handful of preservationists fought developers who wanted the whole strip torn down for high-rises.",
+        "synthesis": "Miami Beach's building boom after the 1926 hurricane and through the Depression produced 'Tropical Deco' and later Streamline Moderne architecture - pastel facades, porthole windows, ocean-liner motifs - concentrated on Ocean Drive. By the 1970s, developers wanted much of it demolished for condo towers; Barbara Baer Capitman and the Miami Design Preservation League fought to save it instead. On May 14, 1979, the Miami Beach Architectural District became the first 20th-century urban district listed on the National Register of Historic Places.",
+        "new_today": "First dedicated coverage of the preservation history in this edition, as background to tonight's beautiful thing.",
+        "why_it_matters": "A local counterweight to a week of records and deadlines - the district that gives Miami Beach its look exists because people organized to keep it, not because nobody ever wanted to tear it down.",
+        "thread_id": null,
+        "confidence": "high",
+        "sources": [
+          {"role": "primary_reporting", "publisher": "Miami Design Preservation League", "headline": "What is Art Deco", "url": "https://mdpl.org/about-us/about-miami-design-styles/what-is-art-deco/"},
+          {"role": "background", "publisher": "The Traveler", "headline": "The Art Deco That Made Miami Famous", "url": "https://www.thetraveler.org/the-art-deco-that-made-miami-famous/"}
         ]
       }
     ],
     "rabbit_hole": {
-      "id": "rh-2026-08-01",
-      "title": "Only the Deep Past Can Make Sense of Terrifying Nuclear Futures",
-      "creator": "Maria Stavrinaki, Aeon Essays",
+      "id": "rh-2026-08-02",
+      "title": "Philosophy as an Art of Living",
+      "creator": "Los Angeles Review of Books",
       "format": "essay",
-      "minutes": 22,
-      "why": "Five months into a war that started with an assassination and hasn't stopped escalating, it's worth reading a historian's case that we can only grasp nuclear-scale danger by first understanding deep time - the same geological thinking that produced the atomic age is the thinking we need to actually reckon with it.",
-      "url": "https://aeon.co/essays/only-the-deep-past-can-make-sense-of-terrifying-nuclear-futures",
+      "minutes": 25,
+      "why": "Five months of a war that keeps almost-ending without ending, and a week that closed with a deal nobody's confirmed - a good Sunday to sit with philosophers who treated 'how to live' as seriously as any policy question. It's a real survey of what Socrates, Montaigne, and the Stoics meant by philosophy as practice, not just doctrine.",
+      "url": "https://lareviewofbooks.org/article/philosophy-as-an-art-of-living/",
       "related_interest": "living"
     },
     "beautiful_thing": {
-      "id": "bt-2026-08-01",
-      "title": "Vizcaya",
-      "creator": "Francis Burrall Hoffman Jr. (architecture), Diego Suárez (gardens)",
-      "era": "1914-1922, Miami",
-      "body": "James Deering, who made his fortune running International Harvester, built Vizcaya as a winter retreat on Biscayne Bay, moving in on Christmas Day, 1916. He hired architect Francis Burrall Hoffman Jr. to design a 34-room villa modeled on an Italian Renaissance estate, the young Colombian landscape architect Diego Suárez to lay out its formal gardens, and Paul Chalfin to assemble European antiques - many centuries older than the house itself - into new compositions throughout the rooms. Deering spent his final winters there before his death in 1925; his family later conveyed the estate to Miami-Dade County, and it was designated a National Historic Landmark in 1994.",
-      "url": "https://vizcaya.org/main-house/",
+      "id": "bt-2026-08-02",
+      "title": "The Colony Hotel",
+      "creator": "Henry Hohauser, architect",
+      "era": "1935, Miami Beach",
+      "body": "Henry Hohauser designed the Colony with fifty rooms, each with its own private bathroom, and features unusual for the time: a fireproof basement level with recreation and card rooms, and a rooftop solarium. Completed in 1935, it's considered the first true 'streamlined' building on Ocean Drive, establishing the Streamline Moderne look that other Miami Beach architects then adopted across the district. It later became a hub for musicians in the 1960s and '70s, hosting guests including Frank Sinatra, Dean Martin, and Sammy Davis Jr.",
+      "url": "https://mdpl.org/building/colony-hotel/",
       "image": null,
       "alt": null
     },
     "noticing_prompt": {
-      "id": "np-2026-08-01",
-      "text": "Notice how easily 'the report comes out tomorrow' gets said as fact before anyone checks what day tomorrow actually is. What else are you taking on faith today that a five-second check would settle?"
+      "id": "np-2026-08-02",
+      "text": "Notice how much of this week's news was stated as fact before it was actually a fact - a strike 'coming,' then cancelled; a deal whose 'perimeters' are agreed but whose other side hasn't spoken. What are you calling settled today that isn't?"
     },
     "daily_puzzle": {
-      "id": "dp-2026-08-01",
-      "type": "logic",
-      "prompt": "Every month, on the first Friday, an economist wakes at 8:25 a.m. to catch the jobs report land at 8:30 sharp - a ritual she's kept for a decade. This month, she sleeps straight through it, and nothing is wrong: no missed report, no career change, no broken alarm clock. Why does she get to sleep in?",
-      "hint": "Not every month's first day falls on the same weekday.",
-      "solution": "This month's first day is a Saturday, not a Friday - the jobs report always lands on the first Friday of the month, and this month that doesn't arrive until the following week.",
-      "explanation": "'The first Friday of the month' isn't a fixed date - it drifts depending on what weekday the month happens to start on."
+      "id": "dp-2026-08-02",
+      "type": "math",
+      "prompt": "A landlord raises a tenant's rent by 20%, then - stung by the pushback - cuts the new rent by 20%. Is the tenant now paying more than the original rent, less, or exactly the same? By how much?",
+      "hint": "Try it with a real number, like $1,000, rather than reasoning about the percentages in the abstract.",
+      "solution": "The tenant pays less - 4% less than the original rent. $1,000 raised 20% is $1,200; $1,200 cut 20% is $960.",
+      "explanation": "The two 20% moves aren't mirror images, because the second percentage is taken from a different, larger base than the first."
     },
     "evening_unwind": {
-      "id": "eu-2026-08-01",
+      "id": "eu-2026-08-02",
       "evening_quote": {
-        "text": "There are more things, Lucilius, likely to frighten us than there are to crush us; we suffer more often in imagination than in reality.",
-        "attribution": "Seneca",
-        "source": "Letters to Lucilius, 13"
+        "text": "Men are disturbed not by the things which happen, but by the opinions about the things.",
+        "attribution": "Epictetus",
+        "source": "Enchiridion, 5"
       },
-      "evening_prompt": "Of today's warnings - the drones intercepted, the strikes still only promised - how much had already cost you something by dinner, and how much was only ever the imagining?"
+      "evening_prompt": "This week carried a cancelled war and an uncancelled trade deadline, both still unresolved by dinner - which one actually followed you through the day, and was that the one that deserved it?"
     },
     "reading_queue": [
       {"title": "U.S. Real Estate Market Outlook 2026: Capital Markets", "url": "https://www.cbre.com/insights/books/us-real-estate-market-outlook-2026/capital-markets", "verdict": "still_valuable", "reason": "Another day of record Miami office rents against a still-climbing 10-year makes the capital-markets chapter more relevant, not less."},
       {"title": "What We Think Is a Decline in Literacy Is a Design Problem", "url": "https://aeon.co/essays/what-we-think-is-a-decline-in-literacy-is-a-design-problem", "verdict": "read_soon", "reason": "It's the weekend now - a good match for an unhurried read."}
     ],
     "quote": {
-      "text": "The impediment to action advances action. What stands in the way becomes the way.",
+      "text": "You have power over your mind - not outside events. Realize this, and you will find strength.",
       "attribution": "Marcus Aurelius"
     }
   },
@@ -247,9 +325,9 @@
       "title": "US-Iran conflict and the Strait of Hormuz",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-08-01",
-      "updates": 17,
-      "current_state": "Kuwait's army confirms it intercepted a fresh wave of Iranian drones early Saturday, aimed at a government facility and civilian vehicles; a tanker was separately hit by an unidentified projectile near Oman. Trump told his Cabinet at Camp David the US is planning new strikes on Iran 'as soon as this weekend.' The war, now five months old since the February 28 assassination of Supreme Leader Ali Khamenei, has only 28% approval for Trump's handling of it. Brent crude is back above $90 and WTI near $84.67 after Iran said Friday it struck two tankers transiting the Strait of Hormuz.",
+      "last_updated": "2026-08-02",
+      "updates": 19,
+      "current_state": "Trump says he's cancelled a planned new wave of strikes on Iran, citing an agreed framework - the immediate reopening of the Strait of Hormuz and an end to Iran's nuclear threat - after Saudi Arabia's MBS and other regional leaders pressed for de-escalation. Iranian state media has not confirmed any of it, and Iran's Fars news agency called Trump's terms a 'wish list.' The war remains five months old since the February 28 assassination of Ali Khamenei.",
       "timeline": [
         {"date": "2026-07-21", "summary": "First tracked: nine nights of US strikes, oil up about 20% this month, 10-day ceasefire being mediated.", "change_type": "new"},
         {"date": "2026-07-22", "summary": "10-day ceasefire formally proposed; US strikes continue, Iran calls it full-scale war, Brent tops $91, war cost estimated at $37.5B.", "change_type": "advanced"},
@@ -267,7 +345,9 @@
         {"date": "2026-07-31", "summary": "Iran's army claims strikes on US assets at Kuwait's Ahmad al-Jaber Air Base and Bahrain's Sheikh Isa Air Base; neither government confirms it. The US conducts no fresh strikes overnight - the first pause since Wednesday's heavy wave.", "change_type": "watch"},
         {"date": "2026-07-31", "summary": "Egypt reports a drone of unknown origin hit two gas vessels at its Damietta port, a possible first sign the conflict is pulling in a new country; Brent eases 1.4% to $87.78 as Hormuz tanker traffic shows tentative recovery.", "change_type": "watch"},
         {"date": "2026-08-01", "summary": "Kuwait's army confirms it intercepted a fresh wave of Iranian drones aimed at a government facility and civilian vehicles, the attack Iran claimed Thursday and nobody had confirmed. A tanker is hit by an unidentified projectile near Oman.", "change_type": "worsened"},
-        {"date": "2026-08-01", "summary": "At Camp David, Trump says the US is planning new strikes on Iran 'as soon as this weekend'; only 28% of Americans approve of his handling of the five-month-old war. Brent back above $90, WTI near $84.67.", "change_type": "worsened"}
+        {"date": "2026-08-01", "summary": "At Camp David, Trump says the US is planning new strikes on Iran 'as soon as this weekend'; only 28% of Americans approve of his handling of the five-month-old war. Brent back above $90, WTI near $84.67.", "change_type": "worsened"},
+        {"date": "2026-08-02", "summary": "Trump says he's cancelled the planned strikes, citing an agreed framework on reopening the Strait of Hormuz after MBS and other regional leaders pressed for de-escalation over the weekend.", "change_type": "reversed"},
+        {"date": "2026-08-02", "summary": "Iranian state media gives no sign it agrees to any deal; Fars news agency calls Trump's terms a 'wish list' and Iran's foreign ministry warns of a 'decisive response' to any future US-Israeli aggression.", "change_type": "watch"}
       ]
     },
     {
@@ -275,9 +355,9 @@
       "title": "Federal Reserve rate path",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-08-01",
-      "updates": 18,
-      "current_state": "Friday closed the S&P up 0.7% to 7,489.72 and the Nasdaq up 1% to 25,373.85 on an Amazon earnings beat (~13% single-day gain, its biggest in over a decade), capping the Dow's fourth straight winning month - the same shape as Thursday's Microsoft-driven rally. The 10-year yield topped 4.70% for the first time since January 2025, and the 30-year hit its highest level since 2007. Prediction markets price roughly 53% odds of a 25bp hike at the September 15-16 FOMC meeting, versus about 32% implied by SOFR futures. No jobs report today - August's first Friday, and the next real catalyst, is August 7.",
+      "last_updated": "2026-08-02",
+      "updates": 19,
+      "current_state": "Friday's confirmed close: S&P up 0.7% to 7,489.72, Nasdaq up 1% to 25,373.85 on Amazon's ~13% earnings beat, capping the Dow's fourth straight winning month; the 10-year topped 4.70% for the first time since January 2025, the 30-year hit its highest since 2007. Markets are closed all weekend. Kalshi now prices roughly 57% odds of a 25bp September hike versus 42% for a hold, up from Polymarket's 53% Friday morning. July's jobs report - the next real catalyst - lands Friday, August 7, with consensus around 100,000-130,000 jobs added and unemployment holding at 4.2%.",
       "timeline": [
         {"date": "2026-07-18", "summary": "Hike odds rising toward 46%; BofA sees three hikes by December.", "change_type": "advanced"},
         {"date": "2026-07-19", "summary": "Fed week arrives; positioning visible in Friday's chip-led selloff.", "change_type": "advanced"},
@@ -294,7 +374,8 @@
         {"date": "2026-07-30", "summary": "Thursday morning: 10Y holds near 4.68%, 30Y hits roughly 5.24% (a multidecade high); hike odds for the next meeting jump to about 54% from 38% pre-decision, even as equity futures rebound.", "change_type": "watch"},
         {"date": "2026-07-30", "summary": "Thursday's close: S&P +1.7% to 7,437.64, Nasdaq +2.8% to 25,122.18, Microsoft up about 15% on AI earnings - nearly erasing the post-Fed selloff. The 10-year still rose 8bp to 4.704%, its highest close of the stretch.", "change_type": "reversed"},
         {"date": "2026-08-01", "summary": "Friday's close: S&P +0.7% to 7,489.72, Nasdaq +1% to 25,373.85, Amazon up ~13% (its biggest single-day gain in over a decade) on an earnings beat - the Dow's fourth straight winning month. The 10-year topped 4.70% for the first time since January 2025; the 30-year hit its highest since 2007.", "change_type": "advanced"},
-        {"date": "2026-08-01", "summary": "Prediction markets price roughly 53% odds of a September 25bp hike, versus ~32% implied by SOFR futures. No jobs report today; the next release, for July, is pushed to Friday, August 7.", "change_type": "watch"}
+        {"date": "2026-08-01", "summary": "Prediction markets price roughly 53% odds of a September 25bp hike, versus ~32% implied by SOFR futures. No jobs report today; the next release, for July, is pushed to Friday, August 7.", "change_type": "watch"},
+        {"date": "2026-08-02", "summary": "Markets closed for the weekend. Kalshi prices roughly 57% odds of a September hike, 42% hold, 2% cut - up from Polymarket's 53% Friday. Economists expect Friday's jobs report to show 100,000-130,000 jobs added in July and unemployment holding at 4.2%.", "change_type": "watch"}
       ]
     },
     {
@@ -302,9 +383,9 @@
       "title": "Marlins wild card race",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-08-01",
-      "updates": 18,
-      "current_state": "Miami beat the Mets 5-2 at Citi Field, improving to 56-55 and staying 2.5 games back of the final NL Wild Card spot. Otto Lopez - hitting a major-league-leading .331 with 22 steals and his first All-Star selection - has drawn interest from the Guardians in addition to the Red Sox, though insider Jon Morosi puts trade odds at roughly 25%, with most signals pointing toward Miami keeping him. The deadline is 6pm ET Monday, August 3.",
+      "last_updated": "2026-08-02",
+      "updates": 20,
+      "current_state": "Miami beat the Mets 6-2 Saturday on home runs from Javier Sanoja and Griffin Conine, its sixth win in seven games. Otto Lopez - hitting near .330 with career highs in hits and doubles and his first All-Star selection - remains in trade talks with the Red Sox and Guardians, with insider Jon Morosi still putting the odds of a deal at roughly 25%. The deadline is 6pm ET Monday, August 3.",
       "timeline": [
         {"date": "2026-07-18", "summary": "Hit the break 52-45, holding WC pole position.", "change_type": "new"},
         {"date": "2026-07-19", "summary": "Swept in Milwaukee; three straight losses out of the break.", "change_type": "worsened"},
@@ -316,13 +397,14 @@
         {"date": "2026-07-27", "summary": "Lost Sunday 5-3 to San Diego, Machado and Merrill homering in the eighth to erase a three-run deficit; the streak reaches 12, an outright franchise record. Miami falls to 52-53, its first losing record since mid-June.", "change_type": "worsened"},
         {"date": "2026-07-28", "summary": "Miami beats the Phillies 8-7 on a walk-off single by Griffin Conine after Philadelphia's closer loaded the bases in the ninth, ending the losing streak at 12 - the Marlins' first win since July 9. Record moves to 53-53.", "change_type": "improved"},
         {"date": "2026-07-29", "summary": "Correction: the 8-7 walk-off was Monday's game, not Tuesday's. Tuesday was a separate 1-0 win, Alcantara's major-league-leading 16th quality start with a Kyle Stowers homer; Miami has won two straight and stands 54-54 ahead of today's series finale.", "change_type": "improved"},
-        {"date": "2026-07-29", "summary": "Trade deadline plan surfaces: Miami will keep Alcantara, Eury Perez, Max Meyer, and Joe Mack, but is willing to take calls on Xavier Edwards, Otto Lopez, Liam Hicks, and Heriberto Hernández.", "change_type": "watch"},
-        {"date": "2026-07-29", "summary": "Down 6-0, Miami completes the sweep of the Phillies with an 8-6 win, its biggest comeback of the season; Conine's go-ahead pinch-hit homer and two RBIs each from Lopez, Hernández, and Edwards. Miami improves to 55-54, three straight wins, opening at the Mets next.", "change_type": "improved"},
+        {"date": "2026-07-29", "summary": "Trade deadline plan surfaces: Miami will keep Alcantara, Eury Perez, Max Meyer, and Joe Mack, but is willing to take calls on Xavier Edwards, Otto Lopez, Liam Hicks, and Heriberto Hernandez.", "change_type": "watch"},
+        {"date": "2026-07-29", "summary": "Down 6-0, Miami completes the sweep of the Phillies with an 8-6 win, its biggest comeback of the season; Conine's go-ahead pinch-hit homer and two RBIs each from Lopez, Hernandez, and Edwards. Miami improves to 55-54, three straight wins, opening at the Mets next.", "change_type": "improved"},
         {"date": "2026-07-30", "summary": "Deadline plan detail expands: Miami could also field calls on veteran relievers 31 or older - Anthony Bender, Michael Petersen, Lake Bachar, and John King - alongside the position-player names already in play, four days before the August 3 deadline.", "change_type": "advanced"},
         {"date": "2026-07-31", "summary": "Mets beat Miami 4-2 on Luis Robert Jr.'s eighth-inning two-run single, snapping Miami's three-game winning streak.", "change_type": "worsened"},
         {"date": "2026-07-31", "summary": "Boston reportedly weighs a bigger package for Otto Lopez that could include catcher Liam Hicks, after a wrist injury sidelines Red Sox infielder Curtis Mead for 6-8 weeks; Miami remains in a 'listening' stage rather than committed to a deal, three days before the deadline.", "change_type": "advanced"},
-        {"date": "2026-08-01", "summary": "Miami beats the Mets 5-2, improving to 56-55 and staying 2.5 games back of the final Wild Card spot.", "change_type": "improved"},
-        {"date": "2026-08-01", "summary": "The Guardians join Boston in showing interest in Otto Lopez; insider Jon Morosi puts the odds of a trade at roughly 25%, with most signals pointing toward Miami keeping him, two days before the deadline.", "change_type": "advanced"}
+        {"date": "2026-08-01", "summary": "Miami beats the Mets 5-2, improving to 56-55 and staying in wild-card contention.", "change_type": "improved"},
+        {"date": "2026-08-01", "summary": "The Guardians join Boston in showing interest in Otto Lopez; insider Jon Morosi puts the odds of a trade at roughly 25%, with most signals pointing toward Miami keeping him, two days before the deadline.", "change_type": "advanced"},
+        {"date": "2026-08-02", "summary": "Miami beats the Mets again, 6-2, on homers from Javier Sanoja and Griffin Conine - its sixth win in seven games, one day before the deadline.", "change_type": "improved"}
       ]
     },
     {
@@ -347,9 +429,9 @@
       "title": "Dolphins rebuild under Hafley",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-07-31",
-      "updates": 11,
-      "current_state": "Practice two ran Thursday as Hafley's staff had flagged in advance - the longest and toughest of the week - with a deliberate shift toward individual and 11-on-11 work over 7-on-7 drills, and an explicit staff-wide emphasis on cutting down penalties in 2026. Day One detail already established: Willie Gay Jr.'s pick-six off Cam Miller, Austin Jackson's recovery, Michael Taaffe's interception of Quinn Ewers, and Chop Robinson's added muscle. Achane practiced fully after offseason shoulder surgery; Chris Bell remains on PUP. Camp runs through August 26, with the first public practice August 2.",
+      "last_updated": "2026-08-02",
+      "updates": 12,
+      "current_state": "Today's practice - the fourth of camp - is the first open to the public this season, part of the NFL's 'Back Together Weekend,' free to fans and starting at 9:30am. It showcases new additions including quarterback Malik Willis and rookies Kadyn Proctor, Chris Johnson, Jacob Rodriguez, and Chris Bell, alongside the returning core: Willie Gay Jr.'s pick-six, Austin Jackson's recovery, Achane back after offseason shoulder surgery. Chris Bell remains on PUP. The next public dates are a Hard Rock Stadium practice August 8 and a joint practice with the Giants August 20; camp runs through August 26.",
       "timeline": [
         {"date": "2026-07-18", "summary": "Camp schedule announced.", "change_type": "new"},
         {"date": "2026-07-21", "summary": "Rookies reported; camp officially underway.", "change_type": "advanced"},
@@ -361,7 +443,8 @@
         {"date": "2026-07-30", "summary": "Fuller Day One reporting: Willie Gay Jr.'s standout play was a one-handed interception returned for a touchdown off Cam Miller; Austin Jackson says he feels 'better than my normal self' after last year's rushed return from a toe injury.", "change_type": "advanced"},
         {"date": "2026-07-30", "summary": "Rookie safety Michael Taaffe intercepts backup quarterback Quinn Ewers, his former Texas teammate, in team drills.", "change_type": "advanced"},
         {"date": "2026-07-30", "summary": "Edge rusher Chop Robinson reports to camp carrying roughly ten added pounds of muscle.", "change_type": "advanced"},
-        {"date": "2026-07-31", "summary": "Practice two runs as flagged - the hardest and longest of the week - with a shift toward individual and 11-on-11 work over 7-on-7 drills and an explicit emphasis on cutting penalties this season.", "change_type": "advanced"}
+        {"date": "2026-07-31", "summary": "Practice two runs as flagged - the hardest and longest of the week - with a shift toward individual and 11-on-11 work over 7-on-7 drills and an explicit emphasis on cutting penalties this season.", "change_type": "advanced"},
+        {"date": "2026-08-02", "summary": "First public practice of camp runs as part of the NFL's 'Back Together Weekend,' free and open to fans, showcasing Malik Willis and rookies Kadyn Proctor, Chris Johnson, Jacob Rodriguez, and Chris Bell.", "change_type": "advanced"}
       ]
     },
     {
@@ -386,10 +469,10 @@
       "id": "thread-miami-freedom-park-civic",
       "title": "Miami Freedom Park Civic Center",
       "topic": "miami",
-      "status": "emerging",
+      "status": "dormant",
       "last_updated": "2026-07-22",
       "updates": 1,
-      "current_state": "An eight-story, 257,000-sq-ft Civic Center topped off July 10 within the $1B, 130-acre Freedom Park development anchored by Inter Miami's stadium. $193M permit secured; completion targeted spring 2028.",
+      "current_state": "An eight-story, 257,000-sq-ft Civic Center topped off July 10 within the $1B, 130-acre Freedom Park development anchored by Inter Miami's stadium. $193M permit secured; completion targeted spring 2028. No new developments this week.",
       "timeline": [
         {"date": "2026-07-22", "summary": "First tracked: civic center topped off, full project scope confirmed.", "change_type": "new"}
       ]
@@ -399,16 +482,17 @@
       "title": "2026 CRE capital markets under pressure",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-08-01",
-      "updates": 6,
-      "current_state": "South Florida commercial sales volume remains down 13% year over year, and the summer's biggest single industrial deal - Waste Management's $379M purchase of 146 acres in Medley - was 96% seller-financed. Rents in Miami's most sought-after office towers broke $200/sqft in July for the first time, anchored by Peter Thiel's family office paying a record $250/sqft at 830 Brickell - the most expensive office lease in county history. Q2 leasing citywide jumped nearly 45% year-over-year to 1.3 million square feet, with average asking rent readings ranging $59.66-$67.12/sqft depending on methodology, still the highest of any US market.",
+      "last_updated": "2026-08-02",
+      "updates": 7,
+      "current_state": "South Florida commercial sales volume remains down 13% year over year, and the summer's biggest single industrial deal - Waste Management's $379M purchase of 146 acres in Medley - was 96% seller-financed. Rents in Miami's most sought-after office towers broke $200/sqft in July, anchored by Peter Thiel's family office paying a record $250/sqft at 830 Brickell. The citywide full-service asking rent has now also hit an all-time high of $63.63/sqft, up 2.0% quarter over quarter and 6.3% year over year, with 429,712 sqft of positive absorption in Q2 - still the highest average of any US market by most measures, though exact figures vary $59.66-67.12/sqft depending on methodology.",
       "timeline": [
         {"date": "2026-07-24", "summary": "First tracked: CBRE Q2 update shows deal volume down 24% YoY, construction spending below plan, hiring slowing.", "change_type": "new"},
         {"date": "2026-07-26", "summary": "South Florida-specific data surfaces: commercial sales volume down 13% year over year to $5.42B in H1 2026.", "change_type": "advanced"},
         {"date": "2026-07-28", "summary": "Waste Management pays $379M for 146 acres in Medley to build a landfill; $366M of the price, 96%, is seller financing rather than a bank loan.", "change_type": "advanced"},
         {"date": "2026-07-30", "summary": "A LoopNet analysis of roughly 5,000 office listings finds Miami's average asking rent, $59.66/sq ft, now the highest in the US, ahead of New York's $50.56 - a sign of how much capital has relocated to Miami since 2020 even as deal volume overall stays soft.", "change_type": "advanced"},
         {"date": "2026-07-31", "summary": "Pebb Capital buys a Miami Beach office building with $69M in ACORE Capital financing; a Wynwood commercial parcel sells for $24.5M, the region's priciest trade that week - real transactions behind the aggregate rent data.", "change_type": "advanced"},
-        {"date": "2026-08-01", "summary": "Rents in Miami's top towers cross $200/sqft for the first time, anchored by Peter Thiel's family office paying a record $250/sqft at 830 Brickell; Q2 leasing citywide up nearly 45% YoY to 1.3M sq ft.", "change_type": "advanced"}
+        {"date": "2026-08-01", "summary": "Rents in Miami's top towers cross $200/sqft for the first time, anchored by Peter Thiel's family office paying a record $250/sqft at 830 Brickell; Q2 leasing citywide up nearly 45% YoY to 1.3M sq ft.", "change_type": "advanced"},
+        {"date": "2026-08-02", "summary": "Citywide full-service asking rent hits an all-time high of $63.63/sqft (+2.0% QoQ, +6.3% YoY), with 429,712 sqft of positive Q2 absorption.", "change_type": "advanced"}
       ]
     },
     {
@@ -428,13 +512,26 @@
       "id": "thread-marine-stadium-referendum",
       "title": "Miami Marine Stadium's restoration referendum",
       "topic": "miami",
-      "status": "emerging",
-      "last_updated": "2026-07-30",
-      "updates": 2,
-      "current_state": "Miami voters decide Marine Stadium's future in an August 18 referendum (Referendum #172) on a 40-year management deal with Global Spectrum/Oak View Group and local partner Breakwater Hospitality. Under the deal, the city keeps 93% of event revenue and 85% of sponsorship income, with up to $10M toward restoration up front, followed by a separate $65-85M restoration bond. Early voting runs August 3-16; partial pile and seating repairs are already underway with county and state grant money.",
+      "status": "active",
+      "last_updated": "2026-08-02",
+      "updates": 3,
+      "current_state": "Miami voters decide Marine Stadium's future in an August 18 referendum (Referendum #172) on a 40-year management deal with Global Spectrum/Oak View Group and local partner Breakwater Hospitality. Under the deal, the city keeps 93% of event revenue and 85% of sponsorship income, with up to $10M toward restoration up front, followed by a separate $65-85M restoration bond. Early voting begins tomorrow, August 3, and runs through August 16; partial pile and seating repairs are already underway with county and state grant money.",
       "timeline": [
         {"date": "2026-07-28", "summary": "First tracked: City Commission approved the Global Spectrum/Oak View management deal in February; referendum set for August 18; partial restoration already underway.", "change_type": "new"},
-        {"date": "2026-07-30", "summary": "Additional detail surfaces: the deal is formally Referendum #172, with early voting set for August 3-16 and a specified revenue split (93% events, 85% sponsorship) plus a separate $65-85M restoration bond beyond the initial $10M.", "change_type": "advanced"}
+        {"date": "2026-07-30", "summary": "Additional detail surfaces: the deal is formally Referendum #172, with early voting set for August 3-16 and a specified revenue split (93% events, 85% sponsorship) plus a separate $65-85M restoration bond beyond the initial $10M.", "change_type": "advanced"},
+        {"date": "2026-08-02", "summary": "Early voting confirmed to begin tomorrow, August 3; the adjacent Seaquarium site's marina redevelopment surfaces as a related but separate decision over the same stretch of public waterfront.", "change_type": "advanced"}
+      ]
+    },
+    {
+      "id": "thread-seaquarium-marina-redevelopment",
+      "title": "Miami Seaquarium's marina redevelopment",
+      "topic": "markets",
+      "status": "emerging",
+      "last_updated": "2026-08-02",
+      "updates": 1,
+      "current_state": "Miami-Dade County and Terra Group/David Martin have applied to build what could be the county's largest marina at the shuttered Seaquarium site on Virginia Key - 325 slips (about 90 for yachts over 80ft), a 500-boat dry stack, a fuel depot, and floating docks extending partway across the channel. Environmental regulators have raised concerns about wetlands, coral, and water quality; if approved, demolition could start late 2026 with an opening target around 2029. Martin bought the Seaquarium's lease for $22.5M after the park closed in October 2025 after 70 years, and plans to keep an aquarium plus add a Fishermen's Village-style restaurant district and public baywalk.",
+      "timeline": [
+        {"date": "2026-08-02", "summary": "First tracked: marina application details surface - 325 slips, 500-boat dry stack, fuel depot; environmental review pending; potential late-2026 groundbreaking.", "change_type": "new"}
       ]
     }
   ],
@@ -446,9 +543,9 @@
   ],
   "meta": {
     "content_freshness": {
-      "markets": "2026-08-01 (Sat; Friday's close confirmed, markets closed today, no jobs report - next release Aug 7)",
-      "news": "2026-07-31/08-01",
-      "weather": "2026-08-01"
+      "markets": "2026-08-01 (Fri close; markets closed Sat/Sun, next open Mon Aug 3; next jobs report Aug 7)",
+      "news": "2026-08-01/08-02",
+      "weather": "2026-08-02"
     },
     "feedback_endpoint_mode": "github_contents",
     "minimum_client_schema_version": 1,
