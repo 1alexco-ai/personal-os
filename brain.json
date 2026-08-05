@@ -1,0 +1,497 @@
+{
+  "schema_version": 2,
+  "updatedAt": "2026-07-30",
+  "owner": "Alex Cosio",
+  "migrated_from_v1": "2026-07-19 - weights, interests, queries, habits preserved; prior v1 brain files remain in Drive as backups",
+  "migrated_to_git": "2026-08-05 - Brain lives in the public site repo so the daily routine can reach it with the credentials it already has. Everything here is low-sensitivity and largely mirrors what data.json already publishes (topics, threads, timelines). Private notes are excluded by policy - see notes_policy. A private archive of the pre-migration Brain, including earlier notes, remains at 1alexco-ai/personal-os-brain.",
+  "interests": [
+    {
+      "id": "markets",
+      "label": "Markets and Macro",
+      "weight": 1.19,
+      "explicit": true,
+      "queries": [
+        "Fed interest rate outlook this week",
+        "credit markets and commercial real estate capital markets news",
+        "US macro economy inflation jobs data this week"
+      ],
+      "subtopics": {
+        "fed-policy": 1.19,
+        "week-ahead-macro": 1.14,
+        "geopolitics-oil": 1.07,
+        "cre-capital-markets": 1.07
+      },
+      "sources": {},
+      "formats": {}
+    },
+    {
+      "id": "miami",
+      "label": "Miami Life and Culture",
+      "weight": 1.19,
+      "explicit": true,
+      "queries": [
+        "Miami restaurant openings new restaurants",
+        "Miami events art culture this weekend",
+        "Miami city news development",
+        "Miami art museums exhibitions food happenings"
+      ],
+      "subtopics": {
+        "food-scene": 1.09,
+        "arts-museums": 1.09,
+        "civic-events": 1.04
+      },
+      "sources": {},
+      "formats": {}
+    },
+    {
+      "id": "sports",
+      "label": "Miami Sports",
+      "weight": 1.0,
+      "explicit": true,
+      "queries": [
+        "Miami Marlins news",
+        "Florida Panthers news",
+        "Miami Hurricanes football news",
+        "Miami Dolphins news",
+        "Miami Heat news"
+      ],
+      "subtopics": {},
+      "sources": {},
+      "formats": {}
+    },
+    {
+      "id": "living",
+      "label": "Art of Living",
+      "weight": 1.19,
+      "explicit": true,
+      "queries": [
+        "Stoicism essay practical philosophy new article",
+        "Alain de Botton School of Life new essay video",
+        "art of noticing attention essay Rob Walker"
+      ],
+      "subtopics": {
+        "stoicism": 1.19,
+        "noticing": 1.07
+      },
+      "sources": {},
+      "formats": {}
+    }
+  ],
+  "preferences": {
+    "depth": 0.2,
+    "novelty": 0,
+    "local_relevance": 0.2,
+    "timeliness": 0
+  },
+  "learning_params": {
+    "broad_step_star": 0.05,
+    "broad_step_dismiss": -0.05,
+    "subtopic_step_star": 0.15,
+    "subtopic_step_dismiss": -0.15,
+    "thread_step_star": 0.15,
+    "cap": 2.0,
+    "floor": 0.2,
+    "decay_per_day_toward_1": 0.01,
+    "explicit_interest_floor": 0.8,
+    "reason_modifiers": "already_knew: tiny topic penalty (-0.02), raise timeliness pref; too_repetitive: -0.1 subtopic and instruct dedupe; poor_source: -0.3 that source only; not_this_story: story-level only, no topic penalty; wrong_format: format affinity only; too_shallow: raise depth pref, minimal broad weight change",
+    "exploration_budget": 0.12
+  },
+  "threads": [
+    {
+      "id": "thread-iran-hormuz-crisis",
+      "title": "US-Iran conflict and the Strait of Hormuz",
+      "topic": "markets",
+      "status": "active",
+      "last_updated": "2026-07-30",
+      "importance": 0.97,
+      "confidence": "high",
+      "current_state": "The US launched a 'heavy wave' of new strikes on Iran; Iranian state media reports at least three civilians killed. Hours later, Iran struck Jordan and Kuwait, killing a worker at a Chinese-owned building in northern Kuwait. Trump said it is now 'our turn' to hit Iran hard. This is the first round of this cycle with confirmed civilian deaths directly attached to it.",
+      "why_it_matters": "Oil and rate risk both run through this - a direct input to Alex's CRE and markets picture, and now a story measured in reported deaths, not just oil-price basis points.",
+      "timeline": [
+        {
+          "date": "2026-07-21",
+          "summary": "First tracked: nine nights of US strikes, oil up about 20% this month, 10-day ceasefire being mediated.",
+          "change_type": "new"
+        },
+        {
+          "date": "2026-07-22",
+          "summary": "10-day ceasefire formally proposed; US strikes continue, Iran calls it full-scale war, Brent tops $91, war cost estimated at $37.5B.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-07-22",
+          "summary": "By Wednesday, strikes reach an eleventh consecutive night; Brent pushes past $92, reviving inflation concern.",
+          "change_type": "worsened"
+        },
+        {
+          "date": "2026-07-23",
+          "summary": "Ceasefire proposal remains unadopted; Brent closes at $94.13, a five-week high; Strait transits fall to 25 ships from a peak of 49.",
+          "change_type": "worsened"
+        },
+        {
+          "date": "2026-07-24",
+          "summary": "13th consecutive night of strikes; Iran hits Kuwait and the Houthis strike two Saudi tankers; Brent crosses $100 for the first time since May.",
+          "change_type": "worsened"
+        },
+        {
+          "date": "2026-07-25",
+          "summary": "US carries out no new strikes overnight for the first time since the ceasefire collapsed; Brent eases to about $96.80.",
+          "change_type": "improved"
+        },
+        {
+          "date": "2026-07-25",
+          "summary": "Iran-aligned Houthi rebels fire dozens of ballistic missiles and drones at Saudi Aramco facilities in Jizan and Yanbu.",
+          "change_type": "worsened"
+        },
+        {
+          "date": "2026-07-27",
+          "summary": "The pause holds through the weekend into Monday with no new strikes reported; Brent tumbles toward the mid-$80s.",
+          "change_type": "improved"
+        },
+        {
+          "date": "2026-07-28",
+          "summary": "Trump and Netanyahu meet at the White House for the first time since the war began, calling the talks positive and productive; Brent eases further.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-07-29",
+          "summary": "Iran says it struck US bases in Jordan and other Gulf locations overnight; Trump vows to hit back hard and repeats a bridge-bombing threat; Brent jumps back above $90.",
+          "change_type": "reversed"
+        },
+        {
+          "date": "2026-07-30",
+          "summary": "The US launches a 'heavy wave' of new strikes on Iran; at least three civilians reported killed inside Iran. Iran retaliates against Jordan and Kuwait, killing a worker in Kuwait. Trump says it is now our turn to hit Iran hard.",
+          "change_type": "worsened"
+        }
+      ]
+    },
+    {
+      "id": "thread-fed-rate-path",
+      "title": "Federal Reserve rate path",
+      "topic": "markets",
+      "status": "active",
+      "last_updated": "2026-07-30",
+      "importance": 0.92,
+      "confidence": "high",
+      "current_state": "The FOMC voted 9-3 on July 29 to hold at 3.50-3.75% for a fifth straight meeting; the three dissents (Hammack, Kashkari, Logan) all wanted a hike. Markets sold off hard: S&P -1.52% to 7,316.15, Nasdaq -1.74% to 24,442.94, 10Y up to about 4.66%, on fears the Fed is behind on inflation. Friday's August 1 jobs report is the next major test.",
+      "why_it_matters": "Rates are the operating system of Alex's professional world (CRE capital markets) and the macro backdrop for everything else.",
+      "timeline": [
+        {
+          "date": "2026-07-18",
+          "summary": "Hike odds rising toward 46%; BofA sees three hikes by December.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-07-21",
+          "summary": "Hike odds collapse to 13.3% amid Iran-driven oil shock.",
+          "change_type": "reversed"
+        },
+        {
+          "date": "2026-07-24",
+          "summary": "Sharp selloff on oil breaking $100; hike odds more than double to roughly 36.5%.",
+          "change_type": "worsened"
+        },
+        {
+          "date": "2026-07-27",
+          "summary": "Monday premarket futures jump as oil craters; hike odds around 35% for Wednesday.",
+          "change_type": "improved"
+        },
+        {
+          "date": "2026-07-28",
+          "summary": "FOMC's two-day meeting formally opens; hike odds hold in the mid-to-high 30s.",
+          "change_type": "watch"
+        },
+        {
+          "date": "2026-07-29",
+          "summary": "Decision due today at 2 PM ET; hike odds climb further to about 38%; overnight Iran escalation adds a fresh input hours before the vote.",
+          "change_type": "watch"
+        },
+        {
+          "date": "2026-07-29",
+          "summary": "FOMC votes 9-3 to hold at 3.50-3.75 percent; Hammack, Kashkari, and Logan dissent in favor of a hike. Market reads the hold as hawkish: S&P -1.52%, Nasdaq -1.74%, 10Y up to roughly 4.66%.",
+          "change_type": "new"
+        }
+      ]
+    },
+    {
+      "id": "thread-marlins-wildcard",
+      "title": "Marlins wild card race",
+      "topic": "sports",
+      "status": "active",
+      "last_updated": "2026-07-30",
+      "importance": 0.82,
+      "confidence": "high",
+      "current_state": "Down 6-0, Miami completed the sweep of the Phillies with an 8-6 win, its biggest comeback of the season - Conine's go-ahead pinch-hit homer plus two RBIs each from Lopez, Hernandez, and Edwards. Miami is 55-54, three straight wins, opening a four-game series at the Mets tonight, four days before the August 3 deadline. Plan: keep Alcantara, Eury Perez, Max Meyer, Joe Mack; open to trading Edwards, Lopez, Hicks, Hernandez.",
+      "why_it_matters": "First real playoff chase in years; the second-half schedule and trade deadline decide it.",
+      "timeline": [
+        {
+          "date": "2026-07-18",
+          "summary": "Hit the break 52-45, holding WC pole position.",
+          "change_type": "new"
+        },
+        {
+          "date": "2026-07-24",
+          "summary": "10th straight loss, first time since June 2011; falls to 52-52.",
+          "change_type": "worsened"
+        },
+        {
+          "date": "2026-07-27",
+          "summary": "Streak reaches 12, an outright franchise record; falls to 52-53.",
+          "change_type": "worsened"
+        },
+        {
+          "date": "2026-07-28",
+          "summary": "8-7 walk-off win reported; later corrected to have occurred Monday, not Tuesday.",
+          "change_type": "improved"
+        },
+        {
+          "date": "2026-07-29",
+          "summary": "Correction: walk-off was Monday. Tuesday was a separate 1-0 win; Miami has won two straight, stands 54-54.",
+          "change_type": "improved"
+        },
+        {
+          "date": "2026-07-29",
+          "summary": "Trade deadline plan surfaces: keep Alcantara, Perez, Meyer, Mack; open to trading Edwards, Lopez, Hicks, Hernandez.",
+          "change_type": "watch"
+        },
+        {
+          "date": "2026-07-29",
+          "summary": "Down 6-0, Miami completes the sweep with an 8-6 comeback win, its biggest of the season; improves to 55-54, three straight wins.",
+          "change_type": "improved"
+        }
+      ]
+    },
+    {
+      "id": "thread-heat-giannis-era",
+      "title": "Heat: the Giannis era begins",
+      "topic": "sports",
+      "status": "resolved",
+      "last_updated": "2026-07-26",
+      "importance": 0.7,
+      "confidence": "medium",
+      "current_state": "Resolved: LeBron James signed with the Philadelphia 76ers, not Miami. The Heat's post-Giannis roster is now settled without further additions.",
+      "why_it_matters": "Franchise-altering trade; roster construction around Giannis was the story of the NBA offseason in Miami.",
+      "timeline": [
+        {
+          "date": "2026-07-18",
+          "summary": "Blockbuster trade lands the two-time MVP.",
+          "change_type": "new"
+        },
+        {
+          "date": "2026-07-25",
+          "summary": "LeBron James signs with Philadelphia, not Miami.",
+          "change_type": "resolved"
+        }
+      ]
+    },
+    {
+      "id": "thread-dolphins-hafley-rebuild",
+      "title": "Dolphins rebuild under Hafley",
+      "topic": "sports",
+      "status": "active",
+      "last_updated": "2026-07-30",
+      "importance": 0.8,
+      "confidence": "high",
+      "current_state": "Fuller reporting on Day One of full-squad camp: Willie Gay Jr.'s tone-setting play was a one-handed pick-six off Cam Miller; Austin Jackson says he feels better than his normal self after last year's rushed return from a toe injury. Achane practiced fully; Chris Bell remains on PUP. Camp runs through August 26, first public practice August 2.",
+      "why_it_matters": "A patience year while Heat and Panthers push chips in - the contrast defines Miami sports this season.",
+      "timeline": [
+        {
+          "date": "2026-07-18",
+          "summary": "Camp schedule announced.",
+          "change_type": "new"
+        },
+        {
+          "date": "2026-07-22",
+          "summary": "Jordyn Brooks signs three-year, $51.3M extension through 2029.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-07-28",
+          "summary": "Veterans report; camp officially opens with full squad.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-07-29",
+          "summary": "First full practice: conditioning test passed, Achane fully participates, Willie Gay Jr. sets tone, Chris Bell on PUP.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-07-30",
+          "summary": "Fuller Day One reporting: Willie Gay Jr.'s pick-six detail, Austin Jackson's on-record health comments.",
+          "change_type": "advanced"
+        }
+      ]
+    },
+    {
+      "id": "thread-miami-summer-openings",
+      "title": "Miami summer restaurant wave",
+      "topic": "miami",
+      "status": "active",
+      "last_updated": "2026-07-29",
+      "importance": 0.75,
+      "confidence": "medium",
+      "current_state": "Crisppi's opened a second Miami location in West Miami and Flight West opened in South Miami this week, joining Manoli, Redhead Burger, Star Burger, and Stephen Starr's Slim's among this summer's arrivals.",
+      "why_it_matters": "The eating-out map is being redrawn this summer; worth tracking which openings actually land and where.",
+      "timeline": [
+        {
+          "date": "2026-07-18",
+          "summary": "Nine most-anticipated openings named for summer.",
+          "change_type": "new"
+        },
+        {
+          "date": "2026-07-28",
+          "summary": "Stephen Starr's Slim's opens at Bal Harbour Shops in the former Makoto space.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-07-29",
+          "summary": "Crisppi's opens second West Miami location; Flight West opens in South Miami.",
+          "change_type": "advanced"
+        }
+      ]
+    },
+    {
+      "id": "thread-miami-freedom-park-civic",
+      "title": "Miami Freedom Park Civic Center",
+      "topic": "miami",
+      "status": "emerging",
+      "last_updated": "2026-07-22",
+      "importance": 0.62,
+      "confidence": "medium",
+      "current_state": "An eight-story, 257,000-sq-ft Civic Center topped off July 10 within the $1B, 130-acre Freedom Park development. $193M permit secured; completion targeted spring 2028.",
+      "why_it_matters": "A real, financed, under-construction civic asset next to a private stadium deal - directly relevant to Alex's CRE lens.",
+      "timeline": [
+        {
+          "date": "2026-07-22",
+          "summary": "First tracked: civic center topped off, full project scope confirmed.",
+          "change_type": "new"
+        }
+      ]
+    },
+    {
+      "id": "thread-cre-capital-markets-2026",
+      "title": "2026 CRE capital markets under pressure",
+      "topic": "markets",
+      "status": "active",
+      "last_updated": "2026-07-30",
+      "importance": 0.72,
+      "confidence": "high",
+      "current_state": "South Florida commercial sales volume remains down 13% year over year; Waste Management's $379M Medley purchase was 96% seller-financed. A LoopNet analysis of roughly 5,000 listings now puts Miami's average office asking rent, $59.66/sq ft, ahead of New York's $50.56 - the highest of any US market.",
+      "why_it_matters": "A direct read on how tight capital markets actually are for Alex's CRE world, and how much capital migration has repriced his own market, beneath the deal-volume headlines.",
+      "timeline": [
+        {
+          "date": "2026-07-24",
+          "summary": "CBRE Q2 update shows deal volume down 24% YoY.",
+          "change_type": "new"
+        },
+        {
+          "date": "2026-07-26",
+          "summary": "South Florida sales volume down 13% YoY to $5.42B in H1 2026.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-07-28",
+          "summary": "Waste Management pays $379M for Medley site, 96% seller-financed.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-07-30",
+          "summary": "LoopNet analysis finds Miami's average asking office rent, $59.66/sq ft, now highest in the US, ahead of New York's $50.56.",
+          "change_type": "advanced"
+        }
+      ]
+    },
+    {
+      "id": "thread-miami-worldcenter-development",
+      "title": "Miami Worldcenter's next phase",
+      "topic": "markets",
+      "status": "active",
+      "last_updated": "2026-07-27",
+      "importance": 0.6,
+      "confidence": "medium",
+      "current_state": "Witkoff and Monroe Capital's $303M construction loan for 700 North Miami Avenue is now joined by a separate listing: a two-acre site nearby, One Miami World, expected to fetch well over $100M versus its $44M 2020 purchase price.",
+      "why_it_matters": "A live read on downtown Miami development economics and land appreciation.",
+      "timeline": [
+        {
+          "date": "2026-07-26",
+          "summary": "$303M construction loan closes for phase one of 700 North Miami Avenue.",
+          "change_type": "new"
+        },
+        {
+          "date": "2026-07-27",
+          "summary": "One Miami World parcel listed, expected well over $100M.",
+          "change_type": "advanced"
+        }
+      ]
+    },
+    {
+      "id": "thread-marine-stadium-referendum",
+      "title": "Miami Marine Stadium's restoration referendum",
+      "topic": "miami",
+      "status": "emerging",
+      "last_updated": "2026-07-30",
+      "importance": 0.55,
+      "confidence": "high",
+      "current_state": "Miami voters decide Marine Stadium's future in an August 18 referendum (Referendum #172) on a 40-year Global Spectrum/Oak View management deal. City keeps 93% of event revenue and 85% of sponsorship income, plus up to $10M toward restoration and a separate $65-85M restoration bond. Early voting runs August 3-16.",
+      "why_it_matters": "A civic landmark restoration decision with a real public vote and timeline.",
+      "timeline": [
+        {
+          "date": "2026-07-28",
+          "summary": "City Commission approved the management deal in February; referendum set for August 18.",
+          "change_type": "new"
+        },
+        {
+          "date": "2026-07-30",
+          "summary": "Detail surfaces: Referendum #172, early voting Aug 3-16, specific revenue split, separate $65-85M restoration bond.",
+          "change_type": "advanced"
+        }
+      ]
+    }
+  ],
+  "readingList": [
+    {
+      "title": "U.S. Real Estate Market Outlook 2026: Capital Markets",
+      "url": "https://www.cbre.com/insights/books/us-real-estate-market-outlook-2026/capital-markets",
+      "addedAt": "2026-07-22T17:46:32Z",
+      "tag": "weekend"
+    },
+    {
+      "title": "What We Think Is a Decline in Literacy Is a Design Problem",
+      "url": "https://aeon.co/essays/what-we-think-is-a-decline-in-literacy-is-a-design-problem",
+      "addedAt": "2026-07-27T12:00:00Z",
+      "tag": "weekend"
+    }
+  ],
+  "habits": [
+    {
+      "id": "h1",
+      "label": "Morning reading",
+      "createdAt": "2026-07-18"
+    }
+  ],
+  "feedback": {
+    "cursor": "2026-07-30T14:00:00Z",
+    "consumed_ids": [
+      "1784474592819-lzbas",
+      "1784474895959-6quel",
+      "1784474899983-3hmod",
+      "1784475256253-h7tpe",
+      "1784475260466-xb8r9",
+      "1784475271767-2dphy",
+      "1784505371741-zahom",
+      "1784657317035-ifidp",
+      "1784657325668-y8ga6",
+      "1784657355370-kp17q",
+      "1784657363464-48tq0",
+      "1784657967054-dbmtv",
+      "1784658011028-3qjnf",
+      "1784686477007-y96y4",
+      "1784686483281-p0xaj",
+      "1784719015084-wnbf5"
+    ]
+  },
+  "systemNotes": "2026-07-30 morning run, Brain Mode. Drive search for the Brain and Feedback docs succeeded on the first preflight call. No new feedback: the repo feedback directory was empty and a Drive search for Feedback docs created after the 2026-07-29T22:57:00Z cursor returned none, so consumed_ids is unchanged and nothing new was applied. Applied one day of decay (0.01 toward 1.0) to all interest and subtopic weights per learning_params; sports was already at neutral 1.00 and is untouched. Today was an unusually heavy news day: the FOMC voted 9-3 to hold at 3.50-3.75% with three hawkish dissents (Hammack, Kashkari, Logan), and markets sold off hard (S&P -1.52%, Nasdaq -1.74%, 10Y up to about 4.66%) on fears the Fed is behind on inflation - a materially different signal than the near-certain hold priced in two weeks ago. Separately, the Iran-Israel-US conflict escalated again overnight: the US launched a 'heavy wave' of new strikes on Iran with reported civilian deaths, and Iran retaliated against Jordan and Kuwait. On a lighter note, the Marlins completed a sweep of the Phillies with their biggest comeback of the season (down 6-0, won 8-6) and the Dolphins camp notebook added detail on Willie Gay Jr.'s pick-six and Austin Jackson's health. All nine threads were updated with today's research; no threads opened or closed. ReadingList and notes carried forward unchanged - no reading_done, star, save, or note feedback arrived today.",
+  "notice_to_alex": "2026-07-30: Brain migrated from Google Drive to the private personal-os-brain repo. Drive is no longer on the critical path. Earlier note, retained for context: yesterday's run flagged that the Brain write step had been silently failing for several days before recovering on 2026-07-29.",
+  "notes": [],
+  "notes_policy": "Private reflections are NOT stored here. This file lives in a public repo, so note text stays on Alex's device (localStorage) and is never synced. Do not add note bodies to this file."
+}
