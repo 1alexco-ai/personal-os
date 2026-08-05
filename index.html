@@ -255,6 +255,10 @@ function queueAction(a) {
   a.edition_id = EDITION ? EDITION.id : null;
   a.client = 'mobile';
   a.schema_version = 2;
+  // Private text never leaves this device: the repo is public, so note bodies
+  // (evening reflections, noticing notes, captured thoughts) are kept in
+  // localStorage only and are not queued for sync.
+  if (a.action === 'note') return a;
   pending.push(a);
   store.set('pending', pending);
   setStatus();
@@ -382,7 +386,7 @@ function sectionUnwind(u) {
     store.set('notes', notes);
     queueAction({ target_type: 'evening_prompt', target_id: u.id || null, action: 'note', text: v });
     inp.value = '';
-    showToast('Kept — synced to the brain');
+    showToast('Kept on this device');
   };
   wrap.appendChild(inp); wrap.appendChild(b);
   c.appendChild(wrap);
@@ -725,7 +729,7 @@ function sectionNoticing(n) {
     store.set('notes', notes);
     queueAction({ target_type: 'noticing_prompt', target_id: n.id || null, action: 'note', text: v });
     inp.value = '';
-    showToast('Kept — synced to the brain');
+    showToast('Kept on this device');
   };
   wrap.appendChild(inp); wrap.appendChild(b);
   c.appendChild(wrap);
