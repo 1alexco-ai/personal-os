@@ -1,216 +1,275 @@
 {
   "schema_version": 2,
   "edition": {
-    "id": "2026-08-11",
-    "date": "2026-08-11",
+    "id": "2026-08-12",
+    "date": "2026-08-12",
     "type": "weekday",
-    "generated_at": "2026-08-11T09:30:00-04:00",
+    "generated_at": "2026-08-12T09:30:00-04:00",
     "timezone": "America/New_York",
     "title": "Personal OS",
     "front_page_letter": {
       "greeting": "Good morning",
       "body_paragraphs": [
-        "Friday's calm didn't survive the weekend. Monday's close cracked it a little further: the S&P slipped 0.06% to 7,753 and the Nasdaq fell 0.32% to 26,605, while the 10-year climbed to 4.71% - its highest close of the stretch - as oil kept extending its run on stalled Hormuz talks and hawkish-leaning Fed commentary pushed yields up. CME's FedWatch tool now prices September hike odds at 44%, up from Friday's low-30s. Wednesday's July CPI, out tomorrow at 8:30am, has gone from formality to genuine coin flip.",
-        "Iran and Oman keep calling their shipping-corridor talks 'very close,' but a senior Iranian lawmaker said this week the talks aren't actually about reopening the strait at all - not until the US ends its blockade and leaves the region. That gap between the two conversations is exactly what's kept oil climbing for four sessions running.",
-        "Closer to home: Kyle Stowers had an MRI Monday on the hamstring that pulled him from Sunday's win, with no result public yet ahead of tonight's series opener against Pittsburgh - Eury Perez against a slumping Paul Skenes. And Miami's office market keeps compounding on itself: new data has the city leading every major US metro in same-asset rent growth, even as next year's construction pipeline is tracking to the slowest pace in a decade.",
-        "One more honest note: the brain file that's meant to learn from what you star and save still isn't there this morning, so today's picks are built the same way yesterday's were - from your stated interests, not your actual week. Worth flagging since it's now been many mornings running. Tonight's slower read, meanwhile, is a piece that's been sitting in your queue for a while: an argument that the literacy panic was never really about literacy."
+        "July's CPI landed the way these things sometimes do - fine on the surface, hot underneath. Headline inflation held at 2.7% year-over-year, but core CPI jumped to 3.1%, its highest since February and above the roughly 2.5% consensus, on an airfare rebound and tariff pass-through. Tuesday's close carried caution - S&P down 0.32% to 7,728.20, Nasdaq down 0.60% to 26,445.45, the 10-year up to 4.73% - with September odds close to even going in. A surprise this size usually tips hawkish; the actual move wasn't confirmed by publish time.",
+        "Underneath the 'very close' language on Hormuz talks, something sharper happened Tuesday: a US helicopter fired on a Panama-flagged ship that allegedly ignored blockade-enforcement warnings - the first confirmed case of the US firing on a vessel to enforce its own blockade, rather than Iran attacking one. Trump now demands reparations and claims 'complete control' of the strait; Iran added Gaza and Lebanon to its conditions for reopening it. Both sides are adding terms, not dropping them.",
+        "Closer to home: Stowers' MRI came back Tuesday - a Grade 1 hamstring strain, out a couple weeks - and Miami won anyway, 2-0 over Pittsburgh, on Eury Perez's best start in a month. South Florida's investment-sales data complicates last week's rent-growth story, too: deal volume is up 19% on an industrial surge, but office deal volume actually fell. Tonight's slower read: a freshly minted Nobel economist on why it took Europe five centuries to turn an institutional head start into an actual one."
       ],
       "read_only_three": [
-        { "target_type": "theme", "target_id": "theme-fed-cpi-eve-yields-rise", "label": "Yields hit a fresh high, hike odds tick back up - Wednesday's CPI is now a real toss-up" },
-        { "target_type": "theme", "target_id": "theme-marlins-pirates-stowers-mri", "label": "Stowers' MRI result is still unknown as Miami opens a series against Skenes and the Pirates" },
-        { "target_type": "theme", "target_id": "theme-miami-office-rent-leads-nation", "label": "Miami now leads every major US metro in office rent growth, with the slowest new supply in a decade behind it" }
+        {
+          "target_type": "theme",
+          "target_id": "theme-cpi-hot-core-yields-fed-odds",
+          "label": "July's core CPI just handed the rate-hike case a real argument"
+        },
+        {
+          "target_type": "theme",
+          "target_id": "theme-hormuz-us-fires-blockade-ship",
+          "label": "For the first time, it's a US ship doing the firing at Hormuz"
+        },
+        {
+          "target_type": "theme",
+          "target_id": "theme-marlins-stowers-il-win-streak",
+          "label": "Stowers is out a couple weeks - Miami won anyway, its third straight"
+        }
       ]
     },
     "market_context": [
       {
         "label": "S&P 500",
-        "value": "7,753.20",
-        "change": "-0.06% Monday",
-        "observed": "Mon close 8/10",
-        "note": "Slipped off Friday's record as oil surged and Treasury yields jumped on hawkish-leaning Fed commentary. Next catalyst: July CPI, Wednesday, August 12, 8:30am ET."
+        "value": "7,728.20",
+        "change": "-0.32% Tuesday",
+        "observed": "Tue close 8/11",
+        "note": "Slipped further ahead of this morning's July CPI print, with oil and lingering Iran-related caution weighing on sentiment."
       },
       {
         "label": "Nasdaq",
-        "value": "26,605.31",
-        "change": "-0.32% Monday",
-        "observed": "Mon close 8/10",
-        "note": "Off Friday's record close; tech led Monday's modest pullback."
+        "value": "26,445.45",
+        "change": "-0.60% Tuesday",
+        "observed": "Tue close 8/11",
+        "note": "Underperformed on tech weakness; Wednesday premarket futures pointed higher into the CPI release."
       },
       {
         "label": "10Y Treasury",
-        "value": "4.71%",
-        "change": "+0.06 to the highest close of the stretch",
-        "observed": "Mon close 8/10",
-        "note": "Climbed alongside oil and hawkish Fed-official remarks; Wednesday's CPI print is the next real input."
+        "value": "4.73%",
+        "change": "+0.02 to a fresh high for the stretch",
+        "observed": "Tue close 8/11",
+        "note": "Climbed alongside oil ahead of this morning's CPI print, which came in with a hot core reading."
       },
       {
         "label": "FOMC",
         "value": "Held, 3.50-3.75%",
-        "change": "September hike odds rose to ~44%",
-        "observed": "as of Mon 8/10",
-        "note": "CME FedWatch moved to roughly 55.6% hold / 44.4% hike, up from Friday's low-30s% hike odds - a real reversal of the post-jobs-report dovish move. July CPI tomorrow is what likely decides which way this breaks ahead of the Sept 16 decision."
+        "change": "Sept hike/hold odds near 50/50 pre-CPI",
+        "observed": "as of Wed premarket 8/12",
+        "note": "CME FedWatch had September odds close to even ahead of this morning's release; July core CPI came in at 3.1% y/y, above the ~2.5% consensus - a hawkish-leaning surprise, though the resulting odds move wasn't confirmed at publish time."
       }
     ],
     "public_day_context": {
-      "date_label": "Tuesday, August 11",
-      "weather": "High near 91°F, sunny with an extreme UV risk; low around 82°F tonight, east wind 9-11 mph.",
-      "public_event": "Marlins host Pittsburgh at loanDepot Park, 6:40pm - Eury Perez vs. Paul Skenes; Dolphins travel to Ashburn, VA ahead of Wednesday's joint practice with Washington; early voting on the Marine Stadium referendum continues (through Aug 16, vote Aug 18); Panthers '93 Society newsletter subscribers get early access to single-game tickets Wednesday, general public Thursday."
+      "date_label": "Wednesday, August 12",
+      "weather": "High near 91°F with a heat index up to 108°F; 20% chance of showers or storms after 3pm, mostly clearing tonight with a low around 79°F.",
+      "public_event": "Marlins host Pittsburgh again at loanDepot Park, 6:40pm, after Tuesday's 2-0 shutout win; Dolphins run a joint practice with Washington in Ashburn, VA ahead of Friday's preseason opener; Panthers open '93 Society presale tickets at 10am, general public sale tomorrow; early voting on the Marine Stadium referendum continues through Aug 16 (vote Aug 18); a total solar eclipse crosses Greenland, Iceland, and northern Spain this afternoon, the first to reach mainland Europe since 1999."
     },
     "what_changed": [
       {
-        "id": "delta-fed-odds-rise-yields-fresh-high",
+        "id": "delta-cpi-hot-core-fed-odds-in-play",
         "thread_id": "thread-fed-rate-path",
         "change_type": "worsened",
-        "title": "The calm from Friday cracked on Monday - yields hit a fresh high, hike odds crept back up",
-        "previous_state": "Friday's confirmed close set records (S&P 7,757.64, Nasdaq 26,690.62) on a weak jobs report that flipped September odds toward a hold - CME FedWatch near 55-60% hold heading into the weekend.",
-        "current_state": "Monday's close: S&P -0.06% to 7,753.20, Nasdaq -0.32% to 26,605.31, the 10-year up 6bp to 4.71% - the highest close of the stretch - as oil extended its climb and Fed officials leaned hawkish on inflation. CME FedWatch now prices September hike odds at 44.4%, up sharply from Friday's low-30s%.",
-        "why_it_matters": "A one-day, 10+ point swing in hike odds this close to the print means Wednesday's July CPI can move markets - and CRE borrowing costs - a lot in either direction.",
+        "title": "July's core CPI ran hot - the number meant to decide September just complicated it",
+        "previous_state": "Monday's close set September hike odds at 44.4% on CME FedWatch, drifting toward roughly even by Tuesday, with July CPI due Wednesday at 8:30am ET as the decisive input.",
+        "current_state": "July CPI held headline inflation steady at 2.7% y/y (+0.2% m/m) but pushed core CPI to 3.1% y/y (+0.32% m/m) - the highest since February and above the ~2.5% consensus - on core services strength (airfares, medical care) and tariff pass-through in core goods. Tuesday's confirmed close: S&P -0.32% to 7,728.20, Nasdaq -0.60% to 26,445.45, 10-year up to 4.73%.",
+        "why_it_matters": "This was supposed to be the print that settled the September rate path; instead it just handed the hawks a real argument, with real implications for floating-rate financing math this month.",
         "confidence": "medium",
-        "source": { "publisher": "CNBC", "url": "https://www.cnbc.com/2026/08/10/stock-market-today-live-updates.html" }
+        "source": {
+          "publisher": "FXStreet",
+          "url": "https://www.fxstreet.com/analysis/july-cpi-broad-heat-in-the-core-202508121356"
+        }
       },
       {
-        "id": "delta-stowers-mri-pending-series-opener",
+        "id": "delta-us-fires-on-hormuz-blockade-runner",
+        "thread_id": "thread-iran-hormuz-crisis",
+        "change_type": "worsened",
+        "title": "For the first time, it's the US doing the firing at Hormuz",
+        "previous_state": "Oman and Iran kept describing shipping-corridor talks as 'very close,' while a senior Iranian lawmaker said reopening the strait itself wasn't even part of those talks.",
+        "current_state": "A US helicopter fired on a Panama-flagged ship Tuesday after its crew allegedly ignored blockade-enforcement warnings, per the Wall Street Journal citing a US official - the first confirmed US strike on a vessel enforcing its own blockade rather than Iran attacking one; a fire was reported and extinguished, no casualties. Trump claims 'complete control' of the strait and now demands reparations from Iran; Iranian official Mohsen Rezaei broadened Tehran's reopening conditions to include issues tied to Gaza and Lebanon.",
+        "why_it_matters": "Oil has been the transmission line from this war into inflation and financing costs for a month; an actual US strike on a civilian vessel is a bigger tail risk to that channel than another round of 'very close' talk.",
+        "confidence": "medium",
+        "source": {
+          "publisher": "U.S. News & World Report",
+          "url": "https://www.usnews.com/news/world/articles/2026-08-11/us-fired-on-panama-flagged-ship-that-tried-to-break-blockade-of-iranian-ports-wsj-reports-citing-us-official"
+        }
+      },
+      {
+        "id": "delta-stowers-il-grade1-hamstring",
         "thread_id": "thread-marlins-wildcard",
-        "change_type": "watch",
-        "title": "Stowers' MRI result isn't public yet, and Miami opens a series tonight without it",
-        "previous_state": "Stowers left Sunday's 12-3 win with left hamstring discomfort after a two-run single; his availability for Tuesday's opener against Pittsburgh was unclear.",
-        "current_state": "Stowers underwent an MRI Monday; no result has been made public. Miami hosts Pittsburgh tonight at loanDepot Park, Eury Perez (5-9, 3.61) against a struggling Paul Skenes (9-10, 3.96, 5.20 ERA over his last 15 starts).",
-        "why_it_matters": "Stowers has been one of the best bats in Miami's second-half push; losing him for any real stretch is a direct hit to a two-game wild-card race.",
-        "confidence": "medium",
-        "source": { "publisher": "MLB.com", "url": "https://www.mlb.com/stories/game-preview/823832" }
+        "change_type": "worsened",
+        "title": "Stowers' MRI answer arrived Tuesday - and it's a real absence",
+        "previous_state": "Stowers underwent an MRI Monday on the hamstring that pulled him from Sunday's win; no result was public ahead of Tuesday's series opener.",
+        "current_state": "Miami placed Stowers on the 10-day IL, retroactive to Aug 10, with a Grade 1 left hamstring strain - his second hamstring IL stint this season, on the opposite leg - expected out a couple weeks, possibly into early September. Miami won Tuesday's opener 2-0 on Eury Perez's seven scoreless innings and an Esteury Ruiz homer, its third straight win and 12th shutout of the season, improving to 61-58.",
+        "why_it_matters": "Stowers has carried real weight in the second-half push; losing him for weeks is a genuine cost even on a night the rotation covered for him.",
+        "confidence": "high",
+        "source": {
+          "publisher": "ESPN",
+          "url": "https://www.espn.com/mlb/story/_/id/49584481/marlins-place-kyle-stowers-10-day-il-hamstring-strain"
+        }
       },
       {
-        "id": "delta-miami-office-rent-leads-nation-slow-pipeline",
+        "id": "delta-miami-cre-isales-up-19pct-uneven",
         "thread_id": "thread-cre-capital-markets-2026",
         "change_type": "advanced",
-        "title": "Miami now leads every major US market in office rent growth, with the slowest new supply in a decade behind it",
-        "previous_state": "Friday's MIAMI Realtors/RWorld report formally ranked South Florida the No. 1 US office market by asking rent, up 7.1% year over year.",
-        "current_state": "A new CRE Daily/Largo Capital roundup shows Miami leading all major US metros in same-asset office rent growth (4.0% year over year), with Brickell Tier I space now above $130/sqft and vacancy in the tightest submarkets down to 6.6%. The 2026-27 construction pipeline is tracking to just 1.6% inventory growth - the slowest pace in a decade - which should keep tightening the market into 2027.",
-        "why_it_matters": "Slow new supply behind record rent growth is the setup that keeps a real estate cycle running longer than the skeptics expect - worth watching against anyone calling the top.",
+        "title": "The rent-growth story is only half the picture - deal volume tells a messier one",
+        "previous_state": "Last week's coverage focused on same-asset office rent growth (4.0% year over year) and a construction pipeline tracking to the slowest pace in a decade.",
+        "current_state": "South Florida investment sales (i-sales) are up 19% year over year, YTD volume topping $9 billion, led largely by industrial-sector activity - but a separate office-specific subset (roughly 90 deals, $1.3 billion) was actually down 11.5% year over year, with cap rates ranging 7.12%-8.39%.",
+        "why_it_matters": "Rent growth and deal volume can diverge for a while before one catches up to the other - worth tracking which is actually leading before treating the No. 1 rent ranking as the whole story.",
         "confidence": "medium",
-        "source": { "publisher": "CRE Daily", "url": "https://www.credaily.com/briefs/miami-office-leasing-surges-amid-market-challenges/" }
-      },
-      {
-        "id": "delta-seaquarium-marina-scope-detailed",
-        "thread_id": "thread-seaquarium-marina-redevelopment",
-        "change_type": "advanced",
-        "title": "The Seaquarium site's marina plan gets more concrete - and a lot bigger in scope",
-        "previous_state": "Miami-Dade and Terra Group/David Martin had applied for a 325-slip marina at the shuttered Seaquarium site, with environmental review pending and a possible late-2026 groundbreaking.",
-        "current_state": "Additional scope has surfaced: Martin's roughly $100M vision now includes a fully accredited aquarium with no marine mammals, a research and education center, and a public baywalk alongside the marina and dry-stack storage. County estimates put the project's value to Miami-Dade at close to $750M over the life of the lease. Final approval from the County Commission is still pending.",
-        "why_it_matters": "The no-marine-mammals detail is a real pivot from the Seaquarium's 70-year identity - and the $750M county estimate is the number that will drive the commission vote.",
-        "confidence": "medium",
-        "source": { "publisher": "The Real Deal", "url": "https://therealdeal.com/miami/2026/07/14/david-martin-moves-on-superyacht-marina-at-seaquarium-site/" }
+        "source": {
+          "publisher": "The Real Deal",
+          "url": "https://therealdeal.com/miami/2026/08/11/south-florida-cre-i-sales-up-by-19-amid-industrial-flurry/"
+        }
       }
     ],
     "themes": [
       {
-        "id": "theme-fed-cpi-eve-yields-rise",
+        "id": "theme-cpi-hot-core-yields-fed-odds",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Yields hit a fresh high, hike odds tick back up - Wednesday's CPI is now a real toss-up",
-        "importance": 0.75,
-        "thesis": "Friday's calm cracked on Monday - oil, yields, and hike odds all moved the same direction, and now July CPI is a genuine swing event rather than a formality.",
-        "synthesis": "Monday's close: S&P 500 down 0.06% to 7,753.20, Nasdaq down 0.32% to 26,605.31, the 10-year Treasury up 6bp to 4.71% - its highest close of the stretch. Oil extended its climb for a fourth straight session on stalled Hormuz talks, and Fed officials leaned hawkish on inflation risk, pushing CME FedWatch's September hike odds up to 44.4% from Friday's low-30s%. Futures were only modestly positive Tuesday morning. July CPI, due tomorrow at 8:30am ET, is now the release that decides which way the last month of positioning breaks.",
-        "new_today": "Monday's confirmed close, the fresh 10-year high, and the jump in hike odds.",
-        "why_it_matters": "For anyone reading rate odds into CRE borrowing costs, a swing from ~33% to ~44% hike odds in one session means Wednesday's number can move real financing math, not just sentiment.",
+        "title": "July's CPI came in hotter under the hood than it looked on the surface",
+        "importance": 0.8,
+        "thesis": "Headline inflation held steady, but core CPI jumped to its highest read since February - the kind of surprise that usually pushes the Fed hawkish, right as positioning had settled toward even odds.",
+        "synthesis": "July's CPI, released this morning at 8:30am ET, showed headline inflation steady at 2.7% year-over-year (+0.2% month-over-month) - but core CPI, which strips out food and energy, jumped to 3.1% year-over-year (+0.32% m/m), its highest annual read since February and well above the roughly 2.5% consensus. The heat came from core services (+0.4%, on a rebound in airfares and firmer medical-care prices) and continued tariff pass-through in core goods (+0.2%). Tuesday's confirmed close already carried some caution ahead of the print: S&P 500 down 0.32% to 7,728.20, Nasdaq down 0.60% to 26,445.45, the 10-year up to 4.73%. Going into the release, CME FedWatch had September hike-vs-hold odds close to even; a core surprise this size is the kind of number that typically moves those odds hawkish, though confirmed post-print trading levels weren't available at publish time.",
+        "new_today": "The actual July CPI print itself - the hot core number specifically.",
+        "why_it_matters": "This is the print that was supposed to decide the September rate path, and it just handed the hawks a real argument - worth watching against anything you're underwriting on floating-rate debt this month.",
         "thread_id": "thread-fed-rate-path",
         "confidence": "medium",
         "sources": [
-          { "role": "primary_reporting", "publisher": "CNBC", "headline": "Stock market today: Live updates", "url": "https://www.cnbc.com/2026/08/10/stock-market-today-live-updates.html" },
-          { "role": "analysis", "publisher": "Yahoo Finance", "headline": "US stock market today: S&P 500 futures edge higher as rate hike fears ease", "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-market-today-p-081147026.html" },
-          { "role": "background", "publisher": "CBS News", "headline": "The Fed was expected to hike interest rates in September. Don't bet on that now, economists say.", "url": "https://www.cbsnews.com/news/federal-reserve-september-rate-decision-jobs-report-kevin-warsh/" }
+          {
+            "role": "primary_reporting",
+            "publisher": "FXStreet",
+            "headline": "July CPI: Broad heat in the core",
+            "url": "https://www.fxstreet.com/analysis/july-cpi-broad-heat-in-the-core-202508121356"
+          },
+          {
+            "role": "analysis",
+            "publisher": "Yahoo Finance",
+            "headline": "CPI report: Core inflation rises by most in six months, stoking tariff-driven price concerns",
+            "url": "https://finance.yahoo.com/news/cpi-report-core-inflation-rises-by-most-in-six-months-stoking-tariff-driven-price-concerns-153654897.html"
+          },
+          {
+            "role": "background",
+            "publisher": "CNBC",
+            "headline": "Treasury yields are little changed as investors await key inflation data",
+            "url": "https://www.cnbc.com/2026/08/12/treasury-yields-inflation-cpi-data.html"
+          }
         ]
       },
       {
-        "id": "theme-hormuz-talks-stall-oil-climbs",
+        "id": "theme-hormuz-us-fires-blockade-ship",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Two different conversations about the same strait keep pulling oil higher",
-        "importance": 0.62,
-        "thesis": "Iran and Oman keep calling their shipping-corridor talks 'very close,' while a senior Iranian lawmaker says the real question - reopening the strait itself - hasn't even started.",
-        "synthesis": "Oman's foreign ministry and Iran's FM Araghchi continue describing their talks on a temporary shipping route as 'positive' and 'very close' to done. But a senior Iranian lawmaker said this week those talks 'are in no way about' reopening the strait itself - that would require the US to end its blockade, lift sanctions, and withdraw from the region first, terms Washington has already rejected once. No new attacks were reported overnight, but none of Iran's underlying conditions have moved either. Oil has now risen for a fourth straight session on the gap between the two conversations.",
-        "new_today": "Confirmation that the Oman shipping-route talks and the actual strait-reopening question remain two separate, unresolved tracks.",
-        "why_it_matters": "This is the same pattern that's defined the thread for weeks - and it's a direct input into Wednesday's CPI print, since oil feeds straight into headline inflation.",
+        "title": "For the first time, it's a US ship doing the firing at Hormuz",
+        "importance": 0.65,
+        "thesis": "The 'very close' shipping-corridor talks kept moving in words while, on the water, the US fired on a vessel trying to break its own blockade of Iranian ports - a real escalation underneath the diplomatic framing.",
+        "synthesis": "A US military helicopter fired on a Panama-flagged ship Tuesday after its crew allegedly ignored warnings meant to enforce the US blockade of Iranian ports, according to the Wall Street Journal citing a US official; a fire was reported and extinguished, with no casualties. It's the first confirmed instance since the blockade was reinstated in July of the US actually firing on a vessel to enforce it, rather than Iran or Iran-aligned forces attacking one. Separately, Trump said the US has 'complete control' of the strait and is now demanding Iran pay reparations, while Iranian official Mohsen Rezaei broadened Tehran's conditions for reopening to include issues tied to Gaza and Lebanon - both sides adding terms rather than dropping them. On the narrower track, Iran and Oman say they've agreed on the coordinates for a temporary shipping corridor and are in final drafting, contingent on unnamed 'third parties.'",
+        "new_today": "The confirmed US strike on a blockade-running vessel, plus the harder rhetoric and broader conditions from both Washington and Tehran.",
+        "why_it_matters": "Oil has been the transmission mechanism from this war into your CPI and CRE financing costs for a month; an actual US strike on a civilian ship is a bigger tail risk to that channel than another round of 'very close' talk.",
         "thread_id": "thread-iran-hormuz-crisis",
         "confidence": "medium",
         "sources": [
-          { "role": "primary_reporting", "publisher": "CNN", "headline": "Iran demands concessions from US as it nears Strait of Hormuz deal with Oman", "url": "https://www.cnn.com/2026/08/08/world/live-news/iran-war-trump" },
-          { "role": "background", "publisher": "Al Jazeera", "headline": "Iran war live: Tehran, Oman talks on Hormuz 'positive'", "url": "https://www.aljazeera.com/news/liveblog/2026/8/5/iran-war-live-tehran-oman-talks-on-hormuz-positive-ship-hit-in-red-sea" }
+          {
+            "role": "primary_reporting",
+            "publisher": "U.S. News & World Report",
+            "headline": "US Fired on Panama-Flagged Ship That Tried to Break Blockade of Iranian Ports, WSJ Reports Citing US Official",
+            "url": "https://www.usnews.com/news/world/articles/2026-08-11/us-fired-on-panama-flagged-ship-that-tried-to-break-blockade-of-iranian-ports-wsj-reports-citing-us-official"
+          },
+          {
+            "role": "background",
+            "publisher": "CNBC",
+            "headline": "Trump claims '100% control' of Hormuz, demands Iran pay reparations",
+            "url": "https://www.cnbc.com/2026/08/11/us-iran-war-trump-hormuz-control-reparation-talks-.html"
+          }
         ]
       },
       {
-        "id": "theme-marlins-pirates-stowers-mri",
+        "id": "theme-marlins-stowers-il-win-streak",
         "affinity": "morning",
         "topic": "sports",
         "topic_label": "Miami Sports",
-        "title": "Stowers' MRI result is still unknown as Miami opens a series against Skenes and the Pirates",
-        "importance": 0.52,
-        "thesis": "Miami's two-game wild-card push opens a new series tonight without knowing whether its hottest second-half bat is available.",
-        "synthesis": "Kyle Stowers underwent an MRI Monday on the left hamstring that pulled him from Sunday's 12-3 win over the Angels; no result has been made public. Miami is off Monday and hosts Pittsburgh tonight at loanDepot Park (6:40pm) in the opener of a three-game set - Eury Perez (5-9, 3.61, averaging roughly 98mph) against Paul Skenes (9-10, 3.96), the reigning NL Cy Young winner who's posted a 5.20 ERA over his last 15 starts and is trying to find his form again. Miami sits at 60-58, roughly two games back of the final NL wild-card spot.",
-        "new_today": "The MRI (result pending) and tonight's series-opener matchup against a slumping Skenes.",
-        "why_it_matters": "Stowers' bat has carried a real share of Miami's second-half push - his health is a bigger swing factor in this race than any single game result.",
+        "title": "Stowers is out a couple weeks - and Miami won anyway, its third straight",
+        "importance": 0.55,
+        "thesis": "The MRI answer finally came back Tuesday: a Grade 1 hamstring strain and a real absence, but Miami beat Pittsburgh anyway on the strength of Eury Perez's best start in weeks.",
+        "synthesis": "Miami placed Kyle Stowers on the 10-day IL, retroactive to Monday, with a Grade 1 left hamstring strain - his second hamstring injury of the season, on the opposite leg - with an expected return in a couple of weeks, possibly early September. Miami won anyway Tuesday night, 2-0 over Pittsburgh, on Eury Perez's seven scoreless innings (3 hits, 7 strikeouts) and an Esteury Ruiz home run; Paul Skenes lasted just five innings. It's Miami's third straight win and its 12th shutout of the season, improving to 61-58. Miami hosts Pittsburgh again tonight at 6:40pm, Janson Junk on the mound.",
+        "new_today": "The Grade 1 IL diagnosis and Tuesday's shutout win.",
+        "why_it_matters": "Stowers has carried real weight in the second-half push; losing him for weeks is a real cost even on a night the rotation covered for him.",
         "thread_id": "thread-marlins-wildcard",
-        "confidence": "medium",
+        "confidence": "high",
         "sources": [
-          { "role": "primary_reporting", "publisher": "MLB.com", "headline": "Pittsburgh Pirates at Miami Marlins Preview - 08/11/2026", "url": "https://www.mlb.com/stories/game-preview/823832" },
-          { "role": "background", "publisher": "MLB Trade Rumors", "headline": "Kyle Stowers Leaves Game Due To Hamstring Discomfort", "url": "https://www.mlbtraderumors.com/2026/08/kyle-stowers-leaves-game-due-to-hamstring-discomfort.html" }
+          {
+            "role": "primary_reporting",
+            "publisher": "ESPN",
+            "headline": "Marlins place Kyle Stowers on 10-day IL with hamstring strain",
+            "url": "https://www.espn.com/mlb/story/_/id/49584481/marlins-place-kyle-stowers-10-day-il-hamstring-strain"
+          },
+          {
+            "role": "analysis",
+            "publisher": "ESPN",
+            "headline": "Marlins 2-0 Pirates - Game Recap",
+            "url": "https://www.espn.com/mlb/recap?gameId=401816483"
+          },
+          {
+            "role": "background",
+            "publisher": "MLB Trade Rumors",
+            "headline": "Marlins Place Kyle Stowers On Injured List",
+            "url": "https://www.mlbtraderumors.com/2026/08/kyle-stowers-leaves-game-due-to-hamstring-discomfort.html"
+          }
         ]
       },
       {
-        "id": "theme-dolphins-travel-washington-practice",
+        "id": "theme-dolphins-joint-practice-washington",
         "affinity": "morning",
         "topic": "sports",
         "topic_label": "Miami Sports",
-        "title": "Camp packs up for a day to face someone else's roster",
-        "importance": 0.35,
-        "thesis": "After two-plus weeks of watching itself, camp finally gets an outside benchmark tomorrow.",
-        "synthesis": "Miami travels to Ashburn, Virginia today ahead of Wednesday's joint practice with the Washington Commanders - the Commanders' first hosted joint-practice partner since 2018 - which sets up Friday's 7pm preseason opener at Northwest Stadium. Saturday's seven-player injury list (Ferrell, Brents, Trader Jr., L. Johnson Jr., Sims, Coleman Jr., Salyer) still has no confirmed resolution, and presumptive starting TE Greg Dulcich remains in a red non-contact jersey, targeting a return around the joint practice.",
-        "new_today": "Today's travel day, with the joint practice now one day out.",
-        "why_it_matters": "Depth is the whole question of this rebuild; a joint practice against another team's roster is the first outside test camp injuries can't fake.",
+        "title": "Camp finally gets an outside test today, in Washington's building",
+        "importance": 0.38,
+        "thesis": "Today's joint practice with the Commanders - reportedly the first ever held on Commanders Park grounds - is camp's first real outside benchmark.",
+        "synthesis": "Miami is running today's joint practice at the Commanders' Ashburn, VA facility - reportedly the first-ever joint practice held on Commanders Park grounds - ahead of Friday's 7pm preseason opener at Northwest Stadium. TE Greg Dulcich remains in a red non-contact jersey as of last week but is trending toward a return around this practice. Of the seven players on last Saturday's injury list, Clelin Ferrell will miss multiple weeks, JuJu Brents isn't expected to practice this week (not believed long-term), and Kevin Coleman Jr., Dante Trader Jr., and Ben Sims are probably out this week with a possible return next week; kicker Zane Gonzalez is newly out for weeks as well.",
+        "new_today": "The joint practice itself and the more granular injury-return timelines.",
+        "why_it_matters": "Depth is the whole question of this rebuild; today is the first practice snap Miami takes against someone else's scheme rather than its own.",
         "thread_id": "thread-dolphins-hafley-rebuild",
         "confidence": "medium",
         "sources": [
-          { "role": "primary_reporting", "publisher": "Miami Dolphins", "headline": "Practice 10: 2026 Miami Dolphins Training Camp Notebook", "url": "https://www.miamidolphins.com/news/practice-10-2026-miami-dolphins-training-camp-notebook" },
-          { "role": "background", "publisher": "Commanders.com", "headline": "Commanders finalize 2026 preseason, joint practice schedule", "url": "https://www.commanders.com/news/commanders-2026-preseason-joint-practice-schedule" }
+          {
+            "role": "primary_reporting",
+            "publisher": "Commanders.com",
+            "headline": "Joint practice with Dolphins believed to be first-ever on Ashburn grounds",
+            "url": "https://www.commanders.com/news/joint-practice-with-dolphins-believed-to-be-first-ever-on-ashburn-grounds"
+          },
+          {
+            "role": "background",
+            "publisher": "DolphinsTalk",
+            "headline": "Jeff Hafley Gives Dolphins Injury Updates, Preseason Plans Ahead of Washington",
+            "url": "https://dolphinstalk.com/2026/08/jeff-hafley-gives-dolphins-injury-updates-preseason-plans-ahead-of-washington/"
+          }
         ]
       },
       {
-        "id": "theme-miami-office-rent-leads-nation",
+        "id": "theme-miami-cre-isales-uneven-recovery",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Miami now leads every major US market in office rent growth, with the slowest new supply in a decade behind it",
-        "importance": 0.6,
-        "thesis": "The aggregate No. 1 ranking from last week is now backed by a supply story: the slowest construction pipeline in ten years, arriving right as rent growth tops the national list.",
-        "synthesis": "A new CRE Daily/Largo Capital market update shows Miami and Fort Lauderdale leading all major US metros in same-asset office rent growth at 4.0% year over year, with Brickell Tier I space now commanding above $130/sqft and vacancy in the tightest submarkets down to 6.6%. The 2026-27 construction pipeline for both markets is projected to grow inventory by just 1.6% - the slowest pace in a decade - which should support continued tightening into 2027 even as national deal volume stays soft.",
-        "new_today": "The same-asset rent-growth ranking and the 1.6% construction pipeline figure.",
-        "why_it_matters": "This is the supply-side half of the record-rent story - worth tracking directly against anything you're underwriting locally, since a decade-slow pipeline is what makes a rent cycle durable rather than a one-quarter spike.",
+        "title": "The rent-growth story is only half the picture - deal volume tells a messier one",
+        "importance": 0.58,
+        "thesis": "South Florida's investment sales are up 19% year over year on an industrial surge, but the office slice of that same market actually traded less this year, not more - a reminder the recovery isn't uniform.",
+        "synthesis": "The Real Deal reports South Florida commercial real estate investment sales are up 19% year over year, with year-to-date volume topping $9 billion - driven largely by industrial-sector activity. But a separate office-specific subset, roughly 90 deals totaling $1.3 billion, was actually down 11.5% year over year, with cap rates ranging 7.12% to 8.39%. That's a genuinely different read than the rent-growth headlines of the past week, which have focused on asking rents and vacancy rather than actual transaction volume.",
+        "new_today": "The i-sales figures and the office-specific transaction data, both new since yesterday's rent-growth coverage.",
+        "why_it_matters": "Rent growth and deal volume can diverge for a while before one catches up to the other - worth tracking which is actually leading here before treating the No. 1 rent ranking as the full story.",
         "thread_id": "thread-cre-capital-markets-2026",
         "confidence": "medium",
         "sources": [
-          { "role": "primary_reporting", "publisher": "CRE Daily", "headline": "Miami Office Leasing Surges Amid Market Challenges", "url": "https://www.credaily.com/briefs/miami-office-leasing-surges-amid-market-challenges/" },
-          { "role": "analysis", "publisher": "Largo Capital", "headline": "Florida CRE Market Update: August 2026", "url": "https://largocapital.com/florida-cre-market-update-august-2026/" },
-          { "role": "background", "publisher": "MIAMI Realtors + RWorld", "headline": "South Florida Ranked No. 1 Office Market in the U.S.", "url": "https://www.miamirealtors.com/2026/08/07/south-florida-ranked-no-1-office-market-in-the-u-s/" }
-        ]
-      },
-      {
-        "id": "theme-seaquarium-marina-scope-grows",
-        "affinity": "morning",
-        "topic": "miami",
-        "topic_label": "Miami Life & Culture",
-        "title": "The plan for Virginia Key's old marine park just got a lot more specific",
-        "importance": 0.42,
-        "thesis": "What started as a superyacht marina application now reads as a full waterfront district, aquarium included - minus the marine mammals.",
-        "synthesis": "Terra Group's David Martin has detailed a roughly $100M vision for the shuttered Seaquarium site: alongside the 325-slip marina and 500-boat dry stack already under environmental review, the plan now includes a fully accredited aquarium with no marine mammals, a research and education center, a Fishermen's Village-style restaurant district, and a public baywalk. County estimates put the project's value to Miami-Dade near $750M over the life of the lease, though final approval from the County Commission is still pending and environmental regulators have flagged wetlands and coral concerns.",
-        "new_today": "The no-marine-mammals detail, the research-center and baywalk additions, and the $750M county estimate.",
-        "why_it_matters": "The identity shift - marine-mammal park to superyacht-and-research district - is the real story here, and the $750M figure is what will actually move the commission vote.",
-        "thread_id": "thread-seaquarium-marina-redevelopment",
-        "confidence": "medium",
-        "sources": [
-          { "role": "primary_reporting", "publisher": "The Real Deal", "headline": "Dolphins out, superyachts in: David Martin's marina plan at former Seaquarium getting underway", "url": "https://therealdeal.com/miami/2026/07/14/david-martin-moves-on-superyacht-marina-at-seaquarium-site/" },
-          { "role": "background", "publisher": "Miami New Times", "headline": "$100M Marina and Waterfront Dining Village Replacing Miami Seaquarium", "url": "https://www.miaminewtimes.com/food-drink/100m-marina-and-waterfront-dining-village-replacing-miami-seaquarium-40502256/" }
+          {
+            "role": "primary_reporting",
+            "publisher": "The Real Deal",
+            "headline": "South Florida CRE i-sales up by 19% amid industrial flurry",
+            "url": "https://therealdeal.com/miami/2026/08/11/south-florida-cre-i-sales-up-by-19-amid-industrial-flurry/"
+          }
         ]
       },
       {
@@ -218,131 +277,160 @@
         "affinity": "morning",
         "topic": "sports",
         "topic_label": "Miami Sports",
-        "title": "Ticket windows and fall camp - the offseason's small housekeeping keeps stacking up",
-        "importance": 0.28,
-        "thesis": "Nothing here moves a season by itself, but three teams quietly checked another box this week.",
-        "synthesis": "The Panthers open single-game ticket sales to '93 Society newsletter subscribers Wednesday, general public Thursday, ahead of an October schedule that opens with the Stanley Cup banner raising in Raleigh. The Hurricanes are two weeks into fall camp under Mario Cristobal, ranked No. 7 in the preseason Coaches Poll, with position battles - including the No. 3 receiver spot - now the focus. The Heat's Giannis-era roster construction continues in the background with no fresh moves since last week.",
-        "new_today": "The Panthers' ticket-sale dates and the Hurricanes' second week of fall-camp position battles.",
-        "why_it_matters": "Modest housekeeping now is what determines whether any of these teams is actually ready when the real seasons start.",
+        "title": "Ticket windows, trade rumors, and a settled QB battle - the season-prep boxes keep getting checked",
+        "importance": 0.3,
+        "thesis": "Nothing here moves a season by itself, but three teams quietly advanced this week.",
+        "synthesis": "The Panthers opened '93 Society presale tickets today, with the general public sale tomorrow; the NHL's own fantasy preview flagged Brady Tkachuk, limited to 60 games last season in Ottawa, as this year's bounce-back watch. The Heat are reportedly still exploring a Klay Thompson trade if the Mavericks keep resisting a buyout, and plan to sign forwards Ezra Ausar and Ian Schieffelin to Exhibit 10 deals. The Hurricanes, ranked No. 7 in the preseason Coaches Poll and two weeks into fall camp under Mario Cristobal, have settled their quarterback battle: Duke transfer Darian Mensah is the clear starter, with Luke Nickel the backup, and Mensah's own focus now is fixing his ball security.",
+        "new_today": "The Panthers' presale opening, the Heat's Klay Thompson interest and Exhibit 10 plans, and confirmation Mensah has the Hurricanes' starting job locked down.",
+        "why_it_matters": "Small roster and ticketing decisions now are what determine whether any of these teams is actually ready when the real seasons start.",
         "thread_id": null,
         "confidence": "medium",
         "sources": [
-          { "role": "primary_reporting", "publisher": "NHL.com", "headline": "Florida Panthers 2026-27 Single Game Tickets Go On Sale Thursday, Aug. 13", "url": "https://www.nhl.com/panthers/news/florida-panthers-2026-27-single-game-tickets-go-on-sale-thursday-aug-13-at-10-a-m-et" },
-          { "role": "background", "publisher": "247Sports", "headline": "Stock Up players for the Miami Hurricanes' first week of fall camp", "url": "https://247sports.com/college/miami/longformarticle/stock-up-players-for-miami-hurricanes-football-first-week-of-fall-camp-justin-scott-omar-thornton-more-288794385/" }
+          {
+            "role": "primary_reporting",
+            "publisher": "NHL.com",
+            "headline": "Florida Panthers fantasy projections for 2026-27",
+            "url": "https://www.nhl.com/news/topic/32-in-32/florida-panthers-fantasy-projections-for-2026-27-season-32-in-32"
+          },
+          {
+            "role": "analysis",
+            "publisher": "Yahoo Sports",
+            "headline": "Heat Have 2 Roster Moves Lined Up Amid Klay Thompson Pursuit",
+            "url": "https://sports.yahoo.com/articles/heat-2-roster-moves-lined-233151400.html"
+          },
+          {
+            "role": "background",
+            "publisher": "Yahoo Sports",
+            "headline": "How Deep is the Miami Hurricanes Quarterback Room Really?",
+            "url": "https://sports.yahoo.com/articles/deep-miami-hurricanes-quarterback-room-223033103.html"
+          }
         ]
       },
       {
-        "id": "theme-literacy-panic-design-problem",
+        "id": "theme-mokyr-institutions-growth",
         "affinity": "evening",
         "topic": "living",
         "topic_label": "Art of Living",
-        "title": "Tonight's rabbit hole: the literacy panic was never really about literacy",
+        "title": "Tonight's rabbit hole: a freshly minted Nobel laureate on why growth took so long to arrive",
         "importance": 0.5,
-        "thesis": "An Aeon essay argues that what looks like declining literacy is really about who gets to control what counts as reading - a pattern going back to Socrates worrying about writing itself.",
-        "synthesis": "The essay opens from real data - Americans reading for pleasure has fallen more than 40% over twenty years, and the OECD calls the 2022 drop in developed-world reading scores 'unprecedented' - then argues the panic underneath those numbers isn't new. Socrates worried writing would 'produce forgetfulness in the minds of those who learn to use it'; every subsequent shift in how people read has triggered the same alarm from whoever held authority over the old form. The claim isn't that literacy doesn't matter - it's that 'decline' is doing a lot of quiet work to mean 'escaping the control of people like me.'",
-        "new_today": "Promoted tonight from the reading queue, where it's sat unread across several editions.",
-        "why_it_matters": "Worth the unhurried hour it's been waiting for - especially on a day this newsletter is otherwise full of basis points and rent comps that reward exactly the kind of fast, shallow attention the essay is skeptical of.",
+        "thesis": "Joel Mokyr, who just won the 2025 Nobel in Economics, spends 46 minutes with Tyler Cowen on why Europe's guild-and-corporation institutions outpaced China's clan-based ones by centuries - a question that's really about capital formation and path dependency, not history for its own sake.",
+        "synthesis": "Conversations with Tyler's July episode with economic historian Joel Mokyr covers why medieval Catholic cousin-marriage bans mattered economically, why Europe's corporate and guild structures diverged from China's clan-based institutions, and why it still took from the medieval 'divergence' until roughly 1700-1720 for living standards to actually pull ahead. Mokyr's Nobel-winning work is about why sustained technological growth happened when and where it did - institutions, culture, and capital formation are the whole argument.",
+        "new_today": "Tonight's pick, chosen fresh rather than pulled from a stale queue.",
+        "why_it_matters": "Institutions and path dependency are the same lens you already apply to CRE cycles - just run backward five hundred years, on a slower and stranger set of variables.",
         "thread_id": null,
         "confidence": "high",
         "sources": [
-          { "role": "primary_reporting", "publisher": "Aeon", "headline": "What we think is a decline in literacy is a design problem", "url": "https://aeon.co/essays/what-we-think-is-a-decline-in-literacy-is-a-design-problem" }
+          {
+            "role": "primary_reporting",
+            "publisher": "Conversations with Tyler (Mercatus Center, GMU)",
+            "headline": "Joel Mokyr on Clans, Corporations, and a Culture of Growth",
+            "url": "https://conversationswithtyler.com/episodes/joel-mokyr/"
+          }
         ]
       },
       {
-        "id": "theme-afrocubanismo-lowe-museum",
+        "id": "theme-vizcaya-garden-centennial",
         "affinity": "evening",
         "topic": "miami",
         "topic_label": "Miami Life & Culture",
-        "title": "Tonight's beautiful thing is on view twenty minutes from downtown, free, through mid-September",
-        "importance": 0.4,
-        "thesis": "A landmark Afro-Cuban art exhibition, drawing on one of the deepest private collections of the movement, is sitting at the Lowe right now - free and closing in a month.",
-        "synthesis": "The Lowe Art Museum at the University of Miami is showing 'Afrocubanismo: Highlights from the Ramón and Nercys Cernuda Collection,' guest-curated by Harvard's Alejandro de la Fuente, through September 12. The show traces Afrocubanismo - the 1930s Cuban modernist movement, including Wifredo Lam, that centered the country's African roots at a moment when much of Cuban society was actively suppressing them - drawing on one of the deepest private collections of the movement in existence. General admission is free.",
-        "new_today": "Framing tonight's beautiful_thing around an exhibition Alex could actually walk into this month.",
-        "why_it_matters": "Same cultural lineage as last week's beautiful_thing on Wifredo Lam, but reachable in person rather than only on a museum website.",
+        "title": "Tonight's beautiful thing turns 100 this year, twenty minutes from Brickell",
+        "importance": 0.42,
+        "thesis": "Vizcaya's Italian Renaissance-style gardens are marking their centennial by restoring pieces of the original 1922 design that had quietly disappeared.",
+        "synthesis": "Vizcaya Museum and Gardens is celebrating the 100th anniversary of its formal gardens - built for industrialist James Deering - by reviving lost original elements: replica Gaston Lachaise peacock statues, recreated Samuel Yellin wrought-iron gates, restored parterres, and roses returning to the Fountain Garden. The ten acres of gardens remain fully open to the public even while parts of the main house are mid-renovation for storm-proofing.",
+        "new_today": "Framing tonight's beautiful_thing around the centennial restoration work, distinct from last week's Lowe exhibition.",
+        "why_it_matters": "A hundred-year-old garden being deliberately restored to its original design is a good match for an evening that's otherwise full of quarterly figures and win-loss records.",
         "thread_id": null,
         "confidence": "high",
         "sources": [
-          { "role": "primary_reporting", "publisher": "Lowe Art Museum, University of Miami", "headline": "Afrocubanismo: Highlights from the Ramón and Nercys Cernuda Collection", "url": "https://www.lowe.miami.edu/exhibitions/on-view/afrocubanismo/index.html" },
-          { "role": "background", "publisher": "Harvard Gazette", "headline": "Lowe Art Museum to host two major exhibitions on Afro-Cuban art curated by Alejandro de la Fuente", "url": "https://news.harvard.edu/gazette/story/newsplus/lowe-art-museum-to-host-two-major-exhibitions-on-afro-cuban-art-curated-by-alejandro-de-la-fuente/" }
+          {
+            "role": "primary_reporting",
+            "publisher": "Vizcaya Museum and Gardens",
+            "headline": "Garden Centennial Brings Back Lost Elements",
+            "url": "https://vizcaya.org/garden100/"
+          }
         ]
       },
       {
-        "id": "theme-total-solar-eclipse-tomorrow",
+        "id": "theme-miami-restaurant-wave-august",
         "affinity": "evening",
-        "topic": "living",
-        "topic_label": "Art of Living",
-        "title": "This week's exploration pick: mainland Europe goes dark at midday tomorrow, for the first time since 1999",
-        "importance": 0.4,
-        "thesis": "Tomorrow's total solar eclipse is the first to cross mainland Spain since 1905 - a genuinely rare event landing on the same day as the CPI print everyone's actually watching.",
-        "synthesis": "A total solar eclipse sweeps across eastern Greenland, western Iceland, and the northern half of Spain tomorrow, August 12 - the first total eclipse visible from mainland Europe since 1999, and the first from mainland Spain since 1905. The path of totality is 190 miles wide; in Spain, the sun won't fully eclipse until early evening, shortly before sunset, giving the moment an unusually theatrical low-angle light. The European Space Agency is running live coverage from inside the path, including from an observatory in Teruel.",
-        "new_today": "This week's exploration pick, outside the usual markets/sports/Miami lineup.",
-        "why_it_matters": "A useful reminder that tomorrow has more than one kind of rare event on the calendar - one you can actually watch happen rather than just wait on.",
-        "thread_id": null,
-        "confidence": "high",
+        "topic": "miami",
+        "topic_label": "Miami Life & Culture",
+        "title": "The summer opening wave keeps adding names, and Miami Spice still has seven weeks to run",
+        "importance": 0.28,
+        "thesis": "Nothing urgent here - just the slow accumulation of a city's restaurant scene refreshing itself in real time.",
+        "synthesis": "This week's additions to Miami's summer wave: Night Owl Cookies in West Kendall and Pura Vida in Kendall, joining August's Burgers & Shakes, LandShark Bar & Grill at Dolphin Mall, and a reopened Stormy Monday with a refreshed menu after it had announced it would close. Miami Spice's discounted prix-fixe season continues citywide through September 30.",
+        "new_today": "Night Owl Cookies and Pura Vida, the latest names added to the running list.",
+        "why_it_matters": "Worth a slower look this evening - low stakes, no urgency, just the city's food scene doing what it does.",
+        "thread_id": "thread-miami-summer-openings",
+        "confidence": "medium",
         "sources": [
-          { "role": "primary_reporting", "publisher": "NASA Science", "headline": "Total Solar Eclipse on August 12, 2026", "url": "https://science.nasa.gov/eclipses/future-eclipses/total-solar-eclipse-on-august-12-2026/" },
-          { "role": "background", "publisher": "European Space Agency", "headline": "Join ESA for a total solar eclipse on 12 August 2026", "url": "https://www.esa.int/Science_Exploration/Space_Science/Join_ESA_for_a_total_solar_eclipse_on_12_August_2026" }
+          {
+            "role": "primary_reporting",
+            "publisher": "Miami New Times",
+            "headline": "Every Miami restaurant opening and closing this week",
+            "url": "https://www.miaminewtimes.com/food-drink/every-miami-restaurant-opening-and-closing-this-week-40571387/"
+          }
         ]
       }
     ],
     "rabbit_hole": {
-      "id": "rh-2026-08-11",
-      "title": "What we think is a decline in literacy is a design problem",
-      "creator": "Aeon Essays",
-      "format": "essay",
-      "minutes": 22,
-      "why": "It's been sitting unread in the reading queue across several editions, and today's mix of CPI-eve headlines makes a good foil for it. The essay's real claim isn't that reading is fine - it's that every generation's literacy panic has actually been a fight over who controls what counts as reading, from Socrates on writing itself to today's arguments about screens. Twenty minutes well spent on exactly the kind of attention the piece is defending.",
-      "url": "https://aeon.co/essays/what-we-think-is-a-decline-in-literacy-is-a-design-problem",
+      "id": "rh-2026-08-12",
+      "title": "Joel Mokyr on Clans, Corporations, and a Culture of Growth",
+      "creator": "Tyler Cowen interviews Joel Mokyr - Conversations with Tyler",
+      "format": "podcast",
+      "minutes": 46,
+      "why": "Mokyr just won the 2025 Nobel in Economics for explaining why sustained technological growth happened when and where it did, and this conversation is the argument in miniature: why Europe's corporate and guild structures pulled away from China's clan-based institutions, and why it still took centuries after that divergence for living standards to actually move. Forty-six minutes on institutions and path dependency - the same instincts you already bring to CRE cycles, aimed at a five-hundred-year timescale instead of a five-year one.",
+      "url": "https://conversationswithtyler.com/episodes/joel-mokyr/",
       "related_interest": "living"
     },
     "beautiful_thing": {
-      "id": "bt-2026-08-11",
-      "title": "Afrocubanismo: Highlights from the Ramón and Nercys Cernuda Collection",
-      "creator": "Various Afrocubanista artists, including Wifredo Lam; guest-curated by Alejandro de la Fuente",
-      "era": "Works from the 1930s Afrocubanismo movement; on view at the Lowe Art Museum, University of Miami, May 1 - September 12, 2026",
-      "body": "Afrocubanismo was a Cuban modernist movement in painting, literature, and music running roughly 1930 to 1940, when a generation of artists - many of whom had spent the 1920s in Paris, absorbing that city's fascination with sub-Saharan African art - returned home and began centering Cuba's African roots at a moment when much of Cuban society was actively suppressing them. This exhibition draws on the Ramón and Nercys Cernuda Collection, one of the deepest private holdings of the movement, and runs alongside a companion show tracing Afro-Cuban artistic practice from the colonial period to the present. General admission at the Lowe is free.",
-      "url": "https://www.lowe.miami.edu/exhibitions/on-view/afrocubanismo/index.html",
+      "id": "bt-2026-08-12",
+      "title": "Vizcaya's Gardens at 100",
+      "creator": "Diego Suarez, original landscape design (1922); ongoing centennial restoration by Vizcaya Museum and Gardens",
+      "era": "Formal gardens completed 1922 for industrialist James Deering; centennial restoration ongoing through 2026",
+      "body": "Vizcaya's ten acres of formal, Italian Renaissance-style gardens were designed by Diego Suarez as the centerpiece of James Deering's Miami estate, completed in 1922. For their centennial, the museum has been restoring design elements that quietly vanished over the decades: replica Gaston Lachaise peacock statues, recreated Samuel Yellin wrought-iron gates, restored parterre plantings, and roses returned to the Fountain Garden. The gardens remain fully open to the public even as parts of the main house undergo storm-proofing renovation.",
+      "url": "https://vizcaya.org/garden100/",
       "image": null,
-      "alt": "Promotional materials for the Afrocubanismo exhibition at the Lowe Art Museum, drawn from the Ramón and Nercys Cernuda Collection of 1930s Cuban modernist art."
+      "alt": "Vizcaya's formal Italian Renaissance-style gardens in Miami, marking their 100th anniversary with restored original design elements."
     },
     "noticing_prompt": {
-      "id": "np-2026-08-11",
-      "text": "Notice the exact moment tomorrow when you first hear about the CPI number - and separately, notice whether you'd have felt any different about your actual day if you'd heard it three hours later."
+      "id": "np-2026-08-12",
+      "text": "Somewhere over Iceland and northern Spain this afternoon, the sky is going dark at midday for the first time since 1999. Notice what you're doing at the exact moment it happens - probably something that will be completely forgotten by dinner."
     },
     "daily_puzzle": {
-      "id": "dp-2026-08-11",
-      "type": "math",
-      "prompt": "A landlord raises the rent 10% this year. Next year, to 'undo' the increase, he cuts the new rent by 10%. Tenants expect to land back at the original number. They don't. Is the final rent higher or lower than the original - and by what percentage?",
-      "hint": "Work out both moves against the original rent as a single number, like $100, rather than doing them as two separate percentages of two different bases.",
-      "solution": "Lower, by 1%. Raising $100 by 10% gives $110; cutting $110 by 10% removes $11, leaving $99 - not $100 - because the second 10% is taken off a larger base than the first one added.",
-      "explanation": "Equal-and-opposite percentage moves never cancel out except at 0%, since each percentage applies to a different base. It's a small, real trap in any back-of-envelope math involving successive rate changes."
+      "id": "dp-2026-08-12",
+      "type": "riddle",
+      "prompt": "A man walks up to an ATM, requests a withdrawal of exactly $0, and the machine prints him a receipt. He pockets it, satisfied, and walks away without a single dollar richer - and the trip wasn't pointless or a mistake. What did he actually want from the machine, and why ask for $0 to get it?",
+      "hint": "He wasn't after money. He was after a number - and getting that number any other way at this particular machine would have cost him something.",
+      "solution": "He wanted his account balance. Many ATMs charge a fee for a plain balance inquiry, but the receipt from a withdrawal request - even one for $0 - prints the resulting balance for free. Asking to withdraw nothing is really a free balance check wearing a withdrawal's clothes.",
+      "explanation": "A small case of a system's stated function (dispensing cash) getting quietly repurposed for an adjacent one (reporting a number), because the byproduct was free and the direct route wasn't."
     },
     "evening_unwind": {
-      "id": "eu-2026-08-11",
+      "id": "eu-2026-08-12",
       "evening_quote": {
-        "text": "How much trouble he avoids who does not look to see what his neighbor says or does or thinks, but only to what he does himself, that it may be just and pure.",
-        "attribution": "Marcus Aurelius",
-        "source": "Meditations, 4.18"
+        "text": "It is not that we have a short time to live, but that we waste a lot of it.",
+        "attribution": "Seneca",
+        "source": "Letters to Lucilius, Letter 1"
       },
-      "evening_prompt": "Somewhere today you probably reacted to a number - an odds shift, a score, a rent comp - that will mean nothing by the time you read this tonight. Which one, and what did reacting to it cost you?"
+      "evening_prompt": "The CPI print moved markets by mid-morning and will be old news by Friday - what's the one thing from today that will actually still matter next week?"
     },
     "reading_queue": [
       {
         "title": "U.S. Real Estate Market Outlook 2026: Capital Markets",
         "url": "https://www.cbre.com/insights/books/us-real-estate-market-outlook-2026/capital-markets",
         "verdict": "still_valuable",
-        "reason": "Office rents just posted their strongest same-asset growth number yet - the capital-markets chapter keeps getting more relevant, not less."
+        "reason": "Today's i-sales data shows a more uneven recovery than the rent-growth headlines suggest - the capital-markets chapter is exactly the context for reading that gap correctly."
       },
       {
-        "title": "What We Think Is a Decline in Literacy Is a Design Problem",
-        "url": "https://aeon.co/essays/what-we-think-is-a-decline-in-literacy-is-a-design-problem",
+        "title": "The Tantalizing Possibility of Locating Consciousness in the Brain",
+        "url": "https://www.noemamag.com/the-tantalizing-possibility-of-locating-consciousness-in-the-brain/",
         "verdict": "read_soon",
-        "reason": "Promoted to tonight's rabbit hole after sitting unread across several editions - still listed here until it's actually marked read."
+        "reason": "A strong runner-up to tonight's rabbit hole - shorter, so it's a good pick for a day with less room to spare."
       }
     ],
     "quote": {
-      "text": "In the short run, the market is a voting machine, but in the long run, it is a weighing machine.",
-      "attribution": "Benjamin Graham, The Intelligent Investor"
+      "text": "The stock market is a device for transferring money from the impatient to the patient.",
+      "attribution": "Warren Buffett"
     }
   },
   "threads": [
@@ -351,40 +439,165 @@
       "title": "US-Iran conflict and the Strait of Hormuz",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-08-11",
-      "updates": 30,
-      "current_state": "Iran and Oman continue calling their temporary shipping-corridor talks 'very close,' but a senior Iranian lawmaker says those talks aren't about reopening the strait at all - that would require the US to end its blockade, lift sanctions, and withdraw from the region first. No new attacks reported overnight; oil has risen for a fourth straight session on the gap between the two conversations.",
+      "last_updated": "2026-08-12",
+      "updates": 31,
+      "current_state": "A US helicopter fired on a Panama-flagged ship Tuesday after its crew allegedly ignored warnings enforcing the US blockade of Iranian ports - the first confirmed case of the US firing on a vessel to enforce its own blockade rather than Iran attacking one; a fire was reported and extinguished, no casualties. Trump says the US has 'complete control' of the strait and is now demanding Iran pay reparations; Iranian official Mohsen Rezaei broadened Iran's reopening conditions to include issues tied to Gaza and Lebanon. On the narrower track, Iran and Oman say they've agreed on shipping-corridor coordinates and are in final drafting.",
       "timeline": [
-        { "date": "2026-07-21", "summary": "First tracked: nine nights of US strikes, oil up about 20% this month, 10-day ceasefire being mediated.", "change_type": "new" },
-        { "date": "2026-07-22", "summary": "10-day ceasefire formally proposed; US strikes continue, Iran calls it full-scale war, Brent tops $91, war cost estimated at $37.5B.", "change_type": "advanced" },
-        { "date": "2026-07-22", "summary": "By Wednesday, strikes reach an eleventh consecutive night; Brent pushes past $92, reviving inflation concern.", "change_type": "worsened" },
-        { "date": "2026-07-23", "summary": "Ceasefire proposal remains unadopted; Brent closes at $94.13, a five-week high; Strait transits fall to 25 ships from a peak of 49; Saudi coalition vows a forceful response to the Houthi blockade threat.", "change_type": "worsened" },
-        { "date": "2026-07-24", "summary": "13th consecutive night of strikes; Iran hits Kuwait and the Houthis strike two Saudi tankers; Brent crosses $100 for the first time since May; Trump considers a massive attack.", "change_type": "worsened" },
-        { "date": "2026-07-24", "summary": "Iran's Revolutionary Guard launches a fresh drone attack on Kuwait; sirens sound across Bahrain, Kuwait, and Qatar; Iran rejects an Iraqi-mediated ceasefire proposal; Brent holds near $100.", "change_type": "worsened" },
-        { "date": "2026-07-25", "summary": "US carries out no new strikes overnight for the first time since the ceasefire collapsed; an Omani delegation arrives in Tehran to discuss Strait of Hormuz shipping; Brent eases to about $96.80, down nearly 4% but still up over 12% on the week.", "change_type": "improved" },
-        { "date": "2026-07-25", "summary": "Iran-aligned Houthi rebels fire dozens of ballistic missiles and drones at Saudi Aramco facilities in Jizan and Yanbu, starting large fires; read as retaliation for Saudi strikes on a Houthi-held Yemeni coastal city.", "change_type": "worsened" },
-        { "date": "2026-07-27", "summary": "The pause holds through the weekend into Monday with no new strikes reported on either front; Brent tumbles toward the mid-$80s, down roughly 7% on the session, as Trump signals openness to renewed talks with Tehran.", "change_type": "improved" },
-        { "date": "2026-07-28", "summary": "Trump and Netanyahu meet at the White House for the first time since the war began, calling the talks 'positive and productive' and reaffirming a shared commitment against an Iranian nuclear weapon; Brent eases further into the mid-to-high $80s.", "change_type": "advanced" },
-        { "date": "2026-07-29", "summary": "Iran says it struck US bases in Jordan and other Gulf locations overnight; Trump vows to hit back hard and repeats a bridge-bombing threat; the US and Saudi Arabia strike Iran-backed groups in Iraq; Brent jumps back above $90.", "change_type": "reversed" },
-        { "date": "2026-07-30", "summary": "The US launches a 'heavy wave' of new strikes on Iran; Iranian state media reports at least three civilians killed. Iran retaliates against Jordan and Kuwait, killing a worker at a Chinese-owned building in Kuwait. Trump says it is now 'our turn' to hit Iran hard.", "change_type": "worsened" },
-        { "date": "2026-07-30", "summary": "Qatar formally condemns Iran's strikes on Jordan and Kuwait as violations of sovereignty - the first significant regional diplomatic reaction against Tehran this round.", "change_type": "advanced" },
-        { "date": "2026-07-31", "summary": "Iran's army claims strikes on US assets at Kuwait's Ahmad al-Jaber Air Base and Bahrain's Sheikh Isa Air Base; neither government confirms it. The US conducts no fresh strikes overnight - the first pause since Wednesday's heavy wave.", "change_type": "watch" },
-        { "date": "2026-07-31", "summary": "Egypt reports a drone of unknown origin hit two gas vessels at its Damietta port, a possible first sign the conflict is pulling in a new country; Brent eases 1.4% to $87.78 as Hormuz tanker traffic shows tentative recovery.", "change_type": "watch" },
-        { "date": "2026-08-01", "summary": "Kuwait's army confirms it intercepted a fresh wave of Iranian drones aimed at a government facility and civilian vehicles, the attack Iran claimed Thursday and nobody had confirmed. A tanker is hit by an unidentified projectile near Oman.", "change_type": "worsened" },
-        { "date": "2026-08-01", "summary": "At Camp David, Trump says the US is planning new strikes on Iran 'as soon as this weekend'; only 28% of Americans approve of his handling of the five-month-old war. Brent back above $90, WTI near $84.67.", "change_type": "worsened" },
-        { "date": "2026-08-02", "summary": "Trump says he's cancelled the planned strikes, citing an agreed framework on reopening the Strait of Hormuz after MBS and other regional leaders pressed for de-escalation over the weekend.", "change_type": "reversed" },
-        { "date": "2026-08-02", "summary": "Iranian state media gives no sign it agrees to any deal; Fars news agency calls Trump's terms a 'wish list' and Iran's foreign ministry warns of a 'decisive response' to any future US-Israeli aggression.", "change_type": "watch" },
-        { "date": "2026-08-03", "summary": "Trump says a Hormuz deal is 'imminent' with talks resuming today, claiming Gulf allies asked him to hold off weekend strikes; Iranian semi-official media denies requesting any holdoff and denies agreeing to split control of the strait. Separately, Iran's FM says talks with Oman on a distinct new maritime route are in 'final stages' - though Iran's foreign ministry says that mechanism has nothing to do with whether the strait itself reopens. Oil eased on the deal optimism regardless.", "change_type": "watch" },
-        { "date": "2026-08-04", "summary": "Trump reverses to hostility, calling Iran's leadership 'unbelievably duplicitous' and declaring today its 'last chance' before 'decapitation,' after Iran says its only active negotiations are with Oman over a temporary shipping corridor, not direct talks with Washington. A cargo ship is reportedly hit by an unidentified projectile near the strait overnight.", "change_type": "reversed" },
-        { "date": "2026-08-05", "summary": "Trump tells Fox News 'very good discussions' are underway with Iran and the strait will reopen 'very soon' or Iran gets hit 'very hard'; Iran continues to deny direct talks are happening, says Oman talks are in 'final stages.'", "change_type": "improved" },
-        { "date": "2026-08-05", "summary": "In a Fox interview, Trump says 'very good discussions' are underway and a deal could come as soon as Wednesday or Thursday; Iran and Oman report 'broad agreement' on a single shipping corridor, in final drafting; a Gulf official pegs real odds of a signed deal by Friday at only 50-50 since Iran's delegation excludes the IRGC; Houthis strike an eighth Saudi tanker near Yanbu in a separate campaign; oil dips toward $79 then bounces back over $80.", "change_type": "advanced" },
-        { "date": "2026-08-06", "summary": "Iran shifts language to say the US is 'ready to return to commitments,' a modest move from flat denial, while still insisting no direct talks are underway and that full reopening depends on the US meeting its own conditions separately from the Oman shipping-route agreement.", "change_type": "watch" },
-        { "date": "2026-08-07", "summary": "Iranian state media reports the draft Iran-Oman plan now before Iran's parliament would bar ships linked to the US, Israel, and other 'hostile' countries from the strait, and charge other vessels fees up to 7% of cargo value, with 20% fines for violations. Washington rejects the terms almost immediately, saying any temporary routes must run without approvals, permissions, tolls, or charges, since the strait is an international waterway no party controls.", "change_type": "reversed" },
-        { "date": "2026-08-08", "summary": "Saudi Arabia, Turkey, and Pakistan signed a NATO-style mutual-defense pact (the Mecca Joint Defence Agreement) at Al-Safa Palace Friday, read by analysts as a hedge against relying on US security guarantees mid-crisis. Trump said the war 'can't go much longer'; a CNN report said US Joint Chiefs Chairman Gen. Dan Caine has privately signaled the US needs an 'off-ramp.' Iran's parliament has not confirmed passage of Thursday's disputed toll/ship-ban terms; Iran's deputy FM says the Oman shipping-corridor deal is close to finalized but reopening the strait itself still requires the US to separately meet Iran's conditions. Oil held roughly flat on the week, Brent near $83, WTI near $78.", "change_type": "advanced" },
-        { "date": "2026-08-08", "summary": "Early Saturday, an ADNOC vessel is struck by a missile in the strait - no injuries, fire extinguished; the UAE calls it piracy by Iran's Revolutionary Guard and a violation of UN Security Council Resolution 2817. ADNOC says 15 of its vessels have been attacked since the war began, including three this week. Iran's Supreme National Security Council lays out its fullest public conditions yet for reopening: lift the US naval blockade and sanctions, withdraw regional forces, pay war reparations, release frozen Iranian assets. Iran's FM Araghchi says Oman talks are 'approaching final stages' but stresses that isn't the same as reopening the strait.", "change_type": "worsened" },
-        { "date": "2026-08-09", "summary": "Houthi rebels claim a separate strike on Saudi Aramco's Jazan refinery, a distinct campaign from Saturday's ADNOC tanker attack. Iran's public conditions for reopening remain unchanged from Saturday. US VP Vance says Washington is seeking to 'maximize' oil and gas flow through the strait.", "change_type": "worsened" },
-        { "date": "2026-08-10", "summary": "Oil rises for a third straight session, Brent near $84, on fading hopes of a near-term Hormuz resolution; no new attacks reported overnight, but no softening in Iran's position either.", "change_type": "watch" },
-        { "date": "2026-08-11", "summary": "Oman and Iran continue describing the shipping-corridor talks as 'very close,' but a senior Iranian lawmaker says those talks are not about reopening the strait itself - that requires the US to end its blockade and leave the region first. No new attacks reported; oil extends its climb for a fourth session.", "change_type": "watch" }
+        {
+          "date": "2026-07-21",
+          "summary": "First tracked: nine nights of US strikes, oil up about 20% this month, 10-day ceasefire being mediated.",
+          "change_type": "new"
+        },
+        {
+          "date": "2026-07-22",
+          "summary": "10-day ceasefire formally proposed; US strikes continue, Iran calls it full-scale war, Brent tops $91, war cost estimated at $37.5B.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-07-22",
+          "summary": "By Wednesday, strikes reach an eleventh consecutive night; Brent pushes past $92, reviving inflation concern.",
+          "change_type": "worsened"
+        },
+        {
+          "date": "2026-07-23",
+          "summary": "Ceasefire proposal remains unadopted; Brent closes at $94.13, a five-week high; Strait transits fall to 25 ships from a peak of 49; Saudi coalition vows a forceful response to the Houthi blockade threat.",
+          "change_type": "worsened"
+        },
+        {
+          "date": "2026-07-24",
+          "summary": "13th consecutive night of strikes; Iran hits Kuwait and the Houthis strike two Saudi tankers; Brent crosses $100 for the first time since May; Trump considers a massive attack.",
+          "change_type": "worsened"
+        },
+        {
+          "date": "2026-07-24",
+          "summary": "Iran's Revolutionary Guard launches a fresh drone attack on Kuwait; sirens sound across Bahrain, Kuwait, and Qatar; Iran rejects an Iraqi-mediated ceasefire proposal; Brent holds near $100.",
+          "change_type": "worsened"
+        },
+        {
+          "date": "2026-07-25",
+          "summary": "US carries out no new strikes overnight for the first time since the ceasefire collapsed; an Omani delegation arrives in Tehran to discuss Strait of Hormuz shipping; Brent eases to about $96.80, down nearly 4% but still up over 12% on the week.",
+          "change_type": "improved"
+        },
+        {
+          "date": "2026-07-25",
+          "summary": "Iran-aligned Houthi rebels fire dozens of ballistic missiles and drones at Saudi Aramco facilities in Jizan and Yanbu, starting large fires; read as retaliation for Saudi strikes on a Houthi-held Yemeni coastal city.",
+          "change_type": "worsened"
+        },
+        {
+          "date": "2026-07-27",
+          "summary": "The pause holds through the weekend into Monday with no new strikes reported on either front; Brent tumbles toward the mid-$80s, down roughly 7% on the session, as Trump signals openness to renewed talks with Tehran.",
+          "change_type": "improved"
+        },
+        {
+          "date": "2026-07-28",
+          "summary": "Trump and Netanyahu meet at the White House for the first time since the war began, calling the talks 'positive and productive' and reaffirming a shared commitment against an Iranian nuclear weapon; Brent eases further into the mid-to-high $80s.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-07-29",
+          "summary": "Iran says it struck US bases in Jordan and other Gulf locations overnight; Trump vows to hit back hard and repeats a bridge-bombing threat; the US and Saudi Arabia strike Iran-backed groups in Iraq; Brent jumps back above $90.",
+          "change_type": "reversed"
+        },
+        {
+          "date": "2026-07-30",
+          "summary": "The US launches a 'heavy wave' of new strikes on Iran; Iranian state media reports at least three civilians killed. Iran retaliates against Jordan and Kuwait, killing a worker at a Chinese-owned building in Kuwait. Trump says it is now 'our turn' to hit Iran hard.",
+          "change_type": "worsened"
+        },
+        {
+          "date": "2026-07-30",
+          "summary": "Qatar formally condemns Iran's strikes on Jordan and Kuwait as violations of sovereignty - the first significant regional diplomatic reaction against Tehran this round.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-07-31",
+          "summary": "Iran's army claims strikes on US assets at Kuwait's Ahmad al-Jaber Air Base and Bahrain's Sheikh Isa Air Base; neither government confirms it. The US conducts no fresh strikes overnight - the first pause since Wednesday's heavy wave.",
+          "change_type": "watch"
+        },
+        {
+          "date": "2026-07-31",
+          "summary": "Egypt reports a drone of unknown origin hit two gas vessels at its Damietta port, a possible first sign the conflict is pulling in a new country; Brent eases 1.4% to $87.78 as Hormuz tanker traffic shows tentative recovery.",
+          "change_type": "watch"
+        },
+        {
+          "date": "2026-08-01",
+          "summary": "Kuwait's army confirms it intercepted a fresh wave of Iranian drones aimed at a government facility and civilian vehicles, the attack Iran claimed Thursday and nobody had confirmed. A tanker is hit by an unidentified projectile near Oman.",
+          "change_type": "worsened"
+        },
+        {
+          "date": "2026-08-01",
+          "summary": "At Camp David, Trump says the US is planning new strikes on Iran 'as soon as this weekend'; only 28% of Americans approve of his handling of the five-month-old war. Brent back above $90, WTI near $84.67.",
+          "change_type": "worsened"
+        },
+        {
+          "date": "2026-08-02",
+          "summary": "Trump says he's cancelled the planned strikes, citing an agreed framework on reopening the Strait of Hormuz after MBS and other regional leaders pressed for de-escalation over the weekend.",
+          "change_type": "reversed"
+        },
+        {
+          "date": "2026-08-02",
+          "summary": "Iranian state media gives no sign it agrees to any deal; Fars news agency calls Trump's terms a 'wish list' and Iran's foreign ministry warns of a 'decisive response' to any future US-Israeli aggression.",
+          "change_type": "watch"
+        },
+        {
+          "date": "2026-08-03",
+          "summary": "Trump says a Hormuz deal is 'imminent' with talks resuming today, claiming Gulf allies asked him to hold off weekend strikes; Iranian semi-official media denies requesting any holdoff and denies agreeing to split control of the strait. Separately, Iran's FM says talks with Oman on a distinct new maritime route are in 'final stages' - though Iran's foreign ministry says that mechanism has nothing to do with whether the strait itself reopens. Oil eased on the deal optimism regardless.",
+          "change_type": "watch"
+        },
+        {
+          "date": "2026-08-04",
+          "summary": "Trump reverses to hostility, calling Iran's leadership 'unbelievably duplicitous' and declaring today its 'last chance' before 'decapitation,' after Iran says its only active negotiations are with Oman over a temporary shipping corridor, not direct talks with Washington. A cargo ship is reportedly hit by an unidentified projectile near the strait overnight.",
+          "change_type": "reversed"
+        },
+        {
+          "date": "2026-08-05",
+          "summary": "Trump tells Fox News 'very good discussions' are underway with Iran and the strait will reopen 'very soon' or Iran gets hit 'very hard'; Iran continues to deny direct talks are happening, says Oman talks are in 'final stages.'",
+          "change_type": "improved"
+        },
+        {
+          "date": "2026-08-05",
+          "summary": "In a Fox interview, Trump says 'very good discussions' are underway and a deal could come as soon as Wednesday or Thursday; Iran and Oman report 'broad agreement' on a single shipping corridor, in final drafting; a Gulf official pegs real odds of a signed deal by Friday at only 50-50 since Iran's delegation excludes the IRGC; Houthis strike an eighth Saudi tanker near Yanbu in a separate campaign; oil dips toward $79 then bounces back over $80.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-08-06",
+          "summary": "Iran shifts language to say the US is 'ready to return to commitments,' a modest move from flat denial, while still insisting no direct talks are underway and that full reopening depends on the US meeting its own conditions separately from the Oman shipping-route agreement.",
+          "change_type": "watch"
+        },
+        {
+          "date": "2026-08-07",
+          "summary": "Iranian state media reports the draft Iran-Oman plan now before Iran's parliament would bar ships linked to the US, Israel, and other 'hostile' countries from the strait, and charge other vessels fees up to 7% of cargo value, with 20% fines for violations. Washington rejects the terms almost immediately, saying any temporary routes must run without approvals, permissions, tolls, or charges, since the strait is an international waterway no party controls.",
+          "change_type": "reversed"
+        },
+        {
+          "date": "2026-08-08",
+          "summary": "Saudi Arabia, Turkey, and Pakistan signed a NATO-style mutual-defense pact (the Mecca Joint Defence Agreement) at Al-Safa Palace Friday, read by analysts as a hedge against relying on US security guarantees mid-crisis. Trump said the war 'can't go much longer'; a CNN report said US Joint Chiefs Chairman Gen. Dan Caine has privately signaled the US needs an 'off-ramp.' Iran's parliament has not confirmed passage of Thursday's disputed toll/ship-ban terms; Iran's deputy FM says the Oman shipping-corridor deal is close to finalized but reopening the strait itself still requires the US to separately meet Iran's conditions. Oil held roughly flat on the week, Brent near $83, WTI near $78.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-08-08",
+          "summary": "Early Saturday, an ADNOC vessel is struck by a missile in the strait - no injuries, fire extinguished; the UAE calls it piracy by Iran's Revolutionary Guard and a violation of UN Security Council Resolution 2817. ADNOC says 15 of its vessels have been attacked since the war began, including three this week. Iran's Supreme National Security Council lays out its fullest public conditions yet for reopening: lift the US naval blockade and sanctions, withdraw regional forces, pay war reparations, release frozen Iranian assets. Iran's FM Araghchi says Oman talks are 'approaching final stages' but stresses that isn't the same as reopening the strait.",
+          "change_type": "worsened"
+        },
+        {
+          "date": "2026-08-09",
+          "summary": "Houthi rebels claim a separate strike on Saudi Aramco's Jazan refinery, a distinct campaign from Saturday's ADNOC tanker attack. Iran's public conditions for reopening remain unchanged from Saturday. US VP Vance says Washington is seeking to 'maximize' oil and gas flow through the strait.",
+          "change_type": "worsened"
+        },
+        {
+          "date": "2026-08-10",
+          "summary": "Oil rises for a third straight session, Brent near $84, on fading hopes of a near-term Hormuz resolution; no new attacks reported overnight, but no softening in Iran's position either.",
+          "change_type": "watch"
+        },
+        {
+          "date": "2026-08-11",
+          "summary": "Oman and Iran continue describing the shipping-corridor talks as 'very close,' but a senior Iranian lawmaker says those talks are not about reopening the strait itself - that requires the US to end its blockade and leave the region first. No new attacks reported; oil extends its climb for a fourth session.",
+          "change_type": "watch"
+        },
+        {
+          "date": "2026-08-12",
+          "summary": "A US helicopter fired on a Panama-flagged ship Tuesday (per WSJ, citing a US official) after its crew allegedly ignored blockade-enforcement warnings - the first confirmed US strike on a vessel enforcing its own blockade; no casualties, fire extinguished. Trump claims 'complete control' of the strait and now demands reparations; Iran's Rezaei adds Gaza/Lebanon conditions to reopening terms. Iran and Oman say they've agreed on shipping-corridor coordinates, in final drafting.",
+          "change_type": "worsened"
+        }
       ]
     },
     {
@@ -392,36 +605,145 @@
       "title": "Federal Reserve rate path",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-08-11",
-      "updates": 28,
-      "current_state": "Monday's confirmed close cracked Friday's calm: S&P -0.06% to 7,753.20, Nasdaq -0.32% to 26,605.31, the 10-year up 6bp to 4.71% - the highest close of the stretch - as oil extended its climb and Fed officials leaned hawkish on inflation. CME FedWatch's September hike odds jumped to 44.4% from Friday's low-30s%. July CPI, due tomorrow, August 12 at 8:30am ET, is the next and most consequential input ahead of the Sept 16 decision.",
+      "last_updated": "2026-08-12",
+      "updates": 29,
+      "current_state": "July CPI, released Wednesday at 8:30am ET, held headline inflation steady at 2.7% year-over-year but pushed core CPI to 3.1% y/y - the highest since February and above the roughly 2.5% consensus - on a rebound in core services (airfares, medical care) and continued tariff pass-through in core goods. Tuesday's confirmed close: S&P -0.32% to 7,728.20, Nasdaq -0.60% to 26,445.45, the 10-year up to 4.73%. Going into the print, CME FedWatch had September hike-vs-hold odds close to even; the post-print odds move wasn't confirmed at publish time, but a core surprise this size typically tips hawkish.",
       "timeline": [
-        { "date": "2026-07-18", "summary": "Hike odds rising toward 46%; BofA sees three hikes by December.", "change_type": "advanced" },
-        { "date": "2026-07-19", "summary": "Fed week arrives; positioning visible in Friday's chip-led selloff.", "change_type": "advanced" },
-        { "date": "2026-07-21", "summary": "Hike odds collapse to 13.3% (86.7% hold) amid Iran-driven oil shock; 10Y ticks up to 4.59%.", "change_type": "reversed" },
-        { "date": "2026-07-22", "summary": "Hike odds tick back up to 16.6% as oil keeps climbing; stocks rally anyway on chip earnings; June CPI confirmed at 3.5%.", "change_type": "advanced" },
-        { "date": "2026-07-23", "summary": "Wednesday's close confirmed as a reversal of Tuesday's rally (S&P -0.14%, Nasdaq -0.56%); 10Y up to 4.66%.", "change_type": "watch" },
-        { "date": "2026-07-24", "summary": "Sharp selloff on oil breaking $100 plus Tesla/Alphabet earnings: S&P -1.21%, Nasdaq -2.15%; 10Y to 4.70%, highest since Jan 2025; hike odds more than double to roughly 36.5%.", "change_type": "worsened" },
-        { "date": "2026-07-24", "summary": "Friday's close: S&P +0.05% to 7,412, Nasdaq -0.64% to 24,976 on continued tech weakness, 10Y flat at 4.69%; hike odds ease slightly to about 34% (66% hold) heading into the weekend.", "change_type": "watch" },
-        { "date": "2026-07-27", "summary": "Monday premarket: futures jump (Dow/S&P +0.8%, Nasdaq +1.6%) as oil craters; 10Y eases to about 4.64%; hike odds around 35% for Wednesday, September odds climb to about 82%.", "change_type": "improved" },
-        { "date": "2026-07-28", "summary": "FOMC's two-day meeting formally opens; Monday's close came in mixed rather than the rally premarket implied (S&P +0.02% to 7,413.18, Nasdaq -0.18% to 24,932.08); the 10Y eases further to about 4.62% Tuesday; hike odds hold in the mid-to-high 30s.", "change_type": "watch" },
-        { "date": "2026-07-29", "summary": "Decision due today at 2 PM ET; hike odds climb further to about 38%; Tuesday's close was essentially flat (S&P +0.02% to 7,413.18, Nasdaq -0.22% to 24,876.91), 10Y held near a one-week low at 4.64%; overnight Iran escalation adds a fresh input hours before the vote.", "change_type": "watch" },
-        { "date": "2026-07-29", "summary": "FOMC votes 9-3 to hold at 3.50-3.75%; Hammack, Kashkari, and Logan dissent in favor of a hike. Market reads the hold as hawkish-in-disguise: S&P -1.52% to 7,316.15, Nasdaq -1.74% to 24,442.94, 10Y up to roughly 4.66%.", "change_type": "new" },
-        { "date": "2026-07-30", "summary": "Meta misses Q2 earnings on legal/severance charges and guides to $130-145B in AI capex this year; shares fall nearly 10%, adding a second worry to the Fed-driven selloff even as broader futures point to a Thursday bounce.", "change_type": "worsened" },
-        { "date": "2026-07-30", "summary": "Thursday morning: 10Y holds near 4.68%, 30Y hits roughly 5.24% (a multidecade high); hike odds for the next meeting jump to about 54% from 38% pre-decision, even as equity futures rebound.", "change_type": "watch" },
-        { "date": "2026-07-30", "summary": "Thursday's close: S&P +1.7% to 7,437.64, Nasdaq +2.8% to 25,122.18, Microsoft up about 15% on AI earnings - nearly erasing the post-Fed selloff. The 10-year still rose 8bp to 4.704%, its highest close of the stretch.", "change_type": "reversed" },
-        { "date": "2026-08-01", "summary": "Friday's close: S&P +0.7% to 7,489.72, Nasdaq +1% to 25,373.85, Amazon up ~13% (its biggest single-day gain in over a decade) on an earnings beat - the Dow's fourth straight winning month. The 10-year topped 4.70% for the first time since January 2025; the 30-year hit its highest since 2007.", "change_type": "advanced" },
-        { "date": "2026-08-01", "summary": "Prediction markets price roughly 53% odds of a September 25bp hike, versus ~32% implied by SOFR futures. No jobs report today; the next release, for July, is pushed to Friday, August 7.", "change_type": "watch" },
-        { "date": "2026-08-02", "summary": "Markets closed for the weekend. Kalshi prices roughly 57% odds of a September hike, 42% hold, 2% cut - up from Polymarket's 53% Friday. Economists expect Friday's jobs report to show 100,000-130,000 jobs added in July and unemployment holding at 4.2%.", "change_type": "watch" },
-        { "date": "2026-08-03", "summary": "Markets reopen with premarket futures pointing higher (S&P and Nasdaq both roughly +0.4-0.6%). September hike odds keep drifting hawkish but diverge sharply by platform - Kalshi's own tracker near the mid-50s%, other aggregators as high as the low-to-mid 60s% - ahead of Friday's jobs report and this week's ISM PMI releases.", "change_type": "advanced" },
-        { "date": "2026-08-04", "summary": "Monday's confirmed close sets records: S&P +1.48% to 7,600.50 (first close above 7,600), Nasdaq +2.13% to 25,913.90, Dow +693 points to 53,178, on Iran diplomacy optimism (since reversed) and a Big Tech rally - Amazon topped a $3 trillion market cap. September hike odds diverge further than ever: CME's FedWatch near 81-82%, Kalshi near 54%.", "change_type": "advanced" },
-        { "date": "2026-08-05", "summary": "Tuesday's confirmed close: S&P +1.79% to 7,737, Dow +907 points to a first-ever close above 54,000, Nasdaq +2.59% to 26,585. September hike odds converge to near-agreement - CME's FedWatch near 55.9%, Kalshi near 54% - down from Monday's near-30-point spread.", "change_type": "advanced" },
-        { "date": "2026-08-05", "summary": "Wednesday's confirmed close splits: Dow sets a new record at 54,349.12 (+0.5%), S&P falls 0.2% to 7,723.55, Nasdaq falls 0.8% to 26,363.44 on earnings-driven selling (SpaceX, AMD); 10-year holds flat near 4.62%. Minneapolis Fed's Kashkari says publicly 'now is the time' to raise rates; September hike odds drift higher again across trackers, though the precise number is unsettled (roughly mid-50s to low-60s%).", "change_type": "reversed" },
-        { "date": "2026-08-06", "summary": "Thursday premarket futures flat to slightly higher ahead of Friday's July jobs report, still scheduled for 8:30am ET; consensus expects payrolls around +75-120K and unemployment holding near 4.2%.", "change_type": "watch" },
-        { "date": "2026-08-07", "summary": "Thursday's confirmed close fell across the board: S&P -0.18% to 7,709.96, Nasdaq -0.06% to 26,348.35, Dow -464.02 points (-0.85%) to 53,885, snapping its record streak. 10-year held near 4.61%, oil rose on stalled Hormuz talks. September hike odds kept climbing, roughly high-50s to mid-60s%. Friday's jobs report, due 8:30am ET, remains the key input ahead of the Sept 16 FOMC meeting.", "change_type": "worsened" },
-        { "date": "2026-08-08", "summary": "Friday's confirmed close: S&P +0.62% to a record 7,757.64, Nasdaq +1.3% to a record 26,690.62, Dow +0.28% to 54,036.93 - second straight winning week, S&P's best week since April. The 10-year eased to roughly 4.60%. July payrolls fell 23,000 (vs. roughly +80,000 expected), unemployment eased to 4.1% on falling participation, and May/June were revised down a combined 103,000. September hike odds reversed sharply toward a hold - CME FedWatch near 60%, Kalshi near 65% - a flip from the climbing-hike narrative that had run all week. Next catalyst: July CPI, due August 12.", "change_type": "reversed" },
-        { "date": "2026-08-10", "summary": "Monday premarket: S&P futures near 7,786, Nasdaq 100 futures up roughly 60 points, Dow futures reportedly softer as oil extends its climb on stalled Hormuz diplomacy. Odds trackers little changed from Friday - CME ~55-60% hold, Kalshi 65% hold/33% hike/2% cut, Polymarket ~63% no-change. July CPI, due Wednesday, August 12, is the next real catalyst.", "change_type": "watch" },
-        { "date": "2026-08-11", "summary": "Monday's confirmed close: S&P -0.06% to 7,753.20, Nasdaq -0.32% to 26,605.31, 10-year up 6bp to 4.71% - highest close of the stretch - as oil climbed further and Fed officials leaned hawkish on inflation risk. CME FedWatch's September hike odds jumped to 44.4% from Friday's low-30s%. July CPI, due tomorrow at 8:30am ET, is the decisive input.", "change_type": "worsened" }
+        {
+          "date": "2026-07-18",
+          "summary": "Hike odds rising toward 46%; BofA sees three hikes by December.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-07-19",
+          "summary": "Fed week arrives; positioning visible in Friday's chip-led selloff.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-07-21",
+          "summary": "Hike odds collapse to 13.3% (86.7% hold) amid Iran-driven oil shock; 10Y ticks up to 4.59%.",
+          "change_type": "reversed"
+        },
+        {
+          "date": "2026-07-22",
+          "summary": "Hike odds tick back up to 16.6% as oil keeps climbing; stocks rally anyway on chip earnings; June CPI confirmed at 3.5%.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-07-23",
+          "summary": "Wednesday's close confirmed as a reversal of Tuesday's rally (S&P -0.14%, Nasdaq -0.56%); 10Y up to 4.66%.",
+          "change_type": "watch"
+        },
+        {
+          "date": "2026-07-24",
+          "summary": "Sharp selloff on oil breaking $100 plus Tesla/Alphabet earnings: S&P -1.21%, Nasdaq -2.15%; 10Y to 4.70%, highest since Jan 2025; hike odds more than double to roughly 36.5%.",
+          "change_type": "worsened"
+        },
+        {
+          "date": "2026-07-24",
+          "summary": "Friday's close: S&P +0.05% to 7,412, Nasdaq -0.64% to 24,976 on continued tech weakness, 10Y flat at 4.69%; hike odds ease slightly to about 34% (66% hold) heading into the weekend.",
+          "change_type": "watch"
+        },
+        {
+          "date": "2026-07-27",
+          "summary": "Monday premarket: futures jump (Dow/S&P +0.8%, Nasdaq +1.6%) as oil craters; 10Y eases to about 4.64%; hike odds around 35% for Wednesday, September odds climb to about 82%.",
+          "change_type": "improved"
+        },
+        {
+          "date": "2026-07-28",
+          "summary": "FOMC's two-day meeting formally opens; Monday's close came in mixed rather than the rally premarket implied (S&P +0.02% to 7,413.18, Nasdaq -0.18% to 24,932.08); the 10Y eases further to about 4.62% Tuesday; hike odds hold in the mid-to-high 30s.",
+          "change_type": "watch"
+        },
+        {
+          "date": "2026-07-29",
+          "summary": "Decision due today at 2 PM ET; hike odds climb further to about 38%; Tuesday's close was essentially flat (S&P +0.02% to 7,413.18, Nasdaq -0.22% to 24,876.91), 10Y held near a one-week low at 4.64%; overnight Iran escalation adds a fresh input hours before the vote.",
+          "change_type": "watch"
+        },
+        {
+          "date": "2026-07-29",
+          "summary": "FOMC votes 9-3 to hold at 3.50-3.75%; Hammack, Kashkari, and Logan dissent in favor of a hike. Market reads the hold as hawkish-in-disguise: S&P -1.52% to 7,316.15, Nasdaq -1.74% to 24,442.94, 10Y up to roughly 4.66%.",
+          "change_type": "new"
+        },
+        {
+          "date": "2026-07-30",
+          "summary": "Meta misses Q2 earnings on legal/severance charges and guides to $130-145B in AI capex this year; shares fall nearly 10%, adding a second worry to the Fed-driven selloff even as broader futures point to a Thursday bounce.",
+          "change_type": "worsened"
+        },
+        {
+          "date": "2026-07-30",
+          "summary": "Thursday morning: 10Y holds near 4.68%, 30Y hits roughly 5.24% (a multidecade high); hike odds for the next meeting jump to about 54% from 38% pre-decision, even as equity futures rebound.",
+          "change_type": "watch"
+        },
+        {
+          "date": "2026-07-30",
+          "summary": "Thursday's close: S&P +1.7% to 7,437.64, Nasdaq +2.8% to 25,122.18, Microsoft up about 15% on AI earnings - nearly erasing the post-Fed selloff. The 10-year still rose 8bp to 4.704%, its highest close of the stretch.",
+          "change_type": "reversed"
+        },
+        {
+          "date": "2026-08-01",
+          "summary": "Friday's close: S&P +0.7% to 7,489.72, Nasdaq +1% to 25,373.85, Amazon up ~13% (its biggest single-day gain in over a decade) on an earnings beat - the Dow's fourth straight winning month. The 10-year topped 4.70% for the first time since January 2025; the 30-year hit its highest since 2007.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-08-01",
+          "summary": "Prediction markets price roughly 53% odds of a September 25bp hike, versus ~32% implied by SOFR futures. No jobs report today; the next release, for July, is pushed to Friday, August 7.",
+          "change_type": "watch"
+        },
+        {
+          "date": "2026-08-02",
+          "summary": "Markets closed for the weekend. Kalshi prices roughly 57% odds of a September hike, 42% hold, 2% cut - up from Polymarket's 53% Friday. Economists expect Friday's jobs report to show 100,000-130,000 jobs added in July and unemployment holding at 4.2%.",
+          "change_type": "watch"
+        },
+        {
+          "date": "2026-08-03",
+          "summary": "Markets reopen with premarket futures pointing higher (S&P and Nasdaq both roughly +0.4-0.6%). September hike odds keep drifting hawkish but diverge sharply by platform - Kalshi's own tracker near the mid-50s%, other aggregators as high as the low-to-mid 60s% - ahead of Friday's jobs report and this week's ISM PMI releases.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-08-04",
+          "summary": "Monday's confirmed close sets records: S&P +1.48% to 7,600.50 (first close above 7,600), Nasdaq +2.13% to 25,913.90, Dow +693 points to 53,178, on Iran diplomacy optimism (since reversed) and a Big Tech rally - Amazon topped a $3 trillion market cap. September hike odds diverge further than ever: CME's FedWatch near 81-82%, Kalshi near 54%.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-08-05",
+          "summary": "Tuesday's confirmed close: S&P +1.79% to 7,737, Dow +907 points to a first-ever close above 54,000, Nasdaq +2.59% to 26,585. September hike odds converge to near-agreement - CME's FedWatch near 55.9%, Kalshi near 54% - down from Monday's near-30-point spread.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-08-05",
+          "summary": "Wednesday's confirmed close splits: Dow sets a new record at 54,349.12 (+0.5%), S&P falls 0.2% to 7,723.55, Nasdaq falls 0.8% to 26,363.44 on earnings-driven selling (SpaceX, AMD); 10-year holds flat near 4.62%. Minneapolis Fed's Kashkari says publicly 'now is the time' to raise rates; September hike odds drift higher again across trackers, though the precise number is unsettled (roughly mid-50s to low-60s%).",
+          "change_type": "reversed"
+        },
+        {
+          "date": "2026-08-06",
+          "summary": "Thursday premarket futures flat to slightly higher ahead of Friday's July jobs report, still scheduled for 8:30am ET; consensus expects payrolls around +75-120K and unemployment holding near 4.2%.",
+          "change_type": "watch"
+        },
+        {
+          "date": "2026-08-07",
+          "summary": "Thursday's confirmed close fell across the board: S&P -0.18% to 7,709.96, Nasdaq -0.06% to 26,348.35, Dow -464.02 points (-0.85%) to 53,885, snapping its record streak. 10-year held near 4.61%, oil rose on stalled Hormuz talks. September hike odds kept climbing, roughly high-50s to mid-60s%. Friday's jobs report, due 8:30am ET, remains the key input ahead of the Sept 16 FOMC meeting.",
+          "change_type": "worsened"
+        },
+        {
+          "date": "2026-08-08",
+          "summary": "Friday's confirmed close: S&P +0.62% to a record 7,757.64, Nasdaq +1.3% to a record 26,690.62, Dow +0.28% to 54,036.93 - second straight winning week, S&P's best week since April. The 10-year eased to roughly 4.60%. July payrolls fell 23,000 (vs. roughly +80,000 expected), unemployment eased to 4.1% on falling participation, and May/June were revised down a combined 103,000. September hike odds reversed sharply toward a hold - CME FedWatch near 60%, Kalshi near 65% - a flip from the climbing-hike narrative that had run all week. Next catalyst: July CPI, due August 12.",
+          "change_type": "reversed"
+        },
+        {
+          "date": "2026-08-10",
+          "summary": "Monday premarket: S&P futures near 7,786, Nasdaq 100 futures up roughly 60 points, Dow futures reportedly softer as oil extends its climb on stalled Hormuz diplomacy. Odds trackers little changed from Friday - CME ~55-60% hold, Kalshi 65% hold/33% hike/2% cut, Polymarket ~63% no-change. July CPI, due Wednesday, August 12, is the next real catalyst.",
+          "change_type": "watch"
+        },
+        {
+          "date": "2026-08-11",
+          "summary": "Monday's confirmed close: S&P -0.06% to 7,753.20, Nasdaq -0.32% to 26,605.31, 10-year up 6bp to 4.71% - highest close of the stretch - as oil climbed further and Fed officials leaned hawkish on inflation risk. CME FedWatch's September hike odds jumped to 44.4% from Friday's low-30s%. July CPI, due tomorrow at 8:30am ET, is the decisive input.",
+          "change_type": "worsened"
+        },
+        {
+          "date": "2026-08-12",
+          "summary": "July CPI released: headline steady at 2.7% y/y (+0.2% m/m), core jumps to 3.1% y/y (+0.32% m/m), highest since February and above ~2.5% consensus, on core services strength and tariff pass-through. Tuesday's confirmed close: S&P -0.32% to 7,728.20, Nasdaq -0.60% to 26,445.45, 10Y up to 4.73%. Pre-print, September hike/hold odds were close to even on CME FedWatch; post-print move not yet confirmed.",
+          "change_type": "worsened"
+        }
       ]
     },
     {
@@ -429,38 +751,155 @@
       "title": "Marlins wild card race",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-08-11",
-      "updates": 30,
-      "current_state": "Stowers underwent an MRI Monday on the hamstring that pulled him from Sunday's win; no result is public yet. Miami hosts Pittsburgh tonight at loanDepot Park in the opener of a three-game series, Eury Perez against a slumping Paul Skenes. Miami is 60-58, roughly two games back of the final NL wild-card spot.",
+      "last_updated": "2026-08-12",
+      "updates": 31,
+      "current_state": "Stowers is on the 10-day IL (retroactive to Aug 10) with a Grade 1 left hamstring strain - his second hamstring injury this season - expected out a couple of weeks, possibly into early September. Miami beat Pittsburgh 2-0 Tuesday on Eury Perez's seven scoreless innings and an Esteury Ruiz homer, its third straight win and 12th shutout of the season, improving to 61-58. Miami hosts Pittsburgh again tonight at 6:40pm, Janson Junk starting.",
       "timeline": [
-        { "date": "2026-07-18", "summary": "Hit the break 52-45, holding WC pole position.", "change_type": "new" },
-        { "date": "2026-07-19", "summary": "Swept in Milwaukee; three straight losses out of the break.", "change_type": "worsened" },
-        { "date": "2026-07-21", "summary": "Lost Astros opener; Meyer placed on IL with neck strain; streak at seven.", "change_type": "worsened" },
-        { "date": "2026-07-22", "summary": "Lost again, confirmed final Houston 5, Miami 3; streak reaches eight straight, longest since April 2024.", "change_type": "worsened" },
-        { "date": "2026-07-23", "summary": "Alcantara's start ends in a 5-2 loss; Houston completes the sweep; streak reaches nine straight.", "change_type": "worsened" },
-        { "date": "2026-07-24", "summary": "Lost to the Padres 4-2 Friday night, the 10th straight loss, first time since June 2011; Miami falls to 52-52, first .500 record since June 19.", "change_type": "worsened" },
-        { "date": "2026-07-25", "summary": "Lost again, 7-2, Ty France driving in three for San Diego; the streak reaches 11, tying the franchise record last matched in June 2011.", "change_type": "worsened" },
-        { "date": "2026-07-27", "summary": "Lost Sunday 5-3 to San Diego, Machado and Merrill homering in the eighth to erase a three-run deficit; the streak reaches 12, an outright franchise record. Miami falls to 52-53, its first losing record since mid-June.", "change_type": "worsened" },
-        { "date": "2026-07-28", "summary": "Miami beats the Phillies 8-7 on a walk-off single by Griffin Conine after Philadelphia's closer loaded the bases in the ninth, ending the losing streak at 12 - the Marlins' first win since July 9. Record moves to 53-53.", "change_type": "improved" },
-        { "date": "2026-07-29", "summary": "Correction: the 8-7 walk-off was Monday's game, not Tuesday's. Tuesday was a separate 1-0 win, Alcantara's major-league-leading 16th quality start with a Kyle Stowers homer; Miami has won two straight and stands 54-54 ahead of today's series finale.", "change_type": "improved" },
-        { "date": "2026-07-29", "summary": "Trade deadline plan surfaces: Miami will keep Alcantara, Eury Perez, Max Meyer, and Joe Mack, but is willing to take calls on Xavier Edwards, Otto Lopez, Liam Hicks, and Heriberto Hernandez.", "change_type": "watch" },
-        { "date": "2026-07-29", "summary": "Down 6-0, Miami completes the sweep of the Phillies with an 8-6 win, its biggest comeback of the season; Conine's go-ahead pinch-hit homer and two RBIs each from Lopez, Hernandez, and Edwards. Miami improves to 55-54, three straight wins, opening at the Mets next.", "change_type": "improved" },
-        { "date": "2026-07-30", "summary": "Deadline plan detail expands: Miami could also field calls on veteran relievers 31 or older - Anthony Bender, Michael Petersen, Lake Bachar, and John King - alongside the position-player names already in play, four days before the August 3 deadline.", "change_type": "advanced" },
-        { "date": "2026-07-31", "summary": "Mets beat Miami 4-2 on Luis Robert Jr.'s eighth-inning two-run single, snapping Miami's three-game winning streak.", "change_type": "worsened" },
-        { "date": "2026-07-31", "summary": "Boston reportedly weighs a bigger package for Otto Lopez that could include catcher Liam Hicks, after a wrist injury sidelines Red Sox infielder Curtis Mead for 6-8 weeks; Miami remains in a 'listening' stage rather than committed to a deal, three days before the deadline.", "change_type": "advanced" },
-        { "date": "2026-08-01", "summary": "Miami beats the Mets 5-2, improving to 56-55 and staying in wild-card contention.", "change_type": "improved" },
-        { "date": "2026-08-01", "summary": "The Guardians join Boston in showing interest in Otto Lopez; insider Jon Morosi puts the odds of a trade at roughly 25%, with most signals pointing toward Miami keeping him, two days before the deadline.", "change_type": "advanced" },
-        { "date": "2026-08-02", "summary": "Miami beats the Mets again, 6-2, on homers from Javier Sanoja and Griffin Conine - its sixth win in seven games, one day before the deadline.", "change_type": "improved" },
-        { "date": "2026-08-03", "summary": "Red Sox-Marlins talks on Otto Lopez are reportedly 'dead' - Miami's asking price, headlined by an elite prospect, was more than Boston would pay. The Guardians remain in the market but face a similarly steep price. The deadline hits 6pm ET today with no trade reported.", "change_type": "advanced" },
-        { "date": "2026-08-04", "summary": "The 6pm deadline passed with Lopez staying in Miami. The Marlins instead made four smaller trades: Liam Hicks to Tampa Bay, Braxton Garrett to the Cubs, Lake Bachar to Pittsburgh, and acquired reliever Victor Vodnik from Colorado for infielder Connor Norby and pitcher Aiden May.", "change_type": "resolved" },
-        { "date": "2026-08-05", "summary": "Atlanta shuts out Miami 4-0 in the Marlins' first game since the deadline passed with Lopez staying; Miami remains outside a wild-card spot. The organization introduces the prospects acquired in its four deadline trades.", "change_type": "worsened" },
-        { "date": "2026-08-05", "summary": "Atlanta's Bryce Elder holds Miami to one hit over seven innings in a 4-1 win, Miami's second straight loss since the deadline. Marlins fall to 58-56, roughly two and a half games behind Arizona for the final NL wild-card spot, with the Cubs and Phillies further ahead. Miami recalled catcher Agustin Ramirez and activated reliever Josh Ekness off the 60-day IL.", "change_type": "worsened" },
-        { "date": "2026-08-07", "summary": "Atlanta completes the sweep 11-3 - Acuna hits two home runs and Olson adds one, the Braves' eighth straight win. Miami falls to 58-57, now 3.0 games back in the wild-card race, on the cutline but outside the three spots held by the Cubs, Diamondbacks, and Phillies.", "change_type": "worsened" },
-        { "date": "2026-08-08", "summary": "The Angels beat Miami 4-3 Friday at loanDepot Park - Mike Trout and Nolan Schanuel both homered. Marlins fall to 58-58, still roughly 3.0 games back of the final NL wild-card spot. Miami hosts the Angels again Saturday at 4:10pm with Sandy Alcantara starting.", "change_type": "worsened" },
-        { "date": "2026-08-08", "summary": "Miami shuts out the Angels 7-0 Saturday at loanDepot Park, improving to 59-58 and pulling to roughly 2.5-3.0 games back of the final wild-card spot. Sunday's 1:40pm rubber match decides the series.", "change_type": "improved" },
-        { "date": "2026-08-09", "summary": "Miami routs the Angels 12-3 Sunday, taking the series and improving to 60-58, roughly two games back of a wild-card spot (Cubs 68-50; Diamondbacks and Phillies both 62-56). Kyle Stowers, who opened the season on the IL with a hamstring strain, leaves the game with left hamstring discomfort after a two-run single.", "change_type": "improved" },
-        { "date": "2026-08-10", "summary": "Miami is off Monday; next hosts Pittsburgh Tuesday-Wednesday, August 11-12. Stowers' availability for the series opener is unconfirmed.", "change_type": "watch" },
-        { "date": "2026-08-11", "summary": "Stowers underwent an MRI Monday; no result is public yet. Miami hosts Pittsburgh tonight at loanDepot Park, Eury Perez (5-9, 3.61) against Paul Skenes (9-10, 3.96), who has a 5.20 ERA over his last 15 starts.", "change_type": "watch" }
+        {
+          "date": "2026-07-18",
+          "summary": "Hit the break 52-45, holding WC pole position.",
+          "change_type": "new"
+        },
+        {
+          "date": "2026-07-19",
+          "summary": "Swept in Milwaukee; three straight losses out of the break.",
+          "change_type": "worsened"
+        },
+        {
+          "date": "2026-07-21",
+          "summary": "Lost Astros opener; Meyer placed on IL with neck strain; streak at seven.",
+          "change_type": "worsened"
+        },
+        {
+          "date": "2026-07-22",
+          "summary": "Lost again, confirmed final Houston 5, Miami 3; streak reaches eight straight, longest since April 2024.",
+          "change_type": "worsened"
+        },
+        {
+          "date": "2026-07-23",
+          "summary": "Alcantara's start ends in a 5-2 loss; Houston completes the sweep; streak reaches nine straight.",
+          "change_type": "worsened"
+        },
+        {
+          "date": "2026-07-24",
+          "summary": "Lost to the Padres 4-2 Friday night, the 10th straight loss, first time since June 2011; Miami falls to 52-52, first .500 record since June 19.",
+          "change_type": "worsened"
+        },
+        {
+          "date": "2026-07-25",
+          "summary": "Lost again, 7-2, Ty France driving in three for San Diego; the streak reaches 11, tying the franchise record last matched in June 2011.",
+          "change_type": "worsened"
+        },
+        {
+          "date": "2026-07-27",
+          "summary": "Lost Sunday 5-3 to San Diego, Machado and Merrill homering in the eighth to erase a three-run deficit; the streak reaches 12, an outright franchise record. Miami falls to 52-53, its first losing record since mid-June.",
+          "change_type": "worsened"
+        },
+        {
+          "date": "2026-07-28",
+          "summary": "Miami beats the Phillies 8-7 on a walk-off single by Griffin Conine after Philadelphia's closer loaded the bases in the ninth, ending the losing streak at 12 - the Marlins' first win since July 9. Record moves to 53-53.",
+          "change_type": "improved"
+        },
+        {
+          "date": "2026-07-29",
+          "summary": "Correction: the 8-7 walk-off was Monday's game, not Tuesday's. Tuesday was a separate 1-0 win, Alcantara's major-league-leading 16th quality start with a Kyle Stowers homer; Miami has won two straight and stands 54-54 ahead of today's series finale.",
+          "change_type": "improved"
+        },
+        {
+          "date": "2026-07-29",
+          "summary": "Trade deadline plan surfaces: Miami will keep Alcantara, Eury Perez, Max Meyer, and Joe Mack, but is willing to take calls on Xavier Edwards, Otto Lopez, Liam Hicks, and Heriberto Hernandez.",
+          "change_type": "watch"
+        },
+        {
+          "date": "2026-07-29",
+          "summary": "Down 6-0, Miami completes the sweep of the Phillies with an 8-6 win, its biggest comeback of the season; Conine's go-ahead pinch-hit homer and two RBIs each from Lopez, Hernandez, and Edwards. Miami improves to 55-54, three straight wins, opening at the Mets next.",
+          "change_type": "improved"
+        },
+        {
+          "date": "2026-07-30",
+          "summary": "Deadline plan detail expands: Miami could also field calls on veteran relievers 31 or older - Anthony Bender, Michael Petersen, Lake Bachar, and John King - alongside the position-player names already in play, four days before the August 3 deadline.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-07-31",
+          "summary": "Mets beat Miami 4-2 on Luis Robert Jr.'s eighth-inning two-run single, snapping Miami's three-game winning streak.",
+          "change_type": "worsened"
+        },
+        {
+          "date": "2026-07-31",
+          "summary": "Boston reportedly weighs a bigger package for Otto Lopez that could include catcher Liam Hicks, after a wrist injury sidelines Red Sox infielder Curtis Mead for 6-8 weeks; Miami remains in a 'listening' stage rather than committed to a deal, three days before the deadline.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-08-01",
+          "summary": "Miami beats the Mets 5-2, improving to 56-55 and staying in wild-card contention.",
+          "change_type": "improved"
+        },
+        {
+          "date": "2026-08-01",
+          "summary": "The Guardians join Boston in showing interest in Otto Lopez; insider Jon Morosi puts the odds of a trade at roughly 25%, with most signals pointing toward Miami keeping him, two days before the deadline.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-08-02",
+          "summary": "Miami beats the Mets again, 6-2, on homers from Javier Sanoja and Griffin Conine - its sixth win in seven games, one day before the deadline.",
+          "change_type": "improved"
+        },
+        {
+          "date": "2026-08-03",
+          "summary": "Red Sox-Marlins talks on Otto Lopez are reportedly 'dead' - Miami's asking price, headlined by an elite prospect, was more than Boston would pay. The Guardians remain in the market but face a similarly steep price. The deadline hits 6pm ET today with no trade reported.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-08-04",
+          "summary": "The 6pm deadline passed with Lopez staying in Miami. The Marlins instead made four smaller trades: Liam Hicks to Tampa Bay, Braxton Garrett to the Cubs, Lake Bachar to Pittsburgh, and acquired reliever Victor Vodnik from Colorado for infielder Connor Norby and pitcher Aiden May.",
+          "change_type": "resolved"
+        },
+        {
+          "date": "2026-08-05",
+          "summary": "Atlanta shuts out Miami 4-0 in the Marlins' first game since the deadline passed with Lopez staying; Miami remains outside a wild-card spot. The organization introduces the prospects acquired in its four deadline trades.",
+          "change_type": "worsened"
+        },
+        {
+          "date": "2026-08-05",
+          "summary": "Atlanta's Bryce Elder holds Miami to one hit over seven innings in a 4-1 win, Miami's second straight loss since the deadline. Marlins fall to 58-56, roughly two and a half games behind Arizona for the final NL wild-card spot, with the Cubs and Phillies further ahead. Miami recalled catcher Agustin Ramirez and activated reliever Josh Ekness off the 60-day IL.",
+          "change_type": "worsened"
+        },
+        {
+          "date": "2026-08-07",
+          "summary": "Atlanta completes the sweep 11-3 - Acuna hits two home runs and Olson adds one, the Braves' eighth straight win. Miami falls to 58-57, now 3.0 games back in the wild-card race, on the cutline but outside the three spots held by the Cubs, Diamondbacks, and Phillies.",
+          "change_type": "worsened"
+        },
+        {
+          "date": "2026-08-08",
+          "summary": "The Angels beat Miami 4-3 Friday at loanDepot Park - Mike Trout and Nolan Schanuel both homered. Marlins fall to 58-58, still roughly 3.0 games back of the final NL wild-card spot. Miami hosts the Angels again Saturday at 4:10pm with Sandy Alcantara starting.",
+          "change_type": "worsened"
+        },
+        {
+          "date": "2026-08-08",
+          "summary": "Miami shuts out the Angels 7-0 Saturday at loanDepot Park, improving to 59-58 and pulling to roughly 2.5-3.0 games back of the final wild-card spot. Sunday's 1:40pm rubber match decides the series.",
+          "change_type": "improved"
+        },
+        {
+          "date": "2026-08-09",
+          "summary": "Miami routs the Angels 12-3 Sunday, taking the series and improving to 60-58, roughly two games back of a wild-card spot (Cubs 68-50; Diamondbacks and Phillies both 62-56). Kyle Stowers, who opened the season on the IL with a hamstring strain, leaves the game with left hamstring discomfort after a two-run single.",
+          "change_type": "improved"
+        },
+        {
+          "date": "2026-08-10",
+          "summary": "Miami is off Monday; next hosts Pittsburgh Tuesday-Wednesday, August 11-12. Stowers' availability for the series opener is unconfirmed.",
+          "change_type": "watch"
+        },
+        {
+          "date": "2026-08-11",
+          "summary": "Stowers underwent an MRI Monday; no result is public yet. Miami hosts Pittsburgh tonight at loanDepot Park, Eury Perez (5-9, 3.61) against Paul Skenes (9-10, 3.96), who has a 5.20 ERA over his last 15 starts.",
+          "change_type": "watch"
+        },
+        {
+          "date": "2026-08-12",
+          "summary": "Stowers placed on the 10-day IL, retroactive to Aug 10, with a Grade 1 left hamstring strain - his second hamstring IL stint this season - expected out a couple weeks. Miami beat Pittsburgh 2-0 Tuesday behind Eury Perez (7 IP, 3 H, 7 K) and an Esteury Ruiz homer, its third straight win and 12th shutout of the season, improving to 61-58. Hosts Pittsburgh again tonight, Janson Junk starting.",
+          "change_type": "advanced"
+        }
       ]
     },
     {
@@ -472,12 +911,36 @@
       "updates": 7,
       "current_state": "Resolved: LeBron James signed with the Philadelphia 76ers, not Miami. The Heat's post-Giannis roster is now settled without further additions; Pat Riley said the team was disappointed but moves forward as built.",
       "timeline": [
-        { "date": "2026-07-18", "summary": "Blockbuster trade lands the two-time MVP.", "change_type": "new" },
-        { "date": "2026-07-21", "summary": "Roster construction and cap details public; Panthers release 2026-27 schedule.", "change_type": "advanced" },
-        { "date": "2026-07-22", "summary": "Tim Hardaway Jr. signs one-year, $6.5M deal, filling out the wing rotation.", "change_type": "advanced" },
-        { "date": "2026-07-23", "summary": "Heat's social team accidentally posts and deletes a LeBron introductory press conference link; ESPN reports Miami is one of three teams LeBron is weighing.", "change_type": "watch" },
-        { "date": "2026-07-24", "summary": "Heat confirm the page was real prep work published by mistake; Kalshi odds move to 51% from 39%; Rich Paul says no timetable exists.", "change_type": "advanced" },
-        { "date": "2026-07-25", "summary": "LeBron James signs a two-year, $8M deal with the Philadelphia 76ers, not Miami; Rich Paul says James chose to preserve the memory of a title already won rather than risk a lesser second chapter.", "change_type": "resolved" }
+        {
+          "date": "2026-07-18",
+          "summary": "Blockbuster trade lands the two-time MVP.",
+          "change_type": "new"
+        },
+        {
+          "date": "2026-07-21",
+          "summary": "Roster construction and cap details public; Panthers release 2026-27 schedule.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-07-22",
+          "summary": "Tim Hardaway Jr. signs one-year, $6.5M deal, filling out the wing rotation.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-07-23",
+          "summary": "Heat's social team accidentally posts and deletes a LeBron introductory press conference link; ESPN reports Miami is one of three teams LeBron is weighing.",
+          "change_type": "watch"
+        },
+        {
+          "date": "2026-07-24",
+          "summary": "Heat confirm the page was real prep work published by mistake; Kalshi odds move to 51% from 39%; Rich Paul says no timetable exists.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-07-25",
+          "summary": "LeBron James signs a two-year, $8M deal with the Philadelphia 76ers, not Miami; Rich Paul says James chose to preserve the memory of a title already won rather than risk a lesser second chapter.",
+          "change_type": "resolved"
+        }
       ]
     },
     {
@@ -485,31 +948,120 @@
       "title": "Dolphins rebuild under Hafley",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-08-11",
-      "updates": 21,
-      "current_state": "Miami travels to Ashburn, VA today ahead of Wednesday's joint practice with Washington - the Commanders' first hosted joint practice since 2018 - ahead of Friday's 7pm preseason opener at Northwest Stadium. Saturday's seven-player injury list has no confirmed resolution yet; TE Greg Dulcich remains in a red non-contact jersey.",
+      "last_updated": "2026-08-12",
+      "updates": 22,
+      "current_state": "Miami is running today's joint practice at the Commanders' Ashburn, VA facility - reportedly the first-ever joint practice held on Commanders Park grounds - ahead of Friday's 7pm preseason opener. TE Greg Dulcich remains in a red non-contact jersey but is trending toward a return around this practice. Of last Saturday's seven injured players: Ferrell will miss multiple weeks, Brents is out this week (not believed long-term), Coleman Jr., Trader Jr., and Sims are probably out this week with a possible return next week; kicker Zane Gonzalez is newly out for weeks.",
       "timeline": [
-        { "date": "2026-07-18", "summary": "Camp schedule announced.", "change_type": "new" },
-        { "date": "2026-07-21", "summary": "Rookies reported; camp officially underway.", "change_type": "advanced" },
-        { "date": "2026-07-22", "summary": "Jordyn Brooks signs three-year, $51.3M extension through 2029.", "change_type": "advanced" },
-        { "date": "2026-07-22", "summary": "Joint-practice schedule confirmed: Aug. 12 at Washington, Aug. 20 hosting the Giants.", "change_type": "advanced" },
-        { "date": "2026-07-27", "summary": "Veterans confirmed to report Tuesday, July 28; camp runs through Aug. 26 with the first public practice Aug. 2.", "change_type": "advanced" },
-        { "date": "2026-07-28", "summary": "Veterans report as scheduled; training camp officially opens with the full squad on the field for the first time under Hafley.", "change_type": "advanced" },
-        { "date": "2026-07-29", "summary": "First full practice: all veterans pass conditioning test; Achane fully participates after offseason shoulder surgery; Willie Gay Jr. sets an energetic tone; Chris Bell remains on PUP with no timetable.", "change_type": "advanced" },
-        { "date": "2026-07-30", "summary": "Fuller Day One reporting: Willie Gay Jr.'s standout play was a one-handed interception returned for a touchdown off Cam Miller; Austin Jackson says he feels 'better than my normal self' after last year's rushed return from a toe injury.", "change_type": "advanced" },
-        { "date": "2026-07-30", "summary": "Rookie safety Michael Taaffe intercepts backup quarterback Quinn Ewers, his former Texas teammate, in team drills.", "change_type": "advanced" },
-        { "date": "2026-07-30", "summary": "Edge rusher Chop Robinson reports to camp carrying roughly ten added pounds of muscle.", "change_type": "advanced" },
-        { "date": "2026-07-31", "summary": "Practice two runs as flagged - the hardest and longest of the week - with a shift toward individual and 11-on-11 work over 7-on-7 drills and an explicit emphasis on cutting penalties this season.", "change_type": "advanced" },
-        { "date": "2026-08-02", "summary": "First public practice of camp runs as part of the NFL's 'Back Together Weekend,' free and open to fans, showcasing Malik Willis and rookies Kadyn Proctor, Chris Johnson, Jacob Rodriguez, and Chris Bell.", "change_type": "advanced" },
-        { "date": "2026-08-04", "summary": "First practice in full pads this camp, testing Hafley's shift toward a power-based run scheme; Monday's session included a deep completion from Malik Willis to Tutu Atwell.", "change_type": "advanced" },
-        { "date": "2026-08-05", "summary": "Practice 5, the second day in pads, tilts toward the defense with forced turnovers and the first one-on-one line periods of camp; Malik Willis connects with Malik Washington on two deep balls.", "change_type": "advanced" },
-        { "date": "2026-08-06", "summary": "Thursday's practice: the defense forces four turnovers, including interceptions from Zayne Anderson and Ronnie Harrison Jr.; Hafley says Malik Willis's reps have grown more confident through the week, calling that the top thing he's watching for. Rookie WR Chris Bell continues rehab work on the side after a torn ACL.", "change_type": "advanced" },
-        { "date": "2026-08-07", "summary": "Rookie DT Rene Konga is ruled out for the season; Miami signs DL Fatorma Mulbah to cover the spot and claims TE Jeremiah Franklin off waivers from New England, giving the roster six tight ends. Presumptive starting TE Greg Dulcich practices in a red non-contact jersey with an undisclosed injury, targeting a return around the Aug. 14 joint practice with Washington.", "change_type": "watch" },
-        { "date": "2026-08-08", "summary": "Friday's practice: CB Miles Battle had two interceptions (one a 50-plus-yard return), S Major Burns picked off a tipped pass, LB Jackson Woodard returned one for a touchdown, and DL Zach Sieler and edge Josh Uche each recorded sacks. Miami also signed S Tanner Wall, claimed CB Ahmari Harvey off waivers from Pittsburgh, and waived QB Mark Gronowski and S Omar Brown (injured).", "change_type": "advanced" },
-        { "date": "2026-08-08", "summary": "Saturday's fan-open scrimmage at Hard Rock Stadium: seven players out injured (Ferrell, Brents, Trader Jr., L. Johnson Jr., Sims, Coleman Jr., Salyer); Dulcich progressed in a red non-contact jersey. Offensive highlights: deep completions from Willis to Traore, Miller to Washington, and Ewers to Marshall.", "change_type": "watch" },
-        { "date": "2026-08-09", "summary": "Miami practices at Hard Rock Stadium for the first time this camp; QB Malik Willis has a strong day, including two 20-plus-yard completions on scrambles to Tutu Atwell and Seydou Traore. Team is off in the afternoon.", "change_type": "advanced" },
-        { "date": "2026-08-10", "summary": "Monday opens with a free public practice, 9:30am. Wednesday's joint practice with Washington is confirmed for Ashburn, VA - the Commanders' first hosted joint-practice partner since 2018 - ahead of Friday's 7pm preseason opener at Northwest Stadium. The Saturday injury list has no confirmed resolution yet.", "change_type": "watch" },
-        { "date": "2026-08-11", "summary": "Miami travels to Ashburn, VA ahead of tomorrow's joint practice with Washington. The injury list and Dulcich's status remain unresolved heading into it.", "change_type": "advanced" }
+        {
+          "date": "2026-07-18",
+          "summary": "Camp schedule announced.",
+          "change_type": "new"
+        },
+        {
+          "date": "2026-07-21",
+          "summary": "Rookies reported; camp officially underway.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-07-22",
+          "summary": "Jordyn Brooks signs three-year, $51.3M extension through 2029.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-07-22",
+          "summary": "Joint-practice schedule confirmed: Aug. 12 at Washington, Aug. 20 hosting the Giants.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-07-27",
+          "summary": "Veterans confirmed to report Tuesday, July 28; camp runs through Aug. 26 with the first public practice Aug. 2.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-07-28",
+          "summary": "Veterans report as scheduled; training camp officially opens with the full squad on the field for the first time under Hafley.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-07-29",
+          "summary": "First full practice: all veterans pass conditioning test; Achane fully participates after offseason shoulder surgery; Willie Gay Jr. sets an energetic tone; Chris Bell remains on PUP with no timetable.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-07-30",
+          "summary": "Fuller Day One reporting: Willie Gay Jr.'s standout play was a one-handed interception returned for a touchdown off Cam Miller; Austin Jackson says he feels 'better than my normal self' after last year's rushed return from a toe injury.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-07-30",
+          "summary": "Rookie safety Michael Taaffe intercepts backup quarterback Quinn Ewers, his former Texas teammate, in team drills.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-07-30",
+          "summary": "Edge rusher Chop Robinson reports to camp carrying roughly ten added pounds of muscle.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-07-31",
+          "summary": "Practice two runs as flagged - the hardest and longest of the week - with a shift toward individual and 11-on-11 work over 7-on-7 drills and an explicit emphasis on cutting penalties this season.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-08-02",
+          "summary": "First public practice of camp runs as part of the NFL's 'Back Together Weekend,' free and open to fans, showcasing Malik Willis and rookies Kadyn Proctor, Chris Johnson, Jacob Rodriguez, and Chris Bell.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-08-04",
+          "summary": "First practice in full pads this camp, testing Hafley's shift toward a power-based run scheme; Monday's session included a deep completion from Malik Willis to Tutu Atwell.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-08-05",
+          "summary": "Practice 5, the second day in pads, tilts toward the defense with forced turnovers and the first one-on-one line periods of camp; Malik Willis connects with Malik Washington on two deep balls.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-08-06",
+          "summary": "Thursday's practice: the defense forces four turnovers, including interceptions from Zayne Anderson and Ronnie Harrison Jr.; Hafley says Malik Willis's reps have grown more confident through the week, calling that the top thing he's watching for. Rookie WR Chris Bell continues rehab work on the side after a torn ACL.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-08-07",
+          "summary": "Rookie DT Rene Konga is ruled out for the season; Miami signs DL Fatorma Mulbah to cover the spot and claims TE Jeremiah Franklin off waivers from New England, giving the roster six tight ends. Presumptive starting TE Greg Dulcich practices in a red non-contact jersey with an undisclosed injury, targeting a return around the Aug. 14 joint practice with Washington.",
+          "change_type": "watch"
+        },
+        {
+          "date": "2026-08-08",
+          "summary": "Friday's practice: CB Miles Battle had two interceptions (one a 50-plus-yard return), S Major Burns picked off a tipped pass, LB Jackson Woodard returned one for a touchdown, and DL Zach Sieler and edge Josh Uche each recorded sacks. Miami also signed S Tanner Wall, claimed CB Ahmari Harvey off waivers from Pittsburgh, and waived QB Mark Gronowski and S Omar Brown (injured).",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-08-08",
+          "summary": "Saturday's fan-open scrimmage at Hard Rock Stadium: seven players out injured (Ferrell, Brents, Trader Jr., L. Johnson Jr., Sims, Coleman Jr., Salyer); Dulcich progressed in a red non-contact jersey. Offensive highlights: deep completions from Willis to Traore, Miller to Washington, and Ewers to Marshall.",
+          "change_type": "watch"
+        },
+        {
+          "date": "2026-08-09",
+          "summary": "Miami practices at Hard Rock Stadium for the first time this camp; QB Malik Willis has a strong day, including two 20-plus-yard completions on scrambles to Tutu Atwell and Seydou Traore. Team is off in the afternoon.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-08-10",
+          "summary": "Monday opens with a free public practice, 9:30am. Wednesday's joint practice with Washington is confirmed for Ashburn, VA - the Commanders' first hosted joint-practice partner since 2018 - ahead of Friday's 7pm preseason opener at Northwest Stadium. The Saturday injury list has no confirmed resolution yet.",
+          "change_type": "watch"
+        },
+        {
+          "date": "2026-08-11",
+          "summary": "Miami travels to Ashburn, VA ahead of tomorrow's joint practice with Washington. The injury list and Dulcich's status remain unresolved heading into it.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-08-12",
+          "summary": "Miami runs today's joint practice at Washington's Ashburn, VA facility - the first-ever joint practice held on Commanders Park grounds. Dulcich still in a red non-contact jersey but trending toward a return. Injury-list detail sharpens: Ferrell out multiple weeks, Brents out this week, Coleman Jr./Trader Jr./Sims probably out this week with a possible return next week; kicker Zane Gonzalez newly out for weeks.",
+          "change_type": "watch"
+        }
       ]
     },
     {
@@ -517,18 +1069,55 @@
       "title": "Miami summer restaurant wave",
       "topic": "miami",
       "status": "active",
-      "last_updated": "2026-08-10",
-      "updates": 8,
-      "current_state": "Miami Spice's discounted dining season runs through September 30. August's roundup adds Burgers & Shakes (North Miami), a LandShark Bar & Grill at Dolphin Mall, Star Burger (from the Estrella Insurance family), and a refreshed-menu reopening of Stormy Monday, joining Crisppi's second location, Flight West, Manoli, and Slim's among this summer's arrivals. Miami Slice's Coconut Grove opening has slipped to late August/early September; the rest of the fall list (Genghis Cohen, Royale Pizza Napoletana, Levain Bakery) remains unconfirmed.",
+      "last_updated": "2026-08-12",
+      "updates": 9,
+      "current_state": "Miami Spice's discounted dining season runs through September 30. The summer wave's latest additions are Night Owl Cookies (West Kendall) and Pura Vida (Kendall), joining August's Burgers & Shakes, LandShark Bar & Grill at Dolphin Mall, Star Burger, and a reopened Stormy Monday with a refreshed menu. Miami Slice's Coconut Grove opening remains targeted for late August/early September.",
       "timeline": [
-        { "date": "2026-07-18", "summary": "Nine most-anticipated openings named for summer.", "change_type": "new" },
-        { "date": "2026-07-21", "summary": "Several openings confirmed live, including China Grill's actual location.", "change_type": "advanced" },
-        { "date": "2026-07-22", "summary": "Manoli opens; fall 2026 anticipated list published.", "change_type": "advanced" },
-        { "date": "2026-07-28", "summary": "Stephen Starr's Slim's opens at Bal Harbour Shops in the former Makoto space, one of several July arrivals across Brickell, Coconut Grove, and Coral Gables.", "change_type": "advanced" },
-        { "date": "2026-07-29", "summary": "Crisppi's opens a second location in West Miami; Flight West opens in South Miami pairing live-fire cooking with an ambitious whiskey program.", "change_type": "advanced" },
-        { "date": "2026-07-30", "summary": "Both openings get their first dedicated edition coverage, including the detail that Crisppi's second location took over a former Pollo Tropical drive-thru on SW Eighth Street.", "change_type": "advanced" },
-        { "date": "2026-08-01", "summary": "Miami Spice's discounted dining season opens citywide, running through September 30 with $40 lunch/brunch and $50-65 dinner prix-fixe menus.", "change_type": "advanced" },
-        { "date": "2026-08-10", "summary": "August roundup adds Burgers & Shakes (North Miami), LandShark Bar & Grill at Dolphin Mall, Star Burger, and a reopened Stormy Monday; Miami Slice's Coconut Grove opening slips to late August/early September.", "change_type": "advanced" }
+        {
+          "date": "2026-07-18",
+          "summary": "Nine most-anticipated openings named for summer.",
+          "change_type": "new"
+        },
+        {
+          "date": "2026-07-21",
+          "summary": "Several openings confirmed live, including China Grill's actual location.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-07-22",
+          "summary": "Manoli opens; fall 2026 anticipated list published.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-07-28",
+          "summary": "Stephen Starr's Slim's opens at Bal Harbour Shops in the former Makoto space, one of several July arrivals across Brickell, Coconut Grove, and Coral Gables.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-07-29",
+          "summary": "Crisppi's opens a second location in West Miami; Flight West opens in South Miami pairing live-fire cooking with an ambitious whiskey program.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-07-30",
+          "summary": "Both openings get their first dedicated edition coverage, including the detail that Crisppi's second location took over a former Pollo Tropical drive-thru on SW Eighth Street.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-08-01",
+          "summary": "Miami Spice's discounted dining season opens citywide, running through September 30 with $40 lunch/brunch and $50-65 dinner prix-fixe menus.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-08-10",
+          "summary": "August roundup adds Burgers & Shakes (North Miami), LandShark Bar & Grill at Dolphin Mall, Star Burger, and a reopened Stormy Monday; Miami Slice's Coconut Grove opening slips to late August/early September.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-08-12",
+          "summary": "Night Owl Cookies (West Kendall) and Pura Vida (Kendall) join the summer opening wave.",
+          "change_type": "advanced"
+        }
       ]
     },
     {
@@ -540,7 +1129,11 @@
       "updates": 1,
       "current_state": "An eight-story, 257,000-sq-ft Civic Center topped off July 10 within the $1B, 130-acre Freedom Park development anchored by Inter Miami's stadium. $193M permit secured; completion targeted spring 2028. No new developments this week.",
       "timeline": [
-        { "date": "2026-07-22", "summary": "First tracked: civic center topped off, full project scope confirmed.", "change_type": "new" }
+        {
+          "date": "2026-07-22",
+          "summary": "First tracked: civic center topped off, full project scope confirmed.",
+          "change_type": "new"
+        }
       ]
     },
     {
@@ -548,24 +1141,85 @@
       "title": "2026 CRE capital markets under pressure",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-08-11",
-      "updates": 14,
-      "current_state": "A new CRE Daily/Largo Capital roundup shows Miami leading all major US metros in same-asset office rent growth (4.0% year over year), Brickell Tier I space above $130/sqft, and vacancy in the tightest submarkets down to 6.6%. The 2026-27 construction pipeline is tracking to just 1.6% inventory growth - the slowest pace in a decade - pointing toward continued tightening into 2027.",
+      "last_updated": "2026-08-12",
+      "updates": 15,
+      "current_state": "South Florida investment sales (i-sales) are up 19% year over year, with YTD volume topping $9 billion, driven largely by an industrial-sector surge - but a separate office-specific subset (roughly 90 deals, $1.3 billion) was actually down 11.5% year over year, cap rates ranging 7.12%-8.39%. A genuinely more uneven picture than last week's rent-growth headlines alone suggested.",
       "timeline": [
-        { "date": "2026-07-24", "summary": "First tracked: CBRE Q2 update shows deal volume down 24% YoY, construction spending below plan, hiring slowing.", "change_type": "new" },
-        { "date": "2026-07-26", "summary": "South Florida-specific data surfaces: commercial sales volume down 13% year over year to $5.42B in H1 2026.", "change_type": "advanced" },
-        { "date": "2026-07-28", "summary": "Waste Management pays $379M for 146 acres in Medley to build a landfill; $366M of the price, 96%, is seller financing rather than a bank loan.", "change_type": "advanced" },
-        { "date": "2026-07-30", "summary": "A LoopNet analysis of roughly 5,000 office listings finds Miami's average asking rent, $59.66/sq ft, now the highest in the US, ahead of New York's $50.56 - a sign of how much capital has relocated to Miami since 2020 even as deal volume overall stays soft.", "change_type": "advanced" },
-        { "date": "2026-07-31", "summary": "Pebb Capital buys a Miami Beach office building with $69M in ACORE Capital financing; a Wynwood commercial parcel sells for $24.5M, the region's priciest trade that week - real transactions behind the aggregate rent data.", "change_type": "advanced" },
-        { "date": "2026-08-01", "summary": "Rents in Miami's top towers cross $200/sqft for the first time, anchored by Peter Thiel's family office paying a record $250/sqft at 830 Brickell; Q2 leasing citywide up nearly 45% YoY to 1.3M sq ft.", "change_type": "advanced" },
-        { "date": "2026-08-02", "summary": "Citywide full-service asking rent hits an all-time high of $63.63/sqft (+2.0% QoQ, +6.3% YoY), with 429,712 sqft of positive Q2 absorption.", "change_type": "advanced" },
-        { "date": "2026-08-03", "summary": "A separate Commercial Observer analysis puts Miami's average asking rent at $67.12/sqft, up 7% year over year, with availability down to 14.9% from 17.1% - an independent data set reinforcing the same trend TenantBase reported yesterday.", "change_type": "advanced" },
-        { "date": "2026-08-05", "summary": "A third independent report, from Commercial Property Executive, confirms the same trend: Miami Class A rent up 6% YoY to $80.85/sqft, vacancy down 40bp to 14.4%; The Real Deal confirms Miami now has the highest average office asking rent in the US.", "change_type": "advanced" },
-        { "date": "2026-08-05", "summary": "No new office-market report this week beyond Tuesday's Commercial Property Executive figures; South Florida's routine deal flow continues - an $8.4M Lantana assisted-living sale, a $6.8M Lauderhill shopping center, and a $23M Doral parcel anchored by a used-car dealership.", "change_type": "watch" },
-        { "date": "2026-08-07", "summary": "Robert Rivani's RIVANI closes on 404 Washington Avenue, a South of Fifth office/retail building, for $31.5M ($200.95/sf), financed with a $29.5M BridgeInvest loan - the latest single-transaction data point in the same record-office-rent story.", "change_type": "advanced" },
-        { "date": "2026-08-09", "summary": "A new MIAMI Realtors/RWorld report formally ranks South Florida the No. 1 office market in the US, with average asking rents up 7.1% year over year to roughly $61/sq ft citywide - the aggregate confirmation of the trend three separate reports had already flagged.", "change_type": "advanced" },
-        { "date": "2026-08-10", "summary": "Harbor Group International pays $109M for the 505-unit Emerald Palms apartment complex near Zoo Miami; a Fisher Island condo at 7811 Fisher Island Drive sells for $15M to software executive Mark Sutcliffe - more individual deal flow landing behind Friday's No. 1 ranking.", "change_type": "advanced" },
-        { "date": "2026-08-11", "summary": "A CRE Daily/Largo Capital update shows Miami leading every major US market in same-asset office rent growth (4.0% YoY), Brickell Tier I space above $130/sqft, and a 2026-27 construction pipeline tracking to just 1.6% inventory growth - the slowest pace in a decade.", "change_type": "advanced" }
+        {
+          "date": "2026-07-24",
+          "summary": "First tracked: CBRE Q2 update shows deal volume down 24% YoY, construction spending below plan, hiring slowing.",
+          "change_type": "new"
+        },
+        {
+          "date": "2026-07-26",
+          "summary": "South Florida-specific data surfaces: commercial sales volume down 13% year over year to $5.42B in H1 2026.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-07-28",
+          "summary": "Waste Management pays $379M for 146 acres in Medley to build a landfill; $366M of the price, 96%, is seller financing rather than a bank loan.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-07-30",
+          "summary": "A LoopNet analysis of roughly 5,000 office listings finds Miami's average asking rent, $59.66/sq ft, now the highest in the US, ahead of New York's $50.56 - a sign of how much capital has relocated to Miami since 2020 even as deal volume overall stays soft.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-07-31",
+          "summary": "Pebb Capital buys a Miami Beach office building with $69M in ACORE Capital financing; a Wynwood commercial parcel sells for $24.5M, the region's priciest trade that week - real transactions behind the aggregate rent data.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-08-01",
+          "summary": "Rents in Miami's top towers cross $200/sqft for the first time, anchored by Peter Thiel's family office paying a record $250/sqft at 830 Brickell; Q2 leasing citywide up nearly 45% YoY to 1.3M sq ft.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-08-02",
+          "summary": "Citywide full-service asking rent hits an all-time high of $63.63/sqft (+2.0% QoQ, +6.3% YoY), with 429,712 sqft of positive Q2 absorption.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-08-03",
+          "summary": "A separate Commercial Observer analysis puts Miami's average asking rent at $67.12/sqft, up 7% year over year, with availability down to 14.9% from 17.1% - an independent data set reinforcing the same trend TenantBase reported yesterday.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-08-05",
+          "summary": "A third independent report, from Commercial Property Executive, confirms the same trend: Miami Class A rent up 6% YoY to $80.85/sqft, vacancy down 40bp to 14.4%; The Real Deal confirms Miami now has the highest average office asking rent in the US.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-08-05",
+          "summary": "No new office-market report this week beyond Tuesday's Commercial Property Executive figures; South Florida's routine deal flow continues - an $8.4M Lantana assisted-living sale, a $6.8M Lauderhill shopping center, and a $23M Doral parcel anchored by a used-car dealership.",
+          "change_type": "watch"
+        },
+        {
+          "date": "2026-08-07",
+          "summary": "Robert Rivani's RIVANI closes on 404 Washington Avenue, a South of Fifth office/retail building, for $31.5M ($200.95/sf), financed with a $29.5M BridgeInvest loan - the latest single-transaction data point in the same record-office-rent story.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-08-09",
+          "summary": "A new MIAMI Realtors/RWorld report formally ranks South Florida the No. 1 office market in the US, with average asking rents up 7.1% year over year to roughly $61/sq ft citywide - the aggregate confirmation of the trend three separate reports had already flagged.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-08-10",
+          "summary": "Harbor Group International pays $109M for the 505-unit Emerald Palms apartment complex near Zoo Miami; a Fisher Island condo at 7811 Fisher Island Drive sells for $15M to software executive Mark Sutcliffe - more individual deal flow landing behind Friday's No. 1 ranking.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-08-11",
+          "summary": "A CRE Daily/Largo Capital update shows Miami leading every major US market in same-asset office rent growth (4.0% YoY), Brickell Tier I space above $130/sqft, and a 2026-27 construction pipeline tracking to just 1.6% inventory growth - the slowest pace in a decade.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-08-12",
+          "summary": "The Real Deal reports South Florida i-sales up 19% YoY, YTD volume over $9B, led by industrial activity; a separate office-only subset (~90 deals, $1.3B) was down 11.5% YoY, cap rates 7.12%-8.39% - a more uneven picture than the rent-growth headlines alone suggested.",
+          "change_type": "advanced"
+        }
       ]
     },
     {
@@ -577,8 +1231,16 @@
       "updates": 2,
       "current_state": "Witkoff and Monroe Capital's $303M construction loan for 700 North Miami Avenue is now joined by a separate listing: a two-acre site nearby, One Miami World, expected to fetch well over $100M versus its $44M 2020 purchase price.",
       "timeline": [
-        { "date": "2026-07-26", "summary": "First tracked: $303M construction loan closes for phase one of 700 North Miami Avenue.", "change_type": "new" },
-        { "date": "2026-07-27", "summary": "A separate two-acre parcel, One Miami World, is listed for sale, expected to fetch well over $100M versus the $44M paid to assemble it in 2020.", "change_type": "advanced" }
+        {
+          "date": "2026-07-26",
+          "summary": "First tracked: $303M construction loan closes for phase one of 700 North Miami Avenue.",
+          "change_type": "new"
+        },
+        {
+          "date": "2026-07-27",
+          "summary": "A separate two-acre parcel, One Miami World, is listed for sale, expected to fetch well over $100M versus the $44M paid to assemble it in 2020.",
+          "change_type": "advanced"
+        }
       ]
     },
     {
@@ -586,14 +1248,35 @@
       "title": "Miami Marine Stadium's restoration referendum",
       "topic": "miami",
       "status": "active",
-      "last_updated": "2026-08-03",
-      "updates": 4,
-      "current_state": "Early voting is open, running through August 16, ahead of the August 18 vote on Referendum #172, a 40-year management deal with Global Spectrum/Oak View Group and local partner Breakwater Hospitality. Under the deal, the city keeps 93% of event revenue and 85% of sponsorship income, with up to $10M toward restoration up front, followed by a separate $65-85M restoration bond. Partial pile and seating repairs are already underway with county and state grant money.",
+      "last_updated": "2026-08-12",
+      "updates": 5,
+      "current_state": "Early voting continues through August 16 ahead of the August 18 vote on Referendum #172, a 40-year management deal with Global Spectrum/Oak View Group and Breakwater Hospitality. Gloria Estefan and Savannah Buffett (Jimmy Buffett's daughter) have both publicly voiced support for restoration, and the National Trust for Historic Preservation is campaigning ahead of the vote. Under the deal, the city keeps 93% of event revenue and 85% of sponsorship income, with up to $10M toward restoration up front, followed by a separate $65-85M restoration bond.",
       "timeline": [
-        { "date": "2026-07-28", "summary": "First tracked: City Commission approved the Global Spectrum/Oak View management deal in February; referendum set for August 18; partial restoration already underway.", "change_type": "new" },
-        { "date": "2026-07-30", "summary": "Additional detail surfaces: the deal is formally Referendum #172, with early voting set for August 3-16 and a specified revenue split (93% events, 85% sponsorship) plus a separate $65-85M restoration bond beyond the initial $10M.", "change_type": "advanced" },
-        { "date": "2026-08-02", "summary": "Early voting confirmed to begin tomorrow, August 3; the adjacent Seaquarium site's marina redevelopment surfaces as a related but separate decision over the same stretch of public waterfront.", "change_type": "advanced" },
-        { "date": "2026-08-03", "summary": "Early voting opens as scheduled, running through August 16 ahead of the August 18 vote.", "change_type": "advanced" }
+        {
+          "date": "2026-07-28",
+          "summary": "First tracked: City Commission approved the Global Spectrum/Oak View management deal in February; referendum set for August 18; partial restoration already underway.",
+          "change_type": "new"
+        },
+        {
+          "date": "2026-07-30",
+          "summary": "Additional detail surfaces: the deal is formally Referendum #172, with early voting set for August 3-16 and a specified revenue split (93% events, 85% sponsorship) plus a separate $65-85M restoration bond beyond the initial $10M.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-08-02",
+          "summary": "Early voting confirmed to begin tomorrow, August 3; the adjacent Seaquarium site's marina redevelopment surfaces as a related but separate decision over the same stretch of public waterfront.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-08-03",
+          "summary": "Early voting opens as scheduled, running through August 16 ahead of the August 18 vote.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-08-12",
+          "summary": "Gloria Estefan and Savannah Buffett (Jimmy Buffett's daughter) publicly voice support for restoration; the National Trust for Historic Preservation is campaigning ahead of the Aug 18 vote. Early voting continues through Aug 16.",
+          "change_type": "watch"
+        }
       ]
     },
     {
@@ -605,22 +1288,42 @@
       "updates": 2,
       "current_state": "Terra Group/David Martin's roughly $100M vision for the shuttered Seaquarium site now includes a fully accredited aquarium with no marine mammals, a research and education center, and a public baywalk alongside the previously reported 325-slip marina and 500-boat dry stack. County estimates put the project's value to Miami-Dade near $750M over the life of the lease; final County Commission approval is still pending, with environmental regulators flagging wetlands and coral concerns.",
       "timeline": [
-        { "date": "2026-08-02", "summary": "First tracked: marina application details surface - 325 slips, 500-boat dry stack, fuel depot; environmental review pending; potential late-2026 groundbreaking.", "change_type": "new" },
-        { "date": "2026-08-11", "summary": "Additional scope surfaces: a fully accredited, no-marine-mammal aquarium, a research/education center, and a public baywalk; county estimates the project's value to Miami-Dade at close to $750M over the life of the lease. County Commission approval still pending.", "change_type": "advanced" }
+        {
+          "date": "2026-08-02",
+          "summary": "First tracked: marina application details surface - 325 slips, 500-boat dry stack, fuel depot; environmental review pending; potential late-2026 groundbreaking.",
+          "change_type": "new"
+        },
+        {
+          "date": "2026-08-11",
+          "summary": "Additional scope surfaces: a fully accredited, no-marine-mammal aquarium, a research/education center, and a public baywalk; county estimates the project's value to Miami-Dade at close to $750M over the life of the lease. County Commission approval still pending.",
+          "change_type": "advanced"
+        }
       ]
     }
   ],
   "topic_filters": [
-    { "id": "markets", "label": "Markets & Macro" },
-    { "id": "miami", "label": "Miami Life & Culture" },
-    { "id": "sports", "label": "Miami Sports" },
-    { "id": "living", "label": "Art of Living" }
+    {
+      "id": "markets",
+      "label": "Markets & Macro"
+    },
+    {
+      "id": "miami",
+      "label": "Miami Life & Culture"
+    },
+    {
+      "id": "sports",
+      "label": "Miami Sports"
+    },
+    {
+      "id": "living",
+      "label": "Art of Living"
+    }
   ],
   "meta": {
     "content_freshness": {
-      "markets": "2026-08-11 (Tue premarket; Mon 8/10 confirmed close)",
-      "news": "2026-08-10/08-11",
-      "weather": "2026-08-11"
+      "markets": "2026-08-12 (Wed 8:30am CPI release; Tue 8/11 confirmed close)",
+      "news": "2026-08-11/08-12",
+      "weather": "2026-08-12"
     },
     "feedback_endpoint_mode": "github_contents",
     "minimum_client_schema_version": 1,
