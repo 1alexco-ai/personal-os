@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updatedAt": "2026-08-12T10:37:16Z",
+  "updatedAt": "2026-08-12T11:14:30Z",
   "interests": [
     {
       "id": "markets",
@@ -1013,7 +1013,7 @@
   ],
   "habits": {},
   "feedback": {
-    "cursor": "2026-08-12T10:37:16Z",
+    "cursor": "2026-08-12T11:14:30Z",
     "consumed_ids": [
       "1785675752910-wsh3d",
       "1785684398684-q0vfa",
@@ -1027,5 +1027,5 @@
   },
   "notes": [],
   "notes_policy": "Private reflections and note text are captured only on Alex's device and are never synced to or stored in this public repo. When a feedback action carries note text, only an inferred preference signal (interest/subtopic weight nudge) may be applied here - the text itself is discarded before it ever reaches brain.json.",
-  "systemNotes": "Bootstrapped 2026-08-12: brain.json did not previously exist in this repo (confirmed via git history), so the daily edition had been running in degraded_no_brain mode since at least 2026-08-01. Initialized interests/subtopics/readingList/threads from the 6 feedback files that had accumulated unconsumed (2026-08-02 through 2026-08-10) plus today's published edition state. Personalization can resume in BRAIN MODE starting with tomorrow's run."
+  "systemNotes": "Re-ran 2026-08-12 in BRAIN MODE after the morning's degraded_no_brain publish: brain.json (bootstrapped in commit bde2447) was found and parsed successfully. feedback/ was empty - the 6 pending actions were already consumed by the bootstrap, so 0 new feedback actions applied this run and consumed_ids is unchanged. Decay skipped (updatedAt is same-day). Applied existing interest weights (living 1.17, markets 1.05, miami 1.05, sports 1.03) and subtopic weights (cre_capital_markets 1.15, waterfront_civic_projects 1.15, philosophy_of_living 1.15, technology_and_attention 1.15, philosophy_of_time 1.02) to recompute theme importance and reorder today's edition; the CRE i-sales theme (matching the cre_capital_markets subtopic) moved up above the Marlins/Dolphins sports themes as a result. Added the third, previously-omitted readingList item ('Philosophy as an Art of Living', weekend-tagged) to today's reading_queue so all three saved items are represented."
 }
