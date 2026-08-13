@@ -1,274 +1,252 @@
 {
   "schema_version": 2,
   "edition": {
-    "id": "2026-08-12",
-    "date": "2026-08-12",
+    "id": "2026-08-13",
+    "date": "2026-08-13",
     "type": "weekday",
-    "generated_at": "2026-08-12T09:30:00-04:00",
+    "generated_at": "2026-08-13T09:30:00-04:00",
     "timezone": "America/New_York",
     "title": "Personal OS",
     "front_page_letter": {
       "greeting": "Good morning",
       "body_paragraphs": [
-        "July's CPI landed the way these things sometimes do - fine on the surface, hot underneath. Headline inflation held at 2.7% year-over-year, but core CPI jumped to 3.1%, its highest since February and above the roughly 2.5% consensus, on an airfare rebound and tariff pass-through. Tuesday's close carried caution - S&P down 0.32% to 7,728.20, Nasdaq down 0.60% to 26,445.45, the 10-year up to 4.73% - with September odds close to even going in. A surprise this size usually tips hawkish; the actual move wasn't confirmed by publish time.",
-        "Underneath the 'very close' language on Hormuz talks, something sharper happened Tuesday: a US helicopter fired on a Panama-flagged ship that allegedly ignored blockade-enforcement warnings - the first confirmed case of the US firing on a vessel to enforce its own blockade, rather than Iran attacking one. Trump now demands reparations and claims 'complete control' of the strait; Iran added Gaza and Lebanon to its conditions for reopening it. Both sides are adding terms, not dropping them.",
-        "Closer to home: Stowers' MRI came back Tuesday - a Grade 1 hamstring strain, out a couple weeks - and Miami won anyway, 2-0 over Pittsburgh, on Eury Perez's best start in a month. South Florida's investment-sales data complicates last week's rent-growth story, too: deal volume is up 19% on an industrial surge, but office deal volume actually fell. Tonight's slower read: a freshly minted Nobel economist on why it took Europe five centuries to turn an institutional head start into an actual one."
+        "Yesterday's letter, written before the ink dried on the July CPI print, flagged a hot core reading - 3.1% year-over-year, above consensus. The settled numbers tell a calmer story: core CPI eased to 2.5% (from 2.6% in June), headline to 3.4% (from 3.5%), both right on consensus, mostly on energy prices down 7% from their May peak. Markets read it as good news - S&P +0.3% to 7,748.50, Nasdaq +0.5% to 26,588.49, the 10-year eased to 4.68% - and traders cut September hike odds to roughly 40%. Worth remembering the next time a 'hot' headline lands hours before the dust settles.",
+        "The Strait told a harder story. A Houthi double-tap strike killed six aboard a cargo vessel in the Bab el-Mandeb - the first deadly hit there in a year - while Hormuz traffic itself fell to a one-week low of eight ships, a fraction of the roughly 130-140 that used to pass daily. Trump repeated his 'total control' claim; Iran's foreign minister warned of 'a bigger miscalculation.' Neither side is closer to a deal.",
+        "Closer to home: the Marlins have won four straight, 8-2 over Pittsburgh Wednesday, and sit roughly three games out of a wild-card spot. In Ashburn, Miami's offensive line got a real answer from Washington's pass rush - useful information before games start counting. Tonight's slower read asks why so many people building the future feel so bad about it."
       ],
       "read_only_three": [
         {
           "target_type": "theme",
-          "target_id": "theme-cpi-hot-core-yields-fed-odds",
-          "label": "July's core CPI just handed the rate-hike case a real argument"
+          "target_id": "theme-cpi-correction-cooling",
+          "label": "The 'hot core CPI' didn't hold up - settled data shows cooling inflation"
         },
         {
           "target_type": "theme",
-          "target_id": "theme-hormuz-us-fires-blockade-ship",
-          "label": "For the first time, it's a US ship doing the firing at Hormuz"
+          "target_id": "theme-hormuz-houthi-attack-traffic",
+          "label": "A deadly Houthi strike and vanishing ship traffic - today's real Hormuz story"
         },
         {
           "target_type": "theme",
-          "target_id": "theme-marlins-stowers-il-win-streak",
-          "label": "Stowers is out a couple weeks - Miami won anyway, its third straight"
+          "target_id": "theme-marlins-win-streak-4",
+          "label": "Miami's won four straight and is closing the wild-card gap"
         }
       ]
     },
     "market_context": [
       {
         "label": "S&P 500",
-        "value": "7,728.20",
-        "change": "-0.32% Tuesday",
-        "observed": "Tue close 8/11",
-        "note": "Slipped further ahead of this morning's July CPI print, with oil and lingering Iran-related caution weighing on sentiment."
+        "value": "7,748.50",
+        "change": "+0.30% Wednesday",
+        "observed": "Wed close 8/12",
+        "note": "Rose after July CPI came in right on consensus - the hot-core reading in Tuesday-night wires didn't hold up in the settled data."
       },
       {
         "label": "Nasdaq",
-        "value": "26,445.45",
-        "change": "-0.60% Tuesday",
-        "observed": "Tue close 8/11",
-        "note": "Underperformed on tech weakness; Wednesday premarket futures pointed higher into the CPI release."
+        "value": "26,588.49",
+        "change": "+0.54% Wednesday",
+        "observed": "Wed close 8/12",
+        "note": "Led the market on AI-capex strength (Nvidia, Super Micro Computer) alongside the benign inflation read."
       },
       {
         "label": "10Y Treasury",
-        "value": "4.73%",
-        "change": "+0.02 to a fresh high for the stretch",
-        "observed": "Tue close 8/11",
-        "note": "Climbed alongside oil ahead of this morning's CPI print, which came in with a hot core reading."
+        "value": "4.68%",
+        "change": "-0.05 from Tuesday's 4.73%",
+        "observed": "Wed close 8/12",
+        "note": "Eased as the CPI print came in on-consensus rather than hot, easing pressure on the Fed's rate path."
       },
       {
         "label": "FOMC",
         "value": "Held, 3.50-3.75%",
-        "change": "Sept hike/hold odds near 50/50 pre-CPI",
-        "observed": "as of Wed premarket 8/12",
-        "note": "CME FedWatch had September odds close to even ahead of this morning's release; July core CPI came in at 3.1% y/y, above the ~2.5% consensus - a hawkish-leaning surprise, though the resulting odds move wasn't confirmed at publish time."
+        "change": "Sept hike odds fell to ~40-42% (hold ~58-60%)",
+        "observed": "as of Wed close 8/12, per CME FedWatch",
+        "note": "A real reversal from the near-even odds priced ahead of Wednesday's CPI release - the cool, in-line report took the urgency out of a September hike, per CNBC."
       }
     ],
     "public_day_context": {
-      "date_label": "Wednesday, August 12",
-      "weather": "High near 91°F with a heat index up to 108°F; 20% chance of showers or storms after 3pm, mostly clearing tonight with a low around 79°F.",
-      "public_event": "Marlins host Pittsburgh again at loanDepot Park, 6:40pm, after Tuesday's 2-0 shutout win; Dolphins run a joint practice with Washington in Ashburn, VA ahead of Friday's preseason opener; Panthers open '93 Society presale tickets at 10am, general public sale tomorrow; early voting on the Marine Stadium referendum continues through Aug 16 (vote Aug 18); a total solar eclipse crosses Greenland, Iceland, and northern Spain this afternoon, the first to reach mainland Europe since 1999."
+      "date_label": "Thursday, August 13",
+      "weather": "A heat advisory is in effect: high near 90F with a heat index up to 105F, 20% chance of showers or storms after 2pm, mostly clearing tonight with a low around 84F.",
+      "public_event": "Marlins host Pittsburgh again at loanDepot Park, 1:10pm, looking for a fifth straight win; Dolphins wrap joint-practice work in Ashburn, VA ahead of tomorrow's 7pm preseason opener against Washington at Northwest Stadium; Florida Panthers open 2026-27 single-game tickets to the general public at 10am; early voting on the Marine Stadium referendum continues through Aug 16 (vote Aug 18)."
     },
     "what_changed": [
       {
-        "id": "delta-cpi-hot-core-fed-odds-in-play",
+        "id": "delta-cpi-hot-read-reversed",
         "thread_id": "thread-fed-rate-path",
-        "change_type": "worsened",
-        "title": "July's core CPI ran hot - the number meant to decide September just complicated it",
-        "previous_state": "Monday's close set September hike odds at 44.4% on CME FedWatch, drifting toward roughly even by Tuesday, with July CPI due Wednesday at 8:30am ET as the decisive input.",
-        "current_state": "July CPI held headline inflation steady at 2.7% y/y (+0.2% m/m) but pushed core CPI to 3.1% y/y (+0.32% m/m) - the highest since February and above the ~2.5% consensus - on core services strength (airfares, medical care) and tariff pass-through in core goods. Tuesday's confirmed close: S&P -0.32% to 7,728.20, Nasdaq -0.60% to 26,445.45, 10-year up to 4.73%.",
-        "why_it_matters": "This was supposed to be the print that settled the September rate path; instead it just handed the hawks a real argument, with real implications for floating-rate financing math this month.",
-        "confidence": "medium",
-        "source": {
-          "publisher": "FXStreet",
-          "url": "https://www.fxstreet.com/analysis/july-cpi-broad-heat-in-the-core-202508121356"
-        }
-      },
-      {
-        "id": "delta-us-fires-on-hormuz-blockade-runner",
-        "thread_id": "thread-iran-hormuz-crisis",
-        "change_type": "worsened",
-        "title": "For the first time, it's the US doing the firing at Hormuz",
-        "previous_state": "Oman and Iran kept describing shipping-corridor talks as 'very close,' while a senior Iranian lawmaker said reopening the strait itself wasn't even part of those talks.",
-        "current_state": "A US helicopter fired on a Panama-flagged ship Tuesday after its crew allegedly ignored blockade-enforcement warnings, per the Wall Street Journal citing a US official - the first confirmed US strike on a vessel enforcing its own blockade rather than Iran attacking one; a fire was reported and extinguished, no casualties. Trump claims 'complete control' of the strait and now demands reparations from Iran; Iranian official Mohsen Rezaei broadened Tehran's reopening conditions to include issues tied to Gaza and Lebanon.",
-        "why_it_matters": "Oil has been the transmission line from this war into inflation and financing costs for a month; an actual US strike on a civilian vessel is a bigger tail risk to that channel than another round of 'very close' talk.",
-        "confidence": "medium",
-        "source": {
-          "publisher": "U.S. News & World Report",
-          "url": "https://www.usnews.com/news/world/articles/2026-08-11/us-fired-on-panama-flagged-ship-that-tried-to-break-blockade-of-iranian-ports-wsj-reports-citing-us-official"
-        }
-      },
-      {
-        "id": "delta-stowers-il-grade1-hamstring",
-        "thread_id": "thread-marlins-wildcard",
-        "change_type": "worsened",
-        "title": "Stowers' MRI answer arrived Tuesday - and it's a real absence",
-        "previous_state": "Stowers underwent an MRI Monday on the hamstring that pulled him from Sunday's win; no result was public ahead of Tuesday's series opener.",
-        "current_state": "Miami placed Stowers on the 10-day IL, retroactive to Aug 10, with a Grade 1 left hamstring strain - his second hamstring IL stint this season, on the opposite leg - expected out a couple weeks, possibly into early September. Miami won Tuesday's opener 2-0 on Eury Perez's seven scoreless innings and an Esteury Ruiz homer, its third straight win and 12th shutout of the season, improving to 61-58.",
-        "why_it_matters": "Stowers has carried real weight in the second-half push; losing him for weeks is a genuine cost even on a night the rotation covered for him.",
+        "change_type": "reversed",
+        "title": "Yesterday's 'hot core CPI' didn't hold up - the settled data shows cooling inflation",
+        "previous_state": "Yesterday's edition, built on an early wire report, said July core CPI jumped to 3.1% year-over-year, its highest since February and above the roughly 2.5% consensus - a hawkish-leaning surprise.",
+        "current_state": "The settled figures from CNBC, NBC News, Fox Business, and other outlets confirm July CPI actually came in cool and in-line: headline +0.1% m/m, 3.4% y/y (down from 3.5%); core +0.2% m/m, 2.5% y/y (down from 2.6%) - both matching Dow Jones consensus, driven mainly by energy prices down 7% from their May peak. Wednesday's confirmed close: S&P +0.3% to 7,748.50, Nasdaq +0.5% to 26,588.49, 10-year eased to 4.68%. September hike odds on CME FedWatch fell to roughly 40-42%.",
+        "why_it_matters": "The initial hot read would have argued for a September hike; the actual number argues the opposite. Worth remembering how much an early wire report can diverge from the settled data on a market-moving release.",
         "confidence": "high",
         "source": {
-          "publisher": "ESPN",
-          "url": "https://www.espn.com/mlb/story/_/id/49584481/marlins-place-kyle-stowers-10-day-il-hamstring-strain"
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/08/12/here-are-five-key-takeaways-from-the-july-cpi-inflation-report.html"
         }
       },
       {
-        "id": "delta-miami-cre-isales-up-19pct-uneven",
-        "thread_id": "thread-cre-capital-markets-2026",
+        "id": "delta-hormuz-houthi-deadly-strike",
+        "thread_id": "thread-iran-hormuz-crisis",
+        "change_type": "worsened",
+        "title": "A Houthi double-tap strike killed six in the Bab el-Mandeb - the deadliest hit there in a year",
+        "previous_state": "Tuesday's confirmed news was a US helicopter firing on a blockade-running vessel near Hormuz, with no casualties reported; Iran and Oman described shipping-corridor talks as 'very close.'",
+        "current_state": "A Houthi double-tap missile strike killed six aboard the cargo vessel Tihamah in the Bab el-Mandeb - four crew and two rescuers, the first deadly Houthi strike there in a year. Separately, Hormuz vessel traffic fell to a one-week low of eight ships, per Reuters/Kpler data, well below a 10-day average of about 12 and a fraction of the roughly 130-140 that transited daily before the blockade. Trump repeated his 'total control' claim on Truth Social; Iran's FM Araghchi warned of 'a bigger miscalculation.'",
+        "why_it_matters": "Deaths and collapsing traffic are a harder signal than another round of diplomatic language - this is the oil-and-shipping channel actually tightening, not just talk about it.",
+        "confidence": "high",
+        "source": {
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/12/six-killed-in-houthi-attack-on-bab-al-mandeb-ship-yemens-government-says"
+        }
+      },
+      {
+        "id": "delta-marlins-four-straight",
+        "thread_id": "thread-marlins-wildcard",
+        "change_type": "improved",
+        "title": "Miami's won four straight and is closing the wild-card gap",
+        "previous_state": "Tuesday's 2-0 shutout win over Pittsburgh was Miami's third straight, improving to 61-58 with Stowers freshly on the IL.",
+        "current_state": "Miami beat Pittsburgh 8-2 Wednesday on home runs from Griffin Conine and Heriberto Hernandez and six solid innings from Janson Junk - a fourth straight win, improving to 62-58. The Cubs (70-50) hold the top wild-card spot; Arizona and San Diego (64-57 each) hold the other two. Miami trails by roughly 2.5-4.5 games with a chance to make it five straight today at 1:10pm.",
+        "why_it_matters": "Four straight against a sub-.500 team won't close a multi-game gap by itself, but it's the kind of stretch that keeps a wild-card push alive into September.",
+        "confidence": "high",
+        "source": {
+          "publisher": "MLB.com",
+          "url": "https://www.mlb.com/stories/game/823833"
+        }
+      },
+      {
+        "id": "delta-dolphins-commanders-joint-practice",
+        "thread_id": "thread-dolphins-hafley-rebuild",
         "change_type": "advanced",
-        "title": "The rent-growth story is only half the picture - deal volume tells a messier one",
-        "previous_state": "Last week's coverage focused on same-asset office rent growth (4.0% year over year) and a construction pipeline tracking to the slowest pace in a decade.",
-        "current_state": "South Florida investment sales (i-sales) are up 19% year over year, YTD volume topping $9 billion, led largely by industrial-sector activity - but a separate office-specific subset (roughly 90 deals, $1.3 billion) was actually down 11.5% year over year, with cap rates ranging 7.12%-8.39%.",
-        "why_it_matters": "Rent growth and deal volume can diverge for a while before one catches up to the other - worth tracking which is actually leading before treating the No. 1 rent ranking as the whole story.",
+        "title": "Camp's first outside test went to Washington's defense",
+        "previous_state": "Miami traveled to Ashburn, VA Tuesday ahead of Wednesday's joint practice, camp's first snaps against another team's scheme; the injury list and Dulcich's status remained unresolved.",
+        "current_state": "Wednesday's joint practice gave Miami its first real outside benchmark, and the Commanders' defensive front won it - Odafe Oweh and K'Lavon Chaisson repeatedly beat Miami's offensive line for would-be sacks, and Mike Sainristil returned an interception for a touchdown. Miami plays Washington in its preseason opener tomorrow at 7pm at Northwest Stadium.",
+        "why_it_matters": "This is exactly the kind of data point training camp exists to surface - a real, if early, read on where the offensive line stands against someone else's rush.",
         "confidence": "medium",
         "source": {
-          "publisher": "The Real Deal",
-          "url": "https://therealdeal.com/miami/2026/08/11/south-florida-cre-i-sales-up-by-19-amid-industrial-flurry/"
+          "publisher": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/miami-dolphins-camp-observations-joint-131735454.html"
         }
       }
     ],
     "themes": [
       {
-        "id": "theme-cpi-hot-core-yields-fed-odds",
+        "id": "theme-cpi-correction-cooling",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "July's CPI came in hotter under the hood than it looked on the surface",
-        "importance": 0.84,
-        "thesis": "Headline inflation held steady, but core CPI jumped to its highest read since February - the kind of surprise that usually pushes the Fed hawkish, right as positioning had settled toward even odds.",
-        "synthesis": "July's CPI, released this morning at 8:30am ET, showed headline inflation steady at 2.7% year-over-year (+0.2% month-over-month) - but core CPI, which strips out food and energy, jumped to 3.1% year-over-year (+0.32% m/m), its highest annual read since February and well above the roughly 2.5% consensus. The heat came from core services (+0.4%, on a rebound in airfares and firmer medical-care prices) and continued tariff pass-through in core goods (+0.2%). Tuesday's confirmed close already carried some caution ahead of the print: S&P 500 down 0.32% to 7,728.20, Nasdaq down 0.60% to 26,445.45, the 10-year up to 4.73%. Going into the release, CME FedWatch had September hike-vs-hold odds close to even; a core surprise this size is the kind of number that typically moves those odds hawkish, though confirmed post-print trading levels weren't available at publish time.",
-        "new_today": "The actual July CPI print itself - the hot core number specifically.",
-        "why_it_matters": "This is the print that was supposed to decide the September rate path, and it just handed the hawks a real argument - worth watching against anything you're underwriting on floating-rate debt this month.",
+        "title": "Yesterday's 'hot core CPI' didn't hold up - the settled data shows cooling inflation",
+        "importance": 0.86,
+        "thesis": "The core-CPI surprise that led yesterday's edition doesn't survive contact with the settled data - the real July report was cool, in-line, and eased the case for a September hike rather than strengthening it.",
+        "synthesis": "Yesterday morning's edition, drawing on an early wire report (FXStreet), described July core CPI jumping to 3.1% year-over-year - a hawkish surprise. The settled figures, confirmed independently by CNBC, NBC News, Fox Business, and Advisor Perspectives, tell a different story: headline CPI rose 0.1% month-over-month to 3.4% year-over-year (down from 3.5% in June); core CPI rose 0.2% month-over-month to 2.5% year-over-year (down from 2.6%) - both landing right on Dow Jones consensus. CNBC's own breakdown attributes most of the moderation to energy prices, down 7% from their May peak, and notes core inflation is now running roughly where it sat before February's US-Israel strikes on Iran - suggesting that absent the Middle East shock, underlying inflation is drifting back toward target. Wednesday's confirmed close: S&P +0.3% to 7,748.50, Nasdaq +0.5% to 26,588.49 on AI-capex strength, 10-year eased to 4.68%. September hike odds on CME FedWatch fell to roughly 40-42%, down from the near-even odds priced ahead of the release.",
+        "new_today": "The settled, cross-verified CPI figures, which reverse yesterday's hot-core narrative.",
+        "why_it_matters": "This is exactly the kind of correction that matters for anything you're underwriting on floating-rate debt this month - the actual data argues for easier financing conditions ahead, not tighter ones.",
         "thread_id": "thread-fed-rate-path",
-        "confidence": "medium",
+        "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "FXStreet",
-            "headline": "July CPI: Broad heat in the core",
-            "url": "https://www.fxstreet.com/analysis/july-cpi-broad-heat-in-the-core-202508121356"
+            "publisher": "CNBC",
+            "headline": "Here are five key takeaways from the July CPI inflation report",
+            "url": "https://www.cnbc.com/2026/08/12/here-are-five-key-takeaways-from-the-july-cpi-inflation-report.html"
           },
           {
             "role": "analysis",
-            "publisher": "Yahoo Finance",
-            "headline": "CPI report: Core inflation rises by most in six months, stoking tariff-driven price concerns",
-            "url": "https://finance.yahoo.com/news/cpi-report-core-inflation-rises-by-most-in-six-months-stoking-tariff-driven-price-concerns-153654897.html"
+            "publisher": "CNBC",
+            "headline": "CPI inflation report July 2026: Prices rose 0.1%, annual rate 3.4%",
+            "url": "https://www.cnbc.com/2026/08/12/cpi-inflation-report-july-2026.html"
           },
           {
             "role": "background",
-            "publisher": "CNBC",
-            "headline": "Treasury yields are little changed as investors await key inflation data",
-            "url": "https://www.cnbc.com/2026/08/12/treasury-yields-inflation-cpi-data.html"
+            "publisher": "Fox Business",
+            "headline": "July CPI inflation: Consumer price growth cooled but remained elevated",
+            "url": "https://www.foxbusiness.com/economy/cpi-inflation-july-2026"
           }
         ]
       },
       {
-        "id": "theme-hormuz-us-fires-blockade-ship",
+        "id": "theme-hormuz-houthi-attack-traffic",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "For the first time, it's a US ship doing the firing at Hormuz",
-        "importance": 0.68,
-        "thesis": "The 'very close' shipping-corridor talks kept moving in words while, on the water, the US fired on a vessel trying to break its own blockade of Iranian ports - a real escalation underneath the diplomatic framing.",
-        "synthesis": "A US military helicopter fired on a Panama-flagged ship Tuesday after its crew allegedly ignored warnings meant to enforce the US blockade of Iranian ports, according to the Wall Street Journal citing a US official; a fire was reported and extinguished, with no casualties. It's the first confirmed instance since the blockade was reinstated in July of the US actually firing on a vessel to enforce it, rather than Iran or Iran-aligned forces attacking one. Separately, Trump said the US has 'complete control' of the strait and is now demanding Iran pay reparations, while Iranian official Mohsen Rezaei broadened Tehran's conditions for reopening to include issues tied to Gaza and Lebanon - both sides adding terms rather than dropping them. On the narrower track, Iran and Oman say they've agreed on the coordinates for a temporary shipping corridor and are in final drafting, contingent on unnamed 'third parties.'",
-        "new_today": "The confirmed US strike on a blockade-running vessel, plus the harder rhetoric and broader conditions from both Washington and Tehran.",
-        "why_it_matters": "Oil has been the transmission mechanism from this war into your CPI and CRE financing costs for a month; an actual US strike on a civilian ship is a bigger tail risk to that channel than another round of 'very close' talk.",
+        "title": "A deadly Houthi strike and vanishing ship traffic - today's real Hormuz story",
+        "importance": 0.74,
+        "thesis": "While Washington and Tehran keep trading claims of 'control,' the actual facts on the water got worse: a deadly attack in the Bab el-Mandeb and Hormuz traffic collapsing toward single digits.",
+        "synthesis": "A Houthi double-tap missile strike killed six aboard the Tihamah, an Egyptian-owned, Tanzania-flagged cargo vessel, in the Bab el-Mandeb strait - four crew members and two rescuers from a government-allied force, with ten more injured. It's the first deadly Houthi strike in that corridor in a year. Separately, Reuters/Kpler shipping data show vessel traffic through the Strait of Hormuz itself falling to a one-week low of eight ships on Tuesday, below a 10-day average of about 12 and a small fraction of the roughly 130-140 vessels that transited daily before Iran's blockade began. On the rhetoric track, Trump posted on Truth Social that the US has 'total control' of the strait and intends to 'keep it,' calling the naval blockade a 'wall of steel'; Iran's foreign minister Abbas Araghchi warned Washington to 'be careful' and cautioned against 'an even bigger miscalculation.' No new negotiating session was reported.",
+        "new_today": "The deadly Bab el-Mandeb strike and the fresh one-week-low traffic data through Hormuz.",
+        "why_it_matters": "Casualties and collapsing shipping volume are a harder read on where this conflict actually stands than another round of dueling 'control' claims - and it's still the main channel from this war into oil and your financing costs.",
         "thread_id": "thread-iran-hormuz-crisis",
-        "confidence": "medium",
+        "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "U.S. News & World Report",
-            "headline": "US Fired on Panama-Flagged Ship That Tried to Break Blockade of Iranian Ports, WSJ Reports Citing US Official",
-            "url": "https://www.usnews.com/news/world/articles/2026-08-11/us-fired-on-panama-flagged-ship-that-tried-to-break-blockade-of-iranian-ports-wsj-reports-citing-us-official"
+            "publisher": "Al Jazeera",
+            "headline": "Six killed in Houthi attack on Bab al-Mandeb ship, Yemen's government says",
+            "url": "https://www.aljazeera.com/news/2026/8/12/six-killed-in-houthi-attack-on-bab-al-mandeb-ship-yemens-government-says"
+          },
+          {
+            "role": "analysis",
+            "publisher": "Al Jazeera",
+            "headline": "As Strait of Hormuz transit drops, Trump again says US has 'control'",
+            "url": "https://www.aljazeera.com/news/2026/8/12/as-strait-of-hormuz-transit-drops-trump-again-says-us-has-control"
           },
           {
             "role": "background",
-            "publisher": "CNBC",
-            "headline": "Trump claims '100% control' of Hormuz, demands Iran pay reparations",
-            "url": "https://www.cnbc.com/2026/08/11/us-iran-war-trump-hormuz-control-reparation-talks-.html"
+            "publisher": "U.S. News & World Report",
+            "headline": "Trump Says US Has 'Total Control' Over Strait of Hormuz",
+            "url": "https://www.usnews.com/news/world/articles/2026-08-12/trump-says-us-has-total-control-over-strait-of-hormuz"
           }
         ]
       },
       {
-        "id": "theme-miami-cre-isales-uneven-recovery",
-        "affinity": "morning",
-        "topic": "markets",
-        "topic_label": "Markets & Macro",
-        "title": "The rent-growth story is only half the picture - deal volume tells a messier one",
-        "importance": 0.67,
-        "thesis": "South Florida's investment sales are up 19% year over year on an industrial surge, but the office slice of that same market actually traded less this year, not more - a reminder the recovery isn't uniform.",
-        "synthesis": "The Real Deal reports South Florida commercial real estate investment sales are up 19% year over year, with year-to-date volume topping $9 billion - driven largely by industrial-sector activity. But a separate office-specific subset, roughly 90 deals totaling $1.3 billion, was actually down 11.5% year over year, with cap rates ranging 7.12% to 8.39%. That's a genuinely different read than the rent-growth headlines of the past week, which have focused on asking rents and vacancy rather than actual transaction volume.",
-        "new_today": "The i-sales figures and the office-specific transaction data, both new since yesterday's rent-growth coverage.",
-        "why_it_matters": "Rent growth and deal volume can diverge for a while before one catches up to the other - worth tracking which is actually leading here before treating the No. 1 rent ranking as the full story.",
-        "thread_id": "thread-cre-capital-markets-2026",
-        "confidence": "medium",
-        "sources": [
-          {
-            "role": "primary_reporting",
-            "publisher": "The Real Deal",
-            "headline": "South Florida CRE i-sales up by 19% amid industrial flurry",
-            "url": "https://therealdeal.com/miami/2026/08/11/south-florida-cre-i-sales-up-by-19-amid-industrial-flurry/"
-          }
-        ]
-      },
-      {
-        "id": "theme-marlins-stowers-il-win-streak",
+        "id": "theme-marlins-win-streak-4",
         "affinity": "morning",
         "topic": "sports",
         "topic_label": "Miami Sports",
-        "title": "Stowers is out a couple weeks - and Miami won anyway, its third straight",
-        "importance": 0.57,
-        "thesis": "The MRI answer finally came back Tuesday: a Grade 1 hamstring strain and a real absence, but Miami beat Pittsburgh anyway on the strength of Eury Perez's best start in weeks.",
-        "synthesis": "Miami placed Kyle Stowers on the 10-day IL, retroactive to Monday, with a Grade 1 left hamstring strain - his second hamstring injury of the season, on the opposite leg - with an expected return in a couple of weeks, possibly early September. Miami won anyway Tuesday night, 2-0 over Pittsburgh, on Eury Perez's seven scoreless innings (3 hits, 7 strikeouts) and an Esteury Ruiz home run; Paul Skenes lasted just five innings. It's Miami's third straight win and its 12th shutout of the season, improving to 61-58. Miami hosts Pittsburgh again tonight at 6:40pm, Janson Junk on the mound.",
-        "new_today": "The Grade 1 IL diagnosis and Tuesday's shutout win.",
-        "why_it_matters": "Stowers has carried real weight in the second-half push; losing him for weeks is a real cost even on a night the rotation covered for him.",
+        "title": "Miami's won four straight and is closing the wild-card gap",
+        "importance": 0.52,
+        "thesis": "A second straight lopsided win over Pittsburgh has Miami on its longest streak since the deadline, and within real striking distance of a wild-card spot.",
+        "synthesis": "Miami beat Pittsburgh 8-2 Wednesday at loanDepot Park, powered by home runs from Griffin Conine and Heriberto Hernandez and six solid innings from Janson Junk - the Marlins' fourth straight win, improving to 62-58. The NL wild-card picture has shifted since last week: the Cubs (70-50) hold the top spot, with Arizona and San Diego (64-57 each) holding the other two - the Phillies have fallen out of the picture entirely. Miami trails the final spot by roughly 2.5-4.5 games, with a chance at a fifth straight win today at 1:10pm against Pittsburgh, Stowers still sidelined on the IL.",
+        "new_today": "Wednesday's 8-2 win, the extension to four straight, and the updated wild-card standings.",
+        "why_it_matters": "A four-game streak against a sub-.500 opponent doesn't close a multi-game gap on its own, but it's the shape of stretch that keeps a wild-card push alive into September.",
         "thread_id": "thread-marlins-wildcard",
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "ESPN",
-            "headline": "Marlins place Kyle Stowers on 10-day IL with hamstring strain",
-            "url": "https://www.espn.com/mlb/story/_/id/49584481/marlins-place-kyle-stowers-10-day-il-hamstring-strain"
-          },
-          {
-            "role": "analysis",
-            "publisher": "ESPN",
-            "headline": "Marlins 2-0 Pirates - Game Recap",
-            "url": "https://www.espn.com/mlb/recap?gameId=401816483"
+            "publisher": "MLB.com",
+            "headline": "Conine, Hernandez power Marlins past Pirates",
+            "url": "https://www.mlb.com/stories/game/823833"
           },
           {
             "role": "background",
-            "publisher": "MLB Trade Rumors",
-            "headline": "Marlins Place Kyle Stowers On Injured List",
-            "url": "https://www.mlbtraderumors.com/2026/08/kyle-stowers-leaves-game-due-to-hamstring-discomfort.html"
+            "publisher": "ESPN",
+            "headline": "Pirates vs. Marlins (Aug 12, 2026) Box Score",
+            "url": "https://www.espn.com/mlb/boxscore/_/gameId/401816498"
           }
         ]
       },
       {
-        "id": "theme-dolphins-joint-practice-washington",
+        "id": "theme-dolphins-joint-practice-commanders",
         "affinity": "morning",
         "topic": "sports",
         "topic_label": "Miami Sports",
-        "title": "Camp finally gets an outside test today, in Washington's building",
-        "importance": 0.39,
-        "thesis": "Today's joint practice with the Commanders - reportedly the first ever held on Commanders Park grounds - is camp's first real outside benchmark.",
-        "synthesis": "Miami is running today's joint practice at the Commanders' Ashburn, VA facility - reportedly the first-ever joint practice held on Commanders Park grounds - ahead of Friday's 7pm preseason opener at Northwest Stadium. TE Greg Dulcich remains in a red non-contact jersey as of last week but is trending toward a return around this practice. Of the seven players on last Saturday's injury list, Clelin Ferrell will miss multiple weeks, JuJu Brents isn't expected to practice this week (not believed long-term), and Kevin Coleman Jr., Dante Trader Jr., and Ben Sims are probably out this week with a possible return next week; kicker Zane Gonzalez is newly out for weeks as well.",
-        "new_today": "The joint practice itself and the more granular injury-return timelines.",
-        "why_it_matters": "Depth is the whole question of this rebuild; today is the first practice snap Miami takes against someone else's scheme rather than its own.",
+        "title": "Camp's first outside test went to Washington's defense",
+        "importance": 0.42,
+        "thesis": "The rebuild's first look against someone else's scheme wasn't flattering - Washington's pass rush repeatedly beat Miami's offensive line, even as one Commanders interception return underscored how far ahead the hosts looked.",
+        "synthesis": "Wednesday's joint practice at the Commanders' Ashburn, VA facility was Miami's first genuine outside benchmark of training camp, and Washington's defensive front won it clearly - edge rushers Odafe Oweh and K'Lavon Chaisson repeatedly beat Miami's offensive line for what would have been sacks in a real game, and cornerback Mike Sainristil returned an interception for a touchdown. Miami's own defense and its lingering injury list (Dulcich, Ferrell, Brents, and others) were not the story of the day - the offensive line's struggle against a real opposing scheme was. The two teams meet for real, if still low-stakes, football tomorrow at 7pm at Northwest Stadium.",
+        "new_today": "The joint practice itself and the specific units and players it exposed.",
+        "why_it_matters": "This is what camp is supposed to surface before the games count - a real, early data point on where the offensive line stands against a legitimate pass rush, not just its own defense.",
         "thread_id": "thread-dolphins-hafley-rebuild",
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Commanders.com",
-            "headline": "Joint practice with Dolphins believed to be first-ever on Ashburn grounds",
-            "url": "https://www.commanders.com/news/joint-practice-with-dolphins-believed-to-be-first-ever-on-ashburn-grounds"
+            "publisher": "Yahoo Sports",
+            "headline": "Miami Dolphins camp observations, joint practice with Commanders",
+            "url": "https://sports.yahoo.com/articles/miami-dolphins-camp-observations-131735454.html"
           },
           {
             "role": "background",
-            "publisher": "DolphinsTalk",
-            "headline": "Jeff Hafley Gives Dolphins Injury Updates, Preseason Plans Ahead of Washington",
-            "url": "https://dolphinstalk.com/2026/08/jeff-hafley-gives-dolphins-injury-updates-preseason-plans-ahead-of-washington/"
+            "publisher": "Commanders.com",
+            "headline": "Commanders defense playing with intensity, energy",
+            "url": "https://www.commanders.com/news/commanders-defense-joint-practice-dolphins-mike-sainristil-interception"
           }
         ]
       },
@@ -277,166 +255,160 @@
         "affinity": "morning",
         "topic": "sports",
         "topic_label": "Miami Sports",
-        "title": "Ticket windows, trade rumors, and a settled QB battle - the season-prep boxes keep getting checked",
-        "importance": 0.31,
-        "thesis": "Nothing here moves a season by itself, but three teams quietly advanced this week.",
-        "synthesis": "The Panthers opened '93 Society presale tickets today, with the general public sale tomorrow; the NHL's own fantasy preview flagged Brady Tkachuk, limited to 60 games last season in Ottawa, as this year's bounce-back watch. The Heat are reportedly still exploring a Klay Thompson trade if the Mavericks keep resisting a buyout, and plan to sign forwards Ezra Ausar and Ian Schieffelin to Exhibit 10 deals. The Hurricanes, ranked No. 7 in the preseason Coaches Poll and two weeks into fall camp under Mario Cristobal, have settled their quarterback battle: Duke transfer Darian Mensah is the clear starter, with Luke Nickel the backup, and Mensah's own focus now is fixing his ball security.",
-        "new_today": "The Panthers' presale opening, the Heat's Klay Thompson interest and Exhibit 10 plans, and confirmation Mensah has the Hurricanes' starting job locked down.",
-        "why_it_matters": "Small roster and ticketing decisions now are what determine whether any of these teams is actually ready when the real seasons start.",
+        "title": "Ticket windows open, a trade still stalls, and a coach keeps his roster's expectations in check",
+        "importance": 0.29,
+        "thesis": "Three smaller storylines, none urgent on their own, all inch forward the same week.",
+        "synthesis": "The Florida Panthers open 2026-27 single-game tickets to the general public today at 10am, a day after '93 Society presale access, ahead of an Oct. 10 home opener against Minnesota. The Heat's pursuit of Klay Thompson remains stalled - Dallas still prefers a trade over a buyout, and talks haven't moved since last week, though Thompson's own social-media activity keeps fueling speculation he'd rather land in Miami. At Hurricanes fall camp, head coach Mario Cristobal is deliberately keeping expectations in check after last season's title-game run, while running back Jordan Lyle, who never fully returned to form after last season's injury, is reportedly back to full strength and competing for the No. 2 role behind Mark Fletcher Jr.",
+        "new_today": "The Panthers' general ticket sale opening, confirmation the Klay Thompson talks remain stalled, and Lyle's healthy return to camp.",
+        "why_it_matters": "None of this moves a season by itself, but roster and readiness decisions made now are what determine whether any of these teams is actually prepared when it counts.",
         "thread_id": null,
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
             "publisher": "NHL.com",
-            "headline": "Florida Panthers fantasy projections for 2026-27",
-            "url": "https://www.nhl.com/news/topic/32-in-32/florida-panthers-fantasy-projections-for-2026-27-season-32-in-32"
+            "headline": "Florida Panthers 2026-27 Single Game Tickets Go On Sale Thursday, Aug. 13",
+            "url": "https://www.nhl.com/panthers/news/florida-panthers-2026-27-single-game-tickets-go-on-sale-thursday-aug-13-at-10-a-m-et"
           },
           {
             "role": "analysis",
-            "publisher": "Yahoo Sports",
-            "headline": "Heat Have 2 Roster Moves Lined Up Amid Klay Thompson Pursuit",
-            "url": "https://sports.yahoo.com/articles/heat-2-roster-moves-lined-233151400.html"
-          },
-          {
-            "role": "background",
-            "publisher": "Yahoo Sports",
-            "headline": "How Deep is the Miami Hurricanes Quarterback Room Really?",
-            "url": "https://sports.yahoo.com/articles/deep-miami-hurricanes-quarterback-room-223033103.html"
+            "publisher": "Hoops Rumors",
+            "headline": "Mavericks Exploring Klay Thompson Trade",
+            "url": "https://www.hoopsrumors.com/2026/08/mavericks-exploring-klay-thompson-trade.html"
           }
         ]
       },
       {
-        "id": "theme-mokyr-institutions-growth",
+        "id": "theme-tech-sadness-noema",
         "affinity": "evening",
         "topic": "living",
         "topic_label": "Art of Living",
-        "title": "Tonight's rabbit hole: a freshly minted Nobel laureate on why growth took so long to arrive",
-        "importance": 0.58,
-        "thesis": "Joel Mokyr, who just won the 2025 Nobel in Economics, spends 46 minutes with Tyler Cowen on why Europe's guild-and-corporation institutions outpaced China's clan-based ones by centuries - a question that's really about capital formation and path dependency, not history for its own sake.",
-        "synthesis": "Conversations with Tyler's July episode with economic historian Joel Mokyr covers why medieval Catholic cousin-marriage bans mattered economically, why Europe's corporate and guild structures diverged from China's clan-based institutions, and why it still took from the medieval 'divergence' until roughly 1700-1720 for living standards to actually pull ahead. Mokyr's Nobel-winning work is about why sustained technological growth happened when and where it did - institutions, culture, and capital formation are the whole argument.",
-        "new_today": "Tonight's pick, chosen fresh rather than pulled from a stale queue.",
-        "why_it_matters": "Institutions and path dependency are the same lens you already apply to CRE cycles - just run backward five hundred years, on a slower and stranger set of variables.",
+        "title": "Tonight's rabbit hole: why the people building the future feel so bad about it",
+        "importance": 0.6,
+        "thesis": "A director of AI operations writes from inside the industry's own emotional recession - layoffs, AI anxiety, and a mission-driven self-image that's quietly stopped holding up.",
+        "synthesis": "Noema's essay, published this week by Aaron Horwath - a director of AI operations at a creative-technology company - argues that tech work has entered something closer to a collective low mood than ordinary burnout: constant layoff threat, AI-driven anxiety about one's own obsolescence, and the erosion of the sense that the work itself was building toward something worth the hours. For cognitive professionals in particular, the essay argues, expertise functions as a load-bearing part of identity rather than just an activity - so when automation threatens the work, it reaches past income and touches the sense of self directly.",
+        "new_today": "Tonight's pick, chosen fresh for its direct, insider account rather than the usual outside 'AI will take your job' framing.",
+        "why_it_matters": "It's a sharper version of a question worth sitting with regardless of industry: how much of what you do is actually identity-bearing, and what happens to you if that particular thing stops being yours to do.",
         "thread_id": null,
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Conversations with Tyler (Mercatus Center, GMU)",
-            "headline": "Joel Mokyr on Clans, Corporations, and a Culture of Growth",
-            "url": "https://conversationswithtyler.com/episodes/joel-mokyr/"
+            "publisher": "Noema Magazine",
+            "headline": "Why Is Everyone In Tech So Sad?",
+            "url": "https://www.noemamag.com/why-is-everyone-in-tech-so-sad/"
           }
         ]
       },
       {
-        "id": "theme-vizcaya-garden-centennial",
+        "id": "theme-lion-nebula-jwst",
         "affinity": "evening",
-        "topic": "miami",
-        "topic_label": "Miami Life & Culture",
-        "title": "Tonight's beautiful thing turns 100 this year, twenty minutes from Brickell",
-        "importance": 0.44,
-        "thesis": "Vizcaya's Italian Renaissance-style gardens are marking their centennial by restoring pieces of the original 1922 design that had quietly disappeared.",
-        "synthesis": "Vizcaya Museum and Gardens is celebrating the 100th anniversary of its formal gardens - built for industrialist James Deering - by reviving lost original elements: replica Gaston Lachaise peacock statues, recreated Samuel Yellin wrought-iron gates, restored parterres, and roses returning to the Fountain Garden. The ten acres of gardens remain fully open to the public even while parts of the main house are mid-renovation for storm-proofing.",
-        "new_today": "Framing tonight's beautiful_thing around the centennial restoration work, distinct from last week's Lowe exhibition.",
-        "why_it_matters": "A hundred-year-old garden being deliberately restored to its original design is a good match for an evening that's otherwise full of quarterly figures and win-loss records.",
+        "topic": "living",
+        "topic_label": "Art of Living",
+        "title": "Tonight's pick from outside the usual lens: a dying star, ten thousand years from finishing the job",
+        "importance": 0.48,
+        "thesis": "A newly released Webb telescope image of the Lion Nebula is both a genuinely beautiful picture and a useful reminder of what 'urgent' looks like on a stellar timescale.",
+        "synthesis": "NASA's James Webb Space Telescope released a new infrared image of NGC 2392, the Lion Nebula, on August 10 - a planetary nebula where a dying, once Sun-like star's white dwarf core is blasting radiation outward, carving a lion-like face into the surrounding gas while illuminating a sprawling 'mane' of dust clumps that have survived the radiation so far. Astronomers estimate the nebula, and the process reshaping it, will disperse in roughly 10,000 years - itself a short span, in the scale the image is measured on.",
+        "new_today": "Today's exploration pick, chosen deliberately outside markets, Miami, and sports.",
+        "why_it_matters": "A genuinely useful counterweight to a day full of hourly market moves and daily win-loss records: a process that's been unfolding, in the same picture, for longer than any institution in today's other stories has existed.",
         "thread_id": null,
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Vizcaya Museum and Gardens",
-            "headline": "Garden Centennial Brings Back Lost Elements",
-            "url": "https://vizcaya.org/garden100/"
+            "publisher": "NASA Science",
+            "headline": "Lion Nebula Roars to Life With NASA's Webb",
+            "url": "https://science.nasa.gov/missions/webb/lion-nebula-roars-to-life-with-nasas-webb/"
           }
         ]
       },
       {
-        "id": "theme-miami-restaurant-wave-august",
+        "id": "theme-art-deco-100-years",
         "affinity": "evening",
         "topic": "miami",
         "topic_label": "Miami Life & Culture",
-        "title": "The summer opening wave keeps adding names, and Miami Spice still has seven weeks to run",
-        "importance": 0.29,
-        "thesis": "Nothing urgent here - just the slow accumulation of a city's restaurant scene refreshing itself in real time.",
-        "synthesis": "This week's additions to Miami's summer wave: Night Owl Cookies in West Kendall and Pura Vida in Kendall, joining August's Burgers & Shakes, LandShark Bar & Grill at Dolphin Mall, and a reopened Stormy Monday with a refreshed menu after it had announced it would close. Miami Spice's discounted prix-fixe season continues citywide through September 30.",
-        "new_today": "Night Owl Cookies and Pura Vida, the latest names added to the running list.",
-        "why_it_matters": "Worth a slower look this evening - low stakes, no urgency, just the city's food scene doing what it does.",
-        "thread_id": "thread-miami-summer-openings",
-        "confidence": "medium",
+        "title": "Tonight's beautiful thing: a hundred years of Art Deco, laid out a few blocks from where it actually happened",
+        "importance": 0.4,
+        "thesis": "An open-air photo exhibition in Lummus Park traces Art Deco's path from 1920s Paris to Miami Beach's own tropical variation - installed a short walk from the largest collection of the real thing anywhere in the world.",
+        "synthesis": "The City of Miami Beach's '100 Years of Art Deco: A World Celebration' opened June 12 in Lummus Park, an open-air installation of 30 panels and more than 160 images spanning Art Deco's 1925 Parisian origins through its regional reinventions in Mumbai, Mexico City, and Miami Beach itself. It sits blocks from the Art Deco Historic District's roughly 800 surviving structures built between 1923 and 1943, the largest concentration of the style in the world.",
+        "new_today": "Framing tonight's beautiful_thing around the exhibit specifically, distinct from prior Miami culture coverage.",
+        "why_it_matters": "A slower, no-stakes evening pick, and a good complement to a day that was otherwise mostly about things moving fast.",
+        "thread_id": null,
+        "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Miami New Times",
-            "headline": "Every Miami restaurant opening and closing this week",
-            "url": "https://www.miaminewtimes.com/food-drink/every-miami-restaurant-opening-and-closing-this-week-40571387/"
+            "publisher": "City of Miami Beach",
+            "headline": "100 Years of Art Deco",
+            "url": "https://www.miamibeachfl.gov/art-week-miami-beach/artweek-events/100-years-of-art-deco/"
           }
         ]
       }
     ],
     "rabbit_hole": {
-      "id": "rh-2026-08-12",
-      "title": "Joel Mokyr on Clans, Corporations, and a Culture of Growth",
-      "creator": "Tyler Cowen interviews Joel Mokyr - Conversations with Tyler",
-      "format": "podcast",
-      "minutes": 46,
-      "why": "Mokyr just won the 2025 Nobel in Economics for explaining why sustained technological growth happened when and where it did, and this conversation is the argument in miniature: why Europe's corporate and guild structures pulled away from China's clan-based institutions, and why it still took centuries after that divergence for living standards to actually move. Forty-six minutes on institutions and path dependency - the same instincts you already bring to CRE cycles, aimed at a five-hundred-year timescale instead of a five-year one.",
-      "url": "https://conversationswithtyler.com/episodes/joel-mokyr/",
+      "id": "rh-2026-08-13",
+      "title": "Why Is Everyone In Tech So Sad?",
+      "creator": "Aaron Horwath - Noema Magazine",
+      "format": "essay",
+      "minutes": 16,
+      "why": "A director of AI operations at a creative-tech company writes from inside the thing he's describing: an industry-wide emotional recession of layoffs, AI anxiety, and the quiet collapse of the mission-driven self-image that used to make the long hours feel worth it. It's a sharper diagnosis than the usual 'AI is coming for your job' piece, because it's about what happens to identity when the work itself stops feeling like enough of a reason.",
+      "url": "https://www.noemamag.com/why-is-everyone-in-tech-so-sad/",
       "related_interest": "living"
     },
     "beautiful_thing": {
-      "id": "bt-2026-08-12",
-      "title": "Vizcaya's Gardens at 100",
-      "creator": "Diego Suarez, original landscape design (1922); ongoing centennial restoration by Vizcaya Museum and Gardens",
-      "era": "Formal gardens completed 1922 for industrialist James Deering; centennial restoration ongoing through 2026",
-      "body": "Vizcaya's ten acres of formal, Italian Renaissance-style gardens were designed by Diego Suarez as the centerpiece of James Deering's Miami estate, completed in 1922. For their centennial, the museum has been restoring design elements that quietly vanished over the decades: replica Gaston Lachaise peacock statues, recreated Samuel Yellin wrought-iron gates, restored parterre plantings, and roses returned to the Fountain Garden. The gardens remain fully open to the public even as parts of the main house undergo storm-proofing renovation.",
-      "url": "https://vizcaya.org/garden100/",
+      "id": "bt-2026-08-13",
+      "title": "100 Years of Art Deco: A World Celebration",
+      "creator": "City of Miami Beach, Office of the Mayor and Commission",
+      "era": "Miami Beach's Art Deco district dates to 1923-1943; this open-air centennial exhibit opened June 12, 2026",
+      "body": "An open-air installation of 30 panels and more than 160 images now runs through Lummus Park along Ocean Drive, tracing Art Deco from its 1925 Parisian debut through its many regional reinventions - Mumbai, Mexico City, and, at length, Miami Beach's own tropical variation on the style. It sits a few blocks from the largest concentration of Art Deco buildings anywhere in the world, over 800 structures built between 1923 and 1943, so the exhibit and the neighborhood it's in are, unusually, the same argument made twice.",
+      "url": "https://www.miamibeachfl.gov/art-week-miami-beach/artweek-events/100-years-of-art-deco/",
       "image": null,
-      "alt": "Vizcaya's formal Italian Renaissance-style gardens in Miami, marking their 100th anniversary with restored original design elements."
+      "alt": "An open-air exhibition of Art Deco photographs installed along Ocean Drive in Miami Beach's Lummus Park, marking a century of the style."
     },
     "noticing_prompt": {
-      "id": "np-2026-08-12",
-      "text": "Somewhere over Iceland and northern Spain this afternoon, the sky is going dark at midday for the first time since 1999. Notice what you're doing at the exact moment it happens - probably something that will be completely forgotten by dinner."
+      "id": "np-2026-08-13",
+      "text": "Somewhere in the Bab el-Mandeb today, a ship's crew is deciding whether the run is worth it. Notice one ordinary decision you make today - a route, a purchase, a plan - that would look completely different if the ground under it were actually as unstable as it sometimes is for other people, right now."
     },
     "daily_puzzle": {
-      "id": "dp-2026-08-12",
-      "type": "riddle",
-      "prompt": "A man walks up to an ATM, requests a withdrawal of exactly $0, and the machine prints him a receipt. He pockets it, satisfied, and walks away without a single dollar richer - and the trip wasn't pointless or a mistake. What did he actually want from the machine, and why ask for $0 to get it?",
-      "hint": "He wasn't after money. He was after a number - and getting that number any other way at this particular machine would have cost him something.",
-      "solution": "He wanted his account balance. Many ATMs charge a fee for a plain balance inquiry, but the receipt from a withdrawal request - even one for $0 - prints the resulting balance for free. Asking to withdraw nothing is really a free balance check wearing a withdrawal's clothes.",
-      "explanation": "A small case of a system's stated function (dispensing cash) getting quietly repurposed for an adjacent one (reporting a number), because the byproduct was free and the direct route wasn't."
+      "id": "dp-2026-08-13",
+      "type": "lateral",
+      "prompt": "A chess player agrees to play two strong opponents at once, in two separate rooms, with no way to see either board except her own. She wins one game and loses the other - never a draw on both, never a win on both. She breaks no rule of chess, receives no outside help, and at no point does she have to work out a strong move on her own. How does she manage two simultaneous games against two players stronger than her, using no chess skill of her own at all?",
+      "hint": "She isn't really playing two separate games against two separate people. Think about what happens if each opponent's move becomes her move - in the other room.",
+      "solution": "She relays the moves between the two rooms: whatever Opponent A plays as White, she immediately plays as White against Opponent B; whatever Opponent B plays back as Black, she immediately plays as her own move against Opponent A. She never originates a single move - she is only a mirror standing between two people who are, without realizing it, playing each other. Because it's the same game reflected twice, one board will end in her favor and the other against her (or both will draw), but she can never win both and never needs to understand chess at all.",
+      "explanation": "This is the classic 'mirroring' trick behind simultaneous-exhibition stunts: two boards that look independent are secretly one game seen from both sides, so the weaker player in the middle borrows both opponents' strength against each other."
     },
     "evening_unwind": {
-      "id": "eu-2026-08-12",
+      "id": "eu-2026-08-13",
       "evening_quote": {
-        "text": "It is not that we have a short time to live, but that we waste a lot of it.",
-        "attribution": "Seneca",
-        "source": "Letters to Lucilius, Letter 1"
+        "text": "Do not seek to have events happen as you wish, but wish them to happen as they do happen, and you will go on well.",
+        "attribution": "Epictetus",
+        "source": "Enchiridion, Chapter 8"
       },
-      "evening_prompt": "The CPI print moved markets by mid-morning and will be old news by Friday - what's the one thing from today that will actually still matter next week?"
+      "evening_prompt": "Yesterday's 'hot' inflation reading turned out not to be true by the time the day settled - what's one thing that felt urgent to you this morning and had quietly stopped mattering by tonight?"
     },
     "reading_queue": [
       {
         "title": "U.S. Real Estate Market Outlook 2026: Capital Markets",
         "url": "https://www.cbre.com/insights/books/us-real-estate-market-outlook-2026/capital-markets",
         "verdict": "still_valuable",
-        "reason": "Today's i-sales data shows a more uneven recovery than the rent-growth headlines suggest - the capital-markets chapter is exactly the context for reading that gap correctly."
+        "reason": "Still the right context for reading the gap between rising i-sales volume and softer office deal counts correctly."
       },
       {
         "title": "The Tantalizing Possibility of Locating Consciousness in the Brain",
         "url": "https://www.noemamag.com/the-tantalizing-possibility-of-locating-consciousness-in-the-brain/",
         "verdict": "read_soon",
-        "reason": "A strong runner-up to tonight's rabbit hole - shorter, so it's a good pick for a day with less room to spare."
+        "reason": "Saved yesterday and still short enough to fit an evening without much room to spare."
       },
       {
         "title": "Philosophy as an Art of Living",
         "url": "https://lareviewofbooks.org/article/philosophy-as-an-art-of-living/",
         "verdict": "weekend",
-        "reason": "Saved ten days ago and still waiting for the slower read it deserves - a Sunday piece, not a weeknight one."
+        "reason": "Now nearly two weeks in the queue - a Sunday piece, still waiting for the slower read it deserves."
       }
     ],
     "quote": {
-      "text": "The stock market is a device for transferring money from the impatient to the patient.",
-      "attribution": "Warren Buffett"
+      "text": "In investing, what is comfortable is rarely profitable.",
+      "attribution": "Robert Arnott"
     }
   },
   "threads": [
@@ -445,9 +417,9 @@
       "title": "US-Iran conflict and the Strait of Hormuz",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-08-12",
-      "updates": 31,
-      "current_state": "A US helicopter fired on a Panama-flagged ship Tuesday after its crew allegedly ignored warnings enforcing the US blockade of Iranian ports - the first confirmed case of the US firing on a vessel to enforce its own blockade rather than Iran attacking one; a fire was reported and extinguished, no casualties. Trump says the US has 'complete control' of the strait and is now demanding Iran pay reparations; Iranian official Mohsen Rezaei broadened Iran's reopening conditions to include issues tied to Gaza and Lebanon. On the narrower track, Iran and Oman say they've agreed on shipping-corridor coordinates and are in final drafting.",
+      "last_updated": "2026-08-13",
+      "updates": 32,
+      "current_state": "A Houthi double-tap strike killed six aboard the cargo vessel Tihamah in the Bab el-Mandeb Tuesday - the first deadly Houthi strike there in a year - while Hormuz vessel traffic itself fell to a one-week low of eight ships, a fraction of pre-blockade norms. Trump maintains the US has 'total control' of the strait; Iran's FM Araghchi warns of 'a bigger miscalculation.' No deal, and no new talks reported.",
       "timeline": [
         {
           "date": "2026-07-21",
@@ -603,6 +575,11 @@
           "date": "2026-08-12",
           "summary": "A US helicopter fired on a Panama-flagged ship Tuesday (per WSJ, citing a US official) after its crew allegedly ignored blockade-enforcement warnings - the first confirmed US strike on a vessel enforcing its own blockade; no casualties, fire extinguished. Trump claims 'complete control' of the strait and now demands reparations; Iran's Rezaei adds Gaza/Lebanon conditions to reopening terms. Iran and Oman say they've agreed on shipping-corridor coordinates, in final drafting.",
           "change_type": "worsened"
+        },
+        {
+          "date": "2026-08-13",
+          "summary": "A Houthi double-tap missile strike killed six aboard the Egyptian-owned, Tanzania-flagged cargo vessel Tihamah in the Bab el-Mandeb - four crew and two rescuers, the first deadly Houthi strike there in a year. Separately, Reuters/Kpler data show Hormuz vessel traffic falling to a one-week low of eight ships (below a 10-day average of ~12), a fraction of the roughly 130-140 that transited daily before the blockade. Trump repeated his 'total control' claim on Truth Social; Iran's FM Araghchi warned of 'a bigger miscalculation' if Washington misjudges the situation. No new talks reported.",
+          "change_type": "worsened"
         }
       ]
     },
@@ -611,9 +588,9 @@
       "title": "Federal Reserve rate path",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-08-12",
-      "updates": 29,
-      "current_state": "July CPI, released Wednesday at 8:30am ET, held headline inflation steady at 2.7% year-over-year but pushed core CPI to 3.1% y/y - the highest since February and above the roughly 2.5% consensus - on a rebound in core services (airfares, medical care) and continued tariff pass-through in core goods. Tuesday's confirmed close: S&P -0.32% to 7,728.20, Nasdaq -0.60% to 26,445.45, the 10-year up to 4.73%. Going into the print, CME FedWatch had September hike-vs-hold odds close to even; the post-print odds move wasn't confirmed at publish time, but a core surprise this size typically tips hawkish.",
+      "last_updated": "2026-08-13",
+      "updates": 30,
+      "current_state": "The settled July CPI data came in cool, not hot: headline +0.1% m/m, 3.4% y/y (down from 3.5%); core +0.2% m/m, 2.5% y/y (down from 2.6%) - both in line with consensus, reversing the 'hot core' read that drove Wednesday's initial coverage. Wednesday's confirmed close: S&P +0.3% to 7,748.50, Nasdaq +0.5% to 26,588.49, 10-year eased to 4.68%. September hike odds fell to roughly 40-42% on CME FedWatch.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -749,6 +726,11 @@
           "date": "2026-08-12",
           "summary": "July CPI released: headline steady at 2.7% y/y (+0.2% m/m), core jumps to 3.1% y/y (+0.32% m/m), highest since February and above ~2.5% consensus, on core services strength and tariff pass-through. Tuesday's confirmed close: S&P -0.32% to 7,728.20, Nasdaq -0.60% to 26,445.45, 10Y up to 4.73%. Pre-print, September hike/hold odds were close to even on CME FedWatch; post-print move not yet confirmed.",
           "change_type": "worsened"
+        },
+        {
+          "date": "2026-08-13",
+          "summary": "Settled figures across CNBC, NBC News, Fox Business, and others confirm July CPI actually came in cool, not hot: headline +0.1% m/m, 3.4% y/y (down from 3.5% in June); core +0.2% m/m, 2.5% y/y (down from 2.6%) - both right on Dow Jones consensus, largely on energy prices down 7% from their May peak. This reverses the 'hot core, 3.1%' read that circulated in early Tuesday-night/Wednesday-morning wires (FXStreet) and drove yesterday's edition. Wednesday's confirmed close: S&P +0.3% to 7,748.50, Nasdaq +0.5% to 26,588.49 on AI-capex strength, Dow roughly flat; 10-year eased to 4.68% from Tuesday's 4.73%. September hike odds fell to roughly 40-42% (hold near 58-60%) on CME FedWatch, reversing the hawkish drift of the prior week.",
+          "change_type": "reversed"
         }
       ]
     },
@@ -757,9 +739,9 @@
       "title": "Marlins wild card race",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-08-12",
-      "updates": 31,
-      "current_state": "Stowers is on the 10-day IL (retroactive to Aug 10) with a Grade 1 left hamstring strain - his second hamstring injury this season - expected out a couple of weeks, possibly into early September. Miami beat Pittsburgh 2-0 Tuesday on Eury Perez's seven scoreless innings and an Esteury Ruiz homer, its third straight win and 12th shutout of the season, improving to 61-58. Miami hosts Pittsburgh again tonight at 6:40pm, Janson Junk starting.",
+      "last_updated": "2026-08-13",
+      "updates": 32,
+      "current_state": "Miami has won four straight, beating Pittsburgh 8-2 Wednesday on homers from Conine and Hernandez and six solid innings from Junk, improving to 62-58. Cubs (70-50), Diamondbacks and Padres (64-57 each) hold the three NL wild-card spots; Miami trails by roughly 2.5-4.5 games. Hosts Pittsburgh again today at 1:10pm.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -905,6 +887,11 @@
           "date": "2026-08-12",
           "summary": "Stowers placed on the 10-day IL, retroactive to Aug 10, with a Grade 1 left hamstring strain - his second hamstring IL stint this season - expected out a couple weeks. Miami beat Pittsburgh 2-0 Tuesday behind Eury Perez (7 IP, 3 H, 7 K) and an Esteury Ruiz homer, its third straight win and 12th shutout of the season, improving to 61-58. Hosts Pittsburgh again tonight, Janson Junk starting.",
           "change_type": "advanced"
+        },
+        {
+          "date": "2026-08-13",
+          "summary": "Miami beat Pittsburgh 8-2 Wednesday on home runs from Griffin Conine and Heriberto Hernandez and six solid innings from Janson Junk - its fourth straight win, improving to 62-58. The NL wild-card picture: Cubs hold the top spot at 70-50, with Arizona and San Diego (both 64-57) holding the other two spots - Miami sits roughly 2.5-4.5 games back. Miami hosts Pittsburgh again today at 1:10pm.",
+          "change_type": "improved"
         }
       ]
     },
@@ -954,9 +941,9 @@
       "title": "Dolphins rebuild under Hafley",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-08-12",
-      "updates": 22,
-      "current_state": "Miami is running today's joint practice at the Commanders' Ashburn, VA facility - reportedly the first-ever joint practice held on Commanders Park grounds - ahead of Friday's 7pm preseason opener. TE Greg Dulcich remains in a red non-contact jersey but is trending toward a return around this practice. Of last Saturday's seven injured players: Ferrell will miss multiple weeks, Brents is out this week (not believed long-term), Coleman Jr., Trader Jr., and Sims are probably out this week with a possible return next week; kicker Zane Gonzalez is newly out for weeks.",
+      "last_updated": "2026-08-13",
+      "updates": 23,
+      "current_state": "Wednesday's joint practice at Washington gave Miami its first real outside test of camp, and the Commanders' pass rush (Oweh, Chaisson) won the day against Miami's offensive line, with Mike Sainristil returning an interception for a touchdown. Miami plays Washington in its preseason opener tomorrow at 7pm at Northwest Stadium.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -1067,6 +1054,11 @@
           "date": "2026-08-12",
           "summary": "Miami runs today's joint practice at Washington's Ashburn, VA facility - the first-ever joint practice held on Commanders Park grounds. Dulcich still in a red non-contact jersey but trending toward a return. Injury-list detail sharpens: Ferrell out multiple weeks, Brents out this week, Coleman Jr./Trader Jr./Sims probably out this week with a possible return next week; kicker Zane Gonzalez newly out for weeks.",
           "change_type": "watch"
+        },
+        {
+          "date": "2026-08-13",
+          "summary": "Wednesday's joint practice at Washington's Ashburn facility gave Miami its first outside benchmark of camp, and the Commanders' defensive front won it - Odafe Oweh and K'Lavon Chaisson repeatedly beat Miami's offensive line for would-be sacks, and Mike Sainristil returned an interception for a touchdown. Miami's own defense and injury list were not the story of the day. Team preps for tomorrow's 7pm preseason opener against Washington at Northwest Stadium.",
+          "change_type": "advanced"
         }
       ]
     },
@@ -1147,8 +1139,8 @@
       "title": "2026 CRE capital markets under pressure",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-08-12",
-      "updates": 15,
+      "last_updated": "2026-08-13",
+      "updates": 16,
       "current_state": "South Florida investment sales (i-sales) are up 19% year over year, with YTD volume topping $9 billion, driven largely by an industrial-sector surge - but a separate office-specific subset (roughly 90 deals, $1.3 billion) was actually down 11.5% year over year, cap rates ranging 7.12%-8.39%. A genuinely more uneven picture than last week's rent-growth headlines alone suggested.",
       "timeline": [
         {
@@ -1225,6 +1217,11 @@
           "date": "2026-08-12",
           "summary": "The Real Deal reports South Florida i-sales up 19% YoY, YTD volume over $9B, led by industrial activity; a separate office-only subset (~90 deals, $1.3B) was down 11.5% YoY, cap rates 7.12%-8.39% - a more uneven picture than the rent-growth headlines alone suggested.",
           "change_type": "advanced"
+        },
+        {
+          "date": "2026-08-13",
+          "summary": "Largo Capital's August Florida market update adds context to Tuesday's i-sales story: private investors now account for over half of South Florida CRE buyers versus roughly 19% institutional, industrial vacancy runs 7.0-7.2% with rents near peak ($16.42-$17.26 NNN), and CMBS conduit execution has stretched beyond typical timelines as spreads widen. No new headline transaction; consistent with, not a reversal of, Tuesday's uneven-recovery read.",
+          "change_type": "watch"
         }
       ]
     },
@@ -1327,9 +1324,9 @@
   ],
   "meta": {
     "content_freshness": {
-      "markets": "2026-08-12 (Wed 8:30am CPI release; Tue 8/11 confirmed close)",
-      "news": "2026-08-11/08-12",
-      "weather": "2026-08-12"
+      "markets": "2026-08-13 (Wed 8/12 confirmed close + settled CPI data)",
+      "news": "2026-08-12/08-13",
+      "weather": "2026-08-13"
     },
     "feedback_endpoint_mode": "github_contents",
     "minimum_client_schema_version": 1,
