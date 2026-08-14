@@ -1,37 +1,38 @@
 {
   "schema_version": 2,
-  "updatedAt": "2026-08-13T11:00:00Z",
+  "updatedAt": "2026-08-14T13:30:00Z",
   "interests": [
     {
       "id": "markets",
       "label": "Markets & Macro",
-      "weight": 1.04,
+      "weight": 1.08,
       "subtopics": {
-        "cre_capital_markets": 1.14
+        "cre_capital_markets": 1.13,
+        "fed_policy": 1.15
       }
     },
     {
       "id": "miami",
       "label": "Miami Life & Culture",
-      "weight": 1.04,
+      "weight": 1.03,
       "subtopics": {
-        "waterfront_civic_projects": 1.14
+        "waterfront_civic_projects": 1.13
       }
     },
     {
       "id": "sports",
       "label": "Miami Sports",
-      "weight": 1.02,
+      "weight": 1.01,
       "subtopics": {}
     },
     {
       "id": "living",
       "label": "Art of Living",
-      "weight": 1.16,
+      "weight": 1.2,
       "subtopics": {
-        "philosophy_of_living": 1.14,
-        "technology_and_attention": 1.14,
-        "philosophy_of_time": 1.01
+        "philosophy_of_living": 1.13,
+        "technology_and_attention": 1.28,
+        "philosophy_of_time": 1.0
       }
     }
   ],
@@ -116,9 +117,9 @@
       "title": "US-Iran conflict and the Strait of Hormuz",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-08-13",
-      "updates": 32,
-      "current_state": "A Houthi double-tap strike killed six aboard the cargo vessel Tihamah in the Bab el-Mandeb Tuesday - the first deadly Houthi strike there in a year - while Hormuz vessel traffic itself fell to a one-week low of eight ships, a fraction of pre-blockade norms. Trump maintains the US has 'total control' of the strait; Iran's FM Araghchi warns of 'a bigger miscalculation.' No deal, and no new talks reported.",
+      "last_updated": "2026-08-14",
+      "updates": 33,
+      "current_state": "Ship traffic through Hormuz fell to roughly 13 vessels Tuesday - near a three-month low and about 90% below the pre-war daily average of 130 - per Kpler data. Iran's Persian Gulf Strait Authority says the strait 'remains blocked and will not be reopened until Iran's conditions are accepted,' directly disputing Trump's renewed 'total control' claim. No new talks or attacks reported Thursday.",
       "timeline": [
         {
           "date": "2026-07-21",
@@ -279,6 +280,11 @@
           "date": "2026-08-13",
           "summary": "A Houthi double-tap missile strike killed six aboard the Egyptian-owned, Tanzania-flagged cargo vessel Tihamah in the Bab el-Mandeb - four crew and two rescuers, the first deadly Houthi strike there in a year. Separately, Reuters/Kpler data show Hormuz vessel traffic falling to a one-week low of eight ships (below a 10-day average of ~12), a fraction of the roughly 130-140 that transited daily before the blockade. Trump repeated his 'total control' claim on Truth Social; Iran's FM Araghchi warned of 'a bigger miscalculation' if Washington misjudges the situation. No new talks reported.",
           "change_type": "worsened"
+        },
+        {
+          "date": "2026-08-14",
+          "summary": "Traffic fell further to roughly 13 ships Tuesday, near a three-month low and about 90% below the pre-war daily average of 130, per Kpler data cited by CNBC. Iran's Persian Gulf Strait Authority said flatly the strait 'remains blocked and will not be reopened until Iran's conditions are accepted,' directly disputing Trump's renewed 'total control' claim. No new talks or attacks reported.",
+          "change_type": "worsened"
         }
       ],
       "importance": 0.55
@@ -288,9 +294,9 @@
       "title": "Federal Reserve rate path",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-08-13",
-      "updates": 30,
-      "current_state": "The settled July CPI data came in cool, not hot: headline +0.1% m/m, 3.4% y/y (down from 3.5%); core +0.2% m/m, 2.5% y/y (down from 2.6%) - both in line with consensus, reversing the 'hot core' read that drove Wednesday's initial coverage. Wednesday's confirmed close: S&P +0.3% to 7,748.50, Nasdaq +0.5% to 26,588.49, 10-year eased to 4.68%. September hike odds fell to roughly 40-42% on CME FedWatch.",
+      "last_updated": "2026-08-14",
+      "updates": 31,
+      "current_state": "A second straight soft inflation print - July PPI flat month-over-month vs. +0.2% expected - pulled CME FedWatch's September hike odds down further to roughly 32% (from ~40-42% Wednesday), with some trackers now pricing real odds of a cut. The S&P 500 and Nasdaq both closed at fresh records Thursday (7,798.99 and 26,803.03), and the 10-year eased to 4.65%.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -431,18 +437,23 @@
           "date": "2026-08-13",
           "summary": "Settled figures across CNBC, NBC News, Fox Business, and others confirm July CPI actually came in cool, not hot: headline +0.1% m/m, 3.4% y/y (down from 3.5% in June); core +0.2% m/m, 2.5% y/y (down from 2.6%) - both right on Dow Jones consensus, largely on energy prices down 7% from their May peak. This reverses the 'hot core, 3.1%' read that circulated in early Tuesday-night/Wednesday-morning wires (FXStreet) and drove yesterday's edition. Wednesday's confirmed close: S&P +0.3% to 7,748.50, Nasdaq +0.5% to 26,588.49 on AI-capex strength, Dow roughly flat; 10-year eased to 4.68% from Tuesday's 4.73%. September hike odds fell to roughly 40-42% (hold near 58-60%) on CME FedWatch, reversing the hawkish drift of the prior week.",
           "change_type": "reversed"
+        },
+        {
+          "date": "2026-08-14",
+          "summary": "July PPI (BLS) came in flat month-over-month vs. +0.2% expected, a second straight soft inflation print. CME FedWatch's September hike odds fell further to roughly 32% (from 40-42% Wednesday), with some trackers now pricing real odds of a cut rather than a hold. S&P 500 closed at a fresh record, 7,798.99 (+0.7%); Nasdaq also closed at a record, 26,803.03 (+0.81%); 10-year eased to 4.65%.",
+          "change_type": "improved"
         }
       ],
-      "importance": 0.5
+      "importance": 0.6
     },
     {
       "id": "thread-marlins-wildcard",
       "title": "Marlins wild card race",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-08-13",
-      "updates": 32,
-      "current_state": "Miami has won four straight, beating Pittsburgh 8-2 Wednesday on homers from Conine and Hernandez and six solid innings from Junk, improving to 62-58. Cubs (70-50), Diamondbacks and Padres (64-57 each) hold the three NL wild-card spots; Miami trails by roughly 2.5-4.5 games. Hosts Pittsburgh again today at 1:10pm.",
+      "last_updated": "2026-08-14",
+      "updates": 33,
+      "current_state": "Miami's four-game win streak ended Thursday, routed 13-1 by Pittsburgh behind Braxton Ashcraft's complete-game three-hitter and Rafael Flores' two homers/six RBIs. Miami falls to 62-59. Cubs (71-50), Padres (65-57), and Diamondbacks (64-58) hold the three NL wild-card spots; Miami trails the final spot by roughly 1.5 games. Opens a series at Cincinnati today.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -593,6 +604,11 @@
           "date": "2026-08-13",
           "summary": "Miami beat Pittsburgh 8-2 Wednesday on home runs from Griffin Conine and Heriberto Hernandez and six solid innings from Janson Junk - its fourth straight win, improving to 62-58. The NL wild-card picture: Cubs hold the top spot at 70-50, with Arizona and San Diego (both 64-57) holding the other two spots - Miami sits roughly 2.5-4.5 games back. Miami hosts Pittsburgh again today at 1:10pm.",
           "change_type": "improved"
+        },
+        {
+          "date": "2026-08-14",
+          "summary": "Pittsburgh's Braxton Ashcraft threw a complete-game three-hitter (first Pirate to finish under 100 pitches since 2017) and rookie Rafael Flores hit two three-run homers for six RBIs as the Pirates routed Miami 13-1 Thursday, snapping the Marlins' win streak at four. Miami falls to 62-59. Updated wild-card picture: Cubs 71-50, Padres 65-57, Diamondbacks 64-58 - Miami trails the final spot by roughly 1.5 games. Opens a series at Cincinnati today.",
+          "change_type": "reversed"
         }
       ],
       "importance": 0.6
@@ -644,9 +660,9 @@
       "title": "Dolphins rebuild under Hafley",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-08-13",
-      "updates": 23,
-      "current_state": "Wednesday's joint practice at Washington gave Miami its first real outside test of camp, and the Commanders' pass rush (Oweh, Chaisson) won the day against Miami's offensive line, with Mike Sainristil returning an interception for a touchdown. Miami plays Washington in its preseason opener tomorrow at 7pm at Northwest Stadium.",
+      "last_updated": "2026-08-14",
+      "updates": 24,
+      "current_state": "Miami plays its preseason opener at Washington tonight, 7pm at Northwest Stadium - Hafley's first game as head coach and Malik Willis's Miami debut. Miami is a 3-point favorite, but Wednesday's joint practice (where Washington's pass rush beat Miami's line repeatedly) suggests a tough test; most starters are expected to rest.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -762,9 +778,31 @@
           "date": "2026-08-13",
           "summary": "Wednesday's joint practice at Washington's Ashburn facility gave Miami its first outside benchmark of camp, and the Commanders' defensive front won it - Odafe Oweh and K'Lavon Chaisson repeatedly beat Miami's offensive line for would-be sacks, and Mike Sainristil returned an interception for a touchdown. Miami's own defense and injury list were not the story of the day. Team preps for tomorrow's 7pm preseason opener against Washington at Northwest Stadium.",
           "change_type": "advanced"
+        },
+        {
+          "date": "2026-08-14",
+          "summary": "Miami plays its preseason opener at Washington tonight, 7pm at Northwest Stadium - Hafley's first game as head coach and Malik Willis's Miami debut. Miami is a 3-point favorite, but most starters are expected to rest after the extensive joint-practice work; rookie CB Chris Johnson intercepted Quinn Ewers in Wednesday's team drills, and OT Austin Jackson is fully cleared from his toe injury.",
+          "change_type": "watch"
         }
       ],
       "importance": 0.5
+    },
+    {
+      "id": "thread-hurricanes-fall-camp",
+      "title": "Miami Hurricanes fall camp and the Mensah era",
+      "topic": "sports",
+      "status": "emerging",
+      "last_updated": "2026-08-14",
+      "updates": 1,
+      "current_state": "Fall camp opened this week under Mario Cristobal, who is deliberately checking expectations after last season's national-title-game loss. Duke transfer Darian Mensah, the ACC's leading passer last season (3,973 yards, 34 TD), is the new starting quarterback - Miami's third straight year building its offense around a top transfer-portal arm.",
+      "timeline": [
+        {
+          "date": "2026-08-14",
+          "summary": "First tracked: fall camp opens, Cristobal sets a deliberately measured tone ('no time or room to overpraise anyone') after last season's title-game loss, Duke transfer Darian Mensah installed as starting QB following Cam Ward and Carson Beck as Miami's third straight top transfer-portal arm.",
+          "change_type": "new"
+        }
+      ],
+      "importance": 0.42
     },
     {
       "id": "thread-miami-summer-openings",
@@ -959,9 +997,9 @@
       "title": "Miami Marine Stadium's restoration referendum",
       "topic": "miami",
       "status": "active",
-      "last_updated": "2026-08-12",
-      "updates": 5,
-      "current_state": "Early voting continues through August 16 ahead of the August 18 vote on Referendum #172, a 40-year management deal with Global Spectrum/Oak View Group and Breakwater Hospitality. Gloria Estefan and Savannah Buffett (Jimmy Buffett's daughter) have both publicly voiced support for restoration, and the National Trust for Historic Preservation is campaigning ahead of the vote. Under the deal, the city keeps 93% of event revenue and 85% of sponsorship income, with up to $10M toward restoration up front, followed by a separate $65-85M restoration bond.",
+      "last_updated": "2026-08-14",
+      "updates": 6,
+      "current_state": "Early voting enters its final two days, running through August 16, ahead of the August 18 vote on Referendum #172, a 40-year management deal with Global Spectrum/Oak View Group and Breakwater Hospitality. The National Trust for Historic Preservation is actively campaigning for a 'yes'; Gloria Estefan and Savannah Buffett have both publicly voiced support. Under the deal, the city keeps 93% of event revenue and 85% of sponsorship income, with up to $10M toward restoration up front, followed by a separate $65-85M restoration bond.",
       "timeline": [
         {
           "date": "2026-07-28",
@@ -986,6 +1024,11 @@
         {
           "date": "2026-08-12",
           "summary": "Gloria Estefan and Savannah Buffett (Jimmy Buffett's daughter) publicly voice support for restoration; the National Trust for Historic Preservation is campaigning ahead of the Aug 18 vote. Early voting continues through Aug 16.",
+          "change_type": "watch"
+        },
+        {
+          "date": "2026-08-14",
+          "summary": "Early voting enters its final two days, through Aug 16, ahead of the Aug 18 vote; no new endorsements or opposition reported since Wednesday.",
           "change_type": "watch"
         }
       ],
@@ -1016,12 +1059,6 @@
   ],
   "readingList": [
     {
-      "title": "U.S. Real Estate Market Outlook 2026: Capital Markets",
-      "url": "https://www.cbre.com/insights/books/us-real-estate-market-outlook-2026/capital-markets",
-      "addedAt": "2026-08-04T09:30:00-04:00",
-      "tags": []
-    },
-    {
       "title": "The Tantalizing Possibility of Locating Consciousness in the Brain",
       "url": "https://www.noemamag.com/the-tantalizing-possibility-of-locating-consciousness-in-the-brain/",
       "addedAt": "2026-08-12T09:30:00-04:00",
@@ -1038,7 +1075,7 @@
   ],
   "habits": {},
   "feedback": {
-    "cursor": "2026-08-13T11:00:00Z",
+    "cursor": "2026-08-14T13:30:00Z",
     "consumed_ids": [
       "1785675752910-wsh3d",
       "1785684398684-q0vfa",
@@ -1047,10 +1084,13 @@
       "1785684531009-nbk8c",
       "1785841011703-wa08u",
       "1785841601831-0bezm",
-      "1786387514270-c5hzp"
+      "1786387514270-c5hzp",
+      "1786632932423-u86h7",
+      "1786632955083-keydt",
+      "1786632964494-4euv1"
     ]
   },
   "notes": [],
   "notes_policy": "Private reflections and note text are captured only on Alex's device and are never synced to or stored in this public repo. When a feedback action carries note text, only an inferred preference signal (interest/subtopic weight nudge) may be applied here - the text itself is discarded before it ever reaches brain.json.",
-  "systemNotes": "Ran 2026-08-13 in BRAIN MODE. feedback/ directory absent (no mobile feedback since yesterday's cleanup) - 0 new feedback actions, consumed_ids unchanged. Applied one day of decay (0.01 toward 1.0) to all interest and subtopic weights. Today's research surfaced a real correction: yesterday's edition (built on an early FXStreet wire) reported a hot core CPI reading (3.1% y/y); settled figures from CNBC/NBC/Fox Business/Advisor Perspectives confirm the actual July CPI was cool and in-line with consensus (core 2.5% y/y, down from 2.6%). Published today's edition with that correction as the lead what_changed item, plus a deadly Houthi strike in the Bab el-Mandeb and collapsing Hormuz ship traffic, Miami's 4-game win streak, and Wednesday's Dolphins-Commanders joint practice. No threads opened or closed; five threads updated (Hormuz, Fed, Marlins, Dolphins, CRE capital markets)."
+  "systemNotes": "Ran 2026-08-14 in BRAIN MODE. Consumed 3 mobile feedback actions: reading_done on the CBRE reading-list item (removed), a star on theme-cpi-correction-cooling (markets +0.05, new fed_policy subtopic +0.15, thread-fed-rate-path importance +0.1), and a star on theme-tech-sadness-noema (living +0.05, technology_and_attention subtopic +0.15). Applied one day of decay to all weights. Opened a new thread (thread-hurricanes-fall-camp) as fall camp began with Duke transfer Darian Mensah installed at QB. Updated five threads: Hormuz (traffic near a 3-month low, Iran explicitly disputes 'total control'), Fed rate path (soft July PPI pulls Sept hike odds to ~32%, S&P/Nasdaq hit fresh records), Marlins (4-game win streak snapped 13-1), Dolphins (preseason opener tonight at Washington), Marine Stadium referendum (early voting's final two days). No threads closed."
 }
