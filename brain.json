@@ -1,22 +1,22 @@
 {
   "schema_version": 2,
-  "updatedAt": "2026-08-15T13:30:00Z",
+  "updatedAt": "2026-08-16T13:30:00Z",
   "interests": [
     {
       "id": "markets",
       "label": "Markets & Macro",
-      "weight": 1.07,
+      "weight": 1.06,
       "subtopics": {
-        "cre_capital_markets": 1.12,
-        "fed_policy": 1.14
+        "cre_capital_markets": 1.11,
+        "fed_policy": 1.13
       }
     },
     {
       "id": "miami",
       "label": "Miami Life & Culture",
-      "weight": 1.02,
+      "weight": 1.01,
       "subtopics": {
-        "waterfront_civic_projects": 1.12
+        "waterfront_civic_projects": 1.11
       }
     },
     {
@@ -28,10 +28,10 @@
     {
       "id": "living",
       "label": "Art of Living",
-      "weight": 1.19,
+      "weight": 1.18,
       "subtopics": {
-        "philosophy_of_living": 1.12,
-        "technology_and_attention": 1.27,
+        "philosophy_of_living": 1.11,
+        "technology_and_attention": 1.26,
         "philosophy_of_time": 1.0
       }
     }
@@ -117,9 +117,9 @@
       "title": "US-Iran conflict and the Strait of Hormuz",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-08-15",
-      "updates": 34,
-      "current_state": "The IEA's August Oil Market Report put the first hard institutional numbers on the closure's toll - a 4.3 million bpd cut to its 2026 global supply forecast and a widened Q3 deficit - after five months of daily military and diplomatic dispatches. No new attacks or talks reported since Thursday; Iran's Persian Gulf Strait Authority position (blocked until its conditions are met) remains unchanged.",
+      "last_updated": "2026-08-16",
+      "updates": 37,
+      "current_state": "A materially worse week: Iran struck two ADNOC tankers Thursday and an unidentified projectile hit a bulk carrier Friday, while Trump told a New York audience he'd eventually declare the strait 'a territory of the United States' - a claim Iran's deputy foreign minister flatly rejected over the weekend. Daily transits fell further to roughly six ships, even lower than earlier in the week, even as Iran and Oman continue calling a separate shipping-corridor arrangement nearly final.",
       "timeline": [
         {
           "date": "2026-07-21",
@@ -290,18 +290,33 @@
           "date": "2026-08-15",
           "summary": "The IEA's August Oil Market Report (published Aug 12) cut its 2026 global oil supply forecast by 4.3 million bpd and widened its projected Q3 deficit to 1.8 million bpd - a one-million-bpd downward revision from July - warning that 'the continued closure of the Strait of Hormuz disrupts international supply chains and curtails product availability.' No new attacks or talks reported since Thursday; Iran's position unchanged.",
           "change_type": "advanced"
+        },
+        {
+          "date": "2026-08-13",
+          "summary": "Iran struck two ADNOC (UAE state oil company) vessels transiting the strait Thursday evening; the UAE's Foreign Ministry called it 'piracy' and 'a direct threat to the stability of the region... and the global energy supply' in a formal statement the next day.",
+          "change_type": "worsened"
+        },
+        {
+          "date": "2026-08-14",
+          "summary": "UKMTO reported a bulk carrier hit by an unidentified projectile in the strait; the crew was reported safe. Separately, in New York, Trump said that after 'defeating' Iran he would eventually declare the Strait of Hormuz 'a territory of the United States.'",
+          "change_type": "worsened"
+        },
+        {
+          "date": "2026-08-16",
+          "summary": "Iranian officials rejected Trump's claim over the weekend - deputy FM Kazem Gharibabadi said 'the Strait of Hormuz cannot be seized with a tweet, an aircraft carrier, an executive order, or a campaign speech.' Strait traffic fell further, to roughly six ships a day (32 total transits over the weekend, 17 via Iran's own designated corridor) - even lower than earlier in the week. Iran and Oman continue describing a separate shipping-corridor arrangement as close to final, but no agreement on reopening the strait itself has been signed.",
+          "change_type": "worsened"
         }
       ],
-      "importance": 0.55
+      "importance": 0.62
     },
     {
       "id": "thread-fed-rate-path",
       "title": "Federal Reserve rate path",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-08-15",
-      "updates": 32,
-      "current_state": "Friday's weak preliminary August consumer sentiment (51.0 vs. 54.5 expected) snapped the two-day record streak - S&P 500 -0.17% to 7,786, Nasdaq -0.28% to 26,729, 10-year up to roughly 4.69% - though the S&P still closed a third straight winning week. September hike odds remain near Thursday's ~32% CME FedWatch reading; no fresh print confirmed Friday, though the weak demand data points the same dovish direction as Thursday's soft PPI.",
+      "last_updated": "2026-08-16",
+      "updates": 33,
+      "current_state": "Friday's slide had two drivers, not one: July retail sales fell 0.6% - the first monthly drop in nine months - on top of a weak preliminary consumer-sentiment reading (51.0 vs. 54.5 expected). Together they pulled September hike odds down to roughly 29-31% on CME FedWatch by Friday's close, the lowest reading of the week and down from about 44% a week earlier, even as the S&P still closed a third straight winning week.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -452,18 +467,23 @@
           "date": "2026-08-15",
           "summary": "Friday's preliminary August consumer sentiment fell to 51.0 (vs. 54.5 expected, down from July's 55.2 per the University of Michigan) - inflation expectations rose to 4.3%. S&P 500 -0.17% to 7,786, Nasdaq -0.28% to 26,729, Dow -0.20% to 53,732, ending the two-day record streak; 10-year ticked up to roughly 4.69% from Thursday's 4.65%. S&P still closed a third straight winning week. September hike odds remain near Thursday's ~32% CME FedWatch reading; no fresh print confirmed Friday.",
           "change_type": "reversed"
+        },
+        {
+          "date": "2026-08-16",
+          "summary": "Fuller picture of Friday's slide: July retail sales fell 0.6% - the first monthly drop in nine months - compounding the weak consumer-sentiment miss. September hike odds on CME FedWatch fell to roughly 29-31% by Friday's close, down from about 44% a week earlier and the lowest reading of the week; some trackers now price real odds of a hold or even a cut. The S&P still closed its third straight winning week.",
+          "change_type": "advanced"
         }
       ],
-      "importance": 0.6
+      "importance": 0.62
     },
     {
       "id": "thread-marlins-wildcard",
       "title": "Marlins wild card race",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-08-15",
-      "updates": 34,
-      "current_state": "Cincinnati shut out Miami 1-0 Friday - Chase Burns struck out eight over seven scoreless innings, Eugenio Suarez's sixth-inning RBI double was the game's only run - Miami's second straight loss, dropping the Marlins to 62-60. The NL wild-card picture has reshuffled: Cubs (71-51), Padres (65-57), and Phillies (65-58) hold the three spots, with Arizona just half a game back of the cutline; Miami trails the final spot by roughly 2.5 games. Series finale at Cincinnati tonight, 6:40pm ET.",
+      "last_updated": "2026-08-16",
+      "updates": 36,
+      "current_state": "Miami split an unusual pair of games in Cincinnati - shut out 1-0 Friday, then an 8-4 comeback win Saturday behind a four-run eighth - to even the series and move to 63-60. The wild-card picture reshuffled again: Cubs (72-51), Padres (66-57), and Diamondbacks (65-58) hold the three spots, with Miami bunched roughly three games back alongside the Cardinals, Reds, and Pirates. Today's 1:40pm ET rubber match in Cincinnati is the week's final swing point.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -624,6 +644,16 @@
           "date": "2026-08-15",
           "summary": "Cincinnati's Chase Burns struck out eight over seven scoreless innings and outdueled Sandy Alcantara (7 IP, 1 ER on 3 H, 4 BB); Eugenio Suarez's sixth-inning RBI double was the game's only run in a 1-0 Reds win Friday - Miami's second straight loss. Marlins fall to 62-60. NL wild-card picture reshuffles: Cubs (71-51), Padres (65-57), and Phillies (65-58) now hold the three spots, Arizona just half a game back of the cutline - Miami trails the final spot by roughly 2.5 games. Series finale at Cincinnati tonight, 6:40pm ET.",
           "change_type": "worsened"
+        },
+        {
+          "date": "2026-08-15",
+          "summary": "Miami answered Friday's shutout with an 8-4 comeback win Saturday, scoring four runs in the eighth - Heriberto Hernandez's go-ahead two-run single, solo home runs from Jakob Marsee and Joe Mack - to even the Reds series at a game apiece and move to 63-60.",
+          "change_type": "improved"
+        },
+        {
+          "date": "2026-08-16",
+          "summary": "The NL wild-card picture as the week closes: Cubs (72-51), Padres (66-57), and Diamondbacks (65-58) hold the three spots; Miami sits roughly three games back, bunched with the Cardinals, Reds, and Pirates. Today's rubber match in Cincinnati (1:40pm ET) decides the series and is the week's last swing point.",
+          "change_type": "watch"
         }
       ],
       "importance": 0.6
@@ -675,9 +705,9 @@
       "title": "Dolphins rebuild under Hafley",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-08-15",
-      "updates": 25,
-      "current_state": "Washington won Jeff Hafley's coaching debut 20-7 Friday night - Miami's starters opened with a clean 14-play, 93-yard touchdown drive (De'Von Achane), but Washington's defense took over once the backups entered, forcing a turnover on downs and consecutive three-and-outs. Next joint practice is Aug. 20 hosting the Giants.",
+      "last_updated": "2026-08-16",
+      "updates": 26,
+      "current_state": "After Friday's 20-7 loss at Washington, Hafley spent Saturday on tape review - satisfied with the starters' execution under Malik Willis, but naming backup-quarterback depth and offensive-line protection as the real problems to fix. The camp injury list (Clelin Ferrell, Zane Gonzalez, Josh Uche, JuJu Brents) remains a background concern. No game this weekend; next up is a joint practice against the Giants on Aug. 20 ahead of an Aug. 22 preseason game.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -803,6 +833,11 @@
           "date": "2026-08-15",
           "summary": "Washington won Jeff Hafley's debut as Miami's head coach 20-7 Friday night at Northwest Stadium. Miami's starters opened with a 14-play, 93-yard touchdown drive capped by a De'Von Achane score, but Washington's defense took over after that, forcing a turnover on downs and back-to-back three-and-outs, with most Miami starters resting for the rest of the game.",
           "change_type": "new"
+        },
+        {
+          "date": "2026-08-15",
+          "summary": "Hafley spent Saturday reviewing tape from the 20-7 loss - pleased with how the starters, led by Malik Willis, executed together, but flagged backup-QB depth and offensive-line protection as the real items to fix before the next test. No game this weekend; next joint practices are Aug. 20 against the Giants ahead of an Aug. 22 preseason game.",
+          "change_type": "watch"
         }
       ],
       "importance": 0.5
@@ -812,9 +847,9 @@
       "title": "Miami Hurricanes fall camp and the Mensah era",
       "topic": "sports",
       "status": "emerging",
-      "last_updated": "2026-08-15",
-      "updates": 2,
-      "current_state": "Fall camp's second week has moved past opening-week framing into offensive- and defensive-line rotation battles as position groups sort out; the secondary - the unit returning the most production from last year's title-game run - remains the most settled group. Duke transfer Darian Mensah remains the starting quarterback.",
+      "last_updated": "2026-08-16",
+      "updates": 3,
+      "current_state": "Camp held its first scrimmage Friday evening at Hard Rock Stadium, and Cristobal said he was happy with the team's progress - still keeping the same measured, no-overpraise tone he set at camp's opening. Darian Mensah remains the starting quarterback; the secondary remains the roster's most settled unit as the lines continue sorting out. Season opener is Sept. 4 at Stanford.",
       "timeline": [
         {
           "date": "2026-08-14",
@@ -825,18 +860,23 @@
           "date": "2026-08-15",
           "summary": "Camp's second week has shifted focus to offensive- and defensive-line rotation battles as position groups sort out; the secondary, which returns the most production of any unit from last year's title-game run, remains the roster's most settled group. Several outlets project Miami to win the ACC and contend for another national title, but Cristobal's measured opening-week tone continues to set the pace.",
           "change_type": "advanced"
+        },
+        {
+          "date": "2026-08-14",
+          "summary": "Fall camp held its first scrimmage Friday evening at Hard Rock Stadium; Cristobal said afterward he was happy with the team's progress, continuing his deliberately measured tone from camp's opening.",
+          "change_type": "advanced"
         }
       ],
-      "importance": 0.42
+      "importance": 0.46
     },
     {
       "id": "thread-miami-summer-openings",
       "title": "Miami summer restaurant wave",
       "topic": "miami",
       "status": "active",
-      "last_updated": "2026-08-12",
-      "updates": 9,
-      "current_state": "Miami Spice's discounted dining season runs through September 30. The summer wave's latest additions are Night Owl Cookies (West Kendall) and Pura Vida (Kendall), joining August's Burgers & Shakes, LandShark Bar & Grill at Dolphin Mall, Star Burger, and a reopened Stormy Monday with a refreshed menu. Miami Slice's Coconut Grove opening remains targeted for late August/early September.",
+      "last_updated": "2026-08-16",
+      "updates": 10,
+      "current_state": "Miami Spice's discounted dining season runs through September 30. Miami Slice's long-anticipated Coconut Grove location opened Aug. 12 with an expanded dine-in menu and wood-fired items exclusive to the spot, joining the summer wave's other recent additions: Night Owl Cookies (West Kendall), Pura Vida (Kendall), Burgers & Shakes, LandShark Bar & Grill at Dolphin Mall, Star Burger, and a reopened Stormy Monday.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -882,6 +922,11 @@
           "date": "2026-08-12",
           "summary": "Night Owl Cookies (West Kendall) and Pura Vida (Kendall) join the summer opening wave.",
           "change_type": "advanced"
+        },
+        {
+          "date": "2026-08-16",
+          "summary": "Correcting last week's timeline: Miami Slice's Coconut Grove location actually opened Aug. 12, not late August as previously reported, with an expanded dine-in menu, slice-bar seating, and wood-fired items exclusive to the Grove spot.",
+          "change_type": "resolved"
         }
       ],
       "importance": 0.5
@@ -908,9 +953,9 @@
       "title": "2026 CRE capital markets under pressure",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-08-13",
-      "updates": 16,
-      "current_state": "South Florida investment sales (i-sales) are up 19% year over year, with YTD volume topping $9 billion, driven largely by an industrial-sector surge - but a separate office-specific subset (roughly 90 deals, $1.3 billion) was actually down 11.5% year over year, cap rates ranging 7.12%-8.39%. A genuinely more uneven picture than last week's rent-growth headlines alone suggested.",
+      "last_updated": "2026-08-16",
+      "updates": 17,
+      "current_state": "South Florida was formally crowned the No. 1 office market in the US this week - lowest vacancy, fastest rent growth of any top-25 US market, rents up roughly triple the national growth rate. Individual deal flow stayed active at the transaction level (Citadel's $86M Palm Beach sale to Blackstone, Harbor Group's $109M apartment buy) even as the office-specific subset of investment sales lags the industrial-led headline volume growth.",
       "timeline": [
         {
           "date": "2026-07-24",
@@ -991,9 +1036,14 @@
           "date": "2026-08-13",
           "summary": "Largo Capital's August Florida market update adds context to Tuesday's i-sales story: private investors now account for over half of South Florida CRE buyers versus roughly 19% institutional, industrial vacancy runs 7.0-7.2% with rents near peak ($16.42-$17.26 NNN), and CMBS conduit execution has stretched beyond typical timelines as spreads widen. No new headline transaction; consistent with, not a reversal of, Tuesday's uneven-recovery read.",
           "change_type": "watch"
+        },
+        {
+          "date": "2026-08-16",
+          "summary": "South Florida was formally ranked the No. 1 office market in the US this week (Miami Realtors/RWorld, published Aug. 7): lowest vacancy and fastest rent growth among the top 25 US markets, Miami asking rents up 7.1% YoY to $61/sqft, Fort Lauderdale up 16.4% to $43.50/sqft, West Palm Beach-Boca up 21.2% to $49.90/sqft - all far outpacing the national average of +2.4% to $33.60/sqft. Deal flow continued at the individual-transaction level: Ken Griffin's Citadel sold its Palm Beach office building at 125 Worth Ave for $86M to Blackstone's Revantage (he paid $83M in 2023); Harbor Group paid $109M for the 505-unit Emerald Palms apartment complex; Moishe Mana's Mana Common paid $20.3M for a former post office building at 100 NE First Ave.",
+          "change_type": "advanced"
         }
       ],
-      "importance": 0.55
+      "importance": 0.58
     },
     {
       "id": "thread-miami-worldcenter-development",
@@ -1022,9 +1072,9 @@
       "title": "Miami Marine Stadium's restoration referendum",
       "topic": "miami",
       "status": "active",
-      "last_updated": "2026-08-15",
-      "updates": 7,
-      "current_state": "Early voting on Referendum #172 closes tomorrow, Sunday, August 16, three days ahead of the August 18 vote. The National Trust for Historic Preservation is actively campaigning for a 'yes'; Gloria Estefan and Savannah Buffett have publicly voiced support. No new endorsements or organized opposition surfaced this week.",
+      "last_updated": "2026-08-16",
+      "updates": 8,
+      "current_state": "Early voting closes today, Sunday, three days ahead of Tuesday's Aug. 18 vote. The Associated Press ran a national retrospective today on the stadium's history - Jimmy Buffett's own preservation letter among the details - but no new endorsements or opposition surfaced this week beyond the National Trust for Historic Preservation's ongoing campaign and the earlier support from Gloria Estefan and Savannah Buffett.",
       "timeline": [
         {
           "date": "2026-07-28",
@@ -1059,6 +1109,11 @@
         {
           "date": "2026-08-15",
           "summary": "Early voting closes tomorrow, Sunday, August 16 - three days ahead of the August 18 vote. No new endorsements or organized opposition surfaced this week beyond the National Trust for Historic Preservation's active campaign and Wednesday's public support from Gloria Estefan and Savannah Buffett.",
+          "change_type": "watch"
+        },
+        {
+          "date": "2026-08-16",
+          "summary": "Early voting closes today as scheduled, three days ahead of Tuesday's Aug. 18 vote. The Associated Press ran a national feature today revisiting the stadium's history - its 1963 opening, its closure after Hurricane Andrew in 1992, and Jimmy Buffett's own letter urging its preservation before his 2023 death. No new endorsements or organized opposition surfaced this week.",
           "change_type": "watch"
         }
       ],
@@ -1105,7 +1160,7 @@
   ],
   "habits": {},
   "feedback": {
-    "cursor": "2026-08-15T13:30:00Z",
+    "cursor": "2026-08-16T13:30:00Z",
     "consumed_ids": [
       "1785675752910-wsh3d",
       "1785684398684-q0vfa",
@@ -1122,5 +1177,5 @@
   },
   "notes": [],
   "notes_policy": "Private reflections and note text are captured only on Alex's device and are never synced to or stored in this public repo. When a feedback action carries note text, only an inferred preference signal (interest/subtopic weight nudge) may be applied here - the text itself is discarded before it ever reaches brain.json.",
-  "systemNotes": "Ran 2026-08-15 in BRAIN MODE. No mobile feedback files present (feedback/ directory absent) - nothing new to consume; applied one day of decay to all interest/subtopic weights toward 1.0. No threads opened or closed. Updated six threads: Hormuz (IEA's August Oil Market Report puts the first hard institutional numbers on the closure's toll), Fed rate path (weak consumer sentiment snaps the two-day record streak, S&P still posts a third straight winning week), Marlins (shut out 1-0 at Cincinnati, second straight loss, wild-card gap widens to ~2.5 games), Dolphins (lost Hafley's coaching debut 20-7 at Washington), Hurricanes fall camp (week two shifts to line-rotation battles), Marine Stadium referendum (early voting closes tomorrow, three days ahead of the Aug 18 vote)."
+  "systemNotes": "Ran 2026-08-16 in BRAIN MODE as a WEEKLY edition (Sunday, 30+ prior editions available). No mobile feedback files present again this week - nothing to consume; applied one day of decay to all interest/subtopic weights toward 1.0 (no explicit signals this week, so Art of Living / technology-and-attention remains the strongest standing interest by a clear margin, with Markets and Miami essentially flat). No threads opened or closed. Updated eight threads with this week's arc: Hormuz (new attacks on two ADNOC tankers, Trump's 'US territory' claim and Iran's rejection, traffic falling further to ~6 ships/day), Fed rate path (September hike odds nearly halved this week to ~30% on weak retail sales and consumer sentiment), Marlins (split with Cincinnati, wild-card gap essentially unchanged at ~3 games), Dolphins (Hafley's tape review after his coaching debut loss), Hurricanes (first fall-camp scrimmage), Marine Stadium referendum (early voting closes today, vote Tuesday), Miami summer restaurant wave (Miami Slice's Grove location opened Aug 12), CRE capital markets (South Florida ranked No. 1 US office market)."
 }
