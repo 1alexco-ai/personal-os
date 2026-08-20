@@ -1,368 +1,400 @@
 {
   "schema_version": 2,
   "edition": {
-    "id": "2026-08-19",
-    "date": "2026-08-19",
+    "id": "2026-08-20",
+    "date": "2026-08-20",
     "type": "weekday",
-    "generated_at": "2026-08-19T09:30:00-04:00",
+    "generated_at": "2026-08-20T09:30:00-04:00",
     "timezone": "America/New_York",
     "title": "Personal OS",
     "front_page_letter": {
       "greeting": "Good morning",
       "body_paragraphs": [
-        "The most interesting Hormuz news today isn't an attack - it's an erosion. New Kpler shipping data shows over 80% of strait transits in the past two weeks have quietly shifted to the Omani route Iran has spent months opposing, and Tehran can no longer collect the tolls it charged in spring. A Kpler analyst put it plainly: Iran has \"at least partially lost control of the strait.\" That sits oddly alongside Trump posting a graphic labeling the strait \"New US Territory\" and threatening to bomb Oman - two very different stories about who's actually winning, and today the shipping data is more convincing than the rhetoric.",
-        "Miami got a cleaner resolution: voters approved Marine Stadium's restoration by better than two to one, closing a month of campaigning with an actual answer. Less happily, the Marlins lost again in Philadelphia, their skid now hardening a three-game wild-card deficit while the Phillies get hot at exactly the wrong time.",
-        "Tonight: Anil Seth's prize-winning case for why consciousness is unlikely to be something we accidentally build, however much money pours into trying; and Maria Popova on how often life's actual imagination outruns whatever you'd planned for it."
+        "Markets did today what three straight losing sessions couldn't undo on their own: the S&P and Nasdaq both closed higher Wednesday, helped less by any good news than by the Treasury Department quietly announcing it would double its buyback of long-dated debt, easing yields off their recent highs. Retail earnings told a split story underneath that calm - Target beat comfortably and raised guidance, yet its stock slipped; TJX and Lowe's both beat but flinched on their outlook and fell; Estee Lauder jumped 8% on genuinely strong numbers. Walmart, the week's real verdict on how households are actually spending, reports before today's open.",
+        "The Strait of Hormuz managed a worse night and a hopefuller one at once: Iran struck two more vessels late Tuesday, injuring a crew member, hours after the 60-day US-Iran memorandum formally lapsed - and Trump, on Fox News, threatened more bluntly than before to bomb Oman if it \"gets in the way.\" A CNN source says Iran and Oman could actually finalize a shipping-corridor deal within days. Both things are true, which is the pattern this war keeps settling into. Closer to home, Philadelphia completed a three-game sweep of the Marlins Wednesday - its sixth straight win - and Miami's wild-card math just got measurably harder with six weeks left.",
+        "Tonight, worth slowing down for: Louise Nevelson's fifty-year arc from figurative painter to the woman who turned scrap wood into monuments, opening today at FIU's Frost Art Museum, and Maria Popova on why a life only makes sense read backward, like starlight already arrived."
       ],
       "read_only_three": [
         {
           "target_type": "theme",
-          "target_id": "theme-hormuz-iran-loses-control",
-          "label": "Iran is quietly losing control of the strait it spent months blockading"
+          "target_id": "theme-hormuz-attacks-trump-oman-threat",
+          "label": "Iran hits two more ships while diplomats claim a deal is close"
         },
         {
           "target_type": "theme",
-          "target_id": "theme-marine-stadium-referendum-passes",
-          "label": "Miami voters saved Marine Stadium, decisively"
+          "target_id": "theme-markets-snap-losing-streak",
+          "label": "Markets snap their losing streak on a Treasury buyback surprise"
         },
         {
           "target_type": "rabbit_hole",
-          "target_id": "rh-2026-08-19",
-          "label": "Tonight: a Berggruen Prize case against conscious AI"
+          "target_id": "rh-2026-08-20",
+          "label": "Tonight: what it means to read your life like starlight"
         }
       ]
     },
     "market_context": [
       {
         "label": "S&P 500",
-        "value": "7,691.76",
-        "change": "-0.69% Tuesday",
-        "observed": "Tue close 8/18",
-        "note": "Third straight losing day - chip stocks led the selloff as oil and yields rose on Trump's Oman threat."
+        "value": "7,707.98",
+        "change": "+0.21% Wednesday",
+        "observed": "Wed close 8/19",
+        "note": "Snapped a three-day losing streak after Treasury announced it will double its buyback of long-dated debt, easing yields."
       },
       {
         "label": "Nasdaq Composite",
-        "value": "26,289.71",
-        "change": "-1.33% Tuesday",
-        "observed": "Tue close 8/18",
-        "note": "The session's biggest laggard as tech names sold off harder than the broader market."
+        "value": "26,331.09",
+        "change": "+0.16% Wednesday",
+        "observed": "Wed close 8/19",
+        "note": "A calmer session than Tuesday's chip-led selloff - tech stabilized alongside the broader market."
       },
       {
         "label": "10Y Treasury",
-        "value": "4.72%",
-        "change": "up to the highest close of the stretch",
-        "observed": "Tue close 8/18",
-        "note": "Rose alongside oil as Hormuz-related risk and hawkish Fed chatter both stayed in play."
+        "value": "~4.65%",
+        "change": "eased from Tuesday's 4.72%",
+        "observed": "Wed close 8/19",
+        "note": "Fell alongside the Treasury buyback news; still elevated versus most of the summer as Hormuz-linked oil risk lingers."
       },
       {
         "label": "FOMC",
         "value": "Held, 3.50-3.75%",
-        "change": "Sept. hike odds ~32% (68% hold), little changed",
-        "observed": "as of Tue 8/18",
-        "note": "Home Depot's earnings beat is the first hard data point in this week's retail-earnings read on the consumer; Target, Lowe's, TJX, and Estee Lauder report today."
+        "change": "Sept. hold odds ~65% (~35% hike), essentially unchanged",
+        "observed": "as of Wed 8/19 (CME FedWatch)",
+        "note": "Target, TJX, Lowe's, and Estee Lauder all reported Tuesday with a mixed consumer picture; Walmart reports before today's open - the week's clearest read yet on U.S. household spending."
       }
     ],
     "public_day_context": {
-      "date_label": "Wednesday, August 19",
-      "weather": "Hot with afternoon storm risk: high near 90F, heat index up to 108F, 40% chance of showers and thunderstorms in the afternoon. Winds northwest around 5 mph, becoming southwest. No active tropical systems in the Atlantic.",
-      "public_event": "Miami-Dade voters approved Marine Stadium's Referendum #172 Tuesday with more than 68% in favor; the retail-earnings week continues with Target, Lowe's, TJX, and Estee Lauder reporting today."
+      "date_label": "Thursday, August 20",
+      "weather": "Hot and mostly sunny: high near 90F, heat index up to 103F, 20% chance of afternoon showers and thunderstorms. No active tropical systems in the Atlantic and none expected to develop over the next seven days.",
+      "public_event": "Walmart reports Q2 earnings before today's open; Dolphins and Giants hold a joint practice at Dolphins camp ahead of Saturday's Aug. 22 preseason game; \"Louise Nevelson: Dawn to Dusk\" opens at FIU's Frost Art Museum."
     },
     "what_changed": [
       {
-        "id": "delta-hormuz-iran-loses-control",
+        "id": "delta-hormuz-attacks-trump-threat",
         "thread_id": "thread-iran-hormuz-crisis",
+        "change_type": "worsened",
+        "title": "Iran struck two more vessels as the MOU lapsed; Trump's Oman threat turned explicit",
+        "previous_state": "Yesterday's edition reported new Kpler data showing Iran had lost practical control of most strait traffic, alongside a denied Iranian missile launch toward the UAE and a Trump social-media graphic claiming the strait as \"New US Territory.\"",
+        "current_state": "Iran struck two more vessels in the strait Tuesday evening, injuring a crew member, hours after the 60-day US-Iran memorandum formally expired; on Fox News, Trump escalated to an explicit on-camera threat to bomb Oman if it \"gets in the way\" of the shipping-corridor talks. A CNN regional source says Iran and Oman may finalize that corridor agreement within days.",
+        "why_it_matters": "The blockade keeps failing in practice and getting more violent in the same 24 hours - attrition and escalation are no longer taking turns.",
+        "confidence": "high",
+        "source": {
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/18/why-has-trump-threatened-to-bomb-oman-for-a-second-time"
+        }
+      },
+      {
+        "id": "delta-markets-end-losing-streak",
+        "thread_id": "thread-fed-rate-path",
         "change_type": "reversed",
-        "title": "Iran has lost significant practical control of the Strait of Hormuz",
-        "previous_state": "Yesterday's edition reported Iran's Persian Gulf Strait Authority insisting the strait \"remains blocked\" and a military spokesman warning ships would find \"several beautiful holes in their hulls.\"",
-        "current_state": "New Kpler shipping data shows over 80% of strait transits in the past two weeks have shifted to the UN-authorized Omani route Iran opposes, up from almost none a month ago, and Iran can no longer collect tolls on the traffic that remains. Separately, the UAE said it intercepted two Iranian ballistic missiles Tuesday (Tehran denies responsibility), and Trump threatened to bomb Oman while claiming the strait as \"New US Territory.\"",
-        "why_it_matters": "For five weeks the story here has been Iran's threats hardening. This is the first real evidence the blockade itself is failing on the water, regardless of what either government is saying.",
+        "title": "Stocks snapped a three-day losing streak on a Treasury buyback surprise",
+        "previous_state": "Yesterday's edition reported Tuesday's third straight losing session - S&P -0.69% to 7,691.76, Nasdaq -1.33% to 26,289.71, 10-year up to 4.72%.",
+        "current_state": "Wednesday's confirmed close: S&P +0.21% to 7,707.98, Dow +119.65 points to 53,463.05, Nasdaq +0.16% to 26,331.09; the 10-year eased to roughly 4.65% after Treasury announced it would double the size of its long-dated debt buybacks. Target, TJX, Lowe's, and Estee Lauder all reported Tuesday with a mixed consumer signal - Target and TJX both beat but fell on cautious guidance, Lowe's fell on weak DIY spending, Estee Lauder jumped 8% on a genuine beat-and-raise.",
+        "why_it_matters": "A one-line Treasury announcement moved markets more than three days of earnings and geopolitics combined - worth remembering how much of this tape is technical, not fundamental.",
         "confidence": "high",
         "source": {
-          "publisher": "CNN Business (via KTVZ)",
-          "url": "https://ktvz.com/money/cnn-business-consumer/2026/08/18/iran-is-losing-control-of-the-strait-of-hormuz/"
+          "publisher": "The Motley Fool",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/08/19/stock-market-today-aug-19-stocks-edge-higher-ending-3-day-losing-streak/"
         }
       },
       {
-        "id": "delta-marine-stadium-referendum-passes",
-        "thread_id": "thread-marine-stadium-referendum",
-        "change_type": "resolved",
-        "title": "Miami voters approved Marine Stadium's restoration",
-        "previous_state": "Yesterday's edition reported voting was underway on Referendum #172, with results expected today.",
-        "current_state": "Voters approved Referendum #172 with more than 68% in favor, clearing the way for a 40-year Global Spectrum (Oak View Group) and Breakwater Hospitality management deal to restore and reopen the 1963 stadium.",
-        "why_it_matters": "A 40-year decision on public waterfront is now actually decided, not pending - the rare local story that gets a real ending.",
-        "confidence": "high",
-        "source": {
-          "publisher": "WLRN",
-          "url": "https://www.wlrn.org/government-politics/2026-08-18/miami-voters-approve-election-date-change-and-marine-stadium-management"
-        }
-      },
-      {
-        "id": "delta-marlins-lose-again",
+        "id": "delta-marlins-swept",
         "thread_id": "thread-marlins-wildcard",
         "change_type": "worsened",
-        "title": "Marlins lose again, 6-4, as the Phillies get hot",
-        "previous_state": "Yesterday's edition reported Miami's 6-5 loss to Philadelphia Monday, falling to 64-61.",
-        "current_state": "Philadelphia won again Tuesday, 6-4, its fifth straight victory, on Bryson Stott's go-ahead two-run single. Miami falls to 64-62, three games back of the final wild-card spot, while the Phillies move a full game clear of the Padres for the second spot.",
-        "why_it_matters": "Two losses to the same team in two nights is a worse signal than either loss alone - this is now a real skid against a team getting hot at the wrong moment for Miami.",
+        "title": "Philadelphia completes a three-game sweep of Miami",
+        "previous_state": "Yesterday's edition reported Miami's second straight loss to Philadelphia, 6-4, falling to 64-62, three games back of the final wild-card spot.",
+        "current_state": "Philadelphia beat Miami 4-1 Wednesday behind seven strong innings from Aaron Nola and a Luis Arraez home run, completing a three-game sweep - Philadelphia's sixth straight win, its best streak of the season. Miami falls to 64-63.",
+        "why_it_matters": "Three losses to the same team in three nights closes off the easiest kind of ground Miami could have made up.",
         "confidence": "high",
         "source": {
           "publisher": "ESPN",
-          "url": "https://www.espn.com/mlb/recap?gameId=401816573"
-        }
-      },
-      {
-        "id": "delta-markets-fall-third-day",
-        "thread_id": "thread-fed-rate-path",
-        "change_type": "worsened",
-        "title": "Stocks fell a third straight day; Home Depot's beat cuts the other way",
-        "previous_state": "Yesterday's edition reported Monday's close: S&P -0.52% to 7,745.06, Nasdaq -0.32% to 26,644.91.",
-        "current_state": "Tuesday's confirmed close: S&P -0.69% to 7,691.76, Nasdaq -1.33% to 26,289.71 on a chip-led selloff, 10-year up to 4.72%. Home Depot beat Q2 estimates (revenue +5.7% YoY, comps +1.7%) even while calling the housing market \"frozen\" - the first data point in this week's consumer-spending read.",
-        "why_it_matters": "A third losing day paired with a genuine earnings beat is a more honest signal than either alone - the market's mood and the consumer's actual spending aren't necessarily telling the same story right now.",
-        "confidence": "high",
-        "source": {
-          "publisher": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-august-18-dow-sp-500-nasdaq-080822735.html"
+          "url": "https://www.espn.com/mlb/recap/_/gameId/401816588"
         }
       }
     ],
     "themes": [
       {
-        "id": "theme-hormuz-iran-loses-control",
+        "id": "theme-hormuz-attacks-trump-oman-threat",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Iran is quietly losing control of the strait it spent months blockading",
-        "importance": 0.85,
-        "thesis": "New shipping data suggests the blockade is failing in practice even as the rhetoric on both sides keeps escalating.",
-        "synthesis": "Kpler shipping-tracking data shows more than 80% of Strait of Hormuz transits over the past two weeks have shifted to the UN-authorized Omani route that Iran has vehemently opposed since it was proposed - up from almost none a month ago. The practical consequence: Iran can no longer collect the tolls it charged on strait traffic in spring. Homayoun Falakshahi, Kpler's head of crude oil analysis, said it \"increasingly looks like Iran has at least partially lost control of the strait.\" The picture is muddier than a clean win, though - the UAE said its air defenses intercepted two ballistic missiles fired toward it from Iran on Tuesday, which Tehran denied launching, and Trump posted a graphic on social media labeling the strait \"New US Territory\" while threatening to bomb Oman if it interferes with US operations there. Oil ticked up to its highest level in more than two weeks on the mixed signals.",
-        "new_today": "The Kpler data itself - the first hard evidence that Iran's control of the strait is eroding in practice, not just being disputed in statements.",
-        "why_it_matters": "Every development in this conflict for five weeks has been read through the lens of who's escalating. This is the first one that reads as attrition instead - a blockade quietly failing on the water regardless of what either government says about it.",
+        "title": "Iran hits two more ships even as its grip on the strait keeps slipping",
+        "importance": 0.82,
+        "thesis": "Even as shipping data show the blockade eroding, Iran struck two more vessels overnight and Trump escalated his threat against Oman - the attrition and the escalation are now happening at the same time.",
+        "synthesis": "Iran struck two more vessels in the Strait of Hormuz Tuesday evening, injuring a crew member, hours after the 60-day US-Iran memorandum formally lapsed. On Fox News, Trump escalated his rhetoric from last week's social-media graphic to an explicit on-camera threat to bomb Oman if it \"gets in the way\" of the Iran-Oman shipping-corridor talks. A CNN regional source says Iran and Oman are in direct talks and could finalize a corridor agreement within days. Meanwhile, an independent count from United Against Nuclear Iran found only 13 identified vessels crossed the strait in the prior 24-hour window - a fraction of pre-war volume - even as US officials maintain the strait is \"open and operating.\" Oil extended its climb for a fourth straight session on the mixed signals.",
+        "new_today": "The two new vessel attacks and Trump's blunter, on-camera threat - more specific and concrete than last week's social-media graphic.",
+        "why_it_matters": "Every development in this conflict has been read through either the lens of attrition or the lens of escalation. Today both are true in the same 24 hours, which is a worse pattern than either alone.",
         "thread_id": "thread-iran-hormuz-crisis",
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "CNN Business (via KTVZ)",
-            "headline": "Iran has lost significant control of the Strait of Hormuz",
-            "url": "https://ktvz.com/money/cnn-business-consumer/2026/08/18/iran-is-losing-control-of-the-strait-of-hormuz/"
+            "publisher": "Al Jazeera",
+            "headline": "Why has Trump threatened to bomb Oman for a second time?",
+            "url": "https://www.aljazeera.com/news/2026/8/18/why-has-trump-threatened-to-bomb-oman-for-a-second-time"
           },
           {
             "role": "background",
-            "publisher": "Al Jazeera",
-            "headline": "Iran war live: UAE detects two missiles launched from Iran",
-            "url": "https://www.aljazeera.com/news/liveblog/2026/8/18/iran-war-live-trump-rejects-mou-extension-as-us-claims-control-of-hormuz"
+            "publisher": "United Against Nuclear Iran",
+            "headline": "Iran Shipping Update - August 19, 2026",
+            "url": "https://www.unitedagainstnucleariran.com/analysis/iran-shipping-update-august-19-2026"
+          },
+          {
+            "role": "background",
+            "publisher": "CNN Business",
+            "headline": "Iran is losing much of its control of the Strait of Hormuz",
+            "url": "https://www.cnn.com/2026/08/18/business/iran-strait-of-hormuz-oil"
           }
         ]
       },
       {
-        "id": "theme-markets-selloff-third-day",
+        "id": "theme-markets-snap-losing-streak",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Stocks fell a third day; Home Depot's beat cuts the other way",
-        "importance": 0.5,
-        "thesis": "A soft market session and a genuine consumer-spending beat both landed Tuesday, and they don't agree with each other.",
-        "synthesis": "The S&P 500 fell 0.69% to 7,691.76 and the Nasdaq fell 1.33% to 26,289.71 Tuesday - the index's third straight losing session - as chip stocks sold off and oil and Treasury yields rose on Trump's threat to bomb Oman. The 10-year closed at 4.72%, its highest level of the recent stretch. Home Depot opened this week's retail-earnings run with a beat: revenue up 5.7% year-over-year to $47.9 billion, comparable sales up 1.7%, even as the company called the housing market \"frozen.\" Target, Lowe's, TJX, and Estee Lauder report today; Walmart follows Thursday. September FOMC hike odds are little changed at roughly 32% (68% hold).",
-        "new_today": "Tuesday's confirmed close and Home Depot's earnings beat - the first real data point on how consumers are actually spending, versus how the market is trading.",
-        "why_it_matters": "The stock market's mood and the underlying consumer aren't necessarily the same story right now - worth tracking as Target, Lowe's, and Walmart fill in the rest of this week's picture.",
+        "title": "Markets snap their losing streak; retail earnings tell a split story",
+        "importance": 0.6,
+        "thesis": "A Treasury debt-buyback announcement did what three days of trading couldn't, and Tuesday's retail earnings showed a consumer beating expectations on the top line while flinching on guidance.",
+        "synthesis": "Wednesday's close ended a three-day skid: S&P +0.21% to 7,707.98, Dow +119.65 points to 53,463.05, Nasdaq +0.16% to 26,331.09. The 10-year eased to roughly 4.65% from Tuesday's 4.72% after Treasury said it would double its buyback of long-dated debt. Underneath the calm, Tuesday's retail earnings split: Target beat comfortably (comps +3.8% vs. 2.4% expected) and raised full-year EPS guidance, yet its stock slipped; TJX beat but fell 4.7% on light Q3 guidance; Lowe's fell on cautious full-year guidance citing pressure on DIY spending; Estee Lauder jumped 8% on a clean beat-and-raise. Walmart, the week's clearest read on the American consumer, reports before today's open.",
+        "new_today": "The rally itself, reversing yesterday's three-day losing narrative, plus Wednesday's four retail earnings prints.",
+        "why_it_matters": "This is a live input for how Alex reads both the Fed's path and consumer-spending health - two things that show up directly in CRE underwriting assumptions.",
         "thread_id": "thread-fed-rate-path",
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Yahoo Finance",
-            "headline": "Stock market today: Dow, S&P 500, Nasdaq fall as chip stocks sell off, bond yields rattle markets",
-            "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-august-18-dow-sp-500-nasdaq-080822735.html"
-          },
-          {
-            "role": "analysis",
-            "publisher": "TheStreet",
-            "headline": "Stock Market Today (Aug. 18, 2026): Nasdaq, S&P 500 slip as 30-year Treasury yield hits highest point in nearly two decades",
-            "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-18-2026"
-          }
-        ]
-      },
-      {
-        "id": "theme-marine-stadium-referendum-passes",
-        "affinity": "morning",
-        "topic": "miami",
-        "topic_label": "Miami Life & Culture",
-        "title": "Miami voters saved Marine Stadium, decisively",
-        "importance": 0.75,
-        "thesis": "After a month of campaigning, voters didn't just approve Referendum #172 - they approved it by a wide margin.",
-        "synthesis": "Miami-Dade voters approved Referendum #172 with more than 68% in favor, clearing the way for Global Spectrum L.P. (a subsidiary of Oak View Group) and local partner Breakwater Hospitality Group to manage Marine Stadium - the 1963 waterfront venue closed since Hurricane Andrew - for up to 40 years, funding its restoration. The margin is decisive enough that it settles what had been a genuinely contested local campaign: the Miami Herald's endorsement and public support from Gloria Estefan and Savannah Buffett were on one side, the Brickell Homeowners Association's noise and traffic concerns on the other.",
-        "new_today": "The actual result - not just that the vote happened, but that it wasn't close.",
-        "why_it_matters": "This is the rare civic story that gets a clean ending: a 40-year decision on a rare stretch of public waterfront, settled by a real margin rather than left hanging.",
-        "thread_id": "thread-marine-stadium-referendum",
-        "confidence": "high",
-        "sources": [
-          {
-            "role": "primary_reporting",
-            "publisher": "WLRN",
-            "headline": "Miami voters approve election date change and Marine Stadium management",
-            "url": "https://www.wlrn.org/government-politics/2026-08-18/miami-voters-approve-election-date-change-and-marine-stadium-management"
+            "publisher": "The Motley Fool",
+            "headline": "Stock Market Today, Aug. 19: Stocks Edge Higher, Ending 3-Day Losing Streak",
+            "url": "https://www.fool.com/coverage/stock-market-today/2026/08/19/stock-market-today-aug-19-stocks-edge-higher-ending-3-day-losing-streak/"
           },
           {
             "role": "background",
-            "publisher": "PR Newswire",
-            "headline": "Miami Voters Approve Item #172, Clearing the Way for Miami Marine Stadium Restoration",
-            "url": "https://www.prnewswire.com/news-releases/miami-voters-approve-item-172-clearing-the-way-for-miami-marine-stadium-restoration-302854704.html"
+            "publisher": "StockTitan",
+            "headline": "Target Corporation Reports Second Quarter Results",
+            "url": "https://www.stocktitan.net/news/TGT/target-corporation-reports-second-quarter-whi1a63iatnc.html"
+          },
+          {
+            "role": "background",
+            "publisher": "The Motley Fool",
+            "headline": "Why Estee Lauder Stock Jumped Today",
+            "url": "https://www.fool.com/investing/2026/08/19/why-estee-lauder-stock-jumped-today/"
           }
         ]
       },
       {
-        "id": "theme-marlins-fade-phillies-surge",
+        "id": "theme-marlins-swept-phillies",
         "affinity": "morning",
         "topic": "sports",
         "topic_label": "Miami Sports",
-        "title": "Miami's wild-card hopes keep slipping as Philadelphia gets hot",
-        "importance": 0.48,
-        "thesis": "One loss to a hot team is bad luck; two in a row is a real trend at the worst possible time of the season.",
-        "synthesis": "Philadelphia beat Miami 6-4 Tuesday at Citizens Bank Park - its fifth straight win. Bryson Stott's two-run single capped a four-run sixth off reliever Michael Petersen after Sanchez had held Miami scoreless into the sixth; Sanchez picked up his MLB-leading 16th win despite exiting at a modest 90 pitches. Miami falls to 64-62, three games back of the Padres for the final NL wild-card spot, while Philadelphia moves a full game clear of San Diego and two ahead of Arizona for the second spot.",
-        "new_today": "Tuesday's final score and the standings shift - Miami's second straight loss to Philadelphia this week.",
-        "why_it_matters": "Six weeks is not a lot of runway to close a three-game gap, and losing twice to the team you're chasing is a worse way to spend two of those days than losing to almost anyone else.",
+        "title": "Philadelphia completes the sweep; Miami's wild-card math gets harder",
+        "importance": 0.5,
+        "thesis": "Three losses to the same team in three nights isn't a slump anymore - it's a full sweep, and Philadelphia is playing its best baseball of the year at the worst time for Miami.",
+        "synthesis": "Philadelphia beat Miami 4-1 Wednesday at Citizens Bank Park - Aaron Nola threw seven strong innings, Luis Arraez homered off Sandy Alcantara, and Trea Turner added an RBI double. It's Philadelphia's sixth straight win, its best streak of the season, pulling the Phillies within 4.5 games of first-place Atlanta in the NL East. Miami falls to 64-63.",
+        "new_today": "Wednesday's final score and the completed sweep.",
+        "why_it_matters": "Six weeks is not a lot of runway, and three straight losses to the team you're chasing for a wild-card spot is a worse way to spend those nights than losing to almost anyone else.",
         "thread_id": "thread-marlins-wildcard",
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
             "publisher": "ESPN",
-            "headline": "Phillies 6-4 Marlins (Aug 18, 2026) Game Recap",
-            "url": "https://www.espn.com/mlb/recap?gameId=401816573"
+            "headline": "Phillies 4-1 Marlins (Aug 19, 2026) Game Recap",
+            "url": "https://www.espn.com/mlb/recap/_/gameId/401816588"
           },
           {
             "role": "background",
-            "publisher": "CBS News Philadelphia",
-            "headline": "Bryson Stott helps spark Phillies' rally for 5th straight win, series victory over Marlins",
-            "url": "https://www.cbsnews.com/philadelphia/news/bryson-stott-phillies-vs-marlins-score-standings/"
+            "publisher": "PhillyVoice",
+            "headline": "Bryson Stott, Alec Bohm stay hot vs. Marlins, and so does Aaron Nola as Phillies score another sweep",
+            "url": "https://www.phillyvoice.com/phillies-marlins-recap-sweep-national-league-wild-card-cris-sanchez-bryson-stott/"
           }
         ]
       },
       {
-        "id": "theme-miami-development-pipeline-continues",
+        "id": "theme-dolphins-giants-joint-practice",
         "affinity": "morning",
-        "topic": "markets",
-        "topic_label": "Markets & Macro",
-        "title": "Miami's building boom keeps compounding, deal by deal",
+        "topic": "sports",
+        "topic_label": "Miami Sports",
+        "title": "Dolphins and Giants set 'rules of engagement' for today's joint practice",
         "importance": 0.42,
-        "thesis": "Yesterday's data showed thin office sales volume; this week's individual deal flow shows a market that's still visibly building anyway.",
-        "synthesis": "Behind the aggregate numbers, individual development activity keeps landing: Miami's newest residential tower is nearing sellout at roughly 80% sold to buyers from more than 30 countries; the Bird Road District development secured $84.5 million in financing; and Walmart bought 24 acres in Westlake. None of it resolves the tension from yesterday's sales-volume data, but it's a reminder that record rents, quiet transaction volume, and continued new construction are all true of this market at the same time.",
-        "new_today": "This week's specific transactions and financings, layered onto yesterday's sales-volume story.",
-        "why_it_matters": "For anyone tracking South Florida CRE, the useful picture isn't rents versus volume - it's holding both at once, which is what this week's deal flow actually shows.",
-        "thread_id": "thread-cre-capital-markets-2026",
-        "confidence": "medium",
+        "thesis": "With two days before the preseason game, Miami's camp is trending toward health - the clearest sign is how far rookie WR Chris Bell has come back from his ACL tear.",
+        "synthesis": "The Giants travel to Miami for a joint practice today ahead of Saturday's Aug. 22 preseason game; both staffs agreed on rules protecting quarterbacks and banning blindside hits in favor of \"front-up thuds.\" Hafley on Chris Bell's ACL recovery: \"I think he's in a really good place right now... he's accelerating, decelerating, able to cut\" - he's hopeful to get Bell into a preseason game before Week 1. OT Austin Jackson is fully cleared from his toe injury; OL Jamaree Salyer, TE Greg Dulcich, TE Ben Sims, S Dante Trader Jr., and WR Kevin Coleman remain day-to-day.",
+        "new_today": "Today's joint practice itself and Hafley's fresh comments on Bell's progress.",
+        "why_it_matters": "A camp health check two days out from the first real hitting of preseason.",
+        "thread_id": "thread-dolphins-hafley-rebuild",
+        "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Hawkins Commercial Realty",
-            "headline": "Miami Commercial Real Estate News, August 2026",
-            "url": "https://www.hawkinscre.com/category/top-stories/page/10/"
+            "publisher": "The Phinsider",
+            "headline": "Giants, Dolphins set 'rules of engagement' ahead of joint practice",
+            "url": "https://www.thephinsider.com/nfl-training-camp/120948/miami-dolphins-public-training-camp-practices-2026-schedule-august-joint-practice-giants"
+          },
+          {
+            "role": "background",
+            "publisher": "Yahoo Sports",
+            "headline": "Jeff Hafley updates injury status",
+            "url": "https://sports.yahoo.com/articles/jeff-hafley-updates-injury-status-152616932.html"
           }
         ]
       },
       {
-        "id": "theme-love-imagination-of-life",
+        "id": "theme-miami-cre-deals-grove-sweetbird",
+        "affinity": "morning",
+        "topic": "markets",
+        "topic_label": "Markets & Macro",
+        "title": "Two more Miami deals close the week's CRE ledger",
+        "importance": 0.45,
+        "thesis": "Behind the aggregate numbers, individual Miami deal flow keeps landing, deal by deal.",
+        "synthesis": "An El-Ad National Properties affiliate paid $62.3 million ($778.75 per square foot) for the 80,000-square-foot office building \"The Grove at 3250 Mary\" in Coconut Grove. Separately, a venture of Miami Design District Associates and Raycliff Capital lined up $125 million in construction financing for the Sweetbird North office and retail project.",
+        "new_today": "Both transactions, dated Aug. 19.",
+        "why_it_matters": "Continues this week's pattern for anyone tracking South Florida CRE: individual deal flow keeps compounding regardless of the thinner aggregate sales-volume picture.",
+        "thread_id": "thread-cre-capital-markets-2026",
+        "confidence": "high",
+        "sources": [
+          {
+            "role": "primary_reporting",
+            "publisher": "CRE Direct",
+            "headline": "El-Ad Affiliate Pays $62.3Mln for Miami Office Building",
+            "url": "https://crenews.com/2026/08/19/el-ad-affiliate-pays-62-3mln-for-miami-office-building/"
+          },
+          {
+            "role": "background",
+            "publisher": "CRE Direct",
+            "headline": "Development Venture Lines Up $125Mln Loan for Miami Office Project",
+            "url": "https://crenews.com/2026/08/19/development-venture-lines-up-125mln-loan-for-miami-office-project/"
+          }
+        ]
+      },
+      {
+        "id": "theme-nevelson-dawn-to-dusk-frost",
         "affinity": "evening",
         "topic": "living",
         "topic_label": "Art of Living",
-        "title": "Life's imagination is bigger than yours",
-        "importance": 0.48,
-        "thesis": "Popova's newest essay argues that to give up on a hope is to underestimate how much stranger and more generous actual life tends to be than any plan for it.",
-        "synthesis": "Published Aug. 14 on The Marginalian, Maria Popova's essay works through how often life's own imagination exceeds what the people living it could have designed - how \"the wildest bet is so often the winning bet.\" Her argument, in short: to give up on a dream, a person, or love itself is to deny one of the most essential facts of being alive, which is that reality keeps producing outcomes better and stranger than anyone's plans for it.",
-        "new_today": "Five days old and still the freshest Popova piece since last week's ocean essay - a different register: hope rather than mortality.",
-        "why_it_matters": "A useful counterweight on a day that otherwise rewards cynicism - a shipping-data story about a blockade quietly failing, a market that can't decide what it thinks, a ballgame lost twice to the same team.",
+        "title": "Fifty years of scrap wood, arranged into monuments",
+        "importance": 0.45,
+        "thesis": "Louise Nevelson spent decades turning found wood into totemic abstract sculpture, and a new Miami exhibition traces the whole arc.",
+        "synthesis": "\"Louise Nevelson: Dawn to Dusk\" opens today at FIU's Patricia & Phillip Frost Art Museum, running through 2027 - more than 50 works, many drawn from the Frost's own collection, tracing Nevelson's evolution from early figurative painting through the monumental wood constructions that made her one of the defining American sculptors of the 20th century. The exhibition originated at the Farnsworth Art Museum in Rockland, Maine.",
+        "new_today": "The exhibit's opening day.",
+        "why_it_matters": "A genuine same-day Miami cultural opening worth building an evening around, not just reading about.",
+        "thread_id": null,
+        "confidence": "high",
+        "sources": [
+          {
+            "role": "primary_reporting",
+            "publisher": "Miami New Times",
+            "headline": "The Best Art Exhibitions to See in Miami in August 2026",
+            "url": "https://www.miaminewtimes.com/arts-culture/best-art-exhibitions-to-see-in-miami-in-august-2026-40573506/"
+          }
+        ]
+      },
+      {
+        "id": "theme-nin-emotional-excess-creativity",
+        "affinity": "evening",
+        "topic": "living",
+        "topic_label": "Art of Living",
+        "title": "Anais Nin's case for feeling too much",
+        "importance": 0.4,
+        "thesis": "Nin argued that the excess feeling artists are told to tame is exactly what makes the work possible.",
+        "synthesis": "Published Aug. 10 on The Marginalian, Maria Popova's essay draws on Anais Nin's diaries and letters to argue that emotional excess - the very intensity therapeutic culture tries to regulate away - is inseparable from the sensitivity that makes real creative work possible at all.",
+        "new_today": "Ten days old, still unread in Alex's queue and still the sharpest recent treatment of this particular argument.",
+        "why_it_matters": "A counterweight on a day that otherwise rewards restraint - markets moved by a technical announcement, a war run by attrition, a season slipping by inches.",
         "thread_id": null,
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
             "publisher": "The Marginalian",
-            "headline": "How Love Comes to You",
-            "url": "https://www.themarginalian.org/2026/08/14/how-love-comes-to-you/"
+            "headline": "Anais Nin on Why Emotional Excess is Essential to Creativity",
+            "url": "https://www.themarginalian.org/2026/08/10/anais-nin-on-emotion-and-writing/"
           }
         ]
       },
       {
-        "id": "theme-worm-munch-soil-acoustics",
+        "id": "theme-electrons-coexisting-phases-physics",
         "affinity": "evening",
         "topic": "living",
         "topic_label": "Art of Living",
-        "title": "Listening to what moves beneath the ground",
+        "title": "Watching a material decide what to become",
         "importance": 0.4,
-        "thesis": "New acoustic-monitoring tools are making an entire hidden layer of ecological labor audible for the first time.",
-        "synthesis": "Published Aug. 17 on Aeon, ecologist Ella Browning's essay describes how passive acoustic sensors - originally built to monitor bats and crickets - are now picking up the sounds of earthworms and other soil life moving, feeding, and interacting underground. The essay argues that soil biodiversity, historically invisible and thus easy to ignore in conservation work, can now be tracked the way we've long tracked birdsong or whale calls, and that what we're hearing amounts to a whole functioning economy of decomposition and nutrient cycling that most people will never see and, until recently, couldn't have listened to either.",
-        "new_today": "Two days old - a genuinely new way of paying attention to something that's been happening under every lawn and field the whole time.",
-        "why_it_matters": "A quiet complement to today's noticing prompt: most of what keeps a system alive is happening at a scale or in a register nobody's built to perceive without help.",
+        "thesis": "MIT physicists caught electrons in a rare material assembling into two competing phases in real time, making visible something usually only inferred.",
+        "synthesis": "Published Aug. 7 on MIT News and resurfaced Aug. 19 via ScienceDaily, the research describes how physicists studying the material erbium tritelluride found its electrons organize into two distinct competing electronic phases through different mechanisms - one forming smoothly, the other spreading in expanding pockets that resemble growing ice crystals. Published in Nature Physics, the work may help explain how some materials host superconductivity and magnetism side by side.",
+        "new_today": "Resurfaced today via ScienceDaily's Aug. 19 pickup, twelve days after the original MIT publication.",
+        "why_it_matters": "Today's exploration pick - matter organizing itself when nothing is forcing it to, a quiet echo of Nevelson finding form in what was already lying around.",
         "thread_id": null,
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Aeon",
-            "headline": "Worm munch matters: the new acoustic ecology of the soil",
-            "url": "https://aeon.co/essays/worm-munch-matters-the-new-acoustic-ecology-of-the-soil"
+            "publisher": "MIT News",
+            "headline": "Physicists watch a material's electrons assemble, and reassemble, into coexisting phases",
+            "url": "https://news.mit.edu/2026/physicists-watch-materials-electrons-assemble-reassemble-coexisting-phases-0807"
+          },
+          {
+            "role": "background",
+            "publisher": "ScienceDaily",
+            "headline": "Physicists watch a material's electrons assemble into coexisting phases",
+            "url": "https://www.sciencedaily.com/releases/2026/08/260819041231.htm"
           }
         ]
       }
     ],
     "rabbit_hole": {
-      "id": "rh-2026-08-19",
-      "title": "The Mythology of Conscious AI",
-      "creator": "Anil Seth",
+      "id": "rh-2026-08-20",
+      "title": "How to Read the Signal of Your Life",
+      "creator": "Maria Popova",
       "format": "essay",
-      "minutes": 25,
-      "why": "Seth won the 2025 Berggruen Prize for this argument that consciousness is inseparable from biological life, and that building AI systems that seem conscious - even if they never actually are - is a bad idea regardless. With hundreds of billions of dollars currently being spent on the premise that more compute eventually produces something mind-like, a rigorous neuroscientific case for why that premise may be wrong is worth sitting with now, not eventually.",
-      "url": "https://www.noemamag.com/the-mythology-of-conscious-ai/",
+      "minutes": 20,
+      "why": "Built around watching the Perseid meteor shower and art historian George Kubler's concept of \"actuality,\" the essay argues a life only makes sense read backward, like starlight already traveling toward whoever is there to notice it - each moment a signal that a future self alone can constellate into meaning. Philosophy of time is Alex's single highest-weighted subtopic, and this is the sharpest recent treatment of it he hasn't seen yet.",
+      "url": "https://www.themarginalian.org/2026/08/15/george-kubler-actuality/",
       "related_interest": "living"
     },
     "beautiful_thing": {
-      "id": "bt-2026-08-19",
-      "title": "The Freedom Tower",
-      "creator": "George A. Fuller Company / Schultze & Weaver",
-      "era": "1925, Spanish Renaissance Revival - 600 Biscayne Blvd, Miami",
-      "body": "Built in 1925 to house the Miami Daily News, modeled on Seville's Giralda Tower, the building spent 1962 to 1974 as the federal government's Cuban Assistance Center, processing more than 400,000 refugees fleeing Castro's Cuba - the origin of its nickname, the \"Ellis Island of the South.\" It became a National Historic Landmark in 2008 and today houses Miami Dade College's Museum of Art and Design. Worth noticing: a building can change what it means to a city twice - once as a newspaper's monument to itself, once as the first American room half a million people ever stood in.",
-      "url": "https://moadmdc.org/freedom-tower/about-the-freedom-tower",
+      "id": "bt-2026-08-20",
+      "title": "Dawn to Dusk",
+      "creator": "Louise Nevelson",
+      "era": "Retrospective spanning the 1930s-1980s, showing at FIU's Frost Art Museum through 2027",
+      "body": "Nevelson, born in Ukraine in 1899 and raised in Rockland, Maine, spent decades collecting discarded wood - crate slats, furniture fragments, finial scraps - and assembling it into monumental abstract constructions, most painted a single matte black or white to erase each fragment's individual history and unify the whole into one form. The Frost's new exhibition, organized by the Farnsworth Art Museum in her hometown of Rockland, traces her full arc: from early figurative paintings through the constructions that made her one of the defining American sculptors of the twentieth century. Worth noticing: nothing in the wood was built for what it became.",
+      "url": "https://www.miaminewtimes.com/arts-culture/best-art-exhibitions-to-see-in-miami-in-august-2026-40573506/",
       "image": null,
-      "alt": "The Freedom Tower in downtown Miami, a 1925 Spanish Renaissance Revival tower modeled on Seville's Giralda, now home to Miami Dade College's Museum of Art and Design."
+      "alt": "A Louise Nevelson wood-relief construction, wall-mounted and painted a single matte black, assembled from stacked found wood fragments."
     },
     "noticing_prompt": {
-      "id": "np-2026-08-19",
-      "text": "Notice, today, something that took months of quiet, unglamorous attrition to become suddenly obvious - the way shipping data can reveal a blockade has already failed before anyone announces it."
+      "id": "np-2026-08-20",
+      "text": "Notice something today that was assembled rather than built for its purpose - a room furnished from what was already lying around, an evening made of borrowed time, a decision made from parts meant for something else."
     },
     "daily_puzzle": {
-      "id": "dp-2026-08-19",
-      "type": "lateral",
-      "prompt": "A lighthouse keeper working alone on a remote island lit the same lamp every night for thirty years, always at the correct moment - never early, never late. He owned no clock, no watch, and had no way to receive a time signal from the mainland. Yet he never once made a mistake. How?",
-      "hint": "He didn't need to know what time it was. He needed to know when it wasn't day anymore.",
-      "solution": "He wasn't timing anything against a clock at all. A lighthouse only has to be lit at dusk, and dusk announces itself - the sky darkens on its own schedule, every single evening, without anyone checking a dial. The \"correct moment\" was never a fixed hour to begin with; it drifted earlier and later across the seasons exactly as the sky itself did, and the keeper simply watched the one instrument that was never wrong: the horizon.",
-      "explanation": "The puzzle plants a hidden assumption - that lighting a lamp at \"the correct moment, never early or late\" requires precision timekeeping. But a lighthouse's job was never to match a clock. It only has to answer the sky, which was providing the cue for free the entire time."
+      "id": "dp-2026-08-20",
+      "type": "logic",
+      "prompt": "Four coworkers - Ana, Ben, Cora, and Dae - each arrived at the office at a different time this morning: 8:00, 8:15, 8:30, and 8:45. Dae arrived before Ana, who arrived before Cora. Ben arrived exactly fifteen minutes after Ana. What time did each person arrive?",
+      "hint": "Fix Dae, Ana, and Cora's relative order first - Ben is the only one not anchored to that sequence, so figure out where he fits around it.",
+      "solution": "Dae at 8:00, Ana at 8:15, Ben at 8:30, Cora at 8:45.",
+      "explanation": "Dae-before-Ana-before-Cora fixes three of the four in relative order, leaving four possible slots for Ben. Only placing Ben immediately after Ana - the requirement that he arrived exactly fifteen minutes later - keeps Cora from landing last, which the other three placements all force."
     },
     "evening_unwind": {
-      "id": "eu-2026-08-19",
+      "id": "eu-2026-08-20",
       "evening_quote": {
-        "text": "If you are distressed by anything external, the pain is not due to the thing itself but to your estimate of it; and this you have the power to revoke at any moment.",
-        "attribution": "Marcus Aurelius",
-        "source": "Meditations, 8.47"
+        "text": "Nothing, Lucilius, is ours, except time.",
+        "attribution": "Seneca",
+        "source": "Letters to Lucilius, Letter 1"
       },
-      "evening_prompt": "Which of today's headlines - the referendum result, the market's third losing day, Iran's eroding grip on the strait - changed how you felt before you'd actually done anything about it, and which one will still matter to you next week?"
+      "evening_prompt": "Of everything that felt urgent today - the market's reversal, the strait, the sweep - which one will you actually remember a year from now, and what does that tell you about where today's attention really belonged?"
     },
     "reading_queue": [
       {
         "title": "The Tantalizing Possibility of Locating Consciousness in the Brain",
         "url": "https://www.noemamag.com/the-tantalizing-possibility-of-locating-consciousness-in-the-brain/",
         "verdict": "read_soon",
-        "reason": "Over a week in the queue now, and tonight's rabbit hole on AI consciousness makes an even more direct case for pairing the two this week."
+        "reason": "Nine days in the queue now - still unread, still worth pairing with last week's AI-consciousness rabbit hole."
       },
       {
         "title": "Philosophy as an Art of Living",
         "url": "https://lareviewofbooks.org/article/philosophy-as-an-art-of-living/",
         "verdict": "probably_remove",
-        "reason": "Still unread since early August. Flagging once more before letting it go for good."
+        "reason": "Flagged again - unread since early August. Third flag now; likely due for Alex to let go of it himself."
       }
     ],
     "quote": {
-      "text": "Democracy is the recurrent suspicion that more than half of the people are right more than half of the time.",
-      "attribution": "E.B. White"
+      "text": "The world breaks everyone, and afterward, some are strong at the broken places.",
+      "attribution": "Ernest Hemingway"
     }
   },
   "threads": [
@@ -371,9 +403,9 @@
       "title": "US-Iran conflict and the Strait of Hormuz",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-08-19",
-      "updates": 40,
-      "current_state": "New shipping data (Kpler) shows Iran has lost significant practical control of the Strait of Hormuz: over 80% of transits now use the Omani route Iran opposes, and Iran can no longer collect tolls. Separately, the UAE reported two Iranian missiles fired toward it Tuesday (Tehran denies responsibility), and Trump threatened to bomb Oman while claiming the strait as 'New US Territory.' Oil ticked up to a multi-week high on the mixed signals.",
+      "last_updated": "2026-08-20",
+      "updates": 41,
+      "current_state": "Iran struck two more vessels Tuesday evening (one crew injury) just after the US-Iran MOU expired, and Trump escalated on Fox News to an explicit threat to bomb Oman if it interferes with shipping-corridor talks - even as a CNN source says Iran and Oman may finalize that corridor deal within days, and UANI data shows traffic still running at a fraction of pre-war volume.",
       "timeline": [
         {
           "date": "2026-07-21",
@@ -574,6 +606,11 @@
           "date": "2026-08-19",
           "summary": "New Kpler shipping data shows over 80% of Strait transits in the past two weeks have shifted to the UN-authorized Omani route Iran opposes - versus almost none a month ago - and Iran can no longer collect tolls on strait traffic as it did in spring. Kpler's Homayoun Falakshahi: 'It increasingly looks like Iran has at least partially lost control of the strait.' Separately, the UAE said its air defenses intercepted two ballistic missiles fired toward it from Iran Tuesday (Tehran denied responsibility), and Trump posted a graphic labeling the strait 'New US Territory' while threatening to bomb Oman if it interferes with US operations there. Oil ticked up to a multi-week high on the mixed signals.",
           "change_type": "reversed"
+        },
+        {
+          "date": "2026-08-20",
+          "summary": "Iran struck two more vessels in the strait Tuesday evening (one crew member injured) hours after the 60-day US-Iran memorandum formally lapsed. On Fox News, Trump escalated to an explicit on-camera threat to bomb Oman if it \"gets in the way\" of Iran-Oman shipping-corridor talks - a sharper version of his earlier social-media graphic. A CNN regional source says Iran and Oman could finalize that corridor agreement within days. UANI's Aug. 19 shipping count found only 13 identified vessels crossed in the prior 24 hours (plus 2 unidentified tankers running dark), underscoring how abnormal traffic remains even as the U.S. insists the strait is \"open and operating.\" Oil extended its climb for a fourth straight session (Brent ~$92.36, WTI ~$85.63) on the mixed signals.",
+          "change_type": "worsened"
         }
       ]
     },
@@ -582,9 +619,9 @@
       "title": "Federal Reserve rate path",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-08-19",
-      "updates": 36,
-      "current_state": "Stocks fell a third straight day Tuesday - S&P -0.69% to 7,691.76, Nasdaq -1.33% to 26,289.71, 10-year up to 4.72% - on tech weakness and oil's rise following Trump's Oman threat. Home Depot beat Q2 estimates despite calling housing 'frozen'; Target, Lowe's, TJX, and Estee Lauder report today, Walmart Thursday. September hike odds little changed at roughly 68% hold / 32% hike.",
+      "last_updated": "2026-08-20",
+      "updates": 37,
+      "current_state": "Stocks snapped a three-day losing streak Wednesday (S&P +0.21% to 7,707.98, Nasdaq +0.16% to 26,331.09) after Treasury said it would double its long-dated debt buyback, easing the 10-year to ~4.65%. Retail earnings gave a split consumer signal - Target and TJX both beat but fell on cautious guidance, Lowe's fell on weak DIY demand, Estee Lauder jumped 8% on a clean beat-and-raise. Walmart reports before today's open.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -755,6 +792,11 @@
           "date": "2026-08-19",
           "summary": "Tuesday's confirmed close: S&P 500 -0.69% to 7,691.76, Nasdaq -1.33% to 26,289.71 (chip-led selloff), Dow -0.2%; 10-year up to 4.72%, its highest close of the stretch, as oil rose on Trump's Oman threat. Home Depot beat Q2 estimates (revenue +5.7% YoY to $47.9B, comps +1.7%) even while calling the housing market 'frozen'; Target, Lowe's, TJX, and Estee Lauder report today. September hike odds little changed at roughly 68% hold / 32% hike.",
           "change_type": "worsened"
+        },
+        {
+          "date": "2026-08-20",
+          "summary": "Wednesday's confirmed close: S&P +0.21% to 7,707.98, Dow +119.65 points to 53,463.05, Nasdaq +0.16% to 26,331.09 - snapping the three-day losing streak after Treasury announced it would double its long-dated debt buyback, easing the 10-year to roughly 4.65% from Tuesday's 4.72%. Tuesday's retail earnings gave a mixed consumer read: Target beat (comps +3.8% vs. 2.4% expected, raised FY guidance) but its stock slipped; TJX beat but fell 4.7% on light Q3 guidance; Lowe's fell on cautious full-year guidance citing DIY spending pressure; Estee Lauder jumped 8% on a genuine beat-and-raise. Walmart reports before today's open - the week's clearest read yet on U.S. household spending. September FOMC hold odds sit near 65% (35% hike), essentially unchanged.",
+          "change_type": "reversed"
         }
       ]
     },
@@ -763,9 +805,9 @@
       "title": "Marlins wild card race",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-08-19",
-      "updates": 39,
-      "current_state": "Philadelphia beat Miami 6-4 Tuesday, its fifth straight win - Bryson Stott's go-ahead two-run single, Cristopher Sanchez's MLB-leading 16th win. Miami falls to 64-62, three games back of the final NL wild-card spot; Philadelphia moves a full game ahead of San Diego for the second wild-card spot outright.",
+      "last_updated": "2026-08-20",
+      "updates": 40,
+      "current_state": "Philadelphia completed a three-game sweep of Miami with a 4-1 win Wednesday (Nola 7 IP, Arraez HR) - the Phillies' sixth straight win, their best streak of the season. Miami falls to 64-63; three losses to the same team in three nights leaves less runway to close the wild-card gap with roughly six weeks left.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -951,6 +993,11 @@
           "date": "2026-08-19",
           "summary": "Philadelphia beat Miami 6-4 Tuesday - Bryson Stott's two-run single capped a four-run sixth off reliever Michael Petersen, and Cristopher Sanchez got his MLB-leading 16th win despite exiting after the sixth. It's Philadelphia's fifth straight win. Miami falls to 64-62, three games back of the final NL wild-card spot (Padres); the Phillies move a full game ahead of the Padres and two ahead of the Diamondbacks for the second wild-card spot outright.",
           "change_type": "worsened"
+        },
+        {
+          "date": "2026-08-20",
+          "summary": "Philadelphia beat Miami 4-1 Wednesday - Aaron Nola threw seven strong innings, Luis Arraez homered, Trea Turner added an RBI double off Sandy Alcantara - completing a three-game sweep and Philadelphia's sixth straight win, its best streak of the season, pulling the Phillies within 4.5 games of first-place Atlanta in the NL East. Miami falls to 64-63.",
+          "change_type": "worsened"
         }
       ]
     },
@@ -1000,9 +1047,9 @@
       "title": "Dolphins rebuild under Hafley",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-08-18",
-      "updates": 27,
-      "current_state": "Rookie WR Chris Bell was activated off PUP after his ACL recovery; OT Austin Jackson is fully cleared from his toe injury. Miami held a members-only practice today; the next public milestone is Wednesday's joint practice with the Giants ahead of an Aug. 22 preseason game.",
+      "last_updated": "2026-08-20",
+      "updates": 28,
+      "current_state": "Dolphins and Giants hold a joint practice today under agreed \"rules of engagement,\" two days ahead of Saturday's preseason game. Rookie WR Chris Bell is progressing well in his ACL recovery per Hafley, who hopes to get him into a preseason game before Week 1; OT Austin Jackson is fully cleared, several others remain day-to-day.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -1138,6 +1185,11 @@
           "date": "2026-08-18",
           "summary": "Rookie WR Chris Bell (recovering from a torn ACL) was activated off the physically-unable-to-perform list; OT Austin Jackson is fully cleared from his toe injury. Miami held a Member Day practice today closed to the public; the next public milestone is Wednesday's joint practice with the Giants ahead of an Aug. 22 preseason game.",
           "change_type": "advanced"
+        },
+        {
+          "date": "2026-08-20",
+          "summary": "Giants and Dolphins staffs set \"rules of engagement\" (protect QBs, no blindside hits, front-up thuds only) ahead of today's joint practice, two days before Saturday's Aug. 22 preseason game. Hafley on rookie WR Chris Bell's ACL recovery: \"I think he's in a really good place right now... he's accelerating, decelerating, able to cut\" - hopeful to get him into a preseason game before Week 1. OT Austin Jackson is fully cleared from his toe injury; OL Jamaree Salyer, TE Greg Dulcich, TE Ben Sims, S Dante Trader Jr., and WR Kevin Coleman remain day-to-day.",
+          "change_type": "advanced"
         }
       ]
     },
@@ -1259,9 +1311,9 @@
       "title": "2026 CRE capital markets under pressure",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-08-19",
-      "updates": 19,
-      "current_state": "Individual deal and development activity continues alongside thin aggregate sales volume: Miami's newest residential tower nears sellout (~80% sold, buyers from 30+ countries), the Bird Road District secured $84.5M in financing, and Walmart bought 24 acres in Westlake.",
+      "last_updated": "2026-08-20",
+      "updates": 20,
+      "current_state": "Deal-by-deal activity continues: an El-Ad affiliate paid $62.3M for the Grove at 3250 Mary office building in Coconut Grove, and a Miami Design District Associates/Raycliff Capital venture secured $125M in construction financing for the Sweetbird North project - alongside the previously reported residential tower nearing sellout, Bird Road District financing, and Walmart's Westlake land purchase.",
       "timeline": [
         {
           "date": "2026-07-24",
@@ -1357,6 +1409,11 @@
           "date": "2026-08-19",
           "summary": "Individual development activity continues even as aggregate sales volume stays thin: Miami's newest residential tower is nearing sellout at roughly 80% sold to buyers from more than 30 countries; the Bird Road District development secured $84.5M in financing; Walmart bought 24 acres in Westlake. A reminder that record rents, quiet transaction volume, and continued new construction are all simultaneously true of this market.",
           "change_type": "watch"
+        },
+        {
+          "date": "2026-08-20",
+          "summary": "Two more individual Miami deals closed: an El-Ad National Properties affiliate paid $62.3M ($778.75/sq ft) for the 80,000-sq-ft office building \"The Grove at 3250 Mary\" in Coconut Grove, and a venture of Miami Design District Associates and Raycliff Capital lined up $125M in construction financing for the Sweetbird North office/retail project.",
+          "change_type": "advanced"
         }
       ]
     },
@@ -1488,7 +1545,7 @@
     }
   ],
   "meta": {
-    "content_freshness": "2026-08-19",
+    "content_freshness": "2026-08-20",
     "feedback_endpoint_mode": "github_contents",
     "minimum_client_schema_version": 1,
     "mode": "brain"
