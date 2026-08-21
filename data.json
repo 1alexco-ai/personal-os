@@ -1,400 +1,414 @@
 {
   "schema_version": 2,
   "edition": {
-    "id": "2026-08-20",
-    "date": "2026-08-20",
+    "id": "2026-08-21",
+    "date": "2026-08-21",
     "type": "weekday",
-    "generated_at": "2026-08-20T09:30:00-04:00",
+    "generated_at": "2026-08-21T09:30:00-04:00",
     "timezone": "America/New_York",
     "title": "Personal OS",
     "front_page_letter": {
       "greeting": "Good morning",
       "body_paragraphs": [
-        "Markets did today what three straight losing sessions couldn't undo on their own: the S&P and Nasdaq both closed higher Wednesday, helped less by any good news than by the Treasury Department quietly announcing it would double its buyback of long-dated debt, easing yields off their recent highs. Retail earnings told a split story underneath that calm - Target beat comfortably and raised guidance, yet its stock slipped; TJX and Lowe's both beat but flinched on their outlook and fell; Estee Lauder jumped 8% on genuinely strong numbers. Walmart, the week's real verdict on how households are actually spending, reports before today's open.",
-        "The Strait of Hormuz managed a worse night and a hopefuller one at once: Iran struck two more vessels late Tuesday, injuring a crew member, hours after the 60-day US-Iran memorandum formally lapsed - and Trump, on Fox News, threatened more bluntly than before to bomb Oman if it \"gets in the way.\" A CNN source says Iran and Oman could actually finalize a shipping-corridor deal within days. Both things are true, which is the pattern this war keeps settling into. Closer to home, Philadelphia completed a three-game sweep of the Marlins Wednesday - its sixth straight win - and Miami's wild-card math just got measurably harder with six weeks left.",
-        "Tonight, worth slowing down for: Louise Nevelson's fifty-year arc from figurative painter to the woman who turned scrap wood into monuments, opening today at FIU's Frost Art Museum, and Maria Popova on why a life only makes sense read backward, like starlight already arrived."
+        "Thursday undid Wednesday almost exactly. The Treasury's buyback announcement had eased yields and lifted stocks into Wednesday's close; by Thursday the relief had faded, the 10-year was back above 4.70%, and Walmart - the week's real test of how households are spending - beat on revenue and earnings but grew US comparable sales at the slowest pace in six years. Its stock fell more than 9%, its worst day in four years, and pulled the whole market down with it: the Dow lost 704 points, the S&P and Nasdaq each gave back roughly a percentage point.",
+        "Trump, meanwhile, changed weapons rather than tone. After five months of strikes and threats that never reopened the Strait of Hormuz, he pivoted Wednesday night to an explicit 'Economic Warfare and Isolation' campaign against Iran, and the Treasury sanctioned Hezbollah as an Iranian proxy. Iran's own deputy foreign minister read it correctly: the military war didn't work, so now they're trying the next one. Closer to home, the Marlins are off the loss column for a night - Wednesday's sweep behind them, they open a series against Washington tonight with the wild-card race now a genuine scrum - and the Dolphins spent Thursday's joint practice on the wrong end of the Giants' pass rush, two days before the preseason opener.",
+        "Tonight, something steadier: an essay on why so much of professional life quietly borrowed the meaning religion used to supply, and a room at PAMM built from nothing but three colors of light - worth the twenty minutes either one asks for."
       ],
       "read_only_three": [
         {
           "target_type": "theme",
-          "target_id": "theme-hormuz-attacks-trump-oman-threat",
-          "label": "Iran hits two more ships while diplomats claim a deal is close"
+          "target_id": "theme-walmart-selloff-market-reversal",
+          "label": "Walmart's miss and a bond snapback erase Wednesday's rally"
         },
         {
           "target_type": "theme",
-          "target_id": "theme-markets-snap-losing-streak",
-          "label": "Markets snap their losing streak on a Treasury buyback surprise"
+          "target_id": "theme-iran-economic-warfare-escalation",
+          "label": "Trump swaps bombs for sanctions in the Iran standoff"
         },
         {
           "target_type": "rabbit_hole",
-          "target_id": "rh-2026-08-20",
-          "label": "Tonight: what it means to read your life like starlight"
+          "target_id": "rh-2026-08-21",
+          "label": "Tonight: why tech quietly borrowed religion's job"
         }
       ]
     },
     "market_context": [
       {
         "label": "S&P 500",
-        "value": "7,707.98",
-        "change": "+0.21% Wednesday",
-        "observed": "Wed close 8/19",
-        "note": "Snapped a three-day losing streak after Treasury announced it will double its buyback of long-dated debt, easing yields."
+        "value": "7,641.16",
+        "change": "-0.87% Thursday",
+        "observed": "Thu close 8/20",
+        "note": "Reversed Wednesday's rally as the Treasury-buyback relief faded and Walmart's post-earnings slide dragged the market down."
       },
       {
         "label": "Nasdaq Composite",
-        "value": "26,331.09",
-        "change": "+0.16% Wednesday",
-        "observed": "Wed close 8/19",
-        "note": "A calmer session than Tuesday's chip-led selloff - tech stabilized alongside the broader market."
+        "value": "26,067.17",
+        "change": "-1.0% Thursday",
+        "observed": "Thu close 8/20",
+        "note": "Fell alongside the broader market on the bond-yield snapback."
       },
       {
         "label": "10Y Treasury",
-        "value": "~4.65%",
-        "change": "eased from Tuesday's 4.72%",
-        "observed": "Wed close 8/19",
-        "note": "Fell alongside the Treasury buyback news; still elevated versus most of the summer as Hormuz-linked oil risk lingers."
+        "value": "~4.70%",
+        "change": "rose from Wednesday's ~4.65%",
+        "observed": "Thu close 8/20",
+        "note": "The Treasury buyback-driven rally reversed as yields snapped back to the top of their recent range."
       },
       {
         "label": "FOMC",
         "value": "Held, 3.50-3.75%",
-        "change": "Sept. hold odds ~65% (~35% hike), essentially unchanged",
-        "observed": "as of Wed 8/19 (CME FedWatch)",
-        "note": "Target, TJX, Lowe's, and Estee Lauder all reported Tuesday with a mixed consumer picture; Walmart reports before today's open - the week's clearest read yet on U.S. household spending."
+        "change": "Sept. hold odds ~65-68% (~32-35% hike), essentially unchanged",
+        "observed": "as of Thu 8/20 (CME FedWatch)",
+        "note": "Walmart's comp-sales miss - the week's clearest consumer-spending signal - came in softer than hoped even as headline earnings beat."
       }
     ],
     "public_day_context": {
-      "date_label": "Thursday, August 20",
-      "weather": "Hot and mostly sunny: high near 90F, heat index up to 103F, 20% chance of afternoon showers and thunderstorms. No active tropical systems in the Atlantic and none expected to develop over the next seven days.",
-      "public_event": "Walmart reports Q2 earnings before today's open; Dolphins and Giants hold a joint practice at Dolphins camp ahead of Saturday's Aug. 22 preseason game; \"Louise Nevelson: Dawn to Dusk\" opens at FIU's Frost Art Museum."
+      "date_label": "Friday, August 21",
+      "weather": "Hot with scattered afternoon storms: high near 91F, low near 79F, roughly a 40% chance of showers and thunderstorms. Tropical Storm Cristobal is dissipating far out in the Atlantic with no threat to Florida; forecasters are also watching a tropical wave near Cabo Verde with rising development odds, still too far out to matter locally.",
+      "public_event": "Miami hosts Washington at loanDepot Park tonight, 7:10pm, opening a three-game series; the Hurricanes hold their second fall-camp scrimmage of the week; and it's Hawaii's Statehood Day holiday nationally, giving federal offices a long weekend."
     },
     "what_changed": [
       {
-        "id": "delta-hormuz-attacks-trump-threat",
-        "thread_id": "thread-iran-hormuz-crisis",
-        "change_type": "worsened",
-        "title": "Iran struck two more vessels as the MOU lapsed; Trump's Oman threat turned explicit",
-        "previous_state": "Yesterday's edition reported new Kpler data showing Iran had lost practical control of most strait traffic, alongside a denied Iranian missile launch toward the UAE and a Trump social-media graphic claiming the strait as \"New US Territory.\"",
-        "current_state": "Iran struck two more vessels in the strait Tuesday evening, injuring a crew member, hours after the 60-day US-Iran memorandum formally expired; on Fox News, Trump escalated to an explicit on-camera threat to bomb Oman if it \"gets in the way\" of the shipping-corridor talks. A CNN regional source says Iran and Oman may finalize that corridor agreement within days.",
-        "why_it_matters": "The blockade keeps failing in practice and getting more violent in the same 24 hours - attrition and escalation are no longer taking turns.",
-        "confidence": "high",
-        "source": {
-          "publisher": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/18/why-has-trump-threatened-to-bomb-oman-for-a-second-time"
-        }
-      },
-      {
-        "id": "delta-markets-end-losing-streak",
+        "id": "delta-walmart-market-reversal",
         "thread_id": "thread-fed-rate-path",
         "change_type": "reversed",
-        "title": "Stocks snapped a three-day losing streak on a Treasury buyback surprise",
-        "previous_state": "Yesterday's edition reported Tuesday's third straight losing session - S&P -0.69% to 7,691.76, Nasdaq -1.33% to 26,289.71, 10-year up to 4.72%.",
-        "current_state": "Wednesday's confirmed close: S&P +0.21% to 7,707.98, Dow +119.65 points to 53,463.05, Nasdaq +0.16% to 26,331.09; the 10-year eased to roughly 4.65% after Treasury announced it would double the size of its long-dated debt buybacks. Target, TJX, Lowe's, and Estee Lauder all reported Tuesday with a mixed consumer signal - Target and TJX both beat but fell on cautious guidance, Lowe's fell on weak DIY spending, Estee Lauder jumped 8% on a genuine beat-and-raise.",
-        "why_it_matters": "A one-line Treasury announcement moved markets more than three days of earnings and geopolitics combined - worth remembering how much of this tape is technical, not fundamental.",
+        "title": "A Walmart miss and a bond-yield snapback erased Wednesday's rally",
+        "previous_state": "Yesterday's edition reported Wednesday's close snapping a three-day losing streak - S&P +0.21% to 7,707.98, Nasdaq +0.16% to 26,331.09 - after a Treasury buyback announcement eased the 10-year to about 4.65%.",
+        "current_state": "Thursday reversed it: S&P -0.87% to 7,641.16, Dow -1.32% (-703.84 pts) to 52,759.21, Nasdaq -1.0% to 26,067.17, and the 10-year rose back to roughly 4.70%. The proximate cause was Walmart - it beat on revenue ($187.94B) and adjusted EPS ($0.81), but US comparable sales grew just 2.6%, the slowest pace in six years, and Q3 guidance came in soft; the stock fell 9.15%, its worst single day in more than four years.",
+        "why_it_matters": "One session undid the entire premise of yesterday's rally - a reminder how thin the technical support under this market has been.",
         "confidence": "high",
         "source": {
-          "publisher": "The Motley Fool",
-          "url": "https://www.fool.com/coverage/stock-market-today/2026/08/19/stock-market-today-aug-19-stocks-edge-higher-ending-3-day-losing-streak/"
+          "publisher": "TheStreet",
+          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-20-2026"
         }
       },
       {
-        "id": "delta-marlins-swept",
-        "thread_id": "thread-marlins-wildcard",
-        "change_type": "worsened",
-        "title": "Philadelphia completes a three-game sweep of Miami",
-        "previous_state": "Yesterday's edition reported Miami's second straight loss to Philadelphia, 6-4, falling to 64-62, three games back of the final wild-card spot.",
-        "current_state": "Philadelphia beat Miami 4-1 Wednesday behind seven strong innings from Aaron Nola and a Luis Arraez home run, completing a three-game sweep - Philadelphia's sixth straight win, its best streak of the season. Miami falls to 64-63.",
-        "why_it_matters": "Three losses to the same team in three nights closes off the easiest kind of ground Miami could have made up.",
+        "id": "delta-iran-economic-warfare",
+        "thread_id": "thread-iran-hormuz-crisis",
+        "change_type": "advanced",
+        "title": "Trump pivots from military threats to an explicit 'economic warfare' campaign",
+        "previous_state": "Yesterday's edition reported Iran striking two more vessels as the US-Iran MOU lapsed, and Trump threatening on Fox News to bomb Oman if it interfered with shipping-corridor talks.",
+        "current_state": "Trump announced the US will wage 'Economic Warfare and Isolation on an unprecedented scale' against Iran, threatening penalties on any country helping Tehran evade sanctions; the Treasury separately sanctioned Hezbollah as an Iranian proxy. Iran's deputy FM Kazem Gharibabadi said pointedly, 'the military war didn't yield results, so now they've named the next failure economic war.' No new vessel attack in the strait has been confirmed since the mid-August cluster, even as oil pushed to a fifth straight up session (Brent $93.01, WTI $86.16).",
+        "why_it_matters": "Five months of strikes haven't reopened the strait; a pivot to sanctions and financial isolation is a genuinely different lever, worth watching for whether it moves anything the bombing campaign couldn't.",
         "confidence": "high",
         "source": {
-          "publisher": "ESPN",
-          "url": "https://www.espn.com/mlb/recap/_/gameId/401816588"
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/08/19/us-iran-war-trump-hormuz-economic-warfare.html"
+        }
+      },
+      {
+        "id": "delta-chris-bell-ruled-out",
+        "thread_id": "thread-dolphins-hafley-rebuild",
+        "change_type": "watch",
+        "title": "Chris Bell will not play in Saturday's preseason game after all",
+        "previous_state": "Yesterday's edition reported Hafley hopeful to get rookie WR Chris Bell into a preseason game before Week 1, calling his ACL recovery progress encouraging - 'accelerating, decelerating, able to cut.'",
+        "current_state": "Hafley confirmed Thursday that Bell, activated off the non-football-injury list Monday and back in practice this week, will not play in Saturday's preseason game against the Giants: 'there's still a lot of steps to go' in his recovery.",
+        "why_it_matters": "A modest but real recalibration of how fast the team's most-watched rookie recovery is actually moving.",
+        "confidence": "high",
+        "source": {
+          "publisher": "Yardbarker",
+          "url": "https://www.yardbarker.com/nfl/articles/jeff_hafley_gives_dolphins_injury_updates_talks_chris_bell_and_giants_joint_practice/s1_17098_44192013"
+        }
+      },
+      {
+        "id": "delta-north-bay-road-72m",
+        "thread_id": "thread-cre-capital-markets-2026",
+        "change_type": "advanced",
+        "title": "A $72 million waterfront lot tops this week's South Florida deal sheet",
+        "previous_state": "Yesterday's edition reported two Coconut Grove/Design District transactions - the Grove at 3250 Mary office sale and Sweetbird North's $125M construction loan.",
+        "current_state": "A separate trade topped this week's roundup: Ilya Karpov sold a vacant waterfront lot at 2740 North Bay Road, Miami Beach, for $72 million - more than tripling the $20.8 million he paid for it in 2022 - brokered off-market by One Sotheby's. Separately, a Capital Realty Services affiliate sold a 31,000-sq-ft mixed-use building at 1200 Washington Avenue for $10 million.",
+        "why_it_matters": "Individual trophy trades keep outrunning the aggregate volume numbers - the clearest single data point yet of how much appreciation is happening deal by deal.",
+        "confidence": "high",
+        "source": {
+          "publisher": "The Real Deal",
+          "url": "https://therealdeal.com/miami/2026/08/20/south-florida-top-real-estate-deals-aug-18-2026-2/"
         }
       }
     ],
     "themes": [
       {
-        "id": "theme-hormuz-attacks-trump-oman-threat",
+        "id": "theme-walmart-selloff-market-reversal",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Iran hits two more ships even as its grip on the strait keeps slipping",
-        "importance": 0.82,
-        "thesis": "Even as shipping data show the blockade eroding, Iran struck two more vessels overnight and Trump escalated his threat against Oman - the attrition and the escalation are now happening at the same time.",
-        "synthesis": "Iran struck two more vessels in the Strait of Hormuz Tuesday evening, injuring a crew member, hours after the 60-day US-Iran memorandum formally lapsed. On Fox News, Trump escalated his rhetoric from last week's social-media graphic to an explicit on-camera threat to bomb Oman if it \"gets in the way\" of the Iran-Oman shipping-corridor talks. A CNN regional source says Iran and Oman are in direct talks and could finalize a corridor agreement within days. Meanwhile, an independent count from United Against Nuclear Iran found only 13 identified vessels crossed the strait in the prior 24-hour window - a fraction of pre-war volume - even as US officials maintain the strait is \"open and operating.\" Oil extended its climb for a fourth straight session on the mixed signals.",
-        "new_today": "The two new vessel attacks and Trump's blunter, on-camera threat - more specific and concrete than last week's social-media graphic.",
-        "why_it_matters": "Every development in this conflict has been read through either the lens of attrition or the lens of escalation. Today both are true in the same 24 hours, which is a worse pattern than either alone.",
-        "thread_id": "thread-iran-hormuz-crisis",
-        "confidence": "high",
-        "sources": [
-          {
-            "role": "primary_reporting",
-            "publisher": "Al Jazeera",
-            "headline": "Why has Trump threatened to bomb Oman for a second time?",
-            "url": "https://www.aljazeera.com/news/2026/8/18/why-has-trump-threatened-to-bomb-oman-for-a-second-time"
-          },
-          {
-            "role": "background",
-            "publisher": "United Against Nuclear Iran",
-            "headline": "Iran Shipping Update - August 19, 2026",
-            "url": "https://www.unitedagainstnucleariran.com/analysis/iran-shipping-update-august-19-2026"
-          },
-          {
-            "role": "background",
-            "publisher": "CNN Business",
-            "headline": "Iran is losing much of its control of the Strait of Hormuz",
-            "url": "https://www.cnn.com/2026/08/18/business/iran-strait-of-hormuz-oil"
-          }
-        ]
-      },
-      {
-        "id": "theme-markets-snap-losing-streak",
-        "affinity": "morning",
-        "topic": "markets",
-        "topic_label": "Markets & Macro",
-        "title": "Markets snap their losing streak; retail earnings tell a split story",
-        "importance": 0.6,
-        "thesis": "A Treasury debt-buyback announcement did what three days of trading couldn't, and Tuesday's retail earnings showed a consumer beating expectations on the top line while flinching on guidance.",
-        "synthesis": "Wednesday's close ended a three-day skid: S&P +0.21% to 7,707.98, Dow +119.65 points to 53,463.05, Nasdaq +0.16% to 26,331.09. The 10-year eased to roughly 4.65% from Tuesday's 4.72% after Treasury said it would double its buyback of long-dated debt. Underneath the calm, Tuesday's retail earnings split: Target beat comfortably (comps +3.8% vs. 2.4% expected) and raised full-year EPS guidance, yet its stock slipped; TJX beat but fell 4.7% on light Q3 guidance; Lowe's fell on cautious full-year guidance citing pressure on DIY spending; Estee Lauder jumped 8% on a clean beat-and-raise. Walmart, the week's clearest read on the American consumer, reports before today's open.",
-        "new_today": "The rally itself, reversing yesterday's three-day losing narrative, plus Wednesday's four retail earnings prints.",
-        "why_it_matters": "This is a live input for how Alex reads both the Fed's path and consumer-spending health - two things that show up directly in CRE underwriting assumptions.",
+        "title": "Walmart's miss and a bond-yield snapback erase Wednesday's rally",
+        "importance": 0.78,
+        "thesis": "A weak comp-sales number from the country's biggest retailer, paired with long yields snapping back above 4.70%, undid in one session what Wednesday's Treasury buyback had bought.",
+        "synthesis": "Thursday's close reversed Wednesday's rally hard: the Dow fell 703.84 points (-1.32%) to 52,759.21, the S&P 500 fell 0.87% to 7,641.16, and the Nasdaq fell about 1.0% to 26,067.17. Walmart, the week's clearest read on the American consumer, beat on both revenue ($187.94B) and adjusted EPS ($0.81) before the open - but US comparable sales grew just 2.6%, well short of the roughly 3.5% expected and the slowest pace in six years. Management raised full-year sales guidance even while flagging price cuts to defend market share, and guided Q3 EPS to a soft $0.62-0.64. The stock fell 9.15% to $103.84, its worst single-day drop in more than four years, and dragged the broader market down with it. The 10-year Treasury, which had eased to 4.65% Wednesday on the Treasury's buyback announcement, rose back to roughly 4.70% as that relief faded.",
+        "new_today": "Thursday's confirmed close, Walmart's comp-sales miss and guidance, and the 10-year's reversal back above 4.70%.",
+        "why_it_matters": "Alex reads Walmart's comps as a proxy for real household spending, not the S&P's headline move - a six-year-low growth rate paired with active price cuts is a sharper signal about consumer health than the index reversal itself, and it feeds directly into how he reads Fed odds and CRE underwriting assumptions.",
         "thread_id": "thread-fed-rate-path",
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
+            "publisher": "TheStreet",
+            "headline": "Stock Market Today (Aug. 20, 2026): Nasdaq, S&P 500 Slip as Treasury Rally Fades",
+            "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-20-2026"
+          },
+          {
+            "role": "analysis",
             "publisher": "The Motley Fool",
-            "headline": "Stock Market Today, Aug. 19: Stocks Edge Higher, Ending 3-Day Losing Streak",
-            "url": "https://www.fool.com/coverage/stock-market-today/2026/08/19/stock-market-today-aug-19-stocks-edge-higher-ending-3-day-losing-streak/"
+            "headline": "Stock Market Today, Aug. 20: Walmart Stock Drops on Disappointing Comparable Sales Growth",
+            "url": "https://www.fool.com/coverage/stock-market-today/2026/08/20/stock-market-today-aug-20-walmart-stock-drops-on-disappointing-comparable-sales-growth/"
           },
           {
             "role": "background",
-            "publisher": "StockTitan",
-            "headline": "Target Corporation Reports Second Quarter Results",
-            "url": "https://www.stocktitan.net/news/TGT/target-corporation-reports-second-quarter-whi1a63iatnc.html"
-          },
-          {
-            "role": "background",
-            "publisher": "The Motley Fool",
-            "headline": "Why Estee Lauder Stock Jumped Today",
-            "url": "https://www.fool.com/investing/2026/08/19/why-estee-lauder-stock-jumped-today/"
+            "publisher": "Walmart Corporate (earnings release)",
+            "headline": "Walmart Q2 FY27 Earnings Release",
+            "url": "https://corporate.walmart.com/content/dam/corporate/documents/newsroom/2026/08/20/walmart-releases-q2-fy27-earnings/q2-fy27-earnings-release.pdf"
           }
         ]
       },
       {
-        "id": "theme-marlins-swept-phillies",
+        "id": "theme-iran-economic-warfare-escalation",
         "affinity": "morning",
-        "topic": "sports",
-        "topic_label": "Miami Sports",
-        "title": "Philadelphia completes the sweep; Miami's wild-card math gets harder",
-        "importance": 0.5,
-        "thesis": "Three losses to the same team in three nights isn't a slump anymore - it's a full sweep, and Philadelphia is playing its best baseball of the year at the worst time for Miami.",
-        "synthesis": "Philadelphia beat Miami 4-1 Wednesday at Citizens Bank Park - Aaron Nola threw seven strong innings, Luis Arraez homered off Sandy Alcantara, and Trea Turner added an RBI double. It's Philadelphia's sixth straight win, its best streak of the season, pulling the Phillies within 4.5 games of first-place Atlanta in the NL East. Miami falls to 64-63.",
-        "new_today": "Wednesday's final score and the completed sweep.",
-        "why_it_matters": "Six weeks is not a lot of runway, and three straight losses to the team you're chasing for a wild-card spot is a worse way to spend those nights than losing to almost anyone else.",
-        "thread_id": "thread-marlins-wildcard",
+        "topic": "markets",
+        "topic_label": "Markets & Macro",
+        "title": "Trump drops the military threats for an economic one - and Iran calls it a tell",
+        "importance": 0.72,
+        "thesis": "After weeks of oscillating between bombing threats and ceasefire talk, Trump pivoted Wednesday night to what he's calling the 'most crushing' economic operation ever launched against a country - a shift Iran's own deputy foreign minister read as an admission the military campaign hasn't worked.",
+        "synthesis": "Trump announced on Truth Social that the US will wage 'Economic Warfare and Isolation on an unprecedented scale' against Iran, threatening severe penalties on any country that helps Tehran evade sanctions - part of a pressure campaign the administration has run since April under the banner Operation Economic Fury. The Treasury Department simultaneously imposed new sanctions on Hezbollah, formally designating it an Iranian proxy. Iran's foreign ministry called the sanctions 'economic terrorism'; deputy FM Kazem Gharibabadi said flatly, 'the military war didn't yield results, so now they've named the next failure economic war.' No new vessel attack in the strait has been confirmed since the cluster of ADNOC-tanker strikes around Aug. 13-18 - the front has gone quiet even as the rhetoric sharpens. Oil extended its climb regardless: Brent rose to $93.01 (+1.52%) and WTI to $86.16 (+2.09%), a fifth straight up session.",
+        "new_today": "Trump's explicit 'Economic Warfare' declaration, the new Hezbollah sanctions, and Iran's public response.",
+        "why_it_matters": "The war has run through military escalation, ceasefires, and territorial threats without changing the strait's basic status; a pivot to sanctions and financial isolation is a genuinely different tool, and worth watching for whether it does anything the last five months of strikes couldn't.",
+        "thread_id": "thread-iran-hormuz-crisis",
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "ESPN",
-            "headline": "Phillies 4-1 Marlins (Aug 19, 2026) Game Recap",
-            "url": "https://www.espn.com/mlb/recap/_/gameId/401816588"
+            "publisher": "CNBC",
+            "headline": "Trump declares 'economic warfare' on Iran, threatens its backers",
+            "url": "https://www.cnbc.com/2026/08/19/us-iran-war-trump-hormuz-economic-warfare.html"
           },
           {
             "role": "background",
-            "publisher": "PhillyVoice",
-            "headline": "Bryson Stott, Alec Bohm stay hot vs. Marlins, and so does Aaron Nola as Phillies score another sweep",
-            "url": "https://www.phillyvoice.com/phillies-marlins-recap-sweep-national-league-wild-card-cris-sanchez-bryson-stott/"
+            "publisher": "CNN",
+            "headline": "August 20, 2026 - US imposes new sanctions on Hezbollah, threatens economic pressure on Iran",
+            "url": "https://edition.cnn.com/2026/08/20/world/live-news/iran-war-trump"
+          },
+          {
+            "role": "background",
+            "publisher": "Al Jazeera",
+            "headline": "Trump says no talks planned with Iran amid anger over Iran-Oman Hormuz deal",
+            "url": "https://www.aljazeera.com/news/2026/8/18/no-talks-with-iran-says-trump-as-us-president-stews-over-hormuz-deal"
           }
         ]
       },
       {
-        "id": "theme-dolphins-giants-joint-practice",
+        "id": "theme-marlins-nationals-wildcard-picture",
         "affinity": "morning",
         "topic": "sports",
         "topic_label": "Miami Sports",
-        "title": "Dolphins and Giants set 'rules of engagement' for today's joint practice",
-        "importance": 0.42,
-        "thesis": "With two days before the preseason game, Miami's camp is trending toward health - the clearest sign is how far rookie WR Chris Bell has come back from his ACL tear.",
-        "synthesis": "The Giants travel to Miami for a joint practice today ahead of Saturday's Aug. 22 preseason game; both staffs agreed on rules protecting quarterbacks and banning blindside hits in favor of \"front-up thuds.\" Hafley on Chris Bell's ACL recovery: \"I think he's in a really good place right now... he's accelerating, decelerating, able to cut\" - he's hopeful to get Bell into a preseason game before Week 1. OT Austin Jackson is fully cleared from his toe injury; OL Jamaree Salyer, TE Greg Dulcich, TE Ben Sims, S Dante Trader Jr., and WR Kevin Coleman remain day-to-day.",
-        "new_today": "Today's joint practice itself and Hafley's fresh comments on Bell's progress.",
-        "why_it_matters": "A camp health check two days out from the first real hitting of preseason.",
+        "title": "An off day, then Washington comes to loanDepot Park with the wild-card math unforgiving",
+        "importance": 0.4,
+        "thesis": "Miami didn't play Thursday, but the standings around it kept moving - the race is now a jammed group of teams separated by a game or two, with Miami on the outside looking in.",
+        "synthesis": "Miami was off Thursday after Wednesday's sweep at the hands of Philadelphia; the Marlins (64-63) open a three-game series at home against Washington tonight at 7:10pm, Ryan Gusto on the mound. The NL wild-card picture has tightened into a genuine scrum: San Diego and Philadelphia hold the two wild-card spots, Arizona sits roughly a game back of the cutline, and Miami is bunched with the Cardinals, Reds, and Pirates in the chase pack about three games out. Right-hander Ronny Henriquez (60-day IL, UCL reconstruction) is projected back the week of Aug. 24.",
+        "new_today": "The off day itself, tonight's series opener, and the sharper picture of exactly how crowded the wild-card race has become.",
+        "why_it_matters": "Six weeks is not a lot of runway, and a three-game losing streak into an off day is a worse way to enter a series against a sub-.500 team than it looks on paper.",
+        "thread_id": "thread-marlins-wildcard",
+        "confidence": "medium",
+        "sources": [
+          {
+            "role": "primary_reporting",
+            "publisher": "MLB.com",
+            "headline": "Washington Nationals at Miami Marlins Preview",
+            "url": "https://www.mlb.com/stories/game-preview/823830"
+          },
+          {
+            "role": "background",
+            "publisher": "Fox Sports",
+            "headline": "2026 MLB Playoff Picture, Standings",
+            "url": "https://www.foxsports.com/stories/mlb/mlb-postseason-wild-card-playoffs-standings-2026"
+          }
+        ]
+      },
+      {
+        "id": "theme-dolphins-giants-practice2-chris-bell",
+        "affinity": "morning",
+        "topic": "sports",
+        "topic_label": "Miami Sports",
+        "title": "Giants' pass rush wins the last joint practice; Chris Bell still won't play Saturday",
+        "importance": 0.45,
+        "thesis": "The joint-practice sessions Miami hoped would sharpen the team before Saturday's preseason game instead spent the day on the back foot - and the one recovery storyline camp has been building toward got a more cautious update.",
+        "synthesis": "New York's defensive front dominated Thursday's joint practice at Miami's facility, and tempers flared repeatedly through the session; quarterback Malik Willis said afterward, 'Playing football is still fun... it's awesome to go out there and compete and see different looks.' Giants rookie tackle Francis Mauigoa (a former Hurricane) left with a stinger not considered serious, and starting RT Jermaine Eluemunor also exited early - no major new Dolphins injury came out of the session itself. Separately, coach Jeff Hafley confirmed rookie WR Chris Bell, activated off the non-football-injury list Monday and back in practice this week, will not play in Saturday's preseason game against the Giants: 'there's still a lot of steps to go' in his ACL recovery.",
+        "new_today": "Thursday's practice recap and Hafley's more cautious, specific update on Bell ruling him out of Saturday's game.",
+        "why_it_matters": "A losing rep count against a divisional-caliber pass rush two days before the first real hitting of the preseason is a fair gut check, and Bell's timeline just got a touch more conservative than 'hopeful before Week 1' implied yesterday.",
         "thread_id": "thread-dolphins-hafley-rebuild",
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "The Phinsider",
-            "headline": "Giants, Dolphins set 'rules of engagement' ahead of joint practice",
-            "url": "https://www.thephinsider.com/nfl-training-camp/120948/miami-dolphins-public-training-camp-practices-2026-schedule-august-joint-practice-giants"
+            "publisher": "Yahoo Sports",
+            "headline": "Giants-Dolphins joint practice: New York defense dominates Miami",
+            "url": "https://sports.yahoo.com/articles/giants-dolphins-joint-practice-live-134404586.html"
           },
           {
             "role": "background",
-            "publisher": "Yahoo Sports",
-            "headline": "Jeff Hafley updates injury status",
-            "url": "https://sports.yahoo.com/articles/jeff-hafley-updates-injury-status-152616932.html"
+            "publisher": "WFLX (Fox 29)",
+            "headline": "Dolphins, Giants clash in joint practice ahead of Miami's preseason home opener",
+            "url": "https://www.wflx.com/2026/08/20/dolphins-giants-clash-joint-practice-ahead-miamis-preseason-home-opener-hard-rock-stadium/"
+          },
+          {
+            "role": "background",
+            "publisher": "Yardbarker",
+            "headline": "Jeff Hafley Gives Dolphins Injury Updates, Talks Chris Bell and Giants Joint Practice",
+            "url": "https://www.yardbarker.com/nfl/articles/jeff_hafley_gives_dolphins_injury_updates_talks_chris_bell_and_giants_joint_practice/s1_17098_44192013"
           }
         ]
       },
       {
-        "id": "theme-miami-cre-deals-grove-sweetbird",
+        "id": "theme-hurricanes-camp-scrimmage-two",
+        "affinity": "morning",
+        "topic": "sports",
+        "topic_label": "Miami Sports",
+        "title": "A second scrimmage and a settled quarterback room, fourteen days from kickoff",
+        "importance": 0.35,
+        "thesis": "With four camp departures behind it, Miami's roster is narrowing into its actual shape - and at the position that matters most, there's no longer any ambiguity.",
+        "synthesis": "Miami holds its second fall-camp scrimmage today at Hard Rock Stadium, following an Aug. 14 scrimmage where Cristobal praised the team's explosive plays and said it emerged relatively clean on the injury front. Depth-chart projections now list Duke transfer Darian Mensah as the unambiguous starting quarterback, with redshirt freshman Luke Nickel as his backup - the third straight year Miami has installed a transfer-portal arm as QB1. The Cam Vaughn dismissal (reported Monday) remains the most recent of the camp's departures; no further roster subtractions have surfaced since.",
+        "new_today": "Today's second scrimmage and the confirmed Mensah-over-Nickel depth chart.",
+        "why_it_matters": "Two weeks out from a Sept. 4 opener at Stanford, this is the last real data point before the season starts generating its own headlines.",
+        "thread_id": "thread-hurricanes-fall-camp",
+        "confidence": "medium",
+        "sources": [
+          {
+            "role": "primary_reporting",
+            "publisher": "SportsTalkFlorida",
+            "headline": "Hurricanes camp is heating up",
+            "url": "https://sportstalkflorida.com/miami-hurricanes/miami-hurricanes-preseason-scrimmage-hard-rock-stadium-camp-report-2026/"
+          },
+          {
+            "role": "background",
+            "publisher": "Yahoo Sports",
+            "headline": "Projecting Miami Hurricanes' depth chart for the 2026 season",
+            "url": "https://sports.yahoo.com/articles/projecting-miami-hurricanes-depth-chart-145700216.html"
+          }
+        ]
+      },
+      {
+        "id": "theme-miami-cre-topdeals-north-bay-road",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Two more Miami deals close the week's CRE ledger",
-        "importance": 0.45,
-        "thesis": "Behind the aggregate numbers, individual Miami deal flow keeps landing, deal by deal.",
-        "synthesis": "An El-Ad National Properties affiliate paid $62.3 million ($778.75 per square foot) for the 80,000-square-foot office building \"The Grove at 3250 Mary\" in Coconut Grove. Separately, a venture of Miami Design District Associates and Raycliff Capital lined up $125 million in construction financing for the Sweetbird North office and retail project.",
-        "new_today": "Both transactions, dated Aug. 19.",
-        "why_it_matters": "Continues this week's pattern for anyone tracking South Florida CRE: individual deal flow keeps compounding regardless of the thinner aggregate sales-volume picture.",
+        "title": "A $72 million waterfront lot headlines a busy week of individual Miami deals",
+        "importance": 0.42,
+        "thesis": "Behind the aggregate CRE numbers, the trophy-property trade of the week is entirely residential - a reminder that Miami's capital-markets story right now is as much about who's cashing out as who's building.",
+        "synthesis": "Russian businessman Ilya Karpov sold a vacant waterfront lot at 2740 North Bay Road in Miami Beach for $72 million, more than triple the $20.8 million he paid for it in 2022 - brokered off-market by One Sotheby's. In the same week's deal sheet, a Capital Realty Services affiliate sold a 31,000-square-foot mixed-use building at 1200 Washington Avenue for $10 million, roughly 3.5x what it last traded for two decades ago. Both land alongside the Grove at 3250 Mary and Sweetbird North deals reported earlier this week.",
+        "new_today": "Both transactions, part of The Real Deal's Aug. 18-dated weekly roundup published Aug. 20.",
+        "why_it_matters": "A single land trade tripling in four years says as much about where Miami capital wants to be as any office-vacancy statistic.",
         "thread_id": "thread-cre-capital-markets-2026",
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "CRE Direct",
-            "headline": "El-Ad Affiliate Pays $62.3Mln for Miami Office Building",
-            "url": "https://crenews.com/2026/08/19/el-ad-affiliate-pays-62-3mln-for-miami-office-building/"
-          },
-          {
-            "role": "background",
-            "publisher": "CRE Direct",
-            "headline": "Development Venture Lines Up $125Mln Loan for Miami Office Project",
-            "url": "https://crenews.com/2026/08/19/development-venture-lines-up-125mln-loan-for-miami-office-project/"
+            "publisher": "The Real Deal",
+            "headline": "South Florida's Top Real Estate Deals: Aug. 18, 2026",
+            "url": "https://therealdeal.com/miami/2026/08/20/south-florida-top-real-estate-deals-aug-18-2026-2/"
           }
         ]
       },
       {
-        "id": "theme-nevelson-dawn-to-dusk-frost",
+        "id": "theme-cynodont-live-birth-fossil",
         "affinity": "evening",
         "topic": "living",
         "topic_label": "Art of Living",
-        "title": "Fifty years of scrap wood, arranged into monuments",
-        "importance": 0.45,
-        "thesis": "Louise Nevelson spent decades turning found wood into totemic abstract sculpture, and a new Miami exhibition traces the whole arc.",
-        "synthesis": "\"Louise Nevelson: Dawn to Dusk\" opens today at FIU's Patricia & Phillip Frost Art Museum, running through 2027 - more than 50 works, many drawn from the Frost's own collection, tracing Nevelson's evolution from early figurative painting through the monumental wood constructions that made her one of the defining American sculptors of the 20th century. The exhibition originated at the Farnsworth Art Museum in Rockland, Maine.",
-        "new_today": "The exhibit's opening day.",
-        "why_it_matters": "A genuine same-day Miami cultural opening worth building an evening around, not just reading about.",
+        "title": "A 236-million-year-old bone suggests live birth is older than mammals themselves",
+        "importance": 0.42,
+        "thesis": "A growth-ring found in an ancient cynodont's limb bone may push the origin of live birth back some 90 million years earlier than previously known - meaning the strategy predates the mammals it's usually credited to.",
+        "synthesis": "Argentine paleontologists studying a 236-million-year-old Chiniquodon theotonicus fossil found a 'neonatal line' in a limb bone - a growth marker indicating the animal was born large and developed rather than hatched from an egg. If confirmed, live birth (viviparity) in this lineage would predate the earliest true mammals by 90-95 million years. The finding, published Aug. 12 in the open-access journal Frontiers in Mammal Science, has been corroborated independently by several outlets since.",
+        "new_today": "The study's Aug. 12 publication, picked up more widely this week.",
+        "why_it_matters": "A trait usually treated as a mammalian innovation turns out to be older than mammals - a reminder that evolutionary firsts are almost always someone else's inheritance.",
         "thread_id": null,
-        "confidence": "high",
+        "confidence": "medium",
+        "sources": [
+          {
+            "role": "primary_reporting",
+            "publisher": "Smithsonian Magazine",
+            "headline": "When Did Animals Start Giving Birth to Live Young? This 236-Million-Year-Old Fossil Might Rewrite Mammals' Evolutionary History",
+            "url": "https://www.smithsonianmag.com/smart-news/when-did-animals-start-giving-birth-to-live-young-this-236-million-year-old-fossil-might-rewrite-mammals-evolutionary-history-180989343/"
+          }
+        ]
+      },
+      {
+        "id": "theme-miami-restaurant-wave-late-august",
+        "affinity": "evening",
+        "topic": "miami",
+        "topic_label": "Miami Life & Culture",
+        "title": "The summer opening wave picks up two more names before Labor Day",
+        "importance": 0.32,
+        "thesis": "With Miami Spice running through the end of September, the city's restaurant map keeps filling in even as the season nominally winds down.",
+        "synthesis": "Burgers & Shakes opened in North Miami and Miami Slice's Coconut Grove location is targeting a late-August/early-September debut, the latest additions to the summer wave that already includes Star Burger, LandShark Bar & Grill at Dolphin Mall, Takay's 17-course Coral Way omakase, and 1986 Steak House. Stormy Monday, previously slated to close, confirmed its reopening with a refreshed menu rather than shutting down.",
+        "new_today": "Burgers & Shakes and Miami Slice added to the tracked wave.",
+        "why_it_matters": "An evening out worth planning around, not just reading about - Miami Spice pricing runs through Sept. 30.",
+        "thread_id": "thread-miami-summer-openings",
+        "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
             "publisher": "Miami New Times",
-            "headline": "The Best Art Exhibitions to See in Miami in August 2026",
-            "url": "https://www.miaminewtimes.com/arts-culture/best-art-exhibitions-to-see-in-miami-in-august-2026-40573506/"
-          }
-        ]
-      },
-      {
-        "id": "theme-nin-emotional-excess-creativity",
-        "affinity": "evening",
-        "topic": "living",
-        "topic_label": "Art of Living",
-        "title": "Anais Nin's case for feeling too much",
-        "importance": 0.4,
-        "thesis": "Nin argued that the excess feeling artists are told to tame is exactly what makes the work possible.",
-        "synthesis": "Published Aug. 10 on The Marginalian, Maria Popova's essay draws on Anais Nin's diaries and letters to argue that emotional excess - the very intensity therapeutic culture tries to regulate away - is inseparable from the sensitivity that makes real creative work possible at all.",
-        "new_today": "Ten days old, still unread in Alex's queue and still the sharpest recent treatment of this particular argument.",
-        "why_it_matters": "A counterweight on a day that otherwise rewards restraint - markets moved by a technical announcement, a war run by attrition, a season slipping by inches.",
-        "thread_id": null,
-        "confidence": "medium",
-        "sources": [
-          {
-            "role": "primary_reporting",
-            "publisher": "The Marginalian",
-            "headline": "Anais Nin on Why Emotional Excess is Essential to Creativity",
-            "url": "https://www.themarginalian.org/2026/08/10/anais-nin-on-emotion-and-writing/"
-          }
-        ]
-      },
-      {
-        "id": "theme-electrons-coexisting-phases-physics",
-        "affinity": "evening",
-        "topic": "living",
-        "topic_label": "Art of Living",
-        "title": "Watching a material decide what to become",
-        "importance": 0.4,
-        "thesis": "MIT physicists caught electrons in a rare material assembling into two competing phases in real time, making visible something usually only inferred.",
-        "synthesis": "Published Aug. 7 on MIT News and resurfaced Aug. 19 via ScienceDaily, the research describes how physicists studying the material erbium tritelluride found its electrons organize into two distinct competing electronic phases through different mechanisms - one forming smoothly, the other spreading in expanding pockets that resemble growing ice crystals. Published in Nature Physics, the work may help explain how some materials host superconductivity and magnetism side by side.",
-        "new_today": "Resurfaced today via ScienceDaily's Aug. 19 pickup, twelve days after the original MIT publication.",
-        "why_it_matters": "Today's exploration pick - matter organizing itself when nothing is forcing it to, a quiet echo of Nevelson finding form in what was already lying around.",
-        "thread_id": null,
-        "confidence": "medium",
-        "sources": [
-          {
-            "role": "primary_reporting",
-            "publisher": "MIT News",
-            "headline": "Physicists watch a material's electrons assemble, and reassemble, into coexisting phases",
-            "url": "https://news.mit.edu/2026/physicists-watch-materials-electrons-assemble-reassemble-coexisting-phases-0807"
-          },
-          {
-            "role": "background",
-            "publisher": "ScienceDaily",
-            "headline": "Physicists watch a material's electrons assemble into coexisting phases",
-            "url": "https://www.sciencedaily.com/releases/2026/08/260819041231.htm"
+            "headline": "Every Miami Restaurant Opening in August 2026",
+            "url": "https://www.miaminewtimes.com/food-drink/every-miami-restaurant-opening-in-august-2026-40573400/"
           }
         ]
       }
     ],
     "rabbit_hole": {
-      "id": "rh-2026-08-20",
-      "title": "How to Read the Signal of Your Life",
-      "creator": "Maria Popova",
+      "id": "rh-2026-08-21",
+      "title": "Why Is Everyone in Tech So Sad?",
+      "creator": "Aaron Horwath",
       "format": "essay",
-      "minutes": 20,
-      "why": "Built around watching the Perseid meteor shower and art historian George Kubler's concept of \"actuality,\" the essay argues a life only makes sense read backward, like starlight already traveling toward whoever is there to notice it - each moment a signal that a future self alone can constellate into meaning. Philosophy of time is Alex's single highest-weighted subtopic, and this is the sharpest recent treatment of it he hasn't seen yet.",
-      "url": "https://www.themarginalian.org/2026/08/15/george-kubler-actuality/",
+      "minutes": 15,
+      "why": "Horwath opens on a half-heard commuter-train call thick with EBITDA and ARR jargon, then argues that American professional life quietly substituted career for the meaning religion used to supply - and that AI is now exposing how hollow that substitution always was. It's a sharper, less breathless entry than most tech-and-attention writing, and lands squarely on ground Alex thinks about often: what a working life is actually for.",
+      "url": "https://www.noemamag.com/why-is-everyone-in-tech-so-sad/",
       "related_interest": "living"
     },
     "beautiful_thing": {
-      "id": "bt-2026-08-20",
-      "title": "Dawn to Dusk",
-      "creator": "Louise Nevelson",
-      "era": "Retrospective spanning the 1930s-1980s, showing at FIU's Frost Art Museum through 2027",
-      "body": "Nevelson, born in Ukraine in 1899 and raised in Rockland, Maine, spent decades collecting discarded wood - crate slats, furniture fragments, finial scraps - and assembling it into monumental abstract constructions, most painted a single matte black or white to erase each fragment's individual history and unify the whole into one form. The Frost's new exhibition, organized by the Farnsworth Art Museum in her hometown of Rockland, traces her full arc: from early figurative paintings through the constructions that made her one of the defining American sculptors of the twentieth century. Worth noticing: nothing in the wood was built for what it became.",
-      "url": "https://www.miaminewtimes.com/arts-culture/best-art-exhibitions-to-see-in-miami-in-august-2026-40573506/",
+      "id": "bt-2026-08-21",
+      "title": "Chromosaturation",
+      "creator": "Carlos Cruz-Diez",
+      "era": "Conceived 1965; this installation on view at Perez Art Museum Miami through Sept. 27, 2026",
+      "body": "Cruz-Diez, a Venezuelan pioneer of kinetic and Op Art working alongside Jesus Rafael Soto, built Chromosaturation as three connected chambers, each flooded entirely in one saturated color - red, green, blue - so that color stops being a property you look at and becomes a physical condition you stand inside. PAMM acquired the work in 2020 and first showed it in 2022; it's back on view now. Worth noticing: there's no object in the room, only light and the walls it lands on - the color is the only thing there.",
+      "url": "https://www.pamm.org/en/exhibition/carlos-cruz-diez-chromosaturation-2/",
       "image": null,
-      "alt": "A Louise Nevelson wood-relief construction, wall-mounted and painted a single matte black, assembled from stacked found wood fragments."
+      "alt": "A visitor standing inside a room entirely flooded with saturated red light, part of Carlos Cruz-Diez's Chromosaturation installation."
     },
     "noticing_prompt": {
-      "id": "np-2026-08-20",
-      "text": "Notice something today that was assembled rather than built for its purpose - a room furnished from what was already lying around, an evening made of borrowed time, a decision made from parts meant for something else."
+      "id": "np-2026-08-21",
+      "text": "Notice something today that reverses itself quietly - a plan, a mood, a market - and watch how fast the story gets rewritten to make the reversal sound inevitable all along."
     },
     "daily_puzzle": {
-      "id": "dp-2026-08-20",
-      "type": "logic",
-      "prompt": "Four coworkers - Ana, Ben, Cora, and Dae - each arrived at the office at a different time this morning: 8:00, 8:15, 8:30, and 8:45. Dae arrived before Ana, who arrived before Cora. Ben arrived exactly fifteen minutes after Ana. What time did each person arrive?",
-      "hint": "Fix Dae, Ana, and Cora's relative order first - Ben is the only one not anchored to that sequence, so figure out where he fits around it.",
-      "solution": "Dae at 8:00, Ana at 8:15, Ben at 8:30, Cora at 8:45.",
-      "explanation": "Dae-before-Ana-before-Cora fixes three of the four in relative order, leaving four possible slots for Ben. Only placing Ben immediately after Ana - the requirement that he arrived exactly fifteen minutes later - keeps Cora from landing last, which the other three placements all force."
+      "id": "dp-2026-08-21",
+      "type": "wordplay",
+      "prompt": "What common English word gets two letters longer, and in that same stroke comes to describe something that has gotten smaller?",
+      "hint": "The two added letters are a suffix you'd tack onto almost any adjective to compare two things.",
+      "solution": "SHORT becomes SHORTER.",
+      "explanation": "Adding 'ER' makes the word itself two letters longer, even as its meaning now points to something even less than before: the word grows while what it describes shrinks."
     },
     "evening_unwind": {
-      "id": "eu-2026-08-20",
+      "id": "eu-2026-08-21",
       "evening_quote": {
-        "text": "Nothing, Lucilius, is ours, except time.",
-        "attribution": "Seneca",
-        "source": "Letters to Lucilius, Letter 1"
+        "text": "Nowhere can a man find a quieter or more untroubled retreat than in his own soul.",
+        "attribution": "Marcus Aurelius",
+        "source": "Meditations, 4.3 (trans. George Long)"
       },
-      "evening_prompt": "Of everything that felt urgent today - the market's reversal, the strait, the sweep - which one will you actually remember a year from now, and what does that tell you about where today's attention really belonged?"
+      "evening_prompt": "What felt like solid ground this morning - a market, a plan, a certainty - and did it still feel solid by the time you got to tonight?"
     },
     "reading_queue": [
       {
         "title": "The Tantalizing Possibility of Locating Consciousness in the Brain",
         "url": "https://www.noemamag.com/the-tantalizing-possibility-of-locating-consciousness-in-the-brain/",
         "verdict": "read_soon",
-        "reason": "Nine days in the queue now - still unread, still worth pairing with last week's AI-consciousness rabbit hole."
+        "reason": "Ten days in the queue now - still unread, still worth pairing with tonight's tech-and-meaning essay."
       },
       {
         "title": "Philosophy as an Art of Living",
         "url": "https://lareviewofbooks.org/article/philosophy-as-an-art-of-living/",
         "verdict": "probably_remove",
-        "reason": "Flagged again - unread since early August. Third flag now; likely due for Alex to let go of it himself."
+        "reason": "Flagged again - unread for nearly three weeks now. Fourth flag; likely due for Alex to let go of it himself."
       }
     ],
     "quote": {
-      "text": "The world breaks everyone, and afterward, some are strong at the broken places.",
-      "attribution": "Ernest Hemingway"
+      "text": "No man ever steps in the same river twice, for it's not the same river and he's not the same man.",
+      "attribution": "Heraclitus"
     }
   },
   "threads": [
@@ -403,9 +417,9 @@
       "title": "US-Iran conflict and the Strait of Hormuz",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-08-20",
-      "updates": 41,
-      "current_state": "Iran struck two more vessels Tuesday evening (one crew injury) just after the US-Iran MOU expired, and Trump escalated on Fox News to an explicit threat to bomb Oman if it interferes with shipping-corridor talks - even as a CNN source says Iran and Oman may finalize that corridor deal within days, and UANI data shows traffic still running at a fraction of pre-war volume.",
+      "last_updated": "2026-08-21",
+      "updates": 42,
+      "current_state": "Trump pivoted Wednesday night to an explicit \"Economic Warfare and Isolation\" campaign against Iran and new Hezbollah sanctions, which Iran's deputy FM read as an admission the military campaign failed. No new vessel attack has been confirmed since the mid-August ADNOC cluster, even as oil extends its climb toward $93-94.",
       "timeline": [
         {
           "date": "2026-07-21",
@@ -611,6 +625,11 @@
           "date": "2026-08-20",
           "summary": "Iran struck two more vessels in the strait Tuesday evening (one crew member injured) hours after the 60-day US-Iran memorandum formally lapsed. On Fox News, Trump escalated to an explicit on-camera threat to bomb Oman if it \"gets in the way\" of Iran-Oman shipping-corridor talks - a sharper version of his earlier social-media graphic. A CNN regional source says Iran and Oman could finalize that corridor agreement within days. UANI's Aug. 19 shipping count found only 13 identified vessels crossed in the prior 24 hours (plus 2 unidentified tankers running dark), underscoring how abnormal traffic remains even as the U.S. insists the strait is \"open and operating.\" Oil extended its climb for a fourth straight session (Brent ~$92.36, WTI ~$85.63) on the mixed signals.",
           "change_type": "worsened"
+        },
+        {
+          "date": "2026-08-21",
+          "summary": "Trump pivoted from military threats to an explicit \"Economic Warfare and Isolation on an unprecedented scale\" campaign against Iran (part of the administration's Operation Economic Fury pressure track since April), and the Treasury sanctioned Hezbollah as an Iranian proxy. Iran's deputy FM Kazem Gharibabadi called it a tell: \"the military war didn't yield results, so now they've named the next failure economic war.\" No new vessel attack in the strait has been confirmed since the mid-August ADNOC cluster. Oil extended its climb for a fifth straight session (Brent $93.01, WTI $86.16).",
+          "change_type": "advanced"
         }
       ]
     },
@@ -619,9 +638,9 @@
       "title": "Federal Reserve rate path",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-08-20",
-      "updates": 37,
-      "current_state": "Stocks snapped a three-day losing streak Wednesday (S&P +0.21% to 7,707.98, Nasdaq +0.16% to 26,331.09) after Treasury said it would double its long-dated debt buyback, easing the 10-year to ~4.65%. Retail earnings gave a split consumer signal - Target and TJX both beat but fell on cautious guidance, Lowe's fell on weak DIY demand, Estee Lauder jumped 8% on a clean beat-and-raise. Walmart reports before today's open.",
+      "last_updated": "2026-08-21",
+      "updates": 38,
+      "current_state": "Thursday reversed Wednesday's rally: S&P -0.87% to 7,641.16, Dow -1.32% to 52,759.05, Nasdaq -1.0% to 26,067.17, 10-year back to ~4.70%. Walmart beat on revenue/EPS but posted its slowest US comp-sales growth in six years and guided Q3 softly; the stock fell 9.15%, its worst day in four-plus years, and dragged the market down with it. September hold odds roughly 65-68%.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -797,6 +816,11 @@
           "date": "2026-08-20",
           "summary": "Wednesday's confirmed close: S&P +0.21% to 7,707.98, Dow +119.65 points to 53,463.05, Nasdaq +0.16% to 26,331.09 - snapping the three-day losing streak after Treasury announced it would double its long-dated debt buyback, easing the 10-year to roughly 4.65% from Tuesday's 4.72%. Tuesday's retail earnings gave a mixed consumer read: Target beat (comps +3.8% vs. 2.4% expected, raised FY guidance) but its stock slipped; TJX beat but fell 4.7% on light Q3 guidance; Lowe's fell on cautious full-year guidance citing DIY spending pressure; Estee Lauder jumped 8% on a genuine beat-and-raise. Walmart reports before today's open - the week's clearest read yet on U.S. household spending. September FOMC hold odds sit near 65% (35% hike), essentially unchanged.",
           "change_type": "reversed"
+        },
+        {
+          "date": "2026-08-21",
+          "summary": "Thursday's confirmed close reversed Wednesday's rally: S&P -0.87% to 7,641.16, Dow -1.32% (-703.84 pts) to 52,759.21, Nasdaq -1.0% to 26,067.17; the 10-year rose back to roughly 4.70% from Wednesday's 4.65%. Walmart beat on revenue ($187.94B) and adjusted EPS ($0.81) but posted US comp-sales growth of just 2.6% - the slowest in six years - and guided Q3 EPS softly to $0.62-0.64; the stock fell 9.15%, its worst day in over four years, and was the single biggest drag on the market. September FOMC hold odds held roughly steady at 65-68% (32-35% hike).",
+          "change_type": "reversed"
         }
       ]
     },
@@ -805,9 +829,9 @@
       "title": "Marlins wild card race",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-08-20",
-      "updates": 40,
-      "current_state": "Philadelphia completed a three-game sweep of Miami with a 4-1 win Wednesday (Nola 7 IP, Arraez HR) - the Phillies' sixth straight win, their best streak of the season. Miami falls to 64-63; three losses to the same team in three nights leaves less runway to close the wild-card gap with roughly six weeks left.",
+      "last_updated": "2026-08-21",
+      "updates": 41,
+      "current_state": "Miami was off Thursday and opens a three-game home series against Washington tonight. The NL wild-card race has become a tight scrum - San Diego and Philadelphia hold the two spots, Arizona is about a game back, and Miami (64-63) sits roughly three games out amid a jammed chase pack that also includes the Cardinals, Reds, and Pirates.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -998,6 +1022,11 @@
           "date": "2026-08-20",
           "summary": "Philadelphia beat Miami 4-1 Wednesday - Aaron Nola threw seven strong innings, Luis Arraez homered, Trea Turner added an RBI double off Sandy Alcantara - completing a three-game sweep and Philadelphia's sixth straight win, its best streak of the season, pulling the Phillies within 4.5 games of first-place Atlanta in the NL East. Miami falls to 64-63.",
           "change_type": "worsened"
+        },
+        {
+          "date": "2026-08-21",
+          "summary": "Miami was off Thursday after Wednesday's sweep; opens a three-game home series against Washington tonight (7:10pm, Ryan Gusto starting). NL wild-card picture has tightened into a scrum: San Diego and Philadelphia hold the two spots, Arizona sits roughly a game back of the cutline, and Miami (64-63) is bunched with the Cardinals, Reds, and Pirates about three games out. RHP Ronny Henriquez (60-day IL, UCL reconstruction) projected back the week of Aug. 24.",
+          "change_type": "watch"
         }
       ]
     },
@@ -1047,9 +1076,9 @@
       "title": "Dolphins rebuild under Hafley",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-08-20",
-      "updates": 28,
-      "current_state": "Dolphins and Giants hold a joint practice today under agreed \"rules of engagement,\" two days ahead of Saturday's preseason game. Rookie WR Chris Bell is progressing well in his ACL recovery per Hafley, who hopes to get him into a preseason game before Week 1; OT Austin Jackson is fully cleared, several others remain day-to-day.",
+      "last_updated": "2026-08-21",
+      "updates": 29,
+      "current_state": "Giants' defensive front dominated Thursday's final joint practice before Saturday's preseason game; no major new Dolphins injury resulted. Hafley confirmed rookie WR Chris Bell will not play Saturday after all - \"there's still a lot of steps to go\" in his ACL recovery, a more cautious framing than earlier in the week.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -1190,6 +1219,11 @@
           "date": "2026-08-20",
           "summary": "Giants and Dolphins staffs set \"rules of engagement\" (protect QBs, no blindside hits, front-up thuds only) ahead of today's joint practice, two days before Saturday's Aug. 22 preseason game. Hafley on rookie WR Chris Bell's ACL recovery: \"I think he's in a really good place right now... he's accelerating, decelerating, able to cut\" - hopeful to get him into a preseason game before Week 1. OT Austin Jackson is fully cleared from his toe injury; OL Jamaree Salyer, TE Greg Dulcich, TE Ben Sims, S Dante Trader Jr., and WR Kevin Coleman remain day-to-day.",
           "change_type": "advanced"
+        },
+        {
+          "date": "2026-08-21",
+          "summary": "New York's defensive front dominated Thursday's joint practice at Miami's facility, with tempers flaring repeatedly; Giants rookie OT Francis Mauigoa (ex-Hurricane) left with a stinger (not considered serious) and starting RT Jermaine Eluemunor also exited early, but no major new Dolphins injury emerged from the session. Coach Jeff Hafley confirmed rookie WR Chris Bell, activated off the non-football-injury list Monday, will not play in Saturday's preseason game against the Giants: \"there's still a lot of steps to go\" in his ACL recovery.",
+          "change_type": "watch"
         }
       ]
     },
@@ -1198,9 +1232,9 @@
       "title": "Miami Hurricanes fall camp and the Mensah era",
       "topic": "sports",
       "status": "emerging",
-      "last_updated": "2026-08-18",
-      "updates": 4,
-      "current_state": "Cristobal confirmed Monday that transfer WR Cam Vaughn has been dismissed from the team - the fourth camp departure this preseason. Darian Mensah remains the starting quarterback; the secondary remains the roster's most settled unit. Season opener is Sept. 4 at Stanford.",
+      "last_updated": "2026-08-21",
+      "updates": 5,
+      "current_state": "Miami holds its second fall-camp scrimmage today at Hard Rock Stadium. Darian Mensah is confirmed as the unambiguous starting quarterback (Luke Nickel backing him up); no further roster departures have surfaced since Monday's Cam Vaughn dismissal. Season opener is Sept. 4 at Stanford.",
       "timeline": [
         {
           "date": "2026-08-14",
@@ -1221,6 +1255,11 @@
           "date": "2026-08-18",
           "summary": "Cristobal confirmed Monday, on The Joe Rose Show, that transfer WR Cam Vaughn has been dismissed from the team - the fourth camp departure this preseason, after safety Conrad Hussey, CB Jontavius Wyman, and edge Hayden Lowe. No official reason was given; Vaughn was arrested in Georgia in July on a reckless-driving charge. Darian Mensah remains the starting quarterback.",
           "change_type": "worsened"
+        },
+        {
+          "date": "2026-08-21",
+          "summary": "Miami holds its second fall-camp scrimmage today at Hard Rock Stadium, following an Aug. 14 scrimmage where Cristobal praised the team's explosive plays and said it emerged relatively clean on the injury front. Depth-chart projections confirm Duke transfer Darian Mensah as the unambiguous starting QB, with redshirt freshman Luke Nickel backing him up - Miami's third straight year starting a transfer-portal QB. No further roster departures have surfaced since Monday's Cam Vaughn dismissal.",
+          "change_type": "advanced"
         }
       ]
     },
@@ -1229,9 +1268,9 @@
       "title": "Miami summer restaurant wave",
       "topic": "miami",
       "status": "active",
-      "last_updated": "2026-08-18",
-      "updates": 11,
-      "current_state": "Miami Spice's discounted dining season runs through September 30. Latest additions to the summer wave: Star Burger, LandShark Bar & Grill (Dolphin Mall), Takay (Coral Way omakase), and 1986 Steak House (Coconut Grove); Stormy Monday reopened rather than closing as earlier planned.",
+      "last_updated": "2026-08-21",
+      "updates": 12,
+      "current_state": "Miami Spice's discounted dining season runs through September 30. Latest additions to the summer wave: Burgers & Shakes (North Miami) and Miami Slice (Coconut Grove, late Aug/early Sept target), alongside Star Burger, LandShark Bar & Grill, Takay, and 1986 Steak House; Stormy Monday reopened rather than closing as earlier planned.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -1287,6 +1326,11 @@
           "date": "2026-08-18",
           "summary": "New to the summer wave: Star Burger (a grass-fed concept from the family behind Estrella Insurance), LandShark Bar & Grill by Margaritaville at Dolphin Mall, Takay (a 10-seat, 17-course Japanese omakase on Coral Way), and 1986 Steak House (an Argentine concept in Coconut Grove from Grupo Orfano); Stormy Monday, previously slated to close, reopened with a refreshed menu instead.",
           "change_type": "advanced"
+        },
+        {
+          "date": "2026-08-21",
+          "summary": "Burgers & Shakes opened in North Miami and Miami Slice's Coconut Grove location is targeting a late-August/early-September debut - the latest additions to the summer wave. Miami Spice discounted dining continues through Sept. 30.",
+          "change_type": "advanced"
         }
       ]
     },
@@ -1311,9 +1355,9 @@
       "title": "2026 CRE capital markets under pressure",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-08-20",
-      "updates": 20,
-      "current_state": "Deal-by-deal activity continues: an El-Ad affiliate paid $62.3M for the Grove at 3250 Mary office building in Coconut Grove, and a Miami Design District Associates/Raycliff Capital venture secured $125M in construction financing for the Sweetbird North project - alongside the previously reported residential tower nearing sellout, Bird Road District financing, and Walmart's Westlake land purchase.",
+      "last_updated": "2026-08-21",
+      "updates": 21,
+      "current_state": "Individual trophy trades keep landing: this week's headline was a $72M sale of a vacant waterfront lot at 2740 North Bay Road (Miami Beach), more than tripling its 2022 purchase price, alongside a $10M sale at 1200 Washington Avenue - both on top of the Grove at 3250 Mary sale and Sweetbird North's $125M construction loan reported Wednesday.",
       "timeline": [
         {
           "date": "2026-07-24",
@@ -1413,6 +1457,11 @@
         {
           "date": "2026-08-20",
           "summary": "Two more individual Miami deals closed: an El-Ad National Properties affiliate paid $62.3M ($778.75/sq ft) for the 80,000-sq-ft office building \"The Grove at 3250 Mary\" in Coconut Grove, and a venture of Miami Design District Associates and Raycliff Capital lined up $125M in construction financing for the Sweetbird North office/retail project.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-08-21",
+          "summary": "A separate trade topped this week's South Florida deal sheet: Ilya Karpov sold a vacant waterfront lot at 2740 North Bay Road, Miami Beach, for $72M - more than tripling the $20.8M he paid in 2022 - brokered off-market by One Sotheby's. A Capital Realty Services affiliate also sold a 31,000-sq-ft mixed-use building at 1200 Washington Avenue for $10M.",
           "change_type": "advanced"
         }
       ]
@@ -1545,7 +1594,7 @@
     }
   ],
   "meta": {
-    "content_freshness": "2026-08-20",
+    "content_freshness": "2026-08-21",
     "feedback_endpoint_mode": "github_contents",
     "minimum_client_schema_version": 1,
     "mode": "brain"
