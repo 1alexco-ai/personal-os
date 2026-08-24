@@ -1,34 +1,34 @@
 {
   "schema_version": 2,
   "edition": {
-    "id": "2026-08-23",
-    "date": "2026-08-23",
-    "type": "weekly",
-    "generated_at": "2026-08-23T09:30:00-04:00",
+    "id": "2026-08-24",
+    "date": "2026-08-24",
+    "type": "weekday",
+    "generated_at": "2026-08-24T09:30:00-04:00",
     "timezone": "America/New_York",
     "title": "Personal OS",
     "front_page_letter": {
       "greeting": "Good morning",
       "body_paragraphs": [
-        "Markets spent the week proving how thin the daily narrative usually is: a Fed-hawkish selloff early on, a Walmart-driven gut punch Thursday (its worst day in four years), and then Friday's whole reversal riding on a crypto rally that had nothing to do with rates, jobs, or inflation. Net result — down for the week regardless, September hold odds sitting right where they sat a week ago (~68-70%), and the real news buried under all that motion: Trump's Iran campaign has fully pivoted from bombs to balance sheets, and Monday's Bessent press conference now reads less like an Iran story and more like an opening move against China, timed awkwardly close to Xi Jinping's confirmed September 24 White House visit. Washington has sanctioned Iran's small 'teapot' refineries but not a single major Chinese bank yet — restraint that won't survive contact with Monday's announcement if it goes as far as threatened.",
-        "South Florida sports had its most eventful week in a month. Klay Thompson's buyout-and-signing to the Heat was the offseason's first real basketball answer since the LeBron miss. The Marlins strung together a stretch that pulled them back over .500 — seven straight wins over Washington — into a wild-card race now bunched into a genuine six-team scrum with six weeks left. The Dolphins had the rockier week: a joint practice that turned into an actual fight, then a 26-3 preseason loss to the Giants that didn't do Hafley's roster questions any favors. And Brad Marchand's offseason surgery is now a real cloud over the Panthers' September 29 opener, the one loose thread on an otherwise settled roster.",
-        "The evening side of the week held up its end without needing to compete for attention: a jazz room on Collins Avenue played its last set as a burger spot moved into a mid-century landmark down the street, and a new Liberty City show turns historic South Florida churches into daguerreotype plates. This week's rabbit hole finally gets read, too — eleven days in the queue, about consciousness and the brain, and worth the wait."
+        "Monday turned two of the weekend's maybes into official numbers. Klay Thompson signed with Miami Sunday after clearing waivers — a two-year, $11.5 million deal, done rather than merely expected — giving the Heat real floor-spacing next to Giannis Antetokounmpo. The Marlins swept Washington to reach 67-64, their best stretch in weeks, and yet the models putting a number on it give Miami only about a 7.6% shot at the postseason, four games out of a wild-card spot — winning what's in front of you and closing the gap turned out to be two different problems. And Brad Marchand's recovery, vague for a week, now has a shape: six to ten missed games, an earliest return around mid-October.",
+        "The bigger test of the same instinct — vague threat versus concrete action — lands this afternoon. Treasury Secretary Bessent holds his long-promised 'economic D-Day' press conference at 2pm ET, and pre-conference reporting suggests the sanctions finally reach past Iran's small teapot refineries toward the banks and trade networks that actually move its oil, the exact restraint toward China that's held for weeks. Markets open a touch softer, tech leading declines, ahead of a week that also brings Jackson Hole and Kevin Warsh's first keynote as Fed chair Friday.",
+        "For this evening: Medium Cool didn't stay dark long between its old Collins Avenue address and a new one a few blocks away, and a new Miami Beach library show turns its attention toward the workers whose names never made the postcards."
       ],
       "read_only_three": [
         {
           "target_type": "theme",
-          "target_id": "theme-heat-klay-thompson-buyout",
-          "label": "Klay Thompson's Heat deal was the week's biggest Miami sports story"
+          "target_id": "theme-heat-klay-thompson-signs",
+          "label": "Klay Thompson's Heat deal is now official"
         },
         {
           "target_type": "theme",
-          "target_id": "theme-iran-economic-dday-bessent",
-          "label": "Iran sanctions widen toward China, timed against Xi's September visit"
+          "target_id": "theme-iran-bessent-dday-live",
+          "label": "Bessent's 'economic D-Day' press conference happens today at 2pm ET"
         },
         {
           "target_type": "rabbit_hole",
-          "target_id": "rh-2026-08-23",
-          "label": "This week's rabbit hole: locating consciousness in the brain"
+          "target_id": "rh-2026-08-24",
+          "label": "Today's rabbit hole: why your attention isn't broken, the room is"
         }
       ]
     },
@@ -36,245 +36,191 @@
       {
         "label": "S&P 500",
         "value": "7,674.37",
-        "change": "+0.43% Fri, -1.4% on the week",
-        "observed": "Fri close 8/21 (last session before Monday, 8/24)",
-        "note": "Rebounded Friday on a crypto rally rather than economic data; still closed a volatile week lower after Thursday's Walmart-driven selloff."
+        "change": "premarket ~flat to slightly lower",
+        "observed": "Fri close 8/21 (last session before today, Mon 8/24)",
+        "note": "Futures a touch softer this morning on tech weakness ahead of Nvidia earnings and Jackson Hole; last confirmed close still Friday's crypto-led rebound, which still closed the week down 1.4%."
       },
       {
         "label": "Nasdaq Composite",
         "value": "26,180.45",
-        "change": "+0.43% Fri, -2.1% on the week",
-        "observed": "Fri close 8/21 (last session before Monday, 8/24)",
-        "note": "Snapped a five-day slump Friday on the same crypto-led bounce; still down on the week."
+        "change": "premarket futures -0.5%",
+        "observed": "Fri close 8/21 (last session before today, Mon 8/24)",
+        "note": "Nasdaq-100 futures down about 0.5% Monday morning, chip and software names leading declines; last confirmed close still Friday's rebound, down 2.1% on the week."
       },
       {
         "label": "10Y Treasury",
         "value": "~4.71%",
-        "change": "held roughly flat Friday",
+        "change": "no fresh print since Friday",
         "observed": "Fri close 8/21",
-        "note": "Long-dated yields touched their highest since 2007 mid-week; Treasury's expanded buyback program hasn't meaningfully capped them yet."
+        "note": "Held near its highest since 2007 as of Friday; Jackson Hole (Aug 27-29) is the next real catalyst for long-end yields."
       },
       {
         "label": "FOMC",
-        "value": "Hold ~68-70%, Hike ~30-32%",
-        "change": "essentially unchanged on the week",
+        "value": "Hold ~68%, Hike ~32%",
+        "change": "essentially unchanged",
         "observed": "as of Fri 8/21 (CME FedWatch)",
-        "note": "Bessent holds a press conference tomorrow, Mon Aug 24, on new Iran-related sanctions aimed partly at China; Fed Chair Kevin Warsh gives his first Jackson Hole keynote as chair Friday, Aug 28, ahead of the Sept 16 decision."
+        "note": "Bessent's Iran sanctions press conference is today at 2pm ET; Fed Chair Kevin Warsh gives his first Jackson Hole keynote as chair Friday, Aug 28, 10am ET, ahead of the Sept 16 decision."
       }
     ],
     "public_day_context": {
-      "date_label": "Sunday, August 23",
-      "weather": "Early sunshine giving way to afternoon storms: a high near 93F, heat index as high as 105-108F, with the usual South Florida pattern of a hot, humid morning breaking into thunderstorms by afternoon. The tropical Atlantic remains quiet for late August with nothing organized currently threatening Florida.",
-      "public_event": "The Marlins close out their three-game series with Washington at loanDepot Park this afternoon (Janson Junk vs. Jake Kent) after taking the first two; it's the week's last chance to catch the wild-card push in person before a six-week road-heavy stretch."
+      "date_label": "Monday, August 24",
+      "weather": "Scattered morning showers giving way to a hotter, more humid afternoon: high near 93F with afternoon thunderstorm chances around 40%, overnight low near 79F — the standard late-August South Florida pattern. Nothing organized in the tropical Atlantic threatening Florida.",
+      "public_event": "Treasury Secretary Scott Bessent holds a press conference at 2pm ET to detail what the administration has branded an 'economic D-Day' of new Iran sanctions — the day's single most consequential scheduled event, for markets and otherwise."
     },
     "what_changed": [
       {
-        "id": "delta-marlins-second-straight-win",
+        "id": "delta-klay-thompson-official-signing",
+        "thread_id": "thread-heat-klay-thompson",
+        "change_type": "resolved",
+        "title": "Klay Thompson's Heat move is no longer 'expected' — it's official",
+        "previous_state": "Saturday's edition reported Thompson had reached a buyout agreement with Dallas and, per reporting, intended to sign with Miami once he cleared waivers.",
+        "current_state": "Thompson cleared waivers and officially signed with Miami Sunday: two years, $11.5 million total, a player option in year two, and a 15% trade kicker — slightly below the ~$13M initially reported.",
+        "why_it_matters": "The uncertainty is gone — Miami now has a real floor-spacer locked in alongside Giannis Antetokounmpo and Bam Adebayo heading into training camp, not just a rumored one.",
+        "confidence": "high",
+        "source": {
+          "publisher": "ESPN",
+          "url": "https://www.espn.com/nba/story/_/id/49706703/klay-thompson-lands-heat-clearing-waivers"
+        }
+      },
+      {
+        "id": "delta-marlins-sweep-sobering-odds",
         "thread_id": "thread-marlins-wildcard",
-        "change_type": "improved",
-        "title": "Miami takes game two from Washington, its seventh straight over the Nationals",
-        "previous_state": "Saturday's edition reported Friday's 3-2 walk-off win — Sanoja's bases-loaded single — that put Miami back over .500 at 65-64.",
-        "current_state": "Miami beat Washington 4-2 Saturday on solo home runs from Heriberto Hernandez and Jakob Marsee, with Eury Perez working five innings; the Marlins improve to 66-64, their seventh straight win over the Nationals. Chicago, Philadelphia, and San Diego hold the three NL wild-card spots, with Miami bunched behind them alongside St. Louis, Cincinnati, and Pittsburgh. Sunday's finale (Janson Junk vs. Jackson Kent) closes out the series this afternoon.",
-        "why_it_matters": "Two straight wins to open the week's home stand keeps the wild-card math alive heading into a road-heavy stretch — this is exactly the kind of series a fringe contender needs to sweep, not just split.",
+        "change_type": "advanced",
+        "title": "Miami completes the sweep of Washington — but the numbers say the gap barely moved",
+        "previous_state": "Saturday's edition reported Miami's second straight win over Washington, 4-2, improving to 66-64 in a 'genuine six-team scrum' for the final wild-card spot.",
+        "current_state": "Miami finished the sweep Sunday, 6-2, on Xavier Edwards' go-ahead two-run single, improving to 67-64 — its eighth straight win over Washington. Playoff-odds models now put Miami at roughly 7.6%, about four games behind San Diego for the final NL wild-card spot, with Chicago, Philadelphia, and San Diego holding the three spots.",
+        "why_it_matters": "A three-game sweep feels like momentum, but attaching an actual percentage to it is a reminder of how much ground the Marlins still have to make up with six weeks left — winning the games in front of you and closing the standings gap are not the same thing.",
         "confidence": "high",
         "source": {
           "publisher": "MLB.com",
-          "url": "https://www.mlb.com/stories/game/823831"
+          "url": "https://www.mlb.com/news/marlins-sweep-series-against-nationals"
         }
       },
       {
-        "id": "delta-dolphins-giants-blowout-loss",
-        "thread_id": "thread-dolphins-hafley-rebuild",
-        "change_type": "worsened",
-        "title": "The Dolphins' preseason home opener was a rout, not a statement",
-        "previous_state": "Saturday's edition previewed today's game as the first real evaluation point since Thursday's combative joint practice, with most roster questions from camp still unresolved.",
-        "current_state": "The Giants routed Miami 26-3 at Hard Rock Stadium Saturday; Jameis Winston threw for 150 yards and ran for a touchdown in the first half. Chris Bell (ACL) did not play, still week-to-week per Hafley.",
-        "why_it_matters": "A joint practice that ended in a punch was supposed to be the low point of the week — instead the Dolphins followed it with a lopsided loss in their first real home look under Hafley, with real roster questions still open six weeks from the opener.",
-        "confidence": "high",
-        "source": {
-          "publisher": "PFF",
-          "url": "https://www.pff.com/news/nfl-preseason-week-2-recap-new-york-giants-26-miami-dolphins-3"
-        }
-      },
-      {
-        "id": "delta-marchand-recovery-timeline",
-        "thread_id": "thread-panthers-2026-27-season",
-        "change_type": "worsened",
-        "title": "Marchand's recovery window looks longer than first suggested",
-        "previous_state": "Saturday's edition reported Marchand's offseason hip/sports-hernia surgery had put his availability for the Sept. 29 opener 'in doubt,' with hope he'd be ready for the season.",
-        "current_state": "Reporting now puts Marchand's recovery at two or more months — the surgery kept him from playing in Zdeno Chara's Aug. 21 farewell charity game in Slovakia, which he'd planned to attend. An opener absence now looks more likely than not.",
-        "why_it_matters": "Two-plus months from a late-summer surgery pushes his return meaningfully into the season rather than just clouding opening night — a real absence for one of last year's playoff engines, not a camp footnote.",
-        "confidence": "medium",
-        "source": {
-          "publisher": "Yardbarker",
-          "url": "https://www.yardbarker.com/nhl/articles/start_of_season_in_doubt_for_panthers_star_brad_marchand/s1_17050_44178526"
-        }
-      },
-      {
-        "id": "delta-iran-china-sanctions-xi-visit",
+        "id": "delta-bessent-dday-today",
         "thread_id": "thread-iran-hormuz-crisis",
         "change_type": "advanced",
-        "title": "The China angle on Iran sanctions gets sharper — and runs into a September conflict",
-        "previous_state": "Saturday's edition reported Trump's 'economic D-Day' branding and Bessent's plan for a Monday press conference detailing secondary sanctions aimed partly at China.",
-        "current_state": "Bessent said Thursday the US will impose 'the toughest sanctions in history' on Iran and explicitly called on Beijing to cooperate, noting China bought more than 80% of Iran's shipped oil in 2025. Washington has so far sanctioned only smaller Chinese 'teapot' refineries, not major banks — reporting suggests that's deliberate restraint ahead of Xi Jinping's state visit to the White House, now confirmed for Sept. 24, timed to the UN General Assembly.",
-        "why_it_matters": "Monday's announcement is now a real test of whether the administration will risk a diplomatic set piece five weeks out to make the sanctions campaign bite — or whether the campaign's toughest tools stay on the shelf until after Xi leaves.",
+        "title": "Bessent's 'economic D-Day' press conference is today — and reporting sharpens what to expect",
+        "previous_state": "Sunday's edition reported Bessent's Monday press conference was scheduled to detail 'the toughest sanctions in history,' with Washington so far sanctioning only smaller Chinese refineries.",
+        "current_state": "The press conference happens today at 2pm ET. Pre-conference reporting says the measures are expected to reach beyond Iran's small teapot refineries toward the banks and foreign trade networks that actually move its oil — the restraint toward China's larger institutions that's held for weeks. Nothing is formally announced as of this morning; China's embassy has again rejected the pressure campaign.",
+        "why_it_matters": "This is the actual test, not another preview of one — whether Washington is willing to risk friction with Beijing five weeks before Xi's White House visit to make the sanctions campaign bite.",
         "confidence": "medium",
         "source": {
           "publisher": "Al-Monitor",
-          "url": "https://www.al-monitor.com/originals/2026/08/bessent-says-us-will-impose-toughest-ever-sanctions-iran-urges-china-cooperate"
+          "url": "https://www.al-monitor.com/originals/2026/08/us-treasury-secretary-bessent-hold-press-conference-iran-monday"
+        }
+      },
+      {
+        "id": "delta-marchand-recovery-narrows",
+        "thread_id": "thread-panthers-2026-27-season",
+        "change_type": "advanced",
+        "title": "Marchand's recovery goes from 'two-plus months' to a specific range",
+        "previous_state": "Sunday's edition reported Marchand's recovery at 'two or more months,' with an opener absence looking more likely than not.",
+        "current_state": "Reporting now puts the absence at six to ten missed games, with an earliest possible return around mid-October — addressing a hip and sports-hernia issue he played through all of 2025-26, Olympics included.",
+        "why_it_matters": "A vague multi-month estimate is now a specific chunk of the schedule Florida has to plan around — six to ten games is a real dent in the start of a season built around a settled roster otherwise.",
+        "confidence": "medium",
+        "source": {
+          "publisher": "ClutchPoints",
+          "url": "https://clutchpoints.com/nhl/florida-panthers/panthers-news-brad-marchand-disappointing-injury-update-surgery"
+        }
+      },
+      {
+        "id": "delta-medium-cool-new-address",
+        "thread_id": "thread-miami-summer-openings",
+        "change_type": "watch",
+        "title": "Medium Cool may have already resurfaced, a few blocks from where it started",
+        "previous_state": "Sunday's edition reported Medium Cool played its final Collins Avenue night Aug. 22 and was searching for a new Miami home.",
+        "current_state": "The lounge's own Yelp listing now shows a new address — 1690 Collins Ave, Miami Beach — with jazz programming Wed-Sun. Not yet confirmed by press coverage, so treat it as a promising signal rather than settled fact.",
+        "why_it_matters": "If it holds up, that's a two-day turnaround from farewell set to new address — worth confirming before making evening plans around it.",
+        "confidence": "low",
+        "source": {
+          "publisher": "Yelp",
+          "url": "https://www.yelp.com/biz/medium-cool-cocktail-lounge-miami-beach"
         }
       }
     ],
     "themes": [
       {
-        "id": "theme-heat-klay-thompson-buyout",
+        "id": "theme-heat-klay-thompson-signs",
         "affinity": "morning",
         "topic": "sports",
         "topic_label": "Miami Sports",
-        "title": "Klay Thompson's Heat move was the week's biggest Miami sports story",
-        "importance": 0.62,
-        "thesis": "After weeks of pursuit, Miami landed a real shooter to put next to Giannis Antetokounmpo and Bam Adebayo — the first genuine roster addition since the trade that remade the team.",
-        "synthesis": "Klay Thompson reached a buyout agreement with the Dallas Mavericks Friday, and per ESPN's Shams Charania, intends to sign with Miami once he clears waivers — a two-year deal worth close to $13 million with a player option in year two. Thompson's Dallas tenure effectively ended when the Luka Doncic trade reshaped the roster around him; Miami had reportedly pursued him for weeks as a floor-spacing wing. The move caps a summer in which Miami traded for Giannis Antetokounmpo, missed on LeBron James (who signed with Philadelphia instead), and re-signed Tim Hardaway Jr. — Pat Riley had said the team was moving forward with the roster \"as built\" before this landed.",
-        "new_today": "The week's fullest picture of the deal: buyout terms, reported contract structure, and Thompson's expected role.",
-        "why_it_matters": "A career 3-point shooter of Thompson's caliber gives Giannis and Bam actual floor spacing to work with — a real basketball answer to the roster question that's lingered since the LeBron miss, not just a name.",
+        "title": "Klay Thompson's Heat deal is now official",
+        "importance": 0.55,
+        "thesis": "What was 'expected' all weekend became official Sunday — Miami's floor-spacing answer is signed, sealed, and locked in before training camp.",
+        "synthesis": "Klay Thompson officially signed with Miami on Sunday after clearing waivers on his buyout from Dallas. The finalized deal: two years and $11.5 million total, with a player option in year two and a 15% trade kicker — a touch below the roughly $13 million initially reported Friday. Thompson's Dallas tenure effectively ended when the Luka Doncic trade reshaped the roster around him; Miami pursued him for weeks as a floor-spacing wing to play alongside Giannis Antetokounmpo and Bam Adebayo, following the Giannis trade and LeBron James's decision to sign with Philadelphia instead.",
+        "new_today": "The signing is now official rather than reported-as-expected, with the finalized contract terms.",
+        "why_it_matters": "A career 3-point shooter locked into a real contract, not just a rumor, gives Giannis and Bam actual floor spacing to build training camp around — the roster question that lingered since the LeBron miss now has a settled answer.",
         "thread_id": "thread-heat-klay-thompson",
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "NBA.com",
-            "headline": "Reports: Klay Thompson expected to sign with Heat after Mavs buyout",
-            "url": "https://www.nba.com/news/klay-thompson-heat-2026-free-agency"
+            "publisher": "ESPN",
+            "headline": "Klay Thompson lands with Heat after clearing waivers",
+            "url": "https://www.espn.com/nba/story/_/id/49706703/klay-thompson-lands-heat-clearing-waivers"
           },
           {
             "role": "analysis",
-            "publisher": "ClutchPoints",
-            "headline": "Heat news: Klay Thompson to sign with Heat after Mavericks buyout agreement",
-            "url": "https://clutchpoints.com/nba/miami-heat/heat-news-klay-thompson-sign-after-mavericks-buyout"
+            "publisher": "Hoops Rumors",
+            "headline": "Klay Thompson To Sign Two-Year Deal With Heat",
+            "url": "https://www.hoopsrumors.com/2026/08/klay-thompson-to-sign-two-year-deal-with-heat.html"
           },
           {
             "role": "background",
-            "publisher": "Yardbarker",
-            "headline": "Details of Klay Thompson's expected contract with Miami Heat revealed after Dallas Mavericks buyout",
-            "url": "https://www.yardbarker.com/nba/articles/details_of_klay_thompsons_expected_contract_with_miami_heat_revealed_after_dallas_mavericks_buyout/s1_17664_44204760"
+            "publisher": "NBA.com",
+            "headline": "Reports: Klay Thompson expected to sign with Heat after Mavs buyout",
+            "url": "https://www.nba.com/news/klay-thompson-heat-2026-free-agency"
           }
         ]
       },
       {
-        "id": "theme-marlins-week-over-500",
+        "id": "theme-marlins-sweep-tough-math",
         "affinity": "morning",
         "topic": "sports",
         "topic_label": "Miami Sports",
-        "title": "Miami strings together a win streak and climbs back over .500",
-        "importance": 0.5,
-        "thesis": "A Friday walk-off and a Saturday power display got Miami to seven straight wins over Washington and its first winning record in weeks, in a wild-card race that's now a genuine six-team scrum.",
-        "synthesis": "Miami swept its first two games of a three-game set with Washington: a 3-2 walk-off Friday on Javier Sanoja's bases-loaded single, then a 4-2 win Saturday on solo home runs from Heriberto Hernandez and Jakob Marsee, with Eury Perez working five innings. The Marlins improve to 66-64, their first time over .500 in weeks, having now beaten Washington seven straight times. Chicago, Philadelphia, and San Diego hold the three NL wild-card spots; Arizona sits about a game back of the cutline, with Miami bunched behind them alongside St. Louis, Cincinnati, and Pittsburgh. Sunday's finale (Janson Junk vs. Jackson Kent) closes the series this afternoon, opening a six-week stretch with real playoff stakes still live.",
-        "new_today": "The week's full arc: two straight wins, the .500 milestone, and where the wild-card picture stands heading into the stretch run.",
-        "why_it_matters": "It doesn't close the wild-card gap by itself, but two scrappy wins over a team they now own is exactly the kind of series a fringe contender needs to keep stacking with six weeks left.",
+        "title": "Miami sweeps Washington — and finds out how far back it actually is",
+        "importance": 0.55,
+        "thesis": "Eight straight wins over the Nationals got Miami to 67-64, but the wild-card math attached to that streak is a lot less generous than the winning feels.",
+        "synthesis": "Miami completed a three-game sweep of Washington Sunday, 6-2, on Xavier Edwards' go-ahead two-run single in the fifth — its eighth straight win over the Nationals, improving to 67-64. Chicago, Philadelphia, and San Diego hold the three NL wild-card spots, with Arizona about a game back of the cutline. Despite the sweep, current playoff-odds models give Miami only about a 7.6% chance at the postseason, roughly four games behind San Diego for the final spot — a tougher climb than the 'genuine six-team scrum' framing of recent days suggested. Miami opens a road-heavy six-week stretch next.",
+        "new_today": "Sunday's series-closing win, the full sweep, and the sobering playoff-odds number attached to it.",
+        "why_it_matters": "Sweeping a series you're supposed to sweep is necessary but not sufficient — the actual gap to a wild-card spot barely moved, a reminder that the schedule ahead matters more than the streak behind.",
         "thread_id": "thread-marlins-wildcard",
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
             "publisher": "MLB.com",
-            "headline": "Hernandez, Marsee homer in the Marlins' win over the Nationals",
-            "url": "https://www.mlb.com/stories/game/823831"
+            "headline": "Marlins looking to improve playoff odds with sweep of Nationals",
+            "url": "https://www.mlb.com/news/marlins-sweep-series-against-nationals"
           },
           {
             "role": "background",
-            "publisher": "WSVN 7News (AP)",
-            "headline": "Javier Sanoja singles with bases loaded in 9th to give the Marlins a 3-2 win over the Nationals",
-            "url": "https://wsvn.com/uncategorized/javier-sanoja-singles-with-bases-loaded-in-9th-to-give-the-marlins-a-3-2-win-over-the-nationals/"
+            "publisher": "ESPN",
+            "headline": "Nationals vs. Marlins box score, Aug 23 2026",
+            "url": "https://www.espn.com/mlb/game/_/gameId/401816644/nationals-marlins"
           }
         ]
       },
       {
-        "id": "theme-dolphins-rocky-camp-week",
+        "id": "theme-panthers-marchand-recovery-narrows",
         "affinity": "morning",
         "topic": "sports",
         "topic_label": "Miami Sports",
-        "title": "A fight in practice, then a blowout loss — the Dolphins' roughest camp week yet",
+        "title": "Marchand's recovery gets a real number attached to it",
         "importance": 0.46,
-        "thesis": "The week that started with a joint-practice punch ended with a 26-3 preseason loss at home, leaving most of Hafley's roster questions from camp still unresolved with six weeks to the opener.",
-        "synthesis": "Thursday's joint practice with the Giants turned openly hostile — RT Austin Jackson was ejected for throwing a punch, and Giants LB Abdul Carter took a swing at LT Patrick Paul. Hafley said postgame he'd be disappointed to see more fighting, that it isn't a sign of toughness. Saturday's actual game was worse: the Giants routed Miami 26-3 at Hard Rock Stadium, with Jameis Winston throwing for 150 yards and running for a touchdown in the first half alone. Rookie WR Chris Bell, activated off the non-football-injury list the week before, did not play — Hafley called him week-to-week in his ACL recovery, with hope he's ready for the regular season. DT Zach Sieler should be ready for the opener; DT Kenneth Grant remains week-to-week.",
-        "new_today": "Saturday's final score and the full week's arc, from Thursday's fight to Saturday's rout.",
-        "why_it_matters": "Preseason scores matter less than what they reveal about depth and discipline — this week revealed a team still working out both, with real evaluation time running short before games count.",
-        "thread_id": "thread-dolphins-hafley-rebuild",
-        "confidence": "high",
-        "sources": [
-          {
-            "role": "primary_reporting",
-            "publisher": "PFF",
-            "headline": "NFL Preseason Week 2 Recap: New York Giants 26, Miami Dolphins 3",
-            "url": "https://www.pff.com/news/nfl-preseason-week-2-recap-new-york-giants-26-miami-dolphins-3"
-          },
-          {
-            "role": "background",
-            "publisher": "Miami Dolphins",
-            "headline": "Game Recap: Dolphins Drop Preseason Contest to Giants",
-            "url": "https://www.miamidolphins.com/news/game-recap-dolphins-drop-preseason-contest-to-giants"
-          },
-          {
-            "role": "background",
-            "publisher": "Athlon Sports",
-            "headline": "Giants push Dolphins around in joint practice as Jeff Hafley's toughness makeover hits a snag",
-            "url": "https://athlonsports.com/nfl/miami-dolphins/giants-push-dolphins-around-in-joint-practice-as-jeff-hafleys-toughness-makeover-hits-snag"
-          }
-        ]
-      },
-      {
-        "id": "theme-iran-economic-dday-bessent",
-        "affinity": "morning",
-        "topic": "markets",
-        "topic_label": "Markets & Macro",
-        "title": "Iran sanctions widen toward China, timed against Xi's September visit",
-        "importance": 0.72,
-        "thesis": "What started the week as a pivot from bombs to sanctions has become a direct confrontation with China over who buys Iranian oil — one now colliding with a state visit five weeks out.",
-        "synthesis": "Trump branded his sanctions campaign an \"economic D-Day\"; Bessent said Thursday the US will impose \"the toughest sanctions in history\" on Iran and explicitly called on Beijing to cooperate, noting China bought more than 80% of Iran's shipped oil in 2025. He holds a press conference tomorrow, Monday Aug. 24, to detail the measures, including possible secondary sanctions on countries and companies evading Iran sanctions. So far Washington has sanctioned only smaller Chinese \"teapot\" refineries, not major banks — restraint that reporting ties to Xi Jinping's state visit to the White House, now confirmed for Sept. 24 alongside the UN General Assembly. China's foreign ministry has rejected the pressure outright; Iran's called the threat \"a recipe for an abysmal return to full-scale classic colonialism.\" Brent crude held near $94 for a second straight ~6% weekly gain; no new vessel attack in the strait has been confirmed since the mid-August ADNOC cluster.",
-        "new_today": "The confirmed Sept. 24 Xi visit date and the reporting that ties Washington's restraint on major Chinese banks to it, ahead of tomorrow's Bessent announcement.",
-        "why_it_matters": "Five months of military escalation didn't reopen the strait; this is a genuinely different lever, and it's now set to collide with the biggest US-China diplomatic event of the year — tomorrow's announcement is the first real test of which one gives.",
-        "thread_id": "thread-iran-hormuz-crisis",
-        "confidence": "high",
-        "sources": [
-          {
-            "role": "primary_reporting",
-            "publisher": "Al-Monitor",
-            "headline": "Bessent says US will impose toughest ever sanctions on Iran, urges China to cooperate",
-            "url": "https://www.al-monitor.com/originals/2026/08/bessent-says-us-will-impose-toughest-ever-sanctions-iran-urges-china-cooperate"
-          },
-          {
-            "role": "analysis",
-            "publisher": "The National",
-            "headline": "Bessent vows to isolate Iran's economy as US increases pressure on allies",
-            "url": "https://www.thenationalnews.com/news/us/2026/08/20/bessent-iran-sanctions/"
-          },
-          {
-            "role": "background",
-            "publisher": "NPR",
-            "headline": "Top Iran official says U.S. focus on economic warfare shows it has failed militarily",
-            "url": "https://www.npr.org/2026/08/21/nx-s1-5940610/iran-us-threat-economic-warfare"
-          }
-        ]
-      },
-      {
-        "id": "theme-panthers-marchand-surgery-offseason",
-        "affinity": "morning",
-        "topic": "sports",
-        "topic_label": "Miami Sports",
-        "title": "Marchand's recovery window looks longer than first suggested",
-        "importance": 0.48,
-        "thesis": "A hip issue Marchand played through all last season — Olympics included — finally got fixed this summer, and the recovery timeline that's emerged this week makes an opener absence look more likely than not.",
-        "synthesis": "Brad Marchand confirmed he had a \"last-minute\" offseason surgery on a hip and sports-hernia issue he played through during 2025-26, including at the February Olympics. Reporting this week puts the recovery at two or more months — the surgery kept him from playing in Zdeno Chara's Aug. 21 farewell charity game in Slovakia, which he had planned to attend, and his Sept. 29 season-opener availability now looks unlikely rather than merely in doubt. The rest of the roster is otherwise set: Brady Tkachuk arrives from Ottawa to play alongside brother Matthew, Jacob Markstrom takes over in goal for Sergei Bobrovsky (who signed with Toronto), and the front office drew an \"A\" grade in The Athletic's annual confidence poll. Home opener is Oct. 10 vs. Minnesota at Amerant Bank Arena.",
-        "new_today": "The two-plus-month recovery estimate and the missed Chara charity game as the clearest sign yet of the timeline's severity.",
-        "why_it_matters": "Marchand was one of the engines of last year's playoff run — a real, extended absence to start the season reshapes how the year begins, not just a camp footnote anymore.",
+        "thesis": "A vague 'two-plus months' has become a specific range — six to ten missed games, with a mid-October target that reshapes the opening weeks of the Panthers' season.",
+        "synthesis": "Reporting now puts Brad Marchand's recovery from offseason hip and sports-hernia surgery at six to ten missed games, with an earliest possible return around mid-October. The injury is one he played through all of 2025-26, including the February Olympics, before finally addressing it this summer — the surgery also kept him from Zdeno Chara's Aug. 21 farewell charity game in Slovakia, which he'd planned to attend. The rest of the roster remains set: Brady Tkachuk arrives from Ottawa to play alongside brother Matthew, Jacob Markstrom takes over in goal for Sergei Bobrovsky (now in Toronto), and the front office drew an 'A' grade in The Athletic's confidence poll. Home opener is Oct. 10 vs. Minnesota.",
+        "new_today": "The six-to-ten-game, mid-October estimate replacing last week's vaguer 'two or more months.'",
+        "why_it_matters": "This is no longer an opening-night availability question — it's a real chunk of October the Panthers have to plan around without one of last year's playoff engines.",
         "thread_id": "thread-panthers-2026-27-season",
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Yardbarker",
-            "headline": "Start of season in doubt for Panthers star Brad Marchand",
-            "url": "https://www.yardbarker.com/nhl/articles/start_of_season_in_doubt_for_panthers_star_brad_marchand/s1_17050_44178526"
+            "publisher": "ClutchPoints",
+            "headline": "Panthers' Brad Marchand provides disappointing injury update after offseason surgery",
+            "url": "https://clutchpoints.com/nhl/florida-panthers/panthers-news-brad-marchand-disappointing-injury-update-surgery"
           },
           {
             "role": "background",
@@ -285,55 +231,89 @@
         ]
       },
       {
-        "id": "theme-markets-volatile-week-crypto-rebound",
+        "id": "theme-iran-bessent-dday-live",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "A whiplash week — down on Fed-hawkish fears, down harder on Walmart, up on crypto that had nothing to do with either",
-        "importance": 0.62,
-        "thesis": "This week's market moves rarely tracked the story everyone assumed was driving them, and the FOMC's odds barely moved despite five days of noise.",
-        "synthesis": "The week opened on renewed hawkish positioning and Hormuz-risk jitters, took its worst hit Thursday when Walmart's slowest US comp-sales growth in six years (2.6%) sent the stock down 9.15% in its worst day in four years and dragged the broader market with it, then reversed entirely Friday on a crypto rally (bitcoin +7% to roughly $76,900, +22% on the week) that had no economic data behind it at all. Net for the week: S&P -1.4%, Nasdaq -2.1%, Dow -0.9%, the 10-year holding near 4.71% after touching its highest close since 2007 mid-week. September FOMC hold odds end the week almost exactly where they started it, near 68-70%.",
-        "new_today": "The week's full shape: the Fed-hawkish open, the Walmart-driven low, and the crypto-driven recovery that still wasn't enough.",
-        "why_it_matters": "A week that swings on Fed positioning, then a single retailer's earnings, then crypto with no connection to either is a reminder that daily market narratives are mostly noise around a Fed decision that hasn't actually moved much at all.",
-        "thread_id": "thread-fed-rate-path",
-        "confidence": "high",
-        "sources": [
-          {
-            "role": "primary_reporting",
-            "publisher": "Yahoo Finance",
-            "headline": "Stock market today: Dow, S&P 500, Nasdaq post weekly losses as bond volatility remains in focus, bitcoin soars",
-            "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-august-21-dow-sp-500-nasdaq-bitcoin-080533702.html"
-          },
-          {
-            "role": "background",
-            "publisher": "TheStreet",
-            "headline": "Stock Market Today (Aug. 21, 2026): S&P 500, Russell 2000 jump after tumultuous week for Treasurys",
-            "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-21-2026"
-          }
-        ]
-      },
-      {
-        "id": "theme-mimo-burgers-medium-cool-closing",
-        "affinity": "evening",
-        "topic": "miami",
-        "topic_label": "Miami Life & Culture",
-        "title": "A historic MiMo building gets a new tenant as a beloved jazz room says goodbye to Collins Avenue",
-        "importance": 0.38,
-        "thesis": "Miami's dining and nightlife map keeps rewriting itself in both directions at once — a new burger spot moves into a mid-century landmark the same week a genuinely loved jazz lounge plays its last set.",
-        "synthesis": "Burgers & Shakes opened a second South Florida location inside the 1954 General Tire Building in the MiMo Historic District — designed by architect Robert Law Weed, and most recently home to Andiamo Brick Oven Pizza, which closed in December after 23 years. Separately, Medium Cool, the jazz lounge beneath the Gale Hotel on Collins Avenue, played its final night this week after nearly four years of nightly live jazz and DJ programming; the team says it's searching for a new Miami home rather than closing for good. Miami Spice discounted dining continues through Sept. 30.",
-        "new_today": "Carried forward as the week's clearest snapshot of the dining and nightlife map shifting in both directions at once.",
-        "why_it_matters": "One is a plan for a night out; the other was a chance to say goodbye to a room before it's gone — worth watching where Medium Cool resurfaces next.",
-        "thread_id": "thread-miami-summer-openings",
+        "title": "Bessent's 'economic D-Day' press conference happens today at 2pm ET",
+        "importance": 0.75,
+        "thesis": "Five weeks of buildup toward the Iran sanctions campaign's toughest measures come to a head this afternoon, with early reporting suggesting Washington finally reaches past token gestures toward China.",
+        "synthesis": "Treasury Secretary Bessent holds a press conference at 2pm ET today to detail what the administration has branded an 'economic D-Day' — sanctions promised to be 'the toughest in history' on Iran. Pre-conference reporting says the measures are expected to target Iranian oil, banks, and the foreign trade networks that move it, going beyond the smaller Chinese 'teapot' refineries sanctioned so far. That restraint toward China's larger banks has been read as an effort to avoid provoking Beijing ahead of Xi Jinping's confirmed Sept. 24 White House visit. China's embassy in Washington repeated its rejection of the pressure campaign over the weekend: 'sanctions and pressure do not help resolve the problem.' Brent crude has held near $94 on a second straight ~6% weekly gain; no new vessel attack in the strait has been confirmed since mid-August.",
+        "new_today": "The press conference itself, today, plus pre-conference reporting sharpening the expected scope toward banks and trade networks.",
+        "why_it_matters": "This is the moment five weeks of branding and buildup either becomes real policy that risks friction with Beijing, or turns out to be more restrained than the rhetoric suggested — either answer matters for oil prices and for how seriously to take the next round of threats.",
+        "thread_id": "thread-iran-hormuz-crisis",
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Miami New Times",
-            "headline": "Burger Spot Finds a New Home Inside Historic Miami Landmark",
-            "url": "https://www.miaminewtimes.com/food-drink/burger-spot-finds-a-new-home-inside-historic-miami-landmark-40569594/"
+            "publisher": "Al-Monitor",
+            "headline": "Bessent says US to impose 'toughest' ever sanctions on Iran, urges China to cooperate",
+            "url": "https://www.al-monitor.com/originals/2026/08/us-treasury-secretary-bessent-hold-press-conference-iran-monday"
           },
           {
+            "role": "analysis",
+            "publisher": "NBC News",
+            "headline": "U.S., Iran keep up hostile rhetoric ahead of new sanctions",
+            "url": "https://www.nbcnews.com/world/iran/us-iran-keep-hostile-rhetoric-ahead-new-sanctions-rcna593870"
+          },
+          {
+            "role": "background",
+            "publisher": "Arab News",
+            "headline": "Bessent says US will impose toughest ever sanctions on Iran, urges allies and China to cooperate",
+            "url": "https://www.arabnews.com/node/2655346/middle-east"
+          }
+        ]
+      },
+      {
+        "id": "theme-fed-jackson-hole-week-begins",
+        "affinity": "morning",
+        "topic": "markets",
+        "topic_label": "Markets & Macro",
+        "title": "A softer Monday opens the week markets actually care about",
+        "importance": 0.5,
+        "thesis": "Friday's crypto-fueled bounce didn't carry into Monday, and the real catalysts — Nvidia earnings and Warsh's first Jackson Hole keynote as Fed chair — are still days away.",
+        "synthesis": "Stock futures pointed modestly lower Monday morning: Dow futures down about 11 points, S&P and Nasdaq-100 futures off roughly 0.1% and 0.5%, with tech leading the softness (the XLK sector ETF down nearly 1% premarket, Coherent and Lumentum among the laggards). It follows the Dow's second straight losing week. September FOMC hold odds sit essentially unchanged near 68% (32% hike) on CME FedWatch. The week's real catalysts are still ahead: Nvidia's earnings and the Jackson Hole Economic Policy Symposium, running Aug. 27-29 on the theme 'Financial Innovation: Implications for Payments and Policy,' where Fed Chair Kevin Warsh delivers his first keynote as chair Friday at 10am ET — 19 days before the Sept. 16 decision.",
+        "new_today": "Monday's softer premarket tone and the confirmed Jackson Hole schedule and theme.",
+        "why_it_matters": "Friday's bounce was always going to be tested by Monday, and it was — the real question for the week is what Warsh signals Friday, not today's modest premarket drift.",
+        "thread_id": "thread-fed-rate-path",
+        "confidence": "medium",
+        "sources": [
+          {
             "role": "primary_reporting",
+            "publisher": "Yahoo Finance",
+            "headline": "Stock market today: Dow, S&P 500, Nasdaq futures mixed",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-august-24-dow-sp-500-nasdaq-080306047.html"
+          },
+          {
+            "role": "background",
+            "publisher": "Tech Times",
+            "headline": "Jackson Hole 2026: What to Watch When Warsh Steps to the Podium Friday",
+            "url": "https://www.techtimes.com/articles/325228/20260821/jackson-hole-2026-what-watch-when-warsh-steps-podium-friday.htm"
+          }
+        ]
+      },
+      {
+        "id": "theme-medium-cool-reopens-collins",
+        "affinity": "evening",
+        "topic": "miami",
+        "topic_label": "Miami Life & Culture",
+        "title": "Medium Cool may not have skipped a week",
+        "importance": 0.35,
+        "thesis": "Two days after its Collins Avenue farewell, the jazz lounge's own listing already shows a new address a few blocks north — a faster resurfacing than 'searching for a new home' suggested.",
+        "synthesis": "Medium Cool played its final night beneath the Gale Hotel on Collins Avenue Aug. 22 after nearly four years of nightly live jazz. As of this morning, the venue's Yelp listing shows a new address — 1690 Collins Ave, Miami Beach — with jazz programming Wednesday through Sunday, 7pm to 3am (4am Friday and Saturday). No press coverage has confirmed the move yet; this is a business-listing signal, not a news report, so treat a visit there as worth calling ahead to confirm first.",
+        "new_today": "The new-address listing itself, surfacing just two days after the farewell night.",
+        "why_it_matters": "If it holds up, this is the rare closing-to-reopening story that resolves in days rather than months — worth knowing before you cross it off the evening list.",
+        "thread_id": "thread-miami-summer-openings",
+        "confidence": "low",
+        "sources": [
+          {
+            "role": "primary_reporting",
+            "publisher": "Yelp",
+            "headline": "Medium Cool Cocktail Lounge — business listing",
+            "url": "https://www.yelp.com/biz/medium-cool-cocktail-lounge-miami-beach"
+          },
+          {
+            "role": "background",
             "publisher": "Miami New Times",
             "headline": "Popular Miami Beach Jazz and Nightlife Spot Will Close in August",
             "url": "https://www.miaminewtimes.com/music/popular-miami-beach-jazz-and-nightlife-spot-will-close-in-august-40569113/"
@@ -341,80 +321,80 @@
         ]
       },
       {
-        "id": "theme-holy-red-daguerreotype-churches",
+        "id": "theme-magic-of-miami-beach-exhibit",
         "affinity": "evening",
-        "topic": "living",
-        "topic_label": "Art of Living",
-        "title": "A photographer turns South Florida's historic churches into daguerreotype plates",
-        "importance": 0.35,
-        "thesis": "Johel Pereira's new show renders the region's historic churches in a 19th-century photographic process, slowing down buildings most people drive past without noticing.",
-        "synthesis": "\"Holy Red,\" a new photography show by Johel Pereira, opened Aug. 14 at Homebase Studios in Liberty City and runs through Sept. 4. The series photographs historic churches across South Florida in daguerreotype format — an early photographic process that renders images on silvered copper plates, giving each print a distinctive, almost mirrored quality no digital reproduction fully replicates. Admission is free.",
-        "new_today": "This week's addition to Miami's evening-and-weekend art calendar.",
-        "why_it_matters": "A slow, physical photographic process applied to buildings Alex has probably driven past a hundred times without registering them — the kind of show worth an unhurried hour before it closes Sept. 4.",
+        "topic": "miami",
+        "topic_label": "Miami Life & Culture",
+        "title": "A new library show looks past the postcards to who actually built Miami Beach",
+        "importance": 0.38,
+        "thesis": "Before the celebrities and the nightclubs, Miami Beach was mangroves, coral, and the labor of people whose names never made the official histories — a new photography exhibition opening today takes that as its subject.",
+        "synthesis": "\"The Magic of Miami Beach\" opens today, Aug. 24, at the Miami Beach Regional Library, part of the Miami-Dade Public Library System. The exhibition uses Collins Park as its point of departure to explore, through photographs, the intertwined histories of nature and human labor behind one of America's best-known tourist destinations — the workers who transformed a landscape of mangroves, coral, and water into the city Alex knows, most of whom go unnamed in the standard telling. Admission is free.",
+        "new_today": "The exhibition's opening today.",
+        "why_it_matters": "A show built around the people history left out, in a place most visitors only ever see as finished — the kind of quiet corrective worth an unhurried hour.",
         "thread_id": null,
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Miami New Times",
-            "headline": "The best art exhibitions to see in Miami in August 2026",
-            "url": "https://www.miaminewtimes.com/arts-culture/best-art-exhibitions-to-see-in-miami-in-august-2026-40573506/"
+            "publisher": "Miami-Dade Public Library System",
+            "headline": "The Magic of Miami Beach",
+            "url": "https://mdpls.org/event/17027035"
           }
         ]
       }
     ],
     "rabbit_hole": {
-      "id": "rh-2026-08-23",
-      "title": "The Tantalizing Possibility of Locating Consciousness in the Brain",
-      "creator": "Noema Magazine",
+      "id": "rh-2026-08-24",
+      "title": "What We Think Is a Decline in Literacy Is a Design Problem",
+      "creator": "Aeon Essays",
       "format": "essay",
-      "minutes": 20,
-      "why": "This has sat in the reading queue for eleven days — a genuine weekend piece on where neuroscience actually stands in the search for consciousness's physical seat in the brain, rather than another speculative take on machine consciousness. Worth finally clearing it this weekend, before it hits the sixth flag the way the philosophy-of-living piece just did.",
-      "url": "https://www.noemamag.com/the-tantalizing-possibility-of-locating-consciousness-in-the-brain/",
+      "minutes": 18,
+      "why": "Alex's highest-weighted subtopic right now is technology and attention, and this is the sharpest version of that argument going: the inability to focus on a novel isn't a personal failing when the same person can watch a three-hour video essay start to finish — it's that platforms are engineered to fragment attention, and the fix is architecture, not willpower.",
+      "url": "https://aeon.co/essays/what-we-think-is-a-decline-in-literacy-is-a-design-problem",
       "related_interest": "living"
     },
     "beautiful_thing": {
-      "id": "bt-2026-08-23",
-      "title": "I Will Not Make Any More Boring Art",
-      "creator": "John Baldessari",
-      "era": "1971. On view as part of \"John Baldessari: The End of the Line,\" Perez Art Museum Miami, through July 23, 2027.",
-      "body": "For this piece, Baldessari had an art student repeatedly write the sentence \"I will not make any more boring art\" on gallery walls — a deadpan riff on the classroom punishment of writing lines, turned into a conceptual artwork about the anxiety of making bad work. It's one of the pieces that helped define conceptual art's turn toward wit, instruction, and self-reference over craft and object-making; Baldessari, who died in 2020, spent the following five decades testing how little an image or gesture needs before it stops working as art. Worth noticing: a punishment ritual repurposed as both artwork and standing dare to himself.",
-      "url": "https://www.pamm.org/en/press/perez-art-museum-miami-announces-2026-exhibitions/",
+      "id": "bt-2026-08-24",
+      "title": "Baby",
+      "creator": "Thomas Houseago",
+      "era": "c. 2009-10, plaster. On view as part of \"Thomas Houseago: First Light,\" the Rubell Museum's first single-artist survey, Miami, through Sept. 27, 2026.",
+      "body": "\"Baby\" is one of the large plaster figures that made Houseago's name — it was included in the Whitney Biennial in 2010, the show that introduced him to a wide American audience. The Rubells began collecting his work in 2006, after a visit to his studio (by candlelight, the power was out) led them to acquire eight sculptures on the spot; \"First Light\" traces two decades forward from there, from raw plaster and rebar to bronze to the large collaged canvases he's making now. Worth noticing: the visible armature and unfinished surface aren't a stage the work passed through on the way to being resolved — the roughness is the point, a body built out of the same materials that hold up a house.",
+      "url": "https://www.rubellmuseum.org/miami-exhibitions-2/thomas-houseago-first-light",
       "image": null,
-      "alt": "Gallery wall covered in repeated handwritten lines of the sentence 'I will not make any more boring art,' John Baldessari's 1971 conceptual piece."
+      "alt": "A large, roughly hewn plaster figure by Thomas Houseago, with visible armature and an unfinished, textured surface, on view at the Rubell Museum."
     },
     "noticing_prompt": {
-      "id": "np-2026-08-23",
-      "text": "Notice, this week, which of Thursday's or Friday's headlines you've already stopped thinking about — and ask what that says about how much of it mattered in the first place."
+      "id": "np-2026-08-24",
+      "text": "Notice, today, the gap between an event that feels decisive — a swept series, an economic D-Day press conference — and what it actually changes about where things stand. Watch which one turns out to be the illusion."
     },
     "daily_puzzle": {
-      "id": "dp-2026-08-23",
-      "type": "math",
-      "prompt": "A grandfather clock strikes six chimes in exactly five seconds. At that same steady pace, how many seconds will it take to strike twelve chimes?",
-      "hint": "Count the gaps between the chimes, not the chimes themselves.",
-      "solution": "11 seconds.",
-      "explanation": "Six chimes have five gaps between them, so each gap is one second. Twelve chimes have eleven gaps — 11 seconds, not the 10 you'd get by simply doubling."
+      "id": "dp-2026-08-24",
+      "type": "logic",
+      "prompt": "Three antique dealers — Rossi, Chen, and Okafor — each sold exactly one item at last week's auction: a clock, a vase, and a globe, one item per dealer. Rossi did not sell the clock. The globe seller made twice as much money as Chen. Okafor made less money than whoever sold the vase. Rossi made less money than whoever sold the globe. Who sold which item?",
+      "hint": "Start with what each person did NOT sell — there are more of those facts hiding in the clues than you'd think.",
+      "solution": "Rossi sold the vase, Chen sold the clock, and Okafor sold the globe.",
+      "explanation": "Chen can't be the globe seller (he'd have to make twice his own total) and Okafor can't be the vase seller (he'd have to out-earn himself) — and Rossi can't be the clock seller (given) or the globe seller (same self-comparison problem). That leaves Rossi with the vase by elimination, which forces Chen onto the clock and Okafor onto the globe."
     },
     "evening_unwind": {
-      "id": "eu-2026-08-23",
+      "id": "eu-2026-08-24",
       "evening_quote": {
-        "text": "Men are disturbed not by the things which happen, but by the opinions about the things.",
-        "attribution": "Epictetus",
-        "source": "Enchiridion, 5 (trans. Elizabeth Carter)"
+        "text": "Waste no more time arguing about what a good man should be. Be one.",
+        "attribution": "Marcus Aurelius",
+        "source": "Meditations, 10.16 (trans. Gregory Hays)"
       },
-      "evening_prompt": "This week ran from a punch thrown at Dolphins practice to a walk-off at loanDepot Park to a market rally sourced in crypto of all things — which of it will you actually still be thinking about by next Sunday?"
+      "evening_prompt": "Today ran on things becoming official — a signing, a press conference, a recovery estimate with a real number attached. Which of today's 'official' facts will still matter to you a month from now, and which was just today finally catching up to what you already knew?"
     },
     "reading_queue": [
       {
         "title": "Philosophy as an Art of Living",
         "url": "https://lareviewofbooks.org/article/philosophy-as-an-art-of-living/",
         "verdict": "probably_remove",
-        "reason": "Sixth flag now, unread for over a month — likely due for Alex to let go of it himself rather than keep carrying it forward."
+        "reason": "Seventh flag now, still unread since Aug. 2 — likely a call worth making rather than carrying it forward again."
       }
     ],
     "quote": {
-      "text": "The willingness to accept responsibility for one's own life is the source from which self-respect springs.",
-      "attribution": "Joan Didion"
+      "text": "I arise in the morning torn between a desire to save the world and a desire to savor the world.",
+      "attribution": "E.B. White"
     }
   },
   "threads": [
@@ -423,9 +403,9 @@
       "title": "US-Iran conflict and the Strait of Hormuz",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-08-23",
-      "updates": 44,
-      "current_state": "Bessent says the US will impose \"the toughest sanctions in history\" on Iran, detailed at a Monday Aug. 24 press conference, and has urged China (which bought over 80% of Iran's shipped oil in 2025) to cooperate; Washington has so far sanctioned only smaller Chinese refineries, not major banks, reportedly to avoid provoking Beijing ahead of Xi Jinping's state visit to the White House, now confirmed for Sept. 24. Iran calls the pressure campaign \"colonialism\"; no new vessel attack in the strait has been confirmed since mid-August. Oil holds near $94 Brent on a second straight weekly gain.",
+      "last_updated": "2026-08-24",
+      "updates": 45,
+      "current_state": "Treasury Secretary Bessent holds a 2pm ET press conference today, Monday Aug. 24, to detail sanctions branded an 'economic D-Day' — pre-conference reporting suggests the measures will target Iranian oil, banks, and the foreign trade networks that move it, a real escalation beyond the smaller Chinese 'teapot' refineries sanctioned so far. That restraint has been read as an effort to avoid provoking Beijing ahead of Xi Jinping's Sept. 24 White House visit; China's embassy has again rejected the pressure campaign outright. Today's announcement is the actual test of how far Washington is willing to go.",
       "timeline": [
         {
           "date": "2026-07-21",
@@ -646,18 +626,22 @@
           "date": "2026-08-23",
           "summary": "Bessent said the US will impose \"the toughest sanctions in history\" on Iran and explicitly called on China to cooperate, noting China bought over 80% of Iran's shipped oil in 2025. Washington has sanctioned only smaller Chinese \"teapot\" refineries so far, not major banks — reporting ties that restraint to Xi Jinping's state visit to the White House, now confirmed for Sept. 24 alongside the UN General Assembly. Monday's press conference is the next real test of how far the campaign goes.",
           "change_type": "advanced"
+        },
+        {
+          "date": "2026-08-24",
+          "summary": "Bessent's long-promised 'economic D-Day' press conference happens today at 2pm ET. Pre-conference reporting signals the sanctions finally reach past Iran's small teapot refineries toward the banks and foreign trade networks that actually move its oil — the exact restraint toward China that's held for weeks — though nothing is formally announced as of this morning. China's embassy again rejected the pressure campaign: 'sanctions and pressure do not help resolve the problem.'",
+          "change_type": "advanced"
         }
-      ],
-      "importance": 0.72
+      ]
     },
     {
       "id": "thread-fed-rate-path",
       "title": "Federal Reserve rate path",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-08-22",
-      "updates": 39,
-      "current_state": "Friday's close rebounded on a crypto-led rally: S&P +0.43% to 7,674.37, Dow +0.98% to 53,277.01, Nasdaq +0.43% to 26,180.45, 10-year steady near 4.71%. Still, all three indices closed lower for the week after Thursday's Walmart-driven selloff. September FOMC hold odds hold near 68% (32% hike); Fed Chair Kevin Warsh gives his first Jackson Hole keynote as chair next Friday, Aug. 28.",
+      "last_updated": "2026-08-24",
+      "updates": 40,
+      "current_state": "Monday opens on a softer note — futures modestly lower, tech leading declines, after the Dow's second straight losing week. September FOMC hold odds sit essentially unchanged near 68% (32% hike). The week's real catalysts are still ahead: Nvidia earnings and the Jackson Hole Economic Policy Symposium (Aug. 27-29), where Fed Chair Kevin Warsh delivers his first keynote as chair Friday at 10am ET, 19 days before the Sept. 16 decision.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -843,18 +827,22 @@
           "date": "2026-08-22",
           "summary": "Friday's confirmed close rebounded across the board: S&P +0.43% to 7,674.37, Dow +0.98% (+517.80 pts) to 53,277.01, Nasdaq +0.43% to 26,180.45, led less by any economic data than by a crypto rally (bitcoin +7% to roughly $76,900, +22% on the week) that lifted Robinhood and Coinbase alongside the broader tape. The 10-year held steady near 4.71%. Despite the bounce, all three indices still closed lower for the week (S&P -1.4%, Nasdaq -2.1%, Dow -0.9%) after Thursday's Walmart-driven selloff. September FOMC hold odds sit near 68% (32% hike) on CME FedWatch, essentially unchanged from Thursday — new Fed Chair Kevin Warsh (confirmed May 13, sworn in May 22) delivers his first Jackson Hole keynote as chair next Friday, Aug. 28.",
           "change_type": "improved"
+        },
+        {
+          "date": "2026-08-24",
+          "summary": "Monday premarket points softer: Dow futures down about 11 points, S&P and Nasdaq-100 futures off 0.1% and 0.5%, tech leading declines (XLK -1%) after last week's second straight losing week for the Dow. September FOMC hold odds essentially unchanged near 68%. The week ahead: Nvidia earnings and the Jackson Hole Economic Policy Symposium, which opens Thursday Aug. 27 with Fed Chair Kevin Warsh's first keynote as chair Friday at 10am ET — 19 days before the Sept. 16 decision.",
+          "change_type": "watch"
         }
-      ],
-      "importance": 0.55
+      ]
     },
     {
       "id": "thread-marlins-wildcard",
       "title": "Marlins wild card race",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-08-23",
-      "updates": 43,
-      "current_state": "Miami won the first two games of its series with Washington — Friday's 3-2 walk-off on Javier Sanoja's bases-loaded single, then a 4-2 win Saturday on solo homers from Heriberto Hernandez and Jakob Marsee — improving to 66-64 and extending its win streak over the Nationals to seven straight. Chicago, Philadelphia, and San Diego hold the three NL wild-card spots; Miami sits in a bunched chase pack with St. Louis, Cincinnati, and Pittsburgh. Sunday's series finale (Janson Junk vs. Jackson Kent) closes out the home stand this afternoon.",
+      "last_updated": "2026-08-24",
+      "updates": 44,
+      "current_state": "Miami swept Washington to reach 67-64, its eighth straight win over the Nationals and best stretch in weeks — but the numbers behind the streak are sobering: roughly a 7.6% chance at the postseason, about four games back of the final NL wild-card spot behind Chicago, Philadelphia, and San Diego, with Arizona also ahead of Miami in the chase.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -1060,9 +1048,13 @@
           "date": "2026-08-23",
           "summary": "Miami beat Washington 4-2 Saturday on solo home runs from Heriberto Hernandez and Jakob Marsee, with Eury Perez working five innings — the Marlins' seventh straight win over the Nationals, improving to 66-64. Sunday's finale (Janson Junk vs. Jackson Kent) closes the series this afternoon.",
           "change_type": "improved"
+        },
+        {
+          "date": "2026-08-24",
+          "summary": "Miami completed the sweep of Washington Sunday, 6-2, on Xavier Edwards' go-ahead two-run single, improving to 67-64 — eight straight wins over the Nationals. But the sweep didn't close the gap much: models now give Miami roughly 7.6% playoff odds, about four games behind San Diego for the final NL wild-card spot, with Chicago, Philadelphia, and San Diego holding the three spots and Arizona a game back of the cutline.",
+          "change_type": "advanced"
         }
-      ],
-      "importance": 0.58
+      ]
     },
     {
       "id": "thread-heat-giannis-era",
@@ -1103,8 +1095,7 @@
           "summary": "LeBron James signs a two-year, $8M deal with the Philadelphia 76ers, not Miami; Rich Paul says James chose to preserve the memory of a title already won rather than risk a lesser second chapter.",
           "change_type": "resolved"
         }
-      ],
-      "importance": 0.35
+      ]
     },
     {
       "id": "thread-dolphins-hafley-rebuild",
@@ -1270,8 +1261,7 @@
           "summary": "The Giants routed Miami 26-3 Saturday at Hard Rock Stadium — Jameis Winston threw for 150 yards and ran for a touchdown in the first half. Chris Bell (ACL) did not play, still week-to-week per Hafley.",
           "change_type": "worsened"
         }
-      ],
-      "importance": 0.5
+      ]
     },
     {
       "id": "thread-hurricanes-fall-camp",
@@ -1312,17 +1302,16 @@
           "summary": "Friday's second scrimmage at Hard Rock Stadium was a closer back-and-forth than the first — the offense reportedly had the better of the work this time, a reversal from scrimmage one, where the defense had the upper hand. Cristobal called it good, competitive work with two weeks left before the Sept. 4 opener at Stanford.",
           "change_type": "advanced"
         }
-      ],
-      "importance": 0.48
+      ]
     },
     {
       "id": "thread-miami-summer-openings",
       "title": "Miami summer restaurant wave",
       "topic": "miami",
       "status": "active",
-      "last_updated": "2026-08-22",
-      "updates": 13,
-      "current_state": "Burgers & Shakes opened a second location in the historic MiMo General Tire Building, while Medium Cool — the jazz lounge beneath the Gale Hotel — plays its final Collins Avenue night tonight after nearly four years, with plans to resurface elsewhere. Miami Spice discounted dining continues through Sept. 30.",
+      "last_updated": "2026-08-24",
+      "updates": 14,
+      "current_state": "Burgers & Shakes' MiMo location and Miami Slice's Coconut Grove opening carry forward from last week; Medium Cool, which played its Collins Avenue farewell Aug. 22, now shows a new address a few blocks away at 1690 Collins Ave per its own Yelp listing — an unconfirmed but promising sign it resurfaced quickly. Miami Spice discounted dining continues through Sept. 30.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -1388,9 +1377,13 @@
           "date": "2026-08-22",
           "summary": "Burgers & Shakes opened a second South Florida location Aug. 4 inside the historic 1954 General Tire Building in the MiMo Historic District — designed by architect Robert Law Weed, most recently home to Andiamo Brick Oven Pizza, which closed after 23 years. Separately, Medium Cool, the jazz lounge beneath the Gale Hotel on Collins Avenue, plays its final night tonight after nearly four years, with nightly live jazz through 10pm; the team says it's searching for a new Miami home rather than closing for good.",
           "change_type": "advanced"
+        },
+        {
+          "date": "2026-08-24",
+          "summary": "Medium Cool's Yelp listing now shows a new address — 1690 Collins Ave, Miami Beach, a few blocks from its old Gale Hotel home — with hours Wed-Sun 7pm-3am (4am Fri/Sat), suggesting the jazz lounge didn't stay dark long after Saturday's farewell night. Not yet confirmed by press coverage.",
+          "change_type": "watch"
         }
-      ],
-      "importance": 0.5
+      ]
     },
     {
       "id": "thread-miami-freedom-park-civic",
@@ -1406,8 +1399,7 @@
           "summary": "First tracked: civic center topped off, full project scope confirmed.",
           "change_type": "new"
         }
-      ],
-      "importance": 0.3
+      ]
     },
     {
       "id": "thread-cre-capital-markets-2026",
@@ -1528,8 +1520,7 @@
           "summary": "This week's South Florida deal sheet (The Real Deal, published Aug. 21) adds a 155,000-sq-ft industrial building at 11900-11905 SW 128th St, sold for $24.5 million, and a new-construction, 10,500-sq-ft waterfront mansion at 270 South Hibiscus Drive, Miami Beach, which sold for $50 million — both landing on top of last week's North Bay Road and 1200 Washington Avenue trades.",
           "change_type": "advanced"
         }
-      ],
-      "importance": 0.58
+      ]
     },
     {
       "id": "thread-miami-worldcenter-development",
@@ -1550,8 +1541,7 @@
           "summary": "A separate two-acre parcel, One Miami World, is listed for sale, expected to fetch well over $100M versus the $44M paid to assemble it in 2020.",
           "change_type": "advanced"
         }
-      ],
-      "importance": 0.5
+      ]
     },
     {
       "id": "thread-marine-stadium-referendum",
@@ -1617,8 +1607,7 @@
           "summary": "Miami voters approved Referendum #172 with more than 68% in favor, clearing the way for Global Spectrum L.P. (Oak View Group) and Breakwater Hospitality Group to restore and manage Marine Stadium for up to 40 years. The measure needed only a simple majority; it passed by a wide margin.",
           "change_type": "resolved"
         }
-      ],
-      "importance": 0.7
+      ]
     },
     {
       "id": "thread-seaquarium-marina-redevelopment",
@@ -1639,34 +1628,37 @@
           "summary": "Additional scope surfaces: a fully accredited, no-marine-mammal aquarium, a research/education center, and a public baywalk; county estimates the project's value to Miami-Dade at close to $750M over the life of the lease. County Commission approval still pending.",
           "change_type": "advanced"
         }
-      ],
-      "importance": 0.5
+      ]
     },
     {
       "id": "thread-heat-klay-thompson",
       "title": "Heat add Klay Thompson off a Mavericks buyout",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-08-22",
-      "updates": 1,
-      "current_state": "Klay Thompson reached a buyout agreement with Dallas on Aug. 21 and, per ESPN's Shams Charania, intends to sign with Miami once he clears waivers — a two-year deal worth nearly $13M with a player option in year two, giving the Heat a floor-spacing wing alongside Giannis Antetokounmpo and Bam Adebayo.",
+      "last_updated": "2026-08-24",
+      "updates": 2,
+      "current_state": "Klay Thompson is officially a Miami Heat player: he signed Sunday after clearing waivers on a two-year, $11.5M deal (player option in year two, 15% trade kicker), giving Miami a floor-spacing wing alongside Giannis Antetokounmpo and Bam Adebayo.",
       "timeline": [
         {
           "date": "2026-08-22",
           "summary": "Klay Thompson reached a buyout agreement with the Dallas Mavericks Aug. 21 and, per ESPN's Shams Charania, intends to sign with Miami once he clears waivers on a two-year, ~$13M deal with a player option in year two. Miami had pursued him for weeks as a floor-spacer alongside Giannis Antetokounmpo and Bam Adebayo, following the Giannis trade and LeBron James's decision to sign with Philadelphia instead of Miami.",
           "change_type": "new"
+        },
+        {
+          "date": "2026-08-24",
+          "summary": "Thompson officially signed with Miami Sunday after clearing waivers — the deal finalized as two years, $11.5 million total, with a player option in year two and a 15% trade kicker, slightly below the ~$13M reported Friday.",
+          "change_type": "resolved"
         }
-      ],
-      "importance": 0.55
+      ]
     },
     {
       "id": "thread-panthers-2026-27-season",
       "title": "Panthers' 2026-27 season takes shape",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-08-23",
-      "updates": 2,
-      "current_state": "Brad Marchand's recovery from offseason hip/sports-hernia surgery is now put at two or more months — he missed Zdeno Chara's Aug. 21 farewell charity game in Slovakia because of it — making a Sept. 29 opener absence look more likely than not. The offseason roster is otherwise set: Brady Tkachuk arrives from Ottawa to play alongside brother Matthew, Jacob Markstrom replaces Sergei Bobrovsky (who signed with Toronto) in goal, and the front office drew an 'A' grade in The Athletic's confidence poll. Home opener is Oct. 10 vs. Minnesota.",
+      "last_updated": "2026-08-24",
+      "updates": 3,
+      "current_state": "Brad Marchand's recovery timeline has firmed up: reporting now puts him out six to ten games, with an earliest possible return around mid-October — a real chunk of the season's opening month, not just an opener-availability question. The rest of the roster remains set: Brady Tkachuk arrives from Ottawa, Jacob Markstrom replaces Sergei Bobrovsky in goal, and the front office drew an 'A' grade in The Athletic's confidence poll. Home opener is Oct. 10 vs. Minnesota.",
       "timeline": [
         {
           "date": "2026-08-22",
@@ -1677,9 +1669,13 @@
           "date": "2026-08-23",
           "summary": "Reporting puts Marchand's recovery at two or more months — the surgery kept him from playing in Zdeno Chara's Aug. 21 farewell charity game in Slovakia, which he'd planned to attend. An opener absence now looks more likely than not.",
           "change_type": "worsened"
+        },
+        {
+          "date": "2026-08-24",
+          "summary": "Recovery estimate sharpens from 'two or more months' to a concrete range: six to ten missed games, with an earliest possible return around mid-October — still addressing the hip and sports-hernia issue Marchand played through all of 2025-26, including the February Olympics.",
+          "change_type": "advanced"
         }
-      ],
-      "importance": 0.48
+      ]
     }
   ],
   "topic_filters": [
@@ -1701,7 +1697,7 @@
     }
   ],
   "meta": {
-    "content_freshness": "2026-08-23",
+    "content_freshness": "Reported and searched the morning of Mon Aug 24 2026, ET; markets/FOMC data reflect Friday Aug 21's confirmed close (no new close since), Bessent's Iran press conference is scheduled for 2pm ET today and had not yet occurred as of publish time.",
     "feedback_endpoint_mode": "github_contents",
     "minimum_client_schema_version": 1,
     "mode": "brain"
