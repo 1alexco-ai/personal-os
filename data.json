@@ -1,372 +1,358 @@
 {
   "schema_version": 2,
   "edition": {
-    "id": "2026-08-27",
-    "date": "2026-08-27",
+    "id": "2026-08-28",
+    "date": "2026-08-28",
     "type": "weekday",
-    "generated_at": "2026-08-27T09:30:00-04:00",
+    "generated_at": "2026-08-28T09:30:00-04:00",
     "timezone": "America/New_York",
     "title": "Personal OS",
     "front_page_letter": {
       "greeting": "Good morning",
       "body_paragraphs": [
-        "Nvidia answered the AI trade's biggest lingering doubt: $96.2 billion in revenue, up 106% year over year, past the $92.2 billion Wall Street expected, with Amazon confirming a two-million-GPU order. The stock is up roughly 6% premarket. Wednesday's other big number was subtler -- July's PCE ran hot on the headline (3.7% y/y vs. 3.6% expected) but landed exactly on forecast at the core, the number the Fed actually watches. Both point the same way as Jackson Hole opens today in Wyoming: nothing here forces Warsh's hand before his first keynote as chair tomorrow.",
-        "Miami sports offered a smaller version of the same lesson, in both directions. The Marlins avoided a sweep by shutting out Boston 4-0, holding their skid to two; Miami improves to 68-66. The Dolphins' news ran the other way: Trey Moore's ankle injury needs surgery, and he's headed for injured reserve before Sunday's roster deadline -- worse than Tuesday's report suggested.",
-        "For this evening: PAMM has opened its first real Baldessari survey, drawn largely from a Miami collector's own walls; a few blocks away, the question of what becomes of Coconut Grove's 1934 seaplane-terminal City Hall is quietly back on the table. And tonight's rabbit hole asks why we forgive human error on the road but not a single hesitation from a machine."
+        "Nvidia closed Thursday up 9.1% -- the second-biggest single-day market-cap gain by any stock ever, $442 billion added in one session -- pulling the S&P 500 to 7,731 (+0.72%) and the Nasdaq to 26,541 (+1.57%). It's a strong tailwind heading into the real event: Fed Chair Kevin Warsh delivers his first Jackson Hole keynote as chair at 10am today, with September hike odds having already drifted up to roughly 34-36% on the strength of this week's data. Nothing about today is settled until he actually speaks.",
+        "Miami sports gave a quieter lesson in the same idea: sometimes the story is what didn't happen. The Marlins took Thursday off while all three teams ahead of them in the wild-card race won, widening the gap to about four games before Miami opens a series at Washington tonight -- a team it's beaten eight of nine times this year. The Hurricanes lost a player to a season-ending injury nobody saw in a highlight reel: tight end Luka Gilbert, hurt at home over the summer, out until next year.",
+        "Tonight: Edouard Duval-Carrie's Haiti-and-Venice survey takes over The Betsy, Miami Spice turns 25, and the rabbit hole asks a real question -- have we simply forgotten what it means to be afraid of anything at all?"
       ],
       "read_only_three": [
         {
           "target_type": "theme",
-          "target_id": "theme-nvidia-earnings-jackson-hole",
-          "label": "Nvidia beats big, PCE's core holds steady, Jackson Hole opens"
+          "target_id": "theme-warsh-jackson-hole-keynote",
+          "label": "Nvidia's historic close, hours before Warsh's first keynote as chair"
         },
         {
           "target_type": "theme",
-          "target_id": "theme-marlins-halt-skid",
-          "label": "The Marlins' skid stops at two"
+          "target_id": "theme-marlins-wildcard-gap-widens",
+          "label": "An idle day costs the Marlins ground in the wild-card race"
         },
         {
           "target_type": "rabbit_hole",
-          "target_id": "rh-2026-08-27",
-          "label": "Tonight's rabbit hole: why we forgive human error but not a machine's"
+          "target_id": "rh-2026-08-28",
+          "label": "Tonight's rabbit hole: have we forgotten what it means to fear nature?"
         }
       ]
     },
     "market_context": [
       {
         "label": "S&P 500",
-        "value": "7,675.70",
-        "change": "-0.02%",
-        "observed": "Wed close 8/26",
-        "note": "Essentially flat on a mixed PCE read; Nvidia's after-the-close beat has Thursday's premarket sharply higher, into Jackson Hole's opening day."
+        "value": "7,731",
+        "change": "+0.72%",
+        "observed": "Thu close 8/27",
+        "note": "Nvidia's blowout earnings and guidance drove the gain, with Salesforce (+11.2%) and CrowdStrike (+9%) riding along; the real test is Warsh's 10am keynote today."
       },
       {
         "label": "Nasdaq Composite",
-        "value": "26,130.20",
-        "change": "-0.08%",
-        "observed": "Wed close 8/26",
-        "note": "Slipped slightly into Nvidia's print; the stock's own ~6% premarket pop today isn't reflected in this close."
+        "value": "26,541",
+        "change": "+1.57%",
+        "observed": "Thu close 8/27",
+        "note": "Nvidia alone added $442B in market value -- the second-largest one-day gain by any stock in history."
       },
       {
         "label": "10Y Treasury",
-        "value": "~4.65%",
-        "change": "-0.01pp",
-        "observed": "Wed 8/26 close",
-        "note": "Barely moved on the mixed PCE read; Warsh's first Jackson Hole keynote as Fed chair, tomorrow at 10am ET, is the week's real test for this number."
+        "value": "~4.68%",
+        "change": "+0.03pp",
+        "observed": "Thu 8/27 close",
+        "note": "Ticked up from Wednesday's 4.65% as strong data and the AI rally nudged rate-hike bets higher into Warsh's first Jackson Hole keynote as chair."
       },
       {
         "label": "FOMC",
-        "value": "Hold ~68-70%, Hike ~30%",
-        "change": "little changed",
-        "observed": "as of Wed 8/26 (CME FedWatch)",
-        "note": "July PCE's hot headline but in-line core left odds roughly unchanged; the Jackson Hole Symposium opens today, with Warsh's first keynote as chair tomorrow at 10am ET, 19 days before the Sept. 16 decision."
+        "value": "Hold ~64-66%, Hike ~34-36%",
+        "change": "drifted hawkish",
+        "observed": "as of Thu 8/27 (CME FedWatch)",
+        "note": "Up from roughly 30% hike odds Wednesday; Warsh speaks at 10am ET today, 19 days before the Sept. 16 decision."
       }
     ],
     "public_day_context": {
-      "date_label": "Thursday, August 27",
-      "weather": "A mix of clouds and sun with an isolated afternoon thunderstorm possible -- high near 90F, overnight low near 79F, 40% rain chance. Atlantic hurricane season stays quiet: just two named storms so far (Arthur, Bertha), no hurricanes, nothing threatening Florida.",
-      "public_event": "The Jackson Hole Economic Policy Symposium opens today in Wyoming; Fed Chair Kevin Warsh delivers his first keynote as chair tomorrow at 10am ET. Nationally, markets are digesting Nvidia's blowout earnings, released after Wednesday's close."
+      "date_label": "Friday, August 28",
+      "weather": "A mix of sun and clouds with scattered afternoon thunderstorms likely -- high near 88F, overnight low near 80F, rain chances running 40-60%. Atlantic hurricane season stays quiet: just two named storms so far (Arthur, Bertha), no hurricanes, and NOAA still favors a below-normal season overall.",
+      "public_event": "The Jackson Hole Economic Policy Symposium's second day brings Fed Chair Kevin Warsh's first keynote as chair, 10am ET -- the week's real remaining catalyst after Wednesday's Nvidia-driven rally."
     },
     "what_changed": [
       {
-        "id": "delta-nvidia-beats-big",
+        "id": "delta-nvidia-historic-close",
         "thread_id": "thread-fed-rate-path",
         "change_type": "advanced",
-        "title": "Nvidia blew past estimates -- revenue up 106% -- and futures are ripping into Jackson Hole",
-        "previous_state": "Yesterday's edition previewed today's double catalyst: Wall Street expected $2.09 EPS on $92.2B revenue from Nvidia, alongside July's PCE report.",
-        "current_state": "Nvidia reported $96.2B revenue (+106% y/y) and $2.22 non-GAAP EPS after Wednesday's close, beating both estimates, with Amazon confirming a 2-million-GPU order. The stock is up roughly 6% in Thursday's premarket, pulling S&P and Nasdaq-100 futures up 0.5% and 1% as the Jackson Hole Symposium opens.",
-        "why_it_matters": "The single biggest fear hanging over the AI trade -- that Nvidia's growth was cracking -- didn't materialize, removing one variable right as Warsh's keynote becomes the week's last real test.",
+        "title": "Nvidia's premarket pop became a historic close -- second-biggest single-day gain ever",
+        "previous_state": "Thursday's edition showed Nvidia up roughly 6% in premarket trading on its earnings beat, with futures modestly higher into Jackson Hole's opening day.",
+        "current_state": "Nvidia finished Thursday up 9.1%, adding $442 billion in market value -- the second-largest one-day gain by any stock in history -- and pulled the S&P 500 to 7,731 (+0.72%) and the Nasdaq to 26,541 (+1.57%). September hike odds drifted up to roughly 34-36% (from ~30% Wednesday) as the 10-year rose to 4.68%.",
+        "why_it_matters": "The premarket number undersold it -- this was one of the largest single-day value creations in market history, and it happened the day before the one Fed event left that could actually move rates.",
         "confidence": "high",
         "source": {
-          "publisher": "SEC filing (NVIDIA press release)",
-          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm"
+          "publisher": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-aug-27-144318504.html"
         }
       },
       {
-        "id": "delta-pce-hot-headline-inline-core",
-        "thread_id": "thread-fed-rate-path",
-        "change_type": "watch",
-        "title": "July's PCE ran hot on the headline, but the number the Fed actually targets held steady",
-        "previous_state": "Economists expected headline PCE up 0.07% m/m (3.6% y/y) and core PCE up 0.18% m/m (3.2% y/y).",
-        "current_state": "Headline PCE came in at 3.7% y/y, slightly hotter than forecast; core PCE matched forecasts exactly at 0.2% m/m and 3.3% y/y. Consumer spending was flat, a sharp slowdown from June's 0.4% gain.",
-        "why_it_matters": "A hot headline sounds worse than it is -- core landing exactly on forecast is what actually keeps a September hold in play heading into Warsh's keynote.",
-        "confidence": "high",
-        "source": {
-          "publisher": "CNBC",
-          "url": "https://www.cnbc.com/2026/08/26/feds-preferred-inflation-gauge-shows-core-prices-rose-3point3percent-annually-in-july.html"
-        }
-      },
-      {
-        "id": "delta-marlins-halt-skid",
+        "id": "delta-marlins-gap-widens",
         "thread_id": "thread-marlins-wildcard",
-        "change_type": "improved",
-        "title": "The Marlins halted their skid at two, holding Boston off the sweep",
-        "previous_state": "Tuesday's second straight loss to Boston (7-3) turned Monday's single defeat into a two-game skid, with Miami sliding to 67-66.",
-        "current_state": "Miami shut out Boston 4-0 Wednesday night -- Ryan Gusto held the Red Sox to four hits over 5 2/3 innings, and Boston committed four errors. Miami avoided the sweep and improves to 68-66.",
-        "why_it_matters": "A three-game sweep would have been a real gut check with the schedule about to get harder; stopping it at two keeps this week a wobble rather than a turning point.",
+        "change_type": "worsened",
+        "title": "A day off cost the Marlins ground -- the wild-card gap widens to about four games",
+        "previous_state": "Wednesday's shutout of Boston stopped Miami's skid at two and improved the Marlins to 68-66, with the Cubs, Phillies, and Padres holding the three wild-card spots.",
+        "current_state": "Miami was idle Thursday while all three teams above them won, widening the gap to roughly four games (Cubs 76-58, Phillies 74-60, Padres 72-62, Miami still 68-66). Miami opens a four-game series at Washington tonight, a team it has beaten eight of nine times this season.",
+        "why_it_matters": "Standing still is its own kind of losing ground with five weeks left in the race -- tonight's series against a team Miami dominates is a chance to answer back immediately.",
         "confidence": "high",
         "source": {
-          "publisher": "Sun Journal (AP)",
-          "url": "https://www.sunjournal.com/2026/08/26/marlins-shut-out-red-sox-halt-winning-streak/"
+          "publisher": "ESPN",
+          "url": "https://www.espn.com/mlb/standings/_/view/wild-card"
         }
       },
       {
-        "id": "delta-trey-moore-surgery",
-        "thread_id": "thread-dolphins-hafley-rebuild",
+        "id": "delta-hurricanes-gilbert-out",
+        "thread_id": "thread-hurricanes-fall-camp",
         "change_type": "worsened",
-        "title": "Trey Moore's ankle injury is worse than first described -- he needs surgery",
-        "previous_state": "Tuesday's edition reported Moore sidelined with an ankle injury and 'unlikely to return quickly,' with his outlook still unclear.",
-        "current_state": "Hafley confirmed Moore will need surgery on the ankle; Miami is expected to place him on injured reserve by roster-cutdown weekend, using one of its two IR-return designations ahead of Sunday's deadline.",
-        "why_it_matters": "Moore looked like a lock to start before the injury -- surgery means Miami's opening-week linebacker room is now built around a real, extended absence rather than a short one.",
-        "confidence": "medium",
+        "title": "A Hurricanes tight end is out for the season -- before it even starts",
+        "previous_state": "Cristobal's most recent camp updates focused on the offense's strong showing in Friday's scrimmage, with no injury news of consequence.",
+        "current_state": "Cristobal confirmed sophomore tight end Luka Gilbert will miss the entire 2026 season after injuring himself at home over the summer; defensive end Hayden Lowe and receiver Jontavius Wyman are also no longer with the team.",
+        "why_it_matters": "It's a quiet subtraction from a two-deep that was still being sorted out nine days before the Sept. 4 opener at Stanford -- the kind of loss that only shows up later, in a thin position group during a close game.",
+        "confidence": "high",
         "source": {
-          "publisher": "Sports Illustrated",
-          "url": "https://www.si.com/nfl/dolphins/onsi/what-to-know-about-miami-dolphins-lb-trey-moore-s-status-and-other-injury-updates-01m0qppaeg99"
+          "publisher": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/hurricanes-hayden-lowe-jontavius-wyman-104200389.html"
         }
       },
       {
-        "id": "delta-china-banks-conditional-threat",
-        "thread_id": "thread-iran-hormuz-crisis",
-        "change_type": "watch",
-        "title": "Bessent draws a bright line for Chinese banks -- but still hasn't crossed it",
-        "previous_state": "Wednesday's analysis read growing expert skepticism that Washington would ever sanction major Chinese banks over Iranian oil, given the Sept. 24 Xi visit.",
-        "current_state": "Bessent explicitly warned Chinese banks they will be sanctioned if they 'facilitate transactions and are part of the ecosystem that turns Iranian oil into money' -- the clearest conditional threat yet -- but no major Chinese bank has been sanctioned, and Beijing continues buying over 80% of Iran's seaborne oil undisturbed.",
-        "why_it_matters": "A named condition is more concrete than vague toughness, but it's still a threat rather than an action -- worth tracking whether Treasury actually pulls the trigger before Xi's visit forecloses it.",
-        "confidence": "medium",
+        "id": "delta-doral-marketplace-83m",
+        "thread_id": "thread-cre-capital-markets-2026",
+        "change_type": "advanced",
+        "title": "This week's deal sheet jumps back up: a Doral shopping center trades for $83M",
+        "previous_state": "The prior week's South Florida deal sheet was quieter, headlined by a $6.5M industrial-building sale.",
+        "current_state": "SJC Ventures sold the newly built, Whole Foods-anchored Doral Marketplace (8.2 acres, 78,700 sq ft of retail) for $83M to a group led by Jonathan Perlman, who assumed $50.1M of existing debt -- the largest single South Florida trade in several weeks.",
+        "why_it_matters": "A grocery-anchored retail center trading at this size, with a buyer willing to assume existing debt rather than refinance at today's rates, is a real data point on where cap rates and lender appetite actually sit right now.",
+        "confidence": "high",
         "source": {
-          "publisher": "CNBC",
-          "url": "https://www.cnbc.com/2026/08/25/china-iran-us-sanctions-banks-cips.html"
+          "publisher": "The Real Deal",
+          "url": "https://therealdeal.com/miami/2026/08/25/sjc-ventures-sells-whole-foods-anchored-doral-retail-complex/"
         }
       }
     ],
     "themes": [
       {
-        "id": "theme-nvidia-earnings-jackson-hole",
+        "id": "theme-warsh-jackson-hole-keynote",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Nvidia answers the AI trade's biggest worry, right as Jackson Hole opens",
-        "importance": 0.7,
-        "thesis": "Nvidia beat on every number that mattered, and futures are ripping higher into the one Fed event left that could actually move rates.",
-        "synthesis": "Nvidia reported fiscal Q2 revenue of $96.2 billion (+106% year over year), blowing past the $92.2 billion Wall Street expected, with non-GAAP EPS of $2.22 versus $2.09 expected; Amazon confirmed it will buy 2 million Nvidia GPUs alongside the company's new Vera CPU. The stock is up roughly 6% in Thursday's premarket, pulling S&P 500 futures up 0.5% and Nasdaq-100 futures up 1%. It comes a day after July's PCE report -- the Fed's preferred inflation gauge -- landed mixed: a hotter-than-expected headline (3.7% y/y vs. 3.6% forecast) but a core reading exactly on forecast (0.2% m/m, 3.3% y/y), leaving Wednesday's close essentially flat. The Jackson Hole Economic Policy Symposium opens today in Wyoming, with Fed Chair Kevin Warsh delivering his first keynote as chair tomorrow at 10am ET.",
-        "new_today": "Nvidia's confirmed beat and the stock's premarket pop, plus July PCE's mixed headline-vs-core split and Jackson Hole's opening day.",
-        "why_it_matters": "The one number that could have justified real AI-trade anxiety -- Nvidia's growth cracking -- didn't happen, and the inflation number that actually governs Fed policy came in exactly as forecast; that leaves Warsh's twenty minutes tomorrow as the week's real remaining variable before the Sept. 16 decision.",
+        "title": "Nvidia posts a historic close, hours before Warsh's first test as Fed chair",
+        "importance": 0.68,
+        "thesis": "Nvidia's earnings beat turned into one of the biggest single-day value gains in market history, and it happened the day before the one event left this week that could actually move the Fed.",
+        "synthesis": "Nvidia closed Thursday up 9.1% -- adding $442 billion in market value, the second-largest one-day gain by any stock ever -- after topping both revenue and guidance estimates. The S&P 500 rose 0.72% to 7,731 and the Nasdaq 1.57% to 26,541; the Dow added 0.2% to 53,569.44. The 10-year Treasury rose to roughly 4.68%, and September rate-hike odds drifted up to 34-36% on CME FedWatch, from about 30% Wednesday. All of it sets up Friday's real catalyst: Fed Chair Kevin Warsh delivers his first Jackson Hole keynote as chair at 10am ET.",
+        "new_today": "Thursday's confirmed close (Nvidia +9.1%, S&P +0.72%, Nasdaq +1.57%) and the hawkish drift in hike odds, both new information beyond yesterday's premarket estimates.",
+        "why_it_matters": "The market has now fully priced in an AI-earnings and Fed-friendly week -- which means Warsh's actual words at 10am carry more risk of disappointing than confirming, right as the Sept. 16 decision comes into range.",
         "thread_id": "thread-fed-rate-path",
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "SEC filing (NVIDIA press release)",
-            "headline": "NVIDIA Announces Financial Results for Second Quarter Fiscal 2027",
-            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm"
+            "publisher": "Yahoo Finance",
+            "headline": "Stock Market Today (Aug. 27, 2026): S&P 500 climbs after Nvidia earnings beat",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-aug-27-144318504.html"
           },
           {
             "role": "analysis",
             "publisher": "CNBC",
-            "headline": "Fed's preferred inflation gauge shows core prices rose 3.3% annually in July",
-            "url": "https://www.cnbc.com/2026/08/26/feds-preferred-inflation-gauge-shows-core-prices-rose-3point3percent-annually-in-july.html"
+            "headline": "S&P 500, Nasdaq Composite close higher Thursday as Nvidia rallies on revenue guidance: Live updates",
+            "url": "https://www.cnbc.com/2026/08/26/stock-market-today-live-updates.html"
           },
           {
             "role": "background",
-            "publisher": "Babypips",
-            "headline": "Jackson Hole 2026: All Eyes on Warsh",
-            "url": "https://www.babypips.com/analysis/headline-jackson-hole-eyes-on-warsh-2026-08-26"
+            "publisher": "Yahoo Finance",
+            "headline": "Jackson Hole Fed summit live: Kevin Warsh's keynote speech comes at a pivotal moment for the Federal Reserve",
+            "url": "https://finance.yahoo.com/economy/live/jackson-hole-fed-summit-live-kevin-warsh-keynote-speech-180442096.html"
           }
         ]
       },
       {
-        "id": "theme-marlins-halt-skid",
+        "id": "theme-marlins-wildcard-gap-widens",
         "affinity": "morning",
         "topic": "sports",
         "topic_label": "Miami Sports",
-        "title": "The Marlins stop the bleeding at two, holding off Boston's sweep",
-        "importance": 0.5,
-        "thesis": "After two straight losses to Boston, Miami needed one win just to avoid a sweep -- and got it in the form of a shutout.",
-        "synthesis": "Miami beat Boston 4-0 Wednesday night at loanDepot Park -- Ryan Gusto held the Red Sox to four hits over 5 2/3 innings, and Boston committed four errors behind him. It stops Miami's skid at two rather than letting Boston complete the sweep, and moves the Marlins to 68-66. The NL wild-card picture: Cubs (76-57), Phillies (73-60), and Padres (71-62) hold the three spots, with Arizona a game back of the cutline and Miami further behind still.",
-        "new_today": "Wednesday night's 4-0 shutout win, halting the losing streak at two.",
-        "why_it_matters": "A sweep would have been a real signal that the Washington-series confidence was hollow; stopping it at two keeps this week a wobble rather than a turning point, with roughly five weeks left in the race.",
+        "title": "A quiet day costs the Marlins ground in the wild-card race",
+        "importance": 0.55,
+        "thesis": "Miami didn't lose anything Thursday -- it just stood still while three other teams didn't, and standing still is its own kind of losing ground with five weeks left.",
+        "synthesis": "The Marlins were off Thursday, and all three teams currently holding NL wild-card spots won: the Cubs improved to 76-58, the Phillies to 74-60, and the Padres to 72-62, while Miami sits at 68-66, roughly four games back. Miami opens a four-game series at Washington tonight at 6:45pm ET, with Eury Perez (7-9, 3.17) facing Brad Lord (5-2, 4.04) -- a Nationals team Miami has beaten eight of nine times this season, with closer Pete Fairbanks (18 saves) available if it's close late.",
+        "new_today": "The updated wild-card standings after Thursday's games and tonight's series-opener matchup.",
+        "why_it_matters": "A four-game deficit against three teams is a real climb, but a series against a team you dominate is exactly the kind of stretch that keeps a wild-card push alive rather than fading.",
         "thread_id": "thread-marlins-wildcard",
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Sun Journal (AP)",
-            "headline": "Marlins shut out Red Sox, halt winning streak",
-            "url": "https://www.sunjournal.com/2026/08/26/marlins-shut-out-red-sox-halt-winning-streak/"
+            "publisher": "ESPN",
+            "headline": "MLB Standings - 2026 Regular Season Wild Card Standings",
+            "url": "https://www.espn.com/mlb/standings/_/view/wild-card"
           },
           {
             "role": "background",
             "publisher": "ESPN",
-            "headline": "Red Sox vs. Marlins (Aug 26, 2026)",
-            "url": "https://www.espn.com/mlb/game/_/gameId/401816680/red-sox-marlins"
+            "headline": "Marlins vs. Nationals (Aug 28, 2026) Live Score",
+            "url": "https://www.espn.com/mlb/game/_/gameId/401816707/marlins-nationals"
           }
         ]
       },
       {
-        "id": "theme-dolphins-trey-moore-surgery",
+        "id": "theme-hurricanes-gilbert-out",
         "affinity": "morning",
         "topic": "sports",
         "topic_label": "Miami Sports",
-        "title": "Trey Moore's injury is worse than first described -- he needs surgery",
-        "importance": 0.45,
-        "thesis": "A linebacker who looked like a lock to start is now looking at surgery and an extended stint on injured reserve, days before Miami's roster has to be final.",
-        "synthesis": "Head coach Jeff Hafley confirmed Tuesday that rookie linebacker Trey Moore will need surgery on the ankle he injured against the Giants, a step beyond Monday's 'unlikely to return quickly' framing. Miami is expected to place him on injured reserve around cutdown weekend, using one of its two available IR-return designations ahead of Sunday, Aug. 30's 53-man deadline. Separately, Miami claimed receiver Ryan Miller off waivers from the Giants and waived Tahj Washington to make room.",
-        "new_today": "Confirmation that Moore needs surgery and is ticketed for IR, plus the Miller/Washington roster swap.",
-        "why_it_matters": "Moore had reportedly already earned a starting spot; losing him to surgery rather than a short absence forces Miami to build its opening-week linebacker room around a real hole, not a scare.",
-        "thread_id": "thread-dolphins-hafley-rebuild",
-        "confidence": "medium",
+        "title": "A Hurricanes tight end is out for the season -- before it even starts",
+        "importance": 0.46,
+        "thesis": "Nine days before the opener, Miami just lost a young contributor to an injury that happened nowhere near a football field.",
+        "synthesis": "Head coach Mario Cristobal confirmed sophomore tight end Luka Gilbert (6-foot-7, 255 pounds) will miss the entire 2026 season after injuring himself at home over the summer -- 'he is going to miss the season and he will be back the following year,' Cristobal said. Gilbert played 68 snaps as a true freshman in 2025 and was competing to back up Elija Lofton. The news arrived alongside confirmation that defensive end Hayden Lowe and receiver Jontavius Wyman are no longer with the team, with the Sept. 4 opener at Stanford now nine days out.",
+        "new_today": "Confirmation of Gilbert's season-ending injury and the Lowe/Wyman departures.",
+        "why_it_matters": "None of this shows up in a highlight reel, but a thinned-out tight end and defensive line room is exactly the kind of quiet subtraction that surfaces in October, not August.",
+        "thread_id": "thread-hurricanes-fall-camp",
+        "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Sports Illustrated",
-            "headline": "What to Know About Miami Dolphins LB Trey Moore's Status and Other Injury Updates",
-            "url": "https://www.si.com/nfl/dolphins/onsi/what-to-know-about-miami-dolphins-lb-trey-moore-s-status-and-other-injury-updates-01m0qppaeg99"
+            "publisher": "Yahoo Sports",
+            "headline": "Hurricanes' Hayden Lowe, Jontavius Wyman no longer on team; Luka Gilbert out for year",
+            "url": "https://sports.yahoo.com/articles/hurricanes-hayden-lowe-jontavius-wyman-104200389.html"
           },
           {
             "role": "background",
-            "publisher": "The Phinsider",
-            "headline": "Miami Dolphins roster update: waiver claim adds Ryan Miller, Tahj Washington cut",
-            "url": "https://www.thephinsider.com/miami-dolphins-roster/121844/miami-dolphins-roster-update-waiver-claim-new-york-giants-wide-recevier-ryan-miller-tahj-wahsington-cut-training-camp-2026"
+            "publisher": "Sports Illustrated",
+            "headline": "Mario Cristobal Gives Freshmen and Injury Updates Ahead of Fall Camp",
+            "url": "https://www.si.com/college/miami/football/mario-cristobal-gives-freshmen-and-injury-updates-ahead-of-fall-camp"
           }
         ]
       },
       {
-        "id": "theme-china-banks-conditional-threat",
+        "id": "theme-doral-marketplace-83m",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Bessent names the line for Chinese banks -- and still hasn't crossed it",
-        "importance": 0.5,
-        "thesis": "Yesterday's expert skepticism about a real China hit gets a sharper edge today: Washington has now defined the exact condition that would trigger bank sanctions, and still isn't pulling the trigger.",
-        "synthesis": "Treasury Secretary Bessent warned Chinese banks they will be sanctioned if they 'facilitate transactions and are part of the ecosystem that turns Iranian oil into money' -- the most concrete threshold the administration has articulated yet. But no major Chinese bank has actually been sanctioned, and China continues buying over 80% of Iran's seaborne oil without disruption, a restraint reporting continues to tie to Xi Jinping's Sept. 24 White House visit.",
-        "new_today": "Bessent's explicit, conditional articulation of what would trigger bank sanctions -- a named threshold rather than vague toughness.",
-        "why_it_matters": "A stated condition is easier to hold Washington to than a vague threat -- worth watching whether Treasury actually enforces it, or whether the Xi visit quietly makes the line permanent.",
-        "thread_id": "thread-iran-hormuz-crisis",
-        "confidence": "medium",
+        "title": "A Doral shopping center trades for $83M -- the deal sheet's biggest in weeks",
+        "importance": 0.55,
+        "thesis": "After two quiet weeks of smaller industrial trades, a grocery-anchored retail sale this size -- with the buyer assuming existing debt rather than refinancing -- says something real about where lender appetite sits right now.",
+        "synthesis": "SJC Ventures sold the newly built Doral Marketplace, an 8.2-acre, Whole Foods-anchored retail center (38,000 sq ft Whole Foods plus 40,700 sq ft of strip retail including J.Crew, Shake Shack, and First Watch), for $83 million to a group led by Jonathan Perlman. Perlman's group assumed $50.1 million of existing debt from Bank of Texas rather than arranging new financing; the sale excluded a separate 1.88-acre Chick-fil-A-leased parcel.",
+        "new_today": "The Doral Marketplace sale itself and its debt-assumption structure.",
+        "why_it_matters": "Assuming an existing loan instead of refinancing at today's rates is a specific, cheap way around a still-expensive debt market -- worth noting the next time a deal here looks stalled for financing reasons.",
+        "thread_id": "thread-cre-capital-markets-2026",
+        "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "CNBC",
-            "headline": "Chinese banks face U.S. sanctions threat over Iran ties -- what can they do?",
-            "url": "https://www.cnbc.com/2026/08/25/china-iran-us-sanctions-banks-cips.html"
+            "publisher": "The Real Deal",
+            "headline": "SJC Ventures Sells Whole Foods-Anchored Doral Retail Complex",
+            "url": "https://therealdeal.com/miami/2026/08/25/sjc-ventures-sells-whole-foods-anchored-doral-retail-complex/"
           },
           {
-            "role": "analysis",
-            "publisher": "CNN",
-            "headline": "Trump's Iran sanctions have a problem: China",
-            "url": "https://edition.cnn.com/2026/08/26/politics/iran-sanctions-china"
+            "role": "background",
+            "publisher": "Connect CRE",
+            "headline": "Doral Whole Foods-Anchored Retail Center Trades for $83M",
+            "url": "https://www.connectcre.com/stories/doral-whole-foods-anchored-retail-center-trades-for-83m/"
           }
         ]
       },
       {
-        "id": "theme-pamm-baldessari-survey",
+        "id": "theme-duval-carrie-betsy",
         "affinity": "evening",
         "topic": "miami",
         "topic_label": "Miami Life & Culture",
-        "title": "PAMM opens its first real survey of John Baldessari, drawn from a Miami collector's own walls",
-        "importance": 0.45,
-        "thesis": "Forty works spanning five decades of one of conceptual art's defining iconoclasts -- much of it from developer Craig Robins' personal collection -- just landed at Pérez Art Museum Miami with real institutional weight behind it.",
-        "synthesis": "\"John Baldessari: The End of the Line\" opened Aug. 20 at PAMM, the first significant institutional Baldessari presentation in South Florida and the show's first U.S. stop after runs in Argentina and Uruguay. Forty works -- painting, photography, video, installation -- trace Baldessari from his foundational 1960s-70s conceptualism (including his famous incineration of his own earlier paintings) through his lifelong interrogation of language and image, drawn largely from collector Craig Robins, a longtime friend and champion of the artist.",
-        "new_today": "The exhibition's opening and its framing as a programming pivot for PAMM, per WLRN's coverage.",
-        "why_it_matters": "Baldessari spent a career asking who gets to decide what counts as 'good' art -- a question that lands differently seeing it assembled in one room, from one collector who was actually in the room with him.",
+        "title": "Edouard Duval-Carrie takes over The Betsy, from Haiti by way of Venice",
+        "importance": 0.46,
+        "thesis": "A hotel known for treating art as part of its architecture just handed its entire building to one artist's meditation on migration, memory, and the ocean between Haiti and everywhere else.",
+        "synthesis": "'From Venice With Love,' a hotel-wide takeover by Miami-based Haitian artist Edouard Duval-Carrie, runs at The Betsy - South Beach through November 15, timed to his presentation at this year's Venice Biennale. Curated by Pulitzer Prize-winning visual historian Carl-Philippe Juste, the show fills The Betsy Gallery with his paintings, wraps nightly video art around the hotel's iconic ORB, and lines BBar with 26 illuminated light boxes exploring Vodou symbolism and the cultural ties between Haiti and Africa. It's free and open to the public.",
+        "new_today": "The gallery and BBar installations opening this week as the exhibition's centerpiece phase.",
+        "why_it_matters": "Duval-Carrie has spent decades making Haiti's history of migration and memory visible in a city built by migration -- worth an evening precisely because it costs nothing and asks for nothing but attention.",
         "thread_id": null,
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Pérez Art Museum Miami",
-            "headline": "John Baldessari: The End of the Line",
-            "url": "https://www.pamm.org/en/exhibition/john-baldessari-the-end-of-the-line/"
+            "publisher": "Central Florida Lifestyle",
+            "headline": "Miami's The Betsy Debuts \"From Venice With Love\" Exhibition by Haitian Artist Edouard Duval-Carrie",
+            "url": "https://www.centralfloridalifestyle.com/art/miamis-the-betsy-debuts-from-venice-with-love-exhibition-by-haitian-artist-edouard-duval-carrie/"
           },
           {
             "role": "local_perspective",
-            "publisher": "WLRN",
-            "headline": "John Baldessari show reflects PAMM's programming pivot",
-            "url": "https://www.wlrn.org/arts-culture/2026-08-20/john-baldessari-show-reflects-pamms-programming-pivot"
+            "publisher": "The Betsy Hotel",
+            "headline": "Exhibitions",
+            "url": "https://www.thebetsyhotel.com/explore/exhibitions"
           }
         ]
       },
       {
-        "id": "theme-city-hall-dinner-key-future",
+        "id": "theme-miami-spice-25th",
         "affinity": "evening",
         "topic": "miami",
         "topic_label": "Miami Life & Culture",
-        "title": "What happens to a 1934 seaplane terminal once it stops being City Hall?",
-        "importance": 0.42,
-        "thesis": "Miami's City Hall -- a Streamline Moderne former Pan Am terminal on some of the city's most valuable public waterfront -- has no settled future once the city's new Freedom Park administration building opens.",
-        "synthesis": "Built in 1934 as Pan American Airways' seaplane terminal and converted to City Hall in 1954, the Dinner Key building is listed on the National Register of Historic Places and sits on prime Coconut Grove bayfront. With a new eight-story City of Miami Administration Building underway at Miami Freedom Park, expected to open in about two years, officials are beginning to face what comes next for the current building -- though commissioners say nothing is close to decided.",
-        "new_today": "The question surfacing publicly as the Freedom Park administration building's timeline firms up.",
-        "why_it_matters": "This is real waterfront, on the market's radar the moment officials stop needing it for government use -- the kind of decision that quietly shapes Coconut Grove for a generation, made mostly out of public view until it isn't.",
-        "thread_id": "thread-miami-freedom-park-civic",
+        "title": "Miami Spice turns 25, with a new top tier for the first time",
+        "importance": 0.4,
+        "thesis": "A quarter-century into its run, Miami's dining season adds a genuinely new idea rather than just more restaurants.",
+        "synthesis": "Miami Spice's 25th season runs August 1 through September 30 across more than 300 restaurants, with the usual $40 lunch and $50-65 dinner prix-fixe menus now joined by a new $95 Reserve tier built for chef-driven tasting menus and wine pairings -- the program's first real departure from its original format since it launched.",
+        "new_today": "The Reserve tier's debut as the season's structural change, framed against the anniversary.",
+        "why_it_matters": "It's a low-stakes, low-cost way to actually use the city rather than just live in it -- and the Reserve tier is worth knowing about before the good seatings disappear.",
+        "thread_id": null,
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Coconut Grove Spotlight",
-            "headline": "Life After City Hall: Imagining Dinner Key's Next Chapter",
-            "url": "https://coconutgrovespotlight.com/2026/07/06/life-after-city-hall-imagining-dinner-keys-next-chapter/"
+            "publisher": "Miami New Times",
+            "headline": "Miami Spice 2026: Every participating restaurant by neighborhood",
+            "url": "https://www.miaminewtimes.com/food-drink/2026-miami-spice-restaurant-list-40569425/"
           },
           {
             "role": "background",
-            "publisher": "Coconut Grove Spotlight",
-            "headline": "Pardo Responds to Question about Fate of City Hall",
-            "url": "https://coconutgrovespotlight.com/2026/04/09/pardo-responds-to-question-about-fate-of-city-hall/"
+            "publisher": "Hoodline",
+            "headline": "Miami Spice 2026 Returns: Dates, Prices and Neighborhood Guide",
+            "url": "https://hoodline.com/2026/07/miami-spice-turns-25-drops-luxe-reserve-tier-and-300-plus-dining-deals-6932594/"
           }
         ]
       }
     ],
     "rabbit_hole": {
-      "id": "rh-2026-08-27",
-      "title": "Why We Demand Perfect Machines Yet Tolerate Human Carnage",
-      "creator": "Jonathan Slotkin, Noema Magazine",
+      "id": "rh-2026-08-28",
+      "title": "Have You Forgotten What It Means to Be Afraid of Nature?",
+      "creator": "Eliran Arazi, Aeon",
       "format": "essay",
-      "minutes": 16,
-      "why": "Roughly 100 Americans die daily in crashes caused by human drivers -- a toll we've made peace with -- while a single self-driving car hesitation makes headlines and erodes trust overnight. Slotkin's real argument, drawn from healthcare, is that 'being safe' and 'feeling safe' are different problems entirely, and it's the second one that actually governs how new technology gets adopted.",
-      "url": "https://www.noemamag.com/why-we-demand-perfect-machines-yet-tolerate-human-carnage/",
+      "minutes": 18,
+      "why": "Arazi, an anthropologist who has spent years with the Andoque of the Colombian Amazon, argues that the forest's most beautiful things and its most dangerous things are the same things, seen at different distances -- a fact modern life has engineered almost entirely out of daily experience. After a day built around manufactured urgency (a speech, a stock chart, a countdown clock), it's a useful corrective on what real risk and real beauty actually feel like.",
+      "url": "https://aeon.co/essays/have-you-forgotten-what-it-means-to-be-afraid-of-nature",
       "related_interest": "living"
     },
     "beautiful_thing": {
-      "id": "bt-2026-08-27",
-      "title": "The Freedom Tower",
-      "creator": "Schultze and Weaver, architects",
-      "era": "1925, Spanish Renaissance Revival, modeled on the Giralda bell tower of Seville Cathedral. Listed on the National Register of Historic Places.",
-      "body": "Built in 1925 as headquarters for The Miami Daily News, the tower was Miami's tallest building when it opened, an eleven-story octagonal shaft modeled on a 12th-century Spanish bell tower, its facade a dense mix of Moorish, Spanish, and Italian Baroque ornament. Its second life gave it its name: from 1962 to 1974, the federal government leased its lower floors as the Cuban Refugee Center, processing hundreds of thousands of Cubans fleeing Castro -- the reason it's still called the 'Ellis Island of the South.' It now houses a contemporary art museum and arts programs for Miami Dade College. Worth noticing: a building can change what it's for entirely -- newsroom, refugee center, museum -- while what it looks like from the water stays exactly the same.",
-      "url": "https://moadmdc.org/freedom-tower/about-the-freedom-tower",
+      "id": "bt-2026-08-28",
+      "title": "Vizcaya",
+      "creator": "F. Burrall Hoffman (architect), Diego Suarez (landscape design), Paul Chalfin (artistic direction), built for industrialist James Deering",
+      "era": "1914-1922, Mediterranean Revival with Baroque, Rococo, and Neoclassical interior influences. National Historic Landmark.",
+      "body": "Deering built Vizcaya as a winter estate on Biscayne Bay, importing centuries of European villa architecture and furnishing it with genuine 15th-to-19th-century antiques, then set it against ten acres of formal gardens carved from native limestone and hardwood hammock. The stone barge moored just offshore -- a breakwater sculpted to look like a ship, decorated by A. Stirling Calder -- was functional engineering disguised as ornament, built to blunt Biscayne Bay's waves before they reached the house. Worth noticing: almost nothing about the building is actually Floridian except the two things doing the real work -- the limestone it's built from, and the bay it was built to survive.",
+      "url": "https://vizcaya.org/main-house/",
       "image": null,
-      "alt": "The Freedom Tower, an eleven-story Spanish Renaissance Revival tower in downtown Miami modeled on Seville's Giralda bell tower."
+      "alt": "Vizcaya's Mediterranean Revival main house on Biscayne Bay, with its stone breakwater barge in the foreground."
     },
     "noticing_prompt": {
-      "id": "np-2026-08-27",
-      "text": "Notice today when a headline number sounds worse than the number underneath it actually is -- and notice, just as carefully, the reverse: the quiet detail in paragraph six that turns out to be the real story."
+      "id": "np-2026-08-28",
+      "text": "Notice today how much of the certainty around Warsh's speech was manufactured before he said a word -- and notice, afterward, how quickly that certainty gets rewritten to match whatever he actually said."
     },
     "daily_puzzle": {
-      "id": "dp-2026-08-27",
-      "type": "logic",
-      "prompt": "Three light switches sit at the bottom of a staircase. Exactly one of them controls a single bulb in a closed room at the top. You may flip the switches however you like, but you may only climb the stairs once, and once you're up there you can look at the bulb only one time. How do you determine, with certainty, which switch controls the bulb?",
-      "hint": "A bulb that's been on for a while gives off more than just light.",
-      "solution": "Flip the first switch on and leave it for a few minutes, then turn it off. Flip the second switch on and leave it on. Leave the third switch off. Now go upstairs once: the bulb that's lit is controlled by switch two; the bulb that's off but warm is switch one; the bulb that's off and cool is switch three.",
-      "explanation": "The trick is using a second variable -- heat -- to extract a third answer from a single one-time look, since light alone can only tell you on or off."
+      "id": "dp-2026-08-28",
+      "type": "wordplay",
+      "prompt": "Rearrange all ten letters of the word ASTRONOMER to spell a two-word phrase that describes, quite literally, what an astronomer actually does for a living.",
+      "hint": "Think about what happens, physically, on a clear night at an observatory.",
+      "solution": "MOON STARER",
+      "explanation": "Every letter in ASTRONOMER (A, S, T, R, O, N, O, M, E, R) reappears exactly once in MOON STARER -- the job description was hiding inside the job title the whole time."
     },
     "evening_unwind": {
-      "id": "eu-2026-08-27",
+      "id": "eu-2026-08-28",
       "evening_quote": {
-        "text": "We suffer more often in imagination than in reality.",
-        "attribution": "Seneca",
-        "source": "Letters to Lucilius, Letter 13"
+        "text": "Men are disturbed not by the things which happen, but by the opinions about the things.",
+        "attribution": "Epictetus",
+        "source": "Enchiridion, 5"
       },
-      "evening_prompt": "A headline inflation number ran hot, Trey Moore's news got worse, and futures spiked on an earnings beat -- notice which of today's reactions were sized to the actual news, and which were sized to the fear of it."
+      "evening_prompt": "Whatever the market did in the hour after Warsh spoke this morning, notice how much of your own reaction was to the news itself, and how much was to what you'd already decided it would mean."
     },
     "reading_queue": [
       {
         "title": "Philosophy as an Art of Living",
         "url": "https://lareviewofbooks.org/article/philosophy-as-an-art-of-living/",
         "verdict": "probably_remove",
-        "reason": "Tenth flag now, unread since Aug. 2 -- if three-plus weeks hasn't pulled you in, it's fine to just clear it."
+        "reason": "Eleventh flag now, unread since Aug. 2 -- nearly four weeks of not pulling you in is a real signal, not bad luck."
       }
     ],
     "quote": {
-      "text": "It ain't over till it's over.",
-      "attribution": "Yogi Berra"
+      "text": "The stock market is a device for transferring money from the impatient to the patient.",
+      "attribution": "Warren Buffett"
     }
   },
   "threads": [
@@ -627,9 +613,9 @@
       "title": "Federal Reserve rate path",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-08-27",
-      "updates": 44,
-      "current_state": "Nvidia's blowout beat -- $96.2B revenue, +106% y/y, plus a confirmed 2-million-GPU Amazon order -- has futures sharply higher Thursday morning even after Wednesday's own close was flat-to-down on a mixed PCE read (hot headline, in-line core). The Jackson Hole Symposium opens today; Warsh's first keynote as Fed chair, tomorrow at 10am ET, is now the week's last real test before the Sept. 16 decision.",
+      "last_updated": "2026-08-28",
+      "updates": 45,
+      "current_state": "Nvidia's Thursday close -- up 9.1%, the second-biggest one-day market-cap gain ever at $442B added -- pulled the S&P and Nasdaq to solid gains and pushed September hike odds modestly higher (34-36% hike, from ~30% Wednesday) even as the 10-year ticked up to 4.68%. Fed Chair Kevin Warsh delivers his first Jackson Hole keynote as chair at 10am ET today, the week's last real input before the Sept. 16 decision.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -840,18 +826,23 @@
           "date": "2026-08-27",
           "summary": "Nvidia reported after Wednesday's close: $96.2B revenue (+106% y/y, vs. $92.2B expected) and $2.22 non-GAAP EPS (vs. $2.09 expected), with Amazon confirming a 2-million-GPU order. The stock is up roughly 6% in Thursday's premarket, lifting S&P futures +0.5% and Nasdaq-100 futures +1% as the Jackson Hole Economic Policy Symposium opens today in Wyoming -- Fed Chair Kevin Warsh delivers his first keynote as chair tomorrow, Friday, at 10am ET. September FOMC odds little changed (~68-70% hold).",
           "change_type": "advanced"
+        },
+        {
+          "date": "2026-08-28",
+          "summary": "Thursday's confirmed close: Nvidia finished up 9.1% -- the second-biggest single-day market-cap gain by any stock in history, adding $442B -- lifting the S&P 500 0.72% to 7,731 and the Nasdaq 1.57% to 26,541; the Dow added 0.2% to 53,569.44. The 10-year rose to roughly 4.68%. September hike odds drifted hawkish to roughly 34-36% (64-66% hold) on CME FedWatch, up from Wednesday's ~30-32%, as the Jackson Hole Symposium's second day brings Fed Chair Kevin Warsh's first keynote as chair at 10am ET -- the week's last real catalyst before the Sept. 16 decision.",
+          "change_type": "advanced"
         }
       ],
-      "importance": 0.62
+      "importance": 0.68
     },
     {
       "id": "thread-marlins-wildcard",
       "title": "Marlins wild card race",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-08-26",
-      "updates": 47,
-      "current_state": "Miami halted its skid at two by shutting out Boston 4-0 Wednesday night, avoiding the sweep and improving to 68-66. The wild card is now a three-team scrum above Miami -- Cubs, Phillies, and Padres hold the spots, Arizona sits a game back of the cutline -- with the tougher stretch of the schedule still ahead.",
+      "last_updated": "2026-08-28",
+      "updates": 48,
+      "current_state": "A day off let all three wild-card teams above Miami win Thursday, widening the gap to roughly four games with the Marlins sitting at 68-66. Miami opens a four-game series at Washington tonight -- a team it has beaten 8 of 9 times this season -- with the tougher stretch of the schedule still to come.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -1077,9 +1068,14 @@
           "date": "2026-08-26",
           "summary": "Miami shut out Boston 4-0, avoiding a three-game sweep -- Ryan Gusto held the Red Sox to four hits over 5 2/3 innings, and Boston committed four errors. Miami improves to 68-66. NL wild-card picture: Cubs (76-57), Phillies (73-60), and Padres (71-62) hold the three spots, with Arizona 1.0 game back of the cutline.",
           "change_type": "improved"
+        },
+        {
+          "date": "2026-08-28",
+          "summary": "Miami was idle Thursday while the three wild-card teams above them all won -- the gap widens to roughly four games back (Cubs 76-58, Phillies 74-60, Padres 72-62, Miami 68-66). The Marlins open a four-game series at Washington tonight at 6:45pm ET, Eury Perez (7-9, 3.17) against Brad Lord (5-2, 4.04); Miami is 8-1 against the Nationals this season and can lean on closer Pete Fairbanks (18 saves) in a close game.",
+          "change_type": "worsened"
         }
       ],
-      "importance": 0.5
+      "importance": 0.68
     },
     {
       "id": "thread-heat-giannis-era",
@@ -1305,9 +1301,9 @@
       "title": "Miami Hurricanes fall camp and the Mensah era",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-08-21",
-      "updates": 6,
-      "current_state": "Friday's second scrimmage saw the offense have the better of the work, a reversal from the first scrimmage's defensive edge — Cristobal called it good, competitive camp football with two weeks to go before the Sept. 4 opener at Stanford.",
+      "last_updated": "2026-08-26",
+      "updates": 7,
+      "current_state": "Tight end Luka Gilbert will miss the entire season with a summer injury, and defensive end Hayden Lowe and receiver Jontavius Wyman are no longer with the team -- roster attrition entering the stretch run of fall camp, nine days before the Sept. 4 opener at Stanford. On the field, Cristobal has called the camp good and competitive, with Darian Mensah confirmed as the starting quarterback.",
       "timeline": [
         {
           "date": "2026-08-14",
@@ -1338,9 +1334,14 @@
           "date": "2026-08-21",
           "summary": "Friday's second scrimmage at Hard Rock Stadium was a closer back-and-forth than the first — the offense reportedly had the better of the work this time, a reversal from scrimmage one, where the defense had the upper hand. Cristobal called it good, competitive work with two weeks left before the Sept. 4 opener at Stanford.",
           "change_type": "advanced"
+        },
+        {
+          "date": "2026-08-26",
+          "summary": "Cristobal confirmed sophomore tight end Luka Gilbert (6-7, 255) will miss the entire 2026 season after injuring himself at home over the summer -- 'he is going to miss the season and he will be back the following year.' Gilbert played 68 snaps as a true freshman in 2025 and was in the mix to back up Elija Lofton; the news comes alongside confirmation that Hayden Lowe and Jontavius Wyman are no longer with the team, with nine days left before the Sept. 4 opener at Stanford.",
+          "change_type": "worsened"
         }
       ],
-      "importance": 0.48
+      "importance": 0.46
     },
     {
       "id": "thread-miami-summer-openings",
@@ -1456,9 +1457,9 @@
       "title": "2026 CRE capital markets under pressure",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-08-25",
-      "updates": 23,
-      "current_state": "This week's deal sheet is quieter -- a $6.5M industrial-building sale in Miami (6400 NW 84th Ave) -- a smaller, steadier trade following the larger industrial and waterfront-mansion deals of the past two weeks.",
+      "last_updated": "2026-08-26",
+      "updates": 24,
+      "current_state": "This week's deal sheet jumps back up in size: a newly built, Whole Foods-anchored Doral shopping center traded for $83M, the largest single South Florida deal in several weeks, following two weeks of smaller industrial and single-mansion trades.",
       "timeline": [
         {
           "date": "2026-07-24",
@@ -1574,6 +1575,11 @@
           "date": "2026-08-25",
           "summary": "This week's deal sheet adds a smaller, steadier trade: a 10,300-sq-ft industrial building at 6400 NW 84th Ave sold for $6.5M to an affiliate of Roberts Oxygen Company, a modest counterpoint to the larger waterfront and industrial deals of the past two weeks.",
           "change_type": "watch"
+        },
+        {
+          "date": "2026-08-26",
+          "summary": "The week's headline trade: SJC Ventures sold the newly built, Whole Foods-anchored Doral Marketplace (8.2 acres; 38,000-sq-ft Whole Foods plus 40,700 sq ft of strip retail including J.Crew, Shake Shack, and First Watch) for $83M to a group led by Jonathan Perlman, who assumed $50.1M of existing debt -- the largest South Florida deal sheet entry in weeks, a step up from the prior two weeks' smaller industrial trades.",
+          "change_type": "advanced"
         }
       ],
       "importance": 0.58
@@ -1775,7 +1781,7 @@
     }
   ],
   "meta": {
-    "content_freshness": "Reported and searched the morning of Thu Aug 27 2026, ET; market data reflect Wednesday Aug 26's confirmed close and Nvidia's after-the-close Q2 FY27 report; Thursday premarket figures are indicative, not a close.",
+    "content_freshness": "live",
     "feedback_endpoint_mode": "github_contents",
     "minimum_client_schema_version": 1,
     "mode": "brain"
