@@ -1,35 +1,35 @@
 {
   "schema_version": 2,
   "edition": {
-    "id": "2026-08-30",
-    "date": "2026-08-30",
-    "type": "weekly",
-    "generated_at": "2026-08-30T09:30:00-04:00",
+    "id": "2026-08-31",
+    "date": "2026-08-31",
+    "type": "weekday",
+    "generated_at": "2026-08-31T09:30:00-04:00",
     "timezone": "America/New_York",
     "title": "Personal OS",
     "front_page_letter": {
       "greeting": "Good morning",
       "body_paragraphs": [
-        "This week the Fed and the AI trade landed on the same two days and pulled in opposite directions. Kevin Warsh's first Jackson Hole keynote as chair read hawkish enough to nearly double September's hike odds -- from about a third to a coin flip -- and stocks wobbled Friday. But Wednesday, Nvidia had already added $442 billion in market value in a single session on a $96.2 billion quarter, the second-biggest one-day gain any stock has ever posted. Both things are true at once: capital is getting more expensive, and the thing everyone's borrowing to build keeps compounding anyway.",
-        "Locally, the Marlins had the worse week of the two Miami stories worth knowing. They were swept -- 9-2, then 5-4 in ten innings, then 3-2 -- by a Nationals team they'd beaten eight of nine times all season, and the wild-card gap that was four games a week ago is closer to five now, with about a month left. Real estate had a steadier week: Portofino Place's $208 million sale in West Palm Beach was the third sizable South Florida trade in a month, a better read on institutional appetite than any single headline about rate odds.",
-        "Nothing came in from you this week -- no stars, no saves, nothing to argue with -- so the only thing that moved in your profile was ordinary decay, weights easing back toward neutral from disuse rather than disagreement. The philosophy-of-living piece has now sat unread for four full weeks; it's flagged to come out unless something changes. What actually carries into next week: the Sept. 16 Fed decision, the Marlins' last real stretch, and a Nov. 3 vote on who runs two of Miami's public marinas for the next several decades.",
-        "This weekend's longer read makes the case that the people an AI model actually talks to should get a real vote in what it becomes -- worth sitting with in the same week Nvidia's quarter got treated as simple good news."
+        "The Strait of Hormuz war's longest quiet stretch ended overnight. The US struck two Iranian rocket launchers on Larak Island early Sunday after IRGC crews were seen prepping sea mines for the strait -- the first American strike on Iran in over a month, and Tehran has vowed to respond. It landed the same weekend a fuller read of Warsh's Jackson Hole keynote surfaced his real message: not a rate call, but an explicit refusal to give markets one. September hike odds hold near a coin flip; futures dipped slightly at Monday's open.",
+        "Miami's roster news was tidier. The Dolphins settled their 53 by trading one unproven backup quarterback for another -- Quinn Ewers out to Jacksonville, Kyle McCord in from Green Bay, for the identical pick -- leaving Malik Willis as the starter. The Marlins, still 68-69, actually have a clearer path than yesterday's framing suggested: the real cutline is Arizona and San Diego's own half-game fight, not the Cubs and Phillies.",
+        "Nothing came in from you again this week -- the second day running with no stars or saves -- so your profile only moved by ordinary decay. The philosophy-of-living piece is closing in on a month unread.",
+        "Today's longer read makes the case for treating the AI labor transition as a sequence, not a single cliff -- worth sitting with the same week bitcoin ETFs pulled in a record $3 billion on pure conviction."
       ],
       "read_only_three": [
         {
           "target_type": "theme",
-          "target_id": "theme-warsh-fed-hawkish-week",
-          "label": "Warsh's keynote nearly doubles September's hike odds"
+          "target_id": "theme-iran-hormuz-strikes-resume",
+          "label": "The Strait of Hormuz war's longest pause just ended"
         },
         {
           "target_type": "theme",
-          "target_id": "theme-marlins-swept-nationals-week",
-          "label": "The Marlins get swept by a team they used to own"
+          "target_id": "theme-dolphins-53-qb-shuffle",
+          "label": "Miami's 53 is set -- the QB room turned over completely"
         },
         {
           "target_type": "rabbit_hole",
-          "target_id": "rh-2026-08-30",
-          "label": "This weekend's read: a real public vote in what AI becomes"
+          "target_id": "rh-2026-08-31",
+          "label": "Today's read: the AI labor transition as a sequence, not a cliff"
         }
       ]
     },
@@ -37,151 +37,185 @@
       {
         "label": "S&P 500",
         "value": "7,711.76",
-        "change": "+0.49% this week",
-        "observed": "Fri close 8/28 (markets closed the weekend)",
-        "note": "A choppy week ended on Warsh's hawkish Jackson Hole keynote, which cost Friday 0.25% but didn't erase the week's gain."
+        "change": "-0.25% Friday",
+        "observed": "Fri close 8/28 (Monday's session was still underway at publish time)",
+        "note": "Futures dipped slightly at Monday's open after the US struck Iran's Larak Island overnight, the first American strike in over a month."
       },
       {
         "label": "Nasdaq Composite",
         "value": "26,402.42",
-        "change": "+0.85% this week",
+        "change": "-0.52% Friday",
         "observed": "Fri close 8/28",
-        "note": "Nvidia's record $96.2B-revenue quarter mid-week did more work than the Fed scare -- the index still closed higher on the week."
+        "note": "Still closed last week higher regardless -- Nvidia's quarter did more work than Friday's Fed scare."
       },
       {
         "label": "10Y Treasury",
         "value": "~4.67%",
-        "change": "eased ~4bp this week",
+        "change": "little changed",
         "observed": "Fri close 8/28",
-        "note": "Treasury's long-dated debt-buyback announcement, not the Fed noise, did most of the work easing yields this week."
+        "note": "Has held in the 4.65-4.68% range since Treasury's mid-week debt-buyback announcement eased pressure."
       },
       {
         "label": "FOMC (Sept. 16 decision)",
         "value": "Hike ~56-57%, Hold ~43-44%",
-        "change": "hike odds nearly doubled this week (~32% -> ~56-57%)",
-        "observed": "as of Fri 8/28 postspeech, unchanged over the weekend (CME FedWatch; Kalshi 48%, Polymarket 49%)",
-        "note": "One keynote moved the number more than every data release the rest of the week combined."
+        "change": "unchanged since Friday",
+        "observed": "as of Monday morning (CME FedWatch)",
+        "note": "Warsh's Friday keynote did the moving; nothing since -- including overnight Iran strikes -- has shifted the number."
       }
     ],
     "public_day_context": {
-      "date_label": "Sunday, August 30",
-      "weather": "Scattered showers and thunderstorms with a high near 89-90F, humid, heat index near 106F, east winds 5-10 mph -- a typical late-August South Florida Sunday.",
-      "public_event": "Today is the NFL's 2026 roster-cutdown deadline -- all 32 teams, the Dolphins included, must reach a 53-man roster by 6pm ET."
+      "date_label": "Monday, August 31",
+      "weather": "Partly cloudy with scattered afternoon showers and thunderstorms, high near 90F, low tonight near 78F, roughly 40% chance of rain -- typical late-summer South Florida.",
+      "public_event": "The last trading day of August; the Marlins close out their four-game series against the Nationals tonight (6:45pm ET) before a three-game trip to Kansas City."
     },
     "what_changed": [
       {
-        "id": "delta-marlins-swept-week",
-        "thread_id": "thread-marlins-wildcard",
+        "id": "delta-iran-strikes-resume",
+        "thread_id": "thread-iran-hormuz-crisis",
         "change_type": "worsened",
-        "title": "The Marlins get swept -- all three games -- by a team they own",
-        "previous_state": "Miami lost Friday's series opener 9-2 to a Nationals team it had beaten eight of nine times this season, falling to 68-67 with three games left to answer back.",
-        "current_state": "Washington completed the sweep: Miami lost 5-4 in ten innings Saturday and 3-2 Sunday, falling to 68-69. The wild-card gap has widened from roughly four games to roughly five, with about a month left to play.",
-        "why_it_matters": "A series against a team you dominate is supposed to be where a fading push finds ground back -- losing all three is closer to an ending than a setback.",
+        "title": "First US strike on Iran in over a month breaks the war's longest pause",
+        "previous_state": "Iran's IRGC claimed \"decisive control\" of the Strait and Bessent's bank-sanction threshold remained uncrossed, but no new attacks had been confirmed since the mid-August ADNOC cluster.",
+        "current_state": "The US struck two Iranian rocket launchers on Larak Island Sunday -- the first American strike on Iran in over a month -- after IRGC forces were seen prepping sea-mine rockets for the Strait; Iran's Revolutionary Guard confirmed casualties and vowed to respond.",
+        "why_it_matters": "Six months of war had settled into a rhetorical standoff; an actual US strike, the first in a month, is the kind of fact that can reprice oil and rate odds overnight.",
         "confidence": "high",
         "source": {
-          "publisher": "ESPN",
-          "url": "https://www.espn.com/mlb/game/_/gameId/401816737/marlins-nationals"
+          "publisher": "NBC News",
+          "url": "https://www.nbcnews.com/politics/national-security/us-forces-strike-iranian-rocket-launchers-strait-hormuz-first-military-rcna595194"
         }
       },
       {
-        "id": "delta-dolphins-cuts-begin",
+        "id": "delta-dolphins-53-final",
         "thread_id": "thread-dolphins-hafley-rebuild",
-        "change_type": "advanced",
-        "title": "Dolphins begin cutting toward the 53-man deadline",
-        "previous_state": "Miami was carrying Trey Moore as one of 90 players ahead of Sunday's roster deadline, with his IR placement expected once cuts were final.",
-        "current_state": "Miami began its round of roster cuts Sunday, waiving 12 players as all NFL teams face today's 6pm ET deadline to reach 53; Moore's IR placement is still expected to follow immediately after.",
-        "why_it_matters": "It's the mechanical step that finally resolves -- for real, not just procedurally -- Miami's linebacker depth question before the Sept. 4 opener.",
-        "confidence": "medium",
+        "change_type": "resolved",
+        "title": "Dolphins' 53 is set, with the QB room fully turned over",
+        "previous_state": "Miami had waived 12 players Sunday morning as cuts began, with Trey Moore's IR placement still pending the final 53.",
+        "current_state": "Miami's 53-man roster is set: Quinn Ewers was traded to Jacksonville and Kyle McCord acquired from Green Bay using the identical pick, making Malik Willis the Week 1 starter with McCord as his backup.",
+        "why_it_matters": "The linebacker and now quarterback-depth questions that shadowed camp are both resolved heading into the Sept. 4 opener -- for better or worse, Miami knows what it has.",
+        "confidence": "high",
         "source": {
-          "publisher": "NBC Sports",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dolphins-begin-roster-cuts-waive-12-players"
+          "publisher": "Miami Dolphins (official)",
+          "url": "https://www.miamidolphins.com/news/miami-dolphins-set-initial-53-man-roster-for-2026"
         }
       },
       {
-        "id": "delta-iran-dueling-control-claims",
-        "thread_id": "thread-iran-hormuz-crisis",
+        "id": "delta-marlins-cutline-correction",
+        "thread_id": "thread-marlins-wildcard",
         "change_type": "watch",
-        "title": "Six months in, Iran now claims the same 'total control' Washington does",
-        "previous_state": "Bessent had named the specific condition -- facilitating Iranian oil payments -- that would trigger sanctions on Chinese banks, but no bank had been sanctioned and China's purchases continued unimpeded.",
-        "current_state": "As the war passes its six-month mark, Iran's IRGC claimed for the first time 'decisive control' over the Strait -- directly contradicting Washington's own repeated control claims -- while Iran's parliament speaker publicly called Bessent's oil-export figures a lie. No bank has actually been sanctioned.",
-        "why_it_matters": "Six months in, both sides are now making mutually exclusive control claims about the same waterway -- a sign the war of words has outpaced any actual change on the ground.",
+        "title": "Marlins' wild-card math corrects: it's Arizona and San Diego, not Cubs and Phillies",
+        "previous_state": "Sunday's sweep completion put Miami at 68-69, described as roughly five games back of the wild-card picture led by the Cubs and Phillies.",
+        "current_state": "The actual cutline for the final wild-card spot is Arizona (73-65) and San Diego (72-65, half a game back), not the Cubs or Phillies, who are running away with the other two spots -- Miami's real deficit is closer to four and a half games.",
+        "why_it_matters": "Same record, a clearer picture: the race Miami actually has to win is tighter and more crowded than yesterday's frame suggested.",
         "confidence": "medium",
         "source": {
-          "publisher": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/8/28/iran-war-live-tehran-prepares-conditions-to-open-strait-of-hormuz"
+          "publisher": "Last Word on Baseball",
+          "url": "https://lastwordonsports.com/baseball/2026/08/31/mlb-postseason-race/"
         }
       }
     ],
     "themes": [
       {
-        "id": "theme-warsh-fed-hawkish-week",
+        "id": "theme-iran-hormuz-strikes-resume",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "One Jackson Hole speech did more to Fed odds than a month of data",
-        "importance": 0.8,
-        "thesis": "Kevin Warsh's first keynote as Fed chair read as hawkish enough to nearly double the market's odds of a September hike, closing out a week where the Fed dominated every other signal.",
-        "synthesis": "This week opened with September hold odds sitting near 68% and closed with hike odds near a coin flip. Warsh's Friday Jackson Hole keynote -- inflation running too high, price stability his \"predominant focus\" -- did that alone: CME FedWatch hike odds jumped from roughly 32% pre-speech to 56-57%, with Kalshi (48%) and Polymarket (49%) close behind. Stocks slipped on the news (S&P -0.25%, Nasdaq -0.52%) but both still closed the week higher, and the 10-year eased slightly to ~4.67% on a separate Treasury buyback announcement mid-week. Eighteen days remain before the Sept. 16 decision.",
-        "new_today": "Weekly framing of the Warsh keynote against the full week's odds shift.",
-        "why_it_matters": "Every week this summer the market has swung on a data print; this week it swung on eleven minutes of a speech -- a reminder that under a new Fed chair, rhetoric itself has become a market-moving instrument.",
+        "title": "The Strait of Hormuz war's longest pause just ended",
+        "importance": 0.78,
+        "thesis": "The first US strike on Iran in over a month broke six weeks of relative calm in the Strait of Hormuz war, just as markets were digesting a hawkish Fed and oil traders were pricing in a genuine lull.",
+        "synthesis": "US forces struck two Iranian rocket launchers on Larak Island early Sunday after IRGC crews were seen preparing to fire sea-mine rockets into the Strait -- the first American military action against Iran in over a month, coming just days after the US Navy finished clearing mines from the Strait's shipping lanes. Iran's Revolutionary Guard confirmed fighters and civilians killed or wounded, calling the strike \"a strategic and deadly mistake\" it would punish. It ends the longest pause of a six-month war that had otherwise settled into a rhetorical standoff -- Iran's IRGC claiming \"decisive control\" of the Strait, Washington repeating its own \"total control\" claim, and no major Chinese bank yet sanctioned despite Bessent's threats. US stock futures dipped modestly Monday on the news.",
+        "new_today": "The Larak Island strike itself, Iran's confirmed casualties, and its vow to respond.",
+        "why_it_matters": "Every prior lull in this war has ended in a strike, not a deal -- this is that pattern reasserting itself just as markets had started pricing in a quiet stretch.",
+        "thread_id": "thread-iran-hormuz-crisis",
+        "confidence": "high",
+        "sources": [
+          {
+            "role": "primary_reporting",
+            "publisher": "NBC News",
+            "headline": "U.S. forces strike Iranian rocket launchers on the Strait of Hormuz in first military action in weeks",
+            "url": "https://www.nbcnews.com/politics/national-security/us-forces-strike-iranian-rocket-launchers-strait-hormuz-first-military-rcna595194"
+          },
+          {
+            "role": "analysis",
+            "publisher": "CNBC",
+            "headline": "U.S. strikes Iranian rocket launchers near Strait of Hormuz",
+            "url": "https://www.cnbc.com/2026/08/30/us-iran-strikes-strait-hormuz.html"
+          }
+        ]
+      },
+      {
+        "id": "theme-warsh-quieter-fed-doctrine",
+        "affinity": "morning",
+        "topic": "markets",
+        "topic_label": "Markets & Macro",
+        "title": "Warsh's real message wasn't the number -- it was that he won't give you one",
+        "importance": 0.6,
+        "thesis": "A fuller read of Friday's Jackson Hole keynote shows Warsh deliberately declining to guide markets at all, a break from Fed tradition that matters as much as Friday's odds swing.",
+        "synthesis": "Warsh told Jackson Hole Friday that \"we should not indulge a regime in which market participants are looking primarily to the Fed for their next trade,\" arguing a \"quieter Fed, more purposeful in its communications, is better able to meet its objectives\" -- an explicit rejection of forward guidance even as most investors now price a September hike. September hike odds held near Friday's 56-57% (CME FedWatch) into Monday, with futures dipping slightly after the overnight Iran strike added a fresh risk input. Sixteen days remain before the Sept. 16 decision.",
+        "new_today": "The fuller weekend writeups of Warsh's stated philosophy against forward guidance, plus Monday's market open.",
+        "why_it_matters": "A Fed chair who won't tell markets what he's going to do is itself a policy choice -- worth tracking as its own story, separate from whatever the next print says the odds are.",
         "thread_id": "thread-fed-rate-path",
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
             "publisher": "CNBC",
-            "headline": "September Fed decision is now a coin flip as rate hike odds increase post Warsh",
-            "url": "https://www.cnbc.com/2026/08/28/-september-fed-decision-now-a-coin-flip-as-rate-hike-odds-increase.html"
+            "headline": "Fed Chairman Warsh expresses concern about inflation, advocates for 'quieter' central bank",
+            "url": "https://www.cnbc.com/2026/08/28/kevin-warsh-jackson-hole-federal-reserve-inflation.html"
           },
           {
-            "role": "analysis",
-            "publisher": "Yahoo Finance",
-            "headline": "Stock market today: Dow, S&P 500, Nasdaq moderate as markets digest Warsh's Jackson Hole speech",
-            "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-august-28-dow-sp-500-nasdaq-dip-fed-warsh-jackson-hole-speech-081514091.html"
+            "role": "background",
+            "publisher": "NPR",
+            "headline": "Fed Chair Kevin Warsh warns inflation is still too high",
+            "url": "https://www.npr.org/2026/08/28/nx-s1-5947903/federal-reserve-inflation-jackson-hole-interest-rates"
           }
         ]
       },
       {
-        "id": "theme-nvidia-ai-capex-record-week",
-        "affinity": "morning",
-        "topic": "markets",
-        "topic_label": "Markets & Macro",
-        "title": "Nvidia added $442 billion in a day -- the second-biggest single-day gain by any stock, ever",
-        "importance": 0.62,
-        "thesis": "Nvidia's blowout quarter was the week's other headline number, landing in the same five days the Fed nearly flipped its rate stance -- a real tension between AI-fueled growth and the cost of money to fund it.",
-        "synthesis": "Nvidia reported $96.2 billion in quarterly revenue (up 106% year-over-year, beating estimates of $92.2 billion) with Amazon confirming a 2-million-GPU order. The stock jumped 9.1% Thursday, adding $442 billion in market value in a single session -- the second-biggest one-day gain by any company in history -- and helped lift the Nasdaq to a weekly gain even as Fed-hike odds climbed. It's the week's tension in miniature: AI capex keeps compounding while the cost of capital to finance it just got less certain.",
-        "new_today": "Weekly framing tying Nvidia's earnings to the Fed's rate-odds swing in the same five trading days.",
-        "why_it_matters": "The AI trade and the rate trade are usually treated as separate stories; this week they landed on the same two days, worth noticing before either gets treated as inevitable.",
-        "thread_id": null,
-        "confidence": "high",
-        "sources": [
-          {
-            "role": "primary_reporting",
-            "publisher": "CNBC",
-            "headline": "S&P 500 falls Friday after Fed's Warsh highlights inflation worries, but index posts positive week",
-            "url": "https://www.cnbc.com/2026/08/27/stock-market-today-live-updates.html"
-          }
-        ]
-      },
-      {
-        "id": "theme-marlins-swept-nationals-week",
+        "id": "theme-dolphins-53-qb-shuffle",
         "affinity": "morning",
         "topic": "sports",
         "topic_label": "Miami Sports",
-        "title": "The Marlins get swept by a team they used to own -- and the wild-card gap becomes a cliff",
-        "importance": 0.62,
-        "thesis": "Miami lost all three games of a series it needed to win against a team it had dominated all season, turning a four-game deficit into a real longshot.",
-        "synthesis": "Washington swept Miami 9-2, 5-4 (in ten innings, on Dylan Crews' walk-off RBI single), and 3-2 across the weekend series, dropping the Marlins to 68-69. Entering the series, Miami had beaten the Nationals eight of nine times this season. The Cubs (76-59), Phillies (75-60), and Padres (72-63) hold the three NL wild-card spots; Miami now sits roughly five games back with about a month left in the season.",
-        "new_today": "Weekly framing of the full three-game sweep and its effect on the wild-card math.",
-        "why_it_matters": "A series against a team you dominate is supposed to be where a fading push finds ground back -- Miami lost all three, which is closer to an ending than a setback.",
-        "thread_id": "thread-marlins-wildcard",
+        "title": "Miami's 53 is set -- and the QB room turned over completely to get there",
+        "importance": 0.5,
+        "thesis": "Miami finalized its roster by trading away one developmental QB and acquiring another for the exact same pick, leaving Malik Willis as the Week 1 starter with a brand-new backup.",
+        "synthesis": "Miami's initial 53-man roster is set after waiving a dozen-plus players over the weekend. The most notable move wasn't a cut: Miami traded Quinn Ewers to Jacksonville Saturday for a 2028 sixth-round pick, then used that identical pick Sunday to acquire Kyle McCord from Green Bay -- a direct swap of unproven backup quarterbacks. Malik Willis remains the Week 1 starter. Separately, linebacker Trey Moore, sidelined by an ankle injury needing surgery, is expected on injured reserve now that the initial 53 is official, preserving his eligibility to return later this season.",
+        "new_today": "The roster finalization and the McCord-for-Ewers swap.",
+        "why_it_matters": "It's a strange way to spend a roster-cutdown weekend -- trading one unproven QB for another of similar profile -- but it means Miami opens the season with a settled QB room and a linebacker plan, both real question marks two weeks ago.",
+        "thread_id": "thread-dolphins-hafley-rebuild",
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "ESPN",
-            "headline": "Marlins vs. Nationals (Aug 30, 2026) Live Score",
-            "url": "https://www.espn.com/mlb/game/_/gameId/401816737/marlins-nationals"
+            "publisher": "Miami Dolphins (official)",
+            "headline": "Miami Dolphins Set Initial 53-Man Roster for 2026",
+            "url": "https://www.miamidolphins.com/news/miami-dolphins-set-initial-53-man-roster-for-2026"
+          },
+          {
+            "role": "background",
+            "publisher": "NBC Sports",
+            "headline": "Dolphins announce moves, reduce roster to 53",
+            "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dolphins-announce-moves-reduce-roster-to-53"
+          }
+        ]
+      },
+      {
+        "id": "theme-marlins-wildcard-cutline-corrected",
+        "affinity": "morning",
+        "topic": "sports",
+        "topic_label": "Miami Sports",
+        "title": "Miami's real wild-card math: it's Arizona and San Diego, not Cubs and Phillies",
+        "importance": 0.42,
+        "thesis": "The teams actually standing between Miami and October are the Diamondbacks and Padres, locked in their own half-game battle for the final spot -- a tighter, more accurate picture than the comfortable Cubs/Phillies framing.",
+        "synthesis": "The Cubs and Phillies have effectively locked up the NL's first two wild-card spots. The real contest is for the third: Arizona (73-65) holds a slim half-game edge over San Diego (72-65), which just got swept by Tampa Bay after blowing multiple leads. Miami, at 68-69 after being swept by Washington, sits roughly four and a half games back of Arizona with about a month left -- tonight's series finale against the Nationals closes out a four-game set before a three-game trip to Kansas City.",
+        "new_today": "The corrected picture of who actually holds the cutline, and San Diego's own stumble.",
+        "why_it_matters": "Same Miami record as yesterday, but a clearer target: the race worth watching is Arizona-San Diego's own dogfight, not a fixed gap behind teams that are already gone.",
+        "thread_id": "thread-marlins-wildcard",
+        "confidence": "medium",
+        "sources": [
+          {
+            "role": "primary_reporting",
+            "publisher": "Last Word on Baseball",
+            "headline": "Where Things Stand In The MLB Postseason Race As Regular Season Enters Final Month",
+            "url": "https://lastwordonsports.com/baseball/2026/08/31/mlb-postseason-race/"
           },
           {
             "role": "background",
@@ -192,226 +226,114 @@
         ]
       },
       {
-        "id": "theme-sfl-cre-deal-sheet-week",
+        "id": "theme-bitcoin-etf-record-month",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "South Florida's biggest institutional trade in a month closes -- and it's not alone",
-        "importance": 0.55,
-        "thesis": "Portofino Place's $208M sale was the headline, but it capped a month where South Florida kept trading real multifamily assets at real prices, regardless of where financing costs sit.",
-        "synthesis": "Cortland Partners sold the 812-unit Portofino Place Apartments in West Palm Beach for $208 million ($256,200/unit) to a venture tied to FRH Realty and Fairfield Residential -- the largest South Florida trade in over a month, topping the $83M Doral Marketplace retail sale two weeks earlier and the $109M Emerald Palms multifamily deal in early August. Three sizable trades in a month, across two asset classes, is a cleaner read on institutional appetite than any single cap-rate survey.",
-        "new_today": "Weekly framing situating Portofino Place against the month's other large trades.",
-        "why_it_matters": "Deal volume like this, sustained across a month of Fed uncertainty, says more about where institutional capital actually prices South Florida than headlines about rate odds do.",
-        "thread_id": "thread-cre-capital-markets-2026",
-        "confidence": "high",
-        "sources": [
-          {
-            "role": "primary_reporting",
-            "publisher": "The Real Deal",
-            "headline": "South Florida Top Real Estate Deals: Aug. 27, 2026",
-            "url": "https://therealdeal.com/data/miami/2026/south-florida-top-real-estate-deals-aug-27-2026/"
-          },
-          {
-            "role": "background",
-            "publisher": "The Real Deal",
-            "headline": "South Florida Top Real Estate Deals: August 5, 2026",
-            "url": "https://therealdeal.com/miami/2026/08/06/south-florida-top-real-estate-deals-august-5-2026/"
-          }
-        ]
-      },
-      {
-        "id": "theme-virginia-key-marina-vote-week",
-        "affinity": "morning",
-        "topic": "miami",
-        "topic_label": "Miami Life & Culture",
-        "title": "The last legal challenge to Miami's $80M marina overhaul is gone -- voters decide in November",
-        "importance": 0.52,
-        "thesis": "With the lawsuit dismissed, the fate of two city-owned waterfront marinas now rests entirely with voters on Nov. 3, not the courts.",
-        "synthesis": "A Miami-Dade circuit court judge rejected a legal challenge brought by Rickenbacker Marina Inc. and an affiliated group against the city's proposed $80 million redevelopment of the Rickenbacker and Marine Stadium marinas on Virginia Key. The proposal -- a 45-year lease with two 15-year renewal options to Virginia Key LLC, a joint venture of RCI Marine Group and Suntex Marinas, covering roughly 27.6 acres of public waterfront -- now heads to Miami voters on the Nov. 3 ballot without further legal obstruction. It's a separate vote from the Marine Stadium restoration referendum voters already approved in August.",
-        "new_today": "The legal challenge's dismissal and confirmation of the Nov. 3 ballot date.",
-        "why_it_matters": "This is the second major public vote this year on who controls Miami's waterfront for the next several decades -- worth watching either way, because long private leases on public land, decided narrowly at the ballot box, is becoming how Miami manages its most valuable remaining asset.",
-        "thread_id": "thread-virginia-key-marina-referendum",
-        "confidence": "high",
-        "sources": [
-          {
-            "role": "primary_reporting",
-            "publisher": "Florida YIMBY",
-            "headline": "Court Rejects Challenge To Virginia Key Marina Referendum Ahead Of November Vote",
-            "url": "https://floridayimby.com/2026/08/court-rejects-challenge-to-virginia-key-marina-referendum-ahead-of-november-vote.html"
-          },
-          {
-            "role": "background",
-            "publisher": "Axios Miami",
-            "headline": "Virginia Key marina redevelopment heads to Miami voters",
-            "url": "https://www.axios.com/local/miami/2026/08/20/virginia-key-marina-redevelopment-miami-referendum"
-          }
-        ]
-      },
-      {
-        "id": "theme-dolphins-roster-53-week",
-        "affinity": "morning",
-        "topic": "sports",
-        "topic_label": "Miami Sports",
-        "title": "Miami trims toward 53 -- and still doesn't know its linebacker depth",
-        "importance": 0.45,
-        "thesis": "Roster cutdown day arrived with last week's Trey Moore procedural wrinkle still unresolved, adding real uncertainty right before Week 1.",
-        "synthesis": "The Dolphins began their round of cuts Sunday, waiving 12 players -- including CB Alex Austin, RB Coleman Bennett, and linebackers Stephen Dix Jr. and Jaheim Thomas -- as all NFL teams face a 6pm ET deadline to reach 53 players. Rookie linebacker Trey Moore, who needs ankle surgery, still can't go on injured reserve until the initial 53-man roster is set; Miami is expected to place him on IR immediately after, preserving his eligibility to return later this season.",
-        "new_today": "The first wave of Sunday's roster cuts.",
-        "why_it_matters": "It's ordinary roster mechanics, but it means Miami plays its Sept. 4 opener without a settled answer at a position it was counting on a rookie starter for.",
-        "thread_id": "thread-dolphins-hafley-rebuild",
-        "confidence": "medium",
-        "sources": [
-          {
-            "role": "primary_reporting",
-            "publisher": "NBC Sports",
-            "headline": "Dolphins begin roster cuts, waive 12 players",
-            "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dolphins-begin-roster-cuts-waive-12-players"
-          },
-          {
-            "role": "background",
-            "publisher": "Sports Illustrated",
-            "headline": "What to Know About Miami Dolphins LB Trey Moore's Status and Other Injury Updates",
-            "url": "https://www.si.com/nfl/dolphins/onsi/what-to-know-about-miami-dolphins-lb-trey-moore-s-status-and-other-injury-updates-01m0qppaeg99"
-          }
-        ]
-      },
-      {
-        "id": "theme-heat-panthers-caution-week",
-        "affinity": "morning",
-        "topic": "sports",
-        "topic_label": "Miami Sports",
-        "title": "Miami's two winter teams are both managing something in the players they're built around",
-        "importance": 0.5,
-        "thesis": "The Heat held Giannis back from international competition and the Panthers' Brad Marchand had offseason surgery that could cost him the start of the season -- different sports, same story of caution around a franchise cornerstone.",
-        "synthesis": "The Heat declined to clear Giannis Antetokounmpo for Greece's FIBA World Cup qualifiers, prioritizing an early start to his first Miami training camp -- he hasn't played a competitive game since March 15, and the gap will reach nearly six months by camp. Separately, Panthers forward Brad Marchand confirmed offseason surgery for a hip and sports-hernia issue; the recovery timeline now points to six to ten missed games with an earliest return around mid-October, well into the season's first month. Both stories surfaced in the same week.",
-        "new_today": "Weekly framing joining the two injury-management stories.",
-        "why_it_matters": "Both teams just spent big to build around these two players -- how carefully each is being brought back says as much about how much is riding on them as any roster move does.",
+        "title": "Bitcoin ETFs just had their best month of 2026 -- while bitcoin itself went nowhere",
+        "importance": 0.4,
+        "thesis": "US spot bitcoin ETFs pulled in more than $3 billion in August, the strongest month of the year, even as the coin itself round-tripped on Fed jitters -- a split between institutional accumulation and retail price action worth noticing.",
+        "synthesis": "US spot bitcoin ETFs took in over $3 billion in August, already 2026's strongest month and roughly double April's pace, with an eight-day, $2.8 billion inflow streak pushing combined net assets to nearly $99 billion, up from about $77 billion in mid-August. BlackRock's IBIT fund captured much of the demand. Bitcoin itself, meanwhile, touched a three-month high near $81,455 Thursday before Warsh's hawkish Friday keynote knocked it back below $78,000 by the weekend -- ending essentially flat on net.",
+        "new_today": "August's ETF-inflow total crossing $3B, confirmed as 2026's strongest month.",
+        "why_it_matters": "When the fund flows and the spot price stop moving together, it's usually the fund flows worth paying attention to -- they're the slower, stickier signal.",
         "thread_id": null,
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Heat Nation",
-            "headline": "Report: Miami Heat declined to clear Giannis for Greece's World Cup qualifiers",
-            "url": "https://heatnation.com/team-news/report-miami-heat-declined-to-clear-giannis-for-greeces-world-cup-qualifiers/"
+            "publisher": "CoinDesk",
+            "headline": "Live updates: Bitcoin reclaims $80,000 as software stocks lead market rally",
+            "url": "https://www.coindesk.com/business/2026/08/27/live-updates-bitcoin-etf-inflows-hit-eight-straight-days-as-august-tops-usd3-billion"
           },
           {
-            "role": "background",
-            "publisher": "NHL.com",
-            "headline": "Marchand says he has had offseason surgery",
-            "url": "https://www.nhl.com/news/florida-panthers-brad-marchand-says-he-has-had-offseason-surgery"
+            "role": "analysis",
+            "publisher": "Decrypt",
+            "headline": "Bitcoin ETFs Draw $2.8B in Eight-Day Streak as BTC Tests $80K",
+            "url": "https://decrypt.co/376683/bitcoin-etfs-draw-2-8b-in-eight-day-streak-as-btc-tests-80k"
           }
         ]
       },
       {
-        "id": "theme-pamm-get-in-the-game-week",
+        "id": "theme-everglades-hidden-wall-water-security",
         "affinity": "evening",
         "topic": "miami",
         "topic_label": "Miami Life & Culture",
-        "title": "PAMM's sports-meets-art show enters its final two weeks",
-        "importance": 0.4,
-        "thesis": "A museum show built around the idea that an athlete's discipline and an artist's are the same discipline is worth catching before it closes.",
-        "synthesis": "\"Get in the Game: Sports, Art, Culture\" at Perez Art Museum Miami closes September 13 after a run timed to the Miami Open, the Formula 1 Grand Prix, and the World Cup. More than 100 works -- paintings, photography, sculpture, design -- explore sport as a source of both personal expression and shared cultural memory, curated by Jennifer Dunlop Fletcher, Seph Rodney, and Katy Siegel.",
-        "new_today": "The two-weeks-left framing as the show nears its close.",
-        "why_it_matters": "It's a rare exhibition built for someone who takes both sports and art seriously rather than asking him to choose -- and the window to see it is closing.",
+        "title": "The wall under the Everglades that's quietly protecting Miami's drinking water",
+        "importance": 0.42,
+        "thesis": "A 7-mile, 60-foot-deep underground wall finished in recent years is doing unglamorous, essential work securing Miami-Dade's water supply -- worth noticing precisely because it asks for no attention at all.",
+        "synthesis": "Miami-Dade has built a 7-mile-long, 26-inch-wide, up to 60-foot-deep underground seepage barrier designed to keep fresh water inside Everglades National Park rather than draining east toward the coast -- part of a broader 25-plus-year restoration effort now proving to be a genuine resilience asset. When water-use restrictions hit Miami-Dade in February amid falling Biscayne Aquifer levels, infrastructure like this determined how bad it got: the restoration work quietly recharges the aquifer that supplies the region's drinking water. Separately, the Picayune Strand Restoration Project -- restoring natural water flows across an 85-square-mile area in southwest Florida -- was completed this January, another piece of the same long-running effort.",
+        "new_today": "First feature of this infrastructure in the edition -- an exploration pick outside the usual news cycle.",
+        "why_it_matters": "It's the opposite of a breaking story: three decades of unglamorous engineering, still paying out, in a summer when \"water security\" usually only makes the news when something goes wrong.",
         "thread_id": null,
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Perez Art Museum Miami",
-            "headline": "Get in the Game: Sports, Art, Culture",
-            "url": "https://www.pamm.org/en/exhibition/get-in-the-game-sports-art-culture/"
+            "publisher": "Everglades Foundation",
+            "headline": "The Hidden Wall Protecting the Everglades and Miami-Dade Communities",
+            "url": "https://www.evergladesfoundation.org/post/the-hidden-wall-protecting-the-everglades-and-miami-dade-communities"
           },
           {
-            "role": "local_perspective",
-            "publisher": "WLRN",
-            "headline": "'Get in the Game' at PAMM puts sports and art on a level playing field",
-            "url": "https://www.wlrn.org/arts-culture/2026-04-21/get-in-the-game-at-pamm-puts-sports-and-art-on-a-level-playing-field"
-          }
-        ]
-      },
-      {
-        "id": "theme-bass-gabriel-rico-mural-week",
-        "affinity": "evening",
-        "topic": "miami",
-        "topic_label": "Miami Life & Culture",
-        "title": "A wall-sized math equation, built from pool toys and VHS tapes, opened at the Bass this week",
-        "importance": 0.4,
-        "thesis": "A conceptual artist turned an algebra problem into a permanent wall of found objects, and it opened to the public this week.",
-        "synthesis": "Mexican artist Gabriel Rico's \"X Mural, from the series -- Reduccion objectia orquestada\" debuted this week at The Bass in Miami Beach and stays on view through 2028. The wall-sized piece substitutes everyday found objects -- pool toys, VHS tapes, images of historical artworks -- for the symbols of a math equation, part of the museum's newly announced 2026-27 season.",
-        "new_today": "The installation's public debut this week.",
-        "why_it_matters": "It rewards the kind of slow looking a beach day doesn't usually ask for -- work out what the equation is actually saying, and it says something different than it first appears to.",
-        "thread_id": null,
-        "confidence": "medium",
-        "sources": [
-          {
-            "role": "primary_reporting",
-            "publisher": "Miami New Times",
-            "headline": "The best art exhibitions to see in Miami in August 2026",
-            "url": "https://www.miaminewtimes.com/arts-culture/best-art-exhibitions-to-see-in-miami-in-august-2026-40573506/"
-          },
-          {
-            "role": "background",
-            "publisher": "The Bass",
-            "headline": "Announcing 2026-27 Season Exhibitions at The Bass, Miami Beach",
-            "url": "https://thebass.org/announcing-2026-27-season-exhibitions-at-the-bass/"
+            "role": "analysis",
+            "publisher": "The Invading Sea",
+            "headline": "Miami's drought wake-up call: Everglades restoration is our water insurance",
+            "url": "https://www.theinvadingsea.com/2026/05/07/drought-florida-everglades-restoration-miami-dade-biscayne-aquifer-water-wildfire-resilience/"
           }
         ]
       }
     ],
     "rabbit_hole": {
-      "id": "rh-2026-08-30",
-      "title": "AI Needs Public Feedback At Scale Before It's Too Late",
-      "creator": "Nathan Gardels, Noema",
+      "id": "rh-2026-08-31",
+      "title": "A Roadmap for the Upcoming Labor Transition",
+      "creator": "Deric Cheng, AI Frontiers",
       "format": "essay",
-      "minutes": 22,
-      "why": "Gardels argues that the small teams currently rewriting the rules AI models live by -- one recent revision to Claude's own 'constitution' drew on a handful of outside experts, not the tens of millions of people who talk to it daily -- is a legitimacy problem hiding in plain sight. Worth reading the same week Nvidia added $442 billion in a single session: the AI-capex story keeps getting told as simply inevitable, and this is the case for why the people it's built around should get an actual vote in what it becomes.",
-      "url": "https://www.noemamag.com/ai-needs-public-feedback-at-scale-before-its-too-late/",
+      "minutes": 20,
+      "why": "Cheng, who runs research for a nonprofit built around distributing AI's economic gains, lays out the labor transition not as one cliff but as a sequence of waves, each demanding a different policy response -- a more useful frame than either the doom or dismissal takes that dominate the conversation. Worth reading the same week ETF investors put a record $3 billion behind bitcoin on pure conviction: the capital keeps arriving quickly, and this is one of the more serious attempts at working out what happens to the people whose jobs it's replacing.",
+      "url": "https://ai-frontiers.org/articles/a-roadmap-for-the-upcoming-labor-transition",
       "related_interest": "living"
     },
     "beautiful_thing": {
-      "id": "bt-2026-08-30",
-      "title": "The Barge at Vizcaya",
-      "creator": "Alexander Stirling Calder, sculptor; F. Burrall Hoffman, architect; Paul Chalfin, designer -- built for James Deering",
-      "era": "1914-1922; Vizcaya Museum and Gardens, a National Historic Landmark since 1994",
-      "body": "James Deering built Vizcaya as a Miami winter estate modeled on the country villas of Italy's Veneto region, and had sculptor Alexander Stirling Calder carve a stone breakwater just offshore, shaped like a ceremonial barge and decorated with carved figures representing mythical Caribbean creatures. It never sailed anywhere and has no engine -- its actual job was to break the waves before they reached the house, a functional piece of coastal engineering disguised as a folly. Worth noticing: a structure built to look purely decorative has held the line between a Gilded Age fantasy and Biscayne Bay for over a century.",
-      "url": "https://vizcaya.org/main-house/",
+      "id": "bt-2026-08-31",
+      "title": "The Freedom Tower",
+      "creator": "Schultze and Weaver, architects (also responsible for the Waldorf-Astoria and the Biltmore); built for newspaper publisher James M. Cox",
+      "era": "Completed 1925; served as the country's main Cuban refugee processing center, 1962-1974; National Historic Landmark",
+      "body": "Modeled directly on Seville's Giralda bell tower, the 289-foot Freedom Tower was briefly the tallest building in the South and doubled as a navigation landmark for ships entering the port. Its second life mattered more: after 1962, it became the country's main processing center for the roughly 650,000 Cuban refugees who arrived in Miami after the revolution, known to them simply as \"El Refugio.\" Worth noticing: a building designed purely to be looked at -- Mediterranean Revival ornament borrowed from a 12th-century Spanish minaret -- ended up doing the most consequential work of its life as a waiting room.",
+      "url": "https://moadmdc.org/freedom-tower/history-of-the-freedom-tower",
       "image": null,
-      "alt": "The stone Barge breakwater at Vizcaya, carved with mythical figures, sitting just offshore in Biscayne Bay."
+      "alt": "The Freedom Tower's Mediterranean Revival facade and bell tower, modeled on Seville's Giralda, in downtown Miami."
     },
     "noticing_prompt": {
-      "id": "np-2026-08-30",
-      "text": "This week both Washington and Tehran claimed 'total control' of the same stretch of water, and Wall Street spent five days revising its own certainty about one Fed speech by more than twenty points. Notice, this weekend, how much of what passes for confidence right now is really just two sides talking louder."
+      "id": "np-2026-08-31",
+      "text": "Somewhere today you'll get one new fact and use it to confirm what you already believed rather than to update it. Notice which one it is."
     },
     "daily_puzzle": {
-      "id": "dp-2026-08-30",
-      "type": "math",
-      "prompt": "Three consecutive apartment numbers on the same hallway of a new Brickell tower add up to exactly 141. What is the middle apartment number -- and how could you tell, before doing any arithmetic, whether three consecutive numbers could even add up to a total like 141 in the first place?",
-      "hint": "Consecutive numbers are one less than, exactly, and one more than some number -- add those three algebraically before you add any actual numbers.",
-      "solution": "47 (the three apartments are 46, 47, and 48).",
-      "explanation": "Any three consecutive integers can be written as n-1, n, and n+1; added together, the -1 and +1 cancel, leaving exactly 3n. So the sum of three consecutive integers is always three times the middle one -- meaning the total has to be evenly divisible by three before three consecutive numbers can produce it at all. 141 divided by 3 is 47, so that's the middle number, no trial and error required."
+      "id": "dp-2026-08-31",
+      "type": "lateral",
+      "prompt": "A CRE broker looks at two office towers on the same downtown block -- same architect, same year built, same square footage, same finishes. One trades for $40 million. The other, listed the same week, trades for $65 million. No renovations, no different tenants, nothing different about the buildings themselves. What's the single most likely reason for the price gap?",
+      "hint": "The buildings are identical. What almost never shows up in a building's specs, but shows up on the closing statement?",
+      "solution": "The cheaper tower sold subject to a long-term ground lease -- the buyer owns the building but not the land under it, and pays rent to a separate landowner indefinitely. The pricier tower sold fee simple: land and building together, free and clear.",
+      "explanation": "Ground leases are common in dense downtown markets precisely because they let a building trade for a fraction of what an identical, land-included property would fetch -- the same asset, priced on a completely different set of rights."
     },
     "evening_unwind": {
-      "id": "eu-2026-08-30",
+      "id": "eu-2026-08-31",
       "evening_quote": {
-        "text": "The best revenge is not to be like your enemy.",
-        "attribution": "Marcus Aurelius",
-        "source": "Meditations, 6.6"
+        "text": "It is not that we have a short time to live, but that we waste a lot of it.",
+        "attribution": "Seneca",
+        "source": "On the Shortness of Life, 1"
       },
-      "evening_prompt": "Before you sleep, name one thing you argued for this week with total certainty that you couldn't have defended on Monday."
+      "evening_prompt": "Tonight, pick the one thing today that felt like urgent, unambiguous news, and ask yourself honestly whether it will still feel that way by Friday."
     },
     "reading_queue": [
       {
         "title": "Philosophy as an Art of Living",
         "url": "https://lareviewofbooks.org/article/philosophy-as-an-art-of-living/",
         "verdict": "probably_remove",
-        "reason": "Unread for four full weeks now, flagged again last week too -- if it mattered, it would have moved by now."
+        "reason": "Closing in on a month unread now, flagged the last two weeks running -- if it mattered, it would have moved by now."
       }
     ],
     "quote": {
-      "text": "Be fearful when others are greedy, and greedy when others are fearful.",
-      "attribution": "Warren Buffett"
+      "text": "The four most dangerous words in investing are: 'this time it's different.'",
+      "attribution": "Sir John Templeton"
     }
   },
   "threads": [
@@ -420,9 +342,9 @@
       "title": "US-Iran conflict and the Strait of Hormuz",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-08-29",
-      "updates": 49,
-      "current_state": "Six months in, both sides now make mutually exclusive full-control claims about the same waterway -- Iran's IRGC says it holds \"decisive control,\" Washington still insists the strait is open under its own terms -- while Bessent's named threshold for sanctioning Chinese banks (facilitating Iranian oil payments) remains uncrossed and China's purchases continue unimpeded.",
+      "last_updated": "2026-08-30",
+      "updates": 50,
+      "current_state": "Six months in, the war's longest pause just ended: the US struck Iranian rocket launchers on Larak Island Sunday after IRGC forces were seen prepping sea mines for the Strait, and Iran's Revolutionary Guard has vowed to respond. Both sides still make mutually exclusive control claims about the same waterway; Bessent's named threshold for sanctioning Chinese banks remains uncrossed and China's oil purchases continue unimpeded.",
       "timeline": [
         {
           "date": "2026-07-21",
@@ -636,17 +558,17 @@
         },
         {
           "date": "2026-08-22",
-          "summary": "Trump branded the pressure campaign an \u201ceconomic D-Day,\u201d and Treasury Secretary Bessent said he'll hold a press conference Monday, Aug. 24, to detail the new measures, including possible secondary sanctions on countries and companies doing business with Iran \u2014 a veiled threat aimed at China. China's foreign ministry rejected the pressure campaign outright (\u201csanctions and pressure tactics are not the solution\u201d) after Bessent publicly told Beijing to \u201cget with the program\u201d; China remains the largest buyer of Iranian crude via a shadow fleet. Iran's foreign ministry called the threat \u201ca recipe for an abysmal return to full-scale classic colonialism.\u201d Brent held near a second straight ~6% weekly gain (~$94), WTI near $86.60; US retail gas prices are up nearly $1/gallon year-over-year.",
+          "summary": "Trump branded the pressure campaign an “economic D-Day,” and Treasury Secretary Bessent said he'll hold a press conference Monday, Aug. 24, to detail the new measures, including possible secondary sanctions on countries and companies doing business with Iran — a veiled threat aimed at China. China's foreign ministry rejected the pressure campaign outright (“sanctions and pressure tactics are not the solution”) after Bessent publicly told Beijing to “get with the program”; China remains the largest buyer of Iranian crude via a shadow fleet. Iran's foreign ministry called the threat “a recipe for an abysmal return to full-scale classic colonialism.” Brent held near a second straight ~6% weekly gain (~$94), WTI near $86.60; US retail gas prices are up nearly $1/gallon year-over-year.",
           "change_type": "advanced"
         },
         {
           "date": "2026-08-23",
-          "summary": "Bessent said the US will impose \"the toughest sanctions in history\" on Iran and explicitly called on China to cooperate, noting China bought over 80% of Iran's shipped oil in 2025. Washington has sanctioned only smaller Chinese \"teapot\" refineries so far, not major banks \u2014 reporting ties that restraint to Xi Jinping's state visit to the White House, now confirmed for Sept. 24 alongside the UN General Assembly. Monday's press conference is the next real test of how far the campaign goes.",
+          "summary": "Bessent said the US will impose \"the toughest sanctions in history\" on Iran and explicitly called on China to cooperate, noting China bought over 80% of Iran's shipped oil in 2025. Washington has sanctioned only smaller Chinese \"teapot\" refineries so far, not major banks — reporting ties that restraint to Xi Jinping's state visit to the White House, now confirmed for Sept. 24 alongside the UN General Assembly. Monday's press conference is the next real test of how far the campaign goes.",
           "change_type": "advanced"
         },
         {
           "date": "2026-08-24",
-          "summary": "Bessent's long-promised 'economic D-Day' press conference happens today at 2pm ET. Pre-conference reporting signals the sanctions finally reach past Iran's small teapot refineries toward the banks and foreign trade networks that actually move its oil \u2014 the exact restraint toward China that's held for weeks \u2014 though nothing is formally announced as of this morning. China's embassy again rejected the pressure campaign: 'sanctions and pressure do not help resolve the problem.'",
+          "summary": "Bessent's long-promised 'economic D-Day' press conference happens today at 2pm ET. Pre-conference reporting signals the sanctions finally reach past Iran's small teapot refineries toward the banks and foreign trade networks that actually move its oil — the exact restraint toward China that's held for weeks — though nothing is formally announced as of this morning. China's embassy again rejected the pressure campaign: 'sanctions and pressure do not help resolve the problem.'",
           "change_type": "advanced"
         },
         {
@@ -668,18 +590,23 @@
           "date": "2026-08-29",
           "summary": "As the war passes its six-month mark, Iran's IRGC claimed for the first time \"decisive control\" over the Strait of Hormuz -- directly contradicting Washington's own repeated \"total control\" claims -- and Iranian parliament speaker Mohammad Bagher Ghalibaf publicly called Bessent's claim that the US guided 130 million barrels out of the Gulf in two weeks a lie. At least 6,000 sailors remain stranded aboard ships in the Gulf; no major Chinese bank has been sanctioned.",
           "change_type": "watch"
+        },
+        {
+          "date": "2026-08-30",
+          "summary": "The month-long lull broke Sunday: the US struck two Iranian rocket launchers on Larak Island that IRGC forces had prepped to fire sea-mine rockets into the Strait -- the first American strike on Iran in over a month, days after the US Navy finished clearing mines from the Strait's own shipping lanes. Iran's Revolutionary Guard confirmed fighters and civilians killed or wounded and called the strike \"a strategic and deadly mistake\" it would punish.",
+          "change_type": "worsened"
         }
       ],
-      "importance": 0.75
+      "importance": 0.8
     },
     {
       "id": "thread-fed-rate-path",
       "title": "Federal Reserve rate path",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-08-29",
-      "updates": 46,
-      "current_state": "Warsh's hawkish-read Jackson Hole keynote flipped September hike odds from a hawkish-drifting 34-36% to a coin flip near 56-57% on CME FedWatch, with Kalshi and Polymarket close behind. Stocks pulled back modestly on the news (S&P -0.25%, Nasdaq -0.52%) but still closed the week higher; the 10-year held near 4.67%. Eighteen days remain before the Sept. 16 decision.",
+      "last_updated": "2026-08-31",
+      "updates": 47,
+      "current_state": "Warsh's hawkish-read keynote is now understood as a deliberate break from Fed tradition -- an explicit refusal to give forward guidance, meant to stop markets from \"looking primarily to the Fed for their next trade.\" September hike odds hold near a coin flip (56-57% CME FedWatch) heading into Monday's session, with futures dipping slightly after the US struck Iran's Larak Island overnight. Sixteen days remain before the Sept. 16 decision.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -863,12 +790,12 @@
         },
         {
           "date": "2026-08-22",
-          "summary": "Friday's confirmed close rebounded across the board: S&P +0.43% to 7,674.37, Dow +0.98% (+517.80 pts) to 53,277.01, Nasdaq +0.43% to 26,180.45, led less by any economic data than by a crypto rally (bitcoin +7% to roughly $76,900, +22% on the week) that lifted Robinhood and Coinbase alongside the broader tape. The 10-year held steady near 4.71%. Despite the bounce, all three indices still closed lower for the week (S&P -1.4%, Nasdaq -2.1%, Dow -0.9%) after Thursday's Walmart-driven selloff. September FOMC hold odds sit near 68% (32% hike) on CME FedWatch, essentially unchanged from Thursday \u2014 new Fed Chair Kevin Warsh (confirmed May 13, sworn in May 22) delivers his first Jackson Hole keynote as chair next Friday, Aug. 28.",
+          "summary": "Friday's confirmed close rebounded across the board: S&P +0.43% to 7,674.37, Dow +0.98% (+517.80 pts) to 53,277.01, Nasdaq +0.43% to 26,180.45, led less by any economic data than by a crypto rally (bitcoin +7% to roughly $76,900, +22% on the week) that lifted Robinhood and Coinbase alongside the broader tape. The 10-year held steady near 4.71%. Despite the bounce, all three indices still closed lower for the week (S&P -1.4%, Nasdaq -2.1%, Dow -0.9%) after Thursday's Walmart-driven selloff. September FOMC hold odds sit near 68% (32% hike) on CME FedWatch, essentially unchanged from Thursday — new Fed Chair Kevin Warsh (confirmed May 13, sworn in May 22) delivers his first Jackson Hole keynote as chair next Friday, Aug. 28.",
           "change_type": "improved"
         },
         {
           "date": "2026-08-24",
-          "summary": "Monday premarket points softer: Dow futures down about 11 points, S&P and Nasdaq-100 futures off 0.1% and 0.5%, tech leading declines (XLK -1%) after last week's second straight losing week for the Dow. September FOMC hold odds essentially unchanged near 68%. The week ahead: Nvidia earnings and the Jackson Hole Economic Policy Symposium, which opens Thursday Aug. 27 with Fed Chair Kevin Warsh's first keynote as chair Friday at 10am ET \u2014 19 days before the Sept. 16 decision.",
+          "summary": "Monday premarket points softer: Dow futures down about 11 points, S&P and Nasdaq-100 futures off 0.1% and 0.5%, tech leading declines (XLK -1%) after last week's second straight losing week for the Dow. September FOMC hold odds essentially unchanged near 68%. The week ahead: Nvidia earnings and the Jackson Hole Economic Policy Symposium, which opens Thursday Aug. 27 with Fed Chair Kevin Warsh's first keynote as chair Friday at 10am ET — 19 days before the Sept. 16 decision.",
           "change_type": "watch"
         },
         {
@@ -900,6 +827,11 @@
           "date": "2026-08-29",
           "summary": "Warsh's first Jackson Hole keynote as chair read as genuinely hawkish -- inflation running too high, price stability his 'predominant focus' -- and September hike odds on CME FedWatch jumped to roughly 56-57% (Kalshi 48%, Polymarket 49%), from 34-36% pre-speech. Friday's confirmed close: S&P -0.25% to 7,711, Nasdaq -0.52% to 26,402, Dow roughly flat at 53,560; all three still closed a winning week. The 10-year held near 4.67%.",
           "change_type": "reversed"
+        },
+        {
+          "date": "2026-08-31",
+          "summary": "Fuller weekend read of Friday's keynote surfaces Warsh's real break from precedent: he explicitly rejected giving forward guidance, telling Jackson Hole \"we should not indulge a regime in which market participants are looking primarily to the Fed for their next trade,\" and calling a \"quieter Fed\" better able to meet its objectives -- even as most investors now price a September hike. Monday's premarket softened further after the US struck Iran's Larak Island overnight, the first US-Iran military action in a month; September hike odds hold near Friday's 56-57% on CME FedWatch.",
+          "change_type": "advanced"
         }
       ],
       "importance": 0.72
@@ -909,9 +841,9 @@
       "title": "Marlins wild card race",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-08-30",
-      "updates": 50,
-      "current_state": "Washington swept Miami in all three games of the weekend series -- 9-2, 5-4 in ten innings, and 3-2 -- dropping the Marlins to 68-69 against a team they'd beaten eight of nine times this season. The wild-card gap has widened from roughly four games to roughly five, with about a month left to play.",
+      "last_updated": "2026-08-31",
+      "updates": 51,
+      "current_state": "The real wild-card cutline is Arizona (73-65) and San Diego (72-65), not the Cubs/Phillies -- at 68-69 after being swept in three straight by Washington, Miami sits roughly four and a half games back with about a month left. The series finale against the Nationals is tonight before a three-game trip to Kansas City.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -1110,17 +1042,17 @@
         },
         {
           "date": "2026-08-22",
-          "summary": "Miami beat Washington 3-2 in a Friday-night walk-off: Agustin Ramirez led off the 9th with a walk, a throwing error on an Esteury Ruiz infield hit put runners on 2nd and 3rd, Jakob Marsee was intentionally walked, and Javier Sanoja singled home the winner \u2014 Miami's sixth straight win over the Nationals. The Marlins improve to 65-64, back over .500. Chicago, Philadelphia, and San Diego now hold the three NL wild-card spots, with Arizona about a game back of the cutline and Miami bunched with St. Louis, Cincinnati, and Pittsburgh further behind. Miami hosts Washington again today at 4:10pm (Eury Perez vs. Jake Irvin), with Sunday's finale set (Janson Junk vs. Jackson Kent).",
+          "summary": "Miami beat Washington 3-2 in a Friday-night walk-off: Agustin Ramirez led off the 9th with a walk, a throwing error on an Esteury Ruiz infield hit put runners on 2nd and 3rd, Jakob Marsee was intentionally walked, and Javier Sanoja singled home the winner — Miami's sixth straight win over the Nationals. The Marlins improve to 65-64, back over .500. Chicago, Philadelphia, and San Diego now hold the three NL wild-card spots, with Arizona about a game back of the cutline and Miami bunched with St. Louis, Cincinnati, and Pittsburgh further behind. Miami hosts Washington again today at 4:10pm (Eury Perez vs. Jake Irvin), with Sunday's finale set (Janson Junk vs. Jackson Kent).",
           "change_type": "improved"
         },
         {
           "date": "2026-08-23",
-          "summary": "Miami beat Washington 4-2 Saturday on solo home runs from Heriberto Hernandez and Jakob Marsee, with Eury Perez working five innings \u2014 the Marlins' seventh straight win over the Nationals, improving to 66-64. Sunday's finale (Janson Junk vs. Jackson Kent) closes the series this afternoon.",
+          "summary": "Miami beat Washington 4-2 Saturday on solo home runs from Heriberto Hernandez and Jakob Marsee, with Eury Perez working five innings — the Marlins' seventh straight win over the Nationals, improving to 66-64. Sunday's finale (Janson Junk vs. Jackson Kent) closes the series this afternoon.",
           "change_type": "improved"
         },
         {
           "date": "2026-08-24",
-          "summary": "Miami completed the sweep of Washington Sunday, 6-2, on Xavier Edwards' go-ahead two-run single, improving to 67-64 \u2014 eight straight wins over the Nationals. But the sweep didn't close the gap much: models now give Miami roughly 7.6% playoff odds, about four games behind San Diego for the final NL wild-card spot, with Chicago, Philadelphia, and San Diego holding the three spots and Arizona a game back of the cutline.",
+          "summary": "Miami completed the sweep of Washington Sunday, 6-2, on Xavier Edwards' go-ahead two-run single, improving to 67-64 — eight straight wins over the Nationals. But the sweep didn't close the gap much: models now give Miami roughly 7.6% playoff odds, about four games behind San Diego for the final NL wild-card spot, with Chicago, Philadelphia, and San Diego holding the three spots and Arizona a game back of the cutline.",
           "change_type": "advanced"
         },
         {
@@ -1152,6 +1084,11 @@
           "date": "2026-08-30",
           "summary": "Washington completes the sweep: Miami lost 5-4 in 10 innings Saturday (Dylan Crews' walk-off RBI single) and 3-2 Sunday, falling to 68-69. The Cubs (76-59), Phillies (75-60), and Padres (72-63) hold the three NL wild-card spots -- Miami now sits roughly five games back with about a month left in the season.",
           "change_type": "worsened"
+        },
+        {
+          "date": "2026-08-31",
+          "summary": "Monday morning's fuller standings picture corrects the frame: the real cutline for the final NL wild-card spot is Arizona (73-65) and San Diego (72-65, half a game back), not the Cubs and Phillies, who are comfortably ahead for the other two spots. At 68-69, Miami sits roughly four and a half games back of Arizona with about a month left; the four-game series against Washington closes tonight before a three-game trip to Kansas City.",
+          "change_type": "watch"
         }
       ],
       "importance": 0.62
@@ -1204,8 +1141,8 @@
       "topic": "sports",
       "status": "active",
       "last_updated": "2026-08-30",
-      "updates": 34,
-      "current_state": "Miami is cutting down to its initial 53-man roster ahead of today's 6pm ET league deadline, having waived 12 players so far. Trey Moore still needs ankle surgery and can't go on IR until the 53 is set -- Miami is expected to place him on IR immediately after, preserving his eligibility to return later this season.",
+      "updates": 35,
+      "current_state": "Miami's initial 53-man roster is set, with the QB room fully turned over at the deadline: Quinn Ewers went to Jacksonville, and Miami used the identical pick it got back to acquire Kyle McCord from Green Bay as Malik Willis's backup. Trey Moore still needs ankle surgery and is expected on IR now that the 53 is finalized, preserving his eligibility to return later this season.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -1354,12 +1291,12 @@
         },
         {
           "date": "2026-08-22",
-          "summary": "Miami hosts the Giants today at 4pm at Hard Rock Stadium in the second preseason game of Hafley's tenure, after Thursday's joint practice turned openly hostile \u2014 RT Austin Jackson was ejected for throwing a punch (he returned for the final 11-on-11 period) and Giants LB Abdul Carter took a swing at LT Patrick Paul after losing a rep; Hafley said postgame he'd be disappointed to see more fighting and that it isn't a sign of toughness. Rookie WR Chris Bell, activated off the non-football-injury list last week, will not play today \u2014 Hafley called him week-to-week in his ACL recovery, with hope he's ready for the regular season. DT Zach Sieler is expected to be ready for the opener; DT Kenneth Grant is week-to-week and sitting out the rest of this week.",
+          "summary": "Miami hosts the Giants today at 4pm at Hard Rock Stadium in the second preseason game of Hafley's tenure, after Thursday's joint practice turned openly hostile — RT Austin Jackson was ejected for throwing a punch (he returned for the final 11-on-11 period) and Giants LB Abdul Carter took a swing at LT Patrick Paul after losing a rep; Hafley said postgame he'd be disappointed to see more fighting and that it isn't a sign of toughness. Rookie WR Chris Bell, activated off the non-football-injury list last week, will not play today — Hafley called him week-to-week in his ACL recovery, with hope he's ready for the regular season. DT Zach Sieler is expected to be ready for the opener; DT Kenneth Grant is week-to-week and sitting out the rest of this week.",
           "change_type": "advanced"
         },
         {
           "date": "2026-08-23",
-          "summary": "The Giants routed Miami 26-3 Saturday at Hard Rock Stadium \u2014 Jameis Winston threw for 150 yards and ran for a touchdown in the first half. Chris Bell (ACL) did not play, still week-to-week per Hafley.",
+          "summary": "The Giants routed Miami 26-3 Saturday at Hard Rock Stadium — Jameis Winston threw for 150 yards and ran for a touchdown in the first half. Chris Bell (ACL) did not play, still week-to-week per Hafley.",
           "change_type": "worsened"
         },
         {
@@ -1381,9 +1318,14 @@
           "date": "2026-08-30",
           "summary": "Miami began its round of roster cuts Sunday, waiving 12 players -- including CB Alex Austin, RB Coleman Bennett, and linebackers Stephen Dix Jr. and Jaheim Thomas -- as all NFL teams face today's 6pm ET deadline to reach 53. Trey Moore's IR placement is still expected to follow immediately after the initial 53 is set.",
           "change_type": "advanced"
+        },
+        {
+          "date": "2026-08-30",
+          "summary": "Miami's initial 53 is set: the QB room turned over completely at the deadline -- Quinn Ewers traded to Jacksonville Saturday, then Kyle McCord acquired from Green Bay Sunday for the identical 2028 sixth-round pick Miami got for Ewers, a direct swap. Malik Willis is the Week 1 starter with McCord now the backup.",
+          "change_type": "resolved"
         }
       ],
-      "importance": 0.55
+      "importance": 0.5
     },
     {
       "id": "thread-hurricanes-fall-camp",
@@ -1421,7 +1363,7 @@
         },
         {
           "date": "2026-08-21",
-          "summary": "Friday's second scrimmage at Hard Rock Stadium was a closer back-and-forth than the first \u2014 the offense reportedly had the better of the work this time, a reversal from scrimmage one, where the defense had the upper hand. Cristobal called it good, competitive work with two weeks left before the Sept. 4 opener at Stanford.",
+          "summary": "Friday's second scrimmage at Hard Rock Stadium was a closer back-and-forth than the first — the offense reportedly had the better of the work this time, a reversal from scrimmage one, where the defense had the upper hand. Cristobal called it good, competitive work with two weeks left before the Sept. 4 opener at Stanford.",
           "change_type": "advanced"
         },
         {
@@ -1503,12 +1445,12 @@
         },
         {
           "date": "2026-08-22",
-          "summary": "Burgers & Shakes opened a second South Florida location Aug. 4 inside the historic 1954 General Tire Building in the MiMo Historic District \u2014 designed by architect Robert Law Weed, most recently home to Andiamo Brick Oven Pizza, which closed after 23 years. Separately, Medium Cool, the jazz lounge beneath the Gale Hotel on Collins Avenue, plays its final night tonight after nearly four years, with nightly live jazz through 10pm; the team says it's searching for a new Miami home rather than closing for good.",
+          "summary": "Burgers & Shakes opened a second South Florida location Aug. 4 inside the historic 1954 General Tire Building in the MiMo Historic District — designed by architect Robert Law Weed, most recently home to Andiamo Brick Oven Pizza, which closed after 23 years. Separately, Medium Cool, the jazz lounge beneath the Gale Hotel on Collins Avenue, plays its final night tonight after nearly four years, with nightly live jazz through 10pm; the team says it's searching for a new Miami home rather than closing for good.",
           "change_type": "advanced"
         },
         {
           "date": "2026-08-24",
-          "summary": "Medium Cool's Yelp listing now shows a new address \u2014 1690 Collins Ave, Miami Beach, a few blocks from its old Gale Hotel home \u2014 with hours Wed-Sun 7pm-3am (4am Fri/Sat), suggesting the jazz lounge didn't stay dark long after Saturday's farewell night. Not yet confirmed by press coverage.",
+          "summary": "Medium Cool's Yelp listing now shows a new address — 1690 Collins Ave, Miami Beach, a few blocks from its old Gale Hotel home — with hours Wed-Sun 7pm-3am (4am Fri/Sat), suggesting the jazz lounge didn't stay dark long after Saturday's farewell night. Not yet confirmed by press coverage.",
           "change_type": "watch"
         },
         {
@@ -1657,7 +1599,7 @@
         },
         {
           "date": "2026-08-22",
-          "summary": "This week's South Florida deal sheet (The Real Deal, published Aug. 21) adds a 155,000-sq-ft industrial building at 11900-11905 SW 128th St, sold for $24.5 million, and a new-construction, 10,500-sq-ft waterfront mansion at 270 South Hibiscus Drive, Miami Beach, which sold for $50 million \u2014 both landing on top of last week's North Bay Road and 1200 Washington Avenue trades.",
+          "summary": "This week's South Florida deal sheet (The Real Deal, published Aug. 21) adds a 155,000-sq-ft industrial building at 11900-11905 SW 128th St, sold for $24.5 million, and a new-construction, 10,500-sq-ft waterfront mansion at 270 South Hibiscus Drive, Miami Beach, which sold for $50 million — both landing on top of last week's North Bay Road and 1200 Washington Avenue trades.",
           "change_type": "advanced"
         },
         {
@@ -1805,7 +1747,7 @@
         },
         {
           "date": "2026-08-24",
-          "summary": "Thompson officially signed with Miami Sunday after clearing waivers \u2014 the deal finalized as two years, $11.5 million total, with a player option in year two and a 15% trade kicker, slightly below the ~$13M reported Friday.",
+          "summary": "Thompson officially signed with Miami Sunday after clearing waivers — the deal finalized as two years, $11.5 million total, with a player option in year two and a 15% trade kicker, slightly below the ~$13M reported Friday.",
           "change_type": "resolved"
         },
         {
@@ -1823,7 +1765,7 @@
       "status": "active",
       "last_updated": "2026-08-24",
       "updates": 3,
-      "current_state": "Brad Marchand's recovery timeline has firmed up: reporting now puts him out six to ten games, with an earliest possible return around mid-October \u2014 a real chunk of the season's opening month, not just an opener-availability question. The rest of the roster remains set: Brady Tkachuk arrives from Ottawa, Jacob Markstrom replaces Sergei Bobrovsky in goal, and the front office drew an 'A' grade in The Athletic's confidence poll. Home opener is Oct. 10 vs. Minnesota.",
+      "current_state": "Brad Marchand's recovery timeline has firmed up: reporting now puts him out six to ten games, with an earliest possible return around mid-October — a real chunk of the season's opening month, not just an opener-availability question. The rest of the roster remains set: Brady Tkachuk arrives from Ottawa, Jacob Markstrom replaces Sergei Bobrovsky in goal, and the front office drew an 'A' grade in The Athletic's confidence poll. Home opener is Oct. 10 vs. Minnesota.",
       "timeline": [
         {
           "date": "2026-08-22",
@@ -1832,12 +1774,12 @@
         },
         {
           "date": "2026-08-23",
-          "summary": "Reporting puts Marchand's recovery at two or more months \u2014 the surgery kept him from playing in Zdeno Chara's Aug. 21 farewell charity game in Slovakia, which he'd planned to attend. An opener absence now looks more likely than not.",
+          "summary": "Reporting puts Marchand's recovery at two or more months — the surgery kept him from playing in Zdeno Chara's Aug. 21 farewell charity game in Slovakia, which he'd planned to attend. An opener absence now looks more likely than not.",
           "change_type": "worsened"
         },
         {
           "date": "2026-08-24",
-          "summary": "Recovery estimate sharpens from 'two or more months' to a concrete range: six to ten missed games, with an earliest possible return around mid-October \u2014 still addressing the hip and sports-hernia issue Marchand played through all of 2025-26, including the February Olympics.",
+          "summary": "Recovery estimate sharpens from 'two or more months' to a concrete range: six to ten missed games, with an earliest possible return around mid-October — still addressing the hip and sports-hernia issue Marchand played through all of 2025-26, including the February Olympics.",
           "change_type": "advanced"
         }
       ],
