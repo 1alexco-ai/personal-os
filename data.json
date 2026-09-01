@@ -1,339 +1,425 @@
 {
   "schema_version": 2,
   "edition": {
-    "id": "2026-08-31",
-    "date": "2026-08-31",
+    "id": "2026-09-01",
+    "date": "2026-09-01",
     "type": "weekday",
-    "generated_at": "2026-08-31T09:30:00-04:00",
+    "generated_at": "2026-09-01T09:30:00-04:00",
     "timezone": "America/New_York",
     "title": "Personal OS",
     "front_page_letter": {
       "greeting": "Good morning",
       "body_paragraphs": [
-        "The Strait of Hormuz war's longest quiet stretch ended overnight. The US struck two Iranian rocket launchers on Larak Island early Sunday after IRGC crews were seen prepping sea mines for the strait -- the first American strike on Iran in over a month, and Tehran has vowed to respond. It landed the same weekend a fuller read of Warsh's Jackson Hole keynote surfaced his real message: not a rate call, but an explicit refusal to give markets one. September hike odds hold near a coin flip; futures dipped slightly at Monday's open.",
-        "Miami's roster news was tidier. The Dolphins settled their 53 by trading one unproven backup quarterback for another -- Quinn Ewers out to Jacksonville, Kyle McCord in from Green Bay, for the identical pick -- leaving Malik Willis as the starter. The Marlins, still 68-69, actually have a clearer path than yesterday's framing suggested: the real cutline is Arizona and San Diego's own half-game fight, not the Cubs and Phillies.",
-        "Nothing came in from you again this week -- the second day running with no stars or saves -- so your profile only moved by ordinary decay. The philosophy-of-living piece is closing in on a month unread.",
-        "Today's longer read makes the case for treating the AI labor transition as a sequence, not a single cliff -- worth sitting with the same week bitcoin ETFs pulled in a record $3 billion on pure conviction."
+        "Sunday's Larak Island strike got its answer overnight: Iran hit Jordan's King Hussein and Al Azraq air bases and probed UAE airspace Monday, pulling two more countries into a war that had mostly stayed close to the Strait itself. Trump is now threatening Kharg Island -- Iran's actual oil-export terminal, not a symbolic waterway claim -- and Brent jumped roughly 3% on it. Fed Chair Warsh repeated his hawkish line at the G20 the same day, though hike odds for Sept. 16 haven't actually moved since Friday (still ~57%); Friday's jobs report, not another speech, is the real test before the FOMC goes into blackout Saturday.",
+        "Miami sports needed some corrections this morning. The Marlins lost Monday's finale, not won -- they're 69-69, and the wild-card lead flipped from Arizona to San Diego the same night, so the target keeps moving. The Dolphins placed first-round pick Kenneth Grant on IR, and for the record, their actual Week 1 opener is Sept. 13 at Las Vegas, not Sept. 4 -- that date belongs to the Hurricanes, whose own camp picked up a lawsuit and a felony charge this week, four days before kickoff at Stanford.",
+        "Nothing came in from you again this week -- the third day running with no stars or saves -- so today's profile moved only by ordinary decay. The philosophy-of-living piece on your reading list has now sat unread for a full month.",
+        "Tonight's read is about taste -- what judgment is actually made of, now that machines can generate infinite content -- worth sitting with alongside a quieter Miami-Dade pitch to turn the airport into Vice City for GTA 6, and an anthropologist's fieldwork on why the Andoque of the Amazon distrust the forest's most beautiful things."
       ],
       "read_only_three": [
         {
           "target_type": "theme",
-          "target_id": "theme-iran-hormuz-strikes-resume",
-          "label": "The Strait of Hormuz war's longest pause just ended"
+          "target_id": "theme-iran-retaliates-jordan-uae",
+          "label": "Iran hits Jordan and the UAE -- Trump threatens the oil terminal itself"
         },
         {
           "target_type": "theme",
-          "target_id": "theme-dolphins-53-qb-shuffle",
-          "label": "Miami's 53 is set -- the QB room turned over completely"
+          "target_id": "theme-marlins-cutline-flips-again",
+          "label": "Correction: the Marlins lost, and the wild-card race flipped to San Diego"
         },
         {
           "target_type": "rabbit_hole",
-          "target_id": "rh-2026-08-31",
-          "label": "Today's read: the AI labor transition as a sequence, not a cliff"
+          "target_id": "rh-2026-09-01",
+          "label": "Today's read: what taste is actually made of, in the age of AI"
         }
       ]
     },
     "market_context": [
       {
         "label": "S&P 500",
-        "value": "7,711.76",
-        "change": "-0.25% Friday",
-        "observed": "Fri close 8/28 (Monday's session was still underway at publish time)",
-        "note": "Futures dipped slightly at Monday's open after the US struck Iran's Larak Island overnight, the first American strike in over a month."
+        "value": "7,686.14",
+        "change": "-0.33% Monday",
+        "observed": "Mon close 8/31 (final trading day of August)",
+        "note": "August closed up 2.6% overall -- a fifth straight positive month -- despite Monday's pullback on the Iran escalation and firming hike odds."
       },
       {
         "label": "Nasdaq Composite",
-        "value": "26,402.42",
-        "change": "-0.52% Friday",
-        "observed": "Fri close 8/28",
-        "note": "Still closed last week higher regardless -- Nvidia's quarter did more work than Friday's Fed scare."
+        "value": "26,370.89",
+        "change": "-0.12% Monday",
+        "observed": "Mon close 8/31",
+        "note": "Held up better than the S&P and Dow Monday even as oil jumped on the Jordan/UAE strikes."
       },
       {
         "label": "10Y Treasury",
-        "value": "~4.67%",
-        "change": "little changed",
-        "observed": "Fri close 8/28",
-        "note": "Has held in the 4.65-4.68% range since Treasury's mid-week debt-buyback announcement eased pressure."
+        "value": "~4.75%",
+        "change": "+0.04pt",
+        "observed": "Mon close 8/31",
+        "note": "Highest close since January 2025, as hike odds firm and oil climbs on the Iran escalation."
       },
       {
         "label": "FOMC (Sept. 16 decision)",
         "value": "Hike ~56-57%, Hold ~43-44%",
         "change": "unchanged since Friday",
-        "observed": "as of Monday morning (CME FedWatch)",
-        "note": "Warsh's Friday keynote did the moving; nothing since -- including overnight Iran strikes -- has shifted the number."
+        "observed": "as of Tuesday morning (CME FedWatch)",
+        "note": "Warsh reiterated his hawkish line at the G20 Monday, but the odds themselves haven't moved -- Friday's August jobs report is the next real catalyst before blackout starts Saturday."
       }
     ],
     "public_day_context": {
-      "date_label": "Monday, August 31",
-      "weather": "Partly cloudy with scattered afternoon showers and thunderstorms, high near 90F, low tonight near 78F, roughly 40% chance of rain -- typical late-summer South Florida.",
-      "public_event": "The last trading day of August; the Marlins close out their four-game series against the Nationals tonight (6:45pm ET) before a three-game trip to Kansas City."
+      "date_label": "Tuesday, September 1",
+      "weather": "Hot and unsettled with tropical moisture from Tropical Storm Dolly's remnants -- highs in the upper 80s to low 90s, heat index up to 103-106F, 70-80% chance of scattered afternoon downpours and lightning.",
+      "public_event": "Markets are open as usual -- Labor Day isn't until Monday, September 7. The Marlins open a three-game series at Kansas City tonight (7:40pm ET); the Hurricanes' season opener at Stanford is Friday."
     },
     "what_changed": [
       {
-        "id": "delta-iran-strikes-resume",
+        "id": "delta-iran-retaliates-jordan-uae",
         "thread_id": "thread-iran-hormuz-crisis",
         "change_type": "worsened",
-        "title": "First US strike on Iran in over a month breaks the war's longest pause",
-        "previous_state": "Iran's IRGC claimed \"decisive control\" of the Strait and Bessent's bank-sanction threshold remained uncrossed, but no new attacks had been confirmed since the mid-August ADNOC cluster.",
-        "current_state": "The US struck two Iranian rocket launchers on Larak Island Sunday -- the first American strike on Iran in over a month -- after IRGC forces were seen prepping sea-mine rockets for the Strait; Iran's Revolutionary Guard confirmed casualties and vowed to respond.",
-        "why_it_matters": "Six months of war had settled into a rhetorical standoff; an actual US strike, the first in a month, is the kind of fact that can reprice oil and rate odds overnight.",
+        "title": "Iran retaliates against Jordan and the UAE; Trump threatens Iran's actual oil terminal",
+        "previous_state": "The US struck two Iranian rocket launchers on Larak Island Sunday, the first American strike on Iran in over a month, and Iran's Revolutionary Guard had vowed to respond but had not yet acted.",
+        "current_state": "Iran retaliated Monday with a coordinated missile-and-drone operation against Jordan's King Hussein and Al Azraq air bases and a drone probe of UAE airspace; Trump threatened to strike Kharg Island, Iran's main oil-export terminal, and oil jumped roughly 3%.",
+        "why_it_matters": "A war that stayed close to the Strait itself for six months just pulled in two more countries in 24 hours, and the next threatened target is Iran's actual revenue source.",
         "confidence": "high",
         "source": {
-          "publisher": "NBC News",
-          "url": "https://www.nbcnews.com/politics/national-security/us-forces-strike-iranian-rocket-launchers-strait-hormuz-first-military-rcna595194"
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/30/us-strikes-irans-lark-island-in-first-attack-in-weeks"
         }
       },
       {
-        "id": "delta-dolphins-53-final",
-        "thread_id": "thread-dolphins-hafley-rebuild",
-        "change_type": "resolved",
-        "title": "Dolphins' 53 is set, with the QB room fully turned over",
-        "previous_state": "Miami had waived 12 players Sunday morning as cuts began, with Trey Moore's IR placement still pending the final 53.",
-        "current_state": "Miami's 53-man roster is set: Quinn Ewers was traded to Jacksonville and Kyle McCord acquired from Green Bay using the identical pick, making Malik Willis the Week 1 starter with McCord as his backup.",
-        "why_it_matters": "The linebacker and now quarterback-depth questions that shadowed camp are both resolved heading into the Sept. 4 opener -- for better or worse, Miami knows what it has.",
-        "confidence": "high",
-        "source": {
-          "publisher": "Miami Dolphins (official)",
-          "url": "https://www.miamidolphins.com/news/miami-dolphins-set-initial-53-man-roster-for-2026"
-        }
-      },
-      {
-        "id": "delta-marlins-cutline-correction",
+        "id": "delta-marlins-cutline-flips-to-padres",
         "thread_id": "thread-marlins-wildcard",
-        "change_type": "watch",
-        "title": "Marlins' wild-card math corrects: it's Arizona and San Diego, not Cubs and Phillies",
-        "previous_state": "Sunday's sweep completion put Miami at 68-69, described as roughly five games back of the wild-card picture led by the Cubs and Phillies.",
-        "current_state": "The actual cutline for the final wild-card spot is Arizona (73-65) and San Diego (72-65, half a game back), not the Cubs or Phillies, who are running away with the other two spots -- Miami's real deficit is closer to four and a half games.",
-        "why_it_matters": "Same record, a clearer picture: the race Miami actually has to win is tighter and more crowded than yesterday's frame suggested.",
-        "confidence": "medium",
+        "change_type": "worsened",
+        "title": "Marlins lose finale, fall to 69-69, as San Diego retakes the wild-card lead from Arizona",
+        "previous_state": "Miami was 68-69 after being swept in three straight by Washington, with Arizona (73-65) holding a half-game edge over San Diego (72-65) for the final NL wild-card spot.",
+        "current_state": "Washington closed out the series 6-3 Monday on two Daylen Lile home runs, dropping Miami to 69-69; San Diego beat Cincinnati to reach 73-65 while Arizona lost to Philadelphia and fell to 73-66, flipping the wild-card lead to the Padres.",
+        "why_it_matters": "The team Miami is chasing changed overnight -- a reminder the race for the last spot is genuinely fluid, unlike the settled gap behind the Cubs and Phillies.",
+        "confidence": "high",
         "source": {
-          "publisher": "Last Word on Baseball",
-          "url": "https://lastwordonsports.com/baseball/2026/08/31/mlb-postseason-race/"
+          "publisher": "KMJ News (AP)",
+          "url": "https://www.kmjnow.com/2026/08/31/daylen-liles-two-homer-game-powers-nats-comeback-over-marlins/"
+        }
+      },
+      {
+        "id": "delta-dolphins-grant-ir-and-opener-correction",
+        "thread_id": "thread-dolphins-hafley-rebuild",
+        "change_type": "watch",
+        "title": "Dolphins place first-round DT Kenneth Grant on IR; for the record, the real opener is Sept. 13",
+        "previous_state": "Miami's 53-man roster was finalized Sunday with the QB room fully turned over (McCord for Ewers) and Malik Willis as the Week 1 starter; Trey Moore's IR placement was pending.",
+        "current_state": "First-round DT Kenneth Grant went on IR Saturday for a leg injury (minimum four games, possible Week 5 return), and Trey Moore's ankle-surgery IR placement is now finalized. Miami's actual Week 1 opener is Sunday, September 13 at Las Vegas -- not September 4, which belongs to the Hurricanes.",
+        "why_it_matters": "A first-round pick is already out before Week 1, and it's worth having the right date for Willis's debut on your calendar.",
+        "confidence": "high",
+        "source": {
+          "publisher": "DolphinsTalk",
+          "url": "https://dolphinstalk.com/"
+        }
+      },
+      {
+        "id": "delta-hurricanes-vaughn-lawsuit-lyle-arrest",
+        "thread_id": "thread-hurricanes-fall-camp",
+        "change_type": "worsened",
+        "title": "Hurricanes' fall camp gains a legal dimension: a lawsuit and a felony charge",
+        "previous_state": "Fall camp roster attrition was limited to injury and departure: TE Luka Gilbert out for the season, DE Hayden Lowe and WR Jontavius Wyman no longer with the team.",
+        "current_state": "Dismissed WR Cam Vaughn has sued UM and the NCAA seeking transfer-portal entry, and RB Jordan Lyle -- still on the roster -- faces a felony fleeing/eluding charge from a July incident that Cristobal is letting play out rather than acting on.",
+        "why_it_matters": "Two real legal proceedings, at opposite ends of the roster, landing four days before a genuine season opener at Stanford.",
+        "confidence": "high",
+        "source": {
+          "publisher": "ESPN",
+          "url": "https://www.espn.com/college-football/story/_/id/miami-hurricanes-dismiss-cam-vaughn"
         }
       }
     ],
     "themes": [
       {
-        "id": "theme-iran-hormuz-strikes-resume",
+        "id": "theme-iran-retaliates-jordan-uae",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "The Strait of Hormuz war's longest pause just ended",
-        "importance": 0.78,
-        "thesis": "The first US strike on Iran in over a month broke six weeks of relative calm in the Strait of Hormuz war, just as markets were digesting a hawkish Fed and oil traders were pricing in a genuine lull.",
-        "synthesis": "US forces struck two Iranian rocket launchers on Larak Island early Sunday after IRGC crews were seen preparing to fire sea-mine rockets into the Strait -- the first American military action against Iran in over a month, coming just days after the US Navy finished clearing mines from the Strait's shipping lanes. Iran's Revolutionary Guard confirmed fighters and civilians killed or wounded, calling the strike \"a strategic and deadly mistake\" it would punish. It ends the longest pause of a six-month war that had otherwise settled into a rhetorical standoff -- Iran's IRGC claiming \"decisive control\" of the Strait, Washington repeating its own \"total control\" claim, and no major Chinese bank yet sanctioned despite Bessent's threats. US stock futures dipped modestly Monday on the news.",
-        "new_today": "The Larak Island strike itself, Iran's confirmed casualties, and its vow to respond.",
-        "why_it_matters": "Every prior lull in this war has ended in a strike, not a deal -- this is that pattern reasserting itself just as markets had started pricing in a quiet stretch.",
+        "title": "Iran retaliates against Jordan and the UAE; Trump threatens Iran's actual oil terminal",
+        "importance": 0.85,
+        "thesis": "Iran answered Sunday's Larak Island strike by hitting US-aligned bases in Jordan and probing UAE airspace, pulling two more countries into a war that had been mostly contained to Iran, the Strait, and the Gulf states directly on it -- and Trump is now threatening Iran's actual oil-export lifeline, not just the strait beside it.",
+        "synthesis": "Iran's Revolutionary Guard launched a coordinated missile-and-drone operation Monday -- named \"Punishment of the Aggressor\" -- against Jordan's King Hussein and Al Azraq air bases, claiming heavy damage; Jordan says it intercepted eight incoming missiles. The UAE separately intercepted an Iranian drone approaching its airspace. Trump told reporters \"we're going to hit them hard\" and floated a strike on Kharg Island, the terminal that moves the overwhelming majority of Iran's oil exports -- a facility neither side has targeted before. Brent crude jumped roughly 3% toward $91 a barrel on the news. Iran's president, speaking at the Shanghai Cooperation Organization summit in Bishkek, offered a conditional off-ramp: Tehran would \"immediately reciprocate\" if Washington returns to compliance with the lapsed Islamabad memorandum -- a diplomatic signal, not a breakthrough.",
+        "new_today": "Iran's strikes on Jordan and the UAE, and Trump's Kharg Island threat.",
+        "why_it_matters": "This war has run six months on strikes that stayed close to the Strait itself. Hitting Jordan and probing the UAE is real geographic escalation, and a threat against Kharg Island -- Iran's actual revenue source, not a symbolic waterway claim -- is the kind of move that reprices oil and rate odds together if it's followed through.",
         "thread_id": "thread-iran-hormuz-crisis",
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "NBC News",
-            "headline": "U.S. forces strike Iranian rocket launchers on the Strait of Hormuz in first military action in weeks",
-            "url": "https://www.nbcnews.com/politics/national-security/us-forces-strike-iranian-rocket-launchers-strait-hormuz-first-military-rcna595194"
+            "publisher": "Al Jazeera",
+            "headline": "Iran attacks US bases in Jordan after US strikes Larak Island",
+            "url": "https://www.aljazeera.com/news/2026/8/30/us-strikes-irans-lark-island-in-first-attack-in-weeks"
           },
           {
             "role": "analysis",
-            "publisher": "CNBC",
-            "headline": "U.S. strikes Iranian rocket launchers near Strait of Hormuz",
-            "url": "https://www.cnbc.com/2026/08/30/us-iran-strikes-strait-hormuz.html"
+            "publisher": "France 24",
+            "headline": "Trump threatens to 'hit Iran hard' as strikes resume after month-long lull",
+            "url": "https://www.france24.com/en/middle-east/20260831-trump-threatens-to-hit-iran-hard-as-strikes-resume-after-month-long-lull"
+          },
+          {
+            "role": "background",
+            "publisher": "Euronews",
+            "headline": "Oil prices higher as US-Iran tensions flare and Warsh fans rate hikes",
+            "url": "https://www.euronews.com/business/2026/08/31/oil-prices-higher-as-us-iran-tensions-flare-and-warsh-fans-rate-hikes"
           }
         ]
       },
       {
-        "id": "theme-warsh-quieter-fed-doctrine",
+        "id": "theme-warsh-g20-jobs-friday",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Warsh's real message wasn't the number -- it was that he won't give you one",
-        "importance": 0.6,
-        "thesis": "A fuller read of Friday's Jackson Hole keynote shows Warsh deliberately declining to guide markets at all, a break from Fed tradition that matters as much as Friday's odds swing.",
-        "synthesis": "Warsh told Jackson Hole Friday that \"we should not indulge a regime in which market participants are looking primarily to the Fed for their next trade,\" arguing a \"quieter Fed, more purposeful in its communications, is better able to meet its objectives\" -- an explicit rejection of forward guidance even as most investors now price a September hike. September hike odds held near Friday's 56-57% (CME FedWatch) into Monday, with futures dipping slightly after the overnight Iran strike added a fresh risk input. Sixteen days remain before the Sept. 16 decision.",
-        "new_today": "The fuller weekend writeups of Warsh's stated philosophy against forward guidance, plus Monday's market open.",
-        "why_it_matters": "A Fed chair who won't tell markets what he's going to do is itself a policy choice -- worth tracking as its own story, separate from whatever the next print says the odds are.",
+        "title": "Warsh holds the hawkish line at the G20 -- but Friday's jobs report is the real test",
+        "importance": 0.65,
+        "thesis": "Warsh reinforced his hawkish Jackson Hole message in G20 remarks Monday, but the September hike odds haven't actually moved since Friday -- they're waiting on Friday's jobs report, not another speech.",
+        "synthesis": "Speaking at the G20 Monday, Fed Chair Kevin Warsh repeated that the era of low inflation is over and that price stability remains his \"predominant focus\" -- the same posture from his Jackson Hole keynote, delivered in a second venue. September hike odds held at Friday's level, roughly 56-57% hike versus 43-44% hold on CME FedWatch. Two real catalysts arrive before the Sept. 16 decision: today's ISM Manufacturing PMI at 10am ET, and Friday's August jobs report at 8:30am ET -- the same kind of release that has flipped these odds twice already this cycle (the July payrolls miss on Aug. 7, then Warsh's own Jackson Hole reversal three weeks later). The FOMC's blackout period begins Saturday, Sept. 5, so Friday's data is effectively the last word before the vote.",
+        "new_today": "Warsh's G20 remarks and the two-catalyst week (ISM today, jobs Friday) ahead of blackout.",
+        "why_it_matters": "A Fed chair repeating himself isn't news; what matters is that the market hasn't repriced on the repetition -- it's still waiting for Friday's number, which is worth knowing before you read too much into any pre-Friday market move.",
         "thread_id": "thread-fed-rate-path",
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
             "publisher": "CNBC",
-            "headline": "Fed Chairman Warsh expresses concern about inflation, advocates for 'quieter' central bank",
-            "url": "https://www.cnbc.com/2026/08/28/kevin-warsh-jackson-hole-federal-reserve-inflation.html"
-          },
-          {
-            "role": "background",
-            "publisher": "NPR",
-            "headline": "Fed Chair Kevin Warsh warns inflation is still too high",
-            "url": "https://www.npr.org/2026/08/28/nx-s1-5947903/federal-reserve-inflation-jackson-hole-interest-rates"
+            "headline": "September Fed decision is now a coin flip as rate hike odds increase post Warsh",
+            "url": "https://www.cnbc.com/2026/08/28/-september-fed-decision-now-a-coin-flip-as-rate-hike-odds-increase.html"
           }
         ]
       },
       {
-        "id": "theme-dolphins-53-qb-shuffle",
+        "id": "theme-marlins-cutline-flips-again",
         "affinity": "morning",
         "topic": "sports",
         "topic_label": "Miami Sports",
-        "title": "Miami's 53 is set -- and the QB room turned over completely to get there",
+        "title": "Marlins fall to 69-69 as the wild-card leader flips again -- this time to San Diego",
+        "importance": 0.6,
+        "thesis": "Miami lost Monday's finale to Washington and the team it's chasing changed hands the same day: San Diego edged ahead of Arizona for the final NL wild-card spot.",
+        "synthesis": "Washington closed out the four-game set 6-3 as Daylen Lile -- the reigning NL Player of the Week -- hit two more home runs, his fourth multi-homer game of the season and 20th/21st long balls overall; the Nationals took three of four. Miami falls to 69-69. The wild-card math moved the same day: San Diego beat Cincinnati 5-0 (Manny Machado had four hits) to reach 73-65, while Arizona lost to Philadelphia 2-1 and fell to 73-66 -- handing the Padres a half-game edge for the third and final NL wild-card spot, the reverse of Sunday's order. The Cubs and Phillies remain comfortably ahead of both. Miami, roughly four games back with about three weeks left, opens a three-game set at Kansas City (62-76, but 8-2 in its last 10) tonight at 7:40pm ET.",
+        "new_today": "Monday's loss, the corrected 69-69 record, and the wild-card leader flip.",
+        "why_it_matters": "Yesterday's math pointed at Arizona; today it's San Diego -- the target keeps moving, which is a useful reminder that a half-game race between two teams is genuinely volatile night to night, unlike the settled gap behind the Cubs and Phillies.",
+        "thread_id": "thread-marlins-wildcard",
+        "confidence": "high",
+        "sources": [
+          {
+            "role": "primary_reporting",
+            "publisher": "KMJ News (AP)",
+            "headline": "Daylen Lile's two-homer game powers Nats' comeback over Marlins",
+            "url": "https://www.kmjnow.com/2026/08/31/daylen-liles-two-homer-game-powers-nats-comeback-over-marlins/"
+          },
+          {
+            "role": "background",
+            "publisher": "KMJ News (AP)",
+            "headline": "Padres pile on in the fourth, shut down Reds in opener",
+            "url": "https://www.kmjnow.com/2026/08/31/padres-pile-on-in-the-fourth-shut-down-reds-in-opener/"
+          },
+          {
+            "role": "background",
+            "publisher": "Bleacher Nation",
+            "headline": "Kansas City Royals vs. Miami Marlins Series Sept. 1-3",
+            "url": "https://www.bleachernation.com/picks/2026/08/30/kansas-city-royals-vs-miami-marlins-series-sept-1-3-odds-starting-pitchers-predictions/"
+          }
+        ]
+      },
+      {
+        "id": "theme-dolphins-grant-ir-opener-correction",
+        "affinity": "morning",
+        "topic": "sports",
+        "topic_label": "Miami Sports",
+        "title": "Dolphins lose a first-round pick to IR -- and their real opener isn't when you'd think",
         "importance": 0.5,
-        "thesis": "Miami finalized its roster by trading away one developmental QB and acquiring another for the exact same pick, leaving Malik Willis as the Week 1 starter with a brand-new backup.",
-        "synthesis": "Miami's initial 53-man roster is set after waiving a dozen-plus players over the weekend. The most notable move wasn't a cut: Miami traded Quinn Ewers to Jacksonville Saturday for a 2028 sixth-round pick, then used that identical pick Sunday to acquire Kyle McCord from Green Bay -- a direct swap of unproven backup quarterbacks. Malik Willis remains the Week 1 starter. Separately, linebacker Trey Moore, sidelined by an ankle injury needing surgery, is expected on injured reserve now that the initial 53 is official, preserving his eligibility to return later this season.",
-        "new_today": "The roster finalization and the McCord-for-Ewers swap.",
-        "why_it_matters": "It's a strange way to spend a roster-cutdown weekend -- trading one unproven QB for another of similar profile -- but it means Miami opens the season with a settled QB room and a linebacker plan, both real question marks two weeks ago.",
+        "thesis": "Miami's roster got thinner a day after it was finalized, and the Week 1 date worth knowing is Sept. 13, not Sept. 4.",
+        "synthesis": "First-round DT Kenneth Grant went on injured reserve Saturday with a designation to return, for a leg injury -- out a minimum of four games, with earliest eligibility Week 5; head coach Jeff Hafley had called the roster \"thin still\" days earlier. Trey Moore's expected ankle-surgery IR placement was finalized alongside it. Worth a correction for the record: Miami's actual Week 1 opener is Sunday, September 13 at the Las Vegas Raiders, 4:25pm ET on FOX -- not September 4, which is the Miami Hurricanes' college season opener at Stanford, a different team on a different date. Malik Willis, on a three-year, $67.5M deal, is confirmed as the Week 1 starter -- the league's least-experienced Week 1 quarterback with six career starts.",
+        "new_today": "Kenneth Grant's IR placement and the corrected opener date.",
+        "why_it_matters": "A first-round pick going on IR before Week 1 even happens is a real dent in a roster that just finished a QB shuffle two weeks before kickoff -- and it's worth knowing the actual date you'll want to clear for Willis's debut.",
         "thread_id": "thread-dolphins-hafley-rebuild",
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Miami Dolphins (official)",
-            "headline": "Miami Dolphins Set Initial 53-Man Roster for 2026",
-            "url": "https://www.miamidolphins.com/news/miami-dolphins-set-initial-53-man-roster-for-2026"
+            "publisher": "The Phinsider",
+            "headline": "Miami Dolphins fill out practice squad following major roster shakeup",
+            "url": "https://www.thephinsider.com/"
           },
           {
             "role": "background",
-            "publisher": "NBC Sports",
-            "headline": "Dolphins announce moves, reduce roster to 53",
-            "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dolphins-announce-moves-reduce-roster-to-53"
+            "publisher": "DolphinsTalk",
+            "headline": "Dolphins Could Place Kenneth Grant on IR; Week 5 Return Possible",
+            "url": "https://dolphinstalk.com/"
           }
         ]
       },
       {
-        "id": "theme-marlins-wildcard-cutline-corrected",
+        "id": "theme-hurricanes-legal-situations",
         "affinity": "morning",
         "topic": "sports",
         "topic_label": "Miami Sports",
-        "title": "Miami's real wild-card math: it's Arizona and San Diego, not Cubs and Phillies",
-        "importance": 0.42,
-        "thesis": "The teams actually standing between Miami and October are the Diamondbacks and Padres, locked in their own half-game battle for the final spot -- a tighter, more accurate picture than the comfortable Cubs/Phillies framing.",
-        "synthesis": "The Cubs and Phillies have effectively locked up the NL's first two wild-card spots. The real contest is for the third: Arizona (73-65) holds a slim half-game edge over San Diego (72-65), which just got swept by Tampa Bay after blowing multiple leads. Miami, at 68-69 after being swept by Washington, sits roughly four and a half games back of Arizona with about a month left -- tonight's series finale against the Nationals closes out a four-game set before a three-game trip to Kansas City.",
-        "new_today": "The corrected picture of who actually holds the cutline, and San Diego's own stumble.",
-        "why_it_matters": "Same Miami record as yesterday, but a clearer target: the race worth watching is Arizona-San Diego's own dogfight, not a fixed gap behind teams that are already gone.",
-        "thread_id": "thread-marlins-wildcard",
+        "title": "Two legal situations shadow Hurricanes camp days before Friday's opener",
+        "importance": 0.55,
+        "thesis": "Roster attrition at Miami now has a legal dimension: one player dismissed and suing to get back into the sport, another still on the team while a felony charge plays out.",
+        "synthesis": "WR Cam Vaughn, dismissed August 17 after a reckless-driving arrest in Georgia (96 mph in a 55 zone), has sued the university and the NCAA seeking transfer-portal entry -- which Miami has declined to facilitate. Separately, RB Jordan Lyle, one of camp's more impressive performers, faces a felony fleeing/eluding charge plus a reckless-driving misdemeanor stemming from a July 10 incident in Broward County; head coach Mario Cristobal hasn't dismissed him, saying the program is letting the legal process play out. On the field, Darian Mensah is confirmed as the starting quarterback, with Mark Fletcher Jr. and Malachi Toney leading the skill positions. The season opens Friday, September 4 at 9pm ET at Stanford, on ESPN.",
+        "new_today": "Cam Vaughn's lawsuit against UM and the NCAA, and the previously unreported Jordan Lyle arrest.",
+        "why_it_matters": "Fall camp news is usually about depth charts; this week it's two separate legal proceedings involving players at opposite ends of the roster -- one already gone, one Cristobal is choosing not to move on yet -- landing four days before a real season opener.",
+        "thread_id": "thread-hurricanes-fall-camp",
+        "confidence": "high",
+        "sources": [
+          {
+            "role": "primary_reporting",
+            "publisher": "ESPN",
+            "headline": "Miami Hurricanes dismiss WR transfer Cam Vaughn from team",
+            "url": "https://www.espn.com/college-football/story/_/id/miami-hurricanes-dismiss-cam-vaughn"
+          },
+          {
+            "role": "analysis",
+            "publisher": "The Miami Hurricane",
+            "headline": "Former Miami WR Cam Vaughn files lawsuit against UM and NCAA",
+            "url": "https://themiamihurricane.com/"
+          }
+        ]
+      },
+      {
+        "id": "theme-doral-industrial-portfolio-trade",
+        "affinity": "morning",
+        "topic": "markets",
+        "topic_label": "Markets & Macro",
+        "title": "Doral's small-bay industrial market draws an $86M, 14-property portfolio trade",
+        "importance": 0.55,
+        "thesis": "A local family's decades-held industrial portfolio just changed hands for $86M, the clearest recent signal of institutional appetite for small-bay industrial product in Miami-Dade.",
+        "synthesis": "Midtown Capital Partners bought a 14-property, roughly 300,000-square-foot industrial portfolio in Doral for $86 million ($296/sf), acquiring from 13 sellers tied to the Waas family -- longtime local developers who had built and held most of the properties for decades, represented by Martin Waas of Waas Realty. The deal is being framed around rising demand from local businesses for smaller industrial bays, a segment that's held up better than big-box logistics through this year's higher-rate environment. It follows last week's $208M Portofino Place apartment sale in West Palm Beach (812 units, Cortland Partners to FRH Realty/Fairfield Residential) -- two very different plays, both pointing at continued institutional capital finding its way into South Florida product despite the rate backdrop.",
+        "new_today": "The Doral portfolio trade itself, reported Aug. 28.",
+        "why_it_matters": "Small-bay industrial has been one of the more resilient CRE segments this cycle -- a family exit at this scale, priced at $296/sf, is a real data point for anyone underwriting similar product in Miami-Dade right now.",
+        "thread_id": "thread-cre-capital-markets-2026",
+        "confidence": "high",
+        "sources": [
+          {
+            "role": "primary_reporting",
+            "publisher": "The Real Deal",
+            "headline": "Midtown buys Doral industrial portfolio for $86M as local businesses drive demand for smaller spaces",
+            "url": "https://therealdeal.com/miami/2026/08/28/midtown-capital-drops-86-million-in-doral-industrial-market/"
+          }
+        ]
+      },
+      {
+        "id": "theme-vice-city-gta6-pitch",
+        "affinity": "evening",
+        "topic": "miami",
+        "topic_label": "Miami Life & Culture",
+        "title": "Miami-Dade wants to turn the airport into Vice City for GTA 6",
+        "importance": 0.4,
+        "thesis": "The county has quietly pitched Rockstar Games a real-world Vice City takeover of its own airport, port, and transit system -- a genuinely strange, genuinely Miami idea for capturing GTA 6 hype.",
+        "synthesis": "Miami-Dade County first presented the concept to Rockstar Games on June 29, and wider reporting broke in the last few days: a display aircraft at Miami International Airport wrapped in Vice City branding, themed baggage claim carousels and custom luggage tags, Metromover cars and stations wrapped in Vice City colors and signage, GTA-styled manhole covers, souvenir transit passes, and large branded events at PortMiami and Tropical Park. Nothing has been formally approved -- any agreement would need to clear the county's standard review and approval process -- but the pitch is framed as a potential new revenue stream while showcasing \"the real Miami\" around the game's launch.",
+        "new_today": "Wider public reporting on the pitch, which was first made in June but broke into general coverage Aug. 28-31.",
+        "why_it_matters": "It's a small story with a real decision behind it -- whether public transit infrastructure and an international airport become licensed video-game marketing space -- and it's the kind of only-in-Miami civic proposal worth knowing about before it either dies quietly or actually happens.",
+        "thread_id": "thread-miami-vice-city-gta6-pitch",
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Last Word on Baseball",
-            "headline": "Where Things Stand In The MLB Postseason Race As Regular Season Enters Final Month",
-            "url": "https://lastwordonsports.com/baseball/2026/08/31/mlb-postseason-race/"
+            "publisher": "NBC 6 South Florida",
+            "headline": "Miami-Dade wants in on hype around GTA 6 release: Here's what the county is proposing",
+            "url": "https://www.nbcmiami.com/news/local/miami-dade-wants-in-on-hype-around-gta-6-release-heres-what-the-county-is-proposing/3851971/"
           },
           {
             "role": "background",
-            "publisher": "ESPN",
-            "headline": "Nationals 5-4 Marlins (Aug 29, 2026) Final Score",
-            "url": "https://www.espn.com/mlb/game/_/gameId/401816722/marlins-nationals"
+            "publisher": "Axios Miami",
+            "headline": "How Miami could get a \"Grand Theft Auto\"-themed transformation",
+            "url": "https://www.axios.com/local/miami/2026/08/28/grand-theft-auto-miami-rockstar-games-marketing-vice-city"
           }
         ]
       },
       {
-        "id": "theme-bitcoin-etf-record-month",
-        "affinity": "morning",
-        "topic": "markets",
-        "topic_label": "Markets & Macro",
-        "title": "Bitcoin ETFs just had their best month of 2026 -- while bitcoin itself went nowhere",
-        "importance": 0.4,
-        "thesis": "US spot bitcoin ETFs pulled in more than $3 billion in August, the strongest month of the year, even as the coin itself round-tripped on Fed jitters -- a split between institutional accumulation and retail price action worth noticing.",
-        "synthesis": "US spot bitcoin ETFs took in over $3 billion in August, already 2026's strongest month and roughly double April's pace, with an eight-day, $2.8 billion inflow streak pushing combined net assets to nearly $99 billion, up from about $77 billion in mid-August. BlackRock's IBIT fund captured much of the demand. Bitcoin itself, meanwhile, touched a three-month high near $81,455 Thursday before Warsh's hawkish Friday keynote knocked it back below $78,000 by the weekend -- ending essentially flat on net.",
-        "new_today": "August's ETF-inflow total crossing $3B, confirmed as 2026's strongest month.",
-        "why_it_matters": "When the fund flows and the spot price stop moving together, it's usually the fund flows worth paying attention to -- they're the slower, stickier signal.",
-        "thread_id": null,
-        "confidence": "high",
-        "sources": [
-          {
-            "role": "primary_reporting",
-            "publisher": "CoinDesk",
-            "headline": "Live updates: Bitcoin reclaims $80,000 as software stocks lead market rally",
-            "url": "https://www.coindesk.com/business/2026/08/27/live-updates-bitcoin-etf-inflows-hit-eight-straight-days-as-august-tops-usd3-billion"
-          },
-          {
-            "role": "analysis",
-            "publisher": "Decrypt",
-            "headline": "Bitcoin ETFs Draw $2.8B in Eight-Day Streak as BTC Tests $80K",
-            "url": "https://decrypt.co/376683/bitcoin-etfs-draw-2-8b-in-eight-day-streak-as-btc-tests-80k"
-          }
-        ]
-      },
-      {
-        "id": "theme-everglades-hidden-wall-water-security",
+        "id": "theme-miami-restaurant-wave-september",
         "affinity": "evening",
         "topic": "miami",
         "topic_label": "Miami Life & Culture",
-        "title": "The wall under the Everglades that's quietly protecting Miami's drinking water",
-        "importance": 0.42,
-        "thesis": "A 7-mile, 60-foot-deep underground wall finished in recent years is doing unglamorous, essential work securing Miami-Dade's water supply -- worth noticing precisely because it asks for no attention at all.",
-        "synthesis": "Miami-Dade has built a 7-mile-long, 26-inch-wide, up to 60-foot-deep underground seepage barrier designed to keep fresh water inside Everglades National Park rather than draining east toward the coast -- part of a broader 25-plus-year restoration effort now proving to be a genuine resilience asset. When water-use restrictions hit Miami-Dade in February amid falling Biscayne Aquifer levels, infrastructure like this determined how bad it got: the restoration work quietly recharges the aquifer that supplies the region's drinking water. Separately, the Picayune Strand Restoration Project -- restoring natural water flows across an 85-square-mile area in southwest Florida -- was completed this January, another piece of the same long-running effort.",
-        "new_today": "First feature of this infrastructure in the edition -- an exploration pick outside the usual news cycle.",
-        "why_it_matters": "It's the opposite of a breaking story: three decades of unglamorous engineering, still paying out, in a summer when \"water security\" usually only makes the news when something goes wrong.",
+        "title": "Miami's restaurant wave rolls into September",
+        "importance": 0.35,
+        "thesis": "Two openings finally confirmed, one correction, one still pending -- a small but genuine update on the late-summer restaurant calendar.",
+        "synthesis": "Star Burger, from the family behind Estrella Insurance, is officially open on Tamiami Trail, flipping grass-fed beef patties. Stormy Monday completed its reprieved reopening with a refreshed menu after an earlier planned closure. One correction to note: Burgers & Shakes' newest location is in North Miami, not MiMo as earlier reported. Miami Slice's Coconut Grove debut, expected late summer, remains unconfirmed as of today.",
+        "new_today": "Confirmation that Star Burger and Stormy Monday are both actually open, plus the location correction.",
+        "why_it_matters": "Nothing urgent here -- which is the point. A slower-paced, genuinely local read on where to eat this week, distinct from the news cycle.",
+        "thread_id": "thread-miami-summer-openings",
+        "confidence": "medium",
+        "sources": [
+          {
+            "role": "primary_reporting",
+            "publisher": "Miami New Times",
+            "headline": "Every Miami restaurant opening in August 2026",
+            "url": "https://www.miaminewtimes.com/food-drink/every-miami-restaurant-opening-in-august-2026-40573400/"
+          }
+        ]
+      },
+      {
+        "id": "theme-andoque-amazon-dolphin",
+        "affinity": "evening",
+        "topic": "living",
+        "topic_label": "Art of Living",
+        "title": "What the Andoque of the Amazon know about the forest's most seductive dangers",
+        "importance": 0.4,
+        "thesis": "An anthropologist's fieldwork among the Andoque people of the Colombian Amazon surfaces a belief worth sitting with even from the outside: that the most beautiful things in a landscape are often the ones asking you to be most careful.",
+        "synthesis": "Writing for Aeon, Cambridge anthropologist Eliran Arazi describes how the Andoque of southern Colombia understand certain beings in their forest -- dolphins especially, but also particular plants and animals -- as wearing non-human bodies while carrying distinctly human wishes, customs, and appetites, capable of seducing or endangering anyone who approaches them carelessly. The essay isn't a folklore curiosity; it's an argument about what a culture's fears reveal about how it actually relates to beauty and risk in its environment.",
+        "new_today": "First feature of this piece in the edition -- this week's exploration pick, deliberately outside markets, Miami, and AI/tech.",
+        "why_it_matters": "A useful change of register on a day otherwise full of oil prices and roster moves: a reminder that \"beautiful\" and \"safe\" are not the same judgment, in any culture, including the ones making investment decisions.",
         "thread_id": null,
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Everglades Foundation",
-            "headline": "The Hidden Wall Protecting the Everglades and Miami-Dade Communities",
-            "url": "https://www.evergladesfoundation.org/post/the-hidden-wall-protecting-the-everglades-and-miami-dade-communities"
-          },
-          {
-            "role": "analysis",
-            "publisher": "The Invading Sea",
-            "headline": "Miami's drought wake-up call: Everglades restoration is our water insurance",
-            "url": "https://www.theinvadingsea.com/2026/05/07/drought-florida-everglades-restoration-miami-dade-biscayne-aquifer-water-wildfire-resilience/"
+            "publisher": "Aeon",
+            "headline": "Why the Andoque of the Amazon fear the seductive dolphin",
+            "url": "https://aeon.co/essays/why-the-andoque-of-the-amazon-fear-the-seductive-dolphin"
           }
         ]
       }
     ],
     "rabbit_hole": {
-      "id": "rh-2026-08-31",
-      "title": "A Roadmap for the Upcoming Labor Transition",
-      "creator": "Deric Cheng, AI Frontiers",
+      "id": "rh-2026-09-01",
+      "title": "Why We Like Things",
+      "creator": "Celine Nguyen, Asterisk Magazine",
       "format": "essay",
-      "minutes": 20,
-      "why": "Cheng, who runs research for a nonprofit built around distributing AI's economic gains, lays out the labor transition not as one cliff but as a sequence of waves, each demanding a different policy response -- a more useful frame than either the doom or dismissal takes that dominate the conversation. Worth reading the same week ETF investors put a record $3 billion behind bitcoin on pure conviction: the capital keeps arriving quickly, and this is one of the more serious attempts at working out what happens to the people whose jobs it's replacing.",
-      "url": "https://ai-frontiers.org/articles/a-roadmap-for-the-upcoming-labor-transition",
+      "minutes": 25,
+      "why": "Written in response to OpenAI president Greg Brockman's claim that \"taste is a new core skill\" in the AI era, Nguyen traces the actual history of automation and taste -- what makes judgment and discernment valuable once machines can generate infinite content, and the quiet dangers of treating \"taste\" as a status weapon rather than a trained faculty. It's a sharper frame for a question that touches Alex's own work as directly as anyone's: what does trained judgment on a deal actually consist of, once information itself is no longer scarce.",
+      "url": "https://asteriskmag.com/issues/15/why-we-like-things",
       "related_interest": "living"
     },
     "beautiful_thing": {
-      "id": "bt-2026-08-31",
-      "title": "The Freedom Tower",
-      "creator": "Schultze and Weaver, architects (also responsible for the Waldorf-Astoria and the Biltmore); built for newspaper publisher James M. Cox",
-      "era": "Completed 1925; served as the country's main Cuban refugee processing center, 1962-1974; National Historic Landmark",
-      "body": "Modeled directly on Seville's Giralda bell tower, the 289-foot Freedom Tower was briefly the tallest building in the South and doubled as a navigation landmark for ships entering the port. Its second life mattered more: after 1962, it became the country's main processing center for the roughly 650,000 Cuban refugees who arrived in Miami after the revolution, known to them simply as \"El Refugio.\" Worth noticing: a building designed purely to be looked at -- Mediterranean Revival ornament borrowed from a 12th-century Spanish minaret -- ended up doing the most consequential work of its life as a waiting room.",
-      "url": "https://moadmdc.org/freedom-tower/history-of-the-freedom-tower",
+      "id": "bt-2026-09-01",
+      "title": "Vizcaya",
+      "creator": "F. Burrall Hoffman (architect), Paul Chalfin (design director), Diego Suárez (landscape architect); built for industrialist James Deering",
+      "era": "Construction began 1914; Deering first wintered there December 25, 1916; sold to Miami-Dade County in 1952 for $1 million; National Historic Landmark since 1994",
+      "body": "Vizcaya is a 10-acre Italian Renaissance-style villa set directly against Biscayne Bay in Coconut Grove, its 34 rooms and formal Diego Suárez gardens built for a Gilded Age industrialist who wanted a winter retreat modeled on centuries of European estate design, grafted onto tropical limestone and mangrove. Worth noticing: the stone barge just offshore, breaking the bay's chop to protect the house -- itself carved and sculpted as if it were a ruin, ornament doing structural work, the same trick the whole property plays at a larger scale.",
+      "url": "https://vizcaya.org/",
       "image": null,
-      "alt": "The Freedom Tower's Mediterranean Revival facade and bell tower, modeled on Seville's Giralda, in downtown Miami."
+      "alt": "Vizcaya's Italian Renaissance-style villa and formal gardens on Biscayne Bay in Coconut Grove, Miami."
     },
     "noticing_prompt": {
-      "id": "np-2026-08-31",
-      "text": "Somewhere today you'll get one new fact and use it to confirm what you already believed rather than to update it. Notice which one it is."
+      "id": "np-2026-09-01",
+      "text": "Today you'll make a dozen small judgment calls -- which email actually matters, which deal is worth a second look -- almost entirely on instinct. Notice the one where you could actually name why."
     },
     "daily_puzzle": {
-      "id": "dp-2026-08-31",
-      "type": "lateral",
-      "prompt": "A CRE broker looks at two office towers on the same downtown block -- same architect, same year built, same square footage, same finishes. One trades for $40 million. The other, listed the same week, trades for $65 million. No renovations, no different tenants, nothing different about the buildings themselves. What's the single most likely reason for the price gap?",
-      "hint": "The buildings are identical. What almost never shows up in a building's specs, but shows up on the closing statement?",
-      "solution": "The cheaper tower sold subject to a long-term ground lease -- the buyer owns the building but not the land under it, and pays rent to a separate landowner indefinitely. The pricier tower sold fee simple: land and building together, free and clear.",
-      "explanation": "Ground leases are common in dense downtown markets precisely because they let a building trade for a fraction of what an identical, land-included property would fetch -- the same asset, priced on a completely different set of rights."
+      "id": "dp-2026-09-01",
+      "type": "logic",
+      "prompt": "Three brokers -- Ana, Ben, and Cy -- each closed exactly one deal last quarter, each in a different property type (office, retail, industrial) and a different month (June, July, August). From these five clues, determine each broker's property type and closing month: (1) The broker who closed in July represents industrial. (2) Ana did not close in June. (3) Cy represents retail. (4) The office deal closed before the retail deal. (5) Ben did not close in August.",
+      "hint": "Clue 3 gives you Cy outright. Then use clue 1 to figure out who *can't* have closed in July.",
+      "solution": "Ana: industrial, July. Ben: office, June. Cy: retail, August.",
+      "explanation": "Clue 3 fixes Cy as retail, so Cy didn't close in July (clue 1 ties July to industrial) -- July belongs to Ana or Ben. Testing Ben = July/industrial forces Ana into office and August, leaving Cy June -- but clue 4 requires office before retail, and August isn't before June, so that branch fails. That leaves Ana = July/industrial and Ben = office; clue 5 rules out Ben in August, so Ben = June and Cy takes August. Office (June) now falls before retail (August), satisfying clue 4 -- the only consistent assignment."
     },
     "evening_unwind": {
-      "id": "eu-2026-08-31",
+      "id": "eu-2026-09-01",
       "evening_quote": {
-        "text": "It is not that we have a short time to live, but that we waste a lot of it.",
-        "attribution": "Seneca",
-        "source": "On the Shortness of Life, 1"
+        "text": "Nowhere can a man find a quieter or more untroubled retreat than in his own soul.",
+        "attribution": "Marcus Aurelius",
+        "source": "Meditations, 4.3"
       },
-      "evening_prompt": "Tonight, pick the one thing today that felt like urgent, unambiguous news, and ask yourself honestly whether it will still feel that way by Friday."
+      "evening_prompt": "Tonight, notice how much of today's urgency came from a headline four time zones away, and how little of it actually asked anything of you."
     },
     "reading_queue": [
       {
         "title": "Philosophy as an Art of Living",
         "url": "https://lareviewofbooks.org/article/philosophy-as-an-art-of-living/",
         "verdict": "probably_remove",
-        "reason": "Closing in on a month unread now, flagged the last two weeks running -- if it mattered, it would have moved by now."
+        "reason": "A full month unread now, flagged three weeks running -- if it mattered, it would have moved by now."
       }
     ],
     "quote": {
-      "text": "The four most dangerous words in investing are: 'this time it's different.'",
-      "attribution": "Sir John Templeton"
+      "text": "Price is what you pay. Value is what you get.",
+      "attribution": "Warren Buffett"
     }
   },
   "threads": [
@@ -342,9 +428,9 @@
       "title": "US-Iran conflict and the Strait of Hormuz",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-08-30",
-      "updates": 50,
-      "current_state": "Six months in, the war's longest pause just ended: the US struck Iranian rocket launchers on Larak Island Sunday after IRGC forces were seen prepping sea mines for the Strait, and Iran's Revolutionary Guard has vowed to respond. Both sides still make mutually exclusive control claims about the same waterway; Bessent's named threshold for sanctioning Chinese banks remains uncrossed and China's oil purchases continue unimpeded.",
+      "last_updated": "2026-08-31",
+      "updates": 51,
+      "current_state": "Sunday's strike now has an answer: Iran hit US-aligned bases in Jordan and probed UAE airspace Monday, pulling two more countries into a war that just spent six months contained to Iran, the Strait, and the Gulf states directly on it. Trump's threat to hit Kharg Island -- Iran's actual oil-export lifeline, not just the strait it sits beside -- would mark a genuine escalation beyond anything tried so far. No US counter-strike or ceasefire move has followed as of Tuesday morning; Bessent's threshold for sanctioning major Chinese banks remains uncrossed.",
       "timeline": [
         {
           "date": "2026-07-21",
@@ -595,18 +681,23 @@
           "date": "2026-08-30",
           "summary": "The month-long lull broke Sunday: the US struck two Iranian rocket launchers on Larak Island that IRGC forces had prepped to fire sea-mine rockets into the Strait -- the first American strike on Iran in over a month, days after the US Navy finished clearing mines from the Strait's own shipping lanes. Iran's Revolutionary Guard confirmed fighters and civilians killed or wounded and called the strike \"a strategic and deadly mistake\" it would punish.",
           "change_type": "worsened"
+        },
+        {
+          "date": "2026-08-31",
+          "summary": "Iran retaliated for Sunday's Larak Island strike with a coordinated missile-and-drone operation (\"Punishment of the Aggressor\") on Jordan's King Hussein and Al Azraq air bases, claiming heavy damage to infrastructure and aircraft positions; Jordan said it intercepted eight missiles. The UAE separately intercepted an Iranian drone approaching its airspace. Trump vowed to \"hit them hard\" and floated striking Kharg Island, Iran's main oil-export terminal -- a facility neither side has hit before. Brent jumped roughly 3% toward $91, WTI to about $86.50. Iran's president, speaking at the Shanghai Cooperation Organization summit, offered a conditional off-ramp: Iran would \"immediately reciprocate\" if the US returns to compliance with the lapsed Islamabad memorandum.",
+          "change_type": "worsened"
         }
       ],
-      "importance": 0.8
+      "importance": 0.85
     },
     {
       "id": "thread-fed-rate-path",
       "title": "Federal Reserve rate path",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-08-31",
-      "updates": 47,
-      "current_state": "Warsh's hawkish-read keynote is now understood as a deliberate break from Fed tradition -- an explicit refusal to give forward guidance, meant to stop markets from \"looking primarily to the Fed for their next trade.\" September hike odds hold near a coin flip (56-57% CME FedWatch) heading into Monday's session, with futures dipping slightly after the US struck Iran's Larak Island overnight. Sixteen days remain before the Sept. 16 decision.",
+      "last_updated": "2026-09-01",
+      "updates": 48,
+      "current_state": "Warsh's hawkish framing held through a second venue Monday, but the odds themselves (56-57% hike, CME FedWatch) haven't moved since Friday -- they're waiting on data, not rhetoric. Two catalysts arrive before blackout starts Saturday: today's ISM Manufacturing PMI and Friday's August jobs report, the same kind of release that flipped the odds twice already this cycle (the July miss on Aug. 7, then Warsh's Jackson Hole reversal). Fifteen days remain before the Sept. 16 decision.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -832,6 +923,11 @@
           "date": "2026-08-31",
           "summary": "Fuller weekend read of Friday's keynote surfaces Warsh's real break from precedent: he explicitly rejected giving forward guidance, telling Jackson Hole \"we should not indulge a regime in which market participants are looking primarily to the Fed for their next trade,\" and calling a \"quieter Fed\" better able to meet its objectives -- even as most investors now price a September hike. Monday's premarket softened further after the US struck Iran's Larak Island overnight, the first US-Iran military action in a month; September hike odds hold near Friday's 56-57% on CME FedWatch.",
           "change_type": "advanced"
+        },
+        {
+          "date": "2026-08-31",
+          "summary": "Warsh reiterated his hawkish line in G20 remarks Monday, arguing the low-inflation era is over and price stability remains the Fed's dominant focus. September hike odds held near Friday's 56-57% (CME FedWatch) into Tuesday morning, with markets now watching two real catalysts before the Sept. 16 decision: today's ISM Manufacturing PMI (10am ET) and Friday's August jobs report (8:30am ET) -- the last major print before the FOMC's blackout period begins Saturday, Sept. 5.",
+          "change_type": "watch"
         }
       ],
       "importance": 0.72
@@ -842,8 +938,8 @@
       "topic": "sports",
       "status": "active",
       "last_updated": "2026-08-31",
-      "updates": 51,
-      "current_state": "The real wild-card cutline is Arizona (73-65) and San Diego (72-65), not the Cubs/Phillies -- at 68-69 after being swept in three straight by Washington, Miami sits roughly four and a half games back with about a month left. The series finale against the Nationals is tonight before a three-game trip to Kansas City.",
+      "updates": 52,
+      "current_state": "Miami fell to 69-69 after dropping Monday's finale to Washington, and the team it's chasing for the third wild-card spot changed hands the same day: San Diego (73-65) now leads Arizona (73-66) by half a game, with the Cubs and Phillies still comfortably ahead of both. Miami sits roughly four games back with about three weeks left -- a three-game series at Kansas City (62-76, but 8-2 in its last 10) opens tonight.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -1089,9 +1185,14 @@
           "date": "2026-08-31",
           "summary": "Monday morning's fuller standings picture corrects the frame: the real cutline for the final NL wild-card spot is Arizona (73-65) and San Diego (72-65, half a game back), not the Cubs and Phillies, who are comfortably ahead for the other two spots. At 68-69, Miami sits roughly four and a half games back of Arizona with about a month left; the four-game series against Washington closes tonight before a three-game trip to Kansas City.",
           "change_type": "watch"
+        },
+        {
+          "date": "2026-08-31",
+          "summary": "Washington closed out the series 6-3 as Daylen Lile hit two home runs -- his fourth multi-homer game of the year, 20th and 21st of the season -- taking 3 of 4 from Miami. The Marlins fall to 69-69. The wild-card picture flipped the same day: San Diego beat Cincinnati 5-0 to reach 73-65 while Arizona lost to Philadelphia 2-1 to fall to 73-66, handing the Padres a half-game lead over the Diamondbacks for the final NL wild-card spot -- the reverse of Sunday's order.",
+          "change_type": "worsened"
         }
       ],
-      "importance": 0.62
+      "importance": 0.6
     },
     {
       "id": "thread-heat-giannis-era",
@@ -1141,8 +1242,8 @@
       "topic": "sports",
       "status": "active",
       "last_updated": "2026-08-30",
-      "updates": 35,
-      "current_state": "Miami's initial 53-man roster is set, with the QB room fully turned over at the deadline: Quinn Ewers went to Jacksonville, and Miami used the identical pick it got back to acquire Kyle McCord from Green Bay as Malik Willis's backup. Trey Moore still needs ankle surgery and is expected on IR now that the 53 is finalized, preserving his eligibility to return later this season.",
+      "updates": 36,
+      "current_state": "Miami's 53 is set but already thinner than it looked a day ago: first-round DT Kenneth Grant is on IR (leg, minimum four games, possible Week 5 return) and Trey Moore is headed there too for ankle surgery. Malik Willis is the confirmed Week 1 starter -- the league's least-experienced Week 1 QB with six career starts -- for Miami's actual opener, Sunday, September 13 at Las Vegas.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -1323,6 +1424,11 @@
           "date": "2026-08-30",
           "summary": "Miami's initial 53 is set: the QB room turned over completely at the deadline -- Quinn Ewers traded to Jacksonville Saturday, then Kyle McCord acquired from Green Bay Sunday for the identical 2028 sixth-round pick Miami got for Ewers, a direct swap. Malik Willis is the Week 1 starter with McCord now the backup.",
           "change_type": "resolved"
+        },
+        {
+          "date": "2026-08-30",
+          "summary": "First-round DT Kenneth Grant went on injured reserve with a designation to return, for a leg injury -- out a minimum of four games, eligible back as early as Week 5; Hafley had called the roster \"thin still\" beforehand. Trey Moore's expected ankle-surgery IR placement was finalized alongside it. For the record: Miami's actual Week 1 opener is Sunday, September 13 at the Las Vegas Raiders (4:25pm ET, FOX) -- not September 4, which is the Hurricanes' season opener at Stanford, a different team entirely.",
+          "change_type": "watch"
         }
       ],
       "importance": 0.5
@@ -1332,9 +1438,9 @@
       "title": "Miami Hurricanes fall camp and the Mensah era",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-08-26",
-      "updates": 7,
-      "current_state": "Tight end Luka Gilbert will miss the entire season with a summer injury, and defensive end Hayden Lowe and receiver Jontavius Wyman are no longer with the team -- roster attrition entering the stretch run of fall camp, nine days before the Sept. 4 opener at Stanford. On the field, Cristobal has called the camp good and competitive, with Darian Mensah confirmed as the starting quarterback.",
+      "last_updated": "2026-08-31",
+      "updates": 8,
+      "current_state": "Roster attrition has a legal dimension now: Cam Vaughn is dismissed and suing UM and the NCAA over portal access, and Jordan Lyle -- still on the team -- is facing a felony charge Cristobal is letting play out rather than acting on. Darian Mensah is confirmed the starting QB for Friday's 9pm opener at Stanford, with Mark Fletcher Jr. and Malachi Toney leading the skill positions.",
       "timeline": [
         {
           "date": "2026-08-14",
@@ -1370,18 +1476,23 @@
           "date": "2026-08-26",
           "summary": "Cristobal confirmed sophomore tight end Luka Gilbert (6-7, 255) will miss the entire 2026 season after injuring himself at home over the summer -- 'he is going to miss the season and he will be back the following year.' Gilbert played 68 snaps as a true freshman in 2025 and was in the mix to back up Elija Lofton; the news comes alongside confirmation that Hayden Lowe and Jontavius Wyman are no longer with the team, with nine days left before the Sept. 4 opener at Stanford.",
           "change_type": "worsened"
+        },
+        {
+          "date": "2026-08-31",
+          "summary": "Two legal situations now shadow fall camp days before kickoff. WR Cam Vaughn, dismissed August 17 after a reckless-driving arrest in Georgia (96 mph in a 55 zone), has sued the university and the NCAA seeking transfer-portal entry, which Miami has declined to facilitate. Separately, RB Jordan Lyle -- one of camp's more impressive players -- faces a felony fleeing/eluding charge plus a reckless-driving misdemeanor from a July 10 incident in Broward County; Cristobal hasn't dismissed him, saying the program is letting the legal process play out. The season opens Friday, September 4 at 9pm ET at Stanford, on ESPN.",
+          "change_type": "worsened"
         }
       ],
-      "importance": 0.46
+      "importance": 0.48
     },
     {
       "id": "thread-miami-summer-openings",
       "title": "Miami summer restaurant wave",
       "topic": "miami",
       "status": "active",
-      "last_updated": "2026-08-26",
-      "updates": 15,
-      "current_state": "Star Burger -- the Estrella Insurance family's burger spot on Tamiami Trail -- and a reprieved Stormy Monday both opened/reopened this week, joining Burgers & Shakes' MiMo location and Miami Slice's upcoming Coconut Grove opening on a busier-than-usual late-summer restaurant calendar.",
+      "last_updated": "2026-08-31",
+      "updates": 16,
+      "current_state": "Star Burger and a reprieved Stormy Monday are both officially open, joining a busy late-summer Miami restaurant calendar; Miami Slice's Coconut Grove location is still the one to watch for an actual opening date.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -1457,9 +1568,14 @@
           "date": "2026-08-26",
           "summary": "The Estrella Insurance family opened Star Burger at 4901 SW 8th St. on Tamiami Trail -- smashburgers, chili fries, a Miami Hurricanes-branded burger (Estrella is the Canes' official burger sponsor this year) -- and Stormy Monday reversed an earlier planned closure to reopen with a refreshed menu instead. Burgers & Shakes' MiMo/North Miami location and Miami Slice's Coconut Grove opening remain in progress; Miami Spice discounted dining continues through Sept. 30.",
           "change_type": "advanced"
+        },
+        {
+          "date": "2026-08-31",
+          "summary": "Star Burger, from the family behind Estrella Insurance, is open on Tamiami Trail; Stormy Monday completed its reprieved reopening with a refreshed menu. Correction on location: Burgers & Shakes' new spot is in North Miami, not MiMo as earlier reported. Miami Slice's Coconut Grove debut remains pending, not yet confirmed open.",
+          "change_type": "advanced"
         }
       ],
-      "importance": 0.45
+      "importance": 0.4
     },
     {
       "id": "thread-miami-freedom-park-civic",
@@ -1488,9 +1604,9 @@
       "title": "2026 CRE capital markets under pressure",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-08-29",
-      "updates": 25,
-      "current_state": "This week's deal sheet tops itself again: a $208M, 812-unit West Palm Beach apartment sale (Portofino Place, Cortland Partners to FRH Realty/Fairfield Residential) is the largest South Florida trade in over a month, following last week's $83M Doral Marketplace sale.",
+      "last_updated": "2026-08-28",
+      "updates": 26,
+      "current_state": "The deal sheet keeps moving: Midtown Capital's $86M, 14-property Doral industrial buy (Aug. 28) follows last week's $208M Portofino Place apartment sale in West Palm Beach -- two very different plays (small-bay industrial vs. large multifamily) both pointing at continued institutional appetite for South Florida product despite the rate backdrop.",
       "timeline": [
         {
           "date": "2026-07-24",
@@ -1615,6 +1731,11 @@
         {
           "date": "2026-08-29",
           "summary": "Cortland Partners sold the 812-unit Portofino Place Apartments in West Palm Beach for $208 million ($256,200/unit) to a venture tied to FRH Realty and Fairfield Residential -- more than double last week's $83M Doral Marketplace sale and the largest South Florida deal in over a month.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-08-28",
+          "summary": "Midtown Capital Partners bought a 14-property, roughly 300,000-square-foot industrial portfolio in Doral for $86 million ($296/sf), acquiring from 13 sellers tied to the Waas family, who had developed and held most of the properties for decades. The deal is being framed around rising demand from local businesses for smaller industrial bays.",
           "change_type": "advanced"
         }
       ],
@@ -1806,6 +1927,23 @@
         }
       ],
       "importance": 0.48
+    },
+    {
+      "id": "thread-miami-vice-city-gta6-pitch",
+      "title": "Miami-Dade's \"Vice City\" pitch to Rockstar Games",
+      "topic": "miami",
+      "status": "emerging",
+      "last_updated": "2026-08-31",
+      "updates": 1,
+      "current_state": "Miami-Dade County has pitched Rockstar Games a real-world Vice City takeover tied to the GTA 6 launch -- Vice-City-branded displays and baggage claim at Miami International Airport, wrapped Metromover cars and stations, custom manhole covers and transit passes, and events at PortMiami and Tropical Park. First floated to Rockstar on June 29, the pitch became public in late August; nothing has been formally approved and any deal would go through standard county review.",
+      "timeline": [
+        {
+          "date": "2026-08-31",
+          "summary": "Wider reporting confirms Miami-Dade's June 29 pitch to Rockstar Games for a county-wide Vice City marketing takeover -- MIA airport, PortMiami, Metromover, and Tropical Park -- as a potential new county revenue stream tied to the GTA 6 launch. Nothing formally approved.",
+          "change_type": "new"
+        }
+      ],
+      "importance": 0.35
     }
   ],
   "topic_filters": [
