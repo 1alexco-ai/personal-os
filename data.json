@@ -1,380 +1,358 @@
 {
   "schema_version": 2,
   "edition": {
-    "id": "2026-09-02",
-    "date": "2026-09-02",
+    "id": "2026-09-03",
+    "date": "2026-09-03",
     "type": "weekday",
-    "generated_at": "2026-09-02T09:30:00-04:00",
+    "generated_at": "2026-09-03T09:30:00-04:00",
     "timezone": "America/New_York",
     "title": "Personal OS",
     "front_page_letter": {
       "greeting": "Good morning",
       "body_paragraphs": [
-        "The threat that dominated this week's Iran coverage never actually happened: Trump's Sunday-night claim to have hit Kharg Island, Iran's real oil terminal, turns out to have been an AI-generated video. The real strikes landed elsewhere a day later -- air defense and mine-laying sites near Bandar Abbas and Kerman -- and one hit a home during a wedding, killing at least five. Oil is near a six-week high near $95, and September hike odds jumped to roughly 66% even though Tuesday's actual data (a soft ISM print) argued the other way; Friday's jobs report is the last real word before the Fed's blackout.",
-        "Miami had a better night than the headlines above suggest. The Marlins beat Kansas City 6-3 on Graham Pauley's four RBI, and both teams ahead of them in the wild-card race lost the same night -- Miami's deficit is down to three games with three weeks left. Friday brings the Hurricanes' actual opener at Stanford, 9pm on ESPN, Miami ranked No. 7 -- though the Vaughn lawsuit and Lyle charge remain open questions Cristobal carries into the season, not resolves before it.",
-        "Tonight's read is about discretion -- when the rule in front of you should actually bend -- alongside a quieter story on Cuba's abandoned art schools, and the newly solved reason every snake embryo curls the same direction before it can even move."
+        "Tomorrow does two things at once: Friday's August jobs report is the last real data the Fed sees before Saturday's blackout, and the Hurricanes play their actual season opener at Stanford, 9pm on ESPN. Nothing said today moves either one. What did move: Iran's Red Crescent has taken Tuesday's Sirik wedding strike to the ICC as a war crime complaint, though neither Washington nor Tehran has ratified the treaty that would make the court's finding binding on either of them. Iran also claims new, unconfirmed strikes on US bases in Kuwait and the UAE overnight.",
+        "Miami sports had a better Wednesday. The Marlins beat Kansas City again, 7-6, and both teams ahead of them for the last wild-card spot split results, cutting the deficit to two games with three weeks left. Cam Vaughn's lawsuit against UM is over too, dropped with a clear path back to the transfer portal, which leaves fall camp's second legal situation, Jordan Lyle's felony charge, as the only one still genuinely open heading into Friday.",
+        "Tonight's read is about the pull toward making things by hand as everything else gets automated, alongside a red wool sculpture on view right now in Miami and a hidden ocean of heat inside Mars that helps explain why its two halves look nothing alike."
       ],
       "read_only_three": [
         {
           "target_type": "theme",
-          "target_id": "theme-iran-strikes-widen-fake-kharg-video",
-          "label": "The Kharg Island strike was fake; the real ones killed a family at a wedding"
+          "target_id": "theme-hurricanes-vaughn-resolved-opener-eve",
+          "label": "Vaughn's lawsuit is dropped; Lyle's charge is the one thing still open before Friday"
         },
         {
           "target_type": "theme",
-          "target_id": "theme-marlins-win-cuts-wildcard-deficit",
-          "label": "Marlins win, cut the wild-card deficit to three games"
+          "target_id": "theme-marlins-win-deficit-two-games",
+          "label": "Marlins win again, wild-card deficit down to two games"
         },
         {
           "target_type": "rabbit_hole",
-          "target_id": "rh-2026-09-02",
-          "label": "Today's read: judgment as the art of knowing when a rule should bend"
+          "target_id": "rh-2026-09-03",
+          "label": "Tonight's read: the radical pull of making things by hand"
         }
       ]
     },
     "market_context": [
       {
         "label": "S&P 500",
-        "value": "7,631.47",
-        "change": "-0.71% Tuesday",
-        "observed": "Tue close 9/1",
-        "note": "Gave back more of August's gains as oil climbed on the Iran strikes and hike odds firmed toward 66%."
+        "value": "7,666.60",
+        "change": "+0.46% Wednesday",
+        "observed": "Wed close 9/2",
+        "note": "Recovered part of Tuesday's slide as Treasury yields paused their climb."
       },
       {
         "label": "Nasdaq Composite",
-        "value": "26,099.77",
-        "change": "-1.03% Tuesday",
-        "observed": "Tue close 9/1",
-        "note": "Led the selling as tech gave back the most ground of the three major indices."
+        "value": "26,217.83",
+        "change": "+0.45% Wednesday",
+        "observed": "Wed close 9/2",
+        "note": "Modest gains alongside the S&P; oil stayed near a six-week high."
       },
       {
         "label": "10Y Treasury",
-        "value": "~4.80%",
-        "change": "+0.04pt",
-        "observed": "Tue close 9/1",
-        "note": "Highest close of the stretch, as hike odds firm and oil climbs on the widening Iran strikes."
+        "value": "~4.79%",
+        "change": "-0.01pt",
+        "observed": "Wed close 9/2",
+        "note": "Eased slightly after touching its highest close since October 2023 the day before."
       },
       {
         "label": "FOMC (Sept. 16 decision)",
         "value": "Hike ~66%, Hold ~34%",
-        "change": "up from 56-57% Friday",
-        "observed": "as of Tuesday (CME FedWatch)",
-        "note": "Odds firmed despite a soft ISM Manufacturing print -- markets are pricing Warsh's hawkish rhetoric over the actual data. Friday's August jobs report is the last word before Saturday's blackout."
+        "change": "essentially unchanged from Tuesday",
+        "observed": "as of Wednesday (CME FedWatch)",
+        "note": "Friday's August jobs report is the last data point before Saturday's blackout period begins."
       }
     ],
     "public_day_context": {
-      "date_label": "Wednesday, September 2",
-      "weather": "Overcast and hot with a real chance of rain -- highs near 88F, heat index near 100F, roughly 95% chance of showers through the day and overnight.",
-      "public_event": "Markets are open as usual. The Marlins continue their series at Kansas City tonight. The Hurricanes' real season opener at Stanford is Friday at 9pm ET on ESPN."
+      "date_label": "Thursday, September 3",
+      "weather": "50% chance of showers and thunderstorms, mainly after 1pm, otherwise mostly sunny -- high near 88F, heat index up to 105F.",
+      "public_event": "Markets are open as usual. The Marlins continue their series at Kansas City tonight. The Hurricanes' real season opener at Stanford is tomorrow, Friday, 9pm ET on ESPN."
     },
     "what_changed": [
       {
-        "id": "delta-iran-kharg-video-fake-real-strikes-widen",
+        "id": "delta-vaughn-lawsuit-dropped",
+        "thread_id": "thread-hurricanes-fall-camp",
+        "change_type": "resolved",
+        "title": "Cam Vaughn's lawsuit against Miami and the NCAA is dropped",
+        "previous_state": "Vaughn sued UM and the NCAA in Miami-Dade County after his August 17 dismissal, seeking a path back into the transfer portal; the suit was unresolved as of Monday.",
+        "current_state": "Both sides dropped the litigation after Miami submitted a legislative relief waiver request allowing Vaughn to re-enter the portal -- an amicable resolution to the one legal situation from camp that had a clean way out.",
+        "why_it_matters": "One of fall camp's two open legal questions is now closed; Jordan Lyle's felony charge is the only one still genuinely unresolved heading into Friday's opener.",
+        "confidence": "high",
+        "source": {
+          "publisher": "Athlon Sports",
+          "url": "https://athlonsports.com/college-football/mario-cristobal-miami-makes-cam-vaughn-move-amid-lawsuit-situation"
+        }
+      },
+      {
+        "id": "delta-iran-icc-complaint-kuwait-uae-claims",
         "thread_id": "thread-iran-hormuz-crisis",
         "change_type": "worsened",
-        "title": "Trump's Kharg Island strike turns out to be an AI fake; real US strikes hit elsewhere with civilian deaths",
-        "previous_state": "Trump threatened to strike Kharg Island, Iran's main oil-export terminal, after Iran's Monday retaliation against Jordan and the UAE; no strike on the terminal had been confirmed.",
-        "current_state": "That threat turns out to have been an AI-generated video Trump posted Sunday night that Iran's oil officials called 'laughable' -- the US never targeted Kharg Island. Real strikes came a day later, hitting Iranian air defense, radar, and mine-laying sites near Bandar Abbas, Qeshm Island, and Kerman province; one strike destroyed a home during a wedding in Sirik county, killing at least five people including a child and wounding 63.",
-        "why_it_matters": "The threat that dominated coverage and moved oil prices this week never happened; the strikes that did happen, with real civilian casualties, landed somewhere else entirely and got far less attention.",
-        "confidence": "high",
+        "title": "Sirik wedding strike becomes a formal ICC war-crime complaint; Iran claims new strikes on Kuwait and UAE bases",
+        "previous_state": "Tuesday's US strikes killed at least five people at a wedding in Sirik county, per Iran's foreign ministry, with no formal international legal action yet filed.",
+        "current_state": "Iran's Red Crescent has asked the ICC to investigate the strike as a war crime, naming four of the dead -- though neither the US nor Iran has ratified the treaty that would make the court's jurisdiction binding. Iran's army separately claims, unconfirmed by the US or Kuwait, that it struck Ahmad al-Jaber Air Base in Kuwait and Al Minhad Air Base in the UAE overnight Thursday.",
+        "why_it_matters": "The legal and military tracks are both widening at once, with almost nothing on either confirmed by more than one side.",
+        "confidence": "medium",
         "source": {
-          "publisher": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/2/iran-says-us-strikes-hit-a-wedding-party-in-sirik-killing-five"
+          "publisher": "Tech Times",
+          "url": "https://www.techtimes.com/articles/326396/20260903/toddler-killed-iranian-wedding-red-crescent-files-first-ever-icc-claim-against-us-military.htm"
         }
       },
       {
-        "id": "delta-fed-hike-odds-66",
-        "thread_id": "thread-fed-rate-path",
-        "change_type": "advanced",
-        "title": "September hike odds climb to roughly 66% even as the week's actual data (ISM) came in soft",
-        "previous_state": "CME FedWatch's September hike odds held at roughly 56-57% as of Monday, unchanged since Friday, waiting on Friday's jobs report.",
-        "current_state": "Odds firmed to roughly 66% by Tuesday even though the ISM Manufacturing PMI for August came in at 54.6, below the 55.2 consensus and decelerating from July -- markets are pricing Warsh's rhetoric over the incoming data itself.",
-        "why_it_matters": "A real data point pointed dovish and the odds moved hawkish anyway -- Friday's jobs report is now the only thing that can actually settle this before blackout.",
-        "confidence": "high",
-        "source": {
-          "publisher": "CNBC",
-          "url": "https://www.cnbc.com/2026/08/31/markets-see-warsh-endorsing-a-rate-hike-in-september-not-everyone-is-convinced.html"
-        }
-      },
-      {
-        "id": "delta-marlins-win-cuts-deficit",
+        "id": "delta-marlins-deficit-two-games",
         "thread_id": "thread-marlins-wildcard",
         "change_type": "improved",
-        "title": "Marlins win 6-3, wild-card deficit shrinks to three games as both teams ahead lose",
-        "previous_state": "Miami fell to 69-69 after Monday's loss to Washington, sitting roughly four games back of San Diego (73-65) for the final NL wild-card spot.",
-        "current_state": "Miami beat Kansas City 6-3 behind Graham Pauley's four RBI to improve to 70-69, while both San Diego (lost to Cincinnati, now 73-66) and Arizona (lost to Philadelphia, now 73-67) lost the same night -- cutting Miami's deficit to three games.",
-        "why_it_matters": "Three weeks left and three games back is a real chance, and it's the first night in a while every result broke Miami's way at once.",
-        "confidence": "high",
+        "title": "Marlins win again, wild-card deficit shrinks to two games",
+        "previous_state": "Miami improved to 70-69 Tuesday, three games behind San Diego (73-66) for the final NL wild-card spot, after both teams ahead of them lost.",
+        "current_state": "Miami beat Kansas City 7-6 Wednesday to improve to 71-69, while San Diego lost to Cincinnati (falling to 73-67) and Arizona beat Philadelphia 1-0 (rising to 74-67) -- Miami's deficit is now two games behind San Diego, 2.5 behind Arizona.",
+        "why_it_matters": "The closest this race has been in weeks, with three weeks of season left to close it.",
+        "confidence": "medium",
         "source": {
-          "publisher": "Yahoo Sports (AP)",
-          "url": "https://sports.yahoo.com/articles/graham-pauley-drives-4-marlins-022334974.html"
+          "publisher": "Fox Sports",
+          "url": "https://www.foxsports.com/mlb/miami-marlins-vs-kansas-city-royals-sep-02-2026-game-boxscore-96748?tab=boxscore"
         }
       },
       {
-        "id": "delta-hurricanes-kickoff-set",
-        "thread_id": "thread-hurricanes-fall-camp",
+        "id": "delta-fed-jobs-report-tomorrow",
+        "thread_id": "thread-fed-rate-path",
         "change_type": "watch",
-        "title": "Hurricanes' real opener gets a kickoff time and a halftime act -- the legal situations remain unresolved",
-        "previous_state": "Friday's season opener at Stanford was known but undetailed; Cam Vaughn's lawsuit and Jordan Lyle's felony charge were both freshly reported Monday with no update expected before kickoff.",
-        "current_state": "Kickoff is confirmed for Friday, 9pm ET on ESPN, with a halftime show from rapper E-40 and Miami entering ranked No. 7 nationally; neither the Vaughn lawsuit nor the Lyle charge has moved.",
-        "why_it_matters": "Worth having the actual kickoff time on the calendar -- and a reminder the legal situations are still open questions Cristobal will be answering during, not before, the season.",
+        "title": "Markets bounce Wednesday; Friday's jobs report is now the Fed's last word before blackout",
+        "previous_state": "Tuesday's soft ISM print didn't stop September hike odds from firming to roughly 66%; markets closed lower as oil climbed on the Iran strikes.",
+        "current_state": "Wednesday's close recovered part of that: S&P +0.46% to 7,666.60, Nasdaq +0.45% to 26,217.83, the 10-year easing to about 4.79% from its highest close since October 2023. Hike odds are essentially unchanged near 65-66%. Friday's August jobs report, due 8:30am ET, is the last data point before the FOMC's blackout begins Saturday.",
+        "why_it_matters": "Nothing this week has actually moved the number the Fed will vote on Sept. 16 -- Friday's jobs report is the last thing that can, before nine days of silence.",
         "confidence": "high",
         "source": {
-          "publisher": "The Miami Hurricane",
-          "url": "https://themiamihurricane.com/2026/09/01/no-7-hurricanes-head-west-for-week-1-matchup-against-stanford/"
+          "publisher": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-september-2-dow-sp-500-nasdaq-082624175.html"
         }
       }
     ],
     "themes": [
       {
-        "id": "theme-iran-strikes-widen-fake-kharg-video",
+        "id": "theme-iran-icc-probe-kuwait-uae-strikes",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "US strikes widen across Iran -- and Trump's Kharg Island threat turns out to have been an AI-generated fake",
-        "importance": 0.9,
-        "thesis": "The threat everyone was watching (a strike on Iran's actual oil terminal) turns out to have never happened -- it was an AI-fabricated video -- while real strikes with real civilian casualties landed elsewhere the next day.",
-        "synthesis": "Sunday night, Trump posted an AI-generated video to Truth Social claiming Kharg Island -- Iran's main oil-export terminal -- was \"being blown to smithereens.\" Iran's state oil company called the claim \"laughable,\" and a US official later confirmed the military had never targeted Kharg Island at all; the only real strike that weekend hit Larak Island, as previously reported. The actual escalation came a day later and elsewhere: Tuesday, the US struck Iranian air defense sites, radar systems, maritime assets, mine-laying capability, and communications facilities near Bandar Abbas, Qeshm Island, and Kerman province, after accusing Iran's Revolutionary Guard of trying to lay fresh mines in the Strait. One strike destroyed a home during a wedding celebration in Kuhestak, Sirik county, killing at least five people -- including a child -- and wounding 63, more than half of them women and children, per Iran's foreign ministry. Iran retaliated with missiles and drones at regional targets; Trump vowed more strikes are coming. Brent crude rose about 2% toward $95, a six-week high.",
-        "new_today": "Confirmation the Kharg Island threat was an AI-fabricated video, the real US strikes elsewhere, and the wedding-party casualties.",
-        "why_it_matters": "The single most-hyped threat of the week -- destroying Iran's actual oil terminal -- turned out to be fiction, while the real military action, with real civilian deaths, happened somewhere else entirely and got a fraction of the attention. Worth remembering the next time a dramatic threat moves the oil price before anyone's confirmed it actually happened.",
+        "title": "Iran takes the Sirik wedding strike to the ICC; claims new strikes on Kuwait and UAE bases",
+        "importance": 0.8,
+        "thesis": "The Sirik wedding strike is now a formal war-crime complaint at the ICC, even though the court likely can't compel either side to cooperate, while Iran's claimed retaliation against US bases in Kuwait and the UAE remains entirely unconfirmed.",
+        "synthesis": "Iran's Red Crescent Society sent a letter to the International Criminal Court asking it to investigate Tuesday's strike on a wedding in Kuhestak, Sirik county, as a possible war crime, naming four of the dead in its complaint: a four-year-old, a 16-year-old, and two women in their forties. Iran's UN envoy called it \"a grave violation of the fundamental rules of international humanitarian law.\" The catch: neither the US nor Iran has ratified the Rome Statute that created the court, so it cannot compel either government's cooperation without a UN Security Council referral -- one Washington holds the veto to block. Separately, Iran's army claimed Thursday morning it struck Ahmad al-Jaber Air Base in Kuwait and Al Minhad Air Base in the UAE overnight with missiles and drones, targeting satellite communications, equipment depots, and fighter jet hangars; Kuwait's military said only that its air defenses were \"confronting hostile\" attacks, and neither Washington nor Kuwait has confirmed any damage or casualties. Brent eased about 0.4% to roughly $95.25 Thursday, snapping a three-day rally, as markets weighed the new claims against ongoing efforts to reopen the Strait.",
+        "new_today": "The ICC complaint and named victims, and Iran's unconfirmed claim of new strikes on Kuwait and UAE bases.",
+        "why_it_matters": "Two separate escalation tracks -- legal and military -- widened on the same morning, and almost nothing on either one is confirmed by more than a single side, which is exactly the pattern that has made this conflict so hard to price.",
         "thread_id": "thread-iran-hormuz-crisis",
-        "confidence": "high",
+        "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Al Jazeera",
-            "headline": "Iran says US strikes hit a wedding party in Sirik, killing five",
-            "url": "https://www.aljazeera.com/news/2026/9/2/iran-says-us-strikes-hit-a-wedding-party-in-sirik-killing-five"
+            "publisher": "Tech Times",
+            "headline": "Toddler Killed at Iranian Wedding: Red Crescent Files First-Ever ICC Claim Against US Military",
+            "url": "https://www.techtimes.com/articles/326396/20260903/toddler-killed-iranian-wedding-red-crescent-files-first-ever-icc-claim-against-us-military.htm"
           },
           {
             "role": "analysis",
-            "publisher": "Newsweek",
-            "headline": "Trump posts AI video of Kharg Island 'blown to smithereens' amid attacks",
-            "url": "https://www.newsweek.com/trump-posts-ai-video-of-kharg-island-blown-to-smithereens-amid-attacks-12385802"
+            "publisher": "Al Jazeera",
+            "headline": "What do we know about the fatal US bombing of a wedding in Iran's Sirik?",
+            "url": "https://www.aljazeera.com/news/2026/9/2/what-do-we-know-about-the-fatal-us-bombing-of-a-wedding-in-irans-sirik"
           },
           {
             "role": "background",
-            "publisher": "CNBC",
-            "headline": "Brent rises more than 2% following tit-for-tat strikes by the U.S. and Iran",
-            "url": "https://www.cnbc.com/2026/09/02/brent-oil-us-iran-strikes.html"
+            "publisher": "Good Morning America / ABC News",
+            "headline": "Iran live updates: Tehran claims attacks on US bases in Kuwait, UAE",
+            "url": "https://www.goodmorningamerica.com/news/story/live-updates/iran-live-updates-centcom-targeted-iranian-forces-posed-136080582"
           }
         ]
       },
       {
-        "id": "theme-fed-hike-odds-jump-66",
+        "id": "theme-fed-jobs-report-friday-countdown",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "September hike odds jump to roughly 66% even as the week's one hard data point came in soft",
-        "importance": 0.68,
-        "thesis": "Warsh's hawkish framing keeps pushing hike odds higher even though Tuesday's actual data -- a cooler-than-expected ISM Manufacturing print -- pointed the other way.",
-        "synthesis": "August's ISM Manufacturing PMI registered 54.6, below the 55.2 consensus and down from July's 55.6 -- still expansion, the eighth straight month, but clearly decelerating, with new orders down three points. That's normally a dovish data point. Instead, CME FedWatch's September hike odds firmed to roughly 66%, up from Friday's 56-57%, as markets kept repricing Warsh's hawkish G20 and Jackson Hole framing rather than the incoming numbers themselves. Tuesday's close reflected the tension: S&P 500 -0.71% to 7,631.47, Nasdaq -1.03% to 26,099.77, both giving back more of August's gains as oil climbed on the Iran strikes; the 10-year rose to about 4.80%, its highest close of the stretch. Friday's August jobs report -- the last release before the FOMC enters blackout Saturday -- is now the only thing left that can actually override the rhetoric with data.",
-        "new_today": "The ISM Manufacturing miss, the jump to roughly 66% hike odds, and Tuesday's market close.",
-        "why_it_matters": "Markets are pricing a hike on a Fed chair's words even as the week's one actual data point argued the opposite -- which makes Friday's jobs number, not anything said this week, the thing that actually resolves this before blackout.",
+        "title": "Markets bounce Wednesday as hike odds hold near 66% ahead of Friday's jobs report",
+        "importance": 0.6,
+        "thesis": "Stocks recovered part of Tuesday's slide and yields eased slightly, but hike odds barely moved -- leaving Friday's jobs report as the last real input before the Fed goes dark.",
+        "synthesis": "Wednesday's confirmed close: S&P 500 +0.46% to 7,666.60, Nasdaq +0.45% to 26,217.83, both clawing back part of Tuesday's oil-driven selloff as Treasury yields paused their climb; the 10-year eased to roughly 4.79% from Tuesday's close near 4.80%, itself the highest since October 2023. CME FedWatch's September hike odds held essentially flat near 65-66%, unmoved by either the bounce or Tuesday's soft ISM print. Friday's August jobs report, due 8:30am ET, is now the last data release before the FOMC's blackout period begins Saturday, September 5 -- the only thing left that can move the odds before the September 16 decision.",
+        "new_today": "Wednesday's market close and confirmation that Friday's jobs report is the last pre-blackout data point.",
+        "why_it_matters": "A real bounce in stocks and a real pullback in yields, and the number that actually decides the September vote hasn't moved -- worth remembering what's rhetoric and what's data going into tomorrow.",
         "thread_id": "thread-fed-rate-path",
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "CNBC",
-            "headline": "Markets see Warsh endorsing a rate hike in September. Not everyone is convinced",
-            "url": "https://www.cnbc.com/2026/08/31/markets-see-warsh-endorsing-a-rate-hike-in-september-not-everyone-is-convinced.html"
+            "publisher": "Yahoo Finance",
+            "headline": "Stock market today: Dow, S&P 500, Nasdaq edge higher as bond yields pause climb",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-september-2-dow-sp-500-nasdaq-082624175.html"
           },
           {
             "role": "background",
-            "publisher": "PR Newswire / ISM",
-            "headline": "Manufacturing PMI at 54.6%; August 2026 ISM Manufacturing PMI Report",
-            "url": "https://www.prnewswire.com/news-releases/manufacturing-pmi-at-54-6-august-2026-ism-manufacturing-pmi-report-302865127.html"
+            "publisher": "Forbes",
+            "headline": "CME FedWatch Provides A 66% Chance Fed Will Hike Rates In September",
+            "url": "https://www.forbes.com/sites/digital-assets/2026/08/31/cme-fedwatch-provides-a-66-chance-fed-will-hike-rates-in-september/"
           }
         ]
       },
       {
-        "id": "theme-marlins-win-cuts-wildcard-deficit",
+        "id": "theme-marlins-win-deficit-two-games",
         "affinity": "morning",
         "topic": "sports",
         "topic_label": "Miami Sports",
-        "title": "Marlins beat Kansas City 6-3, cut their wild-card deficit to three games",
-        "importance": 0.55,
-        "thesis": "Miami's bats finally broke through against Kansas City, and both teams ahead of them lost the same night -- a rare night where everything moved Miami's way at once.",
-        "synthesis": "Graham Pauley, recalled from Triple-A Jacksonville for his fifth call-up of the season, drove in a career-high four runs -- a two-run homer in the second and a two-run triple in the seventh that chased Royals starter Randy Dobnak. Kyle Stowers added a 412-foot solo shot in the fifth. Tyler Phillips threw five innings of one-hit ball, striking out four, and three relievers closed it out. Miami improves to 70-69. Both teams ahead of them for the final NL wild-card spot lost the same night: San Diego fell to Cincinnati 4-3 (73-66) and Arizona fell to Philadelphia 7-1 (73-67), pulling Miami's deficit to three games with roughly three weeks left. The series continues at Kauffman Stadium tonight.",
-        "new_today": "The 6-3 win, Pauley's four RBI, and the deficit closing to three games as both teams ahead lost.",
-        "why_it_matters": "Three games back with three weeks left is a real chance, not a formality -- and it's the first night in a while both performance and math moved in Miami's direction on the same night.",
+        "title": "Marlins beat Royals again, wild-card deficit narrows to two games",
+        "importance": 0.58,
+        "thesis": "Miami's second straight win over Kansas City, combined with a split night for its wild-card rivals, pulls the deficit for the final spot to its narrowest point in weeks.",
+        "synthesis": "The Marlins beat the Royals 7-6 at Kauffman Stadium, overcoming an early 5-1 deficit with three runs in the seventh to improve to 71-69. San Diego lost to Cincinnati 7-3, falling to 73-67, while Arizona beat Philadelphia 1-0 on a James McCann eighth-inning home run -- seven Arizona pitchers combined on the shutout -- to improve to 74-67 and snap the Phillies' six-game winning streak. Miami's wild-card deficit is now two games behind San Diego and 2.5 behind Arizona, with three weeks of the regular season left.",
+        "new_today": "The 7-6 win, and the updated wild-card math after San Diego's loss and Arizona's win.",
+        "why_it_matters": "Two games back with three weeks left turns this from a long shot into a real conversation -- and it's the second night in a row Miami has controlled its own result while getting help elsewhere.",
         "thread_id": "thread-marlins-wildcard",
-        "confidence": "high",
+        "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Yahoo Sports (AP)",
-            "headline": "Graham Pauley drives in 4 as the Marlins beat the Royals 6-3",
-            "url": "https://sports.yahoo.com/articles/graham-pauley-drives-4-marlins-022334974.html"
+            "publisher": "Fox Sports",
+            "headline": "Miami Marlins vs. Kansas City Royals - Boxscore",
+            "url": "https://www.foxsports.com/mlb/miami-marlins-vs-kansas-city-royals-sep-02-2026-game-boxscore-96748?tab=boxscore"
           },
           {
             "role": "background",
-            "publisher": "KSHB",
-            "headline": "Marlins take game one from the Royals in Kansas City, 6-3",
-            "url": "https://www.kshb.com/sports/marlins-take-game-one-from-the-royals-in-kansas-city-6-3"
+            "publisher": "Royals Review",
+            "headline": "Royals start strong but lose a stinker to the fish",
+            "url": "https://www.royalsreview.com/kansas-city-royals-scores-standings/104982/royals-start-strong-but-lose-a-stinker-to-the-fish"
           }
         ]
       },
       {
-        "id": "theme-hurricanes-stanford-friday-kickoff",
+        "id": "theme-hurricanes-vaughn-resolved-opener-eve",
         "affinity": "morning",
         "topic": "sports",
         "topic_label": "Miami Sports",
-        "title": "No. 7 Hurricanes open Friday at Stanford, with an E-40 halftime show and two legal situations still unresolved",
-        "importance": 0.5,
-        "thesis": "Kickoff details for Friday's real season opener are set, but the two legal situations from camp remain unresolved heading into it.",
-        "synthesis": "Miami, ranked No. 7 nationally after last year's national title-game run, opens the season Friday, September 4 at 9pm ET at Stanford Stadium on ESPN -- a rematch of last year's 42-7 Miami win, this time headlined by a halftime performance from Bay Area rapper E-40. Duke transfer QB Darian Mensah, who threw for 3,973 yards and 34 touchdowns last season, is confirmed as the starter. Neither Cam Vaughn's lawsuit against UM and the NCAA nor Jordan Lyle's felony fleeing charge has moved since Monday's reporting.",
-        "new_today": "Kickoff time, the E-40 halftime show, and Miami's No. 7 ranking heading into Friday.",
-        "why_it_matters": "Two days out, the on-field story is finally getting attention alongside the legal one -- worth having the actual kickoff time on the calendar before Friday night.",
+        "title": "Vaughn's lawsuit against Miami is dropped, one day before the Hurricanes' real opener",
+        "importance": 0.56,
+        "thesis": "One of fall camp's two legal situations has a clean resolution; the other, Jordan Lyle's felony charge, does not, and both close out the same 24 hours before kickoff.",
+        "synthesis": "Cam Vaughn's lawsuit against UM and the NCAA, filed after his August 17 dismissal, has been dropped: both sides parted ways after Miami submitted a legislative relief waiver request allowing Vaughn to re-enter the transfer portal, according to his agent. It's a genuinely amicable ending to a dispute that had no obvious win for either side. Jordan Lyle's felony fleeing/eluding charge, tied to a July 10 incident, has not moved -- the program continues to let the legal process play out, and he remains on the roster. Kickoff at Stanford is tomorrow, Friday, 9pm ET on ESPN, with Miami ranked No. 7 nationally and Darian Mensah confirmed as the starting quarterback.",
+        "new_today": "Confirmation the Vaughn lawsuit has been dropped and resolved.",
+        "why_it_matters": "Camp's two open legal questions are no longer symmetrical: one has a real resolution, the other is simply unresolved and will stay that way into the season -- worth knowing which is which before Friday night.",
         "thread_id": "thread-hurricanes-fall-camp",
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
+            "publisher": "Athlon Sports",
+            "headline": "Mario Cristobal, Miami Make Cam Vaughn Move Amid Lawsuit Situation",
+            "url": "https://athlonsports.com/college-football/mario-cristobal-miami-makes-cam-vaughn-move-amid-lawsuit-situation"
+          },
+          {
+            "role": "background",
             "publisher": "The Miami Hurricane",
-            "headline": "No. 7 Hurricanes head west for Week 1 matchup against Stanford",
-            "url": "https://themiamihurricane.com/2026/09/01/no-7-hurricanes-head-west-for-week-1-matchup-against-stanford/"
-          },
-          {
-            "role": "background",
-            "publisher": "State of The U",
-            "headline": "Miami Hurricanes at Stanford Cardinal season opener game time, TV coverage announced",
-            "url": "https://www.stateoftheu.com/football-news/86406/miami-hurricanes-at-stanford-cardinal-season-opener-game-time-tv-coverage-announced"
+            "headline": "Former Miami WR Cam Vaughn files lawsuit against UM and NCAA",
+            "url": "https://themiamihurricane.com/2026/08/25/former-miami-wr-cam-vaughn-files-lawsuit-against-um-and-ncaa/"
           }
         ]
       },
       {
-        "id": "theme-vice-city-gta6-nov19-launch",
+        "id": "theme-pamm-vicuna-quipu-gut",
         "affinity": "evening",
         "topic": "miami",
         "topic_label": "Miami Life & Culture",
-        "title": "GTA 6's real launch date is set -- Miami-Dade's Vice City pitch to Rockstar still isn't",
-        "importance": 0.35,
-        "thesis": "Grand Theft Auto VI now has a confirmed release date, giving Miami-Dade's odd real-world Vice City pitch to Rockstar an actual deadline to move on before -- or quietly die.",
-        "synthesis": "Grand Theft Auto VI is confirmed for a worldwide launch on November 19, 2026, on PlayStation 5 and Xbox Series X/S. That puts a real clock on Miami-Dade's pitch to Rockstar -- rebranding Miami International Airport, wrapping Metromover cars and stations, branded manhole covers, and events at PortMiami and Tropical Park -- first floated in June and made public in late August. County officials reiterate nothing has been formally agreed to or approved, and any deal would still need to clear the county's standard review process.",
-        "new_today": "GTA 6's confirmed November 19 launch date, which puts a real clock on the county's still-unapproved pitch.",
-        "why_it_matters": "A genuinely odd civic proposal -- public transit infrastructure and an international airport as licensed video-game marketing space -- now has an actual deadline attached to it.",
-        "thread_id": "thread-miami-vice-city-gta6-pitch",
-        "confidence": "medium",
+        "title": "A 33-foot red wool 'poem in space' is on view at PAMM right now",
+        "importance": 0.38,
+        "thesis": "Cecilia Vicuña's Quipu Gut, a hanging sculpture of red-dyed unspun wool descended from the ancient Andean quipu, is currently installed at Pérez Art Museum Miami.",
+        "synthesis": "Quipu Gut is a nearly 33-foot hanging sculpture of unspun wool, dyed entirely red, that the Chilean poet and artist Cecilia Vicuña made in 2017 and first showed at documenta 14 in Kassel. It belongs to a family of red quipu works she has made since 2006's Quipu Menstrual, based on the quipu -- the knotted-cord system used across the Inca empire and the wider Andes to record information without writing. The red is deliberate: Vicuña has described it as evoking the \"blood of glaciers\" destroyed by mining, so the piece works simultaneously as language, body, and landscape. It's now on view at Pérez Art Museum Miami.",
+        "new_today": "First appearance in the edition; the piece is on view now at PAMM.",
+        "why_it_matters": "A genuinely major work by a major living artist, in Miami, free to walk into -- and a recordkeeping system built entirely from knots and color is a good reminder that language doesn't have to look like language.",
+        "thread_id": null,
+        "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "NBC 6 South Florida",
-            "headline": "Miami-Dade wants in on hype around GTA 6 release: Here's what the county is proposing",
-            "url": "https://www.nbcmiami.com/news/local/miami-dade-wants-in-on-hype-around-gta-6-release-heres-what-the-county-is-proposing/3851971/"
+            "publisher": "Pérez Art Museum Miami",
+            "headline": "Cecilia Vicuña: Quipu Gut",
+            "url": "https://www.pamm.org/en/exhibition/cecilia-vicuna-quipu-gut/"
           },
           {
             "role": "background",
-            "publisher": "Wikipedia",
-            "headline": "Grand Theft Auto VI",
-            "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI"
+            "publisher": "Arte Al Dia",
+            "headline": "Quipu Gut -- Cecilia Vicuña's Installation at PAMM",
+            "url": "https://www.artealdia.com/News/QUIPU-GUT-CECILIA-VICUNA-S-INSTALLATION-AT-PAMM"
           }
         ]
       },
       {
-        "id": "theme-miami-restaurant-fall-preview",
-        "affinity": "evening",
-        "topic": "miami",
-        "topic_label": "Miami Life & Culture",
-        "title": "Miami's most-anticipated fall openings, from a Seinfeld tie-in to a Sunset Harbour pizzeria",
-        "importance": 0.3,
-        "thesis": "With August's openings confirmed, attention shifts to what's coming this fall -- a lighter, unhurried follow-up to the summer's restaurant wave.",
-        "synthesis": "Miami New Times' fall preview names four openings worth tracking: Genghis Cohen -- the actual restaurant referenced in \"Seinfeld,\" opening in Miami Beach this winter in the former Sardinia space in Sunset Harbour -- alongside Royale Pizza Napoletana, La Sponda, and La Pecora Bianca. None have confirmed opening dates yet beyond \"this fall\" or \"winter.\"",
-        "new_today": "The fall preview list itself, shifting attention from August's confirmed openings to what's coming next.",
-        "why_it_matters": "Nothing urgent here, which is the point -- a slower, genuinely local read on where to eat this season, distinct from the news cycle.",
-        "thread_id": "thread-miami-summer-openings",
-        "confidence": "medium",
-        "sources": [
-          {
-            "role": "primary_reporting",
-            "publisher": "Miami New Times",
-            "headline": "The 6 most anticipated Miami restaurant openings this fall",
-            "url": "https://www.miaminewtimes.com/food-drink/most-anticipated-miami-restaurant-openings-this-fall-40567505/"
-          }
-        ]
-      },
-      {
-        "id": "theme-snake-embryo-spiral-mystery",
+        "id": "theme-mars-thermal-anomaly-discovered",
         "affinity": "evening",
         "topic": "living",
         "topic_label": "Art of Living",
-        "title": "Why snake embryos always coil the same direction, solved",
-        "importance": 0.35,
-        "thesis": "A genuinely delightful piece of biomechanics: snake embryos coil right-handed because their bodies outgrow their own gut, and the resulting tether has only one direction it can twist.",
-        "synthesis": "An international team, after CT-scanning more than 900 snake embryos, found that snake bodies elongate faster than their guts can keep pace with -- and the resulting tether forces the lengthening body to buckle, the way a strap pulled taut on one side twists into a loop. Because the yolk sac always sits to the embryo's left, the buckling has nowhere to go but right, producing the same right-handed spiral in nearly every species examined. It's also, per the researchers, the mechanical trick that lets snakes hatch with the longest body of any vertebrate.",
-        "new_today": "First appearance of this story in the edition -- this week's exploration pick, published in the research literature and covered by ScienceDaily and EurekAlert this week.",
-        "why_it_matters": "A reminder that an enormous amount of what looks like intention or preference in nature -- a spiral, a handedness -- can turn out to be one geometry solving one problem, no design required.",
+        "title": "Mars has a hidden ocean of heat under its south pole, and it explains why the planet's two halves look nothing alike",
+        "importance": 0.4,
+        "thesis": "Sixteen years of gravity data from three NASA orbiters reveal that Mars's southern interior runs 200 to 400 degrees Celsius hotter than its north and may be partially molten -- a hidden asymmetry that helps explain the planet's oldest visual mystery.",
+        "synthesis": "A team led by Caltech's Alexander Berne used a technique called tidal tomography -- tracking tiny velocity changes in the Mars Global Surveyor, Mars Odyssey, and Mars Reconnaissance Orbiter caused by Mars's gravitational field -- to model the planet's interior. The result: the interior beneath Mars's southern hemisphere runs roughly 200-400°C hotter than the north and may be partially molten, a divide that lines up with data from NASA's retired InSight lander, which recorded seismic waves dissipating far faster through the southern interior. The finding, published in Nature, could help explain several long-standing Mars mysteries at once -- its patchy ancient magnetism, its seismic behavior, and clues to where its early water actually went.",
+        "new_today": "First appearance in the edition -- this week's exploration pick, published in Nature and covered by ScienceDaily, Smithsonian, and Space.com.",
+        "why_it_matters": "One of the most basic facts about Mars -- that its northern and southern hemispheres look completely different -- has been sitting there unexplained for decades, and the answer turns out to be an ocean of trapped heat nobody could see.",
         "thread_id": null,
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
             "publisher": "ScienceDaily",
-            "headline": "Scientists discover why snake embryos twist into spirals",
-            "url": "https://www.sciencedaily.com/releases/2026/09/260901070516.htm"
+            "headline": "Scientists discover a massive heat anomaly deep inside Mars",
+            "url": "https://www.sciencedaily.com/releases/2026/08/260828082336.htm"
           },
           {
             "role": "background",
-            "publisher": "EurekAlert!",
-            "headline": "Caught right-handed: Mystery of coiling snake embryos explained",
-            "url": "https://www.eurekalert.org/news-releases/1141750"
+            "publisher": "Smithsonian Magazine",
+            "headline": "Mars' Southern Half Is Weirdly Warm Underground",
+            "url": "https://www.smithsonianmag.com/smart-news/mars-southern-half-is-weirdly-warm-underground-the-thermal-anomaly-might-explain-why-the-planets-hemispheres-look-so-different-180989424/"
           }
         ]
       }
     ],
     "rabbit_hole": {
-      "id": "rh-2026-09-02",
-      "title": "Judgment Is an Exercise in Discretion",
-      "creator": "Barry Lam",
+      "id": "rh-2026-09-03",
+      "title": "The Radical Reasons Why You Dream of Making Things by Hand",
+      "creator": "Joshua Habgood-Coote",
       "format": "essay",
-      "minutes": 20,
-      "why": "Adapted from his new book \"Fewer Rules, Better People,\" the UC Riverside philosopher argues that good judgment isn't rule-following but the skill of recognizing when the letter of a rule should yield to what a specific situation actually calls for -- and that over-proceduralized systems quietly erode the very judgment they're meant to protect. A sharper, more useful frame than yesterday's piece on taste for the calls Alex makes on every deal: not what you like, but when the rule in front of you should bend.",
-      "url": "https://aeon.co/essays/judgment-is-an-exercise-in-discretion-circumstances-are-everything",
+      "minutes": 18,
+      "why": "A philosophy lecturer at Leeds traces the pull toward sourdough starters and hand-thrown pottery back to Ruskin and Morris, who used the same nostalgia for the medieval artisan to indict industrial England and imagine something better. His argument: skill nostalgia only becomes genuinely radical when it's redirected into a demand for complex, worthwhile work, not just a hobby -- worth reading against the backdrop of Alex's own AI-adjacent moment, where the question isn't whether the craft feeling is real, but what it's actually asking for.",
+      "url": "https://aeon.co/essays/the-radical-reasons-why-you-dream-of-making-things-by-hand",
       "related_interest": "living"
     },
     "beautiful_thing": {
-      "id": "bt-2026-09-02",
-      "title": "The National Art Schools of Cuba",
-      "creator": "Ricardo Porro, Roberto Gottardi, and Vittorio Garatti (architects)",
-      "era": "Commissioned by Fidel Castro and Che Guevara in 1961, on the grounds of the former Havana Country Club; largely abandoned mid-construction later in the 1960s and only partially restored since",
-      "body": "Five schools -- for plastic arts, music, ballet, drama, and modern dance -- laid out across a former golf course west of Havana, built from brick and terracotta Catalan vaults rather than the poured concrete the Revolution's Soviet-aligned architecture would soon favor. Worth noticing: the domes and vaulted colonnades of the School of Plastic Arts follow the land's contours rather than a grid, an explicitly organic, almost Mediterranean design that fell out of political favor within a few years of being built -- some of the schools sat unfinished and overgrown for decades before piecemeal restoration began.",
-      "url": "https://whc.unesco.org/en/tentativelists/6740/",
+      "id": "bt-2026-09-03",
+      "title": "Quipu Gut",
+      "creator": "Cecilia Vicuña",
+      "era": "2017; first shown at documenta 14 in Kassel; now on view at Pérez Art Museum Miami, part of a series of red quipu works Vicuña has made since 2006",
+      "body": "A nearly 33-foot hanging sculpture of unspun wool, dyed entirely red, based on the quipu -- the knotted-cord recordkeeping system used across the Andes before written script arrived. Worth noticing: the red is deliberate, meant to evoke the \"blood of glaciers\" lost to mining, so the piece reads at once as language, body, and landscape -- a system for recording information that looks nothing like writing.",
+      "url": "https://www.pamm.org/en/exhibition/cecilia-vicuna-quipu-gut/",
       "image": null,
-      "alt": "The brick, Catalan-vaulted domes of Cuba's National Art Schools at Cubanacan, on the grounds of the former Havana Country Club."
+      "alt": "A nearly 33-foot hanging sculpture of red, unspun wool by Cecilia Vicuña, based on the ancient Andean quipu recordkeeping system, on view at Pérez Art Museum Miami."
     },
     "noticing_prompt": {
-      "id": "np-2026-09-02",
-      "text": "Somewhere today you'll react to a claim before you've confirmed it happened. Notice the gap between the reaction and the confirmation, and which one came first."
+      "id": "np-2026-09-03",
+      "text": "Notice one thing today that you make or fix with your own hands, however small, and how differently it holds your attention than the tasks you only supervise."
     },
     "daily_puzzle": {
-      "id": "dp-2026-09-02",
-      "type": "wordplay",
-      "prompt": "My first three letters name a 19th-century horror-story writer. Add a single letter to the end, and I become something you might read aloud at a wedding. What word am I?",
-      "hint": "The writer gave us 'The Tell-Tale Heart' and 'The Raven.'",
-      "solution": "POEM (POE + M).",
-      "explanation": "Edgar Allan Poe supplies the first three letters; adding \"M\" turns the author's surname into \"poem\" -- the kind of thing often read aloud at a wedding, or a funeral."
+      "id": "dp-2026-09-03",
+      "type": "logic",
+      "prompt": "A librarian finds three sealed boxes of donated books, labeled 'Fiction,' 'Nonfiction,' and 'Mixed.' She's told with certainty that every single label is wrong. She's allowed to reach into exactly one box and pull out exactly one book, without looking at what else is inside. From which box should she draw, and how does that one book let her correctly relabel all three?",
+      "hint": "Start with the box whose wrong label is the most informative kind of wrong.",
+      "solution": "She draws from the box labeled 'Mixed.' Since every label is wrong, that box can't actually be mixed, so it must be all Fiction or all Nonfiction, and the one book she draws reveals which. Say it's Fiction: that box is now correctly 'Fiction.' The box labeled 'Nonfiction' is also wrong and can't be the all-Fiction box (already assigned), so it must be 'Mixed.' That leaves the box labeled 'Fiction' -- also wrong -- as the true 'Nonfiction' box.",
+      "explanation": "\"Every label is wrong\" is stronger information than it first sounds: it rules out one whole category for the 'Mixed' box, turning a single random draw into total certainty about all three."
     },
     "evening_unwind": {
-      "id": "eu-2026-09-02",
+      "id": "eu-2026-09-03",
       "evening_quote": {
-        "text": "We suffer more often in imagination than in reality.",
-        "attribution": "Seneca",
-        "source": "Letters to Lucilius, Letter 13"
+        "text": "Men are disturbed not by things, but by the opinions which they form about things.",
+        "attribution": "Epictetus",
+        "source": "Enchiridion, 5"
       },
-      "evening_prompt": "Tonight, notice how much of today's alarm came from a video of a place that was never actually touched."
+      "evening_prompt": "Tonight, pick one thing you were sure of this morning that was still unconfirmed by evening, and notice how little that changed how certain it felt at the time."
     },
     "reading_queue": [
       {
         "title": "Philosophy as an Art of Living",
         "url": "https://lareviewofbooks.org/article/philosophy-as-an-art-of-living/",
         "verdict": "probably_remove",
-        "reason": "Five weeks unread now, flagged repeatedly -- if it mattered, it would have moved by now."
+        "reason": "Five weeks unread and counting -- if it mattered, it would have moved by now."
       }
     ],
     "quote": {
-      "text": "The first principle is that you must not fool yourself -- and you are the easiest person to fool.",
-      "attribution": "Richard Feynman"
+      "text": "The details are not the details. They make the design.",
+      "attribution": "Charles Eames"
     }
   },
   "threads": [
@@ -383,9 +361,9 @@
       "title": "US-Iran conflict and the Strait of Hormuz",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-09-02",
-      "updates": 52,
-      "current_state": "The most-publicized threat of the week -- a strike on Kharg Island, Iran's actual oil-export terminal -- never happened; it was an AI-fabricated video. The real strikes that did happen a day later hit different targets entirely, with a wedding-party bombing killing at least five civilians and wounding dozens. Iran has vowed retaliation is already underway; Trump has vowed more strikes are coming. Oil is near a six-week high near $95.",
+      "last_updated": "2026-09-03",
+      "updates": 53,
+      "current_state": "Iran's Red Crescent has taken the Sirik wedding strike to the ICC as a war-crime complaint, naming four of the dead, even though the court likely can't compel either side to cooperate. Iran separately claims new strikes on US bases in Kuwait and the UAE overnight Thursday; neither is confirmed by Washington or Kuwait. Brent eased slightly to about $95.25 after a three-day rally. Oil is still near a six-week high as the diplomatic and legal fallout widens alongside the shooting.",
       "timeline": [
         {
           "date": "2026-07-21",
@@ -646,6 +624,11 @@
           "date": "2026-09-02",
           "summary": "Trump's Sunday-night threat to strike Kharg Island turns out to have been an AI-generated fake video (\"blown to smithereens\"); Iran's national oil company called it \"laughable\" and a US official confirmed only Larak Island was ever hit. The real escalation landed elsewhere Tuesday: US strikes hit Iranian air defense sites, radar systems, maritime assets, mine-laying capability, and communications facilities near Bandar Abbas, Qeshm Island, and Kerman province, after accusing the IRGC of trying to lay new mines in the Strait. One strike destroyed a home during a wedding in Kuhestak, Sirik county, killing at least five people including a child and wounding 63 (over half of them women and children). Iran retaliated with missiles and drones at regional targets; Trump vowed more strikes. Brent rose about 2% toward $95, a six-week high.",
           "change_type": "worsened"
+        },
+        {
+          "date": "2026-09-03",
+          "summary": "Iran's Red Crescent formally asked the ICC to investigate Tuesday's Sirik wedding strike as a possible war crime, naming four of the dead (a four-year-old and a 16-year-old among them) in its complaint -- though neither the US nor Iran has ratified the Rome Statute, so the court cannot compel either side's cooperation without a UN Security Council referral Washington can veto. Iran's army separately claimed Thursday it struck Ahmad al-Jaber Air Base in Kuwait and Al Minhad Air Base in the UAE overnight with missiles and drones; Kuwait's military said only that it was \"confronting hostile\" attacks, and neither Washington nor Kuwait has confirmed damage or casualties. Brent eased about 0.4% to roughly $95.25, snapping a three-day rally, as markets weighed the new claims against efforts to reopen the Strait.",
+          "change_type": "worsened"
         }
       ],
       "importance": 0.88
@@ -655,9 +638,9 @@
       "title": "Federal Reserve rate path",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-09-02",
-      "updates": 49,
-      "current_state": "Hike odds have climbed to roughly 66% on CME FedWatch even though the week's one actual data point (ISM Manufacturing) came in soft -- markets are pricing Warsh's rhetoric over the numbers. Friday's August jobs report, the last release before Saturday's blackout, is now the only thing that can actually resolve this before the Sept. 16 decision.",
+      "last_updated": "2026-09-03",
+      "updates": 50,
+      "current_state": "Hike odds are holding near 65-66% on CME FedWatch, essentially unchanged since Tuesday, as Wednesday's close saw stocks bounce modestly and the 10-year ease slightly off its multi-year-high close. Friday's August jobs report -- the last release before Saturday's blackout -- is the only remaining input before the Sept. 16 decision.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -893,6 +876,11 @@
           "date": "2026-09-02",
           "summary": "August's ISM Manufacturing PMI came in at 54.6, below the 55.2 consensus and down from July's 55.6 -- an eighth straight month of expansion but clearly decelerating, normally a dovish signal. CME FedWatch's September hike odds moved the opposite direction anyway, firming to roughly 66% (from 56-57% Friday) as markets continued repricing Warsh's hawkish G20/Jackson Hole framing over the incoming data itself. Tuesday's close: S&P 500 -0.71% to 7,631.47, Nasdaq -1.03% to 26,099.77, both giving back more of August's gains as oil climbed on the Iran strikes; the 10-year rose to about 4.80%, its highest close of the stretch.",
           "change_type": "advanced"
+        },
+        {
+          "date": "2026-09-03",
+          "summary": "Wednesday's confirmed close: S&P 500 +0.46% to 7,666.60, Nasdaq +0.45% to 26,217.83, both recovering part of Tuesday's slide as Treasury yields paused their climb; the 10-year eased to roughly 4.79% from Tuesday's 4.80%, a session after touching its highest close since October 2023. September hike odds held essentially unchanged near 65-66% on CME FedWatch. Friday's August jobs report, 8:30am ET, is now the last data point before the FOMC's blackout period begins Saturday, September 5 -- the only thing left that can move the odds before the Sept. 16 decision.",
+          "change_type": "watch"
         }
       ],
       "importance": 0.7
@@ -902,9 +890,9 @@
       "title": "Marlins wild card race",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-09-02",
-      "updates": 53,
-      "current_state": "Miami beat Kansas City 6-3 behind Graham Pauley's four RBI, improving to 70-69, while both San Diego (73-66) and Arizona (73-67) lost the same night -- pulling Miami's wild-card deficit to three games with about three weeks left. The series at Kauffman Stadium continues tonight.",
+      "last_updated": "2026-09-03",
+      "updates": 54,
+      "current_state": "Miami has won back-to-back games over Kansas City, improving to 71-69 and cutting its wild-card deficit to two games behind San Diego (73-67) and 2.5 behind Arizona (74-67, on a bounce-back 1-0 win of their own). The closest the race has been in weeks, with three weeks left.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -1160,6 +1148,11 @@
           "date": "2026-09-02",
           "summary": "Miami beat Kansas City 6-3: Graham Pauley, recalled for his fifth call-up of the season, drove in a career-high four runs (a two-run homer and a two-run triple), Kyle Stowers added a 412-foot solo shot, and Tyler Phillips threw five innings of one-hit ball. Miami improves to 70-69. Both teams ahead of them for the final NL wild-card spot lost the same night -- San Diego fell to Cincinnati 4-3 (73-66) and Arizona fell to Philadelphia 7-1 (73-67) -- cutting Miami's deficit to three games with roughly three weeks left.",
           "change_type": "improved"
+        },
+        {
+          "date": "2026-09-03",
+          "summary": "Miami beat Kansas City again Wednesday, 7-6, scoring three in the seventh to hold off a Royals team that had jumped out 5-1 in the first; the Marlins improve to 71-69. San Diego lost to Cincinnati 7-3, falling to 73-67, while Arizona beat Philadelphia 1-0 on a James McCann eighth-inning homer to improve to 74-67. Miami's wild-card deficit narrows to two games behind San Diego (2.5 behind Arizona) with the season's final three weeks underway.",
+          "change_type": "improved"
         }
       ],
       "importance": 0.62
@@ -1408,9 +1401,9 @@
       "title": "Miami Hurricanes fall camp and the Mensah era",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-09-02",
-      "updates": 9,
-      "current_state": "Friday's opener at Stanford now has a kickoff time (9pm ET, ESPN) and a notably strange halftime act (rapper E-40), with Miami entering ranked No. 7. Cam Vaughn's lawsuit against UM/NCAA and Jordan Lyle's felony charge -- one player gone, one still on the roster -- remain unresolved heading into kickoff.",
+      "last_updated": "2026-09-03",
+      "updates": 10,
+      "current_state": "One of camp's two legal situations is resolved: Cam Vaughn's lawsuit against UM/NCAA has been dropped, with Miami clearing his path back to the transfer portal. Jordan Lyle's felony charge remains open and unresolved, and he remains on the roster. Kickoff at Stanford is Friday, 9pm ET, one day away, with Miami ranked No. 7.",
       "timeline": [
         {
           "date": "2026-08-14",
@@ -1456,6 +1449,11 @@
           "date": "2026-09-02",
           "summary": "Kickoff details for Friday's real season opener are set: 9pm ET at Stanford Stadium on ESPN, headlined by a halftime performance from Bay Area rapper E-40, with Miami entering ranked No. 7 nationally off last year's national title-game run -- a rematch of last year's 42-7 Miami win over the Cardinal. Neither Cam Vaughn's lawsuit against UM and the NCAA nor Jordan Lyle's felony fleeing/eluding charge has moved since Monday's reporting.",
           "change_type": "watch"
+        },
+        {
+          "date": "2026-09-03",
+          "summary": "Cam Vaughn's lawsuit against UM and the NCAA has been dropped -- both sides parted ways after Miami submitted a legislative relief waiver request allowing him to re-enter the transfer portal, resolving the one legal cloud that had a clean resolution available. Jordan Lyle's felony fleeing/eluding charge remains open and unaddressed, with the program continuing to let the legal process play out; he remains on the roster. Friday's opener at Stanford is now one day out.",
+          "change_type": "resolved"
         }
       ],
       "importance": 0.53
@@ -1950,7 +1948,7 @@
     }
   ],
   "meta": {
-    "content_freshness": "2026-09-02",
+    "content_freshness": "2026-09-03",
     "feedback_endpoint_mode": "github_contents",
     "minimum_client_schema_version": 1,
     "mode": "brain"
