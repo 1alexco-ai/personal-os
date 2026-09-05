@@ -1,425 +1,339 @@
 {
  "schema_version": 2,
  "edition": {
-  "id": "2026-09-04",
-  "date": "2026-09-04",
+  "id": "2026-09-05",
+  "date": "2026-09-05",
   "type": "weekday",
-  "generated_at": "2026-09-04T16:15:00-04:00",
+  "generated_at": "2026-09-05T09:30:00-04:00",
   "timezone": "America/New_York",
   "title": "Personal OS",
   "front_page_letter": {
-   "greeting": "Good afternoon",
+   "greeting": "Good morning",
    "body_paragraphs": [
-    "This edition carries a correction, and it is the lead. The version published this morning reported August payrolls up just 22,000 and unemployment jumping to 4.3 percent, a five-year high. Both figures were wrong, along with everything built on them. The actual BLS release shows payrolls up 162,000 against a consensus near 55,000 - the strongest month since March - with unemployment unchanged at 4.1 percent. The revisions ran the same way: July's alarming minus 23,000 became a positive 21,000, and June and July together landed 55,000 better than previously reported.",
-    "So this morning's conclusion was backwards. A weak print argued for a September hold; this one puts a quarter-point hike back near 60 percent, recovering the ground lost to Waller's dovish remarks Thursday. The two-year rose four basis points to 4.37 percent. The Fed goes into blackout Saturday, leaving next week's inflation data as the last thing the committee sees, and no one able to talk about it afterward.",
-    "Elsewhere the day held. Hormuz moved from disputed claims to counted ships - six transits Wednesday against a ten-day average near 13, with the world's largest tanker operator no longer expecting normalization this year. Ares paid 108.7 million for two Miami warehouses. The Marlins dropped the finale 7-3, and the Canes open at Stanford at nine, late enough that the result belongs to tomorrow."
+    "Miami's actual opener, not the paperwork around it, delivered the loudest possible answer: 45-6 over Stanford, Darian Mensah throwing five touchdowns on 27-of-30 passing, and Malachi Toney setting the program's single-game receiving record with 233 yards on 12 catches. It is one game, on the road, against a team that finished under .500 last year - but it is the kind of one game that changes what people expect from the next one. The Marlins had the opposite Friday: a 6-1 loss to the Cubs at home drops Miami to 71-71, with the wild-card math tightening and about three weeks left to make up ground.",
+    "Markets closed out the week roughly where the payrolls report left them - the S&P off 0.38% Friday to 7,718.60 - as the Fed's blackout period begins today. What is new is a date: August's CPI, the last thing the committee sees before the September 16 decision, lands Friday the 11th at 8:30am. After that, no one at the Fed can say another word about it until the vote.",
+    "The rest of today points toward the weekend you actually have. A long-saved essay on the pull toward working with your hands, held for exactly this kind of Saturday; a newly described flower in a Thai forest that photosynthesizes nothing and looks like nothing else growing nearby; and two weeks' notice on the Bass Museum's fall lineup, worth knowing about before it fills up."
    ],
    "read_only_three": [
     {
      "target_type": "theme",
-     "target_id": "theme-august-jobs-hot-hike-odds",
-     "label": "Correction and lead: August payrolls came in hot, at 162,000"
+     "target_id": "theme-canes-rout-stanford",
+     "label": "Miami opens the season with a 45-6 rout of Stanford"
     },
     {
      "target_type": "theme",
-     "target_id": "theme-hormuz-transits-thin",
-     "label": "Hormuz moves from claims to counted ships"
+     "target_id": "theme-fed-blackout-begins",
+     "label": "The Fed goes dark for eleven days; CPI now has a date, Sept 11"
     },
     {
      "target_type": "rabbit_hole",
-     "target_id": "rh-2026-09-04",
-     "label": "Tonight's read: are we entering a second Axial Age?"
+     "target_id": "rh-2026-09-05",
+     "label": "This weekend's read: why we still want to make things by hand"
     }
    ]
   },
   "market_context": [
    {
     "label": "S&P 500",
-    "value": "7,747.71",
-    "change": "+1.1%",
-    "observed": "Thursday close, September 3, 2026",
-    "note": "Last confirmed close. Friday's session traded lower after the jobs report; the closing level was not confirmed at publication."
+    "value": "7,718.60",
+    "change": "-0.38%",
+    "observed": "Friday close, September 4, 2026",
+    "note": "Third straight lower session as markets kept repricing the hot payrolls print; still up on the week."
    },
    {
     "label": "Nasdaq Composite",
-    "value": "26,584.06",
-    "change": "+1.4%",
-    "observed": "Thursday close, September 3, 2026",
-    "note": "Last confirmed close. Friday midday the Nasdaq was roughly flat while the Dow was off about 300 points."
+    "value": "26,506.99",
+    "change": "-0.29%",
+    "observed": "Friday close, September 4, 2026",
+    "note": "Tracked the S&P lower into the weekend."
    },
    {
     "label": "10Y Treasury",
-    "value": "4.78%",
-    "change": "+0.01pt on the day",
+    "value": "~4.77%",
+    "change": "little changed on the day",
     "observed": "Friday, September 4, 2026",
-    "note": "The two-year, more sensitive to near-term policy, rose four basis points to 4.37% on the payrolls beat."
+    "note": "Sources put Friday's close in a narrow 4.76-4.78% range. The two-year, more sensitive to imminent policy, settled near 4.37% after the jobs beat."
    },
    {
     "label": "Brent crude",
     "value": "$95.23",
     "change": "-0.31% on the day, about +8% on the week",
     "observed": "Friday, September 4, 2026",
-    "note": "Biggest weekly gain since July, on Hormuz disruption. Thursday it traded above $96 after Iran fired on Kuwait."
+    "note": "Biggest weekly gain since July. Kuwait's confirmed interception of Iranian strikes Thursday remains the load-bearing news; no new incident reported since."
    },
    {
     "label": "FOMC (September 16 decision)",
-    "value": "Quarter-point hike about 60%",
-    "change": "recovered from Thursday's post-Waller dip toward a coin flip",
-    "observed": "Friday, September 4, 2026, after the 8:30am ET jobs report",
-    "note": "CME FedWatch. Blackout begins Saturday; next week's inflation data is the committee's last input."
+    "value": "Quarter-point hike roughly 60-66%",
+    "change": "little changed since Friday's post-jobs read",
+    "observed": "Friday, September 4, 2026, entering blackout",
+    "note": "CME FedWatch read near 60% right after the print; other trackers showed readings as high as 66%. Blackout begins today; August CPI on Friday, September 11 at 8:30am ET is the last input before the decision."
    }
   ],
   "public_day_context": {
-   "date_label": "Friday, September 4",
-   "weather": "Warm and muggy through the evening, low around 82, with a 50 percent chance of rain overnight and showers or thunderstorms most likely between 8pm and 2am.",
-   "public_event": "August jobs report released 8:30am ET; the Fed's pre-meeting blackout begins Saturday ahead of the September 15-16 FOMC. No. 7 Miami opens at Stanford, 9pm ET on ESPN, with an E-40 halftime performance."
+   "date_label": "Saturday, September 5",
+   "weather": "Scattered thunderstorms likely, morning showers becoming more widespread by afternoon, high near 90 with a 60 percent chance of rain. Overnight lows near 77 with a stray shower possible.",
+   "public_event": "The Fed's pre-meeting blackout begins today ahead of the September 15-16 FOMC decision; August CPI, the last data point the committee will see, is now dated for Friday, September 11. The Marlins host the Cubs at loanDepot Park this afternoon, 4:10pm ET."
   },
   "what_changed": [
    {
-    "id": "delta-jobs-report-corrected",
+    "id": "delta-canes-blowout-stanford",
+    "thread_id": "thread-hurricanes-fall-camp",
+    "change_type": "resolved",
+    "title": "Miami opens the season with a 45-6 rout of Stanford",
+    "previous_state": "Kickoff was scheduled for 9pm ET Friday, with the legal cloud around fall camp mostly cleared and Jordan Lyle's felony charge still open.",
+    "current_state": "Miami won 45-6, with Darian Mensah throwing five touchdown passes (27-of-30 for 400 yards) and Malachi Toney setting the program's single-game receiving record (233 yards on 12 catches, three touchdowns).",
+    "why_it_matters": "The most decisive opening statement of the post-title-run era, and the first real evidence the offense translates without last year's cast.",
+    "confidence": "high",
+    "source": {
+     "publisher": "ESPN",
+     "url": "https://www.espn.com/college-football/game/_/gameId/401858206/miami-stanford"
+    }
+   },
+   {
+    "id": "delta-marlins-lose-cubs",
+    "thread_id": "thread-marlins-wildcard",
+    "change_type": "worsened",
+    "title": "Marlins fall to the Cubs 6-1; wild-card margin for error shrinks further",
+    "previous_state": "Miami stood at 71-70 after Thursday's 7-3 loss to Kansas City, with San Diego (73-67) and Arizona (74-67) holding the final wild-card spots as of Wednesday's standings.",
+    "current_state": "Miami lost 6-1 to the Cubs at home Friday, falling to 71-71 with roughly three weeks left; the two teams play again this afternoon.",
+    "why_it_matters": "Two losses in three days, with no margin left for a bad week against a schedule that only gets tougher.",
+    "confidence": "high",
+    "source": {
+     "publisher": "Fox Sports",
+     "url": "https://www.foxsports.com/mlb/chicago-cubs-vs-miami-marlins-sep-04-2026-game-boxscore-96768"
+    }
+   },
+   {
+    "id": "delta-fed-blackout-cpi-dated",
     "thread_id": "thread-fed-rate-path",
-    "change_type": "reversed",
-    "title": "Correction: August payrolls were +162,000 and unemployment 4.1 percent, not +22,000 and 4.3 percent",
-    "previous_state": "This morning's edition reported that August payrolls rose just 22,000 against roughly 75,000 expected, that unemployment climbed to 4.3 percent - a five-year high - that U-6 hit 8.1 percent, that wage growth slowed to 3.7 percent, and that June was revised to a loss of 13,000.",
-    "current_state": "The BLS release (USDL-26-1435, 8:30am ET September 4) shows payrolls rose 162,000 against consensus near 53,000-56,000, unemployment unchanged at 4.1 percent, wages up 3.1 percent year over year, June revised up to +31,000 and July revised up from -23,000 to +21,000. Every figure in the earlier account was wrong, and the direction of the surprise was the opposite of what was reported.",
-    "why_it_matters": "The earlier version argued for a September hold. The actual data argues the labor market has not cracked and puts a hike back near 60 percent - the opposite conclusion, from the same event.",
+    "change_type": "advanced",
+    "title": "The Fed's blackout begins, and the last input before September 16 is now dated",
+    "previous_state": "Yesterday's edition noted the blackout would begin Saturday and that next week's inflation data would be the committee's last input, without a confirmed date.",
+    "current_state": "The blackout begins today, September 5. August's CPI is now confirmed for Friday, September 11 at 8:30am ET - the single data point left before the September 16 decision, after which no Fed official can speak to it.",
+    "why_it_matters": "One number, five days out, with the committee unable to react publicly either way - as close to a binary, unmediated data release as this cycle gets.",
     "confidence": "high",
     "source": {
      "publisher": "U.S. Bureau of Labor Statistics",
-     "url": "https://www.bls.gov/news.release/empsit.nr0.htm"
-    }
-   },
-   {
-    "id": "delta-hike-odds-recover",
-    "thread_id": "thread-fed-rate-path",
-    "change_type": "advanced",
-    "title": "September hike odds recover to roughly 60 percent",
-    "previous_state": "After Waller's dovish Thursday remarks, odds of a September hike had fallen from about 66 percent toward a coin flip.",
-    "current_state": "CME FedWatch put a quarter-point September hike near 60 percent after the payrolls beat; the two-year yield rose four basis points to 4.37 percent and the ten-year sat near 4.78 percent. Blackout starts Saturday.",
-    "why_it_matters": "The last steer the market gets before the September 16 decision is next week's inflation print, with no Fed commentary available to soften or confirm it.",
-    "confidence": "high",
-    "source": {
-     "publisher": "CNBC",
-     "url": "https://www.cnbc.com/2026/09/04/jobs-report-august-2026.html"
-    }
-   },
-   {
-    "id": "delta-hormuz-transits-halve",
-    "thread_id": "thread-iran-hormuz-crisis",
-    "change_type": "worsened",
-    "title": "Hormuz transits roughly halve, and the largest tanker operator stops expecting a year-end recovery",
-    "previous_state": "The crisis had been running on contested strike claims, with Kuwait's confirmation the first hard corroboration.",
-    "current_state": "Six commodity vessels transited Wednesday, down from 11 Tuesday against a ten-day average near 13. Mitsui O.S.K. Lines expects disruption to persist with no normalization by year-end. Brent near 95 dollars, up about 8 percent on the week.",
-    "why_it_matters": "Traffic counts and an operator's planning assumptions are harder evidence than communiques, and they feed the energy component of the inflation data the Fed sees next week.",
-    "confidence": "medium",
-    "source": {
-     "publisher": "Bloomberg",
-     "url": "https://www.bloomberg.com/news/articles/2026-09-03/latest-oil-market-news-and-analysis-for-sept-4"
-    }
-   },
-   {
-    "id": "delta-ares-warehouses",
-    "thread_id": "thread-cre-capital-markets-2026",
-    "change_type": "new",
-    "title": "Ares pays 108.7 million for two Miami warehouses",
-    "previous_state": "The recent South Florida run was Midtown Capital's 86 million dollar Doral industrial portfolio and the 208 million dollar Portofino Place apartment sale.",
-    "current_state": "Ares Management bought two Miami-area warehouses totaling 372,619 square feet for 108.71 million dollars, roughly 292 dollars per foot.",
-    "why_it_matters": "A third institutional buyer in about a week, paying up for South Florida industrial while the ten-year sits near 4.78 percent.",
-    "confidence": "medium",
-    "source": {
-     "publisher": "Commercial Real Estate Direct",
-     "url": "https://crenews.com/2026/09/04/ares-buys-2-warehouses-in-miami-for-108-7mln/"
+     "url": "https://www.bls.gov/cpi/"
     }
    }
   ],
   "themes": [
    {
-    "id": "theme-august-jobs-hot-hike-odds",
-    "affinity": "morning",
-    "topic": "markets",
-    "topic_label": "Markets & Macro",
-    "title": "August payrolls come in hot, and the revisions go the other way too",
-    "importance": 0.92,
-    "thesis": "August added 162,000 jobs against expectations near 55,000, unemployment held at 4.1 percent, and the two prior months were revised up by a combined 55,000 - a labor market materially stronger than the one the market had been bracing for.",
-    "synthesis": "The BLS Employment Situation released at 8:30am ET Friday put nonfarm payrolls up 162,000 in August, the strongest month since March and well above a consensus near 53,000 to 56,000. Unemployment was unchanged at 4.1 percent, with 7.0 million people unemployed. The revisions carried as much information as the headline: June moved up 11,000 to +31,000, and July - which had landed in August as an alarming -23,000 - was revised up 44,000 to +21,000, so the two months together came in 55,000 better than previously reported. Beneath the top line the composition was narrow: food services and drinking places added 59,000 and local government education 42,000, while the information industry shed 23,000. Average hourly earnings rose 0.3 percent to 37.75 dollars, up 3.1 percent over the year.",
-    "new_today": "An earlier version of this edition reported August payrolls at +22,000 and unemployment rising to 4.3 percent. Those figures were incorrect. The corrected numbers, from the BLS release, are +162,000 and 4.1 percent.",
-    "why_it_matters": "This inverts the read that opened the day. A soft print argued for a hold; this one argues the labor market has not cracked, and it puts a September hike back on the table - which flows straight into cap rates, the ten-year, and the cost of every deal on the desk. The narrow composition and the 0.5 point drop in participation since January are the honest counterweights to the headline.",
-    "thread_id": "thread-fed-rate-path",
-    "confidence": "high",
-    "sources": [
-     {
-      "role": "primary_reporting",
-      "publisher": "U.S. Bureau of Labor Statistics",
-      "headline": "The Employment Situation - August 2026 (USDL-26-1435)",
-      "url": "https://www.bls.gov/news.release/empsit.nr0.htm"
-     },
-     {
-      "role": "analysis",
-      "publisher": "Yahoo Finance",
-      "headline": "August 2026 jobs report: U.S. adds 162,000 jobs, unemployment 4.1%",
-      "url": "https://finance.yahoo.com/economy/articles/u-jobs-report-august-2026-123944354.html"
-     },
-     {
-      "role": "background",
-      "publisher": "CNBC",
-      "headline": "August 2026 jobs report: Payrolls projected up 53,000",
-      "url": "https://www.cnbc.com/2026/09/03/august-2026-jobs-report-payrolls.html"
-     },
-     {
-      "role": "counterpoint",
-      "publisher": "Fox Business",
-      "headline": "August jobs report: US adds 162,000 positions, unemployment at 4.1%",
-      "url": "https://www.foxbusiness.com/economy/us-jobs-report-august-2026"
-     }
-    ]
-   },
-   {
-    "id": "theme-september-hike-back-on-table",
-    "affinity": "morning",
-    "topic": "markets",
-    "topic_label": "Markets & Macro",
-    "title": "Hike odds snap back toward 60 percent, and then the Fed goes quiet",
-    "importance": 0.85,
-    "thesis": "A hot payrolls print pushed CME FedWatch odds of a September quarter-point hike back to roughly 60 percent, one day before the committee stops talking and two days before the last inflation data it will see.",
-    "synthesis": "Traders moved to about 60 percent odds on a quarter-point increase at the September 15-16 meeting after the report, recovering the ground lost Thursday when Governor Christopher Waller said he would be inclined to hold if inflation kept progressing toward 2 percent. Odds had been near 66 percent at the end of August. The front end moved with the repricing: the two-year yield, most sensitive to imminent policy, rose four basis points to 4.37 percent, while the ten-year sat near 4.78 percent. Ellen Zentner of Morgan Stanley Wealth Management framed the open question directly - an upside payrolls surprise raises hike concerns, but the outcome sits with next week's inflation numbers, and a cool print would let the Fed discount the labor signal. The pre-meeting blackout begins Saturday.",
-    "new_today": "Odds reversed from Thursday's Waller-driven dip back toward 60 percent; the two-year rose four basis points to 4.37 percent.",
-    "why_it_matters": "The eleven-day blackout means the committee's last public input is next week's CPI, with no Fed voice able to steer expectations afterward. For anyone underwriting to a rate path, the distribution just got wider at exactly the moment the signal goes quiet.",
-    "thread_id": "thread-fed-rate-path",
-    "confidence": "high",
-    "sources": [
-     {
-      "role": "primary_reporting",
-      "publisher": "CNBC",
-      "headline": "Jobs report August 2026",
-      "url": "https://www.cnbc.com/2026/09/04/jobs-report-august-2026.html"
-     },
-     {
-      "role": "analysis",
-      "publisher": "Benzinga",
-      "headline": "August Jobs Report Preview: What Makes A Fed Hike A Lock",
-      "url": "https://www.benzinga.com/markets/economic-data/26/09/61615137/august-jobs-report-preview-fed-rate-hike-september-2026"
-     },
-     {
-      "role": "background",
-      "publisher": "Forbes",
-      "headline": "CME FedWatch Provides A 66% Chance Fed Will Hike Rates In September",
-      "url": "https://www.forbes.com/sites/digital-assets/2026/08/31/cme-fedwatch-provides-a-66-chance-fed-will-hike-rates-in-september/"
-     }
-    ]
-   },
-   {
-    "id": "theme-hormuz-transits-thin",
-    "affinity": "morning",
-    "topic": "markets",
-    "topic_label": "Markets & Macro",
-    "title": "The Hormuz story moves from claims to counted ships",
-    "importance": 0.78,
-    "thesis": "After weeks of contested claims, the disruption is now legible in traffic data - transits roughly halved - and the largest tanker operator in the world says it does not expect normalization this year.",
-    "synthesis": "Six commodity vessels transited the Strait of Hormuz Wednesday, down from 11 Tuesday and against a ten-day average near 13. Mitsui O.S.K. Lines, the world's largest tanker operator, said it expects disruption to last longer than previously anticipated, with no normalization by year-end following this week's escalation. Kuwait's armed forces, having confirmed intercepting an Iranian missile-and-drone attack, described facing ongoing Iranian aggression as air defenses continued engaging incoming fire. Brent traded near 95 dollars Friday, easing about 0.3 percent on the day but up roughly 8 percent on the week - its biggest weekly gain since July. Analysts point to damage at refineries in the Middle East and Russia, with limited spare capacity elsewhere, as a reason fuel prices stay elevated into next year.",
-    "new_today": "Transit counts and the Mitsui O.S.K. outlook replaced disputed strike claims as the load-bearing evidence; Brent is up about 8 percent on the week.",
-    "why_it_matters": "Ship counts are harder to spin than communiques. A tanker operator planning for disruption past year-end is a physical-economy signal that feeds directly into the energy component of inflation - the same inflation data the Fed sees next week before deciding on September.",
-    "thread_id": "thread-iran-hormuz-crisis",
-    "confidence": "medium",
-    "sources": [
-     {
-      "role": "primary_reporting",
-      "publisher": "Bloomberg",
-      "headline": "Oil Heads for Biggest Weekly Gain Since July on Iran War Risks",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-03/latest-oil-market-news-and-analysis-for-sept-4"
-     },
-     {
-      "role": "background",
-      "publisher": "CNBC",
-      "headline": "Brent oil price above $96 per barrel after Iran fires missiles at Kuwait",
-      "url": "https://www.cnbc.com/2026/09/03/oil-price-today-iran-war-strait-hormuz.html"
-     },
-     {
-      "role": "analysis",
-      "publisher": "Trading Economics",
-      "headline": "Brent oil - Price, Chart, Historical Data",
-      "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
-     }
-    ]
-   },
-   {
-    "id": "theme-ares-miami-warehouses",
-    "affinity": "morning",
-    "topic": "markets",
-    "topic_label": "Markets & Macro",
-    "title": "Ares pays 108.7 million for two Miami warehouses",
-    "importance": 0.66,
-    "thesis": "Another institutional buyer steps into South Florida industrial at roughly 292 dollars a foot, the third sizable regional trade in about a week.",
-    "synthesis": "Ares Management paid 108.71 million dollars for two Miami-area warehouse properties totaling 372,619 square feet, working out to roughly 292 dollars per square foot. The deal lands in a week that also produced Rockpoint's acquisition of a 12-story property financed by an Apollo subsidiary, and follows Midtown Capital's 86 million dollar, 14-property Doral industrial portfolio and the 208 million dollar Portofino Place apartment sale in West Palm Beach. Separately, Miami's planning board gave preliminary approval to allow up to 150 units per acre and eight stories, a zoning change with implications for future density.",
-    "new_today": "The Ares purchase is new Friday reporting and adds a third institutional buyer to the recent run of South Florida trades.",
-    "why_it_matters": "Small-bay and mid-size industrial keeps clearing at prices that imply conviction about South Florida rent growth, even with the ten-year near 4.78 percent and a hike back in play. That gap between financing cost and pricing discipline is the live question in the market you work in.",
-    "thread_id": "thread-cre-capital-markets-2026",
-    "confidence": "medium",
-    "sources": [
-     {
-      "role": "primary_reporting",
-      "publisher": "Commercial Real Estate Direct",
-      "headline": "Ares Buys 2 Warehouses in Miami for $108.7Mln",
-      "url": "https://crenews.com/2026/09/04/ares-buys-2-warehouses-in-miami-for-108-7mln/"
-     },
-     {
-      "role": "background",
-      "publisher": "The Real Deal",
-      "headline": "South Florida commercial real estate coverage",
-      "url": "https://therealdeal.com/miami/"
-     }
-    ]
-   },
-   {
-    "id": "theme-canes-open-at-stanford",
+    "id": "theme-canes-rout-stanford",
     "affinity": "morning",
     "topic": "sports",
     "topic_label": "Miami Sports",
-    "title": "No. 7 Miami opens at Stanford tonight, with camp's legal noise settled",
-    "importance": 0.6,
-    "thesis": "The Hurricanes' real opener arrives at 9pm ET with the roster healthy and the one unresolved lawsuit from fall camp withdrawn.",
-    "synthesis": "Miami, ranked seventh, kicks off at Stanford Stadium at 9pm ET on ESPN, with a halftime performance from Bay Area rapper E-40. The legal cloud that shadowed the last two weeks of camp has cleared: Cam Vaughn's suit against the university and the NCAA was dropped after Miami submitted a legislative relief waiver allowing him back into the transfer portal. Jordan Lyle's felony charge remains open and he remains on the roster.",
-    "new_today": "Kickoff is tonight; Vaughn's suit is formally dropped.",
-    "why_it_matters": "First real look at the Mensah era after last year's title run, and a late kickoff on the West Coast means the result lands after most of the East Coast has gone to bed.",
+    "title": "Miami opens with a 45-6 rout of Stanford",
+    "importance": 0.75,
+    "thesis": "The Hurricanes' real season opener answered every question fall camp raised, with Darian Mensah and Malachi Toney both turning in program-record-setting nights.",
+    "synthesis": "Miami beat Stanford 45-6 at Stanford Stadium Friday night. Mensah went 27-of-30 for 400 yards and five touchdowns; Toney set the program's single-game receiving record with 233 yards on 12 catches, three of them touchdowns. The result answered the questions fall camp had left open about whether the Mensah-led offense would translate against a real opponent. Jordan Lyle's felony charge remains the one unresolved legal thread from camp, and he remains on the roster.",
+    "new_today": "The game was played and decided Friday night; the 45-6 final and both individual records are new.",
+    "why_it_matters": "It is one game against a team that finished under .500 last year, but it is a resounding enough answer to change what gets expected from the rest of the schedule - and the first real look at whether last year's title run built something durable.",
     "thread_id": "thread-hurricanes-fall-camp",
-    "confidence": "high",
-    "sources": [
-     {
-      "role": "background",
-      "publisher": "Boca Magazine",
-      "headline": "Your Week Ahead: Sept. 1 to 7, 2026",
-      "url": "https://bocamag.com/your-week-ahead-sept-1-to-7-2026/"
-     }
-    ]
-   },
-   {
-    "id": "theme-marlins-drop-finale",
-    "affinity": "morning",
-    "topic": "sports",
-    "topic_label": "Miami Sports",
-    "title": "Royals take the finale 7-3, and Miami's streak ends at two",
-    "importance": 0.5,
-    "thesis": "Michael Wacha shut down a Marlins team that had won the first two, dropping Miami to 71-70 with three weeks left in the wild card chase.",
-    "synthesis": "Kansas City beat Miami 7-3 Thursday to salvage the series finale, behind Wacha and timely hits from Carter Jensen and Jac Caglianone. Miami had taken the first two games 6-3 and 9-6. The loss drops the Marlins to 71-70. Their exact deficit in the wild card race depends on results not confirmed at publication time; the last confirmed marks had San Diego at 73-67 and Arizona at 74-67.",
-    "new_today": "Thursday's 7-3 result is now confirmed by box score; the two prior wins were 6-3 and 9-6.",
-    "why_it_matters": "At 71-70 with roughly three weeks to play, Miami has no margin for a losing week, and the schedule does not soften.",
-    "thread_id": "thread-marlins-wildcard",
     "confidence": "high",
     "sources": [
      {
       "role": "primary_reporting",
       "publisher": "ESPN",
-      "headline": "Royals 7-3 Marlins (Sep 3, 2026) Final Score",
-      "url": "https://www.espn.com/mlb/game/_/gameId/401816792/marlins-royals"
+      "headline": "Miami 45-6 Stanford (Sep 4, 2026) Final Score",
+      "url": "https://www.espn.com/college-football/game/_/gameId/401858206/miami-stanford"
      },
      {
-      "role": "background",
-      "publisher": "MLB.com",
-      "headline": "Marlins 3, Royals 7 Final Score (09/03/2026)",
-      "url": "https://www.mlb.com/gameday/marlins-vs-royals/2026/09/03/824069/final/box"
+      "role": "analysis",
+      "publisher": "Yahoo Sports",
+      "headline": "RECAP: Miami dominates Stanford 45-6",
+      "url": "https://sports.yahoo.com/articles/recap-miami-dominates-stanford-45-042815435.html"
      }
     ]
    },
    {
-    "id": "theme-meyerowitz-aftermath",
+    "id": "theme-marlins-fall-further",
+    "affinity": "morning",
+    "topic": "sports",
+    "topic_label": "Miami Sports",
+    "title": "Cubs beat Marlins 6-1; the losing skid reaches two",
+    "importance": 0.55,
+    "thesis": "A second straight loss, this time at home to Chicago, drops Miami to 71-71 with the wild-card race tightening and little room left to absorb a bad week.",
+    "synthesis": "The Cubs beat the Marlins 6-1 at loanDepot Park Friday, Miami's second straight loss after Thursday's 7-3 defeat to Kansas City. The two teams play again this afternoon. As of Wednesday's standings, San Diego (73-67) and Arizona (74-67) held the final two wild-card spots; full weekend results were not confirmed at publication time.",
+    "new_today": "Friday's 6-1 result is new; it extends Thursday's loss into a two-game skid.",
+    "why_it_matters": "With roughly three weeks left, Miami has now dropped two straight at exactly the wrong moment in a race that was already tight.",
+    "thread_id": "thread-marlins-wildcard",
+    "confidence": "high",
+    "sources": [
+     {
+      "role": "primary_reporting",
+      "publisher": "Fox Sports",
+      "headline": "Chicago Cubs vs. Miami Marlins - Final Score - September 04, 2026",
+      "url": "https://www.foxsports.com/mlb/chicago-cubs-vs-miami-marlins-sep-04-2026-game-boxscore-96768"
+     }
+    ]
+   },
+   {
+    "id": "theme-fed-blackout-begins",
+    "affinity": "morning",
+    "topic": "markets",
+    "topic_label": "Markets & Macro",
+    "title": "The Fed goes dark for eleven days, and CPI now has a date",
+    "importance": 0.72,
+    "thesis": "The pre-meeting blackout begins today with markets essentially flat on the week, and the single data point left before the September 16 decision is now confirmed for Friday the 11th.",
+    "synthesis": "Friday's confirmed close: S&P 500 down 0.38% to 7,718.60, Nasdaq down 0.29% to 26,506.99, the 10-year holding in a narrow 4.76-4.78% range depending on source. CME FedWatch read a September hike near 60% right after Thursday's payrolls beat, with some trackers showing readings as high as 66%. The Fed's blackout period, during which officials cannot comment publicly on policy, begins today and runs through the September 16 decision. August's Consumer Price Index, the committee's last input, is now dated: Friday, September 11 at 8:30am ET.",
+    "new_today": "The blackout has begun, Friday's close is confirmed, and the CPI release date is now locked in - none of which was settled in yesterday's edition.",
+    "why_it_matters": "Five days from now, one number moves a rate decision that the Fed itself can no longer talk about either way - the closest this cycle gets to an unmediated data release.",
+    "thread_id": "thread-fed-rate-path",
+    "confidence": "high",
+    "sources": [
+     {
+      "role": "primary_reporting",
+      "publisher": "TheStreet",
+      "headline": "Stock Market Today (Sept. 4, 2026): Yields jump, stocks fall after jobs report surprises to upside",
+      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-04-2026"
+     },
+     {
+      "role": "background",
+      "publisher": "Yahoo Finance",
+      "headline": "Stock market today (Sept. 4, 2026): S&P 500 edges lower after key jobs report",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-4-133716564.html"
+     },
+     {
+      "role": "background",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "headline": "Consumer Price Index Release Schedule",
+      "url": "https://www.bls.gov/cpi/"
+     }
+    ]
+   },
+   {
+    "id": "theme-hormuz-standoff-holds",
+    "affinity": "morning",
+    "topic": "markets",
+    "topic_label": "Markets & Macro",
+    "title": "Hormuz holds at elevated tension into the blackout weekend",
+    "importance": 0.5,
+    "thesis": "No new confirmed incident since Thursday's Kuwait interception, with Brent steady near $95 as the story enters a quiet stretch that is itself informative given the pattern of the past two months.",
+    "synthesis": "Brent closed Friday at $95.23, down slightly on the day but still up about 8 percent on the week - its biggest weekly gain since July, on the strength of Thursday's confirmed Kuwait interception and the broader pattern of thinned Strait of Hormuz traffic. No new strike or transit-count update was confirmed as of Saturday morning.",
+    "new_today": "No new incident reported; the absence of fresh escalation, after a week of confirmed strikes, is the notable fact.",
+    "why_it_matters": "A quiet weekend does not resolve anything - it just means the next real update, like the next CPI print, arrives without anyone at the Fed able to react to it in real time.",
+    "thread_id": "thread-iran-hormuz-crisis",
+    "confidence": "medium",
+    "sources": [
+     {
+      "role": "primary_reporting",
+      "publisher": "Trading Economics",
+      "headline": "Brent Crude Oil - Price, Chart, Historical Data",
+      "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+     },
+     {
+      "role": "background",
+      "publisher": "Wikipedia",
+      "headline": "2026 Strait of Hormuz crisis",
+      "url": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis"
+     }
+    ]
+   },
+   {
+    "id": "theme-bass-museum-fall-season",
     "affinity": "evening",
     "topic": "miami",
     "topic_label": "Miami Life & Culture",
-    "title": "The only camera allowed at Ground Zero, on view through February",
-    "importance": 0.55,
-    "thesis": "Twenty-eight of Joel Meyerowitz's Ground Zero photographs are on view in Fort Lauderdale, timed to the 25th anniversary and drawn from work he gave the museum last year.",
-    "synthesis": "NSU Art Museum Fort Lauderdale is showing Aftermath, 28 large-scale color photographs Meyerowitz made as the only photographer granted access to the World Trade Center ruins. The sequence moves from the scope of the collapse through the rescue effort to the cleared bedrock after nine months of work. The show follows the museum's 2024 Meyerowitz retrospective and draws on photographs he gifted to the museum in 2025. It runs through February 14, 2027 at 1 E. Las Olas Blvd.; admission is 16 dollars for adults, 5 for students, free for children under 12.",
-    "new_today": "The exhibition is open now, ahead of the September 11 anniversary next week.",
-    "why_it_matters": "An hour north, and it rewards being seen in person rather than reproduced. The anniversary next week will produce a great deal of commentary; this is the primary record, made by someone who simply stayed.",
+    "title": "The Bass announces its fall season, opening in two weeks",
+    "importance": 0.45,
+    "thesis": "The Bass Museum's 2026-27 season opens September 17 with Tokyo artist Yuko Mohri's first US museum solo show, alongside new work from Sarah Zapata and Amalia Pica.",
+    "synthesis": "The Bass Museum in Miami Beach opens its fall season Thursday, September 17, with 'Unviolated Imperfection,' Yuko Mohri's first solo exhibition at a US museum, built around Rube Goldberg-style sculptures that prioritize improvisation and site-specificity. Sarah Zapata's 'Against a State of Malevolence' draws on Peruvian weaving traditions and architecture; Amalia Pica's 'Lecturas Posibles,' in the museum's new Collins Park rotunda gallery, is a participatory installation viewers are invited to draw on.",
+    "new_today": "The season announcement and full exhibition lineup are new; nothing opens for another twelve days.",
+    "why_it_matters": "Worth calendaring now, before opening-week plans fill in - and Zapata's work is a genuine addition to the Latin American programming Miami's museums do well.",
     "thread_id": null,
     "confidence": "high",
     "sources": [
      {
       "role": "primary_reporting",
-      "publisher": "Miami New Times",
-      "headline": "The best art exhibitions to see in Miami in August 2026",
-      "url": "https://www.miaminewtimes.com/arts-culture/best-art-exhibitions-to-see-in-miami-in-august-2026-40581900/"
+      "publisher": "The Bass",
+      "headline": "Announcing 2026-27 Season Exhibitions at The Bass, Miami Beach",
+      "url": "https://thebass.org/announcing-2026-27-season-exhibitions-at-the-bass/"
      },
      {
       "role": "background",
-      "publisher": "NSU Art Museum Fort Lauderdale",
-      "headline": "NSU Art Museum Fort Lauderdale",
-      "url": "https://nsuartmuseum.org/"
+      "publisher": "Miami Living Magazine",
+      "headline": "The Bass Announces 2026-27 Season Exhibitions in Miami Beach",
+      "url": "https://www.miamilivingmagazine.com/post/the-bass-announces-2026-27-season-exhibitions-in-miami-beach"
      }
     ]
    },
    {
-    "id": "theme-noema-axial-age",
+    "id": "theme-craft-untouchable-ai-era",
     "affinity": "evening",
     "topic": "living",
     "topic_label": "Art of Living",
-    "title": "Noema asks whether we are entering a second Axial Age",
-    "importance": 0.45,
-    "thesis": "Noema's seventh issue argues that genetic engineering, synthetic biology and AI are forcing a revival of religious and ethical imagination on the scale Karl Jaspers described for the first Axial Age.",
-    "synthesis": "Issue VII, published in late August, takes Jaspers' Axial Age - the roughly simultaneous emergence of Greek philosophy, the Hebrew prophets, Buddhism and Confucianism - as a template for reading the present. Otto Scharmer's contribution argues that coordination has to be re-embedded in fields of shared awareness, making attention and intention structural rather than personal concerns. It is a frame that treats the current technological moment as a problem of moral imagination rather than capability.",
-    "new_today": "Labeled exploration: outside the day's strongest signals, included because the issue is recent and the argument is unusually well-constructed.",
-    "why_it_matters": "The attention question you keep circling usually gets posed at the individual scale - focus, habits, screens. Scharmer poses it as a civilizational coordination problem, which is a genuinely different and more interesting framing.",
+    "title": "What craft means once a prompt can imitate its output",
+    "importance": 0.42,
+    "thesis": "Christopher Butler argues that craft was never really about touching the material by hand - it is judgment and pattern-recognition built over years, which is exactly what AI is now forcing people to separate from the physical act of making.",
+    "synthesis": "In 'Craft is Untouchable,' Butler starts from the common definition of craft - skill in making things by hand - and argues AI is surfacing an assumption in that definition rather than simply violating it. His case: the valuable part of craft was always the accumulated judgment (what to notice, what to prioritize, when something is done), which existed before the hand touched anything and survives even when a machine does the touching.",
+    "new_today": "Labeled exploration, not tied to today's news: included because it sits directly against the same question tonight's rabbit hole raises from a different angle.",
+    "why_it_matters": "A genuine counterpoint to the Aeon essay below - one says craft is fundamentally about the hand, the other says the hand was never the point. Worth reading both in one sitting.",
     "thread_id": null,
     "confidence": "medium",
     "sources": [
      {
       "role": "primary_reporting",
-      "publisher": "Noema Magazine",
-      "headline": "We May Be Entering A Second Axial Age",
-      "url": "https://www.noemamag.com/we-may-be-entering-a-second-axial-age/"
-     },
-     {
-      "role": "background",
-      "publisher": "Noema Magazine",
-      "headline": "Introducing Noema Issue VII: The Next Axial Age",
-      "url": "https://www.noemamag.com/introducing-noema-issue-vii-the-next-axial-age/"
+      "publisher": "Christopher Butler",
+      "headline": "Craft is Untouchable",
+      "url": "https://www.chrbutler.com/craft-is-untouchable"
      }
     ]
    }
   ],
   "rabbit_hole": {
-   "id": "rh-2026-09-04",
-   "title": "We May Be Entering A Second Axial Age",
-   "creator": "Otto Scharmer, in Noema Magazine",
+   "id": "rh-2026-09-05",
+   "title": "The Radical Reasons Why You Dream of Making Things by Hand",
+   "creator": "Joshua Habgood-Coote, in Aeon",
    "format": "essay",
-   "minutes": 22,
-   "why": "Scharmer takes Karl Jaspers' Axial Age - the strange near-simultaneous arrival of Greek philosophy, the Hebrew prophets, Buddhism and Confucianism - and argues the present qualifies as a second one, driven by genetic engineering, synthetic biology and AI forcing an ethical imagination we have not built yet. The useful move is that he reframes attention and intention as problems of collective coordination rather than personal discipline, which is a sturdier frame than the usual one and worth 20 minutes on a Friday night.",
-   "url": "https://www.noemamag.com/we-may-be-entering-a-second-axial-age/",
+   "minutes": 18,
+   "why": "This is the essay you saved Thursday and tagged for the weekend, and the weekend is here. It works through Matthew Crawford's argument in Shop Class as Soulcraft - that skilled manual work gives access to a form of thinking that office work forecloses - and asks what the persistent modern fantasy of working with your hands is actually a symptom of.",
+   "url": "https://aeon.co/essays/the-radical-reasons-why-you-dream-of-making-things-by-hand",
    "related_interest": "living"
   },
   "beautiful_thing": {
-   "id": "bt-2026-09-04",
-   "title": "Aftermath",
-   "creator": "Joel Meyerowitz",
-   "era": "Photographed 2001-2002; 28 large-scale color photographs on view at NSU Art Museum Fort Lauderdale through February 14, 2027",
-   "body": "Meyerowitz was the only photographer granted access to the ruins of the World Trade Center, and the 28 images here move in a single direction - from the scale of the collapse, through the rescue effort, to the cleared bedrock after nine months of work. Worth noticing how much of the later frames is simply emptied space, with workers small against it. The photographs were a gift from Meyerowitz to the museum in 2025, following its 2024 retrospective of his work.",
-   "url": "https://nsuartmuseum.org/",
+   "id": "bt-2026-09-05",
+   "title": "Thismia daemona, the 'devil flower'",
+   "creator": "Described by botanists from Chulalongkorn University and Prince of Songkla University",
+   "era": "Described 2026, from specimens on the forest floor of Thong Pha Phum National Park, western Thailand",
+   "body": "It has no chlorophyll and cannot photosynthesize; it lives almost its whole life hidden under leaf litter, drawing nutrients from underground fungi, and surfaces only to flower. The flower itself is mostly black, topped with horn-like appendages rising from a dome-shaped 'miter,' with bright reddish-orange patches near the base that read like a pair of eyes. It was found at nearly 1,000 meters elevation - unusually high and dry for its genus - and extends the known range of its entire taxonomic section north out of Malaysia, Borneo and Sumatra for the first time. Fewer than 50 individuals are known; it is provisionally listed as critically endangered.",
+   "url": "https://www.sciencedaily.com/releases/2026/09/260903064217.htm",
    "image": null,
-   "alt": "Large-format color photographs of the cleared World Trade Center site on gallery walls"
+   "alt": "The black, horn-topped flower of Thismia daemona emerging from leaf litter on a forest floor"
   },
   "noticing_prompt": {
-   "id": "np-2026-09-04",
-   "text": "A number you were told this morning turned out to be exactly backwards. Notice, once today, the moment where you accept a figure because of how confidently it was stated rather than because you saw where it came from."
+   "id": "np-2026-09-05",
+   "text": "The Fed goes silent today for eleven days, with nothing left to move the odds but next week's inflation print. Notice, once today, the moment you want an authority to confirm a belief you already hold, and notice what you do when none shows up."
+  },
+  "daily_puzzle": {
+   "id": "dp-2026-09-05",
+   "type": "riddle",
+   "prompt": "A man says: 'The day before yesterday I was 25 years old, and next year I will turn 28.' This is only true on one day of the year. What day is it, and how old is the man today?",
+   "hint": "His birthday falls on the very last day of the year.",
+   "solution": "Today is January 1st, and the man is 26. His birthday is December 31st: two days ago (December 30th) his birthday hadn't arrived yet, so he was still 25; yesterday he turned 26. He turns 27 this coming December 31st, and 28 the December 31st after that - which is 'next year' relative to today.",
+   "explanation": "The trick is that 'today,' 'this year,' and 'next year' don't line up the way they normally would, because the birthday falls on the last possible day of the year, right before the question is being asked."
   },
   "evening_unwind": {
-   "id": "eu-2026-09-04",
+   "id": "eu-2026-09-05",
    "evening_quote": {
-    "text": "We suffer more often in imagination than in reality.",
+    "text": "When the light is taken away and my wife has fallen silent, aware of the habit that's now mine, I examine my entire day and go back over what I've done and said, hiding nothing from myself, passing nothing by.",
     "attribution": "Seneca",
-    "source": "Letters to Lucilius, 13"
+    "source": "On Anger, 3.36"
    },
-   "evening_prompt": "This morning's worst number was not real. Think back to what that false figure made you feel before it was corrected, and ask what else you are currently carrying on the same kind of evidence."
+   "evening_prompt": "In the spirit of Seneca's own nightly habit, spend a few minutes tonight going back over what you said and did today - starting with whichever scoreline, Miami's rout or the Marlins' loss, actually changed how you felt by evening."
   },
   "reading_queue": [
    {
     "title": "The Radical Reasons Why You Dream of Making Things by Hand",
     "url": "https://aeon.co/essays/the-radical-reasons-why-you-dream-of-making-things-by-hand",
-    "verdict": "weekend",
-    "reason": "Saved Thursday for the weekend and still unread; craft and making is your strongest running interest, and this rewards an unhurried sitting."
+    "verdict": "read_soon",
+    "reason": "Featured as today's rabbit hole, below - saved Thursday for exactly this Saturday."
    }
   ],
   "quote": {
-   "text": "It is the mark of an educated mind to rest satisfied with the degree of precision which the nature of the subject admits.",
-   "attribution": "Aristotle"
+   "text": "When the light is taken away and my wife has fallen silent, aware of the habit that's now mine, I examine my entire day and go back over what I've done and said, hiding nothing from myself, passing nothing by.",
+   "attribution": "Seneca"
   }
  },
  "threads": [
@@ -429,8 +343,8 @@
    "topic": "markets",
    "status": "active",
    "last_updated": "2026-09-04",
-   "updates": 55,
-   "current_state": "After Kuwait's military confirmed intercepting an Iranian missile-and-drone attack, the story has moved from disputed claims to measurable effects. Hormuz transits thinned to six commodity vessels Wednesday from 11 Tuesday, against a ten-day average near 13. Mitsui O.S.K. Lines expects no normalization by year-end. Brent traded near 95 dollars Friday, up about 8 percent on the week.",
+   "updates": 54,
+   "current_state": "Kuwait's army confirmed Thursday it intercepted a missile-and-drone attack from Iran, corroborating Iran's claim (still unconfirmed by the UAE) of strikes on Ahmad al-Jaber Air Base in Kuwait and Al Minhad Air Base in the UAE. Tehran says it also targeted US forces in Bahrain, Jordan and Iraq's Kurdistan region. Oil jumped hard on the confirmation: Brent rose 3.8% to $94.36 and WTI rose 4.3%, WTI's highest settlement in over a month. Iran's Red Crescent ICC complaint over the Sirik wedding strike remains unresolved and non-binding.",
    "timeline": [
     {
      "date": "2026-07-21",
@@ -701,11 +615,6 @@
      "date": "2026-09-04",
      "summary": "Kuwait's army confirmed it intercepted a missile-and-drone attack from Iran, the first government confirmation (beyond Iran's own claim) of the Thursday overnight strikes. Iran's military separately says it also struck US bases/forces in Bahrain, Jordan and Iraq's Kurdistan region, widening its stated retaliation list. Oil surged on the confirmation: Brent +3.8% to $94.36, WTI +4.3% to its highest settle in over a month.",
      "change_type": "worsened"
-    },
-    {
-     "date": "2026-09-04",
-     "summary": "The disruption is now visible in shipping data rather than in claims: six commodity vessels transited the Strait of Hormuz Wednesday, down from 11 Tuesday against a ten-day average near 13. Mitsui O.S.K. Lines, the world's largest tanker operator, said it expects disruption to persist with no normalization by year-end. Kuwait's armed forces described ongoing Iranian aggression as air defenses continued engaging missiles and drones. Brent traded near 95 dollars Friday, roughly 8 percent higher on the week, its biggest weekly gain since July.",
-     "change_type": "worsened"
     }
    ]
   },
@@ -714,9 +623,9 @@
    "title": "Federal Reserve rate path",
    "topic": "markets",
    "status": "active",
-   "last_updated": "2026-09-04",
+   "last_updated": "2026-09-05",
    "updates": 53,
-   "current_state": "August payrolls rose 162,000 against roughly 53,000-56,000 expected, with unemployment unchanged at 4.1 percent and June and July revised up by a combined 55,000 (July flipping from -23,000 to +21,000). Wage growth held at 3.1 percent year over year. The print pushed CME FedWatch odds of a quarter-point hike at the September 15-16 FOMC to about 60 percent. The blackout period begins Saturday; next week's inflation readings are the last data the committee sees.",
+   "current_state": "The Fed's blackout begins today, September 5. Friday's confirmed close: S&P 500 -0.38% to 7,718.60, Nasdaq -0.29% to 26,506.99, the 10-year in a 4.76-4.78% range. September hike odds sit roughly 60-66% depending on tracker. August CPI, dated Friday September 11 at 8:30am ET, is now the confirmed last input before the September 16 decision -- after which no Fed official can speak to it.",
    "timeline": [
     {
      "date": "2026-07-18",
@@ -965,12 +874,12 @@
     },
     {
      "date": "2026-09-04",
-     "summary": "CORRECTION. An earlier entry for this date reported August payrolls at +22,000 with unemployment rising to 4.3 percent. Those figures were wrong and have been removed. The BLS Employment Situation released 8:30am ET Friday September 4 (USDL-26-1435) shows nonfarm payrolls rose 162,000 in August, the strongest month since March, against consensus near 53,000-56,000, with unemployment unchanged at 4.1 percent. Revisions went the same direction: June revised up 11,000 to +31,000 and July revised up 44,000 from -23,000 to +21,000, leaving the two months a combined 55,000 higher than previously reported. Average hourly earnings rose 0.3 percent to 37.75 dollars, up 3.1 percent over the year. Food services added 59,000 and local government education 42,000; information lost 23,000.",
+     "summary": "CORRECTION. An earlier entry for this date reported August payrolls at +22,000 with unemployment at 4.3 percent. Those figures were wrong and have been removed. BLS USDL-26-1435 (8:30am ET Sept 4) reports payrolls +162,000 vs consensus near 53,000-56,000, unemployment unchanged at 4.1 percent, average hourly earnings +3.1 percent y/y, June revised up to +31,000 and July revised up from -23,000 to +21,000 (combined +55,000). CME FedWatch put a September quarter-point hike near 60 percent after the print; two-year 4.37 percent, ten-year 4.78 percent. Blackout begins Saturday.",
      "change_type": "reversed"
     },
     {
-     "date": "2026-09-04",
-     "summary": "Market response to the hot print: CME FedWatch put roughly 60 percent odds on a quarter-point hike at the September 15-16 meeting, reversing the drop that followed Governor Waller's dovish remarks Thursday. The two-year yield rose four basis points to 4.37 percent and the ten-year sat near 4.78 percent. The Fed's pre-meeting blackout begins Saturday, so next week's inflation data is the last input.",
+     "date": "2026-09-05",
+     "summary": "The FOMC's pre-meeting blackout formally begins today. Friday's confirmed close: S&P 500 -0.38% to 7,718.60, Nasdaq -0.29% to 26,506.99; the 10-year held in a 4.76-4.78% range depending on source. August CPI is now dated: Friday, September 11 at 8:30am ET, the last data the committee sees before the September 16 decision. CME FedWatch read a September hike near 60% right after Friday's jobs print, with some trackers showing readings as high as 66%.",
      "change_type": "advanced"
     }
    ]
@@ -980,9 +889,9 @@
    "title": "Marlins wild card race",
    "topic": "sports",
    "status": "active",
-   "last_updated": "2026-09-04",
-   "updates": 55,
-   "current_state": "Miami's two-game winning streak ended Thursday, losing 7-3 to Kansas City to fall to 71-70. As of Wednesday's standings, San Diego (73-67) and Arizona (74-67) held the final two wild-card spots; Thursday's results for both were not confirmed by publication time, so Miami's exact current deficit is stated cautiously. Three weeks of the regular season remain.",
+   "last_updated": "2026-09-05",
+   "updates": 56,
+   "current_state": "Miami lost 6-1 to the Cubs Friday, falling to 71-71 -- back-to-back losses after Thursday's defeat to Kansas City. As of Wednesday's standings, San Diego (73-67) and Arizona (74-67) held the final two wild-card spots; the weekend's full results were not confirmed by publication time. Roughly three weeks of the regular season remain.",
    "timeline": [
     {
      "date": "2026-07-18",
@@ -1248,6 +1157,11 @@
      "date": "2026-09-04",
      "summary": "Miami's two-game winning streak snapped: lost 7-3 to Kansas City, falling to 71-70. San Diego and Arizona's Thursday results were not confirmed at publication; last confirmed marks had them at 73-67 and 74-67 respectively.",
      "change_type": "worsened"
+    },
+    {
+     "date": "2026-09-05",
+     "summary": "Miami lost 6-1 to the Cubs at loanDepot Park Friday, falling to 71-71. The two teams play again Saturday afternoon. Confirmed weekend results for San Diego and Arizona were not available at publication time.",
+     "change_type": "worsened"
     }
    ]
   },
@@ -1493,9 +1407,9 @@
    "title": "Miami Hurricanes fall camp and the Mensah era",
    "topic": "sports",
    "status": "active",
-   "last_updated": "2026-09-04",
+   "last_updated": "2026-09-05",
    "updates": 11,
-   "current_state": "One of camp's two legal situations is resolved: Cam Vaughn's lawsuit against UM/NCAA has been dropped, with Miami clearing his path back to the transfer portal. Jordan Lyle's felony charge remains open and unresolved, and he remains on the roster. Kickoff at Stanford is Friday, 9pm ET, one day away, with Miami ranked No. 7.",
+   "current_state": "Miami's season opener is no longer a question: a 45-6 rout of Stanford, with Darian Mensah throwing five touchdowns and Malachi Toney setting the single-game receiving record. Cam Vaughn's lawsuit remains dropped; Jordan Lyle's felony charge remains open and unresolved, and he remains on the roster.",
    "timeline": [
     {
      "date": "2026-08-14",
@@ -1548,9 +1462,9 @@
      "change_type": "resolved"
     },
     {
-     "date": "2026-09-04",
-     "summary": "Game day. No. 7 Miami opens at Stanford tonight at 9pm ET on ESPN, with an E-40 halftime performance. Both camp legal situations are settled or stable: Cam Vaughn's suit against UM and the NCAA was dropped, and Jordan Lyle's felony charge remains open with him still on the roster.",
-     "change_type": "watch"
+     "date": "2026-09-05",
+     "summary": "Miami opened the season with a 45-6 rout of Stanford at Stanford Stadium. Darian Mensah went 27-of-30 for 400 yards and five touchdowns; Malachi Toney set the program's single-game receiving record with 233 yards on 12 catches, three for touchdowns. Jordan Lyle's felony charge remains the one open legal thread.",
+     "change_type": "resolved"
     }
    ]
   },
@@ -1676,9 +1590,9 @@
    "title": "2026 CRE capital markets under pressure",
    "topic": "markets",
    "status": "active",
-   "last_updated": "2026-09-04",
+   "last_updated": "2026-09-05",
    "updates": 27,
-   "current_state": "Ares Management's 108.71 million dollar purchase of two Miami-area warehouses (372,619 square feet, about 292 dollars per foot) is the latest in a steady run of institutional South Florida trades, after Midtown Capital's 86 million dollar Doral industrial portfolio and the 208 million dollar Portofino Place apartment sale. Appetite for the product type has not cooled with rates.",
+   "current_state": "The deal sheet keeps moving at two speeds: institutional industrial and multifamily keeps clearing at scale (Ares' $108.7M Miami warehouse buy, Rockpoint's Apollo-financed acquisition, Midtown Capital's $86M Doral portfolio, the $208M Portofino Place sale), while day-to-day trades run smaller -- a Coconut Creek retail building, a Lake Worth nursing home. Miami's planning board separately gave preliminary approval to up to 150 units per acre and eight stories.",
    "timeline": [
     {
      "date": "2026-07-24",
@@ -1812,8 +1726,13 @@
     },
     {
      "date": "2026-09-04",
-     "summary": "Ares Management paid 108.71 million dollars for two Miami-area warehouses totaling 372,619 square feet, roughly 292 dollars per foot. It is the third sizable South Florida industrial or multifamily trade in about a week, following Midtown Capital's 86 million dollar Doral portfolio and the 208 million dollar Portofino Place sale, and it continues the pattern of institutional capital paying up for South Florida product despite the rate backdrop.",
-     "change_type": "advanced"
+     "summary": "Ares Management paid $108.71 million for two Miami-area warehouses totaling 372,619 square feet (~$292/sq ft) -- a third institutional buyer in about a week, alongside Rockpoint's Apollo-financed 12-story acquisition, Midtown Capital's $86M Doral industrial portfolio, and the $208M Portofino Place apartment sale.",
+     "change_type": "new"
+    },
+    {
+     "date": "2026-09-05",
+     "summary": "The Real Deal's daily sheet shows continued but smaller-ticket South Florida trades: Baptist Health paid $53.5M for a 92,700 sq ft Coconut Creek retail building (~$577/sq ft, from Kohl's), and an Emerald Group entity paid $27.6M for a Lake Worth Beach nursing home. Neither rivals the institutional industrial/multifamily deals of the prior two weeks.",
+     "change_type": "watch"
     }
    ]
   },
@@ -2039,11 +1958,9 @@
   }
  ],
  "meta": {
-  "content_freshness": "live",
+  "content_freshness": "Live as of Saturday morning, September 5, 2026 ET",
   "feedback_endpoint_mode": "github_contents",
   "minimum_client_schema_version": 1,
-  "mode": "brain",
-  "revision": "corrected-edition",
-  "revision_note": "Replaces the 2026-09-04 morning edition, whose August jobs figures were incorrect."
+  "mode": "brain"
  }
 }

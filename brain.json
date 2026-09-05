@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "updatedAt": "2026-09-04T20:00:00Z",
+ "updatedAt": "2026-09-05T13:30:00Z",
  "interests": [
   {
    "id": "markets",
@@ -28,12 +28,12 @@
   {
    "id": "living",
    "label": "Art of Living",
-   "weight": 1.04,
+   "weight": 1.03,
    "subtopics": {
     "philosophy_of_living": 1.0,
-    "technology_and_attention": 1.07,
+    "technology_and_attention": 1.06,
     "philosophy_of_time": 1.0,
-    "craft_and_making": 1.14
+    "craft_and_making": 1.13
    }
   }
  ],
@@ -400,9 +400,9 @@
    "title": "Federal Reserve rate path",
    "topic": "markets",
    "status": "active",
-   "last_updated": "2026-09-04",
-   "updates": 52,
-   "current_state": "August payrolls rose 162,000 against roughly 53,000-56,000 expected, unemployment unchanged at 4.1 percent, June and July revised up a combined 55,000. CME FedWatch odds of a September 15-16 quarter-point hike near 60 percent. Blackout begins Saturday; next week's inflation data is the committee's last input.",
+   "last_updated": "2026-09-05",
+   "updates": 53,
+   "current_state": "The Fed's blackout begins today, September 5. Friday's confirmed close: S&P 500 -0.38% to 7,718.60, Nasdaq -0.29% to 26,506.99, the 10-year in a 4.76-4.78% range. September hike odds sit roughly 60-66% depending on tracker. August CPI, dated Friday September 11 at 8:30am ET, is now the confirmed last input before the September 16 decision -- after which no Fed official can speak to it.",
    "timeline": [
     {
      "date": "2026-07-18",
@@ -653,18 +653,23 @@
      "date": "2026-09-04",
      "summary": "CORRECTION. An earlier entry for this date reported August payrolls at +22,000 with unemployment at 4.3 percent. Those figures were wrong and have been removed. BLS USDL-26-1435 (8:30am ET Sept 4) reports payrolls +162,000 vs consensus near 53,000-56,000, unemployment unchanged at 4.1 percent, average hourly earnings +3.1 percent y/y, June revised up to +31,000 and July revised up from -23,000 to +21,000 (combined +55,000). CME FedWatch put a September quarter-point hike near 60 percent after the print; two-year 4.37 percent, ten-year 4.78 percent. Blackout begins Saturday.",
      "change_type": "reversed"
+    },
+    {
+     "date": "2026-09-05",
+     "summary": "The FOMC's pre-meeting blackout formally begins today. Friday's confirmed close: S&P 500 -0.38% to 7,718.60, Nasdaq -0.29% to 26,506.99; the 10-year held in a 4.76-4.78% range depending on source. August CPI is now dated: Friday, September 11 at 8:30am ET, the last data the committee sees before the September 16 decision. CME FedWatch read a September hike near 60% right after Friday's jobs print, with some trackers showing readings as high as 66%.",
+     "change_type": "advanced"
     }
    ],
-   "importance": 0.7
+   "importance": 0.72
   },
   {
    "id": "thread-marlins-wildcard",
    "title": "Marlins wild card race",
    "topic": "sports",
    "status": "active",
-   "last_updated": "2026-09-04",
-   "updates": 55,
-   "current_state": "Miami's two-game winning streak ended Thursday, losing 7-3 to Kansas City to fall to 71-70. As of Wednesday's standings, San Diego (73-67) and Arizona (74-67) held the final two wild-card spots; Thursday's results for both were not confirmed by publication time, so Miami's exact current deficit is stated cautiously. Three weeks of the regular season remain.",
+   "last_updated": "2026-09-05",
+   "updates": 56,
+   "current_state": "Miami lost 6-1 to the Cubs Friday, falling to 71-71 -- back-to-back losses after Thursday's defeat to Kansas City. As of Wednesday's standings, San Diego (73-67) and Arizona (74-67) held the final two wild-card spots; the weekend's full results were not confirmed by publication time. Roughly three weeks of the regular season remain.",
    "timeline": [
     {
      "date": "2026-07-18",
@@ -930,9 +935,14 @@
      "date": "2026-09-04",
      "summary": "Miami's two-game winning streak snapped: lost 7-3 to Kansas City, falling to 71-70. San Diego and Arizona's Thursday results were not confirmed at publication; last confirmed marks had them at 73-67 and 74-67 respectively.",
      "change_type": "worsened"
+    },
+    {
+     "date": "2026-09-05",
+     "summary": "Miami lost 6-1 to the Cubs at loanDepot Park Friday, falling to 71-71. The two teams play again Saturday afternoon. Confirmed weekend results for San Diego and Arizona were not available at publication time.",
+     "change_type": "worsened"
     }
    ],
-   "importance": 0.62
+   "importance": 0.6
   },
   {
    "id": "thread-heat-giannis-era",
@@ -1178,9 +1188,9 @@
    "title": "Miami Hurricanes fall camp and the Mensah era",
    "topic": "sports",
    "status": "active",
-   "last_updated": "2026-09-03",
-   "updates": 10,
-   "current_state": "One of camp's two legal situations is resolved: Cam Vaughn's lawsuit against UM/NCAA has been dropped, with Miami clearing his path back to the transfer portal. Jordan Lyle's felony charge remains open and unresolved, and he remains on the roster. Kickoff at Stanford is Friday, 9pm ET, one day away, with Miami ranked No. 7.",
+   "last_updated": "2026-09-05",
+   "updates": 11,
+   "current_state": "Miami's season opener is no longer a question: a 45-6 rout of Stanford, with Darian Mensah throwing five touchdowns and Malachi Toney setting the single-game receiving record. Cam Vaughn's lawsuit remains dropped; Jordan Lyle's felony charge remains open and unresolved, and he remains on the roster.",
    "timeline": [
     {
      "date": "2026-08-14",
@@ -1231,9 +1241,14 @@
      "date": "2026-09-03",
      "summary": "Cam Vaughn's lawsuit against UM and the NCAA has been dropped -- both sides parted ways after Miami submitted a legislative relief waiver request allowing him to re-enter the transfer portal, resolving the one legal cloud that had a clean resolution available. Jordan Lyle's felony fleeing/eluding charge remains open and unaddressed, with the program continuing to let the legal process play out; he remains on the roster. Friday's opener at Stanford is now one day out.",
      "change_type": "resolved"
+    },
+    {
+     "date": "2026-09-05",
+     "summary": "Miami opened the season with a 45-6 rout of Stanford at Stanford Stadium. Darian Mensah went 27-of-30 for 400 yards and five touchdowns; Malachi Toney set the program's single-game receiving record with 233 yards on 12 catches, three for touchdowns. Jordan Lyle's felony charge remains the one open legal thread.",
+     "change_type": "resolved"
     }
    ],
-   "importance": 0.53
+   "importance": 0.6
   },
   {
    "id": "thread-miami-summer-openings",
@@ -1359,9 +1374,9 @@
    "title": "2026 CRE capital markets under pressure",
    "topic": "markets",
    "status": "active",
-   "last_updated": "2026-08-28",
-   "updates": 26,
-   "current_state": "The deal sheet keeps moving: Midtown Capital's $86M, 14-property Doral industrial buy (Aug. 28) follows last week's $208M Portofino Place apartment sale in West Palm Beach -- two very different plays (small-bay industrial vs. large multifamily) both pointing at continued institutional appetite for South Florida product despite the rate backdrop.",
+   "last_updated": "2026-09-05",
+   "updates": 27,
+   "current_state": "The deal sheet keeps moving at two speeds: institutional industrial and multifamily keeps clearing at scale (Ares' $108.7M Miami warehouse buy, Rockpoint's Apollo-financed acquisition, Midtown Capital's $86M Doral portfolio, the $208M Portofino Place sale), while day-to-day trades run smaller -- a Coconut Creek retail building, a Lake Worth nursing home. Miami's planning board separately gave preliminary approval to up to 150 units per acre and eight stories.",
    "timeline": [
     {
      "date": "2026-07-24",
@@ -1492,6 +1507,16 @@
      "date": "2026-08-28",
      "summary": "Midtown Capital Partners bought a 14-property, roughly 300,000-square-foot industrial portfolio in Doral for $86 million ($296/sf), acquiring from 13 sellers tied to the Waas family, who had developed and held most of the properties for decades. The deal is being framed around rising demand from local businesses for smaller industrial bays.",
      "change_type": "advanced"
+    },
+    {
+     "date": "2026-09-04",
+     "summary": "Ares Management paid $108.71 million for two Miami-area warehouses totaling 372,619 square feet (~$292/sq ft) -- a third institutional buyer in about a week, alongside Rockpoint's Apollo-financed 12-story acquisition, Midtown Capital's $86M Doral industrial portfolio, and the $208M Portofino Place apartment sale.",
+     "change_type": "new"
+    },
+    {
+     "date": "2026-09-05",
+     "summary": "The Real Deal's daily sheet shows continued but smaller-ticket South Florida trades: Baptist Health paid $53.5M for a 92,700 sq ft Coconut Creek retail building (~$577/sq ft, from Kohl's), and an Emerald Group entity paid $27.6M for a Lake Worth Beach nursing home. Neither rivals the institutional industrial/multifamily deals of the prior two weeks.",
+     "change_type": "watch"
     }
    ],
    "importance": 0.6
@@ -1718,7 +1743,7 @@
  ],
  "habits": {},
  "feedback": {
-  "cursor": "2026-09-04T20:00:00Z",
+  "cursor": "2026-09-05T13:30:00Z",
   "consumed_ids": [
    "1785675752910-wsh3d",
    "1785684398684-q0vfa",
@@ -1750,5 +1775,5 @@
  },
  "notes": [],
  "notes_policy": "Private reflections and note text are captured only on Alex's device and are never synced to or stored in this public repo. When a feedback action carries note text, only an inferred preference signal (interest/subtopic weight nudge) may be applied here - the text itself is discarded before it ever reaches brain.json.",
- "systemNotes": "2026-09-04: no mobile feedback files present this run (feedback/ empty), so no learning signals were applied beyond daily decay (living 1.05->1.04, technology_and_attention 1.08->1.07, craft_and_making 1.15->1.14; all others already at floor/1.0, unchanged). Updated three threads with material developments: Fed rate path (weak August jobs report, the last data point before Saturday's FOMC blackout), Iran-Hormuz (Kuwait confirms Iranian strike, oil surges), and Marlins wild card (Thursday loss snaps the winning streak). No threads opened or closed. Reading list, habits untouched. Themes lean evening-heavy by design today (NSU Art Museum's 9/11 25th-anniversary Meyerowitz exhibit, Bass Museum's Sept 17 openings, and this week's Saturn south-pole decagon discovery as the exploration pick), with The Marginalian's essay on trees and resilience as the rabbit hole."
+ "systemNotes": "2026-09-05: no mobile feedback files present this run (feedback/ absent), so no learning signals applied beyond daily decay (living 1.04->1.03, technology_and_attention 1.07->1.06, craft_and_making 1.14->1.13; all others already at 1.0, unchanged). Updated four threads with material developments: Hurricanes fall camp (45-6 rout of Stanford in the opener), Marlins wild card (second straight loss, 71-71), Fed rate path (blackout begins, CPI dated to Sept 11), and CRE capital markets (caught up the Ares warehouse deal that was reported to readers 9/4 but missed this thread's timeline, plus two smaller Sept 1-2 trades). No threads opened or closed. Reading list and habits untouched -- the one saved item (Aeon's craft essay, tagged weekend) is featured as today's rabbit hole. Evening material: The Bass Museum's fall season announcement and an essay on craft in the AI era, alongside a newly described 'devil flower' species as beautiful_thing."
 }
