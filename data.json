@@ -1,34 +1,34 @@
 {
  "schema_version": 2,
  "edition": {
-  "id": "2026-09-06",
-  "date": "2026-09-06",
-  "type": "weekly",
-  "generated_at": "2026-09-06T09:30:00-04:00",
+  "id": "2026-09-07",
+  "date": "2026-09-07",
+  "type": "weekday",
+  "generated_at": "2026-09-07T09:30:00-04:00",
   "timezone": "America/New_York",
   "title": "Personal OS",
   "front_page_letter": {
    "greeting": "Good morning",
    "body_paragraphs": [
-    "The week that closes today opened with the loudest possible statement and closes with the quietest kind of erosion. Miami's Hurricanes blew out Stanford 45-6 last Friday to open the season -- Darian Mensah's five touchdown passes and Malachi Toney's program-record 233 receiving yards still the best sports news of the week, with Florida A&M up next Thursday. The Marlins told the opposite story: two wins over Kansas City pulled them to 71-69 by Wednesday, then three straight losses -- to Kansas City, then twice to the Cubs, the last a 6-5 defeat Saturday -- pushed them to 71-72 and four games behind Arizona -- which took the final wild-card spot back from San Diego on Saturday night -- with 19 games left and a postseason chance CBS Sports' model put at 1.3% even before the loss.",
-    "The more serious news happened offshore. Saturday, Iran fired ballistic missiles at a US aircraft carrier and a guided-missile destroyer in the Gulf -- no Americans were hurt -- and the US responded by disabling two Iranian oil tankers and destroying a third, the first direct hit on Iran's own export fleet since Washington warned it would do exactly that. It follows an August 31st attack that killed two Filipino seafarers aboard a Saudi tanker, a human cost the week's coverage moved past quickly. None of it has shown up in oil prices yet -- markets are closed until Monday -- and none of it will move the Fed, which enters a second week of blackout with August CPI, the last data before the September 16 decision, arriving Friday.",
-    "Away from the wires: a Miami warehouse trade for $108.7 million is a small, real data point on how CRE capital keeps moving even with the 10-year near 4.8%. NHL and NBA preseasons are both dated now -- Panthers open September 20, Heat's Giannis debut comes in Quebec City October 3 -- proof the actually distracting part of fall is still a few weeks out. No stars or saves came in this week, so nothing here moved on purpose; the only drift was the ordinary pull back toward baseline, and Art of Living -- craft and attention, specifically -- remains the quiet leader of what this edition thinks you care about. Tonight's reading: a philosopher's case that your phone's real product isn't attention but prophecy, and a 4,000-year-old letter that outlived the argument it was having."
+    "It's Labor Day, so the tape itself is quiet, but the war behind it isn't. Iran's Revolutionary Guard says it hit three tankers and three US-linked vessels in the strait Saturday into Sunday, and a US official has now put a name to Washington's response: a \"tanker for tanker\" policy, retaliation in kind for every ship Iran hits. Brent is testing $97 this morning on exactly that math. The Fed's blackout holds regardless -- August CPI, Friday, is still the only thing that can move the needle before September 16.",
+    "Miami answered its own three-game skid with the loudest possible reply: a 10-3 rout of the Cubs Sunday, Sanoja and Hernandez both going deep, ahead of today's series opener against the Mets at 1:10. The wild-card math barely moved -- Arizona and San Diego both won too -- but a team that looked finished Saturday looked like a different team by Sunday night. The Hurricanes' home opener and the Dolphins' real one are both now inside two weeks.",
+    "Away from all of it: a third institutional warehouse trade closed in South Florida in ten days, the Bass opens its fall season with a Tokyo artist's case for decay as a kind of genesis, and a dark-matter detector in South Dakota just recorded one recoil event nobody can yet explain -- 2.6 sigma, short of proof, and honest about it. Tonight's listen asks a harder question than any of that: how would you actually know if a machine understood something."
    ],
    "read_only_three": [
     {
      "target_type": "theme",
-     "target_id": "theme-week-iran-hormuz-escalation",
-     "label": "Iran fires on two US Navy ships; the US hits Iran's own tankers"
+     "target_id": "theme-iran-hormuz-tanker-war",
+     "label": "Iran hits three tankers and three US-linked vessels; Washington calls its policy \"tanker for tanker\""
     },
     {
      "target_type": "theme",
-     "target_id": "theme-week-marlins-roller-coaster",
-     "label": "Two wins, three losses: the Marlins' week ends four games back"
+     "target_id": "theme-marlins-snap-skid",
+     "label": "Marlins snap the skid: a 10-3 rout of the Cubs, Mets up next"
     },
     {
      "target_type": "rabbit_hole",
-     "target_id": "rh-2026-09-06",
-     "label": "This week's long read: what your devices are really selling"
+     "target_id": "rh-2026-09-07",
+     "label": "Tonight's listen: how would you actually measure whether an AI understands anything"
     }
    ]
   },
@@ -36,142 +36,128 @@
    {
     "label": "S&P 500",
     "value": "7,718.60",
-    "change": "-0.38% Friday; +0.1% on the week",
+    "change": "-0.38% Friday; markets closed today for Labor Day",
     "observed": "Friday close, September 4, 2026",
-    "note": "Markets are closed for the weekend; Friday's post-jobs-report session is still the last confirmed close."
+    "note": "No session today; Friday's post-jobs-report close remains the last confirmed print."
    },
    {
     "label": "Nasdaq Composite",
     "value": "26,506.99",
-    "change": "-0.29% Friday; +0.4% on the week",
+    "change": "-0.29% Friday; markets closed today",
     "observed": "Friday close, September 4, 2026",
-    "note": "Tracked the S&P lower into the weekend but still closed the week higher."
+    "note": "Same holiday freeze as the S&P; still the last confirmed close."
    },
    {
     "label": "10Y Treasury",
-    "value": "~4.76-4.78%",
+    "value": "~4.78-4.79%",
     "change": "little changed since Friday",
     "observed": "Friday, September 4, 2026",
-    "note": "Sources put Friday's close in a narrow 4.76-4.78% range; the two-year sat near 4.37%."
+    "note": "Sources put Friday's close in a narrow 4.78-4.79% range."
    },
    {
     "label": "Brent crude",
-    "value": "$95.23",
-    "change": "-0.31% Friday; about +8% on the week",
-    "observed": "Friday, September 4, 2026",
-    "note": "Last confirmed price before Saturday's US-Iran naval exchange and tanker strikes; markets haven't priced that in yet -- watch Monday's open."
+    "value": "$97.39",
+    "change": "+1.15% and rising",
+    "observed": "Monday morning, September 7, 2026",
+    "note": "Extending last week's gain on the US-Iran tanker exchanges -- equities are closed today, so this is the week's first live read on how markets price the escalation."
    },
    {
     "label": "FOMC (September 16 decision)",
-    "value": "Quarter-point hike roughly 60% (some trackers mid-60s%)",
+    "value": "Quarter-point hike near 60% (some trackers mid-60s%)",
     "change": "unchanged since Friday's post-jobs read",
-    "observed": "Friday, September 4, 2026, entering week two of blackout",
-    "note": "August CPI, Friday September 11 at 8:30am ET, is the last input before the decision; no official can comment publicly before then."
+    "observed": "Friday, September 4, 2026, second week of blackout",
+    "note": "August CPI, Friday September 11 at 8:30am ET, remains the last input before the decision; no fresh data today."
    }
   ],
   "public_day_context": {
-   "date_label": "Sunday, September 6",
-   "weather": "Scattered morning showers becoming widespread thunderstorms by afternoon, high near 89, with rain chances running somewhere between 50 and 80 percent depending on the forecast. Southeast winds around 6 mph, overnight lows near 76.",
-   "public_event": "The Marlins and Cubs play their series finale at loanDepot Park at 1:40pm ET. The Fed's blackout continues into its second week; August CPI, the last input before the September 16 decision, is due Friday at 8:30am ET."
+   "date_label": "Monday, September 7 -- Labor Day",
+   "weather": "High near 90 with a heat index up to 105; showers and thunderstorms likely, mainly between 3 and 5pm, with a 60% chance of rain and a quarter to half an inch of rain possible. Southeast wind around 5 mph in the afternoon.",
+   "public_event": "Federal holiday; US stock and bond markets are closed. The Marlins host the Mets at 1:10pm ET at loanDepot Park to open a three-game series -- Eury Perez against Jonah Tong."
   },
   "what_changed": [
    {
-    "id": "delta-marlins-lose-again-cubs",
+    "id": "delta-marlins-snap-skid",
     "thread_id": "thread-marlins-wildcard",
-    "change_type": "worsened",
-    "title": "Marlins lose again to the Cubs, third straight defeat",
-    "previous_state": "Miami fell to 71-71 Friday after a 6-1 loss to Chicago, with the wild-card deficit against San Diego and Arizona still being sorted out.",
-    "current_state": "The Cubs beat Miami 6-5 Saturday, Miami's third straight loss; the deficit for the final NL wild-card spot is now four games behind Arizona, which reclaimed the spot the same night when San Diego lost 5-1 to the Yankees, with 19 games left; CBS Sports' model had Miami at 1.3% before the loss.",
-    "why_it_matters": "Three losses at exactly the wrong moment turn a plausible run into a real long shot with three weeks to play.",
+    "change_type": "improved",
+    "title": "Marlins snap their three-game skid with a 10-3 rout of the Cubs",
+    "previous_state": "Miami had lost three straight -- to Kansas City, then twice to the Cubs -- falling to 71-72 after Saturday's 6-5 defeat, four games behind Arizona for the final NL wild-card spot.",
+    "current_state": "Miami beat the Cubs 10-3 Sunday behind home runs from Javier Sanoja and Heriberto Hernandez, improving to 72-72. Arizona (75-68) and San Diego (75-68) both won too, so the wild-card deficit holds at roughly three and a half games with 18 to play; Miami opens a series against the Mets today at loanDepot Park.",
+    "why_it_matters": "A three-game skid at exactly the wrong moment looked like the story ending; one blowout win doesn't change the math, but it changes whether the next two weeks feel like a fade or a real chase.",
     "confidence": "high",
     "source": {
-     "publisher": "CBS Sports",
-     "url": "https://www.cbssports.com/mlb/gametracker/recap/MLB_20260905_CHC@MIA/"
+     "publisher": "ESPN",
+     "url": "https://www.espn.com/mlb/game/_/gameId/401816830/cubs-marlins"
     }
    },
    {
-    "id": "delta-iran-strikes-us-navy-tankers",
+    "id": "delta-iran-tanker-for-tanker",
     "thread_id": "thread-iran-hormuz-crisis",
     "change_type": "worsened",
-    "title": "Iran fires on two US Navy ships; the US disables and destroys three Iranian oil tankers",
-    "previous_state": "As of Friday, the conflict's newest escalation was Kuwait's confirmation of Thursday's Iranian missile-and-drone attack, with Brent easing slightly and no direct US-Iran naval engagement reported.",
-    "current_state": "Iran fired ballistic missiles at a US aircraft carrier and a guided-missile destroyer Saturday; CENTCOM says both evaded the attack with no Americans harmed. The US retaliated by permanently disabling two Iranian crude carriers (the Downy off Kharg Island and the Stark 1 near Jask) and destroying a third (the Kylo, near the Gulf of Oman) -- the first direct US hit on Iran's own oil-export fleet.",
-    "why_it_matters": "Washington had explicitly warned it would destroy Iran's exposed oil fleet if provoked; this is that warning being carried out, and a direct strike on a carrier group is a different order of escalation than the tanker and base strikes of the past two weeks.",
-    "confidence": "high",
-    "source": {
-     "publisher": "NBC News",
-     "url": "https://www.nbcnews.com/world/iran/us-strikes-3-iranian-oil-tankers-iran-targets-rcna596222"
-    }
-   },
-   {
-    "id": "delta-tanker-attack-killed-seafarers",
-    "thread_id": "thread-iran-hormuz-crisis",
-    "change_type": "worsened",
-    "title": "A second tanker attack this window is confirmed to have killed two seafarers",
-    "previous_state": "The thread's recent human toll centered on the Sirik wedding strike (five killed) and unconfirmed base attacks in Kuwait and the UAE; a separate tanker attack near the strait in the same window had not been reflected here.",
-    "current_state": "The Saudi-flagged tanker Sidr was struck by unidentified projectiles late on August 31st while approaching the strait; two of its 16 Filipino crew were killed and the survivors were taken to Oman. Saudi Arabia has blamed Iran; Iran has not accepted responsibility.",
-    "why_it_matters": "A second confirmed set of civilian deaths in the same ten-day span that most coverage described mainly through oil prices and diplomatic statements.",
+    "title": "Iran hits three tankers and three US-linked vessels; Washington names its policy \"tanker for tanker\"",
+    "previous_state": "Saturday's escalation was framed as a one-off: Iran fired on a US carrier group, and the US destroyed and disabled three Iranian tankers in the first direct hit on Iran's own export fleet.",
+    "current_state": "Iran's Revolutionary Guard says it struck three oil tankers on what it calls an unauthorized strait route, plus three separate US-linked vessels, and claims a hit on a US unmanned military vessel that Washington hasn't confirmed. A US official now describes the tanker strikes as a deliberate \"tanker for tanker\" policy -- retaliation in kind for every ship Iran hits, not a one-time response.",
+    "why_it_matters": "A named, repeatable policy is a different thing than a single retaliatory strike -- it commits Washington to matching every future Iranian tanker attack, which is exactly the kind of tit-for-tat that's hard to walk back once it has a name.",
     "confidence": "high",
     "source": {
      "publisher": "Al Jazeera",
-     "url": "https://www.aljazeera.com/news/2026/9/2/saudi-arabia-condemns-deadly-iranian-attack-on-tanker-in-strait-of-hormuz"
+     "url": "https://www.aljazeera.com/news/2026/9/6/us-iran-engaged-in-tanker-war-where-is-the-months-long-conflict-headed"
     }
    },
    {
-    "id": "delta-dolphins-willis-locked-in",
-    "thread_id": "thread-dolphins-hafley-rebuild",
+    "id": "delta-cre-dalfen-doral-warehouse",
+    "thread_id": "thread-cre-capital-markets-2026",
     "change_type": "advanced",
-    "title": "The moves that actually settled Miami's quarterback room come into view",
-    "previous_state": "Miami's 53 was set by roster-cut weekend with Malik Willis confirmed as the Week 1 starter; the backup and depth-chart mechanics behind that move weren't detailed here.",
-    "current_state": "That same roster-cut weekend, Miami traded Quinn Ewers, waived Cam Miller and Mark Gronowski, and acquired Kyle McCord from Green Bay -- the moves that cleared the room to make Willis the unambiguous starter ahead of the September 13 opener at Las Vegas.",
-    "why_it_matters": "A rebuild under a first-time head coach now has a settled answer at the one position that decides how patient this season can be.",
-    "confidence": "high",
+    "title": "A third institutional warehouse trade closes in Miami-Dade in under two weeks",
+    "previous_state": "Ares Management's $108.7 million purchase of two fully-leased Hialeah and Sweetwater warehouses, reported September 4, was the week's headline industrial trade.",
+    "current_state": "Dalfen Industrial paid $21.3 million ($239/sq ft) for an 89,000-square-foot Doral warehouse leased to AerSale, bought from a Terreno Realty affiliate -- a smaller deal than Ares', but the third confirmed institutional industrial trade in the market in under two weeks.",
+    "why_it_matters": "Smaller-ticket institutional deals closing at a steady clip, not just the headline nine-figure trades, are the better read on whether capital actually believes in Miami industrial at these rates.",
+    "confidence": "medium",
     "source": {
-     "publisher": "Yahoo Sports",
-     "url": "https://sports.yahoo.com/articles/miami-dolphins-employ-bold-qb-173218308.html"
+     "publisher": "Commercial Real Estate Direct",
+     "url": "https://crenews.com/2026/09/02/dalfen-industrial-pays-21-3mln-for-doral-fla-warehouse/"
     }
    }
   ],
   "themes": [
    {
-    "id": "theme-week-iran-hormuz-escalation",
+    "id": "theme-iran-hormuz-tanker-war",
     "affinity": "morning",
     "topic": "markets",
     "topic_label": "Markets & Macro",
-    "title": "Iran fires on the US Navy; Washington starts destroying Iran's own tankers",
+    "title": "Iran hits six vessels in a day; the US names its retaliation policy \"tanker for tanker\"",
     "importance": 0.85,
-    "thesis": "The week's most serious escalation yet: Iran targeted a US carrier group directly, and the US retaliated by disabling and destroying Iranian oil tankers for the first time -- carrying out a threat it had made explicitly days earlier.",
-    "synthesis": "Saturday, Iran fired ballistic missiles at a US aircraft carrier and a guided-missile destroyer; CENTCOM said both evaded the attack with no Americans harmed. The US responded by permanently disabling two Iranian crude carriers (the Downy off Kharg Island, the Stark 1 near Jask) and destroying a third (the Kylo, near the Gulf of Oman). That follows an August 31st attack that killed two Filipino seafarers aboard the Saudi tanker Sidr, and Tuesday's strike on a wedding in Sirik that killed at least five. Oil markets are closed until Monday and have not priced any of it in yet.",
-    "new_today": "Saturday's naval exchange and tanker strikes are new since Friday's edition; the Sidr tanker's death toll is a catch-up fact from August 31st that hadn't been reflected here before.",
-    "why_it_matters": "A direct hit on Iran's export fleet, on top of an unsuccessful missile attack on a US carrier group, is a genuinely different order of risk than the base strikes and shipping attacks of the past two weeks -- worth watching for Monday's oil open regardless of how the rest of the week reads.",
+    "thesis": "The tanker war entered a new phase this weekend: Iran struck six vessels across two attacks, and a US official confirmed Washington's retaliatory strikes on Iran's own tankers are now a standing policy, not a one-off.",
+    "synthesis": "Saturday's exchange -- Iran firing on a US carrier group and destroyer, the US disabling and destroying three Iranian tankers in response -- was followed Sunday by Iran's Revolutionary Guard claiming a second wave: three tankers hit on what Tehran calls an unauthorized Hormuz route, plus three separate US-linked vessels, and an unconfirmed claim of a strike on a US unmanned naval vessel. A US official told reporters the tanker strikes reflect a new \"tanker for tanker\" policy approved by the administration -- matching every future Iranian tanker attack rather than treating Saturday's strikes as a singular deterrent message. Brent is up more than 1% again this morning, near $97, extending last week's gain.",
+    "new_today": "The \"tanker for tanker\" framing and Sunday's second wave of Iranian strikes are new since yesterday's edition, which covered only Saturday's carrier and tanker exchange.",
+    "why_it_matters": "A named, repeatable retaliation policy raises the floor on how often this exchange happens going forward -- and Miami feels it first through the price at the pump and the cost of anything that moves by ship, not through the headlines.",
     "thread_id": "thread-iran-hormuz-crisis",
     "confidence": "high",
     "sources": [
      {
       "role": "primary_reporting",
-      "publisher": "NBC News",
-      "headline": "US strikes 3 Iranian oil tankers after Iran targets Navy warships, military says",
-      "url": "https://www.nbcnews.com/world/iran/us-strikes-3-iranian-oil-tankers-iran-targets-rcna596222"
+      "publisher": "Al Jazeera",
+      "headline": "US, Iran engaged in tanker war: Where is the months-long conflict headed?",
+      "url": "https://www.aljazeera.com/news/2026/9/6/us-iran-engaged-in-tanker-war-where-is-the-months-long-conflict-headed"
      },
      {
       "role": "background",
-      "publisher": "Al Jazeera",
-      "headline": "Saudi Arabia condemns deadly Iranian attack on tanker in Strait of Hormuz",
-      "url": "https://www.aljazeera.com/news/2026/9/2/saudi-arabia-condemns-deadly-iranian-attack-on-tanker-in-strait-of-hormuz"
+      "publisher": "NPR",
+      "headline": "U.S. and Iran trade attacks on ships as fighting flares up again",
+      "url": "https://www.npr.org/2026/09/05/nx-s1-5959159/us-iran-warships-targeted"
      }
     ]
    },
    {
-    "id": "theme-week-fed-blackout-continues",
+    "id": "theme-fed-cpi-countdown",
     "affinity": "morning",
     "topic": "markets",
     "topic_label": "Markets & Macro",
-    "title": "The Fed's blackout holds; five days to the number that decides everything",
-    "importance": 0.65,
-    "thesis": "Markets closed the week essentially flat while the Fed's blackout deepened; nothing can move the odds now until August CPI lands Friday.",
-    "synthesis": "Friday's confirmed close: S&P 500 -0.38% to 7,718.60 (+0.1% on the week), Nasdaq -0.29% to 26,506.99 (+0.4% on the week), the 10-year holding near 4.76-4.78%. CME FedWatch read a September hike near 60% right after Friday's stronger-than-expected August jobs report, with some trackers as high as the mid-60s%. The blackout, now heading into its second week, means no Fed official can comment publicly before August CPI arrives Friday, September 11 at 8:30am ET -- the last input before the September 16 decision.",
-    "new_today": "Nothing changed, deliberately -- the blackout holds and no fresher data exists. The week's real news is that CPI now has five trading days left before it lands.",
-    "why_it_matters": "For someone who reads capital markets for a living, the wait itself is the story: cap rates, refi spreads, and deal timing are all effectively paused on one number nobody can spin in advance.",
+    "title": "Markets are closed, but the countdown to CPI isn't",
+    "importance": 0.55,
+    "thesis": "Labor Day gives markets a day off, but the real clock -- four trading days to August CPI -- keeps running underneath it.",
+    "synthesis": "The FOMC's blackout, now in its second week, means no official can comment before Friday's release. CME FedWatch has held near 60% odds of a quarter-point September hike since Friday's stronger-than-expected August jobs report, with some trackers running as high as the mid-60s%; nothing since has moved it, and nothing will until CPI. Friday's confirmed closes stand: S&P 500 down 0.38% to 7,718.60, Nasdaq down 0.29% to 26,506.99, the 10-year holding near 4.78-4.79%.",
+    "new_today": "Nothing moved -- deliberately. It's a holiday and the blackout holds. The only live number this morning is oil, up again on the Hormuz escalation.",
+    "why_it_matters": "For someone who reads capital markets for a living, a holiday inside a blackout is still useful: it's a clean reminder that cap rates and refi spreads are effectively frozen on one Friday-morning print nobody involved is allowed to discuss.",
     "thread_id": "thread-fed-rate-path",
     "confidence": "high",
     "sources": [
@@ -182,193 +168,109 @@
       "url": "https://www.bls.gov/cpi/"
      },
      {
-      "role": "background",
-      "publisher": "TheStreet",
-      "headline": "Stock Market Today (Sept. 4, 2026): Yields jump, stocks fall after jobs report surprises to upside",
-      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-04-2026"
+      "role": "analysis",
+      "publisher": "CNBC",
+      "headline": "September Fed decision is now a coin flip as rate hike odds increase post Warsh",
+      "url": "https://www.cnbc.com/2026/08/28/-september-fed-decision-now-a-coin-flip-as-rate-hike-odds-increase.html"
      }
     ]
    },
    {
-    "id": "theme-week-canes-rout-stanford",
+    "id": "theme-marlins-snap-skid",
     "affinity": "morning",
     "topic": "sports",
     "topic_label": "Miami Sports",
-    "title": "The week's best sports news: Miami's 45-6 statement, now looking to Florida A&M",
+    "title": "Marlins answer three straight losses with a 10-3 rout of the Cubs",
     "importance": 0.55,
-    "thesis": "Miami's real season opener answered every question fall camp raised, and the schedule now points straight at Thursday's home opener.",
-    "synthesis": "Miami beat Stanford 45-6 last Friday, Darian Mensah throwing five touchdowns on 27-of-30 passing and Malachi Toney setting the program's single-game receiving record with 233 yards on 12 catches. The Hurricanes host Florida A&M Thursday, September 10 at 8pm at Hard Rock Stadium -- the last non-conference game before ACC play begins. Jordan Lyle's felony aggravated-fleeing charge, stemming from a July arrest, remains open; he remains on the roster.",
-    "new_today": "The Florida A&M kickoff details are new this week; the Stanford result itself was covered in full Saturday.",
-    "why_it_matters": "One rout doesn't prove a season, but it's the first real evidence the Mensah-led offense translates -- and Thursday is the first chance to see it at home.",
-    "thread_id": "thread-hurricanes-fall-camp",
-    "confidence": "high",
-    "sources": [
-     {
-      "role": "primary_reporting",
-      "publisher": "ESPN",
-      "headline": "Miami 45-6 Stanford (Sep 4, 2026) Final Score",
-      "url": "https://www.espn.com/college-football/game/_/gameId/401858206/miami-stanford"
-     },
-     {
-      "role": "background",
-      "publisher": "Yahoo Sports",
-      "headline": "A game-by-game look at the Miami Hurricanes football schedule",
-      "url": "https://sports.yahoo.com/articles/game-game-look-miami-hurricanes-154800382.html"
-     }
-    ]
-   },
-   {
-    "id": "theme-week-marlins-roller-coaster",
-    "affinity": "morning",
-    "topic": "sports",
-    "topic_label": "Miami Sports",
-    "title": "Two wins, three losses: the Marlins' wild-card week ends four games back",
-    "importance": 0.6,
-    "thesis": "A week that opened with real hope -- two straight wins pulling Miami within two games of a spot -- closed with three straight losses and a clarified, tougher deficit.",
-    "synthesis": "Miami beat Kansas City twice to reach 71-69 by Wednesday, then lost three in a row: to Kansas City Thursday, and twice to the Cubs, the last a 6-5 defeat Saturday, falling to 71-72. The deficit for the final NL wild-card spot is now four games behind Arizona -- which reclaimed the spot Saturday when San Diego lost 5-1 to the Yankees, falling to 74-68 -- with 19 games left; CBS Sports' model had Miami at 1.3% before the loss. The two teams play their series finale today at 1:40pm ET at loanDepot Park.",
-    "new_today": "Saturday's loss and the resulting standings clarification are new; the two wins over Kansas City were covered earlier in the week.",
-    "why_it_matters": "This is close to the last week where a hot stretch could have meaningfully closed the gap; instead it went the other way.",
+    "thesis": "A losing streak that looked like the end of the wild-card push ended, for at least one night, with Miami's best offensive game of the week.",
+    "synthesis": "Javier Sanoja and Heriberto Hernandez both homered as Miami routed Chicago 10-3 Sunday, improving to 72-72. It didn't close the gap -- Arizona (75-68) and San Diego (75-68) both won their own games Sunday -- so the deficit for the final NL wild-card spot holds at roughly three and a half games with 18 left to play. Miami opens a three-game series against the Mets today at 1:10pm at loanDepot Park, Eury Perez against Jonah Tong.",
+    "new_today": "Sunday's win and its context are new since yesterday's edition, which closed on Saturday's third straight loss.",
+    "why_it_matters": "The deficit is basically unchanged on paper, but the psychology of a three-week playoff push runs on exactly these swings -- a team playing like it's already out looks different from one that just hung ten runs on a contender.",
     "thread_id": "thread-marlins-wildcard",
     "confidence": "high",
     "sources": [
      {
       "role": "primary_reporting",
-      "publisher": "CBS Sports",
-      "headline": "Chicago Cubs vs. Miami Marlins Results, Stats, and Recap - September 5, 2026",
-      "url": "https://www.cbssports.com/mlb/gametracker/recap/MLB_20260905_CHC@MIA/"
+      "publisher": "ESPN",
+      "headline": "Marlins 10-3 Cubs (Sep 6, 2026) Final Score",
+      "url": "https://www.espn.com/mlb/game/_/gameId/401816830/cubs-marlins"
      },
      {
       "role": "background",
-      "publisher": "Fox Sports",
-      "headline": "MLB Playoff Picture, Standings: Wild Card Races Heat Up As September Begins",
-      "url": "https://www.foxsports.com/stories/mlb/mlb-postseason-wild-card-playoffs-standings-2026"
+      "publisher": "RotoWire",
+      "headline": "Cubs at Marlins September 6, 2026",
+      "url": "https://www.rotowire.com/baseball/box-score/marlins-vs-cubs-2026-09-06-2941301"
      }
     ]
    },
    {
-    "id": "theme-week-dolphins-qb-room-set",
-    "affinity": "morning",
-    "topic": "sports",
-    "topic_label": "Miami Sports",
-    "title": "Dolphins settle the quarterback room around Malik Willis",
-    "importance": 0.5,
-    "thesis": "The roster-cut moves that actually locked in Miami's starting quarterback are now clear, ahead of a real opener with a thinner passing game.",
-    "synthesis": "Miami traded Quinn Ewers, waived Cam Miller and Mark Gronowski, and acquired backup Kyle McCord from Green Bay during roster-cut weekend, cementing Malik Willis -- on a new three-year, $67.5M deal -- as the unambiguous Week 1 starter. First-round DT Kenneth Grant (leg) and Trey Moore (ankle surgery) are already on IR, and the passing game is thinner after Jaylen Waddle's trade to Denver. Miami's actual opener is Sunday, September 13 at Las Vegas.",
-    "new_today": "The specific trade/waive/acquire mechanics behind the QB decision are new to this thread; Willis as the presumed starter was already known.",
-    "why_it_matters": "A first-time head coach's rebuild now has a settled answer at the position that decides how much patience the season allows.",
-    "thread_id": "thread-dolphins-hafley-rebuild",
-    "confidence": "high",
-    "sources": [
-     {
-      "role": "primary_reporting",
-      "publisher": "Yahoo Sports",
-      "headline": "Miami Dolphins employ bold QB strategy entering 2026 NFL season",
-      "url": "https://sports.yahoo.com/articles/miami-dolphins-employ-bold-qb-173218308.html"
-     },
-     {
-      "role": "analysis",
-      "publisher": "PFF",
-      "headline": "Miami Dolphins 2026 preview: Malik Willis headlines the Dolphins' reset",
-      "url": "https://www.pff.com/news/nfl-miami-dolphins-2026-preview"
-     }
-    ]
-   },
-   {
-    "id": "theme-week-panthers-heat-calendar-set",
-    "affinity": "morning",
-    "topic": "sports",
-    "topic_label": "Miami Sports",
-    "title": "Panthers and Heat both put real dates on the fall",
-    "importance": 0.4,
-    "thesis": "Both of Miami's winter teams released their preseason calendars this week, turning the offseason's biggest moves -- Giannis in Miami, Tkachuk and Markstrom in Sunrise -- into an actual schedule.",
-    "synthesis": "The Panthers -- champions in 2024 and 2025, but not in 2026 -- open a four-game preseason September 20 at home against Carolina, then open the regular season September 29 in Raleigh against the Hurricanes, who will raise their 2026 championship banner that night; the home opener is October 10 against Minnesota. Brad Marchand's recovery (hip/sports-hernia surgery) is expected to cost him six to ten games. The Heat open their preseason October 3 against Toronto in Quebec City -- the first NBA preseason game ever played there -- with three home dates at Kaseya Center before an October 16 finale at Orlando; Giannis Antetokounmpo, held out of Greece's World Cup qualifiers, hasn't played competitively since March 15.",
-    "new_today": "Both schedules are newly official this week; the underlying roster moves (Marchand's surgery, Klay Thompson's signing) were covered earlier.",
-    "why_it_matters": "A concrete calendar is the difference between an offseason storyline and an actual season -- worth knowing before October fills up.",
-    "thread_id": null,
-    "confidence": "high",
-    "sources": [
-     {
-      "role": "primary_reporting",
-      "publisher": "NHL.com",
-      "headline": "Florida Panthers Announce Four-Game 2026-27 Preseason Schedule",
-      "url": "https://www.nhl.com/panthers/news/florida-panthers-announce-four-game-2026-27-preseason-schedule"
-     },
-     {
-      "role": "background",
-      "publisher": "NBA.com",
-      "headline": "Miami HEAT Announce Complete 2026-27 Preseason Schedule",
-      "url": "https://www.nba.com/heat/news/heat-announce-complete-2026-27-preseason-schedule"
-     }
-    ]
-   },
-   {
-    "id": "theme-week-cre-deal-sheet",
+    "id": "theme-cre-industrial-deal-flow",
     "affinity": "morning",
     "topic": "markets",
     "topic_label": "Markets & Macro",
-    "title": "Miami's industrial deal sheet keeps clearing, even at these rates",
-    "importance": 0.55,
-    "thesis": "Three separate institutional buyers closed industrial deals in about ten days, and Miami's planning board voted to raise the city's density ceiling -- granular signals of where capital still wants in.",
-    "synthesis": "Ares Management paid $108.71 million for two fully-leased Miami warehouses totaling 372,619 square feet, bought from BGRE (formerly Brookfield Properties) -- its fourth South Florida industrial acquisition since opening a Miami Beach office in 2024. That trade sits alongside Rockpoint's Apollo-financed acquisition and Midtown Capital's $86 million, 14-property Doral portfolio bought from the Waas family. Day-to-day deal flow stayed smaller: a Coconut Creek retail building to Baptist Health, a Lake Worth nursing home. Separately, Miami's planning board gave preliminary approval to up to 150 units per acre and eight stories in parts of the city.",
-    "new_today": "The full week's deal sheet, assembled here for the first time as its own theme rather than scattered across days.",
-    "why_it_matters": "Three institutional buyers closing in the same window, at a $290-300/sq ft range, is a more useful read on where capital actually wants in than any single cap-rate survey.",
+    "title": "A third institutional warehouse deal closes in Miami-Dade in under two weeks",
+    "importance": 0.5,
+    "thesis": "Smaller-ticket industrial deals are closing behind the headline nine-figure trades at a pace that says more about real capital appetite than any single transaction does.",
+    "synthesis": "Dalfen Industrial paid $21.3 million ($239/sq ft) for an 89,000-square-foot Doral warehouse leased to aircraft-parts seller AerSale, buying from a Terreno Realty affiliate that had held it since 2012. It lands ten days after Ares Management's $108.7 million purchase of two fully-leased Hialeah and Sweetwater warehouses from BGRE (the Target-anchored Hialeah asset alone went for $65.3 million), which itself followed Rockpoint's and Midtown Capital's recent industrial buys.",
+    "new_today": "The Dalfen trade is new; it extends a pattern -- three institutional industrial buyers closing in roughly two weeks -- first assembled as its own theme in yesterday's edition.",
+    "why_it_matters": "This is the more honest read on Miami CRE capital markets than any single cap-rate survey: real, repeated institutional conviction in industrial specifically, even as the broader office and retail transaction market stays thin.",
     "thread_id": "thread-cre-capital-markets-2026",
     "confidence": "medium",
     "sources": [
      {
       "role": "primary_reporting",
-      "publisher": "Commercial Observer",
-      "headline": "Ares Buys Two Fully Leased Miami Warehouses for $109M",
-      "url": "https://commercialobserver.com/2026/09/ares-miami-bgre-brookfield-target/"
+      "publisher": "Commercial Real Estate Direct",
+      "headline": "Dalfen Industrial Pays $21.3Mln for Doral, Fla., Warehouse",
+      "url": "https://crenews.com/2026/09/02/dalfen-industrial-pays-21-3mln-for-doral-fla-warehouse/"
      },
      {
       "role": "background",
-      "publisher": "The Real Deal",
-      "headline": "South Florida daily deal sheet",
-      "url": "https://therealdeal.com/miami/"
+      "publisher": "Commercial Observer",
+      "headline": "Ares Buys Two Fully Leased Miami Warehouses for $109M",
+      "url": "https://commercialobserver.com/2026/09/ares-miami-bgre-brookfield-target/"
      }
     ]
    },
    {
-    "id": "theme-week-vacuum-birefringence",
-    "affinity": "evening",
-    "topic": "living",
-    "topic_label": "Art of Living",
-    "title": "Empty space turns out not to be empty",
-    "importance": 0.5,
-    "thesis": "A magnetar's ultra-strong magnetic field has produced the strongest evidence yet for vacuum birefringence -- a 90-year-old Heisenberg prediction that the vacuum itself bends light.",
-    "synthesis": "Observations of the magnetar 1E 1547.0-5408, published in Nature in August, found X-ray light from the star polarized to a phase-averaged 65% at 2 keV, varying coherently across the star's rotation -- consistent with vacuum birefringence, the idea that an extremely powerful magnetic field causes virtual particles in empty space to refract light. The prediction dates to Werner Heisenberg's early quantum electrodynamics work nearly 90 years ago and has never before been observed in a real astrophysical setting.",
-    "new_today": "Labeled exploration, outside this week's usual coverage: included because it's a genuinely rare case of a decades-old theoretical prediction getting direct observational confirmation.",
-    "why_it_matters": "It's a quiet reminder that the universe's strangest predictions sometimes just sit there, correct and unconfirmed, for the better part of a century, waiting for the right natural instrument to come along.",
-    "thread_id": null,
+    "id": "theme-miami-two-openers-ahead",
+    "affinity": "morning",
+    "topic": "sports",
+    "topic_label": "Miami Sports",
+    "title": "Two real season openers are now inside two weeks",
+    "importance": 0.45,
+    "thesis": "Between Thursday's Hurricanes home opener and next Sunday's Dolphins opener at Las Vegas, Miami's fall sports calendar stops being an offseason story and starts being an actual season.",
+    "synthesis": "Miami hosts Florida A&M Thursday, September 10 at 8pm at Hard Rock Stadium -- the Hurricanes' home debut after the 45-6 rout of Stanford, and the last non-conference tune-up before ACC play. The Dolphins, meanwhile, made a small roster move Sunday -- signing CB Ethan Bonner and edge Max Llewellyn to the practice squad, releasing TE Jeremiah Franklin and LB Cam Riley -- routine depth churn ahead of Sunday, September 13's real opener at Las Vegas, where Malik Willis makes his first career start as a Week 1 quarterback.",
+    "new_today": "The Dolphins' practice-squad moves are new since yesterday; the Hurricanes' Thursday date was already known but hadn't been paired with the Dolphins' calendar until now.",
+    "why_it_matters": "Fall camp storylines are cheap; these next two weeks are where Mensah's offense and Willis's rebuild both get their first real answers.",
+    "thread_id": "thread-dolphins-hafley-rebuild",
     "confidence": "high",
     "sources": [
      {
       "role": "primary_reporting",
-      "publisher": "ScienceDaily",
-      "headline": "Scientists may have finally caught 'empty' space changing light",
-      "url": "https://www.sciencedaily.com/releases/2026/08/260826055445.htm"
+      "publisher": "Sports Illustrated",
+      "headline": "2026 Miami Football Early Opponent Preview, Game 2: Florida A&M",
+      "url": "https://www.si.com/college/miami/football/2026-miami-football-early-opponent-preview-game-2-florida-a-m"
      },
      {
       "role": "background",
-      "publisher": "CSIRO",
-      "headline": "Rare ultra-magnetic star the key to solving a quantum cold case",
-      "url": "https://www.csiro.au/en/news/all/news/2026/august/rare-ultra-magnetic-star-the-key-to-solving-a-quantum-cold-case"
+      "publisher": "Miami Dolphins",
+      "headline": "Miami Dolphins News",
+      "url": "https://www.miamidolphins.com/news/"
      }
     ]
    },
    {
-    "id": "theme-week-bass-museum-countdown",
+    "id": "theme-bass-mohri-imperfection",
     "affinity": "evening",
     "topic": "miami",
     "topic_label": "Miami Life & Culture",
-    "title": "Eleven days until the Bass reopens for fall",
+    "title": "The Bass's fall season makes its case: decay as a kind of genesis",
     "importance": 0.4,
-    "thesis": "The Bass Museum's fall season, headlined by Yuko Mohri's first US museum solo show, is now eleven days out.",
-    "synthesis": "The Bass opens its 2026-27 season Thursday, September 17, with Yuko Mohri's 'Unviolated Imperfection,' Sarah Zapata's 'Against a State of Malevolence,' and Amalia Pica's participatory 'Lecturas Posibles' in the museum's new Collins Park rotunda gallery.",
-    "new_today": "A calendar reminder, not new information -- worth carrying forward once more before opening week actually arrives.",
-    "why_it_matters": "Worth calendaring now, before opening-week plans fill in; Zapata's Peruvian-weaving-rooted work is a genuine addition to the Latin American programming Miami's museums do well.",
-    "thread_id": null,
+    "thesis": "Ten days out from opening, the Bass's headline show is coming into focus as more than a calendar entry -- Yuko Mohri's first US museum solo turns on a genuinely interesting idea.",
+    "synthesis": "The Bass opens its 2026-27 season Thursday, September 17 with Tokyo artist Yuko Mohri's \"Unviolated Imperfection,\" running through April 25, 2027 -- her first solo show in a US museum. Mohri's Rube Goldberg-style sculptures favor improvisation and site-specificity over polish, using sound as sculpture and treating decay as a form of genesis rather than an ending. It opens alongside Sarah Zapata's \"Against a State of Malevolence\" and Amalia Pica's participatory \"Lecturas Posibles\" in the museum's new Collins Park rotunda gallery.",
+    "new_today": "The \"decay as genesis\" framing and the exhibition's April 2027 run are new detail; the September 17 date itself was carried forward from yesterday's edition.",
+    "why_it_matters": "An artist building work out of imperfection and improvisation is a useful idea to sit with before opening night, not just a museum date to calendar.",
+    "thread_id": "thread-bass-fall-season-2026",
     "confidence": "high",
     "sources": [
      {
@@ -378,60 +280,87 @@
       "url": "https://thebass.org/announcing-2026-27-season-exhibitions-at-the-bass/"
      }
     ]
+   },
+   {
+    "id": "theme-lz-dark-matter-hint",
+    "affinity": "evening",
+    "topic": "living",
+    "topic_label": "Art of Living",
+    "title": "A single unexplained recoil, and physicists who won't call it a discovery yet",
+    "importance": 0.5,
+    "thesis": "The LUX-ZEPLIN dark matter detector recorded one event it can't explain as background noise -- real enough to report, honest enough not to call it proof.",
+    "synthesis": "At a physics conference in Japan on September 1, the LZ collaboration announced a single nuclear-recoil event, at 248 keV, in a region where known background sources should be rare. The statistical significance is 2.6 sigma -- roughly a 0.5% chance it's just background noise -- well short of the 5-sigma bar physics uses to claim a real discovery. LZ will keep collecting data through at least 2028 to see if the signal builds or disappears.",
+    "new_today": "Labeled exploration, outside this week's usual coverage: included for the case study in restraint -- a team with the most exciting number they've recorded in years, saying so, and also saying it isn't enough yet.",
+    "why_it_matters": "It's a small, useful model for how to hold an interesting but unconfirmed piece of information -- worth noticing on a week when several other numbers (hike odds, oil prices, deal counts) get reported with more confidence than they deserve.",
+    "thread_id": null,
+    "confidence": "high",
+    "sources": [
+     {
+      "role": "primary_reporting",
+      "publisher": "Berkeley Lab",
+      "headline": "LZ Sees Surprising Result in Search for Dark Matter",
+      "url": "https://newscenter.lbl.gov/2026/09/01/lz-sees-surprising-result-in-search-for-dark-matter/"
+     },
+     {
+      "role": "background",
+      "publisher": "Phys.org",
+      "headline": "Experiment sees surprising result in search for dark matter",
+      "url": "https://phys.org/news/2026-09-result-dark.html"
+     }
+    ]
    }
   ],
   "rabbit_hole": {
-   "id": "rh-2026-09-06",
-   "title": "Things Have Jobs, and Digital Devices Are Made to Track You",
-   "creator": "Carissa Veliz, in Aeon",
-   "format": "essay",
-   "minutes": 15,
-   "why": "Veliz, an Oxford philosopher who studies AI ethics, argues your devices' real product isn't your attention but your predictability -- surveillance exists to feed prediction, and prediction is what actually gets sold. It's the sharpest single-essay version of the argument running through her work on privacy and surveillance, and a clean companion to the FOMC's own predictive obsession this week.",
-   "url": "https://aeon.co/essays/things-have-jobs-and-digital-devices-are-made-to-track-you",
+   "id": "rh-2026-09-07",
+   "title": "Are We Thinking Correctly About AI Intelligence?",
+   "creator": "Melanie Mitchell, in conversation with Steven Strogatz, on Quanta Magazine's The Joy of Why",
+   "format": "podcast",
+   "minutes": 52,
+   "why": "Mitchell, a longtime critic of hype in both directions on AI, argues the field keeps asking whether AI \"thinks\" without any real method for measuring machine cognition -- and borrows from how psychologists study genuinely alien intelligences, babies and animals, to propose actual principles for doing it properly. A useful corrective on a week that otherwise asks you to take a lot of numbers -- hike odds, a 2.6-sigma physics signal -- on faith.",
+   "url": "https://www.quantamagazine.org/are-we-thinking-correctly-about-ai-intelligence-20260820/",
    "related_interest": "living"
   },
   "beautiful_thing": {
-   "id": "bt-2026-09-06",
-   "title": "A 4,000-year-old wife's letter, read without breaking its seal",
-   "creator": "Anna-anna, of the Old Assyrian trading colony at Kanesh; deciphered by researchers publishing in npj Heritage Science",
-   "era": "First half of the 19th century BCE, Kanesh (modern Kultepe, Turkey); read without opening in 2026",
-   "body": "The clay envelope, catalogued Kt 94/k 1150, was excavated decades ago in the house of a merchant named Salim-Assur but never opened, for fear of destroying the tablet sealed inside. A new mobile X-ray CT scanner let researchers read it without cracking the clay: a letter from a woman named Anna-anna to her husband, the merchant Ennum-Assur, chasing down a debt he was owed while he stayed away on business, and growing audibly impatient waiting for him to come home. The envelope carries eight impressions of Anna-anna's own personal seal and three lines identifying sender and recipient -- a small bureaucratic proof of a woman managing money and household alone, four thousand years before anyone thought to ask whether she could.",
-   "url": "https://arkeonews.net/4000-year-old-sealed-cuneiform-letters-from-anatolia-read-without-breaking-their-clay-envelopes/",
+   "id": "bt-2026-09-07",
+   "title": "Thismia daemona, the devil flower",
+   "creator": "Described by researchers publishing in PhytoKeys; found in a Thai national park",
+   "era": "Discovered in Mae Wong National Park, western Thailand; described in 2026",
+   "body": "Thismia daemona spends nearly its entire life hidden under leaf litter on the forest floor, feeding off underground fungi rather than the sun -- it has no chlorophyll and never photosynthesizes. What breaks the surface is small and strange: a mostly black flower with horn-like appendages crowning a dome-shaped hood, and patches of reddish orange at its base that researchers likened to a demon's glowing eyes, hence the name. It was found not in the lowland rainforest where its relatives usually live but in a seasonal, montane forest nearly 1,000 meters up, and fewer than 50 individuals are known to exist.",
+   "url": "https://blog.pensoft.net/2026/09/02/new-devil-flower-species-discovered-in-thai-national-park/",
    "image": null,
-   "alt": "An ancient clay tablet envelope bearing cuneiform script and seal impressions from the Old Assyrian trading colony at Kanesh"
+   "alt": "A small, mostly black flower with horn-like appendages and reddish-orange markings, growing at the base of leaf litter on a forest floor"
   },
   "noticing_prompt": {
-   "id": "np-2026-09-06",
-   "text": "Iran fired on a US carrier group this weekend, and markets haven't opened yet to react to it. Notice, once today, the gap between an event's real size and how long it takes anyone -- including you -- to actually feel it."
+   "id": "np-2026-09-07",
+   "text": "Brent crude is testing $97 this morning on a war that hasn't cost you a cent yet. Notice, once today, whether that price actually shows up anywhere in your day -- and if it doesn't, notice that too."
   },
   "daily_puzzle": {
-   "id": "dp-2026-09-06",
-   "type": "wordplay",
-   "prompt": "An anagram, for once, about itself: rearrange the letters of THE EYES into a three-word phrase that describes exactly what they do.",
-   "hint": "Both phrases use exactly the same seven letters -- T, H, E, E, Y, E, S.",
-   "solution": "THEY SEE.",
-   "explanation": "THE EYES and THEY SEE are perfect anagrams of each other -- a rare case where the wordplay describes its own subject."
+   "id": "dp-2026-09-07",
+   "type": "logic",
+   "prompt": "An underwriter tells you one rule and one fact. The rule: \"Whenever this deal's cap rate is under 6%, the 10-year Treasury is under 4.5%.\" The fact: the 10-year is sitting at 4.78% right now. Given only those two things, what do you know about the cap rate?",
+   "hint": "Don't try to prove the cap rate is any specific number -- ask what has to be true for the rule itself to not be broken.",
+   "solution": "The cap rate is not under 6% -- it must be 6% or higher.",
+   "explanation": "The rule only fails if the cap rate is under 6% while the 10-year is 4.5% or higher. Since the 10-year is 4.78%, the only way the rule can still hold is if the cap rate isn't under 6% -- a plain case of modus tollens, not a guess."
   },
   "evening_unwind": {
-   "id": "eu-2026-09-06",
+   "id": "eu-2026-09-07",
    "evening_quote": {
-    "text": "Men are disturbed not by the things which happen, but by the opinions about the things.",
-    "attribution": "Epictetus",
-    "source": "Enchiridion, 5"
+    "text": "We suffer more often in imagination than in reality.",
+    "attribution": "Seneca",
+    "source": "Letters to Lucilius, 13.4"
    },
-   "evening_prompt": "Name one thing from this week's news that felt urgent in the reading -- the tanker strikes, the FOMC odds, the Marlins' losing stretch -- and notice how quickly the feeling faded even though the fact didn't."
+   "evening_prompt": "Pick one number from today -- the hike odds, the oil price, the wild-card gap -- that felt like it mattered this morning, and check, tonight, whether it actually changed anything about your day."
   },
   "reading_queue": [
    {
     "title": "The Radical Reasons Why You Dream of Making Things by Hand",
     "url": "https://aeon.co/essays/the-radical-reasons-why-you-dream-of-making-things-by-hand",
-    "verdict": "read_soon",
-    "reason": "Saved last weekend for exactly this kind of Sunday; still unread and still the right length for it."
+    "verdict": "weekend"
    }
   ],
   "quote": {
-   "text": "Men are disturbed not by the things which happen, but by the opinions about the things.",
-   "attribution": "Epictetus"
+   "text": "We suffer more often in imagination than in reality.",
+   "attribution": "Seneca"
   }
  },
  "threads": [
@@ -440,9 +369,9 @@
    "title": "US-Iran conflict and the Strait of Hormuz",
    "topic": "markets",
    "status": "active",
-   "last_updated": "2026-09-05",
-   "updates": 56,
-   "current_state": "Saturday brought the most direct escalation in weeks: Iran fired on a US carrier group (no Americans harmed) and the US responded by disabling two Iranian oil tankers and destroying a third -- the first time Washington has hit Iran's own export fleet rather than bases or proxies. That follows an August 31st tanker attack that killed two Filipino seafarers, and Tuesday's Sirik wedding strike that killed at least five. Oil markets are closed until Monday and have not yet priced any of it in.",
+   "last_updated": "2026-09-06",
+   "updates": 57,
+   "current_state": "Sunday brought a second wave on top of Saturday's carrier-and-tanker exchange: Iran's Revolutionary Guard says it hit three tankers on an unauthorized strait route plus three US-linked vessels, and claims an unconfirmed strike on a US unmanned naval vessel. A US official confirmed Washington's tanker strikes now reflect a standing \"tanker for tanker\" policy rather than a one-time response. Brent is testing $97, extending last week's gain.",
    "timeline": [
     {
      "date": "2026-07-21",
@@ -723,18 +652,22 @@
      "date": "2026-09-05",
      "summary": "Iran fired ballistic missiles at a US aircraft carrier and a guided-missile destroyer; CENTCOM said both evaded the attack with no Americans harmed. The US retaliated by permanently disabling two Iranian crude carriers -- the Downy off Kharg Island and the Stark 1 near Jask -- and destroying a third, the Kylo, near the Gulf of Oman. It is the first direct US strike on Iran's own oil-export fleet, carrying out an earlier US warning to do exactly that if provoked.",
      "change_type": "worsened"
+    },
+    {
+     "date": "2026-09-06",
+     "summary": "Iran's Revolutionary Guard says it struck three oil tankers on an \"unauthorized\" Hormuz route plus three separate US-linked vessels, and claims a hit on a US unmanned military vessel that Washington hasn't confirmed. A US official described the tanker strikes as a deliberate \"tanker for tanker\" policy -- retaliation in kind for every future Iranian tanker attack, not a one-time response to Saturday's carrier incident. Brent extended its climb toward $97.",
+     "change_type": "worsened"
     }
-   ],
-   "importance": 0.92
+   ]
   },
   {
    "id": "thread-fed-rate-path",
    "title": "Federal Reserve rate path",
    "topic": "markets",
    "status": "active",
-   "last_updated": "2026-09-06",
-   "updates": 52,
-   "current_state": "The Fed's blackout holds into its second week. Friday's confirmed close: S&P 500 -0.38% to 7,718.60 (+0.1% on the week), Nasdaq -0.29% to 26,506.99 (+0.4% on the week), the 10-year in a 4.76-4.78% range. CME FedWatch read a September hike near 60% right after Friday's stronger-than-expected August jobs report, with some trackers as high as the mid-60s%. August CPI, Friday September 11 at 8:30am ET, remains the last input before the September 16 decision.",
+   "last_updated": "2026-09-07",
+   "updates": 53,
+   "current_state": "Labor Day: markets closed, blackout continues into its second week. Friday's confirmed close still stands: S&P 500 -0.38% to 7,718.60 (+0.1% on the week), Nasdaq -0.29% to 26,506.99 (+0.4% on the week), the 10-year in a 4.78-4.79% range. CME FedWatch has held near 60% odds of a September hike since Friday's stronger-than-expected jobs report, some trackers as high as the mid-60s%. August CPI, Friday September 11 at 8:30am ET, remains the last input before the September 16 decision.",
    "timeline": [
     {
      "date": "2026-07-18",
@@ -995,9 +928,13 @@
      "date": "2026-09-06",
      "summary": "No new data over the weekend; the blackout enters its second week with nothing to move the odds until August CPI, due Friday, September 11 at 8:30am ET.",
      "change_type": "watch"
+    },
+    {
+     "date": "2026-09-07",
+     "summary": "Labor Day: US markets closed, blackout holds. CME FedWatch odds unchanged near 60% for a September hike since Friday's post-jobs read; nothing will move until August CPI, Friday September 11 at 8:30am ET.",
+     "change_type": "watch"
     }
-   ],
-   "importance": 0.72
+   ]
   },
   {
    "id": "thread-marlins-wildcard",
@@ -1005,8 +942,8 @@
    "topic": "sports",
    "status": "active",
    "last_updated": "2026-09-06",
-   "updates": 56,
-   "current_state": "A losing week: after taking two straight from Kansas City to reach 71-69, Miami dropped three in a row -- to Kansas City, then twice to the Cubs, the last a 6-5 defeat Saturday -- falling to 71-72. Miami now sits four games behind Arizona for the final NL wild-card spot -- Arizona reclaimed it Saturday when San Diego lost 5-1 to the Yankees and fell to 74-68 -- with 19 games left; CBS Sports' model had Miami at 1.3% before Saturday's loss. The two teams play their series finale today at 1:40pm ET at loanDepot Park.",
+   "updates": 57,
+   "current_state": "Miami answered a three-game skid with a 10-3 rout of the Cubs Sunday, Sanoja and Hernandez both homering, improving to 72-72. Arizona and San Diego both won their own games too (both now 75-68), so the deficit for the final NL wild-card spot holds at roughly three and a half games with 18 left. Miami opens a three-game series against the Mets today, September 7, at 1:10pm ET at loanDepot Park -- Eury Perez against Jonah Tong.",
    "timeline": [
     {
      "date": "2026-07-18",
@@ -1282,9 +1219,13 @@
      "date": "2026-09-05",
      "summary": "The Cubs beat Miami 6-5 Saturday, Miami's third straight loss, falling to 71-72. The deficit for the final NL wild-card spot is now four games behind Arizona, which reclaimed it the same night when San Diego lost to the Yankees, with 19 games left; CBS Sports' model had Miami at 1.3%.",
      "change_type": "worsened"
+    },
+    {
+     "date": "2026-09-06",
+     "summary": "Miami snapped its three-game skid with a 10-3 rout of the Cubs, Javier Sanoja and Heriberto Hernandez both homering, improving to 72-72. Arizona (75-68) and San Diego (75-68) both won too, holding the wild-card deficit at roughly three and a half games with 18 to play. Miami opens a series against the Mets Monday at loanDepot Park.",
+     "change_type": "improved"
     }
-   ],
-   "importance": 0.6
+   ]
   },
   {
    "id": "thread-heat-giannis-era",
@@ -1325,8 +1266,7 @@
      "summary": "LeBron James signs a two-year, $8M deal with the Philadelphia 76ers, not Miami; Rich Paul says James chose to preserve the memory of a title already won rather than risk a lesser second chapter.",
      "change_type": "resolved"
     }
-   ],
-   "importance": 0.35
+   ]
   },
   {
    "id": "thread-dolphins-hafley-rebuild",
@@ -1527,8 +1467,7 @@
      "summary": "During the same roster-cut weekend that set Miami's 53, the Dolphins traded Quinn Ewers, waived Cam Miller and Mark Gronowski, and acquired backup QB Kyle McCord from Green Bay -- the moves that actually cleared the room to make Malik Willis the unambiguous starter.",
      "change_type": "advanced"
     }
-   ],
-   "importance": 0.5
+   ]
   },
   {
    "id": "thread-hurricanes-fall-camp",
@@ -1599,8 +1538,7 @@
      "summary": "Miami's home opener is set for Thursday, September 10 at 8pm against Florida A&M at Hard Rock Stadium -- the last non-conference tune-up before ACC play begins.",
      "change_type": "watch"
     }
-   ],
-   "importance": 0.6
+   ]
   },
   {
    "id": "thread-miami-summer-openings",
@@ -1696,8 +1634,7 @@
      "summary": "Attention shifts from confirmed August openings to Miami New Times' fall preview: Genghis Cohen (the real \"Seinfeld\" restaurant, opening in Miami Beach this winter in the former Sardinia space in Sunset Harbour), Royale Pizza Napoletana, La Sponda, and La Pecora Bianca -- none with confirmed dates yet beyond \"this fall\" or \"winter.\"",
      "change_type": "advanced"
     }
-   ],
-   "importance": 0.4
+   ]
   },
   {
    "id": "thread-miami-freedom-park-civic",
@@ -1718,17 +1655,16 @@
      "summary": "With Freedom Park's new eight-story City of Miami Administration Building on track, the question of what happens to the current City Hall -- a 1934 Pan Am seaplane terminal on prime Dinner Key bayfront, listed on the National Register of Historic Places -- is now openly on the table. Officials say no decision is final ('all really premature'), but commissioners are expected to weigh options once the new building opens in about two years.",
      "change_type": "watch"
     }
-   ],
-   "importance": 0.4
+   ]
   },
   {
    "id": "thread-cre-capital-markets-2026",
    "title": "2026 CRE capital markets under pressure",
    "topic": "markets",
    "status": "active",
-   "last_updated": "2026-09-05",
-   "updates": 27,
-   "current_state": "The deal sheet keeps moving at two speeds: institutional industrial and multifamily keeps clearing at scale (Ares' $108.7M Miami warehouse buy, Rockpoint's Apollo-financed acquisition, Midtown Capital's $86M Doral portfolio, the $208M Portofino Place sale), while day-to-day trades run smaller -- a Coconut Creek retail building, a Lake Worth nursing home. Miami's planning board separately gave preliminary approval to up to 150 units per acre and eight stories.",
+   "last_updated": "2026-09-06",
+   "updates": 28,
+   "current_state": "The deal sheet keeps clearing at two speeds: institutional industrial keeps moving (Ares' $108.7M Hialeah/Sweetwater buy, Dalfen's $21.3M Doral warehouse, Rockpoint's Apollo-financed acquisition, Midtown Capital's $86M Doral portfolio, the $208M Portofino Place sale), while day-to-day trades run smaller -- a Coconut Creek retail building, a Lake Worth nursing home. Miami's planning board separately gave preliminary approval to up to 150 units per acre and eight stories.",
    "timeline": [
     {
      "date": "2026-07-24",
@@ -1869,9 +1805,13 @@
      "date": "2026-09-05",
      "summary": "The Real Deal's daily sheet shows continued but smaller-ticket South Florida trades: Baptist Health paid $53.5M for a 92,700 sq ft Coconut Creek retail building (~$577/sq ft, from Kohl's), and an Emerald Group entity paid $27.6M for a Lake Worth Beach nursing home. Neither rivals the institutional industrial/multifamily deals of the prior two weeks.",
      "change_type": "watch"
+    },
+    {
+     "date": "2026-09-06",
+     "summary": "Dalfen Industrial paid $21.3 million ($239/sq ft) for an 89,000-sq-ft Doral warehouse leased to AerSale, buying from a Terreno Realty affiliate that had held it since 2012 -- a third institutional industrial buyer in the market in under two weeks, alongside Ares' $108.7M Hialeah/Sweetwater purchase and Midtown Capital's Doral portfolio.",
+     "change_type": "advanced"
     }
-   ],
-   "importance": 0.6
+   ]
   },
   {
    "id": "thread-miami-worldcenter-development",
@@ -1892,8 +1832,7 @@
      "summary": "A separate two-acre parcel, One Miami World, is listed for sale, expected to fetch well over $100M versus the $44M paid to assemble it in 2020.",
      "change_type": "advanced"
     }
-   ],
-   "importance": 0.5
+   ]
   },
   {
    "id": "thread-marine-stadium-referendum",
@@ -1959,8 +1898,7 @@
      "summary": "Miami voters approved Referendum #172 with more than 68% in favor, clearing the way for Global Spectrum L.P. (Oak View Group) and Breakwater Hospitality Group to restore and manage Marine Stadium for up to 40 years. The measure needed only a simple majority; it passed by a wide margin.",
      "change_type": "resolved"
     }
-   ],
-   "importance": 0.7
+   ]
   },
   {
    "id": "thread-seaquarium-marina-redevelopment",
@@ -1981,8 +1919,7 @@
      "summary": "Additional scope surfaces: a fully accredited, no-marine-mammal aquarium, a research/education center, and a public baywalk; county estimates the project's value to Miami-Dade at close to $750M over the life of the lease. County Commission approval still pending.",
      "change_type": "advanced"
     }
-   ],
-   "importance": 0.5
+   ]
   },
   {
    "id": "thread-heat-klay-thompson",
@@ -2013,8 +1950,7 @@
      "summary": "Miami's preseason schedule is set: five games opening October 3 against Toronto in Quebec City -- the first NBA preseason game ever played there -- with three home dates at Kaseya Center before the October 16 preseason finale at Orlando.",
      "change_type": "advanced"
     }
-   ],
-   "importance": 0.55
+   ]
   },
   {
    "id": "thread-panthers-2026-27-season",
@@ -2045,8 +1981,7 @@
      "summary": "Florida's preseason and regular-season schedules are official: a four-game preseason opens September 20 at home against Carolina, with games September 22 at Raleigh and September 24 and 26 against Tampa Bay; the regular season opens September 29 at Carolina.",
      "change_type": "advanced"
     }
-   ],
-   "importance": 0.5
+   ]
   },
   {
    "id": "thread-virginia-key-marina-referendum",
@@ -2067,8 +2002,7 @@
      "summary": "With the legal challenge dismissed and no appeal reported, the $80M Rickenbacker/Marine Stadium marina lease to Virginia Key LLC heads to Miami voters on the Nov. 3 ballot with no further legal obstruction -- a separate vote from the Marine Stadium restoration referendum voters already approved in August.",
      "change_type": "advanced"
     }
-   ],
-   "importance": 0.48
+   ]
   },
   {
    "id": "thread-miami-vice-city-gta6-pitch",
@@ -2089,8 +2023,23 @@
      "summary": "Grand Theft Auto VI is now confirmed for a worldwide launch on November 19, 2026 on PlayStation 5 and Xbox Series X/S, giving Miami-Dade's pitch to Rockstar an actual deadline to move on before. County officials reiterate nothing has been formally agreed to or approved, and any deal would still need to clear standard county review.",
      "change_type": "watch"
     }
-   ],
-   "importance": 0.35
+   ]
+  },
+  {
+   "id": "thread-bass-fall-season-2026",
+   "title": "The Bass's 2026-27 fall season",
+   "topic": "miami",
+   "status": "watch",
+   "last_updated": "2026-09-07",
+   "updates": 1,
+   "current_state": "The Bass opens Thursday, September 17 with Yuko Mohri's \"Unviolated Imperfection\" (through April 25, 2027), her first US museum solo show, alongside Sarah Zapata's \"Against a State of Malevolence\" and Amalia Pica's \"Lecturas Posibles\" in the new Collins Park rotunda gallery. Ten days out.",
+   "timeline": [
+    {
+     "date": "2026-09-07",
+     "summary": "First tracked as its own thread: full exhibition detail surfaces on Mohri's show, which treats decay and improvisation as generative rather than as flaws, running through April 25, 2027.",
+     "change_type": "new"
+    }
+   ]
   }
  ],
  "topic_filters": [
@@ -2112,7 +2061,7 @@
   }
  ],
  "meta": {
-  "content_freshness": "Market data as of Friday, September 4, 2026 close (markets closed over the weekend). Sports scores and standings current through Saturday, September 5 games. Iran/Hormuz and roster news current through Sunday morning, September 6. Weekly edition covering August 31 - September 6. Corrected Sunday midday, September 6: the Marlins' wild-card deficit (four games behind Arizona, not 3.5, with 19 games left, after San Diego's Saturday loss handed the final spot back to Arizona), the Panthers' championship status (Carolina, not Florida, won the 2026 Cup), and the magnetar polarization figure.",
+  "content_freshness": "2026-09-07T09:30:00-04:00",
   "feedback_endpoint_mode": "github_contents",
   "minimum_client_schema_version": 1,
   "mode": "brain"
