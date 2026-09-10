@@ -1,225 +1,245 @@
 {
  "schema_version": 2,
  "edition": {
-  "id": "2026-09-09",
-  "date": "2026-09-09",
+  "id": "2026-09-10",
+  "date": "2026-09-10",
   "type": "weekday",
-  "generated_at": "2026-09-09T09:30:00-04:00",
+  "generated_at": "2026-09-10T09:30:00-04:00",
   "timezone": "America/New_York",
   "title": "Personal OS",
   "front_page_letter": {
    "greeting": "Good morning",
    "body_paragraphs": [
-    "Tuesday brought the sharpest reminder yet that this war moves in strikes, not steps: CENTCOM destroyed five Iranian crude tankers after Iran fired ballistic missiles at a US warship twice in two days, missing both times, and Iran claims it captured a US underwater drone near the strait's mouth, which Washington says had simply malfunctioned. Iran says it hit back at ten vessels in return. Markets took real notice for once: the Dow fell 628 points, its worst session of the week, though September's hike odds barely moved -- still near 58-60% ahead of Friday's decisive CPI.",
-    "Miami's wild-card math keeps getting worse in the details, not just the headline: Lindor and Soto both went deep early Tuesday, the Marlins fell to 72-74, and New York has already clinched the series -- the deficit is now roughly five games with sixteen left, and tonight's finale is close to must-win. Elsewhere, Malik Willis is talking like a captain now, the Hurricanes' home opener is one day out, and Miami's institutional real-estate buying wave picked up a fourth entrant.",
-    "Two smaller, better stories for later: Oxford physicists have directly measured Einstein's gravity acting on a falling quantum object for the first time, and a London study found your coffee reaches an ancient cellular repair switch that has nothing to do with staying awake. Tonight's read asks a stranger question still -- whether theoretical computer science actually needs computers at all."
+    "Iran answered Tuesday's tanker strikes with its widest retaliation yet: roughly twenty missiles at a Jordanian air base (most intercepted, no casualties), a claimed ten-vessel strike wave near Hormuz that reportedly killed one seafarer, and Brent crude breaking $100 for the first time in six weeks. Markets felt it -- the S&P and Nasdaq both fell again Wednesday, and the 10-year Treasury closed at its highest level since October 2023. Odds on a September 16 rate hike now swing 56 to 66 percent depending which tracker you check, with Friday's CPI doing more work than usual to settle it.",
+    "Miami's baseball season effectively ended without technically ending: the Marlins scored fourteen runs Wednesday and still lost, swept by the Mets in a 15-14 shootout that drops them to 72-75 with playoff odds FanGraphs calls essentially zero. The Hurricanes' home opener against FAMU is tonight, though a shoulder injury on the season's first defensive snap has thinned the secondary. The Dolphins, by contrast, got a genuinely good injury report ahead of Sunday's opener -- though Tyreek Hill won't play Week 1.",
+    "Closer to your own business: a fifth institutional buyer closed on Miami industrial this week, a $195 million, 74-tenant portfolio that reads as a bet on broad demand rather than a single credit tenant. And tonight's read is a strange one -- an AI agent swarm claiming to have partially solved a Millennium Prize math problem, tangled in a live dispute over who gets credit for it."
    ],
    "read_only_three": [
     {
      "target_type": "theme",
-     "target_id": "theme-iran-tankers-drone-capture",
-     "label": "US destroys five Iranian tankers; Iran claims capturing a US underwater drone"
+     "target_id": "theme-iran-jordan-strikes-oil-100",
+     "label": "Iran strikes a Jordan air base; Brent breaks $100"
     },
     {
      "target_type": "theme",
-     "target_id": "theme-marlins-fade-continues",
-     "label": "Marlins fall to 72-74, wild-card deficit widens to five games"
+     "target_id": "theme-marlins-swept-season-fading",
+     "label": "Marlins swept 15-14, playoff odds effectively zero"
     },
     {
      "target_type": "rabbit_hole",
-     "target_id": "rh-2026-09-09",
-     "label": "Tonight's read: does theoretical computer science actually need computers?"
+     "target_id": "rh-2026-09-10",
+     "label": "Tonight's read: did an AI just solve a Millennium Prize problem?"
     }
    ]
   },
   "market_context": [
    {
     "label": "S&P 500",
-    "value": "7,673.52",
-    "change": "-0.58% Tuesday",
-    "observed": "Tuesday close, September 8, 2026",
-    "note": "Worst session of the week, driven by the Hormuz escalation rather than any Fed repricing."
+    "value": "7,636.36",
+    "change": "-0.48% Wednesday",
+    "observed": "Wednesday close, September 9, 2026",
+    "note": "Second straight losing session as Hormuz risk and rising yields both weighed on the tape."
    },
    {
     "label": "Nasdaq Composite",
-    "value": "26,421.41",
-    "change": "-0.32% Tuesday",
-    "observed": "Tuesday close, September 8, 2026",
-    "note": "Dow fell harder, -628.18 points (-1.18%) to 52,786.07, on the same Hormuz-driven risk-off move."
+    "value": "26,253.34",
+    "change": "-0.64% Wednesday",
+    "observed": "Wednesday close, September 9, 2026",
+    "note": "Dow fell 405.41 points (-0.77%) to 52,380.66; the Russell 2000 fell 1.30%, the broadest-based decline of the week."
    },
    {
     "label": "10Y Treasury",
-    "value": "~4.79%",
-    "change": "little changed",
-    "observed": "Tuesday, September 8, 2026",
-    "note": "Holding near its highest closes of the stretch; no fresh print until today's session."
+    "value": "~4.83-4.85%",
+    "change": "highest close since October 2023",
+    "observed": "Wednesday, September 9, 2026",
+    "note": "Driven by fiscal worries and heavy AI-sector corporate debt issuance, not directly by Fed repricing."
    },
    {
     "label": "Brent crude",
-    "value": "~$97",
-    "change": "seven-week high, holding",
-    "observed": "Tuesday, September 8-9, 2026",
-    "note": "Extending its climb after Tuesday's tanker strikes and the disputed drone-capture claim."
+    "value": "$101.21",
+    "change": "broke above $100 for the first time in six weeks",
+    "observed": "Wednesday close, September 9, 2026",
+    "note": "WTI settled near $96.05, also its highest since May, on the Hormuz escalation."
    },
    {
     "label": "FOMC (September 16 decision)",
-    "value": "Quarter-point hike near 58-60%",
-    "change": "essentially flat since Friday",
-    "observed": "Tuesday, September 8, 2026, CME FedWatch",
-    "note": "August CPI, Friday September 11 at 8:30am ET, remains the last input before the decision."
+    "value": "Hike odds 56-66% depending on tracker",
+    "change": "unusually wide, moving fast",
+    "observed": "Wednesday, September 9, 2026, CME FedWatch and other trackers",
+    "note": "August CPI, Friday September 11 at 8:30am ET, is the last input before the decision -- not yet released."
    }
   ],
   "public_day_context": {
-   "date_label": "Wednesday, September 9, 2026",
-   "weather": "High near 89-90 with a 70-75% chance of afternoon thunderstorms, typical late-summer South Florida pattern.",
-   "public_event": "The Marlins host the Mets in tonight's series finale at loanDepot Park, 6:40pm ET -- New York has already clinched the series. The Hurricanes' home opener against Florida A&M is tomorrow night, Thursday, at Hard Rock Stadium."
+   "date_label": "Thursday, September 10, 2026",
+   "weather": "High near 90 with an 80% chance of showers and thunderstorms, mainly before 4pm; low near 78 overnight.",
+   "public_event": "The Hurricanes host Florida A&M in their home opener tonight, 8pm at Hard Rock Stadium (ACC Network). Separately, Miami's city commission votes today on an ordinance permitting paid GTA6 promotional banners downtown."
   },
   "what_changed": [
    {
-    "id": "delta-iran-tankers-drone",
+    "id": "delta-iran-jordan-strike-oil-100",
     "thread_id": "thread-iran-hormuz-crisis",
     "change_type": "worsened",
-    "title": "US destroys five Iranian tankers; Iran claims a captured US drone",
-    "previous_state": "Tuesday's edition covered Iran's plan to declare a Hormuz \"exclusion zone\" and a single missile test aimed at US warships, with no reported US strikes on Iranian vessels that day.",
-    "current_state": "CENTCOM says it destroyed five Iranian crude tankers after the IRGC fired ballistic missiles at a US warship twice over two days (both missed, no Americans harmed). Iran's Revolutionary Guard claims it separately captured a US Anduril-made underwater drone near the strait's entrance; the Pentagon says the drone had simply malfunctioned and carried no classified equipment. Iran claims it struck ten vessels in retaliation. Brent holds near a seven-week high around $97.",
-    "why_it_matters": "Five tankers destroyed outright is a step up from \"disabled\" -- and a disputed drone capture is the kind of claim both sides have an incentive to inflate, which makes it a useful test of how much of this war's daily news is verified fact versus competing narrative.",
+    "title": "Iran strikes a Jordan air base in retaliation; Brent breaks $100",
+    "previous_state": "Tuesday's edition covered CENTCOM's destruction of five Iranian tankers and Iran's disputed claim of capturing a US underwater drone, with Brent holding near $97.",
+    "current_state": "Iran retaliated with roughly twenty ballistic missiles at Jordan's Al Azraq air base (Jordan says it intercepted eighteen; no casualties), claimed a ten-vessel strike wave near Hormuz with at least one seafarer killed and one missing, and Brent broke above $100 for the first time in six weeks, closing Wednesday at $101.21.",
+    "why_it_matters": "A direct strike on a base in Jordan, a country that isn't a combatant, is a real widening of the target list -- and oil above $100 changes the backdrop for Friday's CPI print.",
     "confidence": "high",
     "source": {
-     "publisher": "NBC News",
-     "url": "https://www.nbcnews.com/world/iran/us-strikes-iranian-tankers-attempted-missile-attacks-navy-warship-rcna596699"
+     "publisher": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/9/9/us-destroys-five-iranian-tankers-iran-retaliates-with-attacks-on-jordan-base"
     }
    },
    {
-    "id": "delta-markets-selloff-hormuz",
+    "id": "delta-treasury-two-year-high-hike-odds",
     "thread_id": "thread-fed-rate-path",
     "change_type": "worsened",
-    "title": "Stocks post their worst session of the week as Hormuz risk bites",
-    "previous_state": "Markets reopened Tuesday morning with September hike odds essentially flat and no fresh directional move since Friday's post-jobs read.",
-    "current_state": "Tuesday's close: S&P 500 -0.58% to 7,673.52, Nasdaq -0.32% to 26,421.41, Dow -628.18 points (-1.18%) to 52,786.07 -- the week's worst session, on the fresh Hormuz escalation rather than any change in Fed odds, which held near 58-60%.",
-    "why_it_matters": "The distinction from a week ago still holds: this war is repricing equities and oil, not rate expectations -- worth tracking separately, since CPI Friday is what will actually move the September decision.",
-    "confidence": "high",
-    "source": {
-     "publisher": "CNBC",
-     "url": "https://www.cnbc.com/2026/09/07/stock-market-tuesday-live-updates.html"
-    }
-   },
-   {
-    "id": "delta-marlins-fall-72-74",
-    "thread_id": "thread-marlins-wildcard",
-    "change_type": "worsened",
-    "title": "Marlins fall again, wild-card deficit widens to five games",
-    "previous_state": "Monday's 9-4 loss to the Mets dropped Miami to 72-73, roughly four and a half games back with 17 left.",
-    "current_state": "Lindor and Soto both homered early as the Mets beat Miami 7-5 Tuesday, dropping the Marlins to 72-74; New York has clinched the series. Arizona (77-68) and San Diego (76-68) hold the final NL wild-card spot roughly five games clear with 16 left. Tonight's finale is close to must-win.",
-    "why_it_matters": "Two losses to open this series, both close, both to the same handful of hitters -- this is starting to look less like a slump and more like a read on where Miami actually sits against a real opponent.",
-    "confidence": "high",
-    "source": {
-     "publisher": "ESPN",
-     "url": "https://www.espn.com/mlb/boxscore/_/gameId/401816858"
-    }
-   },
-   {
-    "id": "delta-cre-fourth-institutional-buyer",
-    "thread_id": "thread-cre-capital-markets-2026",
-    "change_type": "advanced",
-    "title": "A fourth institutional buyer joins Miami's industrial/multifamily wave",
-    "previous_state": "Three institutional buyers (Ares, Midtown Capital, Dalfen) had closed Miami industrial deals in the two weeks through September 6.",
-    "current_state": "A Phoenix Realty Group-linked entity paid $64.8 million for the 269-unit Altavista Bay Pointe apartments, a fourth institutional buyer in three weeks, against a national backdrop of near-record CMBS/CLO issuance ($39.7B YTD through June) and sharply higher bank and private-credit lending.",
-    "why_it_matters": "Multifamily joining the industrial buying wave -- not just warehouses -- is the more interesting tell for where institutional conviction is actually building right now.",
+    "title": "10-year Treasury hits a two-year high as hike odds swing wide before CPI",
+    "previous_state": "Tuesday's close held hike odds near 58-60% with the 10-year around 4.79%, largely tracking the Hormuz selloff rather than any Fed repricing.",
+    "current_state": "The 10-year rose to roughly 4.83-4.85% Wednesday, its highest close since October 2023, on fiscal worries and heavy AI-sector debt issuance; CME FedWatch readings for a September 16 hike ranged 56-66% across trackers, an unusually wide and fast-moving spread.",
+    "why_it_matters": "A widening range this close to the decision means the CPI print Friday morning is doing more work than usual -- worth watching how quickly the number converges the trackers.",
     "confidence": "medium",
     "source": {
-     "publisher": "Hawkins Commercial Realty",
-     "url": "https://www.hawkinscre.com/miami-commercial-real-estate-news-september-2-2026-700m-mana-wynwood-purchase-by-ken-griffin-rumored-west-palm-mf-sells-for-208m-more/"
+     "publisher": "TheStreet",
+     "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-09-2026"
+    }
+   },
+   {
+    "id": "delta-marlins-swept-elimination-near",
+    "thread_id": "thread-marlins-wildcard",
+    "change_type": "worsened",
+    "title": "Marlins swept in a 15-14 shootout; playoff odds effectively zero",
+    "previous_state": "Tuesday's 7-5 loss dropped Miami to 72-74, roughly five games back with 16 left, in a series already lost.",
+    "current_state": "New York completed the sweep with a wild 15-14 win Wednesday after blowing an 8-0 lead; Miami falls to 72-75, three games under .500 for the first time since June 9, roughly 6.5 games back with 15 left -- FanGraphs puts the team's playoff odds at effectively zero.",
+    "why_it_matters": "Not mathematically eliminated, but a lineup that scored 14 runs and still lost says the issue was never really the bats.",
+    "confidence": "high",
+    "source": {
+     "publisher": "Field Level Media",
+     "url": "https://fieldlevelmedia.com/mlb/mets-outlast-marlins-in-wild-15-14-victory-to-complete-sweep/"
+    }
+   },
+   {
+    "id": "delta-cre-fifth-institutional-buyer",
+    "thread_id": "thread-cre-capital-markets-2026",
+    "change_type": "advanced",
+    "title": "A fifth institutional buyer closes on Miami industrial -- the largest deal yet",
+    "previous_state": "As of Tuesday, four institutional buyers (Ares, Midtown Capital, Dalfen, Phoenix Realty Group) had closed Miami-area deals in three weeks.",
+    "current_state": "Longpoint Partners paid $195 million for a 10-building, 730,000-square-foot small-bay industrial portfolio, 90% leased across 74 tenants -- the largest single deal of the wave and the fifth in roughly three weeks.",
+    "why_it_matters": "A 74-tenant portfolio is a bet on broad-based demand, not a single credit tenant -- a different kind of conviction than the warehouse land plays earlier in the wave.",
+    "confidence": "medium",
+    "source": {
+     "publisher": "The Real Deal",
+     "url": "https://therealdeal.com/miami/2026/09/09/longpoint-partners-buys-miami-dade-industrial-portfolio/"
+    }
+   },
+   {
+    "id": "delta-gta6-vote-today",
+    "thread_id": "thread-miami-vice-city-gta6-pitch",
+    "change_type": "advanced",
+    "title": "Miami's GTA6 banner ordinance reaches a real vote",
+    "previous_state": "As of September 2, the county-level \"Vice City\" pitch to Rockstar (airport rebranding, wrapped Metromover cars) remained an unapproved pitch deck with no formal city or county action.",
+    "current_state": "A separate, city-level ordinance sponsored by Commissioner Damian Pardo -- allowing up to six paid downtown banners at $202,000 each, proceeds earmarked for the Underdeck Heritage Trail park -- goes to a Miami city commission vote today, opposed by the sheriff and the county's chief judge.",
+    "why_it_matters": "The first concrete money-and-signage decision in a saga that's mostly been rumor so far, and a real test of how far Miami will bend its own rules for the marketing tie-in.",
+    "confidence": "medium",
+    "source": {
+     "publisher": "GTA Boom",
+     "url": "https://www.gtaboom.com/miami-wants-rockstar-to-pay-202000-a-banner-to-brand-downtown-for-gta-6-68ce"
     }
    }
   ],
   "themes": [
    {
-    "id": "theme-iran-tankers-drone-capture",
+    "id": "theme-iran-jordan-strikes-oil-100",
     "affinity": "morning",
     "topic": "markets",
     "topic_label": "Markets & Macro",
-    "title": "US destroys five Iranian tankers; Iran claims capturing a US underwater drone",
+    "title": "Iran strikes a Jordan air base as tanker retaliation widens; Brent tops $100",
     "importance": 0.9,
-    "thesis": "Tuesday's exchange was materially heavier than the strikes that preceded it -- five tankers destroyed outright, plus a disputed capture claim both sides have reason to inflate.",
-    "synthesis": "CENTCOM said Tuesday it destroyed five Iranian crude oil tankers after the IRGC twice fired ballistic missiles at a US Navy warship over two days; the warship evaded both attacks and no Americans were harmed. Hours later, Iran's Revolutionary Guard claimed it had captured a US Anduril-built Dive-LD unmanned underwater drone near the strait's entrance at dawn -- a Pentagon spokesperson countered that the drone had simply malfunctioned more than a day earlier and carried no classified sonar or radar equipment. Iran's IRGC says it retaliated by striking two US-linked vessels and eight oil tankers, framing it as ten \"offending vessels.\" Brent crude held near a seven-week high around $97.",
-    "new_today": "The five destroyed tankers, the drone-capture claim and Pentagon rebuttal, and Iran's ten-vessel retaliation claim are all new since yesterday's edition, which covered only the planned exclusion zone and a single missile test.",
-    "why_it_matters": "The gap between Iran's account and the Pentagon's on the drone is the more useful story than the drone itself -- a live example of how much of this war's daily narrative is contested framing layered on top of confirmed fact.",
+    "thesis": "The war's costliest week yet, in strikes and in oil: Iran answered Tuesday's tanker destruction by firing on a US-linked base in Jordan and claiming its largest wave of vessel strikes since the war began -- and Brent broke $100 for the first time in six weeks.",
+    "synthesis": "Iran retaliated for Tuesday's destruction of five of its crude tankers with roughly twenty ballistic missiles fired at Jordan's Al Azraq air base; Jordan says it intercepted eighteen, two fell in unpopulated areas, and there were no casualties. Iran separately claimed a ten-vessel strike wave near Hormuz -- the largest declared wave of shipping attacks since the six-month war began -- reportedly killing one seafarer and leaving another missing. Iran's planned Hormuz \"exclusion zone,\" announced in principle last week, still has no formally declared boundaries. Brent crude broke above $100 for the first time in six weeks, closing Wednesday at $101.21 (WTI $96.05), the highest settle since May.",
+    "new_today": "The Jordan strike, the ten-vessel claim with casualties, and Brent's break above $100 are all new since Tuesday's edition.",
+    "why_it_matters": "A direct strike on a base in Jordan -- a country that isn't a combatant in this war -- is a real widening of the target list, and oil above $100 changes the backdrop heading into Friday's CPI print.",
     "thread_id": "thread-iran-hormuz-crisis",
     "confidence": "high",
     "sources": [
      {
       "role": "primary_reporting",
+      "publisher": "Al Jazeera",
+      "headline": "US destroys five Iranian tankers, Iran retaliates with attacks on Jordan base",
+      "url": "https://www.aljazeera.com/news/2026/9/9/us-destroys-five-iranian-tankers-iran-retaliates-with-attacks-on-jordan-base"
+     },
+     {
+      "role": "background",
       "publisher": "NBC News",
       "headline": "U.S. strikes five Iranian tankers after attempted attacks on Navy warship, CENTCOM says",
       "url": "https://www.nbcnews.com/world/iran/us-strikes-iranian-tankers-attempted-missile-attacks-navy-warship-rcna596699"
      },
      {
-      "role": "counterpoint",
-      "publisher": "U.S. News & World Report",
-      "headline": "Iran Says It Captured US Submarine Drone in Strait of Hormuz",
-      "url": "https://www.usnews.com/news/world/articles/2026-09-08/iran-says-it-captured-us-submarine-drone-in-strait-of-hormuz"
-     },
-     {
-      "role": "background",
-      "publisher": "Al Jazeera",
-      "headline": "Can Iran enforce a restricted zone in the Strait of Hormuz?",
-      "url": "https://www.aljazeera.com/news/2026/9/7/can-iran-enforce-a-restricted-zone-in-the-strait-of-hormuz"
+      "role": "analysis",
+      "publisher": "Military Times",
+      "headline": "Iran and US hit tankers in biggest wave of attacks on shipping since war began",
+      "url": "https://www.militarytimes.com/news/your-military/2026/09/09/iran-and-us-hit-tankers-in-biggest-wave-of-attacks-on-shipping-since-war-began/"
      }
     ]
    },
    {
-    "id": "theme-markets-hormuz-selloff",
+    "id": "theme-markets-oil-treasury-fed-odds",
     "affinity": "morning",
     "topic": "markets",
     "topic_label": "Markets & Macro",
-    "title": "Stocks post their worst session of the week as Hormuz risk bites",
-    "importance": 0.55,
-    "thesis": "For the first time in weeks, the war actually moved equities and not just oil -- while the number that decides September 16 barely twitched.",
-    "synthesis": "Tuesday's confirmed close: S&P 500 down 0.58% to 7,673.52, Nasdaq down 0.32% to 26,421.41, and the Dow down 628.18 points (-1.18%) to 52,786.07 -- its worst single-day point drop of the stretch. The 10-year held near 4.79%. CME FedWatch's September hike odds sit roughly 58-60%, essentially unchanged from Friday, with August CPI due Friday, September 11 at 8:30am ET still the last real input before the September 16 decision.",
-    "new_today": "Tuesday's confirmed close and the size of the Dow's drop are new; the Hormuz escalation driving it (five tankers, the drone claim) is covered in the lead theme.",
-    "why_it_matters": "A useful marker for hedging: geopolitical risk has mostly flowed into oil for weeks, but Tuesday shows it can spill into equities too once the escalation crosses some threshold -- worth watching whether Friday's CPI print gets read against a jumpier tape.",
+    "title": "Oil above $100, the 10-year at a two-year high, and hike odds swinging hard before CPI",
+    "importance": 0.75,
+    "thesis": "Wednesday's close packed three separate stories into one tape: a geopolitical oil shock, a genuine Treasury-market stress signal, and unusually volatile odds on a September hike -- not cut -- with the print that settles it all still a day out.",
+    "synthesis": "Wednesday's confirmed close: S&P 500 -0.48% to 7,636.36, Nasdaq -0.64% to 26,253.34, Dow -405.41 points (-0.77%) to 52,380.66, Russell 2000 -1.30%. The 10-year Treasury yield rose to roughly 4.83-4.85%, its highest close since October 2023, on fiscal worries and a wave of AI-sector corporate debt issuance, compounded by Brent's break above $100. CME FedWatch readings for a September 16 quarter-point hike ranged roughly 56-66% across trackers this week -- unusually wide and moving fast, a real reversal from the market's earlier assumption of a hold, largely traced to new Fed Chair Kevin Warsh's hawkish late-August Jackson Hole remarks. August CPI, due Friday September 11 at 8:30am ET, is the last input before the decision.",
+    "new_today": "Wednesday's confirmed close, the 10-year's two-year high, and the widened hike-odds range are new since Tuesday's edition.",
+    "why_it_matters": "A hike, not a cut, is now the more likely read heading into Friday -- worth recalibrating any rate-sensitive plans against a print that could move the odds sharply in either direction.",
     "thread_id": "thread-fed-rate-path",
-    "confidence": "high",
+    "confidence": "medium",
     "sources": [
      {
       "role": "primary_reporting",
-      "publisher": "CNBC",
-      "headline": "Stock market news for Sept. 8, 2026",
-      "url": "https://www.cnbc.com/2026/09/07/stock-market-tuesday-live-updates.html"
+      "publisher": "TheStreet",
+      "headline": "Stock market today: Dow, S&P 500, Nasdaq updates, Sept. 9 2026",
+      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-09-2026"
      },
      {
       "role": "background",
-      "publisher": "Trading Economics",
-      "headline": "United States Government Bond Yield",
-      "url": "https://tradingeconomics.com/united-states/government-bond-yield"
+      "publisher": "Yahoo Finance",
+      "headline": "FOMC September 2026: odds of a rate move",
+      "url": "https://finance.yahoo.com/economy/policy/articles/fomc-september-2026-odds-rate-201618784.html"
+     },
+     {
+      "role": "background",
+      "publisher": "Federal Reserve",
+      "headline": "Selected Interest Rates (H.15)",
+      "url": "https://www.federalreserve.gov/releases/h15/"
      }
     ]
    },
    {
-    "id": "theme-marlins-fade-continues",
+    "id": "theme-marlins-swept-season-fading",
     "affinity": "morning",
     "topic": "sports",
     "topic_label": "Miami Sports",
-    "title": "Marlins fall to 72-74, wild-card deficit widens to five games",
+    "title": "Marlins are swept in a 15-14 shootout; playoff odds effectively zero",
     "importance": 0.5,
-    "thesis": "Two losses into this series, the pattern looks less like a slump than an honest read on where Miami sits against a real contender.",
-    "synthesis": "Francisco Lindor led off Tuesday's game with a home run and Juan Soto added a three-run shot as the Mets beat Miami 7-5 at loanDepot Park, New York's second straight win in the series -- already clinched. Sean Manaea was perfect through five before the wheels came off; Miami falls to 72-74. Arizona improved to 77-68 (an 11-inning win at Kansas City) and San Diego to 76-68 (a comeback win over Washington), still half a game apart for the final NL wild-card spot, with Miami roughly five games back and 16 left to play. Tonight's 6:40pm ET finale is close to must-win to avoid a sweep.",
-    "new_today": "Tuesday's 7-5 loss, the clinched series, and the widened five-game deficit are all new since yesterday's edition, which covered Monday's 9-4 loss and a 4.5-game gap.",
-    "why_it_matters": "The deficit itself understates it -- losing the same series twice to the same lineup, with a sweep now in play, is a harder tell on where this team actually stands than any single box score.",
+    "thesis": "Miami blew an eight-run deficit into a near-comeback and still lost -- the kind of game that captures a season sliding away in real time.",
+    "synthesis": "New York completed a three-game sweep with a wild 15-14 win Wednesday: the Mets led 8-0 in the third, Miami clawed back to lead 8-5 by the sixth, but New York scored six in the seventh (Lindor homered, Morel added an RBI single) and held on despite being outhit 20-15. Miami falls to 72-75, three games under .500 for the first time since June 9, and now sits roughly 6.5 games back of the final NL wild-card spot with 15 games left; FanGraphs puts the team's playoff odds at effectively zero. Miami closes the season against the Dodgers, Diamondbacks, Padres, and Braves.",
+    "new_today": "Wednesday's 15-14 result, the sweep, the fall to 72-75, and the effectively-zero playoff odds are all new since yesterday's edition.",
+    "why_it_matters": "Not mathematically eliminated yet, but this is the game the season turns on in hindsight -- a lineup that scored 14 runs and still couldn't win says more about the pitching than any single loss did.",
     "thread_id": "thread-marlins-wildcard",
     "confidence": "high",
     "sources": [
      {
       "role": "primary_reporting",
-      "publisher": "ESPN",
-      "headline": "Mets 7-5 Marlins (Sep 8, 2026) Box Score",
-      "url": "https://www.espn.com/mlb/boxscore/_/gameId/401816858"
+      "publisher": "Field Level Media",
+      "headline": "Mets outlast Marlins in wild 15-14 victory to complete sweep",
+      "url": "https://fieldlevelmedia.com/mlb/mets-outlast-marlins-in-wild-15-14-victory-to-complete-sweep/"
      },
      {
       "role": "background",
-      "publisher": "Amazin' Avenue",
-      "headline": "Mets manage win against the Marlins as Soto, Lindor, Baty hit home runs",
-      "url": "https://www.amazinavenue.com/new-york-mets-scores/100480/mets-marlins-recap-manaea-alcantara-lindor-soto-alvarez-zuber-ewing-young-ramirez-serna-baty-bichette"
+      "publisher": "Fish On First",
+      "headline": "Marlins postseason odds officially at zero after being swept by the Mets",
+      "url": "https://fishonfirst.com/news-rumors/miami-marlins/marlins-postseason-odds-officially-at-zero-after-being-swept-by-the-mets-r3937"
      }
     ]
    },
@@ -228,160 +248,160 @@
     "affinity": "morning",
     "topic": "sports",
     "topic_label": "Miami Sports",
-    "title": "Willis talks like a captain now; the Hurricanes' home opener is one day out",
-    "importance": 0.4,
-    "thesis": "Both Miami football programs are down to the final quiet days before the games that actually count.",
-    "synthesis": "Malik Willis, formally named a Dolphins captain Monday, described this week embracing his role as \"the face\" of Miami's rebuild -- leadership he says he drew from years as a backup in Tennessee and Green Bay, not the title following automatically from the starting job. Miami's real opener at Las Vegas is four days out. Separately, the Hurricanes' home opener against Florida A&M is now one day away, Thursday at 8pm at Hard Rock Stadium -- Miami has won each of the last 11 meetings between the two programs.",
-    "new_today": "Willis's own comments on embracing the leadership role are new color since yesterday's captaincy announcement; the Hurricanes' game moving from two days out to one day out is incremental.",
-    "why_it_matters": "Neither fact moves much on its own, but together they're the last quiet week either program gets before the results start counting for real.",
+    "title": "Hurricanes host FAMU tonight banged up in the secondary; Dolphins get a healthier report",
+    "importance": 0.45,
+    "thesis": "Both programs enter their next test with a mixed injury picture -- Miami's college team missing pieces on defense, the pro team trending the right direction days before its opener.",
+    "synthesis": "The Hurricanes' home opener against Florida A&M kicks off tonight, Thursday, 8pm at Hard Rock Stadium, with corner OJ Frederique Jr. out for an extended stretch after a shoulder injury on his very first defensive snap against Stanford, corner Ja'Boree Antoine also out, and safety Dylan Day sidelined by a non-football illness; running back Jordan Lyle's status remains unresolved. Separately, Dolphins coach Jeff Hafley reported all 53 active players practiced Wednesday, with tight end Will Kacmarek, linebacker Ronnie Harrison Jr., and receiver Chris Bell all clearing injury designations ahead of Sunday's opener at Las Vegas -- though receiver Tyreek Hill will not play Week 1, with doctors reportedly recommending he wait until at least October. Malik Willis makes his first career start as a Dolphin Sunday.",
+    "new_today": "The Hurricanes' fresh injury list, the Dolphins' clean Wednesday practice report, and the Tyreek Hill Week 1 update are all new since Tuesday.",
+    "why_it_matters": "Neither team's outcome is decided yet, but the injury pictures moving in opposite directions -- college defense thinning out, pro roster clearing up -- is the more useful signal than either team's record right now.",
     "thread_id": "thread-dolphins-hafley-rebuild",
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
      {
       "role": "primary_reporting",
-      "publisher": "The Phinsider",
-      "headline": "Miami Dolphins news roundup: Malik Willis perseverance, captains named, more",
-      "url": "https://www.thephinsider.com/miami-dolphins-news/122232/miami-dolphins-news-malik-willis-jacob-rodriguez-kyle-louis-rookies-tua-update"
+      "publisher": "Yahoo Sports / State of The U",
+      "headline": "Miami Hurricanes Injury/Availability Updates: Week 2 vs FAMU",
+      "url": "https://sports.yahoo.com/articles/miami-hurricanes-injury-availability-updates-201209231.html"
      },
      {
       "role": "background",
-      "publisher": "The Miami Hurricane",
-      "headline": "Riding high: Hurricanes football returns for home opener against FAMU",
-      "url": "https://themiamihurricane.com/2026/09/08/riding-high-hurricanes-football-returns-for-home-opener-against-famu/"
+      "publisher": "Yahoo Sports",
+      "headline": "Dolphins Get Encouraging Injury News Ahead of Season Opener vs. Raiders",
+      "url": "https://sports.yahoo.com/articles/dolphins-encouraging-injury-news-ahead-223417850.html"
      }
     ]
    },
    {
-    "id": "theme-miami-cre-institutional-wave",
+    "id": "theme-miami-cre-wave-fifth-deal",
     "affinity": "morning",
     "topic": "markets",
     "topic_label": "Markets & Macro",
-    "title": "A fourth institutional buyer joins Miami's real-estate buying wave",
+    "title": "A fifth institutional buyer joins Miami's industrial wave -- $195 million for a 10-building portfolio",
     "importance": 0.5,
-    "thesis": "Institutional conviction in Miami is broadening past warehouses into multifamily, against a national backdrop of rapidly loosening CRE financing.",
-    "synthesis": "A New York-based entity linked to Phoenix Realty Group paid $64.8 million for the 269-unit Altavista Bay Pointe apartments in Miami, bought from 184 Holdings LLC -- a fourth institutional buyer in three weeks alongside Ares ($108.7M, Hialeah/Sweetwater warehouses), Midtown Capital ($86M, Doral industrial portfolio), and Dalfen ($21.3M, Doral warehouse). Nationally, year-to-date private-label CMBS and CRE CLO issuance reached $39.7 billion through June, tracking near a record pace, with bank lending up roughly 80% and private credit up roughly 133% year over year -- though a meaningful set of maturing loans, especially office, still can't refinance cleanly.",
-    "new_today": "The Phoenix Realty deal and the national CMBS/lending figures are new since the thread was last touched September 6.",
-    "why_it_matters": "Multifamily joining the industrial wave, not just warehouses, is the more interesting signal for where institutional conviction is actually building right now -- worth tracking against your own underwriting on the financing side.",
+    "thesis": "The buying wave just posted its largest single deal yet, and it's the kind of granular, multi-tenant portfolio that signals genuine operating conviction, not just a land bet.",
+    "synthesis": "Boston-based Longpoint Partners paid $195 million ($267/sf) for a 10-building, 730,000-square-foot Miami-Dade small-bay industrial portfolio -- 90% leased across 74 tenants averaging roughly 10,000 square feet each. It's the fifth institutional Miami-area industrial or multifamily deal in roughly three weeks, following Ares ($108.7M), Midtown Capital ($86M), Dalfen ($21.3M), and Phoenix Realty Group ($64.8M).",
+    "new_today": "The Longpoint deal is new since yesterday's edition.",
+    "why_it_matters": "A 74-tenant, small-bay portfolio is a bet on granular demand rather than a single credit tenant -- worth noting against your own underwriting on how much conviction is really building at the tenant level, not just the land-basis level.",
     "thread_id": "thread-cre-capital-markets-2026",
     "confidence": "medium",
     "sources": [
      {
       "role": "primary_reporting",
-      "publisher": "Hawkins Commercial Realty",
-      "headline": "Miami Commercial Real Estate News September 2, 2026",
-      "url": "https://www.hawkinscre.com/miami-commercial-real-estate-news-september-2-2026-700m-mana-wynwood-purchase-by-ken-griffin-rumored-west-palm-mf-sells-for-208m-more/"
-     },
-     {
-      "role": "analysis",
-      "publisher": "SitusAMC",
-      "headline": "CRE Valuations Hold Steady as Capital Markets Head Into 2026: Debt & Equity",
-      "url": "https://www.situsamc.com/resources-insights/articles/cre-valuations-hold-steady-capital-markets-head-2026-debt-equity"
-     }
-    ]
-   },
-   {
-    "id": "theme-quantum-gravity-equivalence-test",
-    "affinity": "evening",
-    "topic": "living",
-    "topic_label": "Art of Living",
-    "title": "Physicists directly measure Einstein's gravity acting on a falling quantum object",
-    "importance": 0.45,
-    "thesis": "A century-old foundational principle just passed its first direct quantum-scale test -- and held.",
-    "synthesis": "A team led by Ben-Gurion University of the Negev, the University of Ulm, and the University of Oxford -- including Nobel laureate Sir Roger Penrose -- used a device called the Quantum Galileo Interferometer to split ultracold rubidium atoms into two quantum paths, holding one stationary while the other fell freely under gravity before recombining them to measure the resulting phase difference. The result, published in Science Advances on September 3, directly confirms that Einstein's equivalence principle -- the idea that gravity affects all matter identically regardless of composition -- holds for matter behaving quantum mechanically, not just classically. The experiment doesn't unify gravity with quantum mechanics, but the technique opens the door to testing heavier objects, like nanodiamonds, next.",
-    "new_today": "Labeled exploration, outside this week's usual coverage: a foundational physics result that rewards a slower read than a market or sports item.",
-    "why_it_matters": "It's a rare case of a hundred-year-old idea getting a genuinely new kind of evidence rather than another confirmation of the same kind -- worth noticing how rarely that happens in any field.",
-    "thread_id": null,
-    "confidence": "high",
-    "sources": [
-     {
-      "role": "primary_reporting",
-      "publisher": "University of Oxford, Department of Physics",
-      "headline": "Scientists observe Einstein's gravity in the quantum world",
-      "url": "https://www.physics.ox.ac.uk/news/scientists-observe-einsteins-gravity-quantum-world"
+      "publisher": "The Real Deal",
+      "headline": "Longpoint Partners buys Miami-Dade industrial portfolio",
+      "url": "https://therealdeal.com/miami/2026/09/09/longpoint-partners-buys-miami-dade-industrial-portfolio/"
      },
      {
       "role": "background",
-      "publisher": "ScienceDaily",
-      "headline": "Scientists observe Einstein's gravity in the quantum world for the first time",
-      "url": "https://www.sciencedaily.com/releases/2026/09/260907201552.htm"
+      "publisher": "Weekly Real Estate News",
+      "headline": "Longpoint Partners Acquires 10-Building Miami-Area Industrial Portfolio for $195 Million",
+      "url": "https://wrenews.com/longpoint-partners-acquires-10-building-miami-area-industrial-portfolio-for-195-million/"
      }
     ]
    },
    {
-    "id": "theme-caffeine-ampk-cellular-switch",
+    "id": "theme-gta6-vice-city-banner-vote",
+    "affinity": "morning",
+    "topic": "miami",
+    "topic_label": "Miami Life & Culture",
+    "title": "Miami commission votes today on paid GTA6 banners downtown",
+    "importance": 0.4,
+    "thesis": "A quirky marketing tie-in turned into a real municipal vote, with real money attached to a park project that just lost its federal funding.",
+    "synthesis": "Miami city commissioner Damian Pardo sponsored an ordinance temporarily loosening downtown signage rules from October 15 through December 31 -- bracketing GTA6's November 19 launch -- to let Rockstar/Take-Two rent up to six downtown banners at $202,000 apiece, roughly $1.2 million total, with proceeds earmarked for the Underdeck Heritage Trail park, whose funding gap widened after the Trump administration pulled a $60 million federal grant. The city commission is scheduled to vote today, September 10. Opposition has hardened: Miami-Dade's sheriff and a county commissioner issued a joint statement against the plan, and the county's chief judge and clerk of courts separately asked that courthouses be excluded from any branding.",
+    "new_today": "The Pardo ordinance, the banner pricing, the funding rationale, and today's scheduled vote are all new -- and distinct from the county-level \"Vice City\" pitch deck to Rockstar already being tracked, which remains unresolved.",
+    "why_it_matters": "It's a small vote, but a real one -- the first concrete municipal money-and-signage decision to come out of a saga that's mostly been pitch decks and rumor so far.",
+    "thread_id": "thread-miami-vice-city-gta6-pitch",
+    "confidence": "medium",
+    "sources": [
+     {
+      "role": "primary_reporting",
+      "publisher": "GTA Boom",
+      "headline": "Miami wants Rockstar to pay $202,000 a banner to brand downtown for GTA 6",
+      "url": "https://www.gtaboom.com/miami-wants-rockstar-to-pay-202000-a-banner-to-brand-downtown-for-gta-6-68ce"
+     },
+     {
+      "role": "background",
+      "publisher": "RockstarINTEL",
+      "headline": "Downtown Miami pushing for GTA 6 billboards to go up next month",
+      "url": "https://rockstarintel.com/downtown-miami-pushing-for-gta-6-billboards-to-go-up-next-month/"
+     }
+    ]
+   },
+   {
+    "id": "theme-drug-development-broken",
     "affinity": "evening",
     "topic": "living",
     "topic_label": "Art of Living",
-    "title": "Your coffee reaches a cellular repair switch that has nothing to do with staying awake",
-    "importance": 0.4,
-    "thesis": "The most familiar daily ritual turns out to have a second, mostly unnoticed biological story running underneath the obvious one.",
-    "synthesis": "Researchers at Queen Mary University of London and the Francis Crick Institute found that caffeine activates AMPK, an ancient cellular energy-sensing system found across nearly all life, independent of its effect on adenosine receptors -- the mechanism behind the alertness everyone already knows. AMPK activation is tied to stress resistance, DNA repair, and cell growth regulation, all factors linked to aging and disease resistance -- suggesting caffeine's long-observed associations with healthier aging may run through a completely different pathway than the one it's known for.",
-    "new_today": "Reported September 8; a second labeled exploration item, chosen because it reframes something entirely ordinary rather than reporting something new for its own sake.",
-    "why_it_matters": "A small, good reminder that the most familiar habits often carry a second story underneath the obvious one -- worth noticing that the thing you already do for one reason might matter for a completely different one.",
+    "title": "Why the search for new cures has stalled -- and what might unstall it",
+    "importance": 0.45,
+    "thesis": "A precise, well-reported diagnosis of a genuine institutional failure, with none of the usual false cheer about a fix around the corner.",
+    "synthesis": "In a New York Times Magazine feature published this week, David Wallace-Wells traces how American drug development has quietly stalled -- Phase 1 trial costs have roughly doubled since 2017 -- even as the underlying science has never moved faster. He frames it less as a single villain (the FDA, pharma economics, and venture incentives all share blame) than as a systemic drag worth understanding on its own terms, and argues the same conditions that produced the slowdown also describe what would need to change to fix it.",
+    "new_today": "Labeled exploration, outside the week's usual coverage -- a slower analytical read chosen because it reframes a topic (medical progress) usually covered only through isolated breakthroughs.",
+    "why_it_matters": "A good discipline for reading any \"innovation is dying\" story: the specific mechanism (trial costs, not talent or ideas) is more useful than the mood.",
     "thread_id": null,
     "confidence": "medium",
     "sources": [
      {
       "role": "primary_reporting",
-      "publisher": "SciTechDaily",
-      "headline": "New Research Reveals That Your Morning Coffee Activates an Ancient Longevity Switch",
-      "url": "https://scitechdaily.com/new-research-reveals-that-your-morning-coffee-activates-an-ancient-longevity-switch/"
+      "publisher": "The New York Times Magazine",
+      "headline": "The Search for New Cures Is Broken",
+      "url": "https://www.nytimes.com/2026/09/04/magazine/drug-development-innovation.html"
      }
     ]
    }
   ],
   "rabbit_hole": {
-   "id": "rh-2026-09-09",
-   "title": "Does Computer Science Need Computers?",
-   "creator": "Quanta Magazine",
+   "id": "rh-2026-09-10",
+   "title": "AI Has Solved One of Math's $1 Million Millennium Prize Problems -- Maybe",
+   "creator": "Quanta Magazine (Konstantin Kakaes)",
    "format": "article",
-   "minutes": 18,
-   "why": "Theoretical computer science presents itself as pure mathematics -- the study of computation as an abstract object, no machine required. But the field's biggest open questions, P versus NP chief among them, were only ever asked because computers existed to make them urgent. A genuinely odd question about whether an entire discipline's independence from its own tools is real or a convenient fiction it tells itself.",
-   "url": "https://www.quantamagazine.org/does-computer-science-need-computers-20260828/",
+   "minutes": 22,
+   "why": "OpenAI says a swarm of autonomous agents proved the Navier-Stokes equations can \"blow up\" -- a partial resolution of a Millennium Prize problem, converged on in 88 hours. The math is real, but so is the mess underneath it: an NYU mathematician says the agents built on his own unpublished work through a rival's coding platform, without credit. A rare, live case study in what authorship even means once the solver is a machine.",
+   "url": "https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/",
    "related_interest": "living"
   },
   "beautiful_thing": {
-   "id": "bt-2026-09-09",
-   "title": "The Hidden Gallery Above the Natural History Museum's Entrance",
-   "creator": "Natural History Museum, London (Waterhouse building)",
-   "era": "Built 1881; closed to the public in 1943; reopening September 16, 2026 after more than 80 years",
-   "body": "The gallery sits directly above the museum's main entrance, a mirror in size and position to the mineral gallery on the floor below. It began as an osteology and mammal gallery when the museum opened in 1881. After German bombing damaged the museum's original herbarium during the Second World War, the space was repurposed to store the rescued botanical collections and quietly closed to the public -- a wartime fix that outlasted the war by eight decades. It reopens for eighteen months as \"Nature and Us,\" fifty objects tracing humanity's changing relationship with the natural world, among them a Victorian skeleton of a monk seal named Jenny and, smaller and stranger, a 1980s Star Wars toy recovered from the sea, its surface entirely encrusted with bryozoans -- a plastic action figure that time and ocean life quietly turned into a fossil of the present.",
-   "url": "https://www.nhm.ac.uk/press-office/press-releases/the-natural-history-museum-to-reopen-hidden-gallery-closed-since.html",
+   "id": "bt-2026-09-10",
+   "title": "One Becomes Many",
+   "creator": "Pérez Art Museum Miami, featuring Sonia Gomes, Rubem Valentim, Mestre Didi, Emanoel Araújo, and other Afro-Brazilian artists",
+   "era": "Contemporary works drawing on Candomblé's sacred geometry and ancestral imagery; the exhibition closes September 13, 2026",
+   "body": "Sonia Gomes builds bundled, tactile sculptures from wound fabric and found thread that read as reliquaries as much as abstractions; Rubem Valentim's precise geometric paintings translate orixá symbology into a formal language close to hard-edge modernism. Together with Mestre Didi's beaded and shell-covered ritual sculpture, the show is one of the first US museum surveys built around Candomblé itself, rather than its visual influence on Brazilian modernism more broadly. It closes Saturday -- worth seeing this weekend.",
+   "url": "https://www.pamm.org/en/exhibition/one-becomes-many/",
    "image": null,
-   "alt": "A grand Victorian museum gallery with high arched windows and glass display cases, reopening after decades closed to the public"
+   "alt": "Textile and sculptural works drawing on Afro-Brazilian Candomblé sacred geometry, displayed in a museum gallery"
   },
   "noticing_prompt": {
-   "id": "np-2026-09-09",
-   "text": "A defense drone that had simply malfunctioned got reported today as a capture, because both sides needed a version of the story that served them. Notice, once today, an explanation you accepted because it was convenient rather than because you actually checked it."
+   "id": "np-2026-09-10",
+   "text": "The Marlins scored fourteen runs Wednesday and still lost. Notice, once today, a moment where you're measuring the wrong thing -- effort instead of the actual result."
   },
   "daily_puzzle": {
-   "id": "dp-2026-09-09",
-   "type": "logic",
-   "prompt": "An analyst tells you: \"Every deal I approve turns a profit, and every deal that turns a profit is one I approved.\" At the end of the quarter, one deal in the portfolio lost money. What can you conclude about that deal, and why?",
-   "hint": "Restate her second sentence as an if-then statement, then ask what follows when the conclusion of an if-then is false.",
-   "solution": "The analyst did not approve that deal.",
-   "explanation": "Her second claim -- \"every profitable deal is one I approved\" -- means \"profitable implies approved.\" A deal that lost money isn't profitable, so by contraposition it can't be one she approved, regardless of what her first sentence claims about her own track record."
+   "id": "dp-2026-09-10",
+   "type": "lateral",
+   "prompt": "A landlord leases two identical, adjacent storefronts -- same square footage, same term, same start date. One tenant pays $40 per square foot. The other pays $22. Both signed happily, and neither is getting a worse deal than the other. What's true of the $22 tenant that isn't true of the $40 one?",
+   "hint": "Ask why a landlord would ever want to charge one tenant less than the market rate for identical space.",
+   "solution": "The $22 tenant is the anchor -- a well-known grocery store, bank, or big-box retailer whose name and foot traffic draw customers past every other storefront on the block.",
+   "explanation": "Landlords routinely rent to anchors below market because the anchor isn't really renting space -- it's selling foot traffic, and that traffic is what lets every smaller in-line tenant justify paying full price."
   },
   "evening_unwind": {
-   "id": "eu-2026-09-09",
+   "id": "eu-2026-09-10",
    "evening_quote": {
-    "text": "We suffer more often in imagination than in reality.",
-    "attribution": "Seneca",
-    "source": "Letters to Lucilius, 13.4"
+    "text": "Some things are within our power, while others are not.",
+    "attribution": "Epictetus",
+    "source": "Enchiridion, 1"
    },
-   "evening_prompt": "A drone that had merely malfunctioned got treated today as a capture by one side and a non-event by the other -- pick one thing from today that felt like a big deal by lunchtime, and check tonight whether it actually was."
+   "evening_prompt": "Sort one thing that felt urgent today -- an oil price, a football injury report, a city vote -- into \"within your control\" or not, and notice how few of them actually were."
   },
   "reading_queue": [
    {
     "title": "The Radical Reasons Why You Dream of Making Things by Hand",
     "url": "https://aeon.co/essays/the-radical-reasons-why-you-dream-of-making-things-by-hand",
     "verdict": "weekend",
-    "reason": "Still unread and still fits craft_and_making, your highest-weighted subtopic right now -- better suited to an unhurried weekend read than a weekday slot."
+    "reason": "Still unread and still fits craft_and_making, your highest-weighted subtopic -- better suited to an unhurried weekend read than a weekday slot."
    }
   ],
   "quote": {
-   "text": "We suffer more often in imagination than in reality.",
-   "attribution": "Seneca"
+   "text": "Some things are within our power, while others are not.",
+   "attribution": "Epictetus"
   }
  },
  "threads": [
@@ -390,9 +410,9 @@
    "title": "US-Iran conflict and the Strait of Hormuz",
    "topic": "markets",
    "status": "active",
-   "last_updated": "2026-09-09",
-   "updates": 59,
-   "current_state": "Wednesday brings the most materially damaging exchange yet: CENTCOM destroyed five Iranian crude tankers outright after two missile attacks on a US warship in as many days (both missed), while Iran claims -- disputed by the Pentagon -- that it captured a US underwater drone and struck ten vessels in retaliation. Iran's planned Hormuz \"exclusion zone\" from Tuesday has not yet been formally declared. Brent holds near $97, a seven-week high.",
+   "last_updated": "2026-09-10",
+   "updates": 60,
+   "current_state": "Thursday brings the widest single wave of this war yet: after Tuesday's destruction of five Iranian tankers, Iran retaliated with roughly twenty ballistic missiles at Jordan's Al Azraq air base (Jordan says it intercepted eighteen; no casualties), claimed a ten-vessel strike wave near Hormuz that reportedly killed one seafarer and left another missing, and Brent crude broke above $100 for the first time in six weeks, closing Wednesday at $101.21. Iran's planned Hormuz \"exclusion zone\" still has not been formally declared with boundaries.",
    "timeline": [
     {
      "date": "2026-07-21",
@@ -688,17 +708,23 @@
      "date": "2026-09-09",
      "summary": "CENTCOM says it destroyed five Iranian crude oil tankers Tuesday after the IRGC targeted a US Navy warship with ballistic missiles twice over two days; the warship evaded both attacks and no Americans were harmed. Iran's Revolutionary Guard separately claims it captured a US Anduril-made Dive-LD unmanned underwater drone near the strait's entrance at dawn Tuesday; a Pentagon spokesperson says the drone had malfunctioned more than a day earlier and carried no classified sonar or radar equipment. Iran's IRGC claims it retaliated by striking two US-linked vessels and eight oil tankers -- \"10 offending vessels\" -- in the Gulf. Brent held near a seven-week high around $97.",
      "change_type": "worsened"
+    },
+    {
+     "date": "2026-09-10",
+     "summary": "Iran retaliated for Tuesday's tanker strikes with roughly twenty ballistic missiles at Jordan's Al Azraq air base (Jordan says it intercepted eighteen, two fell in unpopulated areas, no casualties) and claimed a separate ten-vessel strike wave near Hormuz -- the largest declared wave of shipping attacks since the six-month war began -- reportedly killing one seafarer and leaving another missing. Brent crude broke above $100 for the first time in six weeks, closing Wednesday at $101.21 (WTI $96.05), the highest settle since May. Iran's planned exclusion zone remains undeclared.",
+     "change_type": "worsened"
     }
-   ]
+   ],
+   "importance": 0.95
   },
   {
    "id": "thread-fed-rate-path",
    "title": "Federal Reserve rate path",
    "topic": "markets",
    "status": "active",
-   "last_updated": "2026-09-09",
-   "updates": 55,
-   "current_state": "Tuesday's selloff (S&P -0.58% to 7,673.52, Dow -628pts, Nasdaq -0.32% to 26,421.41) was driven by the Hormuz escalation rather than any Fed repricing -- September hike odds on CME FedWatch still sit near 58-60%, essentially where they've been since Friday. The 10-year holds near 4.79%. August CPI, Friday September 11 at 8:30am ET, remains the last input before the September 16 decision.",
+   "last_updated": "2026-09-10",
+   "updates": 56,
+   "current_state": "Wednesday's close added real Treasury-market stress to the picture: the 10-year rose to roughly 4.83-4.85%, its highest close since October 2023, on fiscal worries and heavy AI-sector corporate debt issuance, while Brent's break above $100 added further pressure. CME FedWatch readings for a September 16 quarter-point hike ranged 56-66% across trackers this week, an unusually wide and fast-moving spread reflecting new Fed Chair Kevin Warsh's hawkish late-August Jackson Hole remarks. August CPI, due Friday September 11 at 8:30am ET, remains the last input before the decision.",
    "timeline": [
     {
      "date": "2026-07-18",
@@ -974,17 +1000,23 @@
      "date": "2026-09-09",
      "summary": "Tuesday's confirmed close: S&P 500 -0.58% to 7,673.52, Nasdaq -0.32% to 26,421.41, Dow -628.18 points (-1.18%) to 52,786.07 -- the week's worst session, as investors weighed the fresh Hormuz escalation (five Iranian tankers destroyed, a disputed US drone capture) against Friday's looming CPI. The 10-year held near 4.79%. September hike odds on CME FedWatch sit roughly 58-60%, essentially unchanged, with August CPI on Friday, September 11 at 8:30am ET still the last input before the September 16 decision.",
      "change_type": "worsened"
+    },
+    {
+     "date": "2026-09-10",
+     "summary": "Wednesday's confirmed close: S&P 500 -0.48% to 7,636.36, Nasdaq -0.64% to 26,253.34, Dow -405.41 (-0.77%) to 52,380.66, Russell 2000 -1.30%. The 10-year rose to roughly 4.83-4.85%, its highest close since October 2023, on fiscal worries and heavy AI-sector debt issuance. CME FedWatch's September hike odds ranged 56-66% across trackers this week -- an unusually wide, fast-moving spread tied to Fed Chair Kevin Warsh's hawkish Jackson Hole remarks. August CPI, Friday September 11 at 8:30am ET, remains the deciding input.",
+     "change_type": "worsened"
     }
-   ]
+   ],
+   "importance": 0.75
   },
   {
    "id": "thread-marlins-wildcard",
    "title": "Marlins wild card race",
    "topic": "sports",
    "status": "active",
-   "last_updated": "2026-09-09",
-   "updates": 59,
-   "current_state": "New York has already clinched the series: Tuesday's 7-5 loss (Lindor and Soto both homered early) drops Miami to 72-74, with Arizona (77-68) and San Diego (76-68) holding the final NL wild-card spot roughly five games clear with 16 left to play. Tonight's 6:40pm ET finale at loanDepot Park is close to must-win to avoid a sweep.",
+   "last_updated": "2026-09-10",
+   "updates": 60,
+   "current_state": "New York completed a three-game sweep with a wild 15-14 win Wednesday, overcoming Miami's comeback from an 8-0 deficit; the Marlins fall to 72-75, three games under .500 for the first time since June 9, roughly 6.5 games back of the final NL wild-card spot with 15 left. FanGraphs puts Miami's playoff odds at effectively zero; the team is not yet mathematically eliminated but closes the season against the Dodgers, Diamondbacks, Padres, and Braves.",
    "timeline": [
     {
      "date": "2026-07-18",
@@ -1275,8 +1307,14 @@
      "date": "2026-09-09",
      "summary": "The Mets beat Miami 7-5 Tuesday night -- Francisco Lindor led off the game with a home run and Juan Soto added a three-run shot as New York jumped ahead early and held on despite a shaky Sean Manaea outing. Miami falls to 72-74 and New York has already clinched the series. Arizona improved to 77-68 (an 11-inning win at Kansas City) and San Diego to 76-68 (a comeback win over Washington), still half a game apart for the final NL wild-card spot -- Miami's deficit widens to roughly five games with 16 left to play. The series finale is tonight, September 9, at 6:40pm ET at loanDepot Park.",
      "change_type": "worsened"
+    },
+    {
+     "date": "2026-09-10",
+     "summary": "The Mets completed a three-game sweep with a 15-14 win Wednesday -- New York led 8-0 in the third, Miami clawed back to lead 8-5 by the sixth, but the Mets scored six in the seventh (Lindor homered, Morel added an RBI single) and held on despite being outhit 20-15. Miami falls to 72-75, three games under .500 for the first time since June 9, roughly 6.5 games back of the final NL wild-card spot with 15 left; FanGraphs puts playoff odds at effectively zero.",
+     "change_type": "worsened"
     }
-   ]
+   ],
+   "importance": 0.45
   },
   {
    "id": "thread-heat-giannis-era",
@@ -1324,9 +1362,9 @@
    "title": "Dolphins rebuild under Hafley",
    "topic": "sports",
    "status": "active",
-   "last_updated": "2026-09-08",
-   "updates": 39,
-   "current_state": "Jeff Hafley named six captains, including starting QB Malik Willis, heading into Sunday's real season opener at Las Vegas -- the first test of Miami's rebuild after an offseason that shed Tagovailoa, Waddle, and Hill.",
+   "last_updated": "2026-09-10",
+   "updates": 40,
+   "current_state": "Coach Jeff Hafley reported all 53 active players practiced Wednesday, with tight end Will Kacmarek, linebacker Ronnie Harrison Jr., and receiver Chris Bell all clearing injury designations ahead of Sunday's opener at Las Vegas. Receiver Tyreek Hill will not play Week 1, with doctors reportedly recommending he wait until at least October; Malik Willis makes his first career start as a Dolphin Sunday.",
    "timeline": [
     {
      "date": "2026-07-18",
@@ -1522,17 +1560,23 @@
      "date": "2026-09-08",
      "summary": "Head coach Jeff Hafley named six team captains ahead of Sunday's opener at Las Vegas, including QB Malik Willis -- Hafley said the vote reflects the locker room's respect for Willis rather than the honor simply following the starting job.",
      "change_type": "advanced"
+    },
+    {
+     "date": "2026-09-10",
+     "summary": "Hafley said all 53 active-roster players practiced Wednesday -- tight end Will Kacmarek and linebacker Ronnie Harrison Jr. returned after missing last week, and receiver Chris Bell (off the non-football-injury list) is a full go for Week 1. Receiver Tyreek Hill will not play Week 1, with doctors reportedly recommending he wait until at least October to attempt a comeback. Malik Willis makes his first career start as a Dolphin Sunday at Las Vegas.",
+     "change_type": "advanced"
     }
-   ]
+   ],
+   "importance": 0.5
   },
   {
    "id": "thread-hurricanes-fall-camp",
    "title": "Miami Hurricanes fall camp and the Mensah era",
    "topic": "sports",
    "status": "active",
-   "last_updated": "2026-09-06",
-   "updates": 12,
-   "current_state": "Miami's 45-6 rout of Stanford answered fall camp's questions emphatically. The Hurricanes host Florida A&M Thursday, September 10 at Hard Rock Stadium in their home opener. Cam Vaughn's lawsuit remains dropped; Jordan Lyle's felony aggravated-fleeing charge remains open and unresolved, and he remains on the roster.",
+   "last_updated": "2026-09-10",
+   "updates": 13,
+   "current_state": "The Hurricanes host Florida A&M tonight, Thursday September 10, 8pm at Hard Rock Stadium, banged up in the secondary: corner OJ Frederique Jr. is out for an extended stretch after a shoulder injury on his very first defensive snap against Stanford, corner Ja'Boree Antoine is also out, and safety Dylan Day is sidelined by a non-football illness. Running back Jordan Lyle's status remains unresolved; his felony fleeing/eluding charge remains open.",
    "timeline": [
     {
      "date": "2026-08-14",
@@ -1593,8 +1637,14 @@
      "date": "2026-09-06",
      "summary": "Miami's home opener is set for Thursday, September 10 at 8pm against Florida A&M at Hard Rock Stadium -- the last non-conference tune-up before ACC play begins.",
      "change_type": "watch"
+    },
+    {
+     "date": "2026-09-10",
+     "summary": "Ahead of tonight's home opener against Florida A&M, Miami's secondary is thinner than it was at Stanford: corner OJ Frederique Jr. suffered a serious shoulder injury on his first defensive snap of the season and will be out for an extended stretch, corner Ja'Boree Antoine is also out, and safety Dylan Day is sidelined by a non-football illness. Cristobal declined to give a hard update on running back Jordan Lyle's status.",
+     "change_type": "watch"
     }
-   ]
+   ],
+   "importance": 0.6
   },
   {
    "id": "thread-miami-summer-openings",
@@ -1718,9 +1768,9 @@
    "title": "2026 CRE capital markets under pressure",
    "topic": "markets",
    "status": "active",
-   "last_updated": "2026-09-09",
-   "updates": 29,
-   "current_state": "The institutional buying wave now runs four deep in three weeks -- Ares ($108.7M, Hialeah/Sweetwater warehouses), Midtown Capital ($86M, Doral industrial portfolio), Dalfen ($21.3M, Doral warehouse), and now Phoenix Realty Group ($64.8M, Altavista Bay Pointe apartments) -- against a national backdrop of near-record CMBS/CLO issuance ($39.7B YTD through June) and rapidly growing bank and private-credit lending, even as office loan maturities stay the market's soft spot.",
+   "last_updated": "2026-09-10",
+   "updates": 30,
+   "current_state": "The institutional buying wave now runs five deep in roughly three weeks: Ares ($108.7M, Hialeah/Sweetwater warehouses), Midtown Capital ($86M, Doral industrial), Dalfen ($21.3M, Doral warehouse), Phoenix Realty Group ($64.8M, Altavista Bay Pointe apartments), and now Longpoint Partners' $195M purchase of a 10-building, 730,000-square-foot small-bay industrial portfolio -- 90% leased across 74 tenants -- the largest single deal of the wave.",
    "timeline": [
     {
      "date": "2026-07-24",
@@ -1871,17 +1921,23 @@
      "date": "2026-09-09",
      "summary": "A New York-based entity linked to Phoenix Realty Group paid $64.8 million for the 269-unit Altavista Bay Pointe apartments in Miami, bought from 184 Holdings LLC -- a fourth institutional buyer in three weeks alongside Ares, Midtown Capital, and Dalfen. Separately, year-to-date private-label CMBS and CRE CLO issuance nationally reached $39.7 billion through June, tracking near a record pace, with bank lending up roughly 80% and private credit up roughly 133% year over year -- more competitive financing options for 2026 refinancings even as office loan maturities remain the market's weak link.",
      "change_type": "advanced"
+    },
+    {
+     "date": "2026-09-10",
+     "summary": "Boston-based Longpoint Partners paid $195 million ($267/sf) for a 10-building, 730,000-square-foot Miami-Dade small-bay industrial portfolio, 90% leased across 74 tenants averaging roughly 10,000 square feet each -- the fifth institutional Miami-area deal in three weeks and the largest single transaction of the wave.",
+     "change_type": "advanced"
     }
-   ]
+   ],
+   "importance": 0.55
   },
   {
    "id": "thread-miami-worldcenter-development",
    "title": "Miami Worldcenter's next phase",
    "topic": "markets",
    "status": "active",
-   "last_updated": "2026-07-27",
-   "updates": 2,
-   "current_state": "Witkoff and Monroe Capital's $303M construction loan for 700 North Miami Avenue is now joined by a separate listing: a two-acre site nearby, One Miami World, expected to fetch well over $100M versus its $44M 2020 purchase price.",
+   "last_updated": "2026-09-10",
+   "updates": 3,
+   "current_state": "Witkoff and Monroe Capital's $303M construction loan for 700 North Miami Avenue and the still-unsold two-acre \"One Miami World\" site listing remain unchanged. Separately, a different 1.4-acre Worldcenter hotel/residential site controlled by Tokyo's Kasumigaseki Capital transferred to an affiliated entity, BCE Miami Property LLC, for $138.7 million -- flagged by reporters as a recapitalization rather than an arm's-length sale.",
    "timeline": [
     {
      "date": "2026-07-26",
@@ -1892,6 +1948,11 @@
      "date": "2026-07-27",
      "summary": "A separate two-acre parcel, One Miami World, is listed for sale, expected to fetch well over $100M versus the $44M paid to assemble it in 2020.",
      "change_type": "advanced"
+    },
+    {
+     "date": "2026-09-10",
+     "summary": "A separate 1.4-acre Worldcenter hotel/residential site controlled by Tokyo's Kasumigaseki Capital transferred to an affiliated entity, BCE Miami Property LLC, for $138.7 million -- reported as a recapitalization rather than an arm's-length sale, and distinct from the still-unsold \"One Miami World\" parcel.",
+     "change_type": "watch"
     }
    ]
   },
@@ -2074,10 +2135,10 @@
    "id": "thread-miami-vice-city-gta6-pitch",
    "title": "Miami-Dade's \"Vice City\" pitch to Rockstar Games",
    "topic": "miami",
-   "status": "emerging",
-   "last_updated": "2026-09-02",
-   "updates": 2,
-   "current_state": "Miami-Dade's pitch to Rockstar for a real-world Vice City takeover (airport rebranding, wrapped Metromover cars, branded manhole covers, PortMiami and Tropical Park events) still has no formal approval. GTA 6 now has a confirmed November 19, 2026 launch date, putting a real clock on whether the county's proposal moves forward before then.",
+   "status": "active",
+   "last_updated": "2026-09-10",
+   "updates": 3,
+   "current_state": "A separate, city-level ordinance sponsored by Commissioner Damian Pardo -- temporarily loosening downtown signage rules from October 15 through December 31 to let Rockstar/Take-Two rent up to six downtown banners at $202,000 apiece (~$1.2M total), proceeds earmarked for the Underdeck Heritage Trail park's funding gap -- goes to a Miami city commission vote today, September 10. Miami-Dade's sheriff and a county commissioner have issued a joint statement opposing it, and the county's chief judge and clerk of courts separately asked that courthouses be excluded from any branding. The county-level \"Vice City\" pitch deck to Rockstar remains unresolved and unrelated to this city vote.",
    "timeline": [
     {
      "date": "2026-08-31",
@@ -2088,22 +2149,33 @@
      "date": "2026-09-02",
      "summary": "Grand Theft Auto VI is now confirmed for a worldwide launch on November 19, 2026 on PlayStation 5 and Xbox Series X/S, giving Miami-Dade's pitch to Rockstar an actual deadline to move on before. County officials reiterate nothing has been formally agreed to or approved, and any deal would still need to clear standard county review.",
      "change_type": "watch"
+    },
+    {
+     "date": "2026-09-10",
+     "summary": "A city-level ordinance from Commissioner Damian Pardo -- allowing up to six paid downtown banners at $202,000 each (Oct 15-Dec 31), with proceeds funding the Underdeck Heritage Trail park after a $60M federal grant for it was pulled -- goes to a Miami city commission vote today. Miami-Dade's sheriff and a county commissioner oppose it; the county's chief judge and clerk of courts want courthouses excluded from any branding. Distinct from the still-unapproved county-level Vice City pitch deck.",
+     "change_type": "advanced"
     }
-   ]
+   ],
+   "importance": 0.4
   },
   {
    "id": "thread-bass-fall-season-2026",
    "title": "The Bass's 2026-27 fall season",
    "topic": "miami",
    "status": "watch",
-   "last_updated": "2026-09-07",
-   "updates": 1,
-   "current_state": "The Bass opens Thursday, September 17 with Yuko Mohri's \"Unviolated Imperfection\" (through April 25, 2027), her first US museum solo show, alongside Sarah Zapata's \"Against a State of Malevolence\" and Amalia Pica's \"Lecturas Posibles\" in the new Collins Park rotunda gallery. Ten days out.",
+   "last_updated": "2026-09-10",
+   "updates": 2,
+   "current_state": "The Bass opens Thursday, September 17 with Yuko Mohri's \"Unviolated Imperfection\" (through April 25, 2027), alongside Sarah Zapata's \"Against a State of Malevolence\" and Amalia Pica's \"Lecturas Posibles.\" The opening reception runs 6-9pm on September 17 at The Bass and The Rotunda, with RSVP requested by today, September 10.",
    "timeline": [
     {
      "date": "2026-09-07",
      "summary": "First tracked as its own thread: full exhibition detail surfaces on Mohri's show, which treats decay and improvisation as generative rather than as flaws, running through April 25, 2027.",
      "change_type": "new"
+    },
+    {
+     "date": "2026-09-10",
+     "summary": "The Bass confirmed its opening reception for the fall season runs 6-9pm on September 17 at The Bass and The Rotunda, with RSVP requested by today.",
+     "change_type": "watch"
     }
    ]
   }
@@ -2127,7 +2199,7 @@
   }
  ],
  "meta": {
-  "content_freshness": "2026-09-09T09:30:00-04:00",
+  "content_freshness": "2026-09-10T09:30:00-04:00",
   "feedback_endpoint_mode": "github_contents",
   "minimum_client_schema_version": 1,
   "mode": "brain"
