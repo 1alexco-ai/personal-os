@@ -1,395 +1,429 @@
 {
  "schema_version": 2,
  "edition": {
-  "id": "2026-09-10",
-  "date": "2026-09-10",
+  "id": "2026-09-11",
+  "date": "2026-09-11",
   "type": "weekday",
-  "generated_at": "2026-09-10T09:30:00-04:00",
+  "generated_at": "2026-09-11T09:30:00-04:00",
   "timezone": "America/New_York",
   "title": "Personal OS",
   "front_page_letter": {
    "greeting": "Good morning",
    "body_paragraphs": [
-    "Iran answered Tuesday's tanker strikes with its widest retaliation yet: roughly twenty missiles at a Jordanian air base (most intercepted, no casualties), a claimed ten-vessel strike wave near Hormuz that reportedly killed one seafarer, and Brent crude breaking $100 for the first time in six weeks. Markets felt it -- the S&P and Nasdaq both fell again Wednesday, and the 10-year Treasury closed at its highest level since October 2023. Odds on a September 16 rate hike now swing 56 to 66 percent depending which tracker you check, with Friday's CPI doing more work than usual to settle it.",
-    "Miami's baseball season effectively ended without technically ending: the Marlins scored fourteen runs Wednesday and still lost, swept by the Mets in a 15-14 shootout that drops them to 72-75 with playoff odds FanGraphs calls essentially zero. The Hurricanes' home opener against FAMU is tonight, though a shoulder injury on the season's first defensive snap has thinned the secondary. The Dolphins, by contrast, got a genuinely good injury report ahead of Sunday's opener -- though Tyreek Hill won't play Week 1.",
-    "Closer to your own business: a fifth institutional buyer closed on Miami industrial this week, a $195 million, 74-tenant portfolio that reads as a bet on broad demand rather than a single credit tenant. And tonight's read is a strange one -- an AI agent swarm claiming to have partially solved a Millennium Prize math problem, tangled in a live dispute over who gets credit for it."
+    "Thursday packed two numbers into one session: Brent crude jumped nearly six percent to $107.63, briefly touching $108, its highest in four months, and the 10-year Treasury closed at 4.95 percent -- a level unseen since October 2023 -- after a hot August producer-price print pushed the odds on next week's Fed decision to roughly 70 percent. This morning's CPI report, the last input before Wednesday's vote, landed at 8:30, though the settled numbers were still working through the wires as this edition went out. The one genuinely hopeful thread: Iran and all six Gulf states are due to sit down in Oman on Monday, the first real meeting of this war.",
+    "Closer to home, the Hurricanes reminded everyone why they're ranked seventh, routing Florida A&M 77-7 last night. The Dolphins, healthier than expected, open Sunday in Las Vegas against a Raiders team missing its best tight end. And Miami's GTA6 marketing saga split into two separate votes this week -- Miami Beach approved its own limited deal 4-3 after real debate; the City of Miami's downtown banner ordinance also came up Thursday, but its outcome wasn't clearly confirmed by this morning.",
+    "Today is also the 25th anniversary of September 11th. Worth a slower minute than the rest of this list gets."
    ],
    "read_only_three": [
     {
      "target_type": "theme",
-     "target_id": "theme-iran-jordan-strikes-oil-100",
-     "label": "Iran strikes a Jordan air base; Brent breaks $100"
+     "target_id": "theme-iran-hormuz-oil-108-gulf-talks",
+     "label": "Brent tops $108; Iran and the Gulf plan first joint talks of the war"
     },
     {
      "target_type": "theme",
-     "target_id": "theme-marlins-swept-season-fading",
-     "label": "Marlins swept 15-14, playoff odds effectively zero"
+     "target_id": "theme-fed-cpi-day-thursday-selloff",
+     "label": "Fourth straight losing session; hike odds near 70% heading into CPI"
     },
     {
      "target_type": "rabbit_hole",
-     "target_id": "rh-2026-09-10",
-     "label": "Tonight's read: did an AI just solve a Millennium Prize problem?"
+     "target_id": "rh-2026-09-11",
+     "label": "25 years later: David Foster Wallace's essay on watching 9/11 unfold"
     }
    ]
   },
   "market_context": [
    {
     "label": "S&P 500",
-    "value": "7,636.36",
-    "change": "-0.48% Wednesday",
-    "observed": "Wednesday close, September 9, 2026",
-    "note": "Second straight losing session as Hormuz risk and rising yields both weighed on the tape."
+    "value": "7,591.70",
+    "change": "-0.6% Thursday, fourth straight losing session",
+    "observed": "Thursday close, September 10, 2026",
+    "note": "Dow fell 0.6% to 52,064.10; Nasdaq fell 0.7% to 26,081.72."
    },
    {
     "label": "Nasdaq Composite",
-    "value": "26,253.34",
-    "change": "-0.64% Wednesday",
-    "observed": "Wednesday close, September 9, 2026",
-    "note": "Dow fell 405.41 points (-0.77%) to 52,380.66; the Russell 2000 fell 1.30%, the broadest-based decline of the week."
+    "value": "26,081.72",
+    "change": "-0.7% Thursday",
+    "observed": "Thursday close, September 10, 2026",
+    "note": "Fourth consecutive losing session as both oil and yields climbed."
    },
    {
     "label": "10Y Treasury",
-    "value": "~4.83-4.85%",
+    "value": "4.95%",
     "change": "highest close since October 2023",
-    "observed": "Wednesday, September 9, 2026",
-    "note": "Driven by fiscal worries and heavy AI-sector corporate debt issuance, not directly by Fed repricing."
+    "observed": "Thursday, September 10, 2026",
+    "note": "Driven by a hot August PPI print and Brent's climb toward $108."
    },
    {
     "label": "Brent crude",
-    "value": "$101.21",
-    "change": "broke above $100 for the first time in six weeks",
-    "observed": "Wednesday close, September 9, 2026",
-    "note": "WTI settled near $96.05, also its highest since May, on the Hormuz escalation."
+    "value": "$107.63",
+    "change": "+5.94%, briefly topped $108 intraday",
+    "observed": "Thursday close, September 10, 2026",
+    "note": "Highest level in four months; WTI settled near $102.48."
    },
    {
     "label": "FOMC (September 16 decision)",
-    "value": "Hike odds 56-66% depending on tracker",
-    "change": "unusually wide, moving fast",
-    "observed": "Wednesday, September 9, 2026, CME FedWatch and other trackers",
-    "note": "August CPI, Friday September 11 at 8:30am ET, is the last input before the decision -- not yet released."
+    "value": "Hike odds ~70%",
+    "change": "up from 56-66% Wednesday and ~44% a week ago",
+    "observed": "Thursday, September 10, 2026, CME FedWatch, post-PPI",
+    "note": "August CPI released this morning at 8:30am ET, the last input before Wednesday's decision; settled figures were not independently confirmed as of publication."
    }
   ],
   "public_day_context": {
-   "date_label": "Thursday, September 10, 2026",
-   "weather": "High near 90 with an 80% chance of showers and thunderstorms, mainly before 4pm; low near 78 overnight.",
-   "public_event": "The Hurricanes host Florida A&M in their home opener tonight, 8pm at Hard Rock Stadium (ACC Network). Separately, Miami's city commission votes today on an ordinance permitting paid GTA6 promotional banners downtown."
+   "date_label": "Friday, September 11, 2026",
+   "weather": "High near 90 with a 50% chance of showers and thunderstorms and a heat index near 100; low near 81 overnight.",
+   "public_event": "Today is the 25th anniversary of the September 11 attacks, proclaimed Patriot Day 2026. The National September 11 Memorial's ceremony in lower Manhattan begins at 8:30am with the first moment of silence at 8:46am, and tonight's Tribute in Light airs as a live national broadcast for the first time, 8pm ET."
   },
   "what_changed": [
    {
-    "id": "delta-iran-jordan-strike-oil-100",
+    "id": "delta-oil-108-gulf-diplomacy-meeting",
     "thread_id": "thread-iran-hormuz-crisis",
     "change_type": "worsened",
-    "title": "Iran strikes a Jordan air base in retaliation; Brent breaks $100",
-    "previous_state": "Tuesday's edition covered CENTCOM's destruction of five Iranian tankers and Iran's disputed claim of capturing a US underwater drone, with Brent holding near $97.",
-    "current_state": "Iran retaliated with roughly twenty ballistic missiles at Jordan's Al Azraq air base (Jordan says it intercepted eighteen; no casualties), claimed a ten-vessel strike wave near Hormuz with at least one seafarer killed and one missing, and Brent broke above $100 for the first time in six weeks, closing Wednesday at $101.21.",
-    "why_it_matters": "A direct strike on a base in Jordan, a country that isn't a combatant, is a real widening of the target list -- and oil above $100 changes the backdrop for Friday's CPI print.",
-    "confidence": "high",
+    "title": "Brent tops $108 intraday as Iran and the Gulf states plan first joint talks of the war",
+    "previous_state": "Wednesday's close held Brent at $101.21, its first break above $100 in six weeks, after Iran's strikes on Jordan and its claimed ten-vessel Hormuz wave.",
+    "current_state": "Brent closed Thursday at $107.63 (+5.94%), briefly touching $108 intraday, the highest level in four months; separately, Oman is convening Iran and all six GCC states in Salalah on Monday, September 14 -- the first senior Iran-Gulf meeting since the war began.",
+    "why_it_matters": "The price keeps climbing, but a real meeting now scheduled is the first sign this war might have an actual diplomatic off-ramp being discussed, not just threatened.",
+    "confidence": "medium",
     "source": {
-     "publisher": "Al Jazeera",
-     "url": "https://www.aljazeera.com/news/2026/9/9/us-destroys-five-iranian-tankers-iran-retaliates-with-attacks-on-jordan-base"
+     "publisher": "Rigzone",
+     "url": "https://www.rigzone.com/news/oil_closes_at_highest_level_in_4_months-10-sep-2026-184581-article/"
     }
    },
    {
-    "id": "delta-treasury-two-year-high-hike-odds",
+    "id": "delta-fed-hike-odds-70-cpi-today",
     "thread_id": "thread-fed-rate-path",
     "change_type": "worsened",
-    "title": "10-year Treasury hits a two-year high as hike odds swing wide before CPI",
-    "previous_state": "Tuesday's close held hike odds near 58-60% with the 10-year around 4.79%, largely tracking the Hormuz selloff rather than any Fed repricing.",
-    "current_state": "The 10-year rose to roughly 4.83-4.85% Wednesday, its highest close since October 2023, on fiscal worries and heavy AI-sector debt issuance; CME FedWatch readings for a September 16 hike ranged 56-66% across trackers, an unusually wide and fast-moving spread.",
-    "why_it_matters": "A widening range this close to the decision means the CPI print Friday morning is doing more work than usual -- worth watching how quickly the number converges the trackers.",
+    "title": "Hike odds jump to roughly 70% on hot PPI; CPI lands this morning",
+    "previous_state": "Wednesday's close had September hike odds ranging 56-66% across trackers, with the 10-year near 4.83-4.85%.",
+    "current_state": "A hot August PPI print pushed CME FedWatch's September hike odds to roughly 70% Thursday, and the 10-year jumped to 4.95%, its highest since October 2023, in a fourth straight losing session for stocks. August CPI, the last input before Wednesday's decision, released this morning at 8:30am ET; settled figures were not yet independently confirmed as this edition went to print.",
+    "why_it_matters": "The odds are converging on a hike well before the actual decisive print lands -- worth watching whether this morning's CPI does anything to move a number that increasingly looks priced in.",
     "confidence": "medium",
     "source": {
-     "publisher": "TheStreet",
-     "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-09-2026"
+     "publisher": "CNBC",
+     "url": "https://www.cnbc.com/2026/09/10/the-likelihood-of-a-fed-interest-rate-hike-next-week-just-got-a-lot-higher.html"
     }
    },
    {
-    "id": "delta-marlins-swept-elimination-near",
-    "thread_id": "thread-marlins-wildcard",
-    "change_type": "worsened",
-    "title": "Marlins swept in a 15-14 shootout; playoff odds effectively zero",
-    "previous_state": "Tuesday's 7-5 loss dropped Miami to 72-74, roughly five games back with 16 left, in a series already lost.",
-    "current_state": "New York completed the sweep with a wild 15-14 win Wednesday after blowing an 8-0 lead; Miami falls to 72-75, three games under .500 for the first time since June 9, roughly 6.5 games back with 15 left -- FanGraphs puts the team's playoff odds at effectively zero.",
-    "why_it_matters": "Not mathematically eliminated, but a lineup that scored 14 runs and still lost says the issue was never really the bats.",
+    "id": "delta-hurricanes-blowout-famu",
+    "thread_id": "thread-hurricanes-fall-camp",
+    "change_type": "advanced",
+    "title": "Hurricanes blow out Florida A&M 77-7, move to 2-0",
+    "previous_state": "As of Wednesday, the Hurricanes were 1-0 heading into Thursday's home opener against FAMU, with a thinned secondary after Frederique's shoulder injury.",
+    "current_state": "Miami routed FAMU 77-7 Thursday night at Hard Rock Stadium to move to 2-0; FAMU's starting quarterback is reportedly out for the season with a thumb injury.",
+    "why_it_matters": "A blowout against a heavy underdog doesn't tell you much on its own, but it's a clean data point ahead of real ACC competition.",
     "confidence": "high",
     "source": {
-     "publisher": "Field Level Media",
-     "url": "https://fieldlevelmedia.com/mlb/mets-outlast-marlins-in-wild-15-14-victory-to-complete-sweep/"
+     "publisher": "Yahoo Sports",
+     "url": "https://sports.yahoo.com/articles/miami-dominates-florida-m-77-033859592.html"
     }
    },
    {
-    "id": "delta-cre-fifth-institutional-buyer",
-    "thread_id": "thread-cre-capital-markets-2026",
-    "change_type": "advanced",
-    "title": "A fifth institutional buyer closes on Miami industrial -- the largest deal yet",
-    "previous_state": "As of Tuesday, four institutional buyers (Ares, Midtown Capital, Dalfen, Phoenix Realty Group) had closed Miami-area deals in three weeks.",
-    "current_state": "Longpoint Partners paid $195 million for a 10-building, 730,000-square-foot small-bay industrial portfolio, 90% leased across 74 tenants -- the largest single deal of the wave and the fifth in roughly three weeks.",
-    "why_it_matters": "A 74-tenant portfolio is a bet on broad-based demand, not a single credit tenant -- a different kind of conviction than the warehouse land plays earlier in the wave.",
-    "confidence": "medium",
-    "source": {
-     "publisher": "The Real Deal",
-     "url": "https://therealdeal.com/miami/2026/09/09/longpoint-partners-buys-miami-dade-industrial-portfolio/"
-    }
-   },
-   {
-    "id": "delta-gta6-vote-today",
+    "id": "delta-gta6-miami-beach-approved-downtown-unclear",
     "thread_id": "thread-miami-vice-city-gta6-pitch",
-    "change_type": "advanced",
-    "title": "Miami's GTA6 banner ordinance reaches a real vote",
-    "previous_state": "As of September 2, the county-level \"Vice City\" pitch to Rockstar (airport rebranding, wrapped Metromover cars) remained an unapproved pitch deck with no formal city or county action.",
-    "current_state": "A separate, city-level ordinance sponsored by Commissioner Damian Pardo -- allowing up to six paid downtown banners at $202,000 each, proceeds earmarked for the Underdeck Heritage Trail park -- goes to a Miami city commission vote today, opposed by the sheriff and the county's chief judge.",
-    "why_it_matters": "The first concrete money-and-signage decision in a saga that's mostly been rumor so far, and a real test of how far Miami will bend its own rules for the marketing tie-in.",
+    "change_type": "new",
+    "title": "Miami Beach approves its own GTA6 deal 4-3; downtown Miami's vote outcome unclear",
+    "previous_state": "As of yesterday, only the City of Miami's downtown banner ordinance (Pardo's plan) was scheduled for a commission vote; no separate Miami Beach item was being tracked.",
+    "current_state": "Miami Beach's commission approved, 4-3, its own marketing arrangement with Rockstar for the terms 'VI' and 'Vice City' on private beach equipment, running Oct 15-Dec 31. The City of Miami's separate downtown banner ordinance was also on Thursday's agenda, but its outcome could not be confirmed from available reporting as of this morning.",
+    "why_it_matters": "Two different governments making two different money decisions about the same marketing tie-in in the same week is worth separating clearly, since the details -- and the actual money -- differ.",
     "confidence": "medium",
     "source": {
-     "publisher": "GTA Boom",
-     "url": "https://www.gtaboom.com/miami-wants-rockstar-to-pay-202000-a-banner-to-brand-downtown-for-gta-6-68ce"
+     "publisher": "Beebom",
+     "url": "https://beebom.com/gta-6-marketing-deal-approved-by-miami-beach-despite-heated-debate-over-rockstars-game/"
+    }
+   },
+   {
+    "id": "delta-freedom-park-city-hall-stays",
+    "thread_id": "thread-miami-freedom-park-civic",
+    "change_type": "resolved",
+    "title": "Miami votes to keep City Hall at the Pan Am terminal, not Freedom Park",
+    "previous_state": "The broader debate over city-owned waterfront property in Coconut Grove, including whether city government functions might eventually move, had been open.",
+    "current_state": "Miami's commission voted Thursday to keep the historic Pan Am terminal at Dinner Key as the city's primary City Hall rather than relocating to the Freedom Park development.",
+    "why_it_matters": "Resolves one concrete piece of a long civic debate over Coconut Grove's waterfront -- worth noting against your own read on how much that land's use is actually still in play.",
+    "confidence": "high",
+    "source": {
+     "publisher": "WLRN",
+     "url": "https://www.wlrn.org/government-politics/2026-09-10/miami-panam-city-hall-coconut-grove"
     }
    }
   ],
   "themes": [
    {
-    "id": "theme-iran-jordan-strikes-oil-100",
+    "id": "theme-iran-hormuz-oil-108-gulf-talks",
     "affinity": "morning",
     "topic": "markets",
     "topic_label": "Markets & Macro",
-    "title": "Iran strikes a Jordan air base as tanker retaliation widens; Brent tops $100",
+    "title": "Brent tops $108 as Iran and the Gulf states plan their first joint talks of the war",
     "importance": 0.9,
-    "thesis": "The war's costliest week yet, in strikes and in oil: Iran answered Tuesday's tanker destruction by firing on a US-linked base in Jordan and claiming its largest wave of vessel strikes since the war began -- and Brent broke $100 for the first time in six weeks.",
-    "synthesis": "Iran retaliated for Tuesday's destruction of five of its crude tankers with roughly twenty ballistic missiles fired at Jordan's Al Azraq air base; Jordan says it intercepted eighteen, two fell in unpopulated areas, and there were no casualties. Iran separately claimed a ten-vessel strike wave near Hormuz -- the largest declared wave of shipping attacks since the six-month war began -- reportedly killing one seafarer and leaving another missing. Iran's planned Hormuz \"exclusion zone,\" announced in principle last week, still has no formally declared boundaries. Brent crude broke above $100 for the first time in six weeks, closing Wednesday at $101.21 (WTI $96.05), the highest settle since May.",
-    "new_today": "The Jordan strike, the ten-vessel claim with casualties, and Brent's break above $100 are all new since Tuesday's edition.",
-    "why_it_matters": "A direct strike on a base in Jordan -- a country that isn't a combatant in this war -- is a real widening of the target list, and oil above $100 changes the backdrop heading into Friday's CPI print.",
+    "thesis": "Thursday brought the war's highest oil price yet and, in the same 24 hours, the first sign of a real diplomatic track: Iran and all six GCC states are due to sit down Monday in Oman.",
+    "synthesis": "Brent crude closed Thursday at $107.63 (WTI $102.48), up nearly 6%, briefly touching $108 intraday -- the highest level in four months. Separately, Oman is convening Iran's foreign minister and all six Gulf Cooperation Council states in Salalah on Monday, September 14, the first senior Iran-Gulf sit-down since the war began, aimed at a temporary arrangement for reopening the Strait; diplomats caution any real reopening still needs US sign-off. Trump separately warned Iran over renewed construction activity at its 'Pickaxe Mountain' nuclear site, saying the US 'may' strike it soon. No new strikes on tankers or bases were reported since Wednesday's Jordan/Hormuz wave.",
+    "new_today": "Thursday's $107.63 close, the Monday Salalah meeting, and the Pickaxe Mountain warning are all new since yesterday's edition.",
+    "why_it_matters": "The oil spike is the more visible number, but the Salalah meeting is the more important one -- the first time this war has produced an actual meeting rather than a threat, worth watching against your own read on where fuel and freight costs go next.",
     "thread_id": "thread-iran-hormuz-crisis",
-    "confidence": "high",
+    "confidence": "medium",
     "sources": [
      {
       "role": "primary_reporting",
-      "publisher": "Al Jazeera",
-      "headline": "US destroys five Iranian tankers, Iran retaliates with attacks on Jordan base",
-      "url": "https://www.aljazeera.com/news/2026/9/9/us-destroys-five-iranian-tankers-iran-retaliates-with-attacks-on-jordan-base"
-     },
-     {
-      "role": "background",
-      "publisher": "NBC News",
-      "headline": "U.S. strikes five Iranian tankers after attempted attacks on Navy warship, CENTCOM says",
-      "url": "https://www.nbcnews.com/world/iran/us-strikes-iranian-tankers-attempted-missile-attacks-navy-warship-rcna596699"
+      "publisher": "Rigzone",
+      "headline": "Oil Closes at Highest Level in 4 Months",
+      "url": "https://www.rigzone.com/news/oil_closes_at_highest_level_in_4_months-10-sep-2026-184581-article/"
      },
      {
       "role": "analysis",
-      "publisher": "Military Times",
-      "headline": "Iran and US hit tankers in biggest wave of attacks on shipping since war began",
-      "url": "https://www.militarytimes.com/news/your-military/2026/09/09/iran-and-us-hit-tankers-in-biggest-wave-of-attacks-on-shipping-since-war-began/"
+      "publisher": "Arab News",
+      "headline": "Iran and Gulf states to meet in push for Hormuz deal, FT reports",
+      "url": "https://www.arabnews.com/middle-east/iran-and-gulf-states-to-meet-in-push-for-hormuz-deal-ft-reports-3001311"
+     },
+     {
+      "role": "background",
+      "publisher": "Oman Observer",
+      "headline": "Iran, Gulf Ministers to meet in Salalah for Hormuz deal: Reports",
+      "url": "https://www.omanobserver.om/article/1195967/world/region/iran-gulf-ministers-to-meet-in-salalah-for-hormuz-deal-reports"
+     },
+     {
+      "role": "background",
+      "publisher": "CNBC",
+      "headline": "Trump warns Tehran over Pickaxe Mountain activity",
+      "url": "https://www.cnbc.com/2026/09/10/iran-us-war-hormuz-pickaxe-mountain.html"
      }
     ]
    },
    {
-    "id": "theme-markets-oil-treasury-fed-odds",
+    "id": "theme-fed-cpi-day-thursday-selloff",
     "affinity": "morning",
     "topic": "markets",
     "topic_label": "Markets & Macro",
-    "title": "Oil above $100, the 10-year at a two-year high, and hike odds swinging hard before CPI",
-    "importance": 0.75,
-    "thesis": "Wednesday's close packed three separate stories into one tape: a geopolitical oil shock, a genuine Treasury-market stress signal, and unusually volatile odds on a September hike -- not cut -- with the print that settles it all still a day out.",
-    "synthesis": "Wednesday's confirmed close: S&P 500 -0.48% to 7,636.36, Nasdaq -0.64% to 26,253.34, Dow -405.41 points (-0.77%) to 52,380.66, Russell 2000 -1.30%. The 10-year Treasury yield rose to roughly 4.83-4.85%, its highest close since October 2023, on fiscal worries and a wave of AI-sector corporate debt issuance, compounded by Brent's break above $100. CME FedWatch readings for a September 16 quarter-point hike ranged roughly 56-66% across trackers this week -- unusually wide and moving fast, a real reversal from the market's earlier assumption of a hold, largely traced to new Fed Chair Kevin Warsh's hawkish late-August Jackson Hole remarks. August CPI, due Friday September 11 at 8:30am ET, is the last input before the decision.",
-    "new_today": "Wednesday's confirmed close, the 10-year's two-year high, and the widened hike-odds range are new since Tuesday's edition.",
-    "why_it_matters": "A hike, not a cut, is now the more likely read heading into Friday -- worth recalibrating any rate-sensitive plans against a print that could move the odds sharply in either direction.",
+    "title": "A fourth straight losing session, a 4.95% ten-year, and CPI day",
+    "importance": 0.85,
+    "thesis": "Markets fell for a fourth straight day Thursday on a hot PPI print and rising oil, pushing September hike odds to roughly 70% -- and this morning's CPI, the FOMC's last input, is still working through the wires as this edition goes out.",
+    "synthesis": "Thursday's confirmed close: S&P 500 -0.6% to 7,591.70, Dow -0.6% to 52,064.10, Nasdaq -0.7% to 26,081.72, the fourth straight losing session. The 10-year Treasury yield jumped to 4.95%, its highest since October 2023, as August PPI came in hotter than expected and Brent's climb toward $108 added inflation pressure. CME FedWatch odds for a September 16 hike rose to roughly 70%, up from the 56-66% range earlier in the week and from just 44% a week ago. August CPI -- the last data point before Wednesday's decision -- released this morning at 8:30am ET; the settled figures and market reaction were not yet confirmed through primary sources as this edition was finalized.",
+    "new_today": "Thursday's confirmed close, the 10-year's fresh high, the PPI-driven jump in hike odds, and this morning's CPI release are all new since yesterday.",
+    "why_it_matters": "A print this close to a decision the market already prices at 70% probably won't reverse the hike -- but it's the last real chance for the odds to move before Wednesday, and a genuinely soft number would be the tell that this isn't fully settled.",
     "thread_id": "thread-fed-rate-path",
     "confidence": "medium",
     "sources": [
      {
       "role": "primary_reporting",
       "publisher": "TheStreet",
-      "headline": "Stock market today: Dow, S&P 500, Nasdaq updates, Sept. 9 2026",
-      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-09-2026"
+      "headline": "Stock Market Today (Sept. 10, 2026): S&P 500, Nasdaq decline as Brent oil hits highest point since July",
+      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-10-2026"
+     },
+     {
+      "role": "analysis",
+      "publisher": "CNBC",
+      "headline": "The likelihood of a Fed interest rate hike next week just got a lot higher",
+      "url": "https://www.cnbc.com/2026/09/10/the-likelihood-of-a-fed-interest-rate-hike-next-week-just-got-a-lot-higher.html"
      },
      {
       "role": "background",
-      "publisher": "Yahoo Finance",
-      "headline": "FOMC September 2026: odds of a rate move",
-      "url": "https://finance.yahoo.com/economy/policy/articles/fomc-september-2026-odds-rate-201618784.html"
-     },
-     {
-      "role": "background",
-      "publisher": "Federal Reserve",
-      "headline": "Selected Interest Rates (H.15)",
-      "url": "https://www.federalreserve.gov/releases/h15/"
+      "publisher": "Kiplinger",
+      "headline": "August CPI Report: What the Inflation Data Is Expected to Show",
+      "url": "https://www.kiplinger.com/investing/economy/cpi-report-august-2026-what-to-expect"
      }
     ]
    },
    {
-    "id": "theme-marlins-swept-season-fading",
+    "id": "theme-hurricanes-famu-77-7",
     "affinity": "morning",
     "topic": "sports",
     "topic_label": "Miami Sports",
-    "title": "Marlins are swept in a 15-14 shootout; playoff odds effectively zero",
-    "importance": 0.5,
-    "thesis": "Miami blew an eight-run deficit into a near-comeback and still lost -- the kind of game that captures a season sliding away in real time.",
-    "synthesis": "New York completed a three-game sweep with a wild 15-14 win Wednesday: the Mets led 8-0 in the third, Miami clawed back to lead 8-5 by the sixth, but New York scored six in the seventh (Lindor homered, Morel added an RBI single) and held on despite being outhit 20-15. Miami falls to 72-75, three games under .500 for the first time since June 9, and now sits roughly 6.5 games back of the final NL wild-card spot with 15 games left; FanGraphs puts the team's playoff odds at effectively zero. Miami closes the season against the Dodgers, Diamondbacks, Padres, and Braves.",
-    "new_today": "Wednesday's 15-14 result, the sweep, the fall to 72-75, and the effectively-zero playoff odds are all new since yesterday's edition.",
-    "why_it_matters": "Not mathematically eliminated yet, but this is the game the season turns on in hindsight -- a lineup that scored 14 runs and still couldn't win says more about the pitching than any single loss did.",
-    "thread_id": "thread-marlins-wildcard",
+    "title": "No. 7 Miami blows out Florida A&M 77-7",
+    "importance": 0.45,
+    "thesis": "A statement win, if a hollow one against clearly outmatched competition -- the more useful signal is the Frederique injury and FAMU losing its starting QB for the year.",
+    "synthesis": "The Hurricanes routed Florida A&M 77-7 Thursday night at Hard Rock Stadium, improving to 2-0 behind quarterback Darian Mensah and receiver Malachi Toney, who set a program receiving record the week before. FAMU's starting quarterback is reportedly out for the season with a thumb injury. Corner OJ Frederique Jr. remains out for Miami with the shoulder injury from the opener.",
+    "new_today": "The 77-7 final, the 2-0 record, and FAMU's season-ending QB injury are new since Tuesday's edition.",
+    "why_it_matters": "A 70-point win says more about the schedule than the team -- worth watching how Miami's defense, still without Frederique, looks once ACC play actually starts.",
+    "thread_id": "thread-hurricanes-fall-camp",
     "confidence": "high",
     "sources": [
      {
       "role": "primary_reporting",
-      "publisher": "Field Level Media",
-      "headline": "Mets outlast Marlins in wild 15-14 victory to complete sweep",
-      "url": "https://fieldlevelmedia.com/mlb/mets-outlast-marlins-in-wild-15-14-victory-to-complete-sweep/"
+      "publisher": "Yahoo Sports",
+      "headline": "Miami Dominates Florida A&M in 77-7 Blowout",
+      "url": "https://sports.yahoo.com/articles/miami-dominates-florida-m-77-033859592.html"
      },
      {
       "role": "background",
-      "publisher": "Fish On First",
-      "headline": "Marlins postseason odds officially at zero after being swept by the Mets",
-      "url": "https://fishonfirst.com/news-rumors/miami-marlins/marlins-postseason-odds-officially-at-zero-after-being-swept-by-the-mets-r3937"
+      "publisher": "ESPN",
+      "headline": "Florida A&M at Miami box score",
+      "url": "https://www.espn.com/college-football/game/_/gameId/401858213/florida-am-miami"
      }
     ]
    },
    {
-    "id": "theme-dolphins-hurricanes-kickoff-week",
+    "id": "theme-dolphins-raiders-opener-preview",
     "affinity": "morning",
     "topic": "sports",
     "topic_label": "Miami Sports",
-    "title": "Hurricanes host FAMU tonight banged up in the secondary; Dolphins get a healthier report",
-    "importance": 0.45,
-    "thesis": "Both programs enter their next test with a mixed injury picture -- Miami's college team missing pieces on defense, the pro team trending the right direction days before its opener.",
-    "synthesis": "The Hurricanes' home opener against Florida A&M kicks off tonight, Thursday, 8pm at Hard Rock Stadium, with corner OJ Frederique Jr. out for an extended stretch after a shoulder injury on his very first defensive snap against Stanford, corner Ja'Boree Antoine also out, and safety Dylan Day sidelined by a non-football illness; running back Jordan Lyle's status remains unresolved. Separately, Dolphins coach Jeff Hafley reported all 53 active players practiced Wednesday, with tight end Will Kacmarek, linebacker Ronnie Harrison Jr., and receiver Chris Bell all clearing injury designations ahead of Sunday's opener at Las Vegas -- though receiver Tyreek Hill will not play Week 1, with doctors reportedly recommending he wait until at least October. Malik Willis makes his first career start as a Dolphin Sunday.",
-    "new_today": "The Hurricanes' fresh injury list, the Dolphins' clean Wednesday practice report, and the Tyreek Hill Week 1 update are all new since Tuesday.",
-    "why_it_matters": "Neither team's outcome is decided yet, but the injury pictures moving in opposite directions -- college defense thinning out, pro roster clearing up -- is the more useful signal than either team's record right now.",
+    "title": "Dolphins enter Sunday's opener healthier than the team they're playing",
+    "importance": 0.4,
+    "thesis": "Miami's roster is trending the right direction three days before kickoff, and Las Vegas is missing the one player who'd have made this a harder game.",
+    "synthesis": "Coach Jeff Hafley said all 53 active roster players practiced Wednesday and Thursday, with only minor limitations (Ronnie Harrison Jr., Will Kacmarek). Las Vegas, by contrast, will be without star tight end Brock Bowers (knee) for Sunday's 1pm opener. Malik Willis makes his first career start at quarterback for Miami; Tyreek Hill remains out.",
+    "new_today": "Thursday's clean practice report and the Bowers absence for Las Vegas are new since Wednesday.",
+    "why_it_matters": "Health is the whole story here -- Miami's talent gap against Las Vegas is real, but a rebuilding team catching a break on the injury report is the kind of small edge Hafley's staff needs early.",
     "thread_id": "thread-dolphins-hafley-rebuild",
     "confidence": "high",
     "sources": [
      {
       "role": "primary_reporting",
-      "publisher": "Yahoo Sports / State of The U",
-      "headline": "Miami Hurricanes Injury/Availability Updates: Week 2 vs FAMU",
-      "url": "https://sports.yahoo.com/articles/miami-hurricanes-injury-availability-updates-201209231.html"
-     },
-     {
-      "role": "background",
       "publisher": "Yahoo Sports",
       "headline": "Dolphins Get Encouraging Injury News Ahead of Season Opener vs. Raiders",
       "url": "https://sports.yahoo.com/articles/dolphins-encouraging-injury-news-ahead-223417850.html"
-     }
-    ]
-   },
-   {
-    "id": "theme-miami-cre-wave-fifth-deal",
-    "affinity": "morning",
-    "topic": "markets",
-    "topic_label": "Markets & Macro",
-    "title": "A fifth institutional buyer joins Miami's industrial wave -- $195 million for a 10-building portfolio",
-    "importance": 0.5,
-    "thesis": "The buying wave just posted its largest single deal yet, and it's the kind of granular, multi-tenant portfolio that signals genuine operating conviction, not just a land bet.",
-    "synthesis": "Boston-based Longpoint Partners paid $195 million ($267/sf) for a 10-building, 730,000-square-foot Miami-Dade small-bay industrial portfolio -- 90% leased across 74 tenants averaging roughly 10,000 square feet each. It's the fifth institutional Miami-area industrial or multifamily deal in roughly three weeks, following Ares ($108.7M), Midtown Capital ($86M), Dalfen ($21.3M), and Phoenix Realty Group ($64.8M).",
-    "new_today": "The Longpoint deal is new since yesterday's edition.",
-    "why_it_matters": "A 74-tenant, small-bay portfolio is a bet on granular demand rather than a single credit tenant -- worth noting against your own underwriting on how much conviction is really building at the tenant level, not just the land-basis level.",
-    "thread_id": "thread-cre-capital-markets-2026",
-    "confidence": "medium",
-    "sources": [
-     {
-      "role": "primary_reporting",
-      "publisher": "The Real Deal",
-      "headline": "Longpoint Partners buys Miami-Dade industrial portfolio",
-      "url": "https://therealdeal.com/miami/2026/09/09/longpoint-partners-buys-miami-dade-industrial-portfolio/"
      },
      {
       "role": "background",
-      "publisher": "Weekly Real Estate News",
-      "headline": "Longpoint Partners Acquires 10-Building Miami-Area Industrial Portfolio for $195 Million",
-      "url": "https://wrenews.com/longpoint-partners-acquires-10-building-miami-area-industrial-portfolio-for-195-million/"
+      "publisher": "Yahoo Sports / BVM Sports",
+      "headline": "Raiders, Dolphins Thursday injury report",
+      "url": "https://sports.yahoo.com/articles/raiders-dolphins-thursday-injury-report-220346576.html"
      }
     ]
    },
    {
-    "id": "theme-gta6-vice-city-banner-vote",
+    "id": "theme-gta6-miami-beach-vote-pardo-unresolved",
     "affinity": "morning",
     "topic": "miami",
     "topic_label": "Miami Life & Culture",
-    "title": "Miami commission votes today on paid GTA6 banners downtown",
+    "title": "Miami Beach approves its own GTA6 deal 4-3; the downtown banner vote's outcome is still unclear",
     "importance": 0.4,
-    "thesis": "A quirky marketing tie-in turned into a real municipal vote, with real money attached to a park project that just lost its federal funding.",
-    "synthesis": "Miami city commissioner Damian Pardo sponsored an ordinance temporarily loosening downtown signage rules from October 15 through December 31 -- bracketing GTA6's November 19 launch -- to let Rockstar/Take-Two rent up to six downtown banners at $202,000 apiece, roughly $1.2 million total, with proceeds earmarked for the Underdeck Heritage Trail park, whose funding gap widened after the Trump administration pulled a $60 million federal grant. The city commission is scheduled to vote today, September 10. Opposition has hardened: Miami-Dade's sheriff and a county commissioner issued a joint statement against the plan, and the county's chief judge and clerk of courts separately asked that courthouses be excluded from any branding.",
-    "new_today": "The Pardo ordinance, the banner pricing, the funding rationale, and today's scheduled vote are all new -- and distinct from the county-level \"Vice City\" pitch deck to Rockstar already being tracked, which remains unresolved.",
-    "why_it_matters": "It's a small vote, but a real one -- the first concrete municipal money-and-signage decision to come out of a saga that's mostly been pitch decks and rumor so far.",
+    "thesis": "The 'Vice City' marketing saga just forked into two separate municipal decisions, and only one of them has a confirmed result.",
+    "synthesis": "Miami Beach's city commission voted 4-3 to approve its own marketing arrangement with Rockstar -- restricted to the terms 'VI' and 'Vice City' on private beach equipment like chairs and umbrellas, running October 15 through December 31 -- after real debate over the game's violence. That's a separate decision from the City of Miami's downtown ordinance (Commissioner Pardo's plan for up to six paid banners at $202,000 each, proceeds to the Underdeck Heritage Trail park), which was also on Thursday's commission agenda; reporting on that specific vote's outcome was inconsistent and could not be independently confirmed as of this morning.",
+    "new_today": "Miami Beach's 4-3 approval is new and confirmed; the downtown ordinance's status moves from 'scheduled for a vote' to 'unclear outcome' -- worth a clean follow-up.",
+    "why_it_matters": "Two different Miami-area governments are now on record making real money-for-marketing decisions about the same video game in the same week -- a small but real test of how far local government will go for a corporate tie-in.",
     "thread_id": "thread-miami-vice-city-gta6-pitch",
     "confidence": "medium",
     "sources": [
      {
       "role": "primary_reporting",
-      "publisher": "GTA Boom",
-      "headline": "Miami wants Rockstar to pay $202,000 a banner to brand downtown for GTA 6",
-      "url": "https://www.gtaboom.com/miami-wants-rockstar-to-pay-202000-a-banner-to-brand-downtown-for-gta-6-68ce"
+      "publisher": "Beebom",
+      "headline": "GTA 6 Marketing Deal Approved by Miami Beach Despite Heated Debate Over Rockstar's Game",
+      "url": "https://beebom.com/gta-6-marketing-deal-approved-by-miami-beach-despite-heated-debate-over-rockstars-game/"
+     },
+     {
+      "role": "analysis",
+      "publisher": "Kotaku",
+      "headline": "Miami Beach Debates Taking Millions From Rockstar To Advertise GTA 6",
+      "url": "https://kotaku.com/miami-beach-debates-taking-millions-from-rockstar-to-advertise-gta-6-were-not-giving-away-pistols-and-cocaine-to-people-2000733378"
      },
      {
       "role": "background",
-      "publisher": "RockstarINTEL",
-      "headline": "Downtown Miami pushing for GTA 6 billboards to go up next month",
-      "url": "https://rockstarintel.com/downtown-miami-pushing-for-gta-6-billboards-to-go-up-next-month/"
+      "publisher": "NBC 6 South Florida",
+      "headline": "Miami-Dade Sheriff urges county against proposed GTA 6 promotion",
+      "url": "https://www.nbcmiami.com/news/local/game-over-miami-dade-sheriff-urges-county-against-proposed-gta-6-promotion/3854307/"
      }
     ]
    },
    {
-    "id": "theme-drug-development-broken",
-    "affinity": "evening",
-    "topic": "living",
-    "topic_label": "Art of Living",
-    "title": "Why the search for new cures has stalled -- and what might unstall it",
+    "id": "theme-freedom-park-city-hall-stays-panam",
+    "affinity": "morning",
+    "topic": "miami",
+    "topic_label": "Miami Life & Culture",
+    "title": "Miami keeps City Hall at the historic Pan Am terminal, ending -- for now -- talk of a Freedom Park move",
     "importance": 0.45,
-    "thesis": "A precise, well-reported diagnosis of a genuine institutional failure, with none of the usual false cheer about a fix around the corner.",
-    "synthesis": "In a New York Times Magazine feature published this week, David Wallace-Wells traces how American drug development has quietly stalled -- Phase 1 trial costs have roughly doubled since 2017 -- even as the underlying science has never moved faster. He frames it less as a single villain (the FDA, pharma economics, and venture incentives all share blame) than as a systemic drag worth understanding on its own terms, and argues the same conditions that produced the slowdown also describe what would need to change to fix it.",
-    "new_today": "Labeled exploration, outside the week's usual coverage -- a slower analytical read chosen because it reframes a topic (medical progress) usually covered only through isolated breakthroughs.",
-    "why_it_matters": "A good discipline for reading any \"innovation is dying\" story: the specific mechanism (trial costs, not talent or ideas) is more useful than the mood.",
-    "thread_id": null,
-    "confidence": "medium",
+    "thesis": "A quiet but real decision: Miami's government isn't relocating.",
+    "synthesis": "The Miami city commission voted Thursday to keep the historic Pan Am terminal at Dinner Key in Coconut Grove as the city's primary City Hall, rather than relocating operations to the Miami Freedom Park development. The vote resolves one specific open question in a long-running civic debate over the future of city-owned waterfront property in Coconut Grove.",
+    "new_today": "Thursday's vote to keep City Hall at Dinner Key is new since this thread was last updated.",
+    "why_it_matters": "Worth tracking against your own read on Coconut Grove and Dinner Key waterfront value -- a city that isn't moving its own government out is a small but real data point on how much civic inertia protects that land.",
+    "thread_id": "thread-miami-freedom-park-civic",
+    "confidence": "high",
     "sources": [
      {
       "role": "primary_reporting",
-      "publisher": "The New York Times Magazine",
-      "headline": "The Search for New Cures Is Broken",
-      "url": "https://www.nytimes.com/2026/09/04/magazine/drug-development-innovation.html"
+      "publisher": "WLRN",
+      "headline": "Miami will keep the historic Pan Am terminal as City Hall",
+      "url": "https://www.wlrn.org/government-politics/2026-09-10/miami-panam-city-hall-coconut-grove"
+     }
+    ]
+   },
+   {
+    "id": "theme-911-25th-anniversary-reflection",
+    "affinity": "evening",
+    "topic": "living",
+    "topic_label": "Art of Living",
+    "title": "Today is the 25th anniversary of September 11th",
+    "importance": 0.5,
+    "thesis": "A quarter century on, the day still asks something different of attention than the news cycle around it does.",
+    "synthesis": "The National September 11 Memorial & Museum's ceremony in lower Manhattan begins at 8:30am with the first of seven moments of silence at 8:46am, marking the exact minute of the first strike; family members read the names of the nearly 3,000 dead, as they have every year since 2002. Tonight at 8pm ET, the Tribute in Light -- two beams projected from lower Manhattan -- airs nationally for the first time as a live broadcast. September 11, 2026 has been proclaimed Patriot Day.",
+    "new_today": "The 25th-anniversary framing and tonight's first-ever live broadcast of the Tribute in Light are specific to today.",
+    "why_it_matters": "Not a story that changes anything in your week, but a genuine invitation -- one day a year built around remembering that most of what feels urgent isn't, and most of what matters doesn't announce itself.",
+    "thread_id": null,
+    "confidence": "high",
+    "sources": [
+     {
+      "role": "primary_reporting",
+      "publisher": "National September 11 Memorial & Museum",
+      "headline": "25th Anniversary Commemoration",
+      "url": "https://www.911memorial.org/connect/commemoration/25th-anniversary-commemoration"
+     },
+     {
+      "role": "background",
+      "publisher": "NPR",
+      "headline": "On the 25th anniversary of 9/11, a divided U.S. gathers to remember and grieve",
+      "url": "https://www.npr.org/2026/09/11/nx-s1-5961366/9-11-memorial-events"
+     }
+    ]
+   },
+   {
+    "id": "theme-denisovan-fossils-yunnan",
+    "affinity": "evening",
+    "topic": "living",
+    "topic_label": "Art of Living",
+    "title": "A cave in Yunnan just rewrote what we know about the Denisovans",
+    "importance": 0.35,
+    "thesis": "The clearest physical picture yet of a human relative we've mostly known from fragments and DNA.",
+    "synthesis": "Two papers in Nature, published September 9, describe a rich fossil trove from Bianfu Cave in China's Yunnan province -- including the first confirmed Denisovan forearm bone -- spanning up to 120,000 years of hunting and toolmaking. Denisovans, a sister lineage to Neanderthals first identified in 2010 from a Siberian cave, have been known almost entirely through DNA and a handful of fragments; this find gives researchers, for the first time, a fuller skeletal and behavioral picture of how they actually lived.",
+    "new_today": "Labeled exploration, outside this week's usual coverage -- chosen because it's a genuine addition to a field usually reported only through isolated DNA findings.",
+    "why_it_matters": "A useful reminder that some of the biggest updates to 'what we know about being human' arrive this quietly -- a cave, a bone, a paper -- with no launch event at all.",
+    "thread_id": null,
+    "confidence": "high",
+    "sources": [
+     {
+      "role": "primary_reporting",
+      "publisher": "Science News",
+      "headline": "Newfound Fossils Are Spilling Denisovan Secrets",
+      "url": "https://www.sciencenews.org/article/new-fossils-denisovan-secrets-china"
      }
     ]
    }
   ],
   "rabbit_hole": {
-   "id": "rh-2026-09-10",
-   "title": "AI Has Solved One of Math's $1 Million Millennium Prize Problems -- Maybe",
-   "creator": "Quanta Magazine (Konstantin Kakaes)",
-   "format": "article",
-   "minutes": 22,
-   "why": "OpenAI says a swarm of autonomous agents proved the Navier-Stokes equations can \"blow up\" -- a partial resolution of a Millennium Prize problem, converged on in 88 hours. The math is real, but so is the mess underneath it: an NYU mathematician says the agents built on his own unpublished work through a rival's coding platform, without credit. A rare, live case study in what authorship even means once the solver is a machine.",
-   "url": "https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/",
+   "id": "rh-2026-09-11",
+   "title": "The View From Mrs. Thompson's",
+   "creator": "David Foster Wallace",
+   "format": "essay",
+   "minutes": 32,
+   "why": "Wallace's account of watching September 11th unfold on television among his churchgoing neighbors in small-town Illinois is one of the sharpest things written about collective attention, television, and disorientation -- and today, its 25th anniversary, is the one day a year it reads as current rather than historical.",
+   "url": "https://www.rollingstone.com/feature/david-foster-wallace-on-9-11-as-seen-from-the-midwest-242422/",
    "related_interest": "living"
   },
   "beautiful_thing": {
-   "id": "bt-2026-09-10",
-   "title": "One Becomes Many",
-   "creator": "Pérez Art Museum Miami, featuring Sonia Gomes, Rubem Valentim, Mestre Didi, Emanoel Araújo, and other Afro-Brazilian artists",
-   "era": "Contemporary works drawing on Candomblé's sacred geometry and ancestral imagery; the exhibition closes September 13, 2026",
-   "body": "Sonia Gomes builds bundled, tactile sculptures from wound fabric and found thread that read as reliquaries as much as abstractions; Rubem Valentim's precise geometric paintings translate orixá symbology into a formal language close to hard-edge modernism. Together with Mestre Didi's beaded and shell-covered ritual sculpture, the show is one of the first US museum surveys built around Candomblé itself, rather than its visual influence on Brazilian modernism more broadly. It closes Saturday -- worth seeing this weekend.",
-   "url": "https://www.pamm.org/en/exhibition/one-becomes-many/",
+   "id": "bt-2026-09-11",
+   "title": "The Jungle (La Jungla)",
+   "creator": "Wifredo Lam",
+   "era": "1942-43, oil and charcoal on paper mounted on canvas; in MoMA's permanent collection",
+   "body": "Lam, born in Cuba to an Afro-Cuban mother and a Chinese father, painted this on kraft paper he glued together himself rather than canvas he could afford. Machete blades hide among sugarcane stalks and mask-like faces with wide almond eyes -- a reckoning with Cuba's plantation economy and Afro-Caribbean religious imagery filtered through the vocabulary of Cubist and Surrealist Paris, where Lam had studied before the war sent him home.",
+   "url": "https://www.moma.org/collection/works/34666",
    "image": null,
-   "alt": "Textile and sculptural works drawing on Afro-Brazilian Candomblé sacred geometry, displayed in a museum gallery"
+   "alt": "A large, densely packed painting of stylized human-plant figures with mask-like faces amid sugarcane stalks, in muted blues and greens"
   },
   "noticing_prompt": {
-   "id": "np-2026-09-10",
-   "text": "The Marlins scored fourteen runs Wednesday and still lost. Notice, once today, a moment where you're measuring the wrong thing -- effort instead of the actual result."
+   "id": "np-2026-09-11",
+   "text": "Notice, once today, something that felt like the biggest news of the morning by 9am, and see if it still feels that way by dinner."
   },
   "daily_puzzle": {
-   "id": "dp-2026-09-10",
-   "type": "lateral",
-   "prompt": "A landlord leases two identical, adjacent storefronts -- same square footage, same term, same start date. One tenant pays $40 per square foot. The other pays $22. Both signed happily, and neither is getting a worse deal than the other. What's true of the $22 tenant that isn't true of the $40 one?",
-   "hint": "Ask why a landlord would ever want to charge one tenant less than the market rate for identical space.",
-   "solution": "The $22 tenant is the anchor -- a well-known grocery store, bank, or big-box retailer whose name and foot traffic draw customers past every other storefront on the block.",
-   "explanation": "Landlords routinely rent to anchors below market because the anchor isn't really renting space -- it's selling foot traffic, and that traffic is what lets every smaller in-line tenant justify paying full price."
+   "id": "dp-2026-09-11",
+   "type": "riddle",
+   "prompt": "I have no wings, but everyone says I fly. I have no legs, but everyone says I run out. Spend me carelessly and you'll regret it; spend me well and no one will ever mention it. What am I?",
+   "hint": "Think of the two cliches everyone already uses for it, before you get to the third clue.",
+   "solution": "Time.",
+   "explanation": "Each clue names something said only of time -- it flies, it runs out, and it's the one resource where good use is invisible and only its waste gets remarked on."
   },
   "evening_unwind": {
-   "id": "eu-2026-09-10",
+   "id": "eu-2026-09-11",
    "evening_quote": {
-    "text": "Some things are within our power, while others are not.",
-    "attribution": "Epictetus",
-    "source": "Enchiridion, 1"
+    "text": "You could leave life right now. Let that determine what you do and say and think.",
+    "attribution": "Marcus Aurelius",
+    "source": "Meditations, 2.11"
    },
-   "evening_prompt": "Sort one thing that felt urgent today -- an oil price, a football injury report, a city vote -- into \"within your control\" or not, and notice how few of them actually were."
+   "evening_prompt": "Twenty-five years on from a morning nobody saw coming, notice one thing you treated as guaranteed today, and sit with the fact that it wasn't."
   },
   "reading_queue": [
    {
@@ -400,8 +434,8 @@
    }
   ],
   "quote": {
-   "text": "Some things are within our power, while others are not.",
-   "attribution": "Epictetus"
+   "text": "You could leave life right now. Let that determine what you do and say and think.",
+   "attribution": "Marcus Aurelius"
   }
  },
  "threads": [
@@ -410,9 +444,9 @@
    "title": "US-Iran conflict and the Strait of Hormuz",
    "topic": "markets",
    "status": "active",
-   "last_updated": "2026-09-10",
-   "updates": 60,
-   "current_state": "Thursday brings the widest single wave of this war yet: after Tuesday's destruction of five Iranian tankers, Iran retaliated with roughly twenty ballistic missiles at Jordan's Al Azraq air base (Jordan says it intercepted eighteen; no casualties), claimed a ten-vessel strike wave near Hormuz that reportedly killed one seafarer and left another missing, and Brent crude broke above $100 for the first time in six weeks, closing Wednesday at $101.21. Iran's planned Hormuz \"exclusion zone\" still has not been formally declared with boundaries.",
+   "last_updated": "2026-09-11",
+   "updates": 61,
+   "current_state": "Thursday brought no new strikes but a sharper oil move and a genuine diplomatic first: Brent closed at $107.63, its highest in four months, while Trump renewed nuclear-site strike threats over Iran's Pickaxe Mountain site. Oman has convened Iran and all six GCC states for a first-ever joint meeting in Salalah on Monday, September 14, to discuss a temporary Hormuz reopening arrangement -- the first sign this war has an actual diplomatic track rather than only threats.",
    "timeline": [
     {
      "date": "2026-07-21",
@@ -713,18 +747,22 @@
      "date": "2026-09-10",
      "summary": "Iran retaliated for Tuesday's tanker strikes with roughly twenty ballistic missiles at Jordan's Al Azraq air base (Jordan says it intercepted eighteen, two fell in unpopulated areas, no casualties) and claimed a separate ten-vessel strike wave near Hormuz -- the largest declared wave of shipping attacks since the six-month war began -- reportedly killing one seafarer and leaving another missing. Brent crude broke above $100 for the first time in six weeks, closing Wednesday at $101.21 (WTI $96.05), the highest settle since May. Iran's planned exclusion zone remains undeclared.",
      "change_type": "worsened"
+    },
+    {
+     "date": "2026-09-11",
+     "summary": "Brent closed Thursday at $107.63 (+5.94%), briefly touching $108 intraday, the highest level in four months, as no new strikes were reported since Wednesday's Jordan/Hormuz wave. Trump warned Iran over renewed construction activity at its \"Pickaxe Mountain\" nuclear site, saying the US \"may\" strike it soon. Separately, Oman is convening Iran's foreign minister and all six Gulf Cooperation Council states in Salalah on Monday, September 14 -- the first senior Iran-Gulf meeting since the war began -- to discuss a temporary arrangement for reopening the Strait; diplomats caution any real reopening still needs US sign-off.",
+     "change_type": "worsened"
     }
-   ],
-   "importance": 0.95
+   ]
   },
   {
    "id": "thread-fed-rate-path",
    "title": "Federal Reserve rate path",
    "topic": "markets",
    "status": "active",
-   "last_updated": "2026-09-10",
-   "updates": 56,
-   "current_state": "Wednesday's close added real Treasury-market stress to the picture: the 10-year rose to roughly 4.83-4.85%, its highest close since October 2023, on fiscal worries and heavy AI-sector corporate debt issuance, while Brent's break above $100 added further pressure. CME FedWatch readings for a September 16 quarter-point hike ranged 56-66% across trackers this week, an unusually wide and fast-moving spread reflecting new Fed Chair Kevin Warsh's hawkish late-August Jackson Hole remarks. August CPI, due Friday September 11 at 8:30am ET, remains the last input before the decision.",
+   "last_updated": "2026-09-11",
+   "updates": 57,
+   "current_state": "Thursday deepened the selloff on a hot PPI print: hike odds for the September 16 decision rose to roughly 70%, the 10-year hit 4.95% (highest since October 2023), and stocks fell for a fourth straight session. August CPI, the last data point before the decision, released this morning at 8:30am ET; the settled print was still working through the wires as of this edition.",
    "timeline": [
     {
      "date": "2026-07-18",
@@ -1005,9 +1043,13 @@
      "date": "2026-09-10",
      "summary": "Wednesday's confirmed close: S&P 500 -0.48% to 7,636.36, Nasdaq -0.64% to 26,253.34, Dow -405.41 (-0.77%) to 52,380.66, Russell 2000 -1.30%. The 10-year rose to roughly 4.83-4.85%, its highest close since October 2023, on fiscal worries and heavy AI-sector debt issuance. CME FedWatch's September hike odds ranged 56-66% across trackers this week -- an unusually wide, fast-moving spread tied to Fed Chair Kevin Warsh's hawkish Jackson Hole remarks. August CPI, Friday September 11 at 8:30am ET, remains the deciding input.",
      "change_type": "worsened"
+    },
+    {
+     "date": "2026-09-11",
+     "summary": "A hot August PPI print pushed CME FedWatch's September 16 hike odds to roughly 70%, from 56-66% Wednesday and 44% a week earlier. Thursday's confirmed close: S&P 500 -0.6% to 7,591.70, Dow -0.6% to 52,064.10, Nasdaq -0.7% to 26,081.72, a fourth straight losing session; the 10-year Treasury yield jumped to 4.95%, its highest close since October 2023, on the hot PPI and Brent's climb toward $108. August CPI -- the last input before Wednesday's decision -- released this morning at 8:30am ET; settled figures and market reaction were not yet independently confirmed through primary sources as this edition went to print.",
+     "change_type": "worsened"
     }
-   ],
-   "importance": 0.75
+   ]
   },
   {
    "id": "thread-marlins-wildcard",
@@ -1313,8 +1355,7 @@
      "summary": "The Mets completed a three-game sweep with a 15-14 win Wednesday -- New York led 8-0 in the third, Miami clawed back to lead 8-5 by the sixth, but the Mets scored six in the seventh (Lindor homered, Morel added an RBI single) and held on despite being outhit 20-15. Miami falls to 72-75, three games under .500 for the first time since June 9, roughly 6.5 games back of the final NL wild-card spot with 15 left; FanGraphs puts playoff odds at effectively zero.",
      "change_type": "worsened"
     }
-   ],
-   "importance": 0.45
+   ]
   },
   {
    "id": "thread-heat-giannis-era",
@@ -1362,9 +1403,9 @@
    "title": "Dolphins rebuild under Hafley",
    "topic": "sports",
    "status": "active",
-   "last_updated": "2026-09-10",
-   "updates": 40,
-   "current_state": "Coach Jeff Hafley reported all 53 active players practiced Wednesday, with tight end Will Kacmarek, linebacker Ronnie Harrison Jr., and receiver Chris Bell all clearing injury designations ahead of Sunday's opener at Las Vegas. Receiver Tyreek Hill will not play Week 1, with doctors reportedly recommending he wait until at least October; Malik Willis makes his first career start as a Dolphin Sunday.",
+   "last_updated": "2026-09-11",
+   "updates": 41,
+   "current_state": "Miami enters Sunday's opener at Las Vegas with a clean Thursday practice report and a healthier roster than the team it's facing -- the Raiders will be without tight end Brock Bowers. Malik Willis starts at quarterback in his Dolphins debut; Tyreek Hill remains out.",
    "timeline": [
     {
      "date": "2026-07-18",
@@ -1565,18 +1606,22 @@
      "date": "2026-09-10",
      "summary": "Hafley said all 53 active-roster players practiced Wednesday -- tight end Will Kacmarek and linebacker Ronnie Harrison Jr. returned after missing last week, and receiver Chris Bell (off the non-football-injury list) is a full go for Week 1. Receiver Tyreek Hill will not play Week 1, with doctors reportedly recommending he wait until at least October to attempt a comeback. Malik Willis makes his first career start as a Dolphin Sunday at Las Vegas.",
      "change_type": "advanced"
+    },
+    {
+     "date": "2026-09-11",
+     "summary": "Coach Jeff Hafley said all 53 active roster players practiced Wednesday and Thursday ahead of Sunday's 1pm opener at Las Vegas, with only minor limitations (Ronnie Harrison Jr., Will Kacmarek). The Raiders will be without star tight end Brock Bowers (knee) for the game. Malik Willis makes his first career start at quarterback for Miami; Tyreek Hill remains out.",
+     "change_type": "advanced"
     }
-   ],
-   "importance": 0.5
+   ]
   },
   {
    "id": "thread-hurricanes-fall-camp",
    "title": "Miami Hurricanes fall camp and the Mensah era",
    "topic": "sports",
    "status": "active",
-   "last_updated": "2026-09-10",
-   "updates": 13,
-   "current_state": "The Hurricanes host Florida A&M tonight, Thursday September 10, 8pm at Hard Rock Stadium, banged up in the secondary: corner OJ Frederique Jr. is out for an extended stretch after a shoulder injury on his very first defensive snap against Stanford, corner Ja'Boree Antoine is also out, and safety Dylan Day is sidelined by a non-football illness. Running back Jordan Lyle's status remains unresolved; his felony fleeing/eluding charge remains open.",
+   "last_updated": "2026-09-11",
+   "updates": 14,
+   "current_state": "Miami is 2-0 after Thursday's 77-7 rout of Florida A&M at Hard Rock Stadium; FAMU's starting quarterback is out for the season with a thumb injury. Frederique Jr. remains out for Miami's secondary ahead of the start of real ACC competition.",
    "timeline": [
     {
      "date": "2026-08-14",
@@ -1642,9 +1687,13 @@
      "date": "2026-09-10",
      "summary": "Ahead of tonight's home opener against Florida A&M, Miami's secondary is thinner than it was at Stanford: corner OJ Frederique Jr. suffered a serious shoulder injury on his first defensive snap of the season and will be out for an extended stretch, corner Ja'Boree Antoine is also out, and safety Dylan Day is sidelined by a non-football illness. Cristobal declined to give a hard update on running back Jordan Lyle's status.",
      "change_type": "watch"
+    },
+    {
+     "date": "2026-09-11",
+     "summary": "No. 7 Miami routed Florida A&M 77-7 Thursday night at Hard Rock Stadium to move to 2-0, behind quarterback Darian Mensah and receiver Malachi Toney. FAMU's starting quarterback is reportedly out for the season with a thumb injury. Corner OJ Frederique Jr. remains out for Miami with the shoulder injury sustained in the opener.",
+     "change_type": "advanced"
     }
-   ],
-   "importance": 0.6
+   ]
   },
   {
    "id": "thread-miami-summer-openings",
@@ -1747,9 +1796,9 @@
    "title": "Miami Freedom Park Civic Center",
    "topic": "miami",
    "status": "active",
-   "last_updated": "2026-08-27",
-   "updates": 2,
-   "current_state": "The Civic Center topped off in July and remains on track for spring 2028, but the more interesting question just surfaced: once Freedom Park's new administration building opens, the city's historic Dinner Key City Hall -- a 1934 Pan Am seaplane terminal on some of Miami's most valuable public waterfront -- has no settled future. Nothing is decided, but the conversation has started.",
+   "last_updated": "2026-09-11",
+   "updates": 3,
+   "current_state": "Miami's commission voted Thursday to keep City Hall at the Pan Am terminal in Coconut Grove rather than relocating to Freedom Park -- resolving one concrete piece of the broader civic debate over the future of that waterfront property.",
    "timeline": [
     {
      "date": "2026-07-22",
@@ -1760,6 +1809,11 @@
      "date": "2026-08-27",
      "summary": "With Freedom Park's new eight-story City of Miami Administration Building on track, the question of what happens to the current City Hall -- a 1934 Pan Am seaplane terminal on prime Dinner Key bayfront, listed on the National Register of Historic Places -- is now openly on the table. Officials say no decision is final ('all really premature'), but commissioners are expected to weigh options once the new building opens in about two years.",
      "change_type": "watch"
+    },
+    {
+     "date": "2026-09-11",
+     "summary": "The Miami city commission voted Thursday to keep the historic Pan Am terminal at Dinner Key in Coconut Grove as the city's primary City Hall, rather than relocating city government operations to the Miami Freedom Park development.",
+     "change_type": "advanced"
     }
    ]
   },
@@ -1927,8 +1981,7 @@
      "summary": "Boston-based Longpoint Partners paid $195 million ($267/sf) for a 10-building, 730,000-square-foot Miami-Dade small-bay industrial portfolio, 90% leased across 74 tenants averaging roughly 10,000 square feet each -- the fifth institutional Miami-area deal in three weeks and the largest single transaction of the wave.",
      "change_type": "advanced"
     }
-   ],
-   "importance": 0.55
+   ]
   },
   {
    "id": "thread-miami-worldcenter-development",
@@ -2136,9 +2189,9 @@
    "title": "Miami-Dade's \"Vice City\" pitch to Rockstar Games",
    "topic": "miami",
    "status": "active",
-   "last_updated": "2026-09-10",
-   "updates": 3,
-   "current_state": "A separate, city-level ordinance sponsored by Commissioner Damian Pardo -- temporarily loosening downtown signage rules from October 15 through December 31 to let Rockstar/Take-Two rent up to six downtown banners at $202,000 apiece (~$1.2M total), proceeds earmarked for the Underdeck Heritage Trail park's funding gap -- goes to a Miami city commission vote today, September 10. Miami-Dade's sheriff and a county commissioner have issued a joint statement opposing it, and the county's chief judge and clerk of courts separately asked that courthouses be excluded from any branding. The county-level \"Vice City\" pitch deck to Rockstar remains unresolved and unrelated to this city vote.",
+   "last_updated": "2026-09-11",
+   "updates": 4,
+   "current_state": "The saga has forked into two distinct municipal decisions: Miami Beach's commission approved its own limited marketing deal with Rockstar 4-3 (confirmed). The City of Miami's separate downtown banner ordinance was also on Thursday's agenda, but its outcome remains unconfirmed as of this morning -- worth a clean follow-up once clearer reporting surfaces.",
    "timeline": [
     {
      "date": "2026-08-31",
@@ -2154,9 +2207,13 @@
      "date": "2026-09-10",
      "summary": "A city-level ordinance from Commissioner Damian Pardo -- allowing up to six paid downtown banners at $202,000 each (Oct 15-Dec 31), with proceeds funding the Underdeck Heritage Trail park after a $60M federal grant for it was pulled -- goes to a Miami city commission vote today. Miami-Dade's sheriff and a county commissioner oppose it; the county's chief judge and clerk of courts want courthouses excluded from any branding. Distinct from the still-unapproved county-level Vice City pitch deck.",
      "change_type": "advanced"
+    },
+    {
+     "date": "2026-09-11",
+     "summary": "Miami Beach's city commission voted 4-3 to approve its own, separate marketing arrangement with Rockstar -- restricted to the terms \"VI\" and \"Vice City\" on private beach equipment like chairs and umbrellas, running October 15 through December 31 -- after real debate over the game's violent content. The City of Miami's downtown banner ordinance (Commissioner Pardo's plan for up to six paid banners at $202,000 each) was separately on Thursday's commission agenda; its specific vote outcome could not be independently confirmed from available reporting as of this morning, which conflated it with the Miami Beach vote in several outlets.",
+     "change_type": "advanced"
     }
-   ],
-   "importance": 0.4
+   ]
   },
   {
    "id": "thread-bass-fall-season-2026",
@@ -2199,7 +2256,7 @@
   }
  ],
  "meta": {
-  "content_freshness": "2026-09-10T09:30:00-04:00",
+  "content_freshness": "2026-09-11T09:30:00-04:00",
   "feedback_endpoint_mode": "github_contents",
   "minimum_client_schema_version": 1,
   "mode": "brain"
