@@ -1,441 +1,403 @@
 {
  "schema_version": 2,
  "edition": {
-  "id": "2026-09-11",
-  "date": "2026-09-11",
+  "id": "2026-09-12",
+  "date": "2026-09-12",
   "type": "weekday",
-  "generated_at": "2026-09-11T09:30:00-04:00",
+  "generated_at": "2026-09-12T09:30:00-04:00",
   "timezone": "America/New_York",
   "title": "Personal OS",
   "front_page_letter": {
    "greeting": "Good morning",
    "body_paragraphs": [
-    "Thursday packed two numbers into one session: Brent crude jumped nearly six percent to $107.63, briefly touching $108, its highest in four months, and the 10-year Treasury closed at 4.95 percent -- a level unseen since October 2023 -- after a hot August producer-price print pushed the odds on next week's Fed decision to roughly 70 percent. This morning's CPI report, the last input before Wednesday's vote, landed at 8:30, though the settled numbers were still working through the wires as this edition went out. The one genuinely hopeful thread: Iran and all six Gulf states are due to sit down in Oman on Monday, the first real meeting of this war.",
-    "Closer to home, the Hurricanes reminded everyone why they're ranked seventh, routing Florida A&M 77-7 last night. The Dolphins, healthier than expected, open Sunday in Las Vegas against a Raiders team missing its best tight end. And Miami's GTA6 marketing saga split into two separate votes this week -- Miami Beach approved its own limited deal 4-3 after real debate; the City of Miami's downtown banner ordinance also came up Thursday, but its outcome wasn't clearly confirmed by this morning.",
-    "Today is also the 25th anniversary of September 11th. Worth a slower minute than the rest of this list gets."
+    "Friday answered Thursday's open question and then shrugged. August CPI landed right on expectations -- 3.4% annual, core inflation at its lowest in five years -- which should read as good news, except the market had already decided a hike was coming and an in-line print just removed the last excuse for the Fed to hold. September 16 odds jumped to roughly 85-90%. Stocks rallied anyway, up about 1% across the board, mostly because Brent crude fell 2.8% after Iran confirmed it will sit down with all six Gulf states in Oman on Monday -- the war's first real joint meeting, six months in.",
+    "That's the pattern worth noticing today: the number that moved markets wasn't really about the economy, and the number that actually eased pressure was about diplomacy nobody was pricing a week ago. The Marlins, for what it's worth, lost to the Dodgers 6-2 and sit 12th in the wild-card race with three games left -- not mathematically dead, just done in every way that matters. The Dolphins open their season Sunday at Las Vegas, healthier than the team they're playing, with Malik Willis making his first career start.",
+    "And Miami's GTA6 saga keeps getting stranger by omission: Miami Beach's $3 million deal with Rockstar is locked in and detailed, but two full days after Miami's downtown banner ordinance was scheduled for a vote, not one outlet has reported what happened. Sometimes the story is the silence."
    ],
    "read_only_three": [
     {
      "target_type": "theme",
-     "target_id": "theme-iran-hormuz-oil-108-gulf-talks",
-     "label": "Brent tops $108; Iran and the Gulf plan first joint talks of the war"
+     "target_id": "theme-cpi-lands-hike-odds-surge-market-rallies",
+     "label": "CPI lands in line, hike odds jump to ~85-90% anyway, stocks rally"
     },
     {
      "target_type": "theme",
-     "target_id": "theme-fed-cpi-day-thursday-selloff",
-     "label": "Fourth straight losing session; hike odds near 70% heading into CPI"
+     "target_id": "theme-iran-hormuz-oil-pulls-back-salalah-ahead",
+     "label": "Brent falls 2.8% as Iran confirms Monday's first joint Gulf meeting of the war"
     },
     {
      "target_type": "rabbit_hole",
-     "target_id": "rh-2026-09-11",
-     "label": "25 years later: David Foster Wallace's essay on watching 9/11 unfold"
+     "target_id": "rh-2026-09-12",
+     "label": "Why fossil shells flip their spiral direction every few thousand years"
     }
    ]
   },
   "market_context": [
    {
     "label": "S&P 500",
-    "value": "7,591.70",
-    "change": "-0.6% Thursday, fourth straight losing session",
-    "observed": "Thursday close, September 10, 2026",
-    "note": "Dow fell 0.6% to 52,064.10; Nasdaq fell 0.7% to 26,081.72."
+    "value": "7,656.98",
+    "change": "+0.9% Friday, snapping a four-day losing streak",
+    "observed": "Friday close, September 11, 2026",
+    "note": "Dow rose 1.0% to 52,573.29; Nasdaq rose 1.0% to 26,333.04."
    },
    {
     "label": "Nasdaq Composite",
-    "value": "26,081.72",
-    "change": "-0.7% Thursday",
-    "observed": "Thursday close, September 10, 2026",
-    "note": "Fourth consecutive losing session as both oil and yields climbed."
+    "value": "26,333.04",
+    "change": "+1.0% Friday",
+    "observed": "Friday close, September 11, 2026",
+    "note": "Rallied alongside the broader market as oil eased and CPI came in as expected."
    },
    {
     "label": "10Y Treasury",
-    "value": "4.95%",
-    "change": "highest close since October 2023",
-    "observed": "Thursday, September 10, 2026",
-    "note": "Driven by a hot August PPI print and Brent's climb toward $108."
+    "value": "4.96%",
+    "change": "just under the 5% mark, highest since October 2023",
+    "observed": "Friday, September 11, 2026",
+    "note": "Little changed from Thursday's 4.95% despite the market rally in stocks."
    },
    {
     "label": "Brent crude",
-    "value": "$107.63",
-    "change": "+5.94%, briefly topped $108 intraday",
-    "observed": "Thursday close, September 10, 2026",
-    "note": "Highest level in four months; WTI settled near $102.48."
+    "value": "$104.61",
+    "change": "-2.8% Friday, off Thursday's four-month high",
+    "observed": "Friday close, September 11, 2026",
+    "note": "Eased on news that Iran and all six GCC states will meet in Oman Monday, Sept 14."
    },
    {
     "label": "FOMC (September 16 decision)",
-    "value": "Hike odds ~70%",
-    "change": "up from 56-66% Wednesday and ~44% a week ago",
-    "observed": "Thursday, September 10, 2026, CME FedWatch, post-PPI",
-    "note": "August CPI released this morning at 8:30am ET, the last input before Wednesday's decision; settled figures were not independently confirmed as of publication."
+    "value": "Hike odds ~85-90%",
+    "change": "up from ~70% Thursday",
+    "observed": "Friday, September 11, 2026, CME FedWatch, post-CPI",
+    "note": "August CPI: headline +0.4% m/m (3.4% y/y), core +0.3% m/m (2.4% y/y, a five-year-plus low) -- in line with estimates, which markets read as removing the last chance the Fed holds."
    }
   ],
   "public_day_context": {
-   "date_label": "Friday, September 11, 2026",
-   "weather": "High near 90 with a 50% chance of showers and thunderstorms and a heat index near 100; low near 81 overnight.",
-   "public_event": "Today is the 25th anniversary of the September 11 attacks, proclaimed Patriot Day 2026. The National September 11 Memorial's ceremony in lower Manhattan begins at 8:30am with the first moment of silence at 8:46am, and tonight's Tribute in Light airs as a live national broadcast for the first time, 8pm ET."
+   "date_label": "Saturday, September 12, 2026",
+   "weather": "High near 90 with a low near 81 overnight; typical late-summer Miami heat and humidity.",
+   "public_event": "The Marlins host the Dodgers at loanDepot Park at 4:10pm for a Japanese Heritage Celebration game. The Dolphins' season opener at Las Vegas is tomorrow, Sunday at 1:25pm PT."
   },
   "what_changed": [
    {
-    "id": "delta-oil-108-gulf-diplomacy-meeting",
+    "id": "delta-cpi-lands-hike-odds-85-90-rally",
+    "thread_id": "thread-fed-rate-path",
+    "change_type": "resolved",
+    "title": "August CPI lands in line with estimates; hike odds jump to ~85-90% anyway",
+    "previous_state": "As of Thursday, hike odds sat near 70% on a hot PPI print, and August CPI -- released that morning -- had not yet been confirmed through primary sources by publication time.",
+    "current_state": "August CPI came in almost exactly as expected: headline +0.4% m/m (3.4% y/y), core +0.3% m/m (2.4% y/y, the lowest annual core reading in over five years). Because it wasn't soft enough to justify a hold, CME FedWatch's September 16 hike odds jumped to roughly 85-90%. Stocks rallied about 1% across the board regardless, helped by oil's pullback.",
+    "why_it_matters": "The print that was supposed to be the swing factor barely moved the economic story -- it just removed the market's last excuse to doubt a hike, which is a different thing than the economy actually needing one.",
+    "confidence": "high",
+    "source": {
+     "publisher": "CNBC",
+     "url": "https://www.cnbc.com/2026/09/11/cpi-inflation-report-august-2026.html"
+    }
+   },
+   {
+    "id": "delta-brent-104-salalah-confirmed",
     "thread_id": "thread-iran-hormuz-crisis",
-    "change_type": "worsened",
-    "title": "Brent tops $108 intraday as Iran and the Gulf states plan first joint talks of the war",
-    "previous_state": "Wednesday's close held Brent at $101.21, its first break above $100 in six weeks, after Iran's strikes on Jordan and its claimed ten-vessel Hormuz wave.",
-    "current_state": "Brent closed Thursday at $107.63 (+5.94%), briefly touching $108 intraday, the highest level in four months; separately, Oman is convening Iran and all six GCC states in Salalah on Monday, September 14 -- the first senior Iran-Gulf meeting since the war began.",
-    "why_it_matters": "The price keeps climbing, but a real meeting now scheduled is the first sign this war might have an actual diplomatic off-ramp being discussed, not just threatened.",
+    "change_type": "improved",
+    "title": "Brent falls 2.8% as Iran confirms Monday's Salalah meeting with all six Gulf states",
+    "previous_state": "Thursday's close held Brent at $107.63, a four-month high, with Monday's Oman-hosted meeting reported but not yet confirmed by Iran's own side.",
+    "current_state": "Brent fell 2.8% to $104.61 Friday after Iran's foreign ministry confirmed it will meet all six GCC states plus Iraq in Salalah, Oman on Monday, September 14 -- the war's first senior joint sit-down, aimed at temporary shipping and mine-clearance arrangements rather than full reopening.",
+    "why_it_matters": "Prices easing on confirmed diplomacy, rather than on threats or pauses in fighting, is a genuinely different kind of signal than this war has produced before.",
     "confidence": "medium",
     "source": {
      "publisher": "Rigzone",
-     "url": "https://www.rigzone.com/news/oil_closes_at_highest_level_in_4_months-10-sep-2026-184581-article/"
+     "url": "https://www.rigzone.com/news/wire/gulf_states_mull_hormuz_talks_with_iran-11-sep-2026-184591-article/"
     }
    },
    {
-    "id": "delta-fed-hike-odds-70-cpi-today",
-    "thread_id": "thread-fed-rate-path",
+    "id": "delta-marlins-effectively-done",
+    "thread_id": "thread-marlins-wildcard",
     "change_type": "worsened",
-    "title": "Hike odds jump to roughly 70% on hot PPI; CPI lands this morning",
-    "previous_state": "Wednesday's close had September hike odds ranging 56-66% across trackers, with the 10-year near 4.83-4.85%.",
-    "current_state": "A hot August PPI print pushed CME FedWatch's September hike odds to roughly 70% Thursday, and the 10-year jumped to 4.95%, its highest since October 2023, in a fourth straight losing session for stocks. August CPI, the last input before Wednesday's decision, released this morning at 8:30am ET; settled figures were not yet independently confirmed as this edition went to print.",
-    "why_it_matters": "The odds are converging on a hike well before the actual decisive print lands -- worth watching whether this morning's CPI does anything to move a number that increasingly looks priced in.",
-    "confidence": "medium",
-    "source": {
-     "publisher": "CNBC",
-     "url": "https://www.cnbc.com/2026/09/10/the-likelihood-of-a-fed-interest-rate-hike-next-week-just-got-a-lot-higher.html"
-    }
-   },
-   {
-    "id": "delta-hurricanes-blowout-famu",
-    "thread_id": "thread-hurricanes-fall-camp",
-    "change_type": "advanced",
-    "title": "Hurricanes blow out Florida A&M 77-7, move to 2-0",
-    "previous_state": "As of Wednesday, the Hurricanes were 1-0 heading into Thursday's home opener against FAMU, with a thinned secondary after Frederique's shoulder injury.",
-    "current_state": "Miami routed FAMU 77-7 Thursday night at Hard Rock Stadium to move to 2-0; FAMU's starting quarterback is reportedly out for the season with a thumb injury.",
-    "why_it_matters": "A blowout against a heavy underdog doesn't tell you much on its own, but it's a clean data point ahead of real ACC competition.",
+    "title": "Marlins fall to 12th in wild card with three games left after 6-2 loss to the Dodgers",
+    "previous_state": "As of Thursday, Miami sat roughly 6.5 games back of the final wild-card spot with 15 games left, not yet mathematically eliminated.",
+    "current_state": "The Dodgers beat Miami 6-2 Friday at loanDepot Park; the Marlins now sit 12th in the NL wild-card standings with three games left, a gap no longer closeable in practice.",
+    "why_it_matters": "A season that was over in spirit weeks ago is now over in every sense that matters, three games early.",
     "confidence": "high",
     "source": {
-     "publisher": "Yahoo Sports",
-     "url": "https://sports.yahoo.com/articles/miami-dominates-florida-m-77-033859592.html"
+     "publisher": "MLB.com",
+     "url": "https://www.mlb.com/gameday/dodgers-vs-marlins/2026/09/11/823817/final/box"
     }
    },
    {
-    "id": "delta-gta6-miami-beach-approved-downtown-unclear",
+    "id": "delta-gta6-miami-beach-3m-downtown-silence",
     "thread_id": "thread-miami-vice-city-gta6-pitch",
-    "change_type": "new",
-    "title": "Miami Beach approves its own GTA6 deal 4-3; downtown Miami's vote outcome unclear",
-    "previous_state": "As of yesterday, only the City of Miami's downtown banner ordinance (Pardo's plan) was scheduled for a commission vote; no separate Miami Beach item was being tracked.",
-    "current_state": "Miami Beach's commission approved, 4-3, its own marketing arrangement with Rockstar for the terms 'VI' and 'Vice City' on private beach equipment, running Oct 15-Dec 31. The City of Miami's separate downtown banner ordinance was also on Thursday's agenda, but its outcome could not be confirmed from available reporting as of this morning.",
-    "why_it_matters": "Two different governments making two different money decisions about the same marketing tie-in in the same week is worth separating clearly, since the details -- and the actual money -- differ.",
+    "change_type": "watch",
+    "title": "Miami Beach's GTA6 deal specified at ~$3 million; downtown Miami's vote outcome still unreported two days later",
+    "previous_state": "As of Thursday, Miami Beach's 4-3 approval was confirmed without a dollar figure, and the City of Miami's downtown banner ordinance vote outcome was unconfirmed as of that morning.",
+    "current_state": "Miami Beach's approved arrangement is now reported at roughly $3 million for discreet branding on beach equipment through year-end. The City of Miami's separate downtown ordinance, scheduled for a Thursday vote, still has no reported outcome as of Friday -- an unusually long gap for routine local commission coverage.",
+    "why_it_matters": "Two days of silence on a scheduled municipal vote is itself a data point, whether it means the vote was deferred, buried, or just under-covered.",
     "confidence": "medium",
     "source": {
-     "publisher": "Beebom",
-     "url": "https://beebom.com/gta-6-marketing-deal-approved-by-miami-beach-despite-heated-debate-over-rockstars-game/"
-    }
-   },
-   {
-    "id": "delta-freedom-park-city-hall-stays",
-    "thread_id": "thread-miami-freedom-park-civic",
-    "change_type": "resolved",
-    "title": "Miami votes to keep City Hall at the Pan Am terminal, not Freedom Park",
-    "previous_state": "The broader debate over city-owned waterfront property in Coconut Grove, including whether city government functions might eventually move, had been open.",
-    "current_state": "Miami's commission voted Thursday to keep the historic Pan Am terminal at Dinner Key as the city's primary City Hall rather than relocating to the Freedom Park development.",
-    "why_it_matters": "Resolves one concrete piece of a long civic debate over Coconut Grove's waterfront -- worth noting against your own read on how much that land's use is actually still in play.",
-    "confidence": "high",
-    "source": {
-     "publisher": "WLRN",
-     "url": "https://www.wlrn.org/government-politics/2026-09-10/miami-panam-city-hall-coconut-grove"
+     "publisher": "GTA BOOM",
+     "url": "https://www.gtaboom.com/miami-wants-rockstar-to-pay-202000-a-banner-to-brand-downtown-for-gta-6-68ce"
     }
    }
   ],
   "themes": [
    {
-    "id": "theme-iran-hormuz-oil-108-gulf-talks",
+    "id": "theme-cpi-lands-hike-odds-surge-market-rallies",
     "affinity": "morning",
     "topic": "markets",
     "topic_label": "Markets & Macro",
-    "title": "Brent tops $108 as Iran and the Gulf states plan their first joint talks of the war",
+    "title": "CPI lands in line, hike odds jump to roughly 85-90% anyway, and stocks rally",
     "importance": 0.9,
-    "thesis": "Thursday brought the war's highest oil price yet and, in the same 24 hours, the first sign of a real diplomatic track: Iran and all six GCC states are due to sit down Monday in Oman.",
-    "synthesis": "Brent crude closed Thursday at $107.63 (WTI $102.48), up nearly 6%, briefly touching $108 intraday -- the highest level in four months. Separately, Oman is convening Iran's foreign minister and all six Gulf Cooperation Council states in Salalah on Monday, September 14, the first senior Iran-Gulf sit-down since the war began, aimed at a temporary arrangement for reopening the Strait; diplomats caution any real reopening still needs US sign-off. Trump separately warned Iran over renewed construction activity at its 'Pickaxe Mountain' nuclear site, saying the US 'may' strike it soon. No new strikes on tankers or bases were reported since Wednesday's Jordan/Hormuz wave.",
-    "new_today": "Thursday's $107.63 close, the Monday Salalah meeting, and the Pickaxe Mountain warning are all new since yesterday's edition.",
-    "why_it_matters": "The oil spike is the more visible number, but the Salalah meeting is the more important one -- the first time this war has produced an actual meeting rather than a threat, worth watching against your own read on where fuel and freight costs go next.",
+    "thesis": "The report that was supposed to resolve Wednesday's decision came in almost exactly as expected -- which markets read not as reassurance but as the last excuse for a hold disappearing.",
+    "synthesis": "August CPI, released Friday at 8:30am, showed headline inflation up 0.4% for the month (3.4% annually) and core inflation up 0.3% (2.4% annually, the lowest 12-month core reading in more than five years) -- both essentially in line with estimates. Because the number wasn't soft enough to change the Fed's calculus, CME FedWatch's odds of a September 16 hike jumped to roughly 85-90%, up from Thursday's already-elevated 70%. Stocks rallied regardless: the S&P 500 rose 0.9% to 7,656.98, the Dow 1.0% to 52,573.29, and the Nasdaq 1.0% to 26,333.04, snapping a four-day losing streak, helped along by Brent crude's 2.8% pullback easing inflation-input fears. The 10-year Treasury held at 4.96%, just shy of the 5% mark it approached Thursday.",
+    "new_today": "The confirmed CPI figures, the jump to ~85-90% hike odds, and Friday's market rally are all new since Thursday's edition, which had the CPI release as unconfirmed.",
+    "why_it_matters": "A hike now looks close to fully priced -- worth watching less for whether it happens Wednesday and more for what Chair Warsh signals about the path after, since the market has already stopped debating this one.",
+    "thread_id": "thread-fed-rate-path",
+    "confidence": "high",
+    "sources": [
+     {
+      "role": "primary_reporting",
+      "publisher": "CNBC",
+      "headline": "CPI inflation report August 2026",
+      "url": "https://www.cnbc.com/2026/09/11/cpi-inflation-report-august-2026.html"
+     },
+     {
+      "role": "analysis",
+      "publisher": "CBS News",
+      "headline": "Fed rate hike in September is all but guaranteed after CPI report, economists say",
+      "url": "https://www.cbsnews.com/news/fed-rate-hike-september-likelihood-cpi/"
+     },
+     {
+      "role": "background",
+      "publisher": "Yahoo Finance",
+      "headline": "With Just 5 Days to Next FOMC Meeting, Odds of Fed Rate Hike Surge to Over 85%",
+      "url": "https://finance.yahoo.com/economy/policy/articles/just-5-days-next-fomc-145150594.html"
+     }
+    ]
+   },
+   {
+    "id": "theme-iran-hormuz-oil-pulls-back-salalah-ahead",
+    "affinity": "morning",
+    "topic": "markets",
+    "topic_label": "Markets & Macro",
+    "title": "Brent falls 2.8% as Iran confirms Monday's first joint Gulf meeting of the war",
+    "importance": 0.8,
+    "thesis": "Oil eased for a genuinely new reason this war has offered: confirmed diplomacy rather than a pause in fighting.",
+    "synthesis": "Brent crude closed Friday at $104.61, down 2.8% from Thursday's four-month high, after Iran's foreign ministry confirmed it will send its foreign minister to Salalah, Oman on Monday, September 14, to meet with all six GCC states and Iraq -- the first senior Iran-Gulf sit-down since the war began. Oman has spent weeks brokering a temporary shipping-corridor and mine-clearance arrangement with Iran; the meeting is meant to build regional backing for that plan, not to negotiate a full reopening, which still requires separate US sign-off. No new strikes were reported since Thursday's Jordan/Hormuz wave.",
+    "new_today": "Iran's own confirmation of the Monday meeting (rather than just Gulf-side reporting), and Friday's 2.8% price pullback, are new since Thursday.",
+    "why_it_matters": "A real, confirmed meeting moving oil the right direction is a different kind of signal than six months of threats and pauses -- worth watching Monday closely rather than assuming it fizzles like earlier rounds.",
     "thread_id": "thread-iran-hormuz-crisis",
     "confidence": "medium",
     "sources": [
      {
       "role": "primary_reporting",
       "publisher": "Rigzone",
-      "headline": "Oil Closes at Highest Level in 4 Months",
-      "url": "https://www.rigzone.com/news/oil_closes_at_highest_level_in_4_months-10-sep-2026-184581-article/"
+      "headline": "Gulf States Mull Hormuz Talks with Iran",
+      "url": "https://www.rigzone.com/news/wire/gulf_states_mull_hormuz_talks_with_iran-11-sep-2026-184591-article/"
      },
      {
       "role": "analysis",
-      "publisher": "Arab News",
-      "headline": "Iran and Gulf states to meet in push for Hormuz deal, FT reports",
-      "url": "https://www.arabnews.com/middle-east/iran-and-gulf-states-to-meet-in-push-for-hormuz-deal-ft-reports-3001311"
-     },
-     {
-      "role": "background",
-      "publisher": "Oman Observer",
-      "headline": "Iran, Gulf Ministers to meet in Salalah for Hormuz deal: Reports",
-      "url": "https://www.omanobserver.om/article/1195967/world/region/iran-gulf-ministers-to-meet-in-salalah-for-hormuz-deal-reports"
+      "publisher": "Bloomberg",
+      "headline": "Gulf States Weigh Rare Meeting With Iran Next Week on Hormuz",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-11/gulf-states-may-meet-iran-next-week-to-discuss-future-of-hormuz"
      },
      {
       "role": "background",
       "publisher": "CNBC",
-      "headline": "Trump warns Tehran over Pickaxe Mountain activity",
-      "url": "https://www.cnbc.com/2026/09/10/iran-us-war-hormuz-pickaxe-mountain.html"
+      "headline": "Oil prices fall Friday, but post sharp weekly gains as tensions in the Middle East rise",
+      "url": "https://www.cnbc.com/2026/09/11/oil-price-today-iran-brent-wti-trump.html"
      }
     ]
    },
    {
-    "id": "theme-fed-cpi-day-thursday-selloff",
-    "affinity": "morning",
-    "topic": "markets",
-    "topic_label": "Markets & Macro",
-    "title": "A fourth straight losing session, a 4.95% ten-year, and CPI day",
-    "importance": 0.85,
-    "thesis": "Markets fell for a fourth straight day Thursday on a hot PPI print and rising oil, pushing September hike odds to roughly 70% -- and this morning's CPI, the FOMC's last input, is still working through the wires as this edition goes out.",
-    "synthesis": "Thursday's confirmed close: S&P 500 -0.6% to 7,591.70, Dow -0.6% to 52,064.10, Nasdaq -0.7% to 26,081.72, the fourth straight losing session. The 10-year Treasury yield jumped to 4.95%, its highest since October 2023, as August PPI came in hotter than expected and Brent's climb toward $108 added inflation pressure. CME FedWatch odds for a September 16 hike rose to roughly 70%, up from the 56-66% range earlier in the week and from just 44% a week ago. August CPI -- the last data point before Wednesday's decision -- released this morning at 8:30am ET; the settled figures and market reaction were not yet confirmed through primary sources as this edition was finalized.",
-    "new_today": "Thursday's confirmed close, the 10-year's fresh high, the PPI-driven jump in hike odds, and this morning's CPI release are all new since yesterday.",
-    "why_it_matters": "A print this close to a decision the market already prices at 70% probably won't reverse the hike -- but it's the last real chance for the odds to move before Wednesday, and a genuinely soft number would be the tell that this isn't fully settled.",
-    "thread_id": "thread-fed-rate-path",
-    "confidence": "medium",
-    "sources": [
-     {
-      "role": "primary_reporting",
-      "publisher": "TheStreet",
-      "headline": "Stock Market Today (Sept. 10, 2026): S&P 500, Nasdaq decline as Brent oil hits highest point since July",
-      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-10-2026"
-     },
-     {
-      "role": "analysis",
-      "publisher": "CNBC",
-      "headline": "The likelihood of a Fed interest rate hike next week just got a lot higher",
-      "url": "https://www.cnbc.com/2026/09/10/the-likelihood-of-a-fed-interest-rate-hike-next-week-just-got-a-lot-higher.html"
-     },
-     {
-      "role": "background",
-      "publisher": "Kiplinger",
-      "headline": "August CPI Report: What the Inflation Data Is Expected to Show",
-      "url": "https://www.kiplinger.com/investing/economy/cpi-report-august-2026-what-to-expect"
-     }
-    ]
-   },
-   {
-    "id": "theme-hurricanes-famu-77-7",
+    "id": "theme-marlins-season-effectively-over",
     "affinity": "morning",
     "topic": "sports",
     "topic_label": "Miami Sports",
-    "title": "No. 7 Miami blows out Florida A&M 77-7",
-    "importance": 0.45,
-    "thesis": "A statement win, if a hollow one against clearly outmatched competition -- the more useful signal is the Frederique injury and FAMU losing its starting QB for the year.",
-    "synthesis": "The Hurricanes routed Florida A&M 77-7 Thursday night at Hard Rock Stadium, improving to 2-0 behind quarterback Darian Mensah and receiver Malachi Toney, who set a program receiving record the week before. FAMU's starting quarterback is reportedly out for the season with a thumb injury. Corner OJ Frederique Jr. remains out for Miami with the shoulder injury from the opener.",
-    "new_today": "The 77-7 final, the 2-0 record, and FAMU's season-ending QB injury are new since Tuesday's edition.",
-    "why_it_matters": "A 70-point win says more about the schedule than the team -- worth watching how Miami's defense, still without Frederique, looks once ACC play actually starts.",
-    "thread_id": "thread-hurricanes-fall-camp",
+    "title": "Marlins fall to 12th in the wild card after a 6-2 loss to the Dodgers",
+    "importance": 0.3,
+    "thesis": "A quiet, unremarkable loss that closes out what's been a foregone conclusion for weeks.",
+    "synthesis": "The Dodgers beat Miami 6-2 Friday at loanDepot Park. The Marlins fall to 12th in the National League wild-card standings with three games left in the season -- not yet mathematically eliminated, but with no realistic path back. Saturday's rematch at loanDepot Park (4:10pm) is part of the team's Japanese Heritage Celebration day.",
+    "new_today": "Friday's 6-2 final and the drop to 12th in the standings are new since Thursday's off day.",
+    "why_it_matters": "Nothing changes about how you'd plan around this team's fall schedule -- the season was decided in spirit weeks ago.",
+    "thread_id": "thread-marlins-wildcard",
     "confidence": "high",
     "sources": [
      {
       "role": "primary_reporting",
-      "publisher": "Yahoo Sports",
-      "headline": "Miami Dominates Florida A&M in 77-7 Blowout",
-      "url": "https://sports.yahoo.com/articles/miami-dominates-florida-m-77-033859592.html"
-     },
-     {
-      "role": "background",
-      "publisher": "ESPN",
-      "headline": "Florida A&M at Miami box score",
-      "url": "https://www.espn.com/college-football/game/_/gameId/401858213/florida-am-miami"
+      "publisher": "MLB.com",
+      "headline": "Dodgers 6, Marlins 2 Final Score",
+      "url": "https://www.mlb.com/gameday/dodgers-vs-marlins/2026/09/11/823817/final/box"
      }
     ]
    },
    {
-    "id": "theme-dolphins-raiders-opener-preview",
+    "id": "theme-dolphins-raiders-opener-eve",
     "affinity": "morning",
     "topic": "sports",
     "topic_label": "Miami Sports",
-    "title": "Dolphins enter Sunday's opener healthier than the team they're playing",
+    "title": "Dolphins head into Sunday's opener with a clean bill of health and a healthier roster than Las Vegas",
     "importance": 0.4,
-    "thesis": "Miami's roster is trending the right direction three days before kickoff, and Las Vegas is missing the one player who'd have made this a harder game.",
-    "synthesis": "Coach Jeff Hafley said all 53 active roster players practiced Wednesday and Thursday, with only minor limitations (Ronnie Harrison Jr., Will Kacmarek). Las Vegas, by contrast, will be without star tight end Brock Bowers (knee) for Sunday's 1pm opener. Malik Willis makes his first career start at quarterback for Miami; Tyreek Hill remains out.",
-    "new_today": "Thursday's clean practice report and the Bowers absence for Las Vegas are new since Wednesday.",
-    "why_it_matters": "Health is the whole story here -- Miami's talent gap against Las Vegas is real, but a rebuilding team catching a break on the injury report is the kind of small edge Hafley's staff needs early.",
+    "thesis": "The health gap that showed up Thursday held through Friday's final report -- Miami's edge going into kickoff is real, if modest.",
+    "synthesis": "Miami's Friday injury report lists only Will Kacmarek (calf) and Ronnie Harrison Jr. (hamstring) as limited, with rookie Seydou Traore a full participant -- effectively a clean report heading into Sunday's 1:25pm PT opener at Allegiant Stadium. Las Vegas remains without star tight end Brock Bowers (knee). Malik Willis makes his first career start at quarterback for a Dolphins roster that carries a league-high 13 rookies and an average age of 25.5.",
+    "new_today": "Friday's final, pre-game injury report is new since Thursday's practice report.",
+    "why_it_matters": "A young, rebuilding team catching a real health break in Week 1 is a small edge worth banking, whatever happens on the scoreboard Sunday.",
     "thread_id": "thread-dolphins-hafley-rebuild",
     "confidence": "high",
     "sources": [
      {
       "role": "primary_reporting",
-      "publisher": "Yahoo Sports",
-      "headline": "Dolphins Get Encouraging Injury News Ahead of Season Opener vs. Raiders",
-      "url": "https://sports.yahoo.com/articles/dolphins-encouraging-injury-news-ahead-223417850.html"
-     },
-     {
-      "role": "background",
-      "publisher": "Yahoo Sports / BVM Sports",
-      "headline": "Raiders, Dolphins Thursday injury report",
-      "url": "https://sports.yahoo.com/articles/raiders-dolphins-thursday-injury-report-220346576.html"
+      "publisher": "Raiders.com",
+      "headline": "Raiders-Dolphins Week 1 Injury Report: Brock Bowers ruled out",
+      "url": "https://www.raiders.com/news/las-vegas-raiders-miami-dolphins-nfl-week-1-2026-injury-report"
      }
     ]
    },
    {
-    "id": "theme-gta6-miami-beach-vote-pardo-unresolved",
+    "id": "theme-gta6-miami-beach-3m-downtown-silence",
     "affinity": "morning",
     "topic": "miami",
     "topic_label": "Miami Life & Culture",
-    "title": "Miami Beach approves its own GTA6 deal 4-3; the downtown banner vote's outcome is still unclear",
-    "importance": 0.4,
-    "thesis": "The 'Vice City' marketing saga just forked into two separate municipal decisions, and only one of them has a confirmed result.",
-    "synthesis": "Miami Beach's city commission voted 4-3 to approve its own marketing arrangement with Rockstar -- restricted to the terms 'VI' and 'Vice City' on private beach equipment like chairs and umbrellas, running October 15 through December 31 -- after real debate over the game's violence. That's a separate decision from the City of Miami's downtown ordinance (Commissioner Pardo's plan for up to six paid banners at $202,000 each, proceeds to the Underdeck Heritage Trail park), which was also on Thursday's commission agenda; reporting on that specific vote's outcome was inconsistent and could not be independently confirmed as of this morning.",
-    "new_today": "Miami Beach's 4-3 approval is new and confirmed; the downtown ordinance's status moves from 'scheduled for a vote' to 'unclear outcome' -- worth a clean follow-up.",
-    "why_it_matters": "Two different Miami-area governments are now on record making real money-for-marketing decisions about the same video game in the same week -- a small but real test of how far local government will go for a corporate tie-in.",
+    "title": "Miami Beach's ~$3 million GTA6 deal is confirmed; downtown Miami's vote remains unreported",
+    "importance": 0.35,
+    "thesis": "One half of this story now has real numbers attached; the other half has gone conspicuously quiet.",
+    "synthesis": "Miami Beach's approved arrangement with Rockstar is now reported at roughly $3 million, covering discreet 'VI' and 'Vice City' branding on Boucher Brothers beach chairs and umbrellas from October 15 through December 31. Meanwhile, the City of Miami's separate downtown banner ordinance -- Commissioner Pardo's plan for up to six banners at $208,000 each, funding the Underdeck park -- was scheduled for a Thursday commission vote, and two full days later no outlet has reported a recorded result.",
+    "new_today": "The ~$3 million figure for Miami Beach's deal is new and confirmed; the continued absence of any reported downtown-vote outcome is itself the notable development.",
+    "why_it_matters": "A dollar figure makes Miami Beach's decision concrete and comparable; the silence on Miami's own vote is worth tracking until it resolves one way or the other.",
     "thread_id": "thread-miami-vice-city-gta6-pitch",
     "confidence": "medium",
     "sources": [
      {
       "role": "primary_reporting",
-      "publisher": "Beebom",
-      "headline": "GTA 6 Marketing Deal Approved by Miami Beach Despite Heated Debate Over Rockstar's Game",
-      "url": "https://beebom.com/gta-6-marketing-deal-approved-by-miami-beach-despite-heated-debate-over-rockstars-game/"
-     },
-     {
-      "role": "analysis",
-      "publisher": "Kotaku",
-      "headline": "Miami Beach Debates Taking Millions From Rockstar To Advertise GTA 6",
-      "url": "https://kotaku.com/miami-beach-debates-taking-millions-from-rockstar-to-advertise-gta-6-were-not-giving-away-pistols-and-cocaine-to-people-2000733378"
+      "publisher": "GTA BOOM",
+      "headline": "Miami Beach Just Voted to Put GTA 6 Branding on Its Beach Chairs",
+      "url": "https://www.gtaboom.com/miami-beach-just-voted-to-put-gta-6-branding-on-its-beach-chairs-cd36"
      },
      {
       "role": "background",
-      "publisher": "NBC 6 South Florida",
-      "headline": "Miami-Dade Sheriff urges county against proposed GTA 6 promotion",
-      "url": "https://www.nbcmiami.com/news/local/game-over-miami-dade-sheriff-urges-county-against-proposed-gta-6-promotion/3854307/"
+      "publisher": "GTA BOOM",
+      "headline": "Miami Could Allow Six Downtown GTA 6 Banners For a Price",
+      "url": "https://www.gtaboom.com/miami-wants-rockstar-to-pay-202000-a-banner-to-brand-downtown-for-gta-6-68ce"
      }
     ]
    },
    {
-    "id": "theme-freedom-park-city-hall-stays-panam",
-    "affinity": "morning",
+    "id": "theme-rattlesnake-blood-antivenom-discovery",
+    "affinity": "evening",
+    "topic": "living",
+    "topic_label": "Art of Living",
+    "title": "Rattlesnakes carry their own antidote, and mixing it beats the antivenom we already have",
+    "importance": 0.4,
+    "thesis": "A defense rattlesnakes evolved against their own venom turns out to work, combined, far better than a century of manufactured antivenom.",
+    "synthesis": "University of Maryland researchers, publishing in PNAS, found that FETUA proteins naturally present in rattlesnake blood -- which protect the snake from its own venom -- can be combined into mixtures roughly ten times more potent at neutralizing venom than a leading commercial antivenom, in lab tests. No single protein worked alone; combinations did. The protection extended, unevenly, to venom from snake species separated from rattlesnakes by up to 50 million years of evolution, though it failed entirely against the African puff adder.",
+    "new_today": "Labeled exploration, chosen because ScienceDaily's September 7 coverage of the PNAS findings is a genuine addition to a field usually reported through single-protein studies.",
+    "why_it_matters": "A reminder that some of the most useful discoveries are hiding in plain sight inside a mechanism nature already solved -- worth noticing how rarely 'combine what already exists' is the breakthrough, rather than something newly invented.",
+    "thread_id": null,
+    "confidence": "high",
+    "sources": [
+     {
+      "role": "primary_reporting",
+      "publisher": "ScienceDaily",
+      "headline": "Scientists discover a powerful new antivenom hidden in rattlesnake blood",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260907201605.htm"
+     },
+     {
+      "role": "background",
+      "publisher": "Phys.org",
+      "headline": "Combined rattlesnake proteins prove 10 times more potent than current antivenom in lab tests",
+      "url": "https://phys.org/news/2026-07-combined-rattlesnake-proteins-potent-current.html"
+     }
+    ]
+   },
+   {
+    "id": "theme-huck-finn-fading-from-classrooms",
+    "affinity": "evening",
+    "topic": "living",
+    "topic_label": "Art of Living",
+    "title": "Huckleberry Finn is quietly disappearing from American classrooms",
+    "importance": 0.4,
+    "thesis": "A book once treated as a required argument with America's history is being set aside, and the reasons say something about how we now teach difficulty itself.",
+    "synthesis": "In a New York Times Magazine piece, Ruth Franklin reports that just 77 of roughly 4,000 teachers surveyed by the National Council of Teachers of English said they still teach 'Adventures of Huckleberry Finn' -- many describing themselves as the last in their department to assign it. Franklin, who teaches writing at Columbia, built a seminar around the challenge of separating a novel's literary value from its politics, with Twain's book on the syllabus; she argues the novel still offers something distinct: a model of questioning authority and thinking critically about received truths, independent of whether it survives as required reading.",
+    "new_today": "Labeled exploration -- a fresh, specific data point (77 of 4,000 teachers) on a long-running debate, worth a slower read rather than a market-moving item.",
+    "why_it_matters": "Worth sitting with independent of where you land on the book itself: a text can lose its place in classrooms for reasons that have little to do with whether it still has something to teach.",
+    "thread_id": null,
+    "confidence": "medium",
+    "sources": [
+     {
+      "role": "primary_reporting",
+      "publisher": "The New York Times Magazine",
+      "headline": "Learning to Love (and Teach) 'Huckleberry Finn'",
+      "url": "https://www.nytimes.com/2026/09/03/magazine/huckleberry-finn-teaching.html"
+     }
+    ]
+   },
+   {
+    "id": "theme-bass-museum-fall-season-preview",
+    "affinity": "evening",
     "topic": "miami",
     "topic_label": "Miami Life & Culture",
-    "title": "Miami keeps City Hall at the historic Pan Am terminal, ending -- for now -- talk of a Freedom Park move",
-    "importance": 0.45,
-    "thesis": "A quiet but real decision: Miami's government isn't relocating.",
-    "synthesis": "The Miami city commission voted Thursday to keep the historic Pan Am terminal at Dinner Key in Coconut Grove as the city's primary City Hall, rather than relocating operations to the Miami Freedom Park development. The vote resolves one specific open question in a long-running civic debate over the future of city-owned waterfront property in Coconut Grove.",
-    "new_today": "Thursday's vote to keep City Hall at Dinner Key is new since this thread was last updated.",
-    "why_it_matters": "Worth tracking against your own read on Coconut Grove and Dinner Key waterfront value -- a city that isn't moving its own government out is a small but real data point on how much civic inertia protects that land.",
-    "thread_id": "thread-miami-freedom-park-civic",
+    "title": "The Bass opens its fall season in five days",
+    "importance": 0.3,
+    "thesis": "A quiet preview worth marking on the calendar before the opening-week noise starts.",
+    "synthesis": "The Bass museum in Miami Beach opens its fall season Thursday, September 17, with Yuko Mohri's 'Unviolated Imperfection' (running through April 25, 2027), alongside Sarah Zapata's 'Against a State of Malevolence' and Amalia Pica's 'Lecturas Posibles.' The opening reception runs 6-9pm at The Bass and The Rotunda; RSVP requested by September 10 has already passed, but the exhibitions themselves remain open to visitors from opening day.",
+    "new_today": "A five-day-ahead preview, timed for planning purposes rather than a new fact about the shows themselves.",
+    "why_it_matters": "Worth a slower look before opening week rather than after -- three distinct artists, one museum, five days out.",
+    "thread_id": "thread-bass-fall-season-2026",
     "confidence": "high",
     "sources": [
      {
       "role": "primary_reporting",
-      "publisher": "WLRN",
-      "headline": "Miami will keep the historic Pan Am terminal as City Hall",
-      "url": "https://www.wlrn.org/government-politics/2026-09-10/miami-panam-city-hall-coconut-grove"
-     }
-    ]
-   },
-   {
-    "id": "theme-911-25th-anniversary-reflection",
-    "affinity": "evening",
-    "topic": "living",
-    "topic_label": "Art of Living",
-    "title": "Today is the 25th anniversary of September 11th",
-    "importance": 0.5,
-    "thesis": "A quarter century on, the day still asks something different of attention than the news cycle around it does.",
-    "synthesis": "The National September 11 Memorial & Museum's ceremony in lower Manhattan begins at 8:30am with the first of seven moments of silence at 8:46am, marking the exact minute of the first strike; family members read the names of the nearly 3,000 dead, as they have every year since 2002. Tonight at 8pm ET, the Tribute in Light -- two beams projected from lower Manhattan -- airs nationally for the first time as a live broadcast. September 11, 2026 has been proclaimed Patriot Day.",
-    "new_today": "The 25th-anniversary framing and tonight's first-ever live broadcast of the Tribute in Light are specific to today.",
-    "why_it_matters": "Not a story that changes anything in your week, but a genuine invitation -- one day a year built around remembering that most of what feels urgent isn't, and most of what matters doesn't announce itself.",
-    "thread_id": null,
-    "confidence": "high",
-    "sources": [
-     {
-      "role": "primary_reporting",
-      "publisher": "National September 11 Memorial & Museum",
-      "headline": "25th Anniversary Commemoration",
-      "url": "https://www.911memorial.org/connect/commemoration/25th-anniversary-commemoration"
-     },
-     {
-      "role": "background",
-      "publisher": "NPR",
-      "headline": "On the 25th anniversary of 9/11, a divided U.S. gathers to remember and grieve",
-      "url": "https://www.npr.org/2026/09/11/nx-s1-5961366/9-11-memorial-events"
-     }
-    ]
-   },
-   {
-    "id": "theme-denisovan-fossils-yunnan",
-    "affinity": "evening",
-    "topic": "living",
-    "topic_label": "Art of Living",
-    "title": "A cave in Yunnan just rewrote what we know about the Denisovans",
-    "importance": 0.35,
-    "thesis": "The clearest physical picture yet of a human relative we've mostly known from fragments and DNA.",
-    "synthesis": "Two papers in Nature, published September 9, describe a rich fossil trove from Bianfu Cave in China's Yunnan province -- including the first confirmed Denisovan forearm bone -- spanning up to 120,000 years of hunting and toolmaking. Denisovans, a sister lineage to Neanderthals first identified in 2010 from a Siberian cave, have been known almost entirely through DNA and a handful of fragments; this find gives researchers, for the first time, a fuller skeletal and behavioral picture of how they actually lived.",
-    "new_today": "Labeled exploration, outside this week's usual coverage -- chosen because it's a genuine addition to a field usually reported only through isolated DNA findings.",
-    "why_it_matters": "A useful reminder that some of the biggest updates to 'what we know about being human' arrive this quietly -- a cave, a bone, a paper -- with no launch event at all.",
-    "thread_id": null,
-    "confidence": "high",
-    "sources": [
-     {
-      "role": "primary_reporting",
-      "publisher": "Science News",
-      "headline": "Newfound Fossils Are Spilling Denisovan Secrets",
-      "url": "https://www.sciencenews.org/article/new-fossils-denisovan-secrets-china"
+      "publisher": "The Bass Museum",
+      "headline": "Fall 2026 Exhibitions",
+      "url": "https://thebass.org/"
      }
     ]
    }
   ],
   "rabbit_hole": {
-   "id": "rh-2026-09-11",
-   "title": "The View From Mrs. Thompson's",
-   "creator": "David Foster Wallace",
-   "format": "essay",
-   "minutes": 32,
-   "why": "Wallace's account of watching September 11th unfold on television among his churchgoing neighbors in small-town Illinois is one of the sharpest things written about collective attention, television, and disorientation -- and today, its 25th anniversary, is the one day a year it reads as current rather than historical.",
-   "url": "https://www.rollingstone.com/feature/david-foster-wallace-on-9-11-as-seen-from-the-midwest-242422/",
+   "id": "rh-2026-09-12",
+   "title": "Why Do These Fossil Shells Flip Their Spirals Every Few Millennia?",
+   "creator": "Quanta Magazine",
+   "format": "article",
+   "minutes": 20,
+   "why": "For thousands of years at a stretch, microscopic marine plankton called foraminifera build their spiral shells coiling one direction, then -- in near-perfect sync across separate ocean basins -- switch, then switch back, for reasons nobody has pinned down after five decades of study. It's a genuinely strange, unresolved mystery in deep time, the kind of thing worth 20 unhurried minutes.",
+   "url": "https://www.quantamagazine.org/why-do-these-fossil-shells-flip-their-spirals-every-few-millennia-20260911/",
    "related_interest": "living"
   },
   "beautiful_thing": {
-   "id": "bt-2026-09-11",
-   "title": "The Jungle (La Jungla)",
-   "creator": "Wifredo Lam",
-   "era": "1942-43, oil and charcoal on paper mounted on canvas; in MoMA's permanent collection",
-   "body": "Lam, born in Cuba to an Afro-Cuban mother and a Chinese father, painted this on kraft paper he glued together himself rather than canvas he could afford. Machete blades hide among sugarcane stalks and mask-like faces with wide almond eyes -- a reckoning with Cuba's plantation economy and Afro-Caribbean religious imagery filtered through the vocabulary of Cubist and Surrealist Paris, where Lam had studied before the war sent him home.",
-   "url": "https://www.moma.org/collection/works/34666",
+   "id": "bt-2026-09-12",
+   "title": "Iberic",
+   "creator": "Carmen Herrera",
+   "era": "1949, acrylic on canvas on board, tondo (40 in. diameter); Metropolitan Museum of Art",
+   "body": "Herrera painted Iberic during her formative years in Paris (1948-53), where she was close friends with fellow Cuban painter Wifredo Lam. Circular rather than rectangular, it interweaves geometric and organic shapes in red, orange, and black, oscillating between hard-edged abstraction and something more bodily. Museum conservators identified it in 2021 as the oldest work in the Met's collection to use this particular acrylic medium. Herrera kept painting in relative obscurity for another six decades; she sold her first work at 89 and got her first museum retrospective, at the Whitney, at 101.",
+   "url": "https://www.metmuseum.org/art/collection/search/817303",
    "image": null,
-   "alt": "A large, densely packed painting of stylized human-plant figures with mask-like faces amid sugarcane stalks, in muted blues and greens"
+   "alt": "A circular painting interweaving geometric and organic shapes in warm red, orange, and black"
   },
   "noticing_prompt": {
-   "id": "np-2026-09-11",
-   "text": "Notice, once today, something that felt like the biggest news of the morning by 9am, and see if it still feels that way by dinner."
+   "id": "np-2026-09-12",
+   "text": "Notice one number today that changes your read on something -- and check honestly whether the underlying thing actually changed, or just the number."
   },
   "daily_puzzle": {
-   "id": "dp-2026-09-11",
-   "type": "riddle",
-   "prompt": "I have no wings, but everyone says I fly. I have no legs, but everyone says I run out. Spend me carelessly and you'll regret it; spend me well and no one will ever mention it. What am I?",
-   "hint": "Think of the two cliches everyone already uses for it, before you get to the third clue.",
-   "solution": "Time.",
-   "explanation": "Each clue names something said only of time -- it flies, it runs out, and it's the one resource where good use is invisible and only its waste gets remarked on."
+   "id": "dp-2026-09-12",
+   "type": "logic",
+   "prompt": "Exactly one of these three statements is true. Which one, and why?\nA: Exactly one of these three statements is false.\nB: Exactly two of these three statements are false.\nC: All three of these statements are false.",
+   "hint": "Start with C -- a statement can't be both true and claim that it, itself, is false.",
+   "solution": "Statement B is the true one.",
+   "explanation": "If A were true, that would mean only one statement is false -- which requires two to be true, contradicting the setup. C can't be true, since it would then have to be false too. Only B is consistent: exactly two statements (A and C) are false, leaving B alone as true."
   },
   "evening_unwind": {
-   "id": "eu-2026-09-11",
+   "id": "eu-2026-09-12",
    "evening_quote": {
-    "text": "You could leave life right now. Let that determine what you do and say and think.",
-    "attribution": "Marcus Aurelius",
-    "source": "Meditations, 2.11"
+    "text": "Nothing, Lucilius, is ours, except time.",
+    "attribution": "Seneca",
+    "source": "Letters to Lucilius, 1"
    },
-   "evening_prompt": "Twenty-five years on from a morning nobody saw coming, notice one thing you treated as guaranteed today, and sit with the fact that it wasn't."
+   "evening_prompt": "The Fed's odds moved from 70% to 90% on a number that landed exactly as expected -- notice one thing today that felt like it changed everything, and ask honestly whether the thing itself changed at all."
   },
   "reading_queue": [
    {
     "title": "The Radical Reasons Why You Dream of Making Things by Hand",
     "url": "https://aeon.co/essays/the-radical-reasons-why-you-dream-of-making-things-by-hand",
     "verdict": "weekend",
-    "reason": "Still unread and still fits craft_and_making, your highest-weighted subtopic -- better suited to an unhurried weekend read than a weekday slot."
+    "reason": "Still unread and still fits craft_and_making, your highest-weighted subtopic -- tomorrow (Sunday) is a natural slot before the weekly edition."
    }
   ],
   "quote": {
-   "text": "You could leave life right now. Let that determine what you do and say and think.",
-   "attribution": "Marcus Aurelius"
+   "text": "Nothing, Lucilius, is ours, except time.",
+   "attribution": "Seneca"
   }
  },
  "threads": [
@@ -444,9 +406,9 @@
    "title": "US-Iran conflict and the Strait of Hormuz",
    "topic": "markets",
    "status": "active",
-   "last_updated": "2026-09-11",
-   "updates": 61,
-   "current_state": "Thursday brought no new strikes but a sharper oil move and a genuine diplomatic first: Brent closed at $107.63, its highest in four months, while Trump renewed nuclear-site strike threats over Iran's Pickaxe Mountain site. Oman has convened Iran and all six GCC states for a first-ever joint meeting in Salalah on Monday, September 14, to discuss a temporary Hormuz reopening arrangement -- the first sign this war has an actual diplomatic track rather than only threats.",
+   "last_updated": "2026-09-12",
+   "updates": 62,
+   "current_state": "Friday's diplomacy news pulled oil back from its four-month high: Brent closed at $104.61 (-2.8%) as Iran and all six GCC states, plus Iraq, confirmed Monday's Salalah meeting -- the war's first senior joint sit-down, organized by Oman to discuss temporary shipping routes, mine clearance, and short-term management of the strait. Real reopening still requires separate US sign-off; no new strikes reported since Thursday's Jordan/Hormuz wave.",
    "timeline": [
     {
      "date": "2026-07-21",
@@ -660,17 +622,17 @@
     },
     {
      "date": "2026-08-22",
-     "summary": "Trump branded the pressure campaign an “economic D-Day,” and Treasury Secretary Bessent said he'll hold a press conference Monday, Aug. 24, to detail the new measures, including possible secondary sanctions on countries and companies doing business with Iran — a veiled threat aimed at China. China's foreign ministry rejected the pressure campaign outright (“sanctions and pressure tactics are not the solution”) after Bessent publicly told Beijing to “get with the program”; China remains the largest buyer of Iranian crude via a shadow fleet. Iran's foreign ministry called the threat “a recipe for an abysmal return to full-scale classic colonialism.” Brent held near a second straight ~6% weekly gain (~$94), WTI near $86.60; US retail gas prices are up nearly $1/gallon year-over-year.",
+     "summary": "Trump branded the pressure campaign an \u201ceconomic D-Day,\u201d and Treasury Secretary Bessent said he'll hold a press conference Monday, Aug. 24, to detail the new measures, including possible secondary sanctions on countries and companies doing business with Iran \u2014 a veiled threat aimed at China. China's foreign ministry rejected the pressure campaign outright (\u201csanctions and pressure tactics are not the solution\u201d) after Bessent publicly told Beijing to \u201cget with the program\u201d; China remains the largest buyer of Iranian crude via a shadow fleet. Iran's foreign ministry called the threat \u201ca recipe for an abysmal return to full-scale classic colonialism.\u201d Brent held near a second straight ~6% weekly gain (~$94), WTI near $86.60; US retail gas prices are up nearly $1/gallon year-over-year.",
      "change_type": "advanced"
     },
     {
      "date": "2026-08-23",
-     "summary": "Bessent said the US will impose \"the toughest sanctions in history\" on Iran and explicitly called on China to cooperate, noting China bought over 80% of Iran's shipped oil in 2025. Washington has sanctioned only smaller Chinese \"teapot\" refineries so far, not major banks — reporting ties that restraint to Xi Jinping's state visit to the White House, now confirmed for Sept. 24 alongside the UN General Assembly. Monday's press conference is the next real test of how far the campaign goes.",
+     "summary": "Bessent said the US will impose \"the toughest sanctions in history\" on Iran and explicitly called on China to cooperate, noting China bought over 80% of Iran's shipped oil in 2025. Washington has sanctioned only smaller Chinese \"teapot\" refineries so far, not major banks \u2014 reporting ties that restraint to Xi Jinping's state visit to the White House, now confirmed for Sept. 24 alongside the UN General Assembly. Monday's press conference is the next real test of how far the campaign goes.",
      "change_type": "advanced"
     },
     {
      "date": "2026-08-24",
-     "summary": "Bessent's long-promised 'economic D-Day' press conference happens today at 2pm ET. Pre-conference reporting signals the sanctions finally reach past Iran's small teapot refineries toward the banks and foreign trade networks that actually move its oil — the exact restraint toward China that's held for weeks — though nothing is formally announced as of this morning. China's embassy again rejected the pressure campaign: 'sanctions and pressure do not help resolve the problem.'",
+     "summary": "Bessent's long-promised 'economic D-Day' press conference happens today at 2pm ET. Pre-conference reporting signals the sanctions finally reach past Iran's small teapot refineries toward the banks and foreign trade networks that actually move its oil \u2014 the exact restraint toward China that's held for weeks \u2014 though nothing is formally announced as of this morning. China's embassy again rejected the pressure campaign: 'sanctions and pressure do not help resolve the problem.'",
      "change_type": "advanced"
     },
     {
@@ -752,6 +714,11 @@
      "date": "2026-09-11",
      "summary": "Brent closed Thursday at $107.63 (+5.94%), briefly touching $108 intraday, the highest level in four months, as no new strikes were reported since Wednesday's Jordan/Hormuz wave. Trump warned Iran over renewed construction activity at its \"Pickaxe Mountain\" nuclear site, saying the US \"may\" strike it soon. Separately, Oman is convening Iran's foreign minister and all six Gulf Cooperation Council states in Salalah on Monday, September 14 -- the first senior Iran-Gulf meeting since the war began -- to discuss a temporary arrangement for reopening the Strait; diplomats caution any real reopening still needs US sign-off.",
      "change_type": "worsened"
+    },
+    {
+     "date": "2026-09-12",
+     "summary": "Brent fell 2.8% Friday to $104.61 after Iran's state media confirmed it will meet all six GCC states and Iraq in Salalah, Oman on Monday, September 14 -- the first senior Iran-Gulf sit-down since the war began, aimed at temporary shipping-corridor and mine-clearance arrangements rather than a full reopening. No new strikes reported since Thursday.",
+     "change_type": "improved"
     }
    ]
   },
@@ -760,9 +727,9 @@
    "title": "Federal Reserve rate path",
    "topic": "markets",
    "status": "active",
-   "last_updated": "2026-09-11",
-   "updates": 57,
-   "current_state": "Thursday deepened the selloff on a hot PPI print: hike odds for the September 16 decision rose to roughly 70%, the 10-year hit 4.95% (highest since October 2023), and stocks fell for a fourth straight session. August CPI, the last data point before the decision, released this morning at 8:30am ET; the settled print was still working through the wires as of this edition.",
+   "last_updated": "2026-09-12",
+   "updates": 58,
+   "current_state": "Friday resolved the CPI uncertainty from Thursday's edition: August inflation came in almost exactly as expected (headline 3.4% y/y, core 2.4% y/y, a five-year-plus low), which -- combined with a hot PPI earlier in the week -- pushed September 16 hike odds to roughly 85-90%, up from Thursday's ~70%. Stocks rallied on the reduced uncertainty and Brent's pullback, snapping the four-day losing streak; the 10-year sits at 4.96%, just under the 5% mark last seen in October 2023.",
    "timeline": [
     {
      "date": "2026-07-18",
@@ -946,12 +913,12 @@
     },
     {
      "date": "2026-08-22",
-     "summary": "Friday's confirmed close rebounded across the board: S&P +0.43% to 7,674.37, Dow +0.98% (+517.80 pts) to 53,277.01, Nasdaq +0.43% to 26,180.45, led less by any economic data than by a crypto rally (bitcoin +7% to roughly $76,900, +22% on the week) that lifted Robinhood and Coinbase alongside the broader tape. The 10-year held steady near 4.71%. Despite the bounce, all three indices still closed lower for the week (S&P -1.4%, Nasdaq -2.1%, Dow -0.9%) after Thursday's Walmart-driven selloff. September FOMC hold odds sit near 68% (32% hike) on CME FedWatch, essentially unchanged from Thursday — new Fed Chair Kevin Warsh (confirmed May 13, sworn in May 22) delivers his first Jackson Hole keynote as chair next Friday, Aug. 28.",
+     "summary": "Friday's confirmed close rebounded across the board: S&P +0.43% to 7,674.37, Dow +0.98% (+517.80 pts) to 53,277.01, Nasdaq +0.43% to 26,180.45, led less by any economic data than by a crypto rally (bitcoin +7% to roughly $76,900, +22% on the week) that lifted Robinhood and Coinbase alongside the broader tape. The 10-year held steady near 4.71%. Despite the bounce, all three indices still closed lower for the week (S&P -1.4%, Nasdaq -2.1%, Dow -0.9%) after Thursday's Walmart-driven selloff. September FOMC hold odds sit near 68% (32% hike) on CME FedWatch, essentially unchanged from Thursday \u2014 new Fed Chair Kevin Warsh (confirmed May 13, sworn in May 22) delivers his first Jackson Hole keynote as chair next Friday, Aug. 28.",
      "change_type": "improved"
     },
     {
      "date": "2026-08-24",
-     "summary": "Monday premarket points softer: Dow futures down about 11 points, S&P and Nasdaq-100 futures off 0.1% and 0.5%, tech leading declines (XLK -1%) after last week's second straight losing week for the Dow. September FOMC hold odds essentially unchanged near 68%. The week ahead: Nvidia earnings and the Jackson Hole Economic Policy Symposium, which opens Thursday Aug. 27 with Fed Chair Kevin Warsh's first keynote as chair Friday at 10am ET — 19 days before the Sept. 16 decision.",
+     "summary": "Monday premarket points softer: Dow futures down about 11 points, S&P and Nasdaq-100 futures off 0.1% and 0.5%, tech leading declines (XLK -1%) after last week's second straight losing week for the Dow. September FOMC hold odds essentially unchanged near 68%. The week ahead: Nvidia earnings and the Jackson Hole Economic Policy Symposium, which opens Thursday Aug. 27 with Fed Chair Kevin Warsh's first keynote as chair Friday at 10am ET \u2014 19 days before the Sept. 16 decision.",
      "change_type": "watch"
     },
     {
@@ -1048,6 +1015,11 @@
      "date": "2026-09-11",
      "summary": "A hot August PPI print pushed CME FedWatch's September 16 hike odds to roughly 70%, from 56-66% Wednesday and 44% a week earlier. Thursday's confirmed close: S&P 500 -0.6% to 7,591.70, Dow -0.6% to 52,064.10, Nasdaq -0.7% to 26,081.72, a fourth straight losing session; the 10-year Treasury yield jumped to 4.95%, its highest close since October 2023, on the hot PPI and Brent's climb toward $108. August CPI -- the last input before Wednesday's decision -- released this morning at 8:30am ET; settled figures and market reaction were not yet independently confirmed through primary sources as this edition went to print.",
      "change_type": "worsened"
+    },
+    {
+     "date": "2026-09-12",
+     "summary": "August CPI landed at 8:30am as expected -- headline +0.4% m/m (3.4% y/y), core +0.3% m/m (2.4% y/y, the lowest annual core reading in over five years) -- but far from reassuring markets on a hold: CME FedWatch odds for the September 16 hike jumped further, to roughly 85-90%, since an in-line-but-not-soft print removed the last real chance of a surprise. Stocks rallied anyway (S&P +0.9% to 7,656.98, Dow +1% to 52,573.29, Nasdaq +1% to 26,333.04) as Brent's pullback eased inflation-input fears; the 10-year closed at 4.96%, a hair from 5%.",
+     "change_type": "advanced"
     }
    ]
   },
@@ -1056,9 +1028,9 @@
    "title": "Marlins wild card race",
    "topic": "sports",
    "status": "active",
-   "last_updated": "2026-09-10",
+   "last_updated": "2026-09-12",
    "updates": 60,
-   "current_state": "New York completed a three-game sweep with a wild 15-14 win Wednesday, overcoming Miami's comeback from an 8-0 deficit; the Marlins fall to 72-75, three games under .500 for the first time since June 9, roughly 6.5 games back of the final NL wild-card spot with 15 left. FanGraphs puts Miami's playoff odds at effectively zero; the team is not yet mathematically eliminated but closes the season against the Dodgers, Diamondbacks, Padres, and Braves.",
+   "current_state": "The Dodgers beat Miami 6-2 Friday at loanDepot Park; the Marlins sit 12th in the NL wild-card standings with three games left, a margin no longer closeable in practice even though the number hasn't been formally eliminated. Saturday's rematch (4:10pm, loanDepot Park) closes out a quiet season.",
    "timeline": [
     {
      "date": "2026-07-18",
@@ -1257,17 +1229,17 @@
     },
     {
      "date": "2026-08-22",
-     "summary": "Miami beat Washington 3-2 in a Friday-night walk-off: Agustin Ramirez led off the 9th with a walk, a throwing error on an Esteury Ruiz infield hit put runners on 2nd and 3rd, Jakob Marsee was intentionally walked, and Javier Sanoja singled home the winner — Miami's sixth straight win over the Nationals. The Marlins improve to 65-64, back over .500. Chicago, Philadelphia, and San Diego now hold the three NL wild-card spots, with Arizona about a game back of the cutline and Miami bunched with St. Louis, Cincinnati, and Pittsburgh further behind. Miami hosts Washington again today at 4:10pm (Eury Perez vs. Jake Irvin), with Sunday's finale set (Janson Junk vs. Jackson Kent).",
+     "summary": "Miami beat Washington 3-2 in a Friday-night walk-off: Agustin Ramirez led off the 9th with a walk, a throwing error on an Esteury Ruiz infield hit put runners on 2nd and 3rd, Jakob Marsee was intentionally walked, and Javier Sanoja singled home the winner \u2014 Miami's sixth straight win over the Nationals. The Marlins improve to 65-64, back over .500. Chicago, Philadelphia, and San Diego now hold the three NL wild-card spots, with Arizona about a game back of the cutline and Miami bunched with St. Louis, Cincinnati, and Pittsburgh further behind. Miami hosts Washington again today at 4:10pm (Eury Perez vs. Jake Irvin), with Sunday's finale set (Janson Junk vs. Jackson Kent).",
      "change_type": "improved"
     },
     {
      "date": "2026-08-23",
-     "summary": "Miami beat Washington 4-2 Saturday on solo home runs from Heriberto Hernandez and Jakob Marsee, with Eury Perez working five innings — the Marlins' seventh straight win over the Nationals, improving to 66-64. Sunday's finale (Janson Junk vs. Jackson Kent) closes the series this afternoon.",
+     "summary": "Miami beat Washington 4-2 Saturday on solo home runs from Heriberto Hernandez and Jakob Marsee, with Eury Perez working five innings \u2014 the Marlins' seventh straight win over the Nationals, improving to 66-64. Sunday's finale (Janson Junk vs. Jackson Kent) closes the series this afternoon.",
      "change_type": "improved"
     },
     {
      "date": "2026-08-24",
-     "summary": "Miami completed the sweep of Washington Sunday, 6-2, on Xavier Edwards' go-ahead two-run single, improving to 67-64 — eight straight wins over the Nationals. But the sweep didn't close the gap much: models now give Miami roughly 7.6% playoff odds, about four games behind San Diego for the final NL wild-card spot, with Chicago, Philadelphia, and San Diego holding the three spots and Arizona a game back of the cutline.",
+     "summary": "Miami completed the sweep of Washington Sunday, 6-2, on Xavier Edwards' go-ahead two-run single, improving to 67-64 \u2014 eight straight wins over the Nationals. But the sweep didn't close the gap much: models now give Miami roughly 7.6% playoff odds, about four games behind San Diego for the final NL wild-card spot, with Chicago, Philadelphia, and San Diego holding the three spots and Arizona a game back of the cutline.",
      "change_type": "advanced"
     },
     {
@@ -1354,6 +1326,11 @@
      "date": "2026-09-10",
      "summary": "The Mets completed a three-game sweep with a 15-14 win Wednesday -- New York led 8-0 in the third, Miami clawed back to lead 8-5 by the sixth, but the Mets scored six in the seventh (Lindor homered, Morel added an RBI single) and held on despite being outhit 20-15. Miami falls to 72-75, three games under .500 for the first time since June 9, roughly 6.5 games back of the final NL wild-card spot with 15 left; FanGraphs puts playoff odds at effectively zero.",
      "change_type": "worsened"
+    },
+    {
+     "date": "2026-09-12",
+     "summary": "Miami lost 6-2 to the Dodgers Friday at loanDepot Park, falling to 12th in the NL wild-card race with three games left -- effectively, if not yet mathematically, finished for the season.",
+     "change_type": "worsened"
     }
    ]
   },
@@ -1403,9 +1380,9 @@
    "title": "Dolphins rebuild under Hafley",
    "topic": "sports",
    "status": "active",
-   "last_updated": "2026-09-11",
-   "updates": 41,
-   "current_state": "Miami enters Sunday's opener at Las Vegas with a clean Thursday practice report and a healthier roster than the team it's facing -- the Raiders will be without tight end Brock Bowers. Malik Willis starts at quarterback in his Dolphins debut; Tyreek Hill remains out.",
+   "last_updated": "2026-09-12",
+   "updates": 42,
+   "current_state": "Miami's roster clears its final Friday injury report clean apart from two limited participants (Kacmarek, Harrison), heading into Sunday's 1:25pm PT season opener at Las Vegas with Malik Willis making his first career start. The Raiders remain without star tight end Brock Bowers -- the same health edge noted Thursday, now confirmed through kickoff eve.",
    "timeline": [
     {
      "date": "2026-07-18",
@@ -1554,12 +1531,12 @@
     },
     {
      "date": "2026-08-22",
-     "summary": "Miami hosts the Giants today at 4pm at Hard Rock Stadium in the second preseason game of Hafley's tenure, after Thursday's joint practice turned openly hostile — RT Austin Jackson was ejected for throwing a punch (he returned for the final 11-on-11 period) and Giants LB Abdul Carter took a swing at LT Patrick Paul after losing a rep; Hafley said postgame he'd be disappointed to see more fighting and that it isn't a sign of toughness. Rookie WR Chris Bell, activated off the non-football-injury list last week, will not play today — Hafley called him week-to-week in his ACL recovery, with hope he's ready for the regular season. DT Zach Sieler is expected to be ready for the opener; DT Kenneth Grant is week-to-week and sitting out the rest of this week.",
+     "summary": "Miami hosts the Giants today at 4pm at Hard Rock Stadium in the second preseason game of Hafley's tenure, after Thursday's joint practice turned openly hostile \u2014 RT Austin Jackson was ejected for throwing a punch (he returned for the final 11-on-11 period) and Giants LB Abdul Carter took a swing at LT Patrick Paul after losing a rep; Hafley said postgame he'd be disappointed to see more fighting and that it isn't a sign of toughness. Rookie WR Chris Bell, activated off the non-football-injury list last week, will not play today \u2014 Hafley called him week-to-week in his ACL recovery, with hope he's ready for the regular season. DT Zach Sieler is expected to be ready for the opener; DT Kenneth Grant is week-to-week and sitting out the rest of this week.",
      "change_type": "advanced"
     },
     {
      "date": "2026-08-23",
-     "summary": "The Giants routed Miami 26-3 Saturday at Hard Rock Stadium — Jameis Winston threw for 150 yards and ran for a touchdown in the first half. Chris Bell (ACL) did not play, still week-to-week per Hafley.",
+     "summary": "The Giants routed Miami 26-3 Saturday at Hard Rock Stadium \u2014 Jameis Winston threw for 150 yards and ran for a touchdown in the first half. Chris Bell (ACL) did not play, still week-to-week per Hafley.",
      "change_type": "worsened"
     },
     {
@@ -1611,6 +1588,11 @@
      "date": "2026-09-11",
      "summary": "Coach Jeff Hafley said all 53 active roster players practiced Wednesday and Thursday ahead of Sunday's 1pm opener at Las Vegas, with only minor limitations (Ronnie Harrison Jr., Will Kacmarek). The Raiders will be without star tight end Brock Bowers (knee) for the game. Malik Willis makes his first career start at quarterback for Miami; Tyreek Hill remains out.",
      "change_type": "advanced"
+    },
+    {
+     "date": "2026-09-12",
+     "summary": "Friday's final injury report before Sunday's 1:25pm PT opener at Las Vegas lists only Will Kacmarek (calf) and Ronnie Harrison Jr. (hamstring) as limited, with Seydou Traore a full participant; the Raiders remain without tight end Brock Bowers (knee). Malik Willis makes his first career start Sunday.",
+     "change_type": "advanced"
     }
    ]
   },
@@ -1650,7 +1632,7 @@
     },
     {
      "date": "2026-08-21",
-     "summary": "Friday's second scrimmage at Hard Rock Stadium was a closer back-and-forth than the first — the offense reportedly had the better of the work this time, a reversal from scrimmage one, where the defense had the upper hand. Cristobal called it good, competitive work with two weeks left before the Sept. 4 opener at Stanford.",
+     "summary": "Friday's second scrimmage at Hard Rock Stadium was a closer back-and-forth than the first \u2014 the offense reportedly had the better of the work this time, a reversal from scrimmage one, where the defense had the upper hand. Cristobal called it good, competitive work with two weeks left before the Sept. 4 opener at Stanford.",
      "change_type": "advanced"
     },
     {
@@ -1766,12 +1748,12 @@
     },
     {
      "date": "2026-08-22",
-     "summary": "Burgers & Shakes opened a second South Florida location Aug. 4 inside the historic 1954 General Tire Building in the MiMo Historic District — designed by architect Robert Law Weed, most recently home to Andiamo Brick Oven Pizza, which closed after 23 years. Separately, Medium Cool, the jazz lounge beneath the Gale Hotel on Collins Avenue, plays its final night tonight after nearly four years, with nightly live jazz through 10pm; the team says it's searching for a new Miami home rather than closing for good.",
+     "summary": "Burgers & Shakes opened a second South Florida location Aug. 4 inside the historic 1954 General Tire Building in the MiMo Historic District \u2014 designed by architect Robert Law Weed, most recently home to Andiamo Brick Oven Pizza, which closed after 23 years. Separately, Medium Cool, the jazz lounge beneath the Gale Hotel on Collins Avenue, plays its final night tonight after nearly four years, with nightly live jazz through 10pm; the team says it's searching for a new Miami home rather than closing for good.",
      "change_type": "advanced"
     },
     {
      "date": "2026-08-24",
-     "summary": "Medium Cool's Yelp listing now shows a new address — 1690 Collins Ave, Miami Beach, a few blocks from its old Gale Hotel home — with hours Wed-Sun 7pm-3am (4am Fri/Sat), suggesting the jazz lounge didn't stay dark long after Saturday's farewell night. Not yet confirmed by press coverage.",
+     "summary": "Medium Cool's Yelp listing now shows a new address \u2014 1690 Collins Ave, Miami Beach, a few blocks from its old Gale Hotel home \u2014 with hours Wed-Sun 7pm-3am (4am Fri/Sat), suggesting the jazz lounge didn't stay dark long after Saturday's farewell night. Not yet confirmed by press coverage.",
      "change_type": "watch"
     },
     {
@@ -1795,7 +1777,7 @@
    "id": "thread-miami-freedom-park-civic",
    "title": "Miami Freedom Park Civic Center",
    "topic": "miami",
-   "status": "active",
+   "status": "resolved",
    "last_updated": "2026-09-11",
    "updates": 3,
    "current_state": "Miami's commission voted Thursday to keep City Hall at the Pan Am terminal in Coconut Grove rather than relocating to Freedom Park -- resolving one concrete piece of the broader civic debate over the future of that waterfront property.",
@@ -1933,7 +1915,7 @@
     },
     {
      "date": "2026-08-22",
-     "summary": "This week's South Florida deal sheet (The Real Deal, published Aug. 21) adds a 155,000-sq-ft industrial building at 11900-11905 SW 128th St, sold for $24.5 million, and a new-construction, 10,500-sq-ft waterfront mansion at 270 South Hibiscus Drive, Miami Beach, which sold for $50 million — both landing on top of last week's North Bay Road and 1200 Washington Avenue trades.",
+     "summary": "This week's South Florida deal sheet (The Real Deal, published Aug. 21) adds a 155,000-sq-ft industrial building at 11900-11905 SW 128th St, sold for $24.5 million, and a new-construction, 10,500-sq-ft waterfront mansion at 270 South Hibiscus Drive, Miami Beach, which sold for $50 million \u2014 both landing on top of last week's North Bay Road and 1200 Washington Avenue trades.",
      "change_type": "advanced"
     },
     {
@@ -2112,7 +2094,7 @@
     },
     {
      "date": "2026-08-24",
-     "summary": "Thompson officially signed with Miami Sunday after clearing waivers — the deal finalized as two years, $11.5 million total, with a player option in year two and a 15% trade kicker, slightly below the ~$13M reported Friday.",
+     "summary": "Thompson officially signed with Miami Sunday after clearing waivers \u2014 the deal finalized as two years, $11.5 million total, with a player option in year two and a 15% trade kicker, slightly below the ~$13M reported Friday.",
      "change_type": "resolved"
     },
     {
@@ -2143,12 +2125,12 @@
     },
     {
      "date": "2026-08-23",
-     "summary": "Reporting puts Marchand's recovery at two or more months — the surgery kept him from playing in Zdeno Chara's Aug. 21 farewell charity game in Slovakia, which he'd planned to attend. An opener absence now looks more likely than not.",
+     "summary": "Reporting puts Marchand's recovery at two or more months \u2014 the surgery kept him from playing in Zdeno Chara's Aug. 21 farewell charity game in Slovakia, which he'd planned to attend. An opener absence now looks more likely than not.",
      "change_type": "worsened"
     },
     {
      "date": "2026-08-24",
-     "summary": "Recovery estimate sharpens from 'two or more months' to a concrete range: six to ten missed games, with an earliest possible return around mid-October — still addressing the hip and sports-hernia issue Marchand played through all of 2025-26, including the February Olympics.",
+     "summary": "Recovery estimate sharpens from 'two or more months' to a concrete range: six to ten missed games, with an earliest possible return around mid-October \u2014 still addressing the hip and sports-hernia issue Marchand played through all of 2025-26, including the February Olympics.",
      "change_type": "advanced"
     },
     {
@@ -2189,9 +2171,9 @@
    "title": "Miami-Dade's \"Vice City\" pitch to Rockstar Games",
    "topic": "miami",
    "status": "active",
-   "last_updated": "2026-09-11",
-   "updates": 4,
-   "current_state": "The saga has forked into two distinct municipal decisions: Miami Beach's commission approved its own limited marketing deal with Rockstar 4-3 (confirmed). The City of Miami's separate downtown banner ordinance was also on Thursday's agenda, but its outcome remains unconfirmed as of this morning -- worth a clean follow-up once clearer reporting surfaces.",
+   "last_updated": "2026-09-12",
+   "updates": 5,
+   "current_state": "The fork stands at two distinct outcomes: Miami Beach's ~$3 million Rockstar marketing deal is confirmed and detailed (4-3 vote, discreet branding on beach equipment, Oct 15-Dec 31). The City of Miami's separate downtown banner ordinance, which was to reach a commission vote Thursday, still has no reported result as of Friday -- worth a continued follow-up, since the silence itself is now the more notable fact.",
    "timeline": [
     {
      "date": "2026-08-31",
@@ -2211,6 +2193,11 @@
     {
      "date": "2026-09-11",
      "summary": "Miami Beach's city commission voted 4-3 to approve its own, separate marketing arrangement with Rockstar -- restricted to the terms \"VI\" and \"Vice City\" on private beach equipment like chairs and umbrellas, running October 15 through December 31 -- after real debate over the game's violent content. The City of Miami's downtown banner ordinance (Commissioner Pardo's plan for up to six paid banners at $202,000 each) was separately on Thursday's commission agenda; its specific vote outcome could not be independently confirmed from available reporting as of this morning, which conflated it with the Miami Beach vote in several outlets.",
+     "change_type": "advanced"
+    },
+    {
+     "date": "2026-09-12",
+     "summary": "Miami Beach's approved deal is now specified as a roughly $3 million marketing agreement with Rockstar for discreet 'VI'/'Vice City' branding on Boucher Brothers beach chairs and umbrellas, Oct 15-Dec 31. Two days after Thursday's scheduled vote, no outlet has yet reported a recorded result for the City of Miami's separate downtown banner ordinance (Commissioner Pardo's plan, $208,000 per banner, proceeds to the Underdeck park) -- an unusually long reporting gap for a local commission vote.",
      "change_type": "advanced"
     }
    ]
@@ -2256,7 +2243,7 @@
   }
  ],
  "meta": {
-  "content_freshness": "2026-09-11T09:30:00-04:00",
+  "content_freshness": "Live as of September 12, 2026 09:30 ET; markets reflect Friday, September 11 close.",
   "feedback_endpoint_mode": "github_contents",
   "minimum_client_schema_version": 1,
   "mode": "brain"
