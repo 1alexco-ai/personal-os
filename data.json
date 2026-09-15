@@ -1,430 +1,423 @@
 {
  "schema_version": 2,
  "edition": {
-  "id": "2026-09-14",
-  "date": "2026-09-14",
+  "id": "2026-09-15",
+  "date": "2026-09-15",
   "type": "weekday",
-  "generated_at": "2026-09-14T09:30:00-04:00",
+  "generated_at": "2026-09-15T09:30:00-04:00",
   "timezone": "America/New_York",
   "title": "Personal OS",
   "front_page_letter": {
    "greeting": "Good morning",
    "body_paragraphs": [
-    "Monday's biggest news is something that didn't happen: Oman postponed the Salalah meeting between Iran and the Gulf states entirely, not just the Bahrain-minus version reported Saturday. The stated reason -- a need for more \"conducive\" conditions -- followed a fresh Iranian vessel strike near Qeshm Island and a Saudi pipeline shutdown that happened last week without making it into this space. Behind it, a second story: Houthi forces spent the week completing control of Yemen's entire Red Sea coast, handing Iran's allies command of the Bab el-Mandeb strait alongside the already-blocked Hormuz. Two global chokepoints, one week, neither one settled.",
-    "Fed week opens under that same pressure. Wednesday's hike looks close to fully priced at 85-90% odds, but Monday's futures fell anyway -- oil past $106, plus fresh AI-industry warnings about a development slowdown. Closer to home: Willis's first start ended in a 27-13 loss with real flashes and five sacks to sort through; the Marlins closed their season with a second straight win over the Dodgers, a fine note on a year decided weeks ago; and Miami opens 23.5-point favorites over a fellow-unbeaten Wake Forest on Friday.",
-    "If you have twenty minutes, the read below is a good one: a physicist who has never once typed into an AI chatbot, trying to help write the rules for a field that's about to have to decide."
+    "Monday's postponed Salalah meeting turns out to have had a specific author: Saudi Arabia asked for the delay, objecting to proposed changes in the Iran-Oman shipping framework on top of its own frustration with continuing Houthi attacks. Riyadh's exposure runs deeper than that -- Crown Prince Mohammed bin Salman called Trump twice last week asking for direct US strikes on the Houthis after they completed their takeover of Yemen's Red Sea coast. Trump said no; Washington will help with intelligence and targeting, not troops. Iran, for its part, says there's nothing to discuss with the US until its own conditions are met -- two governments deciding, on the same day, exactly how far they're willing to go.",
+    "Wednesday's rate decision is still priced at roughly 90% odds of a hike, but Monday's real news was the 10-year Treasury, which touched 5% intraday -- matching October 2023's brief high and the highest since 2007 -- before settling back near 4.99%. Stocks closed out the losses Monday's premarket had flagged: the S&P down 0.46%, the Nasdaq down 0.56%. None of it moves the Fed's math directly, but borrowing costs at a two-decade-rare level will outlast whatever tomorrow's dot plot says.",
+    "Closer to home: Miami's secondary loses a third cornerback before Friday's first real test at Wake Forest; the Panthers open camp Thursday with captain Aleksander Barkov finally healthy; and a genuinely strange skyline update -- a 'Welcome Back to Vice City' sign is going up on the Heat's arena roof, a separate deal from downtown's still-unresolved banner ordinance. If you have fifteen minutes tonight, the piece below on Webb telescope's 'little red dots' is a good one: an actual, unresolved argument over what a whole class of objects in the universe actually is."
    ],
    "read_only_three": [
     {
      "target_type": "theme",
-     "target_id": "theme-hormuz-diplomacy-collapse",
-     "label": "Oman postpones the Salalah talks entirely as a second shipping chokepoint opens in the Red Sea"
+     "target_id": "theme-hormuz-saudi-role-us-rejection",
+     "label": "Saudi Arabia, not Oman's own judgment, was behind Monday's postponed Hormuz talks -- and Iran now rejects US talks outright"
     },
     {
      "target_type": "theme",
-     "target_id": "theme-fed-decision-week-headwinds",
-     "label": "Fed week opens under fresh pressure: oil past $106 and AI-slowdown warnings hit futures Monday"
+     "target_id": "theme-fed-10y-tops-5-percent",
+     "label": "The 10-year Treasury topped 5% Monday for just the second time since 2007, and stocks confirmed the losses"
     },
     {
      "target_type": "rabbit_hole",
-     "target_id": "rh-2026-09-14",
-     "label": "A physicist who's never used AI is trying to write physics' rules for it"
+     "target_id": "rh-2026-09-15",
+     "label": "Astronomers are arguing over whether Webb's 'little red dots' are black holes wearing a star's disguise"
     }
    ]
   },
   "market_context": [
    {
     "label": "S&P 500",
-    "value": "7,656.98",
-    "change": "+0.9% Friday, snapping a four-day losing streak",
-    "observed": "Friday close, September 11, 2026",
-    "note": "Last confirmed close; markets were shut over the weekend. Monday premarket futures point lower (see below)."
+    "value": "7,621.54",
+    "change": "-0.46% Monday, confirming the losses premarket futures flagged Monday morning",
+    "observed": "Monday close, September 14, 2026",
+    "note": "Driven by the oil surge past $107 and continued AI-slowdown-driven chipmaker weakness."
    },
    {
     "label": "Nasdaq Composite",
-    "value": "26,333.04",
-    "change": "+1.0% Friday",
-    "observed": "Friday close, September 11, 2026",
-    "note": "Rallied alongside the broader market Friday as oil eased and in-line CPI removed a source of uncertainty."
+    "value": "26,186.41",
+    "change": "-0.56% Monday",
+    "observed": "Monday close, September 14, 2026",
+    "note": "Chipmakers led the decline on renewed AI-development-slowdown concerns."
    },
    {
     "label": "10Y Treasury",
-    "value": "4.96%",
-    "change": "flat on the week, just under the 5% mark last seen in October 2023",
-    "observed": "Friday close, September 11, 2026",
-    "note": "No fresher print since markets were closed over the weekend."
+    "value": "4.987%",
+    "change": "Briefly topped 5% intraday Monday (as high as 5.01%) before easing back",
+    "observed": "Monday, September 14, 2026",
+    "note": "Matches the brief high set in October 2023; both are the highest since 2007. Reflects inflation angst and heavy government/corporate borrowing, not a fresh Fed signal."
    },
    {
     "label": "Brent crude",
-    "value": "~$107 (session range $106-108)",
-    "change": "+2-3% Monday, on top of a sharp weekly gain last week",
-    "observed": "Monday intraday, September 14, 2026",
-    "note": "Up from Friday's $104.61 close after Oman postponed the Salalah talks and Houthi forces completed control of Yemen's Red Sea coast over the weekend."
+    "value": "~$107.46",
+    "change": "+1.2% Tuesday, holding near Monday's four-month high",
+    "observed": "Tuesday intraday, September 15, 2026",
+    "note": "War-risk premium holding near the war's highs after the Hormuz postponement and completed Houthi takeover of Bab el-Mandeb."
    },
    {
     "label": "FOMC (September 16 decision)",
-    "value": "Hike odds ~85-90%",
-    "change": "little changed from Friday",
-    "observed": "Monday, September 14, 2026, CME FedWatch",
-    "note": "Decision and updated dot plot due Wednesday at 2pm ET."
-   },
-   {
-    "label": "Stock futures (Monday premarket)",
-    "value": "S&P -0.5%, Nasdaq -1.2%",
-    "change": "pointing to a lower open",
-    "observed": "Monday premarket, September 14, 2026",
-    "note": "Reflects the weekend's oil-price surge and separate AI-industry warnings about a development slowdown."
+    "value": "CME FedWatch ~88-91% hike odds",
+    "change": "Little changed from Monday",
+    "observed": "Tuesday, September 15, 2026",
+    "note": "Kalshi (57%) and Polymarket (49%) show real disagreement with CME's number. Decision and updated dot plot due tomorrow at 2pm ET."
    }
   ],
   "public_day_context": {
-   "date_label": "Monday, September 14, 2026",
-   "weather": "Showers and thunderstorms likely, high near 89 with an 80% chance of rain; muggy overnight with a low near 79.",
-   "public_event": "No major Miami-area public events scheduled today. The Bass Museum's fall season opens Thursday, September 17."
+   "date_label": "Tuesday, September 15, 2026",
+   "weather": "High near 93 with an 85% chance of afternoon showers and thunderstorms; humid, dew point near 79.",
+   "public_event": "No major Miami-area public events scheduled today. The Bass Museum's fall season opens Thursday, September 17; the Florida Panthers open training camp the same day in Fort Lauderdale."
   },
   "what_changed": [
    {
-    "id": "delta-salalah-postponed",
+    "id": "delta-saudi-behind-hormuz-postponement",
     "thread_id": "thread-iran-hormuz-crisis",
-    "change_type": "reversed",
-    "title": "Oman postpones the Salalah meeting entirely, not just Bahrain's seat",
-    "previous_state": "As of Saturday, five GCC states, Iraq, and Iran were still expected in Salalah Monday despite Bahrain's boycott.",
-    "current_state": "Oman postponed the meeting entirely Monday, citing a need for more \"conducive\" conditions, after a fresh Iranian vessel strike near Qeshm Island and continued fallout from a Saudi pipeline shutdown.",
-    "why_it_matters": "The war's first joint diplomatic session didn't just lose one seat -- it didn't happen at all, the clearest sign yet that seven months of strikes haven't built enough trust for even a reduced conversation.",
+    "change_type": "advanced",
+    "title": "Saudi Arabia, not just Oman's own judgment, drove Monday's postponement",
+    "previous_state": "Oman cited only a vague need for more 'conducive conditions' when it postponed Monday's Salalah meeting, with no reporting yet on which party specifically pushed for the delay.",
+    "current_state": "Reporting Monday and Tuesday shows Saudi Arabia requested the postponement over objections to proposed changes in the Iran-Oman shipping-corridor framework, compounded by frustration over continued Houthi attacks on Saudi territory; separately, Iran's security council secretary Mohsen Rezaei says Tehran will hold no talks with Washington until its own conditions are met.",
+    "why_it_matters": "The postponement wasn't a shared failure to agree -- it had an author, and that author is the same government whose pipeline Iran-aligned drones knocked offline last week.",
     "confidence": "high",
     "source": {
-     "publisher": "The Week",
-     "url": "https://www.theweek.in/news/middle-east/2026/09/14/strait-of-hormuz-security-talks-oman-postponed.html"
+     "publisher": "The National",
+     "url": "https://www.thenationalnews.com/news/gulf/2026/09/14/iran-gulf-talks-shelved-as-oman-says-conditions-not-right/"
     }
    },
    {
-    "id": "delta-houthi-red-sea-control",
+    "id": "delta-10y-tops-5-percent",
+    "thread_id": "thread-fed-rate-path",
+    "change_type": "worsened",
+    "title": "The 10-year Treasury topped 5% intraday for just the second time since 2007",
+    "previous_state": "The 10-year sat at 4.96% Friday, just under the 5% mark last touched in October 2023.",
+    "current_state": "The 10-year rose intraday to 5.01% Monday -- matching October 2023's brief high -- before easing to close near 4.987%; the S&P 500, Nasdaq, and Dow all confirmed Monday's premarket weakness at the close (-0.46%, -0.56%, -0.29% respectively).",
+    "why_it_matters": "A borrowing-cost threshold crossed only twice in nearly two decades matters more to mortgages and cap rates than one more Fed hike everyone already expects.",
+    "confidence": "high",
+    "source": {
+     "publisher": "CNBC",
+     "url": "https://www.cnbc.com/2026/09/14/10-year-us-treasury-is-closing-in-on-5percent.html"
+    }
+   },
+   {
+    "id": "delta-mbs-trump-houthis",
     "thread_id": "thread-houthi-red-sea-control",
     "change_type": "new",
-    "title": "Houthi forces complete control of Yemen's Red Sea coast",
-    "previous_state": "Houthi advances along Yemen's Red Sea coast were a distinct, secondary campaign running alongside the main Hormuz war.",
-    "current_state": "Houthi forces completed control of Yemen's entire Red Sea coastline over the weekend, capturing Mocha and the island of Mayyun, giving them effective command of the Bab el-Mandeb strait -- a second global shipping chokepoint now at risk alongside Hormuz.",
-    "why_it_matters": "Hormuz and Bab el-Mandeb together carry roughly a quarter of the world's daily oil and gas shipments; Iran's allies gaining control of the second one is a real escalation in leverage, not just another data point in the same war.",
+    "title": "MBS asked Trump twice for strikes on the Houthis; Trump said no",
+    "previous_state": "Houthi forces completed control of Yemen's Red Sea coast over the weekend; no reporting yet on Saudi Arabia's direct response to Washington.",
+    "current_state": "Saudi Crown Prince Mohammed bin Salman called Trump twice last Thursday urging direct US strikes on the Houthis; Trump declined, and US officials say Washington will offer intelligence-sharing and targeting help rather than direct military action.",
+    "why_it_matters": "Washington drawing a line at intelligence support, not strikes, says more about how contained the US wants this war to stay than anything said publicly this week.",
     "confidence": "high",
     "source": {
-     "publisher": "NPR",
-     "url": "https://www.npr.org/2026/09/12/g-s1-143044/yemens-houthis-capture-red-sea-island"
+     "publisher": "CBS News",
+     "url": "https://www.cbsnews.com/news/saudi-arabia-mbs-trump-houthis-yemen/"
     }
    },
    {
-    "id": "delta-saudi-pipeline-shutdown",
-    "thread_id": "thread-iran-hormuz-crisis",
+    "id": "delta-vice-city-sign-kaseya",
+    "thread_id": "thread-miami-vice-city-gta6-pitch",
+    "change_type": "advanced",
+    "title": "A 'Welcome Back to Vice City' sign is going up on the Heat's arena roof",
+    "previous_state": "Miami Beach's ~$3 million Rockstar marketing deal was confirmed; the City of Miami's separate downtown banner ordinance vote remained unreported days after its scheduled hearing.",
+    "current_state": "A giant 'Welcome Back to Vice City' sign is now being installed on the Kaseya Center roof under a separate ~$4 million deal among Rockstar/Take-Two, Miami-Dade County, and the Heat's arena affiliate; the downtown ordinance's exact terms ($208,000 per banner, funding the Underdeck park) are now public, though its own vote outcome is still unconfirmed.",
+    "why_it_matters": "A third, previously untracked deal just became physically visible while the original downtown vote is still an open question -- worth watching which piece of Miami's Vice City marketing actually finishes first.",
+    "confidence": "high",
+    "source": {
+     "publisher": "GTA BOOM",
+     "url": "https://www.gtaboom.com/a-giant-gta-6-sign-is-going-up-on-the-miami-heat-arena-716d"
+    }
+   },
+   {
+    "id": "delta-hurricanes-secondary-injuries",
+    "thread_id": "thread-hurricanes-fall-camp",
     "change_type": "worsened",
-    "title": "Catch-up: Saudi Arabia's backup pipeline was hit and shut down last week",
-    "previous_state": "As of last week, Saudi Arabia's East-West pipeline -- its main alternative to shipping oil through the blocked strait -- was operating normally, rerouting roughly 5 million barrels a day to the Red Sea port of Yanbu.",
-    "current_state": "Drone strikes launched from Iraqi territory hit the pipeline near Riyadh and Medina on September 10-11; Saudi Arabia shut it down as a precaution, temporarily losing that rerouting option.",
-    "why_it_matters": "Saudi Arabia's backup plan for the blocked strait is now offline too -- a fact that hadn't yet made it into this edition and helps explain the renewed oil-price pressure.",
+    "title": "A third Miami cornerback goes down before Wake Forest",
+    "previous_state": "Frederique Jr.'s shoulder injury from the opener was Miami's only confirmed secondary absence heading into fall-camp coverage.",
+    "current_state": "Cristobal confirmed junior cornerback Xavier Lucas will also be out roughly a month, joining Frederique and Ja'Boree Antoine on the sideline; safety Dylan Day, previously out, is expected back for Friday's game at Wake Forest.",
+    "why_it_matters": "Three regular cornerbacks down going into the season's first real test changes what a 23.5-point spread is actually pricing in.",
     "confidence": "high",
     "source": {
-     "publisher": "Al Jazeera",
-     "url": "https://www.aljazeera.com/news/2026/9/12/saudi-arabia-shuts-critical-oil-pipeline-after-drone-attack-what-happened"
-    }
-   },
-   {
-    "id": "delta-dolphins-opener-loss",
-    "thread_id": "thread-dolphins-hafley-rebuild",
-    "change_type": "worsened",
-    "title": "Dolphins lose the opener 27-13; Willis's debut is a mixed bag",
-    "previous_state": "As of Sunday morning, both teams carried clean injury reports into a competitive, oddsmaker-rated opener with Las Vegas favored by just 3.5.",
-    "current_state": "Las Vegas won 27-13 and never trailed. Willis passed for 220 yards with an interception and ran for a 14-yard touchdown but was sacked five times; Cousins threw three touchdown passes.",
-    "why_it_matters": "A clean bill of health and a modest point spread didn't translate into a competitive game -- worth watching whether the sacks reflect the offensive line or the game plan before drawing conclusions from one week.",
-    "confidence": "high",
-    "source": {
-     "publisher": "Local10",
-     "url": "https://www.local10.com/sports/local/2026/09/13/willis-sacked-5-times-as-dolphins-fall-to-raiders-27-13-in-season-opener/"
-    }
-   },
-   {
-    "id": "delta-marlins-season-ends",
-    "thread_id": "thread-marlins-wildcard",
-    "change_type": "resolved",
-    "title": "Marlins close the season with a second straight win over the Dodgers",
-    "previous_state": "As of Saturday, Miami had snapped the Dodgers' eight-game winning streak but remained roughly eight games out of the final wild-card spot with one game left.",
-    "current_state": "Miami beat the Dodgers again, 6-4, Sunday to close the season, finishing outside the playoff picture as expected.",
-    "why_it_matters": "A genuinely well-played final series against a playoff-bound team is a fine way to end a season that was decided weeks before today.",
-    "confidence": "high",
-    "source": {
-     "publisher": "MLB.com",
-     "url": "https://www.mlb.com/gameday/dodgers-vs-marlins/2026/09/13/823815/final/video"
+     "publisher": "The Score 1260 (AP)",
+     "url": "https://www.thescore1260.com/2026/09/14/secondaries-to-be-challenged-when-wake-forest-hosts-no-5-miami/"
     }
    }
   ],
   "themes": [
    {
-    "id": "theme-hormuz-diplomacy-collapse",
+    "id": "theme-hormuz-saudi-role-us-rejection",
     "affinity": "morning",
     "topic": "markets",
     "topic_label": "Markets & Macro",
-    "title": "Oman postpones the Salalah talks entirely, and a second shipping chokepoint opens in the Red Sea",
-    "importance": 0.95,
-    "thesis": "The war's first attempt at joint Iran-Gulf diplomacy didn't survive to the table, and a second maritime front just opened behind it.",
-    "synthesis": "Monday's planned Salalah meeting -- already down to five GCC states, Iraq, and Iran after Bahrain's Saturday boycott -- was postponed entirely by Oman, which cited a need to \"create conditions conducive to constructive dialogue.\" The immediate triggers: an Iranian-claimed vessel strike near Qeshm Island late Saturday (one killed, four injured, per Iranian state media) and continuing fallout from drone strikes that forced Saudi Arabia to shut its East-West pipeline on September 10-11, cutting off the roughly 5 million barrels a day it had been rerouting to the Red Sea to bypass the blocked strait. Compounding it: Houthi forces spent the week completing control of Yemen's entire Red Sea coastline, capturing the port of Mocha and the island of Mayyun, and now effectively command the Bab el-Mandeb strait too. Brent traded near $107 Monday, its highest level of the war, up from Friday's $104.61 close.",
-    "new_today": "The postponement itself, the Qeshm strike, and the completed Houthi takeover of Bab el-Mandeb are all new since yesterday's edition; the Saudi pipeline shutdown is a catch-up fact from September 10-11 that hadn't yet been captured.",
-    "why_it_matters": "Two global chokepoints now sit outside anyone's stated control at the same time -- worth watching less for the postponement itself than for whether oil's move past $107 starts showing up in anything closer to home, from gas prices to the Fed's Wednesday calculus.",
+    "title": "Saudi Arabia, not Oman's own judgment, drove Monday's postponed Hormuz talks -- and Iran now rejects US talks outright",
+    "importance": 0.9,
+    "thesis": "The vaguely worded postponement had a specific author, and Iran separately just closed a different door.",
+    "synthesis": "Reporting through Monday and Tuesday clarifies what Oman's 'conducive conditions' language obscured: Saudi Arabia specifically requested the delay, objecting to proposed changes in the Iran-Oman shipping-corridor framework and citing its own frustration with continued Houthi attacks on Saudi territory. Iran and Oman describe the postponement as a joint decision made 'at the request of some regional countries.' Separately, Iran's Supreme National Security Council secretary Mohsen Rezaei rejected the idea of talks with Washington, saying there will be none until Iran's own conditions -- lifting sanctions, ending US military operations in the region -- are met. Brent held near $107.46 Tuesday, still close to the war's highs.",
+    "new_today": "The specific identification of Saudi Arabia as the party that requested the postponement, and Iran's explicit rejection of US talks, are both new since yesterday's edition.",
+    "why_it_matters": "The war's first attempted joint Iran-Gulf session didn't fail for lack of trying -- it failed because the region's most important economy has its own reasons to slow-walk this, on top of Iran's own refusal to talk to Washington at all.",
     "thread_id": "thread-iran-hormuz-crisis",
     "confidence": "high",
     "sources": [
      {
       "role": "primary_reporting",
-      "publisher": "The Week",
-      "headline": "Hormuz standoff: Oman's cancelled talks show why diplomacy has limits",
-      "url": "https://www.theweek.in/news/middle-east/2026/09/14/strait-of-hormuz-security-talks-oman-postponed.html"
-     },
-     {
-      "role": "analysis",
-      "publisher": "Eurasia Review",
-      "headline": "Meeting In Oman Between Iran, Gulf States Postponed, Await More 'Conducive' Conditions",
-      "url": "https://www.eurasiareview.com/14092026-meeting-in-oman-between-iran-gulf-states-postponed-await-more-conducive-conditions/"
-     },
-     {
-      "role": "background",
-      "publisher": "CNN",
-      "headline": "Iran reports commercial vessel struck in Strait of Hormuz",
-      "url": "https://www.cnn.com/2026/09/13/middleeast/iran-hormuz-qeshm-attack-intl"
-     }
-    ]
-   },
-   {
-    "id": "theme-houthi-bab-el-mandeb-second-front",
-    "affinity": "morning",
-    "topic": "markets",
-    "topic_label": "Markets & Macro",
-    "title": "Houthi forces complete control of Yemen's Red Sea coast, opening a second front on global shipping",
-    "importance": 0.85,
-    "thesis": "A week-long, largely under-the-radar campaign just handed Iran's allies command of a second chokepoint that rivals Hormuz.",
-    "synthesis": "Houthi rebels captured the port city of Mocha on Thursday and overran the strategic island of Mayyun (Perim) over the weekend, completing a rapid takeover of Yemen's entire Red Sea coastline. They now sit roughly 12 miles from the African coast and hold effective command of the Bab el-Mandeb strait -- a chokepoint that, together with Hormuz, carries about a quarter of the world's daily oil and gas shipments and nearly a third of global maritime trade. Iran has publicly celebrated the gains as a \"divine triumph.\" Saudi Arabia, already dealing with its own pipeline shutdown, now faces pressure on both of its remaining export options.",
-    "new_today": "First tracked as its own thread today; the campaign unfolded over the past week but reached its conclusion -- full coastal control -- only over the weekend.",
-    "why_it_matters": "This is Iran gaining real leverage without firing a shot itself -- a second chokepoint under allied control changes the shape of any eventual negotiation over the first one.",
-    "thread_id": "thread-houthi-red-sea-control",
-    "confidence": "high",
-    "sources": [
-     {
-      "role": "primary_reporting",
-      "publisher": "NPR",
-      "headline": "Yemen's Houthis capture a Red Sea island in threat to shipping",
-      "url": "https://www.npr.org/2026/09/12/g-s1-143044/yemens-houthis-capture-red-sea-island"
+      "publisher": "The National",
+      "headline": "Iran-Gulf talks shelved as Oman says conditions not right",
+      "url": "https://www.thenationalnews.com/news/gulf/2026/09/14/iran-gulf-talks-shelved-as-oman-says-conditions-not-right/"
      },
      {
       "role": "analysis",
       "publisher": "Al Jazeera",
-      "headline": "Can the Houthis close the Red Sea after seizing the Yemen coast?",
-      "url": "https://www.aljazeera.com/news/2026/9/11/can-the-houthis-close-the-red-sea-after-seizing-the-yemen-coast"
+      "headline": "Temporary Hormuz solution deferred as Iran-Arab summit falls through",
+      "url": "https://www.aljazeera.com/news-analysis/2026/9/14/temporary-hormuz-solution-deferred-as-iran-arab-summit-falls-through"
      },
      {
       "role": "background",
-      "publisher": "NBC News",
-      "headline": "Iran-backed Houthis capture Yemen's Red Sea coastline on Bab-el-Mandeb Strait",
-      "url": "https://www.nbcnews.com/world/middle-east/houthis-control-bab-el-mandeb-yemen-red-sea-saudi-iran-war-oil-rcna597186"
+      "publisher": "The National",
+      "headline": "Iran dismisses US talks as Strait of Hormuz crisis deepens",
+      "url": "https://www.thenationalnews.com/news/gulf/2026/09/15/iran-dismisses-us-talks-as-hormuz-crisis-deepens/"
      }
     ]
    },
    {
-    "id": "theme-fed-decision-week-headwinds",
+    "id": "theme-fed-10y-tops-5-percent",
     "affinity": "morning",
     "topic": "markets",
     "topic_label": "Markets & Macro",
-    "title": "Fed week opens under fresh pressure: oil past $106 and AI-slowdown warnings both hit futures Monday",
-    "importance": 0.7,
-    "thesis": "Wednesday's hike looks close to fully priced in; Monday's selloff is about everything happening around it.",
-    "synthesis": "CME FedWatch odds for Wednesday's rate hike hold near 85-90%, essentially unchanged from Friday. But Monday's premarket session opened under two fresh headwinds that have nothing to do with the Fed directly: oil's surge past $106 on the weekend's Hormuz/Red Sea escalation, and separate warnings from AI companies about a slowdown in the technology's development, which rattled the sector that has powered most of this year's rally. S&P 500 futures fell roughly 0.5% and Nasdaq-100 futures roughly 1.2%. The 10-year Treasury sits at 4.96%, just under its highest close since October 2023. Wednesday's meeting also carries the Fed's quarterly Summary of Economic Projections, so the updated dot plot may say more than the hike itself, which markets stopped debating days ago.",
-    "new_today": "Monday's futures move and its two stated causes -- oil, AI-slowdown warnings -- are new; the hike-odds level itself is unchanged from Friday.",
-    "why_it_matters": "A rate decision that's already priced in still has to clear a week that opened with an oil shock and a tech-sector wobble -- worth watching whether Wednesday's dot plot gets read on its own merits or through whatever mood these two stories leave behind.",
+    "title": "The 10-year Treasury topped 5% Monday for just the second time since 2007, and stocks confirmed the losses premarket had flagged",
+    "importance": 0.75,
+    "thesis": "Wednesday's hike is priced in; Monday's real news was a yield threshold that's only been crossed twice in nearly two decades.",
+    "synthesis": "The 10-year Treasury yield rose as high as 5.01% intraday Monday -- matching October 2023's brief high and the highest level since 2007 -- before easing back to close near 4.987% as buyers stepped in. The move reflects mounting inflation angst and swelling government and corporate borrowing needs, not a fresh Fed signal; Wednesday's hike remains priced at roughly 88-91% on CME FedWatch, though Kalshi (57%) and Polymarket (49%) show real disagreement among traders willing to bet real money on the outcome. Equities confirmed Monday's premarket weakness at the close: S&P 500 -0.46% to 7,621.54, Nasdaq -0.56% to 26,186.41, Dow -0.29% to 52,421, on the oil surge and continued chipmaker weakness tied to AI-slowdown warnings.",
+    "new_today": "The confirmed Monday close and the 10-year's specific intraday breach of 5% are new; the 85-90% hike-odds level itself carries over from Friday.",
+    "why_it_matters": "A rate decision already priced in doesn't need a yield threshold like this to unsettle markets -- worth watching whether Wednesday's dot plot addresses the borrowing-cost story directly or leaves it for another day.",
     "thread_id": "thread-fed-rate-path",
     "confidence": "high",
     "sources": [
      {
       "role": "primary_reporting",
-      "publisher": "The Motley Fool",
-      "headline": "The Odds of a Rate Hike Are Soaring Ahead of the Sept. 16 FOMC Meeting",
-      "url": "https://www.fool.com/investing/2026/09/10/the-odds-of-a-rate-hike-are-soaring-ahead-of-the-sept-16-fomc-meeting/"
+      "publisher": "CNBC",
+      "headline": "10-year Treasury yield hits 5% before reversing as traders await Fed meeting",
+      "url": "https://www.cnbc.com/2026/09/14/10-year-us-treasury-is-closing-in-on-5percent.html"
      },
      {
       "role": "background",
-      "publisher": "CoinCentral",
-      "headline": "AI Safety Concerns and Middle East Tensions Drag U.S. Stock Futures Lower",
-      "url": "https://coincentral.com/ai-safety-concerns-and-middle-east-tensions-drag-u-s-stock-futures-lower"
+      "publisher": "TheStreet",
+      "headline": "Stock Market Today (Sept. 14, 2026): Nasdaq, S&P 500 falls as 10Y Treasury yield hits highest since 2023",
+      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-14-2026"
      }
     ]
    },
    {
-    "id": "theme-dolphins-opener-mixed-debut",
+    "id": "theme-mbs-trump-houthis-strikes",
     "affinity": "morning",
-    "topic": "sports",
-    "topic_label": "Miami Sports",
-    "title": "Willis's first start ends in a 27-13 loss at Las Vegas, mixed results across the board",
-    "importance": 0.5,
-    "thesis": "A real debut with real flashes and a real problem in the same box score.",
-    "synthesis": "Malik Willis made his first career start Sunday and produced 220 passing yards, an interception, and a 14-yard rushing touchdown -- but was sacked five times as Miami's offensive line struggled all afternoon. Kirk Cousins, in his own debut for a new-era Raiders team under head coach Klint Kubiak, threw three touchdown passes; Las Vegas never trailed en route to a 27-13 win.",
-    "new_today": "The final score and Willis's full stat line are new since yesterday's kickoff preview.",
-    "why_it_matters": "One clean injury report and a modest point spread pointed to a competitive game; the pass protection, not the quarterback, looks like the first thing worth watching in week two.",
-    "thread_id": "thread-dolphins-hafley-rebuild",
+    "topic": "markets",
+    "topic_label": "Markets & Macro",
+    "title": "Saudi Arabia's crown prince asked Trump twice for strikes on the Houthis. Trump said no.",
+    "importance": 0.6,
+    "thesis": "The kingdom that just lost its pipeline is asking Washington to solve a problem it can no longer contain alone -- and Washington is drawing its own line.",
+    "synthesis": "Saudi Crown Prince Mohammed bin Salman called President Trump twice last Thursday urging direct US military strikes on the Houthis as they closed in on full control of Yemen's Red Sea coast, according to multiple independent reports (Axios, CBS News, Defense News, Fox News). Trump declined; US officials say Washington will help with intelligence-sharing and targeting rather than direct military action, at least for now. The ask came in the same week Saudi Arabia's own East-West pipeline was knocked offline by drone strikes and its objections helped scuttle Monday's Salalah meeting.",
+    "new_today": "The direct MBS-to-Trump ask and Washington's declined response are both new since yesterday's edition, which reported the completed Houthi takeover but not Riyadh's or Washington's reaction to it.",
+    "why_it_matters": "Saudi Arabia asking the US to intervene militarily against a second front, in the same week it blocked a diplomatic session over the first one, is a real tell about how exposed Riyadh feels right now -- and Washington's refusal is its own signal about how far this war is allowed to spread.",
+    "thread_id": "thread-houthi-red-sea-control",
     "confidence": "high",
     "sources": [
      {
       "role": "primary_reporting",
-      "publisher": "WPTV",
-      "headline": "Raiders defeat Dolphins 27-13; Malik Willis runs for TD, throws for 220 yards in Miami loss",
-      "url": "https://www.wptv.com/sports/football/dolphins/raiders-defeat-dolphins-27-13-malik-willis-runs-for-td-throws-for-220-yards-in-miami-loss"
+      "publisher": "CBS News",
+      "headline": "Saudi Arabia's MBS pressed Trump to strike Houthis in Yemen, sources say",
+      "url": "https://www.cbsnews.com/news/saudi-arabia-mbs-trump-houthis-yemen/"
      },
      {
       "role": "analysis",
-      "publisher": "Bleacher Report",
-      "headline": "Raiders Beat Dolphins, Box Score Stats, Highlights for Kirk Cousins, Malik Willis, Top Players",
-      "url": "https://bleacherreport.com/articles/25499222-raiders-beat-dolphins-box-score-stats-highlights-kirk-cousins-malik-willis-top-players"
+      "publisher": "Axios",
+      "headline": "Saudi crown prince urged Trump to strike Houthis amid Red Sea threat",
+      "url": "https://www.axios.com/2026/09/11/houthis-yemen-saudi-trump-mbs-strikes"
      }
     ]
    },
    {
-    "id": "theme-marlins-season-closes-with-a-win",
+    "id": "theme-hurricanes-secondary-injuries",
     "affinity": "morning",
     "topic": "sports",
     "topic_label": "Miami Sports",
-    "title": "Marlins close the season with back-to-back wins over a playoff-bound Dodgers team",
-    "importance": 0.3,
-    "thesis": "A season decided weeks ago still ended on the team's own terms.",
-    "synthesis": "Miami beat the Dodgers 6-4 Sunday to close its regular season, backing up Saturday's streak-snapping win with another against a team headed for October. The wild-card race resolved without the Marlins, as it had for weeks -- San Diego held the final spot -- but Miami's final week, two wins in three tries against a genuine contender, is a real, if modest, note to end on.",
-    "new_today": "Sunday's final score and the season's official close are new.",
-    "why_it_matters": "Worth remembering as the season's actual final image, rather than the flatter mid-week loss that came before it.",
-    "thread_id": "thread-marlins-wildcard",
-    "confidence": "high",
-    "sources": [
-     {
-      "role": "primary_reporting",
-      "publisher": "MLB.com",
-      "headline": "Dodgers 4, Marlins 6 Final Score",
-      "url": "https://www.mlb.com/gameday/dodgers-vs-marlins/2026/09/13/823815/final/video"
-     }
-    ]
-   },
-   {
-    "id": "theme-hurricanes-wake-forest-line-set",
-    "affinity": "morning",
-    "topic": "sports",
-    "topic_label": "Miami Sports",
-    "title": "Miami opens as a 23.5-point favorite for Friday's first real test at Wake Forest",
-    "importance": 0.4,
-    "thesis": "Two routs tell you less than the number oddsmakers just attached to the first game that isn't one.",
-    "synthesis": "No. 5 Miami (2-0) is a 23.5-point favorite over Wake Forest (also 2-0, coming off a 38-16 win over Akron) for Friday's 7:30pm ET kickoff at Allegacy Federal Credit Union Stadium in Winston-Salem. Miami ranks 6th nationally on offense and is converting 64.3% of third downs; Wake Forest ranks 113th on defensive third-down percentage. Cornerback OJ Frederique Jr. remains out for Miami's secondary.",
-    "new_today": "The point spread and both teams' current form are new since yesterday's weekly recap.",
-    "why_it_matters": "A 23-point line against a team that's also unbeaten is either a statement about Miami or an underrated Wake Forest squad about to get exposed -- worth watching for which.",
+    "title": "Miami's secondary loses another starter before its first real test at Wake Forest",
+    "importance": 0.45,
+    "thesis": "Three cornerbacks down before Friday's toughest game yet is a bigger story than the 23.5-point spread suggests.",
+    "synthesis": "Miami head coach Mario Cristobal confirmed junior cornerback Xavier Lucas will be out roughly a month, joining Ja'Boree Antoine (sidelined since before the season) and O.J. Frederique Jr. (shoulder injury from the opener) on the sideline. Bryce Fitzgerald is expected to see more time at corner, with JJ Dunning getting extra safety reps; junior safety Dylan Day, who has also been out, is expected back for Friday's 7:30pm ET game at Wake Forest.",
+    "new_today": "Lucas's injury timeline and Day's expected return are new; Antoine's and Frederique's absences were previously reported without a full corner-depth-chart picture attached.",
+    "why_it_matters": "A 23.5-point favorite with three regular cornerbacks out is a different bet than one at full strength -- worth watching how the interim secondary holds up against a Wake Forest offense playing a defense that ranks near the bottom nationally on third downs itself.",
     "thread_id": "thread-hurricanes-fall-camp",
     "confidence": "high",
     "sources": [
      {
       "role": "primary_reporting",
-      "publisher": "SI.com",
-      "headline": "2026 Miami Football Early Opponent Preview, Game 3: Wake Forest",
-      "url": "https://www.si.com/college/miami/football/2026-miami-football-early-opponent-preview-game-3-wake-forest"
-     }
-    ]
-   },
-   {
-    "id": "theme-bass-fall-opening-week",
-    "affinity": "evening",
-    "topic": "miami",
-    "topic_label": "Miami Life & Culture",
-    "title": "The Bass opens its fall season Thursday with three artists working in decay, sound, and improvisation",
-    "importance": 0.4,
-    "thesis": "Three distinct practices arrive at once, worth planning around rather than catching in the opening-week crowd.",
-    "synthesis": "The Bass Museum in Miami Beach opens its fall season Thursday, September 17, headlined by Yuko Mohri's \"Unviolated Imperfection\" (through April 25, 2027) -- her first solo museum exhibition in the US, following the 2025 Calder Prize and her turn representing Japan at the 2024 Venice Biennale. Mohri's kinetic installations use chance, sound, gravity, and humidity as working materials, treating decay as generative rather than a flaw. It runs alongside Sarah Zapata's \"Against a State of Malevolence\" and Amalia Pica's \"Lecturas Posibles.\" The opening reception runs 6-9pm at The Bass and The Rotunda.",
-    "new_today": "Confirmation of Mohri's Calder Prize and Venice Biennale credentials is new; the exhibition dates were already tracked.",
-    "why_it_matters": "Three artists working in fundamentally different registers, arriving at the same museum on the same day -- worth a slower visit once the opening-week noise clears.",
-    "thread_id": "thread-bass-fall-season-2026",
-    "confidence": "high",
-    "sources": [
+      "publisher": "The Score 1260 (AP)",
+      "headline": "Secondaries to be challenged when Wake Forest hosts No. 5 Miami",
+      "url": "https://www.thescore1260.com/2026/09/14/secondaries-to-be-challenged-when-wake-forest-hosts-no-5-miami/"
+     },
      {
-      "role": "primary_reporting",
-      "publisher": "The Bass Museum",
-      "headline": "Fall 2026 Exhibitions",
-      "url": "https://thebass.org/"
+      "role": "background",
+      "publisher": "Covers.com",
+      "headline": "Miami (FL) Hurricanes vs Wake Forest Demon Deacons Game Overview, Stats, Injuries, Records",
+      "url": "https://www.covers.com/sport/football/ncaaf/matchup/377877"
      }
     ]
    },
    {
-    "id": "theme-genghis-cohen-miami-arrival",
-    "affinity": "evening",
-    "topic": "miami",
-    "topic_label": "Miami Life & Culture",
-    "title": "The real \"Seinfeld\" Chinese restaurant is coming to Sunset Harbour",
+    "id": "theme-dolphins-week2-49ers",
+    "affinity": "morning",
+    "topic": "sports",
+    "topic_label": "Miami Sports",
+    "title": "Dolphins get an early measuring stick: at San Francisco in Week 2",
     "importance": 0.35,
-    "thesis": "A 42-year-old cult restaurant's first expansion beyond California lands, of all places, in Miami Beach.",
-    "synthesis": "Genghis Cohen -- the Fairfax, LA Chinese-American restaurant that inspired Seinfeld's \"The Chinese Restaurant\" episode, where Larry David and Jerry Seinfeld were real-life regulars -- is opening its first location outside California this winter, in the former Sardinia space at 1801 Purdy Ave in Sunset Harbour. The team behind it (Marc Rose and Med Abrous of Call Mom, with hotelier Jason Pomeranc) says it will lean into the restaurant's 1980s energy while working in more Florida seafood and outdoor seating.",
-    "new_today": "The specific address and opening season are new since this thread's last update.",
-    "why_it_matters": "A piece of very specific New York/LA restaurant folklore, arriving intact in Miami Beach rather than reinterpreted for it.",
-    "thread_id": "thread-miami-summer-openings",
+    "thesis": "A West Coast trip against a contender is a fast way to find out if Sunday's problems were the opponent or the offensive line.",
+    "synthesis": "Miami's Week 2 opponent is confirmed as the San Francisco 49ers, Sunday, September 20, at Levi's Stadium -- a quick West Coast turnaround after Sunday's 27-13 opening loss at Las Vegas, where Willis was sacked five times behind a struggling offensive line.",
+    "new_today": "The Week 2 matchup and travel are newly confirmed since yesterday's edition, which covered only the opener's result.",
+    "why_it_matters": "Facing a stronger front seven on the road, one week after five sacks at home, is close to a worst-case schedule spot for diagnosing whether Miami's line is fixable in-season.",
+    "thread_id": "thread-dolphins-hafley-rebuild",
     "confidence": "high",
     "sources": [
      {
       "role": "primary_reporting",
-      "publisher": "Miami New Times",
-      "headline": "Iconic Seinfeld Restaurant to Open in Miami Beach This Winter",
-      "url": "https://www.miaminewtimes.com/food-drink/iconic-seinfeld-restaurant-to-open-in-miami-beach-this-winter-40542474/"
+      "publisher": "Yahoo Sports",
+      "headline": "When do the Miami Dolphins play next? NFL Week 2 schedule, opponent",
+      "url": "https://sports.yahoo.com/articles/miami-dolphins-play-next-nfl-232551441.html"
+     }
+    ]
+   },
+   {
+    "id": "theme-panthers-camp-opens",
+    "affinity": "morning",
+    "topic": "sports",
+    "topic_label": "Miami Sports",
+    "title": "Panthers open training camp with Barkov back and a Tkachuk-brothers puzzle to solve",
+    "importance": 0.45,
+    "thesis": "The two biggest stories of Florida's offseason -- a captain's return, a second Tkachuk -- collide on the ice this week.",
+    "synthesis": "Florida's training camp opens Thursday, September 17, at the Baptist Health IcePlex in Fort Lauderdale, with a public Fan Fest Saturday, September 19. Captain Aleksander Barkov returns after a training-camp knee injury cost him all of last season; his return coincides with the arrival of Brady Tkachuk, acquired this offseason, raising the question of whether coach Paul Maurice pairs him with brother Matthew or splits them across lines. The Panthers still need to replace Sergei Bobrovsky in net. Florida's preseason opens September 20 against defending-champion Carolina, the same team it faces to open the regular season September 29 in Raleigh.",
+    "new_today": "Camp's start date, the Fan Fest date, and the Barkov/Tkachuk framing are new since this thread's last update on September 8.",
+    "why_it_matters": "A healthy Barkov changes the ceiling on a team already installed as the +650 Cup favorite -- worth watching how Maurice actually deploys two Tkachuks from day one.",
+    "thread_id": "thread-panthers-2026-27-season",
+    "confidence": "high",
+    "sources": [
+     {
+      "role": "primary_reporting",
+      "publisher": "The Hockey News",
+      "headline": "Three Intriguing Storylines To Follow During The Florida Panthers' Training Camp",
+      "url": "https://thehockeynews.com/nhl/florida-panthers/latest-news/three-intriguing-storylines-to-follow-during-the-florida-panthers-training-camp"
+     },
+     {
+      "role": "background",
+      "publisher": "Florida Hockey Now",
+      "headline": "The Wait Is Almost Over: Florida Panthers Are Back This Month",
+      "url": "https://floridahockeynow.com/the-wait-is-almost-over-florida-panthers-are-back-this-month/"
+     }
+    ]
+   },
+   {
+    "id": "theme-vice-city-sign-kaseya",
+    "affinity": "evening",
+    "topic": "miami",
+    "topic_label": "Miami Life & Culture",
+    "title": "A 'Welcome Back to Vice City' sign is going up on the Heat's arena roof",
+    "importance": 0.4,
+    "thesis": "While downtown's banner ordinance sits unresolved, a separate, already-moving deal just became visible from the sky.",
+    "synthesis": "A giant 'Welcome Back to Vice City' sign is being installed on the roof of the Kaseya Center under a roughly $4 million deal among Rockstar/Take-Two, Miami-Dade County, and Basketball Properties (the Heat's arena affiliate) -- visible to anyone flying into the city. It's separate from the still-unresolved City of Miami downtown banner ordinance, which would allow $208,000-per-banner displays in a defined downtown zone, with proceeds funding the Underdeck park project; that ordinance's own commission vote outcome remains unconfirmed more than a week after its scheduled hearing.",
+    "new_today": "The Kaseya Center sign and its roughly $4 million price tag are new; the downtown ordinance's specific $208,000 fee and Underdeck-funding purpose are also newly reported, though its vote outcome is still unresolved.",
+    "why_it_matters": "Miami is turning into Vice City in pieces, each negotiated separately -- a small but genuine test of how a city monetizes its own pop-culture cameo.",
+    "thread_id": "thread-miami-vice-city-gta6-pitch",
+    "confidence": "high",
+    "sources": [
+     {
+      "role": "primary_reporting",
+      "publisher": "GTA BOOM",
+      "headline": "A Giant GTA 6 Vice City Sign Is Going Up on Miami Heat's Arena",
+      "url": "https://www.gtaboom.com/a-giant-gta-6-sign-is-going-up-on-the-miami-heat-arena-716d"
      },
      {
       "role": "background",
       "publisher": "Hoodline",
-      "headline": "Genghis Cohen Coming To Miami Beach's Sunset Harbour",
-      "url": "https://hoodline.com/2026/04/iconic-l-a-noodle-joint-genghis-cohen-plots-80s-style-invasion-of-sunset-harbour/"
+      "headline": "Miami GTA VI Banner Fees Would Fund Underdeck Park",
+      "url": "https://hoodline.com/2026/09/miami-wants-rockstar-to-pay-202-000-a-banner-to-fund-underdeck-park/"
+     }
+    ]
+   },
+   {
+    "id": "theme-pamm-anina-major-sacred-mangrove",
+    "affinity": "evening",
+    "topic": "miami",
+    "topic_label": "Miami Life & Culture",
+    "title": "A Bahamian artist turns her grandmother's straw-weaving into a walkable ceramic mangrove at PAMM",
+    "importance": 0.5,
+    "thesis": "A craft built for softness and impermanence gets remade, deliberately, into something meant to outlast the person who taught it.",
+    "synthesis": "Perez Art Museum Miami is presenting 'Anina Major: The Sacred Mangrove,' the Bahamian-born artist's most significant US institutional show to date. Major hand-builds clay into forms that mimic palm-leaf plaiting -- a technique she learned from her grandmother, Saphora Newbold, a straw weaver whose hats, dolls, and bags once helped support their family. The exhibition arranges large woven-ceramic tower forms alongside bottle trees and crushed shells into a walkable installation, moving a Bahamian craft tradition often flattened by the tourism economy into a material built to remain rather than wear out.",
+    "new_today": "First tracked today.",
+    "why_it_matters": "A tradition moved deliberately from a material built to fray within a season to one built to last -- a fitting counterpart to tonight's reading-list pick on making things by hand.",
+    "thread_id": null,
+    "confidence": "high",
+    "sources": [
+     {
+      "role": "primary_reporting",
+      "publisher": "Perez Art Museum Miami",
+      "headline": "Anina Major: The Sacred Mangrove",
+      "url": "https://www.pamm.org/en/exhibition/anina-major-the-sacred-mangrove/"
      }
     ]
    }
   ],
   "rabbit_hole": {
-   "id": "rh-2026-09-14",
-   "title": "In an Age of AI, a Physicist Seeks What Endures",
-   "creator": "Rebecca Boyle, Quanta Magazine",
+   "id": "rh-2026-09-15",
+   "title": "Black Holes or Black Hole Stars? Astronomers Spar Over Webb Telescope's 'Little Red Dots.'",
+   "creator": "Charlie Wood, Quanta Magazine",
    "format": "article",
-   "minutes": 18,
-   "why": "Sarah Demers, chair of Yale's physics department, is leading an American Physical Society effort to write a policy on how -- and whether -- physicists should use large language models in their own field, despite, by her own account, never having typed a single query into one. It's a genuinely useful companion to today's edition: a scientist working through the same question AI-industry warnings raised for markets this morning, but from inside a discipline built entirely on things that have to be independently, rigorously true.",
-   "url": "https://www.quantamagazine.org/in-an-age-of-ai-a-physicist-seeks-what-endures-20260903/",
+   "minutes": 15,
+   "why": "Hundreds of small, inexplicably bright red objects have shown up in Webb telescope images since 2022, and they don't fit any existing model of how galaxies or stars form. A new theory says they might be a genuinely new class of object -- a black hole wrapped in gas so thick it glows like a star's own atmosphere. It's an unresolved, actively argued-over mystery about the actual furniture of the universe, the kind that rewards a slow read rather than a headline.",
+   "url": "https://www.quantamagazine.org/black-holes-or-black-hole-stars-astronomers-spar-over-webb-telescopes-little-red-dots-20260914/",
    "related_interest": "living"
   },
   "beautiful_thing": {
-   "id": "bt-2026-09-14",
-   "title": "The Barge",
-   "creator": "A. Stirling Calder",
-   "era": "1917-1919, carved limestone; on view at Vizcaya Museum and Gardens, Miami",
-   "body": "James Deering commissioned this breakwater in 1915 to protect his new estate's terraces from bay waves, and had it built to look like a stone boat rather than a seawall. A. Stirling Calder -- father of the mobile artist Alexander Calder, and nearly 50 himself at the time -- spent 1917 to 1919 chiseling the local limestone into a crew of mermaids and sea creatures along its bow, stern, and deck. The stone is soft and porous, and more than a century of tide and salt air has been slowly dissolving the mermaids' features -- a decay Vizcaya now documents rather than fully arrests, since replacing the original material would mean losing it twice.",
-   "url": "https://vizcaya.org/virtual-vizcaya/explore-the-barge-1916-sculptures/",
+   "id": "bt-2026-09-15",
+   "title": "The Sacred Mangrove (woven ceramic towers)",
+   "creator": "Anina Major",
+   "era": "2026, glazed ceramic and mixed media; on view now at Perez Art Museum Miami",
+   "body": "Major hand-builds clay to mimic the plaited palm-leaf technique she learned from her grandmother, Saphora Newbold, a Bahamian straw weaver whose hats and baskets once supported their family. The tower forms are grouped like an island ecosystem, threaded through with bottle trees and a path of crushed shell. Notice how the weave pattern, pressed permanently into fired clay, still carries the exact rhythm of a material that was originally built to fray and wear out within a season.",
+   "url": "https://www.pamm.org/en/exhibition/anina-major-the-sacred-mangrove/",
    "image": null,
-   "alt": "A long stone breakwater shaped like a barge, decorated with weathered limestone mermaid sculptures, floating just offshore in Biscayne Bay"
+   "alt": "Tall woven ceramic tower sculptures resembling palm-leaf plaiting, arranged like an island grove among bottle trees and crushed shell in a museum gallery"
   },
   "noticing_prompt": {
-   "id": "np-2026-09-14",
-   "text": "Notice one thing today that you'd braced for and that simply didn't happen -- a meeting, a call, a decision -- and clock how much of the bracing turned out to be the only real event."
+   "id": "np-2026-09-15",
+   "text": "Notice the next time you check a number you already know the answer to -- a price, a score, a forecast -- and ask what you were actually hoping had changed."
   },
   "daily_puzzle": {
-   "id": "dp-2026-09-14",
-   "type": "wordplay",
-   "prompt": "Add two letters to a common five-letter word, and the result will always describe something that has become shorter. What's the word?",
-   "hint": "The five-letter word is itself an adjective about length or duration.",
-   "solution": "SHORT -- add \"-er\" and it becomes \"SHORTER.\"",
-   "explanation": "The trick is that the word grows by two letters while its meaning describes shrinking -- the only property of the word that changes is the one the word itself names."
+   "id": "dp-2026-09-15",
+   "type": "logic",
+   "prompt": "A librarian tells you: 'Every book on this shelf that is not a novel is a biography. Every biography on this shelf was written before 1980.' You're holding a book from this shelf that was published in 2004. What can you conclude about it -- and why is that certain, rather than merely likely?",
+   "hint": "Start from what the book can't be, not from what it is.",
+   "solution": "It must be a novel.",
+   "explanation": "If it weren't a novel, the first rule makes it a biography -- but the second rule says every biography predates 1980, and this book is from 2004. So it can't be a biography, which means it can't be 'not a novel' either. The only option left is that it's a novel."
   },
   "evening_unwind": {
-   "id": "eu-2026-09-14",
+   "id": "eu-2026-09-15",
    "evening_quote": {
-    "text": "Seek not that the things which happen should happen as you wish; but wish the things which happen to be as they are, and you will have a tranquil flow of life.",
-    "attribution": "Epictetus",
-    "source": "Enchiridion, 8"
+    "text": "We suffer more often in imagination than in reality.",
+    "attribution": "Seneca",
+    "source": "Letters to Lucilius, 13.4"
    },
-   "evening_prompt": "A meeting that five governments were reportedly prepared to attend didn't happen today -- notice one expectation you carried into today that reality simply declined to meet, and whether the friction was in the event or in the expecting."
+   "evening_prompt": "Wednesday's Fed decision is close to fully priced in, and the market still sold off hard today -- notice one thing tonight you were sure was already settled that still managed to unsettle you before the day was out."
   },
   "reading_queue": [
    {
     "title": "The Radical Reasons Why You Dream of Making Things by Hand",
     "url": "https://aeon.co/essays/the-radical-reasons-why-you-dream-of-making-things-by-hand",
     "verdict": "read_soon",
-    "reason": "Saved eleven days ago and still unread -- still the best-fitting length and subject for craft_and_making, your highest-weighted subtopic."
+    "reason": "Saved twelve days ago and still unread -- still the best fit for craft_and_making, your highest-weighted subtopic, and today's PAMM piece is the same theme in museum form."
    }
   ],
   "quote": {
-   "text": "Seek not that the things which happen should happen as you wish; but wish the things which happen to be as they are, and you will have a tranquil flow of life.",
-   "attribution": "Epictetus"
+   "text": "We suffer more often in imagination than in reality.",
+   "attribution": "Seneca"
   }
  },
  "threads": [
@@ -433,9 +426,9 @@
    "title": "US-Iran conflict and the Strait of Hormuz",
    "topic": "markets",
    "status": "active",
-   "last_updated": "2026-09-14",
-   "updates": 66,
-   "current_state": "Oman postponed Monday's Salalah meeting entirely -- even the reduced, Bahrain-minus version -- citing a need to 'create conditions conducive to constructive dialogue,' after a fresh Iranian-claimed vessel strike near Qeshm Island (state media says one killed, four injured) and continued fallout from drone strikes that forced Saudi Arabia to shut its East-West pipeline. Brent traded near $107 Monday, up from Friday's $104.61 close and the highest level of the war. A second maritime chokepoint has also opened this weekend: Houthi forces completed control of Yemen's Red Sea coast and the Bab el-Mandeb strait (tracked separately, thread-houthi-red-sea-control).",
+   "last_updated": "2026-09-15",
+   "updates": 67,
+   "current_state": "Saudi Arabia specifically requested Monday's Salalah postponement -- objecting to proposed Iran-Oman shipping-corridor terms and citing frustration over continued Houthi attacks on its territory -- while Iran separately rules out any talks with the US until its own conditions are met. Brent held near $107.46 Tuesday, still close to the war's highs.",
    "timeline": [
     {
      "date": "2026-07-21",
@@ -766,6 +759,11 @@
      "date": "2026-09-14",
      "summary": "Oman postponed Monday's Salalah meeting indefinitely -- not merely the reduced, Bahrain-minus version reported Saturday, but the meeting entirely -- citing a need for more 'conducive' conditions after the Qeshm strike and the Saudi pipeline attack. Brent surged to roughly $107 Monday (session range $106-108), its highest level of the war, up from Friday's $104.61 close.",
      "change_type": "reversed"
+    },
+    {
+     "date": "2026-09-15",
+     "summary": "Reporting reveals Saudi Arabia, not just Oman's own judgment, requested Monday's Salalah postponement -- objecting to proposed changes in the Iran-Oman shipping-corridor framework and citing frustration with continued Houthi attacks on Saudi territory. Separately, Iran's security council secretary Mohsen Rezaei says Tehran will hold no talks with Washington until Iran's own conditions are met. Brent held near $107.46 Tuesday.",
+     "change_type": "advanced"
     }
    ]
   },
@@ -774,9 +772,9 @@
    "title": "Federal Reserve rate path",
    "topic": "markets",
    "status": "active",
-   "last_updated": "2026-09-14",
-   "updates": 59,
-   "current_state": "Friday resolved the CPI uncertainty from Thursday's edition: August inflation came in almost exactly as expected (headline 3.4% y/y, core 2.4% y/y, a five-year-plus low), which -- combined with a hot PPI earlier in the week -- pushed September 16 hike odds to roughly 85-90%, up from Thursday's ~70%. Stocks rallied on the reduced uncertainty and Brent's pullback, snapping the four-day losing streak; the 10-year sits at 4.96%, just under the 5% mark last seen in October 2023.",
+   "last_updated": "2026-09-15",
+   "updates": 60,
+   "current_state": "The 10-year Treasury topped 5% intraday Monday for just the second time since 2007 (matching October 2023's brief high) before closing near 4.987%; stocks confirmed Monday's premarket losses at the close (S&P -0.46%, Nasdaq -0.56%, Dow -0.29%). CME FedWatch hike odds hold near 88-91% for Wednesday's decision, though Kalshi (57%) and Polymarket (49%) diverge meaningfully from that number.",
    "timeline": [
     {
      "date": "2026-07-18",
@@ -1072,6 +1070,11 @@
      "date": "2026-09-14",
      "summary": "Monday premarket: S&P 500 futures -0.5%, Nasdaq-100 futures -1.2% on oil's surge past $106 (Salalah postponement, Houthi Red Sea gains, Saudi pipeline shutdown) compounded by AI-industry warnings of a development slowdown; hike odds hold near 85-90% ahead of Wednesday's decision and dot plot.",
      "change_type": "watch"
+    },
+    {
+     "date": "2026-09-15",
+     "summary": "The 10-year Treasury rose intraday to 5.01% Monday -- matching October 2023's brief high and the highest level since 2007 -- before easing to close near 4.987%. The S&P 500, Nasdaq, and Dow all confirmed Monday's premarket weakness at the close (S&P -0.46% to 7,621.54, Nasdaq -0.56% to 26,186.41, Dow -0.29% to 52,421). CME FedWatch hike odds hold near 88-91%, though Kalshi (57%) and Polymarket (49%) show real disagreement ahead of Wednesday's decision.",
+     "change_type": "worsened"
     }
    ]
   },
@@ -1442,9 +1445,9 @@
    "title": "Dolphins rebuild under Hafley",
    "topic": "sports",
    "status": "active",
-   "last_updated": "2026-09-14",
-   "updates": 44,
-   "current_state": "Miami opened its season with a 27-13 loss at Las Vegas. Malik Willis passed for 220 yards with an interception and added a 14-yard rushing touchdown but was sacked five times as the line struggled; Kirk Cousins threw three touchdown passes for a Raiders team that never trailed. A mixed debut for the rebuild's most-watched new starter.",
+   "last_updated": "2026-09-15",
+   "updates": 45,
+   "current_state": "Miami opened its season with a 27-13 loss at Las Vegas -- Willis passed for 220 yards with an interception and a rushing touchdown but was sacked five times -- and now travels to face the San Francisco 49ers in Week 2, Sunday, September 20, at Levi's Stadium.",
    "timeline": [
     {
      "date": "2026-07-18",
@@ -1665,6 +1668,11 @@
      "date": "2026-09-14",
      "summary": "Season opener result: Raiders beat Dolphins 27-13 at Allegiant Stadium, never trailing. Willis passed for 220 yards with an interception and ran for a 14-yard touchdown but was sacked five times; Cousins threw three touchdown passes.",
      "change_type": "worsened"
+    },
+    {
+     "date": "2026-09-15",
+     "summary": "Miami's Week 2 opponent is confirmed: at the San Francisco 49ers, Sunday, September 20, at Levi's Stadium, a fast West Coast trip after Sunday's 27-13 opening loss at Las Vegas.",
+     "change_type": "new"
     }
    ]
   },
@@ -1673,9 +1681,9 @@
    "title": "Miami Hurricanes fall camp and the Mensah era",
    "topic": "sports",
    "status": "active",
-   "last_updated": "2026-09-14",
-   "updates": 15,
-   "current_state": "Miami (2-0, No. 5) is a 23.5-point favorite over a also-2-0 Wake Forest team for Friday's first real ACC test -- kickoff 7:30pm ET, September 18, at Allegacy Federal Credit Union Stadium in Winston-Salem. Frederique Jr. remains out for Miami's secondary.",
+   "last_updated": "2026-09-15",
+   "updates": 16,
+   "current_state": "Miami (2-0, No. 5) is a 23.5-point favorite over a also-2-0 Wake Forest team for Friday's first real ACC test, but three regular cornerbacks -- Frederique Jr., Ja'Boree Antoine, and now Xavier Lucas (out roughly a month) -- are sidelined; safety Dylan Day is expected back for the game.",
    "timeline": [
     {
      "date": "2026-08-14",
@@ -1751,6 +1759,11 @@
      "date": "2026-09-14",
      "summary": "Friday's Wake Forest test now has a number: Miami (2-0, No. 5) opened as a 23.5-point favorite over a Wake Forest team that's also 2-0 after beating Akron 38-16. Kickoff 7:30pm ET, September 18, in Winston-Salem.",
      "change_type": "advanced"
+    },
+    {
+     "date": "2026-09-15",
+     "summary": "Cristobal confirmed junior cornerback Xavier Lucas will also be out roughly a month, joining Frederique Jr. and Ja'Boree Antoine on the sideline; junior safety Dylan Day, previously out, is expected back for Friday's game at Wake Forest.",
+     "change_type": "worsened"
     }
    ]
   },
@@ -2201,9 +2214,9 @@
    "title": "Panthers' 2026-27 season takes shape",
    "topic": "sports",
    "status": "active",
-   "last_updated": "2026-09-08",
-   "updates": 5,
-   "current_state": "Florida's four-game preseason schedule is set (home and away with both Carolina and Tampa Bay, September 20-26), and FanDuel now makes the Panthers the betting favorite for the 2027 Cup at +650. The regular season opens September 29 in Raleigh against Carolina, last season's champion.",
+   "last_updated": "2026-09-15",
+   "updates": 6,
+   "current_state": "Florida's training camp opens Thursday, September 17, in Fort Lauderdale (public Fan Fest September 19), with captain Aleksander Barkov back after a season lost to injury and a Brady/Matthew Tkachuk pairing question for coach Paul Maurice to answer. FanDuel has the Panthers as +650 Cup favorites; the preseason opens September 20 and the regular season September 29, both against defending-champion Carolina.",
    "timeline": [
     {
      "date": "2026-08-22",
@@ -2228,6 +2241,11 @@
     {
      "date": "2026-09-08",
      "summary": "Florida announced its four-game preseason schedule: home to Carolina September 20, at Carolina September 22, at Tampa Bay September 24, home to Tampa Bay September 26. FanDuel installed the Panthers as the odds-on favorite to win the 2027 Stanley Cup at +650. The regular season opens September 29 at Carolina, the newly crowned 2026 champion.",
+     "change_type": "advanced"
+    },
+    {
+     "date": "2026-09-15",
+     "summary": "Training camp opens Thursday, September 17, at the Baptist Health IcePlex in Fort Lauderdale, with a public Fan Fest Saturday, September 19. Captain Aleksander Barkov returns after a training-camp knee injury cost him all of last season, raising the question of how coach Paul Maurice deploys him alongside newly acquired Brady Tkachuk and brother Matthew; the team still needs to replace Sergei Bobrovsky in net.",
      "change_type": "advanced"
     }
    ]
@@ -2258,9 +2276,9 @@
    "title": "Miami-Dade's \"Vice City\" pitch to Rockstar Games",
    "topic": "miami",
    "status": "active",
-   "last_updated": "2026-09-12",
-   "updates": 5,
-   "current_state": "The fork stands at two distinct outcomes: Miami Beach's ~$3 million Rockstar marketing deal is confirmed and detailed (4-3 vote, discreet branding on beach equipment, Oct 15-Dec 31). The City of Miami's separate downtown banner ordinance, which was to reach a commission vote Thursday, still has no reported result as of Friday -- worth a continued follow-up, since the silence itself is now the more notable fact.",
+   "last_updated": "2026-09-15",
+   "updates": 6,
+   "current_state": "A 'Welcome Back to Vice City' sign is now going up on the Kaseya Center roof under a separate ~$4 million Rockstar/Miami-Dade/Heat-arena deal, visible from the sky. The City of Miami's downtown banner ordinance has specific public terms now ($208,000 per banner, proceeds to the Underdeck park project), but its commission vote outcome is still unconfirmed more than a week after its scheduled hearing.",
    "timeline": [
     {
      "date": "2026-08-31",
@@ -2285,6 +2303,11 @@
     {
      "date": "2026-09-12",
      "summary": "Miami Beach's approved deal is now specified as a roughly $3 million marketing agreement with Rockstar for discreet 'VI'/'Vice City' branding on Boucher Brothers beach chairs and umbrellas, Oct 15-Dec 31. Two days after Thursday's scheduled vote, no outlet has yet reported a recorded result for the City of Miami's separate downtown banner ordinance (Commissioner Pardo's plan, $208,000 per banner, proceeds to the Underdeck park) -- an unusually long reporting gap for a local commission vote.",
+     "change_type": "advanced"
+    },
+    {
+     "date": "2026-09-15",
+     "summary": "A giant 'Welcome Back to Vice City' sign is being installed on the Kaseya Center roof under a separate ~$4 million deal among Rockstar/Take-Two, Miami-Dade County, and the Heat's arena affiliate. The City of Miami's downtown ordinance now has specific public terms ($208,000 per banner, funding the Underdeck park project), though its own commission vote outcome remains unconfirmed.",
      "change_type": "advanced"
     }
    ]
@@ -2320,13 +2343,18 @@
    "title": "Houthi capture of Yemen's Red Sea coast and the Bab el-Mandeb strait",
    "topic": "markets",
    "status": "active",
-   "last_updated": "2026-09-14",
-   "updates": 1,
-   "current_state": "Iran-aligned Houthi rebels completed a rapid takeover of Yemen's entire Red Sea coastline over the past week, capturing the port city of Mocha Thursday and the strategic island of Mayyun (Perim) over the weekend, putting them roughly 12 miles from the African coast and giving them effective control of the Bab el-Mandeb strait -- a chokepoint that, together with Hormuz, carries a quarter of the world's daily oil and gas shipments and nearly a third of global maritime trade. Iran has publicly celebrated the gains as a 'divine triumph.' The development compounds an already-closed Strait of Hormuz and a Saudi pipeline forced offline by drone strikes, opening a genuine second front in the war's pressure on global shipping.",
+   "last_updated": "2026-09-15",
+   "updates": 2,
+   "current_state": "Houthi forces hold effective command of the Bab el-Mandeb strait after completing their takeover of Yemen's Red Sea coast. Saudi Crown Prince Mohammed bin Salman called Trump twice last Thursday asking for direct US strikes on the Houthis; Trump declined, offering intelligence-sharing and targeting help instead of direct military action.",
    "timeline": [
     {
      "date": "2026-09-14",
      "summary": "First tracked: Houthi forces complete control of Yemen's Red Sea coastline (Mocha, Mayyun island) after a week-long push, giving them effective command of the Bab el-Mandeb strait alongside Iran's existing blockade of Hormuz. Iran publicly celebrates the gains; regional shipping risk premium rises alongside oil prices.",
+     "change_type": "new"
+    },
+    {
+     "date": "2026-09-15",
+     "summary": "Saudi Crown Prince Mohammed bin Salman called Trump twice last Thursday urging direct US strikes on the Houthis after their completed Red Sea takeover; Trump declined, and US officials say Washington will offer intelligence-sharing and targeting help rather than direct military action.",
      "change_type": "new"
     }
    ]
@@ -2351,7 +2379,7 @@
   }
  ],
  "meta": {
-  "content_freshness": "Generated 2026-09-14T09:30:00-04:00. Equities/10Y last closed Friday, September 11, 2026 (markets shut over the weekend); Brent and FOMC odds are Monday intraday/live.",
+  "content_freshness": "2026-09-15T09:30:00-04:00",
   "feedback_endpoint_mode": "github_contents",
   "minimum_client_schema_version": 1,
   "mode": "brain"
