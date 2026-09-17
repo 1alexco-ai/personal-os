@@ -1,163 +1,203 @@
 {
  "schema_version": 2,
  "edition": {
-  "id": "2026-09-16",
-  "date": "2026-09-16",
+  "id": "2026-09-17",
+  "date": "2026-09-17",
   "type": "weekday",
-  "generated_at": "2026-09-16T09:30:00-04:00",
+  "generated_at": "2026-09-17T09:30:00-04:00",
   "timezone": "America/New_York",
   "title": "Personal OS",
   "front_page_letter": {
    "greeting": "Good morning",
    "body_paragraphs": [
-    "The Fed's 2pm decision today is close to fully priced -- CME FedWatch has it at roughly 93%, and Polymarket has converged sharply to about 89%, up from just 49% Friday. The more interesting number arrived yesterday, before any of that: the 10-year Treasury didn't just touch 5% intraday like Monday, it closed there Tuesday for the first time since 2007, after a fresh high of 5.04%. Stocks confirmed it -- the S&P, Nasdaq, and Dow all fell for a second straight session. Whatever the dot plot says this afternoon, borrowing costs at a 19-year-rare level already outlast it.",
-    "Closer to home, one open question got answered overnight: the Panthers' goalie plan, the single structural gap on a +650 Cup-favorite roster, is set. Jacob Markstrom signed a two-year deal after June's trade from New Jersey; Akira Schmid arrives as backup. Bobrovsky's seven-season run in Florida is over. Camp opens Thursday. Miami's downtown GTA6 banner ordinance also picked up real specifics -- a sponsor, an exact date window, a hard cap of six banners -- everything except an actual vote.",
-    "Tonight, two quieter things. The Bass reopens Thursday with a show literally inviting you to draw on its walls. And below, a 150-year-old math theorem just got reproved -- faster, and stranger than the first time."
+    "The Fed hiked yesterday -- 12-0, a quarter point, to 3.75%-4.00%, the first increase since 2023. Markets had that above 90% priced for days, so the vote itself was never the story. The dot plot was: 16 of 18 officials now see at least one more hike this year, four see two, and the median holds the funds rate at 4.10% clear through 2027 with no cuts anywhere in the projection. Stocks fell anyway (Dow -1.21%, S&P -0.45% to 7,551.81), and the 10-year pushed past Tuesday's 5.00% close to 5.016%.",
+    "The region's oil story got stranger rather than simpler. Monday's Salalah summit -- the first planned Iran-Gulf sit-down of the war -- died outright, and shipping trackers now disagree with each other about how open Hormuz actually is. The more interesting move happened quietly: Israel has started sharing Houthi-related intelligence with Saudi Arabia through US channels, real coordination between two governments with no formal relationship, born entirely out of a shared problem neither one created.",
+    "Closer to home, two things resolved the way they were supposed to. Miami's commission finally took the GTA6 banner vote everyone had been waiting on -- 4-3, approved -- and the Bass opened its fall season tonight exactly on schedule, one show built from decay and one that hands you the chalk."
    ],
    "read_only_three": [
     {
      "target_type": "theme",
-     "target_id": "theme-fed-rate-decision-day",
-     "label": "Tuesday's 10-year close at 5% -- not just an intraday touch -- matters more than whatever the Fed says at 2pm today"
+     "target_id": "theme-fed-hikes-hawkish-path",
+     "label": "The Fed's hike was priced in; the promise of more hikes through 2027, with no cuts, wasn't"
     },
     {
      "target_type": "theme",
-     "target_id": "theme-panthers-goalie-set",
-     "label": "The Panthers' one open roster question is answered: Jacob Markstrom, on a two-year deal"
+     "target_id": "theme-twin-chokepoints-israel-saudi-intel",
+     "label": "Israel is now quietly feeding Saudi Arabia intelligence on the Houthis -- a new alignment born of this war"
     },
     {
      "target_type": "rabbit_hole",
-     "target_id": "rh-2026-09-16",
-     "label": "A 150-year-old math theorem just got reproved -- faster, and stranger -- this year"
+     "target_id": "rh-2026-09-17",
+     "label": "A physicist who's never typed a word into an AI model, on what she thinks won't change"
     }
    ]
   },
   "market_context": [
    {
     "label": "S&P 500",
-    "value": "7,585.73",
-    "change": "-0.45% Tuesday, a second straight losing session",
-    "observed": "Tuesday close, September 15, 2026",
-    "note": "Fell alongside surging Treasury yields and Brent's climb, heading into today's Fed decision."
+    "value": "7,551.81",
+    "change": "-0.45% Wednesday, a third straight losing session",
+    "observed": "Wednesday close, September 16, 2026",
+    "note": "Fell despite the Fed hike being fully priced -- the hawkish dot plot, not the hike, drove the move."
    },
    {
     "label": "Nasdaq Composite",
-    "value": "25,981.57",
-    "change": "-0.78% Tuesday",
-    "observed": "Tuesday close, September 15, 2026",
-    "note": "Underperformed the broader market for a second day on renewed rate-sensitivity in growth names."
+    "value": "25,978.42",
+    "change": "-0.01% Wednesday, essentially flat",
+    "observed": "Wednesday close, September 16, 2026",
+    "note": "Held up better than the broader market despite the rate-sensitive setup."
    },
    {
     "label": "10Y Treasury",
-    "value": "~5.00%",
-    "change": "Touched 5.04% intraday (highest since 2007) before closing at the threshold -- its first close there, not just a touch, since 2007",
-    "observed": "Tuesday, September 15, 2026",
-    "note": "Monday only touched and eased back; Tuesday actually closed at the level, a meaningfully different signal for mortgages and cap rates."
+    "value": "5.016%",
+    "change": "Up from Tuesday's 5.00% close, extending its first close above that threshold since 2007",
+    "observed": "Wednesday, September 16, 2026",
+    "note": "Climbed further after the hike and Chair Warsh's inflation comments, not less -- the opposite of a typical post-hike relief move."
+   },
+   {
+    "label": "FOMC",
+    "value": "Hiked 25bp to 3.75%-4.00%, 12-0",
+    "change": "First hike since 2023; median dot holds 4.10% through 2027, 16 of 18 officials expect at least one more hike this year",
+    "observed": "Wednesday, September 16, 2026, 2pm ET decision",
+    "note": "Next meeting October 27-28. No rate cuts are currently projected anywhere on the Fed's own timeline."
    },
    {
     "label": "Brent crude",
-    "value": "~$109.21",
-    "change": "+3.34% Tuesday, trading $107-109 Wednesday morning",
-    "observed": "Tuesday close, September 15, 2026",
-    "note": "War-risk premium still climbing on the combined Hormuz blockade and Houthi control of the Red Sea coast."
-   },
-   {
-    "label": "FOMC (September 16 decision)",
-    "value": "CME FedWatch ~93% hike odds; Polymarket ~89%",
-    "change": "Both trackers converged sharply higher from Monday's 88-91% (CME) and Friday's 49% (Polymarket)",
-    "observed": "Wednesday morning, September 16, 2026",
-    "note": "Decision and updated dot plot due today at 2pm ET, press conference 2:30pm. Would be the first hike since 2023."
+    "value": "~$104-106",
+    "change": "Eased from Tuesday's ~$109.21 close",
+    "observed": "Thursday morning, September 17, 2026",
+    "note": "Pulling back on contested signs of partial Hormuz traffic recovery, even as Salalah diplomacy collapsed and Bab el-Mandeb remains Houthi-controlled."
    }
   ],
   "public_day_context": {
-   "date_label": "Wednesday, September 16, 2026",
-   "weather": "High near 90 with an 80% chance of afternoon showers and thunderstorms; humid, dew point near 78, humidity around 85%.",
-   "public_event": "Inter Miami hosts Cruz Azul at Nu Stadium tonight in the Michelob ULTRA Campeones Cup (8pm ET, Apple TV); Rosalía plays Kaseya Center the same night. Panthers training camp and the Bass's fall season both open tomorrow, Thursday."
+   "date_label": "Thursday, September 17, 2026",
+   "weather": "High near 88 with an 80% chance of showers and thunderstorms, mainly before and after 2pm; humid, low near 78.",
+   "public_event": "The Bass reopens tonight with a joint 6-9pm opening reception for Yuko Mohri's and Amalia Pica's new shows. Florida Panthers training camp opens today at Fort Lauderdale's Baptist Health IcePlex (public Fan Fest Saturday). Miami Hurricanes travel to Wake Forest Friday night (7:30pm ET, ESPN)."
   },
   "what_changed": [
    {
-    "id": "delta-10y-closes-at-5-percent",
+    "id": "delta-fed-hikes-hawkish-dot-plot",
     "thread_id": "thread-fed-rate-path",
     "change_type": "advanced",
-    "title": "The 10-year Treasury didn't just touch 5% Monday -- it closed there Tuesday, for the first time since 2007",
-    "previous_state": "Monday's 10-year touched 5.01% intraday before easing back to close near 4.987%, with stocks confirming only a modest premarket-flagged loss.",
-    "current_state": "Tuesday's 10-year rose as high as 5.04% intraday -- a fresh high since 2007 -- before closing at essentially 5.00%, its first actual close at that threshold since 2007. The S&P (-0.45% to 7,585.73), Nasdaq (-0.78% to 25,981.57), and Dow (-0.63% to 52,093.11) all fell for a second straight session heading into today's 2pm ET decision, now priced at roughly 93% (CME) and 89% (Polymarket, up from 49% Friday) odds of a hike.",
-    "why_it_matters": "A close at the threshold, not just an intraday spike, is the difference between a scary headline and an actual repricing of what borrowing costs mortgages and cap rates for as long as this holds.",
+    "title": "The Fed hiked exactly as priced -- the hawkish dot plot wasn't",
+    "previous_state": "Wednesday's decision was priced above 90% (CME) and roughly 89% (Polymarket), but the Fed's own forward guidance for the rest of 2026 and 2027 was still unknown.",
+    "current_state": "The FOMC voted 12-0 to hike 25bp to 3.75%-4.00%, its first increase since 2023. Sixteen of eighteen officials now project at least one more hike this year (four see two), the median dot holds 4.10% through 2027, and no cuts are projected on the current timeline. Stocks fell on the guidance, not the hike: Dow -631pts (-1.21%) to 51,461.90, S&P -0.45% to 7,551.81, Nasdaq roughly flat. The 10-year closed at 5.016%, above Tuesday's 5.00% close.",
+    "why_it_matters": "Alex's cap-markets work runs on where rates sit over the next year, not on one afternoon's headline -- and today's actual news is that neither the funds rate nor the 10-year is coming down soon.",
     "confidence": "high",
     "source": {
      "publisher": "CNBC",
-     "url": "https://www.cnbc.com/2026/09/15/10-year-treasury-yield-rises-to-highest-since-2007.html"
+     "url": "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html"
     }
    },
    {
-    "id": "delta-panthers-markstrom-set",
-    "thread_id": "thread-panthers-2026-27-season",
-    "change_type": "resolved",
-    "title": "The Panthers' goalie question is answered: Jacob Markstrom, not a training-camp battle",
-    "previous_state": "Florida still needed to replace Sergei Bobrovsky in net heading into Thursday's training camp, with no starter confirmed.",
-    "current_state": "Markstrom signed a two-year, $12 million deal after arriving in a June 30 trade from New Jersey (which also brought forward Angus Crookshank in exchange for Evan Rodrigues, Jesper Boqvist, and a prospect); backup Akira Schmid came over from Vegas for a 2028 third-round pick. Bobrovsky, now a free agent at 38, closes a seven-season Panthers run: 201-113-21, a 2.80 GAA, and a .903 save percentage.",
-    "why_it_matters": "The single open structural question on a +650 Cup-favorite roster is closed three days before camp opens -- not a battle to watch, a plan already in place.",
-    "confidence": "high",
-    "source": {
-     "publisher": "NHL.com",
-     "url": "https://www.nhl.com/news/topic/team-resets/florida-panthers-roster-changes-for-2026-27-season"
-    }
-   },
-   {
-    "id": "delta-vice-city-ordinance-terms-public",
+    "id": "delta-gta6-ordinance-approved",
     "thread_id": "thread-miami-vice-city-gta6-pitch",
-    "change_type": "advanced",
-    "title": "Downtown's GTA6 banner ordinance gets a sponsor, an exact date window, and a hard cap -- the vote itself still hasn't happened",
-    "previous_state": "The $208,000-per-banner fee and its Underdeck-park purpose were public, but the ordinance's sponsor, exact operating window, and any cap on banner count were not yet reported.",
-    "current_state": "The ordinance, sponsored by Commissioner Damian Pardo, would run October 15 through December 31 -- bracketing GTA6's November 19 launch -- inside a defined downtown \"Event Area\" bounded by NE 5th Street, the Miami River, Biscayne Bay, and NE 2nd Avenue. It caps the city at six banners total for a combined 56 days. The commission's own legislative file still shows no recorded vote, more than a week past its scheduled hearing.",
-    "why_it_matters": "Miami keeps refining exactly how much of itself it will rent out before it ever actually votes on whether to.",
+    "change_type": "resolved",
+    "title": "The GTA6 banner vote that never seemed to happen finally did -- approved 4-3",
+    "previous_state": "The ordinance's fee, date window, and hard six-banner cap were public, but the commission's legislative file still showed no recorded vote, more than a week past its scheduled hearing.",
+    "current_state": "Reporting surfacing Wednesday evening confirms Miami's commission approved the downtown ordinance 4-3, on unchanged terms: six banners, $208,000 fee each over 5,000 sq ft, October 15-December 31 inside the defined downtown Event Area, proceeds to the Underdeck park. The same day, Miami Beach separately approved its own $3 million Rockstar marketing deal, also 4-3.",
+    "why_it_matters": "The more interesting fact for weeks was that Miami kept refining a deal it hadn't voted on. That's over; the only open question now is whether banners actually go up October 15.",
     "confidence": "medium",
     "source": {
-     "publisher": "GTA BOOM",
-     "url": "https://www.gtaboom.com/miami-city-downtown-gta-6-banner-plan-now-has-exact-terms-3810"
+     "publisher": "NBC Miami",
+     "url": "https://www.nbcmiami.com/news/local/miami-commissioners-approve-gta-6-marketing-proposal-ahead-of-games-release/3859974/"
+    }
+   },
+   {
+    "id": "delta-israel-saudi-houthi-intel",
+    "thread_id": "thread-houthi-red-sea-control",
+    "change_type": "new",
+    "title": "Israel starts quietly feeding Saudi Arabia intelligence on the Houthis",
+    "previous_state": "MBS asked Trump twice last week for direct US strikes on the Houthis after their Red Sea takeover; Trump declined, offering only vague intelligence-sharing help.",
+    "current_state": "Multiple outlets now report Israel has begun sharing Houthi-related intelligence with Saudi Arabia through US Central Command channels -- indirect but genuine security coordination between two governments with no formal diplomatic relationship.",
+    "why_it_matters": "This is the most consequential realignment the war has produced so far, and it's happening through backchannels rather than any announcement -- worth tracking regardless of how the shipping picture itself resolves.",
+    "confidence": "medium",
+    "source": {
+     "publisher": "Daily Sabah",
+     "url": "https://www.dailysabah.com/world/mid-east/israel-shares-houthi-intelligence-with-saudi-arabia-report"
     }
    }
   ],
   "themes": [
    {
-    "id": "theme-fed-rate-decision-day",
+    "id": "theme-fed-hikes-hawkish-path",
     "affinity": "morning",
     "topic": "markets",
     "topic_label": "Markets & Macro",
-    "title": "The Fed's hike is priced at 93% ahead of today's 2pm decision -- after Tuesday's 10-year already closed sitting at 5%",
+    "title": "The Fed hiked exactly as priced -- then signaled the real surprise was still to come",
     "importance": 0.9,
-    "thesis": "The bet on today's headline was effectively settled by Tuesday's yield close, not by anything the Fed has yet to say.",
-    "synthesis": "Tuesday's close was a second straight losing session: S&P 500 down 0.45% to 7,585.73, Nasdaq down 0.78% to 25,981.57, Dow down 0.63% to 52,093.11. The 10-year Treasury touched an intraday high of 5.04% -- its highest since 2007, edging past Monday's 5.01% -- before closing at essentially 5.00%, the first actual close at that threshold in nearly two decades, not merely a touch-and-retreat like Monday. CME FedWatch odds for today's 2pm ET decision now sit near 93%, up from Monday's 88-91%; Polymarket has converged sharply too, jumping to roughly 89% from Friday's 49%. Brent crude, still reflecting the dual Hormuz/Red Sea chokepoint risk, closed Tuesday near $109.21 (+3.34%), trading in a $107-109 range Wednesday morning.",
-    "new_today": "Tuesday's confirmed close and the 10-year's close (not just touch) at 5% are new; the swing to >90% hike-odds convergence across both CME and Polymarket trackers is also new since Monday's split readings.",
-    "why_it_matters": "Borrowing costs at a 19-year-rare level outlast today's decision regardless of outcome -- and the near-total agreement across prediction markets removes the will-they-won't-they uncertainty that's been driving the last week's volatility.",
+    "thesis": "The 25bp hike was fully expected; the dot plot wasn't.",
+    "synthesis": "The FOMC voted 12-0 Wednesday to raise its target range a quarter point to 3.75%-4.00%, the first hike in three years and a decision markets had priced above 90% for days. What wasn't priced in was the new dot plot: sixteen of eighteen officials now see at least one more hike this year, four of those pencil in two, and the median projection holds the funds rate at 4.10% through all of 2027 -- no cuts, not even a possibility on the current timeline. Stocks fell anyway: the Dow dropped 631 points (-1.21%) to 51,461.90, the S&P 500 fell 0.45% to 7,551.81, and the Nasdaq essentially flatlined at 25,978.42. The 10-year Treasury, which had already made news Tuesday by closing at 5% for the first time since 2007, pushed further to 5.016% Wednesday.",
+    "new_today": "Wednesday's confirmed 12-0 vote, the 25bp hike itself, and the hawkish dot plot (no cuts projected through 2027) are all new since yesterday's edition, which covered only the pre-decision odds.",
+    "why_it_matters": "Alex's CRE and cap-markets work runs on where the funds rate and the 10-year sit over the next year, not on one Wednesday afternoon's headline -- and the real news today is that neither is coming down anytime soon.",
     "thread_id": "thread-fed-rate-path",
     "confidence": "high",
     "sources": [
      {
       "role": "primary_reporting",
       "publisher": "CNBC",
-      "headline": "10-year Treasury yield hits highest level since 2007 as traders bet a Fed rate hike is coming",
-      "url": "https://www.cnbc.com/2026/09/15/10-year-treasury-yield-rises-to-highest-since-2007.html"
+      "headline": "Fed rate decision September 2026: Rates rise to 3.75%-4%",
+      "url": "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html"
+     },
+     {
+      "role": "analysis",
+      "publisher": "Fortune",
+      "headline": "The Fed just delivered a unanimous rate hike, the first in three years, and no cuts through 2027",
+      "url": "https://fortune.com/2026/09/16/fed-rate-hike-trump-kevin-warsh/"
      },
      {
       "role": "background",
-      "publisher": "Yahoo Finance",
-      "headline": "Stock market today: Dow, S&P 500, Nasdaq fall as 10-year Treasury yield touches 2007 high ahead of Fed decision day",
-      "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-september-15-dow-sp-500-nasdaq-081307838.html"
+      "publisher": "CNBC",
+      "headline": "10-year Treasury yield climbs back to 5% after Fed hikes rates, Warsh highlights inflation risks",
+      "url": "https://www.cnbc.com/2026/09/16/treasury-yield-bond-market-fed-decision.html"
      }
     ]
    },
    {
-    "id": "theme-panthers-goalie-set",
+    "id": "theme-twin-chokepoints-israel-saudi-intel",
+    "affinity": "morning",
+    "topic": "markets",
+    "topic_label": "Markets & Macro",
+    "title": "Hormuz diplomacy is dead for now, Bab el-Mandeb belongs to the Houthis, and Israel just started quietly helping Saudi Arabia anyway",
+    "importance": 0.8,
+    "thesis": "The war just produced a security relationship that wouldn't have existed eight months ago.",
+    "synthesis": "Monday's Salalah summit -- the first planned Iran-Gulf sit-down of the war -- collapsed entirely rather than just losing Bahrain, and Iranian officials say no new date is set. Commercial Hormuz traffic reportedly fell to as few as four vessels in a day, versus a roughly 125-vessel pre-war average, though satellite imagery from the same day also shows some bidirectional daytime supertanker movement -- trackers genuinely disagree on how open the strait is right now. Meanwhile Bab el-Mandeb is now Houthi-controlled territory after last week's coastal takeover, and Saudi Arabia has responded by turning to an unlikely partner: multiple outlets report Israel has begun sharing Houthi-related intelligence with Riyadh through US Central Command channels -- indirect but real coordination between two governments with no formal diplomatic relationship.",
+    "new_today": "The Israel-Saudi intelligence-sharing arrangement through CENTCOM is new reporting since yesterday; the conflicting Hormuz-traffic readings sharpen what was a simpler 'still blocked' picture.",
+    "why_it_matters": "This is the most consequential realignment the war has produced -- happening through backchannels, not headlines -- while Brent eases off Tuesday's high on the very traffic data nobody fully agrees on.",
+    "thread_id": "thread-iran-hormuz-crisis",
+    "confidence": "medium",
+    "sources": [
+     {
+      "role": "primary_reporting",
+      "publisher": "Daily Sabah",
+      "headline": "Israel shares Houthi intelligence with Saudi Arabia: Report",
+      "url": "https://www.dailysabah.com/world/mid-east/israel-shares-houthi-intelligence-with-saudi-arabia-report"
+     },
+     {
+      "role": "analysis",
+      "publisher": "Al Jazeera",
+      "headline": "Red Sea nations watch as Houthis seize Bab al-Mandeb strait",
+      "url": "https://www.aljazeera.com/economy/2026/9/13/red-sea-nations-watch-as-houthis-seize-bab-al-mandeb-strait"
+     },
+     {
+      "role": "background",
+      "publisher": "CNN",
+      "headline": "Iran-Gulf talks without US participation on reopening the Strait of Hormuz postponed, Omani official says",
+      "url": "https://edition.cnn.com/2026/09/13/politics/iran-gulf-countries-strait-of-hormuz"
+     }
+    ]
+   },
+   {
+    "id": "theme-panthers-camp-opens-today",
     "affinity": "morning",
     "topic": "sports",
     "topic_label": "Miami Sports",
-    "title": "Panthers head into Thursday's camp with their Bobrovsky question finally answered: Jacob Markstrom, on a two-year deal",
-    "importance": 0.55,
-    "thesis": "The one structural gap on a Cup-favorite roster closes three days before camp, not during it.",
-    "synthesis": "Markstrom, acquired June 30 in a trade that sent Evan Rodrigues, Jesper Boqvist, and a prospect to New Jersey (and brought back forward Angus Crookshank alongside him), signed a two-year, $12 million contract. Backup duties go to Akira Schmid, acquired from Vegas for a 2028 third-round pick. The moves effectively end any chance of retaining Sergei Bobrovsky, now a 38-year-old free agent after a seven-season Panthers run (201-113-21, 2.80 GAA, .903 save percentage). Separately, captain Aleksander Barkov told reporters he's \"really excited\" heading into Thursday's camp opener at Fort Lauderdale's Baptist Health IcePlex, following a full recovery from the knee injury that cost him all of last season and a gold-medal run captaining Finland at May's World Championship.",
-    "new_today": "The Markstrom/Schmid framing as a fully settled goaltending plan, and Barkov's own camp-eve comments, are new since yesterday's edition, which still flagged the goalie question as open.",
-    "why_it_matters": "This closes the single biggest question mark on a +650 Cup favorite right before real hockey begins -- and pairs a healthy captain with a goaltending plan that's actually settled rather than still being auditioned.",
+    "title": "Panthers open training camp today with the goalie question already closed and Barkov healthy",
+    "importance": 0.4,
+    "thesis": "Camp opens with the roster's one real question already answered, for once.",
+    "synthesis": "Florida's training camp opens today at Fort Lauderdale's Baptist Health IcePlex, with Jacob Markstrom and backup Akira Schmid already set in net and captain Aleksander Barkov -- fully recovered from the knee injury that cost him all of last season -- entering camp fully healthy. A public Fan Fest follows Saturday, September 19. The +650 Cup-favorite tag from the offseason carries into camp without an obvious hole in the lineup to explain away.",
+    "new_today": "Camp's actual opening today, and the confirmed Fan Fest date, are new; the roster questions themselves were resolved in yesterday's edition.",
+    "why_it_matters": "The last few seasons here have opened camp with a real question mark in net; this year the only question is whether health holds, which is a much better problem to have.",
     "thread_id": "thread-panthers-2026-27-season",
     "confidence": "high",
     "sources": [
@@ -166,82 +206,70 @@
       "publisher": "NHL.com",
       "headline": "Panthers acquire B. Tkachuk to join brother, Markstrom to replace Bobrovsky",
       "url": "https://www.nhl.com/news/topic/team-resets/florida-panthers-roster-changes-for-2026-27-season"
-     },
-     {
-      "role": "analysis",
-      "publisher": "Sports Illustrated (onsi)",
-      "headline": "Florida Panthers Training Camp Preview: The Goaltenders",
-      "url": "https://www.si.com/nhl/panthers/onsi/news/florida-panthers-training-camp-preview-the-goaltenders-01m29a7payqt"
-     },
-     {
-      "role": "background",
-      "publisher": "Yahoo Sports",
-      "headline": "Sasha Barkov 'Really Excited' Heading Into Panthers Training Camp, Speaks On Recovery From Knee Surgery",
-      "url": "https://ca.sports.yahoo.com/news/sasha-barkov-really-excited-heading-212748108.html"
      }
     ]
    },
    {
-    "id": "theme-dolphins-schedule-takes-shape",
+    "id": "theme-hurricanes-wake-forest-friday",
     "affinity": "morning",
     "topic": "sports",
     "topic_label": "Miami Sports",
-    "title": "Dolphins' next two weeks come into focus: San Francisco on the road, then the home opener against Kansas City",
-    "importance": 0.3,
-    "thesis": "A brutal early stretch is now fully mapped out, not just guessed at.",
-    "synthesis": "Miami's Week 2 trip to San Francisco (Sunday, September 20, Levi's Stadium) is confirmed, a fast West Coast turnaround after the 27-13 opening loss at Las Vegas in which Willis was sacked five times. Now Week 3 is set too: Miami's home opener falls September 27 against the Kansas City Chiefs at Hard Rock Stadium.",
-    "new_today": "The Week 3 opponent and home-opener date are newly confirmed since yesterday's edition, which covered only the Week 2 matchup.",
-    "why_it_matters": "Two straight games against a strong 49ers front and a Chiefs team that's given Miami trouble before will say more about whether the offensive line is fixable in-season than the opener alone could.",
-    "thread_id": "thread-dolphins-hafley-rebuild",
+    "title": "Miami's first real ACC test arrives Friday, on the road, without three regular cornerbacks",
+    "importance": 0.4,
+    "thesis": "The unbeaten record has been easy so far; Friday is the first game that will actually tell them something.",
+    "synthesis": "No. 5 Miami (2-0) is a 20.5-to-23.5-point favorite over a 2-0 Wake Forest at Winston-Salem's Allegacy Federal Credit Union Stadium (7:30pm ET, ESPN, Friday September 18). Miami's two wins so far -- over Stanford and a 77-7 rout of Florida A&M -- have come against lighter competition than a road ACC game presents. Frederique Jr., Ja'Boree Antoine, and now Xavier Lucas (out roughly a month) leave the secondary thin, and Miami is -3 in turnover margin, 125th nationally -- a number that hasn't mattered yet against overmatched opponents.",
+    "new_today": "The finalized spread, kickoff details, and the full picture of Miami's secondary injuries and turnover margin are new since Tuesday's edition, which only flagged the injuries broadly.",
+    "why_it_matters": "Darian Mensah's Hurricanes have scored 122 points through two games nobody expected them to struggle in; Friday is the first data point that will actually mean something.",
+    "thread_id": "thread-hurricanes-fall-camp",
     "confidence": "high",
     "sources": [
      {
       "role": "primary_reporting",
-      "publisher": "NFL.com",
-      "headline": "Miami Dolphins Schedule 2026",
-      "url": "https://www.nfl.com/schedules/2026/by-team/miami-dolphins"
+      "publisher": "ESPN",
+      "headline": "Miami vs. Wake Forest (Sep 18, 2026) Pregame",
+      "url": "https://www.espn.com/college-football/preview/_/gameId/401858226"
      }
     ]
    },
    {
-    "id": "theme-vice-city-ordinance-terms",
+    "id": "theme-gta6-ordinance-approved",
     "affinity": "evening",
     "topic": "miami",
     "topic_label": "Miami Life & Culture",
-    "title": "Downtown's GTA6 banner ordinance finally has a sponsor, a date range, and a hard cap -- just not a vote",
-    "importance": 0.3,
-    "thesis": "The city keeps getting more specific about a deal it hasn't actually approved yet.",
-    "synthesis": "Commissioner Damian Pardo's ordinance would apply October 15 through December 31, bracketing Rockstar's November 19 GTA6 launch, inside a defined downtown \"Event Area\" bounded by NE 5th Street, the Miami River, Biscayne Bay, and NE 2nd Avenue. Banners larger than 5,000 square feet carry a $208,000 application fee; the city caps itself at six banners total for a combined 56 days citywide. Proceeds are earmarked for the Underdeck park project. The commission's own legislative file still shows no recorded vote or effective date, more than a week past its scheduled hearing -- a silence that increasingly reads as its own small story.",
-    "new_today": "The ordinance's sponsor, exact date window, and the hard six-banner/56-day cap are newly public; the vote's continued absence is itself now the more interesting fact than the terms.",
-    "why_it_matters": "A small, genuinely specific test case for how much of a city's own image a commission is willing to rent out, and for how long it can go without actually deciding.",
+    "title": "Downtown Miami's GTA6 banner ordinance passed 4-3 -- the vote that never seemed to happen finally did",
+    "importance": 0.35,
+    "thesis": "The city spent weeks getting more specific about a deal it hadn't voted on; it just quietly voted.",
+    "synthesis": "Miami's city commission approved the downtown banner ordinance 4-3, per reporting that surfaced Wednesday evening -- resolving the stalled vote yesterday's edition flagged as more interesting than the ordinance's terms themselves. The approved terms match what was already public: banners over 5,000 square feet carry a $208,000 fee, limited to six total within the downtown 'Event Area' bounded by NE 5th Street, the Miami River, Biscayne Bay, and NE 2nd Avenue, running October 15 through December 31 around GTA6's November 19 launch, with proceeds earmarked for the Underdeck park. The same day, Miami Beach's commission separately approved its own $3 million Rockstar marketing deal, also 4-3, for beach-chair and umbrella branding.",
+    "new_today": "The vote itself, its 4-3 result, and its same-day pairing with Miami Beach's separate approval are all new.",
+    "why_it_matters": "A small test case closes: the city decided, by a single vote, how much of its own downtown skyline it's willing to rent to a video game.",
     "thread_id": "thread-miami-vice-city-gta6-pitch",
     "confidence": "medium",
     "sources": [
      {
       "role": "primary_reporting",
-      "publisher": "GTA BOOM",
-      "headline": "Miami City Downtown GTA 6 Banner Plan Now Has Exact Terms",
-      "url": "https://www.gtaboom.com/miami-city-downtown-gta-6-banner-plan-now-has-exact-terms-3810"
+      "publisher": "NBC Miami",
+      "headline": "Miami commissioners approve GTA 6 marketing proposal ahead of game's release",
+      "url": "https://www.nbcmiami.com/news/local/miami-commissioners-approve-gta-6-marketing-proposal-ahead-of-games-release/3859974/"
      },
      {
       "role": "background",
-      "publisher": "Hoodline",
-      "headline": "Miami GTA VI Banner Fees Would Fund Underdeck Park",
-      "url": "https://hoodline.com/2026/09/miami-wants-rockstar-to-pay-202-000-a-banner-to-fund-underdeck-park/"
+      "publisher": "GTA BOOM",
+      "headline": "Miami's GTA 6 Banner Plan Sets Exact Fee, Dates and Take Two Approval",
+      "url": "https://www.gtaboom.com/miami-city-downtown-gta-6-banner-plan-now-has-exact-terms-3810"
      }
     ]
    },
    {
-    "id": "theme-bass-opens-tomorrow",
+    "id": "theme-bass-reopens-tonight",
     "affinity": "evening",
     "topic": "miami",
     "topic_label": "Miami Life & Culture",
-    "title": "The Bass reopens Thursday with two shows that turn a museum into an instrument and a chalkboard",
+    "title": "The Bass reopens tonight, on schedule, with a show that hands you the chalk",
     "importance": 0.45,
-    "thesis": "Two very different asks of a visitor, opening on the same night at the same museum.",
-    "synthesis": "Yuko Mohri's \"Unviolated Imperfection\" (September 17, 2026 through April 25, 2027) is her first solo museum exhibition in the US, following her 2025 Calder Prize and her turn representing Japan at the 2024 Venice Biennale; her Rube-Goldberg-influenced sculptures use decay, everyday objects, and sound itself as sculptural material, prioritizing improvisation and site-specificity over fixed form. In the Bass's new Rotunda gallery in Collins Park, Amalia Pica's \"Lecturas Posibles\" covers an entire participatory space -- walls, furniture, floor -- in chalkboard paint and invites visitors to draw on all of it. The joint opening reception runs 6-9pm Thursday at both venues.",
-    "new_today": "First tracked as its own theme ahead of tomorrow's opening; previously only a background thread note.",
-    "why_it_matters": "One show asks you to notice decay as its own kind of composition; the other hands you the chalk. Worth the trip for either idea alone.",
+    "thesis": "Two very different invitations, opening on the same night, exactly as planned.",
+    "synthesis": "The Bass's fall season opens tonight as scheduled: Yuko Mohri's 'Unviolated Imperfection' -- her first solo US museum exhibition, following her 2025 Calder Prize and 2024 Venice Biennale turn representing Japan -- runs through spring 2027 in the main galleries, built from decay, everyday objects, and sound as sculptural material. In the new Rotunda gallery in Collins Park, Amalia Pica's 'Lecturas Posibles' covers an entire participatory space -- walls, furniture, floor -- in chalkboard paint and invites visitors to draw on all of it. The joint opening reception runs 6-9pm tonight at both venues.",
+    "new_today": "Tonight's opening actually happening as scheduled is new; the show details themselves were previewed in yesterday's edition.",
+    "why_it_matters": "One show asks you to notice decay as its own kind of composition; the other hands you the chalk. Both open the same night, no delay, no caveat.",
     "thread_id": "thread-bass-fall-season-2026",
     "confidence": "high",
     "sources": [
@@ -254,86 +282,86 @@
     ]
    },
    {
-    "id": "theme-brain-midlife-genome-shift",
+    "id": "theme-brain-video-reconstruction",
     "affinity": "evening",
     "topic": "living",
     "topic_label": "Art of Living",
-    "title": "A new map of the aging brain finds its biggest shift happens quietly, between 50 and 75",
-    "importance": 0.45,
-    "thesis": "Aging isn't a smooth slope -- this study finds an actual hinge, and it falls in the decades most people spend distracted by everything else.",
-    "synthesis": "A study published in Science used single-cell profiling of the human hippocampus to map gene regulation and three-dimensional genome architecture across the lifespan. Its most striking finding: microglia, the brain's original embryonic-derived immune cells, decline substantially between roughly ages 50 and 75 and are replaced by cells carrying more blood-like, inflammatory molecular signatures. The same window shows weakening of the cells that maintain the blood-brain barrier and broad deterioration in how the genome folds itself in three dimensions -- a plausible mechanistic clue for why Alzheimer's risk climbs so sharply in exactly that stretch of life.",
-    "new_today": "First tracked.",
-    "why_it_matters": "A concrete, dated biological hinge rather than a vague notion of decline -- worth sitting with regardless of which side of 50 you're on.",
+    "title": "Scientists reconstructed ten-second movies from a mouse's brain, using nothing but what its neurons fired",
+    "importance": 0.4,
+    "thesis": "Not a claim about mind-reading -- a demonstration that perception is already an edit, not a recording.",
+    "synthesis": "UCL researchers recorded individual visual-cortex neurons in mice watching video clips, then built an algorithm that reconstructs ten-second movies from the firing patterns alone -- single-cell resolution, no fMRI averaging. Coverage of the work resurfaced this week as the underlying study reached formal publication. The reconstructed videos aren't perfect copies of what the mice saw; they're warped and skewed in specific, non-random ways, which is the actual finding -- the brain doesn't record video, it builds an interpretation, and this method gives researchers a direct way to see the gap between the two for the first time.",
+    "new_today": "First tracked -- today's exploration pick, outside Alex's usual daily topics but grounded in the technology-and-attention and philosophy-of-time subtopics he's weighted.",
+    "why_it_matters": "A literal, un-mystical demonstration of something worth sitting with either way: what you 'saw' today was never simply a recording of what happened in front of you.",
     "thread_id": null,
     "confidence": "high",
     "sources": [
      {
       "role": "primary_reporting",
       "publisher": "ScienceDaily",
-      "headline": "Scientists discover a major brain shift between ages 50 and 75",
-      "url": "https://www.sciencedaily.com/releases/2026/09/260914102441.htm"
+      "headline": "Scientists recreated what mice saw from brain activity alone",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260914102449.htm"
      },
      {
       "role": "background",
-      "publisher": "National Institutes of Health",
-      "headline": "Brain immunity may undergo a major midlife overhaul",
-      "url": "https://www.nih.gov/news-events/news-releases/brain-immunity-may-undergo-major-midlife-overhaul"
+      "publisher": "UCL News",
+      "headline": "Movies reconstructed from mouse brain activity",
+      "url": "https://www.ucl.ac.uk/news/2026/mar/movies-reconstructed-mouse-brain-activity"
      }
     ]
    }
   ],
   "rabbit_hole": {
-   "id": "rh-2026-09-16",
-   "title": "The Four-Color Theorem Gets a Rare New Proof",
-   "creator": "Quanta Magazine",
+   "id": "rh-2026-09-17",
+   "title": "In an Age of AI, a Physicist Seeks What Endures",
+   "creator": "Rebecca Boyle, interviewing Sarah Demers (Quanta Magazine)",
    "format": "article",
-   "minutes": 16,
-   "why": "In 1852 someone conjectured that four colors always suffice to fill in any map so that no two neighboring regions match -- a claim that took until a controversial, computer-heavy 1976 proof to actually confirm. A new proof, posted this spring and headed to a top computer-science conference this November, doesn't just reprove the old theorem: it does so in near-linear time and turns up genuinely new structural facts about planar graphs along the way. A rare case of a 150-year-old, thoroughly settled question turning out to still have more to say.",
-   "url": "https://www.quantamagazine.org/the-four-color-theorem-gets-a-rare-new-proof-20260910/",
+   "minutes": 14,
+   "why": "Sarah Demers chairs Yale's physics department, is co-authoring her field's policy statement on AI use, and has never once typed anything into Claude or ChatGPT herself. This Q&A isn't a hot take on AI hype or doom -- it's a working scientist thinking in real time about which parts of discovery are actually automatable and which aren't, at the exact moment the US government is funding hundreds of AI-physics projects (including one hunting a vanishingly rare particle transformation at Fermilab). Worth the twenty minutes precisely because it resists the easy answer in both directions.",
+   "url": "https://www.quantamagazine.org/in-an-age-of-ai-a-physicist-seeks-what-endures-20260903/",
    "related_interest": "living"
   },
   "beautiful_thing": {
-   "id": "bt-2026-09-16",
-   "title": "The Hanging Gardens That Couldn't Hang On",
-   "creator": "Herzog & de Meuron (building); original vertical gardens by Patrick Blanc",
-   "era": "2013, concrete and timber canopy; on view now at Pérez Art Museum Miami",
-   "body": "Sixty-seven columns of Patrick Blanc's signature vertical gardens once hung from PAMM's oversailing timber canopy, irrigated by collected rainwater as a literal cooling system for the open-air galleries below. Miami's heat, salt air, and an unlucky maintenance handoff proved harder on real plants than the concept anticipated -- by 2023 the museum had quietly replaced all 67 columns with a hybrid of artificial moss, ivy, and a few surviving native plants, without consulting Blanc himself. Notice that the building's actual ambition is still fully intact: the canopy still does its real job, shading a startling amount of open-air gallery space over Biscayne Bay. What changed was only the specific material asked to prove the point.",
-   "url": "https://www.pamm.org/en/about-the-building/",
+   "id": "bt-2026-09-17",
+   "title": "The Tower Built to Announce a Newspaper's Record and Ended Up Meaning Something Else Entirely",
+   "creator": "Leonard Schultze and S. Fullerton Weaver (architects)",
+   "era": "1925, Mediterranean Revival; on view as a museum and public landmark in downtown Miami",
+   "body": "The Freedom Tower was dedicated in July 1925 as the Miami News's headquarters, modeled on Seville's Giralda bell tower -- an elaborate mix of Moorish, Spanish, and Italian Baroque detail in cast concrete and stucco, built to be the tallest thing in a city trying to announce itself. It briefly was. Notice what actually made it a landmark, though: not the newspaper, which moved out decades ago, but the twelve years (1962-1974) it spent as the Cuban Refugee Center, processing hundreds of thousands of people fleeing Castro's Cuba -- the reason it carries the name it does today, a few blocks from where this week's commission voted on how much of that same skyline to rent out for three months.",
+   "url": "https://moadmdc.org/freedom-tower/history-of-the-freedom-tower",
    "image": null,
-   "alt": "Concrete museum building with an oversailing timber canopy and hanging vertical garden columns over an open-air terrace facing Biscayne Bay"
+   "alt": "A cream-colored Mediterranean Revival tower in downtown Miami modeled on Seville's Giralda bell tower, with ornate cast-concrete detailing"
   },
   "noticing_prompt": {
-   "id": "np-2026-09-16",
-   "text": "Notice how many things you check today before 2pm that won't actually look different after it. The Fed's decision is nearly fully priced already -- see what you were really hoping would change."
+   "id": "np-2026-09-17",
+   "text": "Notice how much of today happens through channels nobody announces -- quiet intelligence-sharing, a vote nobody scheduled a press conference for -- while the loud stuff, a rate hike built for a 2pm slot, gets the headline it was built to get."
   },
   "daily_puzzle": {
-   "id": "dp-2026-09-16",
-   "type": "lateral",
-   "prompt": "A woman is sitting alone in a windowless room, reading, when the power goes out across the entire building. She keeps reading without missing a word for another twenty minutes before finally getting up. She isn't using a phone, a candle, or any other light source, and the lamp beside her is definitely off. How is this possible?",
-   "hint": "The word 'reading' is doing some assuming you haven't checked.",
-   "solution": "She's reading a book in Braille -- she doesn't need light to read at all.",
-   "explanation": "The puzzle never actually says she needs light to read; that's an assumption smuggled in by the word itself. Since she reads by touch, the power outage is irrelevant to her -- she just keeps going until something unrelated makes her stop."
+   "id": "dp-2026-09-17",
+   "type": "math",
+   "prompt": "A father is currently three times as old as his daughter. In 12 years, he'll be exactly twice as old as she is. How old is the daughter right now?",
+   "hint": "Let the daughter's current age be a single unknown, write both ages -- now and in 12 years -- in terms of it, and set up one equation from the 'twice as old' condition.",
+   "solution": "The daughter is 12 now (and the father is 36).",
+   "explanation": "If the daughter is d today, the father is 3d. In 12 years: 3d + 12 = 2(d + 12), which simplifies to d = 12. Check: 36 and 12 now; 48 and 24 in 12 years -- exactly double."
   },
   "evening_unwind": {
-   "id": "eu-2026-09-16",
+   "id": "eu-2026-09-17",
    "evening_quote": {
-    "text": "Nowhere can a man find a quieter or more untroubled retreat than in his own soul.",
-    "attribution": "Marcus Aurelius",
-    "source": "Meditations, 4.3"
+    "text": "We suffer more often in imagination than in reality.",
+    "attribution": "Seneca",
+    "source": "Letters to Lucilius, Letter 13"
    },
-   "evening_prompt": "The Fed's decision was priced above 90% before Washington said a word today -- notice one thing tonight that felt like news by evening but was really just confirmation of what you already expected this morning."
+   "evening_prompt": "Two trackers gave opposite readings on Hormuz shipping today, and both got repeated as settled fact somewhere before noon -- notice one thing you treated as certain today that was really just one read among several."
   },
   "reading_queue": [
    {
     "title": "The Radical Reasons Why You Dream of Making Things by Hand",
     "url": "https://aeon.co/essays/the-radical-reasons-why-you-dream-of-making-things-by-hand",
     "verdict": "read_soon",
-    "reason": "Saved thirteen days ago and still unread -- still the best fit for craft_and_making, your highest-weighted subtopic, and tonight's PAMM piece on a vertical garden's own material adaptation is a quieter echo of the same theme."
+    "reason": "Saved two weeks ago and still unread -- still the best match for craft_and_making, and tonight's Freedom Tower piece is a quieter cousin of the same theme: what a thing was built for versus what it came to mean."
    }
   ],
   "quote": {
-   "text": "Nowhere can a man find a quieter or more untroubled retreat than in his own soul.",
-   "attribution": "Marcus Aurelius"
+   "text": "We suffer more often in imagination than in reality.",
+   "attribution": "Seneca"
   }
  },
  "threads": [
@@ -342,9 +370,9 @@
    "title": "US-Iran conflict and the Strait of Hormuz",
    "topic": "markets",
    "status": "active",
-   "last_updated": "2026-09-15",
-   "updates": 67,
-   "current_state": "Saudi Arabia specifically requested Monday's Salalah postponement -- objecting to proposed Iran-Oman shipping-corridor terms and citing frustration over continued Houthi attacks on its territory -- while Iran separately rules out any talks with the US until its own conditions are met. Brent held near $107.46 Tuesday, still close to the war's highs.",
+   "last_updated": "2026-09-17",
+   "updates": 68,
+   "current_state": "Diplomacy is stalled: Monday's Salalah summit -- the first planned Iran-Gulf meeting of the war -- was postponed indefinitely with no new date, after Saudi Arabia's own objections helped sink it. Shipping data is genuinely contested right now -- one tracker counted as few as four vessels transiting Monday against a roughly 125/day pre-war average, while satellite imagery the same day showed some bidirectional daytime supertanker traffic. Brent eased from Tuesday's ~$109 close into the $104-106 range Thursday morning.",
    "timeline": [
     {
      "date": "2026-07-21",
@@ -680,6 +708,11 @@
      "date": "2026-09-15",
      "summary": "Reporting reveals Saudi Arabia, not just Oman's own judgment, requested Monday's Salalah postponement -- objecting to proposed changes in the Iran-Oman shipping-corridor framework and citing frustration with continued Houthi attacks on Saudi territory. Separately, Iran's security council secretary Mohsen Rezaei says Tehran will hold no talks with Washington until Iran's own conditions are met. Brent held near $107.46 Tuesday.",
      "change_type": "advanced"
+    },
+    {
+     "date": "2026-09-17",
+     "summary": "Monday's Salalah summit -- the first planned Iran-Gulf sit-down of the war -- was postponed indefinitely rather than merely reduced, with no new date set. Trackers disagree sharply on how blocked Hormuz actually is right now: one count puts Monday's commercial traffic as low as four vessels (vs. a ~125/day pre-war average), while satellite imagery from the same day shows some bidirectional daytime supertanker movement. Brent eased from Tuesday's ~$109 close into the $104-106 range Thursday morning.",
+     "change_type": "watch"
     }
    ]
   },
@@ -688,9 +721,9 @@
    "title": "Federal Reserve rate path",
    "topic": "markets",
    "status": "active",
-   "last_updated": "2026-09-16",
-   "updates": 61,
-   "current_state": "Tuesday's 10-year Treasury closed at essentially 5.00% -- its first actual close at that threshold since 2007, after touching 5.04% intraday -- and stocks fell for a second straight session (S&P -0.45%, Nasdaq -0.78%, Dow -0.63%). CME FedWatch hike odds for today's 2pm ET decision rose to roughly 93%; Polymarket converged sharply to about 89%, up from 49% Friday. Brent held near $109, still reflecting the Hormuz/Red Sea dual-chokepoint risk.",
+   "last_updated": "2026-09-17",
+   "updates": 62,
+   "current_state": "The Fed delivered its first rate hike since 2023 Wednesday -- 12-0, 25bp, to 3.75%-4.00% -- exactly as priced. The real news was the forward path: 16 of 18 officials expect at least one more hike this year, the median dot holds 4.10% through 2027, and no cuts are projected anywhere on the horizon. Stocks fell on the hawkish guidance rather than the hike itself (S&P -0.45% to 7,551.81, Dow -1.21%), and the 10-year pushed further past its Tuesday 5.00% close to 5.016%. Next meeting: October 27-28.",
    "timeline": [
     {
      "date": "2026-07-18",
@@ -995,6 +1028,11 @@
     {
      "date": "2026-09-16",
      "summary": "Tuesday's close: 10-year Treasury finished at ~5.00% (its first actual close at that level since 2007) after touching 5.04% intraday; S&P/Nasdaq/Dow all fell a second straight session. CME FedWatch hike odds for today's 2pm ET decision rose to ~93%; Polymarket converged to ~89% (from 49% Friday). Brent near $109, +3.34% Tuesday.",
+     "change_type": "advanced"
+    },
+    {
+     "date": "2026-09-17",
+     "summary": "The FOMC voted 12-0 Wednesday to raise the target range 25bp to 3.75%-4.00%, the first hike since 2023. The new dot plot shows 16 of 18 officials expecting at least one more hike this year (4 see two), median funds rate projected at 4.10% through all of 2027 with no cuts penciled in. Stocks fell despite the hike being priced above 90%: Dow -631pts (-1.21%) to 51,461.90, S&P -0.45% to 7,551.81, Nasdaq roughly flat (-0.01%) to 25,978.42. The 10-year Treasury closed at 5.016%, pushing past Tuesday's 5.00% close.",
      "change_type": "advanced"
     }
    ]
@@ -1602,9 +1640,9 @@
    "title": "Miami Hurricanes fall camp and the Mensah era",
    "topic": "sports",
    "status": "active",
-   "last_updated": "2026-09-15",
-   "updates": 16,
-   "current_state": "Miami (2-0, No. 5) is a 23.5-point favorite over a also-2-0 Wake Forest team for Friday's first real ACC test, but three regular cornerbacks -- Frederique Jr., Ja'Boree Antoine, and now Xavier Lucas (out roughly a month) -- are sidelined; safety Dylan Day is expected back for the game.",
+   "last_updated": "2026-09-17",
+   "updates": 17,
+   "current_state": "No. 5 Miami (2-0) is a 20.5-23.5-point favorite over 2-0 Wake Forest Friday night at Winston-Salem (7:30pm ET, ESPN) -- the first real ACC test after wins over Stanford and a 77-7 rout of Florida A&M. Three regular cornerbacks are out (Frederique Jr., Antoine, and now Lucas, ~a month), and Miami is -3 in turnover margin (125th nationally), neither of which has mattered yet against overmatched opponents.",
    "timeline": [
     {
      "date": "2026-08-14",
@@ -1685,6 +1723,11 @@
      "date": "2026-09-15",
      "summary": "Cristobal confirmed junior cornerback Xavier Lucas will also be out roughly a month, joining Frederique Jr. and Ja'Boree Antoine on the sideline; junior safety Dylan Day, previously out, is expected back for Friday's game at Wake Forest.",
      "change_type": "worsened"
+    },
+    {
+     "date": "2026-09-17",
+     "summary": "Friday's game at Wake Forest (7:30pm ET, ESPN) is set with Miami favored by roughly 20.5-23.5 points; the Hurricanes are missing three regular cornerbacks (Frederique Jr., Antoine, and now Lucas, out ~a month) and rank 125th nationally in turnover margin (-3), numbers that haven't mattered yet against lighter competition.",
+     "change_type": "advanced"
     }
    ]
   },
@@ -2135,9 +2178,9 @@
    "title": "Panthers' 2026-27 season takes shape",
    "topic": "sports",
    "status": "active",
-   "last_updated": "2026-09-16",
-   "updates": 7,
-   "current_state": "The Panthers' goaltending question is settled ahead of Thursday's camp opener: Jacob Markstrom (acquired June 30 from New Jersey) signed a two-year, $12 million deal, with Akira Schmid (from Vegas) as backup, closing out Sergei Bobrovsky's seven-season run in Florida. Captain Aleksander Barkov says he's fully recovered and \"really excited\" for camp, which opens Thursday, September 17 in Fort Lauderdale (public Fan Fest September 19).",
+   "last_updated": "2026-09-17",
+   "updates": 8,
+   "current_state": "Camp opened today at Baptist Health IcePlex with the goaltending question already closed (Markstrom/Schmid) and captain Aleksander Barkov healthy after missing all of last season. Public Fan Fest follows Saturday, September 19.",
    "timeline": [
     {
      "date": "2026-08-22",
@@ -2173,6 +2216,11 @@
      "date": "2026-09-16",
      "summary": "Goaltending plan confirmed set, not a camp battle: Jacob Markstrom (2yr/$12M, acquired June 30 from New Jersey) starts, with Akira Schmid (acquired from Vegas for a 2028 3rd-round pick) as backup -- ending any chance of retaining Sergei Bobrovsky (now a free agent at 38, 201-113-21/2.80 GAA/.903 SV% over seven Panthers seasons). Barkov gives his own camp-eve comments, \"really excited\" after full recovery from last year's knee injury and a gold-medal Worlds run captaining Finland.",
      "change_type": "resolved"
+    },
+    {
+     "date": "2026-09-17",
+     "summary": "Training camp opened today at Fort Lauderdale's Baptist Health IcePlex with Markstrom/Schmid already set in net and Barkov fully healthy; a public Fan Fest follows Saturday, September 19.",
+     "change_type": "advanced"
     }
    ]
   },
@@ -2201,10 +2249,10 @@
    "id": "thread-miami-vice-city-gta6-pitch",
    "title": "Miami-Dade's \"Vice City\" pitch to Rockstar Games",
    "topic": "miami",
-   "status": "active",
-   "last_updated": "2026-09-16",
-   "updates": 7,
-   "current_state": "Downtown Miami's GTA6 banner ordinance, sponsored by Commissioner Damian Pardo, would run October 15-December 31 (bracketing GTA6's November 19 launch) inside a defined downtown \"Event Area,\" capped at six banners citywide for 56 combined days, with $208,000-per-banner fees funding the Underdeck park project. The commission's legislative file still shows no recorded vote more than a week past its scheduled hearing. Separately, the 'Welcome Back to Vice City' sign continues installation on the Kaseya Center roof under its own, already-finalized ~$4 million deal.",
+   "status": "watch",
+   "last_updated": "2026-09-17",
+   "updates": 8,
+   "current_state": "Miami's commission approved the downtown GTA6 banner ordinance 4-3 -- six banners max, $208,000 fee each over 5,000 sq ft, October 15-December 31 inside the defined downtown Event Area, proceeds to the Underdeck park. The open question now is simply whether the banners go up as planned October 15.",
    "timeline": [
     {
      "date": "2026-08-31",
@@ -2240,6 +2288,11 @@
      "date": "2026-09-16",
      "summary": "The downtown banner ordinance's sponsor (Commissioner Damian Pardo), exact operating window (Oct 15-Dec 31, bracketing GTA6's Nov 19 launch), and a hard cap (six banners citywide, 56 total days) all became public. The commission's own legislative file still shows no recorded vote, over a week past its scheduled hearing.",
      "change_type": "advanced"
+    },
+    {
+     "date": "2026-09-17",
+     "summary": "Reporting surfacing Wednesday evening confirms Miami's city commission approved the downtown banner ordinance 4-3 -- the vote yesterday's edition flagged as still outstanding. Terms are unchanged from what was already public. The same day, Miami Beach's commission separately approved a $3 million Rockstar marketing deal, 4-3, for beach-chair and umbrella branding.",
+     "change_type": "resolved"
     }
    ]
   },
@@ -2247,10 +2300,10 @@
    "id": "thread-bass-fall-season-2026",
    "title": "The Bass's 2026-27 fall season",
    "topic": "miami",
-   "status": "watch",
-   "last_updated": "2026-09-14",
-   "updates": 3,
-   "current_state": "The Bass opens Thursday, September 17 with Yuko Mohri's \"Unviolated Imperfection\" (through April 25, 2027) -- her first solo museum show in the US, following the 2025 Calder Prize and her turn representing Japan at the 2024 Venice Biennale -- alongside Sarah Zapata's \"Against a State of Malevolence\" and Amalia Pica's \"Lecturas Posibles.\" The opening reception runs 6-9pm at The Bass and The Rotunda.",
+   "status": "resolved",
+   "last_updated": "2026-09-17",
+   "updates": 4,
+   "current_state": "Resolved: the Bass's fall season opened today as planned, with Yuko Mohri's 'Unviolated Imperfection' (her first solo US museum show) and Amalia Pica's chalkboard-paint 'Lecturas Posibles' in the new Rotunda gallery. Joint opening reception ran 6-9pm at both venues.",
    "timeline": [
     {
      "date": "2026-09-07",
@@ -2266,6 +2319,11 @@
      "date": "2026-09-14",
      "summary": "Three days out: confirmed Mohri's Bass show is her first solo US museum exhibition, following the 2025 Calder Prize and her turn representing Japan at the 2024 Venice Biennale.",
      "change_type": "advanced"
+    },
+    {
+     "date": "2026-09-17",
+     "summary": "The Bass's fall season opened today as scheduled: Yuko Mohri's 'Unviolated Imperfection' and Amalia Pica's 'Lecturas Posibles' in the new Rotunda gallery, with a joint 6-9pm opening reception at both venues.",
+     "change_type": "resolved"
     }
    ]
   },
@@ -2274,9 +2332,9 @@
    "title": "Houthi capture of Yemen's Red Sea coast and the Bab el-Mandeb strait",
    "topic": "markets",
    "status": "active",
-   "last_updated": "2026-09-15",
-   "updates": 2,
-   "current_state": "Houthi forces hold effective command of the Bab el-Mandeb strait after completing their takeover of Yemen's Red Sea coast. Saudi Crown Prince Mohammed bin Salman called Trump twice last Thursday asking for direct US strikes on the Houthis; Trump declined, offering intelligence-sharing and targeting help instead of direct military action.",
+   "last_updated": "2026-09-17",
+   "updates": 3,
+   "current_state": "Houthi forces hold effective command of Bab el-Mandeb after completing their Yemen Red Sea coast takeover. Saudi Arabia, rebuffed by Washington on direct strikes, is now receiving Houthi-related intelligence from Israel via CENTCOM channels -- a new, indirect security relationship between two governments with no formal ties, reported this week.",
    "timeline": [
     {
      "date": "2026-09-14",
@@ -2286,6 +2344,11 @@
     {
      "date": "2026-09-15",
      "summary": "Saudi Crown Prince Mohammed bin Salman called Trump twice last Thursday urging direct US strikes on the Houthis after their completed Red Sea takeover; Trump declined, and US officials say Washington will offer intelligence-sharing and targeting help rather than direct military action.",
+     "change_type": "new"
+    },
+    {
+     "date": "2026-09-17",
+     "summary": "Multiple outlets report Israel has begun sharing Houthi-related intelligence with Saudi Arabia through US Central Command channels -- indirect but real security coordination between two governments with no formal diplomatic relationship, following MBS's declined request for direct US strikes and continued Houthi attacks on Saudi territory (Sept 14-15).",
      "change_type": "new"
     }
    ]
@@ -2310,7 +2373,7 @@
   }
  ],
  "meta": {
-  "content_freshness": "2026-09-16T09:30:00-04:00",
+  "content_freshness": "2026-09-17T09:30:00-04:00",
   "feedback_endpoint_mode": "github_contents",
   "minimum_client_schema_version": 1,
   "mode": "brain"
