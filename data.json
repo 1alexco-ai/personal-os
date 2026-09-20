@@ -1,253 +1,220 @@
 {
  "schema_version": 2,
  "edition": {
-  "id": "2026-09-19",
-  "date": "2026-09-19",
-  "type": "weekday",
-  "generated_at": "2026-09-19T09:30:00-04:00",
+  "id": "2026-09-20",
+  "date": "2026-09-20",
+  "type": "weekly",
+  "generated_at": "2026-09-20T09:30:00-04:00",
   "timezone": "America/New_York",
   "title": "Personal OS",
   "front_page_letter": {
    "greeting": "Good morning",
    "body_paragraphs": [
-    "Friday's close did the boring, useful thing: it confirmed Thursday's rebound instead of taking it back. The S&P and Nasdaq held their gains (+1.1% and +1.7%), the 10-year stayed near 4.94%, and the odds of an October hold settled at just under 60% -- unchanged from Thursday, and still a real bet against the Fed's own hawkish dot plot.",
-    "The Iran story split further from its own calendar today. Trump framed yesterday's decision as urgent -- 'annihilate or don't' -- but the meeting he's using to test that decision is now dated for Tuesday, framed around postwar planning the administration doesn't expect to finalize until after the midterms. Meanwhile the war's other front got its first real international intervention: the UN Security Council condemned the Houthi-Saudi fighting, and the gap between the UN's verified casualty count (55) and each side's claimed numbers (150, 300) is its own small lesson in what 'verified' actually means.",
-    "Closer to home, Miami passed its first real test: a 33-20 win at Wake Forest, with Darian Mensah setting two ACC completion records before his first incompletion showed up in the third quarter. The Panthers closed out camp week with a public Fan Fest ahead of tomorrow's preseason opener against the champs, and La Sponda -- for once -- opened exactly when it said it would."
+    "The week's real story wasn't Wednesday's rate hike -- that was priced in above 90% for days. It's what happened after: the 10-year closed above 5% Tuesday for the first time since 2007, eased to about 4.94% Thursday as stocks rebounded 1.1-1.7%, then backed up to 5.00% again by Friday's more modest close (S&P 500 +0.2% to 7,650.50). October's odds took the same round trip -- hike probability past 85% right after Warsh's press conference, a 60% hold by midweek, then a near-even 57.6% hike again by Saturday. Three 'settled' readings in five days is worth remembering next time a single day's number feels conclusive.",
+    "The Gulf's other conflict crossed a line it hadn't before: Saudi Arabia said a Houthi ballistic missile aimed at Riyadh itself was intercepted early Saturday, alongside an unexplained fire at the capital's main airport and Wednesday's attempted drone strike on Mecca -- the first time this front has reached for Saudi Arabia's most symbolic cities rather than its oil infrastructure or border towns. Trump's own Gulf-leaders summit, aimed at postwar planning rather than any immediate decision, is now two days out.",
+    "Closer to home, the week closed a few loops. Miami football finished 3-0 on Darian Mensah's record night against Wake Forest. Virginia Key's $80 million marina referendum survived its legal challenge and heads to a November 3 vote. Klay Thompson is officially a Heat player, already working out at Kaseya Center ahead of September 29 camp. This afternoon, the Panthers open their preseason at home against the defending champs and the Dolphins chase their first win at San Francisco as 13.5-point underdogs.",
+    "No feedback came in this week, so nothing here shifted on your say-so -- interests held flat by default, not evidence. Carrying forward: the Fed's actual direction, how far the Houthi-Saudi front expands, Virginia Key's path to November, and whether Miami's three wins hold up against tougher competition. One to sit with before Monday: what did you treat as certain this week that was really just this week's best guess?"
    ],
    "read_only_three": [
     {
      "target_type": "theme",
-     "target_id": "theme-fed-friday-close-holds",
-     "label": "Friday's close confirms the market's rebound held -- and October's odds settled, not just bounced"
+     "target_id": "theme-fed-week-coin-toss-again",
+     "label": "The week's real story: Treasury yields and Fed odds both round-tripped, twice"
     },
     {
      "target_type": "theme",
-     "target_id": "theme-iran-gulf-summit-postwar-planning",
-     "label": "Trump's Gulf summit firms up for Tuesday -- framed as postwar planning, not urgent decision"
+     "target_id": "theme-houthi-saudi-riyadh-strike",
+     "label": "Houthi forces target Riyadh directly for the first time"
     },
     {
      "target_type": "theme",
-     "target_id": "theme-hurricanes-beat-wake-forest",
-     "label": "Miami passed its first real test -- Mensah set two ACC records doing it"
+     "target_id": "theme-virginia-key-referendum-set-november",
+     "label": "Virginia Key's $80M marina referendum survives its legal challenge, heads to a November vote"
     }
    ]
   },
   "market_context": [
    {
     "label": "S&P 500",
-    "value": "7,637.76",
-    "change": "+1.1% Friday, matching Thursday's rebound rather than fading",
+    "value": "7,650.50",
+    "change": "+0.2% Friday (+12.74 pts) -- a far more modest gain than Thursday's 1.1% rebound",
     "observed": "Friday close, September 18, 2026",
-    "note": "Held its gain through a full session after Wednesday's post-hike selloff."
+    "note": "Capped a volatile week: Wednesday's hawkish-hike selloff, Thursday's sharp rebound, then a marginal Friday gain."
    },
    {
     "label": "Nasdaq Composite",
-    "value": "26,418.30",
-    "change": "+1.7% Friday, a second straight strong session",
+    "value": "26,522.55",
+    "change": "+0.4% Friday (+104.25 pts)",
     "observed": "Friday close, September 18, 2026",
-    "note": "Tech led both days of the rebound from Wednesday's hawkish-hike selloff."
+    "note": "Extended Thursday's 1.7% rebound, but only modestly."
    },
    {
     "label": "10Y Treasury",
-    "value": "~4.94%",
-    "change": "Held near Thursday's level, extending the retreat from Wednesday's 5.016% close",
+    "value": "5.00%",
+    "change": "Backed up from Thursday's ~4.94% close",
     "observed": "Friday, September 18, 2026",
-    "note": "Second straight session of easing since Chair Warsh's hawkish post-hike press conference."
+    "note": "First closed above 5% Tuesday for the first time since 2007; a 19-year-rare level that outlasts whatever October decides."
    },
    {
     "label": "FOMC (October 27-28)",
-    "value": "~60% odds of a hold",
-    "change": "CME FedWatch: 59.5% hold, 40.1% hike, 0.5% larger hike -- essentially unchanged from Thursday",
-    "observed": "As of Friday, September 18, 2026",
-    "note": "Still a real gap against the Fed's own dot plot, where 16 of 18 officials project at least one more 2026 hike."
+    "value": "~57.6% odds of a hike",
+    "change": "CME FedWatch: 57.6% hike, 42.4% hold -- reversed from Thursday/Friday's lean toward a ~60% hold",
+    "observed": "As of Saturday, September 19, 2026",
+    "note": "Polymarket (56% hike) and Kalshi (54% hike) show the same reversal; December pricing implies only 9.9% odds of ending the year at today's range."
    },
    {
     "label": "Brent crude",
-    "value": "$103.21",
-    "change": "-1.54% Friday, a third straight down session",
+    "value": "~$103.21",
+    "change": "Third straight down session Friday",
     "observed": "Friday, September 18, 2026",
-    "note": "Easing as Aramco restores East-West pipeline capacity, even as the Saudi-Houthi front escalates diplomatically."
+    "note": "Easing as Aramco restores pipeline capacity -- so far the market is reading the Houthi-Saudi escalation as contained."
    }
   ],
   "public_day_context": {
-   "date_label": "Saturday, September 19, 2026",
-   "weather": "High near 87 with typical late-summer mugginess -- morning risk of thunderstorms giving way to scattered afternoon showers, roughly a 40% chance of rain. Low near 83 overnight, staying warm and humid.",
-   "public_event": "Florida Panthers hold free public Fan Fest today 10am-2pm at Baptist Health IcePlex in Fort Lauderdale, ahead of tomorrow's preseason opener against defending champion Carolina. La Sponda, the new waterfront Italian restaurant at Vita at Grove Isle, is open for dinner in Coconut Grove. Inter Miami hosts San Diego FC Sunday evening at Miami Freedom Park."
+   "date_label": "Sunday, September 20, 2026",
+   "weather": "High near 86 with typical late-summer humidity, low near 77 overnight -- a normal warm, muggy South Florida Sunday.",
+   "public_event": "Florida Panthers open their preseason at home against defending Stanley Cup champion Carolina tonight (7pm, Amerant Bank Arena). The Dolphins play at the San Francisco 49ers (4:25pm ET), seeking their first win as 13.5-point underdogs. Inter Miami hosts San Diego FC this evening at Miami Freedom Park."
   },
   "what_changed": [
    {
-    "id": "delta-fed-friday-close-holds",
+    "id": "delta-fomc-odds-reverse-to-hike",
     "thread_id": "thread-fed-rate-path",
-    "change_type": "watch",
-    "title": "Friday's close confirms Thursday's rebound held -- and October's odds stayed put",
-    "previous_state": "Thursday, stocks rebounded roughly 1.1-1.7% from Wednesday's hawkish-hike selloff and October hold odds flipped to about 59-60%.",
-    "current_state": "Friday's confirmed close matched Thursday's gains (S&P +1.1% to 7,637.76, Nasdaq +1.7% to 26,418.30), the 10-year held near 4.94%, and CME FedWatch settled the week at 59.5% hold versus 40.1% hike -- essentially unchanged.",
-    "why_it_matters": "The rebound wasn't a one-day bounce that faded by Friday -- it held for a full session, which matters more for reading whether markets or the Fed's own dot plot has the October meeting right.",
-    "confidence": "medium",
-    "source": {
-     "publisher": "TheStreet",
-     "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-18-2026"
-    }
-   },
-   {
-    "id": "delta-iran-gulf-summit-firms-up",
-    "thread_id": "thread-iran-hormuz-crisis",
-    "change_type": "advanced",
-    "title": "Trump's Gulf-leaders meeting firms up for Tuesday in New York, aimed at a postwar plan",
-    "previous_state": "Trump told Axios Wednesday he was nearing a decision framed as 'annihilate or don't,' and said he'd meet Gulf Cooperation Council leaders in New York around September 22.",
-    "current_state": "That meeting is now set for next Tuesday (Sept 22), State Department invitations already sent, possibly expanding beyond the six GCC states to other Arab and Muslim leaders -- reporting frames it as postwar 'day-after' planning the administration expects to finalize only after the midterms, not an imminent decision.",
-    "why_it_matters": "The specific, further-out timeline undercuts the urgency of 'annihilate or don't' -- worth noticing when rhetoric and process point in different directions.",
-    "confidence": "medium",
-    "source": {
-     "publisher": "Axios",
-     "url": "https://www.axios.com/2026/09/16/trump-iran-talks-gulf-leaders-un"
-    }
-   },
-   {
-    "id": "delta-houthi-un-security-council",
-    "thread_id": "thread-houthi-red-sea-control",
-    "change_type": "worsened",
-    "title": "The UN Security Council condemned the Houthi-Saudi fighting, as verified and claimed casualty counts diverge sharply",
-    "previous_state": "Saudi Arabia and the Houthis traded direct cross-border strikes September 15-17, with roughly five deaths reported, three of them children.",
-    "current_state": "The UN Security Council formally condemned the Houthis' attacks and demanded an immediate halt; UN OCHA verified 55 civilian casualties in 19 incidents and estimates 125,000 people displaced, while the Saudi-backed government claims about 150 Houthi-caused civilian deaths since September 3 and Houthis claim Saudi struck them 300 times this week.",
-    "why_it_matters": "An international body weighing in for the first time on this front, and the size of the gap between verified and claimed numbers, are both new information -- not just more of the same fighting.",
+    "change_type": "reversed",
+    "title": "October's Fed odds flipped back toward a hike, undoing midweek's swing toward a hold",
+    "previous_state": "By Thursday-Friday, CME FedWatch had settled near 59.5% odds of an October hold versus 40.1% for a hike.",
+    "current_state": "As of Saturday, CME FedWatch shows 57.6% odds of another 25bp hike versus 42.4% for a hold -- Polymarket (56%/44%) and Kalshi (54%/44%) show the same reversal. Friday's actual close was also more modest than previously reported: S&P 500 +0.2% to 7,650.50, Nasdaq +0.4% to 26,522.55, 10-year back up to 5.00%.",
+    "why_it_matters": "Three different 'settled' odds readings inside one week is itself the finding -- worth remembering the market's read is not more reliable than the Fed's own dot plot just because it disagrees with it.",
     "confidence": "high",
     "source": {
-     "publisher": "NPR",
-     "url": "https://www.npr.org/2026/09/18/nx-s1-5973810/houthi-attacks-saudi-oil-world-markets"
+     "publisher": "Bitcoin.com News",
+     "url": "https://news.bitcoin.com/finance/feds-next-rate-move-has-traders-staring-at-a-coin-toss/"
     }
    },
    {
-    "id": "delta-hurricanes-beat-wake-forest",
-    "thread_id": "thread-hurricanes-fall-camp",
-    "change_type": "resolved",
-    "title": "Miami passed its first real test, beating Wake Forest 33-20 behind a record-setting night from Mensah",
-    "previous_state": "Miami was favored by 20.5 points at Wake Forest, missing four defensive starters, in what was framed as the season's first genuine test.",
-    "current_state": "Miami won 33-20. Darian Mensah set ACC records for consecutive completions (24 to start the game, 30 across games) and finished 30-of-34 for 220 yards and three touchdowns with no interceptions. Miami is 3-0.",
-    "why_it_matters": "The offense's efficiency held up against a team Cristobal called genuinely mature -- the best evidence yet that the first two blowouts weren't just soft competition.",
+    "id": "delta-houthi-riyadh-missile",
+    "thread_id": "thread-houthi-red-sea-control",
+    "change_type": "worsened",
+    "title": "Houthi forces targeted Riyadh directly for the first time",
+    "previous_state": "Yesterday's edition covered the UN Security Council's condemnation and a wide gap between verified (55) and claimed (150-300) casualty figures from cross-border strikes.",
+    "current_state": "Saudi Arabia says a Houthi ballistic missile aimed at Riyadh was intercepted early Saturday, alongside an unexplained fire at Riyadh's King Khalid International Airport; Wednesday brought an attempted drone strike on Mecca, and Thursday the first confirmed civilian death (from intercepted-drone debris).",
+    "why_it_matters": "The first strikes aimed at Saudi Arabia's capital and holiest city, rather than oil infrastructure or the border, mark a real escalation in this front's ambition.",
+    "confidence": "high",
+    "source": {
+     "publisher": "Houston Public Media / NPR",
+     "url": "https://www.houstonpublicmedia.org/npr/2026/09/20/nx-s1-5974980/saudi-arabia-says-houthis-tried-to-attack-its-capital/"
+    }
+   },
+   {
+    "id": "delta-virginia-key-referendum-cleared",
+    "thread_id": "thread-virginia-key-marina-referendum",
+    "change_type": "advanced",
+    "title": "Virginia Key's marina referendum cleared its legal challenge, confirmed for November 3",
+    "previous_state": "A lawsuit from the current marina operator sought to block the referendum on the $80M Virginia Key marina redevelopment lease.",
+    "current_state": "A Miami-Dade circuit judge rejected the challenge (the underlying suit continues, trial set for September 2027, but doesn't stop the vote); the referendum is confirmed for November 3, with lease terms now public: 45-year initial term, two 15-year renewals, $2.2M minimum annual rent escalating to roughly $204M over the term, plus 6% of gross revenue.",
+    "why_it_matters": "This is now a real, dated civic-finance decision on public waterfront land rather than a proposal still tied up in court.",
     "confidence": "high",
     "source": {
      "publisher": "Local10 (WPLG)",
-     "url": "https://www.local10.com/sports/local/2026/09/19/mensah-sets-acc-consecutive-completion-record-as-no-5-miami-beats-wake-forest-33-20/"
+     "url": "https://www.local10.com/news/local/2026/09/16/miami-voters-to-decide-fate-of-redevelopment-proposal-for-waterfront-land-in-virginia-key/"
     }
    },
    {
-    "id": "delta-la-sponda-opens",
-    "thread_id": "thread-miami-summer-openings",
-    "change_type": "resolved",
-    "title": "La Sponda opened as promised, the season's most reliably dated restaurant launch",
-    "previous_state": "La Sponda was set to open Saturday, September 19 at Vita at Grove Isle in Coconut Grove.",
-    "current_state": "La Sponda has opened, serving a 42-ounce Wagyu bistecca fiorentina, caviar carbonara, and a four-pound salt-crusted branzino in a Martin Brudnizki-designed room overlooking Biscayne Bay.",
-    "why_it_matters": "Nothing more than a good meal on a good waterfront -- worth marking exactly because so much else tracked in this thread still hasn't landed on its stated date.",
+    "id": "delta-klay-thompson-arrives",
+    "thread_id": "thread-heat-klay-thompson",
+    "change_type": "new",
+    "title": "Klay Thompson is officially a Heat player, already on the practice court",
+    "previous_state": "Not previously tracked this week.",
+    "current_state": "Thompson signed a two-year, $13M deal (player option year two), arrived in South Florida, met the media at Kaseya Center, and was already practicing there within two days. Training camp opens September 29.",
+    "why_it_matters": "A real, signed shooter next to Giannis and Bam is the clearest concrete roster move yet toward this season's actual shape.",
     "confidence": "high",
     "source": {
-     "publisher": "Hoodline",
-     "url": "https://hoodline.com/2026/09/la-sponda-opens-on-grove-isle-with-42-ounce-steaks-and-caviar-carbonara/"
+     "publisher": "NBA.com",
+     "url": "https://www.nba.com/news/klay-thompson-heat-winning"
+    }
+   },
+   {
+    "id": "delta-panthers-dolphins-gameday",
+    "thread_id": "thread-panthers-2026-27-season",
+    "change_type": "watch",
+    "title": "Both the Panthers and Dolphins play today, with real stakes attached",
+    "previous_state": "Yesterday's edition covered Fan Fest and the confirmed Sunday preseason opener; the Dolphins' San Francisco game was noted as upcoming.",
+    "current_state": "Panthers host defending champion Carolina tonight at 7pm in their preseason opener (rematch Tuesday in Raleigh); Dolphins play at San Francisco at 4:25pm as 13.5-point underdogs, chasing their first win after an opening loss.",
+    "why_it_matters": "Both games are the first real evidence of where these rosters actually stand, not just how camp reports described them.",
+    "confidence": "high",
+    "source": {
+     "publisher": "Miami Dolphins (official)",
+     "url": "https://www.miamidolphins.com/news/game-preview-miami-dolphins-at-san-francisco-49ers"
     }
    }
   ],
   "themes": [
    {
-    "id": "theme-fed-friday-close-holds",
+    "id": "theme-fed-week-coin-toss-again",
     "affinity": "morning",
     "topic": "markets",
     "topic_label": "Markets & Macro",
-    "title": "Friday's close confirms the rebound held -- and October's odds settled, not just bounced",
-    "importance": 0.7,
-    "thesis": "Thursday's reversal wasn't a one-day dead-cat bounce; it held through the end of the week.",
-    "synthesis": "The S&P 500 closed Friday at 7,637.76, up 1.1% and matching Thursday's gain; the Nasdaq closed at 26,418.30, up 1.7%. The 10-year Treasury held near 4.94%, continuing its retreat from Wednesday's 5.016% post-hike close. CME FedWatch settled the week at 59.5% odds of a hold at the October 27-28 meeting versus 40.1% for another 25bp hike (with a residual 0.5% for a larger move) -- essentially unchanged from Thursday's reading, meaning the market's break from the Fed's own hawkish September dot plot (16 of 18 officials still project at least one more 2026 hike) survived a full trading day rather than reversing again.",
-    "new_today": "Friday's confirmed closing numbers and the settled, unchanged FOMC odds are new since yesterday's edition, which only had Thursday's rebound.",
-    "why_it_matters": "For Alex's cap-markets work, a rebound that holds for a full session is a meaningfully different signal than one that fades -- it suggests the market's read (a hold) is more than noise, even though it still contradicts the Fed's own guidance.",
+    "title": "The week's real story: yields and Fed odds both round-tripped, twice",
+    "importance": 0.85,
+    "thesis": "Wednesday's hike was never the story -- it was priced in above 90% for days. What happened to yields and October's odds afterward is the actual week.",
+    "synthesis": "The Fed hiked 12-0 to 3.75%-4.00% Wednesday, its first increase in more than three years, with a hawkish dot plot (16 of 18 officials projecting at least one more 2026 hike). The 10-year Treasury closed above 5% Tuesday for the first time since 2007, eased to about 4.94% by Thursday as stocks rebounded roughly 1.1-1.7%, then backed up to 5.00% again by Friday's close -- a far more modest session (S&P 500 +0.2% to 7,650.50, Nasdaq +0.4% to 26,522.55, Dow -0.2% to 51,682.64). October 27-28 odds followed the same round trip: hike probability spiked past 85% right after Chair Warsh's press conference, cooled toward a roughly 60% hold by midweek, then flipped back to a near-even 57.6% hike by Saturday per CME FedWatch (Polymarket 56%, Kalshi 54%).",
+    "new_today": "Friday's actual close (a modest 0.2%/0.4% gain, not a repeat of Thursday's rebound), the 10-year backing up to 5.00%, and Saturday's reversal in FOMC odds back toward a hike are all new since yesterday's edition.",
+    "why_it_matters": "Three different 'settled' readings in five days is the real lesson for Alex's cap-markets work -- borrowing costs sat at a 19-year-rare level all week regardless of which narrative was winning on a given day.",
     "thread_id": "thread-fed-rate-path",
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
      {
       "role": "primary_reporting",
-      "publisher": "TheStreet",
-      "headline": "Stock Market Today (Sept. 18, 2026): Nasdaq, S&P 500 close a touch higher to end Fed hike week",
-      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-18-2026"
+      "publisher": "KRMG (AP wire)",
+      "headline": "How major US stock indexes fared Friday 9/18/2026",
+      "url": "https://krmg.com/2026/09/18/how-major-us-stock-indexes-fared-friday-9-18-2026/"
      },
      {
       "role": "background",
-      "publisher": "growbeansprout.com (CME FedWatch tracker)",
-      "headline": "US Fed Funds Interest Rate: Latest Updates and Trends",
-      "url": "https://growbeansprout.com/tools/fedwatch"
+      "publisher": "Bitcoin.com News",
+      "headline": "Fed's Next Rate Move Has Traders Staring at a Coin Toss",
+      "url": "https://news.bitcoin.com/finance/feds-next-rate-move-has-traders-staring-at-a-coin-toss/"
      }
     ]
    },
    {
-    "id": "theme-iran-gulf-summit-postwar-planning",
+    "id": "theme-houthi-saudi-riyadh-strike",
     "affinity": "morning",
     "topic": "markets",
     "topic_label": "Markets & Macro",
-    "title": "Trump's Gulf-leaders meeting firms up for Tuesday -- and the timeline undercuts his own urgency",
-    "importance": 0.75,
-    "thesis": "The specifics that emerged today point toward a longer process than the 'annihilate or don't' framing suggested.",
-    "synthesis": "Trump's planned meeting with Gulf Cooperation Council leaders on the UN General Assembly sidelines is now set for next Tuesday, September 22, in New York; the State Department sent initial invitations Wednesday, and the group could expand beyond the six GCC states to other Arab and Muslim leaders. Reporting frames the meeting around U.S. postwar strategy -- a 'day-after' plan the administration reportedly expects to finalize only after the midterm elections, not an imminent decision. Israeli Prime Minister Netanyahu separately wants a New York meeting with Trump, though none is yet scheduled. Brent crude extended its slide to $103.21 Friday, its third straight down session, as Aramco continues restoring pipeline capacity.",
-    "new_today": "The confirmed Tuesday date, the sent invitations, the possible expansion to other Arab/Muslim leaders, the post-midterms timeline for a postwar plan, and Netanyahu's unscheduled meeting request are all new since yesterday's edition.",
-    "why_it_matters": "Trump framed yesterday's decision as urgent -- 'annihilate or don't' -- but today's reporting describes a summit about postwar planning on a timeline stretching past the midterms. The gap between the rhetoric and the calendar is the story.",
-    "thread_id": "thread-iran-hormuz-crisis",
-    "confidence": "medium",
-    "sources": [
-     {
-      "role": "primary_reporting",
-      "publisher": "Axios",
-      "headline": "Trump to hold Iran talks with Gulf leaders next week in New York",
-      "url": "https://www.axios.com/2026/09/16/trump-iran-talks-gulf-leaders-un"
-     },
-     {
-      "role": "background",
-      "publisher": "Gulf News",
-      "headline": "Trump to Meet Gulf Leaders in New York to Shape Iran War Endgame and Postwar Strategy",
-      "url": "https://gulfnews.com/world/gulf/trump-to-meet-gulf-leaders-in-new-york-to-discuss-iran-war-endgame-1.500677964"
-     }
-    ]
-   },
-   {
-    "id": "theme-houthi-un-condemnation",
-    "affinity": "morning",
-    "topic": "markets",
-    "topic_label": "Markets & Macro",
-    "title": "The UN Security Council condemned the Houthi-Saudi fighting -- and verified numbers no longer match claimed ones",
-    "importance": 0.65,
-    "thesis": "An international body has now weighed in, and the gap between verified and claimed casualties has become the story in its own right.",
-    "synthesis": "The UN Security Council formally condemned the Houthis' attacks on Saudi Arabia this week, citing civilian casualties and damage to energy infrastructure, and demanded an immediate halt. The UN's humanitarian office (OCHA) verified 55 civilian casualties in 19 incidents since early September across Yemen's Taiz, Al Hodeidah, Marib, and Lahj governorates, and estimates roughly 125,000 people have been displaced. The Saudi-backed Yemeni government's health ministry claims the Houthis have killed about 150 civilians since September 3; Houthis, for their part, claim Saudi Arabia carried out 26 airstrikes in 24 hours and roughly 300 over the past week. None of these figures reconcile with each other.",
-    "new_today": "The UN Security Council's condemnation, OCHA's verified casualty and displacement figures, and both sides' competing claimed tolls are all new since yesterday's edition, which covered only the September 15-17 cross-border strikes and roughly five deaths.",
-    "why_it_matters": "This is the first time an international body has formally intervened on this specific front of the war -- and the scale of the gap between what's verified and what's claimed is itself worth tracking as the conflict globalizes.",
+    "title": "Houthi forces target Riyadh directly for the first time",
+    "importance": 0.8,
+    "thesis": "This front of the war just reached for Saudi Arabia's most symbolic cities instead of its oil infrastructure or border towns.",
+    "synthesis": "Saudi Arabia said Houthi forces fired a ballistic missile toward Riyadh early Saturday -- intercepted, but the first time the Saudi capital itself has been targeted since this front opened. A fire of unclear origin broke out at Riyadh's King Khalid International Airport around the same time. Earlier in the week: Wednesday's attempted drone strike on Mecca, which Saudi officials called a 'red line'; Thursday's first confirmed civilian casualty, when debris from an intercepted Houthi drone killed a Yemeni resident; and continued ground fighting in Marib, Taiz, and Lahj. Trump's own Gulf-leaders summit -- aimed at postwar planning, not an immediate decision -- is now two days out.",
+    "new_today": "The Riyadh missile attempt, the airport fire, Wednesday's Mecca attempt, and Thursday's first civilian death are all new since yesterday's edition, which covered only the UN Security Council's condemnation and the verified/claimed casualty gap.",
+    "why_it_matters": "The geographic scope keeps widening toward the symbolic core of Saudi Arabia even as the diplomatic track proceeds on its own, slower calendar -- worth tracking whether escalation on the ground eventually forces the summit's hand.",
     "thread_id": "thread-houthi-red-sea-control",
     "confidence": "high",
     "sources": [
      {
       "role": "primary_reporting",
-      "publisher": "NPR",
-      "headline": "What to know after a week of Houthi attacks that threaten Saudi oil",
-      "url": "https://www.npr.org/2026/09/18/nx-s1-5973810/houthi-attacks-saudi-oil-world-markets"
-     },
-     {
-      "role": "background",
-      "publisher": "UN News",
-      "headline": "Surge in displacement following fighting in southwest Yemen",
-      "url": "https://news.un.org/en/story/2026/09/1168314"
+      "publisher": "Houston Public Media / NPR",
+      "headline": "Saudi Arabia says Houthis tried to attack its capital",
+      "url": "https://www.houstonpublicmedia.org/npr/2026/09/20/nx-s1-5974980/saudi-arabia-says-houthis-tried-to-attack-its-capital/"
      },
      {
       "role": "analysis",
-      "publisher": "PBS NewsHour",
-      "headline": "Fighting in Yemen intensifies, and Houthis launch more attacks on Saudi Arabia",
-      "url": "https://www.pbs.org/newshour/world/iran-backed-houthis-in-yemen-claim-new-attacks-on-saudi-arabia"
+      "publisher": "Al Jazeera",
+      "headline": "Saudi-led coalition says defences intercept Houthi missile fired at Riyadh",
+      "url": "https://www.aljazeera.com/news/2026/9/19/saudi-led-coalition-says-defences-intercept-houthi-missile-fired-at-riyadh"
      }
     ]
    },
    {
-    "id": "theme-hurricanes-beat-wake-forest",
+    "id": "theme-hurricanes-3-0-mensah-record",
     "affinity": "morning",
     "topic": "sports",
     "topic_label": "Miami Sports",
-    "title": "Miami passed its first real test -- Mensah set two ACC records doing it",
-    "importance": 0.6,
-    "thesis": "The record-breaking efficiency, not just the win, is the real evidence that the first two blowouts weren't a mirage.",
-    "synthesis": "No. 5 Miami beat Wake Forest 33-20 on the road Friday night despite missing four defensive starters. Quarterback Darian Mensah completed his first 24 passes to start the game -- an ACC single-game record -- and extended his streak to 30 consecutive completions across games, another conference record, before his first incompletion with 3:18 left in the third quarter. He finished 30-of-34 for 220 yards and three touchdowns with no interceptions. Through three games, Mensah is 71-of-79 passing for 873 yards and 11 touchdowns. Miami is 3-0.",
-    "new_today": "The final score, Mensah's two ACC records, and his full game and season stat lines are all new since yesterday's preview edition.",
-    "why_it_matters": "Cristobal's real worry going in was his own team's complacency, not Wake Forest's talent -- tonight's efficiency against a team he called genuinely mature is the best evidence yet that Mensah's offense is for real, not just padded by two blowout wins.",
+    "title": "Miami closes the week 3-0, on the strength of Mensah's record night",
+    "importance": 0.55,
+    "thesis": "The week's headline local sports result, reframed for the week: a real, record-setting road win, not just another blowout.",
+    "synthesis": "No. 5 Miami beat Wake Forest 33-20 on the road Friday, with quarterback Darian Mensah setting two ACC records (24 consecutive completions to start the game, 30 across games) before his first incompletion of the night. He finished 30-of-34 for 220 yards and three touchdowns; through three games he's 71-of-79 for 873 yards and 11 touchdowns. Miami is 3-0 heading into a preparation week, with its next game Saturday, September 26, at home against Central Michigan.",
+    "new_today": "The confirmed next-game date (Central Michigan, Sept. 26) is new since yesterday's edition; the Wake Forest result itself was covered Friday.",
+    "why_it_matters": "A full week without a game is the first real chance to see whether Cristobal's complacency worry from fall camp reasserts itself before a lower-stakes opponent.",
     "thread_id": "thread-hurricanes-fall-camp",
     "confidence": "high",
     "sources": [
@@ -258,52 +225,130 @@
       "url": "https://www.local10.com/sports/local/2026/09/19/mensah-sets-acc-consecutive-completion-record-as-no-5-miami-beats-wake-forest-33-20/"
      },
      {
-      "role": "analysis",
-      "publisher": "National Football Post",
-      "headline": "Darian Mensah's record accuracy carries No. 5 Miami past Wake Forest",
-      "url": "https://www.nationalfootballpost.com/2026/09/19/darian-mensahs-record-accuracy-carries-no-5-miami-past-wake-forest"
+      "role": "background",
+      "publisher": "Wikipedia",
+      "headline": "2026 Miami Hurricanes football team",
+      "url": "https://en.wikipedia.org/wiki/2026_Miami_Hurricanes_football_team"
      }
     ]
    },
    {
-    "id": "theme-panthers-fanfest-preseason-opener",
+    "id": "theme-panthers-preseason-opener-today",
     "affinity": "morning",
     "topic": "sports",
     "topic_label": "Miami Sports",
-    "title": "Panthers close out fan-facing camp week with Fan Fest, open preseason tomorrow against the champs",
-    "importance": 0.4,
-    "thesis": "The last low-stakes day before the roster questions from camp start getting real answers.",
-    "synthesis": "Florida's free public Fan Fest ran today, Saturday, 10am-2pm at Baptist Health IcePlex in Fort Lauderdale -- team activities, mascots, and merch, the traditional closer to camp's opening week. The preseason opener is tomorrow (Sunday) against defending Stanley Cup champion Carolina. Camp's real news remains what it was Thursday: Barkov is fully healthy, Tkachuk debuted as a Panther, the goaltending tandem (Markstrom/Schmid) is set, but leading scorer Brad Marchand is out until at least late October and Jonah Gadjovich is out indefinitely.",
-    "new_today": "Today's Fan Fest itself and the confirmed Sunday preseason opener against Carolina are new since yesterday's camp-opening edition.",
-    "why_it_matters": "Preseason is where a healthy-at-the-top, missing-its-scorer roster starts actually showing what October looks like without Marchand.",
+    "title": "Panthers open their preseason tonight against the defending champs",
+    "importance": 0.45,
+    "thesis": "The first live look at a healthy-at-the-top, missing-its-scorer roster.",
+    "synthesis": "Florida hosts Carolina at Amerant Bank Arena tonight (7pm ET) in its preseason opener, the first of four exhibition games. Camp's known facts remain unchanged: Barkov is fully healthy, Tkachuk has debuted as a Panther, Markstrom and Schmid are the settled goaltending tandem, but leading scorer Brad Marchand is out until at least late October and Jonah Gadjovich is out indefinitely. The Panthers travel to Raleigh to play Carolina again Tuesday.",
+    "new_today": "Tonight's specific matchup and the Tuesday rematch in Raleigh are new since yesterday's Fan Fest edition.",
+    "why_it_matters": "First live evidence of what the lineup actually looks like without Marchand, against the team that eliminated most challengers last spring.",
     "thread_id": "thread-panthers-2026-27-season",
     "confidence": "high",
     "sources": [
      {
       "role": "primary_reporting",
-      "publisher": "NHL.com / Panthers",
-      "headline": "Florida Panthers to Host Training Camp Fan Fest on Saturday, Sept. 19 at Baptist Health IcePlex",
-      "url": "https://www.nhl.com/panthers/news/florida-panthers-to-host-training-camp-fan-fest-on-saturday-sept-19-at-baptist-health-iceplex"
-     },
-     {
-      "role": "background",
-      "publisher": "Florida Hockey Now",
-      "headline": "Hockey is Coming: Florida Panthers Set Date for Camp Fan Fest",
-      "url": "https://floridahockeynow.com/hockey-is-coming-florida-panthers-set-date-for-camp-fan-fest/"
+      "publisher": "NHL.com / Carolina Hurricanes",
+      "headline": "Preseason Preview: September 20 at Florida",
+      "url": "https://www.nhl.com/hurricanes/news/preseason-preview-september-20-at-florida"
      }
     ]
    },
    {
-    "id": "theme-la-sponda-opens",
+    "id": "theme-dolphins-49ers-underdogs-again",
+    "affinity": "morning",
+    "topic": "sports",
+    "topic_label": "Miami Sports",
+    "title": "Dolphins chase their first win as 13.5-point underdogs at San Francisco",
+    "importance": 0.4,
+    "thesis": "The NFL's youngest roster gets its first road test against one of its most experienced.",
+    "synthesis": "Miami plays at San Francisco today (4:25pm ET, Levi's Stadium) looking for its first win after an opening 27-13 loss. The Dolphins carry the league's youngest roster (average age 25.5) and a league-high 13 rookies, seven of whom started in Week 1; rookie receiver Caleb Douglas led all NFL rookies with 94 receiving yards. The 49ers are 1-0 after a 27-7 win over the Rams in Australia. Consensus lines favor San Francisco by 13.5.",
+    "new_today": "Today's kickoff details, the betting line, and the rookie performance notes are new since yesterday's edition.",
+    "why_it_matters": "A young, rebuilding roster on the road against a veteran team is exactly the kind of game that separates real progress from a soft Week 1 opponent.",
+    "thread_id": "thread-dolphins-hafley-rebuild",
+    "confidence": "high",
+    "sources": [
+     {
+      "role": "primary_reporting",
+      "publisher": "Miami Dolphins (official)",
+      "headline": "Game Preview: Miami Dolphins at San Francisco 49ers",
+      "url": "https://www.miamidolphins.com/news/game-preview-miami-dolphins-at-san-francisco-49ers"
+     }
+    ]
+   },
+   {
+    "id": "theme-klay-thompson-heat-era",
+    "affinity": "morning",
+    "topic": "sports",
+    "topic_label": "Miami Sports",
+    "title": "Klay Thompson is officially a Heat player",
+    "importance": 0.45,
+    "thesis": "The addition camp-watchers have waited on is now real, not just rumored.",
+    "synthesis": "Klay Thompson signed a two-year, $13 million deal with the Heat (player option in year two), leaving roughly $10 million on the table to join Miami. He landed in South Florida, met the media at Kaseya Center, and was already on the practice court within two days of arriving. He's expected to play floor-spacing shooter alongside Giannis Antetokounmpo and Bam Adebayo. Training camp opens September 29.",
+    "new_today": "First tracked -- Thompson's arrival, contract terms, and early practice reps are all new since yesterday's edition.",
+    "why_it_matters": "A proven shooter next to Miami's two-big frontcourt is the clearest roster addition yet toward answering what this season's Heat are actually built to do.",
+    "thread_id": "thread-heat-klay-thompson",
+    "confidence": "high",
+    "sources": [
+     {
+      "role": "primary_reporting",
+      "publisher": "NBA.com",
+      "headline": "Klay Thompson joins the Heat with winning in mind",
+      "url": "https://www.nba.com/news/klay-thompson-heat-winning"
+     },
+     {
+      "role": "background",
+      "publisher": "Yahoo Sports",
+      "headline": "Klay Thompson finally touches down in Miami to begin career with Heat",
+      "url": "https://sports.yahoo.com/articles/klay-thompson-finally-touches-down-150352094.html"
+     }
+    ]
+   },
+   {
+    "id": "theme-virginia-key-referendum-set-november",
+    "affinity": "morning",
+    "topic": "miami",
+    "topic_label": "Miami Life & Culture",
+    "title": "Virginia Key's $80M marina referendum survives its legal challenge, heads to a November vote",
+    "importance": 0.6,
+    "thesis": "The most consequential local civic-development story this week is a court ruling most people missed.",
+    "synthesis": "A Miami-Dade circuit judge rejected the legal challenge filed by the current Rickenbacker Marina operator and a restaurant tenant seeking to block the referendum (the underlying suit remains active, with a trial date in September 2027, but the election proceeds as planned). Miami voters will decide November 3 whether to lease about 27.6 acres on Virginia Key to Virginia Key LLC -- a joint venture of RCI Group and Suntex Marinas, which first ranked highest when the city sought proposals in 2015 and again in a 2017 rebid -- for an $80 million privately funded redevelopment of the Rickenbacker and Marine Stadium marinas. Terms: a 45-year initial lease with two 15-year renewal options, minimum annual rent of $2.2 million escalating to roughly $204 million over the initial term, plus 6% of gross revenues. The plan adds new docks, boat storage, improved restaurant space, and a public baywalk.",
+    "new_today": "The judge's rejection of the legal challenge and the confirmed November 3 date are new since yesterday's edition, which hadn't covered this thread at all this week.",
+    "why_it_matters": "An $80M long-term lease on public waterfront land, with a nine-figure rent stream over 45 years, is exactly the kind of civic-finance structure worth watching closely regardless of which way the vote goes.",
+    "thread_id": "thread-virginia-key-marina-referendum",
+    "confidence": "high",
+    "sources": [
+     {
+      "role": "primary_reporting",
+      "publisher": "Local10 (WPLG)",
+      "headline": "Miami voters to decide fate of redevelopment proposal for waterfront land in Virginia Key",
+      "url": "https://www.local10.com/news/local/2026/09/16/miami-voters-to-decide-fate-of-redevelopment-proposal-for-waterfront-land-in-virginia-key/"
+     },
+     {
+      "role": "background",
+      "publisher": "WLRN",
+      "headline": "Miami marina redevelopment will remain on the ballot, but the legal battle isn't over",
+      "url": "https://www.wlrn.org/law-justice/2026-08-21/miami-marine-stadium-virginia-key-lawsuit-ballot"
+     },
+     {
+      "role": "background",
+      "publisher": "Marina World",
+      "headline": "$80 million Virginia Key marina redevelopment set for November vote",
+      "url": "https://www.marinaworld.com/news/virginia-key-marina-redevelopment-november-vote"
+     }
+    ]
+   },
+   {
+    "id": "theme-la-sponda-week-closes-openings-wave",
     "affinity": "evening",
     "topic": "miami",
     "topic_label": "Miami Life & Culture",
-    "title": "La Sponda opened as promised -- the season's most reliably dated restaurant launch actually landed",
-    "importance": 0.4,
-    "thesis": "One of the summer's most-watched openings is the rare one that hit its stated date without slipping.",
-    "synthesis": "La Sponda, Gioia Hospitality Group's waterfront Italian restaurant from Thomas and Kassidy Angelo, has opened at Vita at Grove Isle in Coconut Grove. The menu centers on a 42-ounce Australian Wagyu bistecca fiorentina, caviar carbonara, and a four-pound salt-crusted branzino; interiors are by Martin Brudnizki Design Studio, the firm behind Soho Beach House Miami and Annabel's in London. Dinner service runs Wednesday through Sunday to start, with lunch, brunch, and seven-night dinner service expanding in November. Elsewhere in the thread, Genghis Cohen remains a vague 'winter 2026' for Sunset Harbour and Royale Pizza Napoletana still targets October on Lincoln Road.",
-    "new_today": "The restaurant's actual opening and its confirmed menu and design details are new since yesterday's 'opens tomorrow' edition.",
-    "why_it_matters": "Nothing more than a good meal on a good waterfront -- worth marking exactly because so much else this thread has tracked still hasn't landed on the date it promised.",
+    "title": "The week the summer opening wave actually delivered one",
+    "importance": 0.35,
+    "thesis": "One promise kept, in a thread that's mostly tracked slippage.",
+    "synthesis": "La Sponda, Gioia Hospitality Group's waterfront Italian restaurant at Vita at Grove Isle, opened Saturday exactly as scheduled -- a 42-ounce Wagyu bistecca fiorentina, caviar carbonara, and a Martin Brudnizki-designed room overlooking Biscayne Bay. Elsewhere in the thread, less has moved: Genghis Cohen's Sunset Harbour location is still a vague 'winter 2026,' and Royale Pizza Napoletana still targets October on Lincoln Road.",
+    "new_today": "No new movement this week beyond Saturday's opening, already covered yesterday -- carried forward here as the week's closing note on the thread.",
+    "why_it_matters": "Nothing more than a good meal on a good waterfront -- worth marking exactly because so much else this thread has tracked still hasn't landed on its stated date.",
     "thread_id": "thread-miami-summer-openings",
     "confidence": "high",
     "sources": [
@@ -312,90 +357,90 @@
       "publisher": "Hoodline",
       "headline": "La Sponda Opens on Grove Isle With 42-Ounce Steaks and Caviar Carbonara",
       "url": "https://hoodline.com/2026/09/la-sponda-opens-on-grove-isle-with-42-ounce-steaks-and-caviar-carbonara/"
-     },
-     {
-      "role": "background",
-      "publisher": "Miami New Times",
-      "headline": "Gorgeous waterfront Italian restaurant opens on Miami's Grove Isle",
-      "url": "https://www.miaminewtimes.com/food-drink/gorgeous-waterfront-italian-restaurant-opens-on-miamis-grove-isle-40585932/"
      }
     ]
    },
    {
-    "id": "theme-graph-sandwich-proof",
+    "id": "theme-youngest-planet-discovery",
     "affinity": "evening",
     "topic": "living",
     "topic_label": "Art of Living",
-    "title": "Mathematicians finally built the 'graph sandwich' -- closing a question open since the 1990s",
-    "importance": 0.35,
-    "thesis": "A slow, decades-open question in graph theory just got resolved, which is its own quiet argument for patience.",
-    "synthesis": "A new proof, published in Quanta Magazine on September 18 by Paulina Rowińska, resolves a long-standing graph-theory conjecture about 'graph sandwich' problems -- given two graphs, whether a third exists that contains one as a subgraph while avoiding structures from the other -- giving researchers a new, general way to understand complex networks rather than a one-off trick. The underlying question had sat open for decades.",
-    "new_today": "First tracked -- today's exploration pick, chosen because a patient, decades-open math question rewards the same close-attention habit as the rest of the day's categories, without needing any of Alex's usual subject-matter context.",
-    "why_it_matters": "A quiet reminder that some questions are worth sitting with for decades rather than declaring urgent -- a useful counterweight to a morning full of 'annihilate or don't' framing.",
+    "title": "Astronomers found a planet still being born -- the youngest ever seen",
+    "importance": 0.4,
+    "thesis": "A decade-long, patient observation just produced a genuinely new kind of snapshot.",
+    "synthesis": "Astronomers confirmed Elias 2-24 b, a Jupiter-mass planet less than a million years old, as the youngest known planet -- roughly five times younger than the previous record holders. It sits inside a gap in the dusty disk surrounding its young host star, about 450 light-years away in the rho Ophiuchi star-forming region, with material still actively accreting onto it. The find traces back nearly a decade: ALMA observations first showed the disk gap, and the European Southern Observatory's Very Large Telescope later detected the faint point of light sitting in it. Its rapid formation, so far from its star, challenges leading theories of how giant planets come together.",
+    "new_today": "First tracked -- this week's exploration pick, chosen for the same close-attention, decade-patient habit the rest of the week rewards.",
+    "why_it_matters": "A planet still visibly forming, found only after ten years of watching one small gap in a disk of dust, is its own quiet argument for the kind of patience this week's louder numbers didn't reward.",
     "thread_id": null,
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
      {
       "role": "primary_reporting",
-      "publisher": "Quanta Magazine",
-      "headline": "Mathematicians Build Long-Awaited Graph Sandwich",
-      "url": "https://www.quantamagazine.org/mathematicians-build-long-awaited-graph-sandwich-20260918/"
+      "publisher": "NASA Science",
+      "headline": "Newfound 'Baby' Planet Smashes Record for Youngest Known World",
+      "url": "https://science.nasa.gov/universe/newfound-baby-planet-smashes-record-for-youngest-known-world/"
+     },
+     {
+      "role": "background",
+      "publisher": "Live Science",
+      "headline": "Giant 'baby' exoplanet Elias 2-24 b is the youngest alien world scientists have ever seen",
+      "url": "https://www.livescience.com/space/exoplanets/this-million-year-old-baby-planet-is-the-youngest-world-scientists-have-ever-discovered"
      }
     ]
    }
   ],
   "rabbit_hole": {
-   "id": "rh-2026-09-19",
-   "title": "A New Form Of Life",
-   "creator": "William A. Haseltine (Noema Magazine)",
+   "id": "rh-2026-09-20",
+   "title": "A New Kind Of Creative Poverty",
+   "creator": "Afra Wang (Noema Magazine)",
    "format": "article",
-   "minutes": 18,
-   "why": "Haseltine -- a former Harvard Medical School professor and biotech founder, not a technologist -- argues that what's taking shape in the world's data centers is a genuine second form of life: not carbon-based or cell-reproducing, but organized from the same raw ingredients (matter, energy, information) into something that persists, adapts, and acts, unbound by the planetary conditions biological life requires. A biologist's frame on AI is the useful, unfamiliar part.",
-   "url": "https://www.noemamag.com/a-new-form-of-life/",
+   "minutes": 22,
+   "why": "Wang traces a line from Baudelaire's Paris through the incentive structures of China's censored internet to how large language models are actually trained -- arguing that great writing can't come from any system built on reward and punishment, including the one now producing most AI prose. A genuinely different angle on why AI writing feels the way it does, worth the full weekend attention it asks for.",
+   "url": "https://www.noemamag.com/a-new-kind-of-creative-poverty/",
    "related_interest": "living"
   },
   "beautiful_thing": {
-   "id": "bt-2026-09-19",
-   "title": "Untitled, from the Silueta series",
-   "creator": "Ana Mendieta",
-   "era": "1973-1980, gelatin silver print documenting an earthwork; Smithsonian American Art Museum",
-   "body": "Ana Mendieta fled Castro's Cuba for Iowa at age 12, separated from her parents and raised in foster homes. Her Silueta series, carried out between 1973 and 1980, documents her own silhouette pressed, carved, or burned into earth, sand, and grass across Iowa and Mexico, then left to erode -- the photograph is all that remains of most of them, since the earthworks themselves were never meant to last. She died in 1985, at 36, and the work has only grown more central to how Cuban-American and Latin American art history gets told since.",
-   "url": "https://americanart.si.edu/artwork/untitled-silueta-series-34658",
+   "id": "bt-2026-09-20",
+   "title": "Freedom Tower",
+   "creator": "Schultze & Weaver (architects)",
+   "era": "Completed 1925; Mediterranean Revival, National Register of Historic Places",
+   "body": "Built in 1925 as the Miami News headquarters, the tower stood empty for five years after the paper moved out in 1957 -- until 1962, when it reopened as the Cuban Refugee Center. For twelve years it processed hundreds of thousands of Cubans fleeing the 1959 revolution, earning the nickname 'the Ellis Island of the South.' Schultze & Weaver modeled it on Seville's Giralda tower: oak doors, wrought-iron balconies, Corinthian capitals, and cast concrete cherubs on a building that was, for a stretch, Miami's tallest. It's now part of Miami Dade College.",
+   "url": "https://www.mdc.edu/freedomtower/about/about-the-freedom-tower/",
    "image": null,
-   "alt": "A black-and-white photograph documenting an earthwork: a human silhouette shape pressed into natural terrain, part of Ana Mendieta's Silueta series."
+   "alt": "The Freedom Tower in downtown Miami, a Mediterranean Revival building modeled on Seville's Giralda tower."
   },
   "noticing_prompt": {
-   "id": "np-2026-09-19",
-   "text": "Notice the different kinds of settled today: Miami's win at Wake Forest is now simple fact, while a war's 'annihilate or don't' framing and an FOMC probability are still just bets on what might be true. Watch for the moment you treat one like the other."
+   "id": "np-2026-09-20",
+   "text": "Notice how many of this week's most confident numbers didn't survive the week: an 85%+ hike probability collapsed to 40%, then rebounded past 57% by Saturday. Watch for the next number you're tempted to treat as final."
   },
   "daily_puzzle": {
-   "id": "dp-2026-09-19",
-   "type": "math",
-   "prompt": "I'm a two-digit number. My tens digit is three times my units digit. Reverse my digits, and the result is 36 less than me. What number am I?",
-   "hint": "Let the units digit be u, so the tens digit is 3u. Write the original and reversed numbers as 10(3u)+u and 10u+3u, then set up the difference.",
-   "solution": "62",
-   "explanation": "62 reversed is 26, and 62 minus 26 is 36 -- and 6 (the tens digit) is indeed three times 2 (the units digit)."
+   "id": "dp-2026-09-20",
+   "type": "wordplay",
+   "prompt": "Start with a six-letter word meaning frightened. Remove the last letter, and you have a shorter word that still means frightened (or a sudden fright, as a noun). Remove one more letter, and you're left with the mark a healed wound leaves behind. What's the six-letter word you started with?",
+   "hint": "Think of adjectives for fear that shrink from the end, one letter at a time.",
+   "solution": "SCARED",
+   "explanation": "SCARED (frightened) drops its last letter to become SCARE (to frighten, or a fright), which drops its last letter to become SCAR (a healed wound's mark)."
   },
   "evening_unwind": {
-   "id": "eu-2026-09-19",
+   "id": "eu-2026-09-20",
    "evening_quote": {
-    "text": "Men are disturbed not by the things which happen, but by the opinions about the things.",
-    "attribution": "Epictetus",
-    "source": "Enchiridion, 5"
+    "text": "No man loses any other life than this which he now lives, nor lives any other than this which he now loses.",
+    "attribution": "Marcus Aurelius",
+    "source": "Meditations, 2.14"
    },
-   "evening_prompt": "Today's Houthi-Saudi accounting ran from a claimed 300 strikes down to 55 UN-verified casualties -- notice one number you repeated today as settled fact before checking who had actually verified it."
+   "evening_prompt": "This week's most confident numbers -- an 85% hike probability, an 'annihilate or don't' decision -- mostly didn't hold through Saturday. What's one thing you treated as certain this week that turned out to just be this week's best guess?"
   },
   "reading_queue": [
    {
     "title": "The Radical Reasons Why You Dream of Making Things by Hand",
     "url": "https://aeon.co/essays/the-radical-reasons-why-you-dream-of-making-things-by-hand",
     "verdict": "read_soon",
-    "reason": "Saved over two weeks ago and still unread, and still the only item on the list; tonight's rabbit hole (a biologist's argument that AI is a literal second form of life) is a strange, distant cousin of the same question about what counts as making, or being alive, with intention."
+    "reason": "Saved over two weeks ago, tagged for a weekend, and still the only item on the list -- this is that weekend. Still the only item worth carrying forward unread."
    }
   ],
   "quote": {
-   "text": "Men are disturbed not by the things which happen, but by the opinions about the things.",
-   "attribution": "Epictetus"
+   "text": "No man loses any other life than this which he now lives, nor lives any other than this which he now loses.",
+   "attribution": "Marcus Aurelius"
   }
  },
  "threads": [
@@ -404,9 +449,9 @@
    "title": "US-Iran conflict and the Strait of Hormuz",
    "topic": "markets",
    "status": "active",
-   "last_updated": "2026-09-19",
-   "updates": 70,
-   "current_state": "Trump's planned Gulf-leaders meeting on the UN General Assembly sidelines has firmed up for next Tuesday (Sept 22) in New York, State Department invitations already sent, with the postwar 'day-after' plan expected to be finalized only after the midterms -- a longer runway than the urgency of his 'annihilate or don't' framing suggested. Iranian officials continue to deny his claimed direct contact. Brent has eased to about $103, its third straight down session, as Aramco restores pipeline capacity.",
+   "last_updated": "2026-09-20",
+   "updates": 71,
+   "current_state": "Trump's Gulf-leaders summit in New York, aimed at postwar 'day-after' planning rather than an imminent decision, is now two days out (Tuesday, Sept 22). No new material developments over the weekend beyond the approaching date; the summit proceeds on its own calendar even as the separate Houthi-Saudi front escalates sharply.",
    "timeline": [
     {
      "date": "2026-07-21",
@@ -620,17 +665,17 @@
     },
     {
      "date": "2026-08-22",
-     "summary": "Trump branded the pressure campaign an “economic D-Day,” and Treasury Secretary Bessent said he'll hold a press conference Monday, Aug. 24, to detail the new measures, including possible secondary sanctions on countries and companies doing business with Iran — a veiled threat aimed at China. China's foreign ministry rejected the pressure campaign outright (“sanctions and pressure tactics are not the solution”) after Bessent publicly told Beijing to “get with the program”; China remains the largest buyer of Iranian crude via a shadow fleet. Iran's foreign ministry called the threat “a recipe for an abysmal return to full-scale classic colonialism.” Brent held near a second straight ~6% weekly gain (~$94), WTI near $86.60; US retail gas prices are up nearly $1/gallon year-over-year.",
+     "summary": "Trump branded the pressure campaign an \u201ceconomic D-Day,\u201d and Treasury Secretary Bessent said he'll hold a press conference Monday, Aug. 24, to detail the new measures, including possible secondary sanctions on countries and companies doing business with Iran \u2014 a veiled threat aimed at China. China's foreign ministry rejected the pressure campaign outright (\u201csanctions and pressure tactics are not the solution\u201d) after Bessent publicly told Beijing to \u201cget with the program\u201d; China remains the largest buyer of Iranian crude via a shadow fleet. Iran's foreign ministry called the threat \u201ca recipe for an abysmal return to full-scale classic colonialism.\u201d Brent held near a second straight ~6% weekly gain (~$94), WTI near $86.60; US retail gas prices are up nearly $1/gallon year-over-year.",
      "change_type": "advanced"
     },
     {
      "date": "2026-08-23",
-     "summary": "Bessent said the US will impose \"the toughest sanctions in history\" on Iran and explicitly called on China to cooperate, noting China bought over 80% of Iran's shipped oil in 2025. Washington has sanctioned only smaller Chinese \"teapot\" refineries so far, not major banks — reporting ties that restraint to Xi Jinping's state visit to the White House, now confirmed for Sept. 24 alongside the UN General Assembly. Monday's press conference is the next real test of how far the campaign goes.",
+     "summary": "Bessent said the US will impose \"the toughest sanctions in history\" on Iran and explicitly called on China to cooperate, noting China bought over 80% of Iran's shipped oil in 2025. Washington has sanctioned only smaller Chinese \"teapot\" refineries so far, not major banks \u2014 reporting ties that restraint to Xi Jinping's state visit to the White House, now confirmed for Sept. 24 alongside the UN General Assembly. Monday's press conference is the next real test of how far the campaign goes.",
      "change_type": "advanced"
     },
     {
      "date": "2026-08-24",
-     "summary": "Bessent's long-promised 'economic D-Day' press conference happens today at 2pm ET. Pre-conference reporting signals the sanctions finally reach past Iran's small teapot refineries toward the banks and foreign trade networks that actually move its oil — the exact restraint toward China that's held for weeks — though nothing is formally announced as of this morning. China's embassy again rejected the pressure campaign: 'sanctions and pressure do not help resolve the problem.'",
+     "summary": "Bessent's long-promised 'economic D-Day' press conference happens today at 2pm ET. Pre-conference reporting signals the sanctions finally reach past Iran's small teapot refineries toward the banks and foreign trade networks that actually move its oil \u2014 the exact restraint toward China that's held for weeks \u2014 though nothing is formally announced as of this morning. China's embassy again rejected the pressure campaign: 'sanctions and pressure do not help resolve the problem.'",
      "change_type": "advanced"
     },
     {
@@ -757,6 +802,11 @@
      "date": "2026-09-19",
      "summary": "Trump's planned UN General Assembly-sidelines meeting with Gulf leaders firmed up: expected next Tuesday (Sept 22) in New York, State Department invitations went out Wednesday, the group could expand beyond the six GCC states to other Arab and Muslim leaders, and the focus is U.S. postwar strategy -- a 'day-after' plan the administration expects to finalize after the midterms. Netanyahu separately wants a New York meeting with Trump but none is yet scheduled. Brent extended its pullback to $103.21 Friday, down a third straight session.",
      "change_type": "advanced"
+    },
+    {
+     "date": "2026-09-20",
+     "summary": "No new developments over the weekend; the Tuesday Gulf-leaders summit is now two days away, proceeding on its postwar-planning timeline while the separate Houthi-Saudi front escalates toward Riyadh.",
+     "change_type": "watch"
     }
    ]
   },
@@ -765,9 +815,9 @@
    "title": "Federal Reserve rate path",
    "topic": "markets",
    "status": "active",
-   "last_updated": "2026-09-19",
-   "updates": 64,
-   "current_state": "The post-hike selloff's reversal held through Friday's close: S&P 500 +1.1% to 7,637.76, Nasdaq +1.7% to 26,418.30, 10-year steady near 4.94%. CME FedWatch odds for the October 27-28 meeting settled the week at 59.5% hold versus 40.1% hike -- stable from Thursday, and still a real gap against the Fed's own dot plot (16 of 18 officials projecting at least one more 2026 hike).",
+   "last_updated": "2026-09-20",
+   "updates": 65,
+   "current_state": "Friday's actual close was more modest than initially reported: S&P 500 +0.2% to 7,650.50, Nasdaq +0.4% to 26,522.55, Dow -0.2% to 51,682.64, with the 10-year backing up to 5.00% after easing to about 4.94% Thursday. October 27-28 odds reversed over the weekend to 57.6% hike / 42.4% hold (CME), from a ~59.5% hold reading Thursday-Friday -- the third distinct 'settled' odds reading inside one week.",
    "timeline": [
     {
      "date": "2026-07-18",
@@ -951,12 +1001,12 @@
     },
     {
      "date": "2026-08-22",
-     "summary": "Friday's confirmed close rebounded across the board: S&P +0.43% to 7,674.37, Dow +0.98% (+517.80 pts) to 53,277.01, Nasdaq +0.43% to 26,180.45, led less by any economic data than by a crypto rally (bitcoin +7% to roughly $76,900, +22% on the week) that lifted Robinhood and Coinbase alongside the broader tape. The 10-year held steady near 4.71%. Despite the bounce, all three indices still closed lower for the week (S&P -1.4%, Nasdaq -2.1%, Dow -0.9%) after Thursday's Walmart-driven selloff. September FOMC hold odds sit near 68% (32% hike) on CME FedWatch, essentially unchanged from Thursday — new Fed Chair Kevin Warsh (confirmed May 13, sworn in May 22) delivers his first Jackson Hole keynote as chair next Friday, Aug. 28.",
+     "summary": "Friday's confirmed close rebounded across the board: S&P +0.43% to 7,674.37, Dow +0.98% (+517.80 pts) to 53,277.01, Nasdaq +0.43% to 26,180.45, led less by any economic data than by a crypto rally (bitcoin +7% to roughly $76,900, +22% on the week) that lifted Robinhood and Coinbase alongside the broader tape. The 10-year held steady near 4.71%. Despite the bounce, all three indices still closed lower for the week (S&P -1.4%, Nasdaq -2.1%, Dow -0.9%) after Thursday's Walmart-driven selloff. September FOMC hold odds sit near 68% (32% hike) on CME FedWatch, essentially unchanged from Thursday \u2014 new Fed Chair Kevin Warsh (confirmed May 13, sworn in May 22) delivers his first Jackson Hole keynote as chair next Friday, Aug. 28.",
      "change_type": "improved"
     },
     {
      "date": "2026-08-24",
-     "summary": "Monday premarket points softer: Dow futures down about 11 points, S&P and Nasdaq-100 futures off 0.1% and 0.5%, tech leading declines (XLK -1%) after last week's second straight losing week for the Dow. September FOMC hold odds essentially unchanged near 68%. The week ahead: Nvidia earnings and the Jackson Hole Economic Policy Symposium, which opens Thursday Aug. 27 with Fed Chair Kevin Warsh's first keynote as chair Friday at 10am ET — 19 days before the Sept. 16 decision.",
+     "summary": "Monday premarket points softer: Dow futures down about 11 points, S&P and Nasdaq-100 futures off 0.1% and 0.5%, tech leading declines (XLK -1%) after last week's second straight losing week for the Dow. September FOMC hold odds essentially unchanged near 68%. The week ahead: Nvidia earnings and the Jackson Hole Economic Policy Symposium, which opens Thursday Aug. 27 with Fed Chair Kevin Warsh's first keynote as chair Friday at 10am ET \u2014 19 days before the Sept. 16 decision.",
      "change_type": "watch"
     },
     {
@@ -1088,6 +1138,11 @@
      "date": "2026-09-19",
      "summary": "Friday's confirmed close held the rebound: S&P 500 +1.1% to 7,637.76, Nasdaq +1.7% to 26,418.30, 10-year holding near 4.94%. CME FedWatch settled the week at 59.5% odds of an October 27-28 hold versus 40.1% for another 25bp hike (and a residual 0.5% for a larger move) -- essentially unchanged from Thursday, meaning the market's break from the Fed's own hawkish dot plot held through the end of the week rather than fading.",
      "change_type": "watch"
+    },
+    {
+     "date": "2026-09-20",
+     "summary": "Friday's close confirmed as a modest 0.2%/0.4% gain (not a repeat of Thursday's 1.1%/1.7% rebound), 10-year back to 5.00%; by Saturday, CME FedWatch/Polymarket/Kalshi all reversed back toward a hike (57.6%/56%/54%) from Thursday-Friday's lean toward a hold.",
+     "change_type": "reversed"
     }
    ]
   },
@@ -1297,17 +1352,17 @@
     },
     {
      "date": "2026-08-22",
-     "summary": "Miami beat Washington 3-2 in a Friday-night walk-off: Agustin Ramirez led off the 9th with a walk, a throwing error on an Esteury Ruiz infield hit put runners on 2nd and 3rd, Jakob Marsee was intentionally walked, and Javier Sanoja singled home the winner — Miami's sixth straight win over the Nationals. The Marlins improve to 65-64, back over .500. Chicago, Philadelphia, and San Diego now hold the three NL wild-card spots, with Arizona about a game back of the cutline and Miami bunched with St. Louis, Cincinnati, and Pittsburgh further behind. Miami hosts Washington again today at 4:10pm (Eury Perez vs. Jake Irvin), with Sunday's finale set (Janson Junk vs. Jackson Kent).",
+     "summary": "Miami beat Washington 3-2 in a Friday-night walk-off: Agustin Ramirez led off the 9th with a walk, a throwing error on an Esteury Ruiz infield hit put runners on 2nd and 3rd, Jakob Marsee was intentionally walked, and Javier Sanoja singled home the winner \u2014 Miami's sixth straight win over the Nationals. The Marlins improve to 65-64, back over .500. Chicago, Philadelphia, and San Diego now hold the three NL wild-card spots, with Arizona about a game back of the cutline and Miami bunched with St. Louis, Cincinnati, and Pittsburgh further behind. Miami hosts Washington again today at 4:10pm (Eury Perez vs. Jake Irvin), with Sunday's finale set (Janson Junk vs. Jackson Kent).",
      "change_type": "improved"
     },
     {
      "date": "2026-08-23",
-     "summary": "Miami beat Washington 4-2 Saturday on solo home runs from Heriberto Hernandez and Jakob Marsee, with Eury Perez working five innings — the Marlins' seventh straight win over the Nationals, improving to 66-64. Sunday's finale (Janson Junk vs. Jackson Kent) closes the series this afternoon.",
+     "summary": "Miami beat Washington 4-2 Saturday on solo home runs from Heriberto Hernandez and Jakob Marsee, with Eury Perez working five innings \u2014 the Marlins' seventh straight win over the Nationals, improving to 66-64. Sunday's finale (Janson Junk vs. Jackson Kent) closes the series this afternoon.",
      "change_type": "improved"
     },
     {
      "date": "2026-08-24",
-     "summary": "Miami completed the sweep of Washington Sunday, 6-2, on Xavier Edwards' go-ahead two-run single, improving to 67-64 — eight straight wins over the Nationals. But the sweep didn't close the gap much: models now give Miami roughly 7.6% playoff odds, about four games behind San Diego for the final NL wild-card spot, with Chicago, Philadelphia, and San Diego holding the three spots and Arizona a game back of the cutline.",
+     "summary": "Miami completed the sweep of Washington Sunday, 6-2, on Xavier Edwards' go-ahead two-run single, improving to 67-64 \u2014 eight straight wins over the Nationals. But the sweep didn't close the gap much: models now give Miami roughly 7.6% playoff odds, about four games behind San Diego for the final NL wild-card spot, with Chicago, Philadelphia, and San Diego holding the three spots and Arizona a game back of the cutline.",
      "change_type": "advanced"
     },
     {
@@ -1458,9 +1513,9 @@
    "title": "Dolphins rebuild under Hafley",
    "topic": "sports",
    "status": "active",
-   "last_updated": "2026-09-18",
-   "updates": 46,
-   "current_state": "Miami opened its season with a 27-13 loss at Las Vegas (Willis passing for 220 yards with an interception and a rushing touchdown, sacked five times). Miami now travels to face San Francisco Sunday (4:25pm ET, Fox) as a roughly 13 to 13.5-point underdog; rookie S Kyle Louis is out (MCL), and Willis has a toe injury but is expected to play.",
+   "last_updated": "2026-09-20",
+   "updates": 47,
+   "current_state": "Miami plays at San Francisco today (4:25pm ET), a 13.5-point underdog, chasing its first win after an opening 27-13 loss. The Dolphins carry the NFL's youngest roster (25.5 average age) and a league-high 13 rookies; rookie WR Caleb Douglas led all NFL rookies with 94 receiving yards in Week 1. San Francisco is 1-0 after a 27-7 win over the Rams.",
    "timeline": [
     {
      "date": "2026-07-18",
@@ -1609,12 +1664,12 @@
     },
     {
      "date": "2026-08-22",
-     "summary": "Miami hosts the Giants today at 4pm at Hard Rock Stadium in the second preseason game of Hafley's tenure, after Thursday's joint practice turned openly hostile — RT Austin Jackson was ejected for throwing a punch (he returned for the final 11-on-11 period) and Giants LB Abdul Carter took a swing at LT Patrick Paul after losing a rep; Hafley said postgame he'd be disappointed to see more fighting and that it isn't a sign of toughness. Rookie WR Chris Bell, activated off the non-football-injury list last week, will not play today — Hafley called him week-to-week in his ACL recovery, with hope he's ready for the regular season. DT Zach Sieler is expected to be ready for the opener; DT Kenneth Grant is week-to-week and sitting out the rest of this week.",
+     "summary": "Miami hosts the Giants today at 4pm at Hard Rock Stadium in the second preseason game of Hafley's tenure, after Thursday's joint practice turned openly hostile \u2014 RT Austin Jackson was ejected for throwing a punch (he returned for the final 11-on-11 period) and Giants LB Abdul Carter took a swing at LT Patrick Paul after losing a rep; Hafley said postgame he'd be disappointed to see more fighting and that it isn't a sign of toughness. Rookie WR Chris Bell, activated off the non-football-injury list last week, will not play today \u2014 Hafley called him week-to-week in his ACL recovery, with hope he's ready for the regular season. DT Zach Sieler is expected to be ready for the opener; DT Kenneth Grant is week-to-week and sitting out the rest of this week.",
      "change_type": "advanced"
     },
     {
      "date": "2026-08-23",
-     "summary": "The Giants routed Miami 26-3 Saturday at Hard Rock Stadium — Jameis Winston threw for 150 yards and ran for a touchdown in the first half. Chris Bell (ACL) did not play, still week-to-week per Hafley.",
+     "summary": "The Giants routed Miami 26-3 Saturday at Hard Rock Stadium \u2014 Jameis Winston threw for 150 yards and ran for a touchdown in the first half. Chris Bell (ACL) did not play, still week-to-week per Hafley.",
      "change_type": "worsened"
     },
     {
@@ -1691,6 +1746,11 @@
      "date": "2026-09-18",
      "summary": "Ahead of Sunday's game at San Francisco (4:25pm ET, Fox), Miami is a roughly 13 to 13.5-point underdog. Rookie safety Kyle Louis is out with an MCL sprain from the opener, long snapper Tucker Addington is dealing with a shoulder injury, and quarterback Malik Willis -- starting since the Vegas opener -- has a toe injury but returned to full practice Wednesday and is expected to play.",
      "change_type": "watch"
+    },
+    {
+     "date": "2026-09-20",
+     "summary": "Week 2 at San Francisco, 13.5-point underdogs, chasing the first win of the Hafley era after an opening loss.",
+     "change_type": "watch"
     }
    ]
   },
@@ -1699,9 +1759,9 @@
    "title": "Miami Hurricanes fall camp and the Mensah era",
    "topic": "sports",
    "status": "active",
-   "last_updated": "2026-09-19",
-   "updates": 19,
-   "current_state": "Miami passed its first real test, beating Wake Forest 33-20 on the road despite missing four defensive starters. Darian Mensah set ACC records for consecutive completions (24 to start the game, 30 across games) and finished 30-of-34 for 220 yards and three touchdowns with no interceptions; through three games he's 71-of-79 for 873 yards and 11 touchdowns. Miami is 3-0; next test not yet scheduled in this thread's tracking window.",
+   "last_updated": "2026-09-20",
+   "updates": 20,
+   "current_state": "Miami is 3-0 after beating Wake Forest 33-20, with Darian Mensah setting two ACC records (24 straight completions to start the game, 30 across games); he's 71-of-79 for 873 yards and 11 touchdowns through three games. Next game: Saturday, September 26, at home against Central Michigan, giving the team a full preparation week.",
    "timeline": [
     {
      "date": "2026-08-14",
@@ -1730,7 +1790,7 @@
     },
     {
      "date": "2026-08-21",
-     "summary": "Friday's second scrimmage at Hard Rock Stadium was a closer back-and-forth than the first — the offense reportedly had the better of the work this time, a reversal from scrimmage one, where the defense had the upper hand. Cristobal called it good, competitive work with two weeks left before the Sept. 4 opener at Stanford.",
+     "summary": "Friday's second scrimmage at Hard Rock Stadium was a closer back-and-forth than the first \u2014 the offense reportedly had the better of the work this time, a reversal from scrimmage one, where the defense had the upper hand. Cristobal called it good, competitive work with two weeks left before the Sept. 4 opener at Stanford.",
      "change_type": "advanced"
     },
     {
@@ -1797,6 +1857,11 @@
      "date": "2026-09-19",
      "summary": "Miami beat Wake Forest 33-20 on the road Friday night, its first real test of the season. Darian Mensah completed his first 24 passes -- an ACC single-game record -- and set the conference's multi-game consecutive-completions record at 30 before his first incompletion, with 3:18 left in the third quarter; he finished 30-of-34 for 220 yards and three touchdowns with no interceptions. Through three games he's 71-of-79 for 873 yards and 11 touchdowns. Miami is 3-0.",
      "change_type": "resolved"
+    },
+    {
+     "date": "2026-09-20",
+     "summary": "Confirmed next opponent and date: Central Michigan, Saturday September 26, at home -- a preparation week following the 3-0 start.",
+     "change_type": "advanced"
     }
    ]
   },
@@ -1871,12 +1936,12 @@
     },
     {
      "date": "2026-08-22",
-     "summary": "Burgers & Shakes opened a second South Florida location Aug. 4 inside the historic 1954 General Tire Building in the MiMo Historic District — designed by architect Robert Law Weed, most recently home to Andiamo Brick Oven Pizza, which closed after 23 years. Separately, Medium Cool, the jazz lounge beneath the Gale Hotel on Collins Avenue, plays its final night tonight after nearly four years, with nightly live jazz through 10pm; the team says it's searching for a new Miami home rather than closing for good.",
+     "summary": "Burgers & Shakes opened a second South Florida location Aug. 4 inside the historic 1954 General Tire Building in the MiMo Historic District \u2014 designed by architect Robert Law Weed, most recently home to Andiamo Brick Oven Pizza, which closed after 23 years. Separately, Medium Cool, the jazz lounge beneath the Gale Hotel on Collins Avenue, plays its final night tonight after nearly four years, with nightly live jazz through 10pm; the team says it's searching for a new Miami home rather than closing for good.",
      "change_type": "advanced"
     },
     {
      "date": "2026-08-24",
-     "summary": "Medium Cool's Yelp listing now shows a new address — 1690 Collins Ave, Miami Beach, a few blocks from its old Gale Hotel home — with hours Wed-Sun 7pm-3am (4am Fri/Sat), suggesting the jazz lounge didn't stay dark long after Saturday's farewell night. Not yet confirmed by press coverage.",
+     "summary": "Medium Cool's Yelp listing now shows a new address \u2014 1690 Collins Ave, Miami Beach, a few blocks from its old Gale Hotel home \u2014 with hours Wed-Sun 7pm-3am (4am Fri/Sat), suggesting the jazz lounge didn't stay dark long after Saturday's farewell night. Not yet confirmed by press coverage.",
      "change_type": "watch"
     },
     {
@@ -2053,7 +2118,7 @@
     },
     {
      "date": "2026-08-22",
-     "summary": "This week's South Florida deal sheet (The Real Deal, published Aug. 21) adds a 155,000-sq-ft industrial building at 11900-11905 SW 128th St, sold for $24.5 million, and a new-construction, 10,500-sq-ft waterfront mansion at 270 South Hibiscus Drive, Miami Beach, which sold for $50 million — both landing on top of last week's North Bay Road and 1200 Washington Avenue trades.",
+     "summary": "This week's South Florida deal sheet (The Real Deal, published Aug. 21) adds a 155,000-sq-ft industrial building at 11900-11905 SW 128th St, sold for $24.5 million, and a new-construction, 10,500-sq-ft waterfront mansion at 270 South Hibiscus Drive, Miami Beach, which sold for $50 million \u2014 both landing on top of last week's North Bay Road and 1200 Washington Avenue trades.",
      "change_type": "advanced"
     },
     {
@@ -2226,9 +2291,9 @@
    "title": "Heat's 2026-27 season takes shape",
    "topic": "sports",
    "status": "active",
-   "last_updated": "2026-09-13",
-   "updates": 5,
-   "current_state": "Giannis skipped Greece's FIBA World Cup qualifiers this week to join an informal, players-organized minicamp with Klay Thompson, Bam Adebayo, and the rest of Miami's retooled roster (Bobby Portis, Tim Hardaway Jr.) -- early, voluntary work ahead of official training camp, which opens September 29 at Kaseya Center before the preseason opener October 3 in Quebec City.",
+   "last_updated": "2026-09-20",
+   "updates": 6,
+   "current_state": "Klay Thompson signed a two-year, $13M deal (player option year two) and is officially a Heat player -- he's landed in South Florida, met the media at Kaseya Center, and was already practicing there within two days of arriving. Training camp opens September 29.",
    "timeline": [
     {
      "date": "2026-08-22",
@@ -2237,7 +2302,7 @@
     },
     {
      "date": "2026-08-24",
-     "summary": "Thompson officially signed with Miami Sunday after clearing waivers — the deal finalized as two years, $11.5 million total, with a player option in year two and a 15% trade kicker, slightly below the ~$13M reported Friday.",
+     "summary": "Thompson officially signed with Miami Sunday after clearing waivers \u2014 the deal finalized as two years, $11.5 million total, with a player option in year two and a 15% trade kicker, slightly below the ~$13M reported Friday.",
      "change_type": "resolved"
     },
     {
@@ -2254,6 +2319,11 @@
      "date": "2026-09-13",
      "summary": "Giannis Antetokounmpo skipped Greece's FIBA World Cup qualifiers to join an informal, players-organized minicamp this week with Klay Thompson, Bam Adebayo, and other new pieces (Bobby Portis, Tim Hardaway Jr.) ahead of official training camp, which opens September 29 at Kaseya Center.",
      "change_type": "advanced"
+    },
+    {
+     "date": "2026-09-20",
+     "summary": "Klay Thompson officially signed and arrived in Miami, already practicing at Kaseya Center ahead of the September 29 training camp opening.",
+     "change_type": "new"
     }
    ]
   },
@@ -2262,9 +2332,9 @@
    "title": "Panthers' 2026-27 season takes shape",
    "topic": "sports",
    "status": "active",
-   "last_updated": "2026-09-19",
-   "updates": 10,
-   "current_state": "Camp is underway: Barkov is fully healthy, Tkachuk debuted as a Panther, and the goaltending tandem (Markstrom/Schmid) is set -- but leading scorer Brad Marchand is out until at least late October after offseason surgery and Jonah Gadjovich is out indefinitely. Today's free public Fan Fest at Baptist Health IcePlex preceded Sunday's preseason opener against defending champion Carolina.",
+   "last_updated": "2026-09-20",
+   "updates": 11,
+   "current_state": "Florida opens its four-game preseason tonight at home against defending Stanley Cup champion Carolina (7pm, Amerant Bank Arena), with a rematch in Raleigh Tuesday. Camp facts unchanged: Barkov healthy, Tkachuk debuted as a Panther, Markstrom/Schmid set in goal, Marchand out until late October, Gadjovich out indefinitely.",
    "timeline": [
     {
      "date": "2026-08-22",
@@ -2273,12 +2343,12 @@
     },
     {
      "date": "2026-08-23",
-     "summary": "Reporting puts Marchand's recovery at two or more months — the surgery kept him from playing in Zdeno Chara's Aug. 21 farewell charity game in Slovakia, which he'd planned to attend. An opener absence now looks more likely than not.",
+     "summary": "Reporting puts Marchand's recovery at two or more months \u2014 the surgery kept him from playing in Zdeno Chara's Aug. 21 farewell charity game in Slovakia, which he'd planned to attend. An opener absence now looks more likely than not.",
      "change_type": "worsened"
     },
     {
      "date": "2026-08-24",
-     "summary": "Recovery estimate sharpens from 'two or more months' to a concrete range: six to ten missed games, with an earliest possible return around mid-October — still addressing the hip and sports-hernia issue Marchand played through all of 2025-26, including the February Olympics.",
+     "summary": "Recovery estimate sharpens from 'two or more months' to a concrete range: six to ten missed games, with an earliest possible return around mid-October \u2014 still addressing the hip and sports-hernia issue Marchand played through all of 2025-26, including the February Olympics.",
      "change_type": "advanced"
     },
     {
@@ -2315,6 +2385,11 @@
      "date": "2026-09-19",
      "summary": "Free public Fan Fest ran today (Saturday, Sept 19) 10am-2pm at Baptist Health IcePlex in Fort Lauderdale, the last stop before Sunday's preseason opener against defending champion Carolina.",
      "change_type": "watch"
+    },
+    {
+     "date": "2026-09-20",
+     "summary": "Preseason opener tonight vs. Carolina at home, with a rematch in Raleigh Tuesday -- the first live look at the roster since camp opened.",
+     "change_type": "advanced"
     }
    ]
   },
@@ -2323,9 +2398,9 @@
    "title": "Virginia Key's second marina referendum",
    "topic": "miami",
    "status": "active",
-   "last_updated": "2026-09-18",
-   "updates": 3,
-   "current_state": "The legal challenge to the $80 million, 45-year Rickenbacker/Marine Stadium marina lease (Virginia Key LLC -- RCI Marine Group and Suntex Marinas) was dismissed in August with no further obstruction reported; mail ballots for the November 3 referendum go out the week of September 21.",
+   "last_updated": "2026-09-20",
+   "updates": 4,
+   "current_state": "A Miami-Dade circuit judge rejected the legal challenge to block the referendum (the underlying suit continues, with a trial date in September 2027, but the election proceeds). Miami voters decide November 3 whether to lease about 27.6 acres to Virginia Key LLC (RCI Group + Suntex Marinas) for an $80 million redevelopment of the Rickenbacker and Marine Stadium marinas: a 45-year initial lease with two 15-year renewals, $2.2M minimum annual rent escalating to roughly $204M over the term, plus 6% of gross revenue.",
    "timeline": [
     {
      "date": "2026-08-25",
@@ -2341,6 +2416,11 @@
      "date": "2026-09-18",
      "summary": "Mail ballots for the November 3 referendum are set to go out the week of September 21; no further legal or campaign developments have surfaced since the August court ruling that kept the measure on the ballot.",
      "change_type": "watch"
+    },
+    {
+     "date": "2026-09-20",
+     "summary": "A judge rejected the operator's lawsuit seeking to block the referendum; the November 3 vote and full lease terms ($80M redevelopment, 45-year term, ~$204M total minimum rent) are now confirmed.",
+     "change_type": "advanced"
     }
    ]
   },
@@ -2436,9 +2516,9 @@
    "title": "Houthi capture of Yemen's Red Sea coast and the Bab el-Mandeb strait",
    "topic": "markets",
    "status": "active",
-   "last_updated": "2026-09-19",
-   "updates": 5,
-   "current_state": "The UN Security Council has now formally condemned the Houthis' attacks on Saudi Arabia and demanded an immediate halt, after direct cross-border strikes hit Yanbu's oil port and a Saudi airbase this week. UN OCHA verified 55 civilian casualties in 19 incidents since early September and estimates roughly 125,000 people displaced; the Saudi-backed government claims about 150 Houthi-caused civilian deaths since September 3, while Houthis claim Saudi Arabia struck them 300 times in the past week -- verified and claimed figures now diverge sharply, and international bodies are weighing in on this front for the first time.",
+   "last_updated": "2026-09-20",
+   "updates": 6,
+   "current_state": "Saudi Arabia said a Houthi ballistic missile aimed at Riyadh was intercepted early Saturday -- the first time the Saudi capital itself has been targeted on this front -- alongside an unexplained fire at Riyadh's King Khalid International Airport. The week also saw Wednesday's attempted drone strike on Mecca (intercepted, called a 'red line') and Thursday's first confirmed civilian casualty, when debris from an intercepted drone killed a Yemeni resident of Saudi Arabia. Ground fighting continues in Marib, Taiz, and Lahj.",
    "timeline": [
     {
      "date": "2026-09-14",
@@ -2464,6 +2544,11 @@
      "date": "2026-09-19",
      "summary": "The UN Security Council formally condemned the Houthis' attacks on Saudi Arabia, citing civilian casualties and damage to energy infrastructure, and demanded an immediate halt. UN OCHA verified 55 civilian casualties in 19 incidents since early September across Taiz, Al Hodeidah, Marib, and Lahj governorates, and says roughly 125,000 people have been displaced by the fighting. The Saudi-backed Yemeni government's health ministry claims the Houthis have killed about 150 civilians since September 3; Houthis counter-claim Saudi Arabia carried out 26 strikes in 24 hours and roughly 300 over the past week. The verified and claimed numbers diverge sharply.",
      "change_type": "worsened"
+    },
+    {
+     "date": "2026-09-20",
+     "summary": "Saudi Arabia reports an intercepted Houthi ballistic missile aimed directly at Riyadh (first time the capital has been targeted) plus an unexplained fire at Riyadh's main airport; catching up, Wednesday brought an attempted Mecca drone strike and Thursday the conflict's first confirmed civilian death.",
+     "change_type": "worsened"
     }
    ]
   }
@@ -2487,7 +2572,7 @@
   }
  ],
  "meta": {
-  "content_freshness": "2026-09-19T09:30:00-04:00",
+  "content_freshness": "Generated 2026-09-20T09:30:00-04:00, weekly edition covering Sept 14-20, 2026",
   "feedback_endpoint_mode": "github_contents",
   "minimum_client_schema_version": 1,
   "mode": "brain"
