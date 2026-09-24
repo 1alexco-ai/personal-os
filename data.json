@@ -1,261 +1,217 @@
 {
   "schema_version": 2,
   "edition": {
-    "id": "2026-09-23",
-    "date": "2026-09-23",
+    "id": "2026-09-24",
+    "date": "2026-09-24",
     "type": "weekday",
-    "generated_at": "2026-09-23T09:30:00-04:00",
+    "generated_at": "2026-09-24T09:30:00-04:00",
     "timezone": "America/New_York",
     "title": "Personal OS",
     "front_page_letter": {
       "greeting": "Good morning",
       "body_paragraphs": [
-        "Trump came out of Tuesday's Gulf-leaders summit talking momentum, not strikes. “A lot of momentum” toward an Iran deal, he told reporters, with the stated goal now to isolate Iran financially rather than escalate militarily -- the clearest public tilt yet among the three options he laid out publicly this week. Brent extended its slide to roughly $98.40, its first close under $100 in about two weeks, while stocks mostly shrugged: the S&P was flat Tuesday even as the Nasdaq set a fresh record.",
-        "The bigger story arriving today might be the one nobody's calling breaking news: Xi Jinping lands in Washington this afternoon for his first White House visit in eleven years, with a full state dinner tomorrow. It matters more than the pageantry suggests -- Treasury has spent five weeks explicitly declining to sanction the Chinese banks that move most of Iran's oil, citing this exact visit as the reason to hold back. Tomorrow is the first real test of whether that restraint survives contact with the actual visit.",
-        "Closer to the ground: the Panthers lost the “real test” game everyone was building up, 3-2 in a shootout to Carolina's younger roster -- a fine reminder that preview copy, including yesterday's, doesn't always hold up once the puck actually drops."
+        "Yesterday's edition described Tuesday's close as a “quiet holding pattern” -- markets digesting Gulf-summit optimism without any real move in the Fed question. That held for exactly one day. Wednesday reversed it in a single session: hot PMI data, rising input costs, and hawkish comments from Fed Governor Michael Barr sent the 10-year Treasury to 5.11%, its highest close since July 2007, and pushed October rate-hike odds from Sunday's roughly 60% toward 70%. The S&P fell 0.75%, the Nasdaq dropped 1.13% and gave back Tuesday's record, and Brent crude jumped 3.8% to $103 -- ending its own five-day slide. None of it was really about Iran.",
+        "The bigger news is happening in Washington regardless of what markets do with it: Xi Jinping's actual White House day arrives today, with a South Lawn arrival ceremony this morning -- 479 troops, a B-2 flyover -- and a state dinner tonight stacked with tech's biggest names. Trade, AI, critical minerals, and a pending $14 billion Taiwan arms package are all reportedly on the table. It's also the real test of something this edition has tracked for five weeks: whether Washington's restraint on sanctioning the Chinese banks that move Iranian oil survives the visit it was built around.",
+        "Smaller, and worth the two minutes: 2,600 years ago, someone in Etruscan Italy sealed a chariot, its weapons, and its owner's gold into a stone chamber at Vulci, and nobody touched it again until this month. Tonight's reading leans that direction -- less noise, longer memory."
       ],
       "read_only_three": [
         {
           "target_type": "theme",
-          "target_id": "theme-trump-gulf-summit-iran-momentum",
-          "label": "Trump leaves the Gulf summit talking momentum, not strikes"
+          "target_id": "theme-markets-fed-hike-odds-surge",
+          "label": "Rate-hike odds jump to ~70% as yields hit a 19-year high"
         },
         {
           "target_type": "theme",
-          "target_id": "theme-xi-jinping-state-visit-begins",
-          "label": "Xi Jinping lands in Washington -- his first visit in 11 years"
+          "target_id": "theme-xi-jinping-us-china-visit",
+          "label": "Xi Jinping's state visit reaches its formal centerpiece today"
         },
         {
           "target_type": "theme",
-          "target_id": "theme-panthers-lose-shootout-hurricanes",
-          "label": "Panthers lose the real test, 3-2 in a shootout"
+          "target_id": "theme-etruscan-tomb-vulci-discovery",
+          "label": "A 2,600-year-old tomb, sealed since the Etruscans"
         }
       ]
     },
     "market_context": [
       {
         "label": "S&P 500",
-        "value": "7,764.64",
-        "change": "-0.06 pts Tuesday, essentially flat",
-        "observed": "Tuesday close, September 22, 2026",
-        "note": "Third straight session near unchanged for the S&P even as the Nasdaq set a fresh record."
+        "value": "7,706.39",
+        "change": "-58.25 pts Wednesday, -0.75%",
+        "observed": "Wednesday close, September 23, 2026",
+        "note": "Snapped the week's calm as hot inflation data replaced diplomacy as the market's focus."
       },
       {
         "label": "Nasdaq Composite",
-        "value": "27,244.28",
-        "change": "+0.5% Tuesday, a fresh record close",
-        "observed": "Tuesday close, September 22, 2026",
-        "note": "Tech-led gains extended the AI trade even as the Dow fell 0.4%."
+        "value": "26,936.04",
+        "change": "-308.24 pts Wednesday, -1.13%",
+        "observed": "Wednesday close, September 23, 2026",
+        "note": "Gave back Tuesday's fresh record close in a single session."
       },
       {
         "label": "10Y Treasury",
-        "value": "~4.93%",
-        "change": "Eased further from Monday's ~4.95%",
-        "observed": "Tuesday, September 22, 2026",
-        "note": "Third straight pullback since crossing 5% for the first time since 2007 last Tuesday."
+        "value": "5.11%",
+        "change": "Spiked from Tuesday's ~4.93%, briefly touching 5.14% intraday",
+        "observed": "Wednesday, September 23, 2026",
+        "note": "Highest close since July 2007 -- the biggest one-day move in nearly 18 months."
       },
       {
         "label": "FOMC (October 28)",
-        "value": "~59.7% odds of a hike (CME, last confirmed Sunday)",
-        "change": "No fresher CME print available; Polymarket steady near 53-54%",
-        "observed": "As of Sunday, September 20 (CME); Tuesday, September 22 (Polymarket)",
-        "note": "Odds essentially unchanged for a third straight day -- markets have priced the summit optimism without any real move in the actual rate question."
+        "value": "~66-73% odds of a hike (CME FedWatch, trackers diverge)",
+        "change": "Jumped sharply from Sunday's ~59.7%",
+        "observed": "Wednesday, September 23, 2026",
+        "note": "Driven by hawkish comments from Fed Governor Barr and hot September PMI data -- a hike is now the base case, not a coin flip."
       },
       {
         "label": "Brent crude",
-        "value": "$98.40",
-        "change": "Extended Monday's 3.4% drop with a further decline Tuesday",
-        "observed": "Tuesday close, September 22, 2026",
-        "note": "First close below $100 in about two weeks, tracking the diplomatic opening at the Gulf summit."
+        "value": "$103.08",
+        "change": "+3.8% Wednesday, snapping a five-session decline",
+        "observed": "Wednesday close, September 23, 2026",
+        "note": "Reversed the Gulf-summit-driven slide in one session as inflation data, not diplomacy, took over as the market's driver."
       }
     ],
     "public_day_context": {
-      "date_label": "Wednesday, September 23, 2026",
-      "weather": "High near 88, low near 79, with afternoon storms likely through Friday -- typical late-September pattern. The equinox tipped over at 8:05pm ET last night, so today is Miami's first full day of astronomical fall.",
-      "public_event": "Xi Jinping arrives in Washington today ahead of tomorrow's formal White House state visit -- his first in 11 years. Locally, the Hurricanes are off until Saturday's home opener against Central Michigan (6:30pm, Hard Rock Stadium), and Heat training camp opens September 29."
+      "date_label": "Thursday, September 24, 2026",
+      "weather": "High near 89, low near 75, with a 60% chance of afternoon showers or storms -- typical late-September South Florida weather continuing through the week.",
+      "public_event": "Xi Jinping's formal White House state visit reaches its centerpiece today: a South Lawn State Arrival Ceremony this morning and a state dinner tonight. Locally, the Hurricanes are off until Saturday's home opener against Central Michigan (6:30pm, Hard Rock Stadium), the Dolphins host the Chiefs Sunday at 1pm, and Heat training camp opens September 29."
     },
     "what_changed": [
       {
-        "id": "delta-trump-gulf-summit-momentum",
-        "thread_id": "thread-iran-hormuz-crisis",
-        "change_type": "advanced",
-        "title": "Trump says there's 'a lot of momentum' for an Iran deal after meeting Gulf leaders",
-        "previous_state": "Yesterday's edition covered only the called-off Houthi strike and the approaching summit, with Trump's actual posture still an open question between three stated options: annihilate the regime, strangle it economically, or make a deal.",
-        "current_state": "After Tuesday's Gulf-leaders summit in New York, Trump told reporters there's 'a lot of momentum' toward an Iran deal and said Washington's goal is to 'completely isolate Iran financially' -- the clearest public tilt yet toward the deal-making option, even with nothing signed.",
-        "why_it_matters": "The clearest signal yet of which of Trump's three stated paths he's actually leaning toward, even if only in public language so far.",
-        "confidence": "high",
-        "source": {
-          "publisher": "CNN",
-          "url": "https://www.cnn.com/2026/09/22/middleeast/gulf-leaders-trump-fear-more-war-less-protection-intl"
-        }
-      },
-      {
-        "id": "delta-xi-jinping-visit-begins",
-        "thread_id": "thread-xi-jinping-us-china-visit",
-        "change_type": "new",
-        "title": "Xi Jinping arrives in Washington for his first White House visit in 11 years",
-        "previous_state": "Not previously tracked in this edition.",
-        "current_state": "Xi and First Lady Peng Liyuan land at Andrews Air Force Base today ahead of tomorrow's state arrival ceremony and dinner, and a Friday visit to the National Archives -- Xi's first Washington visit since 2015.",
-        "why_it_matters": "The visit lands exactly as Washington's own Iran-sanctions campaign has spent five weeks explicitly holding off on the Chinese banks that move most of Tehran's oil, citing this visit as the reason for restraint.",
-        "confidence": "high",
-        "source": {
-          "publisher": "The White House",
-          "url": "https://www.whitehouse.gov/briefings-statements/2026/09/first-lady-melania-trump-releases-details-ahead-of-his-excellency-xi-jinping-president-of-the-peoples-republic-of-china-and-madame-peng-liyuans-visit-to-the-white-house/"
-        }
-      },
-      {
-        "id": "delta-panthers-lose-shootout",
-        "thread_id": "thread-panthers-2026-27-season",
-        "change_type": "reversed",
-        "title": "Panthers lost the 'real test' -- 3-2 in a shootout to Carolina",
-        "previous_state": "Yesterday's edition previewed tonight's Raleigh rematch as the more informative of the two preseason meetings, with Florida expected to look like its actual Opening Night lineup.",
-        "current_state": "Carolina won 3-2 in a shootout at Lenovo Center: Tkachuk opened the scoring for Florida, Barkov answered 18 seconds after Carolina tied it, but Florida's two shootout attempts were stopped while Carolina converted twice.",
-        "why_it_matters": "A genuinely competitive game against Carolina's younger lineup, not a statement result -- and a reminder that preview framing (including yesterday's) doesn't always hold up.",
-        "confidence": "high",
-        "source": {
-          "publisher": "ESPN",
-          "url": "https://www.espn.com/nhl/game/_/gameId/401879933"
-        }
-      },
-      {
-        "id": "delta-nasdaq-record-fed-odds-steady",
+        "id": "delta-fed-hike-odds-surge",
         "thread_id": "thread-fed-rate-path",
-        "change_type": "advanced",
-        "title": "Nasdaq set a fresh record Tuesday while Fed odds held almost perfectly still",
-        "previous_state": "Monday's close: S&P +1.49% to 7,764.70, Nasdaq +2.26% to 27,122.09 -- both best days since early August, as a risk-off unwind followed the Iran diplomacy news.",
-        "current_state": "Tuesday: S&P essentially flat at 7,764.64, Nasdaq +0.5% to a fresh record 27,244.28, 10-year eased further to about 4.93%. October 28 FOMC odds are essentially unchanged for a third straight day: CME's last confirmed read is still Sunday's 59.7%, Polymarket near 53-54%.",
-        "why_it_matters": "Markets have now digested the summit optimism without any real move in what actually matters for October 28 -- the rate question is exactly where it was Sunday.",
+        "change_type": "reversed",
+        "title": "Rate-hike odds jump to roughly 70% as yields hit a 19-year high",
+        "previous_state": "Tuesday's close left markets in a genuine holding pattern -- flat S&P, a record Nasdaq, and October 28 hike odds essentially unchanged for a third straight day near 59.7%.",
+        "current_state": "Wednesday reversed all of it: hot PMI data, a jump in firms' input costs, and hawkish comments from Fed Governor Michael Barr sent the 10-year to 5.11% (its highest close since July 2007) and pushed October hike odds to roughly 66-73% on CME FedWatch, while the S&P fell 0.75% and the Nasdaq dropped 1.13%, snapping its record streak.",
+        "why_it_matters": "The 'quiet holding pattern' framing from yesterday's edition didn't survive one trading session -- a hike is now the market's base case, not a toss-up.",
         "confidence": "high",
         "source": {
-          "publisher": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-september-22-nasdaq-dow-sp-500-080625961.html"
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/23/treasury-yields-oil-inflation-fed.html"
         }
       },
       {
-        "id": "delta-virginia-key-referendum-opposition",
-        "thread_id": "thread-virginia-key-marina-referendum",
-        "change_type": "new",
-        "title": "Organized opposition surfaces against the $80M Virginia Key marina lease",
-        "previous_state": "Not previously featured in this edition -- prior coverage stopped at August's court ruling clearing the measure for the November ballot.",
-        "current_state": "With the legal fight resolved and the November 3 referendum confirmed, the Miami-Dade Democratic Party is now urging a 'No' vote and environmental advocates are campaigning against the lease over Biscayne Bay impact -- the first organized political opposition since the ballot measure was cleared.",
-        "why_it_matters": "The debate has moved from courtroom to campaign, which is the real test of whether voters actually approve the lease in November.",
+        "id": "delta-oil-reverses-course",
+        "thread_id": "thread-iran-hormuz-crisis",
+        "change_type": "reversed",
+        "title": "Brent snaps its five-session slide, jumping back above $103",
+        "previous_state": "Brent had fallen for two straight sessions on Gulf-summit diplomacy, closing Tuesday near $98.40 -- its first sub-$100 close in about two weeks.",
+        "current_state": "Brent rose 3.8% Wednesday to $103.08 (WTI +1.8% to $92.16), driven less by anything Iran-specific and more by the same hot PMI and inflation data moving bond yields -- ending a five-day stretch of declines in a single session.",
+        "why_it_matters": "A reminder that oil's recent calm was about macro data as much as diplomacy -- the Gulf-summit optimism didn't actually reverse, it just got overwhelmed by a bigger story.",
+        "confidence": "high",
+        "source": {
+          "publisher": "NBC News",
+          "url": "https://www.nbcnews.com/business/energy/treasury-yields-oil-stocks-rcna599398"
+        }
+      },
+      {
+        "id": "delta-xi-arrival-ceremony",
+        "thread_id": "thread-xi-jinping-us-china-visit",
+        "change_type": "advanced",
+        "title": "Xi Jinping's state visit reaches its formal centerpiece today",
+        "previous_state": "Yesterday's edition tracked only Xi's arrival at Andrews Air Force Base and the visit's confirmed schedule, with the South Lawn ceremony and state dinner still ahead.",
+        "current_state": "Today brings the full state arrival ceremony -- 479 military personnel, a B-2 stealth bomber and F-22 flyover -- followed by tonight's state dinner, where trade, AI, critical minerals, Taiwan (a pending $14B US arms package Xi is expected to press Trump on) and the Iran war are all expected on the agenda; the guest list includes Musk, Bezos, Zuckerberg, Pichai, Huang, Altman, Cook and Citigroup's Jane Fraser.",
+        "why_it_matters": "The ceremony and dinner are the visit's real test of the five-week-old restraint on sanctioning the Chinese banks that move Iranian oil -- and the closest look yet at what Washington and Beijing actually want from each other.",
+        "confidence": "high",
+        "source": {
+          "publisher": "NPR",
+          "url": "https://www.npr.org/2026/09/23/nx-s1-5978733/trump-set-to-greet-xi-for-high-stakes-state-visit"
+        }
+      },
+      {
+        "id": "delta-miami-gta6-banners-approved",
+        "thread_id": "thread-miami-vice-city-gta6-pitch",
+        "change_type": "advanced",
+        "title": "Miami's downtown GTA VI banner ordinance clears, funding the Underdeck park",
+        "previous_state": "As of Monday, the city's banner ordinance had exact terms ($202K-$208K per banner) but remained unsigned, one of three separate Vice-City-branding efforts running in parallel.",
+        "current_state": "The Miami City Commission has approved Ordinance 19783, letting Rockstar rent up to six large banners in a defined downtown zone from October 15 through December 31 -- bracketing the game's November 19 launch -- with banner fees funding the 33-acre Underdeck park connecting Overtown to downtown.",
+        "why_it_matters": "The first of the three parallel Vice-City pitches (county branding, city banners, Miami Beach beach chairs) to actually get signed -- a small, concrete data point on how far a game launch can move real civic dollars.",
         "confidence": "medium",
         "source": {
-          "publisher": "Miami-Dade Democratic Party",
-          "url": "https://www.miamidadedems.org/virginia-key-marina-lease"
+          "publisher": "Hoodline",
+          "url": "https://hoodline.com/2026/09/miami-wants-rockstar-to-pay-202-000-a-banner-to-fund-underdeck-park/"
+        }
+      },
+      {
+        "id": "delta-virginia-key-rally",
+        "thread_id": "thread-virginia-key-marina-referendum",
+        "change_type": "advanced",
+        "title": "Save Gramps Getaway rally draws about 100 opponents of the marina lease",
+        "previous_state": "Yesterday's edition covered the Miami-Dade Democratic Party's 'No' recommendation and environmental advocates' opposition, without a public turnout event yet.",
+        "current_state": "About 100 people gathered Monday at Gramps Getaway on Virginia Key for a 'Save Gramps Getaway' rally against Referendum 3 -- the first visible public turnout in the campaign, six weeks before the November 3 vote.",
+        "why_it_matters": "Opposition moving from statements to an actual rally is a real signal of organizing capacity, not just position papers.",
+        "confidence": "medium",
+        "source": {
+          "publisher": "Miami New Times",
+          "url": "https://www.miaminewtimes.com/food-drink/miami-locals-rally-around-gramps-getaway-as-crucial-vote-nears-40587115/"
         }
       }
     ],
     "themes": [
       {
-        "id": "theme-trump-gulf-summit-iran-momentum",
+        "id": "theme-markets-fed-hike-odds-surge",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Trump leaves the Gulf summit talking momentum, not strikes",
-        "importance": 0.75,
-        "thesis": "A day after Gulf leaders arrived in New York worried about both more war and less US protection, Trump left the summit talking deal language rather than the annihilation option he floated Monday.",
-        "synthesis": "Tuesday's Gulf-leaders summit brought together the six GCC states plus officials from Jordan, Egypt, Turkey, Iraq, Lebanon and Syria for 'day-after' planning. Trump emerged saying there's 'a lot of momentum' toward an Iran deal and that the US aim is to 'completely isolate Iran financially' -- landing closer to the deal-making option than the annihilation one, at least in public language. Gulf leaders reportedly came in with two distinct fears: more war, and less US security backing over the long run. Brent fell further Tuesday to roughly $98.40, its first sub-$100 close in about two weeks.",
-        "new_today": "The summit's actual read-out -- Trump's 'momentum' language and the financial-isolation framing -- is new since yesterday's edition, which had only the called-off strike and the approaching summit date.",
-        "why_it_matters": "For Alex's markets read: this is the first time in two months the public rhetoric has moved toward de-escalation rather than a fresh threat, and oil has now fallen for two straight sessions on it.",
-        "thread_id": "thread-iran-hormuz-crisis",
+        "title": "Rate-hike odds jump to roughly 70% as yields hit their highest since 2007",
+        "importance": 0.8,
+        "thesis": "One session undid a week of calm: hot inflation data and hawkish Fed commentary sent yields to a 19-year high and made an October rate hike the market's base case.",
+        "synthesis": "Wednesday's S&P 500 fell 0.75% to 7,706.39 and the Nasdaq dropped 1.13% to 26,936.04, snapping Tuesday's record close. The 10-year Treasury spiked to 5.11% -- its highest close since July 2007, and the biggest one-day move in nearly 18 months -- after S&P Global's September PMI readings came in at multi-year highs (services 58.7, manufacturing 56.7) and firms reported their steepest jump in input costs in four years. Fed Governor Michael Barr added fuel, saying the Fed should 'act decisively' on rates if inflation doesn't cool. October 28 hike odds jumped from Sunday's ~59.7% to somewhere between 66% and 73% depending on the tracker. Brent crude added to the inflation story, rising 3.8% to $103.08 and snapping its own five-session decline.",
+        "new_today": "Wednesday's full closes, the PMI data, Barr's comments, and the sharp reversal in hike odds are all new since yesterday's edition, which described Tuesday as a 'holding pattern.'",
+        "why_it_matters": "For Alex's markets read: the 'nothing's really moving' narrative from earlier this week is dead. A hike on October 28 is now more likely than not by most measures, and it happened without any help from the Iran story.",
+        "thread_id": "thread-fed-rate-path",
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "CNN",
-            "headline": "Gulf leaders meet Trump with two fears: more war and less US protection",
-            "url": "https://www.cnn.com/2026/09/22/middleeast/gulf-leaders-trump-fear-more-war-less-protection-intl"
+            "publisher": "CNBC",
+            "headline": "10-year Treasury yield rockets to 19-year high. Here's what's driving the spike",
+            "url": "https://www.cnbc.com/2026/09/23/treasury-yields-oil-inflation-fed.html"
           },
           {
-            "role": "analysis",
-            "publisher": "Al Jazeera",
-            "headline": "Trump-GCC summit in New York: What does each side want?",
-            "url": "https://www.aljazeera.com/news/2026/9/22/trump-gcc-summit-in-new-york-what-does-each-side-want"
+            "role": "background",
+            "publisher": "NBC News",
+            "headline": "Treasury yields surge to near 20-year high as oil jumps back above $103 per barrel",
+            "url": "https://www.nbcnews.com/business/energy/treasury-yields-oil-stocks-rcna599398"
+          },
+          {
+            "role": "background",
+            "publisher": "CNBC",
+            "headline": "Market sees next Fed hike in October, following Barr comments and hot inflation reading",
+            "url": "https://www.cnbc.com/2026/09/23/market-sees-next-fed-hike-in-october-following-barr-comments-hot-inflation.html"
           }
         ]
       },
       {
-        "id": "theme-xi-jinping-state-visit-begins",
+        "id": "theme-xi-jinping-us-china-visit",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Xi Jinping lands in Washington for his first White House visit in 11 years",
-        "importance": 0.55,
-        "thesis": "Xi's state visit, on the calendar since May, arrives right as Washington's own sanctions campaign against Iran has spent five weeks explicitly holding back from targeting the Chinese banks that move most of Tehran's oil -- citing this exact visit as the reason for restraint.",
-        "synthesis": "Xi Jinping and First Lady Peng Liyuan land at Andrews Air Force Base today; Thursday brings a formal South Lawn arrival ceremony with 479 military personnel and a state dinner in the East Room, and Friday a tea and a joint visit to the National Archives. It's Xi's first Washington visit since 2015. Trump extended the invitation during his own May visit to China. Treasury Secretary Bessent has repeatedly said Chinese banks moving Iranian oil would be sanctioned 'if' they keep facilitating it, but has never actually pulled that trigger -- and reporting has tied that restraint directly to the timing of this visit.",
-        "new_today": "First tracked in this edition; the visit's confirmed schedule and its overlap with the stalled Iran-sanctions restraint are new context worth carrying into tomorrow.",
-        "why_it_matters": "Tomorrow's ceremony is the first real test of whether Washington's five-week restraint on Chinese banks survives contact with the actual visit, or whether it was just about not overshadowing the pageantry.",
+        "title": "Xi Jinping's state visit reaches its formal centerpiece today",
+        "importance": 0.7,
+        "thesis": "After Wednesday's Andrews Air Force Base arrival, today brings the actual pageantry -- and the real test of whether five weeks of sanctions restraint toward China survives contact with the visit it was built around.",
+        "synthesis": "Thursday's South Lawn State Arrival Ceremony features 479 military personnel, a Presidential Salute by the Marine Silent Drill Platoon, and an aerial flyover pairing a B-2 stealth bomber with four F-22 Raptors. Tonight's state dinner draws a guest list heavy with tech leaders -- Musk, Bezos, Zuckerberg, Pichai, Huang, Altman, Cook, Michael Dell, and Citigroup's Jane Fraser -- with trade, AI, critical minerals, Taiwan, and the Iran war all expected in discussion. A $14 billion US arms package for Taiwan awaits final approval, and Xi is expected to press Trump on it directly; China is separately expected to announce US agricultural purchases, with Washington expected to reduce tariffs on select consumer goods.",
+        "new_today": "Today's actual ceremony schedule, the state-dinner guest list, and the specific agenda items (Taiwan arms package, agricultural purchases, tariff reductions) are new since yesterday's edition, which had only the confirmed schedule and arrival.",
+        "why_it_matters": "Treasury has spent five weeks explicitly declining to sanction the Chinese banks that move most of Iran's oil, citing this visit as the reason for restraint -- today and tomorrow are when that restraint either holds or breaks.",
         "thread_id": "thread-xi-jinping-us-china-visit",
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
+            "publisher": "NPR",
+            "headline": "Trump set to greet Xi for high-stakes state visit",
+            "url": "https://www.npr.org/2026/09/23/nx-s1-5978733/trump-set-to-greet-xi-for-high-stakes-state-visit"
+          },
+          {
+            "role": "background",
             "publisher": "The White House",
             "headline": "Details Ahead of Xi Jinping and Madame Peng Liyuan's Visit to the White House",
             "url": "https://www.whitehouse.gov/briefings-statements/2026/09/first-lady-melania-trump-releases-details-ahead-of-his-excellency-xi-jinping-president-of-the-peoples-republic-of-china-and-madame-peng-liyuans-visit-to-the-white-house/"
           },
           {
             "role": "background",
-            "publisher": "NPR",
-            "headline": "Xi Jinping is coming to the White House. Here's what to expect",
-            "url": "https://www.npr.org/2026/09/20/nx-s1-5971402/xi-jinping-is-coming-to-the-white-house-heres-what-to-expect"
-          }
-        ]
-      },
-      {
-        "id": "theme-nasdaq-record-fed-odds-steady",
-        "affinity": "morning",
-        "topic": "markets",
-        "topic_label": "Markets & Macro",
-        "title": "Nasdaq closes at a fresh record while the actual Fed question hasn't moved all week",
-        "importance": 0.5,
-        "thesis": "Tuesday's mixed close -- record Nasdaq, flat S&P -- shows markets have absorbed Monday's diplomacy-driven relief without any real change in October 28 rate odds.",
-        "synthesis": "The S&P 500 closed essentially flat Tuesday at 7,764.64 while the Nasdaq gained 0.5% to a fresh record 27,244.28; the Dow fell 0.4% to 51,863.69. The 10-year eased further to roughly 4.93%, its third straight pullback since crossing 5% last Tuesday for the first time since 2007. Brent extended its decline to about $98.40. October 28 FOMC odds are essentially unchanged for a third straight day: CME's last confirmed read remains Sunday's 59.7%, Polymarket steady near 53-54%.",
-        "new_today": "Tuesday's confirmed closes and the third straight day of unchanged Fed odds are new since yesterday's edition, which had only Monday's closes.",
-        "why_it_matters": "Worth separating for Alex's markets read: the rally has stalled into a genuine holding pattern, with traders waiting on new data rather than reacting to the geopolitical news.",
-        "thread_id": "thread-fed-rate-path",
-        "confidence": "high",
-        "sources": [
-          {
-            "role": "primary_reporting",
-            "publisher": "Yahoo Finance",
-            "headline": "Stock market today: Dow slips, Nasdaq posts fresh record with AI trade, Trump diplomacy in focus",
-            "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-september-22-nasdaq-dow-sp-500-080625961.html"
-          },
-          {
-            "role": "background",
-            "publisher": "CNBC",
-            "headline": "Treasury yields are little changed as traders await Fed comments",
-            "url": "https://www.cnbc.com/2026/09/22/treasury-yield-us-bond-market-trump.html"
-          }
-        ]
-      },
-      {
-        "id": "theme-panthers-lose-shootout-hurricanes",
-        "affinity": "morning",
-        "topic": "sports",
-        "topic_label": "Miami Sports",
-        "title": "Panthers lose the real test, 3-2 in a shootout to Carolina",
-        "importance": 0.4,
-        "thesis": "The rematch billed as the real roster test went to Carolina's younger lineup in a shootout -- a fine, low-stakes reminder that preseason doesn't reliably cooperate with preview-piece expectations.",
-        "synthesis": "Carolina won 3-2 in a shootout at Lenovo Center. Tkachuk opened the scoring for Florida off a Sam Reinhart feed in the first period; Carolina's Bradly Nadeau tied it, and Barkov answered just 18 seconds later to put Florida back ahead. Carolina forced overtime and won it in the shootout, with Nadeau and Felix Unger Sorum converting while Florida's two attempts were both stopped by Cayden Primeau.",
-        "new_today": "Tuesday's result is new since yesterday's edition, which only previewed the game as the more informative of the two preseason meetings.",
-        "why_it_matters": "It's preseason, so the result itself matters little -- but it's a clean example of how confidently a preview can be written and how little that guarantees about the actual game.",
-        "thread_id": "thread-panthers-2026-27-season",
-        "confidence": "high",
-        "sources": [
-          {
-            "role": "primary_reporting",
-            "publisher": "ESPN",
-            "headline": "Hurricanes 3-2 Panthers (Sep 22, 2026) Final Score",
-            "url": "https://www.espn.com/nhl/game/_/gameId/401879933"
-          },
-          {
-            "role": "background",
-            "publisher": "Florida Hockey Now",
-            "headline": "Carolina Hurricanes Get Shootout Win Against Florida Panthers",
-            "url": "https://floridahockeynow.com/carolina-hurricanes-3-florida-panthers-2-shootout-nhl-preseason-sept-22-2026/"
+            "publisher": "NBC Washington",
+            "headline": "Trump hosts China's Xi for state visit to talk trade, AI, Taiwan",
+            "url": "https://www.nbcwashington.com/news/national-international/china-xi-visit-washington-trump-welcome/4157994/"
           }
         ]
       },
@@ -264,98 +220,54 @@
         "affinity": "morning",
         "topic": "sports",
         "topic_label": "Miami Sports",
-        "title": "Dolphins fall to 0-2, Hafley won't rule out lineup changes, Chiefs up next",
-        "importance": 0.35,
-        "thesis": "A blowout loss to a good 49ers team leaves Miami's rookie-heavy roster still searching for its footing, with a tougher Week 3 test already on deck.",
-        "synthesis": "San Francisco routed Miami 35-13 Sunday -- well beyond the 13.5-point spread -- dropping the Dolphins to 0-2. Christian McCaffrey reached 100 career touchdowns and Brock Purdy played a near-perfect game as the 49ers moved to 2-0. Head coach Jeff Hafley isn't ruling out lineup changes after the frustrating start; quarterback Malik Willis has shown flashes but real questions remain. Miami hosts Kansas City, tied for the AFC West lead, in Week 3.",
-        "new_today": "Hafley's postgame comments on possible lineup changes and the confirmed Chiefs matchup are new since the last time this thread was tracked.",
-        "why_it_matters": "A rebuild year's first real inflection point: whether Hafley makes changes now or waits, and how a rookie-heavy roster responds to a considerably tougher opponent.",
-        "thread_id": "thread-dolphins-hafley-rebuild",
-        "confidence": "medium",
-        "sources": [
-          {
-            "role": "primary_reporting",
-            "publisher": "NFL.com",
-            "headline": "Miami Dolphins News, Scores, Stats, Schedule",
-            "url": "https://www.nfl.com/teams/miami-dolphins/"
-          },
-          {
-            "role": "background",
-            "publisher": "Yardbarker",
-            "headline": "Miami Dolphins: Breaking News, Rumors & Highlights",
-            "url": "https://www.yardbarker.com/nfl/teams/miami_dolphins/40"
-          }
-        ]
-      },
-      {
-        "id": "theme-miami-cre-tabani-lincoln-road",
-        "affinity": "morning",
-        "topic": "markets",
-        "topic_label": "Markets & Macro",
-        "title": "Another Lincoln Road flip: Tabani Group pays $808/SF for the block anchored by Mr. Jones",
-        "importance": 0.35,
-        "thesis": "A fourth ownership change on the same South Beach retail block since 2019 -- a small, specific data point on how much capital keeps cycling through Miami retail at almost every price point.",
-        "synthesis": "Dallas-based Tabani Group paid $18.4 million ($808/sf) for the 22,800-sq-ft retail building at 318-334 Lincoln Road, anchored by the Mr. Jones nightclub, financed with a $12.9 million Goldman Sachs loan. The seller was an affiliate of Robins Companies (Scott Robins), which had bought the property out of a foreclosure settlement in 2024 for $13.6 million after Aby Rosen's RFR paid $20.5 million for it in 2019.",
-        "new_today": "First tracked in this edition; extends the thread's recent run of apartment, retail-condo, and now retail-block deals beyond the original industrial wave.",
-        "why_it_matters": "For Alex's capital-markets read: a single block changing hands four times in seven years, each time at a different basis, is a useful small case study in how much Miami retail pricing has moved since 2019.",
-        "thread_id": "thread-cre-capital-markets-2026",
-        "confidence": "medium",
-        "sources": [
-          {
-            "role": "primary_reporting",
-            "publisher": "Commercial Real Estate Direct",
-            "headline": "Miami Beach, Fla., Retail Building Sells for $849/SF",
-            "url": "https://crenews.com/2026/09/11/miami-beach-fla-retail-building-sells-for-849-sf/"
-          }
-        ]
-      },
-      {
-        "id": "theme-cuneiform-letters-read-without-breaking-seals",
-        "affinity": "evening",
-        "topic": "living",
-        "topic_label": "Art of Living",
-        "title": "Scientists just read 4,000-year-old letters without opening them",
+        "title": "Dolphins host a red-hot Chiefs team as double-digit underdogs Sunday",
         "importance": 0.4,
-        "thesis": "A portable CT scanner lets researchers read Bronze Age merchant letters through their unbroken clay envelopes -- recovering the text without destroying the seal impressions that carry a second layer of history.",
-        "synthesis": "Assyrian merchants living at Kanesh (modern Kultepe, Turkey) in the 19th-18th centuries BCE sealed their business letters inside clay envelopes stamped with cylinder seals. For decades, reading the letters meant breaking the envelopes -- destroying the seal art in the process -- so archives stopped opening them. A portable device called ENCI (Extracting Non-destructively Cuneiform Inscriptions) now lets researchers CT-scan the tablets through their envelopes and read the text without ever breaking the seal. Among the newly legible letters: a roughly 3,800-year-old note from a woman named Anna-anna to her husband Ennum-Ashur.",
-        "new_today": "First tracked in this edition -- this week's patience-rewarding research pick, in the same spirit as recent editions' science picks.",
-        "why_it_matters": "A small, specific case of technology used to preserve rather than extract -- the opposite instinct from most of what gets built with cameras and scanners now.",
-        "thread_id": null,
+        "thesis": "Miami's winless start meets Kansas City's best two-game stretch in franchise memory -- a matchup that looks lopsided on paper heading into Sunday.",
+        "synthesis": "The Chiefs (2-0) visit Hard Rock Stadium Sunday at 1pm ET as 10.5-point favorites, fresh off back-to-back 30-plus-point games and the NFL's largest rushing-yardage differential through two games since 2005. Miami (0-2) has scored just 13 points in each of its first two games -- one of its two total touchdowns came in garbage time against San Francisco. Dimers gives Kansas City a 79.9% win probability.",
+        "new_today": "The finalized point spread, Kansas City's statistical dominance through two weeks, and win-probability projections are new since yesterday's edition, which only confirmed the Chiefs as Miami's Week 3 opponent.",
+        "why_it_matters": "A real inflection point for the Hafley rebuild: whether a rookie-heavy roster can be competitive against a team playing this well, or whether Sunday turns into the excuse for the lineup changes Hafley has already declined to rule out.",
+        "thread_id": "thread-dolphins-hafley-rebuild",
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Arkeonews",
-            "headline": "4,000-Year-Old Sealed Cuneiform Letters from Anatolia Read Without Breaking Their Clay Envelopes",
-            "url": "https://arkeonews.net/4000-year-old-sealed-cuneiform-letters-from-anatolia-read-without-breaking-their-clay-envelopes/"
+            "publisher": "Covers.com",
+            "headline": "Chiefs vs Dolphins Prediction, Picks & Early Odds: NFL Week 3",
+            "url": "https://www.covers.com/nfl/chiefs-vs-dolphins-predictions-odds-early-leans-week-3-2026"
+          },
+          {
+            "role": "background",
+            "publisher": "NFL.com",
+            "headline": "Miami Dolphins News, Scores, Stats, Schedule",
+            "url": "https://www.nfl.com/teams/miami-dolphins/"
           }
         ]
       },
       {
-        "id": "theme-virginia-key-referendum-opposition",
-        "affinity": "evening",
-        "topic": "miami",
-        "topic_label": "Miami Life & Culture",
-        "title": "Organized opposition surfaces against the $80M Virginia Key marina lease",
+        "id": "theme-panthers-training-camp-underway",
+        "affinity": "morning",
+        "topic": "sports",
+        "topic_label": "Miami Sports",
+        "title": "Panthers finalize a 51-player training camp roster as the preseason wraps",
         "importance": 0.35,
-        "thesis": "With the legal fight resolved, the Virginia Key marina referendum has moved from courtroom to campaign -- and its first organized opposition has arrived ahead of the November 3 vote.",
-        "synthesis": "A Miami-Dade Circuit Court judge cleared the way in August for a November 3 referendum on an $80 million, 45-year lease of the Rickenbacker and Marine Stadium marinas to Virginia Key LLC (RCI Group and Suntex Marinas) -- roughly $204 million in guaranteed rent over the term, plus two 15-year renewal options that some reporting frames as a 75-year total commitment. With the legal question settled, the Miami-Dade Democratic Party is now urging a 'No' vote, and environmental advocates are campaigning against the lease over its potential impact on Biscayne Bay.",
-        "new_today": "First featured in this edition -- the thread has been tracked since August, but this is its first appearance as a published theme.",
-        "why_it_matters": "A genuine campaign, not just a legal formality, is now underway on a piece of public waterfront -- worth watching through November 3 regardless of the outcome.",
-        "thread_id": "thread-virginia-key-marina-referendum",
+        "thesis": "With the two-game Carolina preview split 1-1, camp roster moves are the more useful signal right now than either preseason result.",
+        "synthesis": "Florida's training camp roster runs 30 forwards, 16 defensemen and 5 goaltenders -- 51 players total, down from 72 a year ago under a shortened preseason slate and no rookie camp. New additions with AHL experience include forwards Bokondji Imama, Sam Lafferty, John Beecher and Angus Crookshank, plus defensemen Alexander Petrovic and Emil Pieniniemi; veteran Nathan Bastian is in camp on a professional tryout, the only player not under contract.",
+        "new_today": "The finalized camp roster and its specific additions are new since yesterday's edition, which covered only Tuesday's preseason result.",
+        "why_it_matters": "Roster depth signals -- who's fighting for a bottom-six spot, who's on a tryout -- tend to matter more for how this team actually looks by October than one shootout loss in Raleigh.",
+        "thread_id": "thread-panthers-2026-27-season",
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Florida Politics",
-            "headline": "Judge clears $80M Virginia Key marina deal for November ballot",
-            "url": "https://floridapolitics.com/archives/816023-judge-clears-80m-virginia-key-marina-deal-for-november-ballot-a-decade-after-the-winning-bid/"
+            "publisher": "NHL.com / Florida Panthers",
+            "headline": "Florida Panthers Announce 2026-27 Training Camp Roster Presented by Baptist Health",
+            "url": "https://www.nhl.com/panthers/news/florida-panthers-announce-2026-27-training-camp-roster-presented-by-baptist-health"
           },
           {
-            "role": "counterpoint",
-            "publisher": "Miami-Dade Democratic Party",
-            "headline": "Why City of Miami Voters Should Vote No on the Proposed Virginia Key Marina Lease",
-            "url": "https://www.miamidadedems.org/virginia-key-marina-lease"
+            "role": "background",
+            "publisher": "Florida Hockey Now",
+            "headline": "Florida Panthers Announce Training Camp Roster, Add PTO",
+            "url": "https://floridahockeynow.com/florida-panthers-announce-training-camp-roster-add-pto/"
           }
         ]
       },
@@ -364,82 +276,166 @@
         "affinity": "evening",
         "topic": "sports",
         "topic_label": "Miami Sports",
-        "title": "At 36, Klay Thompson's job is simple: make Giannis and Bam's job easier",
+        "title": "Klay Thompson's Heat deal is official: two years, $11.5M, and a record in his sights",
         "importance": 0.3,
-        "thesis": "The Heat's roster math has narrowed Thompson's role to one clean question -- can a 36-year-old shooter still space the floor for a new-look frontcourt -- and the early signs say yes.",
-        "synthesis": "With Giannis Antetokounmpo, Bam Adebayo, Andrew Wiggins and Davion Mitchell effectively locked into four starting spots, reporting names Klay Thompson the clear front-runner for the fifth: a pure floor-spacer meant to keep the paint open for one of the league's more physical frontcourts. Thompson has never shot below 38.3% from three in a season, though durability -- past ACL and Achilles tears -- remains the honest question at his age. He's already practicing at Kaseya Center, arriving within two days of landing in Miami.",
-        "new_today": "First tracked in this edition, ahead of training camp opening September 29.",
-        "why_it_matters": "A small, specific bet: that a diminished but still-elite shooter is worth more to this roster than a more well-rounded but less proven alternative.",
+        "thesis": "With his role already settled as the roster's floor-spacer, Thompson's own public target -- the franchise's single-season three-point record -- gives the fifth-starter question a concrete number to watch.",
+        "synthesis": "Thompson signed a two-year, roughly $11.5 million deal with Miami after clearing waivers from his Dallas buyout, leaving close to $10 million on the table to chase a winning roster instead; the second season is a player option. In a team-shared video, Thompson asked what Miami's single-season three-point record was -- the answer is 270, set by Duncan Robinson in 2019-20.",
+        "new_today": "The finalized contract terms and Thompson's on-record interest in the three-point record are new since yesterday's edition, which had only his practice arrival and front-runner status.",
+        "why_it_matters": "A small but telling detail about a 36-year-old bet: Thompson isn't just filling a role quietly, he's already naming a number to chase.",
         "thread_id": "thread-heat-klay-thompson",
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Hoops Rumors",
-            "headline": "Heat Notes: Starting Five, Thompson, Larsson, Conwell",
-            "url": "https://www.hoopsrumors.com/2026/09/heat-notes-starting-five-thompson-larsson-conwell.html"
+            "publisher": "NBA.com",
+            "headline": "Klay Thompson joins the Heat with winning in mind",
+            "url": "https://www.nba.com/news/klay-thompson-heat-winning"
           },
           {
             "role": "background",
-            "publisher": "NBA.com",
-            "headline": "2026-27 Season Preview: Miami Heat",
-            "url": "https://www.nba.com/news/2026-27-season-preview-mia"
+            "publisher": "Yardbarker",
+            "headline": "Klay Thompson wants to break a Heat record",
+            "url": "https://www.yardbarker.com/nba/articles/klay_thompson_wants_to_break_a_heat_record/s1_127_44253940"
+          }
+        ]
+      },
+      {
+        "id": "theme-virginia-key-referendum-opposition",
+        "affinity": "evening",
+        "topic": "miami",
+        "topic_label": "Miami Life & Culture",
+        "title": "Opposition to the Virginia Key marina lease holds its first public rally",
+        "importance": 0.35,
+        "thesis": "The campaign against Referendum 3 has moved from position papers to an actual crowd on Virginia Key -- a real test of organizing strength six weeks before the vote.",
+        "synthesis": "About 100 people gathered Monday at Gramps Getaway on Virginia Key for a 'Save Gramps Getaway' rally opposing the $80 million, up-to-75-year marina lease on November's ballot. It follows last week's Miami-Dade Democratic Party 'No' recommendation and ongoing environmental-advocate opposition over Biscayne Bay impact.",
+        "new_today": "Monday's rally and turnout are new since yesterday's edition, which covered only the Democratic Party's recommendation and general environmental opposition.",
+        "why_it_matters": "A rally is a different kind of signal than a statement -- it's the first real read on whether opposition can turn into votes by November 3.",
+        "thread_id": "thread-virginia-key-marina-referendum",
+        "confidence": "medium",
+        "sources": [
+          {
+            "role": "primary_reporting",
+            "publisher": "Miami New Times",
+            "headline": "Miami already lost one Gramps. Now locals are fighting to save the other",
+            "url": "https://www.miaminewtimes.com/food-drink/miami-locals-rally-around-gramps-getaway-as-crucial-vote-nears-40587115/"
+          },
+          {
+            "role": "background",
+            "publisher": "Miami-Dade Democratic Party",
+            "headline": "Why City of Miami Voters Should Vote No on the Proposed Virginia Key Marina Lease",
+            "url": "https://www.miamidadedems.org/virginia-key-marina-lease"
+          }
+        ]
+      },
+      {
+        "id": "theme-miami-gta6-banner-ordinance",
+        "affinity": "evening",
+        "topic": "miami",
+        "topic_label": "Miami Life & Culture",
+        "title": "Miami signs off on GTA VI banners downtown, funneling fees into a new park",
+        "importance": 0.3,
+        "thesis": "The first of three parallel 'Vice City' branding pitches actually gets signed -- a small, concrete case of a game launch moving real civic dollars.",
+        "synthesis": "The Miami City Commission approved Ordinance 19783, letting Rockstar rent up to six large banners (over 5,000 square feet each) in a defined downtown zone -- bounded by NE 5th Street, the Miami River, Biscayne Bay and NE 2nd Avenue -- from October 15 through December 31, bracketing GTA VI's November 19 launch. Fees run up to $208,000 per banner, up to $1.2 million total, funding the 33-acre Underdeck park connecting Overtown to downtown beneath the new I-395 bridge.",
+        "new_today": "The ordinance's approval is new since it was last tracked as proposed-but-unsigned terms earlier this week.",
+        "why_it_matters": "Of the three separate Vice-City pitches running at once (county branding, city banners, Miami Beach's beach-chair deal), this is the first to actually cross the finish line -- with a real number attached to a real park.",
+        "thread_id": "thread-miami-vice-city-gta6-pitch",
+        "confidence": "medium",
+        "sources": [
+          {
+            "role": "primary_reporting",
+            "publisher": "Hoodline",
+            "headline": "Miami GTA VI Banner Fees Would Fund Underdeck Park",
+            "url": "https://hoodline.com/2026/09/miami-wants-rockstar-to-pay-202-000-a-banner-to-fund-underdeck-park/"
+          },
+          {
+            "role": "background",
+            "publisher": "GTA BOOM",
+            "headline": "Miami City Downtown GTA 6 Banner Plan Now Has Exact Terms",
+            "url": "https://www.gtaboom.com/miami-city-downtown-gta-6-banner-plan-now-has-exact-terms-3810"
+          }
+        ]
+      },
+      {
+        "id": "theme-etruscan-tomb-vulci-discovery",
+        "affinity": "evening",
+        "topic": "living",
+        "topic_label": "Art of Living",
+        "title": "A chariot, weapons, and gold, sealed in stone at Vulci since the 7th century BCE",
+        "importance": 0.4,
+        "thesis": "A monumental Etruscan tomb, undisturbed since antiquity despite a century of looting around it, gives archaeologists a rare intact look at how a wealthy Etruscan family buried its dead.",
+        "synthesis": "Archaeologists excavating the Polledrara necropolis at the ancient Etruscan city of Vulci uncovered the Tomba della Camera di Pietra (Stone Chamber Tomb), dating to the late seventh century BCE. Its three burial chambers held weapons, chariot parts, iron spits, gold and bronze sheeting, carved bone and ivory, clothing fittings, and imported Greek pottery from Athens and Corinth alongside local bucchero ware. Collapsed roofing accidentally protected the main chamber from the 20th-century looting that emptied other tombs nearby.",
+        "new_today": "First tracked in this edition -- today's research pick, in the spirit of recent editions' archaeology and material-history finds.",
+        "why_it_matters": "A small, specific reminder of how much survives by accident -- a collapsed ceiling did more to preserve this than any intention did.",
+        "thread_id": null,
+        "confidence": "high",
+        "sources": [
+          {
+            "role": "primary_reporting",
+            "publisher": "Archaeology News Online Magazine",
+            "headline": "Archaeologists uncover monumental Etruscan tomb filled with rare treasures at ancient Vulci",
+            "url": "https://archaeologymag.com/2026/09/etruscan-tomb-with-rare-treasures-at-vulci/"
+          },
+          {
+            "role": "background",
+            "publisher": "La Brujula Verde",
+            "headline": "A Landslide in Italy Just Exposed a 2,500-Year-Old Tomb From a People Who Traded With the Greeks",
+            "url": "https://www.labrujulaverde.com/en/2026/09/a-landslide-in-italy-just-exposed-a-2500-year-old-tomb-from-a-people-who-traded-with-the-greeks/"
           }
         ]
       }
     ],
     "rabbit_hole": {
-      "id": "rh-2026-09-23",
-      "title": "Where Cities and Oceans Meet",
-      "creator": "Brad Bolman (Pioneer Works Broadcast)",
+      "id": "rh-2026-09-24",
+      "title": "A New Kind of Creative Poverty",
+      "creator": "Afra Wang (Noema Magazine)",
       "format": "essay",
-      "minutes": 14,
-      "why": "Bolman, a Tulane historian of science, writes from inside a city that's spent three centuries in a slow, losing argument with water -- not as disaster journalism, but as a sober look at what it actually means to keep living somewhere the map is quietly rewriting itself. Worth the sitting for anyone who thinks about place, risk, and long time horizons for a living.",
-      "url": "https://pioneerworks.org/broadcast/wet-places-nola-brad-bolman-oceans",
+      "minutes": 20,
+      "why": "Wang traces a strange parallel between how AI language models get trained -- reward signals nudging them toward 'helpful, harmless, honest' -- and how censorship quietly homogenizes a culture's writing, using Baudelaire's France and the modern Chinese internet as her two case studies. It's a sharper way into the AI-and-creativity conversation than most of what gets written about it, landing the same week Xi's own AI diplomacy dominates the news for entirely different reasons.",
+      "url": "https://www.noemamag.com/a-new-kind-of-creative-poverty/",
       "related_interest": "living"
     },
     "beautiful_thing": {
-      "id": "bt-2026-09-23",
-      "title": "1,035 Kilograms of Iron, Waiting in the Danube Since the Iron Age",
-      "creator": "Unknown Celtic ironworkers, Noricum region",
-      "era": "3rd-2nd century BCE; assemblage analysis published in Antiquity, September 21, 2026",
-      "body": "Workers dredging gravel from the Danube near Deutsch-Altenburg, Austria pulled up more than 500 double-pointed iron bars -- about a metric ton of semi-finished metal, likely the cargo of a sunken trading vessel. It's the largest known cache of prehistoric iron bars in Europe, and researchers estimate it could have been forged into roughly 500 swords. Worth noticing: this wasn't treasure in the ornamental sense -- no gold, no jewelry, just raw industrial capacity -- a Celtic economy's supply chain, frozen mid-shipment for over two thousand years.",
-      "url": "https://www.smithsonianmag.com/smart-news/workers-excavating-gravel-from-the-danube-river-dredged-up-a-2200-year-old-rusty-treasure-that-could-have-equipped-an-army-180989542/",
+      "id": "bt-2026-09-24",
+      "title": "The Stone Chamber Tomb at Vulci",
+      "creator": "Unknown Etruscan craftsmen, Polledrara necropolis",
+      "era": "Late 7th century BCE; excavation reported September 2026",
+      "body": "The Tomba della Camera di Pietra holds three burial chambers filled with weapons, chariot fittings, gold and bronze sheeting, carved bone and ivory, and imported Greek pottery from Athens and Corinth alongside local bucchero ware. Worth noticing: it survived not because anyone protected it, but because its own roof collapsed at some point in the last 2,600 years, sealing it off from the looting that emptied neighboring tombs during the 20th century.",
+      "url": "https://archaeologymag.com/2026/09/etruscan-tomb-with-rare-treasures-at-vulci/",
       "image": null,
-      "alt": "Corroded double-pointed Iron Age iron bars from the Danube hoard, laid out for study."
+      "alt": "Excavated stone burial chamber at the Etruscan Polledrara necropolis, Vulci, Italy."
     },
     "noticing_prompt": {
-      "id": "np-2026-09-23",
-      "text": "The equinox tipped over at 8:05pm last night -- today is the first full day where Miami's dark actually outlasts its light. Notice what time the sky goes the color it goes this evening."
+      "id": "np-2026-09-24",
+      "text": "479 soldiers, a stealth bomber flyover, and a state dinner will mark two hours in Washington today. Notice, by tonight, whether that's actually what you remember about today -- or whether it's something smaller."
     },
     "daily_puzzle": {
-      "id": "dp-2026-09-23",
-      "type": "wordplay",
-      "prompt": "Here's a phrase: ELEVEN PLUS TWO. Rearrange all of its letters -- and only its letters -- to spell out a different arithmetic statement of the same form: a number, plus, a number. What's the new statement, and what do both expressions equal?",
-      "hint": "Count the letters first -- the rearrangement uses every single one, no more, no fewer. Try starting from a small, round number.",
-      "solution": "TWELVE PLUS ONE. Both phrases equal thirteen.",
-      "explanation": "It's one of the rare cases in English where an arithmetic sentence and its own letter-for-letter anagram are both true -- language and arithmetic lining up by accident."
+      "id": "dp-2026-09-24",
+      "type": "lateral",
+      "prompt": "A man pushes his car, stops at a hotel, and instantly knows he's ruined. He hasn't been drinking, and nothing is wrong with the car. What's going on?",
+      "hint": "He's not really driving, and the 'hotel' isn't somewhere you can check in for the night.",
+      "solution": "He's playing Monopoly. 'Pushing his car' is moving the car token around the board; he lands on a property with a hotel he can't afford and is bankrupt.",
+      "explanation": "The trick is reading everyday words -- car, push, hotel -- as board-game mechanics instead of literal life, the same rug-pull most good lateral puzzles run on."
     },
     "evening_unwind": {
-      "id": "eu-2026-09-23",
+      "id": "eu-2026-09-24",
       "evening_quote": {
-        "text": "We suffer more often in imagination than in reality.",
-        "attribution": "Seneca",
-        "source": "Letters to Lucilius, 13.4"
+        "text": "Never say of anything, 'I have lost it,' but say, 'I have given it back.'",
+        "attribution": "Epictetus",
+        "source": "Enchiridion, 11"
       },
-      "evening_prompt": "Today carried a market close, a summit read-out, a hockey score -- pick whichever one felt most urgent this morning, and notice, honestly, whether it still does tonight."
+      "evening_prompt": "The market gave back two days of calm in one session today, and a tomb in Italy held onto its gold for 2,600 years without anyone watching. Notice which of those timescales actually shaped how you felt today."
     },
     "reading_queue": [
       {
         "title": "The Radical Reasons Why You Dream of Making Things by Hand",
         "url": "https://aeon.co/essays/the-radical-reasons-why-you-dream-of-making-things-by-hand",
         "verdict": "still_valuable",
-        "reason": "Three weeks tagged for a weekend that's passed without a reading_done signal -- still worth keeping, no longer this week's most time-sensitive item."
+        "reason": "Three weeks tagged for a weekend that hasn't landed yet -- still worth keeping, no more urgent than before."
       }
     ],
     "quote": {
-      "text": "We suffer more often in imagination than in reality.",
-      "attribution": "Seneca"
+      "text": "Never say of anything, 'I have lost it,' but say, 'I have given it back.'",
+      "attribution": "Epictetus"
     }
   },
   "threads": [
@@ -829,9 +825,9 @@
       "title": "Federal Reserve rate path",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-09-23",
-      "updates": 68,
-      "current_state": "Markets have now digested Monday's diplomacy-driven rally without much follow-through: Tuesday's S&P was essentially flat at 7,764.64 while the Nasdaq set a fresh record, 27,244.28 (+0.5%). The 10-year eased further to about 4.93%. October 28 hike odds are essentially unchanged from Sunday -- CME still near 59.7%, Polymarket near 53-54% -- meaning the actual rate question hasn't moved even as the geopolitical backdrop has eased.",
+      "last_updated": "2026-09-24",
+      "updates": 69,
+      "current_state": "Wednesday reversed the week's calm in a single session: hot PMI data, rising input costs, and hawkish comments from Fed Governor Michael Barr sent the 10-year to 5.11% -- its highest close since July 2007 -- and pushed October 28 hike odds from Sunday's ~59.7% to roughly 66-73% depending on the tracker. The S&P fell 0.75% to 7,706.39 and the Nasdaq dropped 1.13% to 26,936.04, snapping Tuesday's record close.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -1172,6 +1168,11 @@
           "date": "2026-09-22",
           "summary": "Tuesday's confirmed close: S&P essentially flat at 7,764.64, Nasdaq +0.5% to a fresh record 27,244.28, Dow -0.4% to 51,863.69. The 10-year eased further to roughly 4.93% from Monday's 4.95%. October 28 FOMC odds held almost exactly still for a third straight day: CME's last confirmed read remains Sunday's 59.7%, Polymarket near 53-54%.",
           "change_type": "watch"
+        },
+        {
+          "date": "2026-09-23",
+          "summary": "Wednesday's close reversed Tuesday's calm: S&P -0.75% to 7,706.39, Nasdaq -1.13% to 26,936.04 (snapping its record), 10-year spiked to 5.11% (highest since July 2007) on hot PMI data, rising input costs, and hawkish comments from Fed Governor Barr. October 28 hike odds jumped from Sunday's ~59.7% to roughly 66-73% across trackers.",
+          "change_type": "reversed"
         }
       ]
     },
@@ -1542,9 +1543,9 @@
       "title": "Dolphins rebuild under Hafley",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-09-21",
-      "updates": 48,
-      "current_state": "San Francisco routed Miami 35-13 Sunday, dropping the Dolphins to 0-2 -- well beyond the 13.5-point spread. Christian McCaffrey reached 100 career touchdowns (4th-fastest in the Super Bowl era) and Brock Purdy played a near-perfect game as the 49ers moved to 2-0. Miami's rookie-heavy roster has yet to find its footing on the road.",
+      "last_updated": "2026-09-24",
+      "updates": 49,
+      "current_state": "Sunday's matchup is set: the Chiefs (2-0) visit Hard Rock Stadium as 10.5-point favorites off back-to-back 30-plus-point games and the league's largest rushing-yardage differential through two games since 2005. Miami (0-2) has scored just 13 points in each of its first two games. Dimers gives Kansas City a 79.9% win probability.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -1785,6 +1786,11 @@
           "date": "2026-09-21",
           "summary": "San Francisco routed Miami 35-13 Sunday, dropping the Dolphins to 0-2 -- an 8-point-plus swing against the 13.5-point spread. Christian McCaffrey became the fourth-fastest player in Super Bowl-era history to reach 100 career touchdowns; Brock Purdy played a near-perfect game for a 49ers team now 2-0.",
           "change_type": "worsened"
+        },
+        {
+          "date": "2026-09-24",
+          "summary": "Sunday's matchup is set: Chiefs (2-0) visit as 10.5-point favorites off back-to-back 30+ point games and the league's largest rushing-yardage differential through two games since 2005; Dolphins (0-2) have scored just 13 points in each game so far. Dimers gives Kansas City a 79.9% win probability.",
+          "change_type": "advanced"
         }
       ]
     },
@@ -2345,9 +2351,9 @@
       "title": "Heat's 2026-27 season takes shape",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-09-23",
-      "updates": 7,
-      "current_state": "Klay Thompson has landed in Miami, practiced at Kaseya Center within two days of arriving, and is now reported as the clear front-runner for the Heat's fifth starting spot alongside Giannis Antetokounmpo, Bam Adebayo, Andrew Wiggins and Davion Mitchell -- a pure floor-spacing role for a 36-year-old whose three-point shooting has stayed remarkably consistent even as durability remains the open question. Training camp opens September 29.",
+      "last_updated": "2026-09-24",
+      "updates": 8,
+      "current_state": "Thompson's contract is confirmed: two years, roughly $11.5 million, with a player option on the second season, signed after clearing waivers from his Dallas buyout -- leaving close to $10 million on the table to chase a winning roster. He's the clear front-runner for the fifth starting spot alongside Giannis, Bam, Wiggins and Mitchell, and has publicly asked about Miami's single-season three-point record (270, Duncan Robinson, 2019-20).",
       "timeline": [
         {
           "date": "2026-08-22",
@@ -2383,6 +2389,11 @@
           "date": "2026-09-22",
           "summary": "With Giannis Antetokounmpo, Bam Adebayo, Andrew Wiggins and Davion Mitchell effectively locked into four starting spots, reporting frames Thompson as the clear front-runner for the fifth: a floor-spacer whose job is simply to keep the paint open for Miami's new frontcourt. He's never shot below 38.3% from three in a season, even as durability (past ACL and Achilles tears) remains the real question at 36.",
           "change_type": "advanced"
+        },
+        {
+          "date": "2026-09-24",
+          "summary": "Thompson's contract is confirmed: two years, roughly $11.5M, with a player option on the second season, signed after clearing waivers from his Mavericks buyout. He's publicly asked about Miami's single-season three-point record (270, Duncan Robinson, 2019-20).",
+          "change_type": "advanced"
         }
       ]
     },
@@ -2391,9 +2402,9 @@
       "title": "Panthers' 2026-27 season takes shape",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-09-23",
-      "updates": 14,
-      "current_state": "Split the two-game preseason set: Florida won Sunday's opener 6-3, Carolina won Tuesday's rematch 3-2 in a shootout at Lenovo Center, with Florida's shootout attempts both stopped. Barkov is healthy, Tkachuk is producing, Markstrom/Schmid remain the tandem, Marchand is out until late October. Training camp proper opens September 29.",
+      "last_updated": "2026-09-24",
+      "updates": 15,
+      "current_state": "Florida finalized a 51-player training camp roster (30 forwards, 16 defensemen, 5 goaltenders) as the two-game Carolina preseason set closed split 1-1. New AHL-experienced additions include forwards Imama, Lafferty, Beecher and Crookshank, plus defensemen Petrovic and Pieniniemi, with veteran Nathan Bastian in camp on a professional tryout. Barkov is healthy, Tkachuk is producing, Marchand remains out until late October.",
       "timeline": [
         {
           "date": "2026-08-22",
@@ -2464,6 +2475,11 @@
           "date": "2026-09-22",
           "summary": "Carolina won the rematch 3-2 in a shootout at Lenovo Center. Tkachuk opened the scoring for Florida off a Sam Reinhart feed; Carolina's Nadeau tied it, Barkov answered 18 seconds later to put Florida back ahead, but Carolina forced overtime and won it in the shootout -- Florida's two attempts were stopped while Carolina converted twice. A genuinely competitive game against Carolina's younger lineup, not the statement result Monday's preview framing implied.",
           "change_type": "reversed"
+        },
+        {
+          "date": "2026-09-24",
+          "summary": "Florida finalized a 51-player training camp roster (30 forwards, 16 defensemen, 5 goaltenders) as the two-game Carolina preseason set closed split 1-1; new AHL-experienced additions include Imama, Lafferty, Beecher and Crookshank, plus defensemen Petrovic and Pieniniemi, with veteran Nathan Bastian in on a PTO.",
+          "change_type": "advanced"
         }
       ]
     },
@@ -2472,9 +2488,9 @@
       "title": "Virginia Key's second marina referendum",
       "topic": "miami",
       "status": "active",
-      "last_updated": "2026-09-21",
-      "updates": 5,
-      "current_state": "The legal challenge is resolved and the referendum is confirmed for November 3, but organized political opposition has now surfaced: the Miami-Dade Democratic Party is urging a 'No' vote, and environmental advocates are campaigning against the lease over Biscayne Bay impact, with the total commitment across renewal options framed as running up to 75 years. Underlying terms ($80M redevelopment, 45-year initial lease plus two 15-year renewals, rent escalating to roughly $204M) are unchanged.",
+      "last_updated": "2026-09-24",
+      "updates": 6,
+      "current_state": "The campaign has produced its first public turnout: about 100 people gathered Monday, September 21 at Gramps Getaway on Virginia Key for a 'Save Gramps Getaway' rally opposing Referendum 3, alongside the Miami-Dade Democratic Party's 'No' recommendation and ongoing environmental-advocate opposition over Biscayne Bay impact. The November 3 vote is six weeks out.",
       "timeline": [
         {
           "date": "2026-08-25",
@@ -2500,6 +2516,11 @@
           "date": "2026-09-21",
           "summary": "Organized opposition has surfaced ahead of November 3: the Miami-Dade Democratic Party is urging a 'No' vote on Referendum 3, and environmental advocates are campaigning against the lease on Biscayne Bay-impact grounds, with some reporting now framing the commitment as running up to 75 years across its renewal options. The underlying $80M redevelopment terms are unchanged.",
           "change_type": "advanced"
+        },
+        {
+          "date": "2026-09-24",
+          "summary": "About 100 people gathered Monday, September 21 at Gramps Getaway on Virginia Key for a 'Save Gramps Getaway' rally opposing Referendum 3 -- the campaign's first public turnout, six weeks before the November 3 vote.",
+          "change_type": "advanced"
         }
       ]
     },
@@ -2507,10 +2528,10 @@
       "id": "thread-miami-vice-city-gta6-pitch",
       "title": "Miami-Dade's \"Vice City\" pitch to Rockstar Games",
       "topic": "miami",
-      "status": "watch",
-      "last_updated": "2026-09-22",
-      "updates": 11,
-      "current_state": "Three separate threads of the same pitch are now running at once: the county-level 'Vice City' branding push remains opposed and stalled; the City of Miami's downtown banner ordinance has exact terms ($202K-$208K/banner, funding the Underdeck park); and Miami Beach's commission voted 4-3 on September 10 to negotiate its own smaller beach-chair branding deal (an estimated $3-4M), still unsigned. Each city and the county is arriving at a different answer to the same question.",
+      "status": "active",
+      "last_updated": "2026-09-24",
+      "updates": 12,
+      "current_state": "The city banner pitch is now the first of the three parallel Vice-City efforts to actually get signed: the Miami City Commission approved Ordinance 19783, letting Rockstar rent up to six large banners in a defined downtown zone from October 15 through December 31 (bracketing the November 19 launch), with fees up to $208K/banner ($1.2M total) funding the 33-acre Underdeck park. The county-level 'Vice City' branding push remains stalled and Miami Beach's beach-chair deal remains unsigned.",
       "timeline": [
         {
           "date": "2026-08-31",
@@ -2566,6 +2587,11 @@
           "date": "2026-09-10",
           "summary": "First tracked -- not in prior editions, which had only covered the City of Miami's downtown banner ordinance and the county-level 'Vice City' opposition. Separately, the City of Miami Beach's commission voted 4-3 on September 10 to let its city manager negotiate its own, smaller GTA6 tie-in: subtle 'Vice City' or 'VI' branding on privately run Boucher Brothers beach chairs and umbrellas (nothing on lifeguard stands or other public fixtures), running mid-October through year-end around the game's November 19 launch, in exchange for an estimated $3-4M from Rockstar/Take-Two. Nothing is signed yet -- this is only authorization to negotiate -- and the vote was contested on the same violence-glorification grounds as the county fight.",
           "change_type": "new"
+        },
+        {
+          "date": "2026-09-24",
+          "summary": "The Miami City Commission approved Ordinance 19783, letting Rockstar rent up to six banners over 5,000 sq ft in a defined downtown zone from October 15-December 31 (bracketing the November 19 launch), with fees up to $208K/banner ($1.2M total) funding the 33-acre Underdeck park -- the first of the three parallel Vice-City pitches to actually get signed.",
+          "change_type": "advanced"
         }
       ]
     },
@@ -2681,15 +2707,20 @@
       "id": "thread-xi-jinping-us-china-visit",
       "title": "Xi Jinping's state visit to Washington",
       "topic": "markets",
-      "status": "emerging",
-      "last_updated": "2026-09-23",
-      "updates": 1,
-      "current_state": "Xi Jinping and First Lady Peng Liyuan arrive at Andrews Air Force Base today ahead of Thursday's formal state arrival ceremony and state dinner, and a Friday visit to the National Archives -- Xi's first Washington visit in 11 years. The timing is notable: Treasury has spent five weeks explicitly declining to sanction the Chinese banks that move roughly 80% of Iran's seaborne oil, citing this exact visit as the reason to hold back.",
+      "status": "active",
+      "last_updated": "2026-09-24",
+      "updates": 2,
+      "current_state": "Thursday brings the visit's formal centerpiece: a South Lawn State Arrival Ceremony (479 military personnel, a B-2/F-22 flyover) followed by a state dinner tonight with a guest list heavy on tech leaders (Musk, Bezos, Zuckerberg, Pichai, Huang, Altman, Cook, Dell, Jane Fraser). Trade, AI, critical minerals, a pending $14B Taiwan arms package, and the Iran war are all reportedly on the agenda -- the real test of five weeks of US restraint on sanctioning the Chinese banks that move Iranian oil.",
       "timeline": [
         {
           "date": "2026-09-23",
           "summary": "Xi Jinping and Peng Liyuan land at Andrews Air Force Base for a state visit confirmed since May, when Trump extended the invitation during his own China trip. Thursday's ceremony (South Lawn, 479 military personnel) and state dinner, plus a Friday tea and National Archives visit, are now locked in. The visit arrives just as Washington's own Iran-sanctions campaign has spent five weeks stopping short of the major Chinese banks that move most of Tehran's oil -- explicitly citing this visit as one reason for the restraint.",
           "change_type": "new"
+        },
+        {
+          "date": "2026-09-24",
+          "summary": "The South Lawn State Arrival Ceremony and tonight's state dinner mark the visit's formal centerpiece. Reported agenda: trade, AI, critical minerals, a pending $14B Taiwan arms package Xi is expected to press Trump on, and the Iran war; China is expected to announce US agricultural purchases, the US expected to cut tariffs on select consumer goods. State dinner guest list includes Musk, Bezos, Zuckerberg, Pichai, Huang, Altman, Cook, Dell and Citigroup's Jane Fraser.",
+          "change_type": "advanced"
         }
       ]
     }
@@ -2713,7 +2744,7 @@
     }
   ],
   "meta": {
-    "content_freshness": "2026-09-23",
+    "content_freshness": "2026-09-24",
     "feedback_endpoint_mode": "github_contents",
     "minimum_client_schema_version": 1,
     "mode": "brain"
