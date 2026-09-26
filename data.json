@@ -1,393 +1,379 @@
 {
   "schema_version": 2,
   "edition": {
-    "id": "2026-09-25",
-    "date": "2026-09-25",
+    "id": "2026-09-26",
+    "date": "2026-09-26",
     "type": "weekday",
-    "generated_at": "2026-09-25T09:30:00-04:00",
+    "generated_at": "2026-09-26T09:30:00-04:00",
     "timezone": "America/New_York",
     "title": "Personal OS",
     "front_page_letter": {
       "greeting": "Good morning",
       "body_paragraphs": [
-        "Yesterday's edition left Iran's war in its familiar shape -- oil jerking on rumor, Trump cycling through his three stated options. Overnight in New York that changed: Iran's foreign minister spent three hours with US envoys and came away having formally proposed a 60-day regionwide ceasefire tied to a phased reopening of the Strait of Hormuz, giving Washington five days to answer it. Trump calls the talks productive; Iran's president told the UN his country won't \"bend at the knee.\" Brent rose on the report anyway -- diplomacy optimism and war premium pointing the same direction for once. Nothing is signed. But 209 days in, this is the first time either side has put an actual number on paper.",
-        "Xi's actual White House day delivered less than the buildup promised: a ceremony, a dinner, an hour of talks, and a trade truce pushed to January -- no Taiwan arms deal, no move against the Chinese banks still moving Iranian oil. Markets barely moved Thursday, holding Wednesday's newly elevated level: the 10-year near 5.12%, October hike odds ticking up again to roughly 73.5%.",
-        "Closer to home: a helicopter lowered a \"Welcome to Vice City\" sign onto the Kaseya Center roof this week -- the third Miami government now running its own GTA VI deal. And in Quebec, an amateur stargazer scouting a campsite on Google Maps ended up credited, a year and a half later, with a 390-million-year-old crater. Worth remembering what unpaid curiosity still turns up."
+        "Iran's ceasefire proposal turns out to have more structure than yesterday's \"sixty days\" framing suggested: Araghchi has laid out an actual seven-day sequence -- four or five days of initial steps, the Strait of Hormuz reopening on day six, nuclear talks resuming on day seven -- but the clock only starts once Washington formally accepts it, and as of Friday, it hadn't. Trump told the UN he expects a deal \"right after the election,\" which is another way of saying: not yet.",
+        "Markets shrugged all of that off and closed out a winning week anyway -- even as the 10-year touched 5.225% intraday, its highest since 2007, and October hike odds climbed to roughly 76%. Meanwhile the war's periphery widened in a way worth noticing: France and the UK have both committed troops, radar, and air-defense systems to protect Saudi Arabia's Yanbu oil terminal from Houthi strikes -- the first direct Western military involvement in this conflict beyond intelligence-sharing.",
+        "Closer to home: a Tallahassee preemption law is about to let a developer tear down Ocean Drive's Savoy Hotel for a 38-story tower, and the city has confirmed it has no real way to stop it. And five and a half kilometers under the Samoa Basin, a research sub found fossilized megalodon teeth and a quiet little ecosystem that's been living undisturbed in the dark for longer than anyone's been counting. Worth remembering both of those are true on the same day."
       ],
       "read_only_three": [
         {
           "target_type": "theme",
-          "target_id": "theme-iran-ceasefire-roadmap-proposed",
-          "label": "Iran offers a 60-day ceasefire roadmap, sets a five-day clock"
+          "target_id": "theme-iran-seven-day-roadmap",
+          "label": "Iran's roadmap is seven days, not sixty -- and the clock hasn't started"
         },
         {
           "target_type": "theme",
-          "target_id": "theme-xi-trump-summit-concludes",
-          "label": "Xi's White House visit ends with a trade truce and little else"
+          "target_id": "theme-houthi-france-uk-yanbu-defense",
+          "label": "France and the UK step directly into Saudi Arabia's defense"
         },
         {
           "target_type": "theme",
-          "target_id": "theme-quebec-impact-crater-discovery",
-          "label": "A campsite search on Google Maps finds a 390-million-year-old crater"
+          "target_id": "theme-savoy-hotel-demolition-threat",
+          "label": "A state law clears the way to tear down Ocean Drive's Savoy Hotel"
         }
       ]
     },
     "market_context": [
       {
         "label": "S&P 500",
-        "value": "7,704.13",
-        "change": "-1.90 pts Thursday, essentially flat (-0.02%)",
-        "observed": "Thursday close, September 24, 2026",
-        "note": "A quiet session by the week's standards -- yields and rebounding oil offset each other after Wednesday's shock."
+        "value": "7,743.41",
+        "change": "+0.51% Friday, closing out a winning week",
+        "observed": "Friday close, September 25, 2026",
+        "note": "Oil's pullback gave stocks room to climb despite the bond market's stress."
       },
       {
         "label": "Nasdaq Composite",
-        "value": "26,939.37",
-        "change": "+3.34 pts Thursday, essentially flat",
-        "observed": "Thursday close, September 24, 2026",
-        "note": "Held just above Tuesday's record close after Wednesday's reversal."
+        "value": "27,068.72",
+        "change": "+0.5% Friday",
+        "observed": "Friday close, September 25, 2026",
+        "note": "A fresh high for the week, alongside the S&P and Dow."
       },
       {
         "label": "10Y Treasury",
-        "value": "5.12%",
-        "change": "Held near Wednesday's spike, which briefly touched 5.14% intraday",
-        "observed": "Thursday, September 24, 2026",
-        "note": "Highest sustained level since 2007 -- yesterday's spike didn't reverse, it just stopped rising."
+        "value": "5.18%",
+        "change": "Up from Thursday's 5.12%; touched 5.225% intraday",
+        "observed": "Friday, September 25, 2026",
+        "note": "Highest close since 2007 -- the 30-year briefly hit 5.502%, its highest since 2004."
       },
       {
         "label": "FOMC (October 28)",
-        "value": "~73.5% odds of a hike (CME FedWatch)",
-        "change": "Up from Wednesday's 66-73% range",
-        "observed": "Thursday, September 24, 2026",
+        "value": "~75.8% odds of a hike (CME FedWatch)",
+        "change": "Up from Thursday's ~73.5%",
+        "observed": "Friday, September 25, 2026",
         "note": "A hike is now closer to consensus than at any point this cycle."
       },
       {
         "label": "Brent crude",
-        "value": "$106.60",
-        "change": "+3.4% Thursday",
-        "observed": "Thursday close, September 24, 2026",
-        "note": "Rose on report of a phased US-Iran deal to reopen the Strait -- diplomacy optimism and a war premium pointing the same direction for once."
+        "value": "$104.32",
+        "change": "-2.14% Friday",
+        "observed": "Friday close, September 25, 2026",
+        "note": "Eased on optimism over Iran's seven-day roadmap to reopen the Strait of Hormuz."
       }
     ],
     "public_day_context": {
-      "date_label": "Friday, September 25, 2026",
+      "date_label": "Saturday, September 26, 2026",
       "weather": "Mostly sunny, high near 88 with a heat index near 100, and a 40% chance of afternoon showers or storms -- typical late-September South Florida weather.",
-      "public_event": "The Hurricanes (3-0) host Central Michigan Saturday at 6:30pm at Hard Rock Stadium; the Panthers play a preseason rematch against Tampa Bay Saturday at 6pm in Sunrise; the Dolphins (0-2) host the Chiefs Sunday at 1pm as 10.5-point underdogs; Heat preseason opens October 3 in Quebec City."
+      "public_event": "The Hurricanes (3-0), ~42-point favorites, host Central Michigan tonight at 6:30pm at Hard Rock Stadium; the Panthers (2-0-1 preseason) host Tampa Bay tonight at 6pm in Sunrise; the Dolphins (0-2) host the Chiefs Sunday at 1pm as 10.5-point underdogs."
     },
     "what_changed": [
       {
-        "id": "delta-iran-ceasefire-roadmap",
+        "id": "delta-iran-seven-day-roadmap-clarified",
         "thread_id": "thread-iran-hormuz-crisis",
         "change_type": "advanced",
-        "title": "Iran offers a 60-day ceasefire roadmap and gives Washington a five-day clock",
-        "previous_state": "After Tuesday's Gulf-leaders summit, Trump said there was 'a lot of momentum' toward a deal and that Washington's goal was to 'completely isolate Iran financially' -- rhetoric, not a document, and Iran's posture hadn't publicly shifted.",
-        "current_state": "Iran's FM Araghchi held roughly three hours of Qatari-mediated talks with US envoys in New York and formally presented a roadmap: a region-wide ceasefire of up to 60 days and a phased Hormuz reopening, giving Washington five days to respond. Trump called the talks productive; Iran's president told the UN Tehran won't 'bend at the knee.' Brent rose 3.4% to $106.60 on the report, even as the strait stays fully closed to commercial shipping.",
-        "why_it_matters": "209 days into the war, this is the first time either side has put an actual document -- with a ceasefire length and a reopening sequence -- on the table, rather than another round of shifting rhetoric.",
+        "title": "Iran's roadmap turns out to run seven days, not sixty -- and the clock hasn't started",
+        "previous_state": "Yesterday's edition described a '60-day ceasefire' with a five-day US response window, based on Thursday's early reporting on the New York talks.",
+        "current_state": "Araghchi has since detailed the actual structure: four to five days of initial steps, the strait reopening on day six, and nuclear talks resuming on day seven -- with the whole sequence starting only once Washington formally accepts Iran's terms, which as of Friday it hadn't. Trump told the UN he expects a deal 'right after the election,' not before.",
+        "why_it_matters": "The most concrete document of the war turns out to have real structure and real Iranian asks attached, while Washington's own signals point to patience rather than urgency.",
         "confidence": "high",
         "source": {
-          "publisher": "CNBC",
-          "url": "https://www.cnbc.com/2026/09/24/oil-iran-crude-kepler-trump-us-un-.html"
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/25/iran-pitches-seven-day-roadmap-to-end-conflict-with-us"
         }
       },
       {
-        "id": "delta-xi-summit-concludes",
-        "thread_id": "thread-xi-jinping-us-china-visit",
-        "change_type": "resolved",
-        "title": "Xi's White House visit ends with a trade-truce extension and little else",
-        "previous_state": "Yesterday's edition tracked only the day's schedule -- a South Lawn arrival ceremony and a state dinner still ahead, with Taiwan arms, China-bank sanctions, and trade all reportedly on the table.",
-        "current_state": "The ceremony and dinner happened as planned, but the substance was thin: the US and China extended their trade truce (due to expire in November) through January 10; the $14B Taiwan arms package stays frozen with no deal; and Washington still hasn't sanctioned any major Chinese bank over Iranian oil -- the five-week-old restraint holds by default, untested rather than resolved.",
-        "why_it_matters": "The 'real test' framing from this week's earlier editions didn't really get tested -- both sides chose a cautious summit over a confrontational one, exactly as China analysts predicted going in.",
-        "confidence": "high",
-        "source": {
-          "publisher": "CNBC",
-          "url": "https://www.cnbc.com/2026/09/24/trump-xi-meeting-china-washington.html"
-        }
-      },
-      {
-        "id": "delta-fed-odds-hold-elevated",
+        "id": "delta-markets-yield-record-fomc-climb",
         "thread_id": "thread-fed-rate-path",
-        "change_type": "watch",
-        "title": "Markets hold Wednesday's shock rather than reversing it",
-        "previous_state": "Wednesday's reversal sent the 10-year to 5.11%, its highest close since 2007, and pushed October hike odds to roughly 66-73%.",
-        "current_state": "Thursday's close was essentially flat -- S&P -0.02%, Nasdaq roughly flat -- with the 10-year holding near 5.12% and October 28 hike odds climbing further to about 73.5% on CME FedWatch.",
-        "why_it_matters": "Not a reversal and not a further shock -- just confirmation that Wednesday's new, higher plateau is where things are actually settling for now.",
+        "change_type": "advanced",
+        "title": "Stocks close a winning week even as the 10-year hits its highest close since 2007",
+        "previous_state": "Thursday's close was essentially flat, holding Wednesday's shock rather than reversing or extending it, with the 10-year near 5.12% and October hike odds near 73.5%.",
+        "current_state": "Friday's close pushed further: S&P +0.51% to 7,743.41, Nasdaq +0.5% to 27,068.72, the 10-year settled at 5.18% after touching 5.225% intraday -- the highest since 2007 -- and October hike odds climbed to roughly 75.8% on CME FedWatch, even as oil eased on Hormuz-deal optimism.",
+        "why_it_matters": "A hike is now closer to consensus than at any point this cycle, and equities are still grinding higher despite it.",
         "confidence": "high",
         "source": {
           "publisher": "CNBC",
-          "url": "https://www.cnbc.com/2026/09/24/market-sees-next-fed-hike-in-october-following-barr-comments-hot-inflation.html"
+          "url": "https://www.cnbc.com/2026/09/25/treasury-yields-bonds-debt.html"
         }
       },
       {
-        "id": "delta-vice-city-kaseya-sign",
-        "thread_id": "thread-miami-vice-city-gta6-pitch",
+        "id": "delta-houthi-france-uk-yanbu",
+        "thread_id": "thread-houthi-red-sea-control",
+        "change_type": "new",
+        "title": "France and the UK commit troops and air defense to protect Saudi oil infrastructure",
+        "previous_state": "As of Tuesday, the thread's last update, Western involvement was limited to a US offer of intelligence-sharing after Trump called off a planned strike on Houthi targets.",
+        "current_state": "France's Macron pledged to send soldiers, radar and air-defense systems specifically to protect the Yanbu oil terminal, calling it strictly defensive; the UK separately committed additional military assistance, after Saudi Arabia intercepted fresh Houthi ballistic missiles Thursday following a warning covering several regions including Mecca.",
+        "why_it_matters": "The first direct Western military commitment to defend Saudi infrastructure in this war, beyond intelligence-sharing.",
+        "confidence": "high",
+        "source": {
+          "publisher": "France 24",
+          "url": "https://www.france24.com/en/middle-east/20260924-saudi-houthi-attacks-france-oil-port"
+        }
+      },
+      {
+        "id": "delta-dolphins-chiefs-final-injuries",
+        "thread_id": "thread-dolphins-hafley-rebuild",
         "change_type": "advanced",
-        "title": "A third Vice City pitch lands: Miami-Dade's own arena-roof sign",
-        "previous_state": "As of yesterday's edition, the City of Miami's downtown banner ordinance was the only one of three parallel Vice-City pitches actually signed.",
-        "current_state": "A helicopter lowered a 'Welcome To Vice City' sign onto the Kaseya Center roof on September 22, with Rockstar paying Miami-Dade County (the arena's owner) about $975,000 for the placement -- a second pitch across the finish line, alongside Miami Beach's pending $3-4M beach-chair deal, still under negotiation.",
-        "why_it_matters": "Three different Miami governments are now each cutting separate deals with the same game launch -- a small window into how a single cultural moment gets divided up and monetized locally.",
+        "title": "Chiefs rule out their starting left tackle; Miami's rookie receiver picture brightens slightly",
+        "previous_state": "Thursday's preliminary reports had both rookie Miami receivers banged up and Kansas City's report comparatively clean.",
+        "current_state": "Friday's final reports flip that: Kansas City ruled out left tackle Josh Simmons and lists Chamarri Conner doubtful, while Miami ruled out Caleb Douglas and Rob Beal Jr., listed Jaylen Wright doubtful, but gave Chris Bell no game-status designation at all. The line held at Chiefs -10.5.",
+        "why_it_matters": "A real complication for Kansas City's protection plan, and a slightly healthier receiver corps for Miami than 24 hours earlier.",
+        "confidence": "high",
+        "source": {
+          "publisher": "Arrowhead Pride",
+          "url": "https://www.arrowheadpride.com/kansas-city-chiefs-injuries/211359/chiefs-dolphins-week-3-final-injury-report-chamarri-conner-doubtful"
+        }
+      },
+      {
+        "id": "delta-savoy-hotel-thread-opens",
+        "thread_id": "thread-miami-savoy-hotel-demolition",
+        "change_type": "new",
+        "title": "New thread: a 38-story tower could replace Ocean Drive's Art Deco Savoy Hotel",
+        "previous_state": "Not previously tracked in this edition.",
+        "current_state": "Two Tallahassee preemption laws -- the 2024 Resiliency and Safe Structures Act and the Live Local Act -- leave Miami Beach with no legal way to block Allied Partners' plan to demolish the 1930s Savoy Hotel for a 38-story tower with 90 condos and 60 workforce apartments.",
+        "why_it_matters": "The clearest case yet of a state law overriding a local historic-preservation fight in Miami Beach.",
         "confidence": "medium",
         "source": {
-          "publisher": "GTA BOOM",
-          "url": "https://www.gtaboom.com/the-giant-gta-6-sign-on-the-kaseya-center-in-miami-is-now-up-2e39"
+          "publisher": "WLRN",
+          "url": "https://www.wlrn.org/development/2026-09-15/savoy-hotel-miami-beach-hotel-florida-live-local"
         }
       }
     ],
     "themes": [
       {
-        "id": "theme-iran-ceasefire-roadmap-proposed",
+        "id": "theme-iran-seven-day-roadmap",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Iran offers a 60-day ceasefire roadmap, sets a five-day clock on Washington",
-        "importance": 0.8,
-        "thesis": "After 209 days of war, Iran has finally put an actual proposal on paper -- and given Washington a real deadline to answer it.",
-        "synthesis": "Iranian FM Abbas Araghchi held roughly three hours of Qatari-mediated talks in New York with US special envoy Steve Witkoff and Jared Kushner, on the sidelines of the UN General Assembly. Iran formally presented a 'roadmap': a region-wide ceasefire of up to 60 days, a phased reopening of the Strait of Hormuz, and a timetable for broader negotiations -- reportedly including a halt to attacks on Arab neighbors -- and gave Washington five days to respond. Trump called the New York talks 'productive' and said there's real momentum, but his UN speech also warned he still faces a choice between a deal and further military action, and he's ruled out lifting the blockade before Iran shows 'sufficient goodwill.' Iran's President Pezeshkian told the UN his country will not 'bend at the knee' to American pressure. Brent crude rose 3.4% to $106.60 (WTI +2.7% to $94.61) on the report -- even as the strait itself remains fully closed to commercial shipping, with Kpler data showing just one vessel transiting on September 20.",
-        "new_today": "The formal roadmap, its five-day response window, Pezeshkian's UN remarks, and Thursday's oil move are all new since yesterday's edition, which had only Tuesday's summit rhetoric about 'momentum.'",
-        "why_it_matters": "For Alex's read on the war: this is the first time in 209 days that either side has put a concrete document -- a ceasefire length, a reopening sequence -- on the table, rather than another round of Trump's three shifting options or Iran's shifting conditions.",
+        "title": "Iran's roadmap turns out to be seven days, not sixty -- and the clock hasn't started",
+        "importance": 0.75,
+        "thesis": "Yesterday's 'sixty-day ceasefire, five-day deadline' framing was rougher than the actual plan Araghchi has now spelled out in detail -- a tighter seven-day sequence that only starts once Washington formally accepts it, while Trump signals he's in no hurry to accept before November.",
+        "synthesis": "Iranian FM Abbas Araghchi told reporters outside the UN Security Council on Friday that Iran's roadmap runs seven days once accepted: four to five days of initial steps, the Strait of Hormuz reopening on day six, and talks toward a final nuclear deal starting on day seven. Under the plan, Washington would lift its naval blockade, waive sanctions on Iranian oil sales, release roughly $12 billion in frozen Iranian assets, and observe a regional ceasefire covering Lebanon and Yemen; in return Iran would reopen the strait, through which a fifth of the world's traded oil once passed. Araghchi said the seven-day clock only starts the day after the US formally accepts the terms -- and as of Friday, Washington hadn't. At the UN, Trump said he expects a deal 'right after the election' in November, framing Iran as 'waiting to see how I do' at the midterms rather than moving urgently now.",
+        "new_today": "The precise seven-day structure, the $12B/sanctions-waiver/blockade-lift terms, confirmation the clock hasn't started, and Trump's on-record midterms framing are all new since yesterday's edition, which had only Thursday's looser '60-day ceasefire, five-day window' language.",
+        "why_it_matters": "For Alex's read on the war: the most concrete document of the conflict turns out to have real structure and real Iranian asks attached -- and Washington's own signals point to patience, not urgency, despite Thursday's 'productive' language.",
         "thread_id": "thread-iran-hormuz-crisis",
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "CNBC",
-            "headline": "Oil prices pull back from session highs after report of talks for phased reopening of Strait of Hormuz",
-            "url": "https://www.cnbc.com/2026/09/24/oil-iran-crude-kepler-trump-us-un-.html"
+            "publisher": "Al Jazeera",
+            "headline": "Iran pitches seven-day roadmap to end conflict with US",
+            "url": "https://www.aljazeera.com/news/2026/9/25/iran-pitches-seven-day-roadmap-to-end-conflict-with-us"
           },
           {
             "role": "analysis",
-            "publisher": "Semafor",
-            "headline": "Iran presents US with roadmap to end the war",
-            "url": "https://www.semafor.com/article/09/24/2026/iran-presents-us-with-roadmap-to-end-the-war"
+            "publisher": "Al Jazeera",
+            "headline": "What's in Iran's seven-day plan to reopen the Strait of Hormuz?",
+            "url": "https://www.aljazeera.com/news/2026/9/25/whats-in-irans-seven-day-plan-to-reopen-the-strait-of-hormuz"
           },
           {
             "role": "background",
-            "publisher": "Gulf News",
-            "headline": "Iran's Pezeshkian vows never to 'bend at the knee' at UN as US-Iran talks, 60-day ceasefire roadmap and Hormuz blockade dominate",
-            "url": "https://gulfnews.com/world/mena/irans-pezeshkian-vows-never-to-bend-at-the-knee-at-un-as-us-iran-talks-60-day-ceasefire-roadmap-and-hormuz-blockade-take-centre-stage-1.500685870"
+            "publisher": "NBC News",
+            "headline": "Trump tells U.N. he could 'annihilate' Iran but expects a deal after the midterm elections",
+            "url": "https://www.nbcnews.com/politics/trump-administration/trump-address-united-nations-general-assembly-iran-war-rcna599085"
           }
         ]
       },
       {
-        "id": "theme-xi-trump-summit-concludes",
+        "id": "theme-markets-yield-record-fomc-climb",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Xi's White House visit ends with a trade truce extension and little else",
+        "title": "Stocks close a winning week even as the 10-year hits its highest close since 2007",
         "importance": 0.55,
-        "thesis": "Five weeks of buildup -- and the specific worry that this visit was the reason Washington hadn't sanctioned Chinese banks over Iranian oil -- resolved into a cautious summit that changed almost nothing concrete.",
-        "synthesis": "Thursday delivered the full schedule: the South Lawn arrival ceremony, roughly an hour of bilateral talks between Trump and Xi, and a state dinner (a pescatarian menu, tech leaders including Elon Musk, OpenAI's Sam Altman and AMD's Lisa Su in attendance). The concrete result was thin. The US and China agreed to extend their trade truce, originally due to expire in November, through January 10. The $14 billion Taiwan arms package Xi was expected to press on stays frozen, unresolved. And Washington still has not sanctioned any major Chinese bank for moving Iranian oil -- the restraint this edition has tracked for five weeks held by default rather than by any visible decision either way. Xi used his remarks to warn publicly about AI risk; both leaders emphasized shared interests over friction points.",
-        "new_today": "The actual outcomes of the ceremony, bilateral meeting and dinner -- the trade-truce extension, the frozen Taiwan package, and the unmoved sanctions restraint -- are all new since yesterday's edition, which had only the day's schedule.",
-        "why_it_matters": "China analysts predicted a 'cautious summit' with few major deliverables going in, and that's what happened -- the restraint on Chinese banks wasn't tested by the visit, it just quietly survived it.",
-        "thread_id": "thread-xi-jinping-us-china-visit",
+        "thesis": "A cooldown in oil gave equities room to close the week higher, but the bond market kept climbing to levels not seen in nearly two decades, and an October hike is now closer to consensus than at any point this cycle.",
+        "synthesis": "Friday's close: the S&P 500 rose 0.51% to 7,743.41, the Nasdaq gained 0.5% to 27,068.72, and the Dow added 0.93% to 51,828.62, all closing out winning weeks. Oil eased on optimism over a possible Hormuz reopening -- Brent fell 2.14% to $104.32, WTI 2.33% to $92.41 -- which took pressure off stocks even as bond yields kept climbing: the 10-year settled at 5.18%, up from Thursday's 5.12%, after touching 5.225% intraday, its highest level since 2007, while the 30-year briefly hit 5.502%, its highest since 2004. October 28 hike odds on CME FedWatch climbed further to roughly 75.8%, up from Thursday's 73.5%.",
+        "new_today": "Friday's confirmed closing levels, the fresh multi-decade high in yields, and the further climb in hike odds are all new since yesterday's edition, which only had Thursday's flat close and the 73.5% reading.",
+        "why_it_matters": "A hike is now closer to consensus than at any point this cycle, and it's happening even as stocks keep grinding higher -- worth watching whether equities can keep shrugging off a bond market under this much strain.",
+        "thread_id": "thread-fed-rate-path",
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
             "publisher": "CNBC",
-            "headline": "Trump, Xi to attend state dinner after White House meeting",
-            "url": "https://www.cnbc.com/2026/09/24/trump-xi-meeting-china-washington.html"
+            "headline": "10-year Treasury yield is little changed to end a volatile week",
+            "url": "https://www.cnbc.com/2026/09/25/treasury-yields-bonds-debt.html"
           },
           {
             "role": "background",
-            "publisher": "NBC News",
-            "headline": "Trump-Xi summit: Leaders meet at White House amid tensions over Taiwan, trade and AI",
-            "url": "https://www.nbcnews.com/world/asia/trump-xi-summit-meet-white-house-tensions-taiwan-trade-ai-rcna598073"
+            "publisher": "Yahoo Finance",
+            "headline": "Stock market today: Dow, S&P 500, Nasdaq notch weekly wins as market shrugs off bond sell-off, oil prices ease",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-september-25-dow-sp-500-nasdaq-081738529.html"
           }
         ]
       },
       {
-        "id": "theme-dolphins-0-2-chiefs-next",
+        "id": "theme-houthi-france-uk-yanbu-defense",
+        "affinity": "morning",
+        "topic": "markets",
+        "topic_label": "Markets & Macro",
+        "title": "France and the UK step directly into Saudi Arabia's defense as Houthi strikes intensify",
+        "importance": 0.5,
+        "thesis": "Eight months into a war that's mostly run through Iranian, Saudi and Gulf actors, two European militaries just committed troops and hardware to shield Saudi infrastructure directly -- a real widening, even if framed purely as defensive.",
+        "synthesis": "With Houthi missile and drone attacks on Saudi territory mounting -- Riyadh intercepted fresh ballistic missiles Thursday after warning several regions, including Mecca, of possible strikes -- French President Emmanuel Macron said France will send soldiers, radar and air-defense systems specifically to protect the Yanbu oil terminal and its Aramco facilities, stressing the deployment is 'strictly defensive.' The UK separately pledged additional military assistance to help Saudi Arabia counter the air attacks. It follows last weekend's near-miss, when Trump came close to ordering US strikes on Houthi targets before Saudi Crown Prince Mohammed bin Salman talked him down in favor of intelligence-sharing instead.",
+        "new_today": "France's troop, radar and air-defense commitment to Yanbu and the UK's parallel assistance pledge are both new since the thread's last update on Tuesday's US-Houthi strike near-miss.",
+        "why_it_matters": "This is the first time Western militaries have moved to directly shield Saudi infrastructure in this conflict, rather than just sharing intelligence -- a real escalation in involvement even as everyone involved insists it isn't one.",
+        "thread_id": "thread-houthi-red-sea-control",
+        "confidence": "high",
+        "sources": [
+          {
+            "role": "primary_reporting",
+            "publisher": "France 24",
+            "headline": "Saudi reports fresh Houthi attacks as France pledges to defend key oil port",
+            "url": "https://www.france24.com/en/middle-east/20260924-saudi-houthi-attacks-france-oil-port"
+          },
+          {
+            "role": "background",
+            "publisher": "Al Jazeera",
+            "headline": "Saudi Arabia allies line up support as Houthi attacks mount",
+            "url": "https://www.aljazeera.com/news/2026/9/25/saudi-arabia-allies-line-up-support-as-houthi-attacks-mount"
+          }
+        ]
+      },
+      {
+        "id": "theme-dolphins-chiefs-final-injuries",
         "affinity": "morning",
         "topic": "sports",
         "topic_label": "Miami Sports",
-        "title": "Dolphins host a red-hot Chiefs team Sunday, banged-up rookie receivers and all",
+        "title": "Chiefs rule out their starting left tackle; Miami's rookie receiver picture brightens slightly",
         "importance": 0.4,
-        "thesis": "Miami's winless start meets Kansas City's best two-game stretch in franchise memory, and Thursday's injury reports only added a little more uncertainty to the underdog side.",
-        "synthesis": "Sunday's matchup at Hard Rock Stadium (1pm ET) is set at Chiefs -10.5, unmoved by Thursday's injury reports. Miami's rookie receivers are both banged up -- Chris Bell (knee) is questionable, Caleb Douglas (ankle) didn't practice after leaving Week 2 early -- while Kansas City's report is comparatively clean, with only minor new issues and left tackle Josh Simmons still working back into the lineup. The Chiefs (2-0) enter off back-to-back 30-plus-point games and the NFL's largest rushing-yardage differential through two games since 2005; Miami (0-2) has scored just 13 points in each of its first two games. Dimers gives Kansas City a 79.9% win probability.",
-        "new_today": "Thursday's injury reports for both teams are new since yesterday's edition, which had only the finalized spread and win-probability numbers.",
-        "why_it_matters": "Another real inflection point for the Hafley rebuild: two banged-up rookie receivers facing the league's hottest rushing attack is exactly the kind of matchup that turns into the lineup-change conversation Hafley has already declined to rule out.",
+        "thesis": "Friday's final injury reports flipped the script a little: Kansas City's is now the messier one, and Miami's rookie receivers look marginally healthier than they did Thursday.",
+        "synthesis": "Kansas City ruled out starting left tackle Josh Simmons (back) after he missed the entire practice week, and lists safety Chamarri Conner (knee) as doubtful after three straight limited sessions; Patrick Mahomes carries no injury designation and is expected to play. Miami ruled out rookie receiver Caleb Douglas (ankle) and edge rusher Rob Beal Jr., listed running back Jaylen Wright as doubtful with a stinger, and -- notably -- gave fellow rookie receiver Chris Bell no game-status designation at all, a better sign than Thursday's 'questionable' tag. The line held at Chiefs -10.5 for Sunday's 1pm kickoff at Hard Rock Stadium.",
+        "new_today": "Friday's final injury designations for both teams -- Simmons ruled out, Bell clearing, Douglas and Beal ruled out, Wright doubtful -- are new since Thursday's preliminary report.",
+        "why_it_matters": "Losing a starting left tackle is a real complication for Kansas City's protection plan, while Miami's rookie receiver corps looks a touch healthier than it did Thursday -- two small edges that could matter against a 10.5-point line.",
         "thread_id": "thread-dolphins-hafley-rebuild",
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
             "publisher": "Arrowhead Pride",
-            "headline": "Chiefs-Dolphins Week 3 Thursday injury report: Conner easing back in",
-            "url": "https://www.arrowheadpride.com/kansas-city-chiefs-injuries/211260/chiefs-dolphins-week-3-thursday-injury-report-chamarri-conner-easing-back"
+            "headline": "Chiefs-Dolphins Week 3 final injury report: Chamarri Conner doubtful",
+            "url": "https://www.arrowheadpride.com/kansas-city-chiefs-injuries/211359/chiefs-dolphins-week-3-final-injury-report-chamarri-conner-doubtful"
           },
           {
             "role": "background",
             "publisher": "Yahoo Sports",
-            "headline": "Kansas City Chiefs' first injury report for Miami Dolphins gives the team a few new injuries to navigate in Week 3 road game",
-            "url": "https://sports.yahoo.com/articles/kansas-city-chiefs-first-injury-205315736.html"
+            "headline": "Final Dolphins-Chiefs Week 3 Injury Report: Some Relief at Wide Receiver?",
+            "url": "https://sports.yahoo.com/articles/final-dolphins-chiefs-week-3-203206185.html"
           }
         ]
       },
       {
-        "id": "theme-hurricanes-central-michigan-matchup",
-        "affinity": "morning",
-        "topic": "sports",
-        "topic_label": "Miami Sports",
-        "title": "No. 6 Miami installs a season-high ~42-point line against Central Michigan",
-        "importance": 0.35,
-        "thesis": "A full preparation week and a massively overmatched opponent make Saturday more about staying sharp than about the scoreboard.",
-        "synthesis": "Miami (3-0), ranked 7th nationally in SP+ (offense 9th, defense 7th), hosts Central Michigan (2-1, ranked 117th overall) Saturday at 6:30pm on CW at Hard Rock Stadium. ESPN gives the Hurricanes a 99% win expectancy and installs them as roughly 42-point favorites -- the largest spread of the season. Darian Mensah is 71-of-79 for 873 yards and 11 touchdowns through three games, fresh off his ACC-record 24 straight completions against Wake Forest.",
-        "new_today": "The finalized kickoff time, betting line, and SP+ rankings comparison are new since yesterday's edition, which only confirmed the opponent and date.",
-        "why_it_matters": "With ACC play intensifying soon, this is the last tune-up before the games start mattering more -- a chance to keep Mensah's record-setting rhythm going without much competitive pressure.",
-        "thread_id": "thread-hurricanes-fall-camp",
-        "confidence": "high",
-        "sources": [
-          {
-            "role": "primary_reporting",
-            "publisher": "The Miami Hurricane",
-            "headline": "No.6 Miami welcomes Central Michigan to Hard Rock Stadium",
-            "url": "https://themiamihurricane.com/2026/09/24/no-6-miami-welcomes-central-michigan-to-hard-rock-stadium/"
-          },
-          {
-            "role": "background",
-            "publisher": "ESPN",
-            "headline": "Central Michigan vs. Miami (Sep 26, 2026)",
-            "url": "https://www.espn.com/college-football/game/_/gameId/401858238/c-michigan-miami"
-          }
-        ]
-      },
-      {
-        "id": "theme-miami-cre-top-sales-week",
-        "affinity": "morning",
-        "topic": "markets",
-        "topic_label": "Markets & Macro",
-        "title": "Miami-Dade's weekly commercial sales top $974.9 million, office still leading",
-        "importance": 0.4,
-        "thesis": "The institutional buying wave that's been building all quarter now shows up in the county's own weekly aggregate, not just in individual headline deals.",
-        "synthesis": "Miami-Dade's top 10 commercial sales for the week reached $974.9 million, led by office megadeals including the $181 million sale of 545wyn in Wynwood; office was the county's leading sector by dollar volume at $880.5 million across 51 sales. Just outside the county, New York-based Thor Equities paid $62 million ($407/sq ft) for the 153,200-square-foot, 90%-leased Two Town Center office building in Boca Raton -- the region's priciest trade of the week outside Miami-Dade itself.",
-        "new_today": "The weekly $974.9M aggregate and the Thor Equities Boca Raton deal are new since the thread's last update (Tuesday's Tabani Group Lincoln Road trade).",
-        "why_it_matters": "For Alex's CRE read: the pattern this thread has tracked all quarter -- individual institutional deals landing across apartment, retail, industrial and office -- now reads the same way in the county's own aggregate numbers, not just anecdotally.",
-        "thread_id": "thread-cre-capital-markets-2026",
-        "confidence": "medium",
-        "sources": [
-          {
-            "role": "primary_reporting",
-            "publisher": "The Real Deal",
-            "headline": "Miami-Dade's Top 10 Commercial Sales Near $1 Billion",
-            "url": "https://therealdeal.com/miami/2026/09/21/miami-dades-top-10-commercial-sales-near-1-billion/"
-          },
-          {
-            "role": "background",
-            "publisher": "The Real Deal",
-            "headline": "South Florida's top deals: Thor Equities buys Boca Raton office for $62M",
-            "url": "https://therealdeal.com/data/miami/2026/top-deals-thor-equities-buys-boca-raton-office/"
-          }
-        ]
-      },
-      {
-        "id": "theme-vice-city-kaseya-sign",
+        "id": "theme-savoy-hotel-demolition-threat",
         "affinity": "evening",
         "topic": "miami",
         "topic_label": "Miami Life & Culture",
-        "title": "A helicopter lowers 'Welcome To Vice City' onto the Kaseya Center roof",
-        "importance": 0.3,
-        "thesis": "A third Miami government has now cut its own separate deal with Rockstar -- each one monetizing the same game launch in its own small way.",
-        "synthesis": "Work crews used a helicopter to lower a giant 'Welcome To Vice City' sign onto the roof of the Kaseya Center on September 22; Rockstar paid Miami-Dade County, which owns the arena, roughly $975,000 for the temporary placement. Separately, Miami Beach's city commission voted 4-3 on September 10 to let its city manager negotiate discreet 'VI' branding on Boucher Brothers' public beach chairs and umbrellas -- not lifeguard stands or other iconic public spots -- for an estimated $3-4 million, still being finalized. Together with the City of Miami's already-signed downtown banner ordinance, that's three separate Miami governments each running their own Vice City deal ahead of the November 19 launch.",
-        "new_today": "The Kaseya Center sign's installation and the Miami Beach beach-chair deal's commission vote are both new since yesterday's edition, which covered only the city's downtown banner ordinance.",
-        "why_it_matters": "A small, concrete look at how one cultural moment gets divided up and separately monetized by three different layers of local government at once.",
-        "thread_id": "thread-miami-vice-city-gta6-pitch",
+        "title": "A state law from Tallahassee clears the way to tear down Ocean Drive's Savoy Hotel",
+        "importance": 0.4,
+        "thesis": "Two state preemption laws -- one pitched as flood safety, one as housing supply -- have combined to strip Miami Beach of any real ability to stop a historic Art Deco hotel from becoming a 38-story tower.",
+        "synthesis": "Developer Allied Partners wants to redevelop the site of the low-rise, 1930s Savoy Hotel at 425 Ocean Drive into a 38-story tower with a hotel, 90 condo units, and 60 workforce rental apartments. Two Tallahassee statutes make it legally possible despite Miami Beach's own historic-preservation rules: the 2024 Resiliency and Safe Structures Act, which allows demolition of historic buildings that don't meet FEMA flood criteria, and the Live Local Act, which lets developers bypass local height limits outright. The laws' sponsor, state senator Bryan Avila of Hialeah, framed them around flood resiliency and housing supply; preservationists call them a backdoor around the city's Art Deco protections, and the city has confirmed it has no legal lever to block either piece.",
+        "new_today": "First tracked in this edition -- the demolition threat itself surfaced in mid-September reporting but hasn't previously appeared in this thread history.",
+        "why_it_matters": "For Alex's read on Miami development: this is the clearest case yet of a state law overriding what used to be a local zoning fight -- and Ocean Drive's Art Deco streetwall, of all things, is the test case.",
+        "thread_id": "thread-miami-savoy-hotel-demolition",
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "GTA BOOM",
-            "headline": "Giant Welcome to Vice City GTA 6 Sign Installed Atop Miami's Kaseya Center",
-            "url": "https://www.gtaboom.com/the-giant-gta-6-sign-on-the-kaseya-center-in-miami-is-now-up-2e39"
+            "publisher": "WLRN",
+            "headline": "Historic Miami Beach hotel faces demolition -- and city can't stop it",
+            "url": "https://www.wlrn.org/development/2026-09-15/savoy-hotel-miami-beach-hotel-florida-live-local"
           },
           {
             "role": "background",
-            "publisher": "Miami New Times",
-            "headline": "Miami Beach approves multi-million-dollar GTA VI marketing agreement",
-            "url": "https://www.miaminewtimes.com/news/miami-beach-approves-multi-million-dollar-gta-vi-marketing-agreement-40583969/"
+            "publisher": "Floridian Development",
+            "headline": "Miami Beach's Savoy Hotel Could Face Demolition for a 38-Story Tower Under the Live Local Act",
+            "url": "https://floridiandevelopment.com/miami-beachs-savoy-hotel-could-face-demolition-for-a-38-story-tower-under-the-live-local-act/"
           }
         ]
       },
       {
-        "id": "theme-quebec-impact-crater-discovery",
+        "id": "theme-samoa-basin-abyssal-life",
         "affinity": "evening",
         "topic": "living",
         "topic_label": "Art of Living",
-        "title": "A campsite search on Google Maps turns up a 390-million-year-old crater",
-        "importance": 0.35,
-        "thesis": "One of this year's more substantial geological finds started as an amateur's idle curiosity, not a funded search.",
-        "synthesis": "In 2024, amateur astronomer Joel Lapointe was using online satellite imagery to scout a campsite near Lake Marsal in Quebec's remote Cote-Nord region when he noticed an unusual 25-kilometer circular feature. Suspecting an impact structure, he contacted researchers in Europe and North America; French scientists identified the area as a likely impact site at a 2024 Meteoritical Society meeting, and 2025 fieldwork turned up shatter cones -- the clearest physical signature of an impact event. Rock samples now date the structure, named Uhackatik after consultation with the Innu Council of Ekuanitshit, to roughly 390 million years ago. NASA's Earth Observatory featured it as its September 15 Image of the Day.",
-        "new_today": "First tracked in this edition -- today's research pick, following the recent run of archaeology and material-history finds.",
-        "why_it_matters": "A reminder that a fair amount of real discovery still starts with someone noticing something odd and following up, not with a grant proposal.",
+        "title": "Five and a half kilometers down, off American Samoa: fossilized megalodon teeth and a nodule field full of quiet life",
+        "importance": 0.3,
+        "thesis": "NOAA's monthlong ROV survey of the deep Samoa Basin turned up both an economically fraught seabed -- a mineral-rich nodule field -- and a small, strange menagerie that's been living undisturbed at hadal depths for a very long time.",
+        "synthesis": "NOAA Ocean Exploration's ship Okeanos Explorer spent late August through mid-September diving the deep waters around American Samoa, descending as far as 5,547 meters into the East Samoa Basin. Dives there found a nodule field -- potato-sized polymetallic nodules scattered unevenly across the seafloor -- alongside fossilized megalodon teeth coated in a ferromanganese crust, and a resident community of halosaurs, cusk eels, anemones, shrimp and sea cucumbers going about their business in near-total darkness. The expedition wrapped in Suva, Fiji, on September 17.",
+        "new_today": "First tracked in this edition -- today's research pick, in the same spirit as recent editions' archaeology and material-history finds.",
+        "why_it_matters": "A reminder of how much ordinary, ongoing life exists in places no human will ever visit except by remote camera -- and that some of the seafloor now being mapped for critical minerals is also just quietly, deeply inhabited.",
         "thread_id": null,
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "NASA Earth Observatory",
-            "headline": "An Accidental Impact Crater Discovery",
-            "url": "https://science.nasa.gov/earth/earth-observatory/an-accidental-impact-crater-discovery/"
+            "publisher": "NOAA Ocean Exploration",
+            "headline": "Dive 04: East Samoa Basin Abyssal Nodule Field",
+            "url": "https://oceanexplorer.noaa.gov/dive-04-ex2606/"
           },
           {
             "role": "background",
-            "publisher": "Smithsonian Magazine",
-            "headline": "An Amateur Astronomer Using Google Maps Spotted a Strange Indentation. It Turned Out to Be a Meteorite Crater From 390 Million Years Ago",
-            "url": "https://www.smithsonianmag.com/smart-news/an-amateur-astronomer-using-google-maps-spotted-a-strange-indentation-it-turned-out-to-be-a-meteorite-crater-from-390-million-years-ago-180989158/"
+            "publisher": "Scubaverse",
+            "headline": "ROV Dives Reveal Life More Than Five Kilometres Beneath American Samoa",
+            "url": "https://scubaverse.com/rov-dives-reveal-life-more-than-five-kilometres-beneath-american-samoa/"
           }
         ]
       }
     ],
     "rabbit_hole": {
-      "id": "rh-2026-09-25",
-      "title": "Now Entering: The Era Of Bleh",
-      "creator": "Aaron Horwath (Noema Magazine)",
+      "id": "rh-2026-09-26",
+      "title": "A New Kind Of Creative Poverty",
+      "creator": "Afra Wang (Noema Magazine)",
       "format": "essay",
-      "minutes": 18,
-      "why": "Horwath builds his case around a single copywriter managing a fleet of AI agents that pull industry news, draft copy, and scout prospects -- then asks what gets lost when knowledge and creative work run entirely through systems built to standardize. It makes concrete something Xi could only gesture at in his own AI warning at last night's state dinner, and it's a sharper entry into the AI-and-work conversation than most of what got written about it this week.",
-      "url": "https://www.noemamag.com/now-entering-the-era-of-bleh/",
+      "minutes": 16,
+      "why": "Wang asks what LLM post-training's reward signal -- 'helpful, harmless, honest, be a good person' -- has in common with the Simplified Chinese internet's own regime of reward and punishment, and argues both make it harder for genuinely dangerous, unpredictable writing to survive. Her answer comes from an unlikely place: Baudelaire, who met an incomprehensible, industrializing Paris not by insisting on its beauty but by praising its ugliness outright.",
+      "url": "https://www.noemamag.com/a-new-kind-of-creative-poverty/",
       "related_interest": "living"
     },
     "beautiful_thing": {
-      "id": "bt-2026-09-25",
-      "title": "Saturn's New Southern Decagon",
+      "id": "bt-2026-09-26",
+      "title": "Omega Centauri, Up Close",
       "creator": "NASA / ESA Hubble Space Telescope",
-      "era": "First traces seen 2023; confirmed as a fully formed decagon in Hubble data from August-September 2025; published September 2, 2026",
-      "body": "Hubble images spanning 2023 to 2025 show a ten-sided jet-stream pattern that has emerged around Saturn's south pole -- a southern counterpart to the planet's famous northern hexagon, a feature that has puzzled and delighted astronomers since Voyager first spotted it in the early 1980s. Worth noticing: this is the first time a large, regular-sided pattern like this has been observed in Saturn's southern hemisphere at all, and the data suggest it's still growing stronger rather than settling into a fixed shape.",
-      "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-tracks-new-decagon-encircling-saturns-south-pole/",
+      "era": "NGC 5139; imaged over two decades by Hubble, featured as NASA's Astronomy Picture of the Day on September 25, 2026",
+      "body": "Omega Centauri packs roughly 10 million stars, most of them older than the Sun, into a volume some 150 light-years across -- the largest and brightest of the roughly 200 known globular clusters orbiting the Milky Way's halo. Worth noticing: unlike most star clusters, which are made of stars born together at the same time, Omega Cen holds several distinct stellar populations of different ages and chemical makeups -- one reason astronomers now suspect it's actually the stripped-down core of a small galaxy the Milky Way absorbed long ago. Two decades of Hubble observation have also turned up evidence of a possible midsize black hole near its center.",
+      "url": "https://science.nasa.gov/image-article/apod-2026-september-25-globular-star-cluster-omega-centauri/",
       "image": null,
-      "alt": "Hubble Space Telescope image of Saturn showing a ten-sided jet-stream pattern encircling its south pole."
+      "alt": "Hubble Space Telescope image of the globular star cluster Omega Centauri, showing a dense swarm of hundreds of thousands of ancient stars."
     },
     "noticing_prompt": {
-      "id": "np-2026-09-25",
-      "text": "Iran's negotiators spent 209 days getting to a document Washington now has five days to answer. Notice today whether anything you're waiting on is actually that close to resolving -- or just feels that way."
+      "id": "np-2026-09-26",
+      "text": "A research sub found fossilized megalodon teeth sitting undisturbed on the seafloor five and a half kilometers down, off American Samoa, this month. Notice today what's sitting right in front of you that you've simply stopped seeing."
     },
     "daily_puzzle": {
-      "id": "dp-2026-09-25",
-      "type": "wordplay",
-      "prompt": "Rearrange every letter in the phrase \"ELEVEN PLUS TWO\" to spell a different arithmetic phrase, using all thirteen letters and no others, that describes the same number written a different way.",
-      "hint": "Both phrases name the same total -- just with the two addends swapped and restated.",
-      "solution": "TWELVE PLUS ONE.",
-      "explanation": "ELEVEN PLUS TWO and TWELVE PLUS ONE are exact anagrams of each other -- same thirteen letters -- and both equal thirteen. A rare case where the wordplay and the math check out at once."
+      "id": "dp-2026-09-26",
+      "type": "logic",
+      "prompt": "Three rowhouses stand in a line, numbered one to three from left to right. Each is painted a different color -- red, blue, or green. The red house and the green house are not next to each other. The blue house is not the first house. The first house is not red. Which house is red?",
+      "hint": "Start with what can't be adjacent -- in a row of only three houses, that forces those two colors to the two end positions.",
+      "solution": "The third house.",
+      "explanation": "Since red and green can't be adjacent, and there are only three houses, they must occupy the two end positions (1 and 3), leaving blue for the middle -- which also satisfies 'blue is not first.' Since the first house isn't red, it must be green, which puts red at house three."
     },
     "evening_unwind": {
-      "id": "eu-2026-09-25",
+      "id": "eu-2026-09-26",
       "evening_quote": {
-        "text": "We suffer more often in imagination than in reality.",
-        "attribution": "Seneca",
-        "source": "Letters to Lucilius, Letter 13"
+        "text": "Nowhere can a man find a quieter or more untroubled retreat than in his own soul.",
+        "attribution": "Marcus Aurelius",
+        "source": "Meditations, 4.3"
       },
-      "evening_prompt": "Between the ceasefire clock, the summit, and the market's flat close, notice tonight which piece of today's news will actually still matter to you by the weekend -- and which already doesn't."
+      "evening_prompt": "Between a war running on a seven-day clock nobody has started and a hotel that may not survive a law passed in Tallahassee, notice tonight which of today's certainties you're actually sure of -- and which you're just repeating."
     },
     "reading_queue": [
       {
         "title": "The Radical Reasons Why You Dream of Making Things by Hand",
         "url": "https://aeon.co/essays/the-radical-reasons-why-you-dream-of-making-things-by-hand",
         "verdict": "still_valuable",
-        "reason": "Three and a half weeks tagged for a weekend that hasn't landed yet -- still worth keeping, no more or less urgent than before."
+        "reason": "About three and a half weeks tagged for a weekend that hasn't landed yet -- still worth keeping, no more or less urgent than before."
       }
     ],
     "quote": {
-      "text": "We suffer more often in imagination than in reality.",
-      "attribution": "Seneca"
+      "text": "Nowhere can a man find a quieter or more untroubled retreat than in his own soul.",
+      "attribution": "Marcus Aurelius"
     }
   },
   "threads": [
@@ -396,9 +382,9 @@
       "title": "US-Iran conflict and the Strait of Hormuz",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-09-24",
-      "updates": 75,
-      "current_state": "Iran has now formally proposed ending the war: a 60-day roadmap presented at the UN offers a region-wide ceasefire and phased Hormuz reopening, with Washington given five days to respond. Trump calls the talks productive and sees momentum but won't lift the blockade first; Iran's president told the UN Tehran won't be pressured. Nothing is signed, and the strait remains closed to commercial traffic. Brent rose 3.4% Thursday to $106.60 on the report.",
+      "last_updated": "2026-09-26",
+      "updates": 76,
+      "current_state": "Araghchi has detailed the actual structure of Iran's roadmap: four to five days of initial steps, the Strait of Hormuz reopening on day six, and nuclear talks resuming on day seven -- with the whole sequence starting only once Washington formally accepts Iran's terms (lifting the blockade, waiving oil sanctions, releasing ~$12B in frozen assets, observing a regional ceasefire). As of Friday, Washington hadn't accepted. Trump told the UN he expects a deal 'right after the election' in November, not before.",
       "timeline": [
         {
           "date": "2026-07-21",
@@ -612,17 +598,17 @@
         },
         {
           "date": "2026-08-22",
-          "summary": "Trump branded the pressure campaign an \u201ceconomic D-Day,\u201d and Treasury Secretary Bessent said he'll hold a press conference Monday, Aug. 24, to detail the new measures, including possible secondary sanctions on countries and companies doing business with Iran \u2014 a veiled threat aimed at China. China's foreign ministry rejected the pressure campaign outright (\u201csanctions and pressure tactics are not the solution\u201d) after Bessent publicly told Beijing to \u201cget with the program\u201d; China remains the largest buyer of Iranian crude via a shadow fleet. Iran's foreign ministry called the threat \u201ca recipe for an abysmal return to full-scale classic colonialism.\u201d Brent held near a second straight ~6% weekly gain (~$94), WTI near $86.60; US retail gas prices are up nearly $1/gallon year-over-year.",
+          "summary": "Trump branded the pressure campaign an “economic D-Day,” and Treasury Secretary Bessent said he'll hold a press conference Monday, Aug. 24, to detail the new measures, including possible secondary sanctions on countries and companies doing business with Iran — a veiled threat aimed at China. China's foreign ministry rejected the pressure campaign outright (“sanctions and pressure tactics are not the solution”) after Bessent publicly told Beijing to “get with the program”; China remains the largest buyer of Iranian crude via a shadow fleet. Iran's foreign ministry called the threat “a recipe for an abysmal return to full-scale classic colonialism.” Brent held near a second straight ~6% weekly gain (~$94), WTI near $86.60; US retail gas prices are up nearly $1/gallon year-over-year.",
           "change_type": "advanced"
         },
         {
           "date": "2026-08-23",
-          "summary": "Bessent said the US will impose \"the toughest sanctions in history\" on Iran and explicitly called on China to cooperate, noting China bought over 80% of Iran's shipped oil in 2025. Washington has sanctioned only smaller Chinese \"teapot\" refineries so far, not major banks \u2014 reporting ties that restraint to Xi Jinping's state visit to the White House, now confirmed for Sept. 24 alongside the UN General Assembly. Monday's press conference is the next real test of how far the campaign goes.",
+          "summary": "Bessent said the US will impose \"the toughest sanctions in history\" on Iran and explicitly called on China to cooperate, noting China bought over 80% of Iran's shipped oil in 2025. Washington has sanctioned only smaller Chinese \"teapot\" refineries so far, not major banks — reporting ties that restraint to Xi Jinping's state visit to the White House, now confirmed for Sept. 24 alongside the UN General Assembly. Monday's press conference is the next real test of how far the campaign goes.",
           "change_type": "advanced"
         },
         {
           "date": "2026-08-24",
-          "summary": "Bessent's long-promised 'economic D-Day' press conference happens today at 2pm ET. Pre-conference reporting signals the sanctions finally reach past Iran's small teapot refineries toward the banks and foreign trade networks that actually move its oil \u2014 the exact restraint toward China that's held for weeks \u2014 though nothing is formally announced as of this morning. China's embassy again rejected the pressure campaign: 'sanctions and pressure do not help resolve the problem.'",
+          "summary": "Bessent's long-promised 'economic D-Day' press conference happens today at 2pm ET. Pre-conference reporting signals the sanctions finally reach past Iran's small teapot refineries toward the banks and foreign trade networks that actually move its oil — the exact restraint toward China that's held for weeks — though nothing is formally announced as of this morning. China's embassy again rejected the pressure campaign: 'sanctions and pressure do not help resolve the problem.'",
           "change_type": "advanced"
         },
         {
@@ -774,6 +760,11 @@
           "date": "2026-09-24",
           "summary": "Iran's FM Araghchi held roughly three hours of Qatari-mediated talks in New York with US envoys Witkoff and Kushner and formally presented a 'roadmap': a region-wide ceasefire of up to 60 days, a phased reopening of the Strait of Hormuz, and a timetable for broader talks -- giving Washington five days to respond. Trump called the talks 'productive' and cited real momentum but ruled out lifting the blockade before Iran shows 'sufficient goodwill'; President Pezeshkian told the UN General Assembly Iran will not 'bend at the knee.' Brent rose 3.4% to $106.60 (WTI +2.7% to $94.61) on the report even as the strait itself stayed fully closed to commercial shipping -- Kpler put Sept. 20 traffic at a single vessel.",
           "change_type": "advanced"
+        },
+        {
+          "date": "2026-09-26",
+          "summary": "Araghchi detailed the roadmap as a seven-day sequence (days 1-5 initial steps, day 6 strait reopens, day 7 nuclear talks resume), conditioned on the US lifting its blockade, waiving oil sanctions, releasing ~$12B in frozen assets, and observing a regional ceasefire; the clock starts only once Washington accepts, which it hadn't as of Friday. Trump told the UN he expects a deal only 'right after the election.'",
+          "change_type": "advanced"
         }
       ]
     },
@@ -782,9 +773,9 @@
       "title": "Federal Reserve rate path",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-09-24",
-      "updates": 70,
-      "current_state": "Thursday held Wednesday's shock rather than reversing it: the S&P and Nasdaq both closed essentially flat (7,704.13 and 26,939.37), the 10-year stayed near 5.12% -- still its highest sustained level since 2007 -- and October 28 hike odds climbed further to roughly 73.5% on CME FedWatch, up from Wednesday's 66-73% range. A hike is now closer to consensus than at any point this cycle.",
+      "last_updated": "2026-09-26",
+      "updates": 71,
+      "current_state": "Friday's close pushed further into record territory: S&P +0.51% to 7,743.41, Nasdaq +0.5% to 27,068.72, Dow +0.93% to 51,828.62, closing out winning weeks even as the 10-year settled at 5.18% after touching 5.225% intraday -- the highest since 2007. October 28 hike odds climbed further to roughly 75.8% on CME FedWatch, up from Thursday's 73.5%, as oil eased on Hormuz-deal optimism.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -968,12 +959,12 @@
         },
         {
           "date": "2026-08-22",
-          "summary": "Friday's confirmed close rebounded across the board: S&P +0.43% to 7,674.37, Dow +0.98% (+517.80 pts) to 53,277.01, Nasdaq +0.43% to 26,180.45, led less by any economic data than by a crypto rally (bitcoin +7% to roughly $76,900, +22% on the week) that lifted Robinhood and Coinbase alongside the broader tape. The 10-year held steady near 4.71%. Despite the bounce, all three indices still closed lower for the week (S&P -1.4%, Nasdaq -2.1%, Dow -0.9%) after Thursday's Walmart-driven selloff. September FOMC hold odds sit near 68% (32% hike) on CME FedWatch, essentially unchanged from Thursday \u2014 new Fed Chair Kevin Warsh (confirmed May 13, sworn in May 22) delivers his first Jackson Hole keynote as chair next Friday, Aug. 28.",
+          "summary": "Friday's confirmed close rebounded across the board: S&P +0.43% to 7,674.37, Dow +0.98% (+517.80 pts) to 53,277.01, Nasdaq +0.43% to 26,180.45, led less by any economic data than by a crypto rally (bitcoin +7% to roughly $76,900, +22% on the week) that lifted Robinhood and Coinbase alongside the broader tape. The 10-year held steady near 4.71%. Despite the bounce, all three indices still closed lower for the week (S&P -1.4%, Nasdaq -2.1%, Dow -0.9%) after Thursday's Walmart-driven selloff. September FOMC hold odds sit near 68% (32% hike) on CME FedWatch, essentially unchanged from Thursday — new Fed Chair Kevin Warsh (confirmed May 13, sworn in May 22) delivers his first Jackson Hole keynote as chair next Friday, Aug. 28.",
           "change_type": "improved"
         },
         {
           "date": "2026-08-24",
-          "summary": "Monday premarket points softer: Dow futures down about 11 points, S&P and Nasdaq-100 futures off 0.1% and 0.5%, tech leading declines (XLK -1%) after last week's second straight losing week for the Dow. September FOMC hold odds essentially unchanged near 68%. The week ahead: Nvidia earnings and the Jackson Hole Economic Policy Symposium, which opens Thursday Aug. 27 with Fed Chair Kevin Warsh's first keynote as chair Friday at 10am ET \u2014 19 days before the Sept. 16 decision.",
+          "summary": "Monday premarket points softer: Dow futures down about 11 points, S&P and Nasdaq-100 futures off 0.1% and 0.5%, tech leading declines (XLK -1%) after last week's second straight losing week for the Dow. September FOMC hold odds essentially unchanged near 68%. The week ahead: Nvidia earnings and the Jackson Hole Economic Policy Symposium, which opens Thursday Aug. 27 with Fed Chair Kevin Warsh's first keynote as chair Friday at 10am ET — 19 days before the Sept. 16 decision.",
           "change_type": "watch"
         },
         {
@@ -1134,6 +1125,11 @@
         {
           "date": "2026-09-24",
           "summary": "Thursday's close was essentially flat after Wednesday's shock: S&P 500 -1.90 pts (-0.02%) to 7,704.13, Nasdaq +3.34 pts (~flat) to 26,939.37, as elevated yields and rebounding oil offset each other. The 10-year held near Wednesday's 5.11-5.14% spike, settling around 5.12% -- still the highest sustained level since 2007. CME FedWatch's October 28 hike odds climbed further, to roughly 73.5%, up from Wednesday's 66-73% range.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-09-26",
+          "summary": "Friday's close: S&P +0.51% to 7,743.41, Nasdaq +0.5% to 27,068.72, Dow +0.93% to 51,828.62. The 10-year touched 5.225% intraday (highest since 2007) before settling at 5.18%; the 30-year briefly hit 5.502% (highest since 2004). Oil eased (Brent -2.14% to $104.32) on Hormuz-deal optimism. October hike odds climbed to ~75.8% on CME FedWatch.",
           "change_type": "advanced"
         }
       ]
@@ -1344,17 +1340,17 @@
         },
         {
           "date": "2026-08-22",
-          "summary": "Miami beat Washington 3-2 in a Friday-night walk-off: Agustin Ramirez led off the 9th with a walk, a throwing error on an Esteury Ruiz infield hit put runners on 2nd and 3rd, Jakob Marsee was intentionally walked, and Javier Sanoja singled home the winner \u2014 Miami's sixth straight win over the Nationals. The Marlins improve to 65-64, back over .500. Chicago, Philadelphia, and San Diego now hold the three NL wild-card spots, with Arizona about a game back of the cutline and Miami bunched with St. Louis, Cincinnati, and Pittsburgh further behind. Miami hosts Washington again today at 4:10pm (Eury Perez vs. Jake Irvin), with Sunday's finale set (Janson Junk vs. Jackson Kent).",
+          "summary": "Miami beat Washington 3-2 in a Friday-night walk-off: Agustin Ramirez led off the 9th with a walk, a throwing error on an Esteury Ruiz infield hit put runners on 2nd and 3rd, Jakob Marsee was intentionally walked, and Javier Sanoja singled home the winner — Miami's sixth straight win over the Nationals. The Marlins improve to 65-64, back over .500. Chicago, Philadelphia, and San Diego now hold the three NL wild-card spots, with Arizona about a game back of the cutline and Miami bunched with St. Louis, Cincinnati, and Pittsburgh further behind. Miami hosts Washington again today at 4:10pm (Eury Perez vs. Jake Irvin), with Sunday's finale set (Janson Junk vs. Jackson Kent).",
           "change_type": "improved"
         },
         {
           "date": "2026-08-23",
-          "summary": "Miami beat Washington 4-2 Saturday on solo home runs from Heriberto Hernandez and Jakob Marsee, with Eury Perez working five innings \u2014 the Marlins' seventh straight win over the Nationals, improving to 66-64. Sunday's finale (Janson Junk vs. Jackson Kent) closes the series this afternoon.",
+          "summary": "Miami beat Washington 4-2 Saturday on solo home runs from Heriberto Hernandez and Jakob Marsee, with Eury Perez working five innings — the Marlins' seventh straight win over the Nationals, improving to 66-64. Sunday's finale (Janson Junk vs. Jackson Kent) closes the series this afternoon.",
           "change_type": "improved"
         },
         {
           "date": "2026-08-24",
-          "summary": "Miami completed the sweep of Washington Sunday, 6-2, on Xavier Edwards' go-ahead two-run single, improving to 67-64 \u2014 eight straight wins over the Nationals. But the sweep didn't close the gap much: models now give Miami roughly 7.6% playoff odds, about four games behind San Diego for the final NL wild-card spot, with Chicago, Philadelphia, and San Diego holding the three spots and Arizona a game back of the cutline.",
+          "summary": "Miami completed the sweep of Washington Sunday, 6-2, on Xavier Edwards' go-ahead two-run single, improving to 67-64 — eight straight wins over the Nationals. But the sweep didn't close the gap much: models now give Miami roughly 7.6% playoff odds, about four games behind San Diego for the final NL wild-card spot, with Chicago, Philadelphia, and San Diego holding the three spots and Arizona a game back of the cutline.",
           "change_type": "advanced"
         },
         {
@@ -1505,9 +1501,9 @@
       "title": "Dolphins rebuild under Hafley",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-09-24",
-      "updates": 50,
-      "current_state": "Sunday's matchup (1pm, Hard Rock Stadium) is set at Chiefs -10.5, unmoved by Thursday's injury reports: Miami's rookie receivers Chris Bell (knee) and Caleb Douglas (ankle) are both banged up, while Kansas City's issues are minor. The Chiefs (2-0) enter off back-to-back 30-plus-point games and the league's largest rushing-yardage differential through two games since 2005; Miami (0-2) has scored just 13 points in each of its first two games. Dimers gives Kansas City a 79.9% win probability.",
+      "last_updated": "2026-09-26",
+      "updates": 51,
+      "current_state": "Friday's final injury reports flipped Thursday's picture: Kansas City ruled out starting left tackle Josh Simmons and lists Chamarri Conner doubtful, while Miami ruled out Caleb Douglas and Rob Beal Jr., listed Jaylen Wright doubtful, but gave Chris Bell no game-status designation at all -- a healthier sign than Thursday. The line held at Chiefs -10.5 for Sunday's 1pm kickoff at Hard Rock Stadium.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -1656,12 +1652,12 @@
         },
         {
           "date": "2026-08-22",
-          "summary": "Miami hosts the Giants today at 4pm at Hard Rock Stadium in the second preseason game of Hafley's tenure, after Thursday's joint practice turned openly hostile \u2014 RT Austin Jackson was ejected for throwing a punch (he returned for the final 11-on-11 period) and Giants LB Abdul Carter took a swing at LT Patrick Paul after losing a rep; Hafley said postgame he'd be disappointed to see more fighting and that it isn't a sign of toughness. Rookie WR Chris Bell, activated off the non-football-injury list last week, will not play today \u2014 Hafley called him week-to-week in his ACL recovery, with hope he's ready for the regular season. DT Zach Sieler is expected to be ready for the opener; DT Kenneth Grant is week-to-week and sitting out the rest of this week.",
+          "summary": "Miami hosts the Giants today at 4pm at Hard Rock Stadium in the second preseason game of Hafley's tenure, after Thursday's joint practice turned openly hostile — RT Austin Jackson was ejected for throwing a punch (he returned for the final 11-on-11 period) and Giants LB Abdul Carter took a swing at LT Patrick Paul after losing a rep; Hafley said postgame he'd be disappointed to see more fighting and that it isn't a sign of toughness. Rookie WR Chris Bell, activated off the non-football-injury list last week, will not play today — Hafley called him week-to-week in his ACL recovery, with hope he's ready for the regular season. DT Zach Sieler is expected to be ready for the opener; DT Kenneth Grant is week-to-week and sitting out the rest of this week.",
           "change_type": "advanced"
         },
         {
           "date": "2026-08-23",
-          "summary": "The Giants routed Miami 26-3 Saturday at Hard Rock Stadium \u2014 Jameis Winston threw for 150 yards and ran for a touchdown in the first half. Chris Bell (ACL) did not play, still week-to-week per Hafley.",
+          "summary": "The Giants routed Miami 26-3 Saturday at Hard Rock Stadium — Jameis Winston threw for 150 yards and ran for a touchdown in the first half. Chris Bell (ACL) did not play, still week-to-week per Hafley.",
           "change_type": "worsened"
         },
         {
@@ -1758,6 +1754,11 @@
           "date": "2026-09-24",
           "summary": "Thursday's injury reports: Miami rookie WR Chris Bell (knee) is questionable and fellow rookie Caleb Douglas (ankle, held out of Week 2's finish) didn't practice; Kansas City's report is comparatively clean, with only minor new issues (Anudike-Uzomah, Cochrane, Bassa, Hicks) and left tackle Josh Simmons still working back from his own absence. Neither report has moved the line, which remains Chiefs -10.5.",
           "change_type": "watch"
+        },
+        {
+          "date": "2026-09-26",
+          "summary": "Friday's final injury reports: Kansas City ruled out LT Josh Simmons (back) and listed S Chamarri Conner doubtful (knee); Mahomes has no designation. Miami ruled out WR Caleb Douglas and Edge Rob Beal Jr., listed RB Jaylen Wright doubtful (stinger), and gave WR Chris Bell no game-status designation at all. Line held at Chiefs -10.5.",
+          "change_type": "advanced"
         }
       ]
     },
@@ -1797,7 +1798,7 @@
         },
         {
           "date": "2026-08-21",
-          "summary": "Friday's second scrimmage at Hard Rock Stadium was a closer back-and-forth than the first \u2014 the offense reportedly had the better of the work this time, a reversal from scrimmage one, where the defense had the upper hand. Cristobal called it good, competitive work with two weeks left before the Sept. 4 opener at Stanford.",
+          "summary": "Friday's second scrimmage at Hard Rock Stadium was a closer back-and-forth than the first — the offense reportedly had the better of the work this time, a reversal from scrimmage one, where the defense had the upper hand. Cristobal called it good, competitive work with two weeks left before the Sept. 4 opener at Stanford.",
           "change_type": "advanced"
         },
         {
@@ -1948,12 +1949,12 @@
         },
         {
           "date": "2026-08-22",
-          "summary": "Burgers & Shakes opened a second South Florida location Aug. 4 inside the historic 1954 General Tire Building in the MiMo Historic District \u2014 designed by architect Robert Law Weed, most recently home to Andiamo Brick Oven Pizza, which closed after 23 years. Separately, Medium Cool, the jazz lounge beneath the Gale Hotel on Collins Avenue, plays its final night tonight after nearly four years, with nightly live jazz through 10pm; the team says it's searching for a new Miami home rather than closing for good.",
+          "summary": "Burgers & Shakes opened a second South Florida location Aug. 4 inside the historic 1954 General Tire Building in the MiMo Historic District — designed by architect Robert Law Weed, most recently home to Andiamo Brick Oven Pizza, which closed after 23 years. Separately, Medium Cool, the jazz lounge beneath the Gale Hotel on Collins Avenue, plays its final night tonight after nearly four years, with nightly live jazz through 10pm; the team says it's searching for a new Miami home rather than closing for good.",
           "change_type": "advanced"
         },
         {
           "date": "2026-08-24",
-          "summary": "Medium Cool's Yelp listing now shows a new address \u2014 1690 Collins Ave, Miami Beach, a few blocks from its old Gale Hotel home \u2014 with hours Wed-Sun 7pm-3am (4am Fri/Sat), suggesting the jazz lounge didn't stay dark long after Saturday's farewell night. Not yet confirmed by press coverage.",
+          "summary": "Medium Cool's Yelp listing now shows a new address — 1690 Collins Ave, Miami Beach, a few blocks from its old Gale Hotel home — with hours Wed-Sun 7pm-3am (4am Fri/Sat), suggesting the jazz lounge didn't stay dark long after Saturday's farewell night. Not yet confirmed by press coverage.",
           "change_type": "watch"
         },
         {
@@ -2135,7 +2136,7 @@
         },
         {
           "date": "2026-08-22",
-          "summary": "This week's South Florida deal sheet (The Real Deal, published Aug. 21) adds a 155,000-sq-ft industrial building at 11900-11905 SW 128th St, sold for $24.5 million, and a new-construction, 10,500-sq-ft waterfront mansion at 270 South Hibiscus Drive, Miami Beach, which sold for $50 million \u2014 both landing on top of last week's North Bay Road and 1200 Washington Avenue trades.",
+          "summary": "This week's South Florida deal sheet (The Real Deal, published Aug. 21) adds a 155,000-sq-ft industrial building at 11900-11905 SW 128th St, sold for $24.5 million, and a new-construction, 10,500-sq-ft waterfront mansion at 270 South Hibiscus Drive, Miami Beach, which sold for $50 million — both landing on top of last week's North Bay Road and 1200 Washington Avenue trades.",
           "change_type": "advanced"
         },
         {
@@ -2339,7 +2340,7 @@
         },
         {
           "date": "2026-08-24",
-          "summary": "Thompson officially signed with Miami Sunday after clearing waivers \u2014 the deal finalized as two years, $11.5 million total, with a player option in year two and a 15% trade kicker, slightly below the ~$13M reported Friday.",
+          "summary": "Thompson officially signed with Miami Sunday after clearing waivers — the deal finalized as two years, $11.5 million total, with a player option in year two and a 15% trade kicker, slightly below the ~$13M reported Friday.",
           "change_type": "resolved"
         },
         {
@@ -2390,12 +2391,12 @@
         },
         {
           "date": "2026-08-23",
-          "summary": "Reporting puts Marchand's recovery at two or more months \u2014 the surgery kept him from playing in Zdeno Chara's Aug. 21 farewell charity game in Slovakia, which he'd planned to attend. An opener absence now looks more likely than not.",
+          "summary": "Reporting puts Marchand's recovery at two or more months — the surgery kept him from playing in Zdeno Chara's Aug. 21 farewell charity game in Slovakia, which he'd planned to attend. An opener absence now looks more likely than not.",
           "change_type": "worsened"
         },
         {
           "date": "2026-08-24",
-          "summary": "Recovery estimate sharpens from 'two or more months' to a concrete range: six to ten missed games, with an earliest possible return around mid-October \u2014 still addressing the hip and sports-hernia issue Marchand played through all of 2025-26, including the February Olympics.",
+          "summary": "Recovery estimate sharpens from 'two or more months' to a concrete range: six to ten missed games, with an earliest possible return around mid-October — still addressing the hip and sports-hernia issue Marchand played through all of 2025-26, including the February Olympics.",
           "change_type": "advanced"
         },
         {
@@ -2613,9 +2614,9 @@
       "title": "Houthi capture of Yemen's Red Sea coast and the Bab el-Mandeb strait",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-09-22",
-      "updates": 8,
-      "current_state": "No new Houthi attack confirmed since Sunday's two-target wave on Riyadh and Yanbu. Over the weekend the Houthis nearly became the target of a direct US strike -- called off at the last minute after Saudi pressure -- with Washington offering intelligence support instead of opening a new front itself.",
+      "last_updated": "2026-09-26",
+      "updates": 9,
+      "current_state": "France and the UK have both committed direct military support to Saudi Arabia for the first time in this conflict: Macron pledged troops, radar and air-defense systems to protect the Yanbu oil terminal, and the UK pledged additional military assistance, after Saudi Arabia intercepted fresh Houthi ballistic missiles Thursday following a warning covering Mecca and other regions.",
       "timeline": [
         {
           "date": "2026-09-14",
@@ -2656,6 +2657,11 @@
           "date": "2026-09-22",
           "summary": "The Houthi front was the near-target of Trump's called-off weekend strike (see the Iran-Hormuz thread) -- US aircraft were being loaded with bombs before Saudi Arabia talked Washington back from opening a direct US-Houthi front, with intelligence sharing offered instead. No new Houthi attack is confirmed since Sunday's two-target Riyadh/Yanbu wave.",
           "change_type": "watch"
+        },
+        {
+          "date": "2026-09-26",
+          "summary": "France's Macron pledged troops, radar and air-defense systems to protect Saudi Arabia's Yanbu oil terminal from Houthi strikes, calling it 'strictly defensive'; the UK separately committed additional military assistance. Came after Saudi Arabia intercepted fresh Houthi ballistic missiles Thursday following a warning covering Mecca and other regions -- the first direct Western military commitment to Saudi defense in this war, beyond intelligence-sharing.",
+          "change_type": "new"
         }
       ]
     },
@@ -2710,6 +2716,22 @@
           "change_type": "resolved"
         }
       ]
+    },
+    {
+      "id": "thread-miami-savoy-hotel-demolition",
+      "title": "Ocean Drive's Savoy Hotel and the Live Local / flood-resiliency preemption fight",
+      "topic": "miami",
+      "status": "emerging",
+      "last_updated": "2026-09-26",
+      "updates": 1,
+      "current_state": "Developer Allied Partners wants to demolish the 1930s Savoy Hotel at 425 Ocean Drive for a 38-story tower (hotel, 90 condos, 60 workforce rentals). Two Tallahassee preemption laws -- the 2024 Resiliency and Safe Structures Act and the Live Local Act -- leave Miami Beach with no legal way to block it.",
+      "timeline": [
+        {
+          "date": "2026-09-26",
+          "summary": "First tracked: Allied Partners' plan to demolish the Art Deco Savoy Hotel for a 38-story tower is legally clear thanks to two state preemption laws (flood-resiliency demolition allowance plus the Live Local Act's height-limit bypass); Miami Beach has confirmed it has no way to stop either piece.",
+          "change_type": "new"
+        }
+      ]
     }
   ],
   "topic_filters": [
@@ -2731,7 +2753,7 @@
     }
   ],
   "meta": {
-    "content_freshness": "2026-09-25T09:30:00-04:00",
+    "content_freshness": "2026-09-26T09:30:00-04:00",
     "feedback_endpoint_mode": "github_contents",
     "minimum_client_schema_version": 1,
     "mode": "brain"
