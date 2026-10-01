@@ -1,383 +1,379 @@
 {
   "schema_version": 2,
   "edition": {
-    "id": "2026-09-30",
-    "date": "2026-09-30",
+    "id": "2026-10-01",
+    "date": "2026-10-01",
     "type": "weekday",
-    "generated_at": "2026-09-30T09:30:00-04:00",
+    "generated_at": "2026-10-01T09:30:00-04:00",
     "timezone": "America/New_York",
     "title": "Personal OS",
     "front_page_letter": {
       "greeting": "Good morning",
       "body_paragraphs": [
-        "Two numbers frame the morning. The 30-year Treasury yield closed above 5.6%, its highest since 2002, and the Conference Board's confidence index fell to 81.9, the lowest since 2014. One says money is getting dearer; the other says people are getting wary. August PCE lands at 8:30 a.m., with economists looking for 0.4% headline and 0.3% core, and Friday's jobs report follows. Markets still price roughly a 72% chance of an October 28 hike.",
-        "Iran is the variable underneath. Tehran has put a seven-day clock on its offer to reopen Hormuz, tied to frozen funds, sanctions relief and an end to the blockade. Washington has called the proposal unacceptable. Oil quotes disagree with each other, so hold any single figure loosely.",
-        "Closer to home, the Panthers beat the Hurricanes 1-0 in overtime on a Forsling one-timer with 4.3 seconds left, and Giannis was a full participant on day one of Heat camp. The Marlins will keep McCullough. What deserves attention today is the PCE print, and what deserves a quieter hour tonight is the Marginalian essay on attention."
+        "Yesterday's inflation report was cooler than expected and the bond market ignored it. August core PCE rose 0.2% on the month and 3.0% from a year earlier, against 3.3% expected, and the odds of an October 28 hike fell from roughly 70% a week ago to about 35% by CME's count. Yet the 10-year Treasury yield rose to 5.29%, a 24-year high, and the 30-year to about 5.65%. Cheaper inflation, dearer money: the market is pricing deficits and oil, not just the Fed. Friday's jobs report, with about 90,000 payrolls expected, is the next test.",
+        "Iran says it has received a US counterproposal to its seven-day plan to reopen Hormuz. Trump called the original unacceptable but has said he wants a deal, and mediators are still working. Treat every oil quote as provisional until something is signed.",
+        "Closer to home, Ken Griffin closed on Mana Wynwood for about $1.1 billion in cash, the site of a future Carnegie Mellon campus and, by Moishe Mana's account, the priciest land assemblage ever sold in South Florida. Set that beside office CMBS delinquencies at 13.2%, the highest in the series, and you have the two speeds of Miami capital in one week.",
+        "Tonight, the Panthers play in San Jose and the Dolphins, 0-3 and without Achane, wait for Sunday in Minnesota. What deserves attention today is the gap between what inflation did and what yields did."
       ],
       "read_only_three": [
         {
           "target_type": "theme",
-          "target_id": "theme-30y-2002-consumer-confidence",
-          "label": "30-year at a 2002 high, confidence at a 2014 low"
+          "target_id": "theme-pce-cool-yields-hot",
+          "label": "Cooler PCE, yet the 10-year hits a 24-year high"
         },
         {
           "target_type": "theme",
-          "target_id": "theme-panthers-forsling-ot-banner-night",
-          "label": "Forsling's 4.3-second overtime winner"
+          "target_id": "theme-iran-counterproposal",
+          "label": "Iran says a US counterproposal is in hand"
         },
         {
-          "target_type": "rabbit_hole",
-          "target_id": "rh-2026-09-30",
-          "label": "Tonight's long read: attention as an instrument of love"
+          "target_type": "theme",
+          "target_id": "theme-griffin-mana-wynwood",
+          "label": "Griffin pays $1.1B for Wynwood's Mana site"
         }
       ]
     },
     "market_context": [
       {
         "label": "S&P 500",
-        "value": "7,670.84",
-        "change": "-0.16% Tuesday",
-        "observed": "Close, September 29, 2026",
-        "note": "Second straight loss as long yields kept climbing."
+        "value": "7,651.54",
+        "change": "-0.25% Wednesday",
+        "observed": "Close, September 30, 2026",
+        "note": "Down for September as long yields climbed, even after softer inflation data."
       },
       {
         "label": "Nasdaq Composite",
-        "value": "26,797.54",
-        "change": "-0.09% Tuesday",
-        "observed": "Close, September 29, 2026",
-        "note": "Little changed after Monday's 0.92% drop."
+        "value": "26,861.06",
+        "change": "+0.24% Wednesday",
+        "observed": "Close, September 30, 2026",
+        "note": "Tech held up while the broader index slipped."
       },
       {
         "label": "10Y Treasury",
-        "value": "about 5.25%",
-        "change": "Intraday high near 5.29%",
-        "observed": "Close, September 29, 2026",
-        "note": "Approximate close per market recaps; the 30-year topped 5.6%, highest since 2002."
+        "value": "5.29%",
+        "change": "+4 bp on the day; intraday high near 5.31%",
+        "observed": "September 30, 2026",
+        "note": "Highest in about 24 years; ADP private payrolls of 90,000 beat the 68,000 consensus."
+      },
+      {
+        "label": "30Y Treasury",
+        "value": "about 5.65%",
+        "change": "+8 bp on the day",
+        "observed": "September 30, 2026",
+        "note": "Per CNBC's yield report; the 30-year first crossed 5.6% on September 29."
       },
       {
         "label": "FOMC (October 28)",
-        "value": "~72.5% odds of a 25 bp hike (CME FedWatch)",
-        "change": "Roughly flat vs Monday's ~72.3%",
-        "observed": "September 29-30, 2026",
-        "note": "Other sources show about 68%. August PCE at 8:30 a.m. ET today; jobs report Friday."
+        "value": "~65% hold / ~35% hike (CME FedWatch)",
+        "change": "From ~71% hike odds a week earlier",
+        "observed": "After the August PCE release, September 30, 2026",
+        "note": "Other trackers differ slightly. September jobs report is Friday, October 2 at 8:30 a.m. ET."
       }
     ],
     "public_day_context": {
-      "date_label": "Wednesday, September 30, 2026",
-      "weather": "Miami: high near 84, about 50% chance of scattered thunderstorms, humid, easterly wind 10 to 15 mph.",
-      "public_event": "August PCE at 8:30 a.m. ET; Heat training camp at FAU through Friday; September jobs report Friday; Dolphins' Week 4 game October 4 at 4:05 p.m. ET."
+      "date_label": "Thursday, October 1, 2026",
+      "weather": "Miami: high near 87, about 70% chance of showers and thunderstorms, mostly from 1 to 5 p.m., east wind around 15 mph with gusts to 23 mph.",
+      "public_event": "Panthers at San Jose, 10 p.m. ET; September jobs report Friday at 8:30 a.m. ET (about 90,000 expected, unemployment 4.1%); Heat open preseason Saturday, October 3, vs. Toronto in Quebec City; Dolphins at Vikings Sunday, 4:05 p.m. ET."
     },
     "what_changed": [
       {
-        "id": "delta-30y-2002",
+        "id": "delta-pce-odds",
+        "thread_id": "thread-fed-rate-path",
+        "change_type": "reversed",
+        "title": "Cooler August PCE cuts October hike odds roughly in half",
+        "previous_state": "Before the report, markets priced about a 72% chance of an October 28 hike, with core PCE expected at 0.3% on the month.",
+        "current_state": "Core PCE came in at 0.2% (3.0% annual versus 3.3% expected) and CME FedWatch moved to about 65% hold and 35% hike.",
+        "why_it_matters": "A hold would ease the pressure on floating-rate borrowers, but only if long yields follow, and so far they have not.",
+        "confidence": "high",
+        "source": {
+          "publisher": "Fox Business",
+          "url": "https://www.foxbusiness.com/economy/august-2026-pce-inflation"
+        }
+      },
+      {
+        "id": "delta-10y-24yr-high",
         "thread_id": "thread-fed-rate-path",
         "change_type": "worsened",
-        "title": "30-year Treasury yield tops 5.6%, highest since 2002",
-        "previous_state": "Monday the 10-year closed at 5.24% and the 30-year at 5.56%.",
-        "current_state": "The 30-year rose above 5.6% for a sixth straight day and the 10-year touched about 5.29% before settling near 5.25%, while consumer confidence fell to 81.9.",
-        "why_it_matters": "Higher long rates plus weaker sentiment squeeze financed assets from both sides.",
+        "title": "10-year Treasury yield rises to 5.29%, a 24-year high, despite softer inflation",
+        "previous_state": "The 10-year closed near 5.25% on September 29 with the 30-year above 5.6%.",
+        "current_state": "The 10-year closed at 5.29% (touching about 5.31%) and the 30-year rose about 8 bp to roughly 5.65%, as strong ADP data and fiscal and energy worries outweighed the PCE miss.",
+        "why_it_matters": "Permanent-loan pricing keys off the long end, so a cooler Fed path has not yet translated into cheaper CRE debt.",
         "confidence": "high",
         "source": {
           "publisher": "CNBC",
-          "url": "https://www.cnbc.com/2026/09/29/treasury-yields-bonds.html"
+          "url": "https://www.cnbc.com/2026/09/30/treasury-yields-bonds-selloff.html"
         }
       },
       {
-        "id": "delta-iran-seven-day",
+        "id": "delta-iran-counterproposal",
         "thread_id": "thread-iran-hormuz-crisis",
         "change_type": "advanced",
-        "title": "Iran's conditions for reopening Hormuz are spelled out",
-        "previous_state": "Separate mediator meetings took place Monday with no public terms.",
-        "current_state": "Reporting lays out Tehran's offer: reopening and nuclear talks within seven days if frozen funds, sanctions relief and an end to the blockade come first.",
-        "why_it_matters": "The timeline gives markets a concrete date-range to trade around.",
+        "title": "Iran says it has a US counterproposal to its seven-day Hormuz plan",
+        "previous_state": "Trump had rejected Tehran's offer to reopen the strait within seven days in exchange for sanctions relief and an end to the blockade.",
+        "current_state": "Iranian officials and state media said Wednesday the US had sent a counterproposal, which Tehran is considering; mediators continue to work on both sides.",
+        "why_it_matters": "A deal would pull oil and the inflation premium down; a stall keeps long yields under pressure.",
         "confidence": "medium",
         "source": {
-          "publisher": "CNBC",
-          "url": "https://www.cnbc.com/2026/09/29/us-iran-war-trump-hormuz-.html"
+          "publisher": "CBS News",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-negotiations-strait-of-hormuz-oil/"
         }
       },
       {
-        "id": "delta-panthers-opener",
-        "thread_id": "thread-panthers-2026-27-season",
+        "id": "delta-griffin-mana-close",
+        "thread_id": "thread-griffin-wynwood-cmu",
         "change_type": "new",
-        "title": "Panthers open 1-0 with an overtime win in Carolina",
-        "previous_state": "The season opened Tuesday night on the Hurricanes' banner night.",
-        "current_state": "Forsling scored with 4.3 seconds left in overtime for a 1-0 win.",
-        "why_it_matters": "A first road win against the champions.",
+        "title": "Griffin closes on Mana Wynwood for about $1.1 billion",
+        "previous_state": "The sale was rumored in August at $700 million or more and reported as a roughly three-year negotiation.",
+        "current_state": "The all-cash, no-broker deal closed September 30; the site will host a Carnegie Mellon campus funded by Griffin's $3 billion gift.",
+        "why_it_matters": "It resets the land comp for Wynwood and signals that large private capital will still pay for scarce Miami ground.",
         "confidence": "high",
         "source": {
-          "publisher": "ESPN",
-          "url": "https://www.espn.com/nhl/story/_/id/50062937/panthers-win-spoil-hurricanes-banner-night"
-        }
-      },
-      {
-        "id": "delta-marlins-mccullough",
-        "thread_id": "thread-marlins-wildcard",
-        "change_type": "new",
-        "title": "Marlins will bring McCullough back for 2027",
-        "previous_state": "The season ended 80-82 with no word on the manager's future.",
-        "current_state": "McCullough returns for a third season, the final year of his contract.",
-        "why_it_matters": "It sets the terms for the offseason: continuity on the bench, change needed in the bullpen.",
-        "confidence": "medium",
-        "source": {
-          "publisher": "MLB Trade Rumors",
-          "url": "https://www.mlbtraderumors.com/2026/09/marlins-notes-mccullough-nardi-marsee-zuber.html"
+          "publisher": "Connect CRE",
+          "url": "https://www.connectcre.com/stories/griffin-pays-1-1b-for-miami-land-parcel-to-fund-carnegie-mellon-campus/"
         }
       }
     ],
     "themes": [
       {
-        "id": "theme-30y-2002-consumer-confidence",
+        "id": "theme-pce-cool-yields-hot",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "The 30-year breaks out to a 2002 high while consumer confidence sinks to 2014 levels",
+        "title": "Cooler PCE, yet the 10-year hits a 24-year high",
         "importance": 0.95,
-        "thesis": "Long money is getting more expensive at the same moment households are getting more nervous.",
-        "synthesis": "The 30-year Treasury yield rose above 5.6% on Tuesday, its highest since 2002, for a sixth straight session. The 10-year touched about 5.29% intraday and finished near 5.25%. The Conference Board's September confidence reading fell to 81.9 against an expected 89.0, the lowest since 2014, and JOLTS openings slipped to 7.08 million. The S&P 500 closed at 7,670.84 (-0.16%) and the Nasdaq at 26,797.54 (-0.09%).",
-        "new_today": "30-year at a 24-year high; confidence at 81.9; August PCE is due at 8:30 a.m. ET today.",
-        "why_it_matters": "Rising long yields with weakening sentiment is the awkward mix for financed real estate: higher cost of capital without the demand signal that would justify it. Today's PCE (consensus 0.4% headline, 0.3% core) and Friday's jobs report set the October 28 hike odds, currently about 72%.",
+        "thesis": "Inflation surprised to the downside and long yields rose anyway, which says the bond market is worried about more than the Fed.",
+        "synthesis": "August core PCE rose 0.2% on the month and 3.0% year over year against 3.3% expected, and New York Fed President John Williams signaled another hike may not be needed in October. CME FedWatch swung to about 65% hold. Even so, the 10-year closed at 5.29%, its highest in about 24 years, after ADP reported 90,000 private jobs against 68,000 expected, and the 30-year rose to about 5.65%. The S&P 500 fell 0.25% to 7,651.54 and the Nasdaq rose 0.24% to 26,861.06.",
+        "new_today": "Hike odds roughly halved on PCE; 10-year closed at 5.29%; jobs report due Friday.",
+        "why_it_matters": "For financed real estate, the Fed path matters less than the 10-year, and the 10-year is moving the wrong way. Friday's payrolls (about 90,000 expected) decide whether the October hold becomes the consensus.",
         "thread_id": "thread-fed-rate-path",
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
             "publisher": "CNBC",
-            "headline": "30-year Treasury bond yield scales to highest level since 2002",
-            "url": "https://www.cnbc.com/2026/09/29/treasury-yields-bonds.html"
+            "headline": "10-year Treasury yield is higher as traders look past inflation data, await jobs report",
+            "url": "https://www.cnbc.com/2026/09/30/treasury-yields-bonds-selloff.html"
           },
           {
             "role": "analysis",
-            "publisher": "Yahoo Finance",
-            "headline": "Stock market today: Dow, S&P 500, Nasdaq wobble as 30-year Treasury yield climbs",
-            "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-september-29-dow-sp-500-nasdaq-080526442.html"
+            "publisher": "Fox Business",
+            "headline": "August PCE: Fed's favored inflation gauge rose less than expected",
+            "url": "https://www.foxbusiness.com/economy/august-2026-pce-inflation"
           },
           {
             "role": "background",
-            "publisher": "Babypips",
-            "headline": "Financial & Forex Market Recap",
-            "url": "https://www.babypips.com/news/financial-forex-market-recap-2026-09-29"
+            "publisher": "The Hill",
+            "headline": "August inflation dipped as Federal Reserve officials weigh more rate hikes",
+            "url": "https://thehill.com/business/6118496-fed-pce-inflation-down-august/"
           }
         ]
       },
       {
-        "id": "theme-iran-seven-day-offer",
+        "id": "theme-iran-counterproposal",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Iran ties reopening Hormuz to a seven-day clock of US concessions",
-        "importance": 0.8,
-        "thesis": "Tehran's offer is real but conditional, and Washington has already called the proposal unacceptable.",
-        "synthesis": "Foreign Minister Abbas Araghchi has offered to reopen the strait and restart nuclear talks within seven days if the US releases frozen funds, eases oil sanctions and ends the naval blockade of Iranian ports. Trump rejected the proposal publicly, then said at the White House Monday that US officials had spoken separately with mediators and that things could move 'pretty quickly.' Oil quotes vary by source and hour, so treat any single Brent print with care.",
-        "new_today": "The seven-day conditions are now on the record; no movement from Washington reported.",
-        "why_it_matters": "A deal or its collapse moves oil, inflation expectations and therefore the rate path that drives everything else on this page.",
+        "title": "Iran says it has a US counterproposal to its seven-day Hormuz plan",
+        "importance": 0.85,
+        "thesis": "The standoff has moved from flat rejection to an exchange of papers, which is progress of a fragile kind.",
+        "synthesis": "Tehran offered to reopen Hormuz and resume nuclear talks within seven days if the US lifts its naval blockade, waives oil sanctions and observes a ceasefire that includes Lebanon. Trump rejected that, saying such a deal would not be acceptable, though he also said he would like to make one. On Wednesday Iranian officials said a US counterproposal had arrived and was under review, with mediators still active. The contents of the counterproposal have not been published.",
+        "new_today": "A US counterproposal is reported; terms unknown.",
+        "why_it_matters": "Oil is the transmission line from Hormuz to inflation to long yields, so this story sits underneath this morning's rate story. Treat any single oil quote as provisional.",
         "thread_id": "thread-iran-hormuz-crisis",
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "CNBC",
-            "headline": "U.S., Iran hold separate mediator talks as Mideast oil exports surge",
-            "url": "https://www.cnbc.com/2026/09/29/us-iran-war-trump-hormuz-.html"
+            "publisher": "CBS News",
+            "headline": "Live Updates: Iran says it has received U.S. counterproposal to 7-day ceasefire plan rejected by Trump",
+            "url": "https://www.cbsnews.com/live-updates/iran-war-us-negotiations-strait-of-hormuz-oil/"
           },
           {
-            "role": "background",
-            "publisher": "CNBC",
-            "headline": "Oil price today: WTI, Brent, Trump, Iran",
-            "url": "https://www.cnbc.com/amp/2026/09/28/oil-price-today-wti-brent-trump-iran.html"
+            "role": "analysis",
+            "publisher": "PBS NewsHour",
+            "headline": "Trump rejects Iran's proposal to reopen the Strait of Hormuz, and other Middle East news",
+            "url": "https://www.pbs.org/newshour/world/trump-rejects-irans-proposal-to-reopen-the-strait-of-hormuz-and-other-middle-east-news"
           }
         ]
       },
       {
-        "id": "theme-panthers-forsling-ot-banner-night",
+        "id": "theme-griffin-mana-wynwood",
+        "affinity": "morning",
+        "topic": "miami",
+        "topic_label": "Miami Life & Culture",
+        "title": "Griffin pays about $1.1 billion for Wynwood's Mana site, and Carnegie Mellon is coming",
+        "importance": 0.9,
+        "thesis": "The largest land deal South Florida has seen turns a warehouse-and-events district into a university campus.",
+        "synthesis": "Ken Griffin closed on roughly 30 acres of the Mana Wynwood assemblage on September 30 in an all-cash, no-broker deal after about three years of talks, according to Mana. The land will anchor a Carnegie Mellon satellite campus on about 35 acres, tied to Griffin's $3 billion gift to the university; reports say it could enroll more than 3,500 students, with construction possibly starting next year. Moishe Mana calls it the most expensive land assemblage sale in South Florida history.",
+        "new_today": "The sale closed September 30 at about $1.1 billion.",
+        "why_it_matters": "A new land comp and a new institutional anchor will reprice the surrounding blocks. It also lands beside Griffin's Citadel tower in Brickell, which remains under OSHA and county stop-work orders.",
+        "thread_id": "thread-griffin-wynwood-cmu",
+        "confidence": "high",
+        "sources": [
+          {
+            "role": "primary_reporting",
+            "publisher": "Connect CRE",
+            "headline": "Griffin Pays $1.1B for Miami Parcel, New Carnegie Mellon Campus on Way",
+            "url": "https://www.connectcre.com/stories/griffin-pays-1-1b-for-miami-land-parcel-to-fund-carnegie-mellon-campus/"
+          }
+        ]
+      },
+      {
+        "id": "theme-office-cmbs-record-delinquency",
+        "affinity": "morning",
+        "topic": "markets",
+        "topic_label": "Markets & Macro",
+        "title": "Office CMBS delinquency hits 13.2%, the highest in the series",
+        "importance": 0.75,
+        "thesis": "Office distress is a refinancing story more than a missed-payment story, and 5.3% money makes it harder.",
+        "synthesis": "CRED iQ puts August office CMBS delinquency at 13.2% and special servicing at 15.7%, both the highest since at least 2019, and September's partial data runs higher. About 71% of distressed office balance is tied to a failed or imminent refinancing rather than missed payments. KBRA's broader private-label CMBS 30-day delinquency rate rose to 7.7% in September from 7.6%, led by office and multifamily. Trackers use different methods, so levels vary by source.",
+        "new_today": "September's partial data is running above 14% for office; KBRA's September report is out.",
+        "why_it_matters": "Maturity-driven distress is exactly what a 10-year at 5.29% worsens. It is the clearest read on the credit side of the rate story.",
+        "thread_id": "thread-cre-capital-markets-2026",
+        "confidence": "high",
+        "sources": [
+          {
+            "role": "primary_reporting",
+            "publisher": "Commercial Observer",
+            "headline": "Office CMBS Delinquency Rate at Highest Level This Decade",
+            "url": "https://commercialobserver.com/2026/09/office-cmbs-delinquency-rate-cred-iq/"
+          },
+          {
+            "role": "analysis",
+            "publisher": "KBRA (Business Wire)",
+            "headline": "KBRA Releases Research: CMBS Loan Performance Trends, September 2026",
+            "url": "https://financialcontent.com/article/bizwire-2026-9-30-kbra-releases-research-cmbs-loan-performance-trends-september-2026"
+          }
+        ]
+      },
+      {
+        "id": "theme-dolphins-achane-vikings",
         "affinity": "morning",
         "topic": "sports",
         "topic_label": "Miami Sports",
-        "title": "Forsling wins it with 4.3 seconds left and the Panthers spoil Carolina's banner night",
-        "importance": 0.85,
-        "thesis": "Florida opened its season by beating the reigning champions in a game that played like May.",
-        "synthesis": "Gustav Forsling one-timed a Carter Verhaeghe pass just inside the blue line for a 1-0 overtime win at Lenovo Center, after Carolina raised its 2026 Stanley Cup banner. Jacob Markstrom made 15 saves for Florida; Brandon Bussi stopped 19 for the Hurricanes. Forsling called it 'playoff-style hockey.'",
-        "new_today": "Panthers 1, Hurricanes 0 (OT), Tuesday September 29.",
-        "why_it_matters": "A road opener against the champions, won on goaltending and one good shift, is a useful first data point for the Markstrom era.",
-        "thread_id": "thread-panthers-2026-27-season",
+        "title": "Winless Dolphins go to Minnesota without Achane",
+        "importance": 0.7,
+        "thesis": "Week 4 is less a test of the Dolphins than of what Hafley's first season is for.",
+        "synthesis": "De'Von Achane tore his ACL five plays into the loss to Kansas City and is out for the year, leaving Miami 0-3 with a point differential of minus 50. Jeff Hafley said Achane has kept a positive attitude and that the mental side of recovery matters as much as the physical. The 3-0 Vikings host Sunday at 4:05 p.m. ET and are favored by roughly 12 points in at least one model, with win probabilities near 80 to 85%.",
+        "new_today": "Hafley's comments on Achane's recovery; Vikings are the heavy favorite.",
+        "why_it_matters": "With the best player gone, the question becomes what development looks like in a lost season, and who else gets the touches.",
+        "thread_id": "thread-dolphins-hafley-rebuild",
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
             "publisher": "ESPN",
-            "headline": "Panthers win in overtime, spoil Hurricanes' banner night",
-            "url": "https://www.espn.com/nhl/story/_/id/50062937/panthers-win-spoil-hurricanes-banner-night"
+            "headline": "Sources: Dolphins RB De'Von Achane suffered torn ACL vs. Chiefs",
+            "url": "https://www.espn.com/nfl/story/_/id/50052064/sources-dolphins-rb-devon-achane-suffered-torn-acl-vs-chiefs"
           },
           {
             "role": "local_perspective",
-            "publisher": "CBS Miami",
-            "headline": "Gustav Forsling scores with 4.3 seconds left in OT to give Florida a 1-0 win",
-            "url": "https://www.cbsnews.com/miami/news/forslings-ot-blast-lifts-panthers-past-reigning-stanley-cup-champion-hurricanes-1-0/"
-          }
-        ]
-      },
-      {
-        "id": "theme-heat-camp-day-one-giannis",
-        "affinity": "morning",
-        "topic": "sports",
-        "topic_label": "Miami Sports",
-        "title": "Giannis is a full go on day one of Heat camp",
-        "importance": 0.7,
-        "thesis": "The first practice answered the knee question, at least for one morning.",
-        "synthesis": "Giannis Antetokounmpo had no limitations Tuesday at Florida Atlantic University and was seen going one-on-one with Bam Adebayo; Erik Spoelstra called the arrival 'surreal.' Camp runs through Friday, then a five-game preseason opens Saturday against Toronto in Quebec City. Klay Thompson, Tim Hardaway Jr. and Nick Richards are among the new faces.",
-        "new_today": "Giannis cleared without limits at the first practice.",
-        "why_it_matters": "His health is the single biggest variable in whether this roster is a contender or a story.",
-        "thread_id": "thread-heat-giannis-era",
-        "confidence": "high",
-        "sources": [
-          {
-            "role": "primary_reporting",
             "publisher": "WFLX",
-            "headline": "Bam Adebayo and Giannis Antetokounmpo go one-on-one during first day of Heat training camp",
-            "url": "https://www.wflx.com/2026/09/29/bam-adebayo-giannis-antetokounmpo-go-one-on-one-during-first-day-miami-heat-training-camp/"
-          },
-          {
-            "role": "local_perspective",
-            "publisher": "WSVN",
-            "headline": "Heat open training camp at FAU focused on finding cohesion with revamped roster",
-            "url": "https://wsvn.com/sports/miami-heat/heat-open-training-camp-at-fau-focused-on-finding-cohesion-with-revamped-roster/"
-          },
-          {
-            "role": "background",
-            "publisher": "CBS Sports",
-            "headline": "Heat's Giannis Antetokounmpo: Full go at training camp",
-            "url": "https://www.cbssports.com/fantasy/basketball/news/heats-giannis-antetokounmpo-full-go-at-training-camp/"
+            "headline": "Dolphins RB De'Von Achane maintaining positive attitude after season-ending ACL tear, Hafley says",
+            "url": "https://www.wflx.com/2026/09/30/dolphins-rb-devon-achane-maintaining-positive-attitude-after-season-ending-acl-tear-hafley-says/"
           }
         ]
       },
       {
-        "id": "theme-savoy-referendum-3",
-        "affinity": "morning",
-        "topic": "miami",
-        "topic_label": "Miami Life & Culture",
-        "title": "Two Miami land-use fights, one calendar: the Savoy tower and Referendum 3",
-        "importance": 0.65,
-        "thesis": "Miami Beach cannot stop the Savoy's demolition under state preemption, while Miami voters will decide Virginia Key's marinas themselves on November 3.",
-        "synthesis": "Allied Partners proposes a roughly 480-foot, 38-story tower at 425 Ocean Drive with 150 residences (60 workforce units) and 76 hotel rooms, replacing the 1930s Art Deco Savoy under Florida's Live Local Act. The city says preemption leaves it little recourse. Separately, Referendum 3 asks Miami voters to approve a long-term lease letting RCI Group and Suntex Marinas pursue an $80 million redevelopment of the Rickenbacker and Marine Stadium marinas, about 28 acres.",
-        "new_today": "Nothing new since mid-September; both decisions are still pending.",
-        "why_it_matters": "One is a case study in state preemption overriding local preservation; the other is a direct ballot vote on waterfront development. Both shape the Miami you live in.",
-        "thread_id": "thread-virginia-key-marina-referendum",
-        "confidence": "high",
-        "sources": [
-          {
-            "role": "primary_reporting",
-            "publisher": "WLRN",
-            "headline": "Historic Miami Beach hotel faces demolition, and the city can't stop it",
-            "url": "https://www.wlrn.org/development/2026-09-15/savoy-hotel-miami-beach-hotel-florida-live-local"
-          },
-          {
-            "role": "local_perspective",
-            "publisher": "CBS Miami",
-            "headline": "Miami's Referendum 3 has become a hot-ticket issue on this November's ballot",
-            "url": "https://www.cbsnews.com/miami/news/miami-referendum-3-virginia-key-marinas-future-debate-midterm-elections-2026/"
-          }
-        ]
-      },
-      {
-        "id": "theme-marlins-mccullough-returns",
+        "id": "theme-marlins-80-82-ledger",
         "affinity": "evening",
         "topic": "sports",
         "topic_label": "Miami Sports",
-        "title": "The Marlins keep McCullough and start the bullpen conversation",
+        "title": "Marlins finish 80-82: a step forward that still missed",
         "importance": 0.6,
-        "thesis": "An 80-82 season ends with continuity at manager and a known hole in the ninth inning.",
-        "synthesis": "Clayton McCullough will return for a third season, with 2027 the last year of his contract. Closer Pete Fairbanks, Anthony Bender and Andrew Nardi all finished the year on the injured list, and the bullpen's instability is the most discussed need. Sandy Alcantara's $21 million 2027 option is widely seen as an easy pick-up.",
-        "new_today": "McCullough confirmed for 2027; bullpen identified as the main offseason need.",
-        "why_it_matters": "A slow, reflective read on what the collapse taught the front office, before the winter's decisions begin.",
-        "thread_id": "thread-marlins-wildcard",
-        "confidence": "medium",
-        "sources": [
-          {
-            "role": "primary_reporting",
-            "publisher": "MLB Trade Rumors",
-            "headline": "Marlins Notes: McCullough, Nardi, Marsee, Zuber",
-            "url": "https://www.mlbtraderumors.com/2026/09/marlins-notes-mccullough-nardi-marsee-zuber.html"
-          },
-          {
-            "role": "background",
-            "publisher": "MLB.com",
-            "headline": "Marlins conclude 2026 season with 80th win",
-            "url": "https://www.mlb.com/news/marlins-conclude-2026-season-with-80th-win"
-          }
-        ]
-      },
-      {
-        "id": "theme-aeon-making-by-hand",
-        "affinity": "evening",
-        "topic": "living",
-        "topic_label": "Art of Living",
-        "title": "Why so many people dream of making things by hand",
-        "importance": 0.6,
-        "thesis": "Skill nostalgia may be escapism, or it may be a clue about what work has stopped offering.",
-        "synthesis": "Aeon asks whether today's pull toward beekeeping, baking and leatherwork is a fantasy or the start of a more human idea of work. It cites the rise of skill-learning reality television, Etsy's millions of sellers and workwear as luxury fashion, and draws on Matthew Crawford, who left a think tank to repair motorcycles and wrote Shop Class as Soulcraft. It has sat on your reading list since September 3.",
-        "new_today": "Carried from your Reading List as tonight's slower read.",
-        "why_it_matters": "After a day of yields and scores, a piece about work you can see and hold is a useful counterweight.",
+        "thesis": "The season's ledger shows real gains at home and on the mound, and the same old gap to October.",
+        "synthesis": "Miami ended 80-82, one win better than last year and a third straight year without the playoffs, after beating the NL East champion Braves 5-3 in the finale with Sandy Alcantara closing. The Marlins went 47-34 at home, their best home mark since moving into loanDepot park, and Alcantara led MLB with 214 innings. A 12-game losing streak after the All-Star break did the damage, and coverage notes that last winter's additions underperformed. Clayton McCullough returns for a third season.",
+        "new_today": "Season-in-review coverage after the finale.",
+        "why_it_matters": "A slow, honest read of what the year was. It sets the questions for the offseason: bullpen, bats, and whether Bendix's additions get a second look.",
         "thread_id": null,
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Aeon",
-            "headline": "The radical reasons why you dream of making things by hand",
-            "url": "https://aeon.co/essays/the-radical-reasons-why-you-dream-of-making-things-by-hand"
+            "publisher": "MLB.com",
+            "headline": "'We're right there': Marlins hungry to take next step after streaky '26 season",
+            "url": "https://www.mlb.com/marlins/news/marlins-conclude-2026-season-with-80th-win"
+          },
+          {
+            "role": "analysis",
+            "publisher": "Yahoo Sports",
+            "headline": "Marlins 'took a step forward' in 2026 but still must improve. What went right, wrong",
+            "url": "https://sports.yahoo.com/articles/marlins-took-step-forward-2026-225008842.html"
+          }
+        ]
+      },
+      {
+        "id": "theme-nick-cave-humility-curiosity",
+        "affinity": "evening",
+        "topic": "living",
+        "topic_label": "Art of Living",
+        "title": "Nick Cave on humility and curiosity as the two pillars of a meaningful life",
+        "importance": 0.55,
+        "thesis": "Two soft qualities, humility and curiosity, turn people we disagree with from threats into subjects of interest.",
+        "synthesis": "In this Marginalian essay, Maria Popova draws on Nick Cave's reflections: humility is the recognition that people are not divided into good and bad but are each broken in their own way and capable of terrible and beautiful things, and curiosity makes people who do not share our values interesting rather than threatening. Together, Cave suggests, they soften inflexible and isolating value systems.",
+        "new_today": "Evening reading; not tied to today's news.",
+        "why_it_matters": "After a morning of yields and standoffs, a small corrective on how to hold opposing views, whether in a negotiation or a dinner conversation.",
+        "thread_id": null,
+        "confidence": "high",
+        "sources": [
+          {
+            "role": "primary_reporting",
+            "publisher": "The Marginalian",
+            "headline": "Nick Cave on the Two Pillars of a Meaningful Life",
+            "url": "https://www.themarginalian.org/2023/11/28/nick-cave-humility-curiosity/"
           }
         ]
       }
     ],
     "rabbit_hole": {
-      "id": "rh-2026-09-30",
-      "title": "How We Render Reality: Attention as an Instrument of Love",
-      "creator": "Maria Popova, The Marginalian (on Iain McGilchrist's The Matter with Things)",
+      "id": "rh-2026-10-01",
+      "title": "On the Shortness of Life (De Brevitate Vitae)",
+      "creator": "Seneca, trans. John W. Basore",
       "format": "essay",
-      "minutes": 15,
-      "why": "It argues that what we attend to defines the reality we live in, which is a pointed idea on a morning when a yield and a confidence index compete for your attention. Read it tonight; it is freely available.",
-      "url": "https://www.themarginalian.org/2023/05/10/iain-mcgilchrist-the-matter-with-things/",
+      "minutes": 40,
+      "why": "Seneca argues that life is long enough if you stop spending it on other people's agendas and anxieties. It is a useful read on a day when a yield and a probability table will try to claim your attention; it is free on Wikisource, one chapter per page.",
+      "url": "https://en.wikisource.org/wiki/On_the_shortness_of_life",
       "related_interest": "living"
     },
     "beautiful_thing": {
-      "id": "bt-2026-09-30",
-      "title": "Miami Marine Stadium",
-      "creator": "Hilario Candela",
-      "era": "1963",
-      "body": "Designed by the Cuban-born architect Hilario Candela and opened on Virginia Key in 1963, the stadium is built of reinforced concrete and faces the water, so the audience watches races and concerts across Biscayne Bay. Notice the folded-plate concrete roof that shelters the seating with no columns in the way of the view. The stadium has been closed since Hurricane Andrew in 1992, and its surrounding marinas are the subject of Referendum 3 on November 3.",
-      "url": "https://en.wikipedia.org/wiki/Miami_Marine_Stadium",
+      "id": "bt-2026-10-01",
+      "title": "\"Hope\" is the thing with feathers",
+      "creator": "Emily Dickinson",
+      "era": "c. 1861",
+      "body": "Dickinson copied this poem into the hand-sewn booklet scholars call Fascicle 13 around 1861. Notice that it never says what hope is, only what it does: it perches, sings without words, and never stops. Notice too the last stanza, where the bird has been heard in the chillest land and on the strangest sea, and 'never, in Extremity, / It asked a crumb of me.' The poem's praise is of something that costs nothing to keep.",
+      "url": "https://www.poetryfoundation.org/poems/42889/hope-is-the-thing-with-feathers-314",
       "image": null,
-      "alt": "Miami Marine Stadium on Virginia Key, a mid-century concrete grandstand facing Biscayne Bay."
+      "alt": "Text of Emily Dickinson's poem on the Poetry Foundation website."
     },
-    "noticing_prompt": "Notice which piece of today's news you carry in your body rather than in your plans. Ask whether anything about your afternoon actually depends on it.",
+    "noticing_prompt": "Notice the first number you check today and what you expected it to settle. Notice whether it did.",
     "daily_puzzle": {
-      "id": "dp-2026-09-30",
-      "type": "math",
-      "prompt": "A clock strikes once for each hour, with equal pauses between strikes. At 4 o'clock it takes 6 seconds from the first strike to the last. How long does it take to strike 7 o'clock?",
-      "hint": "Count the pauses between strikes, not the strikes themselves.",
-      "solution": "12 seconds",
-      "explanation": "Four strikes have three pauses, so each pause lasts 2 seconds. Seven strikes have six pauses: 6 x 2 = 12 seconds."
+      "id": "dp-2026-10-01",
+      "type": "wordplay",
+      "prompt": "What five-letter English word becomes shorter when you add two letters to it?",
+      "hint": "Think of comparatives, the way 'tall' becomes 'taller'.",
+      "solution": "SHORT. Add 'er' and you get SHORTER.",
+      "explanation": "The puzzle trades on 'shorter' meaning less long, while the word itself grows from five letters to seven."
     },
     "evening_unwind": {
-      "id": "eu-2026-09-30",
+      "id": "eu-2026-10-01",
       "evening_quote": {
-        "text": "We suffer more often in imagination than in reality.",
-        "attribution": "Seneca",
-        "source": "Letters to Lucilius, 13"
+        "text": "If thou art pained by any external thing, it is not this thing that disturbs thee, but thy own judgement about it. And it is in thy power to wipe out this judgement now.",
+        "attribution": "Marcus Aurelius (trans. George Long)",
+        "source": "Meditations, 8.47"
       },
-      "evening_prompt": "Which worry from today was about a forecast rather than about anything that actually happened?"
+      "evening_prompt": "Which number or headline from this morning changed your day only because of the judgement you attached to it?"
     },
     "reading_queue": [
       {
         "title": "The Radical Reasons Why You Dream of Making Things by Hand",
         "url": "https://aeon.co/essays/the-radical-reasons-why-you-dream-of-making-things-by-hand",
         "verdict": "read_soon",
-        "reason": "Featured tonight as an evening theme; it has been on the list since September 3."
+        "reason": "On the list since September 3; a slow evening read that fits tonight."
       }
     ],
     "quote": {
-      "text": "We suffer more often in imagination than in reality.",
-      "attribution": "Seneca"
+      "text": "It is not that we have a short time to live, but that we waste a lot of it.",
+      "attribution": "Seneca, On the Shortness of Life, 1 (trans. Basore)"
     }
   },
   "threads": [
@@ -386,9 +382,9 @@
       "title": "US-Iran conflict and the Strait of Hormuz",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-09-30",
-      "updates": 80,
-      "current_state": "Araghchi's offer: reopen Hormuz and restart nuclear talks within seven days if the US releases funds, eases sanctions and ends the blockade. Trump has rejected the proposal; separate mediator contacts continue.",
+      "last_updated": "2026-10-01",
+      "updates": 81,
+      "current_state": "Trump rejected Iran's seven-day offer; Iran says a US counterproposal has arrived and is under review; mediators continue. Terms unpublished.",
       "timeline": [
         {
           "date": "2026-07-21",
@@ -789,6 +785,11 @@
           "date": "2026-09-30",
           "summary": "Iran's seven-day conditions reported; no US movement.",
           "change_type": "advanced"
+        },
+        {
+          "date": "2026-10-01",
+          "summary": "Iran says it received a US counterproposal to its seven-day plan.",
+          "change_type": "advanced"
         }
       ]
     },
@@ -797,9 +798,9 @@
       "title": "Federal Reserve rate path",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-09-30",
-      "updates": 74,
-      "current_state": "The 30-year topped 5.6% (highest since 2002) and the 10-year closed near 5.25% on Sept 29; confidence fell to 81.9; hike odds for Oct 28 about 72%; August PCE due Sept 30.",
+      "last_updated": "2026-10-01",
+      "updates": 75,
+      "current_state": "August core PCE was 0.2% m/m (3.0% y/y vs 3.3% expected); Oct 28 hike odds fell to about 35% (CME), yet the 10-year closed at 5.29%, a 24-year high, and the 30-year near 5.65%; jobs report Friday.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -1170,6 +1171,11 @@
           "date": "2026-09-30",
           "summary": "30-year yield at a 2002 high, consumer confidence lowest since 2014; PCE due today.",
           "change_type": "worsened"
+        },
+        {
+          "date": "2026-10-01",
+          "summary": "Cooler PCE halves hike odds but the 10-year hits a 24-year high at 5.29%.",
+          "change_type": "reversed"
         }
       ]
     },
@@ -1509,9 +1515,9 @@
       "title": "Heat: the Giannis era begins",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-09-30",
-      "updates": 8,
-      "current_state": "Heat camp opened at FAU Sept 29 with Giannis a full participant; preseason begins Oct 3 vs Toronto in Quebec City.",
+      "last_updated": "2026-10-01",
+      "updates": 9,
+      "current_state": "Camp at FAU continues with Giannis a full participant; preseason opens Oct 3 vs. Toronto in Quebec City.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -1547,6 +1553,11 @@
           "date": "2026-09-30",
           "summary": "Camp opens; Giannis has no limitations.",
           "change_type": "advanced"
+        },
+        {
+          "date": "2026-10-01",
+          "summary": "Camp continues; preseason opener Saturday.",
+          "change_type": "watch"
         }
       ]
     },
@@ -1555,9 +1566,9 @@
       "title": "Dolphins rebuild under Hafley",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-09-30",
-      "updates": 54,
-      "current_state": "Miami is 0-3, Achane is out for the season, Jaylen Wright is day-to-day; Week 4 is Oct 4 at 4:05 p.m. ET vs. the Vikings.",
+      "last_updated": "2026-10-01",
+      "updates": 55,
+      "current_state": "Miami is 0-3 without Achane (ACL); Week 4 at the 3-0 Vikings Oct 4, 4:05 p.m. ET; models favor Minnesota by about 12.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -1828,6 +1839,11 @@
           "date": "2026-09-30",
           "summary": "Week 4 preview; Wright day-to-day.",
           "change_type": "advanced"
+        },
+        {
+          "date": "2026-10-01",
+          "summary": "Hafley on Achane's recovery; Vikings heavy favorites.",
+          "change_type": "watch"
         }
       ]
     },
@@ -2104,9 +2120,9 @@
       "title": "2026 CRE capital markets under pressure",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-09-29",
-      "updates": 36,
-      "current_state": "A Commercial Observer analysis says multifamily's share of CMBS conduit loans rose from about 31% to 43%, with office also getting cautious capital; the 10-year at 5.24% keeps costs high.",
+      "last_updated": "2026-10-01",
+      "updates": 37,
+      "current_state": "Office CMBS delinquency hit 13.2% in August (CRED iQ), special servicing 15.7%; KBRA's broader CMBS delinquency rose to 7.7% in September; the 10-year at 5.29% keeps refinancing costs high.",
       "timeline": [
         {
           "date": "2026-07-24",
@@ -2292,6 +2308,11 @@
           "date": "2026-09-29",
           "summary": "CMBS conduit mix shifts toward multifamily.",
           "change_type": "advanced"
+        },
+        {
+          "date": "2026-10-01",
+          "summary": "Office CMBS delinquency at a series high; maturity-driven distress dominates.",
+          "change_type": "worsened"
         }
       ]
     },
@@ -2479,9 +2500,9 @@
       "title": "Panthers' 2026-27 season takes shape",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-09-30",
-      "updates": 19,
-      "current_state": "Panthers opened 1-0 with a 1-0 OT win at Carolina on Forsling's goal with 4.3 seconds left.",
+      "last_updated": "2026-10-01",
+      "updates": 20,
+      "current_state": "Panthers are 1-0 after the OT win in Carolina, with Brady Tkachuk cleared after a minor preseason scare; four-game road trip continues Oct 1 at San Jose, then Anaheim and Los Angeles, with the home opener Oct 10.",
       "timeline": [
         {
           "date": "2026-08-22",
@@ -2577,6 +2598,11 @@
           "date": "2026-09-30",
           "summary": "Season opener won in overtime at Carolina.",
           "change_type": "advanced"
+        },
+        {
+          "date": "2026-10-01",
+          "summary": "Road trip continues at San Jose tonight.",
+          "change_type": "watch"
         }
       ]
     },
@@ -2882,6 +2908,22 @@
           "change_type": "advanced"
         }
       ]
+    },
+    {
+      "id": "thread-griffin-wynwood-cmu",
+      "title": "Griffin's Wynwood land and Carnegie Mellon campus",
+      "topic": "miami",
+      "status": "emerging",
+      "last_updated": "2026-10-01",
+      "updates": 1,
+      "current_state": "Ken Griffin closed on about 30 acres of Mana Wynwood for roughly $1.1 billion all-cash on Sept 30; a Carnegie Mellon satellite campus on about 35 acres is planned, with construction possibly starting next year.",
+      "timeline": [
+        {
+          "date": "2026-10-01",
+          "summary": "First tracked: sale closes at about $1.1B, the largest land assemblage sale in South Florida by Mana's account.",
+          "change_type": "new"
+        }
+      ]
     }
   ],
   "topic_filters": [
@@ -2903,7 +2945,7 @@
     }
   ],
   "meta": {
-    "content_freshness": "2026-09-30T09:30:00-04:00",
+    "content_freshness": "2026-10-01T09:30:00-04:00",
     "feedback_endpoint_mode": "github_contents",
     "minimum_client_schema_version": 1,
     "mode": "brain"
