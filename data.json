@@ -1,178 +1,184 @@
 {
   "schema_version": 2,
   "edition": {
-    "id": "2026-10-04",
-    "date": "2026-10-04",
-    "type": "weekly",
-    "generated_at": "2026-10-04T09:30:00-04:00",
+    "id": "2026-10-05",
+    "date": "2026-10-05",
+    "type": "weekday",
+    "generated_at": "2026-10-05T09:30:00-04:00",
     "timezone": "America/New_York",
     "title": "Personal OS",
     "front_page_letter": {
       "greeting": "Good morning",
       "body_paragraphs": [
-        "The week in one line: the Fed blinked before it moved, and the war did not. September payrolls came in at 29,000, core PCE ran cooler than expected, and the October hike went from a likely 36% to roughly 17%. The 10-year slipped back to about 5.15% from Thursday's 5.34% peak, the highest since 2002, which still leaves long money expensive. December remains the live question.",
-        "Over the Gulf, the only thing that moved was preparation. A source in Tehran says Iran is readying for a major round of fighting, a third US carrier group is on its way, and the dispute is still who reopens Hormuz first. Brent sits around $100 and stocks have mostly shrugged. That calm is the part worth watching.",
-        "The good news was local. Miami beat Clemson 41-13 at Death Valley, its first win there since 2010, and sits alone atop the ACC at 5-0, with injuries the only shadow. Giannis made his Heat debut with seven assists, all on threes, in 14 minutes. The Dolphins (0-3) visit Minnesota at 4:05 p.m. ET minus Achane, as 10.5-point underdogs.",
-        "What you starred or saved this week: nothing, so no interest weights moved and I have kept the mix of markets, Miami, sports and living as it was. Carrying forward are Hormuz, the Fed path and Dolphins rebuild. On the reading list, the Aeon essay on making things by hand has waited a month; tonight suits it. Reflection question: which number did you check more often this week than it changed?"
+        "Two clocks run today. The Fed's is slow: a soft September jobs report took an October hike to roughly 17%, but a December hike is still better than even in the sources I checked, and the 10-year yield, somewhere between 5.15% and 5.28% depending on the source, keeps financing expensive. Stocks closed Friday near records, with the S&P 500 at 7,722.72.",
+        "The Gulf's clock is stranger. Iran says Hormuz stays shut until the US meets its conditions, Trump rejected them, and yet LNG cargoes are leaving the strait. When declared policy and actual flows diverge, the flows usually win the argument, though oil is trading on the declaration.",
+        "Locally, the Dolphins fell to 0-4 at Minnesota, 15-10, closer than expected and no less a loss. The Hurricanes stay No. 4 and rest. On Virginia Key, a lawyer is threatening to sue unless voters get the marina decision on November 3.",
+        "What deserves attention: the gap between what is announced and what is moving, in Hormuz and in the December Fed pricing alike."
       ],
       "read_only_three": [
         {
           "target_type": "theme",
-          "target_id": "theme-week-hormuz-fighting-prep",
-          "label": "Hormuz: both sides prepare"
+          "target_id": "theme-hormuz-conditions",
+          "label": "Hormuz: closed in word, open in part"
         },
         {
           "target_type": "theme",
-          "target_id": "theme-week-fed-hike-fades",
-          "label": "October hike nearly priced out"
+          "target_id": "theme-fed-december-hike",
+          "label": "The Fed: October is a hold, December is the argument"
         },
         {
           "target_type": "theme",
-          "target_id": "theme-um-clemson-41-13",
-          "label": "Miami 41, Clemson 13"
+          "target_id": "theme-virginia-key-lawsuit-threat",
+          "label": "Virginia Key marina and the voter question"
         }
       ]
     },
     "market_context": [
       {
         "label": "S&P 500",
-        "value": "about 7,723",
-        "change": "roughly flat on the week",
+        "value": "7,722.72",
+        "change": "+0.7% (+56.27)",
         "observed": "Close, Friday, October 2, 2026",
-        "note": "Single-source level from CNBC's week-ahead piece; markets are closed on Sunday."
+        "note": "Per the Associated Press; markets were closed over the weekend."
       },
       {
         "label": "Nasdaq Composite",
-        "value": "level not verified",
-        "change": "up more than 1% on the week",
+        "value": "27,190.86",
+        "change": "+1.2% (+319.27)",
         "observed": "Close, Friday, October 2, 2026",
-        "note": "The Nasdaq 100 set a fresh record this week."
+        "note": "Per the Associated Press."
       },
       {
         "label": "10Y Treasury",
-        "value": "about 5.15%",
-        "change": "down from a 5.34% Thursday high, the highest since 2002",
-        "observed": "Friday, October 2, 2026",
-        "note": "Sources vary between about 5.15% and 5.18%."
+        "value": "about 5.15% to 5.28%",
+        "change": "retreated from last Thursday's 5.34% peak",
+        "observed": "Friday, October 2 and Monday morning, October 5, 2026",
+        "note": "Sources disagree on the exact level; a Monday-morning aggregator showed about 5.27%."
       },
       {
-        "label": "Brent crude",
-        "value": "about $101 to $103",
-        "change": "flat to slightly lower Friday",
-        "observed": "Friday, October 2, 2026",
-        "note": "Sources differ; the G7 agreed to consider releasing up to 100 million barrels of emergency reserves."
+        "label": "Crude oil",
+        "value": "about $91 (benchmark unspecified)",
+        "change": "unverified",
+        "observed": "Monday morning, October 5, 2026",
+        "note": "One aggregator's quote; last week's Brent reports were near $100, so treat this figure cautiously."
       },
       {
         "label": "FOMC (Oct 27-28)",
-        "value": "hike odds about 17%",
-        "change": "from about 36% a week earlier",
-        "observed": "CME FedWatch, October 2, 2026",
-        "note": "A hold is the base case; traders still price a hike by December."
+        "value": "hike odds about 17%; December hike roughly 65-75%",
+        "change": "October odds were about 36% a week earlier",
+        "observed": "October 2-5, 2026",
+        "note": "Sources differ on December pricing; a hold is the base case for October."
       }
     ],
     "public_day_context": {
-      "date_label": "Sunday, October 4, 2026",
-      "weather": "Miami: humid, high near 90, mostly sunny with a 20 to 40% chance of afternoon showers or thunderstorms, southeast wind 5 to 10 mph.",
-      "public_event": "Dolphins at Vikings 4:05 p.m. ET; ISM services PMI Monday, October 5."
+      "date_label": "Monday, October 5, 2026",
+      "weather": "Miami: mostly sunny, high near 88 to 90, low chance of showers after 5 p.m., a 30% chance of evening storms, southeast wind 5 to 8 mph.",
+      "public_event": "Hurricanes on a bye week; Treasury auctions and the start of third-quarter earnings later this week."
     },
     "what_changed": [
       {
-        "id": "delta-hormuz-fighting-prep",
+        "id": "delta-hormuz-conditions",
         "thread_id": "thread-iran-hormuz-crisis",
-        "change_type": "worsened",
-        "title": "Both sides are now reported preparing for renewed fighting",
-        "previous_state": "The US counterproposal was awaiting Iran's response, with sequencing the open dispute.",
-        "current_state": "A Tehran source says Iran is readying for a 'major round of fighting' and a US official says a third carrier group, the USS Theodore Roosevelt, is en route.",
-        "why_it_matters": "Diplomacy has not formally ended, but the preparations are now more concrete than the paper.",
-        "confidence": "medium",
-        "source": {
-          "publisher": "The National",
-          "url": "https://www.thenationalnews.com/news/mena/2026/10/03/iran-gearing-up-for-major-round-of-fighting-with-us-source-says/"
-        }
-      },
-      {
-        "id": "delta-um-clemson",
-        "thread_id": "thread-hurricanes-fall-camp",
-        "change_type": "resolved",
-        "title": "Miami beat Clemson 41-13 and leads the ACC alone",
-        "previous_state": "No. 4 Miami was a roughly two-touchdown favorite heading to Death Valley.",
-        "current_state": "Miami won 41-13, its first win at Clemson since 2010, and took sole possession of first place in the ACC.",
-        "why_it_matters": "The road test is passed; injuries are the new question.",
-        "confidence": "high",
-        "source": {
-          "publisher": "Local 10",
-          "url": "https://www.local10.com/sports/local/2026/10/03/no-4-miami-rolls-past-clemson-41-13-for-first-win-at-death-valley-since-2010/"
-        }
-      },
-      {
-        "id": "delta-heat-giannis-debut",
-        "thread_id": "thread-heat-giannis-era",
         "change_type": "advanced",
-        "title": "Giannis makes his Heat debut in a 129-105 preseason win",
-        "previous_state": "The Giannis era was set to open in a preseason game in Quebec City.",
-        "current_state": "He logged 14 minutes with 9 points and 7 assists, all seven assists on made threes.",
-        "why_it_matters": "A first, small look at how he and the shooters fit.",
+        "title": "Trump rejected Iran's reopening conditions; Tehran says a US response is coming",
+        "previous_state": "A source in Tehran said Iran was preparing for a major round of fighting and a third US carrier group was en route.",
+        "current_state": "Iran says Hormuz stays closed until the US meets conditions, Trump rejected them while keeping talks and force on the table, and LNG cargoes are nonetheless exiting.",
+        "why_it_matters": "The standoff is now about sequencing and fees, not whether to talk.",
         "confidence": "medium",
         "source": {
-          "publisher": "Canadian Press",
-          "url": "https://www.thecanadianpressnews.ca/sports/raptors-drop-pre-season-opener-129-105-to-heat-in-first-ever-nba-game-in/article_cbde4cd2-54bf-540b-839c-228fcbee6af9.html"
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/4/iran-says-strait-of-hormuz-to-remain-closed-until-us-meets-conditions"
         }
       },
       {
-        "id": "delta-dolphins-line-widens",
+        "id": "delta-dolphins-0-4",
         "thread_id": "thread-dolphins-hafley-rebuild",
         "change_type": "worsened",
-        "title": "Vikings now 10.5-point favorites; Achane out for the year",
-        "previous_state": "Minnesota was favored by about 9.5.",
-        "current_state": "Previews list the line at 10.5, with Achane out for the year (torn ACL) and Vikings receiver Jefferson also out.",
-        "why_it_matters": "The Dolphins' season is about development now.",
+        "title": "Dolphins lost 15-10 at Minnesota and are 0-4",
+        "previous_state": "Miami (0-3) was a 10.5-point underdog in Minnesota.",
+        "current_state": "Miami lost 15-10, its first 0-4 start since 2019.",
+        "why_it_matters": "Closer than the spread, but the record is the record.",
+        "confidence": "high",
+        "source": {
+          "publisher": "CBS Minnesota",
+          "url": "https://www.cbsnews.com/minnesota/news/minnesota-vikings-win-over-miami-dolphins-week-4/"
+        }
+      },
+      {
+        "id": "delta-um-bye",
+        "thread_id": "thread-hurricanes-fall-camp",
+        "change_type": "advanced",
+        "title": "Miami stays No. 4 in the AP poll heading into a bye week",
+        "previous_state": "Miami had just won 41-13 at Clemson and led the ACC alone.",
+        "current_state": "The AP poll kept Miami at No. 4; Florida State visits October 17.",
+        "why_it_matters": "A week to heal before the Pittsburgh and Notre Dame stretch.",
+        "confidence": "high",
+        "source": {
+          "publisher": "247Sports",
+          "url": "https://247sports.com/college/miami/article/miami-hurricanes-football-ranked-no-4-in-ap-top-25-poll-following-5-0-start-heading-into-bye-week-290867874/"
+        }
+      },
+      {
+        "id": "delta-virginia-key-lawsuit",
+        "thread_id": "thread-virginia-key-marina-referendum",
+        "change_type": "advanced",
+        "title": "A lawyer threatens to sue unless the Virginia Key marina goes to voters",
+        "previous_state": "The referendum campaign had produced its first rally and opposition from environmental groups.",
+        "current_state": "A Coconut Grove lawyer says he will take the county to court if voters are not allowed to decide the marina.",
+        "why_it_matters": "Adds legal risk to a November 3 ballot question.",
         "confidence": "medium",
         "source": {
-          "publisher": "Vikings.com",
-          "url": "https://www.vikings.com/news/dolphins-week-4-game-preview-2026"
+          "publisher": "WLRN",
+          "url": "https://www.wlrn.org/law-justice/2026-10-02/lawsuit-threatened-over-seaquarium-redevelopment"
         }
       }
     ],
     "themes": [
       {
-        "id": "theme-week-hormuz-fighting-prep",
+        "id": "theme-hormuz-conditions",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Hormuz: both sides are now preparing for the war to resume",
-        "importance": 0.95,
-        "thesis": "The sequencing dispute is no longer a negotiating detail; it has become the reason each side is moving forces instead of papers.",
-        "synthesis": "Iran gave Washington a seven-day plan through Qatar with the strait reopening on day six; the US answered with a counterproposal Tehran has not accepted. Iran wants concrete US steps first (lifting the naval blockade of its ports, sanctions relief, frozen funds); Washington wants the strait reopened first. A source in Tehran told The National that Iran is preparing for a 'major round of fighting', and a US official said a third carrier group, the USS Theodore Roosevelt, is heading to the region. Meetings in New York produced no breakthrough.",
-        "new_today": "Reporting on Saturday shifted from 'counterproposal under review' to both militaries preparing; third US carrier group en route.",
-        "why_it_matters": "Oil near $100 and a 10-year yield above 5% are the transmission lines into every financing model you touch. Renewed strikes would test whether the market's calm about the war is conviction or fatigue.",
+        "title": "Hormuz: Iran says the strait stays closed until the US meets its conditions",
+        "importance": 0.93,
+        "thesis": "Diplomacy is still alive, but each side is now saying the other must move first, and traffic is leaking through anyway.",
+        "synthesis": "Iran says Hormuz remains closed until Washington meets its conditions, and its parliament has advanced a bill to formalize Iranian management of the strait, including fees on commercial vessels. President Trump rejected Tehran's proposed terms while leaving room for more talks or renewed military action, and Iranian officials say a US response is being prepared. Meanwhile ship-tracking data cited by Bloomberg show at least three LNG cargoes have exited since late last week, and bypass routes are running at capacity.",
+        "new_today": "Trump rejected Iran's reopening conditions; Iran's parliament moved a strait-fee bill out of committee; LNG traffic is rebounding despite the declared closure.",
+        "why_it_matters": "The gap between declared closure and actual flows is what oil, and therefore the 10-year yield, is trading on. A formal fee regime would turn a crisis premium into a structural cost.",
         "thread_id": "thread-iran-hormuz-crisis",
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "The National",
-            "headline": "Iran gearing up for 'major round of fighting' with US, says source",
-            "url": "https://www.thenationalnews.com/news/mena/2026/10/03/iran-gearing-up-for-major-round-of-fighting-with-us-source-says/"
+            "publisher": "Al Jazeera",
+            "headline": "Iran says Hormuz to remain closed until US meets conditions",
+            "url": "https://www.aljazeera.com/news/2026/10/4/iran-says-strait-of-hormuz-to-remain-closed-until-us-meets-conditions"
           },
           {
             "role": "analysis",
-            "publisher": "The National Desk",
-            "headline": "Iran reviews US ceasefire counterproposal as Strait of Hormuz terms remain unclear",
-            "url": "https://thenationaldesk.com/news/americas-news-now/iran-reviews-us-ceasefire-counterproposal-as-strait-of-hormuz-terms-remain-unclear"
+            "publisher": "CBS News",
+            "headline": "Live updates: senior Trump administration officials met to discuss Iran war at Camp David",
+            "url": "https://www.cbsnews.com/live-updates/trump-iran-war-us-midterm-elections-troops-deployment/"
+          },
+          {
+            "role": "analysis",
+            "publisher": "Fox News",
+            "headline": "Iran talking peace, but unwilling to bend to Trump, US nuclear demands",
+            "url": "https://www.foxnews.com/live-news/us-iran-war-hormuz-strait-peace-talks-donald-trump-october-4"
           }
         ]
       },
       {
-        "id": "theme-week-fed-hike-fades",
+        "id": "theme-fed-december-hike",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "The October hike is nearly priced out; December is the live question",
-        "importance": 0.9,
-        "thesis": "One soft payrolls report and a cooler core PCE turned a likely October hike into a long shot, but the Fed's path has only been deferred.",
-        "synthesis": "September payrolls rose 29,000 against forecasts above 80,000. Earlier in the week, August core PCE rose 3.0% against 3.3% expected. CME FedWatch put the chance of an October hike near 17%, down from roughly 36% a week before, and traders still price a hike by December. The next FOMC meeting is October 27-28.",
-        "new_today": "No new data over the weekend; this is the week's net position heading into Monday.",
-        "why_it_matters": "Lower odds of a near-term hike help refinancing math at the margin, but a 10-year still around 5.15% means the cost of long money has not really moved.",
+        "title": "The Fed: October is a hold, December is the argument",
+        "importance": 0.88,
+        "thesis": "After a soft September jobs report the October hike is nearly priced out, but the market still leans toward a hike by year-end.",
+        "synthesis": "CNBC reports traders see little chance of a hike on October 28 after the jobs data; odds of a hike at that meeting sit near 17%. December is where the pricing lives: sources I checked put a hike by year-end somewhere between about 65% and 75%, and they do not agree with each other on the exact figure.",
+        "new_today": "Sunday and Monday readings keep October near 17% and December well above even odds, with sources differing.",
+        "why_it_matters": "A Fed that is hiking with a 10-year above 5% sets the exit cap rates and refinancing math for everything you underwrite; the live variable is December, not this month.",
         "thread_id": "thread-fed-rate-path",
         "confidence": "medium",
         "sources": [
@@ -184,205 +190,168 @@
           },
           {
             "role": "analysis",
-            "publisher": "FXStreet",
-            "headline": "The October Fed hike just died. Here's what the 29K jobs report really means for rates",
-            "url": "https://www.fxstreet.com/analysis/the-october-fed-hike-just-died-heres-what-the-29k-jobs-report-really-means-for-rates-202610021806"
+            "publisher": "Yahoo Finance",
+            "headline": "Will the Fed raise interest rates in October? Key signal arrives",
+            "url": "https://finance.yahoo.com/economy/policy/articles/fed-raise-interest-rates-october-211951757.html"
           }
         ]
       },
       {
-        "id": "theme-week-markets-yields-oil",
+        "id": "theme-markets-near-record",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "A quiet calendar, so yields and oil run the week",
+        "title": "Stocks finish the week near a record while yields stay the story",
         "importance": 0.8,
-        "thesis": "With little scheduled data and earnings season not starting in earnest until October 13, Treasury auctions and crude are the main drivers.",
-        "synthesis": "CNBC's week-ahead piece has the S&P 500 about flat on the week near 7,723 and the Nasdaq 100 at a fresh record, with AI earnings overpowering the highest Treasury yields in a generation. The 10-year touched about 5.34% Thursday, then backed off to roughly 5.15% after the jobs report. ISM services is due Monday, October 5, followed by several Treasury auctions.",
-        "new_today": "Week-ahead setup: ISM services Monday, auctions through the week, earnings season from October 13.",
-        "why_it_matters": "Auction demand is the cleanest read on whether 5%+ yields are being absorbed or resisted. For CRE, that is a better signal than any single economic print.",
+        "thesis": "Equities rallied on the cooler jobs data, but the calendar this week is Treasury auctions and the start of earnings, which is where yields get tested.",
+        "synthesis": "The S&P 500 rose 0.7% to 7,722.72 on Friday, October 2, the Dow added 0.5% to 51,176.96, and the Nasdaq gained 1.2% to 27,190.86, all near records. CNBC's week-ahead piece frames the market as still held hostage by higher oil and higher yields, with several Treasury auctions and the start of third-quarter earnings the main events.",
+        "new_today": "Friday closes confirmed; futures were modestly higher early Monday, per a morning aggregator.",
+        "why_it_matters": "Demand at the long-end auctions is a direct read on how much term premium stays in your discount rates.",
         "thread_id": "thread-cre-capital-markets-2026",
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "CNBC",
-            "headline": "Stocks remain under the thrall of higher yields and higher oil. Here's what's ahead",
-            "url": "https://www.cnbc.com/2026/10/02/stock-market-next-week-outlook-for-oct-5-9-2026-.html"
+            "publisher": "Associated Press via Yahoo Finance",
+            "headline": "How major US stock indexes fared Friday 10/2/2026",
+            "url": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-201721712.html"
           },
           {
             "role": "analysis",
-            "publisher": "Kiplinger",
-            "headline": "Nasdaq Adds 319 Points as Rate-Hike Odds Ebb",
-            "url": "https://www.kiplinger.com/investing/stocks/nasdaq-adds-319-points-as-rate-hike-odds-ebb-stock-market-today"
+            "publisher": "CNBC",
+            "headline": "Stocks remain under the thrall of higher yields and higher oil. Here's what's ahead",
+            "url": "https://www.cnbc.com/2026/10/02/stock-market-next-week-outlook-for-oct-5-9-2026-.html"
           }
         ]
       },
       {
-        "id": "theme-um-clemson-41-13",
+        "id": "theme-dolphins-0-4",
         "affinity": "morning",
         "topic": "sports",
         "topic_label": "Miami Sports",
-        "title": "Miami wins 41-13 at Clemson, its first win at Death Valley since 2010",
-        "importance": 0.93,
-        "thesis": "The No. 4 Hurricanes won the way contenders do on the road: a physical running game and a defense that took the crowd out of it.",
-        "synthesis": "Darian Mensah threw for 227 yards and a touchdown, including a 61-yard screen to Cooper Barkate for an early 7-0 lead, and added a 34-yard scoring run. Miami outrushed Clemson 192-55 and took sole possession of first place in the ACC. SI's postgame headline flags the cost: added injuries remain the main concern.",
-        "new_today": "Final: Miami 41, Clemson 13, ending a 16-year drought at Clemson.",
-        "why_it_matters": "At 5-0 and atop the ACC, the question moves from whether Miami is real to whether the roster stays healthy through the stretch.",
+        "title": "Dolphins fall to 0-4 with a 15-10 loss at Minnesota",
+        "importance": 0.78,
+        "thesis": "A closer loss than the 10.5-point spread implied, and still a loss that came down to familiar mistakes.",
+        "synthesis": "Minnesota won 15-10 behind five Will Reichard field goals and a defense that kept Miami out of rhythm; the Vikings moved to 4-0 without scoring a touchdown. Miami got a breakout game from running back Ollie Gordon II, but reports describe unforced errors and some bad luck as the difference. The Dolphins are 0-4 for the first time since 2019.",
+        "new_today": "Final score and the 0-4 record; yesterday's pregame framing was a 10.5-point underdog.",
+        "why_it_matters": "Progress inside a loss is the thing to track in a rebuild; the standings will not show it.",
+        "thread_id": "thread-dolphins-hafley-rebuild",
+        "confidence": "high",
+        "sources": [
+          {
+            "role": "primary_reporting",
+            "publisher": "CBS Minnesota",
+            "headline": "Unbeaten Minnesota Vikings defeat winless Miami Dolphins with strong defense, Reichard's kicks",
+            "url": "https://www.cbsnews.com/minnesota/news/minnesota-vikings-win-over-miami-dolphins-week-4/"
+          },
+          {
+            "role": "analysis",
+            "publisher": "Athlon Sports",
+            "headline": "Dolphins show progress, but familiar mistakes prove costly in 15-10 loss to Vikings",
+            "url": "https://athlonsports.com/nfl/miami-dolphins/dolphins-show-progress-but-familiar-mistakes-prove-costly-in-15-10-loss-to-vikings"
+          }
+        ]
+      },
+      {
+        "id": "theme-um-bye-week",
+        "affinity": "morning",
+        "topic": "sports",
+        "topic_label": "Miami Sports",
+        "title": "Miami holds at No. 4 and takes a bye before Florida State",
+        "importance": 0.62,
+        "thesis": "The Hurricanes' poll position held after Clemson, which gives the injury list a week to shrink.",
+        "synthesis": "The Hurricanes stayed No. 4 in Sunday's AP poll at 5-0 and are off this week. Next up is Florida State at home on October 17, then Pittsburgh on October 24 and a trip to Notre Dame on November 7.",
+        "new_today": "AP poll released Sunday; bye-week schedule confirmed.",
+        "why_it_matters": "The ACC lead is intact and the hard stretch is still ahead, so this week is about health.",
         "thread_id": "thread-hurricanes-fall-camp",
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Local 10",
-            "headline": "No. 4 Miami rolls past Clemson 41-13 for first win at Death Valley since 2010",
-            "url": "https://www.local10.com/sports/local/2026/10/03/no-4-miami-rolls-past-clemson-41-13-for-first-win-at-death-valley-since-2010/"
-          },
-          {
-            "role": "analysis",
-            "publisher": "Sports Illustrated",
-            "headline": "No. 4 Miami's Determination Outlasts Clemson, But Added Injuries Remain Main Concern",
-            "url": "https://www.si.com/college/miami/football/no-4-miami-determination-outlasts-clemson-but-added-injuries-remain-main-concern"
-          },
-          {
-            "role": "background",
-            "publisher": "Clemson Athletics",
-            "headline": "No. 4/4 Miami Pulls Away from Clemson, 41-13",
-            "url": "https://clemsontigers.com/news/2026/10/3/no-44-miami-pulls-away-from-clemson-41-13"
+            "publisher": "247Sports",
+            "headline": "Miami ranked No. 4 in AP Top 25 poll following 5-0 start heading into bye week",
+            "url": "https://247sports.com/college/miami/article/miami-hurricanes-football-ranked-no-4-in-ap-top-25-poll-following-5-0-start-heading-into-bye-week-290867874/"
           }
         ]
       },
       {
-        "id": "theme-dolphins-vikings-today",
+        "id": "theme-virginia-key-lawsuit-threat",
         "affinity": "morning",
-        "topic": "sports",
-        "topic_label": "Miami Sports",
-        "title": "Dolphins (0-3) at Vikings (3-0), 4:05 p.m. ET, without a pass rush or Achane",
-        "importance": 0.7,
-        "thesis": "A game where the Dolphins' best argument is that Minnesota is also missing a star.",
-        "synthesis": "Minnesota is a 10.5-point favorite. Preview coverage says Vikings receiver Jefferson is out with an ankle sprain, and De'Von Achane is out for the year with a torn ACL. Miami has zero sacks this season and ranks 28th in points allowed. The Vikings' defense is coordinated by former Dolphins coach Brian Flores.",
-        "new_today": "Kickoff today; line up to 10.5 from about 9.5 earlier in the week.",
-        "why_it_matters": "The 2027 draft is the realistic horizon. What to watch is how the young pieces play, not the final score.",
-        "thread_id": "thread-dolphins-hafley-rebuild",
+        "topic": "miami",
+        "topic_label": "Miami Life & Culture",
+        "title": "Virginia Key marina: a lawyer says he will sue unless voters decide",
+        "importance": 0.74,
+        "thesis": "The November 3 ballot question is now also a legal question about whether the marina must go to voters at all.",
+        "synthesis": "WLRN reports a Coconut Grove lawyer says he will take Miami-Dade County to court if voters are not allowed to approve or reject the proposed marina at the former Seaquarium site, which the report describes as 877 berths and possibly more. Separately, environmental advocates are stepping up opposition, citing the roughly 75% loss of Biscayne Bay seagrass since 1983, while developers say the plan costs taxpayers nothing.",
+        "new_today": "A lawsuit threat over the voter-approval requirement, reported October 2.",
+        "why_it_matters": "Waterfront entitlement fights shape what can be built on Miami's edge; the outcome is a precedent for public-land marina deals.",
+        "thread_id": "thread-virginia-key-marina-referendum",
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Vikings.com",
-            "headline": "Vikings Against Dolphins Week 4 Game Preview",
-            "url": "https://www.vikings.com/news/dolphins-week-4-game-preview-2026"
+            "publisher": "WLRN",
+            "headline": "Miami resident threatens lawsuit over Seaquarium redevelopment",
+            "url": "https://www.wlrn.org/law-justice/2026-10-02/lawsuit-threatened-over-seaquarium-redevelopment"
           },
           {
-            "role": "analysis",
-            "publisher": "Daily Norseman",
-            "headline": "Week 4 Preview: A Passing Interest",
-            "url": "https://www.dailynorseman.com/minnesota-vikings-news/99914/week-4-preview-passing-interest-minnesota-vikings-miami-dolphins"
-          }
-        ]
-      },
-      {
-        "id": "theme-heat-giannis-debut",
-        "affinity": "morning",
-        "topic": "sports",
-        "topic_label": "Miami Sports",
-        "title": "Giannis debuts in a Heat uniform: 14 minutes, seven assists, all on threes",
-        "importance": 0.75,
-        "thesis": "It was a preseason game in Quebec City, but the first look suggests Giannis as passer will matter as much as Giannis as scorer.",
-        "synthesis": "Miami beat Toronto 129-105 in the first NBA game ever played in Quebec City. Giannis Antetokounmpo had 9 points, 4 rebounds and 7 assists in just over 14 minutes, making all three field-goal attempts; each of his seven assists became a three-pointer. The Heat led by 21 at the half with 76 points, shooting 14 of 29 from deep in the first half.",
-        "new_today": "Debut: Heat 129, Raptors 105.",
-        "why_it_matters": "It is one exhibition and 14 minutes. Still, the pattern (Giannis drawing help, shooters finishing) is the one the roster was built to produce.",
-        "thread_id": "thread-heat-giannis-era",
-        "confidence": "medium",
-        "sources": [
-          {
-            "role": "primary_reporting",
-            "publisher": "Canadian Press",
-            "headline": "Raptors drop pre-season opener 129-105 to Heat in first-ever NBA game in Quebec City",
-            "url": "https://www.thecanadianpressnews.ca/sports/raptors-drop-pre-season-opener-129-105-to-heat-in-first-ever-nba-game-in/article_cbde4cd2-54bf-540b-839c-228fcbee6af9.html"
-          },
-          {
-            "role": "analysis",
-            "publisher": "Hot Hot Hoops",
-            "headline": "Giannis Antetokounmpo, Heat beat Raptors 129-105 in preseason opener",
-            "url": "https://hothothoops.com/2026/10/03/miami-heat-beat-toronto-raptors-129-105-preseason-giannis-antetokounmpo/"
-          }
-        ]
-      },
-      {
-        "id": "theme-slow-making-things-by-hand",
-        "affinity": "evening",
-        "topic": "living",
-        "topic_label": "Art of Living",
-        "title": "A saved essay on why we dream of making things by hand",
-        "importance": 0.7,
-        "thesis": "The oldest item on your reading list has waited for a Sunday evening like this one.",
-        "synthesis": "Aeon's essay on the radical reasons we dream of making things by hand has been on your list since September 3, tagged for a weekend. After a week of reading numbers about yields, odds and spreads, it is a deliberate change of register: the work of hands rather than screens.",
-        "new_today": "Resurfaced from the reading list; unread.",
-        "why_it_matters": "The craft-and-making thread is the quietest of your living interests, and the one most likely to be crowded out by a news week.",
-        "thread_id": null,
-        "confidence": "high",
-        "sources": [
-          {
-            "role": "primary_reporting",
-            "publisher": "Aeon",
-            "headline": "The Radical Reasons Why You Dream of Making Things by Hand",
-            "url": "https://aeon.co/essays/the-radical-reasons-why-you-dream-of-making-things-by-hand"
+            "role": "local_perspective",
+            "publisher": "CBS Miami",
+            "headline": "Developers say Miami's $80M Virginia Key plan costs taxpayers nothing; opponents say the environment pays the price",
+            "url": "https://www.cbsnews.com/miami/news/virginia-key-redevelopment-miami-environment-funding-2026-midterms/"
           }
         ]
       }
     ],
     "rabbit_hole": {
-      "id": "rh-2026-10-04",
-      "title": "That to Philosophize Is to Learn to Die",
-      "creator": "Michel de Montaigne (Charles Cotton translation)",
+      "id": "rh-2026-10-05",
+      "title": "Politics and the English Language",
+      "creator": "George Orwell (1946)",
       "format": "essay",
-      "minutes": 30,
-      "why": "Montaigne's essay is the most Stoic thing he wrote, borrowing heavily from Seneca and Cicero to argue that thinking about death takes away its strangeness. It follows a week of Seneca on time and a Sunday in which the news is mostly about waiting.",
-      "url": "https://monadnock.net/montaigne/learn2.html",
+      "minutes": 25,
+      "why": "Orwell's argument is that vague, borrowed phrases let us stop thinking, and that clear writing is a discipline rather than a talent. This week's news, full of announced closures, conditions and 'major rounds', is a good week to test it against the headlines.",
+      "url": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/politics-and-the-english-language/",
       "related_interest": "living"
     },
     "beautiful_thing": {
-      "id": "bt-2026-10-04",
-      "title": "Lincoln Road, Miami Beach",
-      "creator": "Morris Lapidus",
-      "era": "1950s-60s",
-      "body": "When Lincoln Road's merchants faced decline, they asked Morris Lapidus, the architect of the Fontainebleau, for a fix. His answer was to banish cars and turn the street into a landscaped pedestrian promenade, an early example of the Miami Modern (MiMo) style he helped pioneer. Notice that the street is designed as a stage for being seen: the removal of the car is the whole idea.",
-      "url": "https://sah-archipedia.org/buildings/FL-01-086-0021",
+      "id": "bt-2026-10-05",
+      "title": "Miami Marine Stadium",
+      "creator": "Hilario Candela",
+      "era": "1963",
+      "body": "Designed by Cuban-born architect Hilario Candela while still a young man, the stadium on Virginia Key sits under a folded-plate concrete roof that cantilevers over the seating, so no columns stand between the audience and the water stage. It was closed after Hurricane Andrew in 1992 and became a cause for preservationists, which makes it a fitting thing to hold in mind this week on Virginia Key.",
+      "url": "https://en.wikipedia.org/wiki/Miami_Marine_Stadium",
       "image": null,
-      "alt": "Description of Lincoln Road, Miami Beach, from the Society of Architectural Historians' Archipedia."
+      "alt": "The folded concrete roof of the Miami Marine Stadium on Virginia Key"
     },
-    "noticing_prompt": {
-      "id": "np-2026-10-04",
-      "text": "Notice today one thing you keep checking that has not changed since the last time you looked, and what you could do with your hands instead."
-    },
+    "noticing_prompt": "Notice one thing today that was announced but is not actually happening, and one thing happening that nobody announced.",
     "daily_puzzle": {
-      "id": "dp-2026-10-04",
-      "type": "lateral",
-      "prompt": "A woman lives on the 12th floor of an apartment building. Every morning she takes the elevator all the way down. When she comes home she rides it only to the 8th floor and walks up the last four flights, except on rainy days, when she rides all the way to 12. Why?",
-      "hint": "What does she carry only when it rains?",
-      "solution": "She is too short to reach the button for the 12th floor. On rainy days she has an umbrella, and she uses it to press the button.",
-      "explanation": "The 8th floor is simply the highest button she can reach by hand."
+      "id": "dp-2026-10-05",
+      "type": "logic",
+      "prompt": "Three boxes are labeled APPLES, ORANGES, and MIXED. Every label is wrong. You may take one piece of fruit from one box without looking inside. Which box do you choose, and how does that let you correct all three labels?",
+      "hint": "One of the labels tells you something certain about its box, because it must be false.",
+      "solution": "Choose the box labeled MIXED. Because its label is wrong, it holds only one kind of fruit. If you draw an apple, that box is APPLES. The box labeled ORANGES cannot be oranges and cannot be apples now, so it is MIXED, and the box labeled APPLES must be ORANGES. If you draw an orange, swap the roles of apples and oranges.",
+      "explanation": "The MIXED label is the only one that guarantees a pure box, and each wrong label then rules out all but one assignment."
     },
     "evening_unwind": {
-      "id": "eu-2026-10-04",
+      "id": "eu-2026-10-05",
       "evening_quote": {
-        "text": "Do not seek for things to happen the way you want them to; rather, wish that what happens happen the way it happens: then you will be happy.",
-        "attribution": "Epictetus",
-        "source": "Enchiridion, 8"
+        "text": "We suffer more often in imagination than in reality.",
+        "attribution": "Seneca",
+        "source": "Letters to Lucilius, 13 (Gummere translation)"
       },
-      "evening_prompt": "Which number, score or headline did you check more often today than it changed?"
+      "evening_prompt": "What did you brace for today, in Hormuz, the Fed or anywhere else, that never arrived?"
     },
     "reading_queue": [
       {
         "title": "The Radical Reasons Why You Dream of Making Things by Hand",
         "url": "https://aeon.co/essays/the-radical-reasons-why-you-dream-of-making-things-by-hand",
         "verdict": "read_soon",
-        "reason": "A month on the list, tagged for a weekend, and tonight is the slow-read slot."
+        "reason": "Over a month on the list; a quiet evening read."
       }
     ],
     "quote": {
-      "text": "Do not seek for things to happen the way you want them to; rather, wish that what happens happen the way it happens: then you will be happy.",
-      "attribution": "Epictetus, Enchiridion 8"
+      "text": "We suffer more often in imagination than in reality.",
+      "attribution": "Seneca, Letters to Lucilius 13"
     }
   },
   "threads": [
@@ -391,9 +360,9 @@
       "title": "US-Iran conflict and the Strait of Hormuz",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-10-04",
-      "updates": 84,
-      "current_state": "Iran reportedly readying for a 'major round of fighting'; third US carrier group en route; sequencing dispute unresolved.",
+      "last_updated": "2026-10-05",
+      "updates": 85,
+      "current_state": "Iran says Hormuz stays closed until US meets conditions; Trump rejected them, leaving room for talks or force; Iran's parliament advanced a strait-fee bill; LNG cargoes are exiting despite the declared closure.",
       "timeline": [
         {
           "date": "2026-07-21",
@@ -814,6 +783,11 @@
           "date": "2026-10-04",
           "summary": "Iran reportedly preparing for major fighting; third US carrier group (USS Theodore Roosevelt) en route; NY meetings no breakthrough.",
           "change_type": "worsened"
+        },
+        {
+          "date": "2026-10-05",
+          "summary": "Trump rejected Iran's reopening conditions; Iran says a US response is being prepared; parliament committee finished a bill on fees for strait traffic; at least three LNG cargoes exited since late last week.",
+          "change_type": "advanced"
         }
       ]
     },
@@ -822,9 +796,9 @@
       "title": "Federal Reserve rate path",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-10-04",
-      "updates": 78,
-      "current_state": "October hike odds near 17% (down from about 36% a week earlier); December hike still priced; FOMC Oct 27-28.",
+      "last_updated": "2026-10-05",
+      "updates": 79,
+      "current_state": "October hike odds near 17% after a soft jobs report; a December hike is priced at roughly 65-75% depending on source.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -1214,6 +1188,11 @@
         {
           "date": "2026-10-04",
           "summary": "Week-end tally: October hike odds near 17%, December hike still priced; 10-year about 5.15%.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-10-05",
+          "summary": "October hike odds stay near 17%; December pricing roughly 65-75% by source.",
           "change_type": "advanced"
         }
       ]
@@ -1620,9 +1599,9 @@
       "title": "Dolphins rebuild under Hafley",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-10-04",
-      "updates": 58,
-      "current_state": "Dolphins 0-3 visit the 3-0 Vikings Oct 4 (4:05 p.m. ET); Vikings favored by 10.5; Achane out for year.",
+      "last_updated": "2026-10-05",
+      "updates": 59,
+      "current_state": "Dolphins are 0-4 after a 15-10 loss at Minnesota; Ollie Gordon II had a breakout game; first 0-4 start since 2019.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -1913,6 +1892,11 @@
           "date": "2026-10-04",
           "summary": "Line moves to Vikings -10.5; Achane out for year with torn ACL; Dolphins have no sacks.",
           "change_type": "worsened"
+        },
+        {
+          "date": "2026-10-05",
+          "summary": "Lost 15-10 at Minnesota to fall to 0-4.",
+          "change_type": "worsened"
         }
       ]
     },
@@ -1921,9 +1905,9 @@
       "title": "Miami Hurricanes fall camp and the Mensah era",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-10-04",
-      "updates": 25,
-      "current_state": "Miami (5-0) beat Clemson 41-13, first Death Valley win since 2010; sole leader of the ACC; injuries the main concern.",
+      "last_updated": "2026-10-05",
+      "updates": 26,
+      "current_state": "Miami (5-0) stays No. 4 in the AP poll and is on a bye; Florida State visits October 17.",
       "timeline": [
         {
           "date": "2026-08-14",
@@ -2049,6 +2033,11 @@
           "date": "2026-10-04",
           "summary": "Miami beats Clemson 41-13 and takes sole first place in the ACC; added injuries flagged.",
           "change_type": "resolved"
+        },
+        {
+          "date": "2026-10-05",
+          "summary": "Held No. 4 in AP poll; bye week.",
+          "change_type": "advanced"
         }
       ]
     },
@@ -2700,9 +2689,9 @@
       "title": "Virginia Key's second marina referendum",
       "topic": "miami",
       "status": "active",
-      "last_updated": "2026-09-24",
-      "updates": 6,
-      "current_state": "The campaign has produced its first public turnout: about 100 people gathered Monday, September 21 at Gramps Getaway on Virginia Key for a 'Save Gramps Getaway' rally opposing Referendum 3, alongside the Miami-Dade Democratic Party's 'No' recommendation and ongoing environmental-advocate opposition over Biscayne Bay impact. The November 3 vote is six weeks out.",
+      "last_updated": "2026-10-05",
+      "updates": 7,
+      "current_state": "A Coconut Grove lawyer threatens to sue unless voters decide the marina at the former Seaquarium; environmental opposition grows ahead of the November 3 vote.",
       "timeline": [
         {
           "date": "2026-08-25",
@@ -2732,6 +2721,11 @@
         {
           "date": "2026-09-24",
           "summary": "About 100 people gathered Monday, September 21 at Gramps Getaway on Virginia Key for a 'Save Gramps Getaway' rally opposing Referendum 3 -- the campaign's first public turnout, six weeks before the November 3 vote.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-10-05",
+          "summary": "Lawsuit threat over the voter-approval requirement reported October 2.",
           "change_type": "advanced"
         }
       ]
@@ -3034,7 +3028,7 @@
     }
   ],
   "meta": {
-    "content_freshness": "2026-10-04T09:30:00-04:00",
+    "content_freshness": "2026-10-05T09:30:00-04:00",
     "feedback_endpoint_mode": "github_contents",
     "minimum_client_schema_version": 1,
     "mode": "brain"
