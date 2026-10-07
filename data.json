@@ -1,30 +1,30 @@
 {
   "schema_version": 2,
   "edition": {
-    "id": "2026-10-06",
-    "date": "2026-10-06",
+    "id": "2026-10-07",
+    "date": "2026-10-07",
     "type": "weekday",
-    "generated_at": "2026-10-06T09:30:00-04:00",
+    "generated_at": "2026-10-07T09:30:00-04:00",
     "timezone": "America/New_York",
     "title": "Personal OS",
     "front_page_letter": {
       "greeting": "Good morning",
       "body_paragraphs": [
-        "The macro story hasn't moved in a way I can verify this morning, and that is worth saying plainly. Oil was near $108 on September 28 after Washington turned down Iran's one-week reopening offer, and prediction markets still lean toward a December Fed hike at roughly 71-73%. Together they keep the 10-year near 5% and financing expensive.",
-        "Locally, the calendar is the news. The Panthers finish a road trip in Los Angeles tonight and open at home Saturday. The Heat host their first preseason game October 8, the Dolphins face Cincinnati on October 11, and the Hurricanes rest before Florida State on October 17.",
-        "On Virginia Key, voters get the marina question on November 3, though the lawsuit behind it runs to a September 2027 trial. For tonight, a Seneca essay on time and a saved Aeon piece on making things by hand.",
-        "What deserves attention: distinguish what you know from what the headline implies. Several of this morning's numbers are a few days old, and they are labeled that way."
+        "The one number I can verify this morning is a good one for equities. On Monday, October 5, the S&P 500 rose 0.7% to 7,773.95 and the Nasdaq climbed 1.1% to 27,477.31, a record, leaving the S&P within 0.3% of its summer high. Rates tell a different story: the 10-year was last confirmed near 5.24% on October 1, and prediction markets still put a December Fed hike at roughly 74%. Strong stocks and expensive money can coexist for a while, but they are rarely a stable pair.",
+        "Hormuz remains the largest unknown. I could not verify a fresh oil price today, so the last firm marker stays Brent near $108 on September 28. I would rather leave the gap visible than fill it.",
+        "Locally, the week is a calendar. The Heat open at home Thursday against New Orleans, the Dolphins host Cincinnati on Sunday at 1 p.m., and the Panthers return to Sunrise on Saturday. On Virginia Key, the marina vote on November 3 is now clear of its court challenge.",
+        "What deserves attention: the difference between a record and a trend. Tonight, a short Seneca essay on how time is spent."
       ],
       "read_only_three": [
         {
           "target_type": "theme",
-          "target_id": "theme-hormuz-conditions",
-          "label": "Hormuz: the standoff as a pricing regime"
+          "target_id": "theme-fed-december-hike",
+          "label": "The Fed: December hike still the central case"
         },
         {
           "target_type": "theme",
-          "target_id": "theme-fed-december-hike",
-          "label": "The Fed: December hike still the central case"
+          "target_id": "theme-hormuz-conditions",
+          "label": "Hormuz: the standoff as a pricing regime"
         },
         {
           "target_type": "theme",
@@ -36,79 +36,51 @@
     "market_context": [
       {
         "label": "S&P 500",
-        "value": "7,722.72",
-        "change": "+0.7% (+56.27)",
-        "observed": "Close, Friday, October 2, 2026",
-        "note": "Stale: Monday's close could not be verified this morning."
+        "value": "7,773.95",
+        "change": "+0.7% (+51.23)",
+        "observed": "Close, Monday, October 5, 2026",
+        "note": "Within 0.3% of the summer record. Tuesday's close could not be verified this morning."
       },
       {
         "label": "Nasdaq Composite",
-        "value": "27,190.86",
-        "change": "+1.2% (+319.27)",
-        "observed": "Close, Friday, October 2, 2026",
-        "note": "Stale: Monday's close could not be verified this morning."
+        "value": "27,477.31",
+        "change": "+1.1% (+286.45)",
+        "observed": "Close, Monday, October 5, 2026",
+        "note": "Record close per the AP market wrap. Tuesday's close not verified."
       },
       {
         "label": "10Y Treasury",
         "value": "about 5.24%",
         "change": "as of October 1",
         "observed": "Thursday, October 1, 2026",
-        "note": "Earlier reading; yesterday's sources showed 5.15% to 5.28%."
+        "note": "Last verified reading; not refreshed today."
       },
       {
         "label": "FOMC (Oct 27-28)",
-        "value": "December hike about 71-73% (prediction markets)",
+        "value": "December hike about 74% (prediction markets)",
         "change": "range 67-77% across late-September snapshots",
-        "observed": "September 27-30, 2026",
-        "note": "Kalshi/Polymarket average, not CME FedWatch."
+        "observed": "Late September 2026",
+        "note": "Kalshi/Polymarket average, not CME FedWatch. The October 27-28 FOMC meeting is the next decision date."
       }
     ],
     "public_day_context": {
-      "date_label": "Tuesday, October 6, 2026",
-      "weather": "Miami: cloudy and humid, high near 84, low near 79, with afternoon breaks of sun; winds from the east to northeast.",
-      "public_event": "Panthers at Kings tonight; Heat host New Orleans in preseason Thursday, October 8."
+      "date_label": "Wednesday, October 7, 2026",
+      "weather": "Miami: warm and humid with a chance of showers, typical early-October highs in the mid 80s (today's exact forecast not verified).",
+      "public_event": "Heat host New Orleans in preseason Thursday, October 8, 7:30 p.m.; Dolphins host Cincinnati Sunday, October 11."
     },
     "what_changed": [
       {
-        "id": "delta-hormuz-brent-108",
-        "thread_id": "thread-iran-hormuz-crisis",
-        "change_type": "watch",
-        "title": "Hormuz reporting: Brent near $108 after Washington rejected Iran's one-week reopening offer",
-        "previous_state": "Yesterday's edition carried an unverified oil quote near $91.",
-        "current_state": "The most recent verified price marker is Brent near $108 on September 28, so the $91 figure should be read as a different benchmark or stale.",
-        "why_it_matters": "Oil at this level keeps the inflation and yield story alive.",
+        "id": "delta-stocks-oct5",
+        "thread_id": "thread-fed-rate-path",
+        "change_type": "improved",
+        "title": "Nasdaq set a record close on Monday while hike odds stayed high",
+        "previous_state": "On Friday, October 2, the S&P 500 closed at 7,722.72 and the Nasdaq at 27,190.86.",
+        "current_state": "On Monday, October 5, the S&P 500 closed at 7,773.95 and the Nasdaq at 27,477.31, a record, after buyout announcements.",
+        "why_it_matters": "Equity strength alongside a roughly 74% December-hike pricing is the tension to watch for CRE financing and valuations.",
         "confidence": "medium",
         "source": {
-          "publisher": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/9/28/oil-prices-surge-after-trump-rejects-irans-plan-to-reopen-strait-of-hormuz"
-        }
-      },
-      {
-        "id": "delta-dolphins-bengals",
-        "thread_id": "thread-dolphins-hafley-rebuild",
-        "change_type": "advanced",
-        "title": "Dolphins' next test is Cincinnati on October 11, then a bye",
-        "previous_state": "Miami fell to 0-4 at Minnesota.",
-        "current_state": "Week 5 is at home against the Bengals, followed by the Week 6 bye.",
-        "why_it_matters": "Two games decide whether the 0-4 start becomes a lost season or a development year.",
-        "confidence": "medium",
-        "source": {
-          "publisher": "WPTV",
-          "url": "https://www.wptv.com/sports/football/dolphins/dolphins-rb-devon-achane-maintaining-positive-attitude-after-season-ending-acl-tear-hafley-says"
-        }
-      },
-      {
-        "id": "delta-panthers-road",
-        "thread_id": "thread-panthers-2026-27-season",
-        "change_type": "new",
-        "title": "Panthers won their opener 1-0 in overtime at Carolina",
-        "previous_state": "The 2026-27 season had not been tracked.",
-        "current_state": "Florida is 1-0 as of the September 29 result, with a home opener on October 10.",
-        "why_it_matters": "Your team's season is under way.",
-        "confidence": "medium",
-        "source": {
-          "publisher": "NHL.com",
-          "url": "https://www.nhl.com/panthers/news/panthers-to-celebrate-2026-27-home-opener-vs-wild-on-saturday-oct-10"
+          "publisher": "AP (via La Nación)",
+          "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-monday-1052026-nid05102026/"
         }
       }
     ],
@@ -122,7 +94,7 @@
         "importance": 0.9,
         "thesis": "Iran is trying to turn a blockade into a permanent toll system, and oil is pricing the argument, not a resolution.",
         "synthesis": "Reporting since late September shows Washington rejecting Tehran's offer to reopen the strait within a week in exchange for frozen funds, sanctions relief and an end to the US naval blockade of Iranian ports, with Brent nearing $108 in Asian trading on September 28. Iran has also signaled a 'new legal regime' of tolls and monitoring for foreign vessels. I could not verify a fresh development this morning, so treat the picture as unchanged from yesterday's.",
-        "new_today": "No verified new move overnight; the latest confirmed price marker is Brent near $108 on September 28.",
+        "new_today": "Still no verified overnight move; the last confirmed price marker is Brent near $108 on September 28, and today's searches returned only mixed-date oil quotes I would not rely on.",
         "why_it_matters": "Oil feeds the inflation path that keeps the 10-year near 5% and financing costs for Miami CRE elevated.",
         "thread_id": "thread-iran-hormuz-crisis",
         "confidence": "medium",
@@ -150,7 +122,7 @@
         "importance": 0.8,
         "thesis": "Prediction markets keep pricing a December hike as likelier than not, even as October looks like a hold.",
         "synthesis": "Late-September snapshots of Kalshi and Polymarket put a December hike at roughly 71-73%, with individual readings from 67% to 77%. These are prediction-market odds rather than CME FedWatch, so they are a cross-check, not the official gauge. The FOMC meets October 27-28.",
-        "new_today": "Late-September prediction-market snapshots show about 71-73% for a December hike; CME's own figure was not retrievable.",
+        "new_today": "Prediction-market snapshots from late September put a December hike near 74% (Kalshi 73.5%, Polymarket 74.0%); CME's own figure was not retrievable.",
         "why_it_matters": "A higher-for-longer path is the main variable for cap rates, refinancing and the sponsor math on anything closing in 2027.",
         "thread_id": "thread-fed-rate-path",
         "confidence": "medium",
@@ -170,6 +142,34 @@
         ]
       },
       {
+        "id": "theme-virginia-key-ballot",
+        "affinity": "morning",
+        "topic": "miami",
+        "topic_label": "Miami Life & Culture",
+        "title": "Virginia Key marinas: on the November ballot, still in court",
+        "importance": 0.7,
+        "thesis": "Voters will decide the $80 million marina redevelopment on November 3, but the litigation outlasts the election.",
+        "synthesis": "A Miami-Dade judge declined in August to block the referendum on leasing about 28 acres at the Rickenbacker and Marine Stadium marinas to Virginia Key LLC. The challenge by the current Rickenbacker operator, which calls the ballot language misleading, remains active with a trial date in September 2027. A separate lawsuit threat over the Seaquarium redevelopment was reported October 2.",
+        "new_today": "No new ruling today. Reminder of the terms: about $80 million private investment, a 45-year lease with two 15-year renewals, minimum rent $2.2 million a year plus 6% of gross revenue.",
+        "why_it_matters": "Waterfront leases of this size set precedent for how Miami prices public land, which touches both Alex's Miami life and CRE view.",
+        "thread_id": "thread-virginia-key-marina-referendum",
+        "confidence": "medium",
+        "sources": [
+          {
+            "role": "primary_reporting",
+            "publisher": "WLRN",
+            "headline": "Miami marina redevelopment will remain on the ballot, but the legal battle isn't over",
+            "url": "https://www.wlrn.org/light/law-justice/2026-08-21/miami-marine-stadium-virginia-key-lawsuit-ballot"
+          },
+          {
+            "role": "analysis",
+            "publisher": "Axios Miami",
+            "headline": "Virginia Key marina redevelopment heads to Miami voters",
+            "url": "https://www.axios.com/local/miami/2026/08/20/virginia-key-marina-redevelopment-miami-referendum"
+          }
+        ]
+      },
+      {
         "id": "theme-panthers-road-trip",
         "affinity": "morning",
         "topic": "sports",
@@ -178,7 +178,7 @@
         "importance": 0.7,
         "thesis": "A 1-0 overtime win in Carolina is a useful start to a four-game road trip that ends tonight in Los Angeles.",
         "synthesis": "Florida began 2026-27 with a 1-0 overtime win at Carolina on September 29, then played at San Jose on October 1 and Anaheim on October 4. I could not confirm those two results. The trip finishes at the Kings tonight, October 6, and the home opener is Saturday, October 10 against Minnesota at 6 p.m. ET.",
-        "new_today": "Tonight: at Los Angeles, the last stop before the October 10 home opener.",
+        "new_today": "Last night's game in Los Angeles was on the schedule, but I could not verify the result; the October 10 home opener is the next fixed date.",
         "why_it_matters": "The Panthers are the local team with the clearest short-term calendar; Saturday is the first chance to see the room at home.",
         "thread_id": "thread-panthers-2026-27-season",
         "confidence": "medium",
@@ -206,7 +206,7 @@
         "importance": 0.6,
         "thesis": "Miami's preseason returns home October 8 with a roster rebuilt around Giannis Antetokounmpo.",
         "synthesis": "Training camp opened September 29. After the October 3 opener against Toronto in Quebec City, the Heat host New Orleans on October 8, Minnesota on October 10 and Brooklyn on October 14, closing at Orlando on October 16. The offseason added Antetokounmpo and Bobby Portis from Milwaukee.",
-        "new_today": "Home preseason slate starts Thursday, October 8 against New Orleans.",
+        "new_today": "Tonight is a day away: Pelicans at Kaseya Center, Thursday, October 8, 7:30 p.m. (first home preseason game of the Giannis era).",
         "why_it_matters": "Preseason is thin evidence, but rotations and fit with Klay Thompson and Portis are what to watch.",
         "thread_id": "thread-heat-giannis-era",
         "confidence": "high",
@@ -234,7 +234,7 @@
         "importance": 0.6,
         "thesis": "Miami's rebuild is being measured in development, with Achane out for the season.",
         "synthesis": "Under first-year coach Jeff Hafley the Dolphins have leaned on young players against a hard early schedule, and De'Von Achane is lost to a season-ending ACL tear. Week 5 is Sunday, October 11 against Cincinnati at 1 p.m., followed by the Week 6 bye.",
-        "new_today": "Next game confirmed: Bengals, Sunday, October 11.",
+        "new_today": "Bengals Sunday, October 11, 1 p.m. at Hard Rock Stadium; I found no confirmed injury news worth repeating.",
         "why_it_matters": "The question for the season is whether the young core visibly improves, not the record.",
         "thread_id": "thread-dolphins-hafley-rebuild",
         "confidence": "medium",
@@ -254,30 +254,24 @@
         ]
       },
       {
-        "id": "theme-virginia-key-ballot",
-        "affinity": "morning",
-        "topic": "miami",
-        "topic_label": "Miami Life & Culture",
-        "title": "Virginia Key marinas: on the November ballot, still in court",
-        "importance": 0.7,
-        "thesis": "Voters will decide the $80 million marina redevelopment on November 3, but the litigation outlasts the election.",
-        "synthesis": "A Miami-Dade judge declined in August to block the referendum on leasing about 28 acres at the Rickenbacker and Marine Stadium marinas to Virginia Key LLC. The challenge by the current Rickenbacker operator, which calls the ballot language misleading, remains active with a trial date in September 2027. A separate lawsuit threat over the Seaquarium redevelopment was reported October 2.",
-        "new_today": "No new ruling found today; the case posture is a live suit with a September 2027 trial date.",
-        "why_it_matters": "Waterfront leases of this size set precedent for how Miami prices public land, which touches both Alex's Miami life and CRE view.",
-        "thread_id": "thread-virginia-key-marina-referendum",
+        "id": "theme-seneca-time-spent",
+        "affinity": "evening",
+        "topic": "living",
+        "topic_label": "Art of Living",
+        "title": "Seneca on time spent, saved and wasted",
+        "importance": 0.62,
+        "thesis": "The Marginalian revisits Seneca's first letter to Lucilius, whose claim is that time is the one thing we cannot hoard.",
+        "synthesis": "The essay reads Letter 1 against Annie Dillard's line that how we spend our days is how we spend our lives. It is a short, slow piece that pairs naturally with a week in which many numbers were a few days old by the time they reached you.",
+        "new_today": "Published September 18, 2026; new to the edition today.",
+        "why_it_matters": "A counterweight to rate odds and oil quotes, squarely in your philosophy-of-time interest.",
+        "thread_id": null,
         "confidence": "medium",
         "sources": [
           {
-            "role": "primary_reporting",
-            "publisher": "WLRN",
-            "headline": "Miami marina redevelopment will remain on the ballot, but the legal battle isn't over",
-            "url": "https://www.wlrn.org/light/law-justice/2026-08-21/miami-marine-stadium-virginia-key-lawsuit-ballot"
-          },
-          {
             "role": "analysis",
-            "publisher": "Axios Miami",
-            "headline": "Virginia Key marina redevelopment heads to Miami voters",
-            "url": "https://www.axios.com/local/miami/2026/08/20/virginia-key-marina-redevelopment-miami-referendum"
+            "publisher": "The Marginalian",
+            "headline": "Seneca on Time Spent vs. Saved vs. Wasted",
+            "url": "https://www.themarginalian.org/2026/09/18/seneca-letter-1-time/"
           }
         ]
       },
@@ -305,54 +299,54 @@
       }
     ],
     "rabbit_hole": {
-      "id": "rh-2026-10-06",
-      "title": "On the Shortness of Life",
-      "creator": "Seneca (c. 49 CE), Gummere translation",
+      "id": "rh-2026-10-07",
+      "title": "Politics and the English Language",
+      "creator": "George Orwell (1946)",
       "format": "essay",
-      "minutes": 40,
-      "why": "Seneca argues that life is long enough if we stop wasting it, and that busyness is the most common way to waste it. After a week of waiting on Hormuz and the Fed, it is a good text for separating what demands your attention from what merely announces itself.",
-      "url": "https://monadnock.net/seneca/49.html",
+      "minutes": 30,
+      "why": "Orwell's case is that vague, borrowed phrases let us stop thinking, and then let others think for us. After a week of 'supervised pauses', 'pricing regimes' and 'central cases', it is a useful audit of the language you read your news in.",
+      "url": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/politics-and-the-english-language/",
       "related_interest": "living"
     },
     "beautiful_thing": {
-      "id": "bt-2026-10-06",
-      "title": "Vizcaya Museum and Gardens",
-      "creator": "F. Burrall Hoffman, Paul Chalfin and Diego Suarez",
-      "era": "1914-1922",
-      "body": "James Deering's Biscayne Bay villa mixes Italian Renaissance and Baroque forms with a South Florida setting. Notice how the house opens to the water, and how the gardens treat the bay as part of the architecture rather than a view beyond it.",
-      "url": "https://vizcaya.org/",
+      "id": "bt-2026-10-07",
+      "title": "Miami Marine Stadium",
+      "creator": "Hilario Candela",
+      "era": "1963",
+      "body": "Designed by the Cuban-born architect Hilario Candela and opened in 1963 on Virginia Key, the stadium is a concrete grandstand under a folded-plate roof, built to face a floating stage on Biscayne Bay. It was closed after Hurricane Andrew in 1992. Notice how the roof reads as one continuous fold rather than a lid, and how the whole structure points at the water, not the street. It sits a short distance from the marinas on this November's ballot.",
+      "url": "https://en.wikipedia.org/wiki/Miami_Marine_Stadium",
       "image": null,
-      "alt": "Vizcaya Museum and Gardens on Biscayne Bay, Miami"
+      "alt": "Concrete grandstand with a folded roof facing Biscayne Bay."
     },
-    "noticing_prompt": "Pick one number you check today, a yield, a price, a score. Notice how it feels when it has not changed since the last time you looked.",
+    "noticing_prompt": "Pick one number you rely on today and ask how old it is. Notice how often you treat a days-old figure as current.",
     "daily_puzzle": {
-      "id": "dp-2026-10-06",
-      "type": "math",
-      "prompt": "A clock takes 5 seconds to strike 6 o'clock, counting from the first stroke to the last, with equal gaps between strokes. How long does it take to strike 12?",
-      "hint": "Count the gaps between strokes, not the strokes.",
-      "solution": "11 seconds.",
-      "explanation": "Six strokes have 5 gaps, so each gap is 1 second. Twelve strokes have 11 gaps, so 11 seconds."
+      "id": "dp-2026-10-07",
+      "type": "logic",
+      "prompt": "Three boxes hold apples, oranges, or a mix of both. They are labeled 'Apples', 'Oranges' and 'Mixed', but every label is wrong. You may take one piece of fruit from one box, without looking inside, and then you must correctly relabel all three. Which box do you draw from?",
+      "hint": "Choose the box whose wrong label leaves it only one possible content.",
+      "solution": "Draw from the box labeled 'Mixed'.",
+      "explanation": "Because its label is wrong, the 'Mixed' box must be pure. Say you draw an apple: that box is Apples. The box labeled 'Oranges' cannot be Oranges, and Apples is taken, so it is Mixed, which leaves 'Apples' as Oranges. An orange draw mirrors this."
     },
     "evening_unwind": {
-      "id": "eu-2026-10-06",
+      "id": "eu-2026-10-07",
       "evening_quote": {
-        "text": "Hold every hour in your grasp. Lay hold of to-day's task, and you will not need to depend so much upon to-morrow's.",
-        "attribution": "Seneca",
-        "source": "Letters to Lucilius, 1 (Gummere translation)"
+        "text": "Men are disturbed, not by things, but by the principles and notions which they form concerning things.",
+        "attribution": "Epictetus",
+        "source": "Enchiridion, 5 (Carter translation)"
       },
-      "evening_prompt": "Which number or headline from this morning had stopped mattering by dinner?"
+      "evening_prompt": "Which of today's numbers or headlines disturbed you by what you assumed about it, rather than by what it actually said?"
     },
     "reading_queue": [
       {
         "title": "The Radical Reasons Why You Dream of Making Things by Hand",
         "url": "https://aeon.co/essays/the-radical-reasons-why-you-dream-of-making-things-by-hand",
         "verdict": "read_soon",
-        "reason": "Over a month on the list; a quiet evening read."
+        "reason": "Over a month on the list; paired with tonight's Seneca piece."
       }
     ],
     "quote": {
-      "text": "Hold every hour in your grasp.",
-      "attribution": "Seneca, Letters to Lucilius 1"
+      "text": "Men are disturbed, not by things, but by the principles and notions which they form concerning things.",
+      "attribution": "Epictetus, Enchiridion 5"
     }
   },
   "threads": [
@@ -3049,7 +3043,7 @@
     }
   ],
   "meta": {
-    "content_freshness": "2026-10-06T09:30:00-04:00",
+    "content_freshness": "2026-10-07T09:30:00-04:00",
     "feedback_endpoint_mode": "github_contents",
     "minimum_client_schema_version": 1,
     "mode": "brain"
