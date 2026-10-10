@@ -1,410 +1,378 @@
 {
   "schema_version": 2,
   "edition": {
-    "id": "2026-10-09",
-    "date": "2026-10-09",
+    "id": "2026-10-10",
+    "date": "2026-10-10",
     "type": "weekday",
-    "generated_at": "2026-10-09T09:30:00-04:00",
+    "generated_at": "2026-10-10T09:30:00-04:00",
     "timezone": "America/New_York",
     "title": "Personal OS",
     "front_page_letter": {
       "greeting": "Good morning",
       "body_paragraphs": [
-        "Thursday was the day the bond market stopped being background. The S&P 500 slipped 0.47% to 7,765.36 and the Nasdaq fell 1.25% to 27,193.34 after a report that OpenAI's revenue trails earlier published figures, while the Dow edged up. The 10-year was reported near 5.35% intraday, close to its highest since 2002; I could not confirm a closing yield.",
-        "The Fed's September minutes, released Wednesday, said most participants thought another hike would likely be appropriate by year end. Yet the market has nearly written off October (CME odds near 17% on Wednesday) after a September payroll gain of only 29,000. That gap between the Fed's language and the market's pricing is the real story; I have no verified December number. Brent was reported around $103 as tanker attacks in the Gulf continue.",
-        "Locally and on the field: the Panthers open at home Saturday at 6 p.m. against Minnesota, the Heat play Minnesota the same day, and the Dolphins host a Bengals team whose two best receivers were not practicing on Wednesday.",
-        "What deserves attention: how much of this week is rate language versus rate reality. Tonight, Thoreau on why walking is not exercise."
+        "Markets ended the week on a better note than they spent it. The S&P 500 closed Friday at 7,811.54, up about 0.6% on the day and 1.2% on the week, a hair under its record. The Nasdaq made back most of Thursday's AI-revenue fright, and the 10-year ended near 5.24%, four basis points lower than a week earlier. Oil eased too, with WTI near $92, but tankers in the Strait of Hormuz are still being attacked, so I would not call that a resolution.",
+        "I could not find a verified December Fed number, and the October odds I have are three days old, so the rate story remains a question of language versus pricing. Locally, Miami voters will decide on November 3 whether a 45-year lease on 27 acres at Virginia Key goes ahead; that is the quiet civic story of the autumn.",
+        "Tonight belongs to the Panthers, who open at home against Minnesota at 6 p.m. with Brady Tkachuk playing his first game in Sunrise, while the Heat host the Timberwolves in preseason. Tomorrow the winless Dolphins meet a Bengals team whose best receiver is still in the concussion protocol.",
+        "What deserves attention: a week that ended up is not a week that settled. This evening, Emerson on trusting your own mind."
       ],
       "read_only_three": [
         {
           "target_type": "theme",
-          "target_id": "theme-markets-ai-stumble-yields",
-          "label": "Nasdaq -1.25% as yields stay near 5.35%"
+          "target_id": "theme-markets-friday-rally",
+          "label": "Stocks end the week near a record"
         },
         {
           "target_type": "theme",
-          "target_id": "theme-fed-minutes-hike-path",
-          "label": "Minutes say another hike likely; markets disagree"
+          "target_id": "theme-virginia-key-referendum",
+          "label": "Virginia Key: Referendum 3 on November 3"
         },
         {
           "target_type": "theme",
-          "target_id": "theme-panthers-home-opener",
-          "label": "Panthers open at home Saturday"
+          "target_id": "theme-panthers-home-opener-sat",
+          "label": "Panthers home opener tonight"
         }
       ]
     },
     "market_context": [
       {
         "label": "S&P 500",
-        "value": "7,765.36",
-        "change": "-0.47%",
-        "observed": "Close, Thursday, October 8, 2026",
-        "note": "From aggregated reports; consistent with Wednesday's 7,801.77. Tuesday's 7,818.93 remains the record close."
+        "value": "7,811.54",
+        "change": "+0.59%",
+        "observed": "Close, Friday, October 9, 2026",
+        "note": "Up about 1.2% on the week; a hair under its record close (reported at 7,818.93 earlier this week). Source: Yahoo Finance market blog."
       },
       {
         "label": "Nasdaq Composite",
-        "value": "27,193.34",
-        "change": "-1.25%",
-        "observed": "Close, Thursday, October 8, 2026",
-        "note": "Aggregated reports tie the drop to a report that OpenAI's revenue is below earlier published figures."
+        "value": "27,366.17",
+        "change": "+0.64%",
+        "observed": "Close, Friday, October 9, 2026",
+        "note": "Up about 0.6% on the week."
       },
       {
         "label": "Dow Jones Industrial Average",
-        "value": "51,231.64",
-        "change": "+0.10%",
-        "observed": "Close, Thursday, October 8, 2026",
-        "note": "Up 51.77 points."
+        "value": "51,654.95",
+        "change": "+0.83%",
+        "observed": "Close, Friday, October 9, 2026",
+        "note": "Up 423.31 points; up about 0.9% on the week."
       },
       {
         "label": "10Y Treasury",
-        "value": "about 5.35%",
-        "change": "+about 5 bp midday",
-        "observed": "Midday, Thursday, October 8, 2026",
-        "note": "Intraday, not a close; no verified closing yield found."
+        "value": "5.24%",
+        "change": "+1 bp on the day; -4 bp on the week",
+        "observed": "Cash session, Friday, October 9, 2026",
+        "note": "From a market blog summary; Thursday's intraday figure came from a different source, so small gaps are possible."
       },
       {
-        "label": "Brent crude",
-        "value": "about $103",
-        "change": "-1.2%",
-        "observed": "Thursday, October 8, 2026 (aggregator, unverified)",
-        "note": "Midday reports had oil up over 5% on tanker attacks before it faded; treat the close as approximate. WTI about $90."
+        "label": "WTI crude",
+        "value": "about $92",
+        "change": "+0.5%",
+        "observed": "Friday, October 9, 2026",
+        "note": "Brent settlement not verified; prices eased on the session but remain elevated."
       },
       {
         "label": "FOMC (Oct 27-28)",
-        "value": "October hike odds about 17%",
+        "value": "17 days away; October hike odds about 17%",
         "change": "December odds not verified",
         "observed": "CME FedWatch via press reports, Wednesday, October 7, 2026",
-        "note": "Down after September payrolls rose only 29,000 (BLS, October 2)."
+        "note": "Stale by three days; check the CME tool before relying on it."
       }
     ],
     "public_day_context": {
-      "date_label": "Friday, October 9, 2026",
-      "weather": "Miami: warm and humid; a forecast issued October 5 pointed to a high near 87 and a low near 81 (not a same-day forecast).",
-      "public_event": "Panthers home opener vs. Minnesota Saturday, October 10, 6 p.m.; Heat host Minnesota Saturday in preseason; Dolphins host Cincinnati Sunday, October 11, 1 p.m. on FOX."
+      "date_label": "Saturday, October 10, 2026",
+      "weather": "Miami: a National Weather Service-based forecast synced October 6 pointed to a high near 88, a low near 79, showers and thunderstorms likely and winds near 16 mph. It is not a same-day forecast.",
+      "public_event": "Panthers home opener vs. Minnesota tonight, 6 p.m. at Amerant Bank Arena; Heat host Minnesota in preseason; Dolphins host Cincinnati Sunday, October 11; Miami Hurricanes are on a bye ahead of Florida State on October 17."
     },
     "what_changed": [
       {
-        "id": "delta-nasdaq-oct8",
+        "id": "delta-equities-fri-oct9",
         "thread_id": "thread-cre-capital-markets-2026",
-        "change_type": "worsened",
-        "title": "Nasdaq falls 1.25% on an OpenAI revenue report while yields stay high",
-        "previous_state": "On Wednesday, October 7, the S&P 500 closed at 7,801.77 and the Nasdaq at 27,538.69.",
-        "current_state": "On Thursday, October 8, the S&P 500 closed at 7,765.36 and the Nasdaq at 27,193.34, with the 10-year reported near 5.35% midday.",
-        "why_it_matters": "Equities are now being hit from both sides: the cost of money and doubts about the AI revenue story.",
+        "change_type": "improved",
+        "title": "Stocks rebound Friday; S&P 500 ends the week up about 1.2%",
+        "previous_state": "On Thursday, October 8, the S&P 500 closed at 7,765.36 and the Nasdaq at 27,193.34.",
+        "current_state": "On Friday, October 9, the S&P 500 closed at 7,811.54 and the Nasdaq at 27,366.17, both higher.",
+        "why_it_matters": "Thursday's AI-revenue scare did not carry into the weekend.",
         "confidence": "medium",
         "source": {
-          "publisher": "Benzinga",
-          "url": "https://benzinga.com/markets/equities/26/10/62255036/stock-market-today-sp-500-slips-oil-rallies-yields"
+          "publisher": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-9-dow-sp-500-nasdaq-080148117.html"
         }
       },
       {
-        "id": "delta-fed-minutes",
+        "id": "delta-10y-week",
         "thread_id": "thread-fed-rate-path",
-        "change_type": "advanced",
-        "title": "September minutes: most officials see another hike as likely by year end",
-        "previous_state": "Minutes were due October 7; October-hike odds had fallen below 50% after September 29.",
-        "current_state": "Minutes showed most participants judged another increase likely appropriate by year end, while October odds sat near 17% after a weak September jobs report.",
-        "why_it_matters": "A further hike would push out any relief in refinancing and bridge costs, with timing now a December question I could not price.",
-        "confidence": "medium",
-        "source": {
-          "publisher": "Scotsman Guide",
-          "url": "https://www.scotsmanguide.com/news/fed-policymakers-saw-multiple-2026-rate-hikes-as-likely-september-fomc-minutes-show/"
-        }
-      },
-      {
-        "id": "delta-brent-103",
-        "thread_id": "thread-iran-hormuz-crisis",
-        "change_type": "worsened",
-        "title": "Brent reported near $103 after fresh Gulf tanker attacks",
-        "previous_state": "Brent settled at $100.20 on Wednesday, October 7.",
-        "current_state": "Aggregators put Brent around $103 on Thursday after a midday spike on tanker attacks.",
-        "why_it_matters": "The Hormuz risk premium is not fading, which keeps inflation and rate-hike pressure alive.",
+        "change_type": "improved",
+        "title": "10-year yield ends the week lower at about 5.24%",
+        "previous_state": "Thursday's report had the 10-year near 5.35% intraday, with no verified close.",
+        "current_state": "Friday's cash-session summary put it at 5.24%, up 1 basis point on the day and down 4 basis points on the week.",
+        "why_it_matters": "Slightly less pressure on borrowing costs, though still near multi-year highs; the intraday and closing figures come from different sources.",
         "confidence": "low",
         "source": {
-          "publisher": "Benzinga",
-          "url": "https://benzinga.com/markets/equities/26/10/62255036/stock-market-today-sp-500-slips-oil-rallies-yields"
+          "publisher": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-9-dow-sp-500-nasdaq-080148117.html"
+        }
+      },
+      {
+        "id": "delta-oil-eases",
+        "thread_id": "thread-iran-hormuz-crisis",
+        "change_type": "improved",
+        "title": "Oil eases Friday, with WTI near $92",
+        "previous_state": "Brent had been reported near $103 on Thursday (aggregator, low confidence).",
+        "current_state": "WTI was near $92 on Friday and prices eased on the session; I could not verify Brent.",
+        "why_it_matters": "A lower barrel eases inflation worries, but tanker attacks continue.",
+        "confidence": "low",
+        "source": {
+          "publisher": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-9-dow-sp-500-nasdaq-080148117.html"
+        }
+      },
+      {
+        "id": "delta-chase-practice",
+        "thread_id": "thread-dolphins-hafley-rebuild",
+        "change_type": "advanced",
+        "title": "Ja'Marr Chase returns to practice, still in the concussion protocol",
+        "previous_state": "Chase and Tee Higgins missed Wednesday's practice.",
+        "current_state": "Chase practiced Thursday but has not been fully cleared; Higgins is day-to-day.",
+        "why_it_matters": "It sets the difficulty of Sunday's game for a winless Dolphins defense.",
+        "confidence": "medium",
+        "source": {
+          "publisher": "A to Z Sports",
+          "url": "https://atozsports.com/?p=501511"
         }
       }
     ],
     "themes": [
       {
-        "id": "theme-markets-ai-stumble-yields",
+        "id": "theme-markets-friday-rally",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Nasdaq drops 1.25% on an OpenAI revenue report, with the 10-year near 5.35%",
-        "importance": 0.92,
-        "thesis": "Stocks are being squeezed by bond yields and, on Thursday, by doubts about AI revenue.",
-        "synthesis": "The S&P 500 closed at 7,765.36 (-0.47%) and the Nasdaq at 27,193.34 (-1.25%) on Thursday, while the Dow gained 0.1%. Reports linked the tech selloff to a Financial Times item saying OpenAI's revenue is well below figures published elsewhere. The 10-year was reported near 5.35% midday, but I did not find a verified close.",
-        "new_today": "First Nasdaq drop of more than 1% in this edition's tracking, with an AI-specific trigger.",
-        "why_it_matters": "Higher-for-longer rates plus a wobbling AI trade are the two forces most likely to reprice risk assets, and CRE debt with them.",
+        "title": "Stocks finish the week higher; the S&P 500 sits a hair under its record",
+        "importance": 0.9,
+        "thesis": "A Friday rally of about 0.6% in the S&P 500 turned a jumpy week into a gain of roughly 1.2%, with long-term yields easing a little instead of climbing.",
+        "synthesis": "The S&P 500 closed Friday, October 9 at 7,811.54, the Nasdaq at 27,366.17 and the Dow at 51,654.95, per Yahoo Finance's market blog. For the week the S&P led with about 1.2%, the Dow added 0.9% and the Nasdaq 0.6%. Small caps were the weak spot: the Russell 2000 fell 0.9% and has now fallen five weeks running.",
+        "new_today": "Thursday's AI-revenue wobble was fully retraced in the Nasdaq by Friday's close, and the 10-year ended the week 4 basis points lower.",
+        "why_it_matters": "Higher rates have been the pressure point for real estate valuations; a week where the 10-year drifts down rather than up is a modestly kinder backdrop for refinancing math, though small-cap weakness is a reminder that the relief is narrow.",
         "thread_id": "thread-cre-capital-markets-2026",
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Benzinga",
-            "headline": "Stock Market Today: S&P 500 Slips as Oil Spikes 5%, Yields Rise",
-            "url": "https://benzinga.com/markets/equities/26/10/62255036/stock-market-today-sp-500-slips-oil-rallies-yields"
-          },
-          {
-            "role": "background",
             "publisher": "Yahoo Finance",
-            "headline": "Stock market today, Wednesday October 7",
-            "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-october-7-dow-sp-500-nasdaq-080241833.html"
+            "headline": "Stock market today: Dow, S&P 500, Nasdaq rally to cap volatile week as earnings season nears",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-9-dow-sp-500-nasdaq-080148117.html"
           }
         ]
       },
       {
-        "id": "theme-fed-minutes-hike-path",
+        "id": "theme-oil-eases-hormuz",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Fed minutes: another hike likely by year end, but the market prices October near 17%",
-        "importance": 0.88,
-        "thesis": "The Fed's words lean toward more tightening; the market, after a weak jobs report, leans toward waiting.",
-        "synthesis": "The minutes from September 15-16, released October 7, said most participants saw another increase as likely appropriate by year end, though officials remain split between pressing on and pausing. The September vote was 12-0 for a hike to 3.75%-4.00%. Press reports put October hike odds near 17% after September payrolls rose only 29,000. I found no verified December figure.",
-        "new_today": "Minutes published October 7; October odds near 17%.",
-        "why_it_matters": "The path of the funds rate sets the floor under every refinance and bridge loan Alex might price.",
-        "thread_id": "thread-fed-rate-path",
-        "confidence": "medium",
-        "sources": [
-          {
-            "role": "primary_reporting",
-            "publisher": "Scotsman Guide",
-            "headline": "Fed policymakers saw multiple 2026 rate hikes as likely, September FOMC minutes show",
-            "url": "https://www.scotsmanguide.com/news/fed-policymakers-saw-multiple-2026-rate-hikes-as-likely-september-fomc-minutes-show/"
-          },
-          {
-            "role": "analysis",
-            "publisher": "investingLive",
-            "headline": "Fed minutes preview: one more hike guidance meets softer data as October odds fade",
-            "url": "https://investinglive.com/central-banks/fed-minutes-preview-one-more-hike-guidance-meets-softer-data-as-october-odds-fade/"
-          }
-        ]
-      },
-      {
-        "id": "theme-hormuz-brent-100",
-        "affinity": "morning",
-        "topic": "markets",
-        "topic_label": "Markets & Macro",
-        "title": "Hormuz: Brent around $103 as tanker attacks continue",
-        "importance": 0.82,
-        "thesis": "Oil is well off its September 28 peak but still sits at $100 because the strait has not reopened.",
-        "synthesis": "Brent was reported around $103 on Thursday after a midday jump of more than 5% on new tanker attacks, then faded. Wednesday's settlement was $100.20. Tehran has not held direct talks with Washington, and traders say they want verified tanker movements before cutting the risk premium.",
-        "new_today": "Fresh Gulf tanker attacks reported Thursday; Brent back above $100 by aggregator figures.",
-        "why_it_matters": "Oil is the inflation channel behind the 10-year and the Fed path above.",
+        "title": "Oil eases on Friday, but Hormuz shipping stays under attack",
+        "importance": 0.7,
+        "thesis": "Crude pulled back at the end of the week, yet nothing about the Strait of Hormuz standoff has actually been resolved.",
+        "synthesis": "Yahoo Finance's Friday wrap had WTI near $92 and prices easing on the session while still elevated. I could not verify a Brent settlement for October 9. OilPrice.com's headlines describe tanker traffic through Hormuz at a two-month low as attacks surge, though that page shows only relative timestamps, so treat its timing with care.",
+        "new_today": "A softer oil print Friday, with no change in the underlying standoff.",
+        "why_it_matters": "Oil is the transmission belt from the Gulf to inflation and therefore to the Fed; the lower the barrel, the less pressure on the hike debate.",
         "thread_id": "thread-iran-hormuz-crisis",
         "confidence": "low",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Benzinga",
-            "headline": "Stock Market Today: S&P 500 Slips as Oil Spikes 5%, Yields Rise",
-            "url": "https://benzinga.com/markets/equities/26/10/62255036/stock-market-today-sp-500-slips-oil-rallies-yields"
+            "publisher": "Yahoo Finance",
+            "headline": "Stock market today: Dow, S&P 500, Nasdaq rally to cap volatile week as earnings season nears",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-9-dow-sp-500-nasdaq-080148117.html"
+          },
+          {
+            "role": "background",
+            "publisher": "OilPrice.com",
+            "headline": "Hormuz Tanker Traffic Hits Two-Month Low as Attacks Surge",
+            "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Jumps-2-as-Iran-Steps-Up-Attacks-on-Hormuz-Tankers.html"
           }
         ]
       },
       {
-        "id": "theme-seaquarium-referendum-threat",
+        "id": "theme-virginia-key-referendum",
         "affinity": "morning",
         "topic": "miami",
         "topic_label": "Miami Life & Culture",
-        "title": "Seaquarium site: a threatened lawsuit over a countywide vote on the marina",
-        "importance": 0.86,
-        "thesis": "Two residents say the county charter requires voters to approve leasing the Seaquarium waterfront for a private marina, and they will sue if the county disagrees.",
-        "synthesis": "Coconut Grove lawyer Gregory Frankel and resident Aaron Stauber notified Miami-Dade on October 2 that they will sue unless the county holds a countywide referendum on a proposed Seaquarium marina. The county is negotiating a long-term lease with a Terra Group affiliate. The charter requires two-thirds voter approval for Virginia Key property but exempts the Seaquarium; the challengers say the marina, on submerged bay land beyond the lease line, is a separate enterprise.",
-        "new_today": "No filed lawsuit found as of October 9; the threat stands. (Yesterday's 'last day October 12' detail could not be re-verified and is dropped.)",
-        "why_it_matters": "A second Virginia Key waterfront fight, with the same legal question: who decides what happens on public bay land.",
-        "thread_id": "thread-seaquarium-marina-redevelopment",
+        "title": "Virginia Key marina: Referendum 3 asks Miami voters for a 45-year lease on November 3",
+        "importance": 0.75,
+        "thesis": "Voters, not the commission, will decide whether a 50-50 partnership of RCI Group and Suntex Marinas gets 27 acres of city waterfront for 45 years.",
+        "synthesis": "WLRN reports the question on the November 3 ballot would authorize about $80 million in private improvements to the Rickenbacker and Marine Stadium marinas. Commissioners placed it on the ballot reluctantly and unanimously, and Mayor Eileen Higgins has called it a bad deal. A court has rejected one bid to block the vote, but the incumbent operators are still contesting it, and the group Save Our Marinas calls the ballot language misleading. The Seaquarium marina is a separate county matter and is not on this ballot.",
+        "new_today": "Coverage dated October 8 restates the terms as the vote moves into its final weeks.",
+        "why_it_matters": "A public-land lease decided by ballot is a template for how Miami waterfront projects now get approved, and it sets a precedent for the Seaquarium site.",
+        "thread_id": "thread-virginia-key-marina-referendum",
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
             "publisher": "WLRN",
-            "headline": "Lawsuit threatened over Seaquarium redevelopment",
-            "url": "https://www.wlrn.org/law-justice/2026-10-02/lawsuit-threatened-over-seaquarium-redevelopment"
+            "headline": "Miami Virginia Key marina referendum ballot",
+            "url": "https://www.wlrn.org/government-politics/2026-10-08/miami-virginia-key-marina-referendum-ballot"
           }
         ]
       },
       {
-        "id": "theme-panthers-home-opener",
+        "id": "theme-panthers-home-opener-sat",
         "affinity": "morning",
         "topic": "sports",
         "topic_label": "Miami Sports",
-        "title": "Panthers return to Sunrise Saturday after a road trip that ran long on overtime",
-        "importance": 0.68,
-        "thesis": "Florida opens at home Saturday against Minnesota with a start defined by overtime games.",
-        "synthesis": "The Panthers host Minnesota on Saturday, October 10 at 6 p.m. at Amerant Bank Arena after a four-game road swing. They have won seven straight home openers and are 21-7-2-2 all time in them. It should be Brady Tkachuk's first regular-season home game in Sunrise since his summer trade from Ottawa.",
-        "new_today": "Opener is tomorrow; Brady Tkachuk's first home game as a Panther.",
-        "why_it_matters": "Your first look at the team in Sunrise this season.",
+        "title": "Panthers open at home tonight against Minnesota, with Tkachuk in his first Sunrise game",
+        "importance": 0.8,
+        "thesis": "After four road games to start the season, Florida finally plays at Amerant Bank Arena, 6 p.m. tonight.",
+        "synthesis": "The Panthers' own preview confirms a 6 p.m. puck drop against the Wild. Brady Tkachuk is expected to play his first regular-season game in Sunrise as a Panther after a summer trade from Ottawa. Florida is 21-7-2-2 in home openers all-time with wins in each of the last seven.",
+        "new_today": "The home opener is tonight, Saturday, October 10.",
+        "why_it_matters": "A home crowd is the first real test of how the new roster fits after a road swing that included overtime losses.",
         "thread_id": "thread-panthers-2026-27-season",
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "NHL.com",
+            "publisher": "NHL.com / Florida Panthers",
             "headline": "Panthers to celebrate 2026-27 home opener vs. Wild on Saturday, Oct. 10",
             "url": "https://www.nhl.com/panthers/news/panthers-to-celebrate-2026-27-home-opener-vs-wild-on-saturday-oct-10"
-          },
-          {
-            "role": "background",
-            "publisher": "Local10",
-            "headline": "Panthers to face Minnesota in home opener on Oct. 10",
-            "url": "https://www.local10.com/sports/local/2026/07/15/panthers-to-face-minnesota-in-home-opener-on-oct-10/"
           }
         ]
       },
       {
-        "id": "theme-heat-pelicans-giannis",
+        "id": "theme-heat-wolves-preseason",
         "affinity": "morning",
         "topic": "sports",
         "topic_label": "Miami Sports",
-        "title": "Heat preseason: Giannis eased in, Minnesota next on Saturday",
-        "importance": 0.7,
-        "thesis": "Fourteen minutes of Giannis Antetokounmpo produced seven assists, which says more about the design than the box score.",
-        "synthesis": "Giannis Antetokounmpo's Heat debut on October 3 was a 129-105 win over Toronto in Quebec City, with nine points, four rebounds and seven assists in 14 minutes. The Heat hosted New Orleans on Thursday night; I could not find a result. Next up is a home preseason game against Minnesota on Saturday, October 10.",
-        "new_today": "Thursday's Pelicans score not found; Saturday's home game vs. Minnesota is next.",
-        "why_it_matters": "Preseason is noisy, but the passing role is a real signal about how the roster will be built around him.",
+        "title": "Heat host Minnesota in preseason tonight",
+        "importance": 0.55,
+        "thesis": "A preseason game against a Timberwolves roster that now pairs LaMelo Ball with Anthony Edwards.",
+        "synthesis": "The Heat host the Timberwolves at Kaseya Center today, October 10. Giannis Antetokounmpo's only preseason appearance I could confirm was 14 minutes in a 129-105 win over Toronto (9 points, 7 assists). I found no recap of tonight's game, and the teams meet again in the regular season on October 21.",
+        "new_today": "Second home preseason game of the week; I have no information on Giannis's minutes tonight.",
+        "why_it_matters": "Preseason is a rehearsal: watch rotation and Giannis's role rather than the score.",
         "thread_id": "thread-heat-giannis-era",
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Local10",
+            "publisher": "Local 10",
             "headline": "Miami Heat announce 2026-27 preseason schedule",
-            "url": "https://local10.com/sports/local/2026/07/30/miami-heat-announce-2026-27-preseason-schedule/"
-          },
-          {
-            "role": "analysis",
-            "publisher": "Tixel",
-            "headline": "Giannis Antetokounmpo's Impactful Debut Signals New Era for Miami Heat",
-            "url": "https://tixel.com/us/news/2026/10/04/giannis-antetokounmpos-impactful-debut-signals-new-era"
+            "url": "https://local10.com/sports/local/2026/07/30/miami-heat-announce-2026-27-preseason-schedule"
           }
         ]
       },
       {
-        "id": "theme-dolphins-bengals-bye",
+        "id": "theme-dolphins-bengals-chase",
         "affinity": "morning",
         "topic": "sports",
         "topic_label": "Miami Sports",
-        "title": "Dolphins host Cincinnati Sunday, then a bye to think",
-        "importance": 0.66,
-        "thesis": "Sunday is a test of Jeff Hafley's defense against Joe Burrow, Ja'Marr Chase and Tee Higgins, with the bye right behind it.",
-        "synthesis": "The Dolphins host Cincinnati Sunday, October 11 at 1 p.m. on FOX at Hard Rock Stadium. On Wednesday, Ja'Marr Chase (concussion protocol) and Tee Higgins (groin and neck) did not practice, and the Bengals are thin at receiver. One betting preview lists Cincinnati as 7-point favorites. I could not find a reliable Dolphins injury report; Friday designations decide who actually plays.",
-        "new_today": "Bengals' Wednesday injury report: Chase and Higgins both out of practice.",
-        "why_it_matters": "The last game before a bye decides how the season is framed.",
+        "title": "Dolphins host Cincinnati Sunday with Ja'Marr Chase's status still open",
+        "importance": 0.65,
+        "thesis": "The Bengals' best receiver is back at practice but not yet cleared, which shapes how Miami's 0-4 defense plans Sunday.",
+        "synthesis": "Cincinnati's Ja'Marr Chase is in the concussion protocol and practiced Thursday without being fully cleared; Tee Higgins is dealing with a groin strain and a neck injury and both are day-to-day. Safety Kyle Dugger is not expected to play. On Miami's side, only a thin injury picture is available: JuJu Brents (heel) and Chris Bell (knee) were limited Wednesday. Kickoff is Sunday, October 11 at Hard Rock Stadium.",
+        "new_today": "Chase returned to practice Thursday, an upgrade from missing Wednesday.",
+        "why_it_matters": "The Dolphins head into a bye after Sunday, so this is the last chance for a win before the break.",
         "thread_id": "thread-dolphins-hafley-rebuild",
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
             "publisher": "A to Z Sports",
-            "headline": "Bengals' first injury report of Week 5",
-            "url": "https://atozsports.com/nfl/cincinnati-bengals-news/bengals-wednesday-injury-report-week-5-at-dolphins-jamarr-chase-tee-higgins-dexter-lawrence/"
-          },
-          {
-            "role": "analysis",
-            "publisher": "Bengals.com",
-            "headline": "2026 opponent preview: Miami Dolphins",
-            "url": "https://www.bengals.com/news/bengals-2026-opponent-preview-miami-dolphins"
+            "headline": "Bengals get a strong positive sign from Ja'Marr Chase in latest practice ahead of game against Dolphins",
+            "url": "https://atozsports.com/?p=501511"
           }
         ]
       },
       {
-        "id": "theme-walking-slowly",
+        "id": "theme-hand-making-aeon",
         "affinity": "evening",
         "topic": "living",
         "topic_label": "Art of Living",
-        "title": "Frédéric Gros on walking slowly",
-        "importance": 0.58,
-        "thesis": "On foot, Gros argues, presence builds gradually in the body, while the eye in a car believes it has understood everything.",
-        "synthesis": "Verso's excerpt from A Philosophy of Walking contrasts the quick, acquisitive eye with the slow arrival of a place. It pairs with the evening reading: an argument for pace as a form of attention, from a week of fast numbers.",
-        "new_today": "Paired tonight with Thoreau's own essay on walking.",
-        "why_it_matters": "A companion to the Marcus Aurelius rabbit hole and your interest in technology and attention.",
-        "thread_id": null,
-        "confidence": "medium",
-        "sources": [
-          {
-            "role": "analysis",
-            "publisher": "Verso Books",
-            "headline": "The case for walking slowly",
-            "url": "https://www.versobooks.com/en-ca/blogs/news/the-case-for-walking-slowly"
-          }
-        ]
-      },
-      {
-        "id": "theme-marginalian-twenty",
-        "affinity": "evening",
-        "topic": "living",
-        "topic_label": "Art of Living",
-        "title": "The Marginalian turns twenty on October 23, and says so with an evening of wonder",
+        "title": "Why you dream of making things by hand",
         "importance": 0.6,
-        "thesis": "One of the web's longest-running slow-reading projects is marking two decades.",
-        "synthesis": "Maria Popova first shared the material on October 23, 2006, in an email to seven colleagues. The Saratoga Performing Arts Center will host \"Constellating Wonder\" on Friday, October 23, 2026 at 6 p.m. with Popova and guests. The site describes itself as free, ad-free and human-made, which is a quiet argument in a feed-driven week.",
-        "new_today": "Two weeks to the October 23 event.",
-        "why_it_matters": "A reminder of what slow, independent curation looks like, and a good place to spend an evening hour.",
+        "thesis": "A piece already on your reading list asks why the urge to make things by hand persists in a world of frictionless output.",
+        "synthesis": "Aeon's essay, saved five weeks ago and still unread, takes up the pull toward handwork. I have only its title and framing, not a verified summary, so read it for its argument rather than mine. It sits well with a week of numbers: the opposite of a ticker is something you can finish with your hands.",
+        "new_today": "Moved to the front of tonight's evening reading.",
+        "why_it_matters": "It speaks to your interest in craft and in technology and attention, and it is the oldest item on your Reading List.",
         "thread_id": null,
-        "confidence": "medium",
+        "confidence": "low",
         "sources": [
           {
-            "role": "primary_reporting",
-            "publisher": "SPAC",
-            "headline": "Constellating Wonder",
-            "url": "https://spac.org/events/constellating-wonder/"
+            "role": "analysis",
+            "publisher": "Aeon",
+            "headline": "The Radical Reasons Why You Dream of Making Things by Hand",
+            "url": "https://aeon.co/essays/the-radical-reasons-why-you-dream-of-making-things-by-hand"
+          }
+        ]
+      },
+      {
+        "id": "theme-slow-reading",
+        "affinity": "evening",
+        "topic": "living",
+        "topic_label": "Art of Living",
+        "title": "A year of slow reading, set against AI summaries",
+        "importance": 0.5,
+        "thesis": "Wolfson College, Cambridge frames reading slowly as a countercultural act when AI promises summaries in abundance.",
+        "synthesis": "Wolfson's 'A Year of Slow Reading' programme, dated May 2026, argues that reading slowly in a world of hyperinformation is countercultural. It is an event listing, not an essay, so take it as a prompt: pick one long thing tonight and give it an hour.",
+        "new_today": "Surfaced in this week's search on slow reading; not new news.",
+        "why_it_matters": "It connects directly to your interest in technology and attention.",
+        "thread_id": null,
+        "confidence": "low",
+        "sources": [
+          {
+            "role": "background",
+            "publisher": "Wolfson College, Cambridge",
+            "headline": "A Year of Slow Reading",
+            "url": "https://www.wolfson.cam.ac.uk/about/events/year-slow-reading"
           }
         ]
       }
     ],
     "rabbit_hole": {
-      "id": "rh-2026-10-09",
-      "title": "Walking",
-      "creator": "Henry David Thoreau",
+      "id": "rh-2026-10-10",
+      "title": "Self-Reliance",
+      "creator": "Ralph Waldo Emerson",
       "format": "essay",
-      "minutes": 60,
-      "why": "Thoreau argues that walking is an art, not exercise, and that a morning spent on the road is a morning spent on one's own terms. It pairs with the Gros piece and makes a quiet counterweight to a week of tick-by-tick yields.",
-      "url": "https://gutenberg.org/ebooks/1022",
+      "minutes": 45,
+      "why": "Emerson's 1841 essay argues that trusting your own mind, against the pull of consensus, is the beginning of any real life. Read it on a Saturday after a week in which the market's mood seemed to decide everyone else's.",
+      "url": "https://emersoncentral.com/texts/essays-first-series/self-reliance/",
       "related_interest": "living"
     },
     "beautiful_thing": {
-      "id": "bt-2026-10-09",
-      "title": "The Miami Circle",
-      "creator": "Tequesta people (site discovered 1998)",
-      "era": "Pre-Columbian",
-      "body": "A circle cut into limestone bedrock at the mouth of the Miami River, uncovered in 1998 when a site was being cleared for a planned apartment tower. It was later bought for public ownership and designated a National Historic Landmark in 2009. Notice that it was found only because a developer's survey came first, and that what the survey found changed what the land was allowed to become.",
-      "url": "https://en.wikipedia.org/wiki/Miami_Circle",
+      "id": "bt-2026-10-10",
+      "title": "Coral Castle",
+      "creator": "Edward Leedskalnin",
+      "era": "20th century",
+      "body": "A sculpture garden near Homestead carved from coral limestone by Edward Leedskalnin, a Latvian immigrant who is reported to have worked largely alone and to have moved the whole site to its present location in the 1930s. Notice the scale of the individual blocks and how little visible machinery the story allows; then notice that the myths about how it was built are far louder than the documented facts.",
+      "url": "https://en.wikipedia.org/wiki/Coral_Castle",
       "image": null,
-      "alt": "Aerial view of a circular pattern of holes cut into limestone beside the Miami River."
+      "alt": "Large carved coral limestone blocks and sculptures in an open-air garden near Homestead, Florida."
     },
-    "noticing_prompt": "Check one number today only once, at the hour you choose, and notice what the rest of the day feels like without the second look.",
+    "noticing_prompt": "Do one thing today with your hands and no screen, even something small, and notice how long it takes before you reach for the phone.",
     "daily_puzzle": {
-      "id": "dp-2026-10-09",
-      "type": "riddle",
-      "prompt": "A man looks at a portrait and says: \"Brothers and sisters I have none, but that man's father is my father's son.\" Whose portrait is he looking at?",
-      "hint": "Who is \"my father's son\" if the speaker has no brothers?",
-      "solution": "His own son.",
-      "explanation": "With no brothers, \"my father's son\" must be the speaker himself, so the man in the portrait has the speaker as his father."
+      "id": "dp-2026-10-10",
+      "type": "math",
+      "prompt": "I am a two-digit number. My digits add up to 9, and if you swap them, the new number is 27 larger than I am. What number am I?",
+      "hint": "Swapping the digits of a two-digit number changes its value by 9 times the difference between the digits.",
+      "solution": "36",
+      "explanation": "A swap changes the value by 9 times the digit gap, so the gap is 3; with digits summing to 9 they are 3 and 6, and 63 - 36 = 27."
     },
     "evening_unwind": {
-      "id": "eu-2026-10-09",
+      "id": "eu-2026-10-10",
       "evening_quote": {
-        "text": "I have often wondered how it is that every man loves himself more than all the rest of men, but yet sets less value on his own opinion of himself than on the opinion of others.",
+        "text": "Do not disturb thyself by thinking of the whole of thy life. Let not thy thoughts at once embrace all the various troubles which thou mayest expect to befall thee.",
         "attribution": "Marcus Aurelius",
-        "source": "Meditations, 12.4 (George Long translation)"
+        "source": "Meditations, 8.36 (George Long translation)"
       },
-      "evening_prompt": "Which number or headline did you check more than once today, and did the second look tell you anything the first had not?"
+      "evening_prompt": "Of the numbers and scores you followed today, which one did you brace for before it arrived, and what did it actually ask of you?"
     },
     "reading_queue": [
       {
         "title": "The Radical Reasons Why You Dream of Making Things by Hand",
         "url": "https://aeon.co/essays/the-radical-reasons-why-you-dream-of-making-things-by-hand",
-        "verdict": "read_soon",
-        "reason": "Still on the list after five weeks; a slow evening read beside Thoreau and Gros."
+        "verdict": "weekend",
+        "reason": "Still unread after five weeks; this Saturday evening is a good slot."
       }
     ],
     "quote": {
-      "text": "I have often wondered how it is that every man loves himself more than all the rest of men, but yet sets less value on his own opinion of himself than on the opinion of others.",
-      "attribution": "Marcus Aurelius, Meditations 12.4"
+      "text": "Do not disturb thyself by thinking of the whole of thy life. Let not thy thoughts at once embrace all the various troubles which thou mayest expect to befall thee.",
+      "attribution": "Marcus Aurelius, Meditations 8.36"
     }
   },
   "threads": [
@@ -413,9 +381,9 @@
       "title": "US-Iran conflict and the Strait of Hormuz",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-10-09",
-      "updates": 88,
-      "current_state": "Standoff persists; Brent reported near $103 on Oct 8 (aggregator, low confidence) after $100.20 settlement Oct 7.",
+      "last_updated": "2026-10-10",
+      "updates": 89,
+      "current_state": "Standoff persists; WTI near $92 on Oct 9 and easing; Brent not verified (was reported near $103 Oct 8, low confidence).",
       "timeline": [
         {
           "date": "2026-07-21",
@@ -856,6 +824,11 @@
           "date": "2026-10-09",
           "summary": "Oct 8: Brent reported around $103 after midday tanker-attack spike; no direct US-Iran talks.",
           "change_type": "worsened"
+        },
+        {
+          "date": "2026-10-10",
+          "summary": "Oct 9: WTI about $92, eased on the session; Brent unverified; tanker attacks reportedly continue.",
+          "change_type": "improved"
         }
       ]
     },
@@ -1616,9 +1589,9 @@
       "title": "Heat: the Giannis era begins",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-10-09",
-      "updates": 15,
-      "current_state": "Giannis debuted with 7 assists in 14 minutes; home preseason vs New Orleans Oct 8, Minnesota Oct 10.",
+      "last_updated": "2026-10-10",
+      "updates": 16,
+      "current_state": "Giannis debuted with 7 assists in 14 minutes; home preseason vs Minnesota Oct 10; regular-season meeting Oct 21.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -1689,6 +1662,11 @@
           "date": "2026-10-09",
           "summary": "Preseason: Giannis debuted Oct 3 (129-105 over Toronto, 9 pts, 7 ast, 14 min); Minnesota next Oct 10.",
           "change_type": "advanced"
+        },
+        {
+          "date": "2026-10-10",
+          "summary": "Preseason vs Minnesota tonight; no recap yet.",
+          "change_type": "advanced"
         }
       ]
     },
@@ -1697,9 +1675,9 @@
       "title": "Dolphins rebuild under Hafley",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-10-09",
-      "updates": 62,
-      "current_state": "0-4 with Achane out for the season; Bengals Oct 11, bye in Week 6.",
+      "last_updated": "2026-10-10",
+      "updates": 63,
+      "current_state": "0-4 with Achane out for the season; Bengals Sunday Oct 11 with Chase in concussion protocol but practicing; bye in Week 6.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -2010,6 +1988,11 @@
           "date": "2026-10-09",
           "summary": "Week 5 vs. Cincinnati Sunday Oct 11; Chase and Higgins missed Wednesday practice.",
           "change_type": "advanced"
+        },
+        {
+          "date": "2026-10-10",
+          "summary": "Chase back at practice Thursday, not yet cleared; Higgins day-to-day.",
+          "change_type": "advanced"
         }
       ]
     },
@@ -2018,9 +2001,9 @@
       "title": "Miami Hurricanes fall camp and the Mensah era",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-10-05",
-      "updates": 26,
-      "current_state": "Miami (5-0) stays No. 4 in the AP poll and is on a bye; Florida State visits October 17.",
+      "last_updated": "2026-10-10",
+      "updates": 27,
+      "current_state": "Miami (5-0) is on its bye Oct 10; Florida State visits Hard Rock Stadium October 17.",
       "timeline": [
         {
           "date": "2026-08-14",
@@ -2150,6 +2133,11 @@
         {
           "date": "2026-10-05",
           "summary": "Held No. 4 in AP poll; bye week.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-10-10",
+          "summary": "Bye week today; FSU on Oct 17.",
           "change_type": "advanced"
         }
       ]
@@ -2306,9 +2294,9 @@
       "title": "2026 CRE capital markets under pressure",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-10-09",
-      "updates": 39,
-      "current_state": "Equities slipped Oct 8 (S&P 7,765.36, Nasdaq 27,193.34) with the 10-year reported near 5.35% midday.",
+      "last_updated": "2026-10-10",
+      "updates": 40,
+      "current_state": "Oct 9 close: S&P 500 7,811.54, Nasdaq 27,366.17; 10-year about 5.24%.",
       "timeline": [
         {
           "date": "2026-07-24",
@@ -2509,6 +2497,11 @@
           "date": "2026-10-09",
           "summary": "Oct 8: S&P 500 -0.47% to 7,765.36, Nasdaq -1.25% to 27,193.34 on OpenAI revenue report; 10Y reported near 5.35% midday.",
           "change_type": "worsened"
+        },
+        {
+          "date": "2026-10-10",
+          "summary": "Oct 9: stocks rebounded, S&P 500 +0.59% to 7,811.54, Nasdaq +0.64%; 10-year about 5.24%, down 4 bp on the week.",
+          "change_type": "improved"
         }
       ]
     },
@@ -2701,9 +2694,9 @@
       "title": "Panthers' 2026-27 season takes shape",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-10-09",
-      "updates": 24,
-      "current_state": "Won the opener in OT at Carolina; reported OT losses at San Jose and Anaheim; home opener Oct 10 vs Minnesota.",
+      "last_updated": "2026-10-10",
+      "updates": 25,
+      "current_state": "Won the opener in OT at Carolina; reported OT losses at San Jose and Anaheim; home opener tonight Oct 10 vs Minnesota, Tkachuk's first Sunrise game.",
       "timeline": [
         {
           "date": "2026-08-22",
@@ -2824,6 +2817,11 @@
           "date": "2026-10-09",
           "summary": "Home opener vs. Minnesota Saturday Oct 10, 6 p.m.; first home game for Brady Tkachuk.",
           "change_type": "advanced"
+        },
+        {
+          "date": "2026-10-10",
+          "summary": "Home opener tonight, 6 p.m., vs. Minnesota.",
+          "change_type": "advanced"
         }
       ]
     },
@@ -2832,9 +2830,9 @@
       "title": "Virginia Key's second marina referendum",
       "topic": "miami",
       "status": "active",
-      "last_updated": "2026-10-06",
-      "updates": 8,
-      "current_state": "Referendum stays on the Nov 3 ballot; suit by current Rickenbacker operator remains active, trial September 2027.",
+      "last_updated": "2026-10-10",
+      "updates": 9,
+      "current_state": "Referendum 3 stays on the Nov 3 ballot: 45-year lease, 27 acres, about $80M private work; a court rejected one challenge, operators still contest; Mayor Higgins called it a bad deal.",
       "timeline": [
         {
           "date": "2026-08-25",
@@ -2869,6 +2867,11 @@
         {
           "date": "2026-10-05",
           "summary": "Lawsuit threat over the voter-approval requirement reported October 2.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-10-10",
+          "summary": "Oct 8 WLRN coverage restates terms ahead of the Nov 3 vote.",
           "change_type": "advanced"
         }
       ]
@@ -3171,7 +3174,7 @@
     }
   ],
   "meta": {
-    "content_freshness": "2026-10-09T09:30:00-04:00",
+    "content_freshness": "2026-10-10T09:30:00-04:00",
     "feedback_endpoint_mode": "github_contents",
     "minimum_client_schema_version": 1,
     "mode": "brain"
