@@ -1,318 +1,354 @@
 {
   "schema_version": 2,
   "edition": {
-    "id": "2026-10-13",
-    "date": "2026-10-13",
+    "id": "2026-10-14",
+    "date": "2026-10-14",
     "type": "weekday",
-    "generated_at": "2026-10-13T09:30:00-04:00",
+    "generated_at": "2026-10-14T09:30:00-04:00",
     "timezone": "America/New_York",
     "title": "Personal OS",
     "front_page_letter": {
       "greeting": "Good morning",
       "body_paragraphs": [
-        "Good morning. Monday was a pause. The S&P 500 slipped 0.06% to 7,807.24, still a hair under its record, while memory-chip losses pulled the Nasdaq down 0.44%. The Dow rose for a third day. Everyone is waiting on the same two things: bank earnings starting today and September CPI on Wednesday.",
-        "The slower-moving story is Hormuz. A senior Iranian official called the US reply to Tehran's seven-condition plan inadequate, so the reopening that was supposed to arrive this week has no date. I could not verify an oil price or fresh rate-hike odds this morning, and I have left them out rather than guess. Closer to home, the Dolphins go into their bye at 0-5 with no quarterback change, and Referendum 3 on Virginia Key is three weeks away.",
-        "What deserves attention: the gap between what is known and what is being priced. Tonight, Epictetus on exactly that, and a bay-front house worth looking at."
+        "Good morning. September CPI arrives at 8:30 this morning, and the market has spent two days holding its breath for it. The S&P 500 closed Tuesday at 7,805.45, essentially unchanged and a hair under its record, with the 10-year near 5.22%. Hike odds for the October meeting are low, around 19%, but December is priced as close to a sure thing. That is the real question the number answers.",
+        "Yesterday's bank earnings did not settle it. Goldman and Citi beat, JPMorgan missed in a rare way, and everyone warned about rates and sticky inflation. Meanwhile Iran says it will step up attacks on tankers, and Brent is back above $105. Oil is the quiet argument against a cool CPI print next month.",
+        "Closer to home, WLRN has the best account yet of why a Virginia Key marina lease the city calls a bad deal is on your November 3 ballot at all: a court said so. The Dolphins are off until the Jets on October 25, and the Heat open their season a week from tonight.",
+        "What deserves attention: the 8:30 number matters less than what it does to December. Tonight, Seneca on imagined troubles, and a diner at night."
       ],
       "read_only_three": [
         {
           "target_type": "theme",
-          "target_id": "theme-week-ahead-cpi-banks",
-          "label": "Banks today, CPI Wednesday"
+          "target_id": "theme-cpi-day-fed-path",
+          "label": "CPI at 8:30, December in play"
         },
         {
           "target_type": "theme",
-          "target_id": "theme-hormuz-record-attacks",
-          "label": "Iran rejects the US reply"
+          "target_id": "theme-hormuz-tanker-attacks",
+          "label": "Iran vows more tanker attacks"
         },
         {
           "target_type": "theme",
-          "target_id": "theme-dolphins-bengals-loss",
-          "label": "Dolphins into the bye at 0-5"
+          "target_id": "theme-virginia-key-bad-deal",
+          "label": "Why Referendum 3 is on the ballot"
         }
       ]
     },
     "market_context": [
       {
         "label": "S&P 500",
-        "value": "7,807.24",
-        "change": "-0.06%",
-        "observed": "Close, Monday, October 12, 2026",
-        "note": "Just under last week's record; up about 14% this year."
+        "value": "7,805.45",
+        "change": "-0.02%",
+        "observed": "Close, Tuesday, October 13, 2026",
+        "note": "A hair under last week's record."
       },
       {
         "label": "Nasdaq Composite",
-        "value": "27,245.90",
-        "change": "-0.44%",
-        "observed": "Close, Monday, October 12, 2026",
-        "note": "Micron fell about 3.9%."
+        "value": "27,204.38",
+        "change": "-0.15%",
+        "observed": "Close, Tuesday, October 13, 2026",
+        "note": "Memory-chip stocks fell again; outlets differ slightly on the percentage."
       },
       {
         "label": "Dow Jones",
-        "value": "51,850.55",
-        "change": "+0.38%",
-        "observed": "Close, Monday, October 12, 2026",
-        "note": "Third straight gain."
+        "value": "51,670.10",
+        "change": "-0.35%",
+        "observed": "Close, Tuesday, October 13, 2026",
+        "note": "Johnson & Johnson fell 5.7% after earnings."
       },
       {
         "label": "10Y Treasury",
-        "value": "5.24%",
+        "value": "about 5.22%",
         "change": "",
-        "observed": "Friday, October 9, 2026 (stale)",
-        "note": "Not re-verified for Monday; treat as approximate. It touched 5.36% last week, a 24-year high."
+        "observed": "Tuesday, October 13, 2026",
+        "note": "Sources differ on the day's move; treat as approximate."
       },
       {
         "label": "FOMC (Oct 27-28)",
-        "value": "14 days away",
+        "value": "13 days away",
         "change": "",
-        "observed": "Tuesday, October 13, 2026",
-        "note": "Current hike odds could not be verified this morning. The Fed raised rates 0.25 points on September 16 to 3.75%-4.00%; October hike odds were last reported below 50% in late September and about 17% on October 9."
+        "observed": "Wednesday, October 14, 2026",
+        "note": "Same-day notes put October hike odds near 19% (Polymarket) and one more hike by December near 85%; these are approximations from secondary sources."
+      },
+      {
+        "label": "Brent crude",
+        "value": "about $106",
+        "change": "",
+        "observed": "Wednesday morning, October 14, 2026",
+        "note": "Quotes ranged $104 to $107 across outlets."
       }
     ],
     "public_day_context": {
-      "date_label": "Tuesday, October 13, 2026",
-      "weather": "Not verified this morning; no same-day Miami forecast came back. Check weather.gov/mfl.",
-      "public_event": "Big-bank earnings begin Tuesday, October 13; September CPI is Wednesday, October 14. Heat open the season October 21. Virginia Key Referendum 3 is on the November 3 ballot."
+      "date_label": "Wednesday, October 14, 2026",
+      "weather": "Not verified this morning; check weather.gov/mfl.",
+      "public_event": "September CPI at 8:30 a.m. ET; Bank of America and Morgan Stanley report; Heat host Brooklyn in preseason tonight at 7:30. Virginia Key Referendum 3 is on the November 3 ballot."
     },
     "what_changed": [
       {
-        "id": "delta-iran-reply-inadequate",
+        "id": "delta-banks-split",
+        "thread_id": "thread-cre-capital-markets-2026",
+        "change_type": "new",
+        "title": "Big banks report a split quarter",
+        "previous_state": "Banks were expected to set the tone for earnings season.",
+        "current_state": "Goldman and Citi beat, JPMorgan and Wells Fargo missed, and executives warned about sticky inflation and credit provisions.",
+        "why_it_matters": "Higher provisions are an early read on credit conditions for real estate and consumers.",
+        "confidence": "medium",
+        "source": {
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/13/bank-earnings-live-updates.html"
+        }
+      },
+      {
+        "id": "delta-iran-intensify-tankers",
         "thread_id": "thread-iran-hormuz-crisis",
         "change_type": "worsened",
-        "title": "Iran says the US reply on reopening Hormuz falls short",
-        "previous_state": "Yesterday Iran had not publicly answered the US reply, with attacks continuing.",
-        "current_state": "On October 12 a senior Iranian official called the reply inadequate against its seven-condition plan.",
-        "why_it_matters": "Pushes any reopening, and relief on oil, further out.",
+        "title": "Iran says it will step up tanker attacks",
+        "previous_state": "Yesterday Iran called the US reply inadequate with no reopening date.",
+        "current_state": "Iranian officials told Reuters they will intensify strikes on tankers with new tactics, and Brent rose above $105.",
+        "why_it_matters": "Higher oil complicates the disinflation story the Fed needs.",
         "confidence": "medium",
         "source": {
-          "publisher": "Gulf News",
-          "url": "https://gulfnews.com/world/mena/us-iran-standoff-all-uae-residents-need-to-know-today-oct-12-2026-1.500707059"
+          "publisher": "Euronews",
+          "url": "https://euronews.com/2026/10/14/oil-prices-rise-after-reported-attacks-on-ships-in-strait-of-hormuz"
         }
       },
       {
-        "id": "delta-dolphins-no-qb-change",
-        "thread_id": "thread-dolphins-hafley-rebuild",
-        "change_type": "advanced",
-        "title": "Hafley says no quarterback change entering the bye",
-        "previous_state": "Miami was 0-5 after the Cincinnati loss with the plan under question.",
-        "current_state": "Hafley is not mulling a quarterback change, though he says the passing offense must improve.",
-        "why_it_matters": "The rebuild stays on its current course through Week 6.",
-        "confidence": "medium",
-        "source": {
-          "publisher": "ESPN",
-          "url": "https://www.espn.com/nfl/story/_/id/50168959/dolphins-hafley-says-not-mulling-qb-change-entering-bye"
-        }
-      },
-      {
-        "id": "delta-nasdaq-micron",
+        "id": "delta-fed-hike-pricing",
         "thread_id": "thread-fed-rate-path",
-        "change_type": "new",
-        "title": "Nasdaq slips 0.44% on memory-chip losses while the Dow gains",
-        "previous_state": "Friday the S&P 500 closed at 7,811.54 and the Nasdaq at 27,366.17.",
-        "current_state": "Monday the S&P 500 closed at 7,807.24 and the Nasdaq at 27,245.90, with Micron down about 3.9%.",
-        "why_it_matters": "The record is intact but the tech leadership wobbled before CPI.",
-        "confidence": "high",
+        "change_type": "advanced",
+        "title": "Hike odds are verified: low for October, high for December",
+        "previous_state": "Hike odds could not be verified yesterday.",
+        "current_state": "Same-day notes show about 19% odds of an October hike and about 85% for at least one more by December.",
+        "why_it_matters": "Today's CPI will move December pricing more than October's.",
+        "confidence": "low",
         "source": {
-          "publisher": "Associated Press",
-          "url": "https://wtop.com/national/2026/10/how-major-us-stock-indexes-fared-monday-10-12-2026"
+          "publisher": "FXStreet",
+          "url": "https://www.fxstreet.com/news/gold-slides-on-us-yields-surge-ahead-of-cpi-202610131742"
         }
       }
     ],
     "themes": [
       {
-        "id": "theme-week-ahead-cpi-banks",
+        "id": "theme-cpi-day-fed-path",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Banks report Tuesday, CPI Wednesday, as the S&P 500 idles just under its record",
+        "title": "September CPI lands at 8:30 a.m. with the S&P 500 parked just under its record",
         "importance": 0.9,
-        "thesis": "Monday was a pause, not a verdict: the market is waiting for two data points.",
-        "synthesis": "The S&P 500 fell 0.06% to 7,807.24 on Monday, October 12, and the Nasdaq Composite fell 0.44% to 27,245.90 as Micron dropped about 3.9%. The Dow rose 0.38% to 51,850.55, its third straight gain, and energy led the sectors. Big-bank earnings begin Tuesday and September CPI follows Wednesday.",
-        "new_today": "Monday closes: memory chips dragged the Nasdaq while energy and the Dow held up.",
-        "why_it_matters": "CPI is the print that decides how hard the October 27-28 FOMC leans, and with it the 10-year that your refinancing and exit-cap math runs on. Bank commentary on commercial real estate credit is the other thing to listen for.",
+        "thesis": "The market is flat into a print that decides how much more the Fed hikes.",
+        "synthesis": "The S&P 500 closed Tuesday at 7,805.45, down 0.02%, the Dow fell about 0.35% to 51,670.10 and the Nasdaq slipped about 0.15% to 27,204.38 as memory-chip stocks fell again. The 10-year Treasury sat near 5.22%, though outlets differ on the day's move. Same-day notes put the odds of an October 27-28 hike near 19% and at least one more hike by December near 85%, with Boston Fed's Collins and New York Fed's Williams both leaving another hike in view. Economists' expectations quoted so far are 0.1% headline and 0.2% core; check the consensus before reading the print.",
+        "new_today": "CPI is out this morning; Tuesday's close was quiet, and the hike odds remain concentrated in December rather than October.",
+        "why_it_matters": "A hot core number pushes December hike pricing and long yields higher, which flows directly into cap rates, refinancing and the CRE capital markets you track.",
         "thread_id": "thread-fed-rate-path",
-        "confidence": "high",
+        "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Associated Press",
-            "headline": "How major US stock indexes fared Monday 10/12/2026",
-            "url": "https://wtop.com/national/2026/10/how-major-us-stock-indexes-fared-monday-10-12-2026"
+            "publisher": "Yahoo Finance",
+            "headline": "Stocks Struggle Ahead of September CPI Report: Stock Market Today",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-struggle-ahead-september-cpi-200850747.html"
           },
           {
             "role": "analysis",
-            "publisher": "Yahoo Finance",
-            "headline": "Stock Market Today, Oct. 12: Dow Gains as Memory Stocks Weigh on Nasdaq",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-12-212311190.html"
+            "publisher": "FXStreet",
+            "headline": "Gold slides on US yields surge ahead of CPI",
+            "url": "https://www.fxstreet.com/news/gold-slides-on-us-yields-surge-ahead-of-cpi-202610131742"
           }
         ]
       },
       {
-        "id": "theme-hormuz-record-attacks",
+        "id": "theme-big-bank-earnings-mixed",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Iran calls the US reply on Hormuz inadequate, and the strait stays shut to diplomacy",
-        "importance": 0.88,
-        "thesis": "The seven-day reopening window produced a counteroffer fight, not a deal.",
-        "synthesis": "Early Monday a senior Iranian official said Washington's response to Iran's seven-condition proposal for reopening the strait did not go far enough. Qatar is acting as an intermediary. Reporting the same day flagged fresh attacks on the main airport in Riyadh. I could not verify a Brent level for today; Monday's energy-led sector gains are consistent with oil staying firm.",
-        "new_today": "Iran publicly rejects the adequacy of the US reply; Riyadh airport reportedly attacked.",
-        "why_it_matters": "A prolonged closure keeps energy in the CPI conversation and the 10-year elevated, which is the rate environment for every Miami deal you are watching.",
+        "title": "Big banks report a split quarter: Goldman and Citi beat, JPMorgan and Wells Fargo miss",
+        "importance": 0.8,
+        "thesis": "Trading desks are booming while lenders are steady and cautious about rates and sticky inflation.",
+        "synthesis": "JPMorgan earned about $15.3 billion, or $5.57 a share, against roughly $5.93 expected, a rare miss. Goldman beat on equities trading with $18.68 billion in revenue. Citigroup beat on both lines though card profit fell on rewards costs and provisions, and Wells Fargo came in slightly light while raising its credit-loss provision to $1.03 billion. Executives warned that higher rates and inflation will weigh on the credit picture. Bank of America and Morgan Stanley report today.",
+        "new_today": "JPMorgan, Goldman, Citi and Wells Fargo all reported Tuesday; BofA and Morgan Stanley follow Wednesday.",
+        "why_it_matters": "Rising provisions at the largest lenders are an early read on how tight real estate and consumer credit will stay.",
+        "thread_id": "thread-cre-capital-markets-2026",
+        "confidence": "medium",
+        "sources": [
+          {
+            "role": "primary_reporting",
+            "publisher": "CNBC",
+            "headline": "Bank earnings October 2026: JPMorgan, Goldman, Wells Fargo, Citigroup",
+            "url": "https://www.cnbc.com/2026/10/13/bank-earnings-live-updates.html"
+          }
+        ]
+      },
+      {
+        "id": "theme-hormuz-tanker-attacks",
+        "affinity": "morning",
+        "topic": "markets",
+        "topic_label": "Markets & Macro",
+        "title": "Iran says it will intensify tanker attacks, and Brent is back above $105",
+        "importance": 0.85,
+        "thesis": "The diplomacy has stalled and the shipping risk is rising again.",
+        "synthesis": "Iranian officials told Reuters they plan to step up strikes on tankers using new tactics. Brent was quoted around $104 to $107 on Wednesday morning, and Kpler data show tanker traffic this Tuesday at its lowest since late July. Sources disagree on how closed the strait really is: one tracker calls it shut, while Kpler shows about 9.5 million barrels a day still exiting, roughly 30% below prewar. Iranian state claims of burning tankers lack wire corroboration. Separately, NBC reported US officials weighing renewed strikes, which the White House has not confirmed in what I could find.",
+        "new_today": "Iran signaled escalation against shipping and oil climbed back over $105.",
+        "why_it_matters": "Oil near $106 keeps inflation expectations high, which feeds directly into the hike pricing around today's CPI.",
         "thread_id": "thread-iran-hormuz-crisis",
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Gulf News",
-            "headline": "US-Iran standoff: What UAE residents need to know today (Oct. 12, 2026)",
-            "url": "https://gulfnews.com/world/mena/us-iran-standoff-all-uae-residents-need-to-know-today-oct-12-2026-1.500707059"
+            "publisher": "Euronews",
+            "headline": "Oil prices rise after reported attacks on ships in Strait of Hormuz",
+            "url": "https://euronews.com/2026/10/14/oil-prices-rise-after-reported-attacks-on-ships-in-strait-of-hormuz"
           },
           {
             "role": "background",
             "publisher": "CNBC",
-            "headline": "Iran offers to reopen Strait of Hormuz within 7 days and restart nuclear talks",
-            "url": "https://www.cnbc.com/2026/09/25/us-iran-trump-hormuz-.html"
+            "headline": "Oil prices today: Brent, WTI gain on Middle East tensions",
+            "url": "https://www.cnbc.com/2026/10/08/oil-prices-today-brent-wti-hormuz.html"
           }
         ]
       },
       {
-        "id": "theme-dolphins-bengals-loss",
+        "id": "theme-dolphins-bye-willis",
         "affinity": "morning",
         "topic": "sports",
         "topic_label": "Miami Sports",
-        "title": "Dolphins go into the bye at 0-5, with Hafley ruling out a quarterback change",
-        "importance": 0.75,
-        "thesis": "The bye buys a week, but the stated plan is patience.",
-        "synthesis": "ESPN reports Jeff Hafley is not considering a quarterback change entering the Week 6 bye, though he said the passing offense has to improve. Miami lost to Cincinnati 31-24 on Sunday. Athlon frames the season as a deliberate rebuild, slower than the Heat and Panthers' big offseason moves.",
-        "new_today": "Hafley says no quarterback change entering the bye.",
-        "why_it_matters": "It tells you what kind of season this is: evaluation, not contention.",
+        "title": "Dolphins use the bye to regroup at 0-5, with Willis staying under center",
+        "importance": 0.6,
+        "thesis": "Miami is not changing quarterbacks; it is hoping the injured return before the Jets on October 25.",
+        "synthesis": "After the 31-24 loss to Cincinnati, coach Jeff Hafley said Malik Willis remains the starter. Safety Michael Taaffe and cornerback JuJu Brents are among the injured with no firm return timetable. The team returns October 25 against the Jets at MetLife Stadium and has added quarterback Brady Cook to the practice squad.",
+        "new_today": "Bye-week roster moves and injury updates; no change at quarterback.",
+        "why_it_matters": "Your team's season is effectively about the draft and the rebuild's direction now.",
         "thread_id": "thread-dolphins-hafley-rebuild",
-        "confidence": "medium",
+        "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "ESPN",
-            "headline": "Dolphins' Hafley says he's not mulling QB change entering bye",
-            "url": "https://www.espn.com/nfl/story/_/id/50168959/dolphins-hafley-says-not-mulling-qb-change-entering-bye"
-          },
-          {
-            "role": "analysis",
-            "publisher": "Athlon Sports",
-            "headline": "Heat, Panthers Went Big, but Dolphins Are Asking Fans for Patience",
-            "url": "https://athlonsports.com/nfl/miami-dolphins-jon-eric-sullivan-jeff-hafley-rebuild"
+            "publisher": "WFLX",
+            "headline": "Miami Dolphins at 0-5 using bye week to regroup before divisional matchup with the New York Jets",
+            "url": "https://www.wflx.com/2026/10/13/miami-dolphins-0-5-using-bye-week-regroup-before-divisional-matchup-with-new-york-jets/"
           }
         ]
       },
       {
-        "id": "theme-virginia-key-referendum",
+        "id": "theme-heat-canes-week",
         "affinity": "morning",
-        "topic": "miami",
-        "topic_label": "Miami Life & Culture",
-        "title": "Virginia Key marina: Referendum 3 is three weeks out and the terms are on the table",
-        "importance": 0.7,
-        "thesis": "Voters will decide on November 3 a lease the courts have declined to block.",
-        "synthesis": "Referendum 3 asks whether Miami should lease the Rickenbacker and Marine Stadium marinas to RCI Group and Suntex for an $80 million redevelopment: an initial 45-year term with two 15-year renewals, minimum rent of $2.2 million a year plus 6% of gross revenue. A Miami-Dade judge rejected the suit to stop the vote, but the suit continues with a trial set for September 2027. Friends of Biscayne Bay has raised environmental concerns. These details are from mid-September reporting; I found nothing newer today.",
-        "new_today": "No new development found; this is a three-weeks-out reminder of the terms.",
-        "why_it_matters": "A long-term waterfront lease decision in your city, and a live example of how Miami prices public land.",
-        "thread_id": "thread-virginia-key-marina-referendum",
+        "topic": "sports",
+        "topic_label": "Miami Sports",
+        "title": "The Miami week: Heat preseason tonight, Hurricanes host Florida State Saturday",
+        "importance": 0.55,
+        "thesis": "Two Miami seasons are about to get real within days of each other.",
+        "synthesis": "The Heat host Brooklyn tonight at 7:30 p.m. and close the preseason at Orlando on October 16 before opening the regular season Wednesday, October 21 against Minnesota at Kaseya Center, in what should be Giannis Antetokounmpo's first season in Miami after the July trade. The Hurricanes host rival Florida State at Hard Rock Stadium on Saturday, October 17, per the official schedule. I found no current injury reports for either.",
+        "new_today": "Schedule check; no new game results found for the Panthers or Marlins.",
+        "why_it_matters": "Your teams all converge on the next ten days.",
+        "thread_id": "thread-heat-giannis-era",
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
             "publisher": "Local 10",
-            "headline": "Miami voters to decide fate of redevelopment proposal for waterfront land in Virginia Key",
-            "url": "https://www.local10.com/news/local/2026/09/16/miami-voters-to-decide-fate-of-redevelopment-proposal-for-waterfront-land-in-virginia-key/"
+            "headline": "Miami Heat release 2026-27 regular season schedule",
+            "url": "https://local10.com/sports/local/2026/08/13/miami-heat-release-2026-27-regular-season-schedule/"
+          },
+          {
+            "role": "background",
+            "publisher": "Miami Hurricanes",
+            "headline": "Hurricanes Release 2026 Football Schedule",
+            "url": "https://miamihurricanes.com/news/2026/01/26/hurricanes-release-2026-football-schedule"
+          }
+        ]
+      },
+      {
+        "id": "theme-virginia-key-bad-deal",
+        "affinity": "morning",
+        "topic": "miami",
+        "topic_label": "Miami Life & Culture",
+        "title": "City officials call the Virginia Key marina lease a 'bad deal'. So why is it on the ballot?",
+        "importance": 0.7,
+        "thesis": "Referendum 3 is on the November 3 ballot because courts required it, not because the city wants it.",
+        "synthesis": "WLRN reports that Miami officials think the lease is a bad deal, but the City Attorney said an appeals court decision left no choice but to put it before voters. The proposal from Virginia Key, LLC (RCI Group and Suntex) would put about $80 million into roughly 27.62 acres, with a 45-year term plus two 15-year renewals, minimum rent of $2.2 million plus 6% of gross revenue. Opponents include boaters and marina operators, who argue it displaces small businesses; backers say it would improve public access to the bay.",
+        "new_today": "WLRN's October 8 explainer on why the vote exists at all; a challenge to block it was rejected by a judge.",
+        "why_it_matters": "A 45-year waterfront lease is a live test of how Miami prices public land, and the vote is 20 days away.",
+        "thread_id": "thread-virginia-key-marina-referendum",
+        "confidence": "high",
+        "sources": [
+          {
+            "role": "primary_reporting",
+            "publisher": "WLRN",
+            "headline": "Miami officials think the Virginia Key marina referendum is a 'bad deal'. So why is it on the ballot?",
+            "url": "https://www.wlrn.org/government-politics/2026-10-08/miami-virginia-key-marina-referendum-ballot"
           },
           {
             "role": "analysis",
-            "publisher": "Axios Miami",
-            "headline": "Virginia Key marina redevelopment heads to Miami voters",
-            "url": "https://www.axios.com/local/miami/2026/08/20/virginia-key-marina-redevelopment-miami-referendum"
+            "publisher": "Florida YIMBY",
+            "headline": "Court Rejects Challenge To Virginia Key Marina Referendum Ahead Of November Vote",
+            "url": "https://floridayimby.com/?p=41680"
           }
         ]
       },
       {
-        "id": "theme-making-by-hand",
+        "id": "theme-marine-stadium-concrete",
         "affinity": "evening",
         "topic": "living",
         "topic_label": "Art of Living",
-        "title": "Why you dream of making things by hand",
-        "importance": 0.6,
-        "thesis": "An Aeon essay on the pull toward handwork, the oldest item on your reading list.",
-        "synthesis": "I have only the title and framing, not a verified summary, so read it for its own argument. It is a counterweight to a day of CPI and tanker headlines.",
-        "new_today": "Resurfaced from your Reading List; saved about six weeks ago.",
-        "why_it_matters": "It sits in your Art of Living interest and is the longest-waiting saved piece.",
+        "title": "What a city decides to keep: Miami Marine Stadium and the Virginia Key shoreline",
+        "importance": 0.5,
+        "thesis": "The vote about marinas sits next to one of Miami's best pieces of modern civic architecture.",
+        "synthesis": "Miami Marine Stadium on Virginia Key, designed by Cuban-born architect Hilario Candela and opened in 1963, is known for its cantilevered concrete roof and a stage that floated on the water. It has been closed to the public for decades, and the marina lease on the ballot covers the neighboring Marine Stadium marina. A slower question for tonight, away from the polling and the pricing: what does a place owe to the things that made it distinctive?",
+        "new_today": "Not news; an evening read that gives the referendum some depth.",
+        "why_it_matters": "It links your interest in Miami's built environment with a decision you will actually vote on.",
         "thread_id": null,
-        "confidence": "low",
+        "confidence": "medium",
         "sources": [
           {
-            "role": "analysis",
-            "publisher": "Aeon",
-            "headline": "The Radical Reasons Why You Dream of Making Things by Hand",
-            "url": "https://aeon.co/essays/the-radical-reasons-why-you-dream-of-making-things-by-hand"
-          }
-        ]
-      },
-      {
-        "id": "theme-self-and-attention",
-        "affinity": "evening",
-        "topic": "living",
-        "topic_label": "Art of Living",
-        "title": "What is the self if not that which pays attention?",
-        "importance": 0.6,
-        "thesis": "An Aeon essay asks whether attention is the closest thing we have to a self.",
-        "synthesis": "I have the title and framing from Aeon, not a verified summary, so read it for its own argument. It pairs with a week where attention is being pulled toward a CPI print and a seven-day clock.",
-        "new_today": "Surfaced in this morning's search for slower reading; undated in the results.",
-        "why_it_matters": "It speaks to your interest in technology and attention and in the philosophy of living.",
-        "thread_id": null,
-        "confidence": "low",
-        "sources": [
+            "role": "background",
+            "publisher": "Wikipedia",
+            "headline": "Miami Marine Stadium",
+            "url": "https://en.wikipedia.org/wiki/Miami_Marine_Stadium"
+          },
           {
-            "role": "analysis",
-            "publisher": "Aeon",
-            "headline": "What is the self if not that which pays attention?",
-            "url": "https://aeon.co/essays/what-is-the-self-if-not-that-which-pays-attention"
+            "role": "local_perspective",
+            "publisher": "WLRN",
+            "headline": "Miami officials think the Virginia Key marina referendum is a 'bad deal'",
+            "url": "https://www.wlrn.org/government-politics/2026-10-08/miami-virginia-key-marina-referendum-ballot"
           }
         ]
       }
     ],
     "rabbit_hole": {
-      "id": "rh-2026-10-13",
-      "title": "Meditations (Book 4)",
-      "creator": "Marcus Aurelius",
+      "id": "rh-2026-10-14",
+      "title": "How to Do Great Work",
+      "creator": "Paul Graham",
       "format": "essay",
-      "minutes": 25,
-      "why": "Book 4 is where Marcus works hardest on the line between what happens to you and what you make of it. It suits a week when most of the pressure is anticipation: a CPI print, a deadline in a strait.",
-      "url": "https://www.gutenberg.org/ebooks/2680",
+      "minutes": 45,
+      "why": "A long, practical essay on how people find work worth doing: curiosity, taste, and the willingness to follow what interests you. It is a good counterweight to a day spent watching a single data print.",
+      "url": "https://paulgraham.com/greatwork.html",
       "related_interest": "living"
     },
     "beautiful_thing": {
-      "id": "bt-2026-10-13",
-      "title": "Vizcaya Museum and Gardens",
-      "creator": "F. Burrall Hoffman and Paul Chalfin, for James Deering",
-      "era": "1910s-1920s",
-      "body": "A bayfront villa in Coconut Grove built for James Deering and modeled on Italian Renaissance and Baroque houses, with formal gardens running down to Biscayne Bay. Look at the stone barge in the water, an offshore breakwater and landing designed as a ship; it is the house's way of facing the sea. Notice how the architecture treats the bay as the real front lawn.",
-      "url": "https://en.wikipedia.org/wiki/Vizcaya_Museum_and_Gardens",
+      "id": "bt-2026-10-14",
+      "title": "Nighthawks",
+      "creator": "Edward Hopper",
+      "era": "1942",
+      "body": "An oil-on-canvas painting of a late-night diner seen from the dark street, now at the Art Institute of Chicago. Notice how the glass wraps the corner with no visible door, so the four people inside are lit and separate, and how the light spills outward onto an empty street.",
+      "url": "https://www.artic.edu/artworks/111628/nighthawks",
       "image": null,
-      "alt": "A stone Italianate villa and formal gardens on Biscayne Bay."
+      "alt": "A diner glowing at night on an empty city corner with three customers and a counterman."
     },
-    "noticing_prompt": "Notice which of today's worries has a date attached and which only has a feeling.",
+    "noticing_prompt": "Notice whether the number you are waiting for will change anything you would do today.",
     "daily_puzzle": {
-      "id": "dp-2026-10-13",
-      "type": "logic",
-      "prompt": "On an island, everyone either always tells the truth or always lies. You meet two islanders, A and B. A says: \"We are both liars.\" What are A and B?",
-      "hint": "Could A be telling the truth?",
-      "solution": "A is a liar and B is truthful.",
-      "explanation": "If A were truthful, the statement would make A a liar, a contradiction. So A lies, which means \"we are both liars\" is false; since A is a liar, B must not be one."
+      "id": "dp-2026-10-14",
+      "type": "wordplay",
+      "prompt": "What common English word becomes shorter when you add two letters to it?",
+      "hint": "Think about the word itself, not its meaning.",
+      "solution": "Short. Add 'er' to get 'shorter'.",
+      "explanation": "The word 'short' becomes 'shorter', which is a comparative, and 'shorter' means more short."
     },
     "evening_unwind": {
-      "id": "eu-2026-10-13",
+      "id": "eu-2026-10-14",
       "evening_quote": {
-        "text": "Men are disturbed not by things, but by the views which they take of things.",
-        "attribution": "Epictetus",
-        "source": "Enchiridion, 5"
+        "text": "We suffer more often in imagination than in reality.",
+        "attribution": "Seneca",
+        "source": "Letters to Lucilius, 13"
       },
-      "evening_prompt": "Which part of today was an event, and which part was only the story you told about it afterward?"
+      "evening_prompt": "Which part of today's waiting turned out to be larger in your head than in the room?"
     },
     "reading_queue": [
       {
@@ -323,8 +359,8 @@
       }
     ],
     "quote": {
-      "text": "Men are disturbed not by things, but by the views which they take of things.",
-      "attribution": "Epictetus, Enchiridion 5"
+      "text": "We suffer more often in imagination than in reality.",
+      "attribution": "Seneca, Letters to Lucilius 13"
     }
   },
   "threads": [
@@ -333,9 +369,9 @@
       "title": "US-Iran conflict and the Strait of Hormuz",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-10-13",
-      "updates": 92,
-      "current_state": "Iran calls the US reply to its seven-condition Hormuz plan inadequate (Oct 12); Qatar mediating; no reopening date.",
+      "last_updated": "2026-10-14",
+      "updates": 93,
+      "current_state": "Iran says it will intensify tanker attacks (Oct 14); Brent back above $105; no reopening date.",
       "timeline": [
         {
           "date": "2026-07-21",
@@ -796,6 +832,11 @@
           "date": "2026-10-13",
           "summary": "Iran says the US reply falls short; Riyadh airport reportedly attacked.",
           "change_type": "worsened"
+        },
+        {
+          "date": "2026-10-14",
+          "summary": "Iranian officials tell Reuters they will step up tanker strikes; Brent about $106; Kpler shows tanker traffic at lowest since late July.",
+          "change_type": "worsened"
         }
       ]
     },
@@ -804,9 +845,9 @@
       "title": "Federal Reserve rate path",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-10-13",
-      "updates": 84,
-      "current_state": "Fed hiked Sept 16 to 3.75%-4.00%; Oct 27-28 odds unverified today; CPI Wednesday Oct 14.",
+      "last_updated": "2026-10-14",
+      "updates": 85,
+      "current_state": "Fed hiked Sept 16 to 3.75%-4.00%; October hike odds about 19%, December about 85%; CPI Wednesday Oct 14.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -1221,6 +1262,11 @@
         {
           "date": "2026-10-13",
           "summary": "Oct 12 closes: S&P 7,807.24, Nasdaq 27,245.90; bank earnings Oct 13, CPI Oct 14.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-10-14",
+          "summary": "Same-day notes put October hike odds near 19% and one more hike by December near 85%; Collins and Williams leave another hike in view.",
           "change_type": "advanced"
         }
       ]
@@ -1657,9 +1703,9 @@
       "title": "Dolphins rebuild under Hafley",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-10-13",
-      "updates": 66,
-      "current_state": "0-5 into the Week 6 bye; Hafley not considering a quarterback change.",
+      "last_updated": "2026-10-14",
+      "updates": 67,
+      "current_state": "0-5 in the bye week; Willis stays the starter; Jets on Oct 25.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -1990,6 +2036,11 @@
           "date": "2026-10-13",
           "summary": "Hafley rules out a QB change entering the bye.",
           "change_type": "advanced"
+        },
+        {
+          "date": "2026-10-14",
+          "summary": "Bye-week update: Hafley keeps Willis; injuries to Taaffe and Brents; Cook added to the practice squad.",
+          "change_type": "unchanged"
         }
       ]
     },
@@ -2291,9 +2342,9 @@
       "title": "2026 CRE capital markets under pressure",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-10-11",
-      "updates": 41,
-      "current_state": "Week ahead: big-bank earnings Tue Oct 13, September CPI Wed Oct 14 (previews cite consensus near 3.6% headline). Last close Oct 9: S&P 500 7,811.54, 10-year about 5.24%.",
+      "last_updated": "2026-10-14",
+      "updates": 42,
+      "current_state": "Big banks split on Q3; higher provisions flagged at Wells Fargo; rates and sticky inflation cited.",
       "timeline": [
         {
           "date": "2026-07-24",
@@ -2504,6 +2555,11 @@
           "date": "2026-10-11",
           "summary": "Week-ahead previews: bank earnings Oct 13, September CPI Oct 14, FOMC Oct 27-28; S&P 500 described as hovering near records.",
           "change_type": "watch"
+        },
+        {
+          "date": "2026-10-14",
+          "summary": "JPMorgan and Wells Fargo missed, Goldman and Citi beat; executives cite rates and inflation.",
+          "change_type": "new"
         }
       ]
     },
@@ -2842,9 +2898,9 @@
       "title": "Virginia Key's second marina referendum",
       "topic": "miami",
       "status": "active",
-      "last_updated": "2026-10-10",
-      "updates": 9,
-      "current_state": "Referendum 3 stays on the Nov 3 ballot: 45-year lease, 27 acres, about $80M private work; a court rejected one challenge, operators still contest; Mayor Higgins called it a bad deal.",
+      "last_updated": "2026-10-14",
+      "updates": 10,
+      "current_state": "Referendum 3 is on the Nov 3 ballot because a court required it; officials call the deal bad; challenge to block rejected.",
       "timeline": [
         {
           "date": "2026-08-25",
@@ -2884,6 +2940,11 @@
         {
           "date": "2026-10-10",
           "summary": "Oct 8 WLRN coverage restates terms ahead of the Nov 3 vote.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-10-14",
+          "summary": "WLRN explains the city is on the ballot by court order; officials call the lease a bad deal.",
           "change_type": "advanced"
         }
       ]
@@ -3186,7 +3247,7 @@
     }
   ],
   "meta": {
-    "content_freshness": "2026-10-13T09:30:00-04:00",
+    "content_freshness": "2026-10-14T09:30:00-04:00",
     "feedback_endpoint_mode": "github_contents",
     "minimum_client_schema_version": 1,
     "mode": "brain"
