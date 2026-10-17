@@ -1,122 +1,115 @@
 {
   "schema_version": 2,
   "edition": {
-    "id": "2026-10-16",
-    "date": "2026-10-16",
+    "id": "2026-10-17",
+    "date": "2026-10-17",
     "type": "weekday",
-    "generated_at": "2026-10-16T09:30:00-04:00",
+    "generated_at": "2026-10-17T09:30:00-04:00",
     "timezone": "America/New_York",
     "title": "Personal OS",
     "front_page_letter": {
       "greeting": "Good morning",
       "body_paragraphs": [
-        "Good morning. Thursday gave back part of Wednesday's damage: the Dow rose about 1.1%, the S&P 500 about 0.3% and the Nasdaq only 0.1%, snapping a three-day losing streak. The rotation matters more than the size. Money left the tech names that fell hardest after the hot September CPI and went looking for everything else, which is how a market behaves when it is unsure rather than afraid.",
-        "That uncertainty is still the story. October hike odds were roughly 31% on Thursday morning after 46% a day earlier, the 10-year was near 5.10%, and the S&P 500 is on track for a losing week. I could not verify Thursday's final yield or oil settlement this morning, so those figures below are marked as stale. The Fed meets October 27-28, and nothing in between has to be decisive for the odds to move again.",
-        "At home, the evening belongs to the Heat's preseason finale in Orlando at 7 p.m. and the weekend to Miami (5-0) against Florida State on Saturday at 7. Last year's game ended 28-22 after Miami led 28-3. What deserves attention today is how the market treats the rotation: if it holds into next week, Wednesday was a scare. If it fades, it was a warning."
+        "Good morning. Thursday's rebound did not last the week. On one secondary report, Friday sent the S&P 500 down about 1.1% and the Nasdaq about 2.1%, leaving the Nasdaq down roughly 4.5% on the week while the Dow, helped by Thursday's rotation, still finished up. I could not confirm those figures against an AP wrap, so the percentages are the part to trust.",
+        "The Fed meets October 27-28, ten days from now, and the last odds I could verify are a week old: a likely hold in October and a December hike widely expected. Between now and then the market has to digest a hot CPI, hot producer prices and a doubt about AI financing at once. That is a harder week to read than a bad one.",
+        "The weekend is kinder. Miami (5-0) hosts Florida State tonight at 7, a heavy favorite against a 3-3 team that gave away a 14-point lead at Louisville. Referendum 3 on the Virginia Key marinas is 17 days out, on a deal the city itself calls bad. What deserves attention today: the gap between how loud the week was and how much of it you could have acted on."
       ],
       "read_only_three": [
         {
           "target_type": "theme",
-          "target_id": "theme-stocks-rebound-rotation",
-          "label": "Thursday's rebound, and who led it"
+          "target_id": "theme-stocks-week-ends-lower",
+          "label": "The week's end, and the rebound that didn't hold"
         },
         {
           "target_type": "theme",
-          "target_id": "theme-canes-fsu-saturday",
-          "label": "Canes vs. FSU, Saturday 7 p.m."
+          "target_id": "theme-canes-fsu-tonight",
+          "label": "Canes vs. FSU, tonight at 7"
         },
         {
           "target_type": "theme",
-          "target_id": "theme-meditations-judgment",
-          "label": "Tonight: the judgment, not the thing"
+          "target_id": "theme-virginia-key-referendum",
+          "label": "Referendum 3 and the marina lease"
         }
       ]
     },
     "market_context": [
       {
         "label": "S&P 500",
-        "value": "up about 0.3%",
-        "change": "+0.3%",
-        "observed": "Close, Thursday, October 15, 2026",
-        "note": "Index level not verified today; Wednesday's close was 7,718.94. CNBC has the index headed for a losing week."
+        "value": "7,659.44 (as reported)",
+        "change": "-1.1% Friday; about -1.95% on the week",
+        "observed": "Close, Friday, October 16, 2026",
+        "note": "From a single secondary summary; AP wrap not retrievable. Wednesday's close was 7,718.94."
       },
       {
         "label": "Dow Jones",
-        "value": "up about 1.1%",
-        "change": "+1.1%",
-        "observed": "Close, Thursday, October 15, 2026",
-        "note": "A gain of more than 500 points per CNBC; exact level not verified."
+        "value": "52,002.41 (as reported)",
+        "change": "-0.3% Friday; +0.7% on the week",
+        "observed": "Close, Friday, October 16, 2026",
+        "note": "Same secondary summary; the Dow was the only major index up on the week."
       },
       {
         "label": "Nasdaq Composite",
-        "value": "up about 0.1%",
-        "change": "+0.1%",
-        "observed": "Close, Thursday, October 15, 2026",
-        "note": "Tech lagged as investors rotated out of key tech names; level not verified."
+        "value": "level not verified",
+        "change": "-2.1% Friday; about -4.5% on the week",
+        "observed": "Close, Friday, October 16, 2026",
+        "note": "Worst week since June per the same summary. Wednesday's close was 26,692.87."
       },
       {
         "label": "10Y Treasury",
-        "value": "about 5.10%",
+        "value": "5.23%",
         "change": "",
-        "observed": "Thursday morning, October 15, 2026",
-        "note": "Stale: Thursday close and Friday morning not verified."
+        "observed": "Friday, October 9, 2026",
+        "note": "Stale by a week. Yesterday's edition had about 5.10% on Thursday, October 15; Friday's level not verified."
       },
       {
         "label": "FOMC (Oct 27-28)",
-        "value": "11 days away",
+        "value": "10 days away",
         "change": "",
-        "observed": "Friday, October 16, 2026",
-        "note": "October hike odds about 31% Thursday morning per CNBC (46% Wednesday close per LSEG/Reuters). Friday odds not verified."
-      },
-      {
-        "label": "Brent crude",
-        "value": "about $106.56",
-        "change": "",
-        "observed": "Wednesday, October 14, 2026 (afternoon)",
-        "note": "Stale by two days; Thursday and Friday quotes not verified."
+        "observed": "Saturday, October 17, 2026",
+        "note": "Latest odds I could verify: about 82% hold for October and about 81% for a December hike as of October 9; CNBC had October hike odds near 31% on October 15. Friday's odds not verified."
       }
     ],
     "public_day_context": {
-      "date_label": "Friday, October 16, 2026",
-      "weather": "Not verified this morning; check weather.gov/mfl.",
-      "public_event": "Heat close the preseason at Orlando tonight (7 p.m., Kia Center); Hurricanes host Florida State Saturday at 7 p.m. at Hard Rock Stadium; FOMC meets October 27-28."
+      "date_label": "Saturday, October 17, 2026",
+      "weather": "No day-specific forecast retrieved; AccuWeather's October range for Miami is highs of 80 to 86F. Check weather.gov/mfl before kickoff.",
+      "public_event": "Miami hosts Florida State at Hard Rock Stadium tonight at 7 p.m. (ESPN); the Heat open the regular season Wednesday, October 21 vs. Minnesota; Virginia Key Referendum 3 is November 3; FOMC meets October 27-28."
     },
     "what_changed": [
       {
-        "id": "delta-rebound-rotation",
+        "id": "delta-week-ends-lower",
         "thread_id": "thread-fed-rate-path",
-        "change_type": "improved",
-        "title": "Stocks rebound Thursday, led by the Dow",
-        "previous_state": "The S&P 500 fell 1.11% Wednesday on the hot CPI print, led down by tech.",
-        "current_state": "The Dow rose about 1.1%, the S&P 500 about 0.3% and the Nasdaq about 0.1% Thursday, ending a three-day losing streak, though the S&P 500 is still headed for a losing week.",
-        "why_it_matters": "A rotation rather than a broad rally says rate fear has eased a notch, not gone; CRE debt pricing still hangs on the October 27-28 meeting.",
+        "change_type": "worsened",
+        "title": "Stocks give back Thursday's rebound and end the week lower",
+        "previous_state": "Thursday's rotation lifted the Dow about 1.1%, the S&P 500 about 0.3% and the Nasdaq about 0.1%.",
+        "current_state": "On one secondary report, Friday took the S&P 500 down about 1.1% and the Nasdaq about 2.1%, leaving the Nasdaq down 4.5% on the week; the Dow slipped 0.3% but still gained 0.7% for the week.",
+        "why_it_matters": "The rotation did not hold, so the market goes into the October 27-28 Fed meeting still unsettled about rates and AI financing.",
         "confidence": "medium",
         "source": {
-          "publisher": "CNBC",
-          "url": "https://www.cnbc.com/2026/10/15/stock-market-today-live-updates.html"
+          "publisher": "TradingView (Seeking Alpha)",
+          "url": "https://www.tradingview.com/news/seekingalpha:64b17a284094b:0-s-p-500-ends-the-week-lower-as-hot-inflation-and-ai-sell-off-weigh-on-stocks/"
         }
       }
     ],
     "themes": [
       {
-        "id": "theme-stocks-rebound-rotation",
+        "id": "theme-stocks-week-ends-lower",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Stocks bounce, but the leadership changed",
+        "title": "Thursday's rebound did not survive Friday",
         "importance": 0.9,
-        "thesis": "Thursday's rebound was a rotation out of tech into everything else, not a clean all-clear after the hot CPI.",
-        "synthesis": "The Dow jumped more than 500 points, about 1.1%, the S&P 500 added about 0.3% and the Nasdaq about 0.1%, ending a three-day losing streak. CNBC says investors sold key tech names and bought the rest of the market, and that the S&P 500 is still heading for a losing week. Wednesday's 1.11% drop to 7,718.94 followed September CPI of 3.7% against 3.6% expected. I could not retrieve final index levels or the Thursday close in yields, so treat the percentages as the reliable part.",
-        "new_today": "Thursday's close and the tech-to-broad-market rotation.",
-        "why_it_matters": "For CRE, the question is whether the retreat in yields and hike odds survives to October 27-28. A rotation that holds suggests so; one that reverses suggests Wednesday's fear was only paused.",
+        "thesis": "A week that began with a hot CPI ended with the S&P 500 and Nasdaq both lower, and the Dow the only index with a weekly gain.",
+        "synthesis": "One market summary has the S&P 500 down about 1.1% on Friday and roughly 1.95% on the week at 7,659.44, the Nasdaq down about 2.1% Friday and 4.5% on the week, and the Dow down about 0.3% Friday but up 0.7% on the week at 52,002.41. The same summary points to hot inflation and an AI-financing scare, and a second report describes September producer prices as the hottest in 4.5 years. I could not pull the AP wrap or a second confirmation of the Friday figures, so treat the levels as reported, not verified.",
+        "new_today": "Friday's session erased Thursday's rotation rally.",
+        "why_it_matters": "Last week's question was whether Thursday's rebound would hold into the October 27-28 Fed meeting. On this reporting it did not, which keeps CRE debt pricing hostage to inflation prints and a 10-year that has sat near 5%.",
         "thread_id": "thread-fed-rate-path",
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "CNBC",
-            "headline": "Stock market today: live updates",
-            "url": "https://www.cnbc.com/2026/10/15/stock-market-today-live-updates.html"
+            "publisher": "TradingView (Seeking Alpha)",
+            "headline": "S&P 500 ends the week lower as hot inflation and AI sell-off weigh on stocks",
+            "url": "https://www.tradingview.com/news/seekingalpha:64b17a284094b:0-s-p-500-ends-the-week-lower-as-hot-inflation-and-ai-sell-off-weigh-on-stocks/"
           },
           {
             "role": "background",
@@ -127,95 +120,99 @@
         ]
       },
       {
-        "id": "theme-canes-fsu-saturday",
+        "id": "theme-canes-fsu-tonight",
         "affinity": "morning",
         "topic": "sports",
         "topic_label": "Miami Sports",
-        "title": "Miami hosts Florida State Saturday, and last year's fourth quarter is the subtext",
-        "importance": 0.88,
-        "thesis": "The Hurricanes arrive 5-0 as heavy favorites, against a rival that nearly erased a 25-point deficit last year.",
-        "synthesis": "Kickoff is Saturday, October 17, at 7 p.m. at Hard Rock Stadium. In last year's meeting Miami led 28-3 in the third quarter before Florida State scored 19 unanswered in the fourth to make it 28-22 with 20 seconds left, per Miami's own site. This week's injury picture from yesterday stands: the defensive starters are back after the bye, right guard Max Buchanan remains out. Betting previews make Miami a large favorite, but those are editorial guesses, and Florida State's record is reported inconsistently, so the matchup is best read from the official injury report due today.",
-        "new_today": "No new injury news found; the rivalry's 28-22 history is the added context.",
-        "why_it_matters": "It is the signature home game of Miami's season, and the offensive line is the soft spot.",
+        "title": "Canes host Florida State tonight",
+        "importance": 0.85,
+        "thesis": "Undefeated Miami is a heavy favorite against a 3-3 Florida State, and the interesting question is margin, not result.",
+        "synthesis": "Kickoff is 7 p.m. at Hard Rock Stadium on ESPN. Miami is 5-0 after a 41-13 win at Clemson in which Darian Mensah went 18-of-27 for 227 yards. Florida State is 3-3 after a 44-20 loss at Louisville in which it blew a 14-point lead. Previews list Miami as roughly a 21-point favorite, with one model projecting 34-20; those are predictions from betting blogs, not reporting.",
+        "new_today": "Game day; no injury report beyond what the previews carry.",
+        "why_it_matters": "This is the rivalry game in a season where Miami is the class of the ACC. A clean win keeps the season's larger story intact; a close one would be the first real crack.",
         "thread_id": "thread-hurricanes-fall-camp",
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Sports Illustrated",
-            "headline": "No. 3 Miami Injury Update After Bye Week Heading into Florida State",
-            "url": "https://www.si.com/college/miami/football/no-3-miami-injury-update-after-bye-week-heading-into-florida-state"
+            "publisher": "A to Z Sports",
+            "headline": "Miami vs. Florida State just got some added stakes for the Hurricanes",
+            "url": "https://atozsports.com/?p=500596"
           },
           {
             "role": "background",
-            "publisher": "Miami Hurricanes",
-            "headline": "Breaking Down the Canes' 2026 Schedule",
-            "url": "https://miamihurricanes.com/news/2026/01/27/fb-feature-breaking-down-the-canes-2026-schedule"
-          },
-          {
-            "role": "background",
-            "publisher": "Local 10",
+            "publisher": "Local10",
             "headline": "Miami Hurricanes release 2026 football schedule",
             "url": "https://www.local10.com/sports/local/2026/01/26/miami-hurricanes-release-2026-football-schedule/"
           }
         ]
       },
       {
-        "id": "theme-heat-orlando-finale",
+        "id": "theme-virginia-key-referendum",
         "affinity": "morning",
-        "topic": "sports",
-        "topic_label": "Miami Sports",
-        "title": "Heat end the preseason in Orlando tonight, five days before Giannis's real opener",
-        "importance": 0.7,
-        "thesis": "The preseason has shown Giannis as a passer first, and tonight is the last look before October 21.",
-        "synthesis": "The Heat visit the Magic tonight at 7 p.m. at Kia Center. In his October 3 debut Giannis had nine points and seven assists in about 14 minutes, and Erik Spoelstra compared his playmaking to Magic Johnson's. On October 8 he scored 18 points in under 18 minutes against New Orleans and said finding his offensive role would take time. The regular season opens Wednesday, October 21, at home against Minnesota. The Panthers lost 5-3 at Buffalo on October 12; I did not find the result of their October 13 game in Columbus.",
-        "new_today": "Preseason finale tonight; no result yet.",
-        "why_it_matters": "The preseason is a low-stakes read on how Giannis and the Heat share the ball before games count.",
-        "thread_id": "thread-heat-giannis-era",
-        "confidence": "medium",
-        "sources": [
-          {
-            "role": "primary_reporting",
-            "publisher": "Eurohoops",
-            "headline": "Giannis shines as Heat offense clicks: \"Getting better\"",
-            "url": "https://www.eurohoops.net/en/nba-news/2018376/giannis-antetokounmpo-scores-18-points-miami-heat-nba-preseason/"
-          },
-          {
-            "role": "analysis",
-            "publisher": "theScore",
-            "headline": "Spoelstra likens Giannis' playmaking to Magic after Heat preseason debut",
-            "url": "https://www.thescore.com/nba/news/3614742"
-          },
-          {
-            "role": "background",
-            "publisher": "Local 10",
-            "headline": "Miami Heat announce 2026-27 preseason schedule",
-            "url": "https://local10.com/sports/local/2026/07/30/miami-heat-announce-2026-27-preseason-schedule"
-          }
-        ]
-      },
-      {
-        "id": "theme-meditations-judgment",
-        "affinity": "evening",
-        "topic": "living",
-        "topic_label": "Art of Living",
-        "title": "Not the thing, the judgment about it",
-        "importance": 0.7,
-        "thesis": "After a week of numbers that moved people more than the facts warranted, Marcus Aurelius has a short, old answer.",
-        "synthesis": "Meditations 8.47 puts it plainly: when you are pained by an external thing, it is not the thing that disturbs you but your judgment about it, and that judgment you can wipe out now. The full text is free on Project Gutenberg in George Long's translation. Beside it sits the essay you saved in September on making things by hand, still unread and still the oldest item on your list.",
-        "new_today": "Nothing breaking; deliberately slower material for tonight.",
-        "why_it_matters": "It is your philosophy-of-living thread applied to a week where headlines, not events, did much of the moving.",
-        "thread_id": null,
+        "topic": "miami",
+        "topic_label": "Miami Life & Culture",
+        "title": "Referendum 3: a lease officials call a bad deal",
+        "importance": 0.75,
+        "thesis": "Miami voters will decide on November 3 whether to approve a marina lease the city itself would rather renegotiate.",
+        "synthesis": "The question asks voters to approve a lease of about 27.6 acres on Virginia Key for the Rickenbacker and Marine Stadium marinas: 45 years with two 15-year renewals, minimum rent of $2.2 million a year plus 6% of gross revenue, and roughly $80 million of private investment. The developer is Virginia Key LLC, a 50-50 partnership of RCI Group and Suntex Marinas. A judge rejected the current operator's challenge in August, and the ballot is on only because courts found the city acted arbitrarily by never putting the 2016 deal to voters.",
+        "new_today": "Nothing new since WLRN's October 8 explainer; 17 days to the vote.",
+        "why_it_matters": "Waterfront leases are the template for how Miami prices public land, and the Marine Stadium restoration sits next door. A no vote sends the city back to the table; a yes locks in terms the mayor has said she would like improved.",
+        "thread_id": "thread-virginia-key-marina-referendum",
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Project Gutenberg",
-            "headline": "Meditations, Marcus Aurelius (George Long translation)",
-            "url": "https://www.gutenberg.org/ebooks/2680"
+            "publisher": "WLRN",
+            "headline": "Miami officials think the Virginia Key marina referendum is a 'bad deal'. So why is it on the ballot?",
+            "url": "https://www.wlrn.org/government-politics/2026-10-08/miami-virginia-key-marina-referendum-ballot"
           },
           {
-            "role": "analysis",
+            "role": "background",
+            "publisher": "Florida YIMBY",
+            "headline": "Court Rejects Challenge To Virginia Key Marina Referendum Ahead Of November Vote",
+            "url": "https://floridayimby.com/?p=41680"
+          }
+        ]
+      },
+      {
+        "id": "theme-dolphins-bye-week",
+        "affinity": "morning",
+        "topic": "sports",
+        "topic_label": "Miami Sports",
+        "title": "Dolphins, 0-5, stay with Willis through the bye",
+        "importance": 0.5,
+        "thesis": "Miami is not changing quarterbacks, and the offense has lost its most dynamic player.",
+        "synthesis": "Coach Jeff Hafley says there is no thought of benching Malik Willis, who has completed 56.2% of his passes for 849 yards, two touchdowns and four interceptions through five games. One report says running back De'Von Achane has been lost to injury; I did not find the details or timeline. The Jets visit on October 25, with an improved Jets defense noted in the same report.",
+        "new_today": "Achane's injury, per a single report; timeline unverified.",
+        "why_it_matters": "With the Heat opening October 21 and the Canes ranked, the Dolphins are the quiet part of the sports week, and the question is whether a rebuild year has anything left to learn.",
+        "thread_id": "thread-dolphins-hafley-rebuild",
+        "confidence": "low",
+        "sources": [
+          {
+            "role": "primary_reporting",
+            "publisher": "RotoBaller",
+            "headline": "Dolphins Not Considering Benching Malik Willis",
+            "url": "https://www.rotoballer.com/?p=1964618"
+          }
+        ]
+      },
+      {
+        "id": "theme-making-by-hand",
+        "affinity": "evening",
+        "topic": "living",
+        "topic_label": "Art of Living",
+        "title": "The essay that has waited since September",
+        "importance": 0.6,
+        "thesis": "Saturday night, with the Canes done by 10, is the natural slot for the one saved piece on your list.",
+        "synthesis": "Aeon's essay on why people dream of making things by hand has been in your reading list since September 3. I am going on its headline and its place in your craft-and-making thread, not a summary of its argument. After a week of headlines about yields and chips, a piece about the opposite kind of work is a fair counterweight.",
+        "new_today": "Nothing breaking; deliberately slower material for tonight.",
+        "why_it_matters": "It sits in your philosophy-of-living and craft threads, and it is the oldest unread item you have kept.",
+        "thread_id": null,
+        "confidence": "medium",
+        "sources": [
+          {
+            "role": "primary_reporting",
             "publisher": "Aeon",
             "headline": "The Radical Reasons Why You Dream of Making Things by Hand",
             "url": "https://aeon.co/essays/the-radical-reasons-why-you-dream-of-making-things-by-hand"
@@ -224,54 +221,54 @@
       }
     ],
     "rabbit_hole": {
-      "id": "rh-2026-10-16",
-      "title": "Politics and the English Language",
-      "creator": "George Orwell",
+      "id": "rh-2026-10-17",
+      "title": "Life Without Principle",
+      "creator": "Henry David Thoreau",
       "format": "essay",
-      "minutes": 30,
-      "why": "Orwell's 1946 essay argues that vague, borrowed phrases let us stop thinking, and offers six rules against it. It pairs well with a week in which commentary often outran the data it was about.",
-      "url": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/politics-and-the-english-language/",
+      "minutes": 35,
+      "why": "Thoreau wrote this in the 1850s as a lecture and it was published in The Atlantic in 1863. Among much else it is an argument against the appetite for news, which makes it a strange and bracing companion for a week of market tape and war headlines.",
+      "url": "https://en.wikisource.org/wiki/Life_Without_Principle",
       "related_interest": "living"
     },
     "beautiful_thing": {
-      "id": "bt-2026-10-16",
-      "title": "Vizcaya Museum and Gardens",
-      "creator": "James Deering, with F. Burrall Hoffman, Paul Chalfin and Diego Suarez",
-      "era": "1914-1922",
-      "body": "Vizcaya was built as the winter estate of industrialist James Deering on Biscayne Bay in Coconut Grove, and it is a National Historic Landmark. Notice how the Italian-Renaissance house turns toward the water and how the formal gardens are laid out as rooms; the stone barge in the bay, built as a breakwater, is part of the composition.",
-      "url": "https://en.wikipedia.org/wiki/Vizcaya_Museum_and_Gardens",
+      "id": "bt-2026-10-17",
+      "title": "Luis Barragán House and Studio",
+      "creator": "Luis Barragán",
+      "era": "1947-1948, Tacubaya, Mexico City",
+      "body": "Barragán built this house as his own home and studio and lived in it until his death in 1988; UNESCO inscribed it as a World Heritage site in 2004. Look at how little the architecture relies on ornament: plain planes, color and the way light moves across them do the work. It is a useful correction for anyone who thinks Latin American modernism is only concrete.",
+      "url": "https://en.wikipedia.org/wiki/Luis_Barrag%C3%A1n_House_and_Studio",
       "image": null,
-      "alt": "Vizcaya Museum and Gardens on Biscayne Bay"
+      "alt": "Not shown; see the linked page for photographs."
     },
-    "noticing_prompt": "Pay attention today to which sentences you read are descriptions and which are predictions dressed as descriptions. Notice what you do differently once you can tell them apart.",
+    "noticing_prompt": "Notice, once today, the moment you reach for a number or a score to tell you how things are going. Ask what you would think if you could not look.",
     "daily_puzzle": {
-      "id": "dp-2026-10-16",
-      "type": "logic",
-      "prompt": "Three boxes are labeled Apples, Oranges and Mixed. Every label is wrong. You may take one fruit out of just one box, without looking inside, and then you must correctly relabel all three boxes. Which box do you draw from?",
-      "hint": "One label tells you more than the others, because 'Mixed' cannot be true of that box.",
-      "solution": "Draw from the box labeled Mixed.",
-      "explanation": "Its label is wrong, so that box holds a single kind of fruit. If you draw an apple, it is the Apples box. The box labeled Oranges cannot be Oranges, and Apples is taken, so it is Mixed, which leaves the box labeled Apples as Oranges. Draw an orange and the same reasoning mirrors."
+      "id": "dp-2026-10-17",
+      "type": "lateral",
+      "prompt": "Two fathers and two sons went fishing. Each of them caught exactly one fish, yet together they brought home only three. Nobody lost, ate or gave away a fish. How is that possible?",
+      "hint": "Count the people, not the roles.",
+      "solution": "There were only three men: a grandfather, his son, and his grandson.",
+      "explanation": "The middle man is both a father and a son, so the roles add up to four while the people add up to three."
     },
     "evening_unwind": {
-      "id": "eu-2026-10-16",
+      "id": "eu-2026-10-17",
       "evening_quote": {
-        "text": "If thou art pained by any external thing, it is not this thing that disturbs thee, but thy own judgment about it. And it is in thy power to wipe out this judgment now.",
+        "text": "Men seek retreats for themselves, houses in the country, sea-shores, and mountains; and thou too art wont to desire such things very much. But this is altogether a mark of the most common sort of men, for it is in thy power whenever thou shalt choose to retire into thyself.",
         "attribution": "Marcus Aurelius",
-        "source": "Meditations, 8.47 (George Long translation)"
+        "source": "Meditations, 4.3 (George Long translation)"
       },
-      "evening_prompt": "Which headline this week changed your mood before it changed any decision you had to make?"
+      "evening_prompt": "Of this week's headlines, which one did you actually do something about, and which did you only watch?"
     },
     "reading_queue": [
       {
         "title": "The Radical Reasons Why You Dream of Making Things by Hand",
         "url": "https://aeon.co/essays/the-radical-reasons-why-you-dream-of-making-things-by-hand",
         "verdict": "weekend",
-        "reason": "Waiting since September 3; Saturday has Canes at 7, so Saturday afternoon or Sunday is the window."
+        "reason": "Waiting since September 3; tonight, after the Canes game, or Sunday is the window."
       }
     ],
     "quote": {
-      "text": "If thou art pained by any external thing, it is not this thing that disturbs thee, but thy own judgment about it.",
-      "attribution": "Marcus Aurelius, Meditations 8.47"
+      "text": "It is in thy power whenever thou shalt choose to retire into thyself.",
+      "attribution": "Marcus Aurelius, Meditations 4.3"
     }
   },
   "threads": [
@@ -761,9 +758,9 @@
       "title": "Federal Reserve rate path",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-10-16",
-      "updates": 87,
-      "current_state": "September CPI hot at 3.7%; Thursday rebound led by the Dow; October hike odds about 31% Thursday morning; FOMC Oct 27-28.",
+      "last_updated": "2026-10-17",
+      "updates": 88,
+      "current_state": "Stocks ended the week lower after Friday's selloff (secondary report); latest verified odds are a week old (Oct hold ~82%, Dec hike ~81% as of Oct 9); FOMC Oct 27-28.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -1194,6 +1191,11 @@
           "date": "2026-10-16",
           "summary": "Thursday rebound: Dow +1.1%, S&P +0.3%, Nasdaq +0.1% as investors rotate out of tech; hike odds near 31%; S&P still on track for a losing week.",
           "change_type": "improved"
+        },
+        {
+          "date": "2026-10-17",
+          "summary": "Friday: stocks reportedly fall (S&P -1.1%, Nasdaq -2.1%), erasing Thursday's rebound; Nasdaq about -4.5% on the week; producer prices reported hot.",
+          "change_type": "worsened"
         }
       ]
     },
@@ -1533,9 +1535,9 @@
       "title": "Heat: the Giannis era begins",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-10-16",
-      "updates": 20,
-      "current_state": "Preseason ends tonight at Orlando; opener Oct 21 vs Minnesota; Giannis passing-first in preseason so far.",
+      "last_updated": "2026-10-17",
+      "updates": 21,
+      "current_state": "Preseason finale at Orlando played Friday (result not found); opener Wednesday Oct 21 vs Minnesota; Giannis had 20-15-9 vs Brooklyn.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -1631,6 +1633,11 @@
           "date": "2026-10-16",
           "summary": "Preseason finale at Orlando tonight 7 p.m.; opener Oct 21 vs Minnesota.",
           "change_type": "advanced"
+        },
+        {
+          "date": "2026-10-17",
+          "summary": "Giannis 20 pts, 15 reb, 9 ast in a 144-128 win over Brooklyn; Orlando finale result not found; opener Oct 21 vs Minnesota.",
+          "change_type": "watch"
         }
       ]
     },
@@ -1639,9 +1646,9 @@
       "title": "Dolphins rebuild under Hafley",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-10-14",
-      "updates": 67,
-      "current_state": "0-5 in the bye week; Willis stays the starter; Jets on Oct 25.",
+      "last_updated": "2026-10-17",
+      "updates": 68,
+      "current_state": "0-5 in the bye week; Willis stays the starter; Achane reportedly injured (unverified); Jets on Oct 25.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -1977,6 +1984,11 @@
           "date": "2026-10-14",
           "summary": "Bye-week update: Hafley keeps Willis; injuries to Taaffe and Brents; Cook added to the practice squad.",
           "change_type": "unchanged"
+        },
+        {
+          "date": "2026-10-17",
+          "summary": "Hafley sticks with Willis (56.2%, 849 yds, 2 TD, 4 INT); one report says Achane is lost to injury; Jets Oct 25.",
+          "change_type": "worsened"
         }
       ]
     },
@@ -1985,9 +1997,9 @@
       "title": "Miami Hurricanes fall camp and the Mensah era",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-10-16",
-      "updates": 29,
-      "current_state": "Miami (5-0) hosts Florida State Saturday Oct 17, 7 p.m.; only Buchanan out of note.",
+      "last_updated": "2026-10-17",
+      "updates": 30,
+      "current_state": "Miami (5-0) hosts Florida State (3-3) tonight at 7 p.m. at Hard Rock Stadium; roughly 21-point favorite per betting previews.",
       "timeline": [
         {
           "date": "2026-08-14",
@@ -2133,6 +2145,11 @@
           "date": "2026-10-16",
           "summary": "Kickoff vs Florida State Saturday 7 p.m.; no new injury news found; last year's game finished 28-22 after Miami led 28-3.",
           "change_type": "advanced"
+        },
+        {
+          "date": "2026-10-17",
+          "summary": "Game day: Miami (5-0) hosts FSU (3-3) at 7 p.m.; Miami a roughly 21-point favorite per previews.",
+          "change_type": "watch"
         }
       ]
     },
@@ -2854,9 +2871,9 @@
       "title": "Virginia Key's second marina referendum",
       "topic": "miami",
       "status": "active",
-      "last_updated": "2026-10-14",
-      "updates": 10,
-      "current_state": "Referendum 3 is on the Nov 3 ballot because a court required it; officials call the deal bad; challenge to block rejected.",
+      "last_updated": "2026-10-17",
+      "updates": 11,
+      "current_state": "Referendum 3 is on the Nov 3 ballot (17 days); terms: 45-year lease, $2.2M minimum annual rent plus 6% of gross revenue, about $80M private investment; officials call the deal bad.",
       "timeline": [
         {
           "date": "2026-08-25",
@@ -2902,6 +2919,11 @@
           "date": "2026-10-14",
           "summary": "WLRN explains the city is on the ballot by court order; officials call the lease a bad deal.",
           "change_type": "advanced"
+        },
+        {
+          "date": "2026-10-17",
+          "summary": "No change; Referendum 3 on Nov 3 ballot: 45-year lease, $2.2M minimum rent plus 6% gross, ~$80M private investment.",
+          "change_type": "watch"
         }
       ]
     },
@@ -3208,7 +3230,7 @@
     }
   ],
   "meta": {
-    "content_freshness": "2026-10-16T09:30:00-04:00",
+    "content_freshness": "2026-10-17T09:30:00-04:00",
     "feedback_endpoint_mode": "github_contents",
     "minimum_client_schema_version": 1,
     "mode": "brain"
