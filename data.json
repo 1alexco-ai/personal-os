@@ -1,34 +1,34 @@
 {
   "schema_version": 2,
   "edition": {
-    "id": "2026-10-18",
-    "date": "2026-10-18",
-    "type": "weekly",
-    "generated_at": "2026-10-18T09:30:00-04:00",
+    "id": "2026-10-19",
+    "date": "2026-10-19",
+    "type": "weekday",
+    "generated_at": "2026-10-19T09:30:00-04:00",
     "timezone": "America/New_York",
     "title": "Personal OS",
     "front_page_letter": {
       "greeting": "Good morning",
       "body_paragraphs": [
-        "Good morning. This is the Sunday edition, so a look back as well as ahead. The week in one line: Thursday's rebound did not last, and the market sold off on the thing it had been celebrating. An AP-based wrap confirms Friday's closes: the S&P 500 at 7,659.44, down 1.1%, and the Nasdaq at 26,140.03, down 2.1%, each its worst week since June, led by chips on doubts about how long the AI buildout can pay for itself.",
-        "Three developments mattered. First, that selloff, which arrives with the 10-year near 5.2% as of October 14 and the Fed meeting nine days away. The odds I can find disagree sharply (16% for an October hike on prediction markets on October 7, far higher in earlier futures pricing), and none is live, so I would hold the meeting loosely. Second, Miami's own calendar tightened: the Heat open Wednesday with Giannis against the team that beat them by 38 points across two games last year, and Referendum 3 on the Virginia Key marinas is 16 days out on a lease the city itself calls a bad deal. Third, the Dolphins sit at 0-5 on a bye with Willis still the quarterback. I could not retrieve last night's Canes-FSU result, and I would rather say so than guess.",
-        "You starred nothing this week, so I have changed no weights. The threads I am carrying forward are the Fed path, Hormuz and oil (no verified update this morning), Referendum 3, and the Heat. In the evening there is one saved essay, on making things by hand, and a long Seneca for the weekend. What deserves attention today: the week was loud, and only a few of its items could be acted on. Pick those and let the rest be weather."
+        "Good morning. Monday opens with a result I could not give you last week: Miami beat Florida State 43-35 in double overtime on Saturday. The Canes are 6-0 and No. 3, but they were roughly three-touchdown favorites, so the score is less a coronation than a reminder that unbeaten and comfortable are different things.",
+        "The larger clock is the Fed. The S&P 500 closed Friday at 7,659.44 after its worst week since June, and the FOMC meets October 27-28 with the funds range at 3.75%-4.00%. The best readings I can find put a hold near 78% and a hike near a quarter, but none is timestamped today, so hold that number loosely. I could not verify the 10-year yield and left it out rather than guess.",
+        "Closer to home, the Heat open Wednesday with Giannis Antetokounmpo against Minnesota, the Dolphins return from the bye at the Jets on October 25, and Referendum 3 is fifteen days out with no new reporting. If one thing deserves attention today, it is the gap between how certain the market sounds and how little anyone can say about October 28."
       ],
       "read_only_three": [
         {
           "target_type": "theme",
-          "target_id": "theme-week-in-markets",
-          "label": "The week the chips led the market down"
+          "target_id": "theme-canes-fsu-result",
+          "label": "Canes survive FSU"
+        },
+        {
+          "target_type": "theme",
+          "target_id": "theme-fed-eight-days",
+          "label": "Eight days to the Fed"
         },
         {
           "target_type": "theme",
           "target_id": "theme-heat-open-wednesday",
-          "label": "Heat open Wednesday with Giannis"
-        },
-        {
-          "target_type": "theme",
-          "target_id": "theme-virginia-key-referendum",
-          "label": "Referendum 3: sixteen days out"
+          "label": "Heat open Wednesday"
         }
       ]
     },
@@ -38,120 +38,133 @@
         "value": "7,659.44",
         "change": "-1.1% Friday; -1.9% on the week",
         "observed": "Close, Friday, October 16, 2026",
-        "note": "AP-based wrap; worst week since June."
+        "note": "Latest confirmed close; Monday has not traded yet."
       },
       {
         "label": "Nasdaq Composite",
         "value": "26,140.03",
         "change": "-2.1% Friday; -4.5% on the week",
         "observed": "Close, Friday, October 16, 2026",
-        "note": "Chip stocks led; Micron -5.6%, Intel -5.8%."
+        "note": "Chip-led decline."
       },
       {
         "label": "Dow Jones",
         "value": "52,002.41",
         "change": "-0.3% Friday; +0.7% on the week",
         "observed": "Close, Friday, October 16, 2026",
-        "note": "The only major index up on the week."
-      },
-      {
-        "label": "10Y Treasury",
-        "value": "5.219%",
-        "change": "-2.5 bps",
-        "observed": "Wednesday, October 14, 2026",
-        "note": "Stale by four days; from a Bloomberg wire seen via search. Friday's level not verified."
+        "note": "Only major index up on the week."
       },
       {
         "label": "FOMC (Oct 27-28)",
-        "value": "9 days to the first day",
+        "value": "8 days to the first day",
         "change": "",
-        "observed": "Sunday, October 18, 2026",
-        "note": "No live reading found. Prediction markets had a 16% October hike chance on October 7; earlier futures pricing was far higher. Fed funds range is 3.75%-4.00% after September 16."
+        "observed": "Monday, October 19, 2026",
+        "note": "Hold about 78%, 25 bp hike about 25% on CME FedWatch readings from articles undated mid-October; not live. Funds range 3.75%-4.00% after September."
       }
     ],
     "public_day_context": {
-      "date_label": "Sunday, October 18, 2026",
+      "date_label": "Monday, October 19, 2026",
       "weather": "No Miami forecast retrieved; check weather.gov/mfl.",
-      "public_event": "Dolphins on their bye (next: at the Jets, Sunday, October 25); Heat open Wednesday, October 21, 7:30 p.m. ET vs. Minnesota; FOMC October 27-28; Virginia Key Referendum 3 is November 3."
+      "public_event": "Heat open Wednesday, October 21 vs. Minnesota; Dolphins at the Jets Sunday, October 25; FOMC October 27-28; Virginia Key Referendum 3 on November 3."
     },
     "what_changed": [
       {
-        "id": "delta-friday-confirmed",
-        "thread_id": "thread-fed-rate-path",
-        "change_type": "advanced",
-        "title": "Friday's selloff confirmed by an AP-based wrap",
-        "previous_state": "Yesterday's figures came from one secondary report and the Nasdaq level was unverified.",
-        "current_state": "S&P 500 7,659.44 (-1.1%), Dow 52,002.41 (-0.3%), Nasdaq 26,140.03 (-2.1%); S&P -1.9% and Nasdaq -4.5% on the week, led by chips.",
-        "why_it_matters": "The decline is real and chip-led, so the Fed meeting arrives with AI financing doubts already priced in part.",
+        "id": "delta-canes-fsu",
+        "thread_id": "thread-hurricanes-fall-camp",
+        "change_type": "resolved",
+        "title": "Canes-FSU final: Miami 43-35 in double overtime",
+        "previous_state": "Last edition could not find the score of Saturday's game.",
+        "current_state": "No. 3 Miami beat Florida State 43-35 in two overtimes to stay unbeaten at 6-0.",
+        "why_it_matters": "A closer game than the spread suggested.",
         "confidence": "high",
         "source": {
-          "publisher": "La Nacion (AP)",
-          "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-friday-10162026-nid16102026/"
+          "publisher": "960 The Ref (AP)",
+          "url": "https://www.960theref.com/sports/no-3-miami-hangs/HGYF6ZVS4Q7AZNBBQYVS2AQN4Y/"
         }
       },
       {
-        "id": "delta-heat-opener-set",
-        "thread_id": "thread-heat-giannis-era",
+        "id": "delta-panthers-ot",
+        "thread_id": "thread-panthers-2026-27-season",
         "change_type": "advanced",
-        "title": "Heat's opening night is set for Wednesday",
-        "previous_state": "The preseason ended with Giannis eased in.",
-        "current_state": "Wednesday, October 21, 7:30 p.m. ET on ESPN vs. Minnesota, with LaMelo Ball's Minnesota debut.",
-        "why_it_matters": "First regular-season read on the Giannis era.",
-        "confidence": "high",
+        "title": "Panthers beat Vancouver 3-2 in overtime",
+        "previous_state": "Florida had split its last two road games, losing at Buffalo and winning at Columbus.",
+        "current_state": "Brady Tkachuk scored a hat trick including the overtime winner on October 16.",
+        "why_it_matters": "A late-night win that keeps the early season on track.",
+        "confidence": "medium",
         "source": {
-          "publisher": "NBA.com",
-          "url": "https://www.nba.com/news/nba-espn-opening-week-schedule-2026-27"
+          "publisher": "NHL.com",
+          "url": "https://www.nhl.com/panthers/video/fla-vs-van-brady-stays-hot-6406939876112"
+        }
+      },
+      {
+        "id": "delta-fed-odds",
+        "thread_id": "thread-fed-rate-path",
+        "change_type": "advanced",
+        "title": "Fed odds readings now point to a hold near 78%",
+        "previous_state": "Odds sources conflicted and none was current.",
+        "current_state": "A CME FedWatch-based reading shows about 78% hold and about 25% hike, though undated mid-October.",
+        "why_it_matters": "If a hike were the base case, the selloff would look different; hold is the market's working assumption.",
+        "confidence": "low",
+        "source": {
+          "publisher": "Crypto Briefing",
+          "url": "https://cryptobriefing.com/market-odds-25-bps-fed-hike-october/"
         }
       }
     ],
     "themes": [
       {
-        "id": "theme-week-in-markets",
+        "id": "theme-canes-fsu-result",
         "affinity": "morning",
-        "topic": "markets",
-        "topic_label": "Markets & Macro",
-        "title": "The week the chips led the market down",
+        "topic": "sports",
+        "topic_label": "Miami Sports",
+        "title": "Canes survive FSU in double overtime, 43-35",
         "importance": 0.9,
-        "thesis": "Friday's selloff is now confirmed, and it was about AI spending, not a single data point.",
-        "synthesis": "An AP-based wrap puts Friday's S&P 500 close at 7,659.44 (-1.1%) and the Nasdaq at 26,140.03 (-2.1%), both their worst week since June, with the Nasdaq down 4.5% on the week. The Dow, helped by rotation, still gained 0.7%. Micron fell 5.6% and Intel 5.8% as worries grew about how long the AI buildout can keep financing itself. That is a correction from last edition, which carried the same moves from a single secondary report.",
-        "new_today": "Friday's figures are now confirmed against an AP-based wrap.",
-        "why_it_matters": "A chip-led drop into a Fed meeting, with the 10-year near 5.2%, is the setup that matters for cap rates and refinancing conversations, more than any one day's print.",
-        "thread_id": "thread-fed-rate-path",
+        "thesis": "Miami is 6-0 and No. 3, but a 21-point favorite needing two overtimes is a data point, not a victory lap.",
+        "synthesis": "No. 3 Miami beat Florida State 43-35 in double overtime on Saturday, October 17. Darian Mensah threw for 326 yards and three touchdowns, the last a 3-yarder to Malachi Toney in the second overtime. Pregame lines had Miami near three touchdowns ahead of a 3-3 Seminoles team, so the margin says more than the record does.",
+        "new_today": "Last Friday I could not find the score. The final is now confirmed.",
+        "why_it_matters": "The Canes remain unbeaten and a playoff-ranked team; how they close games is the question for the stretch run.",
+        "thread_id": "thread-hurricanes-fall-camp",
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "La Nacion (AP)",
-            "headline": "How major US stock indexes fared Friday 10/16/2026",
-            "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-friday-10162026-nid16102026/"
+            "publisher": "960 The Ref (AP)",
+            "headline": "No. 3 Miami hangs on to beat Florida State, 43-35 in double overtime",
+            "url": "https://www.960theref.com/sports/no-3-miami-hangs/HGYF6ZVS4Q7AZNBBQYVS2AQN4Y/"
           }
         ]
       },
       {
-        "id": "theme-fed-ten-days",
+        "id": "theme-fed-eight-days",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Nine days to the Fed, and the odds will not hold still",
-        "importance": 0.8,
-        "thesis": "The October decision looks like a hold on the best prediction-market reading, but no source I found is current.",
-        "synthesis": "The Fed raised its target range to 3.75%-4.00% on September 16. Prediction-market snapshots averaged by DeFi Rate put an October quarter-point hike at 16% on October 7; a late-September futures-based article had it near 70%. Bloomberg's October 14 wire, via search, had the 10-year near 5.22% after NY Fed President Williams said one more 2026 hike might be enough. Treat all of these as signals, not a live reading.",
-        "new_today": "No fresh CME FedWatch reading could be retrieved; the newest data point is October 14.",
-        "why_it_matters": "The gap between 16% and 70% is the whole story: until the meeting the debate is about December, and that is what prices into debt costs.",
+        "title": "Eight days to the Fed, and the base case is still a hold",
+        "importance": 0.88,
+        "thesis": "After a chip-led week of selling, the market is pricing a hold on October 28, with a hike as the live tail.",
+        "synthesis": "The S&P 500 closed Friday, October 16 at 7,659.44 and the Nasdaq at 26,140.03, the worst week since June. The FOMC meets October 27-28 with the funds range at 3.75%-4.00% after the September increase. The readings I could find put a hold near 78% and a 25 bp hike near a quarter, but they are undated mid-October snapshots, not a live quote.",
+        "new_today": "No new close yet this morning; odds reading is the freshest available but undated.",
+        "why_it_matters": "Rates and the 10-year drive cap rates and refinancing math for any CRE deal; a surprise hike would hit both equities and credit.",
         "thread_id": "thread-fed-rate-path",
-        "confidence": "low",
+        "confidence": "medium",
         "sources": [
           {
             "role": "analysis",
-            "publisher": "DeFi Rate",
-            "headline": "Fed decision odds snapshot, Oct 7, 2026 5:00 AM ET",
-            "url": "https://defirate.com/odds/fed-decision/snapshot/2026-10-07T0500/"
+            "publisher": "24/7 Wall St.",
+            "headline": "Williams Says the Fed Has Time. October Rate Hike Odds Fell Below a Coin Flip",
+            "url": "https://247wallst.com/investing/2026/09/30/williams-says-the-fed-has-time-october-rate-hike-odds-fell-below-a-coin-flip/"
+          },
+          {
+            "role": "analysis",
+            "publisher": "Crypto Briefing",
+            "headline": "Market raises odds of a 25 bps Fed rate hike to 24.9% ahead of October meeting",
+            "url": "https://cryptobriefing.com/market-odds-25-bps-fed-hike-october/"
           },
           {
             "role": "background",
-            "publisher": "Stockwirex",
-            "headline": "What Fed Rate Hike Odds at 70% Mean for Your Portfolio",
-            "url": "https://stockwirex.com/news/fed-rate-hike-odds-october-fomc-september-2026/"
+            "publisher": "DeFi Rate",
+            "headline": "Fed decision odds snapshot, October 7",
+            "url": "https://defirate.com/odds/fed-decision/snapshot/2026-10-07T0500/"
           }
         ]
       },
@@ -160,48 +173,48 @@
         "affinity": "morning",
         "topic": "sports",
         "topic_label": "Miami Sports",
-        "title": "Heat open Wednesday with Giannis and a score to settle",
-        "importance": 0.8,
-        "thesis": "Opening night is Minnesota, the team that beat Miami by a combined 38 points in two meetings last season.",
-        "synthesis": "Miami opens at Kaseya Center on Wednesday, October 21, 7:30 p.m. ET on ESPN, in Giannis Antetokounmpo's first regular-season game for the Heat. Minnesota brings LaMelo Ball in his debut next to Anthony Edwards. In the preseason Giannis scored 18 points on 8-of-13 two-point shooting in his home debut.",
-        "new_today": "Opener details confirmed on NBA.com.",
-        "why_it_matters": "It is the first honest test of whether the size gap Miami says it wants to close has closed.",
+        "title": "Heat open Wednesday: Giannis, Minnesota, and LaMelo",
+        "importance": 0.82,
+        "thesis": "Opening night pairs Giannis Antetokounmpo's Miami debut with LaMelo Ball's first game for the Timberwolves.",
+        "synthesis": "The Heat host Minnesota at Kaseya Center on Wednesday, October 21. Preseason went 2-0 in the games I could confirm (129-105 over Toronto, 128-118 over New Orleans); Giannis scored 18 against New Orleans and said finding his spots will take time. Miami went 43-39 last year and Vegas has the win total at 46.5.",
+        "new_today": "Preseason read is in; the result of the Minnesota exhibition was not confirmed.",
+        "why_it_matters": "The trade cost Herro, Ware, Jaquez and picks, so the first month sets the tone for whether it was worth it.",
         "thread_id": "thread-heat-giannis-era",
-        "confidence": "high",
+        "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "NBA.com",
-            "headline": "NBA/ESPN opening week schedule 2026-27",
-            "url": "https://www.nba.com/news/nba-espn-opening-week-schedule-2026-27"
+            "publisher": "Eurohoops",
+            "headline": "Giannis shines as Heat offense clicks: \"Getting better\"",
+            "url": "https://www.eurohoops.net/en/nba-news/2018376/giannis-antetokounmpo-scores-18-points-miami-heat-nba-preseason/"
           },
           {
-            "role": "background",
-            "publisher": "Eurohoops",
-            "headline": "Giannis shines as Heat offense clicks",
-            "url": "https://www.eurohoops.net/en/nba-news/2018376/giannis-antetokounmpo-scores-18-points-miami-heat-nba-preseason/"
+            "role": "analysis",
+            "publisher": "Yardbarker",
+            "headline": "Miami Heat 2026-27 NBA preseason preview",
+            "url": "https://www.yardbarker.com/nba/articles/miami_heat_2026_27_nba_preseason_preview/s1_17659_44423607"
           }
         ]
       },
       {
-        "id": "theme-canes-fsu-result",
+        "id": "theme-panthers-ot-win",
         "affinity": "morning",
         "topic": "sports",
         "topic_label": "Miami Sports",
-        "title": "Canes-FSU: the result I could not find",
-        "importance": 0.6,
-        "thesis": "Miami (5-0, No. 3) was a roughly 21-point favorite against a 3-3 Florida State; the final score was not retrievable this morning.",
-        "synthesis": "Pregame models gave Miami roughly a 92-93% chance. Every page I found was a preview, so I will not guess the outcome. Check ESPN for the score.",
-        "new_today": "Game played Saturday night; no recap available to me.",
-        "why_it_matters": "It decides how loud the unbeaten-season conversation gets before the next opponent.",
-        "thread_id": "thread-hurricanes-fall-camp",
-        "confidence": "low",
+        "title": "Panthers win in overtime on a Brady Tkachuk hat trick",
+        "importance": 0.65,
+        "thesis": "Florida beat Vancouver 3-2 on Friday, October 16, with Brady Tkachuk scoring all three goals, the last in overtime.",
+        "synthesis": "Per NHL.com video listings, Tkachuk completed a hat trick and scored the overtime winner. Before that Florida lost at Buffalo on October 12 and won easily at Columbus on October 14. I found no recap of a Saturday or Sunday game.",
+        "new_today": "Friday night result; nothing newer indexed.",
+        "why_it_matters": "Early-season form for a team you follow; a hat trick in a one-goal game is the kind of night that decides standings.",
+        "thread_id": "thread-panthers-2026-27-season",
+        "confidence": "medium",
         "sources": [
           {
-            "role": "analysis",
-            "publisher": "Dimers",
-            "headline": "Florida State vs. Miami: Week 7 Prediction, Picks & Odds",
-            "url": "https://www.dimers.com/cfb/predictions/2026_7_mia_fsu"
+            "role": "primary_reporting",
+            "publisher": "NHL.com",
+            "headline": "FLA vs. VAN: Brady completes hat trick, Tkachuk scores the overtime winner",
+            "url": "https://www.nhl.com/panthers/video/fla-vs-van-brady-stays-hot-6406939876112"
           }
         ]
       },
@@ -210,23 +223,23 @@
         "affinity": "morning",
         "topic": "miami",
         "topic_label": "Miami Life & Culture",
-        "title": "Referendum 3: sixteen days, a 45-year lease, no new numbers",
+        "title": "Referendum 3: fifteen days, a 45-year lease, nothing new",
         "importance": 0.7,
-        "thesis": "Voters decide November 3 on a 2016-era bid that city officials themselves call a bad deal.",
-        "synthesis": "The lease covers 27 acres for 45 years with two 15-year renewals, a minimum rent of $2.2 million a year plus 6% of gross revenue, and about $80 million in private investment from Virginia Key LLC (RCI Group and Suntex). A judge rejected a challenge to block the vote in August; the suit continues. I found no new polling or campaign finance data.",
-        "new_today": "Nothing new since WLRN's October 8 piece.",
-        "why_it_matters": "A waterfront lease decided by ballot is a rare, legible test of how Miami prices its public land.",
+        "thesis": "The marina lease vote on November 3 is unchanged: a judge kept it on the ballot and opponents are still litigating.",
+        "synthesis": "Voters on November 3 decide whether the city may lease about 27.6 acres to Virginia Key, LLC (RCI Group and Suntex) for 45 years plus two 15-year renewals, at $2.2 million minimum annual rent plus 6% of gross revenue and roughly $80 million of private investment. Circuit Judge Lisa Walsh denied an injunction in August. Voters rejected a similar plan in 2021 with about 53% against.",
+        "new_today": "Nothing new in this morning's searches; countdown only.",
+        "why_it_matters": "A direct test of how Miami prices waterfront public land, and the surrounding Marine Stadium site is a landmark of the city's modern architecture.",
         "thread_id": "thread-virginia-key-marina-referendum",
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
             "publisher": "WLRN",
-            "headline": "Miami officials think the Virginia Key marina referendum is a \"bad deal\". So why is it on the ballot?",
-            "url": "https://www.wlrn.org/light/government-politics/2026-10-08/miami-virginia-key-marina-referendum-ballot"
+            "headline": "Miami marina redevelopment will remain on the ballot, but the legal battle isn't over",
+            "url": "https://www.wlrn.org/law-justice/2026-08-21/miami-marine-stadium-virginia-key-lawsuit-ballot"
           },
           {
-            "role": "background",
+            "role": "local_perspective",
             "publisher": "Local 10",
             "headline": "Miami voters to decide fate of redevelopment proposal for waterfront land in Virginia Key",
             "url": "https://www.local10.com/news/local/2026/09/16/miami-voters-to-decide-fate-of-redevelopment-proposal-for-waterfront-land-in-virginia-key/"
@@ -238,20 +251,20 @@
         "affinity": "morning",
         "topic": "sports",
         "topic_label": "Miami Sports",
-        "title": "Dolphins, 0-5, spend the bye deciding what to keep",
-        "importance": 0.5,
-        "thesis": "Hafley says Malik Willis is the quarterback, and leaves the door open to bigger changes.",
-        "synthesis": "Willis has 849 passing yards, two touchdowns and four interceptions, with fumbles lost in each of the last three games, and De'Von Achane is out with a torn ACL. Next up is the Jets on the road on Sunday, October 25.",
-        "new_today": "No new news; the team is idle this Sunday.",
-        "why_it_matters": "The season is a rebuild with a calendar; the useful question is what gets evaluated now.",
+        "title": "Dolphins at 0-5 come off the bye to face the Jets",
+        "importance": 0.6,
+        "thesis": "The bye is over; the next evidence arrives Sunday, October 25 at the Jets.",
+        "synthesis": "Miami, in the first season of the Jeff Hafley era, is 0-5 and played its Week 6 bye this weekend. Next up is the Jets on October 25, with Buffalo on November 22 and the Jets again at home on November 29. I found no bye-week injury or roster news.",
+        "new_today": "Bye is done; no news found.",
+        "why_it_matters": "The Jets games bracket the schedule as the most winnable ones left.",
         "thread_id": "thread-dolphins-hafley-rebuild",
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "La Nacion (AP)",
-            "headline": "Dolphins not considering a QB change after Malik Willis struggles vs Bengals",
-            "url": "https://www.lanacion.com.ar/usa/dolphins-not-considering-a-qb-change-after-malik-willis-struggles-vs-bengals-nid12102026/"
+            "publisher": "Local 10",
+            "headline": "Miami Dolphins unveil 2026 schedule as Jeff Hafley era begins Sept. 13",
+            "url": "https://local10.com/sports/local/2026/05/14/miami-dolphins-unveil-2026-schedule-as-jeff-hafley-era-begins-sept-13/"
           }
         ]
       },
@@ -261,13 +274,13 @@
         "topic": "living",
         "topic_label": "Art of Living",
         "title": "Still waiting: the essay on making things by hand",
-        "importance": 0.6,
-        "thesis": "Sunday evening is the last easy slot before another week of tape; this is the one saved piece on your list.",
-        "synthesis": "Aeon's essay has been in your reading list since September 3. I am going on its headline and its place in your craft-and-making thread, not a summary of its argument.",
-        "new_today": "Nothing breaking; slower material on purpose.",
-        "why_it_matters": "It is your oldest unread saved item, and a fair counterweight to a week of yields and chips.",
+        "importance": 0.7,
+        "thesis": "The one piece on your reading list has waited since September 3; Monday night is as good as any.",
+        "synthesis": "Aeon's essay asks why people who work with screens keep dreaming of working with their hands. I have not summarized it because I have not read it for you; it is saved, short enough for one sitting, and fits the evening better than the morning.",
+        "new_today": "Nothing new; carried forward from your list.",
+        "why_it_matters": "A counterweight to a week of rate odds and box scores.",
         "thread_id": null,
-        "confidence": "medium",
+        "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
@@ -278,75 +291,55 @@
         ]
       }
     ],
-    "weekly_review": {
-      "what_mattered": "A chip-led selloff confirmed by AP, a Fed meeting whose odds no one can pin down, and Miami's autumn calendar (Heat opener, Referendum 3) coming into focus.",
-      "three_developments": [
-        "Nasdaq down 4.5% on the week, S&P down 1.9%, worst since June",
-        "Fed at 3.75%-4.00% after the September 16 hike; October 27-28 decision ahead; 10Y near 5.22% on October 14",
-        "Heat open Wednesday with Giannis; Referendum 3 on November 3"
-      ],
-      "starred": "No starred or saved items arrived this week.",
-      "momentum": "No change: markets, Miami, sports and Art of Living all sit at equal weight, because no feedback came in. Markets and Miami local stories took most of the space this week.",
-      "threads_to_carry": [
-        "thread-fed-rate-path",
-        "thread-iran-hormuz-crisis",
-        "thread-virginia-key-marina-referendum",
-        "thread-heat-giannis-era",
-        "thread-dolphins-hafley-rebuild"
-      ],
-      "reading_list_triage": "One saved item (Aeon, making things by hand): read soon. Nothing proposed for removal.",
-      "reflection_question": "Which of this week's headlines changed something you actually decided?",
-      "learning_summary": "Nothing new to learn from you this week: no stars, saves or dismissals arrived, so your interests stay evenly weighted. Send a star or a \"more like this\" and next week will lean that way."
-    },
     "rabbit_hole": {
-      "id": "rh-2026-10-18",
-      "title": "On the Shortness of Life",
-      "creator": "Seneca (trans. Gareth D. Williams)",
+      "id": "rh-2026-10-19",
+      "title": "Walking",
+      "creator": "Henry David Thoreau",
       "format": "essay",
-      "minutes": 45,
-      "why": "Seneca argues that life is long enough if we stop spending it on other people's demands and our own busyness. It is a weekend-length answer to a week spent watching tape.",
-      "url": "https://archive.org/stream/SenecaOnTheShortnessOfLife/Seneca+on+the+Shortness+of+Life_djvu.txt",
+      "minutes": 60,
+      "why": "Thoreau's 1862 essay argues that a walk is a discipline of attention, not exercise, and it reads like a rebuttal to a week of screens and ticker symbols. It is free on Project Gutenberg and rewards a slow evening.",
+      "url": "https://gutenberg.org/ebooks/1022",
       "related_interest": "living"
     },
     "beautiful_thing": {
-      "id": "bt-2026-10-18",
-      "title": "The Jungle (La jungla)",
-      "creator": "Wifredo Lam",
-      "era": "1942-43, oil and charcoal on paper mounted on canvas",
-      "body": "Lam painted this after returning to Cuba, drawing on Afro-Cuban religious imagery; MoMA holds it (Inter-American Fund), and it measures about 94 by 90 inches. Notice how the figures merge with the cane and foliage, and how Surrealist and Cubist habits are bent toward a Caribbean subject. It is worth looking for the point where you stop seeing plants and start seeing bodies.",
-      "url": "https://www.moma.org/audio/playlist/3/4295",
+      "id": "bt-2026-10-19",
+      "title": "Miami Marine Stadium",
+      "creator": "Hilario Candela (with Albert Ferendino)",
+      "era": "1963",
+      "body": "A grandstand for speedboat racing on Virginia Key, completed in 1963 and designed by Cuban-born Hilario Candela, who had arrived in Miami in 1960. Its folded-plate concrete roof spans 326 feet, which Docomomo US says was the longest cantilevered concrete span in the world when built. Look at how the roof floats with no columns to block the water view. The stadium was closed after Hurricane Andrew in 1992 and listed on the National Register of Historic Places in 2018.",
+      "url": "https://docomomo-us.org/register/miami-marine-stadium",
       "image": null,
-      "alt": "Not shown; see the linked MoMA page."
+      "alt": "The cantilevered concrete roof of the Miami Marine Stadium on Virginia Key."
     },
-    "noticing_prompt": "Notice which sentence you reach for when someone asks how your week was. Is it the loud one, or the true one?",
+    "noticing_prompt": "Notice which of today's numbers you are carrying as certain (a close, an odds reading, a score) and which are really somebody's estimate. See whether the estimates change how tightly you hold them.",
     "daily_puzzle": {
-      "id": "dp-2026-10-18",
-      "type": "riddle",
-      "prompt": "The more of me there is, the less you can see. I need no door to enter a room, and one struck match sends me to the corner. What am I?",
-      "hint": "You usually turn me off with a switch.",
-      "solution": "Darkness.",
-      "explanation": "More darkness means less visibility; it fills a room without entering, and light pushes it back."
+      "id": "dp-2026-10-19",
+      "type": "math",
+      "prompt": "A clock takes 5 seconds to strike six, counting from the first stroke to the last. At the same pace, how long does it take to strike twelve?",
+      "hint": "Count the pauses between strokes, not the strokes.",
+      "solution": "11 seconds.",
+      "explanation": "Six strokes have 5 gaps, so each gap is 1 second. Twelve strokes have 11 gaps, so 11 seconds."
     },
     "evening_unwind": {
-      "id": "eu-2026-10-18",
+      "id": "eu-2026-10-19",
       "evening_quote": {
-        "text": "Demand not that events should happen as you wish; but wish them to happen as they do happen, and you will go on well.",
-        "attribution": "Epictetus",
-        "source": "Enchiridion, 8 (George Long translation)"
+        "text": "We suffer more often in imagination than in reality.",
+        "attribution": "Seneca",
+        "source": "Letters to Lucilius, 13 (Gummere translation)"
       },
-      "evening_prompt": "Of this week's loud things, the selloff, the Fed, the 0-5 start, which one asks something of you that you have not yet done?"
+      "evening_prompt": "Of the Fed meeting, the Dolphins and the referendum, which one did you spend today bracing for that has not actually happened yet?"
     },
     "reading_queue": [
       {
         "title": "The Radical Reasons Why You Dream of Making Things by Hand",
         "url": "https://aeon.co/essays/the-radical-reasons-why-you-dream-of-making-things-by-hand",
         "verdict": "read_soon",
-        "reason": "Saved September 3; tonight is a good window."
+        "reason": "Saved September 3; paired with tonight's evening slot."
       }
     ],
     "quote": {
-      "text": "Wish them to happen as they do happen, and you will go on well.",
-      "attribution": "Epictetus, Enchiridion 8"
+      "text": "We suffer more often in imagination than in reality.",
+      "attribution": "Seneca, Letters to Lucilius 13"
     }
   },
   "threads": [
@@ -836,9 +829,9 @@
       "title": "Federal Reserve rate path",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-10-18",
-      "updates": 89,
-      "current_state": "Friday's selloff confirmed by AP-based wrap (S&P 7,659.44, Nasdaq 26,140.03; worst week since June); odds readings conflict and none is current; FOMC Oct 27-28.",
+      "last_updated": "2026-10-19",
+      "updates": 90,
+      "current_state": "S&P 7,659.44 and Nasdaq 26,140.03 at Friday close; hold odds about 78% per undated CME FedWatch reading; FOMC Oct 27-28.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -1279,6 +1272,11 @@
           "date": "2026-10-18",
           "summary": "AP-based wrap confirms Friday's close: S&P 500 -1.1% to 7,659.44, Nasdaq -2.1% to 26,140.03, chip-led; week -1.9% and -4.5%. Fed odds sources conflict and none is current.",
           "change_type": "advanced"
+        },
+        {
+          "date": "2026-10-19",
+          "summary": "Hold ~78% / hike ~25% reading found (undated mid-October); no Monday close yet.",
+          "change_type": "advanced"
         }
       ]
     },
@@ -1618,9 +1616,9 @@
       "title": "Heat: the Giannis era begins",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-10-18",
-      "updates": 22,
-      "current_state": "Regular season opens Wednesday Oct 21 vs. Minnesota (7:30 p.m. ET, ESPN) with Giannis's first regular-season game for Miami.",
+      "last_updated": "2026-10-19",
+      "updates": 23,
+      "current_state": "Opener Wed Oct 21 vs. Minnesota; preseason wins over Toronto and New Orleans.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -1726,6 +1724,11 @@
           "date": "2026-10-18",
           "summary": "Opener set: Wednesday Oct 21 vs. Minnesota, 7:30 p.m. ET; LaMelo Ball makes his Minnesota debut.",
           "change_type": "advanced"
+        },
+        {
+          "date": "2026-10-19",
+          "summary": "Preseason recap and opener preview; LaMelo Ball debuts for Minnesota.",
+          "change_type": "watch"
         }
       ]
     },
@@ -1734,9 +1737,9 @@
       "title": "Dolphins rebuild under Hafley",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-10-18",
-      "updates": 69,
-      "current_state": "0-5 on the Week 6 bye; Hafley says Willis remains the starter; next game at the Jets Sunday Oct 25.",
+      "last_updated": "2026-10-19",
+      "updates": 70,
+      "current_state": "0-5, bye complete; at Jets Oct 25.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -2082,6 +2085,11 @@
           "date": "2026-10-18",
           "summary": "Bye week; next game at the Jets Sunday, Oct 25.",
           "change_type": "watch"
+        },
+        {
+          "date": "2026-10-19",
+          "summary": "Bye week passed with no news found.",
+          "change_type": "unchanged"
         }
       ]
     },
@@ -2090,9 +2098,9 @@
       "title": "Miami Hurricanes fall camp and the Mensah era",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-10-18",
-      "updates": 31,
-      "current_state": "Miami (5-0, No. 3) hosted Florida State Saturday night as a ~21-point favorite; final score not retrievable at publication.",
+      "last_updated": "2026-10-19",
+      "updates": 32,
+      "current_state": "Miami 6-0 and No. 3 after 43-35 double-overtime win over FSU on Oct 17.",
       "timeline": [
         {
           "date": "2026-08-14",
@@ -2248,6 +2256,11 @@
           "date": "2026-10-18",
           "summary": "Saturday's Canes-FSU result could not be retrieved this morning; check ESPN.",
           "change_type": "watch"
+        },
+        {
+          "date": "2026-10-19",
+          "summary": "Miami beat FSU 43-35 in double overtime; Mensah 326 yds, 3 TD.",
+          "change_type": "resolved"
         }
       ]
     },
@@ -2818,9 +2831,9 @@
       "title": "Panthers' 2026-27 season takes shape",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-10-15",
-      "updates": 28,
-      "current_state": "Lost 5-3 at Buffalo Oct 12 (Ostlund PP goal); Barkov and Marchand out.",
+      "last_updated": "2026-10-19",
+      "updates": 29,
+      "current_state": "Beat Vancouver 3-2 in OT on Oct 16; Brady Tkachuk hat trick.",
       "timeline": [
         {
           "date": "2026-08-22",
@@ -2961,6 +2974,11 @@
           "date": "2026-10-15",
           "summary": "Lost 5-3 at Buffalo on Oct 12; both teams lost key players to injury.",
           "change_type": "worsened"
+        },
+        {
+          "date": "2026-10-19",
+          "summary": "Panthers beat Canucks 3-2 in OT on a Tkachuk hat trick.",
+          "change_type": "advanced"
         }
       ]
     },
@@ -2969,9 +2987,9 @@
       "title": "Virginia Key's second marina referendum",
       "topic": "miami",
       "status": "active",
-      "last_updated": "2026-10-18",
-      "updates": 12,
-      "current_state": "Referendum 3 is Nov 3 (16 days); no new polling or campaign-finance data found.",
+      "last_updated": "2026-10-19",
+      "updates": 13,
+      "current_state": "Vote Nov 3; injunction denied in August; no newer reporting found.",
       "timeline": [
         {
           "date": "2026-08-25",
@@ -3027,6 +3045,11 @@
           "date": "2026-10-18",
           "summary": "No new developments found; 16 days to the vote.",
           "change_type": "watch"
+        },
+        {
+          "date": "2026-10-19",
+          "summary": "Countdown only; no new facts.",
+          "change_type": "unchanged"
         }
       ]
     },
@@ -3333,7 +3356,7 @@
     }
   ],
   "meta": {
-    "content_freshness": "2026-10-18T09:30:00-04:00",
+    "content_freshness": "2026-10-19T09:30:00-04:00",
     "feedback_endpoint_mode": "github_contents",
     "minimum_client_schema_version": 1,
     "mode": "brain"
