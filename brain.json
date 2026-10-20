@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updatedAt": "2026-10-19",
+  "updatedAt": "2026-10-20",
   "interests": [
     {
       "id": "markets",
@@ -118,9 +118,9 @@
       "title": "US-Iran conflict and the Strait of Hormuz",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-10-15",
-      "updates": 94,
-      "current_state": "Brent about $106 on Oct 14; tanker attacks continue though flows persist; no reopening date.",
+      "last_updated": "2026-10-20",
+      "updates": 95,
+      "current_state": "Brent about $106; Hormuz transits thin (4 vessels Monday per Kpler); no reopening date.",
       "timeline": [
         {
           "date": "2026-07-21",
@@ -591,6 +591,11 @@
           "date": "2026-10-15",
           "summary": "Brent ~$106.56 Oct 14; ships struck and a container ship sunk by a mine; Houthi strike on Aramco Dhahran building; CENTCOM says 19M bbl moved in a day.",
           "change_type": "advanced"
+        },
+        {
+          "date": "2026-10-20",
+          "summary": "Kpler counted four commodity vessels through Hormuz Monday versus ten Sunday; Brent reported near $106 after Saudi pipeline outage.",
+          "change_type": "worsened"
         }
       ]
     },
@@ -599,9 +604,9 @@
       "title": "Federal Reserve rate path",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-10-19",
-      "updates": 90,
-      "current_state": "S&P 7,659.44 and Nasdaq 26,140.03 at Friday close; hold odds about 78% per undated CME FedWatch reading; FOMC Oct 27-28.",
+      "last_updated": "2026-10-20",
+      "updates": 91,
+      "current_state": "Hold is base case for Oct 27-28; hike is the live tail (about 25% on the freshest reading, not live).",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -1047,6 +1052,11 @@
           "date": "2026-10-19",
           "summary": "Hold ~78% / hike ~25% reading found (undated mid-October); no Monday close yet.",
           "change_type": "advanced"
+        },
+        {
+          "date": "2026-10-20",
+          "summary": "Monday: tech rebound, no Fed news; hold still the base case, hike odds reported near 25% (mid-October reading, not live). FOMC Oct 27-28.",
+          "change_type": "unchanged"
         }
       ]
     },
@@ -1386,9 +1396,9 @@
       "title": "Heat: the Giannis era begins",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-10-19",
-      "updates": 23,
-      "current_state": "Opener Wed Oct 21 vs. Minnesota; preseason wins over Toronto and New Orleans.",
+      "last_updated": "2026-10-20",
+      "updates": 24,
+      "current_state": "Season opens Wednesday at Minnesota with Giannis debuting.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -1499,6 +1509,11 @@
           "date": "2026-10-19",
           "summary": "Preseason recap and opener preview; LaMelo Ball debuts for Minnesota.",
           "change_type": "watch"
+        },
+        {
+          "date": "2026-10-20",
+          "summary": "Opener confirmed: Heat at Timberwolves Wednesday Oct 21, 7:30 pm ET; Giannis Antetokounmpo debuts for Miami, LaMelo Ball for Minnesota.",
+          "change_type": "advanced"
         }
       ]
     },
@@ -2757,8 +2772,8 @@
       "title": "Virginia Key's second marina referendum",
       "topic": "miami",
       "status": "active",
-      "last_updated": "2026-10-19",
-      "updates": 13,
+      "last_updated": "2026-10-20",
+      "updates": 14,
       "current_state": "Vote Nov 3; injunction denied in August; no newer reporting found.",
       "timeline": [
         {
@@ -2819,6 +2834,11 @@
         {
           "date": "2026-10-19",
           "summary": "Countdown only; no new facts.",
+          "change_type": "unchanged"
+        },
+        {
+          "date": "2026-10-20",
+          "summary": "Referendum 3 (Nov 3) terms restated: 27.62 acres, 45-year lease plus two 15-year options, $2.2M minimum rent plus 6% of gross, about $80M private investment; lawsuit pending, trial Sept 2027.",
           "change_type": "unchanged"
         }
       ]
@@ -2940,9 +2960,9 @@
       "title": "Houthi capture of Yemen's Red Sea coast and the Bab el-Mandeb strait",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-10-15",
-      "updates": 11,
-      "current_state": "France and the UK have both committed direct military support to Saudi Arabia for the first time in this conflict: Macron pledged troops, radar and air-defense systems to protect t Oct 14: Aramco Dhahran building hit.",
+      "last_updated": "2026-10-20",
+      "updates": 12,
+      "current_state": "Saudi East-West pipeline reported offline after Houthi strikes; Yanbu exports are the next exposure.",
       "timeline": [
         {
           "date": "2026-09-14",
@@ -2997,6 +3017,11 @@
         {
           "date": "2026-10-15",
           "summary": "Houthi strike sets fire to a Saudi Aramco building in Dhahran; no confirmed output disruption.",
+          "change_type": "worsened"
+        },
+        {
+          "date": "2026-10-20",
+          "summary": "Reports say Houthi strikes on Saudi energy sites took the East-West pipeline offline, the route that bypasses Hormuz; Goldman warns Yanbu exports could be at risk. Exact dates in secondary reports are unclear.",
           "change_type": "worsened"
         }
       ]
@@ -3119,7 +3144,7 @@
   ],
   "habits": {},
   "feedback": {
-    "cursor": "2026-10-19T14:00:00Z",
+    "cursor": "2026-10-20T14:05:00Z",
     "consumed_ids": [
       "1785675752910-wsh3d",
       "1785684398684-q0vfa",
@@ -3151,5 +3176,5 @@
   },
   "notes": [],
   "notes_policy": "Private reflections and note text are captured only on Alex's device and are never synced to or stored in this public repo. When a feedback action carries note text, only an inferred preference signal (interest/subtopic weight nudge) may be applied here - the text itself is discarded before it ever reaches brain.json.",
-  "systemNotes": "2026-10-19: Weekday edition. No feedback files; weights unchanged (all at 1.0, decay no-op). Canes-FSU final found (43-35 2OT). Fed odds reading undated; 10Y unverified and omitted. Threads updated: canes, fed, panthers, heat, dolphins, virginia-key. Evening: Seneca Letters 13; Thoreau Walking; Marine Stadium."
+  "systemNotes": "2026-10-20: Weekday edition. No feedback files; weights unchanged. Monday close found (S&P ~7,692). Saudi pipeline outage reported; 10Y omitted (conflicting). Threads updated: hormuz, houthi, fed, heat, virginia-key. Evening: Meditations, Epictetus Enchiridion 5, Vizcaya."
 }
