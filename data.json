@@ -1,292 +1,235 @@
 {
   "schema_version": 2,
   "edition": {
-    "id": "2026-10-22",
-    "date": "2026-10-22",
+    "id": "2026-10-23",
+    "date": "2026-10-23",
     "type": "weekday",
-    "generated_at": "2026-10-22T09:30:00-04:00",
+    "generated_at": "2026-10-23T09:30:00-04:00",
     "timezone": "America/New_York",
     "title": "Personal OS",
     "front_page_letter": {
       "greeting": "Good morning",
       "body_paragraphs": [
-        "Good morning. The market's mood turned on tech: the Nasdaq rose 1.05% Wednesday, the S&P 500 added 0.58% to 7,757.17 and the Dow closed at 52,856.09. Brent barely moved, near $108.82, and the 10-year sat around 5.13%. Those figures come from thin sourcing, so hold them loosely.",
-        "The more consequential news is not in the prices. The State Department has ordered non-essential staff out of Saudi Arabia, citing Houthi attacks, and the New York Times reports plans for renewed strikes on Iran after the midterms, all from unnamed officials. Indirect ceasefire talks continue in parallel. Oil is pricing the second story, which is also why the Fed is expected to hold next week and hike in December.",
-        "Giannis scored 35 in his Heat debut and Miami still lost 131-106. The Dolphins, 0-5, visit the Jets Sunday. For the evening, Orwell on clear writing and a look at Vizcaya. Pay attention today to how many sources stand behind each number you repeat."
+        "Good morning. The market's week ended on a sour note: the Nasdaq fell 2.6% Thursday to 26,008.86 and the S&P 500 lost 1.2% to 7,663.43, its worst day since July. The Dow, at 52,867.98, barely moved. Two of every three S&P stocks rose, so this was a few large technology names, with Meta down about 7%, taking the index with them on worries about AI spending.",
+        "Behind the screens, the Iran story is still contradictory. Trump said Wednesday that Washington is not negotiating; Tehran says indirect talks run through Pakistan and Qatar. Brent was reported near $111, and that matters because the Fed meets October 27-28 with a hold expected, according to recent reporting, and oil is the argument for patience or for a hike.",
+        "Closer to home, Virginia Key's marina lease goes to voters in eleven days, and the Dolphins, 0-5, visit the Jets on Sunday with Malik Willis expected to play. For the evening, Seneca on how we spend our time and a look at the Marine Stadium. Worth carrying: a loud day is not always a large one."
       ],
       "read_only_three": [
         {
           "target_type": "theme",
-          "target_id": "theme-iran-strike-plans",
-          "label": "Embassy drawdown and strike plans"
+          "target_id": "theme-nasdaq-ai-selloff",
+          "label": "Nasdaq's 2.6% fall"
         },
         {
           "target_type": "theme",
-          "target_id": "theme-heat-giannis-loss",
-          "label": "Giannis's 35-point debut loss"
+          "target_id": "theme-iran-denial-and-oil",
+          "label": "Talks denied, oil near $111"
         },
         {
           "target_type": "theme",
-          "target_id": "theme-fed-hold-december-hike",
-          "label": "Hold now, hike in December"
+          "target_id": "theme-virginia-key-11-days",
+          "label": "Virginia Key, 11 days out"
         }
       ]
     },
     "market_context": [
       {
         "label": "S&P 500",
-        "value": "7,757.17",
-        "change": "+0.58% Wednesday",
-        "observed": "Close, Wednesday, October 21, 2026",
-        "note": "Single aggregator source; not cross-checked."
+        "value": "7,663.43",
+        "change": "-1.2% Thursday",
+        "observed": "Close, Thursday, October 22, 2026",
+        "note": "Worst session since July, per AP/CNBC reporting."
       },
       {
         "label": "Nasdaq Composite",
-        "value": "26,702.86",
-        "change": "+1.05% Wednesday",
-        "observed": "Close, Wednesday, October 21, 2026",
-        "note": "Tech rebound."
+        "value": "26,008.86",
+        "change": "-2.6% Thursday",
+        "observed": "Close, Thursday, October 22, 2026",
+        "note": "Tech and AI-spending sell-off."
       },
       {
         "label": "Dow Jones",
-        "value": "52,856.09",
-        "change": "+0.69% Wednesday",
-        "observed": "Close, Wednesday, October 21, 2026",
-        "note": "Up 360 points."
+        "value": "52,867.98",
+        "change": "+0.02% Thursday",
+        "observed": "Close, Thursday, October 22, 2026",
+        "note": "Flat; two-thirds of S&P stocks rose."
       },
       {
-        "label": "10-year Treasury",
-        "value": "about 5.13%",
-        "change": "+0.01 pt",
-        "observed": "Wednesday, October 21, 2026 (Trading Economics, Forbes)",
-        "note": "Official close not yet posted; Yahoo showed 5.15, H.15 had 5.12 for Oct 20."
+        "label": "Brent crude",
+        "value": "about $111",
+        "change": "vs about $108.82 Wednesday",
+        "observed": "Thursday, October 22, 2026",
+        "note": "Trackers differ ($111 to $113); single-source figure."
       },
       {
         "label": "FOMC, October 27-28",
         "value": "Hold expected",
         "change": "",
-        "observed": "As reported October 21, 2026",
-        "note": "Reporting points to a hike in December; I could not verify a CME percentage today."
-      },
-      {
-        "label": "Brent / WTI",
-        "value": "$108.82 / $97.15",
-        "change": "Brent ~flat; WTI -0.68%",
-        "observed": "Settle, Wednesday, October 21, 2026",
-        "note": "Single source."
+        "observed": "As of October 22, 2026",
+        "note": "Last verified CME odds I found: about 25% chance of an October hike (October 14 report). 10-year yield fell Thursday but I could not verify the close, so I omit it."
       }
     ],
     "public_day_context": {
-      "date_label": "Thursday, October 22, 2026",
+      "date_label": "Friday, October 23, 2026",
       "weather": "No reliable Miami forecast retrieved; check weather.gov/mfl.",
       "public_event": "Dolphins at the Jets Sunday, October 25, 1 p.m. ET; FOMC October 27-28; Virginia Key Referendum 3 on November 3."
     },
     "what_changed": [
       {
-        "id": "delta-embassy-saudi",
-        "thread_id": "thread-iran-hormuz-crisis",
+        "id": "delta-nasdaq-selloff",
+        "thread_id": "thread-cre-capital-markets-2026",
         "change_type": "worsened",
-        "title": "US orders non-essential staff out of Saudi Arabia",
-        "previous_state": "Yesterday's story was an unconfirmed push to revive US-Iran talks.",
-        "current_state": "Talks continue indirectly, but the State Department cited Houthi attacks on civilian targets and pulled staff, and the NYT reported strike plans for after the midterms.",
-        "why_it_matters": "Escalation risk to Gulf supply is rising even as a channel stays open.",
+        "title": "Nasdaq drops 2.6% after Wednesday's rebound",
+        "previous_state": "On Wednesday the Nasdaq rose 1.05% to 26,702.86 and the S&P 500 closed at 7,757.17.",
+        "current_state": "On Thursday the Nasdaq fell 2.6% to 26,008.86 and the S&P 500 fell 1.2% to 7,663.43, its worst day since July.",
+        "why_it_matters": "Tech leadership is fragile while AI spending and capital costs are in question.",
         "confidence": "medium",
         "source": {
           "publisher": "CNBC",
-          "url": "https://cnbc.com/2026/10/22/us-iran-trump-hormuz-.html"
+          "url": "https://www.cnbc.com/2026/10/21/stock-market-today-live-updates.html"
         }
       },
       {
-        "id": "delta-heat-result",
-        "thread_id": "thread-heat-giannis-era",
-        "change_type": "advanced",
-        "title": "Heat open the Giannis era with a 131-106 loss",
-        "previous_state": "Giannis's debut was set for last night against Minnesota.",
-        "current_state": "He scored 35 but fouled out; Edwards had 45 and Miami shot 24.2% from three.",
-        "why_it_matters": "Early evidence on shooting and spacing around him.",
-        "confidence": "high",
+        "id": "delta-iran-talks-denial",
+        "thread_id": "thread-iran-hormuz-crisis",
+        "change_type": "watch",
+        "title": "Trump denies talks while Iran says indirect channels continue",
+        "previous_state": "Indirect ceasefire talks were reported to be continuing alongside reports of post-midterm strike plans.",
+        "current_state": "Trump said on October 21 the US is not negotiating; Iran's foreign minister says indirect talks via Pakistan and Qatar go on.",
+        "why_it_matters": "The contradiction leaves oil and rate expectations hostage to the next statement.",
+        "confidence": "medium",
         "source": {
-          "publisher": "NBA.com/Heat",
-          "url": "https://www.nba.com/heat/news/coups-takeaways-wolves-spoil-antetokounmpo-debut-heat-home-opener"
+          "publisher": "Gulf News",
+          "url": "https://gulfnews.com/uae/us-israel-iran-war-lull-nears-breaking-point-us-israel-weighing-new-strikes-what-to-know-oct-20-2026-1.500716736"
         }
       },
       {
-        "id": "delta-nasdaq-rebound",
-        "thread_id": "thread-cre-capital-markets-2026",
+        "id": "delta-brent-111",
+        "thread_id": "thread-iran-hormuz-crisis",
+        "change_type": "worsened",
+        "title": "Brent reported near $111",
+        "previous_state": "Brent was near $108.82 on Wednesday.",
+        "current_state": "Brent was reported near $111 on Thursday, a five-month high per market reports; trackers differ.",
+        "why_it_matters": "Higher oil complicates the Fed's inflation read before October 28.",
+        "confidence": "low",
+        "source": {
+          "publisher": "Outlook India",
+          "url": "https://www.outlookindia.com/international/no-talks-but-an-end-very-soon-trumps-iran-war-claims-face-tehrans-account"
+        }
+      },
+      {
+        "id": "delta-willis-ready",
+        "thread_id": "thread-dolphins-hafley-rebuild",
         "change_type": "improved",
-        "title": "Nasdaq rebounds 1.05% after a flat Tuesday",
-        "previous_state": "Tech stalled Tuesday on AI-spending worries.",
-        "current_state": "Nasdaq 26,702.86, S&P 7,757.17, Dow 52,856.09 on Wednesday.",
-        "why_it_matters": "Risk appetite held even with a 10-year above 5.1%.",
+        "title": "Willis expected to play Sunday",
+        "previous_state": "Dolphins QB Malik Willis was nursing a minor undisclosed injury.",
+        "current_state": "Hafley says Willis should be ready for Sunday's game at the Jets.",
+        "why_it_matters": "Miami's best chance at a first win rests on its quarterback being available.",
         "confidence": "medium",
         "source": {
-          "publisher": "Investrade",
-          "url": "https://investrade.com/market-review-october-21-2026/"
-        }
-      },
-      {
-        "id": "delta-fed-december",
-        "thread_id": "thread-fed-rate-path",
-        "change_type": "advanced",
-        "title": "Fed: hold in October, hike in December is the expectation",
-        "previous_state": "Yesterday's framing was six days to a meeting with hike risk.",
-        "current_state": "Reporting says markets expect a hold October 27-28 and a hike at the December meeting.",
-        "why_it_matters": "The decision next week matters less than Warsh's guidance on December.",
-        "confidence": "medium",
-        "source": {
-          "publisher": "Forbes Advisor",
-          "url": "https://www.forbes.com/advisor/investing/treasury-rates/"
+          "publisher": "New York Jets",
+          "url": "https://www.newyorkjets.com/news/jets-ready-for-first-home-afc-east-test-against-dolphin-10-21-2026"
         }
       }
     ],
     "themes": [
       {
-        "id": "theme-wed-close",
+        "id": "theme-nasdaq-ai-selloff",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Tech comes back: Nasdaq +1.05% as oil stays near $109",
-        "importance": 0.85,
-        "thesis": "A Wednesday rebound in tech lifted all three indexes while Brent barely moved.",
-        "synthesis": "The Nasdaq rose 1.05% to 26,702.86, the S&P 500 added 0.58% to 7,757.17 and the Dow gained 0.69% to 52,856.09. Technology and industrials led; defensives lagged. Brent was little changed near $108.82, and yields edged up late in the session.",
-        "new_today": "Reverses Tuesday's flat Nasdaq: tech leadership returned.",
-        "why_it_matters": "Rate-sensitive assets, CRE financing costs and your own portfolio are still priced off a 10-year near 5.1%.",
+        "title": "Nasdaq falls 2.6% as AI worries hit tech; S&P has its worst day since July",
+        "importance": 0.92,
+        "thesis": "A narrow tech sell-off, not a broad one, took back Wednesday's rebound and more.",
+        "synthesis": "The Nasdaq Composite dropped 694 points, or 2.6%, to 26,008.86 on Thursday, and the S&P 500 fell 1.2% to 7,663.43, its worst session since July. The Dow was flat at 52,867.98. Reports tie the move to worries about AI spending and the cost of capital, with Meta down about 7% and Tesla down about 3% after earnings; Treasury yields fell as investors bought bonds. Two of every three S&P stocks rose, so the damage sat in a few large names.",
+        "new_today": "Reverses Wednesday's +1.05% Nasdaq rebound; the S&P loses about 94 points from Wednesday's 7,757.17.",
+        "why_it_matters": "Falling yields help financing costs at the margin, but a tech-led drawdown with oil at a five-month high is the mix that keeps the Fed cautious ahead of October 27-28.",
         "thread_id": "thread-cre-capital-markets-2026",
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Investrade",
-            "headline": "Market Review: October 21, 2026",
-            "url": "https://investrade.com/market-review-october-21-2026/"
+            "publisher": "CNBC",
+            "headline": "Stock market news for Oct. 22, 2026",
+            "url": "https://www.cnbc.com/2026/10/21/stock-market-today-live-updates.html"
           },
           {
             "role": "analysis",
             "publisher": "Yahoo Finance",
-            "headline": "Stock Market News for Oct 21, 2026",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-oct-21-065700416.html"
+            "headline": "Stock market today: S&P 500, Nasdaq tank as tech stocks sink amid AI trade worries",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-22-dow-sp-500-nasdaq-tesla-meta-112217857.html"
           }
         ]
       },
       {
-        "id": "theme-iran-strike-plans",
+        "id": "theme-iran-denial-and-oil",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Embassy staff leave Saudi Arabia as talks inch along and strike plans reportedly wait for the midterms",
-        "importance": 0.9,
-        "thesis": "Diplomacy and contingency war planning are running in parallel, and oil is pricing the second.",
-        "synthesis": "Iran's foreign minister said Wednesday that indirect talks over a seven-day ceasefire proposal continue; Tehran has not heard back from Riyadh or the Houthis on its mediation offer. The State Department ordered non-essential staff out of Saudi Arabia, citing Houthi attacks on civilian targets, and the New York Times, citing unnamed US officials, reported plans for renewed strikes on Iran after the November midterms. These are anonymous-source reports, not announced policy.",
-        "new_today": "Embassy drawdown and the reported post-midterm strike planning are new since yesterday's unconfirmed talks story.",
-        "why_it_matters": "Hormuz and Red Sea risk is the main swing factor for oil, inflation and therefore rates and cap rates.",
+        "title": "Trump denies talks with Iran; Tehran says indirect channels are open; Brent near $111",
+        "importance": 0.88,
+        "thesis": "Washington and Tehran are describing two different diplomatic realities, and oil is pricing the gap.",
+        "synthesis": "On October 21 Trump denied that the US is negotiating with Iran while predicting something 'one way or the other' fairly soon. Iran's foreign minister Abbas Araghchi says indirect talks continue through Pakistan and Qatar and that the US sought extra clauses in Iran's proposal. Gulf News reports the lull nearing a 'breaking point' with the US and Israel weighing new strikes. Brent was reported near $111 on October 22, up from about $108.82 a day earlier, though trackers differ.",
+        "new_today": "Public denial of talks, versus Iran's claim of indirect talks; Brent edges higher.",
+        "why_it_matters": "Oil near $110 feeds the inflation path the Fed is weighing, and it sets the ceiling on how far long yields can fall.",
         "thread_id": "thread-iran-hormuz-crisis",
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "CNBC",
-            "headline": "U.S. pulls diplomats from Saudi Arabia as it reportedly readies Iran strikes after midterms",
-            "url": "https://cnbc.com/2026/10/22/us-iran-trump-hormuz-.html"
+            "publisher": "Gulf News",
+            "headline": "US-Israel-Iran war: Lull nears 'breaking point' (Oct. 20, 2026)",
+            "url": "https://gulfnews.com/uae/us-israel-iran-war-lull-nears-breaking-point-us-israel-weighing-new-strikes-what-to-know-oct-20-2026-1.500716736"
           },
           {
             "role": "analysis",
-            "publisher": "CBS News",
-            "headline": "Iran War Updates (live)",
-            "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-ceasefire-talks-ongoing/"
+            "publisher": "Outlook India",
+            "headline": "Trump Denies US-Iran Talks as Brent Crude Oil Price Tops $111",
+            "url": "https://www.outlookindia.com/international/no-talks-but-an-end-very-soon-trumps-iran-war-claims-face-tehrans-account"
           }
         ]
       },
       {
-        "id": "theme-fed-hold-december-hike",
-        "affinity": "morning",
-        "topic": "markets",
-        "topic_label": "Markets & Macro",
-        "title": "Fed: hold next week, hike in December is the base case",
-        "importance": 0.8,
-        "thesis": "Markets now expect a pause on October 27-28 and a hike in December, not a hike next week.",
-        "synthesis": "The Fed is in its blackout period ahead of the October 27-28 meeting. Reporting says Chair Kevin Warsh's Friday remarks did little to move expectations for no change next week and a rise at the final meeting of the year. The 10-year sat near 5.13% Wednesday, with sources differing by a couple of basis points.",
-        "new_today": "Framing sharpens: December, not October, is where the hike risk sits.",
-        "why_it_matters": "Financing for any CRE deal pencils off this path; a 5%+ 10-year with a December hike keeps exit caps under pressure.",
-        "thread_id": "thread-fed-rate-path",
-        "confidence": "medium",
-        "sources": [
-          {
-            "role": "primary_reporting",
-            "publisher": "Forbes Advisor",
-            "headline": "Treasury Rates Today: October 21, 2026",
-            "url": "https://www.forbes.com/advisor/investing/treasury-rates/"
-          },
-          {
-            "role": "background",
-            "publisher": "Federal Reserve Board",
-            "headline": "H.15 Selected Interest Rates",
-            "url": "https://www.federalreserve.gov/releases/h15/"
-          }
-        ]
-      },
-      {
-        "id": "theme-heat-giannis-loss",
+        "id": "theme-dolphins-jets-week7",
         "affinity": "morning",
         "topic": "sports",
         "topic_label": "Miami Sports",
-        "title": "Giannis scores 35 in his Heat debut; Minnesota wins 131-106",
-        "importance": 0.85,
-        "thesis": "A record-setting debut was swamped by Edwards's 45 and a cold night from three.",
-        "synthesis": "Antetokounmpo scored 35 on 13-of-19 shooting, a Heat debut record, and fouled out in the fourth. Anthony Edwards had 45 and LaMelo Ball 21 in his Wolves debut. Miami shot 24.2% from three and Minnesota closed the second quarter on a 22-9 run; the 25-point margin is the second-worst season-opening loss in franchise history.",
-        "new_today": "Result is in: 131-106 loss at Kaseya Center.",
-        "why_it_matters": "One game, but it says the spacing and shooting questions around the Giannis build are real ones.",
-        "thread_id": "thread-heat-giannis-era",
-        "confidence": "high",
-        "sources": [
-          {
-            "role": "primary_reporting",
-            "publisher": "NBA.com/Heat",
-            "headline": "Antetokounmpo Shines in HEAT Debut as Wolves' Three-Point Barrage Spoils Opening Night",
-            "url": "https://www.nba.com/heat/news/coups-takeaways-wolves-spoil-antetokounmpo-debut-heat-home-opener"
-          },
-          {
-            "role": "analysis",
-            "publisher": "Yahoo Sports",
-            "headline": "Heat begins Giannis Antetokounmpo era with blowout home loss to Timberwolves",
-            "url": "https://sports.yahoo.com/articles/heat-begins-giannis-antetokounmpo-era-022150194.html"
-          }
-        ]
-      },
-      {
-        "id": "theme-dolphins-jets-preview",
-        "affinity": "morning",
-        "topic": "sports",
-        "topic_label": "Miami Sports",
-        "title": "Dolphins, 0-5 off the bye, visit the Jets Sunday",
-        "importance": 0.6,
-        "thesis": "Hafley's first season needs a divisional win more than a moral one.",
-        "synthesis": "Miami is 0-5 after a 31-24 loss to Cincinnati on October 11 and plays at MetLife on Sunday, October 25 at 1 p.m. ET. The Jets are 2-3 with Geno Smith, a Miramar native, at quarterback. I found no injury report or betting line, so treat this as a schedule note, not a preview.",
-        "new_today": "Schedule and records confirmed; no new injury news found.",
-        "why_it_matters": "Your team, your Sunday; the Jets game is the cleanest early shot at a first win.",
+        "title": "Dolphins, 0-5, get Willis back and visit a 2-4 Jets team Sunday",
+        "importance": 0.78,
+        "thesis": "Sunday at MetLife is the first winnable game of the Hafley era, and the market agrees only modestly.",
+        "synthesis": "Miami visits the Jets on Sunday, October 25 at 1 p.m. ET, off the bye and winless. Jeff Hafley says quarterback Malik Willis should be ready after a minor injury. One preview lists the Jets as 4.5-point favorites with a total of 39.5. Jets coach Aaron Glenn and Hafley overlapped in Cleveland in 2014-15; the Jets' record is cited as 2-4 after a loss to New England.",
+        "new_today": "Willis expected to play; spread and total now posted.",
+        "why_it_matters": "A low total and a small spread describe two bad offenses. It is your team's best early chance to show the rebuild has a pulse.",
         "thread_id": "thread-dolphins-hafley-rebuild",
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Local 10",
-            "headline": "Miami Dolphins unveil 2026 schedule as Jeff Hafley era begins Sept. 13",
-            "url": "https://local10.com/sports/local/2026/05/14/miami-dolphins-unveil-2026-schedule-as-jeff-hafley-era-begins-sept-13/"
+            "publisher": "New York Jets",
+            "headline": "Jets ready for first home AFC East test against Dolphins",
+            "url": "https://www.newyorkjets.com/news/jets-ready-for-first-home-afc-east-test-against-dolphin-10-21-2026"
+          },
+          {
+            "role": "analysis",
+            "publisher": "Predictem",
+            "headline": "Dolphins vs Jets Prediction, Odds & Best Bet for Week 7",
+            "url": "https://www.predictem.com/nfl/dolphins-vs-jets-prediction-odds-best-bet-for-week-7/"
           }
         ]
       },
       {
-        "id": "theme-virginia-key-12-days",
+        "id": "theme-virginia-key-11-days",
         "affinity": "morning",
         "topic": "miami",
         "topic_label": "Miami Life & Culture",
-        "title": "Virginia Key, 12 days out: a 'bad deal' on the ballot anyway",
-        "importance": 0.7,
-        "thesis": "The city doesn't like the marina lease, but a court says voters must decide it.",
-        "synthesis": "Referendum 3 would lease roughly 27-28 acres of city waterfront for a 45-year term with two 15-year options to Virginia Key LLC (RCI Group and Suntex Marinas), for at least $2.2 million a year plus 6% of gross revenues and about $80 million of private investment. Commissioners placed it on the ballot unanimously and reluctantly after a judge sided with the city in August. Boaters and environmental groups oppose it; one group says the ballot wording is misleading.",
-        "new_today": "No new development this week found; context refresh 12 days before the November 3 vote.",
-        "why_it_matters": "Waterfront land use and public-private leases are your professional terrain, in your own city.",
+        "title": "Virginia Key, 11 days out: an $80 million marina lease no one at City Hall loves",
+        "importance": 0.8,
+        "thesis": "Referendum 3 asks voters to approve a lease the city's own officials call a bad deal, because a court says they must be asked.",
+        "synthesis": "The lease covers about 27.62 acres of the Rickenbacker and Marine Stadium marinas for 45 years with two 15-year renewals, with minimum rent of $2.2 million a year plus 6% of gross revenue and roughly $80 million of private redevelopment by Virginia Key LLC (RCI Group and Suntex Marinas). Commissioners placed it on the November 3 ballot unanimously but reluctantly. A circuit judge rejected the incumbent operator's bid to block the vote; that suit continues toward a September 2027 trial. Critics cite dredging risk to seagrass and manatees and rents anchored to 2017 terms.",
+        "new_today": "No new ruling; the campaign has moved to TV ads.",
+        "why_it_matters": "It is a live test of how Miami prices waterfront public land, directly relevant to your read on local development and CRE.",
         "thread_id": "thread-virginia-key-marina-referendum",
-        "confidence": "medium",
+        "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
@@ -295,33 +238,83 @@
             "url": "https://www.wlrn.org/government-politics/2026-10-08/miami-virginia-key-marina-referendum-ballot"
           },
           {
-            "role": "local_perspective",
+            "role": "background",
             "publisher": "Local 10",
             "headline": "Miami voters to decide fate of redevelopment proposal for waterfront land in Virginia Key",
             "url": "https://www.local10.com/news/local/2026/09/16/miami-voters-to-decide-fate-of-redevelopment-proposal-for-waterfront-land-in-virginia-key/"
+          },
+          {
+            "role": "background",
+            "publisher": "Axios Miami",
+            "headline": "Virginia Key marina redevelopment heads to Miami voters",
+            "url": "https://www.axios.com/local/miami/2026/08/20/virginia-key-marina-redevelopment-miami-referendum"
           }
         ]
       },
       {
-        "id": "theme-orwell-evening",
+        "id": "theme-seneca-evening",
         "affinity": "evening",
         "topic": "living",
         "topic_label": "Art of Living",
-        "title": "Orwell on clear writing, for a day of fuzzy numbers",
-        "importance": 0.65,
-        "thesis": "Vague language is how both bad policy and bad thinking get through.",
-        "synthesis": "Orwell's 1946 essay argues that stale phrases let writers avoid thinking, and that the habit feeds on itself. In a news cycle of anonymous-source strike plans and single-source market figures, his six rules read as a reading discipline as much as a writing one. About half an hour, free to read.",
-        "new_today": "Chosen as tonight's long read.",
-        "why_it_matters": "A test to run on every memo, deck and headline you touch this week.",
+        "title": "Seneca on the shortness of life, after a day of other people's urgency",
+        "importance": 0.7,
+        "thesis": "Seneca's complaint is not that life is short but that we hand it out carelessly.",
+        "synthesis": "After a day of index moves and war headlines, De Brevitate Vitae is a useful counterweight. It argues that most of our time is spent on things that belong to other people's agendas. A free full text is available at the Internet Archive.",
+        "new_today": "Evening reading for a Friday that had a lot of noise in it.",
+        "why_it_matters": "Your philosophy-of-time interest, and a corrective to a news cycle that rewards reaction.",
         "thread_id": null,
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "The Orwell Foundation",
-            "headline": "Politics and the English Language",
-            "url": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/politics-and-the-english-language/"
+            "publisher": "Internet Archive",
+            "headline": "Seneca on the Shortness of Life (Williams translation, full text)",
+            "url": "https://archive.org/stream/SenecaOnTheShortnessOfLife/Seneca+on+the+Shortness+of+Life_djvu.txt"
+          }
+        ]
+      },
+      {
+        "id": "theme-marine-stadium-evening",
+        "affinity": "evening",
+        "topic": "miami",
+        "topic_label": "Miami Life & Culture",
+        "title": "Miami Marine Stadium: a concrete roof that still hangs over a closed bowl",
+        "importance": 0.68,
+        "thesis": "One of Miami's best buildings has been shut since Hurricane Andrew, on the same Virginia Key waterfront now up for a vote.",
+        "synthesis": "Completed in 1963 and designed by Hilario Candela, a young Cuban émigré, the stadium has a cantilevered folded-plate concrete roof carried on eight slanted columns. It was closed as unsafe after Hurricane Andrew in 1992, listed on the National Register in 2018, and still awaits rehabilitation. Sources disagree on Candela's age at the time (27 or 28).",
+        "new_today": "Context for the Virginia Key referendum, from the building's side of the story.",
+        "why_it_matters": "A reminder that Miami's civic fights are also about what the city chooses to keep.",
+        "thread_id": null,
+        "confidence": "high",
+        "sources": [
+          {
+            "role": "background",
+            "publisher": "Wikipedia",
+            "headline": "Miami Marine Stadium",
+            "url": "https://en.wikipedia.org/wiki/Miami_Marine_Stadium"
           },
+          {
+            "role": "background",
+            "publisher": "Docomomo US",
+            "headline": "Miami Marine Stadium",
+            "url": "https://docomomo-us.org/register/miami-marine-stadium"
+          }
+        ]
+      },
+      {
+        "id": "theme-aeon-making-evening",
+        "affinity": "evening",
+        "topic": "living",
+        "topic_label": "Art of Living",
+        "title": "From your reading list: why we dream of making things by hand",
+        "importance": 0.62,
+        "thesis": "A saved Aeon essay that suits a slower hour.",
+        "synthesis": "You saved this essay on September 3 and it has waited since. It fits your craft-and-making interest, and the evening is a better time for it than the morning.",
+        "new_today": "Surfaced from your Reading List.",
+        "why_it_matters": "A counterweight to a week spent on screens and abstractions.",
+        "thread_id": null,
+        "confidence": "medium",
+        "sources": [
           {
             "role": "analysis",
             "publisher": "Aeon",
@@ -329,67 +322,45 @@
             "url": "https://aeon.co/essays/the-radical-reasons-why-you-dream-of-making-things-by-hand"
           }
         ]
-      },
-      {
-        "id": "theme-vizcaya-evening",
-        "affinity": "evening",
-        "topic": "miami",
-        "topic_label": "Miami Life & Culture",
-        "title": "Vizcaya: a house built to look like it had always been there",
-        "importance": 0.6,
-        "thesis": "A 1910s winter house on Biscayne Bay that borrowed centuries to feel old.",
-        "synthesis": "James Deering's Vizcaya was built between 1914 and 1922 with F. Burrall Hoffman as architect, Paul Chalfin as artistic director and Diego Suarez designing the gardens. It is a National Historic Landmark. A slow-culture companion to the Virginia Key story: the same bay, a very different idea of what to build on it.",
-        "new_today": "New to the edition.",
-        "why_it_matters": "Miami's most deliberate argument about what waterfront is for.",
-        "thread_id": null,
-        "confidence": "high",
-        "sources": [
-          {
-            "role": "primary_reporting",
-            "publisher": "Vizcaya Museum & Gardens",
-            "headline": "Vizcaya Museum & Gardens",
-            "url": "https://vizcaya.org/"
-          }
-        ]
       }
     ],
     "rabbit_hole": {
-      "id": "rh-2026-10-22",
-      "title": "Politics and the English Language",
-      "creator": "George Orwell",
+      "id": "rh-2026-10-23",
+      "title": "On the Shortness of Life",
+      "creator": "Seneca",
       "format": "essay",
-      "minutes": 30,
-      "why": "Orwell's claim is that sloppy language and sloppy thought feed each other. Read it on a week of anonymous-source war plans and single-source numbers, and it works as a field guide.",
-      "url": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/politics-and-the-english-language/",
+      "minutes": 45,
+      "why": "Seneca argues life is long enough if we do not waste it, and that most of what fills a day belongs to someone else's agenda. After a Thursday of index moves and war headlines, it is the right argument to meet.",
+      "url": "https://archive.org/stream/SenecaOnTheShortnessOfLife/Seneca+on+the+Shortness+of+Life_djvu.txt",
       "related_interest": "living"
     },
     "beautiful_thing": {
-      "id": "bt-2026-10-22",
-      "title": "Vizcaya Museum and Gardens",
-      "creator": "F. Burrall Hoffman, Paul Chalfin, Diego Suarez",
-      "era": "1914-1922",
-      "body": "James Deering built Vizcaya as a winter residence on Biscayne Bay between 1914 and 1922. Hoffman was the architect, Chalfin the artistic director and Suarez the garden designer, and the whole is a National Historic Landmark. Notice how the house faces the water and how the gardens are laid out as rooms; it was designed to feel inherited rather than new.",
-      "url": "https://vizcaya.org/",
+      "id": "bt-2026-10-23",
+      "title": "Miami Marine Stadium",
+      "creator": "Hilario Candela",
+      "era": "1963",
+      "body": "Completed in 1963 on Virginia Key and designed by Hilario Candela, the stadium is poured in concrete with a cantilevered folded-plate roof carried on eight slanted columns. It has been closed since Hurricane Andrew in 1992 and was added to the National Register of Historic Places in 2018. Look at how the roof seems to float over the seating bowl, and how little of it is ornament.",
+      "url": "https://en.wikipedia.org/wiki/Miami_Marine_Stadium",
       "image": null,
-      "alt": "Vizcaya's main house seen from the bay side"
+      "alt": "Concrete folded-plate roof of the Miami Marine Stadium over the water at Virginia Key."
     },
-    "noticing_prompt": "Pick one number you will see today, a yield, a score, a price, and ask who produced it and how many sources stand behind it. Notice how the answer changes how firmly you hold it.",
+    "noticing_prompt": "Today, notice one thing that feels urgent and ask whose clock it is on. Then notice what happens to it after an hour.",
     "daily_puzzle": {
-      "id": "dp-2026-10-22",
-      "type": "wordplay",
-      "prompt": "Which five-letter word becomes shorter when you add two letters to it?",
-      "hint": "Think about what the two letters could do to the word's meaning, not its length.",
-      "solution": "SHORT. Add 'er' and you get 'shorter'.",
-      "explanation": "The added letters turn the word into a comparative, so the word is longer but means less length."
+      "id": "dp-2026-10-23",
+      "type": "logic",
+      "prompt": "Alice is taller than Bea. Cleo is shorter than Bea. Dana is taller than Alice but shorter than Eli. Who is the third tallest of the five?",
+      "hint": "Line them up from tallest to shortest, one clue at a time.",
+      "solution": "Alice. The order is Eli, Dana, Alice, Bea, Cleo.",
+      "explanation": "Dana is between Alice and Eli, so Eli > Dana > Alice, and Alice > Bea > Cleo, which places Alice third."
     },
     "evening_unwind": {
-      "id": "eu-2026-10-22",
+      "id": "eu-2026-10-23",
       "evening_quote": {
-        "text": "Men are disturbed not by things, but by the views which they take of them.",
-        "attribution": "Epictetus",
-        "source": "Enchiridion, 5 (translations vary in wording)"
+        "text": "Men seek retreats for themselves, houses in the country, sea-shores, and mountains; and thou too art wont to desire such things very much. But this is altogether a mark of the most common sort of men, for it is in thy power whenever thou shalt choose to retire into thyself.",
+        "attribution": "Marcus Aurelius",
+        "source": "Meditations, 4.3 (George Long translation)"
       },
-      "evening_prompt": "Which headline today, an oil price or a score, shaped your mood before you knew what it actually meant for you?"
+      "evening_prompt": "What felt urgent about the Nasdaq's fall this morning, and does it still feel that way tonight?"
     },
     "reading_queue": [
       {
@@ -400,8 +371,8 @@
       }
     ],
     "quote": {
-      "text": "Men are disturbed not by things, but by the views which they take of them.",
-      "attribution": "Epictetus, Enchiridion 5"
+      "text": "Men seek retreats for themselves... it is in thy power whenever thou shalt choose to retire into thyself.",
+      "attribution": "Marcus Aurelius, Meditations 4.3"
     }
   },
   "threads": [
@@ -410,9 +381,9 @@
       "title": "US-Iran conflict and the Strait of Hormuz",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-10-22",
-      "updates": 97,
-      "current_state": "Brent ~$108.82 Wednesday; indirect talks continue; US drawdown in Saudi Arabia; reported strike plans after midterms (unnamed sources).",
+      "last_updated": "2026-10-23",
+      "updates": 98,
+      "current_state": "Trump denies talks (Oct 21); Iran says indirect talks via Pakistan and Qatar continue; Brent ~$111 Thursday.",
       "timeline": [
         {
           "date": "2026-07-21",
@@ -898,6 +869,11 @@
           "date": "2026-10-22",
           "summary": "US pulls non-essential staff from Saudi Arabia; NYT reports post-midterm strike plans; indirect ceasefire talks continue.",
           "change_type": "worsened"
+        },
+        {
+          "date": "2026-10-23",
+          "summary": "Trump denies negotiating; Araghchi says indirect talks continue; Brent reported near $111.",
+          "change_type": "watch"
         }
       ]
     },
@@ -906,9 +882,9 @@
       "title": "Federal Reserve rate path",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-10-22",
-      "updates": 93,
-      "current_state": "Hold expected next week; December hike is the base case; 10-year ~5.13%.",
+      "last_updated": "2026-10-23",
+      "updates": 94,
+      "current_state": "FOMC Oct 27-28: hold expected; last verified CME odds ~25% for an October hike (Oct 14 report); oil near $111 adds to the hawkish case.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -1368,6 +1344,11 @@
         {
           "date": "2026-10-22",
           "summary": "Reporting: hold expected October 27-28, hike expected in December; Chair Warsh's remarks did not shift that.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-10-23",
+          "summary": "Oil at a five-month high ahead of the Oct 27-28 meeting; hold still the base case.",
           "change_type": "advanced"
         }
       ]
@@ -1844,9 +1825,9 @@
       "title": "Dolphins rebuild under Hafley",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-10-22",
-      "updates": 71,
-      "current_state": "0-5; at Jets Sunday 1 p.m. ET.",
+      "last_updated": "2026-10-23",
+      "updates": 72,
+      "current_state": "0-5 off the bye; at Jets Sunday Oct 25 1pm ET; Willis expected to play; Jets favored by 4.5.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -2202,6 +2183,11 @@
           "date": "2026-10-22",
           "summary": "Dolphins 0-5 off the bye; at the Jets Sunday October 25.",
           "change_type": "watch"
+        },
+        {
+          "date": "2026-10-23",
+          "summary": "Willis expected to play Sunday at the Jets; Jets favored by 4.5, total 39.5.",
+          "change_type": "improved"
         }
       ]
     },
@@ -2528,9 +2514,9 @@
       "title": "2026 CRE capital markets under pressure",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-10-22",
-      "updates": 45,
-      "current_state": "Risk assets firm; 10-year ~5.13%; oil ~$109.",
+      "last_updated": "2026-10-23",
+      "updates": 46,
+      "current_state": "Nasdaq -2.6% to 26,008.86 and S&P -1.2% to 7,663.43 on Thursday October 22; tech and AI-spending worries.",
       "timeline": [
         {
           "date": "2026-07-24",
@@ -2761,6 +2747,11 @@
           "date": "2026-10-22",
           "summary": "Nasdaq +1.05%, S&P 7,757.17, Dow 52,856.09 on Wednesday; 10-year ~5.13%.",
           "change_type": "improved"
+        },
+        {
+          "date": "2026-10-23",
+          "summary": "Nasdaq falls 2.6% to 26,008.86; S&P 500 down 1.2% to 7,663.43, worst day since July; yields fall.",
+          "change_type": "worsened"
         }
       ]
     },
@@ -3114,9 +3105,9 @@
       "title": "Virginia Key's second marina referendum",
       "topic": "miami",
       "status": "active",
-      "last_updated": "2026-10-22",
-      "updates": 16,
-      "current_state": "Vote November 3; lease terms unchanged; opposition from boaters and environmentalists.",
+      "last_updated": "2026-10-23",
+      "updates": 17,
+      "current_state": "Referendum 3 on Nov 3: 45-year lease, $2.2M minimum rent plus 6% of revenue, ~$80M private investment; incumbent suit continues, trial Sept 2027.",
       "timeline": [
         {
           "date": "2026-08-25",
@@ -3192,6 +3183,11 @@
           "date": "2026-10-22",
           "summary": "12 days to Referendum 3; no new developments found; terms re-confirmed.",
           "change_type": "watch"
+        },
+        {
+          "date": "2026-10-23",
+          "summary": "11 days out; campaign moves to TV ads; challenge to the vote was rejected, suit continues.",
+          "change_type": "advanced"
         }
       ]
     },
@@ -3508,7 +3504,7 @@
     }
   ],
   "meta": {
-    "content_freshness": "2026-10-22T09:30:00-04:00",
+    "content_freshness": "2026-10-23T09:30:00-04:00",
     "feedback_endpoint_mode": "github_contents",
     "minimum_client_schema_version": 1,
     "mode": "brain"
