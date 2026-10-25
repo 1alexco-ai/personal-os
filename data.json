@@ -1,34 +1,34 @@
 {
   "schema_version": 2,
   "edition": {
-    "id": "2026-10-24",
-    "date": "2026-10-24",
-    "type": "weekday",
-    "generated_at": "2026-10-24T09:30:00-04:00",
+    "id": "2026-10-25",
+    "date": "2026-10-25",
+    "type": "weekly",
+    "generated_at": "2026-10-25T09:30:00-04:00",
     "timezone": "America/New_York",
     "title": "Personal OS",
     "front_page_letter": {
       "greeting": "Good morning",
       "body_paragraphs": [
-        "Good morning. Friday finished with the Dow down 653 points to 52,215.16, the S&P 500 off 0.52% at 7,623.68 and the Nasdaq nearly flat at 25,955.34. The notable shift is the cause: Thursday was a handful of AI names, Friday was crude above $100 and a broader tape. The Nasdaq has now lost two weeks in a row.",
-        "That ties directly to Tuesday and Wednesday, when the Fed meets with a hold widely expected. Trump rejected Iran's truce plan this week while saying talks will resume, and Iran says its plan still stands, so oil has no reason to settle before the Fed speaks. Hold is the forecast; the tone is the risk.",
-        "Locally, Miami hosts Pitt this afternoon, the Dolphins are at the Jets tomorrow, and the Virginia Key fight now has a county lawsuit alongside the November 3 vote. For tonight, Montaigne and the essay you saved in September. One thing deserves your attention: the Fed's wording on Wednesday, not Friday's prices."
+        "Good morning. This is the Sunday edition. The week in one line: the market's problem moved from chips to crude. Friday's closes were the S&P 500 at 7,623.68, the Nasdaq at 25,955.34 and the Dow at 52,215.16, with Brent at $116.72, its highest since June 2022, and the 10-year back at 5.00%. Both the S&P and the Nasdaq lost a second straight week.",
+        "Three developments mattered. First, oil: up roughly 20% in October, and the reason hike talk will not die. Second, the Fed on Wednesday, where a hold is the consensus and the wording is the risk, with Alphabet, Microsoft and Amazon reporting around it. Third, closer to home, No. 1 Miami beat Pitt 52-23 to reach 7-0, the Dolphins try to avoid 0-6 at the Jets at 1 p.m., and Referendum 3 on the Virginia Key marinas is nine days out, now joined by a lawsuit over the Seaquarium site.",
+        "You starred and saved nothing new this week, so I have changed no weights. The threads carried forward are the Fed path, Hormuz and oil, the two waterfront fights and the Dolphins. Tonight there is the Aeon essay you saved in September, and for the long weekend read, Emerson's Self-Reliance. What deserves attention today is a short list: the Fed's wording, not the headline decision, and nothing else this week is likely to change what you do."
       ],
       "read_only_three": [
         {
           "target_type": "theme",
-          "target_id": "theme-friday-close-dow",
-          "label": "Dow falls 653, oil above $100"
+          "target_id": "theme-week-in-markets",
+          "label": "Oil at $116, 10-year at 5%"
         },
         {
           "target_type": "theme",
-          "target_id": "theme-fed-week-ahead",
-          "label": "Fed meets Tuesday and Wednesday"
+          "target_id": "theme-fed-earnings-week",
+          "label": "Fed Wednesday, earnings around it"
         },
         {
           "target_type": "theme",
-          "target_id": "theme-seaquarium-suit",
-          "label": "Seaquarium marina lawsuit"
+          "target_id": "theme-canes-pitt-result",
+          "label": "Miami 52, Pitt 23: 7-0"
         }
       ]
     },
@@ -36,285 +36,243 @@
       {
         "label": "S&P 500",
         "value": "7,623.68",
-        "change": "-0.52% Friday",
+        "change": "-0.52% Friday; about -0.5% on the week",
         "observed": "Close, Friday, October 23, 2026",
-        "note": "Second straight weekly loss, about 0.5% on the week."
+        "note": "Second straight weekly loss."
       },
       {
         "label": "Nasdaq Composite",
         "value": "25,955.34",
         "change": "-0.21% Friday",
         "observed": "Close, Friday, October 23, 2026",
-        "note": "Second straight weekly loss, after Thursday's 2.6% drop."
+        "note": "Second straight weekly loss."
       },
       {
         "label": "Dow Jones",
         "value": "52,215.16",
-        "change": "-1.23% (-652.82) Friday",
+        "change": "-1.23% Friday",
         "observed": "Close, Friday, October 23, 2026",
-        "note": "Still finished the week higher."
+        "note": "Finished the week higher."
+      },
+      {
+        "label": "10-Year Treasury yield",
+        "value": "5.00%",
+        "change": "up from 4.96% Thursday",
+        "observed": "Friday, October 23, 2026",
+        "note": "Reported by CNBC via a secondary summary; verify before relying on it."
+      },
+      {
+        "label": "Brent crude",
+        "value": "$116.72",
+        "change": "+3.1% Friday",
+        "observed": "Settle, Friday, October 23, 2026",
+        "note": "Highest since June 2022; WTI settled near $103."
       },
       {
         "label": "FOMC, October 27-28",
         "value": "Hold expected",
-        "change": "",
-        "observed": "As of October 23, 2026",
-        "note": "One source puts the hold at 82%. The 10-year yield close could not be verified, so it is omitted."
+        "change": "Decision Wednesday, October 28, 2 p.m. ET",
+        "observed": "CME FedWatch via Reuters, week of October 19-23, 2026",
+        "note": "An October 20 reading had a hold near 83% and a quarter-point hike near 17%; no fresher figure verified."
       }
     ],
     "public_day_context": {
-      "date_label": "Saturday, October 24, 2026",
-      "weather": "Monthly outlook only: partly sunny, high near 83F, low near 74F. No short-range forecast retrieved; check weather.gov/mfl.",
-      "public_event": "Pitt at Miami today; Dolphins at the Jets Sunday, October 25, 1 p.m. ET; FOMC October 27-28; Virginia Key Referendum 3 on November 3."
+      "date_label": "Sunday, October 25, 2026",
+      "weather": "No verified forecast retrieved; check weather.gov/mfl.",
+      "public_event": "Dolphins at Jets, 1 p.m. ET; FOMC October 27-28; Virginia Key Referendum 3 on November 3."
     },
     "what_changed": [
       {
-        "id": "delta-dow-oil-selloff",
-        "thread_id": "thread-cre-capital-markets-2026",
-        "change_type": "worsened",
-        "title": "Selloff broadens as the Dow drops 653 points",
-        "previous_state": "On Thursday the Nasdaq fell 2.6% while the Dow was flat and most S&P stocks rose.",
-        "current_state": "On Friday the Dow fell 1.23% to 52,215.16 and the S&P 500 fell 0.52% as U.S. crude topped $100.",
-        "why_it_matters": "The pressure has shifted from tech valuations to energy costs and rates.",
-        "confidence": "medium",
+        "id": "delta-canes-7-0",
+        "thread_id": "thread-hurricanes-fall-camp",
+        "change_type": "advanced",
+        "title": "Miami beats Pitt 52-23 and moves to 7-0",
+        "previous_state": "Miami entered Saturday 6-0 and ranked No. 1.",
+        "current_state": "Miami is 7-0 and 5-0 in the ACC after a 52-23 win.",
+        "why_it_matters": "Toney's 16 catches and Mensah's 387 yards show an offense with no obvious ceiling.",
+        "confidence": "high",
         "source": {
-          "publisher": "Reuters via The Spokesman-Review",
-          "url": "https://www.spokesman.com/stories/2026/oct/23/dow-sp-500-fall-tech-steadies-to-end-rocky-week/"
+          "publisher": "Miami Hurricanes",
+          "url": "https://miamihurricanes.com/news/2026/10/24/no-1-miami-rolls-in-52-23-win-over-pitt"
         }
       },
       {
-        "id": "delta-iran-truce-rejected",
+        "id": "delta-brent-116",
         "thread_id": "thread-iran-hormuz-crisis",
-        "change_type": "advanced",
-        "title": "Trump rejects Iran's truce plan, expects talks to resume",
-        "previous_state": "Trump denied talks were under way while Iran said indirect channels via Pakistan and Qatar continued.",
-        "current_state": "Trump rejected Iran's limited-ceasefire proposal yet expects talks to resume this coming week; Iran's parliament advanced a bill to charge Hormuz transit fees.",
-        "why_it_matters": "A settlement now carries a possible permanent fee regime on a key oil route.",
+        "change_type": "worsened",
+        "title": "Brent settles at $116.72, a four-year high",
+        "previous_state": "Friday's edition had U.S. crude above $100.",
+        "current_state": "Brent settled Friday at $116.72, the highest since June 2022, up from under $97 at the start of October.",
+        "why_it_matters": "Oil is the transmission line from the Gulf to Fed hike odds.",
         "confidence": "medium",
         "source": {
-          "publisher": "CBS News",
-          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-7-day-proposal/"
+          "publisher": "DTN / Progressive Farmer",
+          "url": "https://www.dtnpf.com/agriculture/web/ag/news/world-policy/article/2026/10/23/wall-street-loses-ground-pressure-2"
         }
       },
       {
-        "id": "delta-seaquarium-lawsuit",
-        "thread_id": "thread-seaquarium-marina-redevelopment",
-        "change_type": "advanced",
-        "title": "Residents file suit for a countywide Seaquarium marina vote",
-        "previous_state": "Frankel and Stauber had sent a demand letter on September 30 threatening to sue.",
-        "current_state": "They sued Miami-Dade on October 21 seeking an injunction and a countywide referendum.",
-        "why_it_matters": "A court could add a vote to a 99-year bay-bottom lease before it is signed.",
+        "id": "delta-10y-5",
+        "thread_id": "thread-fed-rate-path",
+        "change_type": "new",
+        "title": "The 10-year closes the week at 5.00%",
+        "previous_state": "Thursday's tech sell-off pulled the yield to 4.96%.",
+        "current_state": "It rose back to 5.00% on Friday as oil climbed.",
+        "why_it_matters": "The line CRE debt is priced off sits at a round-number threshold going into the Fed.",
         "confidence": "medium",
         "source": {
-          "publisher": "WLRN",
-          "url": "https://www.wlrn.org/environment/2026-10-21/residents-file-lawsuit-demand-a-vote-on-a-marina-at-revamped-seaquarium"
+          "publisher": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-drop-nasdaq-rises-after-sharp-tech-sell-off-160940864.html"
         }
       }
     ],
     "themes": [
       {
-        "id": "theme-friday-close-dow",
+        "id": "theme-week-in-markets",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "The selloff widens: the Dow sheds 653 points as oil tops $100",
-        "importance": 0.9,
-        "thesis": "Friday's damage moved from the AI trade to the broader market, with oil doing the pushing.",
-        "synthesis": "The Dow fell 652.82 points, or 1.23%, to 52,215.16, while the S&P 500 lost 0.52% to 7,623.68 and the Nasdaq slipped 0.21% to 25,955.34. The Nasdaq has now lost two weeks running, though the Dow finished the week higher. Reuters and CNBC tie the day to U.S. crude above $100 on fears the Iran conflict will flare again.",
-        "new_today": "Thursday's story was a few tech giants; Friday's was oil and a wider tape.",
-        "why_it_matters": "Higher energy costs and a volatile equity tape both feed the rate and cap-rate conversation behind CRE financing.",
+        "title": "The week in markets: oil at a four-year high, the 10-year back at 5%",
+        "importance": 0.92,
+        "thesis": "A second losing week for the S&P 500 and Nasdaq was driven less by tech than by crude, with Brent at its highest since June 2022.",
+        "synthesis": "The S&P 500 lost about 0.5% on the week and the Nasdaq a second week running, while the Dow finished higher. Brent settled Friday at $116.72, up from under $97 at the start of October, and WTI closed near $103. The 10-year Treasury yield ended the week at 5.00%, having dipped below that on Thursday's tech sell-off.",
+        "new_today": "Weekend read of Friday's closes; Brent's October climb is now about 20%.",
+        "why_it_matters": "Oil at this level feeds directly into the hike-or-hold argument and into the cost of money behind every cap-rate conversation. The 5% handle on the 10-year is the number that matters for CRE, more than any equity index.",
         "thread_id": "thread-cre-capital-markets-2026",
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Reuters via The Spokesman-Review",
-            "headline": "Dow, S&P 500 fall, tech steadies to end rocky week",
-            "url": "https://www.spokesman.com/stories/2026/oct/23/dow-sp-500-fall-tech-steadies-to-end-rocky-week/"
+            "publisher": "DTN / Progressive Farmer",
+            "headline": "Wall Street Loses Ground Under Pressure From Rising Oil Prices",
+            "url": "https://www.dtnpf.com/agriculture/web/ag/news/world-policy/article/2026/10/23/wall-street-loses-ground-pressure-2"
           },
           {
             "role": "analysis",
             "publisher": "Yahoo Finance",
             "headline": "Stock market today: Dow sinks 600 points, S&P 500, Nasdaq drop to cap a volatile week, oil prices rise",
-            "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-23-dow-sp-500-nasdaq-tesla-meta-093000521.html"
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-drop-nasdaq-rises-after-sharp-tech-sell-off-160940864.html"
           }
         ]
       },
       {
-        "id": "theme-fed-week-ahead",
+        "id": "theme-fed-earnings-week",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "The Fed meets Tuesday and Wednesday, with a hold priced in",
-        "importance": 0.8,
-        "thesis": "Oil is the reason a hold looks easy to forecast and hard to feel comfortable about.",
-        "synthesis": "Markets widely expect the Fed to leave rates unchanged at the October 27-28 meeting; one source put the hold at 82%. The question is tone: Chair Warsh has declined to say whether a hike is coming before year-end, and crude above $100 keeps that door visibly open.",
-        "new_today": "The meeting is now three days away; Friday's oil move adds to the hawkish reading of it.",
-        "why_it_matters": "The path of rates is the largest single input to CRE valuations and refinancing in your world.",
+        "title": "Fed Wednesday, with a third of the S&P reporting around it",
+        "importance": 0.9,
+        "thesis": "The FOMC decision comes Wednesday, October 28 at 2 p.m. ET, and a hold is the consensus, but the week is crowded with earnings that can move the tape first.",
+        "synthesis": "CME FedWatch, cited by Reuters, has investors expecting rates unchanged at the current 3.75%-4.00% range. An earlier reading, October 20, put a hold at about 83% and a quarter-point hike near 17%; I could not retrieve a fresher figure. Alphabet, Microsoft and Amazon report this week, among roughly a third of S&P 500 companies.",
+        "new_today": "Week-ahead framing: earnings flood plus the Fed, with AI spending the open question.",
+        "why_it_matters": "A hold with hawkish language and a 5% 10-year is a different market than a clean hold. December 8-9 is where several sources place the larger hike risk.",
         "thread_id": "thread-fed-rate-path",
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Yahoo Finance",
-            "headline": "Stock market today: Dow sinks 600 points as oil prices rise",
-            "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-23-dow-sp-500-nasdaq-tesla-meta-093000521.html"
+            "publisher": "Reuters via Marshall Independent",
+            "headline": "Wall Street week ahead: Earnings flood, Fed meeting will test rickety AI market rally",
+            "url": "https://www.mvariety.com/business/business_news/wall-street-week-ahead-earnings-flood-fed-meeting-will-test-rickety-ai-market-rally/article_d20d13cb-b629-4872-a4db-25650c437735.html"
           },
           {
             "role": "background",
-            "publisher": "Reuters via The Spokesman-Review",
-            "headline": "Dow, S&P 500 fall, tech steadies to end rocky week",
-            "url": "https://www.spokesman.com/stories/2026/oct/23/dow-sp-500-fall-tech-steadies-to-end-rocky-week/"
+            "publisher": "DTN / Progressive Farmer",
+            "headline": "Wall Street Loses Ground Under Pressure From Rising Oil Prices",
+            "url": "https://www.dtnpf.com/agriculture/web/ag/news/world-policy/article/2026/10/23/wall-street-loses-ground-pressure-2"
           }
         ]
       },
       {
-        "id": "theme-iran-truce-standoff",
+        "id": "theme-canes-pitt-result",
         "affinity": "morning",
-        "topic": "markets",
-        "topic_label": "Markets & Macro",
-        "title": "Trump rejects Iran's truce plan but expects talks to resume",
+        "topic": "sports",
+        "topic_label": "Miami Sports",
+        "title": "No. 1 Miami routs Pitt 52-23 and moves to 7-0",
         "importance": 0.85,
-        "thesis": "Both sides say talks continue while neither moves on what the talks are about.",
-        "synthesis": "Trump rejected Tehran's limited-ceasefire proposal, said he expects talks to resume in the coming week, and kept renewed strikes on the table. Iran says its plan, which starts with reopening the strait, stands, and that indirect talks continue through mediators including Pakistan and Qatar. Iran's parliament has also advanced a bill to manage Hormuz and charge vessels fees, and reports describe two tankers burning after hitting mines.",
-        "new_today": "The stalemate is unchanged in substance, but the Hormuz fee bill and the mine reports raise the cost of any settlement.",
-        "why_it_matters": "Oil is the channel from this war to your rates, your deals and your gas bill.",
-        "thread_id": "thread-iran-hormuz-crisis",
-        "confidence": "medium",
+        "thesis": "Miami scored early and often on a day built around the 2001 championship team's 25th anniversary.",
+        "synthesis": "Darian Mensah completed 31 of 37 for 387 yards and four touchdowns without an interception. Malachi Toney set Miami's single-game receptions record with 16 catches for 194 yards and three touchdowns, one short of the ACC record. Miami is 7-0 overall and 5-0 in the ACC; Pitt fell to 5-3.",
+        "new_today": "Final: Miami 52, Pittsburgh 23 (one Yahoo lede printed 52-16; the school and other outlets say 52-23).",
+        "why_it_matters": "A perfect record at No. 1 changes how every remaining game is read, and the offense produced this without a turnover.",
+        "thread_id": "thread-hurricanes-fall-camp",
+        "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "CBS News",
-            "headline": "Trump expects talks with Iran to resume this week after rejecting proposal",
-            "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-7-day-proposal/"
+            "publisher": "Miami Hurricanes",
+            "headline": "No. 1 Miami Rolls in 52-23 Win over Pitt",
+            "url": "https://miamihurricanes.com/news/2026/10/24/no-1-miami-rolls-in-52-23-win-over-pitt"
           },
           {
             "role": "analysis",
-            "publisher": "Fox News",
-            "headline": "Trump warns Russia could join forces with Iran as Tehran dares US to strike again",
-            "url": "https://www.foxnews.com/live-news/us-iran-war-peace-talks-oil-strait-hormuz-trump-october-18"
-          }
-        ]
-      },
-      {
-        "id": "theme-canes-pitt",
-        "affinity": "morning",
-        "topic": "sports",
-        "topic_label": "Miami Sports",
-        "title": "Miami hosts Pitt today with a perfect record to protect",
-        "importance": 0.8,
-        "thesis": "Miami's season has become the one in which every Saturday carries national weight.",
-        "synthesis": "Preview coverage describes Miami as 6-0 and ranked No. 1 for the first time since 2002, hosting a 5-2 Pitt team that lost its starting quarterback to a torn ACL and had not settled on a replacement. Cristobal is calling Pitt disruptive and brushing aside the ranking. I could not confirm the ranking or spread against a second source.",
-        "new_today": "Game day: Pitt at Miami, Saturday, October 24, 2026.",
-        "why_it_matters": "Your Hurricanes, and the rare week when the city's mood follows a college score.",
-        "thread_id": "thread-hurricanes-fall-camp",
-        "confidence": "low",
-        "sources": [
-          {
-            "role": "primary_reporting",
-            "publisher": "CBS Sports",
-            "headline": "Pittsburgh vs. Miami gametracker, October 24, 2026",
-            "url": "https://www.cbssports.com/college-football/gametracker/preview/NCAAF_20261024_PITT@MIAMI/"
-          },
-          {
-            "role": "background",
             "publisher": "Yahoo Sports",
-            "headline": "Pittsburgh Panthers @ Miami (FL) Hurricanes",
-            "url": "https://sports.yahoo.com/ncaaf/pittsburgh-panthers-miami-(fl)-hurricanes-202610240011/"
+            "headline": "Miami Dominates Pittsburgh 52-23 Behind Record Breaking Malachi Toney Performance",
+            "url": "https://sports.yahoo.com/articles/miami-dominates-pittsburgh-52-23-212311088.html"
           }
         ]
       },
       {
-        "id": "theme-dolphins-jets-sunday",
+        "id": "theme-dolphins-jets-today",
         "affinity": "morning",
         "topic": "sports",
         "topic_label": "Miami Sports",
-        "title": "Dolphins, 0-5, visit the 2-4 Jets on Sunday",
-        "importance": 0.65,
-        "thesis": "A winless team meets a bad one, and the point differential is the only argument for the Jets.",
-        "synthesis": "Miami is 0-5 with a minus-62 point differential, the worst of any team playing this week, after a Week 6 bye. The Jets are 2-4 after a 26-19 loss at New England. Kickoff is 1:00 p.m. ET Sunday at MetLife on CBS; previews lean Jets.",
-        "new_today": "Previews published this week; no change in the Dolphins' standing.",
-        "why_it_matters": "Your Dolphins thread: the question is whether the rebuild shows any pulse before the bye is a distant memory.",
+        "title": "Dolphins at the Jets, 1 p.m.: the 0-6 question",
+        "importance": 0.7,
+        "thesis": "At 0-5, Miami needs a win more than the 2-4 Jets do, and the Jets' own coach expects a competitive opponent.",
+        "synthesis": "The Dolphins come off a bye with losses to San Francisco, Kansas City and Minnesota among their five. Jets coach Aaron Glenn and Jeff Hafley overlapped on Cleveland's defensive staff in 2014-15. Kickoff is 1 p.m. ET at MetLife Stadium; I found no injury report or betting line.",
+        "new_today": "Game day; no result as of this writing.",
+        "why_it_matters": "A sixth loss would sharpen the argument that this season is purely about 2027 evaluation.",
         "thread_id": "thread-dolphins-hafley-rebuild",
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Football Nation",
-            "headline": "Dolphins at Jets Week 7 guide",
-            "url": "https://www.footballnationusa.com/post/dolphins-at-jets-week-7-guide-2026"
-          },
-          {
-            "role": "analysis",
-            "publisher": "Squawka",
-            "headline": "Dolphins vs Jets prediction",
-            "url": "https://www.squawka.com/us/?p=77193"
+            "publisher": "New York Jets",
+            "headline": "Jets ready for first home AFC East test against Dolphins",
+            "url": "https://www.newyorkjets.com/news/jets-ready-for-first-home-afc-east-test-against-dolphin-10-21-2026"
           }
         ]
       },
       {
-        "id": "theme-seaquarium-suit",
+        "id": "theme-waterfront-nov3",
         "affinity": "morning",
         "topic": "miami",
         "topic_label": "Miami Life & Culture",
-        "title": "Residents sue Miami-Dade for a countywide vote on the Seaquarium marina",
+        "title": "Nine days to Referendum 3, and a lawsuit over the Seaquarium marina",
         "importance": 0.8,
-        "thesis": "The Virginia Key waterfront now has two fights: a city vote in ten days and a county lawsuit over whether a second one is owed.",
-        "synthesis": "Attorneys Gregory Frankel and Aaron Stauber sued the county on October 21, arguing a 1993 charter amendment requires voter approval for commercial operations on public land and that the submerged bay bottom was never exempted. The proposal involves a 99-year lease adding about 56.7 acres of bay bottom, with a Terra Group affiliate and developer David Martin. Separately, City of Miami voters decide Referendum 3 on the Rickenbacker and Marine Stadium marinas on November 3.",
-        "new_today": "The suit was filed Wednesday; the county's response was not in the coverage I found.",
-        "why_it_matters": "Waterfront land, public process and development economics: your civic and CRE interests in one place.",
-        "thread_id": "thread-seaquarium-marina-redevelopment",
+        "thesis": "Miami voters decide the Virginia Key marina lease on November 3; separately, two residents want a countywide vote on the Seaquarium marina.",
+        "synthesis": "Referendum 3 covers about 27.6 acres on a 45-year lease with a $2.2 million minimum annual rent and roughly $80 million in private investment; a judge rejected an effort to block the vote, though that case continues. On October 21 Gregory Frankel and Aaron Stauber sued Miami-Dade, a day after commissioners advanced a Terra Group-affiliated lease, seeking an injunction and a countywide referendum. I found no ruling in the Seaquarium case.",
+        "new_today": "No new ruling; both fights are now on the calendar together.",
+        "why_it_matters": "Two decisions about how Biscayne Bay's edge is leased are being made at once, one by ballot and one possibly by a court.",
+        "thread_id": "thread-virginia-key-marina-referendum",
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
             "publisher": "WLRN",
-            "headline": "Residents file lawsuit demand a vote on a marina at revamped Seaquarium",
+            "headline": "Residents file lawsuit to demand a vote on a marina at revamped Seaquarium",
             "url": "https://www.wlrn.org/environment/2026-10-21/residents-file-lawsuit-demand-a-vote-on-a-marina-at-revamped-seaquarium"
           },
           {
             "role": "background",
-            "publisher": "WLRN",
-            "headline": "Miami officials think the Virginia Key marina referendum is a 'bad deal'. So why is it on the ballot?",
-            "url": "https://www.wlrn.org/light/government-politics/2026-10-08/miami-virginia-key-marina-referendum-ballot"
+            "publisher": "Axios Miami",
+            "headline": "Virginia Key marina redevelopment heads to Miami voters",
+            "url": "https://www.axios.com/local/miami/2026/08/20/virginia-key-marina-redevelopment-miami-referendum"
           }
         ]
       },
       {
-        "id": "theme-montaigne-evening",
+        "id": "theme-making-by-hand",
         "affinity": "evening",
         "topic": "living",
         "topic_label": "Art of Living",
-        "title": "Montaigne, near the end, on living an ordinary life well",
+        "title": "The saved essay: why we dream of making things by hand",
         "importance": 0.75,
-        "thesis": "Montaigne's last great essay argues that the craft is in doing the common things of a life with attention.",
-        "synthesis": "Of Experience, the closing essay of the Essays, drifts from medicine and law to appetite, sleep and walking, and arrives at the idea that composing a calm and decent character is the real work. It is a slow, digressive read and a fair antidote to a week of index moves. The Project Gutenberg text is free.",
-        "new_today": "Saturday evening reading to pair with the rabbit hole.",
-        "why_it_matters": "Squarely in your philosophy-of-living thread, and unhurried by design.",
+        "thesis": "Your saved Aeon essay on craft is the right Sunday-night read: slow, unurgent, and about attention.",
+        "synthesis": "Saved September 3 and still unread, it asks why making with the hands holds such pull for people whose work is mostly abstract. It has waited seven weeks, which suits it.",
+        "new_today": "Moved to the top of the reading queue for tonight.",
+        "why_it_matters": "A week of oil, yields and odds is a week of things you cannot touch; this is the counterweight.",
         "thread_id": null,
         "confidence": "high",
-        "sources": [
-          {
-            "role": "primary_reporting",
-            "publisher": "Project Gutenberg",
-            "headline": "Essays of Michel de Montaigne (Charles Cotton translation)",
-            "url": "https://www.gutenberg.org/ebooks/3600"
-          }
-        ]
-      },
-      {
-        "id": "theme-aeon-making-evening",
-        "affinity": "evening",
-        "topic": "living",
-        "topic_label": "Art of Living",
-        "title": "The saved essay on making things by hand, for a Saturday",
-        "importance": 0.7,
-        "thesis": "Your Reading List has been holding this one since September 3, and a weekend is what you saved it for.",
-        "synthesis": "Aeon's essay asks why so many people dream of making things by hand and finds a political and psychological answer in how much of modern work leaves nothing behind. It sits close to your craft-and-making subtopic.",
-        "new_today": "Verdict: weekend.",
-        "why_it_matters": "A slow read from your own list, instead of another new one.",
-        "thread_id": null,
-        "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
@@ -325,55 +283,76 @@
         ]
       }
     ],
+    "weekly_review": {
+      "what_mattered": "The market's stress moved from chips to crude: Brent at $116.72, the 10-year at 5.00%, and a Fed decision on Wednesday. Locally, Miami went 7-0 and the waterfront fights tightened.",
+      "three_developments": [
+        "Brent up about 20% in October to its highest since June 2022; S&P and Nasdaq both down two weeks running",
+        "Fed decision Wednesday, October 28; hold expected, tone is the risk",
+        "No. 1 Miami 52, Pitt 23; Referendum 3 nine days out, plus the Seaquarium lawsuit filed October 21"
+      ],
+      "starred": "No starred or saved items arrived this week.",
+      "momentum": "No change: markets, Miami, sports and Art of Living all remain at equal weight, because no feedback came in. Markets and Miami local stories again took most of the space.",
+      "threads_to_carry": [
+        "thread-fed-rate-path",
+        "thread-iran-hormuz-crisis",
+        "thread-virginia-key-marina-referendum",
+        "thread-seaquarium-marina-redevelopment",
+        "thread-dolphins-hafley-rebuild",
+        "thread-hurricanes-fall-camp"
+      ],
+      "reading_list_triage": "One saved item (Aeon, making things by hand): read tonight. Nothing proposed for removal.",
+      "reflection_question": "Which number from this week would you have acted on, and did you?",
+      "learning_summary": "Nothing new to learn from you this week: no stars, saves or dismissals arrived, so your interests stay evenly weighted. Send a star or a \"more like this\" and next week will lean that way."
+    },
     "rabbit_hole": {
-      "id": "rh-2026-10-24",
-      "title": "Of Experience (Essays, Book III, chapter 13)",
-      "creator": "Michel de Montaigne",
+      "id": "rh-2026-10-25",
+      "title": "Self-Reliance (Essays: First Series)",
+      "creator": "Ralph Waldo Emerson",
       "format": "essay",
-      "minutes": 45,
-      "why": "Montaigne's last long essay turns from illness and custom to the claim that living a plain life well is the harder accomplishment. It suits a Saturday after a week in which the loudest voices were all about to be wrong or right by Wednesday.",
-      "url": "https://www.gutenberg.org/ebooks/3600",
+      "minutes": 40,
+      "why": "Emerson's 1841 essay argues that the thing to distrust is borrowed consensus, in thought and in conduct. After a week of loud forecasts that will be judged by Wednesday, it is a long-form argument for deciding from your own ground.",
+      "url": "https://www.gutenberg.org/ebooks/2944",
       "related_interest": "living"
     },
     "beautiful_thing": {
-      "id": "bt-2026-10-24",
-      "title": "Vizcaya Museum and Gardens",
-      "creator": "F. Burrall Hoffman, Paul Chalfin and Diego Suarez",
-      "era": "1914-1922",
-      "body": "Built on Biscayne Bay as the winter estate of industrialist James Deering, Vizcaya was designed by architect F. Burrall Hoffman, with Paul Chalfin as artistic director and Diego Suarez as landscape designer. It is a National Historic Landmark. Look at the stone barge in the water in front of the house, which doubles as a breakwater, and at how the house is arranged to face the bay.",
-      "url": "https://en.wikipedia.org/wiki/Vizcaya_Museum_and_Gardens",
+      "id": "bt-2026-10-25",
+      "title": "Miami Beach Architectural District (Art Deco)",
+      "creator": "Many architects, preserved through Barbara Capitman's campaign",
+      "era": "1920s-1940s",
+      "body": "The Art Deco district on South Beach was listed on the National Register of Historic Places in 1979, after preservationist Barbara Capitman and the Miami Design Preservation League, founded in 1976, campaigned to save the buildings from demolition. Walk Ocean Drive and look at how the small hotels use rounded corners, \"eyebrow\" window shades and horizontal bands to cool the facade as much as to decorate it.",
+      "url": "https://en.wikipedia.org/wiki/Miami_Beach_Architectural_District",
       "image": null,
-      "alt": "Vizcaya's Mediterranean-style main house and stone barge on Biscayne Bay in Miami."
+      "alt": "Pastel Art Deco hotel facades along Ocean Drive in Miami Beach"
     },
-    "noticing_prompt": "Pick one number from today's news and ask what decision it would actually change for you. If the answer is none, notice how it felt to carry it anyway.",
+    "noticing_prompt": "Notice which sentence you reach for when someone asks how your week was. Is it the loud one, or the true one?",
     "daily_puzzle": {
-      "id": "dp-2026-10-24",
-      "type": "math",
-      "prompt": "A clock takes 5 seconds to strike six o'clock, with the strikes evenly spaced and the first one beginning at the 0-second mark. How long does it take to strike twelve?",
-      "hint": "Count the gaps between strikes, not the strikes.",
-      "solution": "11 seconds.",
-      "explanation": "Six strikes have 5 gaps, so each gap is 1 second. Twelve strikes have 11 gaps, so 11 seconds."
+      "id": "dp-2026-10-25",
+      "type": "logic",
+      "prompt": "Ana, Beto and Caro each own exactly one pet: a cat, a dog or a parrot. Ana does not own the dog. Caro does not own the parrot. Beto owns neither the cat nor the parrot. Who owns which pet?",
+      "hint": "Start with the person who is ruled out of the most pets.",
+      "solution": "Beto owns the dog, Caro owns the cat, and Ana owns the parrot.",
+      "explanation": "Beto can only have the dog. That leaves the cat and the parrot for Ana and Caro, and Caro cannot have the parrot, so she has the cat and Ana has the parrot."
     },
     "evening_unwind": {
-      "id": "eu-2026-10-24",
+      "id": "eu-2026-10-25",
       "evening_quote": {
-        "text": "Men are disturbed, not by things, but by the principles and notions which they form concerning things.",
-        "attribution": "Epictetus",
-        "source": "Enchiridion, 5 (Elizabeth Carter translation)"
+        "text": "Look within. Within is the fountain of good, and it will ever bubble up, if thou wilt ever dig.",
+        "attribution": "Marcus Aurelius",
+        "source": "Meditations, 7.59 (George Long translation)"
       },
-      "evening_prompt": "Of what worried you today, which part was the event itself and which part was your opinion of it?"
+      "evening_prompt": "Of this week's headlines, which one did you carry longest, and what did carrying it change?"
     },
     "reading_queue": [
       {
         "title": "The Radical Reasons Why You Dream of Making Things by Hand",
         "url": "https://aeon.co/essays/the-radical-reasons-why-you-dream-of-making-things-by-hand",
-        "verdict": "weekend",
-        "reason": "Saved September 3; it's Saturday, which is what you saved it for."
+        "verdict": "read_soon",
+        "reason": "Saved September 3; tonight is a good window."
       }
     ],
     "quote": {
-      "text": "Men are disturbed, not by things, but by the principles and notions which they form concerning things.",
-      "attribution": "Epictetus, Enchiridion 5"
+      "text": "Look within. Within is the fountain of good, and it will ever bubble up, if thou wilt ever dig.",
+      "attribution": "Marcus Aurelius, Meditations 7.59"
     }
   },
   "threads": [
@@ -382,9 +361,9 @@
       "title": "US-Iran conflict and the Strait of Hormuz",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-10-24",
-      "updates": 99,
-      "current_state": "Trump rejected Iran's limited-ceasefire plan (week of Oct 19) but expects talks to resume; Iran says its plan stands and indirect talks continue; Iran parliament advances Hormuz fee bill; U.S. crude above $100 Oct 23.",
+      "last_updated": "2026-10-25",
+      "updates": 100,
+      "current_state": "Brent settled $116.72 on Oct 23, highest since June 2022; Trump rejected Iran's truce plan but expects talks; Iran says plan stands; Hormuz fee bill advancing.",
       "timeline": [
         {
           "date": "2026-07-21",
@@ -880,6 +859,11 @@
           "date": "2026-10-24",
           "summary": "Trump rejects Iran's truce proposal yet expects talks to resume; Hormuz fee bill advances in Iran's parliament; tanker mine reports.",
           "change_type": "advanced"
+        },
+        {
+          "date": "2026-10-25",
+          "summary": "Brent at $116.72, highest since June 2022, up from under $97 at start of October.",
+          "change_type": "worsened"
         }
       ]
     },
@@ -888,9 +872,9 @@
       "title": "Federal Reserve rate path",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-10-24",
-      "updates": 95,
-      "current_state": "FOMC Oct 27-28: hold expected (one source: 82%); oil above $100 keeps hike risk visible; Warsh has not ruled out a hike before year-end.",
+      "last_updated": "2026-10-25",
+      "updates": 96,
+      "current_state": "FOMC Oct 27-28, decision Oct 28 2 p.m. ET: hold expected per CME FedWatch via Reuters (Oct 20: ~83% hold); 10Y 5.00% Oct 23; December hike risk is the larger worry.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -1360,6 +1344,11 @@
         {
           "date": "2026-10-24",
           "summary": "Three days to the FOMC; hold priced at about 82% per one source.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-10-25",
+          "summary": "10Y back at 5.00%; hold remains consensus.",
           "change_type": "advanced"
         }
       ]
@@ -1836,9 +1825,9 @@
       "title": "Dolphins rebuild under Hafley",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-10-24",
-      "updates": 73,
-      "current_state": "0-5 with a -62 point differential; at the 2-4 Jets Sunday Oct 25, 1 p.m. ET; previews lean Jets.",
+      "last_updated": "2026-10-25",
+      "updates": 74,
+      "current_state": "0-5; at the 2-4 Jets Sunday Oct 25, 1 p.m. ET; no result yet.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -2204,6 +2193,11 @@
           "date": "2026-10-24",
           "summary": "Previews lean Jets; Miami's -62 differential is the worst among teams playing this week.",
           "change_type": "unchanged"
+        },
+        {
+          "date": "2026-10-25",
+          "summary": "Game day.",
+          "change_type": "watch"
         }
       ]
     },
@@ -2212,9 +2206,9 @@
       "title": "Miami Hurricanes fall camp and the Mensah era",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-10-24",
-      "updates": 33,
-      "current_state": "Miami hosts Pitt Saturday Oct 24; preview coverage has Miami 6-0 and reported No. 1 (unconfirmed against a second source).",
+      "last_updated": "2026-10-25",
+      "updates": 34,
+      "current_state": "Beat Pitt 52-23 on Oct 24 to reach 7-0 (5-0 ACC) as No. 1; Toney 16 catches, 194 yards, 3 TDs; Mensah 387 yards, 4 TDs.",
       "timeline": [
         {
           "date": "2026-08-14",
@@ -2380,6 +2374,11 @@
           "date": "2026-10-24",
           "summary": "Game day vs Pitt; Pitt without its starting QB (torn ACL).",
           "change_type": "watch"
+        },
+        {
+          "date": "2026-10-25",
+          "summary": "Final: Miami 52, Pitt 23; 7-0.",
+          "change_type": "advanced"
         }
       ]
     },
@@ -2535,9 +2534,9 @@
       "title": "2026 CRE capital markets under pressure",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-10-24",
-      "updates": 47,
-      "current_state": "Dow -1.23% to 52,215.16, S&P -0.52% to 7,623.68, Nasdaq -0.21% to 25,955.34 on Friday Oct 23; second weekly loss for S&P and Nasdaq; U.S. crude above $100.",
+      "last_updated": "2026-10-25",
+      "updates": 48,
+      "current_state": "Week ending Oct 23: S&P about -0.5%, Nasdaq down second week, Dow up; 10Y 5.00%; Brent $116.72; earnings flood this week (Alphabet, Microsoft, Amazon).",
       "timeline": [
         {
           "date": "2026-07-24",
@@ -2778,6 +2777,11 @@
           "date": "2026-10-24",
           "summary": "Selloff broadens from AI names to the Dow as U.S. crude tops $100.",
           "change_type": "worsened"
+        },
+        {
+          "date": "2026-10-25",
+          "summary": "Week-ahead: earnings plus Fed.",
+          "change_type": "advanced"
         }
       ]
     },
@@ -3540,7 +3544,7 @@
     }
   ],
   "meta": {
-    "content_freshness": "2026-10-24T09:30:00-04:00",
+    "content_freshness": "2026-10-25T09:30:00-04:00",
     "feedback_endpoint_mode": "github_contents",
     "minimum_client_schema_version": 1,
     "mode": "brain"
