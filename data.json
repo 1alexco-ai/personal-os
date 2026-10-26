@@ -1,34 +1,34 @@
 {
   "schema_version": 2,
   "edition": {
-    "id": "2026-10-25",
-    "date": "2026-10-25",
-    "type": "weekly",
-    "generated_at": "2026-10-25T09:30:00-04:00",
+    "id": "2026-10-26",
+    "date": "2026-10-26",
+    "type": "weekday",
+    "generated_at": "2026-10-26T09:30:00-04:00",
     "timezone": "America/New_York",
     "title": "Personal OS",
     "front_page_letter": {
       "greeting": "Good morning",
       "body_paragraphs": [
-        "Good morning. This is the Sunday edition. The week in one line: the market's problem moved from chips to crude. Friday's closes were the S&P 500 at 7,623.68, the Nasdaq at 25,955.34 and the Dow at 52,215.16, with Brent at $116.72, its highest since June 2022, and the 10-year back at 5.00%. Both the S&P and the Nasdaq lost a second straight week.",
-        "Three developments mattered. First, oil: up roughly 20% in October, and the reason hike talk will not die. Second, the Fed on Wednesday, where a hold is the consensus and the wording is the risk, with Alphabet, Microsoft and Amazon reporting around it. Third, closer to home, No. 1 Miami beat Pitt 52-23 to reach 7-0, the Dolphins try to avoid 0-6 at the Jets at 1 p.m., and Referendum 3 on the Virginia Key marinas is nine days out, now joined by a lawsuit over the Seaquarium site.",
-        "You starred and saved nothing new this week, so I have changed no weights. The threads carried forward are the Fed path, Hormuz and oil, the two waterfront fights and the Dolphins. Tonight there is the Aeon essay you saved in September, and for the long weekend read, Emerson's Self-Reliance. What deserves attention today is a short list: the Fed's wording, not the headline decision, and nothing else this week is likely to change what you do."
+        "Good morning. Monday, October 26. The Dolphins have a win. Miami beat the Jets 28-25 at MetLife on Sunday, Jeff Hafley's first as head coach, and the margin was thin enough to be honest about: the Jets cut a 28-17 lead to three with 3:24 left before a fourth-and-1 quarterback sneak by Malik Willis at the Jets' 49 let Miami run out the clock. Willis threw two touchdown passes to rookie Caleb Douglas and ran for another, and Ollie Gordon II topped 100 yards. At 1-5 the season is still about evaluation, but the evaluation just got a data point worth having.",
+        "The week itself belongs to the Fed. The decision comes Wednesday, October 28 at 2 p.m. ET, and the reporting I found puts a hold at roughly 88%, with a further hike near 10%, following September's increase. Alphabet and Microsoft report the same afternoon, Amazon on Thursday, with third-quarter GDP and core PCE also due Thursday. I could not verify Monday's market levels at press time, so the figures below are Friday's closes: the 10-year at 5.00% and Brent at $116.72 are the numbers the Fed will be reading around.",
+        "Closer to home, the Virginia Key marina fights are eight days from the November 3 vote, and residents sued Miami-Dade on October 21 to force a separate referendum on the Seaquarium marina. What deserves attention today is the Fed's wording on oil rather than its decision, which is already priced. Tonight, Orwell on writing that hides nothing, a fitting read for a week of hedged forecasts."
       ],
       "read_only_three": [
         {
           "target_type": "theme",
-          "target_id": "theme-week-in-markets",
-          "label": "Oil at $116, 10-year at 5%"
+          "target_id": "theme-fed-wednesday",
+          "label": "Fed Wednesday: hold priced, wording is the risk"
         },
         {
           "target_type": "theme",
-          "target_id": "theme-fed-earnings-week",
-          "label": "Fed Wednesday, earnings around it"
+          "target_id": "theme-dolphins-first-win",
+          "label": "Dolphins 28, Jets 25: first Hafley win"
         },
         {
           "target_type": "theme",
-          "target_id": "theme-canes-pitt-result",
-          "label": "Miami 52, Pitt 23: 7-0"
+          "target_id": "theme-waterfront-lawsuit",
+          "label": "Eight days to the marina vote"
         }
       ]
     },
@@ -36,323 +36,245 @@
       {
         "label": "S&P 500",
         "value": "7,623.68",
-        "change": "-0.52% Friday; about -0.5% on the week",
+        "change": "-0.52% Friday",
         "observed": "Close, Friday, October 23, 2026",
-        "note": "Second straight weekly loss."
+        "note": "Latest verified close; Monday's session not yet verified. Second straight weekly loss."
       },
       {
         "label": "Nasdaq Composite",
         "value": "25,955.34",
         "change": "-0.21% Friday",
         "observed": "Close, Friday, October 23, 2026",
-        "note": "Second straight weekly loss."
-      },
-      {
-        "label": "Dow Jones",
-        "value": "52,215.16",
-        "change": "-1.23% Friday",
-        "observed": "Close, Friday, October 23, 2026",
-        "note": "Finished the week higher."
+        "note": "Latest verified close."
       },
       {
         "label": "10-Year Treasury yield",
         "value": "5.00%",
         "change": "up from 4.96% Thursday",
         "observed": "Friday, October 23, 2026",
-        "note": "Reported by CNBC via a secondary summary; verify before relying on it."
+        "note": "Secondary-source figure carried from last edition; the yield touched a 24-year high of 5.365% on October 7."
       },
       {
         "label": "Brent crude",
         "value": "$116.72",
         "change": "+3.1% Friday",
         "observed": "Settle, Friday, October 23, 2026",
-        "note": "Highest since June 2022; WTI settled near $103."
+        "note": "Highest since June 2022."
       },
       {
         "label": "FOMC, October 27-28",
-        "value": "Hold expected",
-        "change": "Decision Wednesday, October 28, 2 p.m. ET",
-        "observed": "CME FedWatch via Reuters, week of October 19-23, 2026",
-        "note": "An October 20 reading had a hold near 83% and a quarter-point hike near 17%; no fresher figure verified."
+        "value": "Hold ~88%; hike ~10%",
+        "change": "Decision Wednesday, October 28, 2 p.m. ET; Chair Warsh press conference follows",
+        "observed": "Week-ahead previews, October 26, 2026",
+        "note": "Odds vary by source and follow a September hike."
       }
     ],
     "public_day_context": {
-      "date_label": "Sunday, October 25, 2026",
+      "date_label": "Monday, October 26, 2026",
       "weather": "No verified forecast retrieved; check weather.gov/mfl.",
-      "public_event": "Dolphins at Jets, 1 p.m. ET; FOMC October 27-28; Virginia Key Referendum 3 on November 3."
+      "public_event": "FOMC meets October 27-28; Alphabet and Microsoft report Wednesday; Virginia Key referendum November 3."
     },
     "what_changed": [
       {
-        "id": "delta-canes-7-0",
-        "thread_id": "thread-hurricanes-fall-camp",
-        "change_type": "advanced",
-        "title": "Miami beats Pitt 52-23 and moves to 7-0",
-        "previous_state": "Miami entered Saturday 6-0 and ranked No. 1.",
-        "current_state": "Miami is 7-0 and 5-0 in the ACC after a 52-23 win.",
-        "why_it_matters": "Toney's 16 catches and Mensah's 387 yards show an offense with no obvious ceiling.",
+        "id": "delta-dolphins-first-win",
+        "thread_id": "thread-dolphins-hafley-rebuild",
+        "change_type": "improved",
+        "title": "Dolphins beat the Jets 28-25 for their first win of the season",
+        "previous_state": "Miami entered Sunday 0-5 with the NFL's worst point differential among teams playing this week.",
+        "current_state": "Miami is 1-5 after Hafley's first win; Willis went 14-of-21 for 208 yards and Gordon ran for over 100.",
+        "why_it_matters": "A quarterback and a rusher who held up under pressure are the evidence this rebuild needed.",
         "confidence": "high",
         "source": {
-          "publisher": "Miami Hurricanes",
-          "url": "https://miamihurricanes.com/news/2026/10/24/no-1-miami-rolls-in-52-23-win-over-pitt"
+          "publisher": "ESPN",
+          "url": "https://www.espn.com/nfl/recap/_/gameId/401873015"
         }
       },
       {
-        "id": "delta-brent-116",
-        "thread_id": "thread-iran-hormuz-crisis",
-        "change_type": "worsened",
-        "title": "Brent settles at $116.72, a four-year high",
-        "previous_state": "Friday's edition had U.S. crude above $100.",
-        "current_state": "Brent settled Friday at $116.72, the highest since June 2022, up from under $97 at the start of October.",
-        "why_it_matters": "Oil is the transmission line from the Gulf to Fed hike odds.",
-        "confidence": "medium",
-        "source": {
-          "publisher": "DTN / Progressive Farmer",
-          "url": "https://www.dtnpf.com/agriculture/web/ag/news/world-policy/article/2026/10/23/wall-street-loses-ground-pressure-2"
-        }
-      },
-      {
-        "id": "delta-10y-5",
+        "id": "delta-fed-odds",
         "thread_id": "thread-fed-rate-path",
-        "change_type": "new",
-        "title": "The 10-year closes the week at 5.00%",
-        "previous_state": "Thursday's tech sell-off pulled the yield to 4.96%.",
-        "current_state": "It rose back to 5.00% on Friday as oil climbed.",
-        "why_it_matters": "The line CRE debt is priced off sits at a round-number threshold going into the Fed.",
+        "change_type": "unchanged",
+        "title": "Fed week begins with a hold expected, a hike still possible",
+        "previous_state": "An October 20 reading had a hold near 83% and a hike near 17%.",
+        "current_state": "Week-ahead previews put a hold near 88% and a hike near 10%, after September's hike.",
+        "why_it_matters": "The decision is priced; the press conference and oil language are where the move is.",
         "confidence": "medium",
         "source": {
           "publisher": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-drop-nasdaq-rises-after-sharp-tech-sell-off-160940864.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/big-tech-earnings-fed-decision-170002299.html"
+        }
+      },
+      {
+        "id": "delta-seaquarium-suit",
+        "thread_id": "thread-seaquarium-marina-redevelopment",
+        "change_type": "advanced",
+        "title": "Residents sue Miami-Dade to force a vote on the Seaquarium marina",
+        "previous_state": "County commissioners advanced the Seaquarium redevelopment on October 20.",
+        "current_state": "On October 21, residents Gregory Frankel and Aaron Stauber sued, arguing the marina is a separate commercial enterprise requiring voter approval under the county charter.",
+        "why_it_matters": "A second legal track now runs beside the November 3 city referendum on the other Virginia Key marinas.",
+        "confidence": "high",
+        "source": {
+          "publisher": "WLRN",
+          "url": "https://www.wlrn.org/environment/2026-10-21/residents-file-lawsuit-demand-a-vote-on-a-marina-at-revamped-seaquarium"
         }
       }
     ],
     "themes": [
       {
-        "id": "theme-week-in-markets",
+        "id": "theme-fed-wednesday",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "The week in markets: oil at a four-year high, the 10-year back at 5%",
-        "importance": 0.92,
-        "thesis": "A second losing week for the S&P 500 and Nasdaq was driven less by tech than by crude, with Brent at its highest since June 2022.",
-        "synthesis": "The S&P 500 lost about 0.5% on the week and the Nasdaq a second week running, while the Dow finished higher. Brent settled Friday at $116.72, up from under $97 at the start of October, and WTI closed near $103. The 10-year Treasury yield ended the week at 5.00%, having dipped below that on Thursday's tech sell-off.",
-        "new_today": "Weekend read of Friday's closes; Brent's October climb is now about 20%.",
-        "why_it_matters": "Oil at this level feeds directly into the hike-or-hold argument and into the cost of money behind every cap-rate conversation. The 5% handle on the 10-year is the number that matters for CRE, more than any equity index.",
-        "thread_id": "thread-cre-capital-markets-2026",
-        "confidence": "medium",
-        "sources": [
-          {
-            "role": "primary_reporting",
-            "publisher": "DTN / Progressive Farmer",
-            "headline": "Wall Street Loses Ground Under Pressure From Rising Oil Prices",
-            "url": "https://www.dtnpf.com/agriculture/web/ag/news/world-policy/article/2026/10/23/wall-street-loses-ground-pressure-2"
-          },
-          {
-            "role": "analysis",
-            "publisher": "Yahoo Finance",
-            "headline": "Stock market today: Dow sinks 600 points, S&P 500, Nasdaq drop to cap a volatile week, oil prices rise",
-            "url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-drop-nasdaq-rises-after-sharp-tech-sell-off-160940864.html"
-          }
-        ]
-      },
-      {
-        "id": "theme-fed-earnings-week",
-        "affinity": "morning",
-        "topic": "markets",
-        "topic_label": "Markets & Macro",
-        "title": "Fed Wednesday, with a third of the S&P reporting around it",
+        "title": "Fed Wednesday: the hold is priced, the wording is the risk",
         "importance": 0.9,
-        "thesis": "The FOMC decision comes Wednesday, October 28 at 2 p.m. ET, and a hold is the consensus, but the week is crowded with earnings that can move the tape first.",
-        "synthesis": "CME FedWatch, cited by Reuters, has investors expecting rates unchanged at the current 3.75%-4.00% range. An earlier reading, October 20, put a hold at about 83% and a quarter-point hike near 17%; I could not retrieve a fresher figure. Alphabet, Microsoft and Amazon report this week, among roughly a third of S&P 500 companies.",
-        "new_today": "Week-ahead framing: earnings flood plus the Fed, with AI spending the open question.",
-        "why_it_matters": "A hold with hawkish language and a 5% 10-year is a different market than a clean hold. December 8-9 is where several sources place the larger hike risk.",
+        "thesis": "With a hold near 88%, the market is waiting for what Chair Warsh says about oil and the path after September's hike.",
+        "synthesis": "The FOMC meets October 27-28 and decides Wednesday at 2 p.m. ET, with a press conference after. Alphabet and Microsoft report the same afternoon, Amazon on Thursday, and third-quarter GDP and core PCE land Thursday. Brent at $116.72 and a 10-year at 5.00% on Friday's data frame every question.",
+        "new_today": "Hold odds edged up to roughly 88% from 83% a week ago, per previews; sources differ.",
+        "why_it_matters": "For CRE financing and refinancing math, a hawkish read on oil-driven inflation matters more than the quarter-point itself.",
         "thread_id": "thread-fed-rate-path",
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Reuters via Marshall Independent",
-            "headline": "Wall Street week ahead: Earnings flood, Fed meeting will test rickety AI market rally",
-            "url": "https://www.mvariety.com/business/business_news/wall-street-week-ahead-earnings-flood-fed-meeting-will-test-rickety-ai-market-rally/article_d20d13cb-b629-4872-a4db-25650c437735.html"
+            "publisher": "Federal Reserve",
+            "headline": "FOMC meeting calendars",
+            "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
           },
           {
-            "role": "background",
-            "publisher": "DTN / Progressive Farmer",
-            "headline": "Wall Street Loses Ground Under Pressure From Rising Oil Prices",
-            "url": "https://www.dtnpf.com/agriculture/web/ag/news/world-policy/article/2026/10/23/wall-street-loses-ground-pressure-2"
+            "role": "analysis",
+            "publisher": "Yahoo Finance",
+            "headline": "Big Tech Earnings, Fed Decision and Other Key Things to Watch this Week",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/big-tech-earnings-fed-decision-170002299.html"
           }
         ]
       },
       {
-        "id": "theme-canes-pitt-result",
+        "id": "theme-dolphins-first-win",
         "affinity": "morning",
         "topic": "sports",
         "topic_label": "Miami Sports",
-        "title": "No. 1 Miami routs Pitt 52-23 and moves to 7-0",
-        "importance": 0.85,
-        "thesis": "Miami scored early and often on a day built around the 2001 championship team's 25th anniversary.",
-        "synthesis": "Darian Mensah completed 31 of 37 for 387 yards and four touchdowns without an interception. Malachi Toney set Miami's single-game receptions record with 16 catches for 194 yards and three touchdowns, one short of the ACC record. Miami is 7-0 overall and 5-0 in the ACC; Pitt fell to 5-3.",
-        "new_today": "Final: Miami 52, Pittsburgh 23 (one Yahoo lede printed 52-16; the school and other outlets say 52-23).",
-        "why_it_matters": "A perfect record at No. 1 changes how every remaining game is read, and the offense produced this without a turnover.",
-        "thread_id": "thread-hurricanes-fall-camp",
+        "title": "Dolphins 28, Jets 25: Hafley's first win, and a fourth-and-1 that earned it",
+        "importance": 0.8,
+        "thesis": "A narrow road win ends the 0-5 start and gives the rebuild a template: Willis efficient, Gordon grinding, a coach willing to gamble.",
+        "synthesis": "Willis threw two touchdowns to rookie Caleb Douglas and ran for a third, finishing 14-of-21 for 208. The Jets' backup threw for 287 yards and three touchdowns and cut it to 28-25 with 3:24 left. Hafley went for it on fourth-and-1 at the Jets' 49 with about two minutes left, asked his linemen first, and Willis's sneak gained two yards.",
+        "new_today": "First win of the season; Miami is 1-5.",
+        "why_it_matters": "It changes the tone of the season from pure evaluation to something with a floor.",
+        "thread_id": "thread-dolphins-hafley-rebuild",
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Miami Hurricanes",
-            "headline": "No. 1 Miami Rolls in 52-23 Win over Pitt",
-            "url": "https://miamihurricanes.com/news/2026/10/24/no-1-miami-rolls-in-52-23-win-over-pitt"
+            "publisher": "ESPN",
+            "headline": "Dolphins 28-25 Jets (Oct 25, 2026) Game Recap",
+            "url": "https://www.espn.com/nfl/recap/_/gameId/401873015"
           },
           {
             "role": "analysis",
-            "publisher": "Yahoo Sports",
-            "headline": "Miami Dominates Pittsburgh 52-23 Behind Record Breaking Malachi Toney Performance",
-            "url": "https://sports.yahoo.com/articles/miami-dominates-pittsburgh-52-23-212311088.html"
+            "publisher": "Miami Dolphins",
+            "headline": "Game Recap: Dolphins Secure 28-25 Victory Over Jets",
+            "url": "https://www.miamidolphins.com/news/game-recap-dolphins-secure-28-25-victory-over-jets-in-divisional-matchup"
           }
         ]
       },
       {
-        "id": "theme-dolphins-jets-today",
-        "affinity": "morning",
-        "topic": "sports",
-        "topic_label": "Miami Sports",
-        "title": "Dolphins at the Jets, 1 p.m.: the 0-6 question",
-        "importance": 0.7,
-        "thesis": "At 0-5, Miami needs a win more than the 2-4 Jets do, and the Jets' own coach expects a competitive opponent.",
-        "synthesis": "The Dolphins come off a bye with losses to San Francisco, Kansas City and Minnesota among their five. Jets coach Aaron Glenn and Jeff Hafley overlapped on Cleveland's defensive staff in 2014-15. Kickoff is 1 p.m. ET at MetLife Stadium; I found no injury report or betting line.",
-        "new_today": "Game day; no result as of this writing.",
-        "why_it_matters": "A sixth loss would sharpen the argument that this season is purely about 2027 evaluation.",
-        "thread_id": "thread-dolphins-hafley-rebuild",
-        "confidence": "medium",
-        "sources": [
-          {
-            "role": "primary_reporting",
-            "publisher": "New York Jets",
-            "headline": "Jets ready for first home AFC East test against Dolphins",
-            "url": "https://www.newyorkjets.com/news/jets-ready-for-first-home-afc-east-test-against-dolphin-10-21-2026"
-          }
-        ]
-      },
-      {
-        "id": "theme-waterfront-nov3",
+        "id": "theme-waterfront-lawsuit",
         "affinity": "morning",
         "topic": "miami",
         "topic_label": "Miami Life & Culture",
-        "title": "Nine days to Referendum 3, and a lawsuit over the Seaquarium marina",
-        "importance": 0.8,
-        "thesis": "Miami voters decide the Virginia Key marina lease on November 3; separately, two residents want a countywide vote on the Seaquarium marina.",
-        "synthesis": "Referendum 3 covers about 27.6 acres on a 45-year lease with a $2.2 million minimum annual rent and roughly $80 million in private investment; a judge rejected an effort to block the vote, though that case continues. On October 21 Gregory Frankel and Aaron Stauber sued Miami-Dade, a day after commissioners advanced a Terra Group-affiliated lease, seeking an injunction and a countywide referendum. I found no ruling in the Seaquarium case.",
-        "new_today": "No new ruling; both fights are now on the calendar together.",
-        "why_it_matters": "Two decisions about how Biscayne Bay's edge is leased are being made at once, one by ballot and one possibly by a court.",
+        "title": "Eight days to the marina vote, and a lawsuit over the Seaquarium site",
+        "importance": 0.7,
+        "thesis": "Two separate Virginia Key marina fights are now in play: a November 3 city referendum and a county suit seeking a vote on the Seaquarium marina.",
+        "synthesis": "The city referendum asks voters to approve a new lease for about 27.62 acres for the Rickenbacker and Marine Stadium marinas; a judge let it stay on the ballot. Separately, residents sued Miami-Dade on October 21 over a proposed marina of more than 56 acres in the Biscayne Bay Aquatic Preserve, with nearly 300 slips plus dry storage for 500 more. Only the city measure is on this ballot.",
+        "new_today": "No new filing found since the October 21 suit.",
+        "why_it_matters": "Public-waterfront leasing is the template for how Miami will fund and fight over its next decade of civic projects.",
         "thread_id": "thread-virginia-key-marina-referendum",
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
             "publisher": "WLRN",
-            "headline": "Residents file lawsuit to demand a vote on a marina at revamped Seaquarium",
+            "headline": "Residents file lawsuit, demand a vote on a marina at revamped Seaquarium",
             "url": "https://www.wlrn.org/environment/2026-10-21/residents-file-lawsuit-demand-a-vote-on-a-marina-at-revamped-seaquarium"
           },
           {
             "role": "background",
-            "publisher": "Axios Miami",
-            "headline": "Virginia Key marina redevelopment heads to Miami voters",
-            "url": "https://www.axios.com/local/miami/2026/08/20/virginia-key-marina-redevelopment-miami-referendum"
+            "publisher": "WLRN",
+            "headline": "Miami marina redevelopment will remain on the ballot, but the legal battle isn't over",
+            "url": "https://www.wlrn.org/light/law-justice/2026-08-21/miami-marine-stadium-virginia-key-lawsuit-ballot"
           }
         ]
       },
       {
-        "id": "theme-making-by-hand",
+        "id": "theme-orwell-clear-writing",
         "affinity": "evening",
         "topic": "living",
         "topic_label": "Art of Living",
-        "title": "The saved essay: why we dream of making things by hand",
-        "importance": 0.75,
-        "thesis": "Your saved Aeon essay on craft is the right Sunday-night read: slow, unurgent, and about attention.",
-        "synthesis": "Saved September 3 and still unread, it asks why making with the hands holds such pull for people whose work is mostly abstract. It has waited seven weeks, which suits it.",
-        "new_today": "Moved to the top of the reading queue for tonight.",
-        "why_it_matters": "A week of oil, yields and odds is a week of things you cannot touch; this is the counterweight.",
+        "title": "Orwell on prose that hides nothing, for a week of hedged forecasts",
+        "importance": 0.6,
+        "thesis": "Vague language is usually a decision not to look at the thing; Orwell's remedy is six rules and a habit of asking what you are trying to say.",
+        "synthesis": "Written in 1946, the essay argues that stale phrases let writers avoid thinking. Fed statements and earnings calls are a daily example. It is short, practical, and worth rereading once a year.",
+        "new_today": "Chosen as tonight's slow read ahead of a week of central-bank language.",
+        "why_it_matters": "A reader who spots evasive phrasing in a policy statement reads it better.",
         "thread_id": null,
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Aeon",
-            "headline": "The Radical Reasons Why You Dream of Making Things by Hand",
-            "url": "https://aeon.co/essays/the-radical-reasons-why-you-dream-of-making-things-by-hand"
+            "publisher": "George Orwell (Horizon, 1946)",
+            "headline": "Politics and the English Language",
+            "url": "http://orwell.ru/library/essays/politics/english/e_polit"
           }
         ]
       }
     ],
-    "weekly_review": {
-      "what_mattered": "The market's stress moved from chips to crude: Brent at $116.72, the 10-year at 5.00%, and a Fed decision on Wednesday. Locally, Miami went 7-0 and the waterfront fights tightened.",
-      "three_developments": [
-        "Brent up about 20% in October to its highest since June 2022; S&P and Nasdaq both down two weeks running",
-        "Fed decision Wednesday, October 28; hold expected, tone is the risk",
-        "No. 1 Miami 52, Pitt 23; Referendum 3 nine days out, plus the Seaquarium lawsuit filed October 21"
-      ],
-      "starred": "No starred or saved items arrived this week.",
-      "momentum": "No change: markets, Miami, sports and Art of Living all remain at equal weight, because no feedback came in. Markets and Miami local stories again took most of the space.",
-      "threads_to_carry": [
-        "thread-fed-rate-path",
-        "thread-iran-hormuz-crisis",
-        "thread-virginia-key-marina-referendum",
-        "thread-seaquarium-marina-redevelopment",
-        "thread-dolphins-hafley-rebuild",
-        "thread-hurricanes-fall-camp"
-      ],
-      "reading_list_triage": "One saved item (Aeon, making things by hand): read tonight. Nothing proposed for removal.",
-      "reflection_question": "Which number from this week would you have acted on, and did you?",
-      "learning_summary": "Nothing new to learn from you this week: no stars, saves or dismissals arrived, so your interests stay evenly weighted. Send a star or a \"more like this\" and next week will lean that way."
-    },
     "rabbit_hole": {
-      "id": "rh-2026-10-25",
-      "title": "Self-Reliance (Essays: First Series)",
-      "creator": "Ralph Waldo Emerson",
+      "id": "rh-2026-10-26",
+      "title": "Politics and the English Language",
+      "creator": "George Orwell",
       "format": "essay",
-      "minutes": 40,
-      "why": "Emerson's 1841 essay argues that the thing to distrust is borrowed consensus, in thought and in conduct. After a week of loud forecasts that will be judged by Wednesday, it is a long-form argument for deciding from your own ground.",
-      "url": "https://www.gutenberg.org/ebooks/2944",
+      "minutes": 25,
+      "why": "Orwell's 1946 essay is an argument that sloppy language and sloppy thought feed each other. In a week of Fed statements and earnings calls, it is a tool for noticing what is being said and what is being avoided.",
+      "url": "http://orwell.ru/library/essays/politics/english/e_polit",
       "related_interest": "living"
     },
     "beautiful_thing": {
-      "id": "bt-2026-10-25",
-      "title": "Miami Beach Architectural District (Art Deco)",
-      "creator": "Many architects, preserved through Barbara Capitman's campaign",
-      "era": "1920s-1940s",
-      "body": "The Art Deco district on South Beach was listed on the National Register of Historic Places in 1979, after preservationist Barbara Capitman and the Miami Design Preservation League, founded in 1976, campaigned to save the buildings from demolition. Walk Ocean Drive and look at how the small hotels use rounded corners, \"eyebrow\" window shades and horizontal bands to cool the facade as much as to decorate it.",
-      "url": "https://en.wikipedia.org/wiki/Miami_Beach_Architectural_District",
+      "id": "bt-2026-10-26",
+      "title": "Vizcaya Museum and Gardens",
+      "creator": "F. Burrall Hoffman (architect), Paul Chalfin (designer), for James Deering",
+      "era": "1910s-1920s",
+      "body": "Built on Biscayne Bay in Coconut Grove as the winter estate of industrialist James Deering, Vizcaya was constructed in the 1910s and early 1920s and is now a museum and National Historic Landmark. Notice how the house faces the water: the stone barge in the bay and the loggia were designed so the building reads as an Italian villa arriving by sea. Then look at the garden, where the axis runs back from the house in formal terraces.",
+      "url": "https://vizcaya.org/",
       "image": null,
-      "alt": "Pastel Art Deco hotel facades along Ocean Drive in Miami Beach"
+      "alt": "Vizcaya Museum and Gardens on Biscayne Bay"
     },
-    "noticing_prompt": "Notice which sentence you reach for when someone asks how your week was. Is it the loud one, or the true one?",
+    "noticing_prompt": "Notice which phrase you use today to avoid saying a plain thing. Say the plain thing once, to yourself.",
     "daily_puzzle": {
-      "id": "dp-2026-10-25",
-      "type": "logic",
-      "prompt": "Ana, Beto and Caro each own exactly one pet: a cat, a dog or a parrot. Ana does not own the dog. Caro does not own the parrot. Beto owns neither the cat nor the parrot. Who owns which pet?",
-      "hint": "Start with the person who is ruled out of the most pets.",
-      "solution": "Beto owns the dog, Caro owns the cat, and Ana owns the parrot.",
-      "explanation": "Beto can only have the dog. That leaves the cat and the parrot for Ana and Caro, and Caro cannot have the parrot, so she has the cat and Ana has the parrot."
+      "id": "dp-2026-10-26",
+      "type": "math",
+      "prompt": "Two whole numbers differ by 7, and their product is 144. What are the two numbers?",
+      "hint": "Try pairs of factors of 144 and look at the gaps.",
+      "solution": "9 and 16.",
+      "explanation": "9 x 16 = 144 and 16 - 9 = 7; no other pair of positive whole numbers satisfies both conditions."
     },
     "evening_unwind": {
-      "id": "eu-2026-10-25",
+      "id": "eu-2026-10-26",
       "evening_quote": {
-        "text": "Look within. Within is the fountain of good, and it will ever bubble up, if thou wilt ever dig.",
-        "attribution": "Marcus Aurelius",
-        "source": "Meditations, 7.59 (George Long translation)"
+        "text": "It is not that we have a short time to live, but that we waste a lot of it.",
+        "attribution": "Seneca",
+        "source": "On the Shortness of Life, 1.3 (translations vary in wording)"
       },
-      "evening_prompt": "Of this week's headlines, which one did you carry longest, and what did carrying it change?"
+      "evening_prompt": "Of today's urgent things, which one will not matter by Friday, and which one did you give your best hour to anyway?"
     },
     "reading_queue": [
       {
         "title": "The Radical Reasons Why You Dream of Making Things by Hand",
         "url": "https://aeon.co/essays/the-radical-reasons-why-you-dream-of-making-things-by-hand",
-        "verdict": "read_soon",
-        "reason": "Saved September 3; tonight is a good window."
+        "verdict": "still_valuable",
+        "reason": "Saved September 3; evening-friendly, no deadline."
       }
     ],
     "quote": {
-      "text": "Look within. Within is the fountain of good, and it will ever bubble up, if thou wilt ever dig.",
-      "attribution": "Marcus Aurelius, Meditations 7.59"
+      "text": "It is not that we have a short time to live, but that we waste a lot of it.",
+      "attribution": "Seneca, On the Shortness of Life 1.3"
     }
   },
   "threads": [
@@ -872,450 +794,10 @@
       "title": "Federal Reserve rate path",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-10-25",
-      "updates": 96,
-      "current_state": "FOMC Oct 27-28, decision Oct 28 2 p.m. ET: hold expected per CME FedWatch via Reuters (Oct 20: ~83% hold); 10Y 5.00% Oct 23; December hike risk is the larger worry.",
+      "last_updated": "2026-10-26",
+      "updates": 97,
+      "current_state": "FOMC Oct 27-28; hold ~88% per previews; decision Wednesday Oct 28 after a September hike.",
       "timeline": [
-        {
-          "date": "2026-07-18",
-          "summary": "Hike odds rising toward 46%; BofA sees three hikes by December.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-07-19",
-          "summary": "Fed week arrives; positioning visible in Friday's chip-led selloff.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-07-21",
-          "summary": "Hike odds collapse to 13.3% (86.7% hold) amid Iran-driven oil shock; 10Y ticks up to 4.59%.",
-          "change_type": "reversed"
-        },
-        {
-          "date": "2026-07-22",
-          "summary": "Hike odds tick back up to 16.6% as oil keeps climbing; stocks rally anyway on chip earnings; June CPI confirmed at 3.5%.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-07-23",
-          "summary": "Wednesday's close confirmed as a reversal of Tuesday's rally (S&P -0.14%, Nasdaq -0.56%); 10Y up to 4.66%.",
-          "change_type": "watch"
-        },
-        {
-          "date": "2026-07-24",
-          "summary": "Sharp selloff on oil breaking $100 plus Tesla/Alphabet earnings: S&P -1.21%, Nasdaq -2.15%; 10Y to 4.70%, highest since Jan 2025; hike odds more than double to roughly 36.5%.",
-          "change_type": "worsened"
-        },
-        {
-          "date": "2026-07-24",
-          "summary": "Friday's close: S&P +0.05% to 7,412, Nasdaq -0.64% to 24,976 on continued tech weakness, 10Y flat at 4.69%; hike odds ease slightly to about 34% (66% hold) heading into the weekend.",
-          "change_type": "watch"
-        },
-        {
-          "date": "2026-07-27",
-          "summary": "Monday premarket: futures jump (Dow/S&P +0.8%, Nasdaq +1.6%) as oil craters; 10Y eases to about 4.64%; hike odds around 35% for Wednesday, September odds climb to about 82%.",
-          "change_type": "improved"
-        },
-        {
-          "date": "2026-07-28",
-          "summary": "FOMC's two-day meeting formally opens; Monday's close came in mixed rather than the rally premarket implied (S&P +0.02% to 7,413.18, Nasdaq -0.18% to 24,932.08); the 10Y eases further to about 4.62% Tuesday; hike odds hold in the mid-to-high 30s.",
-          "change_type": "watch"
-        },
-        {
-          "date": "2026-07-29",
-          "summary": "Decision due today at 2 PM ET; hike odds climb further to about 38%; Tuesday's close was essentially flat (S&P +0.02% to 7,413.18, Nasdaq -0.22% to 24,876.91), 10Y held near a one-week low at 4.64%; overnight Iran escalation adds a fresh input hours before the vote.",
-          "change_type": "watch"
-        },
-        {
-          "date": "2026-07-29",
-          "summary": "FOMC votes 9-3 to hold at 3.50-3.75%; Hammack, Kashkari, and Logan dissent in favor of a hike. Market reads the hold as hawkish-in-disguise: S&P -1.52% to 7,316.15, Nasdaq -1.74% to 24,442.94, 10Y up to roughly 4.66%.",
-          "change_type": "new"
-        },
-        {
-          "date": "2026-07-30",
-          "summary": "Meta misses Q2 earnings on legal/severance charges and guides to $130-145B in AI capex this year; shares fall nearly 10%, adding a second worry to the Fed-driven selloff even as broader futures point to a Thursday bounce.",
-          "change_type": "worsened"
-        },
-        {
-          "date": "2026-07-30",
-          "summary": "Thursday morning: 10Y holds near 4.68%, 30Y hits roughly 5.24% (a multidecade high); hike odds for the next meeting jump to about 54% from 38% pre-decision, even as equity futures rebound.",
-          "change_type": "watch"
-        },
-        {
-          "date": "2026-07-30",
-          "summary": "Thursday's close: S&P +1.7% to 7,437.64, Nasdaq +2.8% to 25,122.18, Microsoft up about 15% on AI earnings - nearly erasing the post-Fed selloff. The 10-year still rose 8bp to 4.704%, its highest close of the stretch.",
-          "change_type": "reversed"
-        },
-        {
-          "date": "2026-08-01",
-          "summary": "Friday's close: S&P +0.7% to 7,489.72, Nasdaq +1% to 25,373.85, Amazon up ~13% (its biggest single-day gain in over a decade) on an earnings beat - the Dow's fourth straight winning month. The 10-year topped 4.70% for the first time since January 2025; the 30-year hit its highest since 2007.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-08-01",
-          "summary": "Prediction markets price roughly 53% odds of a September 25bp hike, versus ~32% implied by SOFR futures. No jobs report today; the next release, for July, is pushed to Friday, August 7.",
-          "change_type": "watch"
-        },
-        {
-          "date": "2026-08-02",
-          "summary": "Markets closed for the weekend. Kalshi prices roughly 57% odds of a September hike, 42% hold, 2% cut - up from Polymarket's 53% Friday. Economists expect Friday's jobs report to show 100,000-130,000 jobs added in July and unemployment holding at 4.2%.",
-          "change_type": "watch"
-        },
-        {
-          "date": "2026-08-03",
-          "summary": "Markets reopen with premarket futures pointing higher (S&P and Nasdaq both roughly +0.4-0.6%). September hike odds keep drifting hawkish but diverge sharply by platform - Kalshi's own tracker near the mid-50s%, other aggregators as high as the low-to-mid 60s% - ahead of Friday's jobs report and this week's ISM PMI releases.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-08-04",
-          "summary": "Monday's confirmed close sets records: S&P +1.48% to 7,600.50 (first close above 7,600), Nasdaq +2.13% to 25,913.90, Dow +693 points to 53,178, on Iran diplomacy optimism (since reversed) and a Big Tech rally - Amazon topped a $3 trillion market cap. September hike odds diverge further than ever: CME's FedWatch near 81-82%, Kalshi near 54%.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-08-05",
-          "summary": "Tuesday's confirmed close: S&P +1.79% to 7,737, Dow +907 points to a first-ever close above 54,000, Nasdaq +2.59% to 26,585. September hike odds converge to near-agreement - CME's FedWatch near 55.9%, Kalshi near 54% - down from Monday's near-30-point spread.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-08-05",
-          "summary": "Wednesday's confirmed close splits: Dow sets a new record at 54,349.12 (+0.5%), S&P falls 0.2% to 7,723.55, Nasdaq falls 0.8% to 26,363.44 on earnings-driven selling (SpaceX, AMD); 10-year holds flat near 4.62%. Minneapolis Fed's Kashkari says publicly 'now is the time' to raise rates; September hike odds drift higher again across trackers, though the precise number is unsettled (roughly mid-50s to low-60s%).",
-          "change_type": "reversed"
-        },
-        {
-          "date": "2026-08-06",
-          "summary": "Thursday premarket futures flat to slightly higher ahead of Friday's July jobs report, still scheduled for 8:30am ET; consensus expects payrolls around +75-120K and unemployment holding near 4.2%.",
-          "change_type": "watch"
-        },
-        {
-          "date": "2026-08-07",
-          "summary": "Thursday's confirmed close fell across the board: S&P -0.18% to 7,709.96, Nasdaq -0.06% to 26,348.35, Dow -464.02 points (-0.85%) to 53,885, snapping its record streak. 10-year held near 4.61%, oil rose on stalled Hormuz talks. September hike odds kept climbing, roughly high-50s to mid-60s%. Friday's jobs report, due 8:30am ET, remains the key input ahead of the Sept 16 FOMC meeting.",
-          "change_type": "worsened"
-        },
-        {
-          "date": "2026-08-08",
-          "summary": "Friday's confirmed close: S&P +0.62% to a record 7,757.64, Nasdaq +1.3% to a record 26,690.62, Dow +0.28% to 54,036.93 - second straight winning week, S&P's best week since April. The 10-year eased to roughly 4.60%. July payrolls fell 23,000 (vs. roughly +80,000 expected), unemployment eased to 4.1% on falling participation, and May/June were revised down a combined 103,000. September hike odds reversed sharply toward a hold - CME FedWatch near 60%, Kalshi near 65% - a flip from the climbing-hike narrative that had run all week. Next catalyst: July CPI, due August 12.",
-          "change_type": "reversed"
-        },
-        {
-          "date": "2026-08-10",
-          "summary": "Monday premarket: S&P futures near 7,786, Nasdaq 100 futures up roughly 60 points, Dow futures reportedly softer as oil extends its climb on stalled Hormuz diplomacy. Odds trackers little changed from Friday - CME ~55-60% hold, Kalshi 65% hold/33% hike/2% cut, Polymarket ~63% no-change. July CPI, due Wednesday, August 12, is the next real catalyst.",
-          "change_type": "watch"
-        },
-        {
-          "date": "2026-08-11",
-          "summary": "Monday's confirmed close: S&P -0.06% to 7,753.20, Nasdaq -0.32% to 26,605.31, 10-year up 6bp to 4.71% - highest close of the stretch - as oil climbed further and Fed officials leaned hawkish on inflation risk. CME FedWatch's September hike odds jumped to 44.4% from Friday's low-30s%. July CPI, due tomorrow at 8:30am ET, is the decisive input.",
-          "change_type": "worsened"
-        },
-        {
-          "date": "2026-08-12",
-          "summary": "July CPI released: headline steady at 2.7% y/y (+0.2% m/m), core jumps to 3.1% y/y (+0.32% m/m), highest since February and above ~2.5% consensus, on core services strength and tariff pass-through. Tuesday's confirmed close: S&P -0.32% to 7,728.20, Nasdaq -0.60% to 26,445.45, 10Y up to 4.73%. Pre-print, September hike/hold odds were close to even on CME FedWatch; post-print move not yet confirmed.",
-          "change_type": "worsened"
-        },
-        {
-          "date": "2026-08-13",
-          "summary": "Settled figures across CNBC, NBC News, Fox Business, and others confirm July CPI actually came in cool, not hot: headline +0.1% m/m, 3.4% y/y (down from 3.5% in June); core +0.2% m/m, 2.5% y/y (down from 2.6%) - both right on Dow Jones consensus, largely on energy prices down 7% from their May peak. This reverses the 'hot core, 3.1%' read that circulated in early Tuesday-night/Wednesday-morning wires (FXStreet) and drove yesterday's edition. Wednesday's confirmed close: S&P +0.3% to 7,748.50, Nasdaq +0.5% to 26,588.49 on AI-capex strength, Dow roughly flat; 10-year eased to 4.68% from Tuesday's 4.73%. September hike odds fell to roughly 40-42% (hold near 58-60%) on CME FedWatch, reversing the hawkish drift of the prior week.",
-          "change_type": "reversed"
-        },
-        {
-          "date": "2026-08-14",
-          "summary": "July PPI (BLS) came in flat month-over-month vs. +0.2% expected, a second straight soft inflation print. CME FedWatch's September hike odds fell further to roughly 32% (from 40-42% Wednesday), with some trackers now pricing real odds of a cut rather than a hold. S&P 500 closed at a fresh record, 7,798.99 (+0.7%); Nasdaq also closed at a record, 26,803.03 (+0.81%); 10-year eased to 4.65%.",
-          "change_type": "improved"
-        },
-        {
-          "date": "2026-08-15",
-          "summary": "Friday's preliminary August consumer sentiment fell to 51.0 (vs. 54.5 expected, down from July's 55.2 per the University of Michigan) - inflation expectations rose to 4.3%. S&P 500 -0.17% to 7,786, Nasdaq -0.28% to 26,729, Dow -0.20% to 53,732, ending the two-day record streak; 10-year ticked up to roughly 4.69% from Thursday's 4.65%. S&P still closed a third straight winning week. September hike odds remain near Thursday's ~32% CME FedWatch reading; no fresh print confirmed Friday.",
-          "change_type": "reversed"
-        },
-        {
-          "date": "2026-08-16",
-          "summary": "Fuller picture of Friday's slide: July retail sales fell 0.6% - the first monthly drop in nine months - compounding the weak consumer-sentiment miss. September hike odds on CME FedWatch fell to roughly 29-31% by Friday's close, down from about 44% a week earlier and the lowest reading of the week; some trackers now price real odds of a hold or even a cut. The S&P still closed its third straight winning week.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-08-17",
-          "summary": "No economic data released over the weekend; September hike odds hold near Friday's close of roughly 30-31% (about 69% odds of a hold). No major releases are scheduled before the September 16 FOMC meeting, which remains the next real catalyst.",
-          "change_type": "watch"
-        },
-        {
-          "date": "2026-08-18",
-          "summary": "Stocks fell and Treasury yields rose Monday as Hormuz risk resurfaced - S&P 500 -0.52% to 7,745.06, Nasdaq -0.32% to 26,644.91, 10-year near 4.68%. September hike odds hold at the most recently confirmed reading of roughly 69% for a hold (~30% hike), from Thursday Aug 14 - no fresher print has surfaced since. Home Depot reports Q2 earnings today, opening a retail-earnings week (Target/Lowe's Wednesday, Walmart Thursday) that will be read as a consumer-spending signal against the oil-price backdrop.",
-          "change_type": "watch"
-        },
-        {
-          "date": "2026-08-19",
-          "summary": "Tuesday's confirmed close: S&P 500 -0.69% to 7,691.76, Nasdaq -1.33% to 26,289.71 (chip-led selloff), Dow -0.2%; 10-year up to 4.72%, its highest close of the stretch, as oil rose on Trump's Oman threat. Home Depot beat Q2 estimates (revenue +5.7% YoY to $47.9B, comps +1.7%) even while calling the housing market 'frozen'; Target, Lowe's, TJX, and Estee Lauder report today. September hike odds little changed at roughly 68% hold / 32% hike.",
-          "change_type": "worsened"
-        },
-        {
-          "date": "2026-08-20",
-          "summary": "Wednesday's confirmed close: S&P +0.21% to 7,707.98, Dow +119.65 points to 53,463.05, Nasdaq +0.16% to 26,331.09 - snapping the three-day losing streak after Treasury announced it would double its long-dated debt buyback, easing the 10-year to roughly 4.65% from Tuesday's 4.72%. Tuesday's retail earnings gave a mixed consumer read: Target beat (comps +3.8% vs. 2.4% expected, raised FY guidance) but its stock slipped; TJX beat but fell 4.7% on light Q3 guidance; Lowe's fell on cautious full-year guidance citing DIY spending pressure; Estee Lauder jumped 8% on a genuine beat-and-raise. Walmart reports before today's open - the week's clearest read yet on U.S. household spending. September FOMC hold odds sit near 65% (35% hike), essentially unchanged.",
-          "change_type": "reversed"
-        },
-        {
-          "date": "2026-08-21",
-          "summary": "Thursday's confirmed close reversed Wednesday's rally: S&P -0.87% to 7,641.16, Dow -1.32% (-703.84 pts) to 52,759.21, Nasdaq -1.0% to 26,067.17; the 10-year rose back to roughly 4.70% from Wednesday's 4.65%. Walmart beat on revenue ($187.94B) and adjusted EPS ($0.81) but posted US comp-sales growth of just 2.6% - the slowest in six years - and guided Q3 EPS softly to $0.62-0.64; the stock fell 9.15%, its worst day in over four years, and was the single biggest drag on the market. September FOMC hold odds held roughly steady at 65-68% (32-35% hike).",
-          "change_type": "reversed"
-        },
-        {
-          "date": "2026-08-22",
-          "summary": "Friday's confirmed close rebounded across the board: S&P +0.43% to 7,674.37, Dow +0.98% (+517.80 pts) to 53,277.01, Nasdaq +0.43% to 26,180.45, led less by any economic data than by a crypto rally (bitcoin +7% to roughly $76,900, +22% on the week) that lifted Robinhood and Coinbase alongside the broader tape. The 10-year held steady near 4.71%. Despite the bounce, all three indices still closed lower for the week (S&P -1.4%, Nasdaq -2.1%, Dow -0.9%) after Thursday's Walmart-driven selloff. September FOMC hold odds sit near 68% (32% hike) on CME FedWatch, essentially unchanged from Thursday — new Fed Chair Kevin Warsh (confirmed May 13, sworn in May 22) delivers his first Jackson Hole keynote as chair next Friday, Aug. 28.",
-          "change_type": "improved"
-        },
-        {
-          "date": "2026-08-24",
-          "summary": "Monday premarket points softer: Dow futures down about 11 points, S&P and Nasdaq-100 futures off 0.1% and 0.5%, tech leading declines (XLK -1%) after last week's second straight losing week for the Dow. September FOMC hold odds essentially unchanged near 68%. The week ahead: Nvidia earnings and the Jackson Hole Economic Policy Symposium, which opens Thursday Aug. 27 with Fed Chair Kevin Warsh's first keynote as chair Friday at 10am ET — 19 days before the Sept. 16 decision.",
-          "change_type": "watch"
-        },
-        {
-          "date": "2026-08-25",
-          "summary": "Monday's confirmed close came in more uneven than the premarket drift suggested: S&P 500 -0.28% to 7,652.86, Nasdaq -0.76% to 25,980.19 on chip-sector weakness (Nvidia -2.91%, SanDisk -6.45%) ahead of Wednesday's earnings, while the Dow actually gained 0.26% (+140.15 points) to 53,417.16. Tuesday premarket points modestly higher (S&P futures +0.12%, Nasdaq 100 futures +0.37%). Wednesday now confirmed as a double-header: July's PCE inflation report (the Fed's preferred gauge) at 8:30am ET, and Nvidia earnings after the close -- both ahead of Fed Chair Kevin Warsh's first Jackson Hole keynote as chair, Friday at 10am ET, 19 days before the Sept. 16 decision. CME FedWatch September hold odds sit near 68-70%.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-08-26",
-          "summary": "Tuesday's confirmed close reversed Monday's chip-led split: S&P +0.32% to 7,677.28, Nasdaq +0.66% to 26,151.30, Dow +0.30% (+160 pts) to 53,579.94, closing in on the S&P's record high as oil fell and the 10-year eased to 4.66%. September FOMC odds little changed (~70% hold, ~30% hike). Wednesday is the week's real test: July PCE (the Fed's preferred inflation gauge) lands at 8:30am ET, and Nvidia reports after the close (~4:20-4:30pm ET) -- both ahead of Fed Chair Kevin Warsh's Friday Jackson Hole keynote.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-08-26",
-          "summary": "Wednesday's confirmed close came in essentially flat-to-down, not the rally Tuesday implied: S&P -0.02% to 7,675.70, Nasdaq -0.08% to 26,130.20, Dow -0.21% (-113.52 pts) to 53,463.88, 10-year easing slightly to 4.65%. July PCE landed mixed: headline 3.7% y/y (vs. 3.6% expected, hotter), core -- the Fed's real focus -- exactly in line at 0.2% m/m and 3.3% y/y; consumer spending was flat, a sharp slowdown from June's 0.4% gain.",
-          "change_type": "watch"
-        },
-        {
-          "date": "2026-08-27",
-          "summary": "Nvidia reported after Wednesday's close: $96.2B revenue (+106% y/y, vs. $92.2B expected) and $2.22 non-GAAP EPS (vs. $2.09 expected), with Amazon confirming a 2-million-GPU order. The stock is up roughly 6% in Thursday's premarket, lifting S&P futures +0.5% and Nasdaq-100 futures +1% as the Jackson Hole Economic Policy Symposium opens today in Wyoming -- Fed Chair Kevin Warsh delivers his first keynote as chair tomorrow, Friday, at 10am ET. September FOMC odds little changed (~68-70% hold).",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-08-28",
-          "summary": "Thursday's confirmed close: Nvidia finished up 9.1% -- the second-biggest single-day market-cap gain by any stock in history, adding $442B -- lifting the S&P 500 0.72% to 7,731 and the Nasdaq 1.57% to 26,541; the Dow added 0.2% to 53,569.44. The 10-year rose to roughly 4.68%. September hike odds drifted hawkish to roughly 34-36% (64-66% hold) on CME FedWatch, up from Wednesday's ~30-32%, as the Jackson Hole Symposium's second day brings Fed Chair Kevin Warsh's first keynote as chair at 10am ET -- the week's last real catalyst before the Sept. 16 decision.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-08-29",
-          "summary": "Warsh's first Jackson Hole keynote as chair read as genuinely hawkish -- inflation running too high, price stability his 'predominant focus' -- and September hike odds on CME FedWatch jumped to roughly 56-57% (Kalshi 48%, Polymarket 49%), from 34-36% pre-speech. Friday's confirmed close: S&P -0.25% to 7,711, Nasdaq -0.52% to 26,402, Dow roughly flat at 53,560; all three still closed a winning week. The 10-year held near 4.67%.",
-          "change_type": "reversed"
-        },
-        {
-          "date": "2026-08-31",
-          "summary": "Fuller weekend read of Friday's keynote surfaces Warsh's real break from precedent: he explicitly rejected giving forward guidance, telling Jackson Hole \"we should not indulge a regime in which market participants are looking primarily to the Fed for their next trade,\" and calling a \"quieter Fed\" better able to meet its objectives -- even as most investors now price a September hike. Monday's premarket softened further after the US struck Iran's Larak Island overnight, the first US-Iran military action in a month; September hike odds hold near Friday's 56-57% on CME FedWatch.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-08-31",
-          "summary": "Warsh reiterated his hawkish line in G20 remarks Monday, arguing the low-inflation era is over and price stability remains the Fed's dominant focus. September hike odds held near Friday's 56-57% (CME FedWatch) into Tuesday morning, with markets now watching two real catalysts before the Sept. 16 decision: today's ISM Manufacturing PMI (10am ET) and Friday's August jobs report (8:30am ET) -- the last major print before the FOMC's blackout period begins Saturday, Sept. 5.",
-          "change_type": "watch"
-        },
-        {
-          "date": "2026-09-02",
-          "summary": "August's ISM Manufacturing PMI came in at 54.6, below the 55.2 consensus and down from July's 55.6 -- an eighth straight month of expansion but clearly decelerating, normally a dovish signal. CME FedWatch's September hike odds moved the opposite direction anyway, firming to roughly 66% (from 56-57% Friday) as markets continued repricing Warsh's hawkish G20/Jackson Hole framing over the incoming data itself. Tuesday's close: S&P 500 -0.71% to 7,631.47, Nasdaq -1.03% to 26,099.77, both giving back more of August's gains as oil climbed on the Iran strikes; the 10-year rose to about 4.80%, its highest close of the stretch.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-09-03",
-          "summary": "Wednesday's confirmed close: S&P 500 +0.46% to 7,666.60, Nasdaq +0.45% to 26,217.83, both recovering part of Tuesday's slide as Treasury yields paused their climb; the 10-year eased to roughly 4.79% from Tuesday's 4.80%, a session after touching its highest close since October 2023. September hike odds held essentially unchanged near 65-66% on CME FedWatch. Friday's August jobs report, 8:30am ET, is now the last data point before the FOMC's blackout period begins Saturday, September 5 -- the only thing left that can move the odds before the Sept. 16 decision.",
-          "change_type": "watch"
-        },
-        {
-          "date": "2026-09-03",
-          "summary": "Governor Christopher Waller said he would be inclined to support holding the federal funds rate at its current setting if inflation data over the next two weeks continues showing progress toward 2%, while reserving the right to change course. CME FedWatch September hike odds fell about twelve points to roughly 55% from 66%. Stocks turned higher (S&P +0.7%, Nasdaq +0.9%, Dow +450) and the 10-year eased to about 4.76% from 4.79%. Initial jobless claims rose to 206,000 (consensus 205,000), continuing claims to 1.78 million; Wednesday's ADP showed private payrolls up 38,000 versus 47,000 expected.",
-          "change_type": "reversed"
-        },
-        {
-          "date": "2026-09-04",
-          "summary": "CORRECTION. An earlier entry for this date reported August payrolls at +22,000 with unemployment at 4.3 percent. Those figures were wrong and have been removed. BLS USDL-26-1435 (8:30am ET Sept 4) reports payrolls +162,000 vs consensus near 53,000-56,000, unemployment unchanged at 4.1 percent, average hourly earnings +3.1 percent y/y, June revised up to +31,000 and July revised up from -23,000 to +21,000 (combined +55,000). CME FedWatch put a September quarter-point hike near 60 percent after the print; two-year 4.37 percent, ten-year 4.78 percent. Blackout begins Saturday.",
-          "change_type": "reversed"
-        },
-        {
-          "date": "2026-09-05",
-          "summary": "The FOMC's pre-meeting blackout formally begins today. Friday's confirmed close: S&P 500 -0.38% to 7,718.60, Nasdaq -0.29% to 26,506.99; the 10-year held in a 4.76-4.78% range depending on source. August CPI is now dated: Friday, September 11 at 8:30am ET, the last data the committee sees before the September 16 decision. CME FedWatch read a September hike near 60% right after Friday's jobs print, with some trackers showing readings as high as 66%.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-09-06",
-          "summary": "No new data over the weekend; the blackout enters its second week with nothing to move the odds until August CPI, due Friday, September 11 at 8:30am ET.",
-          "change_type": "watch"
-        },
-        {
-          "date": "2026-09-07",
-          "summary": "Labor Day: US markets closed, blackout holds. CME FedWatch odds unchanged near 60% for a September hike since Friday's post-jobs read; nothing will move until August CPI, Friday September 11 at 8:30am ET.",
-          "change_type": "watch"
-        },
-        {
-          "date": "2026-09-08",
-          "summary": "Markets reopen after Labor Day. CME FedWatch's September hike odds sit near 58-59%, essentially unchanged from Friday's ~60% read. Friday's confirmed close remains the last print: S&P 500 -0.38% to 7,718.60, Nasdaq -0.29% to 26,506.99, the 10-year near 4.78-4.79%. August CPI, Friday September 11 at 8:30am ET, remains the last input before the September 16 decision.",
-          "change_type": "watch"
-        },
-        {
-          "date": "2026-09-09",
-          "summary": "Tuesday's confirmed close: S&P 500 -0.58% to 7,673.52, Nasdaq -0.32% to 26,421.41, Dow -628.18 points (-1.18%) to 52,786.07 -- the week's worst session, as investors weighed the fresh Hormuz escalation (five Iranian tankers destroyed, a disputed US drone capture) against Friday's looming CPI. The 10-year held near 4.79%. September hike odds on CME FedWatch sit roughly 58-60%, essentially unchanged, with August CPI on Friday, September 11 at 8:30am ET still the last input before the September 16 decision.",
-          "change_type": "worsened"
-        },
-        {
-          "date": "2026-09-10",
-          "summary": "Wednesday's confirmed close: S&P 500 -0.48% to 7,636.36, Nasdaq -0.64% to 26,253.34, Dow -405.41 (-0.77%) to 52,380.66, Russell 2000 -1.30%. The 10-year rose to roughly 4.83-4.85%, its highest close since October 2023, on fiscal worries and heavy AI-sector debt issuance. CME FedWatch's September hike odds ranged 56-66% across trackers this week -- an unusually wide, fast-moving spread tied to Fed Chair Kevin Warsh's hawkish Jackson Hole remarks. August CPI, Friday September 11 at 8:30am ET, remains the deciding input.",
-          "change_type": "worsened"
-        },
-        {
-          "date": "2026-09-11",
-          "summary": "A hot August PPI print pushed CME FedWatch's September 16 hike odds to roughly 70%, from 56-66% Wednesday and 44% a week earlier. Thursday's confirmed close: S&P 500 -0.6% to 7,591.70, Dow -0.6% to 52,064.10, Nasdaq -0.7% to 26,081.72, a fourth straight losing session; the 10-year Treasury yield jumped to 4.95%, its highest close since October 2023, on the hot PPI and Brent's climb toward $108. August CPI -- the last input before Wednesday's decision -- released this morning at 8:30am ET; settled figures and market reaction were not yet independently confirmed through primary sources as this edition went to print.",
-          "change_type": "worsened"
-        },
-        {
-          "date": "2026-09-12",
-          "summary": "August CPI landed at 8:30am as expected -- headline +0.4% m/m (3.4% y/y), core +0.3% m/m (2.4% y/y, the lowest annual core reading in over five years) -- but far from reassuring markets on a hold: CME FedWatch odds for the September 16 hike jumped further, to roughly 85-90%, since an in-line-but-not-soft print removed the last real chance of a surprise. Stocks rallied anyway (S&P +0.9% to 7,656.98, Dow +1% to 52,573.29, Nasdaq +1% to 26,333.04) as Brent's pullback eased inflation-input fears; the 10-year closed at 4.96%, a hair from 5%.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-09-14",
-          "summary": "Monday premarket: S&P 500 futures -0.5%, Nasdaq-100 futures -1.2% on oil's surge past $106 (Salalah postponement, Houthi Red Sea gains, Saudi pipeline shutdown) compounded by AI-industry warnings of a development slowdown; hike odds hold near 85-90% ahead of Wednesday's decision and dot plot.",
-          "change_type": "watch"
-        },
-        {
-          "date": "2026-09-15",
-          "summary": "The 10-year Treasury rose intraday to 5.01% Monday -- matching October 2023's brief high and the highest level since 2007 -- before easing to close near 4.987%. The S&P 500, Nasdaq, and Dow all confirmed Monday's premarket weakness at the close (S&P -0.46% to 7,621.54, Nasdaq -0.56% to 26,186.41, Dow -0.29% to 52,421). CME FedWatch hike odds hold near 88-91%, though Kalshi (57%) and Polymarket (49%) show real disagreement ahead of Wednesday's decision.",
-          "change_type": "worsened"
-        },
-        {
-          "date": "2026-09-16",
-          "summary": "Tuesday's close: 10-year Treasury finished at ~5.00% (its first actual close at that level since 2007) after touching 5.04% intraday; S&P/Nasdaq/Dow all fell a second straight session. CME FedWatch hike odds for today's 2pm ET decision rose to ~93%; Polymarket converged to ~89% (from 49% Friday). Brent near $109, +3.34% Tuesday.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-09-17",
-          "summary": "The FOMC voted 12-0 Wednesday to raise the target range 25bp to 3.75%-4.00%, the first hike since 2023. The new dot plot shows 16 of 18 officials expecting at least one more hike this year (4 see two), median funds rate projected at 4.10% through all of 2027 with no cuts penciled in. Stocks fell despite the hike being priced above 90%: Dow -631pts (-1.21%) to 51,461.90, S&P -0.45% to 7,551.81, Nasdaq roughly flat (-0.01%) to 25,978.42. The 10-year Treasury closed at 5.016%, pushing past Tuesday's 5.00% close.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-09-18",
-          "summary": "Markets rebounded Thursday from Wednesday's hawkish-hike selloff: the S&P 500 rose roughly 1.1-1.2% to about 7,638, the Nasdaq gained roughly 1.6-1.7% to about 26,418, and the 10-year eased about 6bp to roughly 4.95% from Wednesday's 5.016% close. October 27-28 odds now lean toward a hold -- CME FedWatch near 59-60% hold vs roughly 40% hike, Polymarket close to even -- even though the Fed's own dot plot still points to at least one more 2026 hike.",
-          "change_type": "reversed"
-        },
-        {
-          "date": "2026-09-19",
-          "summary": "Friday's confirmed close held the rebound: S&P 500 +1.1% to 7,637.76, Nasdaq +1.7% to 26,418.30, 10-year holding near 4.94%. CME FedWatch settled the week at 59.5% odds of an October 27-28 hold versus 40.1% for another 25bp hike (and a residual 0.5% for a larger move) -- essentially unchanged from Thursday, meaning the market's break from the Fed's own hawkish dot plot held through the end of the week rather than fading.",
-          "change_type": "watch"
-        },
-        {
-          "date": "2026-09-20",
-          "summary": "Friday's close confirmed as a modest 0.2%/0.4% gain (not a repeat of Thursday's 1.1%/1.7% rebound), 10-year back to 5.00%; by Saturday, CME FedWatch/Polymarket/Kalshi all reversed back toward a hike (57.6%/56%/54%) from Thursday-Friday's lean toward a hold.",
-          "change_type": "reversed"
-        },
-        {
-          "date": "2026-09-21",
-          "summary": "CME FedWatch shows 59.7% odds of an October 28 hike as of Sunday, up modestly from Saturday's 57.6% -- the first back-to-back same-direction reading in over a week. Polymarket shows 56% hike odds Monday, its closest alignment with CME in weeks. Markets remain closed since Friday's confirmed close (S&P 500 +0.2% to 7,650.50, Nasdaq +0.4% to 26,522.55, 10-year at 5.00%).",
-          "change_type": "watch"
-        },
-        {
-          "date": "2026-09-22",
-          "summary": "Monday's confirmed close: S&P 500 +1.49% to 7,764.70, Nasdaq +2.26% to 27,122.09 -- the best day for both since early August -- as the 10-year eased to roughly 4.95% from Friday's 5.00%. The rally tracked easing geopolitical risk (oil's 3.4% drop) alongside a soft August core PCE reading (0.24% m/m, 2.7% y/y, in line with consensus), which cut odds of an inter-meeting emergency hike to about 12% from Friday's 28%. October 28 FOMC odds are little changed on CME (last confirmed Sunday at 59.7% hike), though Polymarket eased to roughly 53-54% Monday from Sunday's 56%.",
-          "change_type": "improved"
-        },
-        {
-          "date": "2026-09-22",
-          "summary": "Tuesday's confirmed close: S&P essentially flat at 7,764.64, Nasdaq +0.5% to a fresh record 27,244.28, Dow -0.4% to 51,863.69. The 10-year eased further to roughly 4.93% from Monday's 4.95%. October 28 FOMC odds held almost exactly still for a third straight day: CME's last confirmed read remains Sunday's 59.7%, Polymarket near 53-54%.",
-          "change_type": "watch"
-        },
-        {
-          "date": "2026-09-23",
-          "summary": "Wednesday's close reversed Tuesday's calm: S&P -0.75% to 7,706.39, Nasdaq -1.13% to 26,936.04 (snapping its record), 10-year spiked to 5.11% (highest since July 2007) on hot PMI data, rising input costs, and hawkish comments from Fed Governor Barr. October 28 hike odds jumped from Sunday's ~59.7% to roughly 66-73% across trackers.",
-          "change_type": "reversed"
-        },
-        {
-          "date": "2026-09-24",
-          "summary": "Thursday's close was essentially flat after Wednesday's shock: S&P 500 -1.90 pts (-0.02%) to 7,704.13, Nasdaq +3.34 pts (~flat) to 26,939.37, as elevated yields and rebounding oil offset each other. The 10-year held near Wednesday's 5.11-5.14% spike, settling around 5.12% -- still the highest sustained level since 2007. CME FedWatch's October 28 hike odds climbed further, to roughly 73.5%, up from Wednesday's 66-73% range.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-09-26",
-          "summary": "Friday's close: S&P +0.51% to 7,743.41, Nasdaq +0.5% to 27,068.72, Dow +0.93% to 51,828.62. The 10-year touched 5.225% intraday (highest since 2007) before settling at 5.18%; the 30-year briefly hit 5.502% (highest since 2004). Oil eased (Brent -2.14% to $104.32) on Hormuz-deal optimism. October hike odds climbed to ~75.8% on CME FedWatch.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-09-28",
-          "summary": "US equity futures fell Monday (S&P -0.4%, Nasdaq-100 -0.9%) on combined Iran and AI-safety jitters, ending two straight weeks of index records; underlying Fed odds and yields are unchanged from Friday.",
-          "change_type": "watch"
-        },
-        {
-          "date": "2026-09-29",
-          "summary": "10Y to 5.24% (highest since 2007); S&P -0.77% to 7,683.69, Nasdaq -0.92% to 26,820.38; hike odds ~72.3%.",
-          "change_type": "worsened"
-        },
-        {
-          "date": "2026-09-30",
-          "summary": "30-year yield at a 2002 high, consumer confidence lowest since 2014; PCE due today.",
-          "change_type": "worsened"
-        },
-        {
-          "date": "2026-10-01",
-          "summary": "Cooler PCE halves hike odds but the 10-year hits a 24-year high at 5.29%.",
-          "change_type": "reversed"
-        },
-        {
-          "date": "2026-10-02",
-          "summary": "10-year reverses from a 2002 high to close near 5.24%; ISM prices paid hot at 77.9; payrolls due Friday.",
-          "change_type": "reversed"
-        },
-        {
-          "date": "2026-10-03",
-          "summary": "Payrolls rose 29,000 vs about 84,000 expected, with 60,000 of downward revisions; 10-year fell to about 5.18%; October hike odds collapsed.",
-          "change_type": "reversed"
-        },
-        {
-          "date": "2026-10-04",
-          "summary": "Week-end tally: October hike odds near 17%, December hike still priced; 10-year about 5.15%.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-10-05",
-          "summary": "October hike odds stay near 17%; December pricing roughly 65-75% by source.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-10-07",
-          "summary": "Oct 5: S&P 500 closed 7,773.95 and Nasdaq 27,477.31 (record); December hike pricing still near 74% in late-September prediction-market snapshots.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-10-08",
-          "summary": "Oct 6 record closes (S&P 7,818.93, Nasdaq 27,599.79); Oct 7 S&P 7,801.77; 10Y touched 5.35% then ~5.28%. Oct hike odds fell below 50% after Williams on Sept 29; December odds not verified.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-10-09",
-          "summary": "Sept minutes (released Oct 7): most participants see another hike likely by year end; October odds about 17% after 29k September payrolls; December unverified.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-10-13",
-          "summary": "Oct 12 closes: S&P 7,807.24, Nasdaq 27,245.90; bank earnings Oct 13, CPI Oct 14.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-10-14",
-          "summary": "Same-day notes put October hike odds near 19% and one more hike by December near 85%; Collins and Williams leave another hike in view.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-10-15",
-          "summary": "September CPI 3.7% y/y vs 3.6% expected; S&P 500 -1.11%; October hike odds ~46% at close, ~31% Thursday per CNBC.",
-          "change_type": "worsened"
-        },
-        {
-          "date": "2026-10-16",
-          "summary": "Thursday rebound: Dow +1.1%, S&P +0.3%, Nasdaq +0.1% as investors rotate out of tech; hike odds near 31%; S&P still on track for a losing week.",
-          "change_type": "improved"
-        },
-        {
-          "date": "2026-10-17",
-          "summary": "Friday: stocks reportedly fall (S&P -1.1%, Nasdaq -2.1%), erasing Thursday's rebound; Nasdaq about -4.5% on the week; producer prices reported hot.",
-          "change_type": "worsened"
-        },
-        {
-          "date": "2026-10-18",
-          "summary": "AP-based wrap confirms Friday's close: S&P 500 -1.1% to 7,659.44, Nasdaq -2.1% to 26,140.03, chip-led; week -1.9% and -4.5%. Fed odds sources conflict and none is current.",
-          "change_type": "advanced"
-        },
         {
           "date": "2026-10-19",
           "summary": "Hold ~78% / hike ~25% reading found (undated mid-October); no Monday close yet.",
@@ -1350,6 +832,11 @@
           "date": "2026-10-25",
           "summary": "10Y back at 5.00%; hold remains consensus.",
           "change_type": "advanced"
+        },
+        {
+          "date": "2026-10-26",
+          "summary": "Week-ahead previews: hold ~88%, hike ~10%; decision Wed Oct 28, 2 p.m. ET.",
+          "change_type": "unchanged"
         }
       ]
     },
@@ -1825,345 +1312,10 @@
       "title": "Dolphins rebuild under Hafley",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-10-25",
-      "updates": 74,
-      "current_state": "0-5; at the 2-4 Jets Sunday Oct 25, 1 p.m. ET; no result yet.",
+      "last_updated": "2026-10-26",
+      "updates": 75,
+      "current_state": "1-5 after a 28-25 win at the Jets on Oct 25.",
       "timeline": [
-        {
-          "date": "2026-07-18",
-          "summary": "Camp schedule announced.",
-          "change_type": "new"
-        },
-        {
-          "date": "2026-07-21",
-          "summary": "Rookies reported; camp officially underway.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-07-22",
-          "summary": "Jordyn Brooks signs three-year, $51.3M extension through 2029.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-07-22",
-          "summary": "Joint-practice schedule confirmed: Aug. 12 at Washington, Aug. 20 hosting the Giants.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-07-27",
-          "summary": "Veterans confirmed to report Tuesday, July 28; camp runs through Aug. 26 with the first public practice Aug. 2.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-07-28",
-          "summary": "Veterans report as scheduled; training camp officially opens with the full squad on the field for the first time under Hafley.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-07-29",
-          "summary": "First full practice: all veterans pass conditioning test; Achane fully participates after offseason shoulder surgery; Willie Gay Jr. sets an energetic tone; Chris Bell remains on PUP with no timetable.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-07-30",
-          "summary": "Fuller Day One reporting: Willie Gay Jr.'s standout play was a one-handed interception returned for a touchdown off Cam Miller; Austin Jackson says he feels 'better than my normal self' after last year's rushed return from a toe injury.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-07-30",
-          "summary": "Rookie safety Michael Taaffe intercepts backup quarterback Quinn Ewers, his former Texas teammate, in team drills.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-07-30",
-          "summary": "Edge rusher Chop Robinson reports to camp carrying roughly ten added pounds of muscle.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-07-31",
-          "summary": "Practice two runs as flagged - the hardest and longest of the week - with a shift toward individual and 11-on-11 work over 7-on-7 drills and an explicit emphasis on cutting penalties this season.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-08-02",
-          "summary": "First public practice of camp runs as part of the NFL's 'Back Together Weekend,' free and open to fans, showcasing Malik Willis and rookies Kadyn Proctor, Chris Johnson, Jacob Rodriguez, and Chris Bell.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-08-04",
-          "summary": "First practice in full pads this camp, testing Hafley's shift toward a power-based run scheme; Monday's session included a deep completion from Malik Willis to Tutu Atwell.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-08-05",
-          "summary": "Practice 5, the second day in pads, tilts toward the defense with forced turnovers and the first one-on-one line periods of camp; Malik Willis connects with Malik Washington on two deep balls.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-08-06",
-          "summary": "Thursday's practice: the defense forces four turnovers, including interceptions from Zayne Anderson and Ronnie Harrison Jr.; Hafley says Malik Willis's reps have grown more confident through the week, calling that the top thing he's watching for. Rookie WR Chris Bell continues rehab work on the side after a torn ACL.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-08-07",
-          "summary": "Rookie DT Rene Konga is ruled out for the season; Miami signs DL Fatorma Mulbah to cover the spot and claims TE Jeremiah Franklin off waivers from New England, giving the roster six tight ends. Presumptive starting TE Greg Dulcich practices in a red non-contact jersey with an undisclosed injury, targeting a return around the Aug. 14 joint practice with Washington.",
-          "change_type": "watch"
-        },
-        {
-          "date": "2026-08-08",
-          "summary": "Friday's practice: CB Miles Battle had two interceptions (one a 50-plus-yard return), S Major Burns picked off a tipped pass, LB Jackson Woodard returned one for a touchdown, and DL Zach Sieler and edge Josh Uche each recorded sacks. Miami also signed S Tanner Wall, claimed CB Ahmari Harvey off waivers from Pittsburgh, and waived QB Mark Gronowski and S Omar Brown (injured).",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-08-08",
-          "summary": "Saturday's fan-open scrimmage at Hard Rock Stadium: seven players out injured (Ferrell, Brents, Trader Jr., L. Johnson Jr., Sims, Coleman Jr., Salyer); Dulcich progressed in a red non-contact jersey. Offensive highlights: deep completions from Willis to Traore, Miller to Washington, and Ewers to Marshall.",
-          "change_type": "watch"
-        },
-        {
-          "date": "2026-08-09",
-          "summary": "Miami practices at Hard Rock Stadium for the first time this camp; QB Malik Willis has a strong day, including two 20-plus-yard completions on scrambles to Tutu Atwell and Seydou Traore. Team is off in the afternoon.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-08-10",
-          "summary": "Monday opens with a free public practice, 9:30am. Wednesday's joint practice with Washington is confirmed for Ashburn, VA - the Commanders' first hosted joint-practice partner since 2018 - ahead of Friday's 7pm preseason opener at Northwest Stadium. The Saturday injury list has no confirmed resolution yet.",
-          "change_type": "watch"
-        },
-        {
-          "date": "2026-08-11",
-          "summary": "Miami travels to Ashburn, VA ahead of tomorrow's joint practice with Washington. The injury list and Dulcich's status remain unresolved heading into it.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-08-12",
-          "summary": "Miami runs today's joint practice at Washington's Ashburn, VA facility - the first-ever joint practice held on Commanders Park grounds. Dulcich still in a red non-contact jersey but trending toward a return. Injury-list detail sharpens: Ferrell out multiple weeks, Brents out this week, Coleman Jr./Trader Jr./Sims probably out this week with a possible return next week; kicker Zane Gonzalez newly out for weeks.",
-          "change_type": "watch"
-        },
-        {
-          "date": "2026-08-13",
-          "summary": "Wednesday's joint practice at Washington's Ashburn facility gave Miami its first outside benchmark of camp, and the Commanders' defensive front won it - Odafe Oweh and K'Lavon Chaisson repeatedly beat Miami's offensive line for would-be sacks, and Mike Sainristil returned an interception for a touchdown. Miami's own defense and injury list were not the story of the day. Team preps for tomorrow's 7pm preseason opener against Washington at Northwest Stadium.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-08-14",
-          "summary": "Miami plays its preseason opener at Washington tonight, 7pm at Northwest Stadium - Hafley's first game as head coach and Malik Willis's Miami debut. Miami is a 3-point favorite, but most starters are expected to rest after the extensive joint-practice work; rookie CB Chris Johnson intercepted Quinn Ewers in Wednesday's team drills, and OT Austin Jackson is fully cleared from his toe injury.",
-          "change_type": "watch"
-        },
-        {
-          "date": "2026-08-15",
-          "summary": "Washington won Jeff Hafley's debut as Miami's head coach 20-7 Friday night at Northwest Stadium. Miami's starters opened with a 14-play, 93-yard touchdown drive capped by a De'Von Achane score, but Washington's defense took over after that, forcing a turnover on downs and back-to-back three-and-outs, with most Miami starters resting for the rest of the game.",
-          "change_type": "new"
-        },
-        {
-          "date": "2026-08-15",
-          "summary": "Hafley spent Saturday reviewing tape from the 20-7 loss - pleased with how the starters, led by Malik Willis, executed together, but flagged backup-QB depth and offensive-line protection as the real items to fix before the next test. No game this weekend; next joint practices are Aug. 20 against the Giants ahead of an Aug. 22 preseason game.",
-          "change_type": "watch"
-        },
-        {
-          "date": "2026-08-18",
-          "summary": "Rookie WR Chris Bell (recovering from a torn ACL) was activated off the physically-unable-to-perform list; OT Austin Jackson is fully cleared from his toe injury. Miami held a Member Day practice today closed to the public; the next public milestone is Wednesday's joint practice with the Giants ahead of an Aug. 22 preseason game.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-08-20",
-          "summary": "Giants and Dolphins staffs set \"rules of engagement\" (protect QBs, no blindside hits, front-up thuds only) ahead of today's joint practice, two days before Saturday's Aug. 22 preseason game. Hafley on rookie WR Chris Bell's ACL recovery: \"I think he's in a really good place right now... he's accelerating, decelerating, able to cut\" - hopeful to get him into a preseason game before Week 1. OT Austin Jackson is fully cleared from his toe injury; OL Jamaree Salyer, TE Greg Dulcich, TE Ben Sims, S Dante Trader Jr., and WR Kevin Coleman remain day-to-day.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-08-21",
-          "summary": "New York's defensive front dominated Thursday's joint practice at Miami's facility, with tempers flaring repeatedly; Giants rookie OT Francis Mauigoa (ex-Hurricane) left with a stinger (not considered serious) and starting RT Jermaine Eluemunor also exited early, but no major new Dolphins injury emerged from the session. Coach Jeff Hafley confirmed rookie WR Chris Bell, activated off the non-football-injury list Monday, will not play in Saturday's preseason game against the Giants: \"there's still a lot of steps to go\" in his ACL recovery.",
-          "change_type": "watch"
-        },
-        {
-          "date": "2026-08-22",
-          "summary": "Miami hosts the Giants today at 4pm at Hard Rock Stadium in the second preseason game of Hafley's tenure, after Thursday's joint practice turned openly hostile — RT Austin Jackson was ejected for throwing a punch (he returned for the final 11-on-11 period) and Giants LB Abdul Carter took a swing at LT Patrick Paul after losing a rep; Hafley said postgame he'd be disappointed to see more fighting and that it isn't a sign of toughness. Rookie WR Chris Bell, activated off the non-football-injury list last week, will not play today — Hafley called him week-to-week in his ACL recovery, with hope he's ready for the regular season. DT Zach Sieler is expected to be ready for the opener; DT Kenneth Grant is week-to-week and sitting out the rest of this week.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-08-23",
-          "summary": "The Giants routed Miami 26-3 Saturday at Hard Rock Stadium — Jameis Winston threw for 150 yards and ran for a touchdown in the first half. Chris Bell (ACL) did not play, still week-to-week per Hafley.",
-          "change_type": "worsened"
-        },
-        {
-          "date": "2026-08-26",
-          "summary": "In the days after Saturday's 26-3 loss to the Giants, Hafley confirmed linebacker Trey Moore (ankle, hurt vs. the Giants) is sidelined with a quick return unlikely, as Miami works through the roster decisions that must be finalized by Sunday, Aug. 30's 53-man deadline.",
-          "change_type": "watch"
-        },
-        {
-          "date": "2026-08-27",
-          "summary": "Hafley confirmed Trey Moore will need surgery on the ankle injury from the Giants game -- a longer-term absence than Tuesday's 'unlikely to return quickly' framing suggested. Miami is expected to place him on injured reserve by roster-cutdown weekend, using one of its two IR-return designations ahead of Sunday, Aug. 30's deadline. Separately, Miami claimed WR Ryan Miller off waivers from the Giants and waived WR Tahj Washington to make room.",
-          "change_type": "worsened"
-        },
-        {
-          "date": "2026-08-29",
-          "summary": "Clarified: Trey Moore can't go on injured reserve until Miami's initial 53-man roster is set, so the team is carrying him as one of its 90 for now; Miami is expected to place him on IR around Aug. 30-31, once cuts are final, preserving his eligibility to return later this season.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-08-30",
-          "summary": "Miami began its round of roster cuts Sunday, waiving 12 players -- including CB Alex Austin, RB Coleman Bennett, and linebackers Stephen Dix Jr. and Jaheim Thomas -- as all NFL teams face today's 6pm ET deadline to reach 53. Trey Moore's IR placement is still expected to follow immediately after the initial 53 is set.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-08-30",
-          "summary": "Miami's initial 53 is set: the QB room turned over completely at the deadline -- Quinn Ewers traded to Jacksonville Saturday, then Kyle McCord acquired from Green Bay Sunday for the identical 2028 sixth-round pick Miami got for Ewers, a direct swap. Malik Willis is the Week 1 starter with McCord now the backup.",
-          "change_type": "resolved"
-        },
-        {
-          "date": "2026-08-30",
-          "summary": "First-round DT Kenneth Grant went on injured reserve with a designation to return, for a leg injury -- out a minimum of four games, eligible back as early as Week 5; Hafley had called the roster \"thin still\" beforehand. Trey Moore's expected ankle-surgery IR placement was finalized alongside it. For the record: Miami's actual Week 1 opener is Sunday, September 13 at the Las Vegas Raiders (4:25pm ET, FOX) -- not September 4, which is the Hurricanes' season opener at Stanford, a different team entirely.",
-          "change_type": "watch"
-        },
-        {
-          "date": "2026-08-31",
-          "summary": "During the same roster-cut weekend that set Miami's 53, the Dolphins traded Quinn Ewers, waived Cam Miller and Mark Gronowski, and acquired backup QB Kyle McCord from Green Bay -- the moves that actually cleared the room to make Malik Willis the unambiguous starter.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-09-08",
-          "summary": "Head coach Jeff Hafley named six team captains ahead of Sunday's opener at Las Vegas, including QB Malik Willis -- Hafley said the vote reflects the locker room's respect for Willis rather than the honor simply following the starting job.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-09-10",
-          "summary": "Hafley said all 53 active-roster players practiced Wednesday -- tight end Will Kacmarek and linebacker Ronnie Harrison Jr. returned after missing last week, and receiver Chris Bell (off the non-football-injury list) is a full go for Week 1. Receiver Tyreek Hill will not play Week 1, with doctors reportedly recommending he wait until at least October to attempt a comeback. Malik Willis makes his first career start as a Dolphin Sunday at Las Vegas.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-09-11",
-          "summary": "Coach Jeff Hafley said all 53 active roster players practiced Wednesday and Thursday ahead of Sunday's 1pm opener at Las Vegas, with only minor limitations (Ronnie Harrison Jr., Will Kacmarek). The Raiders will be without star tight end Brock Bowers (knee) for the game. Malik Willis makes his first career start at quarterback for Miami; Tyreek Hill remains out.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-09-12",
-          "summary": "Friday's final injury report before Sunday's 1:25pm PT opener at Las Vegas lists only Will Kacmarek (calf) and Ronnie Harrison Jr. (hamstring) as limited, with Seydou Traore a full participant; the Raiders remain without tight end Brock Bowers (knee). Malik Willis makes his first career start Sunday.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-09-13",
-          "summary": "Season opener day: kickoff at Allegiant Stadium is 1:25pm PT / 4:25pm ET, with Las Vegas installed as a 3.5-point favorite (total 40.5). Malik Willis makes his first career start; the Raiders open a new era under head coach Klint Kubiak and veteran QB Kirk Cousins.",
-          "change_type": "watch"
-        },
-        {
-          "date": "2026-09-14",
-          "summary": "Season opener result: Raiders beat Dolphins 27-13 at Allegiant Stadium, never trailing. Willis passed for 220 yards with an interception and ran for a 14-yard touchdown but was sacked five times; Cousins threw three touchdown passes.",
-          "change_type": "worsened"
-        },
-        {
-          "date": "2026-09-15",
-          "summary": "Miami's Week 2 opponent is confirmed: at the San Francisco 49ers, Sunday, September 20, at Levi's Stadium, a fast West Coast trip after Sunday's 27-13 opening loss at Las Vegas.",
-          "change_type": "new"
-        },
-        {
-          "date": "2026-09-18",
-          "summary": "Ahead of Sunday's game at San Francisco (4:25pm ET, Fox), Miami is a roughly 13 to 13.5-point underdog. Rookie safety Kyle Louis is out with an MCL sprain from the opener, long snapper Tucker Addington is dealing with a shoulder injury, and quarterback Malik Willis -- starting since the Vegas opener -- has a toe injury but returned to full practice Wednesday and is expected to play.",
-          "change_type": "watch"
-        },
-        {
-          "date": "2026-09-20",
-          "summary": "Week 2 at San Francisco, 13.5-point underdogs, chasing the first win of the Hafley era after an opening loss.",
-          "change_type": "watch"
-        },
-        {
-          "date": "2026-09-21",
-          "summary": "San Francisco routed Miami 35-13 Sunday, dropping the Dolphins to 0-2 -- an 8-point-plus swing against the 13.5-point spread. Christian McCaffrey became the fourth-fastest player in Super Bowl-era history to reach 100 career touchdowns; Brock Purdy played a near-perfect game for a 49ers team now 2-0.",
-          "change_type": "worsened"
-        },
-        {
-          "date": "2026-09-24",
-          "summary": "Sunday's matchup is set: Chiefs (2-0) visit as 10.5-point favorites off back-to-back 30+ point games and the league's largest rushing-yardage differential through two games since 2005; Dolphins (0-2) have scored just 13 points in each game so far. Dimers gives Kansas City a 79.9% win probability.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-09-24",
-          "summary": "Thursday's injury reports: Miami rookie WR Chris Bell (knee) is questionable and fellow rookie Caleb Douglas (ankle, held out of Week 2's finish) didn't practice; Kansas City's report is comparatively clean, with only minor new issues (Anudike-Uzomah, Cochrane, Bassa, Hicks) and left tackle Josh Simmons still working back from his own absence. Neither report has moved the line, which remains Chiefs -10.5.",
-          "change_type": "watch"
-        },
-        {
-          "date": "2026-09-26",
-          "summary": "Friday's final injury reports: Kansas City ruled out LT Josh Simmons (back) and listed S Chamarri Conner doubtful (knee); Mahomes has no designation. Miami ruled out WR Caleb Douglas and Edge Rob Beal Jr., listed RB Jaylen Wright doubtful (stinger), and gave WR Chris Bell no game-status designation at all. Line held at Chiefs -10.5.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-09-28",
-          "summary": "Kansas City beat Miami 24-10 Sunday at Hard Rock Stadium; Kenneth Walker III scored on a catch and a run, Mahomes threw for 246 yards and two touchdowns. Dolphins fall to 0-3 under Hafley.",
-          "change_type": "worsened"
-        },
-        {
-          "date": "2026-09-29",
-          "summary": "Achane's ACL tear confirmed; placed on IR.",
-          "change_type": "worsened"
-        },
-        {
-          "date": "2026-09-30",
-          "summary": "Week 4 preview; Wright day-to-day.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-10-01",
-          "summary": "Hafley on Achane's recovery; Vikings heavy favorites.",
-          "change_type": "watch"
-        },
-        {
-          "date": "2026-10-02",
-          "summary": "Willis says no panic; all four opponents started 3-0.",
-          "change_type": "watch"
-        },
-        {
-          "date": "2026-10-03",
-          "summary": "Week 4 preview.",
-          "change_type": "watch"
-        },
-        {
-          "date": "2026-10-04",
-          "summary": "Line moves to Vikings -10.5; Achane out for year with torn ACL; Dolphins have no sacks.",
-          "change_type": "worsened"
-        },
-        {
-          "date": "2026-10-05",
-          "summary": "Lost 15-10 at Minnesota to fall to 0-4.",
-          "change_type": "worsened"
-        },
-        {
-          "date": "2026-10-06",
-          "summary": "0-4 with Achane out for the season; Bengals Oct 11, bye in Week 6.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-10-08",
-          "summary": "Week 5 vs Cincinnati Sunday Oct 11 at 1 p.m.; bye Oct 18.",
-          "change_type": "watch"
-        },
-        {
-          "date": "2026-10-09",
-          "summary": "Week 5 vs. Cincinnati Sunday Oct 11; Chase and Higgins missed Wednesday practice.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-10-10",
-          "summary": "Chase back at practice Thursday, not yet cleared; Higgins day-to-day.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-10-11",
-          "summary": "Sunday Oct 11: Chase (concussion protocol) and Higgins listed questionable for the 1 p.m. kickoff; inactives not yet known.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-10-12",
-          "summary": "Lost to Cincinnati 31-24 on October 11 to fall to 0-5; Hafley says the plan and execution both need to be better.",
-          "change_type": "worsened"
-        },
-        {
-          "date": "2026-10-13",
-          "summary": "Hafley rules out a QB change entering the bye.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-10-14",
-          "summary": "Bye-week update: Hafley keeps Willis; injuries to Taaffe and Brents; Cook added to the practice squad.",
-          "change_type": "unchanged"
-        },
         {
           "date": "2026-10-17",
           "summary": "Hafley sticks with Willis (56.2%, 849 yds, 2 TD, 4 INT); one report says Achane is lost to injury; Jets Oct 25.",
@@ -2198,6 +1350,11 @@
           "date": "2026-10-25",
           "summary": "Game day.",
           "change_type": "watch"
+        },
+        {
+          "date": "2026-10-26",
+          "summary": "Dolphins beat the Jets 28-25 for Hafley's first win; 1-5.",
+          "change_type": "improved"
         }
       ]
     },
@@ -2892,9 +2049,9 @@
       "title": "Miami Seaquarium's marina redevelopment",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-10-24",
-      "updates": 5,
-      "current_state": "Terra Group/David Martin's roughly $100M vision for the shuttered Seaquarium site includes a fully accredited aquarium with no marine mammals, a research and education center, a public baywalk, a 325-slip marina, and 500-boat dry stack. Florida DEP review continues, with regulators flagging concerns about wetland, coral, and water-quality impacts; no ruling yet. Demolition remains targeted for late 2026 if approved, with an opening target around 2029. Update Oct 24: Frankel and Stauber sue Miami-Dade (Oct 21) for a countywide vote on the 99-year, ~56.7-acre bay-bottom marina lease; county response not yet reported.",
+      "last_updated": "2026-10-26",
+      "updates": 6,
+      "current_state": "Residents' Oct 21 suit seeks a countywide referendum on the proposed 56-acre Seaquarium marina.",
       "timeline": [
         {
           "date": "2026-08-02",
@@ -2919,6 +2076,11 @@
         {
           "date": "2026-10-24",
           "summary": "Frankel and Stauber sue Miami-Dade (Oct 21) for a countywide vote on the 99-year, ~56.7-acre bay-bottom marina lease; county response not yet reported.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-10-26",
+          "summary": "Residents sued Oct 21 for a countywide vote on the Seaquarium marina.",
           "change_type": "advanced"
         }
       ]
@@ -3140,60 +2302,10 @@
       "title": "Virginia Key's second marina referendum",
       "topic": "miami",
       "status": "active",
-      "last_updated": "2026-10-24",
-      "updates": 18,
-      "current_state": "Referendum 3 on Nov 3: 45-year lease, $2.2M minimum rent plus 6% of revenue, ~$80M private investment; incumbent suit continues, trial Sept 2027. Update Oct 24: 10 days out; the Seaquarium suit adds a separate county-level fight over a second marina.",
+      "last_updated": "2026-10-26",
+      "updates": 19,
+      "current_state": "Nov 3 city referendum on 27.62-acre Rickenbacker/Marine Stadium lease; stays on ballot after court ruling.",
       "timeline": [
-        {
-          "date": "2026-08-25",
-          "summary": "Court rejects a legal challenge, clearing a November referendum on an $80M, 45-year Rickenbacker/Marine Stadium marina lease to Virginia Key LLC (RCI Marine Group + Suntex Marinas) -- 750 dry slips, 162 wet slips, 13,000 sq ft of commercial space, roughly $203.98M in guaranteed rent over the initial term plus 6% of gross revenue.",
-          "change_type": "new"
-        },
-        {
-          "date": "2026-08-30",
-          "summary": "With the legal challenge dismissed and no appeal reported, the $80M Rickenbacker/Marine Stadium marina lease to Virginia Key LLC heads to Miami voters on the Nov. 3 ballot with no further legal obstruction -- a separate vote from the Marine Stadium restoration referendum voters already approved in August.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-09-18",
-          "summary": "Mail ballots for the November 3 referendum are set to go out the week of September 21; no further legal or campaign developments have surfaced since the August court ruling that kept the measure on the ballot.",
-          "change_type": "watch"
-        },
-        {
-          "date": "2026-09-20",
-          "summary": "A judge rejected the operator's lawsuit seeking to block the referendum; the November 3 vote and full lease terms ($80M redevelopment, 45-year term, ~$204M total minimum rent) are now confirmed.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-09-21",
-          "summary": "Organized opposition has surfaced ahead of November 3: the Miami-Dade Democratic Party is urging a 'No' vote on Referendum 3, and environmental advocates are campaigning against the lease on Biscayne Bay-impact grounds, with some reporting now framing the commitment as running up to 75 years across its renewal options. The underlying $80M redevelopment terms are unchanged.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-09-24",
-          "summary": "About 100 people gathered Monday, September 21 at Gramps Getaway on Virginia Key for a 'Save Gramps Getaway' rally opposing Referendum 3 -- the campaign's first public turnout, six weeks before the November 3 vote.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-10-05",
-          "summary": "Lawsuit threat over the voter-approval requirement reported October 2.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-10-10",
-          "summary": "Oct 8 WLRN coverage restates terms ahead of the Nov 3 vote.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-10-14",
-          "summary": "WLRN explains the city is on the ballot by court order; officials call the lease a bad deal.",
-          "change_type": "advanced"
-        },
-        {
-          "date": "2026-10-17",
-          "summary": "No change; Referendum 3 on Nov 3 ballot: 45-year lease, $2.2M minimum rent plus 6% gross, ~$80M private investment.",
-          "change_type": "watch"
-        },
         {
           "date": "2026-10-18",
           "summary": "No new developments found; 16 days to the vote.",
@@ -3228,6 +2340,11 @@
           "date": "2026-10-24",
           "summary": "10 days out; the Seaquarium suit adds a separate county-level fight over a second marina.",
           "change_type": "watch"
+        },
+        {
+          "date": "2026-10-26",
+          "summary": "Eight days to the Nov 3 city vote; no new filings found.",
+          "change_type": "unchanged"
         }
       ]
     },
@@ -3544,7 +2661,7 @@
     }
   ],
   "meta": {
-    "content_freshness": "2026-10-25T09:30:00-04:00",
+    "content_freshness": "2026-10-26T09:30:00-04:00",
     "feedback_endpoint_mode": "github_contents",
     "minimum_client_schema_version": 1,
     "mode": "brain"
