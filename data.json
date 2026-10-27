@@ -1,18 +1,18 @@
 {
   "schema_version": 2,
   "edition": {
-    "id": "2026-10-26",
-    "date": "2026-10-26",
+    "id": "2026-10-27",
+    "date": "2026-10-27",
     "type": "weekday",
-    "generated_at": "2026-10-26T09:30:00-04:00",
+    "generated_at": "2026-10-27T09:30:00-04:00",
     "timezone": "America/New_York",
     "title": "Personal OS",
     "front_page_letter": {
       "greeting": "Good morning",
       "body_paragraphs": [
-        "Good morning. Monday, October 26. The Dolphins have a win. Miami beat the Jets 28-25 at MetLife on Sunday, Jeff Hafley's first as head coach, and the margin was thin enough to be honest about: the Jets cut a 28-17 lead to three with 3:24 left before a fourth-and-1 quarterback sneak by Malik Willis at the Jets' 49 let Miami run out the clock. Willis threw two touchdown passes to rookie Caleb Douglas and ran for another, and Ollie Gordon II topped 100 yards. At 1-5 the season is still about evaluation, but the evaluation just got a data point worth having.",
-        "The week itself belongs to the Fed. The decision comes Wednesday, October 28 at 2 p.m. ET, and the reporting I found puts a hold at roughly 88%, with a further hike near 10%, following September's increase. Alphabet and Microsoft report the same afternoon, Amazon on Thursday, with third-quarter GDP and core PCE also due Thursday. I could not verify Monday's market levels at press time, so the figures below are Friday's closes: the 10-year at 5.00% and Brent at $116.72 are the numbers the Fed will be reading around.",
-        "Closer to home, the Virginia Key marina fights are eight days from the November 3 vote, and residents sued Miami-Dade on October 21 to force a separate referendum on the Seaquarium marina. What deserves attention today is the Fed's wording on oil rather than its decision, which is already priced. Tonight, Orwell on writing that hides nothing, a fitting read for a week of hedged forecasts."
+        "Good morning. Tuesday, October 27. The Federal Reserve begins its two-day meeting, with the decision and Chair Warsh's press conference due Wednesday at 2 p.m. ET. The latest pricing I could verify puts a hold at roughly 84-87% and another quarter-point hike at 13-16%, after September's increase to 3.75%-4.00%. The larger hike bet has moved to December.",
+        "I could not verify Monday's market closes, so the figures below are Friday's, labelled as such: the S&P 500 at 7,623.68, the Nasdaq at 25,955.34, the 10-year at 5.00%. Treat them as a floor of knowledge, not a reading of today. Searches also came back empty on the Heat, Panthers and Hurricanes since the weekend, so the sports threads stand as they were: Dolphins 1-5 after Sunday's win, Hurricanes 7-0.",
+        "In Miami, seven days remain before the November 3 vote on the Rickenbacker and Marine Stadium marinas. The residents' suit over the Seaquarium marina has no ruling I can find. What deserves attention today is how much of the week is waiting on a decision already priced. Tonight, Epictetus has a short answer to that, and the Aeon essay you saved in September is still there."
       ],
       "read_only_three": [
         {
@@ -22,13 +22,13 @@
         },
         {
           "target_type": "theme",
-          "target_id": "theme-dolphins-first-win",
-          "label": "Dolphins 28, Jets 25: first Hafley win"
+          "target_id": "theme-waterfront-lawsuit",
+          "label": "Seven days to the marina vote"
         },
         {
           "target_type": "theme",
-          "target_id": "theme-waterfront-lawsuit",
-          "label": "Eight days to the marina vote"
+          "target_id": "theme-epictetus-enchiridion",
+          "label": "Epictetus, tonight's short read"
         }
       ]
     },
@@ -38,80 +38,59 @@
         "value": "7,623.68",
         "change": "-0.52% Friday",
         "observed": "Close, Friday, October 23, 2026",
-        "note": "Latest verified close; Monday's session not yet verified. Second straight weekly loss."
+        "note": "Latest close I could verify (secondary source); Monday's session not confirmed."
       },
       {
         "label": "Nasdaq Composite",
         "value": "25,955.34",
         "change": "-0.21% Friday",
         "observed": "Close, Friday, October 23, 2026",
-        "note": "Latest verified close."
+        "note": "Latest verified close; Monday not confirmed."
       },
       {
         "label": "10-Year Treasury yield",
         "value": "5.00%",
         "change": "up from 4.96% Thursday",
         "observed": "Friday, October 23, 2026",
-        "note": "Secondary-source figure carried from last edition; the yield touched a 24-year high of 5.365% on October 7."
-      },
-      {
-        "label": "Brent crude",
-        "value": "$116.72",
-        "change": "+3.1% Friday",
-        "observed": "Settle, Friday, October 23, 2026",
-        "note": "Highest since June 2022."
+        "note": "Secondary-source figure carried forward; touched 5.365% on October 7."
       },
       {
         "label": "FOMC, October 27-28",
-        "value": "Hold ~88%; hike ~10%",
-        "change": "Decision Wednesday, October 28, 2 p.m. ET; Chair Warsh press conference follows",
-        "observed": "Week-ahead previews, October 26, 2026",
-        "note": "Odds vary by source and follow a September hike."
+        "value": "Hold ~84-87%; hike ~13-16%",
+        "change": "Decision Wednesday, October 28, 2 p.m. ET",
+        "observed": "Previews, mid-to-late October 2026",
+        "note": "Odds vary by source; follows a September hike to 3.75%-4.00%."
       }
     ],
     "public_day_context": {
-      "date_label": "Monday, October 26, 2026",
-      "weather": "No verified forecast retrieved; check weather.gov/mfl.",
-      "public_event": "FOMC meets October 27-28; Alphabet and Microsoft report Wednesday; Virginia Key referendum November 3."
+      "date_label": "Tuesday, October 27, 2026",
+      "weather": "One unverified forecast shows a high near 86F with a 30% chance of an afternoon storm; check weather.gov/mfl.",
+      "public_event": "FOMC meets today and tomorrow; Virginia Key referendum November 3."
     },
     "what_changed": [
       {
-        "id": "delta-dolphins-first-win",
-        "thread_id": "thread-dolphins-hafley-rebuild",
-        "change_type": "improved",
-        "title": "Dolphins beat the Jets 28-25 for their first win of the season",
-        "previous_state": "Miami entered Sunday 0-5 with the NFL's worst point differential among teams playing this week.",
-        "current_state": "Miami is 1-5 after Hafley's first win; Willis went 14-of-21 for 208 yards and Gordon ran for over 100.",
-        "why_it_matters": "A quarterback and a rusher who held up under pressure are the evidence this rebuild needed.",
-        "confidence": "high",
-        "source": {
-          "publisher": "ESPN",
-          "url": "https://www.espn.com/nfl/recap/_/gameId/401873015"
-        }
-      },
-      {
-        "id": "delta-fed-odds",
+        "id": "delta-fed-odds-27",
         "thread_id": "thread-fed-rate-path",
-        "change_type": "unchanged",
-        "title": "Fed week begins with a hold expected, a hike still possible",
-        "previous_state": "An October 20 reading had a hold near 83% and a hike near 17%.",
-        "current_state": "Week-ahead previews put a hold near 88% and a hike near 10%, after September's hike.",
-        "why_it_matters": "The decision is priced; the press conference and oil language are where the move is.",
+        "change_type": "advanced",
+        "title": "Fed decision is one day out; hold odds hold in the mid-80s",
+        "previous_state": "Monday's previews put a hold near 88%.",
+        "current_state": "Latest readings I could verify show roughly 84-87% for a hold and 13-16% for a hike, with the larger hike bet moving to December.",
+        "why_it_matters": "A hold is priced, so the signal for financing costs will come from Warsh's wording on oil and inflation.",
         "confidence": "medium",
         "source": {
-          "publisher": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/big-tech-earnings-fed-decision-170002299.html"
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
         }
       },
       {
-        "id": "delta-seaquarium-suit",
+        "id": "delta-seaquarium-27",
         "thread_id": "thread-seaquarium-marina-redevelopment",
-        "change_type": "advanced",
-        "title": "Residents sue Miami-Dade to force a vote on the Seaquarium marina",
-        "previous_state": "County commissioners advanced the Seaquarium redevelopment on October 20.",
-        "current_state": "On October 21, residents Gregory Frankel and Aaron Stauber sued, arguing the marina is a separate commercial enterprise requiring voter approval under the county charter.",
-        "why_it_matters": "A second legal track now runs beside the November 3 city referendum on the other Virginia Key marinas.",
-        "confidence": "high",
+        "change_type": "unchanged",
+        "title": "Seaquarium marina suit: still no ruling",
+        "previous_state": "Residents sued October 21 for a countywide vote on the Seaquarium marina.",
+        "current_state": "I found no ruling or county response as of October 27.",
+        "why_it_matters": "The city's November 3 vote is separate and proceeds regardless.",
+        "confidence": "medium",
         "source": {
           "publisher": "WLRN",
           "url": "https://www.wlrn.org/environment/2026-10-21/residents-file-lawsuit-demand-a-vote-on-a-marina-at-revamped-seaquarium"
@@ -126,9 +105,9 @@
         "topic_label": "Markets & Macro",
         "title": "Fed Wednesday: the hold is priced, the wording is the risk",
         "importance": 0.9,
-        "thesis": "With a hold near 88%, the market is waiting for what Chair Warsh says about oil and the path after September's hike.",
-        "synthesis": "The FOMC meets October 27-28 and decides Wednesday at 2 p.m. ET, with a press conference after. Alphabet and Microsoft report the same afternoon, Amazon on Thursday, and third-quarter GDP and core PCE land Thursday. Brent at $116.72 and a 10-year at 5.00% on Friday's data frame every question.",
-        "new_today": "Hold odds edged up to roughly 88% from 83% a week ago, per previews; sources differ.",
+        "thesis": "A hold is the base case; the live question is whether Chair Warsh signals more hikes by December while oil sits near multi-year highs.",
+        "synthesis": "The Fed meets October 27-28 and announces Wednesday at 2 p.m. ET, after September's quarter-point hike to 3.75%-4.00%, its first since 2023. Warsh has declined to prejudge the meeting, saying he does not pre-announce decisions. Prediction markets reached a reported record near 87% for no change on October 16. Sources differ by a few points, and these are mid-to-late October readings rather than live pricing.",
+        "new_today": "Decision is tomorrow. Previews now put a hold at roughly 84-87% and a quarter-point hike at 13-16%, with the larger hike bet shifting to the December 8-9 meeting.",
         "why_it_matters": "For CRE financing and refinancing math, a hawkish read on oil-driven inflation matters more than the quarter-point itself.",
         "thread_id": "thread-fed-rate-path",
         "confidence": "medium",
@@ -148,43 +127,15 @@
         ]
       },
       {
-        "id": "theme-dolphins-first-win",
-        "affinity": "morning",
-        "topic": "sports",
-        "topic_label": "Miami Sports",
-        "title": "Dolphins 28, Jets 25: Hafley's first win, and a fourth-and-1 that earned it",
-        "importance": 0.8,
-        "thesis": "A narrow road win ends the 0-5 start and gives the rebuild a template: Willis efficient, Gordon grinding, a coach willing to gamble.",
-        "synthesis": "Willis threw two touchdowns to rookie Caleb Douglas and ran for a third, finishing 14-of-21 for 208. The Jets' backup threw for 287 yards and three touchdowns and cut it to 28-25 with 3:24 left. Hafley went for it on fourth-and-1 at the Jets' 49 with about two minutes left, asked his linemen first, and Willis's sneak gained two yards.",
-        "new_today": "First win of the season; Miami is 1-5.",
-        "why_it_matters": "It changes the tone of the season from pure evaluation to something with a floor.",
-        "thread_id": "thread-dolphins-hafley-rebuild",
-        "confidence": "high",
-        "sources": [
-          {
-            "role": "primary_reporting",
-            "publisher": "ESPN",
-            "headline": "Dolphins 28-25 Jets (Oct 25, 2026) Game Recap",
-            "url": "https://www.espn.com/nfl/recap/_/gameId/401873015"
-          },
-          {
-            "role": "analysis",
-            "publisher": "Miami Dolphins",
-            "headline": "Game Recap: Dolphins Secure 28-25 Victory Over Jets",
-            "url": "https://www.miamidolphins.com/news/game-recap-dolphins-secure-28-25-victory-over-jets-in-divisional-matchup"
-          }
-        ]
-      },
-      {
         "id": "theme-waterfront-lawsuit",
         "affinity": "morning",
         "topic": "miami",
         "topic_label": "Miami Life & Culture",
-        "title": "Eight days to the marina vote, and a lawsuit over the Seaquarium site",
+        "title": "Seven days to the marina vote, and a lawsuit still unanswered",
         "importance": 0.7,
         "thesis": "Two separate Virginia Key marina fights are now in play: a November 3 city referendum and a county suit seeking a vote on the Seaquarium marina.",
-        "synthesis": "The city referendum asks voters to approve a new lease for about 27.62 acres for the Rickenbacker and Marine Stadium marinas; a judge let it stay on the ballot. Separately, residents sued Miami-Dade on October 21 over a proposed marina of more than 56 acres in the Biscayne Bay Aquatic Preserve, with nearly 300 slips plus dry storage for 500 more. Only the city measure is on this ballot.",
-        "new_today": "No new filing found since the October 21 suit.",
+        "synthesis": "Two fights share a bay. The city's November 3 referendum covers an $80M, 45-year lease for the Rickenbacker and Marine Stadium marinas; a judge denied an injunction in August, though that suit continues with a trial date in September 2027. Separately, residents Gregory Frankel and Aaron Stauber sued Miami-Dade on October 21 seeking an injunction and a countywide vote on a marina at the Terra Group-affiliated Seaquarium redevelopment. They are not seeking damages.",
+        "new_today": "No ruling or county response found yet on the October 21 Seaquarium suit; the city referendum stays on the November 3 ballot.",
         "why_it_matters": "Public-waterfront leasing is the template for how Miami will fund and fight over its next decade of civic projects.",
         "thread_id": "thread-virginia-key-marina-referendum",
         "confidence": "medium",
@@ -204,77 +155,77 @@
         ]
       },
       {
-        "id": "theme-orwell-clear-writing",
+        "id": "theme-epictetus-enchiridion",
         "affinity": "evening",
         "topic": "living",
         "topic_label": "Art of Living",
-        "title": "Orwell on prose that hides nothing, for a week of hedged forecasts",
+        "title": "Epictetus on what is and is not up to you, a short read for a week of things out of your hands",
         "importance": 0.6,
-        "thesis": "Vague language is usually a decision not to look at the thing; Orwell's remedy is six rules and a habit of asking what you are trying to say.",
-        "synthesis": "Written in 1946, the essay argues that stale phrases let writers avoid thinking. Fed statements and earnings calls are a daily example. It is short, practical, and worth rereading once a year.",
-        "new_today": "Chosen as tonight's slow read ahead of a week of central-bank language.",
-        "why_it_matters": "A reader who spots evasive phrasing in a policy statement reads it better.",
+        "thesis": "The Enchiridion opens with a single sorting exercise: some things are up to us and some are not, and most distress comes from confusing the two.",
+        "synthesis": "The first chapters are about ten minutes of reading. Epictetus asks the reader to separate opinions, impulses and aims, which are ours, from bodies, reputations and outcomes, which are not. Chapter 5 gives the line most often quoted: people are disturbed not by things but by the judgments they form about them. It is a good companion to a day that ends with a Fed decision you cannot influence.",
+        "new_today": "Chosen as tonight's slow read ahead of Wednesday's Fed decision.",
+        "why_it_matters": "Rate decisions, oil and election outcomes are mostly outside your control; what you do with a position or a plan is not.",
         "thread_id": null,
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "George Orwell (Horizon, 1946)",
-            "headline": "Politics and the English Language",
-            "url": "http://orwell.ru/library/essays/politics/english/e_polit"
+            "publisher": "MIT Internet Classics Archive",
+            "headline": "The Enchiridion, Epictetus (trans. Elizabeth Carter)",
+            "url": "https://classics.mit.edu/Epictetus/epicench.html"
           }
         ]
       }
     ],
     "rabbit_hole": {
-      "id": "rh-2026-10-26",
-      "title": "Politics and the English Language",
-      "creator": "George Orwell",
+      "id": "rh-2026-10-27",
+      "title": "The Radical Reasons Why You Dream of Making Things by Hand",
+      "creator": "Aeon",
       "format": "essay",
       "minutes": 25,
-      "why": "Orwell's 1946 essay is an argument that sloppy language and sloppy thought feed each other. In a week of Fed statements and earnings calls, it is a tool for noticing what is being said and what is being avoided.",
-      "url": "http://orwell.ru/library/essays/politics/english/e_polit",
+      "why": "You saved this on September 3 and it has waited since. A week of forecasts and earnings calls is a good week to read about work whose result you can hold.",
+      "url": "https://aeon.co/essays/the-radical-reasons-why-you-dream-of-making-things-by-hand",
       "related_interest": "living"
     },
     "beautiful_thing": {
-      "id": "bt-2026-10-26",
-      "title": "Vizcaya Museum and Gardens",
-      "creator": "F. Burrall Hoffman (architect), Paul Chalfin (designer), for James Deering",
-      "era": "1910s-1920s",
-      "body": "Built on Biscayne Bay in Coconut Grove as the winter estate of industrialist James Deering, Vizcaya was constructed in the 1910s and early 1920s and is now a museum and National Historic Landmark. Notice how the house faces the water: the stone barge in the bay and the loggia were designed so the building reads as an Italian villa arriving by sea. Then look at the garden, where the axis runs back from the house in formal terraces.",
-      "url": "https://vizcaya.org/",
+      "id": "bt-2026-10-27",
+      "title": "Miami Marine Stadium",
+      "creator": "Hilario Candela (architect)",
+      "era": "1963",
+      "body": "Designed by Cuban-born architect Hilario Candela and opened in 1963 on Virginia Key, the stadium is a concrete grandstand with a folded-plate cantilevered roof, built to watch powerboat racing across Biscayne Bay. It has been closed since Hurricane Andrew in 1992 and was listed on the National Register of Historic Places in 2018. Notice how the roof reaches over the seats without columns in front of the water. It is also at the centre of the area now being voted on.",
+      "url": "https://en.wikipedia.org/wiki/Miami_Marine_Stadium",
       "image": null,
-      "alt": "Vizcaya Museum and Gardens on Biscayne Bay"
+      "alt": "Miami Marine Stadium on Virginia Key, a concrete grandstand facing Biscayne Bay"
     },
-    "noticing_prompt": "Notice which phrase you use today to avoid saying a plain thing. Say the plain thing once, to yourself.",
+    "noticing_prompt": "Notice one thing today that is decided already, and watch how much of your attention it still asks for.",
     "daily_puzzle": {
-      "id": "dp-2026-10-26",
+      "id": "dp-2026-10-27",
       "type": "math",
-      "prompt": "Two whole numbers differ by 7, and their product is 144. What are the two numbers?",
-      "hint": "Try pairs of factors of 144 and look at the gaps.",
-      "solution": "9 and 16.",
-      "explanation": "9 x 16 = 144 and 16 - 9 = 7; no other pair of positive whole numbers satisfies both conditions."
+      "prompt": "What is the smallest positive whole number that leaves a remainder of 1 when divided by 2, 3, 4, 5 and 6, but divides exactly by 7?",
+      "hint": "Any number that leaves remainder 1 for 2 through 6 is one more than a multiple of 60.",
+      "solution": "301.",
+      "explanation": "Candidates are 61, 121, 181, 241, 301; 301 = 7 x 43 is the first multiple of 7."
     },
     "evening_unwind": {
-      "id": "eu-2026-10-26",
+      "id": "eu-2026-10-27",
       "evening_quote": {
-        "text": "It is not that we have a short time to live, but that we waste a lot of it.",
-        "attribution": "Seneca",
-        "source": "On the Shortness of Life, 1.3 (translations vary in wording)"
+        "text": "Nowhere can man find a quieter or more untroubled retreat than in his own soul.",
+        "attribution": "Marcus Aurelius",
+        "source": "Meditations, 4.3 (translations vary in wording)"
       },
-      "evening_prompt": "Of today's urgent things, which one will not matter by Friday, and which one did you give your best hour to anyway?"
+      "evening_prompt": "What did you keep checking today that had already been decided, and what would that hour have gone to otherwise?"
     },
     "reading_queue": [
       {
         "title": "The Radical Reasons Why You Dream of Making Things by Hand",
         "url": "https://aeon.co/essays/the-radical-reasons-why-you-dream-of-making-things-by-hand",
-        "verdict": "still_valuable",
-        "reason": "Saved September 3; evening-friendly, no deadline."
+        "verdict": "read_soon",
+        "reason": "Today's rabbit hole."
       }
     ],
     "quote": {
-      "text": "It is not that we have a short time to live, but that we waste a lot of it.",
-      "attribution": "Seneca, On the Shortness of Life 1.3"
+      "text": "Men are disturbed, not by things, but by the principles and notions which they form concerning things.",
+      "attribution": "Epictetus, Enchiridion 5"
     }
   },
   "threads": [
@@ -794,9 +745,9 @@
       "title": "Federal Reserve rate path",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-10-26",
-      "updates": 97,
-      "current_state": "FOMC Oct 27-28; hold ~88% per previews; decision Wednesday Oct 28 after a September hike.",
+      "last_updated": "2026-10-27",
+      "updates": 98,
+      "current_state": "FOMC Oct 27-28; hold ~84-87% per previews; decision Wednesday Oct 28 after a September hike.",
       "timeline": [
         {
           "date": "2026-10-19",
@@ -837,6 +788,11 @@
           "date": "2026-10-26",
           "summary": "Week-ahead previews: hold ~88%, hike ~10%; decision Wed Oct 28, 2 p.m. ET.",
           "change_type": "unchanged"
+        },
+        {
+          "date": "2026-10-27",
+          "summary": "Meeting begins; hold odds 84-87%, hike 13-16%, larger hike bet shifting to Dec 8-9.",
+          "change_type": "watch"
         }
       ]
     },
@@ -2049,7 +2005,7 @@
       "title": "Miami Seaquarium's marina redevelopment",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-10-27",
       "updates": 6,
       "current_state": "Residents' Oct 21 suit seeks a countywide referendum on the proposed 56-acre Seaquarium marina.",
       "timeline": [
@@ -2302,7 +2258,7 @@
       "title": "Virginia Key's second marina referendum",
       "topic": "miami",
       "status": "active",
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-10-27",
       "updates": 19,
       "current_state": "Nov 3 city referendum on 27.62-acre Rickenbacker/Marine Stadium lease; stays on ballot after court ruling.",
       "timeline": [
@@ -2661,7 +2617,7 @@
     }
   ],
   "meta": {
-    "content_freshness": "2026-10-26T09:30:00-04:00",
+    "content_freshness": "2026-10-27T09:30:00-04:00",
     "feedback_endpoint_mode": "github_contents",
     "minimum_client_schema_version": 1,
     "mode": "brain"
