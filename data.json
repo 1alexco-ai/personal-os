@@ -1,34 +1,34 @@
 {
   "schema_version": 2,
   "edition": {
-    "id": "2026-10-28",
-    "date": "2026-10-28",
+    "id": "2026-10-29",
+    "date": "2026-10-29",
     "type": "weekday",
-    "generated_at": "2026-10-28T09:30:00-04:00",
+    "generated_at": "2026-10-29T09:30:00-04:00",
     "timezone": "America/New_York",
     "title": "Personal OS",
     "front_page_letter": {
       "greeting": "Good morning",
       "body_paragraphs": [
-        "Good morning. Wednesday, October 28. The Federal Reserve announces its decision at 2 p.m. ET, with Chair Warsh's press conference after. A hold at 3.75%-4.00% is the expected outcome, though the most recent odds I could verify are weeks old, so I will not pretend to a number. Tuesday's session gave the market its answer in advance: the S&P 500 rose 0.6% to 7,722.60 and the Nasdaq 1.18% to 26,477.81, led by chipmakers and a softer oil price.",
-        "In sports, the Heat are 0-4. Giannis had his first triple-double in a Miami uniform on Monday and Dallas still won 113-109; the defense has given up at least 113 in every game. The Dolphins, meanwhile, finally won, 28-25 at the Jets, and the Panthers beat Chicago 3-2. I found nothing new on the Seaquarium suit or the Virginia Key vote, so those threads stand as they were, with the November 3 referendum six days away.",
-        "What deserves attention is the gap between the decision and the reaction to it. Tonight, Aeon's essay on slow thought and a line from Seneca on imagined suffering are waiting."
+        "Good morning. Thursday, October 29. The Federal Reserve held rates at 3.75%-4.00% on Wednesday, as expected, but not quietly: the vote was 10-2, with Governor Lisa Cook and Cleveland's Beth Hammack preferring a quarter-point hike, and the dot plot and futures now lean toward an increase in December. Chair Warsh also said the Fed will meet to set rates less often in future years. I could not verify Wednesday's market close, so the figures below are Tuesday's, labeled as such.",
+        "Closer to home, Miami votes Tuesday on whether to lease about 27 acres of Virginia Key marinas on a 45-year term that city officials themselves have called a bad deal. The Dolphins are 1-5 and host New England Sunday. The Heat played Atlanta and the Panthers played Winnipeg, but I found no verified scores, so I will not guess at them.",
+        "What deserves attention is how much of this week turns on a single rate path and a single ballot line. Tonight there is a Marine Stadium essay in miniature, Seneca on time, and a line from Epictetus."
       ],
       "read_only_three": [
         {
           "target_type": "theme",
-          "target_id": "theme-fed-decision-day",
-          "label": "Fed decision day"
+          "target_id": "theme-fed-hold-split",
+          "label": "Fed holds, 10-2"
         },
         {
           "target_type": "theme",
-          "target_id": "theme-heat-0-4",
-          "label": "Heat fall to 0-4"
+          "target_id": "theme-virginia-key-vote",
+          "label": "Virginia Key vote"
         },
         {
           "target_type": "theme",
-          "target_id": "theme-slow-thought",
-          "label": "Slow thought, tonight"
+          "target_id": "theme-marine-stadium",
+          "label": "Marine Stadium, tonight"
         }
       ]
     },
@@ -38,230 +38,256 @@
         "value": "7,722.60",
         "change": "+0.6% Tuesday",
         "observed": "Close, Tuesday, October 27, 2026",
-        "note": "Per AP-syndicated close report."
+        "note": "Stale: Wednesday close not found."
       },
       {
         "label": "Nasdaq Composite",
         "value": "26,477.81",
         "change": "+1.18% Tuesday",
         "observed": "Close, Tuesday, October 27, 2026",
-        "note": "Per AP-syndicated close report."
+        "note": "Stale: Wednesday close not found."
       },
       {
         "label": "10-Year Treasury yield",
         "value": "5.00%",
-        "change": "up from 4.96% Thursday",
+        "change": "",
         "observed": "Friday, October 23, 2026",
-        "note": "Stale: Tuesday's yield not verified; sources conflict on late-October levels."
+        "note": "Stale; later levels not verified."
       },
       {
-        "label": "FOMC, October 27-28",
-        "value": "Hold expected",
-        "change": "Decision Wednesday, October 28, 2 p.m. ET",
-        "observed": "Latest odds verified: early October, hold ~80-83%",
-        "note": "Range now 3.75%-4.00% after the September 16 hike; current pricing not verified."
+        "label": "FOMC",
+        "value": "Held 3.75%-4.00%, 10-2",
+        "change": "Cook and Hammack dissented for a hike",
+        "observed": "Wednesday, October 28, 2026",
+        "note": "Reports say a December hike is now more likely; exact odds not verified. Next meeting is in December."
       }
     ],
     "public_day_context": {
-      "date_label": "Wednesday, October 28, 2026",
-      "weather": "One unverified forecast shows a high near 87F, mostly sunny; check weather.gov/mfl.",
-      "public_event": "FOMC decision at 2 p.m. ET; Virginia Key referendum November 3."
+      "date_label": "Thursday, October 29, 2026",
+      "weather": "Miami forecast not verified; check weather.gov/mfl.",
+      "public_event": "Virginia Key referendum Tuesday, November 3; Dolphins host Patriots Sunday."
     },
     "what_changed": [
       {
-        "id": "delta-fed-decision-28",
+        "id": "delta-fed-split",
         "thread_id": "thread-fed-rate-path",
-        "change_type": "watch",
-        "title": "Fed decides today; stocks closed higher into it",
-        "previous_state": "Yesterday's previews put a hold at roughly 84-87%.",
-        "current_state": "The S&P 500 rose 0.6% to 7,722.60 and the Nasdaq 1.18% to 26,477.81 on Tuesday, with a hold still the expectation.",
-        "why_it_matters": "The rate is priced; Warsh's language on oil and December is the signal for financing costs.",
+        "change_type": "advanced",
+        "title": "Fed holds, but two officials wanted a hike",
+        "previous_state": "A hold at 3.75%-4.00% was the expectation going in.",
+        "current_state": "The Fed held on a 10-2 vote, with a December hike now seen as more likely and fewer meetings planned from 2027.",
+        "why_it_matters": "Financing costs stay elevated and the next move is more likely up than down.",
         "confidence": "medium",
         "source": {
-          "publisher": "Detroit News (AP)",
-          "url": "https://detroitnews.com/story/business/2026/10/27/sp-500-nasdaq-advance-as-oil-eases-ahead-of-fed-decision/92459851007"
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/28/fed-rate-decision-warsh-takeaways.html"
         }
       },
       {
-        "id": "delta-heat-0-4",
-        "thread_id": "thread-heat-giannis-era",
-        "change_type": "worsened",
-        "title": "Heat drop to 0-4 despite a Giannis triple-double",
-        "previous_state": "Miami was 0-3 after Saturday's loss to Charlotte.",
-        "current_state": "A 113-109 home loss to Dallas on October 26 after leading 90-84 early in the fourth.",
-        "why_it_matters": "Defense, not star power, is the early issue.",
-        "confidence": "high",
-        "source": {
-          "publisher": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/nba/breaking-news/article/heat-blow-fourth-quarter-lead-to-mavericks-fall-to-0-4-despite-giannis-antetokounmpo-triple-double-035705882.html"
-        }
-      },
-      {
-        "id": "delta-dolphins-win",
+        "id": "delta-dolphins-wk8",
         "thread_id": "thread-dolphins-hafley-rebuild",
-        "change_type": "improved",
-        "title": "Dolphins' first win of the Hafley era",
-        "previous_state": "Five straight losses to open the season.",
-        "current_state": "A 28-25 win at the Jets on October 25; Miami is 1-5.",
-        "why_it_matters": "It ends the skid; the rebuild's real test is the defense.",
-        "confidence": "high",
+        "change_type": "advanced",
+        "title": "Dolphins turn to New England at 1-5",
+        "previous_state": "Miami had not won under Hafley.",
+        "current_state": "After the 28-25 win at the Jets, Miami hosts the Patriots in Week 8.",
+        "why_it_matters": "One win is an event; two is the start of a pattern.",
+        "confidence": "medium",
         "source": {
-          "publisher": "NFL.com",
-          "url": "https://nfl.com/news/2026-nfl-season-week-7-what-we-learned-from-sunday-s-games"
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2026_Miami_Dolphins_season"
         }
       }
     ],
     "themes": [
       {
-        "id": "theme-fed-decision-day",
+        "id": "theme-fed-hold-split",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Fed decision day: stocks rose into a hold that is already priced",
-        "importance": 0.92,
-        "thesis": "Markets rallied ahead of a widely expected hold; the information arrives at 2 p.m. ET in Warsh's wording, not in the rate.",
-        "synthesis": "Tuesday's session ended higher: the S&P 500 at 7,722.60 (+0.6%), the Nasdaq Composite at 26,477.81 (+1.18%), the Dow roughly flat at 52,377.57. Chipmakers led, and easing oil prices helped. The Fed is expected to keep the range at 3.75%-4.00%, after September's quarter-point hike. The most recent odds I could verify are from early October (a hold near 80-83%), so treat the pricing as stale; the statement and press conference decide it.",
-        "new_today": "The decision lands today at 2 p.m. ET. Stocks closed higher Tuesday into it.",
-        "why_it_matters": "For refinancing and cap-rate math, the read on oil-driven inflation and December matters more than the quarter-point itself.",
+        "title": "The Fed holds at 3.75%-4.00%, but the vote splits 10-2 toward a hike",
+        "importance": 0.95,
+        "thesis": "The hold was the expected part; two votes for a hike and a dot plot leaning toward December were the news.",
+        "synthesis": "Warsh's Fed held rates Wednesday in a 10-2 vote, with Governor Lisa Cook and Cleveland Fed President Beth Hammack preferring a quarter-point increase. Coverage of the dot plot and futures points to a December hike as more likely than not. Warsh also said the Fed will hold fewer rate-setting meetings in future years, with one 2027 meeting devoted to strategy and no vote or statement.",
+        "new_today": "Split vote, December hike lean, and the plan to cut the meeting calendar.",
+        "why_it_matters": "For financing, a higher-for-longer path with a possible December increase keeps pressure on floating-rate debt and cap-rate assumptions; the 10-year near 5% already says as much.",
         "thread_id": "thread-fed-rate-path",
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Detroit News (AP)",
-            "headline": "S&P 500, Nasdaq advance as oil eases ahead of Fed decision",
-            "url": "https://detroitnews.com/story/business/2026/10/27/sp-500-nasdaq-advance-as-oil-eases-ahead-of-fed-decision/92459851007"
+            "publisher": "CNBC",
+            "headline": "Fed interest rate decision October 2026: Fed holds rates steady",
+            "url": "https://www.cnbc.com/2026/10/28/fed-interest-rate-decision-october-2026.html"
           },
           {
-            "role": "background",
-            "publisher": "Federal Reserve",
-            "headline": "FOMC meeting calendars",
-            "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+            "role": "analysis",
+            "publisher": "CNBC",
+            "headline": "Five key takeaways from the Fed rate decision and Warsh news conference",
+            "url": "https://www.cnbc.com/2026/10/28/fed-rate-decision-warsh-takeaways.html"
+          },
+          {
+            "role": "analysis",
+            "publisher": "Yahoo Finance",
+            "headline": "Fed meeting live: Fed holds rates in Warsh's first meeting; more officials see hike ahead",
+            "url": "https://finance.yahoo.com/economy/live/fed-meeting-live-fed-holds-rates-in-warshs-first-meeting-more-officials-see-hike-ahead-141312780.html"
           }
         ]
       },
       {
-        "id": "theme-heat-0-4",
+        "id": "theme-virginia-key-vote",
         "affinity": "morning",
-        "topic": "sports",
-        "topic_label": "Miami Sports",
-        "title": "Heat fall to 0-4 as defense leaks and Giannis posts a triple-double",
-        "importance": 0.78,
-        "thesis": "The problem is not Giannis; it is a defense that has allowed 113 or more in every game.",
-        "synthesis": "Monday, Miami blew a fourth-quarter lead at home and lost 113-109 to Dallas. Antetokounmpo had 29 points, 14 rebounds and 11 assists, his first triple-double as a Heat player, while Cooper Flagg scored 12 of his 29 in the fourth. Bam Adebayo had 8 points on 30% shooting. Saturday's 115-110 loss to a short-handed Charlotte had Giannis foul out with 14.",
-        "new_today": "First triple-double of the Giannis era, and still no win.",
-        "why_it_matters": "Four games is a small sample, but a team built around two stars needs the defensive identity to show up early.",
-        "thread_id": "thread-heat-giannis-era",
+        "topic": "miami",
+        "topic_label": "Miami Life & Culture",
+        "title": "Virginia Key marinas: five days to a vote on a deal officials call a \"bad deal\"",
+        "importance": 0.8,
+        "thesis": "Miami voters decide Tuesday whether to lease about 27 waterfront acres, on terms the city itself has criticized.",
+        "synthesis": "Referendum 3 on the November 3 ballot would lease the Rickenbacker and Marine Stadium marinas to Virginia Key LLC (RCI Group and Suntex) for 45 years with two 15-year renewals, minimum rent of $2.2 million a year plus 6% of gross revenue, and about $80 million in private investment. A judge rejected a challenge to keep it off the ballot, though the case continues. Opponents cite dredging, manatees and seagrass, and a boaters' group says the ballot language misleads.",
+        "new_today": "Nothing newly decided; the ballot terms and legal status are consolidated ahead of Tuesday.",
+        "why_it_matters": "It is a clean test of how Miami voters weigh public waterfront access, marina economics and long ground leases, and it sits next to the Seaquarium and Marine Stadium sites.",
+        "thread_id": "thread-virginia-key-marina-referendum",
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Yahoo Sports",
-            "headline": "Heat blow fourth-quarter lead to Mavericks, fall to 0-4 despite Giannis Antetokounmpo triple-double",
-            "url": "https://sports.yahoo.com/nba/breaking-news/article/heat-blow-fourth-quarter-lead-to-mavericks-fall-to-0-4-despite-giannis-antetokounmpo-triple-double-035705882.html"
+            "publisher": "WLRN",
+            "headline": "Miami officials think the Virginia Key marina referendum is a 'bad deal'. So why is it on the ballot?",
+            "url": "https://www.wlrn.org/government-politics/2026-10-08/miami-virginia-key-marina-referendum-ballot"
           },
           {
-            "role": "analysis",
-            "publisher": "ESPN",
-            "headline": "Giannis Antetokounmpo fouls out in 4th as Heat tumble to 0-3",
-            "url": "https://www.espn.com/nba/story/_/id/50272348/giannis-antetokounmpo-fouls-4th-heat-tumble-0-3"
+            "role": "background",
+            "publisher": "Axios Miami",
+            "headline": "Virginia Key marina redevelopment heads to Miami voters",
+            "url": "https://www.axios.com/local/miami/2026/08/20/virginia-key-marina-redevelopment-miami-referendum"
+          },
+          {
+            "role": "local_perspective",
+            "publisher": "Local 10",
+            "headline": "Miami voters to decide fate of redevelopment proposal for waterfront land in Virginia Key",
+            "url": "https://www.local10.com/news/local/2026/09/16/miami-voters-to-decide-fate-of-redevelopment-proposal-for-waterfront-land-in-virginia-key/"
           }
         ]
       },
       {
-        "id": "theme-dolphins-first-win",
+        "id": "theme-miami-teams-week",
         "affinity": "morning",
         "topic": "sports",
         "topic_label": "Miami Sports",
-        "title": "Dolphins finally win under Hafley; Panthers and Hurricanes stay on track",
-        "importance": 0.65,
-        "thesis": "One win does not change the rebuild, but it ends a five-game skid and gives a young team something to build on.",
-        "synthesis": "The Dolphins beat the Jets 28-25 on October 25 for their first win of the Hafley era, moving to 1-5. The Florida Panthers beat Chicago 3-2 on an Eller goal late, snapping a two-game losing streak. Miami's football team beat Pittsburgh 52-23 in the latest result I found. I could not find fresh Marlins or Carolina Hurricanes coverage; baseball is in its offseason.",
-        "new_today": "The Panthers' win in Chicago is the newest result; exact date not confirmed.",
-        "why_it_matters": "The Dolphins win matters for tone; the Panthers' 2026-27 early season is where a long banner defense gets its first real test.",
-        "thread_id": "thread-dolphins-hafley-rebuild",
-        "confidence": "medium",
+        "title": "Heat at Atlanta, Dolphins at 1-5 and Patriots next: the week for Miami teams",
+        "importance": 0.7,
+        "thesis": "Results from Tuesday and Wednesday nights were not yet reported in what I could verify, so this is a state-of-play, not a recap.",
+        "synthesis": "The Heat (0-4 entering Wednesday) played at Atlanta on October 28; the Panthers (6-4-2) were scheduled at Winnipeg on October 27 with Jacob Markstrom out. I could not find final scores for either. The Dolphins are 1-5 after their first win under Jeff Hafley, 28-25 over the Jets, and host New England in Week 8.",
+        "new_today": "Dolphins turn to Week 8; Heat and Panthers results unverified.",
+        "why_it_matters": "The Heat need a defensive fix before the season tilts; the Dolphins' next test is whether one win becomes a pattern.",
+        "thread_id": "thread-heat-giannis-era",
+        "confidence": "low",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "NFL.com",
-            "headline": "2026 NFL season, Week 7: What We Learned from Sunday's games",
-            "url": "https://nfl.com/news/2026-nfl-season-week-7-what-we-learned-from-sunday-s-games"
-          },
-          {
-            "role": "local_perspective",
-            "publisher": "NHL.com",
-            "headline": "Florida Panthers news",
-            "url": "https://www.nhl.com/panthers/news/"
+            "publisher": "NBA.com",
+            "headline": "Miami Heat schedule",
+            "url": "https://www.nba.com/team/1610612748/schedule/"
           },
           {
             "role": "background",
             "publisher": "Wikipedia",
-            "headline": "2026 Miami Hurricanes football team",
-            "url": "https://en.wikipedia.org/wiki/2026_Miami_Hurricanes_football_team"
+            "headline": "2026 Miami Dolphins season",
+            "url": "https://en.wikipedia.org/wiki/2026_Miami_Dolphins_season"
           }
         ]
       },
       {
-        "id": "theme-slow-thought",
-        "affinity": "evening",
-        "topic": "living",
-        "topic_label": "Art of Living",
-        "title": "Slow thought: speed is not the enemy, hurry is",
-        "importance": 0.7,
-        "thesis": "Slowness in thinking is less about pace than about the quality of attention you bring.",
-        "synthesis": "Vincenzo Di Nicola's Aeon manifesto opens on a Wittgenstein exchange: how does one philosopher address another? 'Take your time.' It argues that our best ideas need unhurried room, which is a useful counterweight on a day organised around a 2 p.m. announcement. Michelle Boulous Walker's work on slow philosophy makes the same distinction: attention, not tempo.",
-        "new_today": "Evergreen; chosen for the contrast with a decision-day news cycle.",
-        "why_it_matters": "A day of waiting on something already priced is a decent day to practise not checking.",
-        "thread_id": null,
-        "confidence": "high",
+        "id": "theme-miami-cre-pulse",
+        "affinity": "morning",
+        "topic": "markets",
+        "topic_label": "Markets & Macro",
+        "title": "Miami commercial real estate: sales down, office absorption up",
+        "importance": 0.6,
+        "thesis": "Transaction volume is soft while leasing fundamentals in Miami-Dade office look stronger than the sales numbers suggest.",
+        "synthesis": "MIAMI Realtors reported South Florida commercial sales down about 13% in the first half of 2026 and Miami-Dade down 28%, blaming geopolitics and oil swings; office volume fell about 32%. TenantBase reports Miami-Dade office vacancy at 14.6% with its largest quarterly absorption since 2021. These are mid-year and third-party figures, not this week's news.",
+        "new_today": "Not new this week; a context check on how rates and oil are showing up in local deals.",
+        "why_it_matters": "Low volume with firming rents suggests a financing and price-discovery problem more than a demand problem, which is where a December hike would bite.",
+        "thread_id": "thread-cre-capital-markets-2026",
+        "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Aeon",
-            "headline": "Slow Thought: a manifesto",
-            "url": "https://aeon.co/essays/slow-thought-a-manifesto"
+            "publisher": "MIAMI Realtors",
+            "headline": "South Florida Commercial Report, Q2 2026",
+            "url": "https://www.miamirealtors.com/wp-content/uploads/bsk-pdf-manager/2026/07/South-Florida-Commercial-Report_-MIAMI-Realtors_2026Q2.pdf"
+          },
+          {
+            "role": "analysis",
+            "publisher": "TenantBase",
+            "headline": "Miami-Fort Lauderdale Commercial Space, Q3 2026",
+            "url": "https://www.tenantbase.com/miami-fort-lauderdale/q3-2026/"
+          }
+        ]
+      },
+      {
+        "id": "theme-marine-stadium",
+        "affinity": "evening",
+        "topic": "living",
+        "topic_label": "Art of Living",
+        "title": "Miami Marine Stadium: the concrete roof that outlasted its own neglect",
+        "importance": 0.6,
+        "thesis": "A building can be abandoned for three decades and still be worth a vote.",
+        "synthesis": "Hilario Candela, a young Cuban exile architect, designed the stadium on Virginia Key, which opened in December 1963. Its concrete roof cantilevers over the grandstand and was, at the time, among the longest such spans. It was closed after Hurricane Andrew in 1992 and has been restored in stages; Wikipedia gives a reopening date of October 5, 2024.",
+        "new_today": "Pegged to Tuesday's Virginia Key vote, which touches the same shoreline.",
+        "why_it_matters": "It sits on the same Virginia Key shoreline that voters decide on Tuesday, and it is a case for what preservation can recover.",
+        "thread_id": null,
+        "confidence": "medium",
+        "sources": [
+          {
+            "role": "background",
+            "publisher": "Wikipedia",
+            "headline": "Miami Marine Stadium",
+            "url": "https://en.wikipedia.org/wiki/Miami_Marine_Stadium"
+          },
+          {
+            "role": "analysis",
+            "publisher": "Docomomo US",
+            "headline": "Miami Marine Stadium",
+            "url": "https://docomomo-us.org/register/miami-marine-stadium"
           }
         ]
       }
     ],
     "rabbit_hole": {
-      "id": "rh-2026-10-28",
-      "title": "Slow Thought: a manifesto",
-      "creator": "Vincenzo Di Nicola (Aeon)",
+      "id": "rh-2026-10-29",
+      "title": "On the Shortness of Life",
+      "creator": "Seneca (trans. Gareth D. Williams)",
       "format": "essay",
-      "minutes": 15,
-      "why": "A decision-day Wednesday is a fair day to read an argument for taking your time. It runs shorter than the usual deep read, so pair it with the Boulous Walker 'slow philosophy' idea it points toward.",
-      "url": "https://aeon.co/essays/slow-thought-a-manifesto",
+      "minutes": 45,
+      "why": "A short classical essay arguing that life is long enough if we stop wasting it, which is a fair thing to read in a week of rate decisions and ballot deadlines. The linked scan is a full text on the Internet Archive; the translation may be under copyright.",
+      "url": "https://archive.org/stream/SenecaOnTheShortnessOfLife/Seneca+on+the+Shortness+of+Life_djvu.txt",
       "related_interest": "living"
     },
     "beautiful_thing": {
-      "id": "bt-2026-10-28",
-      "title": "Vizcaya Museum and Gardens",
-      "creator": "James Deering (patron); F. Burrall Hoffman (architect); Paul Chalfin (designer)",
-      "era": "1914-1922",
-      "body": "Built on Biscayne Bay in Coconut Grove as Deering's winter residence, Vizcaya borrows from Italian Renaissance and Baroque villas but was made with local coquina and Florida limestone. Notice the house opening onto the water through its stone barge and the formal garden laid out behind it as a sequence of rooms.",
-      "url": "https://vizcaya.org",
+      "id": "bt-2026-10-29",
+      "title": "Miami Marine Stadium",
+      "creator": "Hilario Candela",
+      "era": "1963",
+      "body": "Opened in December 1963 on Virginia Key, it was built for watching powerboat races from a grandstand under a cantilevered concrete roof, with the stage floating on the water. Notice how the roof reaches out without visible clutter and how the whole room faces the bay.",
+      "url": "https://docomomo-us.org/register/miami-marine-stadium",
       "image": null,
-      "alt": "Vizcaya, a villa and formal gardens on Biscayne Bay in Coconut Grove, Miami"
+      "alt": "Miami Marine Stadium on Virginia Key, a concrete grandstand with a cantilevered roof facing Biscayne Bay"
     },
-    "noticing_prompt": "Today, notice the moment you reach for a number you cannot change. What does your hand do next?",
+    "noticing_prompt": "Today, notice the moment a decision you cannot yet make starts to sound like a prediction. What do you do with it?",
     "daily_puzzle": {
-      "id": "dp-2026-10-28",
-      "type": "lateral",
-      "prompt": "A man pushes his car to a hotel, stops outside, and immediately tells the owner he is bankrupt. He is not a thief, and no one has hurt him. What is going on?",
-      "hint": "The car, the hotel and the bankruptcy all belong to something other than real life.",
-      "solution": "He is playing Monopoly: the 'car' is his token, the hotel sits on a property he landed on, and the rent bankrupts him.",
-      "explanation": "Every element, car, hotel, owner and bankruptcy, is a Monopoly piece or rule."
+      "id": "dp-2026-10-29",
+      "type": "logic",
+      "prompt": "Three boxes are labeled Apples, Oranges, and Mixed, and every label is wrong. You may take one fruit from one box without looking inside. Which box do you pick from, and how do you fix all three labels?",
+      "hint": "Start with the box that cannot be what its label says in the most useful way.",
+      "solution": "Pick one fruit from the box labeled Mixed. If it is an apple, that box is Apples; the box labeled Oranges cannot be Oranges or Apples, so it is Mixed, and the box labeled Apples is Oranges. Swap the other way if you draw an orange.",
+      "explanation": "Because every label is wrong, the Mixed box holds only one kind of fruit, and the remaining two labels follow by elimination."
     },
     "evening_unwind": {
-      "id": "eu-2026-10-28",
+      "id": "eu-2026-10-29",
       "evening_quote": {
-        "text": "We suffer more often in imagination than in reality.",
-        "attribution": "Seneca",
-        "source": "Letters to Lucilius, 13 (translations vary in wording)"
+        "text": "Men are disturbed not by things, but by the views which they take of them.",
+        "attribution": "Epictetus",
+        "source": "Enchiridion, 5 (translations vary in wording)"
       },
-      "evening_prompt": "Which outcome did you rehearse today, the Fed, the Heat, a conversation, that turned out to be smaller than the version in your head?"
+      "evening_prompt": "Which part of today was a fact, and which part was the view you took of it?"
     },
     "reading_queue": [
       {
@@ -272,8 +298,8 @@
       }
     ],
     "quote": {
-      "text": "We suffer more often in imagination than in reality.",
-      "attribution": "Seneca, Letters to Lucilius 13"
+      "text": "Men are disturbed not by things, but by the views which they take of them.",
+      "attribution": "Epictetus, Enchiridion 5"
     }
   },
   "threads": [
@@ -793,9 +819,9 @@
       "title": "Federal Reserve rate path",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-10-28",
-      "updates": 99,
-      "current_state": "Decision due Oct 28, 2 p.m. ET; hold expected at 3.75%-4.00%; S&P 7,722.60 on Oct 27.",
+      "last_updated": "2026-10-29",
+      "updates": 100,
+      "current_state": "Held at 3.75%-4.00% on Oct 28 in a 10-2 vote (Cook, Hammack wanted a hike); December hike seen as likelier; fewer meetings from 2027.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -1286,6 +1312,11 @@
           "date": "2026-10-28",
           "summary": "Stocks rose Tuesday into the decision; hold still expected, current odds not verified.",
           "change_type": "advanced"
+        },
+        {
+          "date": "2026-10-29",
+          "summary": "Fed held 10-2 with two dissents for a hike; December increase now looks more likely; Warsh plans fewer rate-setting meetings.",
+          "change_type": "advanced"
         }
       ]
     },
@@ -1766,9 +1797,9 @@
       "title": "Dolphins rebuild under Hafley",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-10-26",
-      "updates": 75,
-      "current_state": "1-5 after a 28-25 win at the Jets on Oct 25.",
+      "last_updated": "2026-10-29",
+      "updates": 76,
+      "current_state": "1-5 after first win under Hafley (28-25 at Jets); hosts Patriots in Week 8.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -2144,6 +2175,11 @@
           "date": "2026-10-26",
           "summary": "Dolphins beat the Jets 28-25 for Hafley's first win; 1-5.",
           "change_type": "improved"
+        },
+        {
+          "date": "2026-10-29",
+          "summary": "Week 8 home game vs New England on deck at 1-5.",
+          "change_type": "advanced"
         }
       ]
     },
@@ -3096,9 +3132,9 @@
       "title": "Virginia Key's second marina referendum",
       "topic": "miami",
       "status": "active",
-      "last_updated": "2026-10-27",
-      "updates": 19,
-      "current_state": "Nov 3 city referendum on 27.62-acre Rickenbacker/Marine Stadium lease; stays on ballot after court ruling.",
+      "last_updated": "2026-10-29",
+      "updates": 20,
+      "current_state": "Nov 3 city referendum on a 45-year lease of about 27 acres; terms, legal status and opposition consolidated five days out.",
       "timeline": [
         {
           "date": "2026-08-25",
@@ -3188,6 +3224,11 @@
         {
           "date": "2026-10-26",
           "summary": "Eight days to the Nov 3 city vote; no new filings found.",
+          "change_type": "unchanged"
+        },
+        {
+          "date": "2026-10-29",
+          "summary": "Five days to the vote; no new filings found.",
           "change_type": "unchanged"
         }
       ]
@@ -3505,7 +3546,7 @@
     }
   ],
   "meta": {
-    "content_freshness": "2026-10-28T09:30:00-04:00",
+    "content_freshness": "2026-10-29T09:30:00-04:00",
     "feedback_endpoint_mode": "github_contents",
     "minimum_client_schema_version": 1,
     "mode": "brain"
