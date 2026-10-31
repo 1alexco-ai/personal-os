@@ -1,295 +1,404 @@
 {
   "schema_version": 2,
   "edition": {
-    "id": "2026-10-30",
-    "date": "2026-10-30",
+    "id": "2026-10-31",
+    "date": "2026-10-31",
     "type": "weekday",
-    "generated_at": "2026-10-30T09:30:00-04:00",
+    "generated_at": "2026-10-31T09:30:00-04:00",
     "timezone": "America/New_York",
     "title": "Personal OS",
     "front_page_letter": {
       "greeting": "Good morning",
       "body_paragraphs": [
-        "Good morning. Friday, October 30. Markets leaned lower on Thursday after Alphabet and Microsoft reported results that pointed different ways, with the 10-year yield sitting near 5% and a December Fed hike still the likelier path. Sources disagree on Thursday's exact closes, so I have published only Wednesday's, labeled.",
-        "The larger weight is oil. Iran's Revolutionary Guards declared the Strait of Hormuz closed on October 26, and Brent is holding around $115. Nothing in the week's reporting suggests that resolves soon, and it is the quiet reason rates are not coming down.",
-        "At home, Miami votes Tuesday on the Virginia Key marina lease, and the Panthers host Winnipeg tonight. I could not verify the Heat's score from Atlanta, so I will not guess at it. What deserves attention today is the gap between what is loud and what compounds: the ballot and the oil price will matter in a year, and most of Thursday's tape will not."
+        "Good morning. Saturday, October 31. The market's week ended badly: Reuters-based figures have the S&P 500 down about 1.8% and the Nasdaq down about 2.9% on Friday, which closes October as the Nasdaq's worst month since March 2025. Sources disagree on exact closes, so read the numbers as approximate.",
+        "The quieter story is oil. A tanker was attacked in the Strait of Hormuz, reportedly with a limpet mine, and Brent is near $118. The sell-off pulled December Fed hike odds down to the mid-70s and the 10-year back under 5%, which is a strange way to get relief. At home, early voting on the Virginia Key marina lease ends Sunday, and the Heat finally have a win.",
+        "What deserves attention today is the gap between the loud and the lasting. The tape will reset on Monday. A 45-year lease on public waterfront will not. If you have an evening hour, Thoreau on the duties of a citizen is a good companion to the ballot."
       ],
       "read_only_three": [
         {
           "target_type": "theme",
-          "target_id": "theme-hormuz-closed",
-          "label": "Hormuz closed"
+          "target_id": "theme-hormuz-limpet-mine",
+          "label": "Hormuz and oil"
         },
         {
           "target_type": "theme",
-          "target_id": "theme-virginia-key-final-days",
+          "target_id": "theme-virginia-key-last-weekend",
           "label": "Virginia Key vote"
         },
         {
           "target_type": "theme",
-          "target_id": "theme-hand-made",
-          "label": "Making by hand, tonight"
+          "target_id": "theme-civil-disobedience",
+          "label": "Thoreau tonight"
         }
       ]
     },
     "market_context": [
       {
         "label": "S&P 500",
-        "value": "7,743.98",
-        "change": "+0.3% Wednesday",
-        "observed": "Close, Wednesday, October 28, 2026",
-        "note": "Stale: Thursday reported lower (about -0.3%), exact close unverified."
+        "value": "7,580.07",
+        "change": "-1.82%",
+        "observed": "Close, Friday, October 30, 2026",
+        "note": "Reuters-based figure; Yahoo's live blog gave a different percentage, so treat as approximate."
       },
       {
         "label": "Nasdaq Composite",
-        "value": "26,549.85",
-        "change": "",
-        "observed": "Close, Wednesday, October 28, 2026",
-        "note": "Stale: Thursday reported down roughly 1.4%, unverified."
+        "value": "25,437.00",
+        "change": "-2.86%",
+        "observed": "Close, Friday, October 30, 2026",
+        "note": "Worst day since June; other sources show a larger drop."
       },
       {
         "label": "10-Year Treasury yield",
-        "value": "about 5.0%",
+        "value": "about 4.91%",
         "change": "",
-        "observed": "Morning, Thursday, October 29, 2026",
-        "note": "Sources conflict on whether it eased later in the day."
+        "observed": "Friday, October 30, 2026",
+        "note": "Approximate; the 10-year was above 5% on October 28."
       },
       {
         "label": "FOMC",
-        "value": "Held 3.75%-4.00%, 10-2",
-        "change": "December hike about 75% (CME, Tue Oct 27)",
-        "observed": "Wednesday, October 28, 2026",
-        "note": "Odds pre-date the decision; current odds unverified. Next meeting is in December."
+        "value": "Held 3.75%-4.00% on October 28",
+        "change": "December hike odds about 73-76% (CME, Friday)",
+        "observed": "Friday, October 30, 2026",
+        "note": "Readings vary by capture time; next meeting is in December."
+      },
+      {
+        "label": "Brent crude",
+        "value": "about $117.75",
+        "change": "+2.5% midday",
+        "observed": "Midday, Friday, October 30, 2026",
+        "note": "December contract, expiring that day; not a settlement price."
       }
     ],
     "public_day_context": {
-      "date_label": "Friday, October 30, 2026",
+      "date_label": "Saturday, October 31, 2026",
       "weather": "Miami forecast not verified; check weather.gov/mfl.",
-      "public_event": "Panthers host Jets tonight 7 p.m.; Virginia Key referendum Tuesday, November 3; Dolphins host Patriots Sunday."
+      "public_event": "Early voting ends Sunday, November 1; Referendum 3 is Tuesday, November 3. Miami plays at North Carolina tonight (kickoff unconfirmed)."
     },
     "what_changed": [
       {
-        "id": "delta-tech-split",
+        "id": "delta-friday-selloff",
         "thread_id": "thread-cre-capital-markets-2026",
-        "change_type": "new",
-        "title": "Tech-led slide after Alphabet and Microsoft earnings",
-        "previous_state": "Stocks closed Wednesday slightly higher after the Fed hold.",
-        "current_state": "Thursday was reported lower, led by tech, after the two earnings reports diverged.",
-        "why_it_matters": "Weak AI-spender sentiment with yields near 5% leaves little valuation cushion.",
-        "confidence": "medium",
-        "source": {
-          "publisher": "TheStreet",
-          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-29-2026"
-        }
-      },
-      {
-        "id": "delta-hormuz-closed",
-        "thread_id": "thread-iran-hormuz-crisis",
         "change_type": "worsened",
-        "title": "Iran declares the Strait of Hormuz closed",
-        "previous_state": "Trump had rejected Iran's truce plan while expecting talks, and Brent had settled at $116.72.",
-        "current_state": "The Revolutionary Guards declared the Strait closed on October 26, and Brent is holding near $115.",
-        "why_it_matters": "Sustained $100+ oil keeps inflation, and so the Fed, hawkish.",
+        "title": "Thursday's tech wobble became a Friday sell-off",
+        "previous_state": "Thursday closed lower after Alphabet and Microsoft diverged, with exact closes unverified.",
+        "current_state": "Friday closed sharply lower, the S&P 500 down about 1.8% and the Nasdaq about 2.9% by Reuters-based figures.",
+        "why_it_matters": "October ends as the Nasdaq's worst month since March 2025, with yields still near 5%.",
         "confidence": "medium",
         "source": {
           "publisher": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/sectors/energy/articles/brent-stay-above-100-2026-003121731.html"
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-amazon-intel-ai-sell-off-191429143.html"
         }
       },
       {
-        "id": "delta-heat-winless",
-        "thread_id": "thread-heat-giannis-era",
-        "change_type": "watch",
-        "title": "Heat enter Atlanta game winless",
-        "previous_state": "The Heat were expected to rebound after Monday's loss.",
-        "current_state": "They went into Wednesday at 0-4; I could not verify the result.",
-        "why_it_matters": "A winless start puts early pressure on the Giannis-era roster.",
-        "confidence": "low",
+        "id": "delta-hormuz-mine",
+        "thread_id": "thread-iran-hormuz-crisis",
+        "change_type": "worsened",
+        "title": "First reported limpet-mine strike in Hormuz since February",
+        "previous_state": "The Strait was declared closed on October 26, with Brent near $115.",
+        "current_state": "A tanker was attacked on Friday and Brent rose to about $117-118, with US strike warnings reported ahead of the midterms.",
+        "why_it_matters": "Oil's fourth straight monthly gain keeps rate cuts off the table.",
+        "confidence": "medium",
         "source": {
-          "publisher": "DocSports",
-          "url": "https://www.docsports.com/free-picks/nba/2026/miami-heat-vs-atlanta-hawks-prediction-10-28-2026-preview-and-pick.html"
+          "publisher": "The National",
+          "url": "https://www.thenationalnews.com/business/markets/2026/10/30/oil-prices-set-for-sharp-monthly-rise-on-hormuz-strikes-and-us-threat-to-hit-iran/"
+        }
+      },
+      {
+        "id": "delta-hike-odds",
+        "thread_id": "thread-fed-rate-path",
+        "change_type": "improved",
+        "title": "December hike odds ease",
+        "previous_state": "December hike odds were about 83% on Thursday.",
+        "current_state": "Odds fell to roughly 73-76% Friday and the 10-year slipped to about 4.91%.",
+        "why_it_matters": "Lower yields would ease pressure on valuations, but it took a stock sell-off to get there.",
+        "confidence": "medium",
+        "source": {
+          "publisher": "FXStreet",
+          "url": "https://www.fxstreet.com/news/us-dollar-index-struggles-as-tech-sell-off-overshadows-hawkish-fed-202610301244"
+        }
+      },
+      {
+        "id": "delta-heat-win",
+        "thread_id": "thread-heat-giannis-era",
+        "change_type": "resolved",
+        "title": "Heat end the 0-4 start",
+        "previous_state": "The Heat were 0-4, and the Atlanta result was unverified yesterday.",
+        "current_state": "They beat Atlanta 129-117 on October 28 for their first win.",
+        "why_it_matters": "It ends the winless storyline and gives the Giannis rebuild a first data point.",
+        "confidence": "high",
+        "source": {
+          "publisher": "NBC 6 Miami",
+          "url": "https://www.nbcmiami.com/news/sports/miami-heat-atlanta-hawks/3879937/"
+        }
+      },
+      {
+        "id": "delta-panthers-sweep",
+        "thread_id": "thread-panthers-2026-27-season",
+        "change_type": "advanced",
+        "title": "Panthers beat Winnipeg 5-2",
+        "previous_state": "The Panthers were set to host Winnipeg on Friday.",
+        "current_state": "They won 5-2 behind Lundell's hat trick, their sixth win in eight games.",
+        "why_it_matters": "They are winning while Barkov and Marchand are out.",
+        "confidence": "high",
+        "source": {
+          "publisher": "NHL.com",
+          "url": "https://www.nhl.com/panthers/news/recap-lundell-nets-1st-hat-trick-as-panthers-complete-season-sweep-of-jets"
         }
       }
     ],
     "themes": [
       {
-        "id": "theme-tech-earnings-wobble",
+        "id": "theme-nasdaq-october-selloff",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Alphabet and Microsoft earnings pull in opposite directions, and Thursday tilts lower",
+        "title": "A tech sell-off closes the Nasdaq's worst month since March 2025",
         "importance": 0.9,
-        "thesis": "A split earnings read on the biggest AI spenders is what moved the tape, with the 10-year parked near 5%.",
-        "synthesis": "Reports describe Thursday as a down day led by tech after Alphabet and Microsoft reported divergent results, with the Nasdaq weakest. Wednesday's close was S&P 500 7,743.98 and Nasdaq 26,549.85 after the Fed hold. Sources disagree on Thursday's exact closes, so none are published here.",
-        "new_today": "Thursday's tech-led slide after the two earnings reports.",
-        "why_it_matters": "With the 10-year near 5.0% and a December Fed hike priced as likelier than not, equity multiples have little slack, and the same rates set the bar for CRE cap rates.",
+        "thesis": "Friday's AI-spending sell-off turned a soft week into a clear drawdown for the Nasdaq.",
+        "synthesis": "Reuters-based coverage has the S&P 500 down 1.82% to 7,580.07 and the Nasdaq down 2.86% to 25,437.00, its worst day since June, with Amazon's earnings among the triggers. The Nasdaq is now about 7.8% below its October 6 closing high. Outlets disagree on exact closes, so treat the figures as approximate until official tallies settle.",
+        "new_today": "Friday's close: the sell-off deepened after Thursday's tech split.",
+        "why_it_matters": "With the 10-year near 5% and the Fed leaning toward a hike, there is little valuation cushion; it is the backdrop for any financing conversation on the CRE side.",
         "thread_id": "thread-cre-capital-markets-2026",
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "TheStreet",
-            "headline": "Stock Market Today (Oct. 29, 2026): S&P 500 falls after Alphabet and Microsoft issue divergent earnings",
-            "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-29-2026"
+            "publisher": "Yahoo Finance",
+            "headline": "Stock market today: Nasdaq, Dow, S&P 500 clobbered as October closes with brutal sell-off",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-amazon-intel-ai-sell-off-191429143.html"
           },
           {
-            "role": "background",
-            "publisher": "Yahoo Finance",
-            "headline": "Stock Market News for Oct 29, 2026",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-oct-29-082000374.html"
+            "role": "analysis",
+            "publisher": "CNBC",
+            "headline": "Stock market rocked as investors dump tech shares (Oct 29 live updates)",
+            "url": "https://www.cnbc.com/2026/10/29/stock-market-today-live-updates.html"
           }
         ]
       },
       {
-        "id": "theme-hormuz-closed",
+        "id": "theme-hormuz-limpet-mine",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Iran declares Hormuz closed; Brent holds near $115",
+        "title": "A limpet-mine attack on a tanker pushes Brent back to about $118",
         "importance": 0.88,
-        "thesis": "Oil is pricing a closed strait, and the next move depends on talks that keep being announced and denied.",
-        "synthesis": "A daily briefing reports Iran's Revolutionary Guards declared the Strait closed on October 26 while Saudi, Turkish and Pakistani officials met in Tehran, with Brent near $115. A separate wire line has Brent settling at $116.72 (date unclear). Goldman has warned Brent stays above $100 through 2026 if the closure lasts another month; Citi sees about $70 in Q4 only if a deal reopens the Strait.",
-        "new_today": "The closure declaration and Brent holding above $115.",
-        "why_it_matters": "Oil at these levels feeds the inflation numbers behind the hike talk, and therefore financing costs and Florida fuel prices.",
+        "thesis": "The first reported limpet-mine strike in the Strait since the war began raises the cost of an already-closed waterway.",
+        "synthesis": "UKMTO reported a tanker attacked in the Strait on Friday, which maritime sources called the first successful limpet-mine strike there since February. Brent December futures traded near $117.75 and WTI near $104.79 midday, putting oil up roughly 12-15% for October, a fourth straight monthly gain. Separately, CNBC reported that the US has told Gulf states to prepare for possible strikes on Iran after the November 3 midterms; that is a report, not a decision.",
+        "new_today": "Tanker attack and pre-midterm strike warnings.",
+        "why_it_matters": "Oil above $100 keeps inflation, and so the Fed, hawkish, and it is the single largest input to the rate path your deals are priced against.",
         "thread_id": "thread-iran-hormuz-crisis",
         "confidence": "medium",
         "sources": [
           {
+            "role": "primary_reporting",
+            "publisher": "The National",
+            "headline": "Oil prices set for sharp monthly rise on Hormuz strikes and US threat to hit Iran",
+            "url": "https://www.thenationalnews.com/business/markets/2026/10/30/oil-prices-set-for-sharp-monthly-rise-on-hormuz-strikes-and-us-threat-to-hit-iran/"
+          },
+          {
             "role": "analysis",
-            "publisher": "Yahoo Finance",
-            "headline": "Brent to stay above $100 through 2026 if Hormuz closure drags on another month, warns Goldman Sachs",
-            "url": "https://finance.yahoo.com/sectors/energy/articles/brent-stay-above-100-2026-003121731.html"
+            "publisher": "CNBC",
+            "headline": "Oil prices rise as U.S. reportedly tells Gulf countries to prepare for Iran strikes after midterm elections",
+            "url": "https://www.cnbc.com/2026/10/28/oil-price-today-wti-brent-hormuz.html"
+          },
+          {
+            "role": "background",
+            "publisher": "Kitco",
+            "headline": "Gold drops below $4,000 as Hormuz attack lifts oil prices",
+            "url": "https://www.kitco.com/news/article/2026-10-30/gold-drops-below-4000-silver-tumbles-hormuz-attack-lifts-oil-prices-kitco"
           }
         ]
       },
       {
-        "id": "theme-virginia-key-final-days",
+        "id": "theme-fed-december-odds",
+        "affinity": "morning",
+        "topic": "markets",
+        "topic_label": "Markets & Macro",
+        "title": "December hike odds ease to the mid-70s as yields fall",
+        "importance": 0.8,
+        "thesis": "The tech rout trimmed, but did not erase, the market's expectation of a December Fed hike.",
+        "synthesis": "CME-based readings put December hike odds at roughly 73-76% on Friday, down from about 83% Thursday, with the 10-year near 4.91% after sitting above 5% earlier in the week. The Fed held on October 28 with two dissents in favor of a hike. Some analysts argue a prolonged tech slide could stay the Fed's hand; that is opinion, not a forecast the data yet supports.",
+        "new_today": "Hike odds slipped about 7-10 points; 10-year fell back under 5%.",
+        "why_it_matters": "A move in the 10-year of 10 basis points matters more to a levered real estate deal than most headlines; watch whether yields keep falling with equities.",
+        "thread_id": "thread-fed-rate-path",
+        "confidence": "medium",
+        "sources": [
+          {
+            "role": "primary_reporting",
+            "publisher": "FXStreet",
+            "headline": "US Dollar Index struggles as tech sell-off overshadows hawkish Fed",
+            "url": "https://www.fxstreet.com/news/us-dollar-index-struggles-as-tech-sell-off-overshadows-hawkish-fed-202610301244"
+          },
+          {
+            "role": "background",
+            "publisher": "CNN",
+            "headline": "Fed keeps interest rates unchanged, but two officials dissented in favor of a rate hike",
+            "url": "https://www.cnn.com/2026/10/28/business/live-news/federal-reserve-interest-rate-october"
+          }
+        ]
+      },
+      {
+        "id": "theme-virginia-key-last-weekend",
         "affinity": "morning",
         "topic": "miami",
         "topic_label": "Miami Life & Culture",
-        "title": "Virginia Key marinas: Referendum 3 is Tuesday",
+        "title": "Virginia Key: the last weekend before Referendum 3",
         "importance": 0.85,
-        "thesis": "Voters are being asked to approve a 45-year lease that officials call a bad deal and the incumbent operator opposes.",
-        "synthesis": "Miami Referendum 3 asks whether the city should lease about 27.62 acres of Rickenbacker and Marine Stadium marinas to Virginia Key LLC (RCI Group and Suntex) for 45 years plus two 15-year renewals, with roughly $80 million of private investment and a public baywalk. A judge rejected a challenge to the ballot language in August, though WLRN says the legal fight is not over. Rickenbacker operator Aabad Melwani urges a no vote.",
-        "new_today": "Four days to the vote; no new filings found.",
-        "why_it_matters": "It is the largest decision on Miami's waterfront this year, and a test of how voters treat long public leases.",
+        "thesis": "Early voting ends Sunday, and a lease city officials call a 'bad deal' still goes to voters Tuesday.",
+        "synthesis": "Referendum 3 asks City of Miami voters to lease about 27 acres at the Rickenbacker and Marine Stadium marinas to Virginia Key LLC for 45 years plus two 15-year renewals (opponents say 75). Reporting notes officials have called the terms a bad deal yet placed it on the ballot after a court declined to remove it. Early voting runs through Sunday, November 1; Election Day is Tuesday.",
+        "new_today": "Final weekend of early voting; WLRN's Friday roundup revisits the fight.",
+        "why_it_matters": "It is a live test of how Miami handles waterfront land and public process, and of what voters do with a deal their own officials hesitate to endorse.",
         "thread_id": "thread-virginia-key-marina-referendum",
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
             "publisher": "WLRN",
+            "headline": "Miami's Virginia Key referendum, immigration enforcement at polls and Flávio Bolsonaro in Miami",
+            "url": "https://www.wlrn.org/podcast/the-south-florida-roundup/2026-10-30/miamis-virginia-key-referendum-immigration-enforcement-at-polls-and-flavio-bolsonaro-in-miami"
+          },
+          {
+            "role": "analysis",
+            "publisher": "WLRN",
             "headline": "Miami officials think the Virginia Key marina referendum is a 'bad deal'. So why is it on the ballot?",
             "url": "https://www.wlrn.org/government-politics/2026-10-08/miami-virginia-key-marina-referendum-ballot"
           },
           {
             "role": "background",
-            "publisher": "Miami-Dade Elections",
-            "headline": "Nov. 3, 2026 Miami special election sample ballot",
-            "url": "https://www.miamidade.gov/elections/library/sample-ballots/2026-11-03-miami-special-election-sample-ballot.pdf"
-          },
-          {
-            "role": "background",
             "publisher": "Axios Miami",
-            "headline": "Virginia Key marina redevelopment heads to Miami voters",
-            "url": "https://www.axios.com/local/miami/2026/08/20/virginia-key-marina-redevelopment-miami-referendum"
+            "headline": "2026 Miami-Dade election voting guide",
+            "url": "https://www.axios.com/local/miami/2026/10/28/miami-dade-election-voter-guide"
           }
         ]
       },
       {
-        "id": "theme-miami-teams-friday",
+        "id": "theme-heat-panthers-results",
         "affinity": "morning",
         "topic": "sports",
         "topic_label": "Miami Sports",
-        "title": "Heat winless through four, Panthers host Winnipeg tonight",
-        "importance": 0.7,
-        "thesis": "The Heat's start is the story; the Panthers get a home game tonight.",
-        "synthesis": "The Heat entered Wednesday at Atlanta 0-4, with a 113-109 home loss to Dallas the last verified result; I could not verify the Atlanta score. The Panthers host the Winnipeg Jets tonight, Friday, October 30, at 7 p.m. at Amerant Bank Arena. The Dolphins are 1-5 and host New England Sunday.",
-        "new_today": "Panthers tonight; Heat result unverified.",
-        "why_it_matters": "Three of your teams are in a week where the standings matter less than the trajectory.",
+        "title": "Heat get win No. 1 behind Giannis; Panthers sweep Winnipeg",
+        "importance": 0.8,
+        "thesis": "Two Miami teams answered shaky starts this week.",
+        "synthesis": "The Heat beat Atlanta 129-117 on October 28 for their first win after four losses; Giannis Antetokounmpo had 24 points and 18 rebounds and Bam Adebayo passed Udonis Haslem as the franchise rebounding leader. On Friday the Panthers beat Winnipeg 5-2 at home on Anton Lundell's first career hat trick, with Barkov and Marchand still out but skating. Miami also plays at North Carolina tonight; I could not confirm the kickoff, which one listing puts at 7:30 p.m. on ABC.",
+        "new_today": "Heat's first win confirmed; Panthers' result in.",
+        "why_it_matters": "Both stories are about depth: the Heat adjusting around a new star, the Panthers winning while two stars recover.",
         "thread_id": "thread-heat-giannis-era",
-        "confidence": "medium",
+        "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Local 10",
-            "headline": "Florida Panthers full 2026-27 schedule released",
-            "url": "https://www.local10.com/sports/local/2026/07/16/florida-panthers-full-2026-27-schedule-released/"
+            "publisher": "NBC 6 Miami",
+            "headline": "Giannis Antetokounmpo has 24 points, 18 rebounds as the Heat beat the Hawks 129-117 for first win",
+            "url": "https://www.nbcmiami.com/news/sports/miami-heat-atlanta-hawks/3879937/"
+          },
+          {
+            "role": "primary_reporting",
+            "publisher": "NHL.com",
+            "headline": "Lundell nets 1st hat trick as Panthers complete season sweep of Jets",
+            "url": "https://www.nhl.com/panthers/news/recap-lundell-nets-1st-hat-trick-as-panthers-complete-season-sweep-of-jets"
+          },
+          {
+            "role": "background",
+            "publisher": "CBS Miami",
+            "headline": "Lundell hat trick, Seth Jones record-setting night lift Panthers past Jets 5-2",
+            "url": "https://www.cbsnews.com/miami/news/panthers-jets-anton-lundell-hat-trick-seth-jones-record/"
           }
         ]
       },
       {
-        "id": "theme-hand-made",
+        "id": "theme-civil-disobedience",
         "affinity": "evening",
         "topic": "living",
         "topic_label": "Art of Living",
-        "title": "Why we dream of making things by hand",
-        "importance": 0.6,
-        "thesis": "An essay from your Reading List about craft as a refusal of frictionless work.",
-        "synthesis": "This is the one saved piece waiting since September 3. It suits a Friday evening: no deadline, no vote, no yield curve. Read it for the argument about what making by hand does to attention, and judge for yourself whether it persuades.",
-        "new_today": "Resurfaced from your Reading List.",
-        "why_it_matters": "It speaks to craft and attention, two threads you keep returning to.",
+        "title": "Thoreau on the one thing a ballot can't do",
+        "importance": 0.62,
+        "thesis": "Election week is a good moment to read the essay that asks what a citizen owes a government they only partly endorse.",
+        "synthesis": "Thoreau's 1849 essay is short, combative and uneven, and it rewards a slow evening read more than a skim. It asks whether voting is enough, or whether conscience requires something quieter and costlier.",
+        "new_today": "Chosen for the week of the vote; today's rabbit hole.",
+        "why_it_matters": "It sits next to the Virginia Key question without being about it: what does a vote actually commit you to?",
         "thread_id": null,
         "confidence": "high",
         "sources": [
           {
+            "role": "primary_reporting",
+            "publisher": "Project Gutenberg",
+            "headline": "Civil Disobedience (Henry David Thoreau)",
+            "url": "https://www.gutenberg.org/ebooks/71"
+          }
+        ]
+      },
+      {
+        "id": "theme-gold-safe-haven",
+        "affinity": "evening",
+        "topic": "markets",
+        "topic_label": "Markets & Macro",
+        "title": "Gold under $4,000: safe haven, or just the thing people sell for cash?",
+        "importance": 0.55,
+        "thesis": "A slower analytical read on why gold fell during a sell-off and an oil shock.",
+        "synthesis": "Gold dropped below $4,000 on Friday as oil rose, a move that cuts against the usual crisis story. XTB's analysis weighs a 'safe-haven myth' reading against a simple search for liquidity when other assets are being marked down. It is one house's view, offered as a lens, not a verdict.",
+        "new_today": "Gold broke below $4,000.",
+        "why_it_matters": "A reminder that correlations in a stressed market are not fixed; worth holding lightly when stress-testing a capital plan.",
+        "thread_id": "thread-cre-capital-markets-2026",
+        "confidence": "low",
+        "sources": [
+          {
             "role": "analysis",
-            "publisher": "Aeon",
-            "headline": "The Radical Reasons Why You Dream of Making Things by Hand",
-            "url": "https://aeon.co/essays/the-radical-reasons-why-you-dream-of-making-things-by-hand"
+            "publisher": "XTB",
+            "headline": "Gold prices drop sharply at the end of October: the collapse of the safe-haven myth or a search for liquidity?",
+            "url": "https://www.xtb.com/cy/market-analysis/news-and-research/gold-prices-drop-sharply-at-the-end-of-october-the-collapse-of-the-safe-haven-myth-or-a-search-for-liquidity"
           }
         ]
       }
     ],
     "rabbit_hole": {
-      "id": "rh-2026-10-30",
-      "title": "Politics and the English Language",
-      "creator": "George Orwell",
+      "id": "rh-2026-10-31",
+      "title": "Civil Disobedience (Resistance to Civil Government)",
+      "creator": "Henry David Thoreau",
       "format": "essay",
-      "minutes": 30,
-      "why": "Orwell's 1946 essay argues that vague, borrowed phrasing lets writers avoid thinking and readers avoid noticing. It is a good lens for a week of ballot language that a court called acceptable and critics called misleading.",
-      "url": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/politics-and-the-english-language/",
+      "minutes": 40,
+      "why": "Thoreau wrote it after a night in jail for refusing a tax, and asks whether a vote is the whole of a citizen's duty. Read it the weekend before a city referendum, and notice where you agree with it and where it feels too easy.",
+      "url": "https://www.gutenberg.org/ebooks/71",
       "related_interest": "living"
     },
     "beautiful_thing": {
-      "id": "bt-2026-10-30",
-      "title": "Vizcaya Museum and Gardens",
-      "creator": "James Deering, with architect F. Burton Hoffman Jr., designer Paul Chalfin and landscape designer Diego Suarez",
-      "era": "1914-1922",
-      "body": "Built on Biscayne Bay as a winter residence, Vizcaya borrows from Italian Renaissance and Baroque villas but is set in a subtropical hammock. Notice the stone barge in the water in front of the house, which works as a breakwater and a piece of sculpture, and how the formal gardens line up with the house along the bay.",
-      "url": "https://vizcaya.org/",
+      "id": "bt-2026-10-31",
+      "title": "Cathedral of Brasília",
+      "creator": "Oscar Niemeyer, with structural engineer Joaquim Cardozo; stained glass by Marianne Peretti",
+      "era": "Designed 1958; consecrated 1970",
+      "body": "Sixteen curved concrete columns rise from a circular base and lean together into a crown, so the roof is mostly the structure itself. Notice that you enter through a dark, low tunnel and emerge under a ceiling of coloured glass: the building controls the light you arrive into.",
+      "url": "https://en.wikipedia.org/wiki/Cathedral_of_Bras%C3%ADlia",
       "image": null,
-      "alt": "Vizcaya Museum and Gardens on Biscayne Bay"
+      "alt": "Concrete hyperboloid columns of the Cathedral of Brasília meeting in a crown"
     },
-    "noticing_prompt": "Today, notice which items you read about are things you can act on and which are only things you can watch. Spend your attention in that order.",
+    "noticing_prompt": "Notice today how often a number is offered in place of an explanation. Ask of one of them what it would take to be wrong.",
     "daily_puzzle": {
-      "id": "dp-2026-10-30",
-      "type": "math",
-      "prompt": "A clock takes 5 seconds to strike 6 o'clock, with the strikes evenly spaced. How long does it take to strike 12?",
-      "hint": "Count the gaps between strikes, not the strikes.",
-      "solution": "11 seconds.",
-      "explanation": "Six strikes have 5 gaps, so each gap is 1 second; twelve strikes have 11 gaps."
+      "id": "dp-2026-10-31",
+      "type": "riddle",
+      "prompt": "I have two coins in my pocket. Together they are worth 30 cents, and one of them is not a nickel. What are the two coins?",
+      "hint": "Read the claim literally: it says only that one of them is not a nickel.",
+      "solution": "A quarter and a nickel.",
+      "explanation": "The quarter is the coin that is not a nickel; nothing says the other one isn't."
     },
     "evening_unwind": {
-      "id": "eu-2026-10-30",
+      "id": "eu-2026-10-31",
       "evening_quote": {
-        "text": "Men seek retreats for themselves, houses in the country, sea-shores, and mountains... but it is in thy power whenever thou shalt choose to retire into thyself.",
-        "attribution": "Marcus Aurelius",
-        "source": "Meditations, 4.3 (trans. George Long, abridged)"
+        "text": "Men are disturbed, not by things, but by the principles and notions which they form concerning things.",
+        "attribution": "Epictetus",
+        "source": "Enchiridion, 5 (George Long translation)"
       },
-      "evening_prompt": "Of today's headlines, which would you have been equally well informed about by reading them on Monday?"
+      "evening_prompt": "Of the day's loud numbers, which would still matter if the market were closed tomorrow, and what quieter thing did?"
     },
     "reading_queue": [
       {
         "title": "The Radical Reasons Why You Dream of Making Things by Hand",
         "url": "https://aeon.co/essays/the-radical-reasons-why-you-dream-of-making-things-by-hand",
         "verdict": "weekend",
-        "reason": "Saved September 3; surfaced tonight as an evening read."
+        "reason": "Saved September 3; a Saturday is the right slot."
       }
     ],
     "quote": {
-      "text": "Men seek retreats for themselves, houses in the country, sea-shores, and mountains.",
-      "attribution": "Marcus Aurelius, Meditations 4.3"
+      "text": "Men are disturbed, not by things, but by the principles and notions which they form concerning things.",
+      "attribution": "Epictetus, Enchiridion 5"
     }
   },
   "threads": [
@@ -298,9 +407,9 @@
       "title": "US-Iran conflict and the Strait of Hormuz",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-10-30",
-      "updates": 101,
-      "current_state": "Strait declared closed Oct 26; Brent near $115 (settled $116.72 earlier); talks announced and denied.",
+      "last_updated": "2026-10-31",
+      "updates": 102,
+      "current_state": "Strait declared closed Oct 26; limpet-mine tanker attack Oct 30; Brent about $118.",
       "timeline": [
         {
           "date": "2026-07-21",
@@ -806,6 +915,11 @@
           "date": "2026-10-30",
           "summary": "Revolutionary Guards declared the Strait closed on Oct 26; Brent near $115.",
           "change_type": "worsened"
+        },
+        {
+          "date": "2026-10-31",
+          "summary": "Tanker attacked, reportedly first limpet-mine strike since Feb; US reportedly told Gulf states to prepare for post-midterm strikes.",
+          "change_type": "worsened"
         }
       ]
     },
@@ -814,9 +928,9 @@
       "title": "Federal Reserve rate path",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-10-30",
-      "updates": 101,
-      "current_state": "Held at 3.75%-4.00% on Oct 28 in a 10-2 vote; December hike seen as likelier; fewer meetings from 2027.",
+      "last_updated": "2026-10-31",
+      "updates": 102,
+      "current_state": "Held 3.75%-4.00% Oct 28 (10-2); December hike odds about 73-76% Oct 30; 10-year about 4.91%.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -1317,6 +1431,11 @@
           "date": "2026-10-30",
           "summary": "December hike odds about 75% per CME on Oct 27; 10-year near 5%.",
           "change_type": "unchanged"
+        },
+        {
+          "date": "2026-10-31",
+          "summary": "Hike odds eased from about 83% Thursday as tech sold off.",
+          "change_type": "improved"
         }
       ]
     },
@@ -1656,9 +1775,9 @@
       "title": "Heat: the Giannis era begins",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-10-30",
-      "updates": 28,
-      "current_state": "0-4 entering Oct 28 game at Atlanta; result unverified.",
+      "last_updated": "2026-10-31",
+      "updates": 29,
+      "current_state": "Beat Atlanta 129-117 on Oct 28 for first win (1-4).",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -1794,6 +1913,11 @@
           "date": "2026-10-30",
           "summary": "Entered Wednesday at Atlanta 0-4; result unverified.",
           "change_type": "watch"
+        },
+        {
+          "date": "2026-10-31",
+          "summary": "First win; Giannis 24 pts, 18 reb; Adebayo passes Haslem on rebounds.",
+          "change_type": "resolved"
         }
       ]
     },
@@ -2521,9 +2645,9 @@
       "title": "2026 CRE capital markets under pressure",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-10-30",
-      "updates": 49,
-      "current_state": "Week ending Oct 23: S&P about -0.5%, Nasdaq down second week, Dow up; 10Y 5.00%; Brent $116.72; earnings flood this week (Alphabet, Microsoft, Amazon).",
+      "last_updated": "2026-10-31",
+      "updates": 50,
+      "current_state": "Nasdaq worst month since Mar 2025; S&P -1.8%, Nasdaq -2.9% on Oct 30 (Reuters-based).",
       "timeline": [
         {
           "date": "2026-07-24",
@@ -2774,6 +2898,11 @@
           "date": "2026-10-30",
           "summary": "Tech-led equity dip with the 10-year near 5% keeps pressure on valuations and cap rates.",
           "change_type": "watch"
+        },
+        {
+          "date": "2026-10-31",
+          "summary": "Friday tech sell-off; S&P 7,580.07, Nasdaq 25,437.00.",
+          "change_type": "worsened"
         }
       ]
     },
@@ -2981,9 +3110,9 @@
       "title": "Panthers' 2026-27 season takes shape",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-10-28",
-      "updates": 30,
-      "current_state": "Beat Chicago 3-2 after a loss to Pittsburgh (date of win unconfirmed).",
+      "last_updated": "2026-10-31",
+      "updates": 31,
+      "current_state": "Beat Winnipeg 5-2 on Oct 30; six wins in eight; Barkov, Marchand still out.",
       "timeline": [
         {
           "date": "2026-08-22",
@@ -3134,6 +3263,11 @@
           "date": "2026-10-28",
           "summary": "Beat Chicago 3-2 on a late Eller goal, snapping a two-game skid.",
           "change_type": "improved"
+        },
+        {
+          "date": "2026-10-31",
+          "summary": "Lundell hat trick; Jones record night.",
+          "change_type": "advanced"
         }
       ]
     },
@@ -3142,9 +3276,9 @@
       "title": "Virginia Key's second marina referendum",
       "topic": "miami",
       "status": "active",
-      "last_updated": "2026-10-30",
-      "updates": 21,
-      "current_state": "Nov 3 city referendum on a 45-year lease of about 27.62 acres; terms, legal status and opposition consolidated four days out.",
+      "last_updated": "2026-10-31",
+      "updates": 22,
+      "current_state": "Early voting ends Nov 1; Referendum 3 on Nov 3.",
       "timeline": [
         {
           "date": "2026-08-25",
@@ -3244,6 +3378,11 @@
         {
           "date": "2026-10-30",
           "summary": "Four days to the vote; no new filings found.",
+          "change_type": "unchanged"
+        },
+        {
+          "date": "2026-10-31",
+          "summary": "Final weekend of early voting.",
           "change_type": "unchanged"
         }
       ]
@@ -3561,7 +3700,7 @@
     }
   ],
   "meta": {
-    "content_freshness": "2026-10-30T09:30:00-04:00",
+    "content_freshness": "2026-10-31T09:30:00-04:00",
     "feedback_endpoint_mode": "github_contents",
     "minimum_client_schema_version": 1,
     "mode": "brain"
