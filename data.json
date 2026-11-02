@@ -1,369 +1,337 @@
 {
   "schema_version": 2,
   "edition": {
-    "id": "2026-11-01",
-    "date": "2026-11-01",
-    "type": "weekly",
-    "generated_at": "2026-11-01T09:30:00-05:00",
+    "id": "2026-11-02",
+    "date": "2026-11-02",
+    "type": "weekday",
+    "generated_at": "2026-11-02T09:30:00-05:00",
     "timezone": "America/New_York",
     "title": "Personal OS",
     "front_page_letter": {
       "greeting": "Good morning",
       "body_paragraphs": [
-        "Good morning. Sunday, November 1, and the clocks fell back an hour overnight, which is a small gift to spend on this.",
-        "The week in three developments. First, oil: Brent rose about 13.6% in October and settled near $117.64 on Friday, with a tanker reportedly mined in Hormuz and an unconfirmed report of a strike window on November 4. Second, rates: the Fed held on October 28 with a 10-2 vote leaning toward a hike, the 10-year sits near 4.9%, and the Nasdaq just had its worst month since March 2025. Third, at home: Miami beat North Carolina 38-35 to stay No. 1 at 8-0, and early voting on the Virginia Key lease ends tonight.",
-        "Looking forward, the calendar is crowded. Apple and Palantir report tomorrow, the midterms and Referendum 3 are Tuesday, and the October jobs report arrives Friday. The sources I could reach disagree on exact December hike odds, so I have given ranges and not pretended otherwise. Sports results from Friday and Saturday for the Heat and Panthers could not be verified this morning and are left out.",
-        "The week's quieter pattern: coverage was dominated by markets and Hormuz, while your Art of Living reading was thin, and no feedback arrived from the app, so no interest weights moved. The threads to carry into the week are Hormuz, the Fed path, Virginia Key and the Hurricanes.",
-        "What deserves attention is the difference between what is loud and what is yours to decide. Tuesday gives you one vote on public waterfront; the rest is weather. One reflection for the weekend: which of this week's urgent things would you still care about in a year?"
+        "Good morning. Monday, November 2, and the week is set up like a stage: tonight's Apple and Palantir earnings, Tuesday's midterms and Referendum 3, Friday's jobs report.",
+        "Three developments. Futures are up roughly half a percent for the S&P 500 and more for the Nasdaq-100 after October's tech rout, and Brent has slipped to about $112 on hopes for Iran talks. Neither is confirmation of anything; the Strait has not reopened, and the Fed still leans toward a hike. Second, Virginia Key: Miami voters tomorrow decide a 45-year lease on 27 acres of waterfront, a cousin of the proposal rejected in 2021, with city officials calling the deal a bad one. Third, the Dolphins led New England 19-3 at halftime and lost 24-19, so the rebuild stands at 1-6.",
+        "I could not verify Miami's weather this morning or Heat and Panthers results, so they are left out. Sources differ slightly on futures levels; treat them as approximate.",
+        "What deserves attention today is the gap between price and value in a loud week. Tonight, give the quiet material in the evening section its hour."
       ],
       "read_only_three": [
         {
           "target_type": "theme",
-          "target_id": "theme-hormuz-brent-october",
-          "label": "Oil and Hormuz"
+          "target_id": "theme-markets-monday",
+          "label": "Futures bounce, earnings tonight"
         },
         {
           "target_type": "theme",
-          "target_id": "theme-virginia-key-final-day",
-          "label": "Virginia Key vote"
+          "target_id": "theme-virginia-key-eve",
+          "label": "Virginia Key, the eve"
         },
         {
           "target_type": "theme",
-          "target_id": "theme-walden-sunday",
-          "label": "Walden, tonight"
+          "target_id": "theme-meditations-retreat",
+          "label": "Marcus on the interior retreat"
         }
       ]
     },
     "market_context": [
       {
-        "label": "S&P 500",
-        "value": "7,580.07",
-        "change": "-1.82%",
-        "observed": "Close, Friday, October 30, 2026",
-        "note": "Reuters-based figure carried from Friday; markets are closed on weekends, and sources vary slightly."
+        "label": "S&P 500 futures",
+        "value": "up about 0.5% early Monday",
+        "change": "+0.49%",
+        "observed": "Pre-market, Monday, November 2, 2026",
+        "note": "Futures, not a close; Friday's close was 7,580.07 (-1.82%)."
       },
       {
-        "label": "Nasdaq Composite",
-        "value": "25,437.00",
-        "change": "-2.86%",
-        "observed": "Close, Friday, October 30, 2026",
-        "note": "Worst month since March 2025; Friday figures vary by source."
+        "label": "Nasdaq-100 futures",
+        "value": "up about 0.8%-0.9% early Monday",
+        "change": "+0.82%",
+        "observed": "Pre-market, Monday, November 2, 2026",
+        "note": "Nasdaq 100 lost about 6.5% in October."
       },
       {
         "label": "10-Year Treasury yield",
         "value": "about 4.93%-4.94%",
-        "change": "down roughly 35 bp over October per one source",
+        "change": "n/a",
         "observed": "Friday, October 30, 2026",
-        "note": "Sources straddle the figure; approximate."
+        "note": "Monday value not verified; carried from Friday."
       },
       {
         "label": "FOMC",
         "value": "Held 3.75%-4.00% on October 28 (10-2 vote)",
-        "change": "December 9 hike odds about 75%-85% depending on source (LSEG: 76%)",
+        "change": "December 9 hike odds about 75%-85% depending on source",
         "observed": "Friday, October 30, 2026",
-        "note": "Next meeting is December 9; October jobs report is Friday, November 6."
+        "note": "Not refreshed today. Jobs report is Friday, November 6."
       },
       {
         "label": "Brent crude",
-        "value": "$117.64",
-        "change": "+2.4% on the day; about +13.6% for October",
-        "observed": "Settlement, Friday, October 30, 2026",
-        "note": "Expiring December contract; reported by Nation Thailand."
+        "value": "about $111.68",
+        "change": "down more than 1% early Monday (Friday settle $117.64)",
+        "observed": "Futures, Monday, November 2, 2026",
+        "note": "Early-session figure; sources vary."
       }
     ],
     "public_day_context": {
-      "date_label": "Sunday, November 1, 2026",
+      "date_label": "Monday, November 2, 2026",
       "weather": "Miami forecast not verified; check weather.gov/mfl.",
-      "public_event": "Daylight saving time ended at 2 a.m. Early voting in Miami ends today, 7 a.m. to 7 p.m.; Referendum 3 is Tuesday, November 3. Dolphins host the Patriots today."
+      "public_event": "Apple and Palantir report after the close. Miami's Referendum 3 and the U.S. midterms are Tuesday, November 3."
     },
     "what_changed": [
       {
-        "id": "delta-canes-unc",
-        "thread_id": "thread-hurricanes-fall-camp",
-        "change_type": "advanced",
-        "title": "Hurricanes survive North Carolina, 38-35",
-        "previous_state": "Miami was 7-0 after routing Pitt 52-23 on October 24.",
-        "current_state": "Miami won 38-35 at North Carolina on October 31 to reach 8-0, and now faces Notre Dame.",
-        "why_it_matters": "First win in Chapel Hill since 2017, and a close call before a top-five matchup.",
+        "id": "delta-dolphins-pats",
+        "thread_id": "thread-dolphins-hafley-rebuild",
+        "change_type": "worsened",
+        "title": "Dolphins fall to New England 24-19 after leading 19-3",
+        "previous_state": "Miami was 1-5 after beating the Jets 28-25.",
+        "current_state": "Miami is 1-6 after being outscored 21-0 in the second half.",
+        "why_it_matters": "Another winnable game slipped away.",
         "confidence": "high",
         "source": {
-          "publisher": "CBS Sports",
-          "url": "https://www.cbssports.com/college-football/news/no-1-miami-survives-north-carolina-upset-bid-to-stay-unbeaten/"
+          "publisher": "ESPN",
+          "url": "https://www.espn.com/nfl/recap?gameId=401873034"
         }
       },
       {
-        "id": "delta-brent-nov4",
+        "id": "delta-brent-diplomacy",
         "thread_id": "thread-iran-hormuz-crisis",
-        "change_type": "watch",
-        "title": "Brent settles at $117.64; a reported November 4 strike window appears",
-        "previous_state": "Brent was about $118 midday Friday after the reported limpet-mine tanker attack.",
-        "current_state": "December Brent settled at $117.64, up 13.6% for October, and Gulf officials reportedly relay a possible US strike window from November 4 alongside mediation talks.",
-        "why_it_matters": "Both outcomes move oil, and oil is what keeps the Fed's hike case alive.",
+        "change_type": "improved",
+        "title": "Brent eases to about $111.68 on diplomacy hopes",
+        "previous_state": "Brent settled at $117.64 on Friday, October 30.",
+        "current_state": "Brent futures were down more than 1% early Monday, about $111.68, on hopes for Iran talks; nothing confirms reopening.",
+        "why_it_matters": "Lower oil would ease pressure on the Fed's December path.",
         "confidence": "medium",
         "source": {
-          "publisher": "Nation Thailand",
-          "url": "https://nationthailand.com/news/world/40072956"
+          "publisher": "Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-edge-high-after-bruising-oct-earnings-elections-in-focus-4989789"
         }
       },
       {
-        "id": "delta-jobs-calendar",
-        "thread_id": "thread-fed-rate-path",
-        "change_type": "watch",
-        "title": "The jobs report becomes the next Fed test",
-        "previous_state": "The Fed held on October 28 with hike odds around 73%-76%.",
-        "current_state": "Previews expect roughly +55,000 to +63,000 payrolls on Friday, November 6, after September's weak 29,000, with December hike odds quoted at 75%-85%.",
-        "why_it_matters": "Weak jobs with firm wages would split the Fed's two mandates and test the hike case.",
+        "id": "delta-futures-rebound",
+        "thread_id": "thread-cre-capital-markets-2026",
+        "change_type": "improved",
+        "title": "Stock futures rebound after October selloff",
+        "previous_state": "Nasdaq had its worst month since March 2025; S&P fell 1.82% on Friday.",
+        "current_state": "S&P 500 futures were up about 0.5% and Nasdaq-100 futures about 0.8% early Monday; Apple and Palantir report tonight.",
+        "why_it_matters": "A bounce is not a verdict; tonight's earnings and Friday's jobs data are.",
         "confidence": "medium",
         "source": {
-          "publisher": "Tech Insider",
-          "url": "https://tech-insider.org/wall-st-week-ahead-midterms-jobs-fed-hike-odds-ai-market-2026/"
+          "publisher": "Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-edge-high-after-bruising-oct-earnings-elections-in-focus-4989789"
         }
       }
     ],
     "themes": [
       {
-        "id": "theme-week-in-review",
+        "id": "theme-markets-monday",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "The week in one frame: oil up 13.6% in October, tech down hard, Fed leaning toward a hike",
+        "title": "Futures bounce after the worst month for tech since March 2025; Apple and Palantir report tonight",
         "importance": 0.95,
-        "thesis": "October ended with oil, rates and an AI-earnings reset all pushing the same way, and the next seven days contain the midterms, a jobs report and a possible Iran deadline.",
-        "synthesis": "Brent rose about 13.6% in October on the Hormuz closure, the 10-year spent the week hovering around 5%, and Friday's sell-off made it the Nasdaq's worst month since March 2025. The Fed held at 3.75%-4.00% on October 28 with a 10-2 vote leaning toward a hike. Sources disagree on exact December pricing (roughly 75% to 85%), so treat any single number as approximate.",
-        "new_today": "A week-ahead calendar now exists: Apple and Palantir report Monday, midterms are Tuesday, and the October jobs report lands Friday, November 6.",
-        "why_it_matters": "For financing conversations, the question is no longer whether rates fall but whether the next move is up; a weak payroll print plus sticky wages would make this the hardest week of the quarter to underwrite.",
+        "thesis": "Markets open the week with a relief bid, but the real tests are tonight's earnings, Tuesday's midterms and Friday's jobs report.",
+        "synthesis": "S&P 500 futures were up roughly 0.5% and Nasdaq-100 futures roughly 0.8% to 0.9% early Monday, after the Nasdaq 100 lost about 6.5% in October. Apple, in its first call under CEO John Ternus, and Palantir report after the close; analysts expect Palantir EPS near $0.41 on about $2.18B revenue. Figures differ slightly by source and futures are not closes.",
+        "new_today": "A relief bounce in futures, with oil easing on hopes for Iran diplomacy.",
+        "why_it_matters": "A rebound in futures changes little for underwriting: the 10-year near 4.9% and a Fed leaning toward a hike matter more than one session. Friday's payrolls are the print that can move December odds.",
         "thread_id": "thread-cre-capital-markets-2026",
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Yahoo Finance",
-            "headline": "Stock market today: Nasdaq, Dow, S&P 500 clobbered as October closes with brutal sell-off",
-            "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-amazon-intel-ai-sell-off-191429143.html"
+            "publisher": "Investing.com",
+            "headline": "U.S. stock futures rise after bruising Oct; earnings, elections in focus",
+            "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-edge-high-after-bruising-oct-earnings-elections-in-focus-4989789"
           },
           {
             "role": "analysis",
-            "publisher": "Tech Insider",
-            "headline": "5 Market Movers: Midterms, Jobs, AMD, Qualcomm",
-            "url": "https://tech-insider.org/wall-st-week-ahead-midterms-jobs-fed-hike-odds-ai-market-2026/"
+            "publisher": "Yahoo Finance",
+            "headline": "S&P 500, Nasdaq Futures Rise Premarket After Wall Street's Worst Week In Months",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-futures-rise-101832709.html"
           }
         ]
       },
       {
-        "id": "theme-hormuz-brent-october",
+        "id": "theme-hormuz-diplomacy-dip",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Brent settles near $117.64 with a reported November 4 strike threat and talks in the background",
-        "importance": 0.9,
-        "thesis": "Oil ended October with a 13.6% gain while diplomacy and escalation threats run on parallel tracks.",
-        "synthesis": "The expiring December Brent contract settled at $117.64 on October 30 after touching $118, and Iran's Revolutionary Guard said a supertanker hit a naval mine and caught fire in the strait. Gulf officials, per a secondary report, say the Trump camp has warned of brief but intensive strikes as early as November 4, while Qatari and Pakistani mediators are reportedly working on preliminary measures. The deal and the strike threat are both unconfirmed.",
-        "new_today": "Brent's October settlement and the reported November 4 strike window.",
-        "why_it_matters": "Oil is the transmission line from Hormuz to the Fed: it feeds inflation, keeps the hike case alive and widens the cost of capital for everything Alex underwrites.",
+        "title": "Oil slips on diplomacy hopes, but Brent is still near $112",
+        "importance": 0.85,
+        "thesis": "A diplomacy-driven pullback in crude is a hope, not a change in the Strait.",
+        "synthesis": "Brent futures fell more than 1% to about $111.68 early Monday and WTI to about $102.41 on reports of openings for Iran talks, down from Friday's $117.64 settlement. Nothing reported confirms transits resuming, and the unconfirmed November 4 strike-window report from last week remains unresolved.",
+        "new_today": "Brent is roughly $6 below Friday's settlement on talk hopes.",
+        "why_it_matters": "Oil is the transmission belt to inflation and therefore to the Fed's December decision; a durable drop would ease hike odds, a failed round would not.",
         "thread_id": "thread-iran-hormuz-crisis",
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Nation Thailand",
-            "headline": "Brent ends October up 13.6% as Iran war risks unsettle markets",
-            "url": "https://nationthailand.com/news/world/40072956"
+            "publisher": "Investing.com",
+            "headline": "U.S. stock futures rise after bruising Oct; earnings, elections in focus",
+            "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-edge-high-after-bruising-oct-earnings-elections-in-focus-4989789"
           },
           {
             "role": "background",
-            "publisher": "Fox News",
-            "headline": "Trump says Iran wants to talk, predicts conflict will end 'very soon' (live updates, Oct 30)",
-            "url": "https://www.foxnews.com/live-news/us-iran-war-oil-prices-strait-hormuz-10-30-26"
-          },
-          {
-            "role": "analysis",
-            "publisher": "EA WorldView",
-            "headline": "US War on Iran, Day 248: Trump camp threatens attacks on November 4",
-            "url": "https://eaworldview.com/2026/11/us-war-on-iran-trump-threatens-strikes-november-4"
+            "publisher": "Yahoo Finance",
+            "headline": "Brent crude jumps 4%, as US strikes in Iran set back hopes for Hormuz re-opening",
+            "url": "https://finance.yahoo.com/news/brent-crude-jumps-4-us-193926790.html"
           }
         ]
       },
       {
-        "id": "theme-virginia-key-final-day",
+        "id": "theme-virginia-key-eve",
         "affinity": "morning",
         "topic": "miami",
         "topic_label": "Miami Life & Culture",
-        "title": "Virginia Key: the last day of early voting before Tuesday's Referendum 3",
-        "importance": 0.85,
-        "thesis": "A 45-year lease on 27 acres of public waterfront comes down to a single yes or no on Tuesday.",
-        "synthesis": "Early voting for Miami's November 3 ballot runs through today, 7 a.m. to 7 p.m. The question is whether the city leases the Rickenbacker and Marine Stadium marina land to Virginia Key, LLC for an initial 45 years with two 15-year options, for an approximately $80 million private redevelopment. A judge cleared the vote over a challenge from the current operator; voters rejected a similar proposal in 2021.",
-        "new_today": "Today is the final early-voting day.",
-        "why_it_matters": "Waterfront entitlement precedents shape how Miami treats public land for decades, and the same week also carries the countywide Seaquarium marina lawsuit.",
+        "title": "Virginia Key, the eve: Referendum 3 asks Miami for a 45-year lease on 27 waterfront acres",
+        "importance": 0.88,
+        "thesis": "Tomorrow's vote is a second attempt at an idea voters rejected in 2021, and city officials have called the deal a bad one.",
+        "synthesis": "Referendum 3 covers about 27 acres on Virginia Key including Rickenbacker Marina and the Marine Stadium Marina, with a 45-year lease and roughly $80 million of marina work. A similar proposal lost in 2021 with 52% against. WLRN reports Commissioner Christine King will vote no and examines whether the measure touches the historic Black beach.",
+        "new_today": "Election day is tomorrow, Tuesday, November 3; I could not verify final early-vote totals.",
+        "why_it_matters": "This is the waterfront you care about, and the outcome shapes what the Marine Stadium area can become.",
         "thread_id": "thread-virginia-key-marina-referendum",
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
             "publisher": "WLRN",
-            "headline": "Miami's Virginia Key referendum, immigration enforcement at polls and Flavio Bolsonaro in Miami",
-            "url": "https://www.wlrn.org/podcast/the-south-florida-roundup/2026-10-30/miamis-virginia-key-referendum-immigration-enforcement-at-polls-and-flavio-bolsonaro-in-miami"
+            "headline": "What to know about Miami's Virginia Key referendum and whether it affects the historic Black beach",
+            "url": "https://www.wlrn.org/government-politics/2026-10-30/what-to-know-about-miamis-virginia-key-referendum-and-whether-it-affects-the-historic-black-beach"
           },
           {
             "role": "analysis",
-            "publisher": "Axios Miami",
-            "headline": "2026 Miami-Dade election voting guide",
-            "url": "https://www.axios.com/local/miami/2026/10/28/miami-dade-election-voter-guide"
+            "publisher": "WLRN",
+            "headline": "Miami officials think the Virginia Key marina referendum is a 'bad deal'. So why is it on the ballot?",
+            "url": "https://www.wlrn.org/light/government-politics/2026-10-08/miami-virginia-key-marina-referendum-ballot"
           },
           {
             "role": "background",
-            "publisher": "City of Miami",
-            "headline": "2026 City of Miami Bond Referendum and Special Election, Nov. 3, 2026",
-            "url": "https://www.miami.gov/My-Government/Elections/2026-Special-Election-November-3-2026"
+            "publisher": "Axios Miami",
+            "headline": "Virginia Key marina redevelopment heads to Miami voters",
+            "url": "https://www.axios.com/local/miami/2026/08/20/virginia-key-marina-redevelopment-miami-referendum"
           }
         ]
       },
       {
-        "id": "theme-canes-escape-unc",
+        "id": "theme-dolphins-blow-lead",
         "affinity": "morning",
         "topic": "sports",
         "topic_label": "Miami Sports",
-        "title": "No. 1 Miami escapes North Carolina 38-35 to go 8-0; Dolphins host New England today",
-        "importance": 0.8,
-        "thesis": "The Hurricanes survived a real upset bid, and the Dolphins get a rainy home test at 1-5.",
-        "synthesis": "Miami's win in Chapel Hill on October 31 was its first there since 2017. Darian Mensah threw for 274 yards and three touchdowns, Mark Fletcher Jr. scored the go-ahead score with 7:49 left, and Miami recovered the third onside kick after penalties wiped out two North Carolina recoveries. Next is a top-five game at Notre Dame. The Dolphins (1-5, fresh off their first win under Hafley) host the 4-3 Patriots today; previews lean New England. I could not verify Heat or Panthers results from Friday and Saturday.",
-        "new_today": "Miami moves to 8-0 (6-0 ACC) and sets up Notre Dame.",
-        "why_it_matters": "A No. 1 team that wins ugly is a more interesting question than one that wins easy, and the Notre Dame game is now the season's hinge.",
-        "thread_id": "thread-hurricanes-fall-camp",
+        "title": "Dolphins lead 19-3 at halftime, then lose 24-19 to New England",
+        "importance": 0.7,
+        "thesis": "Miami's season now sits at 1-6 after a second-half collapse in which New England outscored them 21-0.",
+        "synthesis": "The Patriots, led by Drake Maye's two touchdown passes and a rushing score, outscored Miami 21-0 after halftime to win 24-19 and move to 5-3. The Dolphins' only second-half points came late in the fourth quarter.",
+        "new_today": "A winnable game became a loss; the rebuild's record is 1-6.",
+        "why_it_matters": "For the Hafley rebuild, a halftime lead squandered is a sharper data point than another lopsided loss.",
+        "thread_id": "thread-dolphins-hafley-rebuild",
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "CBS Sports",
-            "headline": "No. 1 Miami survives North Carolina upset bid to stay unbeaten",
-            "url": "https://www.cbssports.com/college-football/news/no-1-miami-survives-north-carolina-upset-bid-to-stay-unbeaten/"
-          },
-          {
-            "role": "local_perspective",
-            "publisher": "The Miami Hurricane",
-            "headline": "Hurricanes squeeze out 38-35 victory over UNC",
-            "url": "https://themiamihurricane.com/2026/11/01/hurricanes-squeeze-out-38-35-victory-over-unc/"
+            "publisher": "ESPN",
+            "headline": "Patriots 24-19 Dolphins (Nov 1, 2026) Game Recap",
+            "url": "https://www.espn.com/nfl/recap?gameId=401873034"
           },
           {
             "role": "analysis",
-            "publisher": "Yahoo Sports",
-            "headline": "Patriots-Dolphins Week 8 preview: Keys to victory, prediction and more",
-            "url": "https://sports.yahoo.com/articles/patriots-dolphins-week-8-preview-135335932.html"
+            "publisher": "The Phinsider",
+            "headline": "Patriots vs Dolphins final score, immediate reactions, winners and losers",
+            "url": "https://www.thephinsider.com/miami-dolphins-scores-results/124385/patriots-vs-dolphins-final-score-immediate-reactions-winners-and-losers-as-miami-falls-to-division-rivals"
           }
         ]
       },
       {
-        "id": "theme-walden-sunday",
+        "id": "theme-meditations-retreat",
         "affinity": "evening",
         "topic": "living",
         "topic_label": "Art of Living",
-        "title": "Walden, the other half of Thoreau: what a quiet year is for",
+        "title": "Marcus Aurelius on the retreat you carry with you",
         "importance": 0.75,
-        "thesis": "After a week of loud numbers, Thoreau's case for deliberate living is a fair counterweight.",
-        "synthesis": "Yesterday's rabbit hole was Thoreau on the citizen's duty. Walden is the private companion: a record of two years at a pond, built around the idea that most busyness is a habit, not a requirement. The chapter 'Where I Lived, and What I Lived For' is the compact version and reads well in one sitting.",
-        "new_today": "Weekend rabbit hole, free on Project Gutenberg.",
-        "why_it_matters": "It is a useful question to ask on the eve of an election week and a rate-hike scare: which of the things competing for attention are deliberate choices?",
+        "thesis": "On the night before an election and a week of earnings, the Stoic answer to noise is an interior room, not an escape.",
+        "synthesis": "In Meditations 4.3 Marcus notes that people seek retreats in the country, by the sea, in the mountains, yet says it is in your power at any hour to retire into yourself. The passage is short and rewards a slow reread.",
+        "new_today": "Chosen for the eve of a loud week.",
+        "why_it_matters": "Philosophy of living: a practice that doesn't need a vacation to work.",
         "thread_id": null,
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
             "publisher": "Project Gutenberg",
-            "headline": "Walden, and On The Duty Of Civil Disobedience (Thoreau)",
-            "url": "https://www.gutenberg.org/ebooks/205"
+            "headline": "Meditations, by Marcus Aurelius (George Long translation)",
+            "url": "https://www.gutenberg.org/ebooks/2680"
           }
         ]
       },
       {
-        "id": "theme-making-things-by-hand",
+        "id": "theme-montaigne-learn-to-die",
         "affinity": "evening",
         "topic": "living",
         "topic_label": "Art of Living",
-        "title": "From the Reading List: why we dream of making things by hand",
+        "title": "Montaigne: that to philosophize is to learn to die",
         "importance": 0.7,
-        "thesis": "A saved essay, flagged weekend since September 3, is still waiting for its slot.",
-        "synthesis": "Aeon's essay argues that the pull toward making things by hand is less nostalgia than a response to a life lived mostly through screens. It has now been on the list for two months and has been recommended three times this fortnight, so today is a good Sunday to either read it or release it.",
-        "new_today": "Reading List carry-over.",
-        "why_it_matters": "Craft and attention are a standing interest; this essay connects the two directly.",
+        "thesis": "Montaigne's essay is an argument that keeping mortality in view makes ordinary days steadier, not darker.",
+        "synthesis": "Essay I.20 draws on Cicero and Seneca to argue we should make death familiar rather than strange. Read slowly in the evening it is more companionable than grim.",
+        "new_today": "Chosen as a quiet counterweight to a day of headlines.",
+        "why_it_matters": "A useful ruler for what is urgent versus what is merely loud.",
         "thread_id": null,
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Aeon",
-            "headline": "The Radical Reasons Why You Dream of Making Things by Hand",
-            "url": "https://aeon.co/essays/the-radical-reasons-why-you-dream-of-making-things-by-hand"
+            "publisher": "Project Gutenberg",
+            "headline": "The Essays of Montaigne (Cotton translation)",
+            "url": "https://www.gutenberg.org/ebooks/3600"
           }
         ]
       }
     ],
     "rabbit_hole": {
-      "id": "rh-2026-11-01",
-      "title": "Walden (start with chapter 2, 'Where I Lived, and What I Lived For')",
-      "creator": "Henry David Thoreau",
-      "format": "book / essay",
-      "minutes": 45,
-      "why": "Yesterday's Thoreau was about the citizen; this is about the person. On a Sunday before a loud week, it is a long, patient argument for choosing what gets your attention.",
-      "url": "https://www.gutenberg.org/ebooks/205",
+      "id": "rh-2026-11-02",
+      "title": "Of Experience (Essays, Book III, chapter 13)",
+      "creator": "Michel de Montaigne",
+      "format": "essay",
+      "minutes": 60,
+      "why": "Montaigne's last great essay is a long, funny, unhurried defense of ordinary life lived well. The night before a loud election is a good time to read someone who distrusts certainty.",
+      "url": "https://www.gutenberg.org/ebooks/3600",
       "related_interest": "living"
     },
     "beautiful_thing": {
-      "id": "bt-2026-11-01",
-      "title": "Bacardi Building tile mural, Miami",
-      "creator": "Enrique Gutiérrez (architect); Francisco Brennand (mural)",
+      "id": "bt-2026-11-02",
+      "title": "Miami Marine Stadium, Virginia Key",
+      "creator": "Hilario Candela (architect)",
       "era": "1963",
-      "body": "The Bacardi tower on Biscayne Boulevard is wrapped in glazed blue-and-white tile whose pattern was made by the Brazilian artist Francisco Brennand. It is a Cuban-founded company's Miami headquarters, designed by Cuban-born architect Enrique Gutiérrez, and one of the few modernist buildings in the city that treats surface as the point. Notice how the tile turns a flat wall into something that moves with the light.",
-      "url": "https://en.wikipedia.org/wiki/Bacardi_Building_(Miami)",
+      "body": "Designed by the Cuban-born architect Hilario Candela, the stadium opened in 1963 on Virginia Key as a venue for powerboat racing and concerts. Its concrete roof is a folded plate cantilevered over the seating so that no columns block the view of the water. It was closed after Hurricane Andrew in 1992 and has since been covered in graffiti art. Look at the roof's edge against the sky.",
+      "url": "https://en.wikipedia.org/wiki/Miami_Marine_Stadium",
       "image": null,
-      "alt": "Blue and white glazed tile surface of the Bacardi Building in Miami"
+      "alt": "Concrete folded-plate roof of the Miami Marine Stadium over rows of seating facing the water."
     },
-    "noticing_prompt": "Today, notice one thing you were about to react to and ask whether it is yours to decide.",
+    "noticing_prompt": "Notice, once today, the difference between a number that moved and a thing that changed.",
     "daily_puzzle": {
-      "id": "dp-2026-11-01",
-      "type": "math",
-      "prompt": "A frog is at the bottom of a 10-foot well. Each day it climbs up 3 feet, and each night it slips back 2 feet. On which day does it first reach the top?",
-      "hint": "Count where it stands each morning, and ask when a single day's climb gets it over the edge.",
-      "solution": "Day 8.",
-      "explanation": "After 7 full days and nights it sits at 7 feet. On day 8 it climbs 3 feet to reach 10 and is out before the night's slip."
+      "id": "dp-2026-11-02",
+      "type": "wordplay",
+      "prompt": "I am a five-letter word. Add two letters to the end of me and I become shorter. What word am I?",
+      "hint": "Think of what the two letters spell on their own, and what you are comparing.",
+      "solution": "Short. Adding 'er' gives 'shorter'.",
+      "explanation": "The word becomes literally 'shorter' even though it gained letters."
     },
     "evening_unwind": {
-      "id": "eu-2026-11-01",
+      "id": "eu-2026-11-02",
       "evening_quote": {
-        "text": "Hold every hour in your grasp. Lay hold of to-day's task, and you will not need to depend so much upon to-morrow's.",
-        "attribution": "Seneca",
-        "source": "Letters to Lucilius, 1 (Richard Gummere translation)"
+        "text": "Men are disturbed not by things, but by the views which they take of them.",
+        "attribution": "Epictetus",
+        "source": "Enchiridion, 5"
       },
-      "evening_prompt": "Which part of today did you actually spend, and which part did you spend waiting for Tuesday?"
+      "evening_prompt": "What did you check or worry about today that tomorrow's results will make irrelevant either way?"
     },
     "reading_queue": [
       {
         "title": "The Radical Reasons Why You Dream of Making Things by Hand",
         "url": "https://aeon.co/essays/the-radical-reasons-why-you-dream-of-making-things-by-hand",
-        "verdict": "read_soon",
-        "reason": ""
+        "verdict": "still_valuable",
+        "reason": "Suits a quiet evening; nothing time-sensitive."
       }
     ],
     "quote": {
-      "text": "Hold every hour in your grasp. Lay hold of to-day's task, and you will not need to depend so much upon to-morrow's.",
-      "attribution": "Seneca, Letters to Lucilius 1"
-    },
-    "weekly_review": {
-      "what_mattered": "Oil, rates and AI earnings moved together; the Fed leaned toward a hike; Miami stayed No. 1.",
-      "three_developments": [
-        "Brent up about 13.6% in October on the Hormuz closure",
-        "Fed holds 10-2 with a hike leaning; Nasdaq's worst month since March 2025",
-        "No. 1 Miami survives North Carolina, 38-35"
-      ],
-      "starred": "No starred items this week; no feedback arrived from the app.",
-      "momentum": "Markets and Hormuz coverage gained share this week. Art of Living reading was thinner. No weights changed.",
-      "carry_forward": [
-        "thread-iran-hormuz-crisis",
-        "thread-fed-rate-path",
-        "thread-virginia-key-marina-referendum",
-        "thread-hurricanes-fall-camp"
-      ],
-      "reading_list_triage": "One saved item (Aeon, making things by hand): read it today or let it go.",
-      "reflection_question": "Which of this week's urgent things would you still care about in a year?",
-      "learning_summary": "Nothing was re-weighted this week because no feedback came in; the edition leaned on what you have been following."
+      "text": "Men are disturbed not by things, but by the views which they take of them.",
+      "attribution": "Epictetus, Enchiridion 5"
     }
   },
   "threads": [
@@ -372,9 +340,9 @@
       "title": "US-Iran conflict and the Strait of Hormuz",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-11-01",
-      "updates": 103,
-      "current_state": "Strait declared closed Oct 26; tanker mine incident Oct 30; Brent settled $117.64; possible Nov 4 US strike window reported, mediation ongoing.",
+      "last_updated": "2026-11-02",
+      "updates": 104,
+      "current_state": "Strait declared closed Oct 26; Brent futures ~ $111.68 on Nov 2 after $117.64 Friday settle; talks hoped for, unconfirmed Nov 4 strike window unresolved.",
       "timeline": [
         {
           "date": "2026-07-21",
@@ -890,6 +858,11 @@
           "date": "2026-11-01",
           "summary": "Brent settled at $117.64 on Oct 30 (+13.6% for October); an unconfirmed report relays a possible US strike window from Nov 4 alongside Qatari/Pakistani mediation.",
           "change_type": "watch"
+        },
+        {
+          "date": "2026-11-02",
+          "summary": "Brent eases to about $111.68 early Monday on diplomacy hopes; Strait status unchanged.",
+          "change_type": "improved"
         }
       ]
     },
@@ -1901,9 +1874,9 @@
       "title": "Dolphins rebuild under Hafley",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-11-01",
-      "updates": 77,
-      "current_state": "1-5 after first win under Hafley (28-25 at Jets); hosts Patriots in Week 8.",
+      "last_updated": "2026-11-02",
+      "updates": 78,
+      "current_state": "1-6 after 24-19 home loss to New England on Nov 1.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -2289,6 +2262,11 @@
           "date": "2026-11-01",
           "summary": "Host 4-3 Patriots Nov 1 at 1-5; previews favor New England.",
           "change_type": "watch"
+        },
+        {
+          "date": "2026-11-02",
+          "summary": "Lost 24-19 to New England after leading 19-3 at half.",
+          "change_type": "worsened"
         }
       ]
     },
@@ -2630,9 +2608,9 @@
       "title": "2026 CRE capital markets under pressure",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-11-01",
-      "updates": 51,
-      "current_state": "Nasdaq worst month since Mar 2025; S&P -1.8%, Nasdaq -2.9% on Oct 30 (Reuters-based).",
+      "last_updated": "2026-11-02",
+      "updates": 52,
+      "current_state": "Fed held Oct 28 leaning to hike; futures up Nov 2; jobs report Nov 6.",
       "timeline": [
         {
           "date": "2026-07-24",
@@ -2893,6 +2871,11 @@
           "date": "2026-11-01",
           "summary": "Week ahead: Apple/Palantir Nov 2, midterms Nov 3, jobs Nov 6; Nasdaq coming off its worst month since March 2025.",
           "change_type": "watch"
+        },
+        {
+          "date": "2026-11-02",
+          "summary": "Futures rebound ~0.5% (S&P) after October rout; Apple and Palantir report after the close.",
+          "change_type": "improved"
         }
       ]
     },
@@ -3266,9 +3249,9 @@
       "title": "Virginia Key's second marina referendum",
       "topic": "miami",
       "status": "active",
-      "last_updated": "2026-11-01",
-      "updates": 23,
-      "current_state": "Early voting ends Nov 1; Referendum 3 on Nov 3.",
+      "last_updated": "2026-11-02",
+      "updates": 24,
+      "current_state": "Vote Tuesday, Nov 3; officials call deal a 'bad deal'; 2021 version lost with 52% against.",
       "timeline": [
         {
           "date": "2026-08-25",
@@ -3379,6 +3362,11 @@
           "date": "2026-11-01",
           "summary": "Final day of early voting Nov 1; Referendum 3 on Nov 3.",
           "change_type": "watch"
+        },
+        {
+          "date": "2026-11-02",
+          "summary": "Eve of the vote: Referendum 3 on a 45-year, 27-acre lease is tomorrow.",
+          "change_type": "advanced"
         }
       ]
     },
@@ -3695,7 +3683,7 @@
     }
   ],
   "meta": {
-    "content_freshness": "2026-11-01T09:30:00-05:00",
+    "content_freshness": "2026-11-02T09:30:00-05:00",
     "feedback_endpoint_mode": "github_contents",
     "minimum_client_schema_version": 1,
     "mode": "brain"
