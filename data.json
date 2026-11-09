@@ -1,37 +1,37 @@
 {
   "schema_version": 2,
   "edition": {
-    "id": "2026-11-08",
-    "date": "2026-11-08",
-    "type": "weekly",
-    "generated_at": "2026-11-08T09:30:00-05:00",
+    "id": "2026-11-09",
+    "date": "2026-11-09",
+    "type": "weekday",
+    "generated_at": "2026-11-09T09:30:00-05:00",
     "timezone": "America/New_York",
     "title": "Personal OS",
     "front_page_letter": {
       "greeting": "Good morning",
       "body_paragraphs": [
-        "Good morning. Sunday, November 8.",
-        "The week turned on one number. October payrolls came in at 165,000 against roughly 65,000 expected, and the question for the Fed went from whether to cut to whether to hike. Futures now put a December 9 increase near 80%, and traders see the last one arriving in April rather than June. Tuesday's CPI report is the next honest test.",
-        "Against that, oil did something worth noticing. Brent fell about 15% on the week, below $100 for the first time since early October, on hopes of a US-Iran settlement that nobody has signed. Attacks in the Strait continue. This market has priced in peace before and been wrong, so I would hold the relief loosely: cheaper oil eases the inflation worry only as long as the diplomacy lasts.",
-        "On the field, Notre Dame beat No. 1 Miami 31-24 on Saturday night. The Canes trailed 17-3 at the half, got back in it with two scores in three minutes, and ran out of time. Malachi Toney, the open question on Friday, did not play. One loss costs the ranking, not the season, but it takes away the margin. The Dolphins, 1-6, host a Lions team missing five starters this afternoon.",
-        "For the week as a whole: the selloff, the jobs report and the rate odds are one story told three ways, which is that financing stays expensive longer than the market hoped. What deserves attention is Tuesday, not today.",
-        "Tonight there is a saved essay on making things by hand, waiting since September, and Marcus Aurelius on looking inward."
+        "Good morning. Monday, November 9.",
+        "The week is organized around one report. October CPI arrives Tuesday, and it lands on a market that has already been shaken: one outlet has the Nasdaq nearly 12% below its recent high after the tech selloff, and futures put a December 8-9 Fed hike at roughly 73% to 80%, depending on who is counting. One forecaster expects core inflation near 0.2% for the month. Softer would help, but it would probably not undo the hike case on its own. Friday brings PPI, and CoreWeave, Cisco and Applied Materials report in between.",
+        "Oil is helping at the margin. Futures are firmer this morning on the notion that cheaper crude eases the inflation worry. I would keep that loose: the relief rests on talks with Iran that have not produced a signed deal.",
+        "On the field, the Dolphins lost to the Lions 19-9 on Sunday and are 1-7. Malik Willis threw for 128 yards and an interception, and the penalties piled up. The defense had a few good moments, and rookie Caleb Douglas caught six passes for 70 yards, which is about the extent of the encouragement.",
+        "What deserves attention is Tuesday morning. Everything else this week is commentary on it.",
+        "Tonight, there is an essay on the old suspicion that we are always distracted, which turns out to reach back to Seneca."
       ],
       "read_only_three": [
         {
           "target_type": "theme",
-          "target_id": "theme-cpi-test-for-december-hike",
-          "label": "CPI and the December hike"
+          "target_id": "theme-cpi-week-nasdaq-correction",
+          "label": "CPI week and the Nasdaq"
         },
         {
           "target_type": "theme",
-          "target_id": "theme-canes-fall-at-notre-dame",
-          "label": "Canes fall at Notre Dame"
+          "target_id": "theme-dolphins-lose-to-lions",
+          "label": "Dolphins fall to 1-7"
         },
         {
-          "target_type": "theme",
-          "target_id": "theme-oil-prices-in-peace",
-          "label": "Oil prices in a peace"
+          "target_type": "rabbit_hole",
+          "target_id": "rh-2026-11-09",
+          "label": "Always distracted?"
         }
       ]
     },
@@ -41,332 +41,263 @@
         "value": "7,376.86",
         "change": "+0.3%",
         "observed": "Close, Friday, November 6, 2026",
-        "note": "Last close; markets are shut until Monday. Down about 2.7% on the week."
+        "note": "Last verified close; Monday's session had not closed when this was written. Down about 2.7% on the week."
       },
       {
         "label": "Nasdaq Composite",
         "value": "24,579.42",
         "change": "+1.1%",
         "observed": "Close, Friday, November 6, 2026",
-        "note": "Down about 3.4% on the week; the Nasdaq 100 was down about 4.5% in afternoon trading."
-      },
-      {
-        "label": "Brent crude",
-        "value": "about $93 to $99",
-        "change": "about -15% on the week",
-        "observed": "Week ended Friday, November 6, 2026",
-        "note": "Sources disagree on the exact level; treat as approximate."
+        "note": "One outlet describes the index as nearly 12% below its recent high, a correction. Tech earnings and CPI are the week's tests."
       },
       {
         "label": "FOMC",
         "value": "Held 3.75%-4.00% on October 28",
-        "change": "Dec 8-9 hike odds about 78%-80%",
-        "observed": "Friday, November 6, 2026",
-        "note": "October CPI is due Tuesday, November 10. The 10-year yield close could not be verified this morning, so it is omitted."
+        "change": "Dec 8-9 hike odds about 73% (CME) to 80% (LSEG)",
+        "observed": "Weekend of November 7-8, 2026",
+        "note": "Sources differ by method. October CPI is due Tuesday, November 10. The 10-year yield and Brent close could not be verified this morning, so they are omitted."
       }
     ],
     "public_day_context": {
-      "date_label": "Sunday, November 8, 2026",
-      "weather": "Miami forecast not verified this morning; check NWS Miami before heading out.",
-      "public_event": "Dolphins host the Lions on Sunday, November 8; October CPI is Tuesday, November 10."
+      "date_label": "Monday, November 9, 2026",
+      "weather": "Warm and humid, with a small chance of showers; forecasts from November 4-6 give highs of 82-84F. Check NWS Miami for today's update.",
+      "public_event": "October CPI is Tuesday, November 10; PPI Friday, November 13."
     },
     "what_changed": [
       {
-        "id": "delta-canes-lose",
-        "thread_id": "thread-hurricanes-fall-camp",
-        "change_type": "worsened",
-        "title": "Miami loses at Notre Dame, 31-24",
-        "previous_state": "No. 1 Miami was set to play at No. 4 Notre Dame with Malachi Toney's ankle the open question.",
-        "current_state": "Notre Dame won 31-24 after leading 17-3 at halftime, and Toney did not play.",
-        "why_it_matters": "The undefeated, No. 1 position is gone and the playoff margin is thinner.",
-        "confidence": "medium",
-        "source": {
-          "publisher": "AP via KSAT",
-          "url": "https://www.ksat.com/sports/2026/11/08/no-4-notre-dame-takes-big-lead-then-holds-off-no-1-miami-31-24-in-a-classic/"
-        }
-      },
-      {
-        "id": "delta-hike-odds-80",
-        "thread_id": "thread-fed-rate-path",
-        "change_type": "advanced",
-        "title": "Hike odds near 80%, with the next increase pulled forward",
-        "previous_state": "One report put December hike odds near 78% after the jobs report.",
-        "current_state": "Reuters-sourced reporting puts futures near 80% and now sees the next and final hike in April instead of June; CPI is due Tuesday, November 10.",
-        "why_it_matters": "A hike is the base case; Tuesday's inflation print is the main thing that could change it.",
-        "confidence": "medium",
-        "source": {
-          "publisher": "Reuters via Yahoo Finance",
-          "url": "https://finance.yahoo.com/economy/policy/articles/traders-raise-bets-fed-rate-134402668.html"
-        }
-      },
-      {
-        "id": "delta-brent-under-100",
-        "thread_id": "thread-iran-hormuz-crisis",
-        "change_type": "improved",
-        "title": "Brent falls below $100 on deal hopes",
-        "previous_state": "Crude had fallen two sessions on talk of negotiations while Tehran called the US response unconvincing.",
-        "current_state": "Brent dropped below $100 on November 4 for the first time since early October and fell about 15% on the week, though no deal is signed.",
-        "why_it_matters": "Lower oil eases inflation pressure, but this market has reversed on settlement rumors before.",
-        "confidence": "low",
-        "source": {
-          "publisher": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html"
-        }
-      },
-      {
-        "id": "delta-lions-injuries",
+        "id": "delta-dolphins-1-7",
         "thread_id": "thread-dolphins-hafley-rebuild",
-        "change_type": "new",
-        "title": "Lions arrive without five starters",
-        "previous_state": "Dolphins were 1-6 and set to host Detroit.",
-        "current_state": "Detroit ruled out Campbell (IR), Joseph, Mays, Reed and Wonnum; Miami's report is light and Proctor returns.",
-        "why_it_matters": "It is a rare game where the injury report favors Miami.",
+        "change_type": "worsened",
+        "title": "Dolphins lose to the Lions, 19-9",
+        "previous_state": "Miami (1-6) hosted a Lions team missing five starters.",
+        "current_state": "Detroit won 19-9 at Hard Rock Stadium; Miami is 1-7 with Willis throwing for 128 yards and an interception.",
+        "why_it_matters": "The injury-thinned opponent did not produce the opening Miami needed; the season is now about evaluation, not results.",
         "confidence": "medium",
         "source": {
           "publisher": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/dolphins-week-9-final-injury-214821688.html"
+          "url": "https://sports.yahoo.com/articles/detroit-lions-vs-miami-dolphins-174500590.html"
+        }
+      },
+      {
+        "id": "delta-nasdaq-correction",
+        "thread_id": "thread-fed-rate-path",
+        "change_type": "worsened",
+        "title": "Tech selloff described as a correction ahead of CPI",
+        "previous_state": "The Nasdaq was down about 3.4% on the week.",
+        "current_state": "One outlet puts the index nearly 12% below its recent high, while the S&P 500 is still up for the year.",
+        "why_it_matters": "Equity risk appetite, and with it financing conditions, now hinge on one inflation print.",
+        "confidence": "low",
+        "source": {
+          "publisher": "Business Recorder (Reuters)",
+          "url": "https://www.brecorder.com/news/40448058/wall-street-week-ahead-as-tech-swoon-roils-market-us-inflation-data-on-tap"
+        }
+      },
+      {
+        "id": "delta-hike-odds-range",
+        "thread_id": "thread-fed-rate-path",
+        "change_type": "unchanged",
+        "title": "December hike odds: about 73% to 80%, by source",
+        "previous_state": "Odds were reported near 78%-80%.",
+        "current_state": "LSEG-based futures show about 80%; CME FedWatch shows about 73%; core CPI is forecast near 0.2% for October.",
+        "why_it_matters": "A hike remains the base case, but the range shows how much one print can move it.",
+        "confidence": "medium",
+        "source": {
+          "publisher": "Futu News",
+          "url": "https://news.futunn.com/en/post/1003827305/us-stock-market-outlook-for-the-week-cpi-data-releases"
         }
       }
     ],
     "themes": [
       {
-        "id": "theme-canes-fall-at-notre-dame",
-        "affinity": "morning",
-        "topic": "sports",
-        "topic_label": "Miami Sports",
-        "title": "No. 1 Miami falls at Notre Dame, 31-24",
-        "importance": 0.93,
-        "thesis": "A halftime hole of 17-3 was too deep, even for a team that scored twice in three minutes to get back in it.",
-        "synthesis": "No. 4 Notre Dame beat No. 1 Miami 31-24 in South Bend on Saturday, November 7, leading 17-3 at the half. Miami closed the gap midway through the third quarter, but Notre Dame held on behind CJ Carr's 319 passing yards and three touchdowns. Darian Mensah threw for three touchdowns for Miami. Malachi Toney, who was the open question on Friday, did not play; one report says he is recovering from ankle surgery.",
-        "new_today": "The game was played Saturday night; the ankle question is settled, and the top ranking is likely gone.",
-        "why_it_matters": "The Canes' season has been built on the No. 1 spot and the playoff path. One loss does not end it, but it removes the margin, and how the committee treats a road loss in a one-score game now matters.",
-        "thread_id": "thread-hurricanes-fall-camp",
-        "confidence": "medium",
-        "sources": [
-          {
-            "role": "primary_reporting",
-            "publisher": "AP via KSAT",
-            "headline": "No. 4 Notre Dame takes big lead, then holds off No. 1 Miami 31-24 in a classic",
-            "url": "https://www.ksat.com/sports/2026/11/08/no-4-notre-dame-takes-big-lead-then-holds-off-no-1-miami-31-24-in-a-classic/"
-          },
-          {
-            "role": "analysis",
-            "publisher": "NBC Sports",
-            "headline": "Notre Dame knocks off top-ranked Miami 31-24",
-            "url": "https://www.nbcsports.com/college-football/news/notre-dame-knocks-off-top-ranked-miami-31-24"
-          },
-          {
-            "role": "background",
-            "publisher": "ABC News",
-            "headline": "No. 4 Notre Dame takes big lead, then holds off No. 1 Miami 31-24 in a classic",
-            "url": "https://abcnews.com/Sports/wireStory/4-notre-dame-takes-big-lead-holds-off-137949384"
-          }
-        ]
-      },
-      {
-        "id": "theme-cpi-test-for-december-hike",
+        "id": "theme-cpi-week-nasdaq-correction",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Tuesday's inflation report is now the test for a December hike",
+        "title": "CPI week arrives on a market already in correction",
         "importance": 0.95,
-        "thesis": "After a jobs beat, the market has stopped asking whether the Fed hikes and started asking whether October CPI talks it out of it.",
-        "synthesis": "Futures put the chance of a quarter-point increase at the December 8-9 meeting at roughly 78% to 80%, depending on the source, and traders now see the next and final hike coming in April rather than June. October CPI lands Tuesday, November 10, with PPI after it. The prior report showed annual inflation at 3.7%. Even with Friday's rebound, the Nasdaq 100 was still down about 4.5% on the week, and AI-demand worries had briefly pulled traders away from hike bets.",
-        "new_today": "The week ahead is now defined: CPI on Tuesday, PPI later in the week.",
-        "why_it_matters": "A hotter print makes a hike close to certain and keeps debt costs and cap rates under pressure; a softer one would be the first real argument against it. For anyone underwriting a refinance this month, the range of outcomes matters more than the point estimate.",
+        "thesis": "Tuesday's inflation print will decide whether a December hike is a certainty or merely likely.",
+        "synthesis": "October CPI is due Tuesday, November 10, followed by PPI on Friday and earnings from CoreWeave, Cisco and Applied Materials. Hike odds sit at roughly 73% to 80% depending on the source, and one forecaster expects core inflation near 0.2% month over month. There is no year-over-year reading this month because of last October's shutdown, which makes the headline comparison harder to read.",
+        "new_today": "The week's calendar is now set, and one outlet characterizes the Nasdaq as in correction.",
+        "why_it_matters": "Higher-for-longer rates feed directly into cap rates, refinancing and the pricing of every deal in the pipeline; the equity drawdown is a second channel through sentiment.",
         "thread_id": "thread-fed-rate-path",
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Reuters via Yahoo Finance",
-            "headline": "Traders raise bets of Fed rate hike after jobs report",
-            "url": "https://finance.yahoo.com/economy/policy/articles/traders-raise-bets-fed-rate-134402668.html"
-          },
-          {
-            "role": "analysis",
-            "publisher": "Kiplinger",
-            "headline": "What a Hotter-Than-Expected October Jobs Report Means for the Fed",
-            "url": "https://kiplinger.com/investing/economy/jobs-report-october-2026-what-to-expect"
+            "publisher": "Futu News",
+            "headline": "U.S. Stock Market Outlook for the Week: CPI data releases on Tuesday",
+            "url": "https://news.futunn.com/en/post/1003827305/us-stock-market-outlook-for-the-week-cpi-data-releases"
           },
           {
             "role": "background",
-            "publisher": "Benzinga via TradingView",
-            "headline": "Nasdaq 100 Has Worst Day Since 2020, Jobs Beat Keeps Fed Hike Alive: This Week on Wall Street",
-            "url": "https://www.tradingview.com/news/benzinga:847a407fd094b:0-nasdaq-100-has-worst-day-since-2020-jobs-beat-keeps-fed-hike-alive-this-week-on-wall-street/"
+            "publisher": "Business Recorder",
+            "headline": "Wall Street Week Ahead: As tech swoon roils market, US inflation data on tap",
+            "url": "https://www.brecorder.com/news/40448058/wall-street-week-ahead-as-tech-swoon-roils-market-us-inflation-data-on-tap"
+          },
+          {
+            "role": "analysis",
+            "publisher": "FXEmpire",
+            "headline": "The Week Ahead: CPI and Tech Earnings Test a Fragile Stock Market",
+            "url": "https://www.fxempire.com/forecasts/article/the-week-ahead-cpi-and-tech-earnings-test-a-fragile-stock-market-1643118"
           }
         ]
       },
       {
-        "id": "theme-dolphins-host-lions",
+        "id": "theme-dolphins-lose-to-lions",
         "affinity": "morning",
         "topic": "sports",
         "topic_label": "Miami Sports",
-        "title": "Dolphins, 1-6, host a Lions team missing five starters",
-        "importance": 0.7,
-        "thesis": "The most favorable matchup the Dolphins have had in weeks is against a Detroit roster thinned by injuries.",
-        "synthesis": "Detroit ruled out five players, including linebacker Jack Campbell, now on injured reserve with a serious neck injury, and safety Kerby Joseph. Amon-Ra St. Brown is questionable with ribs. Miami's final report is short: running backs Jaylen Wright and Kaytron Allen (quad) and Malik Herring (neck) are listed, and rookie guard Kadyn Proctor returns from concussion protocol. Running back depth behind Ollie Gordon II is the practical concern.",
-        "new_today": "Final injury reports are in; Proctor is back.",
-        "why_it_matters": "At 1-6 the question is less the result than whether Hafley's rebuild shows something in the details: line play, the young backs, a clean game.",
+        "title": "Dolphins fall to 1-7 against a Lions offense that barely showed up",
+        "importance": 0.8,
+        "thesis": "Detroit scored one touchdown and still won comfortably.",
+        "synthesis": "The Lions won 19-9 at Hard Rock Stadium. Jahmyr Gibbs scored the only touchdown and Jake Bates kicked four field goals, while Jared Goff had one of his worst games of the season. Malik Willis went 13 of 25 for 128 yards and an interception, Miami was flagged 11 times, and Zane Gonzalez missed from 38 yards. The defense recorded sacks and an interception.",
+        "new_today": "The result is final: 1-7.",
+        "why_it_matters": "With the record settled, the useful questions are about development: Willis, the rookies, and what the defense is becoming under Hafley.",
         "thread_id": "thread-dolphins-hafley-rebuild",
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
             "publisher": "Yahoo Sports",
-            "headline": "Lions-Dolphins preview: Can Miami take advantage of Detroit injuries?",
-            "url": "https://sports.yahoo.com/articles/lions-dolphins-preview-miami-advantage-182344006.html"
+            "headline": "Recap: Lions' defense dominates in 19-9 win over Dolphins",
+            "url": "https://sports.yahoo.com/articles/detroit-lions-vs-miami-dolphins-174500590.html"
           },
           {
             "role": "analysis",
             "publisher": "Yahoo Sports",
-            "headline": "Dolphins Week 9 Final Injury Report: 3 Players Questionable",
-            "url": "https://sports.yahoo.com/articles/dolphins-week-9-final-injury-214821688.html"
+            "headline": "5 takeaways from Lions' 19-9 win against Dolphins",
+            "url": "https://sports.yahoo.com/articles/5-takeaways-lions-19-9-214750015.html"
           },
           {
             "role": "local_perspective",
-            "publisher": "The Phinsider",
-            "headline": "Lions vs. Dolphins injury report: Jaylen Wright does not practice; Jack Campbell update",
-            "url": "https://www.thephinsider.com/miami-dolphins-injuries/124516/detroit-lions-vs-miami-dolphins-injury-report-jaylen-wright-jack-campbell-kadyn-proctor"
+            "publisher": "Yahoo Sports",
+            "headline": "What has Dolphins' Jeff Hafley \"encouraged\" despite Lions loss, 1-7 start",
+            "url": "https://sports.yahoo.com/articles/dolphins-jeff-hafley-encouraged-despite-064933375.html"
           }
         ]
       },
       {
-        "id": "theme-oil-prices-in-peace",
-        "affinity": "evening",
+        "id": "theme-oil-relief-unsigned-peace",
+        "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Oil has priced in a peace that has not been signed",
-        "importance": 0.8,
-        "thesis": "Brent fell about 15% in a week on diplomacy hopes while attacks in the Strait of Hormuz continued, and the market has been fooled by this pattern before.",
-        "synthesis": "Brent settled at $104.77 on Monday, November 2 as Qatari mediators traveled to Tehran, and dropped below $100 on Wednesday for the first time since early October. Reported levels by Friday ranged from about $93 to $99 across sources. Iran reportedly wants blockades lifted, sanctions eased and assets unfrozen before it fully reopens the Strait. Goldman Sachs raised its December Brent forecast to $105 and warned of $140 if Gulf output stays 3.5 million barrels a day below 2025 levels. Earlier settlement rumors in this war have reversed.",
-        "new_today": "Weekly wrap: the fall is real, the settlement is not.",
-        "why_it_matters": "Cheaper oil eased the inflation worry that sits under the Fed question. It is also the kind of price that can snap back, which is a reason to hold a conclusion loosely.",
+        "title": "Cheaper oil is easing inflation worries, for now",
+        "importance": 0.7,
+        "thesis": "The inflation relief rests on an Iran settlement that has not been signed.",
+        "synthesis": "US stock futures are firmer this morning as lower oil prices ease inflation concerns. Brent fell about 15% last week on hopes of a settlement, but I could not verify a current price, and the Strait remains contested. The relief is a bet on diplomacy rather than on supply.",
+        "new_today": "Futures are leaning on the oil decline heading into CPI.",
+        "why_it_matters": "Energy is the swing input in the inflation path; if the talks stall, the argument for a December hike gets stronger.",
         "thread_id": "thread-iran-hormuz-crisis",
         "confidence": "low",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "CNBC",
-            "headline": "Crude oil prices sell off more than 7% on Iran peace talk hopes ahead of U.S. midterms",
-            "url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html"
-          },
-          {
-            "role": "analysis",
-            "publisher": "OilPrice.com",
-            "headline": "The Iran War Isn't Over, but Oil Traders Are Already Pricing In Peace",
-            "url": "https://oilprice.com/Energy/Energy-General/The-Iran-War-Isnt-Over-but-Oil-Traders-Are-Already-Pricing-In-Peace.html"
+            "publisher": "FXStreet",
+            "headline": "Dow Jones futures gain as lower oil prices ease inflationary concerns",
+            "url": "https://www.fxstreet.com/news/dow-jones-futures-gain-as-lower-oil-prices-ease-inflationary-concerns-202611090911"
           },
           {
             "role": "background",
-            "publisher": "Invezz",
-            "headline": "Brent crude price falls below $100 as Iran deal hopes outweigh EIA draw",
-            "url": "https://invezz.com/nz/news/2026/11/04/brent-crude-price-falls-below-dollar100-as-iran-deal-hopes-outweigh-eia-draw/"
+            "publisher": "CNBC",
+            "headline": "Oil prices fall as Iran, US pursue diplomacy",
+            "url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html"
           }
         ]
       },
       {
-        "id": "theme-aeon-making-by-hand",
+        "id": "theme-aeon-always-distracted",
         "affinity": "evening",
         "topic": "living",
         "topic_label": "Art of Living",
-        "title": "Why we dream of making things by hand",
+        "title": "We have always worried that we are distracted",
+        "importance": 0.75,
+        "thesis": "The complaint about attention is older than screens, and Seneca made it.",
+        "synthesis": "Aeon's essay traces worry about distraction back through the centuries, including to Seneca. It is a useful corrective to the idea that our condition is wholly new, without pretending that nothing has changed.",
+        "new_today": "Pulled from the archive as a counterweight to a week of tickers.",
+        "why_it_matters": "It bears on the question you keep returning to, how to spend attention on purpose, and it comes from a good deal of history.",
+        "thread_id": null,
+        "confidence": "medium",
+        "sources": [
+          {
+            "role": "primary_reporting",
+            "publisher": "Aeon",
+            "headline": "We've always been distracted, or at least worried that we are",
+            "url": "https://aeon.co/essays/weve-always-been-distracted-or-at-least-worried-that-we-are"
+          }
+        ]
+      },
+      {
+        "id": "theme-aeon-deskilling-the-body",
+        "affinity": "evening",
+        "topic": "living",
+        "topic_label": "Art of Living",
+        "title": "What leaning on technology does to the body's own skills",
         "importance": 0.6,
-        "thesis": "A saved essay from your Reading List, kept for a Sunday evening.",
-        "synthesis": "You saved this Aeon essay on September 3 and tagged it for a weekend. I could not retrieve its text this morning, so I am not summarizing its argument; the title asks why the wish to make things by hand feels radical. It sits well after a week of numbers.",
-        "new_today": "It is the oldest item waiting in your Reading List.",
-        "why_it_matters": "Craft is one of your standing interests, and a week of markets and scoreboards is the right moment to read something that cannot be refreshed.",
+        "thesis": "Wayfinding by GPS may dull the faculty it replaces.",
+        "synthesis": "An Aeon essay argues that reliance on technology deskills our bodies, with GPS weakening spatial attention and the fluency of wayfinding. I have only seen the summary, so treat the argument as the author's claim rather than settled science.",
+        "new_today": "A recent Aeon essay, about four weeks old.",
+        "why_it_matters": "It sits next to your reading on craft and making: skill is something held in the hands and legs, and it fades without use.",
         "thread_id": null,
         "confidence": "low",
         "sources": [
           {
             "role": "primary_reporting",
             "publisher": "Aeon",
-            "headline": "The Radical Reasons Why You Dream of Making Things by Hand",
-            "url": "https://aeon.co/essays/the-radical-reasons-why-you-dream-of-making-things-by-hand"
+            "headline": "The more we rely on tech, the more we deskill our bodies",
+            "url": "https://aeon.co/essays/the-more-we-rely-on-tech-the-more-we-deskill-our-bodies"
           }
         ]
       }
     ],
     "rabbit_hole": {
-      "id": "rh-2026-11-08",
-      "title": "The Radical Reasons Why You Dream of Making Things by Hand",
+      "id": "rh-2026-11-09",
+      "title": "We've always been distracted, or at least worried that we are",
       "creator": "Aeon",
       "format": "essay",
       "minutes": 20,
-      "why": "It has sat in your Reading List since September 3, tagged for a weekend, and this is the weekend. After a week of verdicts and odds, an essay about work you can hold is a useful change of register.",
-      "url": "https://aeon.co/essays/the-radical-reasons-why-you-dream-of-making-things-by-hand",
+      "why": "Tuesday's data will pull attention toward a single number, so this is a good evening for a long look at how attention has always been contested. It reaches back to Seneca, which pairs with tonight's quote.",
+      "url": "https://aeon.co/essays/weve-always-been-distracted-or-at-least-worried-that-we-are",
       "related_interest": "living"
     },
     "beautiful_thing": {
-      "id": "bt-2026-11-08",
-      "title": "Vizcaya Museum and Gardens",
-      "creator": "Francis Burrall Hoffman Jr. and Paul Chalfin, with landscape architect Diego Suarez",
-      "era": "1910s-1920s",
-      "body": "James Deering's Miami estate was built in Mediterranean Revival and Italian-inspired style, with a facade influenced by the Villa Rezzonico. It was designed to look centuries old, and sources differ on dates, with Deering moving in for winters from 1916 and the gardens finished around 1922-23. Notice how a house built in a young city is dressed as an old one, and what that says about the ambitions of its first owners. It is now a National Historic Landmark owned by Miami-Dade County.",
-      "url": "https://en.wikipedia.org/wiki/Vizcaya_Museum_and_Gardens",
+      "id": "bt-2026-11-09",
+      "title": "Miami Marine Stadium",
+      "creator": "Hilario Candela",
+      "era": "1963",
+      "body": "Designed by the Cuban-born architect Hilario Candela and opened in 1963 on Virginia Key, the stadium was built to be watched from land while the action happened on the water. Notice the folded-plate concrete roof, which cantilevers over the seating without columns blocking the view. The venue closed after Hurricane Andrew in 1992 and has since become a symbol of preservation efforts.",
+      "url": "https://en.wikipedia.org/wiki/Miami_Marine_Stadium",
       "image": null,
-      "alt": "Vizcaya Museum and Gardens, Miami"
+      "alt": "Concrete grandstand and folded roof of Miami Marine Stadium on Virginia Key"
     },
-    "noticing_prompt": "Pick one object within reach that someone made by hand, even badly, and look at it for a full minute before you say anything about it.",
+    "noticing_prompt": "Before you check any number today, notice what you were doing a moment earlier, and whether the check was a decision or a reflex.",
     "daily_puzzle": {
-      "id": "dp-2026-11-08",
-      "type": "riddle",
-      "prompt": "I am taken from a mine and then shut inside a wooden case, from which I am never released, and yet almost everyone uses me. What am I?",
-      "hint": "You likely last used one to cross something off a list.",
-      "solution": "Pencil lead (graphite).",
-      "explanation": "Graphite is mined, encased in wood, and used up by being used, never let out of its case."
+      "id": "dp-2026-11-09",
+      "type": "math",
+      "prompt": "A clock takes 5 seconds to strike six. At the same pace, how long does it take to strike twelve?",
+      "hint": "Count the pauses between strikes, not the strikes.",
+      "solution": "11 seconds.",
+      "explanation": "Six strikes have five gaps, so each gap is one second; twelve strikes have eleven gaps."
     },
     "evening_unwind": {
-      "id": "eu-2026-11-08",
+      "id": "eu-2026-11-09",
       "evening_quote": {
-        "text": "Look within. Within is the fountain of good, and it will ever bubble up, if thou wilt ever dig.",
-        "attribution": "Marcus Aurelius",
-        "source": "Meditations, 7.59 (George Long translation)"
+        "text": "We suffer more often in imagination than in reality.",
+        "attribution": "Seneca",
+        "source": "Letters to Lucilius, 13"
       },
-      "evening_prompt": "Which number or score did you check more than once today, and did looking again change anything you did?"
+      "evening_prompt": "What did you spend today bracing for, and what actually happened instead?"
     },
     "reading_queue": [
       {
         "title": "The Radical Reasons Why You Dream of Making Things by Hand",
         "url": "https://aeon.co/essays/the-radical-reasons-why-you-dream-of-making-things-by-hand",
-        "verdict": "read_soon",
-        "reason": "The only item in the list, saved September 3 for a weekend; it is today's rabbit hole."
+        "verdict": "still_valuable",
+        "reason": "Saved September 3; yesterday's rabbit hole, so it may already be read. Mark it done if so."
       }
     ],
     "quote": {
-      "text": "That which is not good for the swarm, neither is it good for the bee.",
-      "attribution": "Marcus Aurelius, Meditations 6.54"
-    },
-    "weekly_review": {
-      "what_mattered": "The week began with an election and a deep AI-driven stock selloff, and ended with a hot jobs report, a rebound that did not erase the loss, a Fed hike priced near 80%, oil down about 15% on peace hopes, and Miami football losing its No. 1 ranking.",
-      "three_developments": [
-        {
-          "title": "The Fed question flipped from cut to hike",
-          "detail": "October payrolls came in at 165,000 against roughly 65,000 expected, and December hike odds moved from about 68% to near 80%. October CPI on Tuesday is the next test."
-        },
-        {
-          "title": "Oil priced in a peace that is not signed",
-          "detail": "Brent fell below $100 for the first time since early October and about 15% on the week, while attacks in the Strait of Hormuz continued."
-        },
-        {
-          "title": "Miami lost at Notre Dame, 31-24",
-          "detail": "The No. 1 Canes trailed 17-3 at the half and could not finish the comeback."
-        }
-      ],
-      "starred": "You did not star, save or dismiss anything this week.",
-      "momentum": "Nothing has moved. With no feedback, every interest stays at its default weight, and this week's mix of markets and sports reflects the news calendar, not your preferences.",
-      "threads_to_carry_forward": [
-        "thread-fed-rate-path",
-        "thread-iran-hormuz-crisis",
-        "thread-hurricanes-fall-camp",
-        "thread-dolphins-hafley-rebuild",
-        "thread-cre-capital-markets-2026"
-      ],
-      "reading_list_triage": "One item is saved: the Aeon essay on making things by hand. It is today's rabbit hole.",
-      "weekend_rabbit_hole_id": "rh-2026-11-08",
-      "reflection_question": "What did you spend the most attention on this week that you could not have changed?",
-      "learning_summary": "This week I received no feedback from the app, so I learned nothing new about your taste. Coverage of Miami restaurants, Heat and Panthers was thin because search turned up little current reporting, and I would rather say so than pad it."
+      "text": "We suffer more often in imagination than in reality.",
+      "attribution": "Seneca, Letters to Lucilius 13"
     }
   },
   "threads": [
@@ -375,9 +306,9 @@
       "title": "US-Iran conflict and the Strait of Hormuz",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-11-08",
-      "updates": 107,
-      "current_state": "Oil down about 15% on the week on US-Iran deal hopes; no signed deal; Strait still contested.",
+      "last_updated": "2026-11-09",
+      "updates": 108,
+      "current_state": "Oil down about 15% last week on deal hopes; no signed deal; futures lean on the decline.",
       "timeline": [
         {
           "date": "2026-07-21",
@@ -913,6 +844,11 @@
           "date": "2026-11-08",
           "summary": "Week wrap: Brent fell below $100 on Nov 4 for the first time since early October and about 15% on the week on deal hopes; attacks in the Strait continue and no settlement is signed. Iran reportedly wants blockades lifted and assets unfrozen first.",
           "change_type": "improved"
+        },
+        {
+          "date": "2026-11-09",
+          "summary": "Monday: US stock futures firmer on lower oil; no signed deal confirmed.",
+          "change_type": "watch"
         }
       ]
     },
@@ -921,9 +857,9 @@
       "title": "Federal Reserve rate path",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-11-08",
-      "updates": 108,
-      "current_state": "Held 3.75%-4.00% Oct 28; Dec hike odds about 78%-80% after the +165K jobs report; CPI due Nov 10.",
+      "last_updated": "2026-11-09",
+      "updates": 109,
+      "current_state": "Held 3.75%-4.00% Oct 28; Dec hike odds about 73%-80%; Nasdaq described as in correction; CPI due Nov 10.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -1459,6 +1395,11 @@
           "date": "2026-11-08",
           "summary": "Sunday: December 8-9 hike odds reported near 78% to 80%; traders now see the final hike in April rather than June. October CPI due Tuesday, November 10.",
           "change_type": "worsened"
+        },
+        {
+          "date": "2026-11-09",
+          "summary": "Monday: hike odds reported between about 73% (CME) and 80% (LSEG); Nasdaq described as nearly 12% off its high; CPI Tuesday, PPI Friday.",
+          "change_type": "watch"
         }
       ]
     },
@@ -1954,9 +1895,9 @@
       "title": "Dolphins rebuild under Hafley",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-11-08",
-      "updates": 81,
-      "current_state": "1-6; hosting Detroit Nov 8 with a light injury report.",
+      "last_updated": "2026-11-09",
+      "updates": 82,
+      "current_state": "1-7 after a 19-9 home loss to Detroit.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -2362,6 +2303,11 @@
           "date": "2026-11-08",
           "summary": "Sunday: Dolphins (1-6) host a Lions team missing five starters; Proctor returns from concussion protocol.",
           "change_type": "watch"
+        },
+        {
+          "date": "2026-11-09",
+          "summary": "Sunday: Dolphins lose 19-9 to the Lions; Willis 13/25, 128 yards, one interception; 11 penalties.",
+          "change_type": "worsened"
         }
       ]
     },
@@ -3859,7 +3805,7 @@
     }
   ],
   "meta": {
-    "content_freshness": "2026-11-08T09:30:00-05:00",
+    "content_freshness": "2026-11-09T09:30:00-05:00",
     "feedback_endpoint_mode": "github_contents",
     "minimum_client_schema_version": 1,
     "mode": "brain"
