@@ -1,37 +1,35 @@
 {
   "schema_version": 2,
   "edition": {
-    "id": "2026-11-09",
-    "date": "2026-11-09",
+    "id": "2026-11-10",
+    "date": "2026-11-10",
     "type": "weekday",
-    "generated_at": "2026-11-09T09:30:00-05:00",
+    "generated_at": "2026-11-10T09:30:00-05:00",
     "timezone": "America/New_York",
     "title": "Personal OS",
     "front_page_letter": {
       "greeting": "Good morning",
       "body_paragraphs": [
-        "Good morning. Monday, November 9.",
-        "The week is organized around one report. October CPI arrives Tuesday, and it lands on a market that has already been shaken: one outlet has the Nasdaq nearly 12% below its recent high after the tech selloff, and futures put a December 8-9 Fed hike at roughly 73% to 80%, depending on who is counting. One forecaster expects core inflation near 0.2% for the month. Softer would help, but it would probably not undo the hike case on its own. Friday brings PPI, and CoreWeave, Cisco and Applied Materials report in between.",
-        "Oil is helping at the margin. Futures are firmer this morning on the notion that cheaper crude eases the inflation worry. I would keep that loose: the relief rests on talks with Iran that have not produced a signed deal.",
-        "On the field, the Dolphins lost to the Lions 19-9 on Sunday and are 1-7. Malik Willis threw for 128 yards and an interception, and the penalties piled up. The defense had a few good moments, and rookie Caleb Douglas caught six passes for 70 yards, which is about the extent of the encouragement.",
-        "What deserves attention is Tuesday morning. Everything else this week is commentary on it.",
-        "Tonight, there is an essay on the old suspicion that we are always distracted, which turns out to reach back to Seneca."
+        "Good morning. Tuesday, November 10.",
+        "The number arrives today. October CPI is due this morning, into a market that has had a rough week: on Thursday, November 5, the Nasdaq fell 5.2% and closed in correction territory, with one account tying the rout to investors weighing the midterm results against the AI and data-center buildout. Friday brought a partial rebound, up 1.09%. Meanwhile a strong jobs report, 165,000 added, pushed yields up and December hike odds to roughly 73% on the CME tool.",
+        "I could not verify Monday's close this morning, so the market panel below carries Friday's levels and says so. That is the honest edge of what I know. What I would hold loosely is any confident story about what today's print will do; the hike case is already mostly priced, and a soft number may only trim it.",
+        "Evening reading is a long essay on why people dream of making things by hand, and Seneca on the shortness of life, which seems the right pairing for a day spent watching a single figure."
       ],
       "read_only_three": [
         {
           "target_type": "theme",
-          "target_id": "theme-cpi-week-nasdaq-correction",
-          "label": "CPI week and the Nasdaq"
+          "target_id": "theme-cpi-day-hike-odds",
+          "label": "CPI day and the hike odds"
         },
         {
           "target_type": "theme",
-          "target_id": "theme-dolphins-lose-to-lions",
-          "label": "Dolphins fall to 1-7"
+          "target_id": "theme-nasdaq-correction-confirmed",
+          "label": "The Nasdaq correction"
         },
         {
           "target_type": "rabbit_hole",
-          "target_id": "rh-2026-11-09",
-          "label": "Always distracted?"
+          "target_id": "rh-2026-11-10",
+          "label": "Making things by hand"
         }
       ]
     },
@@ -41,263 +39,201 @@
         "value": "7,376.86",
         "change": "+0.3%",
         "observed": "Close, Friday, November 6, 2026",
-        "note": "Last verified close; Monday's session had not closed when this was written. Down about 2.7% on the week."
+        "note": "Last verified close; Monday's close could not be confirmed this morning. Down about 2.7% on the week."
       },
       {
         "label": "Nasdaq Composite",
         "value": "24,579.42",
         "change": "+1.1%",
         "observed": "Close, Friday, November 6, 2026",
-        "note": "One outlet describes the index as nearly 12% below its recent high, a correction. Tech earnings and CPI are the week's tests."
+        "note": "Fell 5.2% on Thursday, November 5, closing in correction territory (10%+ below its October 6 high)."
+      },
+      {
+        "label": "Dow Jones Industrial Average",
+        "value": "51,285.73",
+        "change": "-0.46%",
+        "observed": "Close, Friday, November 6, 2026",
+        "note": "Down about 1,833 points on Thursday before Friday's small decline."
+      },
+      {
+        "label": "10-year Treasury",
+        "value": "4.90%",
+        "change": "-5 bp",
+        "observed": "Wednesday, November 4, 2026",
+        "note": "Stale by several days; yields rose after Friday's jobs report but a current level was not verified."
       },
       {
         "label": "FOMC",
         "value": "Held 3.75%-4.00% on October 28",
-        "change": "Dec 8-9 hike odds about 73% (CME) to 80% (LSEG)",
-        "observed": "Weekend of November 7-8, 2026",
-        "note": "Sources differ by method. October CPI is due Tuesday, November 10. The 10-year yield and Brent close could not be verified this morning, so they are omitted."
+        "change": "Dec 8-9 hike odds about 73% (CME FedWatch)",
+        "observed": "As of Friday, November 6, 2026",
+        "note": "Another source cites about 78%. October CPI is due today, November 10; PPI Friday."
       }
     ],
     "public_day_context": {
-      "date_label": "Monday, November 9, 2026",
-      "weather": "Warm and humid, with a small chance of showers; forecasts from November 4-6 give highs of 82-84F. Check NWS Miami for today's update.",
-      "public_event": "October CPI is Tuesday, November 10; PPI Friday, November 13."
+      "date_label": "Tuesday, November 10, 2026",
+      "weather": "Not verified this morning; check NWS Miami (weather.gov/mfl) for today's forecast.",
+      "public_event": "October CPI is due today; PPI Friday, November 13. A Panthers game against Columbus is listed for tonight at 7:30 p.m. ET (listing unconfirmed)."
     },
     "what_changed": [
       {
-        "id": "delta-dolphins-1-7",
-        "thread_id": "thread-dolphins-hafley-rebuild",
-        "change_type": "worsened",
-        "title": "Dolphins lose to the Lions, 19-9",
-        "previous_state": "Miami (1-6) hosted a Lions team missing five starters.",
-        "current_state": "Detroit won 19-9 at Hard Rock Stadium; Miami is 1-7 with Willis throwing for 128 yards and an interception.",
-        "why_it_matters": "The injury-thinned opponent did not produce the opening Miami needed; the season is now about evaluation, not results.",
+        "id": "delta-nasdaq-correction-confirmed",
+        "thread_id": "thread-ai-regulation-selloff",
+        "change_type": "advanced",
+        "title": "The Nasdaq's correction is now confirmed in the closing numbers",
+        "previous_state": "Yesterday's edition relied on one outlet describing the index as nearly 12% off its high.",
+        "current_state": "The Nasdaq closed Thursday, November 5, down 5.2% and 10%+ below its October 6 record close, then rebounded 1.09% on Friday.",
+        "why_it_matters": "A confirmed correction in AI-linked equities is a sentiment channel into rates and risk appetite ahead of CPI.",
         "confidence": "medium",
         "source": {
-          "publisher": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/detroit-lions-vs-miami-dolphins-174500590.html"
+          "publisher": "CBS News",
+          "url": "https://www.cbsnews.com/news/stocks-tech-sell-off-nasdaq-correction-dow/"
         }
       },
       {
-        "id": "delta-nasdaq-correction",
+        "id": "delta-cpi-day",
         "thread_id": "thread-fed-rate-path",
-        "change_type": "worsened",
-        "title": "Tech selloff described as a correction ahead of CPI",
-        "previous_state": "The Nasdaq was down about 3.4% on the week.",
-        "current_state": "One outlet puts the index nearly 12% below its recent high, while the S&P 500 is still up for the year.",
-        "why_it_matters": "Equity risk appetite, and with it financing conditions, now hinge on one inflation print.",
-        "confidence": "low",
-        "source": {
-          "publisher": "Business Recorder (Reuters)",
-          "url": "https://www.brecorder.com/news/40448058/wall-street-week-ahead-as-tech-swoon-roils-market-us-inflation-data-on-tap"
-        }
-      },
-      {
-        "id": "delta-hike-odds-range",
-        "thread_id": "thread-fed-rate-path",
-        "change_type": "unchanged",
-        "title": "December hike odds: about 73% to 80%, by source",
-        "previous_state": "Odds were reported near 78%-80%.",
-        "current_state": "LSEG-based futures show about 80%; CME FedWatch shows about 73%; core CPI is forecast near 0.2% for October.",
-        "why_it_matters": "A hike remains the base case, but the range shows how much one print can move it.",
+        "change_type": "watch",
+        "title": "October CPI is due today",
+        "previous_state": "The report was the following day on the calendar.",
+        "current_state": "It lands this morning with December hike odds near 73% to 78% depending on the source.",
+        "why_it_matters": "The print decides whether a December hike moves from likely to near-certain, and sets the tone for cap rates and refinancing.",
         "confidence": "medium",
         "source": {
-          "publisher": "Futu News",
-          "url": "https://news.futunn.com/en/post/1003827305/us-stock-market-outlook-for-the-week-cpi-data-releases"
+          "publisher": "FXStreet",
+          "url": "https://www.fxstreet.com/analysis/ai-selloff-what-bonds-and-credit-markets-reveal-202611082143"
         }
       }
     ],
     "themes": [
       {
-        "id": "theme-cpi-week-nasdaq-correction",
+        "id": "theme-cpi-day-hike-odds",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "CPI week arrives on a market already in correction",
+        "title": "CPI day: a hike that is mostly priced",
         "importance": 0.95,
-        "thesis": "Tuesday's inflation print will decide whether a December hike is a certainty or merely likely.",
-        "synthesis": "October CPI is due Tuesday, November 10, followed by PPI on Friday and earnings from CoreWeave, Cisco and Applied Materials. Hike odds sit at roughly 73% to 80% depending on the source, and one forecaster expects core inflation near 0.2% month over month. There is no year-over-year reading this month because of last October's shutdown, which makes the headline comparison harder to read.",
-        "new_today": "The week's calendar is now set, and one outlet characterizes the Nasdaq as in correction.",
-        "why_it_matters": "Higher-for-longer rates feed directly into cap rates, refinancing and the pricing of every deal in the pipeline; the equity drawdown is a second channel through sentiment.",
+        "thesis": "Today's inflation print will confirm or soften a December hike that markets already largely expect.",
+        "synthesis": "A jobs report showing 165,000 added positions, well above forecasts, pushed Treasury yields and hike odds higher; the CME tool put a December 8-9 hike near 73% and another source near 78%. After last week's equity shock, bond and credit markets are being read for signs of stress. I could not find a reliable consensus for the October CPI figure, so I will not offer one.",
+        "new_today": "The release is today.",
+        "why_it_matters": "Rates set cap rates and refinancing terms for every deal in the pipeline; a hotter print raises the cost of carrying floating-rate debt.",
         "thread_id": "thread-fed-rate-path",
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Futu News",
-            "headline": "U.S. Stock Market Outlook for the Week: CPI data releases on Tuesday",
-            "url": "https://news.futunn.com/en/post/1003827305/us-stock-market-outlook-for-the-week-cpi-data-releases"
+            "publisher": "FXStreet",
+            "headline": "AI selloff: What bonds and credit markets reveal",
+            "url": "https://www.fxstreet.com/analysis/ai-selloff-what-bonds-and-credit-markets-reveal-202611082143"
           },
           {
             "role": "background",
-            "publisher": "Business Recorder",
-            "headline": "Wall Street Week Ahead: As tech swoon roils market, US inflation data on tap",
-            "url": "https://www.brecorder.com/news/40448058/wall-street-week-ahead-as-tech-swoon-roils-market-us-inflation-data-on-tap"
-          },
-          {
-            "role": "analysis",
-            "publisher": "FXEmpire",
-            "headline": "The Week Ahead: CPI and Tech Earnings Test a Fragile Stock Market",
-            "url": "https://www.fxempire.com/forecasts/article/the-week-ahead-cpi-and-tech-earnings-test-a-fragile-stock-market-1643118"
+            "publisher": "Schwab",
+            "headline": "Stocks Mixed, Yields Up on Surging U.S. Job Growth",
+            "url": "https://www.schwab.com/learn/story/stock-market-update-open"
           }
         ]
       },
       {
-        "id": "theme-dolphins-lose-to-lions",
-        "affinity": "morning",
-        "topic": "sports",
-        "topic_label": "Miami Sports",
-        "title": "Dolphins fall to 1-7 against a Lions offense that barely showed up",
-        "importance": 0.8,
-        "thesis": "Detroit scored one touchdown and still won comfortably.",
-        "synthesis": "The Lions won 19-9 at Hard Rock Stadium. Jahmyr Gibbs scored the only touchdown and Jake Bates kicked four field goals, while Jared Goff had one of his worst games of the season. Malik Willis went 13 of 25 for 128 yards and an interception, Miami was flagged 11 times, and Zane Gonzalez missed from 38 yards. The defense recorded sacks and an interception.",
-        "new_today": "The result is final: 1-7.",
-        "why_it_matters": "With the record settled, the useful questions are about development: Willis, the rookies, and what the defense is becoming under Hafley.",
-        "thread_id": "thread-dolphins-hafley-rebuild",
-        "confidence": "medium",
-        "sources": [
-          {
-            "role": "primary_reporting",
-            "publisher": "Yahoo Sports",
-            "headline": "Recap: Lions' defense dominates in 19-9 win over Dolphins",
-            "url": "https://sports.yahoo.com/articles/detroit-lions-vs-miami-dolphins-174500590.html"
-          },
-          {
-            "role": "analysis",
-            "publisher": "Yahoo Sports",
-            "headline": "5 takeaways from Lions' 19-9 win against Dolphins",
-            "url": "https://sports.yahoo.com/articles/5-takeaways-lions-19-9-214750015.html"
-          },
-          {
-            "role": "local_perspective",
-            "publisher": "Yahoo Sports",
-            "headline": "What has Dolphins' Jeff Hafley \"encouraged\" despite Lions loss, 1-7 start",
-            "url": "https://sports.yahoo.com/articles/dolphins-jeff-hafley-encouraged-despite-064933375.html"
-          }
-        ]
-      },
-      {
-        "id": "theme-oil-relief-unsigned-peace",
+        "id": "theme-nasdaq-correction-confirmed",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Cheaper oil is easing inflation worries, for now",
-        "importance": 0.7,
-        "thesis": "The inflation relief rests on an Iran settlement that has not been signed.",
-        "synthesis": "US stock futures are firmer this morning as lower oil prices ease inflation concerns. Brent fell about 15% last week on hopes of a settlement, but I could not verify a current price, and the Strait remains contested. The relief is a bet on diplomacy rather than on supply.",
-        "new_today": "Futures are leaning on the oil decline heading into CPI.",
-        "why_it_matters": "Energy is the swing input in the inflation path; if the talks stall, the argument for a December hike gets stronger.",
-        "thread_id": "thread-iran-hormuz-crisis",
-        "confidence": "low",
-        "sources": [
-          {
-            "role": "primary_reporting",
-            "publisher": "FXStreet",
-            "headline": "Dow Jones futures gain as lower oil prices ease inflationary concerns",
-            "url": "https://www.fxstreet.com/news/dow-jones-futures-gain-as-lower-oil-prices-ease-inflationary-concerns-202611090911"
-          },
-          {
-            "role": "background",
-            "publisher": "CNBC",
-            "headline": "Oil prices fall as Iran, US pursue diplomacy",
-            "url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html"
-          }
-        ]
-      },
-      {
-        "id": "theme-aeon-always-distracted",
-        "affinity": "evening",
-        "topic": "living",
-        "topic_label": "Art of Living",
-        "title": "We have always worried that we are distracted",
-        "importance": 0.75,
-        "thesis": "The complaint about attention is older than screens, and Seneca made it.",
-        "synthesis": "Aeon's essay traces worry about distraction back through the centuries, including to Seneca. It is a useful corrective to the idea that our condition is wholly new, without pretending that nothing has changed.",
-        "new_today": "Pulled from the archive as a counterweight to a week of tickers.",
-        "why_it_matters": "It bears on the question you keep returning to, how to spend attention on purpose, and it comes from a good deal of history.",
-        "thread_id": null,
+        "title": "The tech rout, and what followed",
+        "importance": 0.8,
+        "thesis": "The Nasdaq entered a correction on Thursday and clawed back part of it Friday; the cause attributed is political as much as financial.",
+        "synthesis": "The Nasdaq fell 5.2% on November 5 and the Dow about 1,833 points, with reporting linking the drop to AI and chip stocks and to investors weighing Democrats' midterm wins against the AI boom and data-center build. Friday's Nasdaq gain was 1.09% while the Dow slipped 0.46% to 51,285.73. Causal stories about one-day moves deserve skepticism.",
+        "new_today": "Closing levels now confirm the correction.",
+        "why_it_matters": "A tech drawdown affects wealth effects, sentiment, and the funding backdrop for deals in Miami's growing tech and finance sectors.",
+        "thread_id": "thread-ai-regulation-selloff",
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Aeon",
-            "headline": "We've always been distracted, or at least worried that we are",
-            "url": "https://aeon.co/essays/weve-always-been-distracted-or-at-least-worried-that-we-are"
+            "publisher": "CBS News",
+            "headline": "Stocks rebound after tech selloff that pushed Nasdaq into correction",
+            "url": "https://www.cbsnews.com/news/stocks-tech-sell-off-nasdaq-correction-dow/"
+          },
+          {
+            "role": "analysis",
+            "publisher": "Fox Business",
+            "headline": "Nasdaq rises as AI and chip stocks recover after post-midterm sell-off",
+            "url": "https://www.foxbusiness.com/markets/stocks-11-6-2026.amp"
           }
         ]
       },
       {
-        "id": "theme-aeon-deskilling-the-body",
+        "id": "theme-seneca-shortness-of-life",
         "affinity": "evening",
         "topic": "living",
         "topic_label": "Art of Living",
-        "title": "What leaning on technology does to the body's own skills",
+        "title": "Seneca on a day spent watching one number",
         "importance": 0.6,
-        "thesis": "Wayfinding by GPS may dull the faculty it replaces.",
-        "synthesis": "An Aeon essay argues that reliance on technology deskills our bodies, with GPS weakening spatial attention and the fluency of wayfinding. I have only seen the summary, so treat the argument as the author's claim rather than settled science.",
-        "new_today": "A recent Aeon essay, about four weeks old.",
-        "why_it_matters": "It sits next to your reading on craft and making: skill is something held in the hands and legs, and it fades without use.",
+        "thesis": "Seneca argued that life is long enough if we stop spending it badly.",
+        "synthesis": "De Brevitate Vitae, written around the middle of the first century AD and addressed to Paulinus, makes the case that we are not given a short life but waste much of it. It is a short, readable text and a fair counterweight to a day organised around a data release.",
+        "new_today": "An evergreen pairing for CPI day, not news.",
+        "why_it_matters": "It speaks to the philosophy-of-time thread in your reading and to how much attention a single print deserves.",
         "thread_id": null,
-        "confidence": "low",
+        "confidence": "high",
         "sources": [
           {
-            "role": "primary_reporting",
-            "publisher": "Aeon",
-            "headline": "The more we rely on tech, the more we deskill our bodies",
-            "url": "https://aeon.co/essays/the-more-we-rely-on-tech-the-more-we-deskill-our-bodies"
+            "role": "background",
+            "publisher": "Wikipedia",
+            "headline": "On the Shortness of Life",
+            "url": "https://en.wikipedia.org/wiki/On_the_Shortness_of_Life"
           }
         ]
       }
     ],
     "rabbit_hole": {
-      "id": "rh-2026-11-09",
-      "title": "We've always been distracted, or at least worried that we are",
+      "id": "rh-2026-11-10",
+      "title": "The Radical Reasons Why You Dream of Making Things by Hand",
       "creator": "Aeon",
       "format": "essay",
       "minutes": 20,
-      "why": "Tuesday's data will pull attention toward a single number, so this is a good evening for a long look at how attention has always been contested. It reaches back to Seneca, which pairs with tonight's quote.",
-      "url": "https://aeon.co/essays/weve-always-been-distracted-or-at-least-worried-that-we-are",
+      "why": "You saved this on September 3 and it has waited since; tonight, after a day of watching a number, an essay on making things is a good counterweight. Length is an estimate; I could not open the page this morning.",
+      "url": "https://aeon.co/essays/the-radical-reasons-why-you-dream-of-making-things-by-hand",
       "related_interest": "living"
     },
     "beautiful_thing": {
-      "id": "bt-2026-11-09",
-      "title": "Miami Marine Stadium",
-      "creator": "Hilario Candela",
-      "era": "1963",
-      "body": "Designed by the Cuban-born architect Hilario Candela and opened in 1963 on Virginia Key, the stadium was built to be watched from land while the action happened on the water. Notice the folded-plate concrete roof, which cantilevers over the seating without columns blocking the view. The venue closed after Hurricane Andrew in 1992 and has since become a symbol of preservation efforts.",
-      "url": "https://en.wikipedia.org/wiki/Miami_Marine_Stadium",
+      "id": "bt-2026-11-10",
+      "title": "The Biltmore Hotel, Coral Gables",
+      "creator": "Schultze & Weaver",
+      "era": "1926",
+      "body": "Opened in January 1926 as the centerpiece of George Merrick's Coral Gables, the Biltmore was designed by the firm Schultze & Weaver, with a tower modeled on the Giralda in Seville. Look at how the tower is meant to be seen from a distance, as a landmark above the low city, and then at how the hotel opens onto its pool and courtyards.",
+      "url": "https://en.wikipedia.org/wiki/Biltmore_Hotel_(Coral_Gables)",
       "image": null,
-      "alt": "Concrete grandstand and folded roof of Miami Marine Stadium on Virginia Key"
+      "alt": "The Biltmore Hotel tower rising above Coral Gables."
     },
-    "noticing_prompt": "Before you check any number today, notice what you were doing a moment earlier, and whether the check was a decision or a reflex.",
+    "noticing_prompt": "Notice the moment today you reach for a number you cannot act on. What were you hoping it would settle?",
     "daily_puzzle": {
-      "id": "dp-2026-11-09",
-      "type": "math",
-      "prompt": "A clock takes 5 seconds to strike six. At the same pace, how long does it take to strike twelve?",
-      "hint": "Count the pauses between strikes, not the strikes.",
-      "solution": "11 seconds.",
-      "explanation": "Six strikes have five gaps, so each gap is one second; twelve strikes have eleven gaps."
+      "id": "dp-2026-11-10",
+      "type": "logic",
+      "prompt": "Nine coins look identical, but one is slightly heavier than the rest. You have a balance scale and no weights. What is the fewest number of weighings that guarantees you find the heavy coin, and how?",
+      "hint": "Don't weigh coins one against one. Think in groups of three.",
+      "solution": "Two weighings. Split the coins into three groups of three and weigh two groups against each other: the heavier side holds the coin, or if they balance, the third group does. Then weigh two coins from that group: the heavier is the one, or if they balance, the third coin is.",
+      "explanation": "Each weighing has three outcomes (left heavy, right heavy, balance), so two weighings distinguish up to nine coins."
     },
     "evening_unwind": {
-      "id": "eu-2026-11-09",
+      "id": "eu-2026-11-10",
       "evening_quote": {
-        "text": "We suffer more often in imagination than in reality.",
-        "attribution": "Seneca",
-        "source": "Letters to Lucilius, 13"
+        "text": "Seek not that the things which happen should happen as you wish; but wish the things which happen to be as they are, and you will have a tranquil flow of life.",
+        "attribution": "Epictetus",
+        "source": "Enchiridion, 8 (George Long translation)"
       },
-      "evening_prompt": "What did you spend today bracing for, and what actually happened instead?"
+      "evening_prompt": "Which number did you check today that would not have changed anything you did?"
     },
     "reading_queue": [
       {
         "title": "The Radical Reasons Why You Dream of Making Things by Hand",
         "url": "https://aeon.co/essays/the-radical-reasons-why-you-dream-of-making-things-by-hand",
-        "verdict": "still_valuable",
-        "reason": "Saved September 3; yesterday's rabbit hole, so it may already be read. Mark it done if so."
+        "verdict": "read_soon",
+        "reason": "Saved September 3; tonight's rabbit hole."
       }
     ],
     "quote": {
-      "text": "We suffer more often in imagination than in reality.",
-      "attribution": "Seneca, Letters to Lucilius 13"
+      "text": "Seek not that the things which happen should happen as you wish; but wish the things which happen to be as they are, and you will have a tranquil flow of life.",
+      "attribution": "Epictetus, Enchiridion 8"
     }
   },
   "threads": [
@@ -857,9 +793,9 @@
       "title": "Federal Reserve rate path",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-11-09",
-      "updates": 109,
-      "current_state": "Held 3.75%-4.00% Oct 28; Dec hike odds about 73%-80%; Nasdaq described as in correction; CPI due Nov 10.",
+      "last_updated": "2026-11-10",
+      "updates": 110,
+      "current_state": "Held 3.75%-4.00% Oct 28; Dec hike odds about 73%-78%; October CPI due Nov 10; PPI Nov 13.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -1399,6 +1335,11 @@
         {
           "date": "2026-11-09",
           "summary": "Monday: hike odds reported between about 73% (CME) and 80% (LSEG); Nasdaq described as nearly 12% off its high; CPI Tuesday, PPI Friday.",
+          "change_type": "watch"
+        },
+        {
+          "date": "2026-11-10",
+          "summary": "Tuesday: October CPI due this morning; December 8-9 hike odds about 73% (CME) to 78% after a 165,000-job report.",
           "change_type": "watch"
         }
       ]
@@ -3768,10 +3709,10 @@
       "id": "thread-ai-regulation-selloff",
       "title": "AI-regulation selloff",
       "topic": "markets",
-      "status": "emerging",
-      "last_updated": "2026-11-07",
-      "updates": 2,
-      "current_state": "Friday Nov 6: Nasdaq +1.1% to 24,579.42, S&P +0.3% to 7,376.86 on a chip rebound; Nasdaq still -3.4% on the week.",
+      "status": "active",
+      "last_updated": "2026-11-10",
+      "updates": 3,
+      "current_state": "Nasdaq in correction after Nov 5 drop of 5.2%; partial rebound Nov 6 (+1.09%).",
       "timeline": [
         {
           "date": "2026-11-06",
@@ -3782,6 +3723,11 @@
           "date": "2026-11-07",
           "summary": "Chip stocks rebound Friday after Thursday's AI-regulation selloff; Nasdaq ends the week down 3.4%, S&P down 2.7%.",
           "change_type": "improved"
+        },
+        {
+          "date": "2026-11-10",
+          "summary": "Closing data confirm Nasdaq fell 5.2% on Nov 5 into correction territory (10%+ below its Oct 6 high); Friday rebound of 1.09%; Dow closed Nov 6 at 51,285.73.",
+          "change_type": "advanced"
         }
       ]
     }
@@ -3805,7 +3751,7 @@
     }
   ],
   "meta": {
-    "content_freshness": "2026-11-09T09:30:00-05:00",
+    "content_freshness": "2026-11-10T09:30:00-05:00",
     "feedback_endpoint_mode": "github_contents",
     "minimum_client_schema_version": 1,
     "mode": "brain"
