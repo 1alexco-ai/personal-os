@@ -1,239 +1,454 @@
 {
   "schema_version": 2,
   "edition": {
-    "id": "2026-11-10",
-    "date": "2026-11-10",
+    "id": "2026-11-11",
+    "date": "2026-11-11",
     "type": "weekday",
-    "generated_at": "2026-11-10T09:30:00-05:00",
+    "generated_at": "2026-11-11T09:30:00-05:00",
     "timezone": "America/New_York",
     "title": "Personal OS",
     "front_page_letter": {
       "greeting": "Good morning",
       "body_paragraphs": [
-        "Good morning. Tuesday, November 10.",
-        "The number arrives today. October CPI is due this morning, into a market that has had a rough week: on Thursday, November 5, the Nasdaq fell 5.2% and closed in correction territory, with one account tying the rout to investors weighing the midterm results against the AI and data-center buildout. Friday brought a partial rebound, up 1.09%. Meanwhile a strong jobs report, 165,000 added, pushed yields up and December hike odds to roughly 73% on the CME tool.",
-        "I could not verify Monday's close this morning, so the market panel below carries Friday's levels and says so. That is the honest edge of what I know. What I would hold loosely is any confident story about what today's print will do; the hike case is already mostly priced, and a soft number may only trim it.",
-        "Evening reading is a long essay on why people dream of making things by hand, and Seneca on the shortness of life, which seems the right pairing for a day spent watching a single figure."
+        "Good morning. Wednesday, November 11, Veterans Day.",
+        "The number came in hot. October CPI rose 0.4%, core 0.3%, each a tenth above forecast, and the December question has moved from whether the Fed hikes to by how much. Reports put the odds of standing pat near 3%, with a half-point move now a minority but real possibility. The 2-year jumped and the 10-year briefly touched 5% again; the flatter curve is the part to watch if you carry floating-rate debt.",
+        "Stocks took it calmly. Monday was the best day for the S&P 500 since April, up 2.35%, and Tuesday gave back only 0.38%. That tells you the hike was already in the price. What is not in the price is a 50 basis point surprise, and Friday's PPI is the next chance to move that.",
+        "Closer to home, the Canes fell to No. 7 in the playoff rankings, Giannis said out loud that the Heat do not trust one another and then won in Utah, and the Panthers ended a skid in Columbus.",
+        "For tonight: the armistice took effect at the eleventh hour, and men died in the minutes before it. Owen's sonnet and Marcus Aurelius on the only life you can lose make a quiet pair."
       ],
       "read_only_three": [
         {
           "target_type": "theme",
-          "target_id": "theme-cpi-day-hike-odds",
-          "label": "CPI day and the hike odds"
+          "target_id": "theme-hot-cpi-hike-priced",
+          "label": "The hot print and the hike"
         },
         {
           "target_type": "theme",
-          "target_id": "theme-nasdaq-correction-confirmed",
-          "label": "The Nasdaq correction"
+          "target_id": "theme-five-percent-and-the-pipeline",
+          "label": "Five percent, again"
         },
         {
-          "target_type": "rabbit_hole",
-          "target_id": "rh-2026-11-10",
-          "label": "Making things by hand"
+          "target_type": "theme",
+          "target_id": "theme-eleventh-hour",
+          "label": "The eleventh hour"
         }
       ]
     },
     "market_context": [
       {
         "label": "S&P 500",
-        "value": "7,376.86",
-        "change": "+0.3%",
-        "observed": "Close, Friday, November 6, 2026",
-        "note": "Last verified close; Monday's close could not be confirmed this morning. Down about 2.7% on the week."
+        "value": "7,520.93",
+        "change": "-0.38%",
+        "observed": "Close, Tuesday, November 10, 2026",
+        "note": "Rose 2.35% to 7,549.94 on Monday, November 9, its best day since April; about 3.8% below the October 6 record close."
       },
       {
         "label": "Nasdaq Composite",
-        "value": "24,579.42",
-        "change": "+1.1%",
-        "observed": "Close, Friday, November 6, 2026",
-        "note": "Fell 5.2% on Thursday, November 5, closing in correction territory (10%+ below its October 6 high)."
+        "value": "25,065.87",
+        "change": "-0.74%",
+        "observed": "Close, Tuesday, November 10, 2026",
+        "note": "Up 2.74% on Monday to 25,253.14 before the CPI giveback."
       },
       {
         "label": "Dow Jones Industrial Average",
-        "value": "51,285.73",
-        "change": "-0.46%",
-        "observed": "Close, Friday, November 6, 2026",
-        "note": "Down about 1,833 points on Thursday before Friday's small decline."
+        "value": "52,231.89",
+        "change": "-0.30%",
+        "observed": "Close, Tuesday, November 10, 2026",
+        "note": "Gained 1,104 points on Monday to 52,389.75."
       },
       {
         "label": "10-year Treasury",
-        "value": "4.90%",
-        "change": "-5 bp",
-        "observed": "Wednesday, November 4, 2026",
-        "note": "Stale by several days; yields rose after Friday's jobs report but a current level was not verified."
+        "value": "about 4.95%-5.02%",
+        "change": "up roughly 9-15 bp on the CPI",
+        "observed": "Intraday, Tuesday, November 10, 2026",
+        "note": "Close not verified; reports differ on the level. Settled 4.858% Friday, November 6. Bond market typically closed today for Veterans Day."
       },
       {
         "label": "FOMC",
         "value": "Held 3.75%-4.00% on October 28",
-        "change": "Dec 8-9 hike odds about 73% (CME FedWatch)",
-        "observed": "As of Friday, November 6, 2026",
-        "note": "Another source cites about 78%. October CPI is due today, November 10; PPI Friday."
+        "change": "December 8-9 hike near fully priced",
+        "observed": "After CPI, Tuesday, November 10, 2026",
+        "note": "Reports cite no-change odds near 3% and 50 bp odds around 10%-14% (CME FedWatch). Meeting is 27 days out; PPI Friday, November 13."
       }
     ],
     "public_day_context": {
-      "date_label": "Tuesday, November 10, 2026",
+      "date_label": "Wednesday, November 11, 2026",
       "weather": "Not verified this morning; check NWS Miami (weather.gov/mfl) for today's forecast.",
-      "public_event": "October CPI is due today; PPI Friday, November 13. A Panthers game against Columbus is listed for tonight at 7:30 p.m. ET (listing unconfirmed)."
+      "public_event": "Veterans Day: federal offices closed and the bond market typically closed; stock exchanges open. Heat listed at the Clippers tonight (listing unconfirmed). PPI Friday, November 13; GTA VI launches November 19."
     },
     "what_changed": [
       {
-        "id": "delta-nasdaq-correction-confirmed",
-        "thread_id": "thread-ai-regulation-selloff",
-        "change_type": "advanced",
-        "title": "The Nasdaq's correction is now confirmed in the closing numbers",
-        "previous_state": "Yesterday's edition relied on one outlet describing the index as nearly 12% off its high.",
-        "current_state": "The Nasdaq closed Thursday, November 5, down 5.2% and 10%+ below its October 6 record close, then rebounded 1.09% on Friday.",
-        "why_it_matters": "A confirmed correction in AI-linked equities is a sentiment channel into rates and risk appetite ahead of CPI.",
-        "confidence": "medium",
+        "id": "delta-cpi-hot",
+        "thread_id": "thread-fed-rate-path",
+        "change_type": "worsened",
+        "title": "October CPI beat forecasts on headline and core",
+        "previous_state": "The report was due, with consensus at +0.3% headline and +0.2% core month over month.",
+        "current_state": "Headline rose 0.4% and core 0.3%; no official year-over-year rate was published because of the 2025 shutdown gap.",
+        "why_it_matters": "It removes most of the remaining doubt about a December hike.",
+        "confidence": "high",
         "source": {
-          "publisher": "CBS News",
-          "url": "https://www.cbsnews.com/news/stocks-tech-sell-off-nasdaq-correction-dow/"
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html"
         }
       },
       {
-        "id": "delta-cpi-day",
+        "id": "delta-hike-odds-near-full",
         "thread_id": "thread-fed-rate-path",
-        "change_type": "watch",
-        "title": "October CPI is due today",
-        "previous_state": "The report was the following day on the calendar.",
-        "current_state": "It lands this morning with December hike odds near 73% to 78% depending on the source.",
-        "why_it_matters": "The print decides whether a December hike moves from likely to near-certain, and sets the tone for cap rates and refinancing.",
+        "change_type": "advanced",
+        "title": "A December hike went from likely to nearly certain",
+        "previous_state": "CME FedWatch showed roughly 73% odds of a December 8-9 hike.",
+        "current_state": "Reports put no-change odds near 3%, with half-point odds around 10%-14%; the 10-year briefly retested 5%.",
+        "why_it_matters": "The live question is now the size of the move, which matters most for floating-rate debt.",
         "confidence": "medium",
         "source": {
-          "publisher": "FXStreet",
-          "url": "https://www.fxstreet.com/analysis/ai-selloff-what-bonds-and-credit-markets-reveal-202611082143"
+          "publisher": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/economy/policy/article/hot-inflation-report-has-wall-street-eyeing-whether-the-fed-could-make-a-jumbo-rate-hike-next-month-164942156.html"
+        }
+      },
+      {
+        "id": "delta-stocks-rebound-confirmed",
+        "thread_id": "thread-ai-regulation-selloff",
+        "change_type": "improved",
+        "title": "Monday's rebound was large, and Tuesday's giveback small",
+        "previous_state": "Yesterday's edition could not verify Monday's close and carried Friday's levels.",
+        "current_state": "S&P 500 +2.35% Monday to 7,549.94 (best day since April), then -0.38% Tuesday to 7,520.93; Nasdaq +2.74% then -0.74% to 25,065.87.",
+        "why_it_matters": "Equities absorbed a hot print without a second leg down, a sign the hike was already priced.",
+        "confidence": "high",
+        "source": {
+          "publisher": "TheStreet",
+          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-10-2026"
+        }
+      },
+      {
+        "id": "delta-canes-no-seven",
+        "thread_id": "thread-hurricanes-fall-camp",
+        "change_type": "worsened",
+        "title": "Miami falls from No. 1 to No. 7 in the CFP rankings",
+        "previous_state": "Miami was No. 1 in the first rankings, before losing 31-24 at Notre Dame.",
+        "current_state": "Miami is No. 7 at 8-1; Notre Dame is No. 5 and Georgia No. 1.",
+        "why_it_matters": "Miami is in the field for now but outside the four byes.",
+        "confidence": "high",
+        "source": {
+          "publisher": "NCAA.com",
+          "url": "https://www.ncaa.com/news/football/article/2026-11-10/georgia-utah-lead-second-college-football-playoff-rankings-2026"
         }
       }
     ],
     "themes": [
       {
-        "id": "theme-cpi-day-hike-odds",
+        "id": "theme-hot-cpi-hike-priced",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "CPI day: a hike that is mostly priced",
+        "title": "The print ran hot, and the hike is all but priced",
         "importance": 0.95,
-        "thesis": "Today's inflation print will confirm or soften a December hike that markets already largely expect.",
-        "synthesis": "A jobs report showing 165,000 added positions, well above forecasts, pushed Treasury yields and hike odds higher; the CME tool put a December 8-9 hike near 73% and another source near 78%. After last week's equity shock, bond and credit markets are being read for signs of stress. I could not find a reliable consensus for the October CPI figure, so I will not offer one.",
-        "new_today": "The release is today.",
-        "why_it_matters": "Rates set cap rates and refinancing terms for every deal in the pipeline; a hotter print raises the cost of carrying floating-rate debt.",
+        "thesis": "October's inflation report turned a likely December hike into a near-certainty and put a half-point move into the conversation.",
+        "synthesis": "Headline CPI rose 0.4% in October and core 0.3%, each a tenth above consensus. There is no official year-over-year figure this month, because no prices were collected in October 2025 during the shutdown, so the monthly numbers carry the story. Reports after the release put the odds of no December move near 3% on the CME tool, with half-point odds somewhere around 10% to 14%; at least one Fed official was reported as open to discussing a larger step. PPI on Friday is the next data point.",
+        "new_today": "The CPI is out and it beat forecasts on both headline and core; the December question has moved from whether to how much.",
+        "why_it_matters": "Short rates moved most, and short rates price floating-rate construction and bridge debt. A 50 bp surprise in December would land directly on carry costs for anything in the pipeline.",
         "thread_id": "thread-fed-rate-path",
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "FXStreet",
-            "headline": "AI selloff: What bonds and credit markets reveal",
-            "url": "https://www.fxstreet.com/analysis/ai-selloff-what-bonds-and-credit-markets-reveal-202611082143"
+            "publisher": "CNBC",
+            "headline": "CPI inflation report: October 2026",
+            "url": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html"
+          },
+          {
+            "role": "analysis",
+            "publisher": "Yahoo Finance",
+            "headline": "Hot inflation report has Wall Street eyeing whether the Fed could make a jumbo rate hike next month",
+            "url": "https://finance.yahoo.com/economy/policy/article/hot-inflation-report-has-wall-street-eyeing-whether-the-fed-could-make-a-jumbo-rate-hike-next-month-164942156.html"
           },
           {
             "role": "background",
-            "publisher": "Schwab",
-            "headline": "Stocks Mixed, Yields Up on Surging U.S. Job Growth",
-            "url": "https://www.schwab.com/learn/story/stock-market-update-open"
+            "publisher": "Kiplinger",
+            "headline": "October CPI Report: What the Inflation Data Is Expected to Show",
+            "url": "https://www.kiplinger.com/investing/economy/october-2026-cpi-report-what-to-expect"
           }
         ]
       },
       {
-        "id": "theme-nasdaq-correction-confirmed",
+        "id": "theme-monday-rally-tuesday-giveback",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "The tech rout, and what followed",
+        "title": "A big Monday, a small Tuesday",
         "importance": 0.8,
-        "thesis": "The Nasdaq entered a correction on Thursday and clawed back part of it Friday; the cause attributed is political as much as financial.",
-        "synthesis": "The Nasdaq fell 5.2% on November 5 and the Dow about 1,833 points, with reporting linking the drop to AI and chip stocks and to investors weighing Democrats' midterm wins against the AI boom and data-center build. Friday's Nasdaq gain was 1.09% while the Dow slipped 0.46% to 51,285.73. Causal stories about one-day moves deserve skepticism.",
-        "new_today": "Closing levels now confirm the correction.",
-        "why_it_matters": "A tech drawdown affects wealth effects, sentiment, and the funding backdrop for deals in Miami's growing tech and finance sectors.",
+        "thesis": "Stocks staged their best day since April and then gave back only a slice of it to the CPI.",
+        "synthesis": "On Monday, November 9, the S&P 500 rose 2.35% to 7,549.94 and the Nasdaq 2.74% to 25,253.14, with the Dow up 1,104 points; coverage credited a rebound in chipmakers after last week's AI-linked rout. Tuesday's hot CPI took the S&P 500 down 0.38% to 7,520.93 and the Nasdaq down 0.74% to 25,065.87. The S&P 500 sits about 3.8% below its October 6 record close of 7,818.93.",
+        "new_today": "Two closes I could not verify yesterday are now confirmed, and the market's reaction to the CPI was measured rather than violent.",
+        "why_it_matters": "The muted Tuesday says the hike was largely in the price already; the risk now is a half-point surprise, not a quarter-point one.",
         "thread_id": "thread-ai-regulation-selloff",
+        "confidence": "high",
+        "sources": [
+          {
+            "role": "primary_reporting",
+            "publisher": "TheStreet",
+            "headline": "Stock Market Today (Nov. 10, 2026): Nasdaq falls after key inflation report derails strong start to week",
+            "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-10-2026"
+          },
+          {
+            "role": "background",
+            "publisher": "Yahoo Finance (Zacks)",
+            "headline": "Stock Market News for Nov 10, 2026",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-10-094800346.html"
+          }
+        ]
+      },
+      {
+        "id": "theme-five-percent-and-the-pipeline",
+        "affinity": "morning",
+        "topic": "markets",
+        "topic_label": "Markets & Macro",
+        "title": "Five percent, again",
+        "importance": 0.75,
+        "thesis": "The 10-year pushed back toward 5% on the print, but the more important move was at the short end.",
+        "synthesis": "Reports put the 10-year between roughly 4.95% and 5.02% intraday after the release, up from a 4.86% settlement on Friday, November 6; I could not confirm Tuesday's close. The 2-year jumped about 16 to 19 basis points, flattening the 2s10s spread to around 32 basis points from 47 a month ago. The 10-year is still below its early-October peak near 5.3%.",
+        "new_today": "Yields re-tested 5% on the CPI, and the curve flattened as traders repriced the Fed.",
+        "why_it_matters": "A flatter curve with a higher front end is the worst combination for floating-rate borrowers and for refinancing math on Miami office, where vacancy is still near 14%.",
+        "thread_id": "thread-cre-capital-markets-2026",
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "CBS News",
-            "headline": "Stocks rebound after tech selloff that pushed Nasdaq into correction",
-            "url": "https://www.cbsnews.com/news/stocks-tech-sell-off-nasdaq-correction-dow/"
+            "publisher": "Invezz",
+            "headline": "10-year Treasury yield tops 5% after hotter CPI data increases rate hike odds",
+            "url": "https://invezz.com/uk/news/2026/11/10/10-year-treasury-yield-tops-5percent-after-hotter-cpi-data-increases-rate-hike-odds/"
           },
           {
-            "role": "analysis",
-            "publisher": "Fox Business",
-            "headline": "Nasdaq rises as AI and chip stocks recover after post-midterm sell-off",
-            "url": "https://www.foxbusiness.com/markets/stocks-11-6-2026.amp"
+            "role": "background",
+            "publisher": "Advisor Perspectives",
+            "headline": "Treasury Yields Snapshot: November 6, 2026",
+            "url": "https://www.advisorperspectives.com/dshort/updates/2026/11/06/treasury-yields-snapshot-november-6-2026"
           }
         ]
       },
       {
-        "id": "theme-seneca-shortness-of-life",
+        "id": "theme-wynwood-campus-premium",
+        "affinity": "morning",
+        "topic": "miami",
+        "topic_label": "Miami Life & Culture",
+        "title": "Wynwood prices in a campus that is years away",
+        "importance": 0.55,
+        "thesis": "Retail demand around Griffin's Carnegie Mellon site is rising now, though the campus itself, and its students, will take years to arrive.",
+        "synthesis": "The Real Deal reported on November 9 that the Mana Wynwood purchase is lifting retail demand, while Colliers data put average Wynwood and Design District rents slightly down year over year in Q3, at $58.23 a foot, even as Second Avenue frontage reaches about $100. Brokers are already marketing nearby sites by their walking distance to the campus. One research note argues the opposite for the near term: losing Mana's festival and convention traffic may weigh on area retail for years before campus spending replaces it.",
+        "new_today": "The first reporting that ties the campus to retail leasing demand, set against flat-to-down average rents.",
+        "why_it_matters": "This is the familiar pattern of an anchor being priced before it opens; the spread between asking rents on frontage and the district average is where the speculation shows.",
+        "thread_id": "thread-griffin-wynwood-cmu",
+        "confidence": "medium",
+        "sources": [
+          {
+            "role": "primary_reporting",
+            "publisher": "Commercial Property Executive",
+            "headline": "What Carnegie Mellon's $2B Campus Means for Wynwood",
+            "url": "https://www.commercialsearch.com/news/what-carnegie-mellons-2b-campus-means-for-wynwood/"
+          },
+          {
+            "role": "local_perspective",
+            "publisher": "Bisnow",
+            "headline": "Carnegie Mellon's Ken Griffin-Backed Campus Has Miami Developers Salivating",
+            "url": "https://www.bisnow.com/news/south-florida/economic-development/carnegie-mellon-ken-griffin-wynwood-development"
+          }
+        ]
+      },
+      {
+        "id": "theme-canes-fall-to-seven",
+        "affinity": "morning",
+        "topic": "sports",
+        "topic_label": "Miami Sports",
+        "title": "The Canes drop to No. 7",
+        "importance": 0.7,
+        "thesis": "One loss cost Miami the top spot and the bye line, though not a place in the field.",
+        "synthesis": "The committee's second rankings, released Tuesday, November 10, put Georgia at No. 1, followed by Utah, Alabama and UCLA. Miami, 8-1 after the 31-24 loss at Notre Dame, fell from No. 1 to No. 7; Notre Dame rose to No. 5 on the head-to-head result. The top four seeds earn first-round byes; the field is set December 6.",
+        "new_today": "The first official ranking since the Notre Dame loss.",
+        "why_it_matters": "At No. 7 Miami is safely in a 12-team bracket for now, but a home first-round game, not a bye, is the realistic ceiling unless teams above stumble.",
+        "thread_id": "thread-hurricanes-fall-camp",
+        "confidence": "high",
+        "sources": [
+          {
+            "role": "primary_reporting",
+            "publisher": "NCAA.com",
+            "headline": "Georgia, Utah lead the second College Football Playoff rankings of 2026",
+            "url": "https://www.ncaa.com/news/football/article/2026-11-10/georgia-utah-lead-second-college-football-playoff-rankings-2026"
+          },
+          {
+            "role": "analysis",
+            "publisher": "CBS Sports",
+            "headline": "College Football Playoff Rankings: Georgia moves to No. 1 as Alabama, UCLA join top four in second release",
+            "url": "https://www.cbssports.com/college-football/news/college-football-playoff-rankings-top-25-2026-week-11/"
+          }
+        ]
+      },
+      {
+        "id": "theme-heat-trust-and-a-road-win",
+        "affinity": "morning",
+        "topic": "sports",
+        "topic_label": "Miami Sports",
+        "title": "Giannis names the problem, then wins in Utah",
+        "importance": 0.6,
+        "thesis": "A blunt quote after a blowout in Los Angeles was followed by a needed road win.",
+        "synthesis": "After a 138-117 loss to the Lakers on Monday, in which he had 30 points, 12 rebounds and seven turnovers, Giannis Antetokounmpo said: \"Right now, we don't trust one another.\" On Tuesday the Heat won 115-109 at Utah, with Giannis again scoring 30 and Davion Mitchell adding 19. He is managing a right wrist sprain and is listed as probable for the Clippers.",
+        "new_today": "Two games since the last edition: a loss with a pointed quote, and a win.",
+        "why_it_matters": "Early-season trust talk from the franchise's new centerpiece is the kind of thing that either hardens or vanishes within a month; worth watching how Spoelstra answers it.",
+        "thread_id": "thread-heat-giannis-era",
+        "confidence": "high",
+        "sources": [
+          {
+            "role": "primary_reporting",
+            "publisher": "ESPN",
+            "headline": "Heat 115-109 Jazz (Nov 10, 2026) Game Recap",
+            "url": "https://www.espn.com/nba/recap?gameId=401909963"
+          },
+          {
+            "role": "analysis",
+            "publisher": "ESPN",
+            "headline": "What's fueling the rocky start for Giannis Antetokounmpo and the Miami Heat",
+            "url": "https://www.espn.com/nba/story/_/id/50425453/miami-heat-giannis-antetokounmpo-erik-spoelstra"
+          },
+          {
+            "role": "local_perspective",
+            "publisher": "Yahoo Sports",
+            "headline": "\"We don't trust one another\" - Giannis Antetokounmpo sounded the alarm on Miami Heat's slide",
+            "url": "https://sports.yahoo.com/articles/dont-trust-one-another-giannis-151257812.html"
+          }
+        ]
+      },
+      {
+        "id": "theme-panthers-bennett-columbus",
+        "affinity": "morning",
+        "topic": "sports",
+        "topic_label": "Miami Sports",
+        "title": "Bennett twice, Markstrom 37: Panthers stop the skid",
+        "importance": 0.5,
+        "thesis": "Florida answered two straight losses with a controlled road win.",
+        "synthesis": "The Panthers beat Columbus 4-1 at Nationwide Arena on Tuesday. After a scoreless first, Sam Bennett opened the scoring on the power play and added a second at 4-on-4 early in the third; Jacob Markstrom stopped 37 of 38 shots, and Sam Reinhart finished with an empty-netter.",
+        "new_today": "Win at Columbus ends a two-game losing streak.",
+        "why_it_matters": "A goalie stealing a road game is the template for how this team survives its injury list until it is whole.",
+        "thread_id": "thread-panthers-2026-27-season",
+        "confidence": "high",
+        "sources": [
+          {
+            "role": "primary_reporting",
+            "publisher": "NHL.com",
+            "headline": "Bennett scores twice, Panthers hold off Blue Jackets",
+            "url": "https://www.nhl.com/news/florida-panthers-columbus-blue-jackets-game-recap-november-10-2026"
+          },
+          {
+            "role": "local_perspective",
+            "publisher": "Florida Hockey Now",
+            "headline": "Cannon Fodder: Panthers Play a Solid Game, Beat Blue Jackets Again",
+            "url": "https://floridahockeynow.com/florida-panthers-4-columbus-blue-jackets-1-nov-10-2026-game-recap-summary/"
+          }
+        ]
+      },
+      {
+        "id": "theme-eleventh-hour",
         "affinity": "evening",
         "topic": "living",
         "topic_label": "Art of Living",
-        "title": "Seneca on a day spent watching one number",
+        "title": "The eleventh hour",
         "importance": 0.6,
-        "thesis": "Seneca argued that life is long enough if we stop spending it badly.",
-        "synthesis": "De Brevitate Vitae, written around the middle of the first century AD and addressed to Paulinus, makes the case that we are not given a short life but waste much of it. It is a short, readable text and a fair counterweight to a day organised around a data release.",
-        "new_today": "An evergreen pairing for CPI day, not news.",
-        "why_it_matters": "It speaks to the philosophy-of-time thread in your reading and to how much attention a single print deserves.",
+        "thesis": "The armistice was signed hours before it took effect, and men kept dying in the interval because a clock said so.",
+        "synthesis": "The armistice ending the First World War was signed early on November 11, 1918, and set to take effect at 11 a.m. Fighting continued through the morning. Henry Gunther, a soldier from Baltimore, was killed at about 10:59, a minute before the deadline; Pershing's order the next day recorded him as the last American killed in the war, though historians still debate the circumstances. Today is Veterans Day, the holiday that grew out of that date.",
+        "new_today": "Today is November 11.",
+        "why_it_matters": "A deadline is an abstraction until someone is on the wrong side of it. On a day when markets reprice off a tenth of a point, it is worth remembering how arbitrary and how real a line on a clock can be.",
         "thread_id": null,
         "confidence": "high",
         "sources": [
           {
+            "role": "primary_reporting",
+            "publisher": "NBC News",
+            "headline": "Sgt. Henry Gunther: Was Last American Death of WWI Hero or Victim?",
+            "url": "https://www.nbcnews.com/news/world/sgt-henry-gunther-was-last-american-death-wwi-hero-or-n245056"
+          },
+          {
             "role": "background",
             "publisher": "Wikipedia",
-            "headline": "On the Shortness of Life",
-            "url": "https://en.wikipedia.org/wiki/On_the_Shortness_of_Life"
+            "headline": "Henry Gunther",
+            "url": "https://en.wikipedia.org/wiki/Henry_Gunther"
+          }
+        ]
+      },
+      {
+        "id": "theme-vice-city-eight-days",
+        "affinity": "evening",
+        "topic": "miami",
+        "topic_label": "Miami Life & Culture",
+        "title": "Eight days to Vice City",
+        "importance": 0.45,
+        "thesis": "A satirical Miami is about to become the most-visited version of the city, and the real one has been bidding to be part of it.",
+        "synthesis": "Rockstar's Grand Theft Auto VI opened digital pre-loading on November 10 and launches November 19 on PlayStation 5 and Xbox Series X|S, single-player first, with no PC date. The game is set in Leonida, a fictional Florida, and its Vice City is Miami seen through a funhouse mirror. Local governments have pursued their own tie-in deals with the studio, as this edition has tracked since September.",
+        "new_today": "Pre-load is open; launch is set for November 19.",
+        "why_it_matters": "For many people around the world, this will be the Miami they know best. That is a strange kind of civic image, and a real one: cities have long been shaped by how they are depicted.",
+        "thread_id": "thread-miami-vice-city-gta6-pitch",
+        "confidence": "high",
+        "sources": [
+          {
+            "role": "primary_reporting",
+            "publisher": "Rockstar Games",
+            "headline": "Grand Theft Auto VI is Now Set to Launch November 19, 2026",
+            "url": "https://www.rockstargames.com/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026"
+          },
+          {
+            "role": "background",
+            "publisher": "Yahoo Tech",
+            "headline": "'GTA 6' officially launches next week and is available for pre-load now",
+            "url": "https://tech.yahoo.com/gaming/breaking-news/article/gta-6-officially-launches-next-week-and-is-available-for-pre-load-now-everything-you-need-to-know-about-the-highly-anticipated-rockstar-game-161535458.html"
           }
         ]
       }
     ],
     "rabbit_hole": {
-      "id": "rh-2026-11-10",
-      "title": "The Radical Reasons Why You Dream of Making Things by Hand",
-      "creator": "Aeon",
+      "id": "rh-2026-11-11",
+      "title": "The Great Inflation",
+      "creator": "Michael Bryan, Federal Reserve History",
       "format": "essay",
-      "minutes": 20,
-      "why": "You saved this on September 3 and it has waited since; tonight, after a day of watching a number, an essay on making things is a good counterweight. Length is an estimate; I could not open the page this morning.",
-      "url": "https://aeon.co/essays/the-radical-reasons-why-you-dream-of-making-things-by-hand",
-      "related_interest": "living"
+      "minutes": 25,
+      "why": "The Fed is now debating a hike after a hot print, with a half-point on the table; this is the canonical account of how 1965 to 1982 went wrong, through motive, means and opportunity, and how belief in an easy trade-off made it worse. It is the best free primer on why central bankers are so wary of a tenth of a point, and it reads well slowly. Length is an estimate.",
+      "url": "https://www.federalreservehistory.org/essays/great-inflation",
+      "related_interest": "markets"
     },
     "beautiful_thing": {
-      "id": "bt-2026-11-10",
-      "title": "The Biltmore Hotel, Coral Gables",
-      "creator": "Schultze & Weaver",
-      "era": "1926",
-      "body": "Opened in January 1926 as the centerpiece of George Merrick's Coral Gables, the Biltmore was designed by the firm Schultze & Weaver, with a tower modeled on the Giralda in Seville. Look at how the tower is meant to be seen from a distance, as a landmark above the low city, and then at how the hotel opens onto its pool and courtyards.",
-      "url": "https://en.wikipedia.org/wiki/Biltmore_Hotel_(Coral_Gables)",
+      "id": "bt-2026-11-11",
+      "title": "Anthem for Doomed Youth",
+      "creator": "Wilfred Owen",
+      "era": "1917",
+      "body": "Owen drafted this sonnet in 1917 at Craiglockhart War Hospital, where Siegfried Sassoon read the drafts and suggested changes. Notice how the first eight lines are all noise, guns, rifles and shells standing in for the funeral rites the dead will never get, and how the last six turn to silence at home: candles in the eyes of boys, the pallor of girls, and the closing image of each slow dusk as a drawing-down of blinds. Owen was killed on November 4, 1918; his family received the telegram on Armistice Day, as the bells were ringing. The poem was published after his death.",
+      "url": "https://en.wikipedia.org/wiki/Anthem_for_Doomed_Youth",
       "image": null,
-      "alt": "The Biltmore Hotel tower rising above Coral Gables."
+      "alt": "Text of Wilfred Owen's sonnet 'Anthem for Doomed Youth'"
     },
-    "noticing_prompt": "Notice the moment today you reach for a number you cannot act on. What were you hoping it would settle?",
+    "noticing_prompt": "Notice today where a deadline is doing the deciding for you. Would the thing be any different an hour earlier or later?",
     "daily_puzzle": {
-      "id": "dp-2026-11-10",
-      "type": "logic",
-      "prompt": "Nine coins look identical, but one is slightly heavier than the rest. You have a balance scale and no weights. What is the fewest number of weighings that guarantees you find the heavy coin, and how?",
-      "hint": "Don't weigh coins one against one. Think in groups of three.",
-      "solution": "Two weighings. Split the coins into three groups of three and weigh two groups against each other: the heavier side holds the coin, or if they balance, the third group does. Then weigh two coins from that group: the heavier is the one, or if they balance, the third coin is.",
-      "explanation": "Each weighing has three outcomes (left heavy, right heavy, balance), so two weighings distinguish up to nine coins."
+      "id": "dp-2026-11-11",
+      "type": "math",
+      "prompt": "I am a three-digit number. My tens digit is five more than my ones digit, and my hundreds digit is eight less than my tens digit. What number am I?",
+      "hint": "The hundreds digit of a three-digit number cannot be zero. Start there.",
+      "solution": "194.",
+      "explanation": "The hundreds digit is the tens digit minus 8, so the tens digit must be 8 or 9; it must be 9 to keep the hundreds digit at least 1. Then the hundreds digit is 1 and the ones digit is 9 - 5 = 4."
     },
     "evening_unwind": {
-      "id": "eu-2026-11-10",
+      "id": "eu-2026-11-11",
       "evening_quote": {
-        "text": "Seek not that the things which happen should happen as you wish; but wish the things which happen to be as they are, and you will have a tranquil flow of life.",
-        "attribution": "Epictetus",
-        "source": "Enchiridion, 8 (George Long translation)"
+        "text": "Though thou shouldst be going to live three thousand years, and as many times ten thousand years, still remember that no man loses any other life than this which he now lives, nor lives any other than this which he now loses.",
+        "attribution": "Marcus Aurelius",
+        "source": "Meditations, 2.14 (George Long translation)"
       },
-      "evening_prompt": "Which number did you check today that would not have changed anything you did?"
+      "evening_prompt": "Of everything today's tenth of a percentage point was supposed to change, what has actually changed about the evening you are living now?"
     },
     "reading_queue": [
       {
         "title": "The Radical Reasons Why You Dream of Making Things by Hand",
         "url": "https://aeon.co/essays/the-radical-reasons-why-you-dream-of-making-things-by-hand",
-        "verdict": "read_soon",
-        "reason": "Saved September 3; tonight's rabbit hole."
+        "verdict": "weekend",
+        "reason": "Saved September 3 and tagged for the weekend; it has been offered on weeknights without landing, so it waits for Saturday."
       }
     ],
     "quote": {
-      "text": "Seek not that the things which happen should happen as you wish; but wish the things which happen to be as they are, and you will have a tranquil flow of life.",
-      "attribution": "Epictetus, Enchiridion 8"
+      "text": "Though thou shouldst be going to live three thousand years, and as many times ten thousand years, still remember that no man loses any other life than this which he now lives, nor lives any other than this which he now loses.",
+      "attribution": "Marcus Aurelius, Meditations 2.14"
     }
   },
   "threads": [
@@ -793,9 +1008,9 @@
       "title": "Federal Reserve rate path",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-11-10",
-      "updates": 110,
-      "current_state": "Held 3.75%-4.00% Oct 28; Dec hike odds about 73%-78%; October CPI due Nov 10; PPI Nov 13.",
+      "last_updated": "2026-11-11",
+      "updates": 111,
+      "current_state": "October CPI ran hot (headline +0.4%, core +0.3% m/m vs 0.3%/0.2% expected); a December 8-9 hike is now close to fully priced, with a small chance of 50 bp. PPI Friday, November 13.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -1341,6 +1556,11 @@
           "date": "2026-11-10",
           "summary": "Tuesday: October CPI due this morning; December 8-9 hike odds about 73% (CME) to 78% after a 165,000-job report.",
           "change_type": "watch"
+        },
+        {
+          "date": "2026-11-11",
+          "summary": "October CPI came in hot: headline +0.4% and core +0.3% month over month, each a tenth above forecasts. No-change odds for December fell to about 3% in one CME FedWatch reading; half-point odds rose to roughly 10%-14%. 10-year briefly back near 5%.",
+          "change_type": "worsened"
         }
       ]
     },
@@ -1680,9 +1900,9 @@
       "title": "Heat: the Giannis era begins",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-11-06",
-      "updates": 30,
-      "current_state": "Heat 3-6 after 120-100 loss at Golden State Nov 5; Sacramento next Nov 8.",
+      "last_updated": "2026-11-11",
+      "updates": 31,
+      "current_state": "Lost 138-117 at the Lakers on Nov 9 (Giannis: 'we don't trust one another'), then won 115-109 at Utah on Nov 10 behind his 30 points. Clippers listed next.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -1828,6 +2048,11 @@
           "date": "2026-11-06",
           "summary": "Lost 120-100 at Golden State; Adebayo had career-type 35 in OT win at Clippers a night earlier.",
           "change_type": "worsened"
+        },
+        {
+          "date": "2026-11-11",
+          "summary": "Lost 138-117 to the Lakers Monday, after which Giannis said the team does not trust one another; beat Utah 115-109 Tuesday with Giannis scoring 30.",
+          "change_type": "advanced"
         }
       ]
     },
@@ -2257,9 +2482,9 @@
       "title": "Miami Hurricanes fall camp and the Mensah era",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-11-08",
-      "updates": 39,
-      "current_state": "No. 1 Miami lost 31-24 at Notre Dame on Nov 7; ranking and playoff margin now in question.",
+      "last_updated": "2026-11-11",
+      "updates": 40,
+      "current_state": "No. 7 in the second CFP rankings (Nov 10), down from No. 1; Notre Dame, which beat Miami 31-24, is No. 5. Georgia is No. 1.",
       "timeline": [
         {
           "date": "2026-08-14",
@@ -2455,6 +2680,11 @@
           "date": "2026-11-08",
           "summary": "Saturday: No. 4 Notre Dame beat No. 1 Miami 31-24 after leading 17-3 at halftime; Toney did not play.",
           "change_type": "worsened"
+        },
+        {
+          "date": "2026-11-11",
+          "summary": "Second CFP rankings: Miami fell from No. 1 to No. 7 at 8-1; Notre Dame rose to No. 5. Still inside the 12-team field, but outside the bye line.",
+          "change_type": "worsened"
         }
       ]
     },
@@ -2462,9 +2692,9 @@
       "id": "thread-miami-summer-openings",
       "title": "Miami summer restaurant wave",
       "topic": "miami",
-      "status": "active",
-      "last_updated": "2026-09-28",
-      "updates": 22,
+      "status": "dormant",
+      "last_updated": "2026-11-11",
+      "updates": 23,
       "current_state": "A fourth opening joins the wave: Ukiyo, a 7,431-square-foot kaiten (conveyor-belt) sushi restaurant from NOAH Hospitality Group, is set for 818 Lincoln Road in mid-October -- alongside Royale Pizza Napoletana's Tokyo-style Neapolitan pizza a few blocks away, also targeting October. La Sponda, Storia, and Pho Nam have already opened on schedule this month; Genghis Cohen's Sunset Harbour location remains a vague 'winter 2026.'",
       "timeline": [
         {
@@ -2576,6 +2806,11 @@
           "date": "2026-09-28",
           "summary": "Ukiyo, a 7,431-square-foot kaiten sushi restaurant from NOAH Hospitality Group, confirmed for 818 Lincoln Road in mid-October -- a second Japanese-inflected opening on the same corridor as Royale Pizza Napoletana's October debut.",
           "change_type": "new"
+        },
+        {
+          "date": "2026-11-11",
+          "summary": "Marked dormant: Seasonal story; no new reporting since late September.",
+          "change_type": "unchanged"
         }
       ]
     },
@@ -2610,9 +2845,9 @@
       "title": "2026 CRE capital markets under pressure",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-11-06",
-      "updates": 55,
-      "current_state": "Miami office vacancy 13.9% (Cushman Q3), asking rent $67.77; Miami-Dade office sales volume down 43% YTD; S&P fell 4.36% Nov 5.",
+      "last_updated": "2026-11-11",
+      "updates": 56,
+      "current_state": "10-year Treasury pushed back toward 5% after the October CPI (reports range 4.95%-5.02% intraday Nov 10); 2s10s curve flattened to about 32 bp. Miami office vacancy 13.9% (Cushman Q3).",
       "timeline": [
         {
           "date": "2026-07-24",
@@ -2893,6 +3128,11 @@
           "date": "2026-11-06",
           "summary": "Q3 data: vacancy at six-year low while sales volume is down 43% through three quarters; equities sold off Nov 5.",
           "change_type": "advanced"
+        },
+        {
+          "date": "2026-11-11",
+          "summary": "Hot CPI pushed the 10-year back toward 5% intraday and flattened the curve; short rates moved most, the part that matters for floating-rate debt.",
+          "change_type": "worsened"
         }
       ]
     },
@@ -3043,9 +3283,9 @@
       "id": "thread-heat-klay-thompson",
       "title": "Heat's 2026-27 season takes shape",
       "topic": "sports",
-      "status": "active",
-      "last_updated": "2026-09-29",
-      "updates": 9,
+      "status": "dormant",
+      "last_updated": "2026-11-11",
+      "updates": 10,
       "current_state": "Heat media day was September 28; camp runs at FAU through Friday, with Giannis in his first Miami camp.",
       "timeline": [
         {
@@ -3092,6 +3332,11 @@
           "date": "2026-09-29",
           "summary": "Camp opens with Giannis; overseas exhibitions canceled.",
           "change_type": "advanced"
+        },
+        {
+          "date": "2026-11-11",
+          "summary": "Marked dormant: No new reporting since camp opened in late September; folded into the Giannis-era thread.",
+          "change_type": "unchanged"
         }
       ]
     },
@@ -3100,9 +3345,9 @@
       "title": "Panthers' 2026-27 season takes shape",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-11-06",
-      "updates": 34,
-      "current_state": "Beat Chicago 5-3 on Nov 4 (Vilmanis four points); at Washington Nov 7 per schedule snapshot.",
+      "last_updated": "2026-11-11",
+      "updates": 35,
+      "current_state": "Beat Columbus 4-1 on Nov 10 (Bennett two goals, Markstrom 37 saves), snapping a two-game skid.",
       "timeline": [
         {
           "date": "2026-08-22",
@@ -3273,6 +3518,11 @@
           "date": "2026-11-06",
           "summary": "Beat Chicago 5-3; rookie Sandis Vilmanis had four points.",
           "change_type": "advanced"
+        },
+        {
+          "date": "2026-11-11",
+          "summary": "Snapped a two-game skid with a 4-1 win at Columbus: Sam Bennett scored twice and Jacob Markstrom made 37 saves.",
+          "change_type": "improved"
         }
       ]
     },
@@ -3417,9 +3667,9 @@
       "title": "Miami-Dade's \"Vice City\" pitch to Rockstar Games",
       "topic": "miami",
       "status": "active",
-      "last_updated": "2026-09-22",
-      "updates": 14,
-      "current_state": "Three separate Vice-City pitches are now all in motion, each a different government body cutting its own deal with Rockstar ahead of the Nov. 19 launch: Miami-Dade's ~$975K Kaseya Center arena-roof sign (up since Sept. 22), the City of Miami's approved downtown banner ordinance funding the Underdeck park, and Miami Beach's pending $3-4M beach-chair branding deal (approved 4-3 Sept. 10, still being negotiated).",
+      "last_updated": "2026-11-11",
+      "updates": 15,
+      "current_state": "Digital pre-load opened Nov 10; GTA VI launches Nov 19 on PS5 and Xbox Series X|S. Three separate local pitches to Rockstar remain the backdrop.",
       "timeline": [
         {
           "date": "2026-08-31",
@@ -3489,6 +3739,11 @@
         {
           "date": "2026-09-22",
           "summary": "Rockstar's $975,000 'Welcome to Vice City' sign went up on the Kaseya Center roof Monday, lifted into place by helicopter -- priced just under the $1 million threshold that would have required a full county commission vote, letting the mayor approve it alone. A separate, more ambitious pitch to rebrand Miami International Airport as 'Vice City Airport' was turned down by local authorities.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-11-11",
+          "summary": "Pre-load opened November 10; Rockstar's launch is set for November 19, eight days out.",
           "change_type": "advanced"
         }
       ]
@@ -3710,9 +3965,9 @@
       "title": "AI-regulation selloff",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-11-10",
-      "updates": 3,
-      "current_state": "Nasdaq in correction after Nov 5 drop of 5.2%; partial rebound Nov 6 (+1.09%).",
+      "last_updated": "2026-11-11",
+      "updates": 4,
+      "current_state": "Nasdaq rebounded 2.74% Monday, November 9 to 25,253.14, then gave back 0.74% Tuesday to 25,065.87 after the hot CPI.",
       "timeline": [
         {
           "date": "2026-11-06",
@@ -3728,6 +3983,11 @@
           "date": "2026-11-10",
           "summary": "Closing data confirm Nasdaq fell 5.2% on Nov 5 into correction territory (10%+ below its Oct 6 high); Friday rebound of 1.09%; Dow closed Nov 6 at 51,285.73.",
           "change_type": "advanced"
+        },
+        {
+          "date": "2026-11-11",
+          "summary": "Monday's rebound was large (S&P 500 +2.35%, its best day since April; Nasdaq +2.74%), and Tuesday's CPI took back part of it (Nasdaq -0.74%, S&P 500 -0.38%).",
+          "change_type": "improved"
         }
       ]
     }
@@ -3751,7 +4011,7 @@
     }
   ],
   "meta": {
-    "content_freshness": "2026-11-10T09:30:00-05:00",
+    "content_freshness": "2026-11-11T09:30:00-05:00",
     "feedback_endpoint_mode": "github_contents",
     "minimum_client_schema_version": 1,
     "mode": "brain"
