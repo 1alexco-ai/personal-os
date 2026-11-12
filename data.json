@@ -1,454 +1,421 @@
 {
   "schema_version": 2,
   "edition": {
-    "id": "2026-11-11",
-    "date": "2026-11-11",
+    "id": "2026-11-12",
+    "date": "2026-11-12",
     "type": "weekday",
-    "generated_at": "2026-11-11T09:30:00-05:00",
+    "generated_at": "2026-11-12T09:30:00-05:00",
     "timezone": "America/New_York",
     "title": "Personal OS",
     "front_page_letter": {
       "greeting": "Good morning",
       "body_paragraphs": [
-        "Good morning. Wednesday, November 11, Veterans Day.",
-        "The number came in hot. October CPI rose 0.4%, core 0.3%, each a tenth above forecast, and the December question has moved from whether the Fed hikes to by how much. Reports put the odds of standing pat near 3%, with a half-point move now a minority but real possibility. The 2-year jumped and the 10-year briefly touched 5% again; the flatter curve is the part to watch if you carry floating-rate debt.",
-        "Stocks took it calmly. Monday was the best day for the S&P 500 since April, up 2.35%, and Tuesday gave back only 0.38%. That tells you the hike was already in the price. What is not in the price is a 50 basis point surprise, and Friday's PPI is the next chance to move that.",
-        "Closer to home, the Canes fell to No. 7 in the playoff rankings, Giannis said out loud that the Heat do not trust one another and then won in Utah, and the Panthers ended a skid in Columbus.",
-        "For tonight: the armistice took effect at the eleventh hour, and men died in the minutes before it. Owen's sonnet and Marcus Aurelius on the only life you can lose make a quiet pair."
+        "Good morning. Thursday, November 12.",
+        "Wednesday looked like a good day until the evening. The S&P 500 rose 1.31% and the Nasdaq about 1.6%, recovering the CPI dip with the bond market closed for the holiday. Then the Journal reported that Nvidia's board was preparing to remove Jensen Huang, and the stock fell more than 9% after hours. The board met late into the night. As of this writing, nothing has been announced.",
+        "That lands on a market already working through a fully priced December hike. Bonds reopen this morning with the 10-year near 5%, six Fed officials speak today, and PPI comes tomorrow. Oil, which had been quietly helping, rose for the first time in a while after Tehran said its enriched uranium stays home.",
+        "Closer to the desk: Tyko wrote an $817 million construction loan for Faena Residences on the Miami River, reported as Florida's largest. That tells you who is financing the top of this market at 5%, and the answer is not the banks.",
+        "For tonight, the Panthers host Detroit, the Book Fair opens Sunday, and Hamming's old talk on doing great work reads differently on a day when one man's future is the market's question."
       ],
       "read_only_three": [
         {
           "target_type": "theme",
-          "target_id": "theme-hot-cpi-hike-priced",
-          "label": "The hot print and the hike"
+          "target_id": "theme-nvidia-board-huang",
+          "label": "Nvidia's board weighs its founder"
         },
         {
           "target_type": "theme",
-          "target_id": "theme-five-percent-and-the-pipeline",
-          "label": "Five percent, again"
+          "target_id": "theme-faena-record-loan",
+          "label": "Florida's biggest construction loan"
         },
         {
           "target_type": "theme",
-          "target_id": "theme-eleventh-hour",
-          "label": "The eleventh hour"
+          "target_id": "theme-founder-and-the-firm",
+          "label": "When the founder is the company"
         }
       ]
     },
     "market_context": [
       {
         "label": "S&P 500",
-        "value": "7,520.93",
-        "change": "-0.38%",
-        "observed": "Close, Tuesday, November 10, 2026",
-        "note": "Rose 2.35% to 7,549.94 on Monday, November 9, its best day since April; about 3.8% below the October 6 record close."
+        "value": "7,619.38",
+        "change": "+1.31%",
+        "observed": "Close, Wednesday, November 11, 2026",
+        "note": "Recovered Tuesday's CPI dip; futures were down about 0.45% early Thursday on Nvidia."
       },
       {
         "label": "Nasdaq Composite",
-        "value": "25,065.87",
-        "change": "-0.74%",
-        "observed": "Close, Tuesday, November 10, 2026",
-        "note": "Up 2.74% on Monday to 25,253.14 before the CPI giveback."
+        "value": "25,466.19",
+        "change": "about +1.6%",
+        "observed": "Close, Wednesday, November 11, 2026",
+        "note": "Nvidia fell more than 9% after hours; Nasdaq-100 futures were down about 0.9% early Thursday."
       },
       {
         "label": "Dow Jones Industrial Average",
-        "value": "52,231.89",
-        "change": "-0.30%",
-        "observed": "Close, Tuesday, November 10, 2026",
-        "note": "Gained 1,104 points on Monday to 52,389.75."
+        "value": "52,486.49",
+        "change": "+0.49%",
+        "observed": "Close, Wednesday, November 11, 2026",
+        "note": "Up 254.60 points."
       },
       {
         "label": "10-year Treasury",
-        "value": "about 4.95%-5.02%",
-        "change": "up roughly 9-15 bp on the CPI",
-        "observed": "Intraday, Tuesday, November 10, 2026",
-        "note": "Close not verified; reports differ on the level. Settled 4.858% Friday, November 6. Bond market typically closed today for Veterans Day."
+        "value": "about 4.99%",
+        "change": "little changed vs. Tuesday intraday",
+        "observed": "Early Thursday, November 12, 2026",
+        "note": "Bond market was closed Wednesday for Veterans Day; Tuesday's official close not verified. 2-year near 4.76%. 30-year auction today."
       },
       {
         "label": "FOMC",
         "value": "Held 3.75%-4.00% on October 28",
-        "change": "December 8-9 hike near fully priced",
-        "observed": "After CPI, Tuesday, November 10, 2026",
-        "note": "Reports cite no-change odds near 3% and 50 bp odds around 10%-14% (CME FedWatch). Meeting is 27 days out; PPI Friday, November 13."
+        "change": "December 8-9 hike fully priced",
+        "observed": "Market notes, Thursday, November 12, 2026",
+        "note": "Half-point odds around 10%-15% per one note; meeting is 26 days out. Six Fed speakers today; PPI Friday, November 13."
+      },
+      {
+        "label": "Brent crude",
+        "value": "$92.76",
+        "change": "+1.4%",
+        "observed": "Settle, Wednesday, November 11, 2026",
+        "note": "WTI settled $86.53 (+0.6%)."
       }
     ],
     "public_day_context": {
-      "date_label": "Wednesday, November 11, 2026",
-      "weather": "Not verified this morning; check NWS Miami (weather.gov/mfl) for today's forecast.",
-      "public_event": "Veterans Day: federal offices closed and the bond market typically closed; stock exchanges open. Heat listed at the Clippers tonight (listing unconfirmed). PPI Friday, November 13; GTA VI launches November 19."
+      "date_label": "Thursday, November 12, 2026",
+      "weather": "Not verified this morning. An outlook issued about a week ago pointed to partly cloudy skies, a high near 78°F and a low near 69°F; check NWS Miami (weather.gov/mfl).",
+      "public_event": "Bond market reopens after Veterans Day; six Fed speakers and a 30-year Treasury auction today. Panthers host Detroit tonight at Amerant Bank Arena. PPI Friday, November 13; Canes host Duke Saturday; Miami Book Fair opens Sunday, November 15; Nvidia earnings reportedly November 17; GTA VI November 19."
     },
     "what_changed": [
       {
-        "id": "delta-cpi-hot",
-        "thread_id": "thread-fed-rate-path",
-        "change_type": "worsened",
-        "title": "October CPI beat forecasts on headline and core",
-        "previous_state": "The report was due, with consensus at +0.3% headline and +0.2% core month over month.",
-        "current_state": "Headline rose 0.4% and core 0.3%; no official year-over-year rate was published because of the 2025 shutdown gap.",
-        "why_it_matters": "It removes most of the remaining doubt about a December hike.",
-        "confidence": "high",
+        "id": "delta-nvidia-board",
+        "thread_id": "thread-nvidia-huang-board",
+        "change_type": "new",
+        "title": "Nvidia's board reportedly moves against Huang",
+        "previous_state": "On Sunday the board opened an independent probe and publicly expressed confidence in Huang.",
+        "current_state": "The WSJ reported Wednesday night that the board was preparing to oust him; the board met late Wednesday with no decision announced, and shares fell more than 9% after hours.",
+        "why_it_matters": "The largest AI stock now carries a leadership question into its November 17 earnings.",
+        "confidence": "medium",
         "source": {
-          "publisher": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html"
+          "publisher": "CNN",
+          "url": "https://edition.cnn.com/2026/11/11/investing/nvidia-stock-jensen-huang"
         }
       },
       {
-        "id": "delta-hike-odds-near-full",
-        "thread_id": "thread-fed-rate-path",
-        "change_type": "advanced",
-        "title": "A December hike went from likely to nearly certain",
-        "previous_state": "CME FedWatch showed roughly 73% odds of a December 8-9 hike.",
-        "current_state": "Reports put no-change odds near 3%, with half-point odds around 10%-14%; the 10-year briefly retested 5%.",
-        "why_it_matters": "The live question is now the size of the move, which matters most for floating-rate debt.",
+        "id": "delta-stocks-wednesday",
+        "thread_id": "thread-ai-regulation-selloff",
+        "change_type": "improved",
+        "title": "Stocks recover the CPI dip and more",
+        "previous_state": "S&P 500 7,520.93 and Nasdaq 25,065.87 after Tuesday's CPI giveback.",
+        "current_state": "S&P 500 +1.31% to 7,619.38 and Nasdaq about +1.6% to 25,466.19 on Wednesday; futures lower Thursday on Nvidia.",
+        "why_it_matters": "The hike is priced and stocks rose anyway; the overnight Nvidia drop is the new test.",
         "confidence": "medium",
         "source": {
           "publisher": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/economy/policy/article/hot-inflation-report-has-wall-street-eyeing-whether-the-fed-could-make-a-jumbo-rate-hike-next-month-164942156.html"
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-11-dow-sp-500-nasdaq-nvidia-treasurys-veterans-day-140638547.html"
         }
       },
       {
-        "id": "delta-stocks-rebound-confirmed",
-        "thread_id": "thread-ai-regulation-selloff",
-        "change_type": "improved",
-        "title": "Monday's rebound was large, and Tuesday's giveback small",
-        "previous_state": "Yesterday's edition could not verify Monday's close and carried Friday's levels.",
-        "current_state": "S&P 500 +2.35% Monday to 7,549.94 (best day since April), then -0.38% Tuesday to 7,520.93; Nasdaq +2.74% then -0.74% to 25,065.87.",
-        "why_it_matters": "Equities absorbed a hot print without a second leg down, a sign the hike was already priced.",
-        "confidence": "high",
+        "id": "delta-oil-rebound",
+        "thread_id": "thread-iran-hormuz-crisis",
+        "change_type": "reversed",
+        "title": "Oil's slide pauses on Iran's enriched-material red line",
+        "previous_state": "Brent had fallen roughly a fifth since November began on hopes the Iran war was ending.",
+        "current_state": "Brent settled up 1.4% at $92.76 after Iran said enriched material would not leave the country and denied talks with Washington.",
+        "why_it_matters": "Lower oil had been easing the inflation picture; a stalled deal removes some of that relief.",
+        "confidence": "medium",
         "source": {
-          "publisher": "TheStreet",
-          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-10-2026"
+          "publisher": "Rigzone",
+          "url": "https://www.rigzone.com/news/wire/oil_rebounds_amid_mixed_iran_war_signals-11-nov-2026-185062-article/"
         }
       },
       {
-        "id": "delta-canes-no-seven",
-        "thread_id": "thread-hurricanes-fall-camp",
-        "change_type": "worsened",
-        "title": "Miami falls from No. 1 to No. 7 in the CFP rankings",
-        "previous_state": "Miami was No. 1 in the first rankings, before losing 31-24 at Notre Dame.",
-        "current_state": "Miami is No. 7 at 8-1; Notre Dame is No. 5 and Georgia No. 1.",
-        "why_it_matters": "Miami is in the field for now but outside the four byes.",
-        "confidence": "high",
+        "id": "delta-faena-loan",
+        "thread_id": "thread-cre-capital-markets-2026",
+        "change_type": "new",
+        "title": "Record $817M construction loan for Faena Residences Miami",
+        "previous_state": "The largest Florida construction loan on record was a $772 million financing for West Palm Beach offices.",
+        "current_state": "Tyko Capital's $817 million loan for two 68-story Miami River condo towers is now reported as the state record.",
+        "why_it_matters": "Private credit, not banks, is setting the scale of Miami's top-end pipeline at 5% rates.",
+        "confidence": "medium",
         "source": {
-          "publisher": "NCAA.com",
-          "url": "https://www.ncaa.com/news/football/article/2026-11-10/georgia-utah-lead-second-college-football-playoff-rankings-2026"
+          "publisher": "Bisnow",
+          "url": "https://www.bisnow.com/news/national/capital-markets/tyko-capital-817m-construction-loan-faena-condos"
         }
       }
     ],
     "themes": [
       {
-        "id": "theme-hot-cpi-hike-priced",
+        "id": "theme-nvidia-board-huang",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "The print ran hot, and the hike is all but priced",
+        "title": "Nvidia's board weighs its founder",
         "importance": 0.95,
-        "thesis": "October's inflation report turned a likely December hike into a near-certainty and put a half-point move into the conversation.",
-        "synthesis": "Headline CPI rose 0.4% in October and core 0.3%, each a tenth above consensus. There is no official year-over-year figure this month, because no prices were collected in October 2025 during the shutdown, so the monthly numbers carry the story. Reports after the release put the odds of no December move near 3% on the CME tool, with half-point odds somewhere around 10% to 14%; at least one Fed official was reported as open to discussing a larger step. PPI on Friday is the next data point.",
-        "new_today": "The CPI is out and it beat forecasts on both headline and core; the December question has moved from whether to how much.",
-        "why_it_matters": "Short rates moved most, and short rates price floating-rate construction and bridge debt. A 50 bp surprise in December would land directly on carry costs for anything in the pipeline.",
+        "thesis": "The company at the center of the AI trade spent Wednesday night deciding whether the man who built it should keep running it.",
+        "synthesis": "The Wall Street Journal reported Wednesday evening that Nvidia's board was preparing to remove Jensen Huang, a week after he acknowledged an affair and the board opened an independent probe into whether he had been targeted by a foreign intelligence operation. Reuters said the board met late Wednesday; no decision had been announced by the end of the night, and the company did not comment. Shares fell more than 9% after hours, on top of a slide during the session, and Bloomberg reported an outside firm was helping identify possible replacements. Analysts see no natural successor; CFO Colette Kress is the name most often mentioned for an interim role.",
+        "new_today": "The board moved from publicly backing Huang on Sunday to reportedly preparing his exit by Wednesday night; the outcome is still unannounced.",
+        "why_it_matters": "Nvidia is the single largest weight in the indexes that most portfolios track, and earnings are due November 17. A founder exit at a company this concentrated is a market event, not just a governance story.",
+        "thread_id": "thread-nvidia-huang-board",
+        "confidence": "medium",
+        "sources": [
+          {
+            "role": "primary_reporting",
+            "publisher": "CNN",
+            "headline": "Nvidia stock drops as board reportedly weighs Jensen Huang's future",
+            "url": "https://edition.cnn.com/2026/11/11/investing/nvidia-stock-jensen-huang"
+          },
+          {
+            "role": "analysis",
+            "publisher": "Al Jazeera",
+            "headline": "Nvidia shares plunge amid reports board to discuss CEO Huang's future",
+            "url": "https://www.aljazeera.com/economy/2026/11/12/nvidia-shares-plunge-amid-reports-board-to-discuss-ceo-huangs-future"
+          },
+          {
+            "role": "background",
+            "publisher": "The Next Web",
+            "headline": "Jensen Huang's fate hangs on Nvidia's board after overnight meeting",
+            "url": "https://thenextweb.com/news/nvidia-board-meeting-jensen-huang-ouster-no-decision"
+          }
+        ]
+      },
+      {
+        "id": "theme-bonds-reopen-fed-chorus",
+        "affinity": "morning",
+        "topic": "markets",
+        "topic_label": "Markets & Macro",
+        "title": "Stocks rallied on the holiday; bonds come back to 5% and six Fed voices",
+        "importance": 0.88,
+        "thesis": "Equities spent Veterans Day recovering, but the bond market reopens today into a Fed calendar that will test how firmly a December hike is priced.",
+        "synthesis": "With the bond market closed Wednesday, the S&P 500 rose 1.31% to 7,619.38, the Nasdaq about 1.6% to 25,466.19 and the Dow 0.49% to 52,486.49, helped by CoreWeave's outlook. Treasuries reopen this morning with the 10-year near 4.99% and the 2-year near 4.76%, per morning market notes. Six Fed officials speak today, including voters Hammack, Barr and Williams, and the Treasury auctions 30-year bonds. A December 8-9 hike is fully priced; the live question is whether anyone pushes a half point, which futures put near 10% to 15%.",
+        "new_today": "Wednesday's equity close, the reopening yield level, and a dense Fed speaker slate ahead of Friday's PPI.",
+        "why_it_matters": "A 10-year parked at 5% is the denominator for every cap rate conversation; today's speakers and tomorrow's PPI decide whether the short end, where floating-rate debt prices, moves again.",
         "thread_id": "thread-fed-rate-path",
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "CNBC",
-            "headline": "CPI inflation report: October 2026",
-            "url": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html"
+            "publisher": "Yahoo Finance",
+            "headline": "Stock market today: Wednesday, November 11",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-11-dow-sp-500-nasdaq-nvidia-treasurys-veterans-day-140638547.html"
           },
           {
             "role": "analysis",
-            "publisher": "Yahoo Finance",
-            "headline": "Hot inflation report has Wall Street eyeing whether the Fed could make a jumbo rate hike next month",
-            "url": "https://finance.yahoo.com/economy/policy/article/hot-inflation-report-has-wall-street-eyeing-whether-the-fed-could-make-a-jumbo-rate-hike-next-month-164942156.html"
-          },
-          {
-            "role": "background",
-            "publisher": "Kiplinger",
-            "headline": "October CPI Report: What the Inflation Data Is Expected to Show",
-            "url": "https://www.kiplinger.com/investing/economy/october-2026-cpi-report-what-to-expect"
+            "publisher": "Saxo",
+            "headline": "Market Quick Take - Nvidia stumble weighs on sentiment - 12 November 2026",
+            "url": "https://www.home.saxo/en-sg/content/articles/macro/market-quick-take---nvidia-stumble-weighs-on-sentiment---12-november-2026-12112026"
           }
         ]
       },
       {
-        "id": "theme-monday-rally-tuesday-giveback",
+        "id": "theme-oil-iran-material",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "A big Monday, a small Tuesday",
-        "importance": 0.8,
-        "thesis": "Stocks staged their best day since April and then gave back only a slice of it to the CPI.",
-        "synthesis": "On Monday, November 9, the S&P 500 rose 2.35% to 7,549.94 and the Nasdaq 2.74% to 25,253.14, with the Dow up 1,104 points; coverage credited a rebound in chipmakers after last week's AI-linked rout. Tuesday's hot CPI took the S&P 500 down 0.38% to 7,520.93 and the Nasdaq down 0.74% to 25,065.87. The S&P 500 sits about 3.8% below its October 6 record close of 7,818.93.",
-        "new_today": "Two closes I could not verify yesterday are now confirmed, and the market's reaction to the CPI was measured rather than violent.",
-        "why_it_matters": "The muted Tuesday says the hike was largely in the price already; the risk now is a half-point surprise, not a quarter-point one.",
-        "thread_id": "thread-ai-regulation-selloff",
-        "confidence": "high",
+        "title": "Oil finds a floor in Tehran's red line",
+        "importance": 0.74,
+        "thesis": "After a three-week slide on peace hopes, crude rose when Iran said its enriched uranium is not leaving the country.",
+        "synthesis": "Brent settled at $92.76 on Wednesday, up 1.4%, and WTI at $86.53, up 0.6%, after Iran's security chief said Tehran would not allow enriched nuclear material to leave, which is a central obstacle in any deal. Iran also denied it is negotiating with Washington. Earlier in the session prices had fallen more than $3 when US officials played down the need for further strikes. Brent remains roughly 21% lower since November began and well below its late-October high near $118.",
+        "new_today": "A first rebound after the November slide, tied to a specific sticking point rather than new fighting.",
+        "why_it_matters": "Energy was one of the inflation risks Fed officials have cited; oil drifting lower was quietly helping the rate outlook, and a stalled deal takes some of that help away.",
+        "thread_id": "thread-iran-hormuz-crisis",
+        "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "TheStreet",
-            "headline": "Stock Market Today (Nov. 10, 2026): Nasdaq falls after key inflation report derails strong start to week",
-            "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-10-2026"
+            "publisher": "Rigzone",
+            "headline": "Oil Rebounds Amid Mixed Iran War Signals",
+            "url": "https://www.rigzone.com/news/wire/oil_rebounds_amid_mixed_iran_war_signals-11-nov-2026-185062-article/"
           },
           {
-            "role": "background",
-            "publisher": "Yahoo Finance (Zacks)",
-            "headline": "Stock Market News for Nov 10, 2026",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-10-094800346.html"
+            "role": "analysis",
+            "publisher": "EnergyNow",
+            "headline": "Oil Prices Rebound as Iran Rejects Key U.S. Nuclear Demand",
+            "url": "https://energynow.com/2026/11/oil-prices-rebound-as-iran-rejects-key-u-s-nuclear-demand-and-strait-of-hormuz-shipping-attacks-renew-supply-concerns/"
           }
         ]
       },
       {
-        "id": "theme-five-percent-and-the-pipeline",
+        "id": "theme-faena-record-loan",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Five percent, again",
-        "importance": 0.75,
-        "thesis": "The 10-year pushed back toward 5% on the print, but the more important move was at the short end.",
-        "synthesis": "Reports put the 10-year between roughly 4.95% and 5.02% intraday after the release, up from a 4.86% settlement on Friday, November 6; I could not confirm Tuesday's close. The 2-year jumped about 16 to 19 basis points, flattening the 2s10s spread to around 32 basis points from 47 a month ago. The 10-year is still below its early-October peak near 5.3%.",
-        "new_today": "Yields re-tested 5% on the CPI, and the curve flattened as traders repriced the Fed.",
-        "why_it_matters": "A flatter curve with a higher front end is the worst combination for floating-rate borrowers and for refinancing math on Miami office, where vacancy is still near 14%.",
+        "title": "Florida's biggest construction loan goes to the Miami River",
+        "importance": 0.8,
+        "thesis": "With the 10-year near 5%, the largest construction financing in state history came from private credit, not a bank.",
+        "synthesis": "Tyko Capital lent $817 million to Fortune International Group and KAR Properties to build Faena Residences Miami, two 68-story condo towers at 24 SW Fourth Street on the Miami River, in a deal arranged by Walker & Dunlop. Bisnow reports it as Florida's largest construction loan, ahead of a $772 million loan for West Palm Beach offices. Unit counts differ by outlet (434 vs. 406), and one deal tracker lists the close as October 28. Tyko, which Bloomberg describes as a venture between Elliott and Adi Chugh, also provided the $464.5 million land loan for Atma Miami in Brickell last December.",
+        "new_today": "The size and the lender: a record branded-condo construction loan from a debt fund, reported this week.",
+        "why_it_matters": "It is a clean read on who is financing Miami's top end right now and at what scale; when banks pull back, the price of this capital sets the pace of the pipeline.",
         "thread_id": "thread-cre-capital-markets-2026",
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Invezz",
-            "headline": "10-year Treasury yield tops 5% after hotter CPI data increases rate hike odds",
-            "url": "https://invezz.com/uk/news/2026/11/10/10-year-treasury-yield-tops-5percent-after-hotter-cpi-data-increases-rate-hike-odds/"
+            "publisher": "Bisnow",
+            "headline": "Tyko Capital Sets New Record For Florida's Largest Construction Loan",
+            "url": "https://www.bisnow.com/news/national/capital-markets/tyko-capital-817m-construction-loan-faena-condos"
           },
           {
             "role": "background",
-            "publisher": "Advisor Perspectives",
-            "headline": "Treasury Yields Snapshot: November 6, 2026",
-            "url": "https://www.advisorperspectives.com/dshort/updates/2026/11/06/treasury-yields-snapshot-november-6-2026"
+            "publisher": "Bisnow",
+            "headline": "OKO Joins Oak Row Equities To Close Record $520M Brickell Land Deal",
+            "url": "https://www.bisnow.com/news/south-florida/capital-markets/oak-row-equities-taps-oko-group-tyko-capital-to-close-on-520m-brickell-land-deal-132519"
           }
         ]
       },
       {
-        "id": "theme-wynwood-campus-premium",
+        "id": "theme-panthers-host-detroit",
         "affinity": "morning",
-        "topic": "miami",
-        "topic_label": "Miami Life & Culture",
-        "title": "Wynwood prices in a campus that is years away",
+        "topic": "sports",
+        "topic_label": "Miami Sports",
+        "title": "Panthers come home to Detroit",
         "importance": 0.55,
-        "thesis": "Retail demand around Griffin's Carnegie Mellon site is rising now, though the campus itself, and its students, will take years to arrive.",
-        "synthesis": "The Real Deal reported on November 9 that the Mana Wynwood purchase is lifting retail demand, while Colliers data put average Wynwood and Design District rents slightly down year over year in Q3, at $58.23 a foot, even as Second Avenue frontage reaches about $100. Brokers are already marketing nearby sites by their walking distance to the campus. One research note argues the opposite for the near term: losing Mana's festival and convention traffic may weigh on area retail for years before campus spending replaces it.",
-        "new_today": "The first reporting that ties the campus to retail leasing demand, set against flat-to-down average rents.",
-        "why_it_matters": "This is the familiar pattern of an anchor being priced before it opens; the spread between asking rents on frontage and the district average is where the speculation shows.",
-        "thread_id": "thread-griffin-wynwood-cmu",
+        "thesis": "Two nights after stopping a skid in Columbus, Florida hosts a division rival that is close behind it.",
+        "synthesis": "The Panthers play the Red Wings at Amerant Bank Arena tonight, listed at 7 p.m. One listing has Florida at 8-5-2 and Detroit at 7-5-3 entering the game. Florida beat Detroit 2-0 on the road on November 2.",
+        "new_today": "Game day; Florida last played Tuesday's 4-1 win at Columbus.",
+        "why_it_matters": "Divisional points in November are the ones that look decisive in April.",
+        "thread_id": "thread-panthers-2026-27-season",
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Commercial Property Executive",
-            "headline": "What Carnegie Mellon's $2B Campus Means for Wynwood",
-            "url": "https://www.commercialsearch.com/news/what-carnegie-mellons-2b-campus-means-for-wynwood/"
-          },
-          {
-            "role": "local_perspective",
-            "publisher": "Bisnow",
-            "headline": "Carnegie Mellon's Ken Griffin-Backed Campus Has Miami Developers Salivating",
-            "url": "https://www.bisnow.com/news/south-florida/economic-development/carnegie-mellon-ken-griffin-wynwood-development"
-          }
-        ]
-      },
-      {
-        "id": "theme-canes-fall-to-seven",
-        "affinity": "morning",
-        "topic": "sports",
-        "topic_label": "Miami Sports",
-        "title": "The Canes drop to No. 7",
-        "importance": 0.7,
-        "thesis": "One loss cost Miami the top spot and the bye line, though not a place in the field.",
-        "synthesis": "The committee's second rankings, released Tuesday, November 10, put Georgia at No. 1, followed by Utah, Alabama and UCLA. Miami, 8-1 after the 31-24 loss at Notre Dame, fell from No. 1 to No. 7; Notre Dame rose to No. 5 on the head-to-head result. The top four seeds earn first-round byes; the field is set December 6.",
-        "new_today": "The first official ranking since the Notre Dame loss.",
-        "why_it_matters": "At No. 7 Miami is safely in a 12-team bracket for now, but a home first-round game, not a bye, is the realistic ceiling unless teams above stumble.",
-        "thread_id": "thread-hurricanes-fall-camp",
-        "confidence": "high",
-        "sources": [
-          {
-            "role": "primary_reporting",
-            "publisher": "NCAA.com",
-            "headline": "Georgia, Utah lead the second College Football Playoff rankings of 2026",
-            "url": "https://www.ncaa.com/news/football/article/2026-11-10/georgia-utah-lead-second-college-football-playoff-rankings-2026"
-          },
-          {
-            "role": "analysis",
-            "publisher": "CBS Sports",
-            "headline": "College Football Playoff Rankings: Georgia moves to No. 1 as Alabama, UCLA join top four in second release",
-            "url": "https://www.cbssports.com/college-football/news/college-football-playoff-rankings-top-25-2026-week-11/"
-          }
-        ]
-      },
-      {
-        "id": "theme-heat-trust-and-a-road-win",
-        "affinity": "morning",
-        "topic": "sports",
-        "topic_label": "Miami Sports",
-        "title": "Giannis names the problem, then wins in Utah",
-        "importance": 0.6,
-        "thesis": "A blunt quote after a blowout in Los Angeles was followed by a needed road win.",
-        "synthesis": "After a 138-117 loss to the Lakers on Monday, in which he had 30 points, 12 rebounds and seven turnovers, Giannis Antetokounmpo said: \"Right now, we don't trust one another.\" On Tuesday the Heat won 115-109 at Utah, with Giannis again scoring 30 and Davion Mitchell adding 19. He is managing a right wrist sprain and is listed as probable for the Clippers.",
-        "new_today": "Two games since the last edition: a loss with a pointed quote, and a win.",
-        "why_it_matters": "Early-season trust talk from the franchise's new centerpiece is the kind of thing that either hardens or vanishes within a month; worth watching how Spoelstra answers it.",
-        "thread_id": "thread-heat-giannis-era",
-        "confidence": "high",
-        "sources": [
-          {
-            "role": "primary_reporting",
-            "publisher": "ESPN",
-            "headline": "Heat 115-109 Jazz (Nov 10, 2026) Game Recap",
-            "url": "https://www.espn.com/nba/recap?gameId=401909963"
-          },
-          {
-            "role": "analysis",
-            "publisher": "ESPN",
-            "headline": "What's fueling the rocky start for Giannis Antetokounmpo and the Miami Heat",
-            "url": "https://www.espn.com/nba/story/_/id/50425453/miami-heat-giannis-antetokounmpo-erik-spoelstra"
-          },
-          {
-            "role": "local_perspective",
-            "publisher": "Yahoo Sports",
-            "headline": "\"We don't trust one another\" - Giannis Antetokounmpo sounded the alarm on Miami Heat's slide",
-            "url": "https://sports.yahoo.com/articles/dont-trust-one-another-giannis-151257812.html"
-          }
-        ]
-      },
-      {
-        "id": "theme-panthers-bennett-columbus",
-        "affinity": "morning",
-        "topic": "sports",
-        "topic_label": "Miami Sports",
-        "title": "Bennett twice, Markstrom 37: Panthers stop the skid",
-        "importance": 0.5,
-        "thesis": "Florida answered two straight losses with a controlled road win.",
-        "synthesis": "The Panthers beat Columbus 4-1 at Nationwide Arena on Tuesday. After a scoreless first, Sam Bennett opened the scoring on the power play and added a second at 4-on-4 early in the third; Jacob Markstrom stopped 37 of 38 shots, and Sam Reinhart finished with an empty-netter.",
-        "new_today": "Win at Columbus ends a two-game losing streak.",
-        "why_it_matters": "A goalie stealing a road game is the template for how this team survives its injury list until it is whole.",
-        "thread_id": "thread-panthers-2026-27-season",
-        "confidence": "high",
-        "sources": [
-          {
-            "role": "primary_reporting",
             "publisher": "NHL.com",
-            "headline": "Bennett scores twice, Panthers hold off Blue Jackets",
+            "headline": "Panthers vs. Blue Jackets recap, November 10, 2026",
             "url": "https://www.nhl.com/news/florida-panthers-columbus-blue-jackets-game-recap-november-10-2026"
-          },
-          {
-            "role": "local_perspective",
-            "publisher": "Florida Hockey Now",
-            "headline": "Cannon Fodder: Panthers Play a Solid Game, Beat Blue Jackets Again",
-            "url": "https://floridahockeynow.com/florida-panthers-4-columbus-blue-jackets-1-nov-10-2026-game-recap-summary/"
           }
         ]
       },
       {
-        "id": "theme-eleventh-hour",
-        "affinity": "evening",
-        "topic": "living",
-        "topic_label": "Art of Living",
-        "title": "The eleventh hour",
+        "id": "theme-canes-duke",
+        "affinity": "morning",
+        "topic": "sports",
+        "topic_label": "Miami Sports",
+        "title": "The Canes need a clean Saturday against Duke",
         "importance": 0.6,
-        "thesis": "The armistice was signed hours before it took effect, and men kept dying in the interval because a clock said so.",
-        "synthesis": "The armistice ending the First World War was signed early on November 11, 1918, and set to take effect at 11 a.m. Fighting continued through the morning. Henry Gunther, a soldier from Baltimore, was killed at about 10:59, a minute before the deadline; Pershing's order the next day recorded him as the last American killed in the war, though historians still debate the circumstances. Today is Veterans Day, the holiday that grew out of that date.",
-        "new_today": "Today is November 11.",
-        "why_it_matters": "A deadline is an abstraction until someone is on the wrong side of it. On a day when markets reprice off a tenth of a point, it is worth remembering how arbitrary and how real a line on a clock can be.",
+        "thesis": "At No. 7, Miami's path back toward a bye runs through winning out, starting with Duke at Hard Rock.",
+        "synthesis": "Miami (8-1) hosts Duke on Saturday, November 14 at Hard Rock Stadium, then Virginia Tech on November 21. Kickoff listings conflict, with some showing noon and one showing 5 p.m. on ABC, so treat the time as unconfirmed. The committee releases its next rankings Tuesday.",
+        "new_today": "Schedule check only; no new rankings until Tuesday.",
+        "why_it_matters": "Losses ahead of you in the rankings can open the bye line again, but only if Miami stops giving the committee reasons.",
+        "thread_id": "thread-hurricanes-fall-camp",
+        "confidence": "medium",
+        "sources": [
+          {
+            "role": "primary_reporting",
+            "publisher": "Miami Hurricanes",
+            "headline": "Hurricanes Release 2026 Football Schedule",
+            "url": "https://miamihurricanes.com/news/2026/01/26/hurricanes-release-2026-football-schedule"
+          },
+          {
+            "role": "background",
+            "publisher": "NCAA.com",
+            "headline": "Second College Football Playoff rankings 2026",
+            "url": "https://www.ncaa.com/news/football/article/2026-11-10/georgia-utah-lead-second-college-football-playoff-rankings-2026"
+          }
+        ]
+      },
+      {
+        "id": "theme-miami-book-fair-2026",
+        "affinity": "evening",
+        "topic": "miami",
+        "topic_label": "Miami Life & Culture",
+        "title": "Downtown fills with books on Sunday",
+        "importance": 0.7,
+        "thesis": "The 43rd Miami Book Fair opens Sunday with nearly 500 authors, and the city's own writers are among the headliners.",
+        "synthesis": "The fair runs November 15-22 at Miami Dade College's Wolfson Campus, with the street fair November 20-22 and sessions in English, Spanish and Haitian Creole. Margaret Atwood and Colson Whitehead lead the lineup, which also includes four newly named National Book Award finalists, among them Edwidge Danticat, who lives in Miami. Session times are still being posted to the fair's calendar.",
+        "new_today": "Opens in three days; worth picking one evening session before the calendar fills.",
+        "why_it_matters": "It is the most Miami thing Miami does in November: a week when downtown is about reading and arguing rather than closings and traffic.",
         "thread_id": null,
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "NBC News",
-            "headline": "Sgt. Henry Gunther: Was Last American Death of WWI Hero or Victim?",
-            "url": "https://www.nbcnews.com/news/world/sgt-henry-gunther-was-last-american-death-wwi-hero-or-n245056"
+            "publisher": "WLRN",
+            "headline": "Miami Book Fair announces 2026 lineup featuring nearly 500 authors and literary icons",
+            "url": "https://www.wlrn.org/light/arts-culture/2026-10-13/miami-book-fair-announces-2026-lineup-featuring-nearly-500-authors-and-literary-icons"
           },
           {
             "role": "background",
-            "publisher": "Wikipedia",
-            "headline": "Henry Gunther",
-            "url": "https://en.wikipedia.org/wiki/Henry_Gunther"
+            "publisher": "Kirkus Reviews",
+            "headline": "Miami Book Fair reveals 2026 author lineup",
+            "url": "https://www.kirkusreviews.com/news-and-features/articles/miami-book-fair-reveals-2026-author-lineup/"
           }
         ]
       },
       {
-        "id": "theme-vice-city-eight-days",
+        "id": "theme-founder-and-the-firm",
         "affinity": "evening",
-        "topic": "miami",
-        "topic_label": "Miami Life & Culture",
-        "title": "Eight days to Vice City",
-        "importance": 0.45,
-        "thesis": "A satirical Miami is about to become the most-visited version of the city, and the real one has been bidding to be part of it.",
-        "synthesis": "Rockstar's Grand Theft Auto VI opened digital pre-loading on November 10 and launches November 19 on PlayStation 5 and Xbox Series X|S, single-player first, with no PC date. The game is set in Leonida, a fictional Florida, and its Vice City is Miami seen through a funhouse mirror. Local governments have pursued their own tie-in deals with the studio, as this edition has tracked since September.",
-        "new_today": "Pre-load is open; launch is set for November 19.",
-        "why_it_matters": "For many people around the world, this will be the Miami they know best. That is a strange kind of civic image, and a real one: cities have long been shaped by how they are depicted.",
-        "thread_id": "thread-miami-vice-city-gta6-pitch",
-        "confidence": "high",
+        "topic": "living",
+        "topic_label": "Art of Living",
+        "title": "When the founder is the company",
+        "importance": 0.62,
+        "thesis": "Nvidia's night is an old question in a new size: what an institution owes the person it was built around, and what that person owes it.",
+        "synthesis": "Huang co-founded Nvidia in 1993 and has run it ever since, which is unusual at any company and nearly unheard of at one this large. Boards have parted with founders before, Apple with Steve Jobs in 1985 and Uber with Travis Kalanick in 2017, and both stories look different with hindsight. Paul Graham's 2024 essay argued that founders run companies in a way managers cannot copy; the Nvidia board is now weighing the other half of that bargain, which is what happens when the founder's private conduct becomes a risk to the company. This is commentary on an unresolved story; the facts are in the morning theme.",
+        "new_today": "A way to think about the morning's lead story at a slower speed.",
+        "why_it_matters": "Most of the institutions Alex deals with, deal sponsors included, run on one or two people's judgment. The question of how a firm survives its own center is not abstract.",
+        "thread_id": "thread-nvidia-huang-board",
+        "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Rockstar Games",
-            "headline": "Grand Theft Auto VI is Now Set to Launch November 19, 2026",
-            "url": "https://www.rockstargames.com/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026"
+            "publisher": "CNN",
+            "headline": "Nvidia stock drops as board reportedly weighs Jensen Huang's future",
+            "url": "https://edition.cnn.com/2026/11/11/investing/nvidia-stock-jensen-huang"
           },
           {
-            "role": "background",
-            "publisher": "Yahoo Tech",
-            "headline": "'GTA 6' officially launches next week and is available for pre-load now",
-            "url": "https://tech.yahoo.com/gaming/breaking-news/article/gta-6-officially-launches-next-week-and-is-available-for-pre-load-now-everything-you-need-to-know-about-the-highly-anticipated-rockstar-game-161535458.html"
+            "role": "analysis",
+            "publisher": "Paul Graham",
+            "headline": "Founder Mode",
+            "url": "https://paulgraham.com/foundermode.html"
           }
         ]
       }
     ],
     "rabbit_hole": {
-      "id": "rh-2026-11-11",
-      "title": "The Great Inflation",
-      "creator": "Michael Bryan, Federal Reserve History",
-      "format": "essay",
-      "minutes": 25,
-      "why": "The Fed is now debating a hike after a hot print, with a half-point on the table; this is the canonical account of how 1965 to 1982 went wrong, through motive, means and opportunity, and how belief in an easy trade-off made it worse. It is the best free primer on why central bankers are so wary of a tenth of a point, and it reads well slowly. Length is an estimate.",
-      "url": "https://www.federalreservehistory.org/essays/great-inflation",
-      "related_interest": "markets"
+      "id": "rh-2026-11-12",
+      "title": "You and Your Research",
+      "creator": "Richard Hamming (1986 Bell Communications Research talk, transcribed by J. F. Kaiser)",
+      "format": "lecture transcript",
+      "minutes": 45,
+      "why": "Hamming spent decades at Bell Labs watching why a few people do work that lasts and most do not, and he is unsentimental about it: courage, open doors, the right problem, and the way success itself can make a person stop working on hard things. On a day when the most valuable chipmaker in the world is waiting on one person, it is a sharp, funny account of what that kind of person is made of and how they go wrong; length is an estimate.",
+      "url": "https://www.cs.princeton.edu/~jrex/teaching/spring2005/fft/hamming.html",
+      "related_interest": "living"
     },
     "beautiful_thing": {
-      "id": "bt-2026-11-11",
-      "title": "Anthem for Doomed Youth",
-      "creator": "Wilfred Owen",
-      "era": "1917",
-      "body": "Owen drafted this sonnet in 1917 at Craiglockhart War Hospital, where Siegfried Sassoon read the drafts and suggested changes. Notice how the first eight lines are all noise, guns, rifles and shells standing in for the funeral rites the dead will never get, and how the last six turn to silence at home: candles in the eyes of boys, the pallor of girls, and the closing image of each slow dusk as a drawing-down of blinds. Owen was killed on November 4, 1918; his family received the telegram on Armistice Day, as the bells were ringing. The poem was published after his death.",
-      "url": "https://en.wikipedia.org/wiki/Anthem_for_Doomed_Youth",
+      "id": "bt-2026-11-12",
+      "title": "La jungla (The Jungle)",
+      "creator": "Wifredo Lam",
+      "era": "1942-43",
+      "body": "Lam, a Cuban painter, made this after returning to Havana from Europe, and MoMA bought it in 1945; it has been one of the museum's best-known works by a Latin American artist ever since. It is big, about 239 by 230 centimeters, painted in oil and charcoal on paper and then mounted on canvas. Look at how hard it is to separate the figures from the stalks around them: long legs and arms turn into vertical stems, and the faces read as masks. Those stalks are usually read as sugarcane, the crop that organized Cuba's colonial economy, so the crowding is not decorative. The museum's page notes it is not currently on view, which makes the reproduction the way to see it for now.",
+      "url": "https://www.moma.org/collection/works/34666",
       "image": null,
-      "alt": "Text of Wilfred Owen's sonnet 'Anthem for Doomed Youth'"
+      "alt": "A tall painting crowded with elongated, mask-faced figures merging into vertical plant stalks in greens, blues and ochres."
     },
-    "noticing_prompt": "Notice today where a deadline is doing the deciding for you. Would the thing be any different an hour earlier or later?",
+    "noticing_prompt": "Notice one place today where a decision waits on a single person's judgment, and what would actually happen if that person were gone for a month.",
     "daily_puzzle": {
-      "id": "dp-2026-11-11",
-      "type": "math",
-      "prompt": "I am a three-digit number. My tens digit is five more than my ones digit, and my hundreds digit is eight less than my tens digit. What number am I?",
-      "hint": "The hundreds digit of a three-digit number cannot be zero. Start there.",
-      "solution": "194.",
-      "explanation": "The hundreds digit is the tens digit minus 8, so the tens digit must be 8 or 9; it must be 9 to keep the hundreds digit at least 1. Then the hundreds digit is 1 and the ones digit is 9 - 5 = 4."
+      "id": "dp-2026-11-12",
+      "type": "wordplay",
+      "prompt": "Find a nine-letter English word that stays a real word as you remove its letters one at a time: nine letters, then eight, then seven, all the way down to one. You may take a letter from any position, but you may not rearrange what is left.",
+      "hint": "A good place to start is an adjective for a sudden noise.",
+      "solution": "STARTLING: startling, starting, staring, string, sting, sing, sin, in, I.",
+      "explanation": "Drop the L, then a T, the A, the R, the other T, the G, the S and the N. SPLITTING also works (spitting, spiting, siting, sting...), so any valid chain counts."
     },
     "evening_unwind": {
-      "id": "eu-2026-11-11",
+      "id": "eu-2026-11-12",
       "evening_quote": {
-        "text": "Though thou shouldst be going to live three thousand years, and as many times ten thousand years, still remember that no man loses any other life than this which he now lives, nor lives any other than this which he now loses.",
-        "attribution": "Marcus Aurelius",
-        "source": "Meditations, 2.14 (George Long translation)"
+        "text": "Everywhere means nowhere.",
+        "attribution": "Seneca",
+        "source": "Letters to Lucilius, 2 (Richard Gummere translation)"
       },
-      "evening_prompt": "Of everything today's tenth of a percentage point was supposed to change, what has actually changed about the evening you are living now?"
+      "evening_prompt": "Of everything you checked today, which one thing did you stay with long enough to actually understand?"
     },
     "reading_queue": [
       {
         "title": "The Radical Reasons Why You Dream of Making Things by Hand",
         "url": "https://aeon.co/essays/the-radical-reasons-why-you-dream-of-making-things-by-hand",
         "verdict": "weekend",
-        "reason": "Saved September 3 and tagged for the weekend; it has been offered on weeknights without landing, so it waits for Saturday."
+        "reason": "Saved September 3 and tagged for the weekend; it waits for Saturday."
       }
     ],
     "quote": {
-      "text": "Though thou shouldst be going to live three thousand years, and as many times ten thousand years, still remember that no man loses any other life than this which he now lives, nor lives any other than this which he now loses.",
-      "attribution": "Marcus Aurelius, Meditations 2.14"
+      "text": "Everywhere means nowhere.",
+      "attribution": "Seneca, Letters to Lucilius 2"
     }
   },
   "threads": [
@@ -457,9 +424,9 @@
       "title": "US-Iran conflict and the Strait of Hormuz",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-11-09",
-      "updates": 108,
-      "current_state": "Oil down about 15% last week on deal hopes; no signed deal; futures lean on the decline.",
+      "last_updated": "2026-11-12",
+      "updates": 109,
+      "current_state": "Brent settled $92.76 on Wednesday, November 11, up 1.4% after Iran ruled out shipping enriched material abroad and denied talks; still roughly 21% below where November began. No signed deal.",
       "timeline": [
         {
           "date": "2026-07-21",
@@ -1000,6 +967,11 @@
           "date": "2026-11-09",
           "summary": "Monday: US stock futures firmer on lower oil; no signed deal confirmed.",
           "change_type": "watch"
+        },
+        {
+          "date": "2026-11-12",
+          "summary": "Wednesday: Brent rose 1.4% to settle at $92.76 and WTI 0.6% to $86.53 after Iran's security chief said no enriched nuclear material would leave the country; Iran also denied it is negotiating with Washington. Brent is still down roughly a fifth since November began.",
+          "change_type": "reversed"
         }
       ]
     },
@@ -1008,9 +980,9 @@
       "title": "Federal Reserve rate path",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-11-11",
-      "updates": 111,
-      "current_state": "October CPI ran hot (headline +0.4%, core +0.3% m/m vs 0.3%/0.2% expected); a December 8-9 hike is now close to fully priced, with a small chance of 50 bp. PPI Friday, November 13.",
+      "last_updated": "2026-11-12",
+      "updates": 112,
+      "current_state": "December 8-9 hike fully priced after a hot October CPI; half-point odds about 10%-15%. 10-year near 4.99% as bonds reopen Thursday, November 12; six Fed speakers today; PPI Friday, November 13.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -1561,6 +1533,11 @@
           "date": "2026-11-11",
           "summary": "October CPI came in hot: headline +0.4% and core +0.3% month over month, each a tenth above forecasts. No-change odds for December fell to about 3% in one CME FedWatch reading; half-point odds rose to roughly 10%-14%. 10-year briefly back near 5%.",
           "change_type": "worsened"
+        },
+        {
+          "date": "2026-11-12",
+          "summary": "Thursday: bond trading resumed after Veterans Day with the 10-year near 4.99% (Saxo) and the 2-year near 4.76%. Six Fed officials speak today (Hammack, Barr, Goolsbee, Daly, Schmid, Williams) and a 30-year auction is scheduled; a December 8-9 hike remains fully priced, with half-point odds around 10%-15%.",
+          "change_type": "watch"
         }
       ]
     },
@@ -2482,9 +2459,9 @@
       "title": "Miami Hurricanes fall camp and the Mensah era",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-11-11",
-      "updates": 40,
-      "current_state": "No. 7 in the second CFP rankings (Nov 10), down from No. 1; Notre Dame, which beat Miami 31-24, is No. 5. Georgia is No. 1.",
+      "last_updated": "2026-11-12",
+      "updates": 41,
+      "current_state": "No. 7 in the CFP rankings at 8-1; host Duke Saturday, November 14 (kickoff time unconfirmed), then Virginia Tech November 21.",
       "timeline": [
         {
           "date": "2026-08-14",
@@ -2685,6 +2662,11 @@
           "date": "2026-11-11",
           "summary": "Second CFP rankings: Miami fell from No. 1 to No. 7 at 8-1; Notre Dame rose to No. 5. Still inside the 12-team field, but outside the bye line.",
           "change_type": "worsened"
+        },
+        {
+          "date": "2026-11-12",
+          "summary": "Next: Duke at Hard Rock Stadium on Saturday, November 14; kickoff listings conflict (noon vs. 5 p.m. on ABC).",
+          "change_type": "watch"
         }
       ]
     },
@@ -2845,9 +2827,9 @@
       "title": "2026 CRE capital markets under pressure",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-11-11",
-      "updates": 56,
-      "current_state": "10-year Treasury pushed back toward 5% after the October CPI (reports range 4.95%-5.02% intraday Nov 10); 2s10s curve flattened to about 32 bp. Miami office vacancy 13.9% (Cushman Q3).",
+      "last_updated": "2026-11-12",
+      "updates": 57,
+      "current_state": "10-year near 4.99% as bonds reopen (Nov 12). Private credit keeps writing record Miami condo loans: Tyko's $817M Faena Residences construction loan is reported as Florida's largest. Miami office vacancy 13.9% (Cushman Q3).",
       "timeline": [
         {
           "date": "2026-07-24",
@@ -3133,6 +3115,11 @@
           "date": "2026-11-11",
           "summary": "Hot CPI pushed the 10-year back toward 5% intraday and flattened the curve; short rates moved most, the part that matters for floating-rate debt.",
           "change_type": "worsened"
+        },
+        {
+          "date": "2026-11-12",
+          "summary": "Tyko Capital's $817 million construction loan to Fortune International Group and KAR Properties for the two-tower Faena Residences Miami on the Miami River, arranged by Walker & Dunlop, is reported as Florida's largest construction loan; one tracker lists the close as October 28.",
+          "change_type": "advanced"
         }
       ]
     },
@@ -3345,9 +3332,9 @@
       "title": "Panthers' 2026-27 season takes shape",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-11-11",
-      "updates": 35,
-      "current_state": "Beat Columbus 4-1 on Nov 10 (Bennett two goals, Markstrom 37 saves), snapping a two-game skid.",
+      "last_updated": "2026-11-12",
+      "updates": 36,
+      "current_state": "Beat Columbus 4-1 on Nov 10; host Detroit Thursday, November 12.",
       "timeline": [
         {
           "date": "2026-08-22",
@@ -3523,6 +3510,11 @@
           "date": "2026-11-11",
           "summary": "Snapped a two-game skid with a 4-1 win at Columbus: Sam Bennett scored twice and Jacob Markstrom made 37 saves.",
           "change_type": "improved"
+        },
+        {
+          "date": "2026-11-12",
+          "summary": "Thursday: Florida hosts Detroit at Amerant Bank Arena (listed 7 p.m.; one listing shows Florida 8-5-2, Detroit 7-5-3).",
+          "change_type": "watch"
         }
       ]
     },
@@ -3965,9 +3957,9 @@
       "title": "AI-regulation selloff",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-11-11",
-      "updates": 4,
-      "current_state": "Nasdaq rebounded 2.74% Monday, November 9 to 25,253.14, then gave back 0.74% Tuesday to 25,065.87 after the hot CPI.",
+      "last_updated": "2026-11-12",
+      "updates": 5,
+      "current_state": "Nasdaq closed at 25,466.19 on Wednesday, November 11 (+1.6%), back above its post-election level, before the Nvidia governance shock knocked futures lower overnight.",
       "timeline": [
         {
           "date": "2026-11-06",
@@ -3988,6 +3980,27 @@
           "date": "2026-11-11",
           "summary": "Monday's rebound was large (S&P 500 +2.35%, its best day since April; Nasdaq +2.74%), and Tuesday's CPI took back part of it (Nasdaq -0.74%, S&P 500 -0.38%).",
           "change_type": "improved"
+        },
+        {
+          "date": "2026-11-12",
+          "summary": "Wednesday: Nasdaq rose about 1.6% to 25,466.19, which one report said erased its post-election losses; after the close, Nvidia fell more than 9% on reports its board was weighing Jensen Huang's removal, and Nasdaq-100 futures were lower Thursday morning.",
+          "change_type": "advanced"
+        }
+      ]
+    },
+    {
+      "id": "thread-nvidia-huang-board",
+      "title": "Nvidia's board and Jensen Huang's future",
+      "topic": "markets",
+      "status": "emerging",
+      "last_updated": "2026-11-12",
+      "updates": 1,
+      "current_state": "The Wall Street Journal reported Wednesday, November 11 that Nvidia's board was preparing to oust Huang; Reuters said the board met late Wednesday, with no decision announced. Shares fell more than 9% after hours. Earnings due November 17.",
+      "timeline": [
+        {
+          "date": "2026-11-12",
+          "summary": "First tracked: after Huang acknowledged an affair and the board opened an independent probe into a possible foreign intelligence angle (announced Sunday, November 8, alongside a statement of confidence), reports of a second affair surfaced Wednesday; that evening the WSJ reported the board was preparing to remove him. Reuters said the board met late Wednesday with no decision announced; Bloomberg reported an outside firm was helping identify candidates. Shares fell more than 9% after hours.",
+          "change_type": "new"
         }
       ]
     }
@@ -4011,7 +4024,7 @@
     }
   ],
   "meta": {
-    "content_freshness": "2026-11-11T09:30:00-05:00",
+    "content_freshness": "2026-11-12T09:30:00-05:00",
     "feedback_endpoint_mode": "github_contents",
     "minimum_client_schema_version": 1,
     "mode": "brain"
