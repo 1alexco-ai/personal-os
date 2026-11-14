@@ -1,212 +1,254 @@
 {
   "schema_version": 2,
   "edition": {
-    "id": "2026-11-13",
-    "date": "2026-11-13",
+    "id": "2026-11-14",
+    "date": "2026-11-14",
     "type": "weekday",
-    "generated_at": "2026-11-13T09:30:00-05:00",
+    "generated_at": "2026-11-14T09:30:00-05:00",
     "timezone": "America/New_York",
     "title": "Personal OS",
     "front_page_letter": {
       "greeting": "Good morning",
       "body_paragraphs": [
-        "Good morning. Friday, November 13.",
-        "Nvidia's board answered its own question overnight. Jensen Huang resigned as CEO and director; Colette Kress, the CFO, runs the company on an interim basis, and Harvey Jones becomes the first board chair Nvidia has ever had. The stock swung as much as 14% and closed down a little over 4%. For a founder exit at the market's most important company, the index barely flinched: the S&P 500 fell 0.35%.",
-        "The bond market did the real moving. Reopening after the holiday, the 10-year climbed about 12 basis points to roughly 5.10%, helped along by oil, which rose 3.3% after the President said he does not need a deal with Iran. October PPI lands this morning, the last inflation print before the Fed meets December 8-9 with a hike already priced.",
-        "That 5.1% is the number to carry into the day. The recent run of record Miami condo loans was priced off something closer to 4.9%, and it came from private lenders, not banks.",
-        "Lighter things: the Panthers came back from 4-1 down to beat Detroit, the Canes host Duke at noon tomorrow, and tonight's reading is Seneca on how to stay steady when fortune moves fast."
+        "Good morning. Saturday, November 14, and the first cool morning of the fall: the forecast had Miami International near 59 at dawn, with highs only in the low 70s.",
+        "The week ended on a number that matters more than the one everyone waited for. October's producer prices rose 0.3%, a tenth below forecast, but the annual rate hit 6.5%, the highest since 2022. Bonds did not take the small miss as relief. The 10-year finished near 5.15%, and futures still fully price a December hike. For anyone financing buildings, two sessions above 5% is starting to look like the level, not the spike.",
+        "Nvidia closed its worst week since April 2025, down about 13%, after HSBC downgraded it on the simple argument that markets dislike a company without a permanent chief. Tuesday's earnings come from an interim CEO, and the same week Anthropic is expected to price a roughly $61 billion IPO. Next week is a referendum on how much AI risk investors still want at a 5% risk-free rate.",
+        "Oil, for once, stayed out of it: flat Friday, down for a second week.",
+        "Closer to home, Bam and Giannis scored 37 apiece to beat Cleveland, the Canes host Duke today, and Miami Book Fair opens tomorrow with Edwidge Danticat's Miami novel in the National Book Award race. Tonight's long read is Emerson, who said an institution is the lengthened shadow of one man. Nvidia is about to test that."
       ],
       "read_only_three": [
         {
           "target_type": "theme",
-          "target_id": "theme-nvidia-board-huang",
-          "label": "Nvidia, after Huang"
+          "target_id": "theme-ten-year-above-five",
+          "label": "6.5% wholesale inflation, 5.15% 10-year"
         },
         {
           "target_type": "theme",
-          "target_id": "theme-ten-year-above-five",
-          "label": "The 10-year back above 5%"
+          "target_id": "theme-nvidia-board-huang",
+          "label": "Nvidia's worst week since April 2025"
         },
         {
           "target_type": "rabbit_hole",
-          "target_id": "rh-2026-11-13",
-          "label": "Seneca, On Peace of Mind"
+          "target_id": "rh-2026-11-14",
+          "label": "Emerson, Self-Reliance"
         }
       ]
     },
     "market_context": [
       {
         "label": "S&P 500",
-        "value": "7,592.40",
-        "change": "-0.35% (-26.98)",
-        "observed": "Close, Thursday, November 12, 2026",
-        "note": "Modest loss despite Nvidia's CEO exit, a jump in oil and a 5% 10-year."
+        "value": "7,561.67",
+        "change": "-0.40% (-30.73)",
+        "observed": "Close, Friday, November 13, 2026",
+        "note": "Up about 2.5% for the week despite two down days."
       },
       {
         "label": "Nasdaq Composite",
-        "value": "25,366.09",
-        "change": "-0.39%",
-        "observed": "Close, Thursday, November 12, 2026",
-        "note": "Nvidia closed down a little over 4% after swinging as much as about 14% intraday."
+        "value": "25,136.27",
+        "change": "-0.91% (-229.82)",
+        "observed": "Close, Friday, November 13, 2026",
+        "note": "Tech was the weakest sector (-1.7%); staples and energy led."
       },
       {
         "label": "Dow Jones Industrial Average",
-        "value": "52,297.09",
-        "change": "-0.36% (-189.40)",
-        "observed": "Close, Thursday, November 12, 2026",
+        "value": "52,347.55",
+        "change": "+0.10% (+50.46)",
+        "observed": "Close, Friday, November 13, 2026",
         "note": ""
       },
       {
         "label": "10-year Treasury",
-        "value": "about 5.10%",
-        "change": "about +12 bp",
-        "observed": "Close, Thursday, November 12, 2026",
-        "note": "Sources range 5.10%-5.125% for the close; first close above 5% this month."
+        "value": "about 5.15%",
+        "change": "about +4 to +5 bp",
+        "observed": "Close, Friday, November 13, 2026",
+        "note": "CNBC and Forbes put it near 5.15%; Investing.com's table shows 5.124%."
       },
       {
         "label": "FOMC",
         "value": "Held 3.75%-4.00% on October 28",
-        "change": "December 8-9 hike fully priced",
-        "observed": "CME FedWatch via CNBC, Thursday, November 12, 2026",
-        "note": "Half-point odds about 13%. October PPI out Friday, November 13 at 8:30 a.m.; meeting is 25 days out."
+        "change": "December 8-9 hike still fully priced",
+        "observed": "CNBC, Friday, November 13, 2026",
+        "note": "No updated half-point odds found today. Meeting is 24 days out; November jobs report due December 4."
       },
       {
         "label": "Brent crude",
-        "value": "$95.82",
-        "change": "+3.3%",
-        "observed": "Settle, Thursday, November 12, 2026",
-        "note": "WTI settled $88.74 (+2.6%)."
+        "value": "$95.84",
+        "change": "+$0.02 (about 2.5% lower on the week)",
+        "observed": "Settle, Friday, November 13, 2026",
+        "note": "WTI settled $88.56 (-0.20%)."
       }
     ],
     "public_day_context": {
-      "date_label": "Friday, November 13, 2026",
-      "weather": "Not verified this morning; no dated forecast surfaced in searches. Check NWS Miami (weather.gov/mfl).",
-      "public_event": "October PPI at 8:30 a.m. ET today. Canes host Duke Saturday at noon (ABC); Dolphins at Indianapolis Sunday; Miami Book Fair opens Sunday, November 15 (Street Fair November 20-22); Nvidia earnings Tuesday, November 17; ICA Miami's Sheroanawe Hakihiiwe show opens November 19."
+      "date_label": "Saturday, November 14, 2026",
+      "weather": "Coolest air of the season after Thursday night's front: lows near 59 at Miami International this morning, highs in the low 70s; Sunday warms toward the mid-to-upper 70s with rising rain chances along the coast (CBS Miami, NBC6, WPBF forecasts from November 12-13).",
+      "public_event": "Canes host Duke today at Hard Rock Stadium (listings differ on kickoff; check before you go). Miami Book Fair opens Sunday, November 15 at MDC Wolfson; Dolphins at Colts Sunday 1 p.m. (CBS); Panthers at Dallas Monday; Nvidia earnings Tuesday, November 17; National Book Awards Wednesday, November 18."
     },
     "what_changed": [
       {
-        "id": "delta-nvidia-huang-out",
-        "thread_id": "thread-nvidia-huang-board",
-        "change_type": "advanced",
-        "title": "Huang resigns; Kress interim CEO, Jones first chair",
-        "previous_state": "The board had met late Wednesday on reports it was preparing to remove Huang, with no decision announced.",
-        "current_state": "Huang resigned as CEO and director effective immediately; CFO Colette Kress is interim CEO and Harvey C. Jones is the board's first chair; shares closed down a little over 4% Thursday.",
-        "why_it_matters": "Earnings on November 17 now come from an interim leadership team.",
+        "id": "delta-ppi-october",
+        "thread_id": "thread-fed-rate-path",
+        "change_type": "new",
+        "title": "October PPI: +0.3% m/m, 6.5% y/y",
+        "previous_state": "October PPI was due Friday at 8:30 a.m., the last inflation print before the December meeting.",
+        "current_state": "Producer prices rose 0.3% (forecast 0.4%), and 6.5% from a year earlier, the highest since November 2022; a December hike stays fully priced.",
+        "why_it_matters": "Nothing in the data argues against a December hike.",
         "confidence": "high",
         "source": {
-          "publisher": "NVIDIA via SEC",
-          "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm"
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/13/ppi-inflation-report-october-2026.html"
         }
       },
       {
-        "id": "delta-ten-year-5-10",
+        "id": "delta-ten-year-5-15",
         "thread_id": "thread-fed-rate-path",
         "change_type": "worsened",
-        "title": "10-year closes near 5.10%",
-        "previous_state": "About 4.99% as bonds reopened Thursday morning after Veterans Day.",
-        "current_state": "Closed near 5.10%, up about 12 basis points, with a December hike still fully priced.",
-        "why_it_matters": "Higher base rates for every CRE refinancing and construction loan.",
+        "title": "10-year edges up to about 5.15%",
+        "previous_state": "Closed near 5.10% Thursday after a 12 basis-point jump.",
+        "current_state": "Rose a few more basis points Friday to about 5.13-5.15%, depending on source.",
+        "why_it_matters": "The base rate for CRE debt has now held above 5% for two sessions.",
         "confidence": "medium",
         "source": {
           "publisher": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/12/us-treasurys-bonds-yields.html"
+          "url": "https://www.cnbc.com/2026/11/13/treasury-yields-fed-rates.html"
         }
       },
       {
-        "id": "delta-oil-trump-no-deal",
-        "thread_id": "thread-iran-hormuz-crisis",
+        "id": "delta-nvidia-hsbc-week",
+        "thread_id": "thread-nvidia-huang-board",
         "change_type": "worsened",
-        "title": "Brent up 3.3% to $95.82",
-        "previous_state": "Brent settled $92.76 Wednesday after Iran's enriched-material red line.",
-        "current_state": "Brent settled $95.82 and WTI $88.74 Thursday after Trump said the U.S. does not need an Iran deal.",
-        "why_it_matters": "Oil was the main disinflationary help; it has now risen two days running.",
+        "title": "HSBC downgrades Nvidia; worst week since April 2025",
+        "previous_state": "Shares closed down a little over 4% Thursday after Huang's resignation.",
+        "current_state": "Down about 2% more Friday after HSBC cut to Hold (target $375 to $170); roughly 13% lower for the week.",
+        "why_it_matters": "Tuesday's earnings now carry a leadership question as well as a numbers one.",
+        "confidence": "medium",
+        "source": {
+          "publisher": "The Motley Fool",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/13/stock-market-today-nov-13-nvidia-slides-after-hsbc-downgrades-stock-to-hold-on-ceo-uncertainty/"
+        }
+      },
+      {
+        "id": "delta-oil-weekly-loss",
+        "thread_id": "thread-iran-hormuz-crisis",
+        "change_type": "improved",
+        "title": "Brent flat at $95.84, second weekly loss",
+        "previous_state": "Brent jumped 3.3% to $95.82 Thursday after Trump said no Iran deal was needed.",
+        "current_state": "Settled $95.84 Friday, down about 2.5% for the week, as the IEA flagged a growing surplus.",
+        "why_it_matters": "The rebound did not extend; oil is not adding to the inflation problem this week.",
         "confidence": "high",
         "source": {
-          "publisher": "Rigzone",
-          "url": "https://www.rigzone.com/news/oil_rises_as_trump_dims_iran_deal_hopes-12-nov-2026-185073-article"
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/13/oil-prices-set-for-second-weekly-decline-as-trump-to-stay-with-iran-blockade.html"
         }
       },
       {
-        "id": "delta-panthers-comeback",
-        "thread_id": "thread-panthers-2026-27-season",
+        "id": "delta-heat-beat-cavs",
+        "thread_id": "thread-heat-giannis-era",
         "change_type": "improved",
-        "title": "Panthers beat Detroit 5-4 from 4-1 down",
-        "previous_state": "One win (4-1 at Columbus) after a skid, with Detroit coming to Sunrise.",
-        "current_state": "Two straight wins after four unanswered goals; Lundell scored the winner with about 2:40 left.",
-        "why_it_matters": "Florida has turned a slide into a streak inside a week.",
+        "title": "Heat beat Cleveland 133-121, back to .500",
+        "previous_state": "5-6 after splitting a western trip, with Giannis questioning the team's trust.",
+        "current_state": "6-6 after Adebayo and Antetokounmpo scored 37 each at home.",
+        "why_it_matters": "The two stars produced at once, which is the whole premise of the season.",
         "confidence": "high",
         "source": {
           "publisher": "ESPN",
-          "url": "https://www.espn.com/nhl/game/_/gameId/401892699"
+          "url": "https://www.espn.com/nba/recap?gameId=401909298"
         }
       }
     ],
     "themes": [
       {
-        "id": "theme-nvidia-board-huang",
-        "affinity": "morning",
-        "topic": "markets",
-        "topic_label": "Markets & Macro",
-        "title": "Nvidia, after Huang",
-        "importance": 0.96,
-        "thesis": "The board chose the institution over its founder overnight, and the market treated it as survivable rather than catastrophic.",
-        "synthesis": "Nvidia's board accepted Jensen Huang's resignation as president, CEO and director, effective immediately, after a late-night meeting Wednesday. CFO Colette Kress becomes interim CEO while keeping the finance job, and Harvey C. Jones, the former Synopsys chief, becomes the company's first-ever board chair; a search for a permanent CEO is under way. The stock swung as much as about 14% intraday Thursday and closed down a little over 4%, a smaller loss than Wednesday night's after-hours drop suggested.",
-        "new_today": "Wednesday's question (will the board remove him?) has an answer: he is gone, and the board now has a chair and an interim CEO.",
-        "why_it_matters": "Nvidia is the largest single weight in the indexes most portfolios track, and it reports on Tuesday, November 17 with a CFO doing double duty as CEO. The guidance and the tone of that call now carry more information than usual.",
-        "thread_id": "thread-nvidia-huang-board",
-        "confidence": "high",
-        "sources": [
-          {
-            "role": "primary_reporting",
-            "publisher": "NVIDIA (SEC Form 8-K press release)",
-            "headline": "NVIDIA announces CEO transition",
-            "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm"
-          },
-          {
-            "role": "analysis",
-            "publisher": "CNBC",
-            "headline": "Nvidia stock closes down over 4% after CEO Jensen Huang announces resignation",
-            "url": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html"
-          },
-          {
-            "role": "background",
-            "publisher": "CFO Dive",
-            "headline": "Nvidia CFO viewed by some as possible interim CEO",
-            "url": "https://www.cfodive.com/news/nvidia-cfo-viewed-some-as-possible-interim-ceo/874268/"
-          }
-        ]
-      },
-      {
         "id": "theme-ten-year-above-five",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "The 10-year comes back above 5%",
-        "importance": 0.9,
-        "thesis": "When bonds reopened, they did what stocks had politely declined to do on the holiday: reprice for a Fed that hikes in December and an oil market that stopped falling.",
-        "synthesis": "The 10-year Treasury yield rose about 12 basis points Thursday to close near 5.10%, its first finish above 5% this month, as oil jumped and traders kept a December hike fully priced; CME FedWatch put half-point odds around 13%, per CNBC. Stocks gave back a little (S&P 500 -0.35%) rather than a lot. October producer prices come out this morning, the last inflation print before the December 8-9 meeting; one preview put the headline consensus at 6.6% year over year.",
-        "new_today": "The 10-year moved from just under 5% to about 5.10% in one session.",
-        "why_it_matters": "Every CRE refinancing and construction quote prices off this number. A 5.1% base rate plus spread is the hurdle the Miami condo pipeline is now being underwritten against.",
+        "title": "Wholesale inflation at 6.5%, the 10-year at 5.15%",
+        "importance": 0.93,
+        "thesis": "October's producer prices came in a tenth softer than forecast, and it did not matter: the annual rate is the highest since 2022 and bonds kept selling.",
+        "synthesis": "The October PPI rose 0.3% on the month against a 0.4% forecast, but the 12-month rate reached 6.5%, the fastest since November 2022; core rose about 5.0% from a year earlier. The 10-year still climbed a few basis points to roughly 5.15% Friday, and futures continue to fully price a December hike. A small monthly miss inside a large annual number is not relief.",
+        "new_today": "October PPI: +0.3% m/m (forecast +0.4%), +6.5% y/y; 10-year around 5.13-5.15% at Friday's close.",
+        "why_it_matters": "Every CRE refinancing and construction quote now prices off a 10-year above 5%, and the last inflation print before the December 8-9 meeting did nothing to talk the Fed out of hiking.",
         "thread_id": "thread-fed-rate-path",
-        "confidence": "medium",
+        "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
             "publisher": "CNBC",
-            "headline": "10-year Treasury yield jumps back above 5% as oil gains and more Fed rate hikes expected",
-            "url": "https://www.cnbc.com/2026/11/12/us-treasurys-bonds-yields.html"
+            "headline": "Wholesale prices rose 0.3% in October, putting annual rate at 6.5%, the highest in nearly four years",
+            "url": "https://www.cnbc.com/2026/11/13/ppi-inflation-report-october-2026.html"
           },
           {
             "role": "analysis",
-            "publisher": "Yahoo Finance",
-            "headline": "Stock market today: Dow, S&P 500, Nasdaq slip as Nvidia stock falls on CEO exit, bond yields rise",
-            "url": "https://finance.yahoo.com/markets/live/stock-market-today-sp-500-nasdaq-fall-as-nvidia-ceo-exit-rising-bond-yields-roil-markets-195710154.html"
+            "publisher": "CNBC",
+            "headline": "10-year Treasury yield moves to 5.15% as traders weigh producer price report",
+            "url": "https://www.cnbc.com/2026/11/13/treasury-yields-fed-rates.html"
           },
           {
             "role": "background",
+            "publisher": "U.S. News & World Report",
+            "headline": "Wholesale Inflation Hits Nearly 4-Year High, Though Slightly Below Forecast",
+            "url": "https://www.usnews.com/news/national-news/articles/2026-11-13/wholesale-inflation-hits-nearly-4-year-high-though-slightly-below-forecast"
+          }
+        ]
+      },
+      {
+        "id": "theme-nvidia-board-huang",
+        "affinity": "morning",
+        "topic": "markets",
+        "topic_label": "Markets & Macro",
+        "title": "Nvidia's worst week since April 2025",
+        "importance": 0.9,
+        "thesis": "The market's first verdict on Nvidia without Huang arrived on day two: a downgrade, and a 13% weekly loss.",
+        "synthesis": "Nvidia fell about 2% more Friday, to roughly $162.85, leaving it down about 13% over five sessions, its worst week since the April 2025 tariff rout. HSBC cut the stock to Hold and its target from $375 to $170, arguing shares will struggle until a permanent CEO is named. Tuesday's third-quarter report is the first without Huang, delivered by an interim CEO who is also the CFO.",
+        "new_today": "HSBC downgrade to Hold (target $170); stock down about 13% on the week.",
+        "why_it_matters": "Nvidia is the largest single weight in the indexes most portfolios track; Tuesday's numbers and the tone of the call will move more than one stock.",
+        "thread_id": "thread-nvidia-huang-board",
+        "confidence": "medium",
+        "sources": [
+          {
+            "role": "primary_reporting",
             "publisher": "Yahoo Finance",
-            "headline": "Fed rate hike odds in December at 88% after hot CPI - CME FedWatch",
-            "url": "https://finance.yahoo.com/economy/policy/articles/fed-rate-hike-odds-december-035134676.html"
+            "headline": "Stock market today: Dow rises, S&P 500 and Nasdaq slip to cap volatile week, Nvidia stock plunge deepens",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-13-dow-sp-500-nasdaq-nvidia-ppi-141451558.html"
+          },
+          {
+            "role": "analysis",
+            "publisher": "The Motley Fool",
+            "headline": "Stock Market Today, Nov. 13: Nvidia Slides After HSBC Downgrades Stock to Hold on CEO Uncertainty",
+            "url": "https://www.fool.com/coverage/stock-market-today/2026/11/13/stock-market-today-nov-13-nvidia-slides-after-hsbc-downgrades-stock-to-hold-on-ceo-uncertainty/"
+          },
+          {
+            "role": "counterpoint",
+            "publisher": "Forbes",
+            "headline": "Nvidia Stock Hits Its Lowest Valuation Since 2012 After Huang Resigns",
+            "url": "https://www.forbes.com/sites/jonmarkman/2026/11/13/nvidia-stock-hits-its-lowest-valuation-since-2012-after-huang-resigns/"
+          }
+        ]
+      },
+      {
+        "id": "theme-anthropic-ipo",
+        "affinity": "morning",
+        "topic": "markets",
+        "topic_label": "Markets & Macro",
+        "title": "The other AI test next week: Anthropic's IPO",
+        "importance": 0.74,
+        "thesis": "A roughly $61 billion offering is scheduled for the same week the AI trade's bellwether reports without its founder.",
+        "synthesis": "Anthropic's amended S-1, filed November 10, sets 825 million Class A shares at $70 to $78 for a Nasdaq listing under 'ANT', about $61 billion at the midpoint and a fully diluted value near $1.2 trillion by Renaissance Capital's count. Seven companies, including Nvidia, Google and Microsoft, agreed to buy $26 billion of stock alongside it. Pricing is expected the week of November 16; exact dates in reporting vary. (Disclosure: this edition is compiled with an Anthropic model.)",
+        "new_today": "Terms set; pricing expected the week of November 16.",
+        "why_it_matters": "How a deal this size clears, in a week of 5% yields and Nvidia's report, will say a lot about how much appetite is left for AI risk.",
+        "thread_id": "thread-anthropic-ipo",
+        "confidence": "medium",
+        "sources": [
+          {
+            "role": "primary_reporting",
+            "publisher": "Renaissance Capital",
+            "headline": "Anthropic sets terms for $61 billion IPO targeting a $1.2 trillion market cap",
+            "url": "https://www.renaissancecapital.com/IPO-Center/News/122657/anthropic-sets-terms-for-61-billion-ipo-targeting-a-1.2-trillion-market-cap"
+          },
+          {
+            "role": "background",
+            "publisher": "ABC11 (AP)",
+            "headline": "Anthropic set to make stock market debut as questions swirl about safety of AI",
+            "url": "https://abc11.com/post/anthropic-set-make-stock-market-debut-questions-swirl-safety-ai/19980936/"
           }
         ]
       },
@@ -215,82 +257,54 @@
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Oil climbs as Washington shrugs at a deal",
-        "importance": 0.8,
-        "thesis": "Two days after Tehran drew its red line, Washington drew one of its own, and crude had its best day in weeks.",
-        "synthesis": "Brent settled at $95.82 Thursday, up 3.3%, and WTI at $88.74, up 2.6%, after President Trump said the United States does not need a deal with Iran. Even after the move, both benchmarks are down roughly a fifth for November, which is how much peace had already been priced in. Analysts quoted in the coverage warn that sour headlines will put risk premium back in; that is a forecast, not a fact.",
-        "new_today": "The peace-trade unwind extended: a second straight up day for oil, this time on U.S. rather than Iranian comments.",
-        "why_it_matters": "Oil was the one input that had been quietly helping the inflation picture. If it stops falling, the Fed's December case gets easier to make and the 10-year has less reason to come back down.",
+        "title": "Oil steadies, and posts a second weekly loss",
+        "importance": 0.66,
+        "thesis": "After Thursday's jump, crude went sideways Friday as a surplus story competed with the blockade story.",
+        "synthesis": "Brent settled at $95.84, up two cents, and WTI at $88.56, down 18 cents; Brent fell about 2.5% on the week, its second straight weekly decline. An IEA report pointing to a growing global surplus and rising U.S. inventories offset Washington's signal that it will keep the Iran blockade in place.",
+        "new_today": "Flat Friday close; second weekly loss; IEA flags surplus.",
+        "why_it_matters": "Oil had been the main disinflationary help this month; it stopped falling but did not resume rising, which keeps the inflation story about everything else.",
         "thread_id": "thread-iran-hormuz-crisis",
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Rigzone",
-            "headline": "Oil Rises as Trump Dims Iran Deal Hopes",
-            "url": "https://www.rigzone.com/news/oil_rises_as_trump_dims_iran_deal_hopes-12-nov-2026-185073-article"
+            "publisher": "CNBC",
+            "headline": "Oil prices set for second weekly decline as Trump to stay with Iran blockade",
+            "url": "https://www.cnbc.com/2026/11/13/oil-prices-set-for-second-weekly-decline-as-trump-to-stay-with-iran-blockade.html"
           },
           {
             "role": "analysis",
-            "publisher": "CNBC",
-            "headline": "Oil prices rise after Trump says no Iran deal needed",
-            "url": "https://www.cnbc.com/2026/11/12/oil-prices-jump-after-trump-says-no-iran-deal-needed-weve-got-their-strait.html"
+            "publisher": "Nation Thailand (Reuters)",
+            "headline": "Brent and WTI set for losses of about 2.5% in week to Nov 13 as surplus concerns grow",
+            "url": "https://www.nationthailand.com/news/world/40073488"
           }
         ]
       },
       {
-        "id": "theme-faena-record-loan",
-        "affinity": "morning",
-        "topic": "markets",
-        "topic_label": "Markets & Macro",
-        "title": "Who lends in Miami at 5.1%",
-        "importance": 0.68,
-        "thesis": "The record Miami condo loans of the past month share a lender type, and a higher 10-year makes that pattern more important, not less.",
-        "synthesis": "In roughly three weeks, Tyko Capital wrote $507 million for Terra's West Avenue tower in Miami Beach and $817 million for Faena Residences on the Miami River, now reported as Florida's largest construction loan, while a separate $463 million loan went to the St. Regis Sunny Isles south tower. Those deals were priced off a 10-year near 4.9%. It closed Thursday near 5.10%. This is analysis rather than news: no new loan was reported Thursday.",
-        "new_today": "No new deal; the rate backdrop moved about 12 basis points against borrowers.",
-        "why_it_matters": "Private credit is underwriting the top of the Miami condo market at floating spreads over a rising base. Deposits and presales protect lenders; the question for anyone in CRE is what happens to the next project that has neither.",
-        "thread_id": "thread-cre-capital-markets-2026",
-        "confidence": "medium",
-        "sources": [
-          {
-            "role": "background",
-            "publisher": "WRE News",
-            "headline": "Faena Miami Towers Secure $817M Construction Loan",
-            "url": "https://wrenews.com/tyko-817-million-faena-residences-miami-construction-loan-2026/"
-          },
-          {
-            "role": "background",
-            "publisher": "Bisnow",
-            "headline": "Terra Lands $507M Loan For Miami Beach Condo Tower: The South Florida Deal Sheet",
-            "url": "https://www.bisnow.com/news/south-florida/deal-sheet/terra-lands-507m-loan-for-miami-beach-condo-tower-south-florida-deal-sheet"
-          }
-        ]
-      },
-      {
-        "id": "theme-panthers-host-detroit",
+        "id": "theme-heat-two-37s",
         "affinity": "morning",
         "topic": "sports",
         "topic_label": "Miami Sports",
-        "title": "Panthers erase a 4-1 hole against Detroit",
-        "importance": 0.6,
-        "thesis": "Down three with half a minute left in the second period, Florida scored four unanswered and won 5-4.",
-        "synthesis": "Detroit led 4-1 late in the second period in Sunrise on Thursday. From there it was all Florida: Anton Lundell scored twice, including the go-ahead goal with about 2:40 left, and Lars Eller, Gustav Forsling and Sam Reinhart also scored. The Red Wings, who beat Florida 5-3 in Sunrise on November 2, have now lost five straight.",
-        "new_today": "Second straight win, and payback for the November 2 loss to the same team.",
-        "why_it_matters": "A comeback like this is the kind of result that steadies a team that was skidding a week ago.",
-        "thread_id": "thread-panthers-2026-27-season",
+        "title": "Two 37s: Bam and Giannis beat Cleveland",
+        "importance": 0.62,
+        "thesis": "Four nights after Giannis said the team did not trust one another, the Heat looked like a team that does.",
+        "synthesis": "Miami beat the Cavaliers 133-121 at home Friday, with Bam Adebayo and Giannis Antetokounmpo scoring 37 apiece, the second time two Heat players have each scored 37 in one game (LeBron James and Dwyane Wade, 2013). Davion Mitchell added 22 points and 17 assists. A 41-point fourth quarter brought Miami to 6-6 and 2-0 in the NBA Cup.",
+        "new_today": "Heat 133, Cavaliers 121; record 6-6.",
+        "why_it_matters": "The Giannis-Bam pairing producing together, not in turns, is the question this season hangs on.",
+        "thread_id": "thread-heat-giannis-era",
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
             "publisher": "ESPN",
-            "headline": "Panthers 5-4 Red Wings (Nov 12, 2026) Final Score",
-            "url": "https://www.espn.com/nhl/game/_/gameId/401892699"
+            "headline": "Heat 133-121 Cavaliers (Nov 13, 2026) Game Recap",
+            "url": "https://www.espn.com/nba/recap?gameId=401909298"
           },
           {
             "role": "analysis",
-            "publisher": "CBS Sports",
-            "headline": "Detroit Red Wings vs. Florida Panthers - Game Recap - November 12, 2026",
-            "url": "https://www.cbssports.com/nhl/gametracker/recap/NHL_20261112_DET@FLA/"
+            "publisher": "VAVEL",
+            "headline": "Miami Heat 133-121 Cleveland Cavaliers, Adebayo and Antetokounmpo score 37 each",
+            "url": "https://www.vavel.com/en-us/nba/2026/11/13/1279096-cavaliers-vs-heat-live-score-updates-and-play-by-play-nba.html"
           }
         ]
       },
@@ -299,12 +313,12 @@
         "affinity": "morning",
         "topic": "sports",
         "topic_label": "Miami Sports",
-        "title": "Canes-Duke at noon, with a quarterback subplot",
-        "importance": 0.58,
-        "thesis": "Miami should win Saturday; the interesting part is that its quarterback won an ACC title for the other sideline.",
-        "synthesis": "No. 7 Miami (8-1) hosts Duke at Hard Rock on Saturday, November 14, with kickoff listed for noon ET on ABC and Miami favored by about two touchdowns. Darian Mensah, who led Duke to the ACC title, now starts for Miami. Duke arrives off a 41-3 win at NC State, so this is not the soft spot the line implies. On Sunday the Dolphins (1-7) play at Indianapolis.",
-        "new_today": "Kickoff time and network now listed (noon, ABC).",
-        "why_it_matters": "After the Notre Dame loss, Miami's playoff case needs clean wins; style points matter in a committee room.",
+        "title": "The weekend slate: Canes-Duke today, Dolphins in Indianapolis",
+        "importance": 0.6,
+        "thesis": "Miami's best team plays a former quarterback's old team today; its worst plays a team nearly as bad tomorrow.",
+        "synthesis": "No. 7 Miami (8-1) hosts Duke (7-2) at Hard Rock Stadium, a roughly two-touchdown favorite, with Darian Mensah and receiver Cooper Barkate facing the program they left. On Sunday the 1-7 Dolphins visit the Colts at 1 p.m. on CBS; the Panthers, two wins in a row, are next at Dallas on Monday.",
+        "new_today": "Game day for the Canes; Dolphins and Panthers previews.",
+        "why_it_matters": "A clean win keeps Miami in a playoff position with Virginia Tech next; a Dolphins loss deepens the draft-position conversation.",
         "thread_id": "thread-hurricanes-fall-camp",
         "confidence": "medium",
         "sources": [
@@ -316,112 +330,112 @@
           },
           {
             "role": "background",
-            "publisher": "Sports Illustrated",
-            "headline": "Blue Devils-Miami emerging as one of college football's most anticipated matchups",
-            "url": "https://www.si.com/college/duke/blue-devils-miami-emerging-one-college-football-most-anticipated-matchups"
+            "publisher": "Miami Dolphins",
+            "headline": "Miami Dolphins-Indianapolis Colts game preview",
+            "url": "https://www.miamidolphins.com/news/miami-dolphins-indianapolis-colts-game-preview"
           }
         ]
       },
       {
-        "id": "theme-founder-and-the-firm",
-        "affinity": "evening",
-        "topic": "living",
-        "topic_label": "Art of Living",
-        "title": "A board that had never had a chair",
-        "importance": 0.62,
-        "thesis": "The detail that tells you most about Nvidia's week is that it took a crisis to give the board a chair at all.",
-        "synthesis": "For more than three decades, Nvidia was run by its co-founder without a separate board chair; the press release announcing Huang's exit names Harvey C. Jones as the first. That arrangement worked as long as the founder's judgment and the company's interests pointed the same way. When they diverged, the board had to invent, overnight, the structure it would need to act without him. It is a small, concrete version of an old question: how much of what we build should depend on us.",
-        "new_today": "Yesterday this was a question; today it is a case study with an ending.",
-        "why_it_matters": "Everyone who builds something, a firm, a team, a household, eventually faces the version of this that fits their scale: what keeps working when you are not in the room.",
-        "thread_id": "thread-nvidia-huang-board",
-        "confidence": "high",
-        "sources": [
-          {
-            "role": "primary_reporting",
-            "publisher": "NVIDIA (SEC Form 8-K press release)",
-            "headline": "NVIDIA announces CEO transition",
-            "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm"
-          }
-        ]
-      },
-      {
-        "id": "theme-hakihiiwe-ica",
+        "id": "theme-danticat-dey-book-fair",
         "affinity": "evening",
         "topic": "miami",
         "topic_label": "Miami Life & Culture",
-        "title": "A Yanomami artist's first U.S. museum show, in the Design District",
-        "importance": 0.55,
-        "thesis": "Before Art Week turns the city into a trade show, ICA Miami opens something quieter: three decades of work from the Venezuelan Amazon.",
-        "synthesis": "Sheroanawe Hakihiiwe, a Yanomami artist from the Upper Orinoco in Venezuela, gets his first solo U.S. museum exhibition at ICA Miami, opening Thursday, November 19 and running through March 28, 2027. Co-produced with the Fondation Cartier in Paris, it brings together roughly 100 works across three decades, including murals. Listings differ slightly on the count.",
-        "new_today": "Opening date and run confirmed; worth putting on the calendar before Art Week crowds arrive November 30.",
-        "why_it_matters": "ICA is free, a short drive away, and this is the kind of show that is better seen on a quiet weekday evening than during Art Week.",
+        "title": "A Miami novel, a week before its verdict",
+        "importance": 0.6,
+        "thesis": "Miami Book Fair opens tomorrow with a hometown author in the National Book Award fiction race.",
+        "synthesis": "Edwidge Danticat's novel Dèy, a fiction finalist for the National Book Award, follows a woman who witnesses a mass shooting at a Miami mall, moving between Miami, Haiti and Brooklyn; it is her third time as a finalist. The 43rd Miami Book Fair runs November 15-22 at Miami Dade College's Wolfson Campus with nearly 500 authors, Margaret Atwood and Colson Whitehead among them. The awards are announced November 18, mid-fair.",
+        "new_today": "Book Fair opens Sunday; National Book Awards announced Wednesday.",
+        "why_it_matters": "A rare week when the national literary conversation and a Miami story sit in the same room, downtown, mostly for free.",
         "thread_id": null,
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Miami & Beaches",
-            "headline": "Sheroanawe Hakihiiwe",
-            "url": "https://www.miamiandbeaches.com/event/sheroanawe-hakihiiwe/43603"
+            "publisher": "WLRN",
+            "headline": "National Book Award finalists include Haitian-American author and tackle identity, justice and war",
+            "url": "https://www.wlrn.org/light/south-florida/2026-10-07/national-book-award-finalists-include-haitian-american-author-and-tackle-identity-justice-and-war"
           },
           {
-            "role": "background",
-            "publisher": "Fondation Cartier",
-            "headline": "Sheroanawe Hakihiiwe",
-            "url": "https://www.fondationcartier.com/en/program/exhibition/sheroanawe-hakihiiwe"
+            "role": "local_perspective",
+            "publisher": "WLRN",
+            "headline": "Miami Book Fair announces 2026 lineup featuring nearly 500 authors and literary icons",
+            "url": "https://www.wlrn.org/light/arts-culture/2026-10-13/miami-book-fair-announces-2026-lineup-featuring-nearly-500-authors-and-literary-icons"
+          }
+        ]
+      },
+      {
+        "id": "theme-weekend-making-by-hand",
+        "affinity": "evening",
+        "topic": "living",
+        "topic_label": "Art of Living",
+        "title": "The essay you saved for a weekend",
+        "importance": 0.5,
+        "thesis": "Since September, one essay has been waiting in your list for a weekend; this is one.",
+        "synthesis": "You saved Aeon's 'The Radical Reasons Why You Dream of Making Things by Hand' on September 3 and tagged it for a weekend. Its subject is why handwork keeps pulling at people whose jobs are abstract. After a week spent watching prices, yields and a founder's exit, a Saturday with cool air is a reasonable time to read about making something you can hold.",
+        "new_today": "Nothing new; it is a weekend and the first cool one of the season.",
+        "why_it_matters": "A saved item read is worth more than three new ones queued.",
+        "thread_id": null,
+        "confidence": "high",
+        "sources": [
+          {
+            "role": "primary_reporting",
+            "publisher": "Aeon",
+            "headline": "The Radical Reasons Why You Dream of Making Things by Hand",
+            "url": "https://aeon.co/essays/the-radical-reasons-why-you-dream-of-making-things-by-hand"
           }
         ]
       }
     ],
     "rabbit_hole": {
-      "id": "rh-2026-11-13",
-      "title": "On Peace of Mind (De Tranquillitate Animi)",
-      "creator": "Seneca, translated by Aubrey Stewart (Standard Ebooks edition)",
+      "id": "rh-2026-11-14",
+      "title": "Self-Reliance",
+      "creator": "Ralph Waldo Emerson (1841; Standard Ebooks edition)",
       "format": "essay",
-      "minutes": 50,
-      "why": "Seneca wrote it to a friend who was successful, restless and unsure whether to stay in public life, and it is mostly practical: how to choose work that fits you, how to hold wealth and position loosely, how to expect reversals without being undone by them. On a day when one of the most powerful executives in the world lost his job between dinner and breakfast, its pages on how fast fortune moves read less like philosophy and more like reporting; reading time is an estimate.",
-      "url": "https://standardebooks.org/ebooks/seneca/dialogues/aubrey-stewart/text/on-peace-of-mind",
+      "minutes": 45,
+      "why": "Emerson's essay contains the line 'An institution is the lengthened shadow of one man,' and this week Nvidia began testing how long a shadow lasts once the man steps out of the light. Read past the famous quotations; the essay is stranger and more demanding than its reputation, and a cool Saturday is the right pace for it. Reading time is an estimate.",
+      "url": "https://standardebooks.org/ebooks/ralph-waldo-emerson/essays/text/self-reliance",
       "related_interest": "living"
     },
     "beautiful_thing": {
-      "id": "bt-2026-11-13",
-      "title": "Pérez Art Museum Miami (PAMM)",
-      "creator": "Herzog & de Meuron, with hanging gardens by botanist Patrick Blanc",
-      "era": "Opened December 2013",
-      "body": "The Swiss firm Herzog & de Meuron designed PAMM for Museum Park on Biscayne Bay, and the building's best idea is its roof: a broad, thin canopy that shades a deep veranda wrapping the galleries, so you are outdoors and in the shade at the same time, the way old Florida porches worked. Look up at the columns of plants hanging from that canopy; they are vertical gardens by Patrick Blanc, and they move in the wind off the bay. Then look down: the whole museum sits on a raised platform, an architectural answer to storm surge that doubles as a public stair facing the water. Go near sunset, when the light comes in low under the roof.",
-      "url": "https://www.pamm.org/en/visit/",
+      "id": "bt-2026-11-14",
+      "title": "Venetian Pool, Coral Gables",
+      "creator": "Artist Denman Fink and architect Phineas Paist, for developer George Merrick",
+      "era": "Opened 1924",
+      "body": "Before it was a pool it was a hole: the quarry that supplied the coral rock for Coral Gables' early buildings. Rather than fill it, Merrick had Fink and Paist turn it into a swimming lagoon, with loggias, towers, bridges and grottoes, and a waterfall, all in a Mediterranean dress that has nothing to do with Venice beyond the name. Look at the walls: the rough, pitted stone is the quarry face itself, the same oolitic limestone you see cut smooth on houses around it. It was listed on the National Register of Historic Places in 1981, and is often described as the only swimming pool on the Register.",
+      "url": "https://www.coralgables.com/venetian-pool-history",
       "image": null,
-      "alt": "The Pérez Art Museum Miami on Biscayne Bay, with a wide wooden canopy over a shaded veranda and hanging columns of plants."
+      "alt": "A large swimming lagoon carved from coral rock, framed by Mediterranean-style loggias, a stone bridge and palms."
     },
-    "noticing_prompt": "Today, notice one thing that keeps working without anyone tending it: a routine, a system, a neighbor's habit. Ask what it took to get it there.",
+    "noticing_prompt": "On the first cool morning, notice what people in Miami do differently when it is 59 degrees: the jackets, the open windows, the way the light looks drier. Which of those changes would you keep if the heat came back tomorrow?",
     "daily_puzzle": {
-      "id": "dp-2026-11-13",
-      "type": "lateral",
-      "prompt": "A man walks into a bar and asks the bartender for a glass of water. The bartender reaches under the counter, pulls out a gun and points it at him. The man says \"Thank you,\" and walks out, satisfied. Why?",
-      "hint": "The man was never thirsty.",
-      "solution": "He had the hiccups. The bartender cured them with a fright, so the man no longer needed the water.",
-      "explanation": "A sudden scare is a folk cure for hiccups; the water was another remedy, and the gun made it unnecessary."
+      "id": "dp-2026-11-14",
+      "type": "logic",
+      "prompt": "On an island, knights always tell the truth and knaves always lie. You meet three islanders, A, B and C. A says: \"B is a knave.\" B says: \"A and C are the same kind.\" Is C a knight or a knave?",
+      "hint": "Try both possibilities for A and see what each forces about B, then about C.",
+      "solution": "C is a knave.",
+      "explanation": "If A is a knight, B is a knave, so B's claim is false and C differs from A: a knave. If A is a knave, B is a knight, so B's claim is true and C matches A: again a knave. Either way C is a knave, even though A and B can't be pinned down."
     },
     "evening_unwind": {
-      "id": "eu-2026-11-13",
+      "id": "eu-2026-11-14",
       "evening_quote": {
-        "text": "Near is thy forgetfulness of all things; and near the forgetfulness of thee by all.",
+        "text": "Men seek retreats for themselves, houses in the country, sea-shores, and mountains; and thou too art wont to desire such things very much. But this is altogether a mark of the most common sort of men, for it is in thy power whenever thou shalt choose to retire into thyself.",
         "attribution": "Marcus Aurelius",
-        "source": "Meditations, 7.21 (George Long translation)"
+        "source": "Meditations, 4.3 (George Long translation)"
       },
-      "evening_prompt": "What part of your week depended on you alone, and would it have been fine, or better, if it hadn't?"
+      "evening_prompt": "Of everything you read about this week, the yields, the founder, the IPO, which actually changed something you will do, and which was only weather?"
     },
     "reading_queue": [
       {
         "title": "The Radical Reasons Why You Dream of Making Things by Hand",
         "url": "https://aeon.co/essays/the-radical-reasons-why-you-dream-of-making-things-by-hand",
         "verdict": "weekend",
-        "reason": "Saved September 3 and tagged for the weekend; the weekend starts tomorrow."
+        "reason": "Saved September 3 for a weekend; this is the weekend, and it is tonight's evening theme."
       }
     ],
     "quote": {
-      "text": "Near is thy forgetfulness of all things; and near the forgetfulness of thee by all.",
-      "attribution": "Marcus Aurelius, Meditations 7.21"
+      "text": "Men seek retreats for themselves, houses in the country, sea-shores, and mountains; and thou too art wont to desire such things very much. But this is altogether a mark of the most common sort of men, for it is in thy power whenever thou shalt choose to retire into thyself.",
+      "attribution": "Marcus Aurelius, Meditations 4.3"
     }
   },
   "threads": [
@@ -430,9 +444,9 @@
       "title": "US-Iran conflict and the Strait of Hormuz",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-11-13",
-      "updates": 110,
-      "current_state": "Brent settled $95.82 on Thursday, November 12, up 3.3% after Trump said the U.S. does not need an Iran deal; still about 20% below where November began. No deal, no talks acknowledged by Tehran.",
+      "last_updated": "2026-11-14",
+      "updates": 111,
+      "current_state": "Brent $95.84 at the November 13 settle, down about 2.5% on the week. U.S. blockade stays; no deal, no acknowledged talks. IEA sees a growing global surplus.",
       "timeline": [
         {
           "date": "2026-07-21",
@@ -983,6 +997,11 @@
           "date": "2026-11-13",
           "summary": "Brent settled $95.82 (+3.3%) and WTI $88.74 (+2.6%) on Thursday after Trump said the U.S. does not need a deal with Iran, dimming hopes for a negotiated end to the war.",
           "change_type": "worsened"
+        },
+        {
+          "date": "2026-11-14",
+          "summary": "Brent settled $95.84 Friday (+$0.02), WTI $88.56; Brent down about 2.5% on the week, a second weekly loss, as the IEA flagged a growing surplus while Washington signaled it will keep the Iran blockade.",
+          "change_type": "improved"
         }
       ]
     },
@@ -991,9 +1010,9 @@
       "title": "Federal Reserve rate path",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-11-13",
-      "updates": 113,
-      "current_state": "10-year near 5.10% after Thursday, November 12 (up ~12 bp). December 8-9 hike fully priced; half-point odds about 13%. October PPI Friday, November 13, the last inflation print before the meeting.",
+      "last_updated": "2026-11-14",
+      "updates": 114,
+      "current_state": "10-year near 5.15% after Friday, November 13 (sources 5.124-5.15%). October PPI +0.3% m/m, +6.5% y/y. December 8-9 hike fully priced; November jobs report due December 4.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -1554,6 +1573,11 @@
           "date": "2026-11-13",
           "summary": "The 10-year closed near 5.10% on Thursday, up about 12 basis points as bonds reopened, its first close above 5% this month; a December hike stays fully priced, half-point odds about 13% (CME FedWatch via CNBC). October PPI due Friday, November 13.",
           "change_type": "worsened"
+        },
+        {
+          "date": "2026-11-14",
+          "summary": "October PPI rose 0.3% m/m (forecast 0.4%) and 6.5% y/y, the highest since November 2022; core about 5.0% y/y. The 10-year rose a few basis points Friday to about 5.13-5.15%; a December hike remains fully priced.",
+          "change_type": "advanced"
         }
       ]
     },
@@ -1893,9 +1917,9 @@
       "title": "Heat: the Giannis era begins",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-11-11",
-      "updates": 31,
-      "current_state": "Lost 138-117 at the Lakers on Nov 9 (Giannis: 'we don't trust one another'), then won 115-109 at Utah on Nov 10 behind his 30 points. Clippers listed next.",
+      "last_updated": "2026-11-14",
+      "updates": 32,
+      "current_state": "6-6 after a 133-121 home win over Cleveland on November 13 (Bam and Giannis 37 each). Rockets at home November 17, Bucks November 18.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -2046,6 +2070,11 @@
           "date": "2026-11-11",
           "summary": "Lost 138-117 to the Lakers Monday, after which Giannis said the team does not trust one another; beat Utah 115-109 Tuesday with Giannis scoring 30.",
           "change_type": "advanced"
+        },
+        {
+          "date": "2026-11-14",
+          "summary": "Beat Cleveland 133-121 at home on Friday, November 13: Adebayo and Antetokounmpo each scored 37, Davion Mitchell had 22 points and 17 assists; record 6-6, 2-0 in the NBA Cup.",
+          "change_type": "improved"
         }
       ]
     },
@@ -3993,9 +4022,9 @@
       "title": "AI-regulation selloff",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-11-13",
-      "updates": 6,
-      "current_state": "Nasdaq closed at 25,366.09 on Thursday, November 12 (-0.39%), a modest loss given Nvidia's CEO exit and a 5.1% 10-year.",
+      "last_updated": "2026-11-14",
+      "updates": 7,
+      "current_state": "Nasdaq 25,136.27 at the November 13 close (-0.91%), up about 2.3% on the week. Next week: Nvidia earnings (Nov 17) and Anthropic's IPO pricing.",
       "timeline": [
         {
           "date": "2026-11-06",
@@ -4026,6 +4055,11 @@
           "date": "2026-11-13",
           "summary": "Nasdaq slipped 0.39% to 25,366.09 on Thursday as Nvidia closed lower on Huang's exit; the index absorbed the shock with a modest loss.",
           "change_type": "unchanged"
+        },
+        {
+          "date": "2026-11-14",
+          "summary": "Nasdaq fell 0.91% Friday to 25,136.27 as tech (-1.7%) led declines on Nvidia's leadership turmoil; still up about 2.3% for the week. Anthropic's IPO is expected to price the week of November 16.",
+          "change_type": "worsened"
         }
       ]
     },
@@ -4034,9 +4068,9 @@
       "title": "Nvidia after Jensen Huang",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-11-13",
-      "updates": 2,
-      "current_state": "Huang is out as CEO and director. Colette Kress is interim CEO (and remains CFO); Harvey C. Jones is Nvidia's first board chair; a permanent search is under way. Stock closed down a little over 4% on Thursday, November 12. Earnings Tuesday, November 17; a House committee briefing request for November 18 was addressed to Huang.",
+      "last_updated": "2026-11-14",
+      "updates": 3,
+      "current_state": "Kress is interim CEO and Harvey Jones board chair; permanent search under way. Stock about 13% lower for the week ending November 13 after an HSBC downgrade. Earnings Tuesday, November 17, the first report without Huang; a House committee briefing request for November 18 was addressed to Huang.",
       "timeline": [
         {
           "date": "2026-11-12",
@@ -4047,6 +4081,27 @@
           "date": "2026-11-13",
           "summary": "Huang resigned as president, CEO and director effective immediately (8-K dated November 11). CFO Colette Kress is interim CEO while the board searches; former Synopsys CEO Harvey C. Jones becomes the board's first-ever chair. Shares swung as much as about 14% intraday Thursday and closed down a little over 4%.",
           "change_type": "advanced"
+        },
+        {
+          "date": "2026-11-14",
+          "summary": "HSBC downgraded Nvidia to Hold and cut its target from $375 to $170 on CEO uncertainty; shares fell about 2% Friday (near $162.85) for a roughly 13% weekly loss, the worst since April 2025.",
+          "change_type": "worsened"
+        }
+      ]
+    },
+    {
+      "id": "thread-anthropic-ipo",
+      "title": "Anthropic's IPO",
+      "topic": "markets",
+      "status": "emerging",
+      "last_updated": "2026-11-14",
+      "updates": 1,
+      "current_state": "Amended S-1 filed November 10: 825M Class A shares at $70-78, Nasdaq 'ANT', about $61B raised, roughly $1.2T fully diluted at midpoint; $26B concurrent private placement (Nvidia, Google, Microsoft among buyers). Pricing expected week of November 16.",
+      "timeline": [
+        {
+          "date": "2026-11-14",
+          "summary": "First tracked: terms set in an amended S-1 filed November 10 (825M shares at $70-78, ~$61B, Nasdaq 'ANT'), with a $26B concurrent placement; pricing expected the week of November 16, exact date varies by report.",
+          "change_type": "new"
         }
       ]
     }
@@ -4070,7 +4125,7 @@
     }
   ],
   "meta": {
-    "content_freshness": "2026-11-13T09:30:00-05:00",
+    "content_freshness": "2026-11-14T09:30:00-05:00",
     "feedback_endpoint_mode": "github_contents",
     "minimum_client_schema_version": 1,
     "mode": "brain"
