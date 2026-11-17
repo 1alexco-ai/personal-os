@@ -1,220 +1,240 @@
 {
   "schema_version": 2,
   "edition": {
-    "id": "2026-11-16",
-    "date": "2026-11-16",
+    "id": "2026-11-17",
+    "date": "2026-11-17",
     "type": "weekday",
-    "generated_at": "2026-11-16T09:30:00-05:00",
+    "generated_at": "2026-11-17T09:30:00-05:00",
     "timezone": "America/New_York",
     "title": "Personal OS",
     "front_page_letter": {
       "greeting": "Good morning",
       "body_paragraphs": [
-        "Good morning. Monday, November 16.",
-        "The weekend did not change the week's calendar, but it changed the question Nvidia faces on Tuesday. The FT reports Jensen Huang is talking with allies about coming back, while Treasury Secretary Bessent wants the board to hire from outside and has given the company about ten days to explain how its best chips reached China. The earnings call will be listened to for who is in charge more than for the numbers.",
-        "Anthropic's book is reportedly six times covered, and its banks are said to be weighing a price above the $70-78 range on Wednesday. Put that beside a 10-year still near 5.14% and Warsh speaking at noon, and the week becomes a test of how much people will pay for distant earnings when safe money pays 5%.",
-        "Iran sent drones at a U.S. base in Bahrain and claimed more mine strikes. Oil barely moved, which says the market believes the surplus more than the threats. That is worth watching, not acting on.",
-        "At home: the Dolphins lost by two in Kyle McCord's respectable debut, the Heat are above .500, and the Panthers took a point in Dallas.",
-        "Worth your attention: Warsh at noon. For the evening, the Freedom Tower, and Mackay on 1720."
+        "Good morning. Tuesday, November 17.",
+        "Monday did what Sunday only threatened. Commerce issued a rule to stop Chinese firms from renting American AI chips through data centers in five countries, and the Nasdaq fell 2.5% into a correction, about 11% off its October high. Hours later, CNBC and Reuters reported that Nvidia's board is not considering bringing Jensen Huang back. Nvidia reports tonight with an interim CEO and a new rule on the table.",
+        "Warsh, for his part, said AI might transform productivity or might simply disappoint, and he named the version where both stocks and jobs fall. It was not a rates signal. The 10-year eased to about 5.13%, and a December hike still looks all but certain.",
+        "Two things pushed the other way. Brent fell 3.6% to $92.44 because traders believe in the glut more than in Iran's threats, and Anthropic's book reportedly held through the selloff ahead of Wednesday's pricing.",
+        "At home, Miami-Dade sales are still running ahead of last year with almost no distress. The Heat and Panthers both play tonight.",
+        "Worth your attention: Nvidia's guidance tonight, read for what it says about China. For the evening, Keynes on what the extra hours are for, and the blue tiles on Biscayne."
       ],
       "read_only_three": [
         {
           "target_type": "theme",
-          "target_id": "theme-nvidia-board-huang",
-          "label": "Huang weighs a comeback"
+          "target_id": "theme-chip-rule-selloff",
+          "label": "The rule that broke the Nasdaq"
         },
         {
           "target_type": "theme",
-          "target_id": "theme-anthropic-ipo",
-          "label": "Anthropic's book, six times covered"
+          "target_id": "theme-nvidia-board-huang",
+          "label": "No comeback, then earnings"
         },
         {
           "target_type": "rabbit_hole",
-          "target_id": "rh-2026-11-16",
-          "label": "Mackay on the South-Sea Bubble"
+          "target_id": "rh-2026-11-17",
+          "label": "Keynes on our grandchildren"
         }
       ]
     },
     "market_context": [
       {
         "label": "S&P 500",
-        "value": "7,561.67",
-        "change": "Futures about -0.25% early Monday",
-        "observed": "Close, Friday, November 13, 2026; futures as reported early Monday, November 16",
-        "note": "No new close since Friday. Futures reports differed through the morning."
+        "value": "7,416.60",
+        "change": "-1.92%",
+        "observed": "Close, Monday, November 16, 2026",
+        "note": "Chipmakers led the decline after the Commerce rule."
       },
       {
         "label": "Nasdaq Composite",
-        "value": "25,136.27",
-        "change": "Nasdaq-100 futures about -0.6% to -0.8% early Monday",
-        "observed": "Close, Friday, November 13, 2026; futures as reported early Monday, November 16",
-        "note": "Chipmakers weak ahead of Nvidia's Tuesday report."
+        "value": "24,509.76",
+        "change": "-2.49%",
+        "observed": "Close, Monday, November 16, 2026",
+        "note": "About 10.9% below the October 6 high: correction territory."
       },
       {
         "label": "10-year Treasury",
-        "value": "about 5.14%",
-        "change": "roughly flat vs. Friday",
-        "observed": "Monday, November 16, 2026 (Trading Economics)",
-        "note": "Quotes ranged 5.13%-5.15%. Warsh speaks at noon ET."
+        "value": "about 5.13%",
+        "change": "about -2 bp",
+        "observed": "Monday, November 16, 2026 (CNBC)",
+        "note": "2-year about 4.84%. October retail sales due this morning."
       },
       {
         "label": "FOMC",
         "value": "3.75%-4.00%; next decision December 9",
-        "change": "About 93-94% quarter-point hike, about 6% half-point (from 11.5% Friday)",
-        "observed": "Secondary reports of CME FedWatch, November 15-16, 2026",
-        "note": "Not read from CME directly; October minutes Wednesday, November 18."
+        "change": "Quarter-point hike about 91%, half-point about 9%; one report shows a hike of some size at 100%",
+        "observed": "Secondary reports of CME FedWatch, November 16, 2026",
+        "note": "Not read from CME directly. October minutes Wednesday, November 18."
       },
       {
         "label": "Brent crude",
-        "value": "about $95-96",
-        "change": "roughly flat vs. Friday's $95.84 settle",
-        "observed": "Morning trading, Monday, November 16, 2026",
-        "note": "Quotes ranged $95.15-$96.28 as Iran's weekend claims met a supply-surplus outlook."
+        "value": "$92.44",
+        "change": "-3.6%",
+        "observed": "Settlement, Monday, November 16, 2026",
+        "note": "WTI $85.72. Supply-surplus worries outweighed Iran's claims."
       }
     ],
     "public_day_context": {
-      "date_label": "Monday, November 16, 2026",
-      "weather": "Mostly dry: forecasts updated Monday put the rain chance around 10-20% with a high in the upper 70s. Earlier forecasts had called for showers returning today, so check before an outdoor evening.",
-      "public_event": "Fed Chair Warsh speaks at noon ET. Miami Book Fair continues through November 22. Nvidia reports Tuesday after the close; Fed minutes and expected Anthropic pricing Wednesday; GTA VI launches Thursday; Canes host Virginia Tech Saturday, November 21."
+      "date_label": "Tuesday, November 17, 2026",
+      "weather": "Cooler than usual: forecasters expected below-normal temperatures for Miami all week, with rain chances returning from Tuesday. A same-day forecast could not be verified this morning, so check before heading out.",
+      "public_event": "October retail sales this morning; Nvidia reports after the close; Heat host Houston and the Panthers face Edmonton tonight. Fed minutes and Anthropic pricing Wednesday; Trump meets Xi in Shenzhen and GTA VI launches Thursday. Miami Book Fair through November 22; Canes host Virginia Tech Saturday, November 21."
     },
     "what_changed": [
       {
-        "id": "delta-bahrain-drones",
-        "thread_id": "thread-iran-hormuz-crisis",
+        "id": "delta-chip-rule",
+        "thread_id": "thread-ai-regulation-selloff",
         "change_type": "worsened",
-        "title": "Iran sends drones at a U.S. base in Bahrain",
-        "previous_state": "Iran claimed on Saturday that three tankers hit mines in Hormuz; Reuters could not verify it.",
-        "current_state": "On Sunday the Guards said six drones targeted Riffa Air Base in Bahrain, Bahrain said attacks were intercepted, and Iran claimed two more tankers hit mines.",
-        "why_it_matters": "Attacks on a host of U.S. forces raise the escalation risk, though Brent held around $95-96 Monday.",
-        "confidence": "medium",
+        "title": "New chip rule; Nasdaq falls 2.5% into a correction",
+        "previous_state": "Nasdaq closed at 25,136.27 on Friday, with futures lower early Monday ahead of Nvidia.",
+        "current_state": "Commerce issued a rule curbing Chinese remote access to U.S. AI chips via five countries; Nasdaq closed down 2.49% at 24,509.76, about 10.9% below its October 6 high.",
+        "why_it_matters": "It adds a policy discount to the AI trade two days before the Anthropic pricing and three before Trump meets Xi.",
+        "confidence": "high",
         "source": {
-          "publisher": "UPI",
-          "url": "https://www.upi.com/Top_News/World-News/2026/11/15/bahrain-us-iran-hormuz/4651794768670"
+          "publisher": "NPR",
+          "url": "https://www.npr.org/2026/11/16/nx-s1-6042883/nvidia-jensen-huang-commerce-department"
         }
       },
       {
-        "id": "delta-huang-comeback",
+        "id": "delta-huang-ruled-out",
         "thread_id": "thread-nvidia-huang-board",
-        "change_type": "new",
-        "title": "Huang reportedly weighs a return; Bessent wants an outsider",
-        "previous_state": "Kress was interim CEO, a permanent search was under way, and Huang had resigned on November 11.",
-        "current_state": "The FT reports Huang is discussing a comeback with allies lobbying the board, while Bessent urged an outside hire and gave Nvidia about ten days to explain chips reaching China.",
-        "why_it_matters": "Tuesday's earnings call now has to address who runs the company.",
+        "change_type": "reversed",
+        "title": "Board reportedly rules out Huang's return",
+        "previous_state": "The FT reported Huang was discussing a comeback with allies.",
+        "current_state": "CNBC and Reuters report the board is not considering reinstating him and is focused on its investigation; Nvidia has not commented.",
+        "why_it_matters": "Tonight's call comes from an interim team with no leadership reprieve in view.",
         "confidence": "medium",
         "source": {
-          "publisher": "Yahoo Finance",
-          "url": "https://tech.yahoo.com/general/breaking-news/article/jensen-huang-weighs-comeback-as-nvidia-ceo-as-allies-lobby-board-ft-reports-bessent-calls-for-dramatic-shakeup-204839950.html"
+          "publisher": "The Hill",
+          "url": "https://thehill.com/policy/technology/6223454-nvidia-board-rejects-huang-return/"
         }
       },
       {
-        "id": "delta-mccord-loss",
-        "thread_id": "thread-dolphins-hafley-rebuild",
-        "change_type": "worsened",
-        "title": "Dolphins lose 24-22 in McCord's debut",
-        "previous_state": "1-7, with McCord set for his first start at Indianapolis.",
-        "current_state": "1-8 after three missed kicks; McCord threw for 209 yards with no interceptions.",
-        "why_it_matters": "A respectable debut gives Hafley a real quarterback decision for the rest of the year.",
-        "confidence": "high",
-        "source": {
-          "publisher": "Yahoo Sports (Sun Sentinel)",
-          "url": "https://sports.yahoo.com/articles/kicking-woes-mccord-debut-doom-211926903.html"
-        }
-      },
-      {
-        "id": "delta-heat-four-straight",
-        "thread_id": "thread-heat-giannis-era",
+        "id": "delta-oil-drop",
+        "thread_id": "thread-iran-hormuz-crisis",
         "change_type": "improved",
-        "title": "Heat win a fourth straight and go over .500",
-        "previous_state": "6-6 after beating Cleveland on November 13.",
-        "current_state": "7-6 after a 137-117 win over Detroit on November 14, with a franchise-record 14 blocks.",
-        "why_it_matters": "First time above .500 this season.",
+        "title": "Brent settles $92.44, down 3.6%",
+        "previous_state": "Brent traded around $95-96 Monday morning, roughly flat after Iran's weekend attack on a U.S. base in Bahrain.",
+        "current_state": "Brent settled at $92.44 and WTI at $85.72 as supply-glut concerns outweighed new Iranian claims.",
+        "why_it_matters": "Lower energy prices are the only part of this week easing the inflation pressure behind December's hike.",
         "confidence": "high",
         "source": {
-          "publisher": "CBS Miami",
-          "url": "https://www.cbsnews.com/miami/news/heat-pistons-137-117-nov142026/"
+          "publisher": "Rigzone (Bloomberg)",
+          "url": "https://www.rigzone.com/news/wire/oil_retreats_as_traders_weigh_supply_glut-16-nov-2026-185096-article/"
         }
       },
       {
-        "id": "delta-panthers-ot",
-        "thread_id": "thread-panthers-2026-27-season",
-        "change_type": "worsened",
-        "title": "Panthers' three-game streak ends in overtime at Dallas",
-        "previous_state": "Three straight wins, 12-7-2.",
-        "current_state": "Lost 2-1 in overtime on November 15; 12-7-3, Tkachuk reached 700 career points.",
-        "why_it_matters": "A point earned on a road back-to-back; the trend is intact.",
-        "confidence": "high",
+        "id": "delta-warsh-ai",
+        "thread_id": "thread-fed-rate-path",
+        "change_type": "advanced",
+        "title": "Warsh says AI could 'disappoint'",
+        "previous_state": "Warsh was scheduled to speak at noon Monday, with the 10-year near 5.14%.",
+        "current_state": "Warsh described AI as possibly disinflationary or possibly a disappointment that hits jobs and stocks; the 10-year eased to about 5.13%, and December hike pricing held.",
+        "why_it_matters": "No signal on rates, but the Fed chair has now named the AI-bust scenario publicly.",
+        "confidence": "medium",
         "source": {
-          "publisher": "NHL.com",
-          "url": "https://www.nhl.com/news/florida-panthers-dallas-stars-game-recap-november-15-2026"
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/16/treasury-yields-bonds-inflation.html"
         }
       }
     ],
     "themes": [
       {
+        "id": "theme-chip-rule-selloff",
+        "affinity": "morning",
+        "topic": "markets",
+        "topic_label": "Markets & Macro",
+        "title": "Washington closes the remote-access door, and the Nasdaq enters a correction",
+        "importance": 0.94,
+        "thesis": "A Commerce Department rule aimed at China's rented access to American chips turned a nervous pre-earnings Monday into the worst day for tech in weeks.",
+        "synthesis": "On Monday, November 16, Commerce issued an interim rule requiring licenses for covered AI-chip shipments to data centers in Singapore, Malaysia, Thailand, Indonesia and Brazil, and restricting shipments to large data centers, to stop Chinese firms renting top-end compute in third countries. The Nasdaq Composite fell 2.49% to 24,509.76, about 10.9% below its October 6 high, and the S&P 500 lost 1.92%. Nvidia fell 4.1%, AMD 5.6% and Broadcom 3.9%. Beijing said it 'will take necessary measures'; Trump meets Xi in Shenzhen on Thursday.",
+        "new_today": "The rule itself is new, announced Monday; Nasdaq's close puts it in correction territory for the first time in this drawdown.",
+        "why_it_matters": "This is policy risk on the largest weight in your index exposure, landing days before a Trump-Xi meeting and a Miami-hosted G20 in December. It also shrinks the addressable market the AI capex story has been priced on, which matters to anyone underwriting data-center or tech-tenant demand.",
+        "thread_id": "thread-ai-regulation-selloff",
+        "confidence": "high",
+        "sources": [
+          {
+            "role": "primary_reporting",
+            "publisher": "NPR",
+            "headline": "U.S. tightens controls on remote access to AI technology amid Nvidia fallout",
+            "url": "https://www.npr.org/2026/11/16/nx-s1-6042883/nvidia-jensen-huang-commerce-department"
+          },
+          {
+            "role": "analysis",
+            "publisher": "The Motley Fool",
+            "headline": "Stock Market Today, Nov. 16: Nvidia Sinks as U.S. Tightens AI Chip Restrictions and Analysts Slash Price Targets",
+            "url": "https://www.fool.com/coverage/stock-market-today/2026/11/16/stock-market-today-nov-16-nvidia-sinks-as-u-s-tightens-ai-chip-restrictions-and-analysts-slash-price-targets/"
+          },
+          {
+            "role": "background",
+            "publisher": "CNN",
+            "headline": "Trump administration tightens restrictions on flow of AI chips ahead of China trip",
+            "url": "https://www.cnn.com/2026/11/16/politics/ai-chips-restrictions-china"
+          },
+          {
+            "role": "counterpoint",
+            "publisher": "Al Jazeera",
+            "headline": "US moves to block China's remote access to AI chips amid Nvidia scandal",
+            "url": "https://www.aljazeera.com/economy/2026/11/17/us-moves-to-block-chinas-remote-access-to-ai-chips-amid-nvidia-scandal"
+          }
+        ]
+      },
+      {
         "id": "theme-nvidia-board-huang",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Huang weighs a comeback; Washington wants an outsider",
-        "importance": 0.93,
-        "thesis": "The day before Nvidia reports, the question on the table is less the quarter than who gets to run the company.",
-        "synthesis": "The Financial Times reported over the weekend that Jensen Huang has discussed returning as CEO with allies who are lobbying the board, one of them organizing a 'war room' of Silicon Valley executives; neither Huang nor Nvidia has confirmed it. Treasury Secretary Scott Bessent went the other way, calling for a 'dramatic shake-up', urging the board to look outside the company, and giving Nvidia about ten days to explain how its most advanced chips reached China. The board's own inquiry, run by Wachtell Lipton, still stands between Huang and any return. Results come after Tuesday's close, with analysts expecting revenue of roughly $109 billion.",
-        "new_today": "The comeback talk and Bessent's ten-day demand are both from the weekend; Nasdaq-100 futures were down roughly 0.6-0.8% early Monday.",
-        "why_it_matters": "Nvidia is the largest weight in the indexes that set the tone for risk appetite, and Tuesday's call now has to answer a governance question before a demand one. Whatever the market concludes lands a day before Anthropic prices.",
+        "title": "The board shuts the door on Huang, hours before the numbers",
+        "importance": 0.92,
+        "thesis": "Nvidia reports tonight with the comeback question answered, at least for now, and a new export rule hanging over the guidance.",
+        "synthesis": "CNBC (one source) and Reuters (three sources) reported Monday that Nvidia's board is not considering bringing Jensen Huang back as CEO and is focused on its investigation; the company has not commented. A petition for his return had passed 190,000 signatures, and Trump said he would welcome him back. CNBC also reports Nvidia has warned customers about legal exposure tied to Chinese access to chip capacity. Results come after Tuesday's close, with consensus in previews around $108.8 billion of revenue.",
+        "new_today": "Sunday's comeback talk met a board that, per two outlets, is not entertaining it. Earnings are tonight.",
+        "why_it_matters": "Interim CEO Colette Kress will be asked about China, remote access and leadership in the same breath. The guidance tonight is the first test of whether the AI build-out story survives a policy shock and a governance crisis at once.",
         "thread_id": "thread-nvidia-huang-board",
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Yahoo Finance",
-            "headline": "Jensen Huang weighs comeback as Nvidia CEO as allies lobby board, FT reports; Bessent calls for 'dramatic shakeup'",
-            "url": "https://tech.yahoo.com/general/breaking-news/article/jensen-huang-weighs-comeback-as-nvidia-ceo-as-allies-lobby-board-ft-reports-bessent-calls-for-dramatic-shakeup-204839950.html"
+            "publisher": "The Hill",
+            "headline": "Nvidia's board declines to consider Jensen Huang's return as CEO",
+            "url": "https://thehill.com/policy/technology/6223454-nvidia-board-rejects-huang-return/"
           },
           {
             "role": "analysis",
-            "publisher": "PBS NewsHour",
-            "headline": "Bessent blames Lutnick's Commerce Department for not restricting Nvidia chips to China",
-            "url": "https://www.pbs.org/newshour/politics/bessent-blames-lutnicks-commerce-department-for-not-restricting-nvidia-chips-to-china"
+            "publisher": "CNBC",
+            "headline": "Nvidia warns chip buyers of legal risks tied to China AI access, sources tell CNBC",
+            "url": "https://www.cnbc.com/2026/11/17/nvidia-china-cloud-ai-chip-access.html"
           },
           {
-            "role": "counterpoint",
-            "publisher": "Newsweek",
-            "headline": "Dan Ives Rejects Jensen Huang Comeback as Nvidia Investors Push for Return",
-            "url": "https://www.newsweek.com/dan-ives-jensen-huang-nvidia-ceo-comeback-12717954"
+            "role": "background",
+            "publisher": "The Korea Times",
+            "headline": "Nvidia rules out Huang comeback as campaign for his return grows",
+            "url": "https://www.koreatimes.co.kr/world/20261117/nvidia-rules-out-huang-comeback-as-campaign-for-his-return-grows"
           }
         ]
       },
       {
-        "id": "theme-hormuz-mines",
+        "id": "theme-warsh-ai-two-futures",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "From mines to drones: Iran turns toward Bahrain",
-        "importance": 0.88,
-        "thesis": "Iran widened the weekend from shipping to a U.S. base, and oil mostly shrugged.",
-        "synthesis": "On Sunday the Revolutionary Guards said they sent six drones at Riffa Air Base in Bahrain, which hosts U.S. forces; Bahrain said the attacks were intercepted, and it was Iran's second attempt on Bahrain in three days after a quiet stretch since September. Reuters, citing the Guards, also reported claims that two more tankers struck mines in Hormuz; as with Saturday's claims, none has been independently verified. Brent traded around $95-96 on Monday morning, roughly where it settled Friday, because Gulf exports have been recovering and the IEA expects a fourth-quarter surplus.",
-        "new_today": "The Bahrain drone attack and fresh mine claims came Sunday; Monday's oil open was the first verdict, and it was muted.",
-        "why_it_matters": "The muted oil response is the useful signal: the market is pricing a supply surplus over Iranian claims. If that holds, Hormuz stays a headline risk rather than an input to the Fed's December decision. A confirmed hit on a U.S. base would change that.",
-        "thread_id": "thread-iran-hormuz-crisis",
+        "title": "Warsh on AI: it might transform the economy, or it might disappoint",
+        "importance": 0.85,
+        "thesis": "The Fed chair's first long remarks on AI were broadly hopeful but named the bust scenario out loud, and bonds caught a small bid.",
+        "synthesis": "Opening a San Francisco Fed conference on AI and productivity Monday, Warsh said AI could prove disinflationary by raising productivity, or could simply disappoint, and he flagged that job displacement could push unemployment up; Axios reports he sketched a path where losses in finance drag stocks and jobs down together. The 10-year eased about 2 basis points to roughly 5.13%. He did not move December pricing, which still shows a hike as all but certain.",
+        "new_today": "The speech happened; yesterday it was a calendar item. October retail sales are out this morning and October FOMC minutes Wednesday.",
+        "why_it_matters": "A Fed chair publicly naming an AI-led equity bust as a scenario is a change in tone, even if not in policy. For CRE, the more important fact is unchanged: a 10-year above 5% with a hike coming in December.",
+        "thread_id": "thread-fed-rate-path",
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "UPI",
-            "headline": "Iran launches drone strike on U.S. base in Bahrain",
-            "url": "https://www.upi.com/Top_News/World-News/2026/11/15/bahrain-us-iran-hormuz/4651794768670"
+            "publisher": "CNBC",
+            "headline": "Treasury prices catch a small bid as stock market weakens and Warsh says AI might 'disappoint'",
+            "url": "https://www.cnbc.com/2026/11/16/treasury-yields-bonds-inflation.html"
           },
           {
             "role": "analysis",
-            "publisher": "The Hill",
-            "headline": "Bahrain intercepts Iranian strikes on US airbase",
-            "url": "https://thehill.com/policy/international/6221436-iran-drone-attack-bahrain/"
-          },
-          {
-            "role": "background",
-            "publisher": "Shafaq News",
-            "headline": "Oil slides on looming surplus and Hormuz recovery",
-            "url": "https://shafaq.com/en/Economy/Oil-slides-on-looming-surplus-and-Hormuz-recovery"
+            "publisher": "Axios",
+            "headline": "Federal Reserve chairman Warsh sees risk of stock bust if AI boom disappoints",
+            "url": "https://www.axios.com/2026/11/16/fed-warsh-ai-boom-stocks"
           }
         ]
       },
@@ -223,134 +243,104 @@
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Anthropic's book is reportedly six times covered",
-        "importance": 0.84,
-        "thesis": "Demand looks strong enough that the question has moved from whether the deal clears to whether it prices above the range.",
-        "synthesis": "Reuters and Bloomberg reported the order book at roughly six times the 825 million shares on offer by the end of last week; the Financial Times reported that lead banks Goldman Sachs and Morgan Stanley think pricing could exceed the $70-78 range. None of that is on the record from the company. At the top of the range the offering raises about $64.4 billion, alongside a separate $26 billion placement with strategic partners including Google and Nvidia. Pricing is expected Wednesday, November 18, with Nasdaq trading as ANT on Thursday.",
-        "new_today": "No change to the filed range as of Monday morning; the oversubscription reports are what moved over the weekend.",
-        "why_it_matters": "This is the largest IPO on record arriving into a 5% ten-year. How it prices tells you how much appetite for long-duration growth survives at today's rates, which is the same question every Miami development pro forma is asking.",
+        "title": "Anthropic's book holds through the tech selloff",
+        "importance": 0.8,
+        "thesis": "The largest IPO on the calendar prices Wednesday night into a Nasdaq that just entered a correction, and demand reportedly did not flinch.",
+        "synthesis": "Anthropic is offering 825 million shares at $70-78, with pricing expected the evening of Wednesday, November 18 and Nasdaq trading as 'ANT' on Thursday, per CNBC. Bloomberg-sourced reports put the book at about six to seven times covered; Semafor reported demand stayed strong despite Monday's pullback. Pricing above the range is talked about but not reported as decided.",
+        "new_today": "The book reportedly held through Monday's selloff; some reports now put coverage near seven times.",
+        "why_it_matters": "Wednesday's price is the cleanest read this week on what investors will pay for AI earnings that sit years out, set against a 5.1% risk-free rate. A weak debut would feed the very bust scenario Warsh described.",
         "thread_id": "thread-anthropic-ipo",
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Quartz",
-            "headline": "Anthropic's IPO is said to be multiple times oversubscribed as roadshow gets under way",
-            "url": "https://qz.com/anthropic-ipo-oversubscribed-roadshow-demand-111126"
-          },
-          {
-            "role": "background",
             "publisher": "CNBC",
-            "headline": "Anthropic sets IPO price range of $70 to $78, looks to start trading Nov. 19, sources say",
-            "url": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html"
+            "headline": "Anthropic IPO guide: The price range, date and more",
+            "url": "https://www.cnbc.com/2026/11/16/anthropic-ipo-date-price-range.html"
           },
           {
-            "role": "counterpoint",
-            "publisher": "explainx.ai",
-            "headline": "Anthropic IPO 6x Oversubscribed: What's Verified",
-            "url": "https://explainx.ai/blog/anthropic-ipo-six-times-oversubscribed-claimed-vs-verified-2026"
+            "role": "analysis",
+            "publisher": "StockAnalysis",
+            "headline": "Anthropic's IPO draws about 6 times the orders for its shares",
+            "url": "https://stockanalysis.com/news/anthropic-ipo-six-times-oversubscribed/"
           }
         ]
       },
       {
-        "id": "theme-ten-year-above-five",
+        "id": "theme-hormuz-mines",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Warsh speaks at noon, with the 10-year at 5.14%",
-        "importance": 0.8,
-        "thesis": "A hike is assumed; the remaining argument is about size and about January, and Warsh rarely settles either in public.",
-        "synthesis": "Fed Chair Kevin Warsh gives opening remarks at noon ET at the Fed's Productivity and Jobs Task Force conference in San Francisco, with Williams and Barr also on the calendar. Secondary reports of CME FedWatch put a December quarter-point hike near 93-94%, with the half-point odds down to about 6% from 11.5% on Friday; one estimate also prices roughly two-in-three odds of another move in January. The 10-year held near 5.14% on Monday. Warsh has said he dislikes forward guidance, so a non-answer would be in character.",
-        "new_today": "Half-point odds slipped over the weekend; Warsh's remarks and Wednesday's October minutes are this week's policy events.",
-        "why_it_matters": "With the 10-year above 5%, every construction loan and refinancing quote in Miami prices off this number. A smaller hike is already the base case; a hint at January would matter more than anything about December.",
-        "thread_id": "thread-fed-rate-path",
+        "title": "Oil falls 3.6% while Iran keeps claiming hits",
+        "importance": 0.74,
+        "thesis": "The market has decided the supply glut matters more than the war, at least this week.",
+        "synthesis": "Brent settled at $92.44 on Monday, down 3.6%, and WTI at $85.72, as traders weighed a growing global surplus; Bloomberg via Rigzone reports money managers have cut bullish Brent bets to a four-month low. Iran's Guards claimed another tanker mine strike near Hormuz and said they targeted U.S. radar in Bahrain; the mine claims remain unverified.",
+        "new_today": "Monday's 3.6% drop answers yesterday's question: the Bahrain escalation did not hold a bid in crude.",
+        "why_it_matters": "Cheaper oil is the one input this week pulling against the Fed's inflation problem. If it keeps falling, it gives Warsh a little room; if the strait actually closes, it takes all of it.",
+        "thread_id": "thread-iran-hormuz-crisis",
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Seoul Economic Daily",
-            "headline": "U.S. Treasury Yields Top 5% as Warsh Speech Draws Focus",
-            "url": "https://en.sedaily.com/world/2026/11/16/us-10-year-yield-tops-5-percent-as-markets-await-fed-chair"
+            "publisher": "Rigzone (Bloomberg)",
+            "headline": "Oil Retreats as Traders Weigh Supply Glut",
+            "url": "https://www.rigzone.com/news/wire/oil_retreats_as_traders_weigh_supply_glut-16-nov-2026-185096-article/"
           },
           {
             "role": "background",
-            "publisher": "Newsquawk",
-            "headline": "Today's Fedspeak (16th Nov 2026) includes: Barr, Williams, Warsh",
-            "url": "https://www.newsquawk.com/headlines/todays-fedspeak-16th-nov-2026-includes-barr-williams-warsh"
-          },
-          {
-            "role": "analysis",
-            "publisher": "TheStreet",
-            "headline": "Fed Rate Hike Fears Grow Ahead of December Meeting",
-            "url": "https://www.thestreet.com/fed/fed-rate-hike-fears-december-inflation-2027"
+            "publisher": "Fortune",
+            "headline": "Current price of oil as of November 16, 2026",
+            "url": "https://fortune.com/article/price-of-oil-11-16-2026/"
           }
         ]
       },
       {
-        "id": "theme-mccord-debut",
+        "id": "theme-miami-realtors-october",
         "affinity": "morning",
-        "topic": "sports",
-        "topic_label": "Miami Sports",
-        "title": "McCord holds his own; the kicker doesn't",
-        "importance": 0.66,
-        "thesis": "The audition went better than the result: Miami lost 24-22 on three missed kicks.",
-        "synthesis": "In his first NFL start, Kyle McCord went 17 of 32 for 209 yards with no interceptions and ran in a short touchdown, though a lost fumble was returned for a Colts score. Zane Gonzalez missed three kicks in a two-point loss, and Miami's last drive ended with a sack near midfield after a batted pass. Jeff Hafley said McCord kept his composure. The Dolphins fall to 1-8 and go to Buffalo on Sunday.",
-        "new_today": "Final: Colts 24, Dolphins 22 (Sunday, November 15).",
-        "why_it_matters": "At 1-8 the season is about evaluating people, and McCord gave the staff something to evaluate. The kicking is a cheaper problem to fix than a quarterback.",
-        "thread_id": "thread-dolphins-hafley-rebuild",
+        "topic": "miami",
+        "topic_label": "Miami Life & Culture",
+        "title": "Miami-Dade home and condo sales still running ahead of last year",
+        "importance": 0.62,
+        "thesis": "October's numbers say the local market is steady, not soaring, with almost no distress, even with a 10-year above 5%.",
+        "synthesis": "Miami Realtors reported Monday that single-family and condo sales both rose year over year through October. The condo median stands at $397,500 and the single-family median at $706,000; only 0.4% of closed sales were distressed, and single-family homes sold for a median 96% of original list price. The board credits steady demand and new tax incentives.",
+        "new_today": "October data, released Monday, November 16.",
+        "why_it_matters": "Selling at 96% of list means buyers have some leverage but not much. Read it alongside the private credit financing the top of the condo market: the middle is grinding along while the top is being financed outside the banks.",
+        "thread_id": "thread-cre-capital-markets-2026",
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Yahoo Sports (Sun Sentinel)",
-            "headline": "Kicking woes in Kyle McCord debut doom Dolphins in Colts loss, 24-22",
-            "url": "https://sports.yahoo.com/articles/kicking-woes-mccord-debut-doom-211926903.html"
-          },
-          {
-            "role": "analysis",
-            "publisher": "CBS Sports",
-            "headline": "Dolphins' Kyle McCord: Holds his own in first start",
-            "url": "https://www.cbssports.com/fantasy/football/news/dolphins-kyle-mccord-holds-his-own-in-first-start/"
-          },
-          {
-            "role": "local_perspective",
-            "publisher": "Yahoo Sports (Palm Beach Post)",
-            "headline": "With three missed kicks, Dolphins drop close one in Kyle McCord's first start",
-            "url": "https://sports.yahoo.com/articles/three-missed-kicks-dolphins-drop-221400206.html"
+            "publisher": "Miami Realtors (PR Newswire)",
+            "headline": "Miami-Dade Home Sales Continue to Outpace Last Year",
+            "url": "https://www.prnewswire.com/news-releases/miami-dade-home-sales-continue-to-outpace-last-year-302940989.html"
           }
         ]
       },
       {
-        "id": "theme-heat-panthers-weekend",
+        "id": "theme-miami-sports-tuesday",
         "affinity": "morning",
         "topic": "sports",
         "topic_label": "Miami Sports",
-        "title": "Heat over .500; the Panthers' streak ends in overtime",
+        "title": "A home doubleheader of sorts: Heat and Panthers tonight, Canes Saturday",
         "importance": 0.6,
-        "thesis": "A good weekend for the winter teams, with one near miss.",
-        "synthesis": "The Heat beat Detroit 137-117 on Saturday for a fourth straight win, Antetokounmpo with 34 points and 14 rebounds and Klay Thompson with 26 on six threes; the team blocked a franchise-record 14 shots and is 7-6, above .500 for the first time this season. On Sunday the Panthers lost 2-1 in overtime at Dallas, ending a three-game win streak; Matthew Tkachuk's power-play goal was his 700th career point, in his 695th game. Akira Schmid made 20 saves.",
-        "new_today": "Heat 7-6 after the Pistons win; Panthers 12-7-3 after the overtime loss.",
-        "why_it_matters": "The Giannis trade is starting to look like a team rather than a headline, and the Panthers banked a point on the back half of a road back-to-back.",
-        "thread_id": "thread-heat-giannis-era",
-        "confidence": "high",
+        "thesis": "A quiet results day sets up a busy week: two games tonight and the Canes' last home test before the ACC stretch run.",
+        "synthesis": "The Heat (7-6, four straight wins) host Houston tonight; the last meeting, in March, was a one-point Rockets win. The Panthers (12-7-3) play Edmonton tonight at 7 p.m. after Sunday's overtime loss in Dallas. Miami (9-1) hosts Virginia Tech on Saturday at 7 p.m. on ESPN; Mario Cristobal said Monday that receiver Malachi Toney is ahead of schedule after ankle surgery and he expects running back Mark Fletcher Jr. back.",
+        "new_today": "Cristobal's Monday injury update is the only new fact; the games are tonight.",
+        "why_it_matters": "The Canes' playoff path runs through not slipping against a strong ACC defense; Fletcher's return matters more than the opponent's name suggests.",
+        "thread_id": "thread-hurricanes-fall-camp",
+        "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "CBS Miami",
-            "headline": "Antetokounmpo scores 34, Heat block 14 shots and roll past Pistons 137-117 for 4th straight win",
-            "url": "https://www.cbsnews.com/miami/news/heat-pistons-137-117-nov142026/"
+            "publisher": "Sports Illustrated (All Hurricanes)",
+            "headline": "Four Key Notes and Quotes From Mario Cristobal Ahead of Virginia Tech",
+            "url": "https://www.si.com/college/miami/football/four-key-notes-and-quotes-from-mario-cristobal-ahead-of-virginia-tech"
           },
           {
-            "role": "primary_reporting",
+            "role": "background",
             "publisher": "NHL.com",
             "headline": "Robertson scores in OT, Stars top Panthers",
-            "url": "https://www.nhl.com/news/florida-panthers-dallas-stars-game-recap-november-15-2026"
-          },
-          {
-            "role": "local_perspective",
-            "publisher": "Florida Hockey Now",
-            "headline": "Win Streak Ends in Dallas: Stars Beat Panthers in OT",
-            "url": "https://floridahockeynow.com/dallas-stars-2-florida-panthers-1-ot-nov-15-2026-game-recap-summary/"
+            "url": "https://nhl.com/news/florida-panthers-dallas-stars-game-recap-november-15-2026"
           }
         ]
       },
@@ -359,100 +349,101 @@
         "affinity": "evening",
         "topic": "miami",
         "topic_label": "Miami Life & Culture",
-        "title": "A week of the Book Fair, under the Freedom Tower",
-        "importance": 0.62,
-        "thesis": "The fair has a week left, and the best of it is still ahead.",
-        "synthesis": "The 43rd Miami Book Fair opened Sunday at Miami Dade College's Wolfson Campus with a free 'Made in Miami' block party and runs through November 22, with nearly 500 authors and programs in English, Spanish and Haitian Creole. Margaret Atwood, Colson Whitehead, Tony Shalhoub and Bonnie Garmus are on this year's lineup, and the outdoor Street Fair runs Friday through Sunday, November 20-22, with Friday admission free. This year's poster features the Freedom Tower, across Biscayne from the campus.",
-        "new_today": "Opening weekend is done; the evening author programs run through the week. Check event pages, since listings for some times differ.",
-        "why_it_matters": "It is the one week a year downtown Miami organizes itself around reading. An evening there is a reasonable counterweight to a week built around earnings calls and an IPO.",
+        "title": "The Book Fair's back half: Atwood, the National Book Awards, and a dinner with authors",
+        "importance": 0.58,
+        "thesis": "The street fair returns for the weekend, but the week's evenings are where the fair is most itself.",
+        "synthesis": "Miami Book Fair runs through Sunday, November 22 at Miami Dade College's Wolfson Campus downtown. Friday brings the Next Page Dinner fundraiser, where guests are seated with presenting authors; Saturday has a National Book Awards lightning round at 6:30 p.m. and Margaret Atwood discussing her memoir. Most evening programs are ticketed; check listings, since times on aggregator pages have differed.",
+        "new_today": "Not news. Monday night's Rushdie event has passed; the weekend lineup is the reason to plan now.",
+        "why_it_matters": "A week with five market catalysts in four days is a good week to have one evening already decided, and it is ten minutes from Brickell.",
+        "thread_id": null,
+        "confidence": "medium",
+        "sources": [
+          {
+            "role": "primary_reporting",
+            "publisher": "Greater Miami CVB (Miami and Beaches)",
+            "headline": "Miami Book Fair Guide",
+            "url": "https://www.miamiandbeaches.com/events/annual-events/miami-book-fair-guide"
+          },
+          {
+            "role": "background",
+            "publisher": "WLRN",
+            "headline": "Miami Book Fair announces 2026 lineup featuring nearly 500 authors and literary icons",
+            "url": "https://www.wlrn.org/light/arts-culture/2026-10-13/miami-book-fair-announces-2026-lineup-featuring-nearly-500-authors-and-literary-icons"
+          }
+        ]
+      },
+      {
+        "id": "theme-russell-idleness",
+        "affinity": "evening",
+        "topic": "living",
+        "topic_label": "Art of Living",
+        "title": "In praise of idleness, on a day the Fed chair talked about job displacement",
+        "importance": 0.55,
+        "thesis": "Warsh's question (will machines raise productivity or displace work?) is one Bertrand Russell answered in 1932 with a different question: what is the extra time for?",
+        "synthesis": "Russell's essay argues that the belief in the virtue of work does great harm, and that with modern production a four-hour working day would be enough if the gains were shared. It is playful, partisan and dated in places, and it still lands, because it refuses to treat output as the point of a life. Read it as the companion to today's rabbit hole: Keynes made the economic forecast, Russell made the moral case.",
+        "new_today": "Not news. Chosen because the Fed chair spent Monday describing the same fork in the road.",
+        "why_it_matters": "Most of the AI debate you will hear this week is about who captures the productivity. Russell asks the question underneath it, which is what you would do with your hours if you did not need them to earn.",
         "thread_id": null,
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Miami Dade College",
-            "headline": "Miami Book Fair Announces 2026 Lineup Featuring Margaret Atwood, Colson Whitehead, Tony Shalhoub and Bonnie Garmus",
-            "url": "https://news.mdc.edu/pressrelease/miami-book-fair-announces-2026-lineup-featuring-margaret-atwood-colson-whitehead-tony-shalhoub-and-bonnie-garmus/"
-          },
-          {
-            "role": "local_perspective",
-            "publisher": "WSVN 7News",
-            "headline": "Miami Book Fair returns to Miami Dade College for 43rd year",
-            "url": "https://wsvn.com/news/local/miami-dade/miami-book-fair-returns-to-miami-dade-college-for-43rd-year/"
-          },
-          {
-            "role": "background",
-            "publisher": "Miami Book Fair",
-            "headline": "Miami Book Fair (official schedule)",
-            "url": "https://miamibookfair.com/"
-          }
-        ]
-      },
-      {
-        "id": "theme-distraction-since-1710",
-        "affinity": "evening",
-        "topic": "living",
-        "topic_label": "Art of Living",
-        "title": "Distraction is an old complaint",
-        "importance": 0.55,
-        "thesis": "People have been worrying that they are too busy to pay attention for at least three centuries, which is comforting and also not an excuse.",
-        "synthesis": "Frank Furedi's Aeon essay starts from the Oxford English Dictionary's early citation of 'distraction' in a 1710 issue of the Tatler, where inattention sits beside indolence as a moral failing of public concern. His broader point is that each era tends to treat its own distractions as unprecedented, and that the anxiety tells you as much about a culture's ideals of attention as about its technology. It is a useful corrective to the idea that the phone invented the problem.",
-        "new_today": "Not news. Chosen for a week with five scheduled catalysts in four days.",
-        "why_it_matters": "This week is engineered to be checked every hour. Knowing the complaint is three hundred years old makes it easier to decide, on purpose, what you will not follow live.",
-        "thread_id": null,
-        "confidence": "high",
-        "sources": [
-          {
-            "role": "analysis",
-            "publisher": "Aeon",
-            "headline": "Busy and distracted? Everybody has been, since at least 1710",
-            "url": "https://aeon.co/essays/busy-and-distracted-everybody-has-been-since-at-least-1710"
+            "publisher": "Bertrand Russell (1932), via zpub.com",
+            "headline": "In Praise of Idleness",
+            "url": "https://www.zpub.com/notes/idle.html"
           }
         ]
       }
     ],
     "rabbit_hole": {
-      "id": "rh-2026-11-16",
-      "title": "The South-Sea Bubble",
-      "creator": "Charles Mackay, Memoirs of Extraordinary Popular Delusions and the Madness of Crowds (1841; Project Gutenberg)",
+      "id": "rh-2026-11-17",
+      "title": "Economic Possibilities for our Grandchildren",
+      "creator": "John Maynard Keynes (1930)",
       "format": "essay",
-      "minutes": 40,
-      "why": "The largest IPO on record prices Wednesday, and this is the classic account of 1720, when London subscribed to everything from the South Sea Company to a scheme 'for carrying on an undertaking of great advantage, but nobody to know what it is.' It is not a prediction about anything this week; it is the best available calibration for how crowds talk when a future looks certain.",
-      "url": "https://www.gutenberg.org/ebooks/24518",
-      "related_interest": "markets"
+      "minutes": 25,
+      "why": "Writing in the first year of the Depression, Keynes predicted that within a century technology would make us four to eight times richer and that our real problem would be how to use the leisure, with a fifteen-hour week as a stopgap. The Fed chair spent Monday describing the same fork (productivity boom or job displacement) and nobody on the stage asked Keynes's question about what the time is for.",
+      "url": "http://www.econ.yale.edu/smith/econ116a/keynes1.pdf",
+      "related_interest": "living"
     },
     "beautiful_thing": {
-      "id": "bt-2026-11-16",
-      "title": "The Freedom Tower, Miami",
-      "creator": "Schultze & Weaver, for publisher James M. Cox and the Miami Daily News",
-      "era": "Completed 1925; National Historic Landmark 2008",
-      "body": "Schultze & Weaver, the New York firm behind the Biltmore in Coral Gables, modeled the tower on the Giralda, the bell tower of Seville's cathedral, and finished it in 1925 as the home of the Miami Daily News. Look at how the shaft narrows into a lantern and cupola at the top, the Spanish Renaissance Revival detail concentrated where it can be seen from the bay. Its second life gave it its name: from 1962 it was where the federal government processed and aided Cuban exiles, which is why it was designated a National Historic Landmark in 2008. Miami Dade College owns it now, and it is the image on this year's Book Fair poster, a block from where the fair is happening.",
-      "url": "https://en.wikipedia.org/wiki/Freedom_Tower_(Miami)",
+      "id": "bt-2026-11-17",
+      "title": "The Bacardi Building (Bacardi Imports Tower), Miami",
+      "creator": "Enrique Gutiérrez, architect; tile murals by Francisco Brennand",
+      "era": "1963",
+      "body": "Bacardi's president José 'Pepín' Bosch commissioned the eight-story tower on Biscayne Boulevard, and the Cuban architect Enrique Gutiérrez, who had worked with Mies van der Rohe, gave it a clean modernist frame. What makes it Miami is the end walls: about 28,000 blue-and-white tiles by the Brazilian ceramist Francisco Brennand, depicting tropical vegetation in the tradition of Portuguese azulejos. Notice how the tile turns a blank structural wall into the building's face, and how it reads from a moving car. Its companion, the 'Jewel Box' annex, came in 1973, designed by Ignacio Carrera-Justiz. Bacardi left in 2009, and since 2012 both buildings have been the national headquarters of the YoungArts Foundation.",
+      "url": "https://en.wikipedia.org/wiki/Bacardi_Buildings_(Miami)",
       "image": null,
-      "alt": "A cream-colored Mediterranean Revival tower with a tiered cupola rising above Biscayne Boulevard in downtown Miami."
+      "alt": "An eight-story modernist tower whose end walls are covered in blue-and-white tile murals of tropical plants."
     },
-    "noticing_prompt": "Most of today's market talk is about things that have not happened yet: Tuesday's numbers, Wednesday's price. Notice how much of your own conversation runs the same way, and what it skips that is actually in front of you.",
+    "noticing_prompt": "Today a lot of people will hold opinions about a company's next quarter that they formed in the last 24 hours. Notice one opinion of your own that is that new, and how firmly you are holding it.",
     "daily_puzzle": {
-      "id": "dp-2026-11-16",
-      "type": "math",
-      "prompt": "A book's pages are numbered consecutively starting at 1. Printing all of the page numbers takes exactly 1,095 digits. How many pages does the book have?",
-      "hint": "Count the digits used by the one-digit and two-digit page numbers first.",
-      "solution": "401 pages.",
-      "explanation": "Pages 1-9 use 9 digits and pages 10-99 use 180, for 189. That leaves 906 digits, or 302 three-digit pages, so the last page is 99 + 302 = 401."
+      "id": "dp-2026-11-17",
+      "type": "lateral",
+      "prompt": "Two people play five games of checkers. Each person wins the same number of games, and none of the games ends in a draw. How is that possible?",
+      "hint": "Read it again and ask who each game was played against.",
+      "solution": "They were not playing each other.",
+      "explanation": "Each played five games against other opponents, so both can have the same win count with no draws; the puzzle only implies they played against each other."
     },
     "evening_unwind": {
-      "id": "eu-2026-11-16",
+      "id": "eu-2026-11-17",
       "evening_quote": {
-        "text": "You need a change of soul rather than a change of climate.",
-        "attribution": "Seneca",
-        "source": "Letters to Lucilius, 28 (Richard Gummere translation)"
+        "text": "Some things are in our control and others not.",
+        "attribution": "Epictetus",
+        "source": "Enchiridion, 1 (Elizabeth Carter translation)"
       },
-      "evening_prompt": "This week's market news is mostly about things that have not happened yet; how much of today did you spend on Tuesday or Wednesday instead of on Monday?"
+      "evening_prompt": "Nvidia's numbers, the board's choice and Washington's rule were all decided by other people today; which of your own reactions to them was actually yours to decide?"
     },
-    "reading_queue": [],
+    "reading_queue": [
+      {
+        "title": "The Radical Reasons Why You Dream of Making Things by Hand",
+        "url": "https://aeon.co/essays/the-radical-reasons-why-you-dream-of-making-things-by-hand",
+        "verdict": "weekend",
+        "reason": "Saved September 3 and tagged for the weekend; still the best companion to today's Keynes and Russell."
+      }
+    ],
     "quote": {
-      "text": "You need a change of soul rather than a change of climate.",
-      "attribution": "Seneca, Letters to Lucilius 28"
+      "text": "Time is a sort of river of passing events, and strong is its current; no sooner is a thing brought to sight than it is swept by and another takes its place, and this too will be swept away.",
+      "attribution": "Marcus Aurelius, Meditations 4.43"
     }
   },
   "threads": [
@@ -461,9 +452,9 @@
       "title": "US-Iran conflict and the Strait of Hormuz",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-11-16",
-      "updates": 113,
-      "current_state": "Iran claims more mine strikes in Hormuz (unverified) and targeted a U.S. base in Bahrain with drones on November 15; Brent about $95-96 on November 16, roughly flat. U.S. blockade stays; no talks acknowledged.",
+      "last_updated": "2026-11-17",
+      "updates": 114,
+      "current_state": "Brent settled $92.44 on November 16, down 3.6%, as glut worries outweighed Iran's claims of a new mine strike and an attack on U.S. radar in Bahrain. U.S. blockade stays; no talks acknowledged.",
       "timeline": [
         {
           "date": "2026-07-21",
@@ -1029,6 +1020,11 @@
           "date": "2026-11-16",
           "summary": "Sunday: IRGC said six drones targeted Riffa Air Base in Bahrain (second attempt in three days; Bahrain says intercepted) and claimed two more tankers hit mines (unverified). Brent about $95-96 Monday, little changed on a surplus outlook.",
           "change_type": "worsened"
+        },
+        {
+          "date": "2026-11-17",
+          "summary": "Brent settles $92.44 (-3.6%), WTI $85.72 on supply-glut concerns; Iran claims another tanker mine strike and a strike on U.S. radar in Bahrain (unverified mine claims).",
+          "change_type": "improved"
         }
       ]
     },
@@ -1037,9 +1033,9 @@
       "title": "Federal Reserve rate path",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-11-16",
-      "updates": 115,
-      "current_state": "10-year about 5.14% on November 16. December 8-9 quarter-point hike about 93-94% priced, half-point about 6%. Warsh speaks November 16; October minutes November 18; November jobs report December 4.",
+      "last_updated": "2026-11-17",
+      "updates": 116,
+      "current_state": "10-year about 5.13% on November 16. December 9 quarter-point hike about 91% priced (half-point about 9%). October retail sales November 17; October minutes November 18; November jobs report December 4.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -1610,6 +1606,11 @@
           "date": "2026-11-16",
           "summary": "Half-point December odds slipped to about 6% from 11.5% (secondary FedWatch reports); 10-year about 5.14% Monday; Warsh speaks at noon ET November 16.",
           "change_type": "advanced"
+        },
+        {
+          "date": "2026-11-17",
+          "summary": "Warsh says AI could be disinflationary or could disappoint and raise unemployment; 10-year eases to about 5.13%; December quarter-point hike about 91% priced.",
+          "change_type": "advanced"
         }
       ]
     },
@@ -1951,7 +1952,7 @@
       "status": "active",
       "last_updated": "2026-11-16",
       "updates": 33,
-      "current_state": "7-6, four straight wins after beating Detroit 137-117 on November 14. Rockets next at home (listings differ: November 16 or 17).",
+      "current_state": "7-6, four straight wins after beating Detroit 137-117 on November 14. Hosts Houston November 17.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -2556,9 +2557,9 @@
       "title": "Miami Hurricanes fall camp and the Mensah era",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-11-15",
-      "updates": 43,
-      "current_state": "9-1 and unbeaten in the ACC after a 36-25 win over Duke on November 14; No. 7 in the last CFP rankings. Virginia Tech next, November 21.",
+      "last_updated": "2026-11-17",
+      "updates": 44,
+      "current_state": "9-1 and unbeaten in the ACC. Hosts Virginia Tech November 21 at 7 p.m. on ESPN; Fletcher expected back, Toney ahead of schedule.",
       "timeline": [
         {
           "date": "2026-08-14",
@@ -2774,6 +2775,11 @@
           "date": "2026-11-15",
           "summary": "Saturday: beat Duke 36-25 at Hard Rock (13-10 at half; Mallory 39-yard TD run); 9-1, unbeaten in the ACC.",
           "change_type": "improved"
+        },
+        {
+          "date": "2026-11-17",
+          "summary": "Cristobal: Toney ahead of schedule after ankle surgery, Fletcher expected back for Virginia Tech (Saturday, November 21, 7 p.m., ESPN).",
+          "change_type": "watch"
         }
       ]
     },
@@ -2934,9 +2940,9 @@
       "title": "2026 CRE capital markets under pressure",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-11-13",
-      "updates": 58,
-      "current_state": "10-year near 5.10% (Nov 12). Private credit (Tyko: $817M Faena Residences, $507M Terra West Ave, alongside a $463M St. Regis Sunny Isles loan) keeps financing the top of the Miami condo market.",
+      "last_updated": "2026-11-17",
+      "updates": 59,
+      "current_state": "10-year about 5.13% (Nov 16). Miami-Dade October sales up year over year with 0.4% distressed; private credit (Tyko and others) still financing the top of the condo market.",
       "timeline": [
         {
           "date": "2026-07-24",
@@ -3232,6 +3238,11 @@
           "date": "2026-11-13",
           "summary": "Ten-year closed near 5.10% Thursday, the hurdle every Miami construction and refinancing quote now prices off; the recent run of record condo loans has come from private lenders (Tyko).",
           "change_type": "worsened"
+        },
+        {
+          "date": "2026-11-17",
+          "summary": "Miami Realtors: October single-family and condo sales up year over year; condo median $397,500, single-family $706,000; distressed sales 0.4%.",
+          "change_type": "advanced"
         }
       ]
     },
@@ -3446,7 +3457,7 @@
       "status": "active",
       "last_updated": "2026-11-16",
       "updates": 39,
-      "current_state": "12-7-3 after a 2-1 OT loss at Dallas on November 15, ending a three-game win streak.",
+      "current_state": "12-7-3 after a 2-1 OT loss at Dallas on November 15. Edmonton next, November 17, 7 p.m.",
       "timeline": [
         {
           "date": "2026-08-22",
@@ -4094,9 +4105,9 @@
       "title": "AI-regulation selloff",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-11-16",
-      "updates": 8,
-      "current_state": "Nasdaq 25,136.27 at the November 13 close; futures lower early November 16. Nvidia earnings November 17, Anthropic pricing November 18.",
+      "last_updated": "2026-11-17",
+      "updates": 9,
+      "current_state": "Nasdaq 24,509.76 at the November 16 close, in correction territory after the Commerce remote-access rule. Nvidia reports November 17, Anthropic prices November 18, Trump meets Xi in Shenzhen November 19.",
       "timeline": [
         {
           "date": "2026-11-06",
@@ -4137,6 +4148,11 @@
           "date": "2026-11-16",
           "summary": "Nasdaq-100 futures down roughly 0.6-0.8% early Monday as chipmakers slipped ahead of Nvidia's report and Anthropic's pricing.",
           "change_type": "watch"
+        },
+        {
+          "date": "2026-11-17",
+          "summary": "Commerce interim rule curbs Chinese remote access to U.S. AI chips via Singapore, Malaysia, Thailand, Indonesia and Brazil; Nasdaq -2.49% to 24,509.76 (about 10.9% off Oct 6 high), S&P -1.92% to 7,416.60.",
+          "change_type": "worsened"
         }
       ]
     },
@@ -4145,9 +4161,9 @@
       "title": "Nvidia after Jensen Huang",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-11-16",
-      "updates": 4,
-      "current_state": "Kress interim CEO; board inquiry (Wachtell) and CEO search continue. FT reports Huang weighing a return; Bessent wants an outsider. Earnings Tuesday, November 17, consensus revenue about $109B.",
+      "last_updated": "2026-11-17",
+      "updates": 5,
+      "current_state": "Kress interim CEO; board reportedly not considering Huang's return (CNBC, Reuters; no company comment). Shares $156.14 on November 16. Earnings after the close November 17, consensus revenue about $108.8B.",
       "timeline": [
         {
           "date": "2026-11-12",
@@ -4168,6 +4184,11 @@
           "date": "2026-11-16",
           "summary": "Weekend: FT reports Huang discussing a comeback with allies lobbying the board; Bessent urges an outside CEO and gives Nvidia about ten days to explain advanced chips reaching China.",
           "change_type": "new"
+        },
+        {
+          "date": "2026-11-17",
+          "summary": "CNBC and Reuters report the board is not considering Huang's return and is focused on its probe; Nvidia closed $156.14 (-4.1%) the day before earnings.",
+          "change_type": "reversed"
         }
       ]
     },
@@ -4176,9 +4197,9 @@
       "title": "Anthropic's IPO",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-11-16",
-      "updates": 3,
-      "current_state": "825M shares at $70-78 (~$64.4B at top) plus $26B placement; book reportedly ~6x covered; pricing expected November 18, trading November 19 as 'ANT'.",
+      "last_updated": "2026-11-17",
+      "updates": 4,
+      "current_state": "825M shares at $70-78 plus $26B placement; book reportedly about 6-7x covered; pricing expected the evening of November 18, trading November 19 as 'ANT'.",
       "timeline": [
         {
           "date": "2026-11-14",
@@ -4193,6 +4214,11 @@
         {
           "date": "2026-11-16",
           "summary": "Reports (Reuters, Bloomberg, FT) put the book at about six times covered and say banks may price above the $70-78 range; range unchanged as of November 16.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-11-17",
+          "summary": "Book reportedly held through Monday's tech selloff; some reports put coverage near 7x. Pricing still expected evening of November 18.",
           "change_type": "advanced"
         }
       ]
@@ -4217,7 +4243,7 @@
     }
   ],
   "meta": {
-    "content_freshness": "2026-11-16T09:30:00-05:00",
+    "content_freshness": "2026-11-17T09:30:00-05:00",
     "feedback_endpoint_mode": "github_contents",
     "minimum_client_schema_version": 1,
     "mode": "brain"
