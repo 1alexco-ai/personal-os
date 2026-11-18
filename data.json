@@ -1,240 +1,213 @@
 {
   "schema_version": 2,
   "edition": {
-    "id": "2026-11-17",
-    "date": "2026-11-17",
+    "id": "2026-11-18",
+    "date": "2026-11-18",
     "type": "weekday",
-    "generated_at": "2026-11-17T09:30:00-05:00",
+    "generated_at": "2026-11-18T09:30:00-05:00",
     "timezone": "America/New_York",
     "title": "Personal OS",
     "front_page_letter": {
       "greeting": "Good morning",
       "body_paragraphs": [
-        "Good morning. Tuesday, November 17.",
-        "Monday did what Sunday only threatened. Commerce issued a rule to stop Chinese firms from renting American AI chips through data centers in five countries, and the Nasdaq fell 2.5% into a correction, about 11% off its October high. Hours later, CNBC and Reuters reported that Nvidia's board is not considering bringing Jensen Huang back. Nvidia reports tonight with an interim CEO and a new rule on the table.",
-        "Warsh, for his part, said AI might transform productivity or might simply disappoint, and he named the version where both stocks and jobs fall. It was not a rates signal. The 10-year eased to about 5.13%, and a December hike still looks all but certain.",
-        "Two things pushed the other way. Brent fell 3.6% to $92.44 because traders believe in the glut more than in Iran's threats, and Anthropic's book reportedly held through the selloff ahead of Wednesday's pricing.",
-        "At home, Miami-Dade sales are still running ahead of last year with almost no distress. The Heat and Panthers both play tonight.",
-        "Worth your attention: Nvidia's guidance tonight, read for what it says about China. For the evening, Keynes on what the extra hours are for, and the blue tiles on Biscayne."
+        "Good morning. Wednesday, November 18.",
+        "The market spent Tuesday bracing and the evening was better than the brace. The S&P 500 fell for a fourth day to its lowest close since July, then Nvidia, in its first report without Jensen Huang, posted $115.8 billion in revenue and guided to $130 billion while assuming no China data-center sales at all. Monday's chip rule priced a China problem; the guidance says the business grows anyway.",
+        "That matters tonight. Anthropic's book closed Tuesday afternoon, and CNBC and the Journal now report pricing above the $70-78 range, perhaps above $80. Before that, at 2 p.m., the Fed's October minutes, with a December hike priced as near-certain and the 10-year still around 5.10%. Oil bounced to $93 on tanker attacks but is still down a fifth for the month, which is the one thing working in the Fed's favor.",
+        "At home, the Seaquarium's 99-year lease is up against a December 30 bankruptcy-court deadline and a commission tired of voting on documents it got the night before. The Heat have won five straight; Adebayo's hip is the thing to watch.",
+        "Worth your attention: the minutes, read for how many members wanted more than a quarter point. For the evening, Amodei's own case for what tonight's price is buying, and a Brickell tower with a hole in it."
       ],
       "read_only_three": [
         {
           "target_type": "theme",
-          "target_id": "theme-chip-rule-selloff",
-          "label": "The rule that broke the Nasdaq"
+          "target_id": "theme-nvidia-earnings",
+          "label": "Nvidia guides past China"
         },
         {
           "target_type": "theme",
-          "target_id": "theme-nvidia-board-huang",
-          "label": "No comeback, then earnings"
+          "target_id": "theme-anthropic-ipo",
+          "label": "Anthropic prices tonight"
         },
         {
           "target_type": "rabbit_hole",
-          "target_id": "rh-2026-11-17",
-          "label": "Keynes on our grandchildren"
+          "target_id": "rh-2026-11-18",
+          "label": "The prospectus in prose"
         }
       ]
     },
     "market_context": [
       {
         "label": "S&P 500",
-        "value": "7,416.60",
-        "change": "-1.92%",
-        "observed": "Close, Monday, November 16, 2026",
-        "note": "Chipmakers led the decline after the Commerce rule."
+        "value": "7,340.53",
+        "change": "-1.03%",
+        "observed": "Close, Tuesday, November 17, 2026",
+        "note": "Lowest close since late July; fourth straight loss. Nvidia's beat came after the bell."
       },
       {
         "label": "Nasdaq Composite",
-        "value": "24,509.76",
-        "change": "-2.49%",
-        "observed": "Close, Monday, November 16, 2026",
-        "note": "About 10.9% below the October 6 high: correction territory."
+        "value": "24,328.38",
+        "change": "-0.74%",
+        "observed": "Close, Tuesday, November 17, 2026",
+        "note": "Fourth straight loss; still in correction territory."
       },
       {
         "label": "10-year Treasury",
-        "value": "about 5.13%",
-        "change": "about -2 bp",
-        "observed": "Monday, November 16, 2026 (CNBC)",
-        "note": "2-year about 4.84%. October retail sales due this morning."
+        "value": "about 5.10%",
+        "change": "about -2 to -3 bp",
+        "observed": "Tuesday, November 17, 2026 (market recaps; sources range 5.099%-5.107%)",
+        "note": "October retail sales +0.2%, roughly in line."
       },
       {
         "label": "FOMC",
         "value": "3.75%-4.00%; next decision December 9",
-        "change": "Quarter-point hike about 91%, half-point about 9%; one report shows a hike of some size at 100%",
-        "observed": "Secondary reports of CME FedWatch, November 16, 2026",
-        "note": "Not read from CME directly. October minutes Wednesday, November 18."
+        "change": "Quarter-point hike about 95%, half-point about 4%",
+        "observed": "Secondary reports of CME FedWatch, November 17-18, 2026",
+        "note": "Not read from CME directly. October minutes at 2 p.m. today."
       },
       {
         "label": "Brent crude",
-        "value": "$92.44",
-        "change": "-3.6%",
-        "observed": "Settlement, Monday, November 16, 2026",
-        "note": "WTI $85.72. Supply-surplus worries outweighed Iran's claims."
+        "value": "$93.14",
+        "change": "+0.76%",
+        "observed": "Settlement, Tuesday, November 17, 2026",
+        "note": "WTI $86.01. Still down about 20% for November. Settlement seen in a limited number of sources."
       }
     ],
     "public_day_context": {
-      "date_label": "Tuesday, November 17, 2026",
-      "weather": "Cooler than usual: forecasters expected below-normal temperatures for Miami all week, with rain chances returning from Tuesday. A same-day forecast could not be verified this morning, so check before heading out.",
-      "public_event": "October retail sales this morning; Nvidia reports after the close; Heat host Houston and the Panthers face Edmonton tonight. Fed minutes and Anthropic pricing Wednesday; Trump meets Xi in Shenzhen and GTA VI launches Thursday. Miami Book Fair through November 22; Canes host Virginia Tech Saturday, November 21."
+      "date_label": "Wednesday, November 18, 2026",
+      "weather": "A same-day Miami forecast could not be verified this morning; earlier forecasts called for a cooler-than-usual week with rain chances. Check before heading out.",
+      "public_event": "Fed minutes at 2 p.m.; Anthropic expected to price after the close, with trading Thursday as 'ANT'. National Book Awards stream at 8 p.m. GTA VI launches Thursday; Miami Book Fair runs through November 22; Canes host Virginia Tech Saturday at 7 p.m.; Dolphins at Buffalo Sunday."
     },
     "what_changed": [
       {
-        "id": "delta-chip-rule",
+        "id": "delta-nvidia-beat",
+        "thread_id": "thread-nvidia-huang-board",
+        "change_type": "improved",
+        "title": "Nvidia: $115.8B quarter, $130B guide without China",
+        "previous_state": "Nvidia was due to report Tuesday under interim CEO Colette Kress, with consensus revenue near $109 billion and the board reportedly ruling out Huang's return.",
+        "current_state": "Revenue came in at $115.8 billion, guidance at $130 billion assuming no China data-center revenue, and shares rose after hours.",
+        "why_it_matters": "It answers Monday's China fear with numbers, hours before Anthropic prices.",
+        "confidence": "high",
+        "source": {
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/17/nvidia-nvda-earnings-report-q3-2027.html"
+        }
+      },
+      {
+        "id": "delta-sp-july-low",
         "thread_id": "thread-ai-regulation-selloff",
         "change_type": "worsened",
-        "title": "New chip rule; Nasdaq falls 2.5% into a correction",
-        "previous_state": "Nasdaq closed at 25,136.27 on Friday, with futures lower early Monday ahead of Nvidia.",
-        "current_state": "Commerce issued a rule curbing Chinese remote access to U.S. AI chips via five countries; Nasdaq closed down 2.49% at 24,509.76, about 10.9% below its October 6 high.",
-        "why_it_matters": "It adds a policy discount to the AI trade two days before the Anthropic pricing and three before Trump meets Xi.",
+        "title": "S&P 500 closes at its lowest since late July",
+        "previous_state": "The S&P 500 closed at 7,416.60 on Monday after a 1.92% drop.",
+        "current_state": "It fell another 1.03% Tuesday to 7,340.53, a fourth straight loss, while the Nasdaq slipped 0.74% to 24,328.38.",
+        "why_it_matters": "The selloff spread beyond chips before the beat; this morning shows whether the beat reverses it.",
         "confidence": "high",
         "source": {
-          "publisher": "NPR",
-          "url": "https://www.npr.org/2026/11/16/nx-s1-6042883/nvidia-jensen-huang-commerce-department"
+          "publisher": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-17-dow-sp-500-nasdaq-nvidia-earnings-retail-sales-143848454.html"
         }
       },
       {
-        "id": "delta-huang-ruled-out",
-        "thread_id": "thread-nvidia-huang-board",
-        "change_type": "reversed",
-        "title": "Board reportedly rules out Huang's return",
-        "previous_state": "The FT reported Huang was discussing a comeback with allies.",
-        "current_state": "CNBC and Reuters report the board is not considering reinstating him and is focused on its investigation; Nvidia has not commented.",
-        "why_it_matters": "Tonight's call comes from an interim team with no leadership reprieve in view.",
-        "confidence": "medium",
-        "source": {
-          "publisher": "The Hill",
-          "url": "https://thehill.com/policy/technology/6223454-nvidia-board-rejects-huang-return/"
-        }
-      },
-      {
-        "id": "delta-oil-drop",
-        "thread_id": "thread-iran-hormuz-crisis",
-        "change_type": "improved",
-        "title": "Brent settles $92.44, down 3.6%",
-        "previous_state": "Brent traded around $95-96 Monday morning, roughly flat after Iran's weekend attack on a U.S. base in Bahrain.",
-        "current_state": "Brent settled at $92.44 and WTI at $85.72 as supply-glut concerns outweighed new Iranian claims.",
-        "why_it_matters": "Lower energy prices are the only part of this week easing the inflation pressure behind December's hike.",
-        "confidence": "high",
-        "source": {
-          "publisher": "Rigzone (Bloomberg)",
-          "url": "https://www.rigzone.com/news/wire/oil_retreats_as_traders_weigh_supply_glut-16-nov-2026-185096-article/"
-        }
-      },
-      {
-        "id": "delta-warsh-ai",
-        "thread_id": "thread-fed-rate-path",
+        "id": "delta-anthropic-above-range",
+        "thread_id": "thread-anthropic-ipo",
         "change_type": "advanced",
-        "title": "Warsh says AI could 'disappoint'",
-        "previous_state": "Warsh was scheduled to speak at noon Monday, with the 10-year near 5.14%.",
-        "current_state": "Warsh described AI as possibly disinflationary or possibly a disappointment that hits jobs and stocks; the 10-year eased to about 5.13%, and December hike pricing held.",
-        "why_it_matters": "No signal on rates, but the Fed chair has now named the AI-bust scenario publicly.",
+        "title": "Anthropic talk moves above the $70-78 range",
+        "previous_state": "The book reportedly held through Monday's selloff at about six to seven times covered, with pricing expected within the range or slightly above.",
+        "current_state": "CNBC and the Journal report pricing likely above range, possibly above $80, with the book closed Tuesday at 4 p.m.",
+        "why_it_matters": "A price above $80 implies roughly $1.5 trillion or more, a direct read on public appetite for AI.",
         "confidence": "medium",
         "source": {
           "publisher": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/16/treasury-yields-bonds-inflation.html"
+          "url": "https://www.cnbc.com/2026/11/17/anthropic-ipo-price.html"
+        }
+      },
+      {
+        "id": "delta-seaquarium-deferral",
+        "thread_id": "thread-seaquarium-marina-redevelopment",
+        "change_type": "advanced",
+        "title": "Seaquarium lease deferred; December 30 deadline",
+        "previous_state": "As of late October, residents were suing for a countywide referendum and the detailed lease had not reached a vote.",
+        "current_state": "A committee deferred the 249-page, 99-year Terra Group lease 3-1 on November 10; the county says it must close by December 30 or risk a bankruptcy-court sale to another bidder.",
+        "why_it_matters": "The deal now runs on a hard clock, with process and referendum risk still open.",
+        "confidence": "medium",
+        "source": {
+          "publisher": "WLRN",
+          "url": "https://www.wlrn.org/environment/2026-11-10/miami-dade-puts-the-brakes-on-seaquarium-makeover-deal-commissioners-agreed-to-defer-it"
+        }
+      },
+      {
+        "id": "delta-heat-five-straight",
+        "thread_id": "thread-heat-giannis-era",
+        "change_type": "advanced",
+        "title": "Heat win fifth straight; Adebayo hip being watched",
+        "previous_state": "The Heat were 7-6 on a four-game streak, with Houston listed (incorrectly, as Tuesday) as the next game.",
+        "current_state": "Miami beat Houston 128-110 on Monday to reach 8-6; Adebayo sat the second half with hip tightness, described as precautionary.",
+        "why_it_matters": "The streak is real, but the next stretch depends on Adebayo's hip.",
+        "confidence": "high",
+        "source": {
+          "publisher": "ESPN",
+          "url": "https://www.espn.com/nba/story/_/id/50507278/heat-star-bam-adebayo-exits-win-early-hip-tightness"
         }
       }
     ],
     "themes": [
       {
-        "id": "theme-chip-rule-selloff",
+        "id": "theme-nvidia-earnings",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Washington closes the remote-access door, and the Nasdaq enters a correction",
-        "importance": 0.94,
-        "thesis": "A Commerce Department rule aimed at China's rented access to American chips turned a nervous pre-earnings Monday into the worst day for tech in weeks.",
-        "synthesis": "On Monday, November 16, Commerce issued an interim rule requiring licenses for covered AI-chip shipments to data centers in Singapore, Malaysia, Thailand, Indonesia and Brazil, and restricting shipments to large data centers, to stop Chinese firms renting top-end compute in third countries. The Nasdaq Composite fell 2.49% to 24,509.76, about 10.9% below its October 6 high, and the S&P 500 lost 1.92%. Nvidia fell 4.1%, AMD 5.6% and Broadcom 3.9%. Beijing said it 'will take necessary measures'; Trump meets Xi in Shenzhen on Thursday.",
-        "new_today": "The rule itself is new, announced Monday; Nasdaq's close puts it in correction territory for the first time in this drawdown.",
-        "why_it_matters": "This is policy risk on the largest weight in your index exposure, landing days before a Trump-Xi meeting and a Miami-hosted G20 in December. It also shrinks the addressable market the AI capex story has been priced on, which matters to anyone underwriting data-center or tech-tenant demand.",
+        "title": "Nvidia beats without its founder, and guides as if China were gone",
+        "importance": 0.95,
+        "thesis": "The first quarter under an interim CEO was the company's biggest ever, and the guidance assumes no China data-center revenue at all.",
+        "synthesis": "After Tuesday's close Nvidia reported fiscal third-quarter revenue of $115.8 billion, up 103% from a year earlier, against consensus near $109 billion; data center alone was $107.6 billion. It guided the current quarter to $130 billion, plus or minus 3%, while assuming zero data-center compute revenue from China, and interim CEO Colette Kress raised the fiscal 2028 growth outlook to 75% from 70%. Shares rose in after-hours trading, about 2% to 4% depending on the report. Kress also said Nvidia would be 'rigorously evaluating future investments, commitments, and guarantees.'",
+        "new_today": "The numbers themselves: a beat on revenue, earnings and guidance, released Tuesday evening.",
+        "why_it_matters": "Monday's Commerce rule priced in a China problem; the guidance says the business can grow through it. That is the single biggest input to the index you own and to the data-center demand story behind a lot of CRE underwriting. Kress's line on 'commitments and guarantees' is the one to reread: it hints at a more cautious balance sheet after Huang.",
+        "thread_id": "thread-nvidia-huang-board",
+        "confidence": "high",
+        "sources": [
+          {
+            "role": "primary_reporting",
+            "publisher": "CNBC",
+            "headline": "Nvidia (NVDA) Q3 2027 earnings report: Live updates",
+            "url": "https://www.cnbc.com/2026/11/17/nvidia-nvda-earnings-report-q3-2027.html"
+          },
+          {
+            "role": "background",
+            "publisher": "NVIDIA Newsroom",
+            "headline": "NVIDIA Announces Financial Results for Third Quarter Fiscal 2027",
+            "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027"
+          },
+          {
+            "role": "analysis",
+            "publisher": "Technology.org",
+            "headline": "Nvidia Q3 Revenue Hits $115.8B as Vera Rubin Ships",
+            "url": "https://www.technology.org/2026/11/18/nvidia-q3-fiscal-2027-revenue-115-8-billion-vera-rubin-kress/"
+          }
+        ]
+      },
+      {
+        "id": "theme-tuesday-selloff",
+        "affinity": "morning",
+        "topic": "markets",
+        "topic_label": "Markets & Macro",
+        "title": "The S&P's lowest close since July, before the good news arrived",
+        "importance": 0.88,
+        "thesis": "Investors sold into the Nvidia print for a fourth straight session, and the after-hours beat will be tested against the Fed minutes this afternoon.",
+        "synthesis": "The S&P 500 fell 1.03% on Tuesday to 7,340.53, its lowest close since late July and its fourth straight loss; the Dow lost 1.64% and the Nasdaq Composite 0.74%. October retail sales rose 0.2%, roughly in line, with the ex-autos-and-gas measure up about half a percent. The 10-year eased a few basis points to about 5.10%. The minutes of the October Fed meeting land at 2 p.m. today, with a December quarter-point hike priced as near-certain.",
+        "new_today": "Tuesday's close and the retail sales print; the drawdown widened from tech to the Dow.",
+        "why_it_matters": "A 10-year above 5% with a hike coming is the cost-of-capital backdrop for every deal you look at. Consumer spending holding up is the reason the Fed has room to keep tightening, which is not the same as good news for cap rates.",
         "thread_id": "thread-ai-regulation-selloff",
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "NPR",
-            "headline": "U.S. tightens controls on remote access to AI technology amid Nvidia fallout",
-            "url": "https://www.npr.org/2026/11/16/nx-s1-6042883/nvidia-jensen-huang-commerce-department"
+            "publisher": "Yahoo Finance",
+            "headline": "Stock market today: Dow sinks, S&P 500 and Nasdaq drop with focus on Nvidia earnings",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-17-dow-sp-500-nasdaq-nvidia-earnings-retail-sales-143848454.html"
           },
           {
             "role": "analysis",
-            "publisher": "The Motley Fool",
-            "headline": "Stock Market Today, Nov. 16: Nvidia Sinks as U.S. Tightens AI Chip Restrictions and Analysts Slash Price Targets",
-            "url": "https://www.fool.com/coverage/stock-market-today/2026/11/16/stock-market-today-nov-16-nvidia-sinks-as-u-s-tightens-ai-chip-restrictions-and-analysts-slash-price-targets/"
-          },
-          {
-            "role": "background",
-            "publisher": "CNN",
-            "headline": "Trump administration tightens restrictions on flow of AI chips ahead of China trip",
-            "url": "https://www.cnn.com/2026/11/16/politics/ai-chips-restrictions-china"
-          },
-          {
-            "role": "counterpoint",
-            "publisher": "Al Jazeera",
-            "headline": "US moves to block China's remote access to AI chips amid Nvidia scandal",
-            "url": "https://www.aljazeera.com/economy/2026/11/17/us-moves-to-block-chinas-remote-access-to-ai-chips-amid-nvidia-scandal"
-          }
-        ]
-      },
-      {
-        "id": "theme-nvidia-board-huang",
-        "affinity": "morning",
-        "topic": "markets",
-        "topic_label": "Markets & Macro",
-        "title": "The board shuts the door on Huang, hours before the numbers",
-        "importance": 0.92,
-        "thesis": "Nvidia reports tonight with the comeback question answered, at least for now, and a new export rule hanging over the guidance.",
-        "synthesis": "CNBC (one source) and Reuters (three sources) reported Monday that Nvidia's board is not considering bringing Jensen Huang back as CEO and is focused on its investigation; the company has not commented. A petition for his return had passed 190,000 signatures, and Trump said he would welcome him back. CNBC also reports Nvidia has warned customers about legal exposure tied to Chinese access to chip capacity. Results come after Tuesday's close, with consensus in previews around $108.8 billion of revenue.",
-        "new_today": "Sunday's comeback talk met a board that, per two outlets, is not entertaining it. Earnings are tonight.",
-        "why_it_matters": "Interim CEO Colette Kress will be asked about China, remote access and leadership in the same breath. The guidance tonight is the first test of whether the AI build-out story survives a policy shock and a governance crisis at once.",
-        "thread_id": "thread-nvidia-huang-board",
-        "confidence": "medium",
-        "sources": [
-          {
-            "role": "primary_reporting",
-            "publisher": "The Hill",
-            "headline": "Nvidia's board declines to consider Jensen Huang's return as CEO",
-            "url": "https://thehill.com/policy/technology/6223454-nvidia-board-rejects-huang-return/"
-          },
-          {
-            "role": "analysis",
-            "publisher": "CNBC",
-            "headline": "Nvidia warns chip buyers of legal risks tied to China AI access, sources tell CNBC",
-            "url": "https://www.cnbc.com/2026/11/17/nvidia-china-cloud-ai-chip-access.html"
-          },
-          {
-            "role": "background",
-            "publisher": "The Korea Times",
-            "headline": "Nvidia rules out Huang comeback as campaign for his return grows",
-            "url": "https://www.koreatimes.co.kr/world/20261117/nvidia-rules-out-huang-comeback-as-campaign-for-his-return-grows"
-          }
-        ]
-      },
-      {
-        "id": "theme-warsh-ai-two-futures",
-        "affinity": "morning",
-        "topic": "markets",
-        "topic_label": "Markets & Macro",
-        "title": "Warsh on AI: it might transform the economy, or it might disappoint",
-        "importance": 0.85,
-        "thesis": "The Fed chair's first long remarks on AI were broadly hopeful but named the bust scenario out loud, and bonds caught a small bid.",
-        "synthesis": "Opening a San Francisco Fed conference on AI and productivity Monday, Warsh said AI could prove disinflationary by raising productivity, or could simply disappoint, and he flagged that job displacement could push unemployment up; Axios reports he sketched a path where losses in finance drag stocks and jobs down together. The 10-year eased about 2 basis points to roughly 5.13%. He did not move December pricing, which still shows a hike as all but certain.",
-        "new_today": "The speech happened; yesterday it was a calendar item. October retail sales are out this morning and October FOMC minutes Wednesday.",
-        "why_it_matters": "A Fed chair publicly naming an AI-led equity bust as a scenario is a change in tone, even if not in policy. For CRE, the more important fact is unchanged: a 10-year above 5% with a hike coming in December.",
-        "thread_id": "thread-fed-rate-path",
-        "confidence": "medium",
-        "sources": [
-          {
-            "role": "primary_reporting",
-            "publisher": "CNBC",
-            "headline": "Treasury prices catch a small bid as stock market weakens and Warsh says AI might 'disappoint'",
-            "url": "https://www.cnbc.com/2026/11/16/treasury-yields-bonds-inflation.html"
-          },
-          {
-            "role": "analysis",
-            "publisher": "Axios",
-            "headline": "Federal Reserve chairman Warsh sees risk of stock bust if AI boom disappoints",
-            "url": "https://www.axios.com/2026/11/16/fed-warsh-ai-boom-stocks"
+            "publisher": "MarketScreener (Reuters)",
+            "headline": "Wall Street ends lower ahead of Nvidia results, focus turns to Anthropic debut",
+            "url": "https://www.marketscreener.com/news/wall-street-ends-lower-ahead-of-nvidia-results-focus-turns-to-anthropic-debut-ce785edcdc81fe2d"
           }
         ]
       },
@@ -243,207 +216,237 @@
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Anthropic's book holds through the tech selloff",
-        "importance": 0.8,
-        "thesis": "The largest IPO on the calendar prices Wednesday night into a Nasdaq that just entered a correction, and demand reportedly did not flinch.",
-        "synthesis": "Anthropic is offering 825 million shares at $70-78, with pricing expected the evening of Wednesday, November 18 and Nasdaq trading as 'ANT' on Thursday, per CNBC. Bloomberg-sourced reports put the book at about six to seven times covered; Semafor reported demand stayed strong despite Monday's pullback. Pricing above the range is talked about but not reported as decided.",
-        "new_today": "The book reportedly held through Monday's selloff; some reports now put coverage near seven times.",
-        "why_it_matters": "Wednesday's price is the cleanest read this week on what investors will pay for AI earnings that sit years out, set against a 5.1% risk-free rate. A weak debut would feed the very bust scenario Warsh described.",
+        "title": "Anthropic prices tonight, probably above the range",
+        "importance": 0.86,
+        "thesis": "The book closed Tuesday afternoon about seven times covered, and the reported talk is now above $80 a share.",
+        "synthesis": "CNBC's David Faber reported Tuesday that Anthropic is likely to price above its $70-78 range, with the order book closing at 4 p.m. ET; the Wall Street Journal reported an expected price above $80, which would value the company at roughly $1.5 to $1.6 trillion, and said the final number would depend partly on the reaction to Nvidia. Bloomberg put orders near seven times the shares on offer. Pricing is expected this evening, with Nasdaq trading as 'ANT' on Thursday. None of this is final until the company announces it.",
+        "new_today": "Guidance moved from 'top of range' to 'above range'; Nvidia's beat removes the main overhang the Journal flagged.",
+        "why_it_matters": "This is the largest test yet of whether public markets will pay private-market AI valuations, the morning after the sector's bellwether beat. How it trades Thursday will color every AI-adjacent private mark, and the risk appetite of the lenders you deal with.",
         "thread_id": "thread-anthropic-ipo",
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
             "publisher": "CNBC",
-            "headline": "Anthropic IPO guide: The price range, date and more",
-            "url": "https://www.cnbc.com/2026/11/16/anthropic-ipo-date-price-range.html"
+            "headline": "Anthropic likely to price IPO above the current range of $70 to $78, sources tell CNBC",
+            "url": "https://www.cnbc.com/2026/11/17/anthropic-ipo-price.html"
           },
           {
             "role": "analysis",
-            "publisher": "StockAnalysis",
-            "headline": "Anthropic's IPO draws about 6 times the orders for its shares",
-            "url": "https://stockanalysis.com/news/anthropic-ipo-six-times-oversubscribed/"
+            "publisher": "Quartz",
+            "headline": "Anthropic is guiding its IPO price to the top of its range or above",
+            "url": "https://qz.com/anthropic-ipo-price-top-range-guidance-111726"
+          },
+          {
+            "role": "background",
+            "publisher": "CNBC",
+            "headline": "Anthropic IPO guide: The price range, date and more",
+            "url": "https://www.cnbc.com/2026/11/16/anthropic-ipo-date-price-range.html"
           }
         ]
       },
       {
-        "id": "theme-hormuz-mines",
+        "id": "theme-hormuz-oil",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Oil falls 3.6% while Iran keeps claiming hits",
-        "importance": 0.74,
-        "thesis": "The market has decided the supply glut matters more than the war, at least this week.",
-        "synthesis": "Brent settled at $92.44 on Monday, down 3.6%, and WTI at $85.72, as traders weighed a growing global surplus; Bloomberg via Rigzone reports money managers have cut bullish Brent bets to a four-month low. Iran's Guards claimed another tanker mine strike near Hormuz and said they targeted U.S. radar in Bahrain; the mine claims remain unverified.",
-        "new_today": "Monday's 3.6% drop answers yesterday's question: the Bahrain escalation did not hold a bid in crude.",
-        "why_it_matters": "Cheaper oil is the one input this week pulling against the Fed's inflation problem. If it keeps falling, it gives Warsh a little room; if the strait actually closes, it takes all of it.",
+        "title": "Tanker attacks hold Brent near $93, but the glut still wins the month",
+        "importance": 0.7,
+        "thesis": "Fresh attacks near Hormuz lifted oil a little on Tuesday; the bigger story remains a 20% slide in November.",
+        "synthesis": "Brent settled up 0.76% at $93.14 on Tuesday and WTI at $86.01, after reports of tanker attacks in and around the Strait of Hormuz and Iran's strike on a U.S. radar installation in Bahrain. The counterweight is supply: the IEA projects a fourth-quarter surplus of about 1.7 million barrels a day, and Brent is still down roughly 20% for the month. Prices swung through the session, from below $92 to above $93.80.",
+        "new_today": "Tuesday's small bounce after Monday's 3.6% drop; no change in the U.S. blockade or in talks.",
+        "why_it_matters": "Cheaper oil is the main disinflationary force working against the Fed's hike. If attacks keep failing to move the price, the market is telling you the risk premium is gone, which is useful until it isn't.",
         "thread_id": "thread-iran-hormuz-crisis",
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Rigzone (Bloomberg)",
-            "headline": "Oil Retreats as Traders Weigh Supply Glut",
-            "url": "https://www.rigzone.com/news/wire/oil_retreats_as_traders_weigh_supply_glut-16-nov-2026-185096-article/"
+            "publisher": "OilPrice.com",
+            "headline": "Brent Stuck Near $93 as Hormuz Tanker Attacks Offset Gulf Export Surge",
+            "url": "https://oilprice.com/Energy/Energy-General/Brent-Stuck-Near-93-as-Hormuz-Tanker-Attacks-Offset-Gulf-Export-Surge.html"
           },
           {
-            "role": "background",
-            "publisher": "Fortune",
-            "headline": "Current price of oil as of November 16, 2026",
-            "url": "https://fortune.com/article/price-of-oil-11-16-2026/"
+            "role": "analysis",
+            "publisher": "Transport Topics",
+            "headline": "Oil prices swing as vessel attacks reported around Hormuz",
+            "url": "https://www.ttnews.com/articles/oil-prices-vessel-attacks"
           }
         ]
       },
       {
-        "id": "theme-miami-realtors-october",
+        "id": "theme-seaquarium-lease",
         "affinity": "morning",
         "topic": "miami",
         "topic_label": "Miami Life & Culture",
-        "title": "Miami-Dade home and condo sales still running ahead of last year",
-        "importance": 0.62,
-        "thesis": "October's numbers say the local market is steady, not soaring, with almost no distress, even with a 10-year above 5%.",
-        "synthesis": "Miami Realtors reported Monday that single-family and condo sales both rose year over year through October. The condo median stands at $397,500 and the single-family median at $706,000; only 0.4% of closed sales were distressed, and single-family homes sold for a median 96% of original list price. The board credits steady demand and new tax incentives.",
-        "new_today": "October data, released Monday, November 16.",
-        "why_it_matters": "Selling at 96% of list means buyers have some leverage but not much. Read it alongside the private credit financing the top of the condo market: the middle is grinding along while the top is being financed outside the banks.",
-        "thread_id": "thread-cre-capital-markets-2026",
-        "confidence": "high",
+        "title": "A 249-page, 99-year lease for the Seaquarium, and six weeks to sign it",
+        "importance": 0.72,
+        "thesis": "Miami-Dade's Seaquarium redevelopment is now a race between a bankruptcy-court deadline and commissioners who refuse to vote on documents they got the night before.",
+        "synthesis": "On November 10 a county committee voted 3-1 to defer the 99-year lease with David Martin's Terra Group after the 249-page document was made public the night before the hearing. County leaders say they must close by December 30 or risk the bankruptcy court selling the site to another bidder, and the full commission still has to approve. Miami Today's editorial this morning calls forced last-minute votes 'a pattern that must end now,' citing the Seaquarium as its example. The residents' suit seeking a countywide referendum is still pending.",
+        "new_today": "The deferral and the December 30 deadline are new to this thread since October 27; today's editorial raises the pressure. Whether the full commission acted at its November 17 meeting could not be confirmed.",
+        "why_it_matters": "This is a live case study in public-private waterfront development on county land: lease length, process risk and referendum risk all in one deal, on a site you can see from the causeway.",
+        "thread_id": "thread-seaquarium-marina-redevelopment",
+        "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Miami Realtors (PR Newswire)",
-            "headline": "Miami-Dade Home Sales Continue to Outpace Last Year",
-            "url": "https://www.prnewswire.com/news-releases/miami-dade-home-sales-continue-to-outpace-last-year-302940989.html"
+            "publisher": "WLRN",
+            "headline": "Miami-Dade puts the brakes on Seaquarium makeover deal. Commissioners agreed to defer it",
+            "url": "https://www.wlrn.org/environment/2026-11-10/miami-dade-puts-the-brakes-on-seaquarium-makeover-deal-commissioners-agreed-to-defer-it"
+          },
+          {
+            "role": "local_perspective",
+            "publisher": "Axios Miami",
+            "headline": "Seaquarium setback: Miami-Dade postpones key vote on redevelopment deal",
+            "url": "https://www.axios.com/local/miami/2026/11/10/miami-seaquarium-development-marina-development"
+          },
+          {
+            "role": "analysis",
+            "publisher": "Miami Today",
+            "headline": "Forced last-minute county votes a pattern that must end now",
+            "url": "https://miamitodaynews.com/2026/11/18/forced-last-minute-county-votes-a-pattern-that-must-end-now"
           }
         ]
       },
       {
-        "id": "theme-miami-sports-tuesday",
+        "id": "theme-miami-sports-wednesday",
         "affinity": "morning",
         "topic": "sports",
         "topic_label": "Miami Sports",
-        "title": "A home doubleheader of sorts: Heat and Panthers tonight, Canes Saturday",
-        "importance": 0.6,
-        "thesis": "A quiet results day sets up a busy week: two games tonight and the Canes' last home test before the ACC stretch run.",
-        "synthesis": "The Heat (7-6, four straight wins) host Houston tonight; the last meeting, in March, was a one-point Rockets win. The Panthers (12-7-3) play Edmonton tonight at 7 p.m. after Sunday's overtime loss in Dallas. Miami (9-1) hosts Virginia Tech on Saturday at 7 p.m. on ESPN; Mario Cristobal said Monday that receiver Malachi Toney is ahead of schedule after ankle surgery and he expects running back Mark Fletcher Jr. back.",
-        "new_today": "Cristobal's Monday injury update is the only new fact; the games are tonight.",
-        "why_it_matters": "The Canes' playoff path runs through not slipping against a strong ACC defense; Fletcher's return matters more than the opponent's name suggests.",
-        "thread_id": "thread-hurricanes-fall-camp",
-        "confidence": "medium",
+        "title": "Five straight for the Heat, a hip to watch, and McDavid in Sunrise",
+        "importance": 0.66,
+        "thesis": "The Heat are rolling but held Adebayo out as a precaution; the Panthers ran into the league's hottest team.",
+        "synthesis": "The Heat beat Houston 128-110 on Monday night (not Tuesday, as this edition said yesterday) for their fifth straight win, moving to 8-6; Giannis Antetokounmpo had 20 points, 13 rebounds and six assists. Bam Adebayo sat the second half with right hip tightness, which Erik Spoelstra called 'proactive' and not a long-term issue; his status for the Bucks game is uncertain. On Tuesday the Panthers lost 5-2 at home to Edmonton, who led 4-0 after two periods; Connor McDavid extended his season-opening point streak to 23 games. The Canes host Virginia Tech on Saturday at 7 p.m.",
+        "new_today": "The Panthers' loss and the Adebayo evaluation; a correction on the Heat's game date.",
+        "why_it_matters": "Adebayo is the defensive spine of the Giannis-era Heat; a short absence is fine, a lingering hip is not. Florida falls to 12-8-3.",
+        "thread_id": "thread-heat-giannis-era",
+        "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Sports Illustrated (All Hurricanes)",
-            "headline": "Four Key Notes and Quotes From Mario Cristobal Ahead of Virginia Tech",
-            "url": "https://www.si.com/college/miami/football/four-key-notes-and-quotes-from-mario-cristobal-ahead-of-virginia-tech"
+            "publisher": "ESPN",
+            "headline": "Heat pull Bam Adebayo (hip) early in win, don't expect long-term issue",
+            "url": "https://www.espn.com/nba/story/_/id/50507278/heat-star-bam-adebayo-exits-win-early-hip-tightness"
+          },
+          {
+            "role": "primary_reporting",
+            "publisher": "NHL.com",
+            "headline": "McDavid runs season-opening point streak to 23, Oilers hold off Panthers",
+            "url": "https://www.nhl.com/news/edmonton-oilers-florida-panthers-game-recap-november-17-2026"
           },
           {
             "role": "background",
-            "publisher": "NHL.com",
-            "headline": "Robertson scores in OT, Stars top Panthers",
-            "url": "https://nhl.com/news/florida-panthers-dallas-stars-game-recap-november-15-2026"
+            "publisher": "Yahoo Sports",
+            "headline": "Giannis Antetokounmpo scores 20, Heat roll past Rockets 128-110 for 5th straight win",
+            "url": "https://sports.yahoo.com/articles/giannis-antetokounmpo-scores-20-heat-025957108.html"
           }
         ]
       },
       {
-        "id": "theme-book-fair-opens",
+        "id": "theme-national-book-awards",
         "affinity": "evening",
         "topic": "miami",
         "topic_label": "Miami Life & Culture",
-        "title": "The Book Fair's back half: Atwood, the National Book Awards, and a dinner with authors",
-        "importance": 0.58,
-        "thesis": "The street fair returns for the weekend, but the week's evenings are where the fair is most itself.",
-        "synthesis": "Miami Book Fair runs through Sunday, November 22 at Miami Dade College's Wolfson Campus downtown. Friday brings the Next Page Dinner fundraiser, where guests are seated with presenting authors; Saturday has a National Book Awards lightning round at 6:30 p.m. and Margaret Atwood discussing her memoir. Most evening programs are ticketed; check listings, since times on aggregator pages have differed.",
-        "new_today": "Not news. Monday night's Rushdie event has passed; the weekend lineup is the reason to plan now.",
-        "why_it_matters": "A week with five market catalysts in four days is a good week to have one evening already decided, and it is ten minutes from Brickell.",
-        "thread_id": null,
-        "confidence": "medium",
-        "sources": [
-          {
-            "role": "primary_reporting",
-            "publisher": "Greater Miami CVB (Miami and Beaches)",
-            "headline": "Miami Book Fair Guide",
-            "url": "https://www.miamiandbeaches.com/events/annual-events/miami-book-fair-guide"
-          },
-          {
-            "role": "background",
-            "publisher": "WLRN",
-            "headline": "Miami Book Fair announces 2026 lineup featuring nearly 500 authors and literary icons",
-            "url": "https://www.wlrn.org/light/arts-culture/2026-10-13/miami-book-fair-announces-2026-lineup-featuring-nearly-500-authors-and-literary-icons"
-          }
-        ]
-      },
-      {
-        "id": "theme-russell-idleness",
-        "affinity": "evening",
-        "topic": "living",
-        "topic_label": "Art of Living",
-        "title": "In praise of idleness, on a day the Fed chair talked about job displacement",
-        "importance": 0.55,
-        "thesis": "Warsh's question (will machines raise productivity or displace work?) is one Bertrand Russell answered in 1932 with a different question: what is the extra time for?",
-        "synthesis": "Russell's essay argues that the belief in the virtue of work does great harm, and that with modern production a four-hour working day would be enough if the gains were shared. It is playful, partisan and dated in places, and it still lands, because it refuses to treat output as the point of a life. Read it as the companion to today's rabbit hole: Keynes made the economic forecast, Russell made the moral case.",
-        "new_today": "Not news. Chosen because the Fed chair spent Monday describing the same fork in the road.",
-        "why_it_matters": "Most of the AI debate you will hear this week is about who captures the productivity. Russell asks the question underneath it, which is what you would do with your hours if you did not need them to earn.",
+        "title": "Tonight's National Book Awards have a Miami writer in the room",
+        "importance": 0.6,
+        "thesis": "Edwidge Danticat, who lives and writes in Miami, is a fiction finalist for 'Dèy' as the 77th National Book Awards are handed out tonight, mid-Book Fair.",
+        "synthesis": "The ceremony streams at 8 p.m. ET from Cipriani Wall Street, hosted by Kyle MacLachlan. Danticat's novel 'Dèy' is a fiction finalist and Camonghne Felix's 'Let the Poets Govern' is a nonfiction finalist; winners receive $10,000 and a bronze medal. Back home, the Miami Book Fair runs through November 22, so whoever wins tonight will be discussed in person downtown by the weekend.",
+        "new_today": "The ceremony is tonight; finalists were announced October 6.",
+        "why_it_matters": "A slow, local reason to put the phone down after the IPO pricing: a writer from your own city in contention, and a fair on the calendar where you can hear the books argued over.",
         "thread_id": null,
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Bertrand Russell (1932), via zpub.com",
-            "headline": "In Praise of Idleness",
-            "url": "https://www.zpub.com/notes/idle.html"
+            "publisher": "National Book Foundation",
+            "headline": "77th National Book Awards",
+            "url": "https://www.nationalbook.org/awards2026/"
+          },
+          {
+            "role": "background",
+            "publisher": "OPB (NPR)",
+            "headline": "Here are the finalists for the 2026 National Book Awards",
+            "url": "https://www.opb.org/article/2026/10/06/see-the-2026-national-book-award-finalists/"
+          }
+        ]
+      },
+      {
+        "id": "theme-vice-city-returns",
+        "affinity": "evening",
+        "topic": "miami",
+        "topic_label": "Miami Life & Culture",
+        "title": "Vice City comes back tomorrow, and Miami gets imagined again",
+        "importance": 0.5,
+        "thesis": "GTA VI launches Thursday in a modern Vice City, the latest outside rendering of Miami that the city will spend years living with.",
+        "synthesis": "Rockstar's Grand Theft Auto VI arrives Thursday, November 19, on PS5 and Xbox Series X|S, set in Vice City for the first time since 2006. Critic reviews were not yet widely published as of this morning, and early 'scores' circulating online come from unreliable sources. The city has been drawn this way before: the 1980s Miami Vice credits made a Brickell condo with a hole in it a global image (see today's beautiful thing).",
+        "new_today": "Launch is tomorrow; no material change to the local pitches tracked in this thread.",
+        "why_it_matters": "How Miami is pictured abroad shapes who visits, who moves and who buys. It is also a fun evening argument about which parts of the real city a game gets right.",
+        "thread_id": "thread-miami-vice-city-gta6-pitch",
+        "confidence": "medium",
+        "sources": [
+          {
+            "role": "primary_reporting",
+            "publisher": "PlayStation",
+            "headline": "Grand Theft Auto VI",
+            "url": "https://www.playstation.com/games/grand-theft-auto-vi"
+          },
+          {
+            "role": "background",
+            "publisher": "Wikipedia",
+            "headline": "Atlantis Condominium",
+            "url": "https://en.wikipedia.org/wiki/Atlantis_Condominium"
           }
         ]
       }
     ],
     "rabbit_hole": {
-      "id": "rh-2026-11-17",
-      "title": "Economic Possibilities for our Grandchildren",
-      "creator": "John Maynard Keynes (1930)",
+      "id": "rh-2026-11-18",
+      "title": "Machines of Loving Grace: How AI Could Transform the World for the Better",
+      "creator": "Dario Amodei (2024)",
       "format": "essay",
-      "minutes": 25,
-      "why": "Writing in the first year of the Depression, Keynes predicted that within a century technology would make us four to eight times richer and that our real problem would be how to use the leisure, with a fifteen-hour week as a stopgap. The Fed chair spent Monday describing the same fork (productivity boom or job displacement) and nobody on the stage asked Keynes's question about what the time is for.",
-      "url": "http://www.econ.yale.edu/smith/econ116a/keynes1.pdf",
-      "related_interest": "living"
+      "minutes": 60,
+      "why": "Tonight the company Amodei runs asks public markets for something like $1.5 trillion, and this long essay is the clearest statement of what that money is supposedly buying: compressed decades of biology, economic growth, and what work and meaning look like after. Read it as a prospectus written in prose, and notice which promises are falsifiable and which only ask for faith.",
+      "url": "https://www.darioamodei.com/essay/machines-of-loving-grace",
+      "related_interest": "markets"
     },
     "beautiful_thing": {
-      "id": "bt-2026-11-17",
-      "title": "The Bacardi Building (Bacardi Imports Tower), Miami",
-      "creator": "Enrique Gutiérrez, architect; tile murals by Francisco Brennand",
-      "era": "1963",
-      "body": "Bacardi's president José 'Pepín' Bosch commissioned the eight-story tower on Biscayne Boulevard, and the Cuban architect Enrique Gutiérrez, who had worked with Mies van der Rohe, gave it a clean modernist frame. What makes it Miami is the end walls: about 28,000 blue-and-white tiles by the Brazilian ceramist Francisco Brennand, depicting tropical vegetation in the tradition of Portuguese azulejos. Notice how the tile turns a blank structural wall into the building's face, and how it reads from a moving car. Its companion, the 'Jewel Box' annex, came in 1973, designed by Ignacio Carrera-Justiz. Bacardi left in 2009, and since 2012 both buildings have been the national headquarters of the YoungArts Foundation.",
-      "url": "https://en.wikipedia.org/wiki/Bacardi_Buildings_(Miami)",
+      "id": "bt-2026-11-18",
+      "title": "The Atlantis Condominium, Brickell Avenue, Miami",
+      "creator": "Arquitectonica",
+      "era": "1980-1982",
+      "body": "A 20-story condominium at 2025 Brickell Avenue, built between 1980 and 1982 by the young firm Arquitectonica. Its signature is the 'sky court': a 37-foot cube cut out of the middle of the building, holding a palm tree, a whirlpool and a red spiral staircase against a yellow wall. Bernardo Fort-Brescia has said the palm was placed there deliberately, as the symbol of Florida. Notice how a void, the most expensive thing you can leave out of a tower, became the building's identity; then notice the blue grid and the colored accents that made it read from the water and the road. It appeared in the opening credits of Miami Vice, and in 2012 AIA Florida put it on its list of Florida Architecture: 100 Years.",
+      "url": "https://en.wikipedia.org/wiki/Atlantis_Condominium",
       "image": null,
-      "alt": "An eight-story modernist tower whose end walls are covered in blue-and-white tile murals of tropical plants."
+      "alt": "A slim glass condominium tower with a large square hole cut through its middle, a palm tree and a red spiral staircase visible inside the opening."
     },
-    "noticing_prompt": "Today a lot of people will hold opinions about a company's next quarter that they formed in the last 24 hours. Notice one opinion of your own that is that new, and how firmly you are holding it.",
+    "noticing_prompt": "Somewhere on your route today is a building with one feature that must have been argued for in a budget meeting: a cut-out, an overhang, a color. Find it, and guess who won the argument.",
     "daily_puzzle": {
-      "id": "dp-2026-11-17",
-      "type": "lateral",
-      "prompt": "Two people play five games of checkers. Each person wins the same number of games, and none of the games ends in a draw. How is that possible?",
-      "hint": "Read it again and ask who each game was played against.",
-      "solution": "They were not playing each other.",
-      "explanation": "Each played five games against other opponents, so both can have the same win count with no draws; the puzzle only implies they played against each other."
+      "id": "dp-2026-11-18",
+      "type": "wordplay",
+      "prompt": "Take a seven-letter English word, remove its third letter, and it becomes longer. What is the word?",
+      "hint": "Read 'becomes longer' as a word, not as a measurement. The original word describes someone at rest.",
+      "solution": "LOUNGER. Remove the U and it becomes LONGER.",
+      "explanation": "The puzzle sounds impossible because removing a letter makes a word shorter; the trick is that the resulting word is literally 'longer'."
     },
     "evening_unwind": {
-      "id": "eu-2026-11-17",
+      "id": "eu-2026-11-18",
       "evening_quote": {
-        "text": "Some things are in our control and others not.",
-        "attribution": "Epictetus",
-        "source": "Enchiridion, 1 (Elizabeth Carter translation)"
+        "text": "Nothing, Lucilius, is ours, except time.",
+        "attribution": "Seneca",
+        "source": "Letters to Lucilius, 1 (Richard Gummere translation)"
       },
-      "evening_prompt": "Nvidia's numbers, the board's choice and Washington's rule were all decided by other people today; which of your own reactions to them was actually yours to decide?"
+      "evening_prompt": "Today two companies put prices on the future in the hundreds of billions; which hour of your own day would you not have sold at any price, and did you spend it that way?"
     },
     "reading_queue": [
       {
         "title": "The Radical Reasons Why You Dream of Making Things by Hand",
         "url": "https://aeon.co/essays/the-radical-reasons-why-you-dream-of-making-things-by-hand",
         "verdict": "weekend",
-        "reason": "Saved September 3 and tagged for the weekend; still the best companion to today's Keynes and Russell."
+        "reason": "Saved September 3 and tagged for the weekend; a hands-on counterweight to tonight's essay on machines."
       }
     ],
     "quote": {
-      "text": "Time is a sort of river of passing events, and strong is its current; no sooner is a thing brought to sight than it is swept by and another takes its place, and this too will be swept away.",
-      "attribution": "Marcus Aurelius, Meditations 4.43"
+      "text": "Such as are thy habitual thoughts, such also will be the character of thy mind; for the soul is dyed by the thoughts.",
+      "attribution": "Marcus Aurelius, Meditations 5.16"
     }
   },
   "threads": [
@@ -452,9 +455,9 @@
       "title": "US-Iran conflict and the Strait of Hormuz",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-11-17",
-      "updates": 114,
-      "current_state": "Brent settled $92.44 on November 16, down 3.6%, as glut worries outweighed Iran's claims of a new mine strike and an attack on U.S. radar in Bahrain. U.S. blockade stays; no talks acknowledged.",
+      "last_updated": "2026-11-18",
+      "updates": 115,
+      "current_state": "Brent settled $93.14 (+0.76%) on November 17 after tanker attacks near Hormuz and Iran's strike on U.S. radar in Bahrain; IEA sees a ~1.7 mb/d Q4 surplus; Brent down ~20% in November.",
       "timeline": [
         {
           "date": "2026-07-21",
@@ -1025,6 +1028,11 @@
           "date": "2026-11-17",
           "summary": "Brent settles $92.44 (-3.6%), WTI $85.72 on supply-glut concerns; Iran claims another tanker mine strike and a strike on U.S. radar in Bahrain (unverified mine claims).",
           "change_type": "improved"
+        },
+        {
+          "date": "2026-11-18",
+          "summary": "Brent +0.76% to $93.14 on tanker attacks; supply surplus still dominates the month.",
+          "change_type": "advanced"
         }
       ]
     },
@@ -1033,9 +1041,9 @@
       "title": "Federal Reserve rate path",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-11-17",
-      "updates": 116,
-      "current_state": "10-year about 5.13% on November 16. December 9 quarter-point hike about 91% priced (half-point about 9%). October retail sales November 17; October minutes November 18; November jobs report December 4.",
+      "last_updated": "2026-11-18",
+      "updates": 117,
+      "current_state": "10-year about 5.10% on November 17. October retail sales +0.2%, in line. December 9 quarter-point hike about 95% priced (secondary reports). October minutes November 18 at 2 p.m.; November jobs report December 4.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -1611,6 +1619,11 @@
           "date": "2026-11-17",
           "summary": "Warsh says AI could be disinflationary or could disappoint and raise unemployment; 10-year eases to about 5.13%; December quarter-point hike about 91% priced.",
           "change_type": "advanced"
+        },
+        {
+          "date": "2026-11-18",
+          "summary": "October retail sales +0.2%, roughly in line; 10-year eased to about 5.10%; December hike odds about 95% in secondary reports.",
+          "change_type": "advanced"
         }
       ]
     },
@@ -1950,9 +1963,9 @@
       "title": "Heat: the Giannis era begins",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-11-16",
-      "updates": 33,
-      "current_state": "7-6, four straight wins after beating Detroit 137-117 on November 14. Hosts Houston November 17.",
+      "last_updated": "2026-11-18",
+      "updates": 34,
+      "current_state": "8-6, five straight wins after beating Houston 128-110 on November 16. Adebayo sat the second half with right hip tightness (precautionary); Bucks next, his status uncertain.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -2113,6 +2126,11 @@
           "date": "2026-11-16",
           "summary": "Beat Detroit 137-117 on November 14 (Giannis 34/14, Thompson 26, franchise-record 14 blocks); four straight, 7-6.",
           "change_type": "improved"
+        },
+        {
+          "date": "2026-11-18",
+          "summary": "Beat Houston 128-110 on November 16 (fifth straight, 8-6); Adebayo exited with hip tightness, not expected to be long-term. Corrects prior entry that listed the game as November 17.",
+          "change_type": "advanced"
         }
       ]
     },
@@ -3353,9 +3371,9 @@
       "title": "Miami Seaquarium's marina redevelopment",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-10-27",
-      "updates": 6,
-      "current_state": "Residents' Oct 21 suit seeks a countywide referendum on the proposed 56-acre Seaquarium marina.",
+      "last_updated": "2026-11-18",
+      "updates": 7,
+      "current_state": "Committee deferred the 249-page, 99-year Terra Group lease 3-1 on November 10; county says it must close by December 30 or risk a bankruptcy-court sale; full commission approval still required; residents' referendum suit pending.",
       "timeline": [
         {
           "date": "2026-08-02",
@@ -3385,6 +3403,11 @@
         {
           "date": "2026-10-26",
           "summary": "Residents sued Oct 21 for a countywide vote on the Seaquarium marina.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-11-18",
+          "summary": "Committee deferred the 99-year lease 3-1 on November 10 after it was released the night before; county cites a December 30 bankruptcy-court deadline; Miami Today editorial (Nov 18) attacks last-minute votes.",
           "change_type": "advanced"
         }
       ]
@@ -3455,9 +3478,9 @@
       "title": "Panthers' 2026-27 season takes shape",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-11-16",
-      "updates": 39,
-      "current_state": "12-7-3 after a 2-1 OT loss at Dallas on November 15. Edmonton next, November 17, 7 p.m.",
+      "last_updated": "2026-11-18",
+      "updates": 40,
+      "current_state": "12-8-3 after a 5-2 home loss to Edmonton on November 17 (Oilers led 4-0 after two; McDavid's point streak at 23).",
       "timeline": [
         {
           "date": "2026-08-22",
@@ -3653,6 +3676,11 @@
           "date": "2026-11-16",
           "summary": "Lost 2-1 in OT at Dallas on November 15 (Robertson winner); Tkachuk's PP goal was his 700th point in 695 games. 12-7-3.",
           "change_type": "worsened"
+        },
+        {
+          "date": "2026-11-18",
+          "summary": "Lost 5-2 at home to Edmonton on November 17; Tkachuk scored in the third.",
+          "change_type": "worsened"
         }
       ]
     },
@@ -3797,9 +3825,9 @@
       "title": "Miami-Dade's \"Vice City\" pitch to Rockstar Games",
       "topic": "miami",
       "status": "active",
-      "last_updated": "2026-11-11",
+      "last_updated": "2026-11-18",
       "updates": 15,
-      "current_state": "Digital pre-load opened Nov 10; GTA VI launches Nov 19 on PS5 and Xbox Series X|S. Three separate local pitches to Rockstar remain the backdrop.",
+      "current_state": "GTA VI launches November 19 on PS5 and Xbox Series X|S; critic reviews not yet widely published as of the morning of November 18. Local pitches to Rockstar remain the backdrop.",
       "timeline": [
         {
           "date": "2026-08-31",
@@ -4105,9 +4133,9 @@
       "title": "AI-regulation selloff",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-11-17",
-      "updates": 9,
-      "current_state": "Nasdaq 24,509.76 at the November 16 close, in correction territory after the Commerce remote-access rule. Nvidia reports November 17, Anthropic prices November 18, Trump meets Xi in Shenzhen November 19.",
+      "last_updated": "2026-11-18",
+      "updates": 10,
+      "current_state": "S&P 500 7,340.53 (-1.03%) on November 17, lowest close since late July, fourth straight loss; Nasdaq 24,328.38. Nvidia beat after the close. Anthropic prices November 18.",
       "timeline": [
         {
           "date": "2026-11-06",
@@ -4153,6 +4181,11 @@
           "date": "2026-11-17",
           "summary": "Commerce interim rule curbs Chinese remote access to U.S. AI chips via Singapore, Malaysia, Thailand, Indonesia and Brazil; Nasdaq -2.49% to 24,509.76 (about 10.9% off Oct 6 high), S&P -1.92% to 7,416.60.",
           "change_type": "worsened"
+        },
+        {
+          "date": "2026-11-18",
+          "summary": "S&P 500 fell 1.03% to 7,340.53, lowest close since late July; Nasdaq -0.74%; Dow -1.64%. Nvidia's beat arrived after the close.",
+          "change_type": "worsened"
         }
       ]
     },
@@ -4161,9 +4194,9 @@
       "title": "Nvidia after Jensen Huang",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-11-17",
-      "updates": 5,
-      "current_state": "Kress interim CEO; board reportedly not considering Huang's return (CNBC, Reuters; no company comment). Shares $156.14 on November 16. Earnings after the close November 17, consensus revenue about $108.8B.",
+      "last_updated": "2026-11-18",
+      "updates": 6,
+      "current_state": "Q3 FY27 revenue $115.8B (data center $107.6B) vs ~$109B consensus; Q4 guide $130B +/-3% assuming no China data-center revenue; FY28 growth outlook raised to 75%. Shares up after hours.",
       "timeline": [
         {
           "date": "2026-11-12",
@@ -4189,6 +4222,11 @@
           "date": "2026-11-17",
           "summary": "CNBC and Reuters report the board is not considering Huang's return and is focused on its probe; Nvidia closed $156.14 (-4.1%) the day before earnings.",
           "change_type": "reversed"
+        },
+        {
+          "date": "2026-11-18",
+          "summary": "Nvidia beat on revenue, EPS and guidance in its first report under interim CEO Kress; guide excludes China data-center revenue; FY28 growth outlook raised to 75% from 70%.",
+          "change_type": "improved"
         }
       ]
     },
@@ -4197,9 +4235,9 @@
       "title": "Anthropic's IPO",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-11-17",
-      "updates": 4,
-      "current_state": "825M shares at $70-78 plus $26B placement; book reportedly about 6-7x covered; pricing expected the evening of November 18, trading November 19 as 'ANT'.",
+      "last_updated": "2026-11-18",
+      "updates": 5,
+      "current_state": "Book closed November 17 at 4 p.m. ET, about 7x covered; CNBC and WSJ report pricing likely above the $70-78 range, possibly above $80 (~$1.5-1.6T). Pricing evening of November 18, trading November 19 as 'ANT'.",
       "timeline": [
         {
           "date": "2026-11-14",
@@ -4219,6 +4257,11 @@
         {
           "date": "2026-11-17",
           "summary": "Book reportedly held through Monday's tech selloff; some reports put coverage near 7x. Pricing still expected evening of November 18.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-11-18",
+          "summary": "CNBC reports pricing likely above range; WSJ reports above $80; book about 7x covered (Bloomberg) and closed November 17.",
           "change_type": "advanced"
         }
       ]
@@ -4243,7 +4286,7 @@
     }
   ],
   "meta": {
-    "content_freshness": "2026-11-17T09:30:00-05:00",
+    "content_freshness": "2026-11-18T09:30:00-05:00",
     "feedback_endpoint_mode": "github_contents",
     "minimum_client_schema_version": 1,
     "mode": "brain"
