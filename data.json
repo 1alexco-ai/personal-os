@@ -1,164 +1,163 @@
 {
   "schema_version": 2,
   "edition": {
-    "id": "2026-11-19",
-    "date": "2026-11-19",
+    "id": "2026-11-20",
+    "date": "2026-11-20",
     "type": "weekday",
-    "generated_at": "2026-11-19T09:30:00-05:00",
+    "generated_at": "2026-11-20T09:30:00-05:00",
     "timezone": "America/New_York",
     "title": "Personal OS",
     "front_page_letter": {
       "greeting": "Good morning",
       "body_paragraphs": [
-        "Good morning. Thursday, November 19.",
-        "Anthropic priced at $83 last night, above its range, raising about $81 billion: the largest IPO on record, at roughly $1.5 trillion. It opens this morning into a market that has fallen five days running. That is the odd shape of the week. Nvidia reported a superb quarter and its stock fell almost 3%, because the question is now who runs the company and what Washington allows, not whether anyone wants the chips.",
-        "The Fed's minutes did not help. Almost every official expects more hikes, some wanted one in October, and some think more than a quarter point in December is reasonable; Waller said so again out loud. Long yields eased anyway, the 10-year to about 5.07%, which is the bond market betting that a tougher Fed now means less inflation later. Oil kept falling on a surprise U.S. inventory build, the one input still working in the Fed's favor.",
-        "At home, the Heat beat Giannis's old team for six straight, and Adebayo's hip looks fine. Danticat didn't win last night; the Book Fair runs through Sunday.",
-        "Worth your attention: the half-point odds, not the quarter. For the evening, a Victorian banker on how cheap and dear money changes a market's temper, and a man alone on the Gulf Stream."
+        "Good morning. Friday, November 20.",
+        "Anthropic opened at $111.50, 34% above its offer price, and closed at $97.17. That is a 17% gain on the largest IPO ever, and still the most telling chart of the week: the excitement lasted about as long as the opening auction. Around it, the market had its worst day of the slide. The S&P fell 2% for a sixth straight loss and now sits 8% below October's record. AMD dropped almost 8% on a short seller's China allegations, and only one Dow stock rose.",
+        "The Fed is not coming to help. Waller says a December hike should either promise another or be a half point and done, and the odds of the bigger move are near 10%. Bonds took the other side: the 10-year slipped toward 5% as money ran to Treasuries. At home, Miami-Dade sales are still up for the year but fell in October, with mortgages at 7.42%.",
+        "Worth your attention: whether ANT holds $83. For the evening, Minsky on why calm breeds the next crisis, and the stilt houses in the bay."
       ],
       "read_only_three": [
         {
           "target_type": "theme",
-          "target_id": "theme-anthropic-ipo",
-          "label": "Anthropic prices a record IPO"
+          "target_id": "theme-ai-selloff-sixth-day",
+          "label": "Six straight down"
         },
         {
           "target_type": "theme",
-          "target_id": "theme-fed-minutes",
-          "label": "The minutes point to more hikes"
+          "target_id": "theme-anthropic-ipo",
+          "label": "ANT: up 34%, then up 17%"
         },
         {
           "target_type": "rabbit_hole",
-          "target_id": "rh-2026-11-19",
-          "label": "Bagehot's Lombard Street"
+          "target_id": "rh-2026-11-20",
+          "label": "Minsky's instability hypothesis"
         }
       ]
     },
     "market_context": [
       {
         "label": "S&P 500",
-        "value": "7,323.63",
-        "change": "-0.23%",
-        "observed": "Close, Wednesday, November 18, 2026",
-        "note": "Fifth straight loss, the longest losing streak since June."
+        "value": "7,175.83",
+        "change": "-2.0% (-147.80)",
+        "observed": "Close, Thursday, November 19, 2026",
+        "note": "Sixth straight loss, longest since 2024; 8.2% below the October record."
       },
       {
         "label": "Nasdaq Composite",
-        "value": "24,429.89",
-        "change": "+0.42%",
-        "observed": "Close, Wednesday, November 18, 2026",
-        "note": "Broadcom and AMD up; Nvidia down 2.89%. Dow -561 (-1.11%) to 50,198.17."
+        "value": "23,879.20",
+        "change": "-2.3% (-550.69)",
+        "observed": "Close, Thursday, November 19, 2026",
+        "note": "AMD about -7.7% on a short report. Dow -1,101.11 (-2.2%) to 49,097.06. Nasdaq-100 futures lower early November 20."
       },
       {
         "label": "10-year Treasury",
-        "value": "about 5.07%",
-        "change": "about -3 to -4 bp",
-        "observed": "Wednesday, November 18, 2026 (sources range 5.064%-5.07%)",
-        "note": "30-year fell more than 5 bp to about 5.41% after the minutes."
+        "value": "about 5.0-5.05%",
+        "change": "down roughly 2 to 13 bp depending on source",
+        "observed": "Thursday, November 19, 2026 close (Investing.com 5.046%) and Friday overnight (about 5.0%)",
+        "note": "Sources disagree on the size of the move; direction is clear: a flight to safety."
       },
       {
         "label": "FOMC",
         "value": "3.75%-4.00%; next decision December 9",
-        "change": "Quarter-point hike about 93%, half-point about 7%",
-        "observed": "Secondary reports of CME FedWatch, November 18-19, 2026",
-        "note": "Not read from CME directly. Half-point odds roughly doubled after Waller and the minutes."
+        "change": "Quarter-point hike about 90%, half-point about 10%",
+        "observed": "Secondary reports of CME FedWatch, November 19-20, 2026",
+        "note": "Not read from CME directly. Half-point odds up from about 3% early in the week."
       },
       {
         "label": "Brent crude",
-        "value": "about $91-92",
-        "change": "down on the day",
-        "observed": "Wednesday, November 18, 2026 (intraday and secondary reports)",
-        "note": "Final settlement not verified. EIA: U.S. crude stocks +3.4M barrels."
+        "value": "$91.98",
+        "change": "+$0.03",
+        "observed": "Settlement, Thursday, November 19, 2026",
+        "note": "On course for about a 20% monthly decline; IEA sees a Q4 surplus."
       }
     ],
     "public_day_context": {
-      "date_label": "Thursday, November 19, 2026",
+      "date_label": "Friday, November 20, 2026",
       "weather": "A same-day Miami forecast could not be verified this morning. Check before heading out.",
-      "public_event": "Anthropic begins trading on Nasdaq as 'ANT'; GTA VI launches today. Miami Book Fair runs through November 22. Panthers host Buffalo Saturday at 6 p.m.; Canes host Virginia Tech Saturday at 7 p.m.; Dolphins at Buffalo Sunday at 1 p.m."
+      "public_event": "Miami Book Fair Street Fair, Wolfson Campus, today through November 22. Canes host Virginia Tech Saturday at 7 p.m. (ESPN); Panthers host Buffalo Saturday at 6 p.m.; Dolphins at Buffalo Sunday at 1 p.m.; Heat host Oklahoma City Sunday at 6 p.m."
     },
     "what_changed": [
       {
-        "id": "delta-anthropic-priced",
+        "id": "delta-anthropic-debut",
         "thread_id": "thread-anthropic-ipo",
         "change_type": "advanced",
-        "title": "Anthropic prices at $83, a record $81 billion IPO",
-        "previous_state": "Talk had moved above the $70-78 range, possibly above $80, with pricing due Wednesday night.",
-        "current_state": "It priced at $83 on 980 million shares, raising about $81.3 billion at roughly $1.5 trillion fully diluted; trading starts today as ANT.",
-        "why_it_matters": "The largest IPO on record sets the public price of frontier AI on the same morning the index is on a five-day slide.",
-        "confidence": "high",
-        "source": {
-          "publisher": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html"
-        }
-      },
-      {
-        "id": "delta-fed-minutes-hawkish",
-        "thread_id": "thread-fed-rate-path",
-        "change_type": "worsened",
-        "title": "Minutes: almost all officials see more hikes; half-point odds rise",
-        "previous_state": "A December quarter-point hike was about 95% priced, half a point about 4%, ahead of the minutes.",
-        "current_state": "The minutes showed some wanted to hike in October and some see more than 25 bp in December as reasonable; Waller floated 50 bp and half-point odds rose to about 7%.",
-        "why_it_matters": "The December question is now size, and long yields fell slightly in response.",
-        "confidence": "high",
-        "source": {
-          "publisher": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html"
-        }
-      },
-      {
-        "id": "delta-nvidia-reversal",
-        "thread_id": "thread-nvidia-huang-board",
-        "change_type": "reversed",
-        "title": "Nvidia's after-hours gain became a 2.9% loss",
-        "previous_state": "Shares rose after hours Tuesday on a $115.8 billion quarter and a $130 billion guide.",
-        "current_state": "They closed Wednesday down 2.89% at $150.96, with coverage citing succession and China risk.",
-        "why_it_matters": "The market is pricing governance, not demand, and that worry heals more slowly.",
+        "title": "ANT opens +34%, closes +17% at $97.17",
+        "previous_state": "Priced at $83 Wednesday night, with trading due to start Thursday.",
+        "current_state": "Opened at $111.50, closed at $97.17, and was about 6% lower in Friday premarket trading.",
+        "why_it_matters": "The record IPO worked, but the fade from the open shows how little appetite is left for paying up in AI this month.",
         "confidence": "high",
         "source": {
           "publisher": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-18-221135469.html"
+          "url": "https://finance.yahoo.com/technology/live/anthropic-ipo-live-company-said-to-price-stock-at-83-begin-trading-thursday-212656452.html"
         }
       },
       {
-        "id": "delta-sp-fifth-loss",
+        "id": "delta-sp-sixth-loss",
         "thread_id": "thread-ai-regulation-selloff",
         "change_type": "worsened",
-        "title": "S&P 500 loses a fifth straight day; Dow drops 561",
-        "previous_state": "The S&P had closed Tuesday at 7,340.53, its lowest since late July, after four straight losses.",
-        "current_state": "It slipped 0.23% to 7,323.63, its longest losing streak since June, while the Nasdaq rose 0.42% and the Dow fell 1.11% on health insurers.",
-        "why_it_matters": "The weakness is spreading beyond tech, into a defensive sector hit by policy.",
+        "title": "S&P falls 2% for a sixth straight loss",
+        "previous_state": "Five straight small losses, with the S&P at 7,323.63 and the Nasdaq up on Wednesday.",
+        "current_state": "S&P 7,175.83 (-2.0%), Nasdaq -2.3%, Dow -1,101; the index is 8.2% below its October record.",
+        "why_it_matters": "The decline is now broad rather than an Nvidia problem, and it is approaching correction territory.",
         "confidence": "high",
         "source": {
-          "publisher": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-18-dow-sp-500-nasdaq-nvidia-earnings-anthropic-ipo-143530588.html"
+          "publisher": "AP via ABC News",
+          "url": "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-thursday-11192026-138303454"
         }
       },
       {
-        "id": "delta-heat-six-straight",
-        "thread_id": "thread-heat-giannis-era",
+        "id": "delta-amd-short",
+        "thread_id": "thread-ai-regulation-selloff",
+        "change_type": "new",
+        "title": "Hunterbrook shorts AMD; shares fall about 7.7%",
+        "previous_state": "AMD had been rising while Nvidia fell after earnings.",
+        "current_state": "A short report alleging ties to blacklisted IEIT Systems knocked AMD down about 7.7%; AMD denies the claims.",
+        "why_it_matters": "China exposure is now a risk across the chip sector, not only for Nvidia.",
+        "confidence": "high",
+        "source": {
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/19/amd-falls-on-short-seller-report-of-alleged-china-exposure.html"
+        }
+      },
+      {
+        "id": "delta-half-point-odds",
+        "thread_id": "thread-fed-rate-path",
+        "change_type": "worsened",
+        "title": "Half-point odds rise to about 10% as Waller pushes",
+        "previous_state": "About 93% quarter point, about 7% half point after the minutes.",
+        "current_state": "About 90% / 10% in secondary FedWatch reports after Waller said a hike should either signal more or be a half point and done.",
+        "why_it_matters": "The debate is now about size, not direction; a 50 bp surprise would hit floating-rate CRE debt directly.",
+        "confidence": "medium",
+        "source": {
+          "publisher": "Seoul Economic Daily",
+          "url": "https://en.sedaily.com/economy/2026/11/20/feds-waller-signals-possible-half-point-hike-lifting"
+        }
+      },
+      {
+        "id": "delta-10y-safe-haven",
+        "thread_id": "thread-cre-capital-markets-2026",
         "change_type": "improved",
-        "title": "Heat make it six straight; Adebayo returns with 26",
-        "previous_state": "Miami was 8-6 on a five-game streak, with Adebayo questionable after hip tightness.",
-        "current_state": "They beat the Bucks 137-130 to reach 9-6; Adebayo scored 26 and Giannis 27 against his former team.",
-        "why_it_matters": "Monday's injury worry is answered, and the streak survived its most emotional game.",
-        "confidence": "high",
+        "title": "The 10-year slips toward 5% as money runs to Treasuries",
+        "previous_state": "About 5.07% after the minutes on Wednesday.",
+        "current_state": "About 5.05% at Thursday's close per Investing.com, and near 5.0% in overnight trading per Saxo and Tradeweb.",
+        "why_it_matters": "Lower long rates help refinancing math, though they are falling on growth fear rather than relief.",
+        "confidence": "medium",
         "source": {
-          "publisher": "ESPN",
-          "url": "https://www.espn.com/nba/recap/_/gameId/401910009"
+          "publisher": "Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/us-treasury-yields-slip-on-safehaven-bid-10year-posts-fourday-losing-streak-5040235"
         }
       },
       {
-        "id": "delta-nba-awards-result",
-        "thread_id": null,
-        "change_type": "resolved",
-        "title": "Danticat's 'Dèy' does not win; Assadi takes fiction",
-        "previous_state": "Edwidge Danticat was a fiction finalist going into Wednesday night's ceremony.",
-        "current_state": "The fiction award went to Hannah Lillith Assadi's 'Paradiso 17'.",
-        "why_it_matters": "Yesterday's evening item has its answer; the Book Fair continues through Sunday.",
-        "confidence": "high",
+        "id": "delta-miami-october-sales",
+        "thread_id": "thread-cre-capital-markets-2026",
+        "change_type": "new",
+        "title": "Miami-Dade October home sales slip at 7.42% mortgage rates",
+        "previous_state": "Sales were running ahead of last year, with distress near 0.4%.",
+        "current_state": "Still up 4% year to date, but October declined, and the realtors blame rates at their highest since 2020.",
+        "why_it_matters": "This is the first local sign of the 5% 10-year slowing Miami transactions.",
+        "confidence": "medium",
         "source": {
-          "publisher": "Literary Hub",
-          "url": "https://lithub.com/here-are-the-winners-of-the-2026-national-book-awards/"
+          "publisher": "South Florida Agent Magazine",
+          "url": "https://southfloridaagentmagazine.com/2026/11/19/miami-dade-home-sales-3/"
         }
       }
     ],
@@ -168,38 +167,66 @@
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Anthropic prices at $83 and becomes the largest IPO ever",
-        "importance": 0.95,
-        "thesis": "Priced above its range at about $81 billion raised, the deal now asks a market on a five-day losing streak to pay more on day one.",
-        "synthesis": "Anthropic priced 980 million Class A shares at $83 on Wednesday evening, above the $70-78 range it set last week, raising about $81.3 billion and topping SpaceX's June offering as the largest IPO on record. At that price the company is worth roughly $1.5 trillion fully diluted. Shares begin trading on Nasdaq this morning as ANT; Bloomberg reported gray-market indications of a 20-26% opening premium, and Vanda Research expects about $250 million of net retail buying on the first day.",
-        "new_today": "The price itself, $83, and the record size; first trade comes this morning.",
-        "why_it_matters": "This is the number that sets the market's valuation of frontier AI for the rest of the cycle, and it lands on the day Nvidia sold off on a good quarter. If ANT opens strong while the S&P is on a five-day slide, read it as money rotating within AI rather than into risk broadly. Also note: up to 315 million non-founder insider shares can be sold from day one, which is unusual supply for a debut.",
+        "title": "Anthropic opens up 34%, closes up 17%, and gives back more before Friday's bell",
+        "importance": 0.93,
+        "thesis": "The record IPO got its pop, then spent the afternoon learning what the rest of the AI trade already knew this week.",
+        "synthesis": "ANT opened Thursday at $111.50, 34% above its $83 offer price, touched about $115, slid to an intraday low near $92.72, and closed at $97.17, up 17%. Depending on the share count used, coverage put its value between about $1.27 trillion and $1.76 trillion. CNBC reported the stock about 6% lower in premarket trading Friday, alongside Nvidia and AMD.",
+        "new_today": "The first full day of trading, and a close nearly halfway between the offer price and the open.",
+        "why_it_matters": "A 17% first day is a success for the underwriters and the issuer; the slide from the open is the market's verdict on paying up for AI this month. Watch whether ANT holds above $83: a break below the offer price on a deal this size would change the tone for every AI listing behind it, OpenAI included.",
         "thread_id": "thread-anthropic-ipo",
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "CNBC",
-            "headline": "Anthropic IPO raises over $81 billion in largest offering on record, topping SpaceX",
-            "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html"
-          },
-          {
-            "role": "background",
-            "publisher": "Anthropic",
-            "headline": "Anthropic prices initial public offering",
-            "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
+            "publisher": "Yahoo Finance",
+            "headline": "Anthropic IPO live: Anthropic stock closes up 17% from initial price in first day of trading",
+            "url": "https://finance.yahoo.com/technology/live/anthropic-ipo-live-company-said-to-price-stock-at-83-begin-trading-thursday-212656452.html"
           },
           {
             "role": "analysis",
-            "publisher": "CNN",
-            "headline": "Anthropic's $83 IPO price puts it on track for a record-breaking debut on Wall Street",
-            "url": "https://www.cnn.com/2026/11/18/investing/anthropic-ipo-price-stock"
+            "publisher": "NPR",
+            "headline": "Investors scramble for a piece of AI giant Anthropic in blockbuster IPO",
+            "url": "https://www.npr.org/2026/11/19/nx-s1-6042558/anthropic-ipo-breaks-records-100-billion"
           },
           {
-            "role": "counterpoint",
-            "publisher": "Stocktwits",
-            "headline": "ANT debut could be a blockbuster, but SpaceX and SK Hynix history shows why the first-day pop isn't everything",
-            "url": "https://stocktwits.com/news-articles/markets/equity/ant-stock-s-debut-could-be-a-blockbuster-but-space-x-and-sk-hynix-history-shows-why-the-first-day-pop-isn-t-everything/cNbiT8MR9iF"
+            "role": "background",
+            "publisher": "CNBC",
+            "headline": "Anthropic shares fall 6% in premarket amid AI selloff as Nvidia, AMD shares drop",
+            "url": "https://www.cnbc.com/2026/11/20/anthropic-stock-ai-amd-nvidia.html"
+          }
+        ]
+      },
+      {
+        "id": "theme-ai-selloff-sixth-day",
+        "affinity": "morning",
+        "topic": "markets",
+        "topic_label": "Markets & Macro",
+        "title": "Six straight down: the S&P falls 2% and the Dow loses 1,101 points",
+        "importance": 0.9,
+        "thesis": "The selloff stopped being an Nvidia story and became an index story: only one Dow stock rose Thursday.",
+        "synthesis": "Stocks opened higher on Anthropic's debut and reversed hard. The S&P 500 fell 2.0% to 7,175.83, its sixth straight loss and longest streak since 2024, leaving it 8.2% below its October record; the Nasdaq lost 2.3% and the Dow 2.2%. AMD fell about 7.7% after Hunterbrook published a short position alleging business ties to a blacklisted Chinese server maker, which AMD denies. Nasdaq-100 futures were lower again early Friday.",
+        "new_today": "A broad 2% down day, the AMD short report, and the S&P now closer to a 10% correction than to its high.",
+        "why_it_matters": "An 8% drawdown with 10-year yields above 5% is the combination that tightens CRE financing from both sides: lower equity values and no relief on debt costs. A tenth day of this would put the S&P in correction territory heading into the December 9 Fed meeting.",
+        "thread_id": "thread-ai-regulation-selloff",
+        "confidence": "high",
+        "sources": [
+          {
+            "role": "primary_reporting",
+            "publisher": "AP via ABC News",
+            "headline": "How major US stock indexes fared Thursday 11/19/2026",
+            "url": "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-thursday-11192026-138303454"
+          },
+          {
+            "role": "analysis",
+            "publisher": "CNBC",
+            "headline": "AMD stock dives on short-seller report of alleged China exposure",
+            "url": "https://www.cnbc.com/2026/11/19/amd-falls-on-short-seller-report-of-alleged-china-exposure.html"
+          },
+          {
+            "role": "background",
+            "publisher": "Saxo",
+            "headline": "Market Quick Take: Asian stocks tumble after Wall Street's sixth straight decline",
+            "url": "https://www.home.saxo/en-ch/content/articles/macro/market-quick-take---asian-stocks-tumble-after-wall-streets-sixth-straight-decline---20-november-2026-20112026"
           }
         ]
       },
@@ -208,72 +235,60 @@
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "The minutes say more hikes, and some wanted one in October",
-        "importance": 0.9,
-        "thesis": "Almost every Fed official expects to keep raising rates, and the debate has moved from whether to hike in December to how much.",
-        "synthesis": "Minutes of the October 27-28 meeting, released Wednesday, show the committee held at 3.75%-4.00% but that almost all members expect further hikes to be appropriate, describing inflation pressures as broad based. Some participants argued for a quarter-point hike in October itself, and some said a move larger than 25 basis points in December would be reasonable. Governor Waller again floated a half point; New York Fed President Williams ruled it out. Secondary reports of CME FedWatch put a December quarter point near 93% and a half point near 7%, up from about 3% a day earlier.",
-        "new_today": "The minutes themselves, plus Waller reviving the half-point case and Williams pushing back.",
-        "why_it_matters": "Oddly, long yields fell: the 10-year eased to about 5.07% and the 30-year more than 5 bp, which reads as the bond market betting a more aggressive Fed now means less inflation later. For CRE that is cold comfort; anything refinancing in the next 18 months is still pricing off a 10-year above 5%. The number to watch is the half-point odds, not the quarter.",
+        "title": "Waller wants the hike to shock; bonds rally anyway",
+        "importance": 0.86,
+        "thesis": "The Fed is arguing about how hard to hike, while the bond market is starting to price what that does to growth.",
+        "synthesis": "Governor Waller said a December quarter point only works if markets believe another follows in January; otherwise the Fed should go a half point and stop. St. Louis's Musalem expects several more hikes before spring. Secondary reports of CME FedWatch put half-point odds near 10%, up from about 3% earlier in the week. The 10-year still fell, to roughly 5.0-5.05% by different counts, as money left stocks for Treasuries.",
+        "new_today": "Waller's \"half point and done\" framing, and the 10-year back near 5% on safe-haven buying.",
+        "why_it_matters": "For a CRE balance sheet the useful number is the 10-year, not the funds rate, and it is moving the right way for the wrong reason. If yields fall because growth fears rise, cap rates may not follow.",
         "thread_id": "thread-fed-rate-path",
-        "confidence": "high",
+        "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "CNBC",
-            "headline": "Fed minutes October 2026: Officials expect more rate hikes, worry about AI",
-            "url": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html"
+            "publisher": "Seoul Economic Daily",
+            "headline": "Fed's Waller Signals Possible Half-Point Hike, Lifting December Odds to 10%",
+            "url": "https://en.sedaily.com/economy/2026/11/20/feds-waller-signals-possible-half-point-hike-lifting"
+          },
+          {
+            "role": "analysis",
+            "publisher": "Investing.com",
+            "headline": "U.S. Treasury yields slip on safe-haven bid, 10-year posts four-day losing streak",
+            "url": "https://www.investing.com/news/stock-market-news/us-treasury-yields-slip-on-safehaven-bid-10year-posts-fourday-losing-streak-5040235"
           },
           {
             "role": "background",
-            "publisher": "Federal Reserve Board",
-            "headline": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
-            "url": "https://federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm"
-          },
-          {
-            "role": "analysis",
-            "publisher": "CNBC",
-            "headline": "Longer-dated Treasury yields fall as traders weigh Waller comments, Fed minutes",
-            "url": "https://www.cnbc.com/amp/2026/11/18/treasury-yields-bonds-fed.html"
-          },
-          {
-            "role": "analysis",
             "publisher": "Yahoo Finance",
-            "headline": "Fed minutes: Officials favored holding rates steady in October, but they see hikes ahead",
-            "url": "https://finance.yahoo.com/economy/policy/article/fed-minutes-officials-favored-holding-rates-steady-in-october-but-they-see-hikes-ahead-195719301.html"
+            "headline": "Fed Officials Expect Further Interest Rate Hikes After Pausing Last Month",
+            "url": "https://finance.yahoo.com/economy/policy/articles/fed-officials-expect-further-interest-195844967.html"
           }
         ]
       },
       {
-        "id": "theme-nvidia-sells-the-beat",
+        "id": "theme-miami-housing-october",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Nvidia sold its own good news, and the S&P slipped a fifth day",
-        "importance": 0.82,
-        "thesis": "A record quarter couldn't outrun the questions about who runs the company and what China allows.",
-        "synthesis": "Nvidia opened higher after Tuesday's beat and then reversed, closing down 2.89% at $150.96; coverage pointed to succession uncertainty after the board chair's remark that Jensen Huang will not return, and to China regulatory risk. The S&P 500 slipped 0.23% to 7,323.63, its fifth straight loss and longest losing streak since June. The Nasdaq rose 0.42% to 24,429.89 as Broadcom gained 3.6%, while the Dow fell 561 points to 50,198.17, dragged by health insurers after CMS proposed a Medicare Advantage audit rule that would claw back overpayments to 2018.",
-        "new_today": "The reversal, and a second leg of weakness from health insurers rather than tech.",
-        "why_it_matters": "When a company guides $130 billion and falls, the market is pricing governance, not demand. That is a different and slower-healing worry. The insurer slide is worth a note too: a policy risk hitting a defensive sector is why the Dow, not the Nasdaq, took the damage.",
-        "thread_id": "thread-ai-regulation-selloff",
-        "confidence": "high",
+        "title": "Miami-Dade sales hold up for the year, then slip in October at 7.42% mortgages",
+        "importance": 0.74,
+        "thesis": "Ten months of gains are meeting the highest mortgage rates since 2020, and October is where it showed.",
+        "synthesis": "MIAMI REALTORS reports Miami-Dade home sales up 4% year to date through October, at 18,494 transactions, but October itself declined, which the association attributes to mortgage rates at 7.42%, limited inventory and economic uncertainty. It expects Florida's newly passed Amendment 3 homestead exemption, rising to $150,000 in 2027, to draw some out-of-state buyers before year end.",
+        "new_today": "The October numbers and the 7.42% rate as the stated cause.",
+        "why_it_matters": "Residential velocity is the early read on Miami condo absorption, which is what the private-credit lenders funding the top of the market are underwriting. A softening October with rates at a six-year high is the first local evidence of the 5% 10-year reaching the street.",
+        "thread_id": "thread-cre-capital-markets-2026",
+        "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Yahoo Finance",
-            "headline": "Stock market today: Dow, S&P 500 slip ahead of Anthropic IPO, Nvidia stock extends decline",
-            "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-18-dow-sp-500-nasdaq-nvidia-earnings-anthropic-ipo-143530588.html"
+            "publisher": "South Florida Agent Magazine",
+            "headline": "Miami-Dade home sales post gains YTD through October as interest rates continue to slow deal flow",
+            "url": "https://southfloridaagentmagazine.com/2026/11/19/miami-dade-home-sales-3/"
           },
           {
-            "role": "analysis",
-            "publisher": "Yahoo Finance",
-            "headline": "Stock Market Today, Nov. 18: Nvidia Slips on Strong Results as Succession and China Business Risks Weigh",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-18-221135469.html"
-          },
-          {
-            "role": "background",
-            "publisher": "TIKR",
-            "headline": "UnitedHealth Sinks 5% on Medicare Advantage Audit Plan as CMS Moves to \"Crush\" Medical Fraud",
-            "url": "https://www.tikr.com/blog/unitedhealth-sinks-5-on-medicare-advantage-audit-plan-as-cms-moves-to-crush-medical-fraud"
+            "role": "local_perspective",
+            "publisher": "MIAMI REALTORS",
+            "headline": "Thursday, Nov. 19, 2026: South Florida Beyond the Headlines",
+            "url": "https://www.miamirealtors.com/2026/11/18/thursday-nov-19-2026-south-florida-beyond-the-headlines-news-to-share/"
           }
         ]
       },
@@ -282,181 +297,169 @@
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Mines in the Gulf, barrels in Cushing: the barrels won again",
+        "title": "More mines claimed in Hormuz; oil settles flat",
         "importance": 0.62,
-        "thesis": "A surprise U.S. inventory build outweighed fresh Iranian claims of mined tankers, and oil gave back Tuesday's bounce.",
-        "synthesis": "The EIA said U.S. crude stocks rose 3.4 million barrels to 417.8 million in the week to November 13, against expectations of roughly no change, and prices fell; Brent traded near $91-92 and WTI near $84, though final settlements could not be verified this morning. Iranian media said three tankers east of the Strait of Hormuz were disabled by mines, a claim not independently confirmed. Shipments through Hormuz are reported back near pre-war levels.",
-        "new_today": "The inventory surprise, and a new mine claim that failed to move the price much.",
-        "why_it_matters": "Cheaper oil is the one input working for the Fed right now; it is also why a war headline no longer moves gas prices the way it did in the spring. A market that shrugs at mined tankers is telling you supply is ample.",
+        "thesis": "Supply is winning the argument: a mine claim that once meant $5 now barely moves the price.",
+        "synthesis": "Iran's navy said two tankers struck mines in the strait, a claim not independently verified. Brent traded through about a $2 range and settled at $91.98, up 3 cents, after Trump told Axios he was not rushing a decision on Iran. The IEA now projects fourth-quarter supply above demand for the first time since the conflict began, and Brent is on course for a roughly 20% decline in November.",
+        "new_today": "The IEA surplus call and a second day of unverified mine claims with no price response.",
+        "why_it_matters": "Falling oil is the one disinflationary force the Fed can lean on, and the only piece of this week's macro tape working in Miami's favor.",
         "thread_id": "thread-iran-hormuz-crisis",
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "CNBC",
-            "headline": "Oil prices steady as supply surplus softens sentiment though Gulf war supports",
-            "url": "https://www.cnbc.com/2026/11/19/oil-brent-wti-price-hormuz.html"
+            "publisher": "AsiaOne (Reuters)",
+            "headline": "Oil settles flat as Hormuz disruptions offset global surplus fears",
+            "url": "https://www.asiaone.com/money/oil-settles-flat-hormuz-disruptions-offset-global-surplus-fears"
           },
           {
             "role": "analysis",
-            "publisher": "EnergyNow",
-            "headline": "Oil Prices Fall Sharply as U.S. Crude Inventories Rise, Overshadowing Middle East Supply Risks",
-            "url": "https://energynow.com/2026/11/oil-prices-fall-sharply-as-u-s-crude-inventories-rise-overshadowing-middle-east-supply-risks/"
+            "publisher": "Rigzone",
+            "headline": "Oil Prices Swing on Middle East Uncertainty",
+            "url": "https://www.rigzone.com/news/wire/oil_prices_swing_on_middle_east_uncertainty-19-nov-2026-185129-article/"
           }
         ]
       },
       {
-        "id": "theme-miami-sports-thursday",
+        "id": "theme-miami-sports-weekend",
         "affinity": "morning",
         "topic": "sports",
         "topic_label": "Miami Sports",
-        "title": "Giannis beats the Bucks, and a full weekend lines up",
-        "importance": 0.72,
-        "thesis": "The Heat's sixth straight came against Antetokounmpo's old team, and Adebayo's hip looked fine.",
-        "synthesis": "Miami beat Milwaukee 137-130 on Wednesday for a sixth straight win, moving to 9-6; Giannis Antetokounmpo scored 27 in his first game against the Bucks, Bam Adebayo had 26 (21 in the first half) two days after sitting out with hip tightness, and Davion Mitchell led with 24 as the Heat hit 22 threes. The Bucks fell to 1-14. The weekend: the Canes (9-1) host Virginia Tech Saturday at 7 p.m., the Panthers host Buffalo Saturday at 6 p.m. after a 5-2 loss to Edmonton, and Kyle McCord makes his second start for the 1-8 Dolphins at Buffalo Sunday at 1 p.m., with the job his for at least three games while Malik Willis is on IR.",
-        "new_today": "The Bucks result and Adebayo's clean return; McCord's three-game runway.",
-        "why_it_matters": "The Adebayo worry from Monday is answered. The Heat are now the one Miami team where the trend line and the record agree; the Canes are next, with a playoff seed riding on not slipping at home.",
-        "thread_id": "thread-heat-giannis-era",
-        "confidence": "high",
+        "title": "A quiet Friday, then four Miami teams in two days",
+        "importance": 0.66,
+        "thesis": "The Canes have the most at stake and the shortest line to a title game.",
+        "synthesis": "No. 7 Miami (9-1, 7-0 ACC) hosts Virginia Tech Saturday at 7 p.m. on ESPN as roughly a 20.5-point favorite; the Hokies lost 40-22 to Stanford last week. The Panthers (12-8-3) host Buffalo Saturday at 6 p.m. On Sunday the Dolphins (1-8) play at Buffalo at 1 p.m. with Kyle McCord starting while Malik Willis is on injured reserve, and the Heat, winners of six straight, host Oklahoma City at 6 p.m.",
+        "new_today": "No games last night; the weekend slate and the Canes line.",
+        "why_it_matters": "The Canes are one home win from keeping the ACC title-game path in their own hands. The Heat take a six-game streak into a Sunday night home game against Oklahoma City.",
+        "thread_id": "thread-hurricanes-fall-camp",
+        "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "ESPN",
-            "headline": "Heat 137-130 Bucks (Nov 18, 2026) Game Recap",
-            "url": "https://www.espn.com/nba/recap/_/gameId/401910009"
+            "publisher": "Miami Hurricanes",
+            "headline": "Football Game vs. Virginia Tech Moved to Saturday, Nov. 21",
+            "url": "https://miamihurricanes.com/news/2026/05/15/football-game-vs-virginia-tech-moved-to-saturday-nov-21/"
           },
           {
             "role": "background",
-            "publisher": "Athlon Sports",
-            "headline": "Dolphins QB Kyle McCord Reveals What Must Change Before Bills Showdown",
-            "url": "https://athlonsports.com/nfl/miami-dolphins/dolphins-qb-kyle-mccord-reveals-what-must-change-before-bills-showdown"
+            "publisher": "CBS12",
+            "headline": "Dolphins QB Malik Willis to IR as groin injury worsens; Kyle McCord to start at QB",
+            "url": "https://cbs12.com/sports/dolphins-qb-malik-willis-to-ir-as-groin-injury-worsens-kyle-mccord-to-start-at-qb-miami-dolphins-malik-willis-malik-willis-injury-groin-injury-core-muscle-injury-injured-reserve-dolphins-quarterback-miami-dolphins-quarterback-nfl-nfl-news"
           },
           {
             "role": "background",
-            "publisher": "Sports Illustrated",
-            "headline": "Virginia Tech vs. Miami prediction, odds and key players to watch for college football Week 12 2026",
-            "url": "https://www.si.com/betting/virginia-tech-vs-miami-prediction-odds-and-key-players-to-watch-for-college-football-week-12-2026"
+            "publisher": "NBA.com",
+            "headline": "Thunder vs. Heat, November 22, 2026",
+            "url": "https://www.nba.com/heat/game/0022600281-thunder-vs-heat-miami-fl-11-22-2026"
           }
         ]
       },
       {
-        "id": "theme-national-book-awards",
+        "id": "theme-book-fair-street-fair",
         "affinity": "evening",
         "topic": "miami",
         "topic_label": "Miami Life & Culture",
-        "title": "Danticat goes home without the prize; the Book Fair goes on",
-        "importance": 0.55,
-        "thesis": "Hannah Lillith Assadi's 'Paradiso 17' won the fiction award, and Miami's own finalist, Edwidge Danticat, finished a third time as a finalist.",
-        "synthesis": "At the 77th National Book Awards in New York on Wednesday night, the fiction prize went to Hannah Lillith Assadi for 'Paradiso 17' (Knopf); Edwidge Danticat's 'Dèy', a novel that begins with a shooting in a Miami mall, did not win. Abdelrahman ElGendy won nonfiction for 'Huna' and Brenda Hillman won poetry for 'Still House in the Desert'. Danticat has now been a finalist three times, in 1995, 2007 and 2026.",
-        "new_today": "The winners, announced last night.",
-        "why_it_matters": "A prize is a narrow lens on a book, and 'Dèy' is still the Miami novel of the year whatever the jury said. The Miami Book Fair runs through Sunday, November 22; this weekend is a better moment to read Danticat than last night was to judge her.",
+        "title": "The Book Fair moves outdoors: Street Fair weekend opens today",
+        "importance": 0.6,
+        "thesis": "The best antidote to a week of tickers is three days of people arguing about sentences on a downtown campus.",
+        "synthesis": "The 43rd Miami Book Fair, headlined by Margaret Atwood and Colson Whitehead with nearly 500 authors, closes with its Street Fair at Miami Dade College's Wolfson Campus from today through Sunday, November 22. Street Fair access is a separate ticket, and some sessions require their own reservation; the schedule is posted on the fair's site and app.",
+        "new_today": "The Street Fair opens today, the fair's most public stretch.",
+        "why_it_matters": "It is the one weekend of the year when downtown Miami is organized around books, and it is the slow counterweight to everything else in this edition.",
         "thread_id": null,
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Literary Hub",
-            "headline": "Here are the winners of the 2026 National Book Awards.",
-            "url": "https://lithub.com/here-are-the-winners-of-the-2026-national-book-awards/"
+            "publisher": "Axios Miami",
+            "headline": "Miami Book Fair guide: tickets, authors, dates",
+            "url": "https://www.axios.com/local/miami/2026/11/12/miami-book-fair-guide-tickets-authors-dates"
           },
           {
             "role": "background",
-            "publisher": "National Book Foundation",
-            "headline": "National Book Awards 2026",
-            "url": "https://www.nationalbook.org/awards-prizes/national-book-awards-2026/"
+            "publisher": "Miami Book Fair",
+            "headline": "Welcome to Miami Book Fair",
+            "url": "https://miamibookfair.com/"
           },
           {
             "role": "background",
-            "publisher": "WLRN / NPR",
-            "headline": "Here are the finalists for the 2026 National Book Awards",
-            "url": "https://www.wlrn.org/npr-breaking-news/2026-10-06/here-are-the-finalists-for-the-2026-national-book-awards"
+            "publisher": "WLRN",
+            "headline": "Miami Book Fair announces 2026 lineup featuring nearly 500 authors",
+            "url": "https://www.wlrn.org/arts-culture/2026-10-13/miami-book-fair-announces-2026-lineup-featuring-nearly-500-authors-and-literary-icons"
           }
         ]
       },
       {
-        "id": "theme-vice-city-returns",
+        "id": "theme-impatience-as-emotion",
         "affinity": "evening",
-        "topic": "miami",
-        "topic_label": "Miami Life & Culture",
-        "title": "Vice City is out today, and the critics loved it more than its satire",
-        "importance": 0.5,
-        "thesis": "GTA VI arrives to near-universal praise for its craft and a split verdict on what it is saying about Florida.",
-        "synthesis": "The review embargo lifted Wednesday and more than 150 critics weighed in; IGN called it \"Unprecedented. Unbelievable. Unmissable,\" and one launch-morning report had it as Metacritic's highest-rated game ever on about 167 reviews, a snapshot that may move. The setting is Leonida, a fictional Florida whose Miami is Vice City, with the Everglades and Keys rendered as Grassrivers and the Leonida Keys. CBC called it \"spectacular, cynical and sometimes shallow\"; the satire is where reviewers disagree.",
-        "new_today": "The reviews, and the launch itself this morning.",
-        "why_it_matters": "For the next decade, tens of millions of people will form their sense of Miami from this map. It is worth noticing which parts of the real city a studio thought were essential, and which it thought were a joke.",
-        "thread_id": "thread-miami-vice-city-gta6-pitch",
-        "confidence": "high",
+        "topic": "living",
+        "topic_label": "Art of Living",
+        "title": "Impatience is a feeling, not a trait",
+        "importance": 0.55,
+        "thesis": "Treating impatience as an emotion you can notice, rather than a flaw you have, makes it something to work with.",
+        "synthesis": "A short Psyche guide argues that impatience is an emotion: it arises when a goal is blocked and the delay feels costly, and patience is the practice of handling that emotion rather than lacking it. It uses Penelope's years of waiting in the Odyssey as its model of patience done well.",
+        "new_today": "Not news; chosen for a week when the market has been impatient on everyone's behalf.",
+        "why_it_matters": "A week of six down days is a test of temperament more than analysis. This is a practical frame for the gap between seeing a price and deciding what it means.",
+        "thread_id": null,
+        "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "CBC News",
-            "headline": "Grand Theft Auto VI is a spectacular, cynical and sometimes shallow joyride through the American psyche",
-            "url": "https://www.cbc.ca/news/entertainment/grand-theft-auto-vi-review-9.7425005"
-          },
-          {
-            "role": "analysis",
-            "publisher": "The National",
-            "headline": "GTA 6 reviews: What critics love, what they don't and the biggest surprises",
-            "url": "https://www.thenationalnews.com/arts-culture/pop-culture/2026/11/18/gta-6-reviews-metacritic/"
-          },
-          {
-            "role": "analysis",
-            "publisher": "Slant Magazine",
-            "headline": "'Grand Theft Auto VI' Review: Rockstar's Masterful Love Story",
-            "url": "https://www.slantmagazine.com/games/grand-theft-auto-vi-review/"
+            "publisher": "Psyche",
+            "headline": "Why it helps to see impatience as an emotion, not a trait",
+            "url": "https://psyche.co/notes-to-self/why-it-helps-to-see-impatience-as-an-emotion-not-a-trait"
           }
         ]
       }
     ],
     "rabbit_hole": {
-      "id": "rh-2026-11-19",
-      "title": "Lombard Street: A Description of the Money Market",
-      "creator": "Walter Bagehot (1873)",
-      "format": "book (read chapters 1 and 6)",
-      "minutes": 60,
-      "why": "On the day the largest IPO in history meets a Fed that almost unanimously wants to keep tightening, Bagehot's classic explains why the price of money changes a market's mood as well as its math, and why confidence is the asset that fails first. Chapter 6, on why Lombard Street is 'often very dull, and sometimes extremely excited', reads like a description of this week.",
-      "url": "https://www.gutenberg.org/ebooks/4359",
+      "id": "rh-2026-11-20",
+      "title": "The Financial Instability Hypothesis",
+      "creator": "Hyman P. Minsky (Levy Economics Institute Working Paper No. 74, 1992)",
+      "format": "paper",
+      "minutes": 30,
+      "why": "Minsky argued that long stretches of prosperity push finance from hedge to speculative to Ponzi structures, so stability itself produces instability. Read it the week a trillion-dollar listing faded from its open, with the Fed still tightening into an 8% drawdown.",
+      "url": "https://www.levyinstitute.org/pubs/wp74.pdf",
       "related_interest": "markets"
     },
     "beautiful_thing": {
-      "id": "bt-2026-11-19",
-      "title": "The Gulf Stream",
-      "creator": "Winslow Homer",
-      "era": "1899, reworked by 1906",
-      "body": "An oil on canvas, about 28 by 49 inches, built from studies Homer made on two winter trips to the Bahamas, in 1884-85 and 1898-99. A Black sailor lies on the deck of a small dismasted boat in heavy water; sharks circle, a waterspout rises on the horizon, and a ship sails in the far distance. Notice that his gaze is turned away from all of it, and that Homer gives you every threat and no answer. The Metropolitan Museum bought it in 1906, the year it was exhibited; it hangs at the Met Fifth Avenue, Gallery 767. The water he is drifting in is the same current that runs off Miami.",
-      "url": "https://www.metmuseum.org/art/collection/search/11122",
+      "id": "bt-2026-11-20",
+      "title": "Stiltsville",
+      "creator": "Built by fishermen, club owners and families; first shack by \"Crawfish\" Eddie Walker",
+      "era": "1930s to present",
+      "body": "A cluster of houses standing on pilings in the shallows of Biscayne Bay, south of Key Biscayne, now inside Biscayne National Park. The first shack went up in the 1930s, and the community grew through the mid-century. Hurricane Andrew in 1992 left seven buildings standing, none of them from the heyday. The State of Florida deeded the bay bottom beneath them to the federal government in 1985. Notice the proportions from the water: each house sits on a raised platform, out of reach of the tides, with the open bay on every side.",
+      "url": "https://www.nps.gov/bisc/learn/historyculture/stiltsville.htm",
       "image": null,
-      "alt": "A lone man lying on the deck of a small, mastless boat on a rough blue-green sea, sharks in the water around him, a waterspout on the horizon and a distant ship."
+      "alt": "Wooden stilt houses standing in the shallow water of Biscayne Bay"
     },
-    "noticing_prompt": "Watch for someone waiting today, at a light, in a line, on hold, and notice what they do with their hands. Homer painted a man waiting for the sea to decide; most waiting looks less dramatic and is the same thing.",
+    "noticing_prompt": "Watch for one price today, of gas, coffee or a stock on someone's phone, and notice how quickly you decide whether it is good or bad news. Then notice whether you have actually been told that.",
     "daily_puzzle": {
-      "id": "dp-2026-11-19",
-      "type": "logic",
-      "prompt": "Three boxes are labeled 'Apples', 'Oranges', and 'Apples and Oranges'. One box holds only apples, one only oranges, and one a mix, but every label is wrong. You may take out one piece of fruit from one box, without looking inside. Which box do you choose, and how do you then label all three correctly?",
-      "hint": "One label tells you more than the others precisely because it is wrong.",
-      "solution": "Take a fruit from the box labeled 'Apples and Oranges'. Since its label is wrong, it holds only one kind: if you draw an apple, it is the apples box. The box labeled 'Oranges' can't be oranges and can't be apples (now taken), so it is the mix; the box labeled 'Apples' is the oranges. If you draw an orange, swap the reasoning: it is the oranges box, the one labeled 'Apples' is the mix, and the one labeled 'Oranges' is the apples.",
-      "explanation": "The 'mixed' label is the only one whose falsehood guarantees a single-fruit box, so one draw identifies it, and the remaining two wrong labels force the rest."
+      "id": "dp-2026-11-20",
+      "type": "math",
+      "prompt": "You sell two stocks today for exactly $1,200 each. On one you made a 20% gain on what you paid; on the other you took a 20% loss on what you paid. Taken together, did you make money, lose money, or break even, and by how much?",
+      "hint": "Work out what you originally paid for each one. The percentages apply to different starting amounts.",
+      "solution": "You lost $100. The winner cost $1,000 (since $1,000 x 1.2 = $1,200) and the loser cost $1,500 (since $1,500 x 0.8 = $1,200). You paid $2,500 and received $2,400.",
+      "explanation": "A 20% loss is taken on a larger base than a 20% gain, so equal percentage moves in opposite directions do not cancel."
     },
     "evening_unwind": {
-      "id": "eu-2026-11-19",
+      "id": "eu-2026-11-20",
       "evening_quote": {
-        "text": "Some things are hurrying into existence, and others are hurrying out of it; and of that which is coming into existence part is already extinguished.",
+        "text": "Say nothing more to thyself than what the first appearances report. Suppose that it has been reported to thee that a certain person speaks ill of thee. This has been reported; but that thou hast been injured, that has not been reported.",
         "attribution": "Marcus Aurelius",
-        "source": "Meditations, 6.15 (George Long translation)"
+        "source": "Meditations, 8.49 (George Long translation)"
       },
-      "evening_prompt": "Today a company sold a trillion-dollar future and a painting showed a man waiting on the sea; what were you waiting on today that you could do nothing about, and how did you carry it?"
+      "evening_prompt": "The market reported six straight losses this week; what did you add to that report today that the numbers themselves never said?"
     },
     "reading_queue": [
       {
         "title": "The Radical Reasons Why You Dream of Making Things by Hand",
         "url": "https://aeon.co/essays/the-radical-reasons-why-you-dream-of-making-things-by-hand",
         "verdict": "weekend",
-        "reason": "Saved September 3 and tagged for the weekend, which starts Saturday; a good pair with a game that took 13 years to make."
+        "reason": "Tagged for the weekend, which starts tomorrow. A handmade thing has no ticker."
       }
     ],
     "quote": {
-      "text": "Occupy thyself with few things, says the philosopher, if thou wouldst be tranquil.",
-      "attribution": "Marcus Aurelius, Meditations 4.24"
+      "text": "Be like the promontory against which the waves continually break, but it stands firm and tames the fury of the water around it.",
+      "attribution": "Marcus Aurelius, Meditations 4.49"
     }
   },
   "threads": [
@@ -465,9 +468,9 @@
       "title": "US-Iran conflict and the Strait of Hormuz",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-11-19",
-      "updates": 116,
-      "current_state": "Oil fell November 18 after the EIA reported a 3.4 million-barrel U.S. crude build against expectations of almost none; Brent traded near $91-92 (final settlement not verified). Iranian media said three tankers east of Hormuz were disabled by mines (unverified); Hormuz shipments reported near pre-war levels.",
+      "last_updated": "2026-11-20",
+      "updates": 117,
+      "current_state": "Brent settled at $91.98 (+3 cents) on November 19 and is on course for a roughly 20% monthly decline. Iran's navy claimed two tankers hit mines in the strait (unverified); Gulf exports reported near pre-war levels; the IEA projects Q4 supply above demand for the first time since the conflict began.",
       "timeline": [
         {
           "date": "2026-07-21",
@@ -1048,6 +1051,11 @@
           "date": "2026-11-19",
           "summary": "Crude falls on a 3.4M-barrel U.S. inventory build; Brent near $91-92; Iran claims three tankers mined east of Hormuz (unverified).",
           "change_type": "improved"
+        },
+        {
+          "date": "2026-11-20",
+          "summary": "Brent settled about flat at $91.98 on November 19 despite Iranian claims of two more tankers hitting mines (unverified); IEA projects Q4 supply above demand; Trump told Axios he is not rushing an Iran decision.",
+          "change_type": "unchanged"
         }
       ]
     },
@@ -1056,9 +1064,9 @@
       "title": "Federal Reserve rate path",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-11-19",
-      "updates": 118,
-      "current_state": "October minutes (released November 18): almost all officials expect further hikes; some wanted a quarter point in October; some said more than 25 bp in December would be reasonable. Waller again floated a half point; Williams ruled it out. CME FedWatch (secondary reports) about 93% for 25 bp on December 9, about 7% for 50 bp. 10-year about 5.06-5.07%.",
+      "last_updated": "2026-11-20",
+      "updates": 119,
+      "current_state": "December 8-9 meeting: a quarter-point hike from 3.75%-4.00% is about 90% priced and a half point about 10% (secondary reports of CME FedWatch, November 19-20). Waller says the Fed may need to shock the public; Williams sees no need for dramatic action; Musalem expects several more hikes before spring 2027. 10-year eased to about 5.0-5.05% on a flight to safety.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -1644,6 +1652,11 @@
           "date": "2026-11-19",
           "summary": "Minutes show almost all officials expect more hikes and some open to more than 25 bp in December; Waller floats 50 bp; half-point odds rise to ~7%; 10-year eases to ~5.07%.",
           "change_type": "worsened"
+        },
+        {
+          "date": "2026-11-20",
+          "summary": "Waller argued a December hike must either signal a January follow-up or be a half point and done; Musalem sees several more hikes before spring. Half-point odds about 10% in secondary FedWatch reports; 10-year eased toward 5.0-5.05% as stocks fell.",
+          "change_type": "worsened"
         }
       ]
     },
@@ -1983,9 +1996,9 @@
       "title": "Heat: the Giannis era begins",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-11-19",
+      "last_updated": "2026-11-20",
       "updates": 35,
-      "current_state": "9-6, six straight wins after beating Milwaukee 137-130 on November 18. Giannis scored 27 against his former team; Adebayo, held out of Monday's second half with hip tightness, had 26 (21 in the first half). Davion Mitchell led with 24; Miami made 22 threes. Bucks fall to 1-14.",
+      "current_state": "9-6, six straight wins after beating Milwaukee 137-130 on November 18. Giannis scored 27 against his former team; Adebayo, held out of Monday's second half with hip tightness, had 26 (21 in the first half). Davion Mitchell led with 24; Miami made 22 threes. Bucks fall to 1-14. Next: hosts Oklahoma City Sunday, November 22, 6 p.m.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -2605,9 +2618,9 @@
       "title": "Miami Hurricanes fall camp and the Mensah era",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-11-17",
-      "updates": 44,
-      "current_state": "9-1 and unbeaten in the ACC. Hosts Virginia Tech November 21 at 7 p.m. on ESPN; Fletcher expected back, Toney ahead of schedule.",
+      "last_updated": "2026-11-20",
+      "updates": 45,
+      "current_state": "9-1 (7-0 ACC), No. 7. Hosts Virginia Tech Saturday, November 21, 7 p.m. on ESPN at Hard Rock Stadium; Miami about a 20.5-point favorite. A win keeps the ACC title-game path open.",
       "timeline": [
         {
           "date": "2026-08-14",
@@ -2828,6 +2841,11 @@
           "date": "2026-11-17",
           "summary": "Cristobal: Toney ahead of schedule after ankle surgery, Fletcher expected back for Virginia Tech (Saturday, November 21, 7 p.m., ESPN).",
           "change_type": "watch"
+        },
+        {
+          "date": "2026-11-20",
+          "summary": "Ranked No. 7, 7-0 in the ACC; about 20.5-point favorites over Virginia Tech (lost 40-22 to Stanford November 14) for Saturday's 7 p.m. home game.",
+          "change_type": "watch"
         }
       ]
     },
@@ -2988,9 +3006,9 @@
       "title": "2026 CRE capital markets under pressure",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-11-17",
-      "updates": 59,
-      "current_state": "10-year about 5.13% (Nov 16). Miami-Dade October sales up year over year with 0.4% distressed; private credit (Tyko and others) still financing the top of the condo market.",
+      "last_updated": "2026-11-20",
+      "updates": 60,
+      "current_state": "Miami-Dade sales +4% YTD through October, but October slipped as mortgage rates hit 7.42%, highest since 2020. 10-year about 5.0-5.05% after a flight-to-safety rally November 19; a Fed hike December 9 is close to fully priced.",
       "timeline": [
         {
           "date": "2026-07-24",
@@ -3290,6 +3308,11 @@
         {
           "date": "2026-11-17",
           "summary": "Miami Realtors: October single-family and condo sales up year over year; condo median $397,500, single-family $706,000; distressed sales 0.4%.",
+          "change_type": "advanced"
+        },
+        {
+          "date": "2026-11-20",
+          "summary": "MIAMI REALTORS: Miami-Dade home sales up 4% year to date through October (18,494) but October itself weaker, blamed on mortgage rates at 7.42%, the highest since 2020. 10-year eased toward 5.0-5.05% on November 19.",
           "change_type": "advanced"
         }
       ]
@@ -3854,10 +3877,10 @@
       "id": "thread-miami-vice-city-gta6-pitch",
       "title": "Miami-Dade's \"Vice City\" pitch to Rockstar Games",
       "topic": "miami",
-      "status": "active",
-      "last_updated": "2026-11-19",
-      "updates": 16,
-      "current_state": "GTA VI launches November 19. Review embargo lifted November 18 with rave notices (IGN: 'Unprecedented. Unbelievable. Unmissable.'); one launch-morning report had it as Metacritic's highest-rated game ever on ~167 reviews. Critics split on the satire of Leonida, its Florida stand-in, with Vice City as its Miami.",
+      "status": "resolved",
+      "last_updated": "2026-11-20",
+      "updates": 17,
+      "current_state": "Resolved as a launch story: GTA VI shipped November 19 to rave reviews and a split verdict on its satire of Florida. Verified sales figures will come from Take-Two; reopen if they matter for Miami.",
       "timeline": [
         {
           "date": "2026-08-31",
@@ -3938,6 +3961,11 @@
           "date": "2026-11-19",
           "summary": "Reviews land: near-universal praise, satire divides critics; launches today.",
           "change_type": "advanced"
+        },
+        {
+          "date": "2026-11-20",
+          "summary": "Launched November 19 on consoles. No verified launch-day sales figures yet; forecasts (Newzoo, Piper Sandler) remain forecasts.",
+          "change_type": "resolved"
         }
       ]
     },
@@ -4168,9 +4196,9 @@
       "title": "AI-regulation selloff",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-11-19",
-      "updates": 11,
-      "current_state": "S&P 500 7,323.63 (-0.23%) on November 18, a fifth straight loss and the longest losing streak since June; Nasdaq rose 0.42% to 24,429.89; Dow fell 561 points (-1.11%) to 50,198.17, led by health insurers on a proposed Medicare Advantage audit rule. Anthropic trades November 19.",
+      "last_updated": "2026-11-20",
+      "updates": 12,
+      "current_state": "Six straight S&P 500 losses through November 19 (7,175.83, -2.0%), the longest streak since 2024, and 8.2% off the October record. Nasdaq 23,879.20 (-2.3%); Dow 49,097.06 (-1,101). AMD -7.7% on a Hunterbrook short report (denied). Nasdaq-100 futures lower again early November 20.",
       "timeline": [
         {
           "date": "2026-11-06",
@@ -4226,6 +4254,11 @@
           "date": "2026-11-19",
           "summary": "Fifth straight S&P loss (7,323.63, -0.23%); Nasdaq +0.42%; Dow -561 on insurers; Nvidia -2.89%.",
           "change_type": "worsened"
+        },
+        {
+          "date": "2026-11-20",
+          "summary": "S&P 500 fell 2.0% to 7,175.83 on November 19, a sixth straight loss and 8.2% below October's record; Nasdaq -2.3%, Dow -1,101. AMD fell about 7.7% on a Hunterbrook short report alleging China ties, which AMD denies.",
+          "change_type": "worsened"
         }
       ]
     },
@@ -4234,9 +4267,9 @@
       "title": "Nvidia after Jensen Huang",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-11-19",
-      "updates": 7,
-      "current_state": "Shares reversed an early post-earnings gain and closed down 2.89% at $150.96 on November 18 despite the $115.8B quarter and $130B guide; coverage cited succession uncertainty and China regulatory risk.",
+      "last_updated": "2026-11-20",
+      "updates": 8,
+      "current_state": "Down with the AI complex since the November 17 report despite a $115.8B quarter; CNBC reported the stock at its lowest level in more than a year in premarket trading November 20. Kress remains interim CEO after Huang's November 12 resignation.",
       "timeline": [
         {
           "date": "2026-11-12",
@@ -4272,6 +4305,11 @@
           "date": "2026-11-19",
           "summary": "Stock sells the beat: early gain reverses to a 2.89% loss ($150.96) on succession and China worries.",
           "change_type": "worsened"
+        },
+        {
+          "date": "2026-11-20",
+          "summary": "Fell with the sector on November 19; CNBC reported shares at their lowest in more than a year in Friday premarket trading (about -2.7%).",
+          "change_type": "worsened"
         }
       ]
     },
@@ -4280,9 +4318,9 @@
       "title": "Anthropic's IPO",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-11-19",
-      "updates": 6,
-      "current_state": "Priced November 18 at $83, above the $70-78 range: 980 million shares, about $81.3 billion raised, the largest IPO on record (above SpaceX's June deal), roughly $1.5 trillion fully diluted. Trades today on Nasdaq as 'ANT'; gray-market indications pointed to a 20-26% opening premium; offering closes November 20.",
+      "last_updated": "2026-11-20",
+      "updates": 7,
+      "current_state": "Trading as ANT since November 19. Closed day one at $97.17, up 17% from the $83 IPO price but well below the $111.50 open; market value quoted between about $1.27 trillion and $1.76 trillion depending on share count. Indicated about 6% lower in premarket trading November 20.",
       "timeline": [
         {
           "date": "2026-11-14",
@@ -4313,6 +4351,11 @@
           "date": "2026-11-19",
           "summary": "Priced at $83 (above range); ~$81.3B raised on 980M shares, a record; ~$1.5T fully diluted; trading begins November 19.",
           "change_type": "advanced"
+        },
+        {
+          "date": "2026-11-20",
+          "summary": "Debuted November 19: opened at $111.50 (+34%), touched about $115, fell to an intraday low near $92.72 and closed at $97.17 (+17% vs $83). Down about 6% in Friday premarket trading.",
+          "change_type": "advanced"
         }
       ]
     }
@@ -4336,7 +4379,7 @@
     }
   ],
   "meta": {
-    "content_freshness": "2026-11-19T09:30:00-05:00",
+    "content_freshness": "2026-11-20T09:30:00-05:00",
     "feedback_endpoint_mode": "github_contents",
     "minimum_client_schema_version": 1,
     "mode": "brain"
