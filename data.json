@@ -1,35 +1,37 @@
 {
   "schema_version": 2,
   "edition": {
-    "id": "2026-11-21",
-    "date": "2026-11-21",
-    "type": "weekday",
-    "generated_at": "2026-11-21T09:30:00-05:00",
+    "id": "2026-11-22",
+    "date": "2026-11-22",
+    "type": "weekly",
+    "generated_at": "2026-11-22T09:30:00-05:00",
     "timezone": "America/New_York",
     "title": "Personal OS",
     "front_page_letter": {
       "greeting": "Good morning",
       "body_paragraphs": [
-        "Good morning. Saturday, November 21.",
-        "The week ended in a correction. The S&P 500 fell 3.7% on Friday, its seventh straight loss, and 8.6% for the week; the Dow joined it below the 10% line, and the Nasdaq has now given back everything it gained in 2026. Two stories did the damage. Reuters reported that the SEC is examining Nvidia's accounting, and the stock fell about 14%, its worst day since DeepSeek. And Anthropic, two days into the largest IPO ever, traded down to $83.05, five cents above its offer price, before closing at $88.91.",
-        "The bond market drew its own conclusion. The half-point hike talk of midweek has largely disappeared from the futures, and the 10-year closed near 4.92%, below 5% for the first time in days. That is cheaper long money, but it is cheap because investors are frightened, which is not the same as relief. Keep perspective, too: the S&P is still slightly up for the year.",
-        "Worth your attention next week: whether ANT holds $83, and whether the 10-year's drop shows up in any lender's term sheet. Until then, the weekend has better uses. The Canes host Virginia Tech tonight with the ACC title game in reach, the Book Fair's street fair closes tomorrow, and the evening pages carry Shiller on why prices swing more than their fundamentals, a defense of the fair-weather fan, and an essay on where our attention actually goes."
+        "Good morning. Sunday, November 22, and the weekly edition.",
+        "This was the week the AI trade broke. It began with Washington closing a chip loophole and Nvidia's board shutting the door on Jensen Huang, ran through strong Nvidia numbers that the market sold anyway, and ended with reports of an SEC look at Nvidia's accounting. The S&P 500 lost 8.6% and fell seven days straight; the Dow joined it in correction and the Nasdaq gave back its year. In the middle, Anthropic priced the largest IPO on record at $83, opened at $111.50, and by Friday had tested its offer price to within a nickel.",
+        "The bond market read all of this as a growth scare. The half-point hike talk faded, a quarter point on December 9 is all but certain, and the 10-year closed near 4.92%, back under 5%. Oil helped: Brent fell for a third week even as tankers kept getting hit near Hormuz, another one off Oman yesterday.",
+        "The week ahead is short. Markets close Thursday and leave early Friday, with PCE inflation on Wednesday and a Treasury Secretary's ten-day clock running on Nvidia's board. Thin holiday trading can exaggerate whatever comes next, in either direction.",
+        "At home, the week ended better than it started. The Canes were down 14-0 to Virginia Tech and won 28-20, and they play Wake Forest for the ACC on December 5. The Panthers won on Bennett's hat trick. This afternoon is Buffalo for the Dolphins and Oklahoma City for the Heat, with Giannis questionable.",
+        "Worth your attention: the 10-year, not the Nasdaq. For the slower hours, Buffett's 1987 letter on Mr. Market, Seneca's Saturnalia letter, and the Book Fair's last afternoon."
       ],
       "read_only_three": [
         {
           "target_type": "theme",
           "target_id": "theme-ai-selloff-sixth-day",
-          "label": "Seven down, and a correction"
+          "label": "The week that ended in a correction"
         },
         {
           "target_type": "theme",
-          "target_id": "theme-nvidia-sec-probe",
-          "label": "Nvidia and the SEC"
+          "target_id": "theme-canes-acc-title",
+          "label": "Canes to Charlotte"
         },
         {
           "target_type": "rabbit_hole",
-          "target_id": "rh-2026-11-21",
-          "label": "Shiller on speculative prices"
+          "target_id": "rh-2026-11-22",
+          "label": "Buffett on Mr. Market"
         }
       ]
     },
@@ -37,92 +39,99 @@
       {
         "label": "S&P 500",
         "value": "6,910.39",
-        "change": "-3.7% (-265.44)",
-        "observed": "Close, Friday, November 20, 2026",
-        "note": "Seventh straight loss; -8.6% on the week, worst since April 2025; in correction. Still about +0.9% year to date."
+        "change": "-3.7% on the day; -8.6% on the week",
+        "observed": "Close, Friday, November 20, 2026 (no trading since)",
+        "note": "Seventh straight loss and a correction; worst week since April 2025. Markets closed Thursday, November 26; 1 p.m. close Friday."
       },
       {
         "label": "Nasdaq Composite",
         "value": "22,617.73",
-        "change": "-5.28%",
-        "observed": "Close, Friday, November 20, 2026",
-        "note": "Now negative for 2026. Nvidia about -14%; AMD and Broadcom down more than 13%. Dow -949.73 (-1.93%) to 48,147.33, also in correction."
+        "change": "-5.28% on the day",
+        "observed": "Close, Friday, November 20, 2026 (no trading since)",
+        "note": "Negative for 2026. Dow 48,147.33 (-1.93%), also in correction."
       },
       {
         "label": "10-year Treasury",
         "value": "about 4.92%",
-        "change": "down roughly 10 bp",
-        "observed": "Close, Friday, November 20, 2026 (ETF Trends; Trading Economics shows 4.94%)",
-        "note": "Safe-haven bid; 2-year about 4.63%."
+        "change": "down roughly 10 bp on the day",
+        "observed": "Close, Friday, November 20, 2026 (ETF Trends; Trading Economics showed 4.94%)",
+        "note": "Below 5% after closing near 5.15% the week before."
+      },
+      {
+        "label": "Brent crude",
+        "value": "$92.57",
+        "change": "+$0.59 on the day; -3.4% on the week",
+        "observed": "Settle, Friday, November 20, 2026",
+        "note": "Third straight weekly loss. WTI $83.98."
       },
       {
         "label": "FOMC",
-        "value": "3.75%-4.00%; next decision December 9",
+        "value": "3.75%-4.00%; decision December 9 (17 days)",
         "change": "Quarter-point hike about 99%; half-point bets largely unwound",
         "observed": "CNBC citing CME FedWatch, November 20, 2026",
-        "note": "Not read from CME directly. Half-point odds had reached about 10% on November 19."
+        "note": "Not read from CME directly. PCE inflation due Wednesday, November 25."
       }
     ],
     "public_day_context": {
-      "date_label": "Saturday, November 21, 2026",
-      "weather": "A same-day Miami forecast could not be verified this morning. Check before heading out tonight.",
-      "public_event": "Miami Book Fair Street Fair, Wolfson Campus, through Sunday, November 22. Canes host Virginia Tech at 7 p.m. (ESPN); Panthers host Buffalo at 6 p.m. Sunday: Dolphins at Buffalo, 1 p.m. (CBS); Heat host Oklahoma City, 6 p.m."
+      "date_label": "Sunday, November 22, 2026",
+      "weather": "Mostly dry after Saturday's storms and a brief tornado warning in north Miami-Dade: NBC6 forecast a high near 86 with about a 20% chance of an isolated afternoon storm (Saturday forecasts). Monday looks dry; rain returns Tuesday.",
+      "public_event": "Miami Book Fair Street Fair, final day, Wolfson Campus, 10 a.m.-6 p.m. Dolphins at Buffalo, 1 p.m. Heat host Oklahoma City, 6 p.m., Kaseya Center. Markets closed Thursday for Thanksgiving."
     },
     "what_changed": [
       {
-        "id": "delta-correction",
-        "thread_id": "thread-ai-regulation-selloff",
-        "change_type": "worsened",
-        "title": "S&P and Dow close in correction; Nasdaq turns negative for 2026",
-        "previous_state": "Six straight losses, with the S&P at 7,175.83 and 8.2% below its October record.",
-        "current_state": "S&P 6,910.39 (-3.7%) for a seventh loss and -8.6% on the week; Dow 48,147.33 (-1.93%); Nasdaq 22,617.73 (-5.28%).",
-        "why_it_matters": "A correction is the threshold where risk committees start to act, not just watch.",
+        "id": "delta-canes-clinch",
+        "thread_id": "thread-hurricanes-fall-camp",
+        "change_type": "advanced",
+        "title": "Canes beat Virginia Tech 28-20 and clinch the ACC title game",
+        "previous_state": "Miami was 9-1 and needed a win over Virginia Tech to keep the title-game path open.",
+        "current_state": "Miami is 10-1 (8-0 ACC) and plays Wake Forest for the ACC in Charlotte on December 5.",
+        "why_it_matters": "One more win and the playoff picture gets very simple.",
         "confidence": "high",
         "source": {
-          "publisher": "UPI",
-          "url": "https://www.upi.com/Top_News/US/2026/11/20/stocks-dow-jones-nasdaq-correction-territory/1061795214998/"
+          "publisher": "Miami Hurricanes",
+          "url": "https://miamihurricanes.com/news/2026/11/21/no-7-miami-rallies-for-28-20-win-over-virginia-tech"
         }
       },
       {
-        "id": "delta-nvidia-sec",
-        "thread_id": "thread-nvidia-huang-board",
-        "change_type": "new",
-        "title": "Reuters: SEC is examining Nvidia's accounting; shares fall about 14%",
-        "previous_state": "Nvidia was falling with the AI complex after earnings, under an interim CEO, with a WSJ-reported SEC probe into its disclosures.",
-        "current_state": "Reuters reports SEC enforcement staff are looking at its accounting; the stock had its worst day since January 2025.",
-        "why_it_matters": "It turns a leadership story into a credibility story for the market's largest weight.",
+        "id": "delta-panthers-sabres",
+        "thread_id": "thread-panthers-2026-27-season",
+        "change_type": "advanced",
+        "title": "Panthers beat Buffalo 4-3 behind a Bennett hat trick",
+        "previous_state": "The Panthers were 12-8-3, coming off a 5-2 home loss to Edmonton.",
+        "current_state": "They are 13-8-3 after Vilmanis scored the winner with 3:18 left.",
+        "why_it_matters": "A divisional win at home after a flat loss to the Oilers.",
+        "confidence": "high",
+        "source": {
+          "publisher": "Florida Hockey Now",
+          "url": "https://floridahockeynow.com/florida-panthers-4-buffalo-sabres-3-nov-21-2026-game-recap-summary-bennett-hat-trick/"
+        }
+      },
+      {
+        "id": "delta-oil-third-week",
+        "thread_id": "thread-iran-hormuz-crisis",
+        "change_type": "worsened",
+        "title": "Another tanker struck off Oman, but oil posts a third weekly loss",
+        "previous_state": "Brent sat near $92 on November 19 with unverified Iranian claims of mine strikes.",
+        "current_state": "Brent settled $92.57 Friday, down 3.4% on the week, and UKMTO reported a projectile strike off Khasab on Saturday.",
+        "why_it_matters": "The attacks are escalating in frequency even as the price ignores them; a convoy confrontation would test that.",
         "confidence": "medium",
         "source": {
-          "publisher": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/article/nvidia-stock-extends-25-trillion-rout-as-sec-probe-reportedly-investigates-its-accounting-194945274.html"
+          "publisher": "Benzinga",
+          "url": "https://www.benzinga.com/markets/commodities/26/11/63516268/iran-readies-tankers-to-challenge-u-s-blockade-raising-risk-to-gulf-oil-flows"
         }
       },
       {
-        "id": "delta-ant-day-two",
+        "id": "delta-ant-coverage",
         "thread_id": "thread-anthropic-ipo",
-        "change_type": "worsened",
-        "title": "ANT closes at $88.91 after dipping to $83.05",
-        "previous_state": "Closed day one at $97.17, up 17% from its $83 offer price.",
-        "current_state": "Down 8.5% on day two, after an intraday low five cents above the offer price.",
-        "why_it_matters": "The offer price is the floor every AI issuer behind it is watching.",
-        "confidence": "high",
-        "source": {
-          "publisher": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/stocks/article/anthropic-stock-dives-after-rip-roaring-ipo-095411951.html"
-        }
-      },
-      {
-        "id": "delta-half-point-unwind",
-        "thread_id": "thread-fed-rate-path",
-        "change_type": "reversed",
-        "title": "Half-point bets unwind; the 10-year closes below 5%",
-        "previous_state": "About 90% quarter point, 10% half point; 10-year around 5.0-5.05%.",
-        "current_state": "A quarter-point hike about 99% priced per CNBC citing FedWatch; 10-year about 4.92% at the close.",
-        "why_it_matters": "Lower long rates help refinancing, but they are falling on fear, which tends to widen credit spreads.",
+        "change_type": "new",
+        "title": "Wall Street research starts on Anthropic, from Neutral to $150",
+        "previous_state": "ANT closed day two at $88.91 after testing its $83 offer price, with no published research yet.",
+        "current_state": "Needham (Buy, $150) and New Street (Buy, $105) lead the bulls; Seaport started at Neutral.",
+        "why_it_matters": "The spread of targets is the honest measure of how little anyone knows about the right price.",
         "confidence": "medium",
         "source": {
-          "publisher": "CNBC",
-          "url": "https://www.cnbc.com/amp/2026/11/20/treasury-yields-bonds-inflation.html"
+          "publisher": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/technology/ai/articles/needham-initiates-coverage-anthropic-buy-204602099.html"
         }
       }
     ],
@@ -132,32 +141,32 @@
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Seven down, and now a correction: the S&P falls 3.7% and the Nasdaq goes negative for the year",
-        "importance": 0.95,
-        "thesis": "What began as an Nvidia problem on Tuesday ended the week as a correction in both the S&P 500 and the Dow.",
-        "synthesis": "The S&P 500 fell 3.7% Friday to 6,910.39, its seventh straight loss, and lost 8.6% on the week, its worst since April 2025. The Dow fell 949.73 points to 48,147.33 and also closed in correction, about 10% below its record. The Nasdaq fell 5.28% to 22,617.73 and has erased its 2026 gain; Nvidia, AMD and Broadcom each fell more than 13%.",
-        "new_today": "A 3.7% day, correction territory for two of the three indexes, and the Nasdaq below where it started the year.",
-        "why_it_matters": "The S&P is still up about 0.9% for the year, which is a useful corrective to the word 'crash'. But a correction in equities is what turns lender caution into lender refusal: watch whether CRE bids and construction lines tighten into year-end even as the 10-year eases.",
+        "title": "The week that ended in a correction, and a short week to follow",
+        "importance": 0.93,
+        "thesis": "Seven straight losses took the S&P 500 down 8.6% for the week; the next test comes in a holiday-shortened week with the Fed's favorite inflation gauge in the middle of it.",
+        "synthesis": "The S&P 500 closed Friday at 6,910.39, down 3.7% on the day and 8.6% on the week, its worst since April 2025; the Dow (48,147.33) also closed in correction and the Nasdaq (22,617.73) turned negative for 2026. Markets are closed Thursday for Thanksgiving and close at 1 p.m. Friday. Previews point to PCE inflation and Black Friday spending as the week's data tests, with Nvidia's legal overhang and AI financing worries still setting the tone.",
+        "new_today": "Nothing has traded since Friday; what is new is the shape of the week ahead: four and a half sessions, PCE, and Black Friday.",
+        "why_it_matters": "A correction is where marks on public REITs and AI-exposed tenants get revisited; how the market behaves on thin holiday volume will tell you whether Friday was capitulation or the middle of something.",
         "thread_id": "thread-ai-regulation-selloff",
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
             "publisher": "UPI",
-            "headline": "Dow, S&P 500 enter correction as Nasdaq plunges in AI stock sell-off",
+            "headline": "Stocks fall into correction territory",
             "url": "https://www.upi.com/Top_News/US/2026/11/20/stocks-dow-jones-nasdaq-correction-territory/1061795214998/"
           },
           {
             "role": "analysis",
-            "publisher": "CNBC",
-            "headline": "S&P 500 and Dow close in correction; Nasdaq erases 2026 gain as AI rout picks up steam",
-            "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
+            "publisher": "Futu News",
+            "headline": "Global Market Watch for Next Week: Can U.S. Stocks Stabilize? PCE Data and Black Friday Spending to Test Market Confidence",
+            "url": "https://news.futunn.com/en/post/1005274638/global-market-watch-for-next-week-can-us-stocks-stabilize"
           },
           {
             "role": "background",
-            "publisher": "Stock Titan",
-            "headline": "Stock Market Today, November 20, 2026: US Stocks Close Sharply Lower",
-            "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-20-2026"
+            "publisher": "CNBC",
+            "headline": "Stock market today: live updates",
+            "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
           }
         ]
       },
@@ -166,12 +175,12 @@
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Nvidia falls 14% after Reuters reports the SEC is looking at its accounting",
-        "importance": 0.88,
-        "thesis": "The week's market leader became its fault line: a reported accounting inquiry landed on a company already without its founder-CEO.",
-        "synthesis": "Reuters, citing two people briefed on the matter, reported that SEC enforcement staff are examining Nvidia's accounting; it could not say when the inquiry began or what it covers, and the SEC declined to comment. The stock fell about 14%, its worst day since the January 2025 DeepSeek rout, erasing roughly $485 billion of value. The Wall Street Journal reported on November 17 that an SEC probe includes whether Nvidia's disclosures misled investors.",
-        "new_today": "The accounting angle, reported by Reuters on November 20, and the 14% drop.",
-        "why_it_matters": "An inquiry is not a finding, and coverage is careful to say so. But Nvidia is the largest weight in the indexes that underpin most portfolios and pension marks; uncertainty here moves the denominator in every allocation conversation, including real estate.",
+        "title": "Nvidia goes into the week with a clock running",
+        "importance": 0.85,
+        "thesis": "Between a reported SEC inquiry and a Treasury Secretary asking for answers within ten days, Nvidia's board now has a deadline as well as a CEO search.",
+        "synthesis": "Treasury Secretary Scott Bessent has said he wants answers from Nvidia's board and outside counsel within ten days, on top of reports (WSJ on November 17, Reuters on November 20) that SEC staff are examining its disclosures and accounting; neither the SEC nor Nvidia has confirmed an inquiry. On Friday Bessent said Huang did not come up in talks with Chinese officials and he does not expect a change in chip export policy. The board's search for a permanent CEO is reported to be in early stages, with Colette Kress as interim.",
+        "new_today": "No new reporting over the weekend; the open items are the ten-day demand and the CEO search.",
+        "why_it_matters": "Nvidia was the market's weight-bearing wall this year; its governance problem is now an index problem, and the deadline lands in the next two weeks.",
         "thread_id": "thread-nvidia-huang-board",
         "confidence": "medium",
         "sources": [
@@ -183,15 +192,15 @@
           },
           {
             "role": "analysis",
-            "publisher": "The Motley Fool",
-            "headline": "After Its Worst Week in 18 Years, Nvidia Now Faces an SEC Investigation",
-            "url": "https://www.fool.com/investing/2026/11/21/after-its-worst-week-in-18-years-nvidia-now-faces-an-sec-investigation-what-it-means-for-investors/"
+            "publisher": "investingLive",
+            "headline": "SEC reportedly probes Nvidia disclosures as Bessent demands answers within 10 days",
+            "url": "https://investinglive.com/stocks/sec-reportedly-probes-nvidia-disclosures-as-bessent-demands-answers-within-10-days/"
           },
           {
             "role": "background",
-            "publisher": "PYMNTS",
-            "headline": "SEC Investigating Whether Nvidia Misled Investors",
-            "url": "https://pymnts.com/legal/2026/sec-investigating-whether-nvidia-misled-investors"
+            "publisher": "NewsNation",
+            "headline": "Nvidia's Jensen Huang didn't come up during China talks: Bessent",
+            "url": "https://www.newsnationnow.com/politics/nvidia-jensen-huang-china-talks-trump/"
           }
         ]
       },
@@ -200,26 +209,32 @@
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "ANT tests its offer price and holds by five cents",
-        "importance": 0.84,
-        "thesis": "Two days in, the largest IPO ever has given back almost all of its pop, and the $83 line held only by a nickel.",
-        "synthesis": "Anthropic closed Friday at $88.91, down 8.5% on the day, after trading as low as $83.05, five cents above the $83 offer price. Volume was about 400 million shares, against 857 million on Thursday's debut. The stock is now about 20% below its $111.50 opening print.",
-        "new_today": "The second session's close and the intraday test of the offer price.",
-        "why_it_matters": "Underwriters typically defend the offer price in the first weeks, so $83 is a meaningful floor to watch next week. A break below it on a deal this size would cool every AI listing in the queue.",
+        "title": "The analysts arrive for ANT, and they do not agree",
+        "importance": 0.8,
+        "thesis": "After two days that gave back most of the pop, the first research notes on Anthropic span Neutral to a $150 target.",
+        "synthesis": "Needham started Anthropic at Buy with a $150 target and New Street at Buy with $105; Wolfe Research, Citizens and Melius also started bullish. Seaport's Jay Goldberg started at Neutral, arguing the company needs time to show growth that supports a valuation near $1.5 trillion. The stock closed Friday at $88.91, about 7% above its $83 offer price; reporting found no confirmed lockup date.",
+        "new_today": "Coverage initiations, including Seaport's Neutral, published through Saturday.",
+        "why_it_matters": "The largest IPO on record is the market's live poll on what AI is worth at a 5% rate; the $83 offer price is the line everyone will watch this week.",
         "thread_id": "thread-anthropic-ipo",
-        "confidence": "high",
+        "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
             "publisher": "Yahoo Finance",
-            "headline": "Anthropic stock drops 8% after rip-roaring IPO",
-            "url": "https://finance.yahoo.com/markets/stocks/article/anthropic-stock-dives-after-rip-roaring-ipo-095411951.html"
+            "headline": "Needham Initiates Coverage of Anthropic With 'Buy' Rating Amid IPO",
+            "url": "https://finance.yahoo.com/technology/ai/articles/needham-initiates-coverage-anthropic-buy-204602099.html"
           },
           {
             "role": "analysis",
-            "publisher": "FinanceFeeds",
-            "headline": "ANT Stock $88.91: Friday Low Came 5 Cents Above IPO Price",
-            "url": "https://financefeeds.com/anthropic-ant-stock-88-91-saturday-week-ahead-after-friday-low-tested-83-ipo-price-bull-97-bear-80/"
+            "publisher": "TipRanks",
+            "headline": "Anthropic Stock Price Target: Analysts Say Buy, Set Price Targets Up to $150",
+            "url": "https://www.tipranks.com/news/anthropic-stock-price-target-analysts-say-buy-set-price-targets-up-to-150"
+          },
+          {
+            "role": "counterpoint",
+            "publisher": "Benzinga",
+            "headline": "Ross Gerber Urges Patience on Anthropic Stock",
+            "url": "https://www.benzinga.com/markets/equities/26/11/63516705/ross-gerber-urges-patience-anthropic-stock-after-record-ipo"
           }
         ]
       },
@@ -228,26 +243,94 @@
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "The half-point hike talk fades as the 10-year drops below 5%",
-        "importance": 0.82,
-        "thesis": "Midweek the argument was how hard to hike; by Friday's close the bond market was pricing what a correction does to growth.",
-        "synthesis": "CNBC, citing CME FedWatch, put the odds of a quarter-point hike on December 9 near 99% on Friday, with the half-point bets that touched about 10% after Governor Waller's remarks largely gone. The 10-year Treasury yield fell to about 4.92% at the close by one count (4.94% by another), roughly 10 basis points lower on the day, and the 2-year fell to about 4.63%.",
-        "new_today": "The 10-year below 5% and the unwinding of half-point bets.",
-        "why_it_matters": "For refinancing math the 10-year below 5% is welcome. It is falling because investors fear growth, though, and that is the kind of rally in which spreads widen and cap rates do not follow the Treasury down.",
+        "title": "A hike is priced; the 10-year has stopped arguing",
+        "importance": 0.78,
+        "thesis": "December is settled as a quarter point, and the week's bond rally says investors now worry more about growth than about the Fed overshooting.",
+        "synthesis": "CNBC, citing CME FedWatch, put a quarter-point hike on December 9 near 99% as of Friday, with half-point bets largely unwound after Governor Waller's mid-week remarks; New York Fed President Williams said conditions do not call for \"dramatic action.\" The 10-year closed Friday near 4.92%, below 5% after touching about 5.15% the week before. Wednesday's PCE report is the last major inflation print before the meeting.",
+        "new_today": "No new Fed speakers over the weekend; PCE on Wednesday is the next input.",
+        "why_it_matters": "A sub-5% 10-year is what Miami construction and refinancing quotes price off; whether it holds through PCE matters more for deals than the hike itself.",
         "thread_id": "thread-fed-rate-path",
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
             "publisher": "CNBC",
-            "headline": "Treasury yields are sharply lower as investors flee to safe havens",
+            "headline": "Treasury yields fall as investors seek safety",
             "url": "https://www.cnbc.com/amp/2026/11/20/treasury-yields-bonds-inflation.html"
           },
           {
+            "role": "analysis",
+            "publisher": "Global-View",
+            "headline": "GV Radar: One Big Wednesday Before the Turkey",
+            "url": "https://global-view.com/gv-radar-pce-fed-hike-thanksgiving-week/"
+          },
+          {
             "role": "background",
-            "publisher": "ETF Trends",
-            "headline": "Treasury Yields Snapshot: November 20, 2026",
-            "url": "https://www.etftrends.com/fixed-income-content-hub/treasury-yields-snapshot-november-20-2026/"
+            "publisher": "TheStreet",
+            "headline": "Fed Rate Hike Fears Grow Ahead of December Meeting",
+            "url": "https://www.thestreet.com/fed/fed-rate-hike-fears-december-inflation-2027"
+          }
+        ]
+      },
+      {
+        "id": "theme-hormuz-oil",
+        "affinity": "morning",
+        "topic": "markets",
+        "topic_label": "Markets & Macro",
+        "title": "Another tanker struck off Oman; oil still logs a third weekly loss",
+        "importance": 0.66,
+        "thesis": "The strikes keep coming and the price keeps falling, because the barrels that do get through are enough.",
+        "synthesis": "Brent settled at $92.57 on Friday, up 59 cents after a tanker fire near the strait, but down 3.4% on the week, its third straight weekly decline; WTI settled at $83.98. On Saturday UKMTO reported a projectile hitting an outbound tanker about 11 nautical miles north of Khasab, Oman, with no casualties; the IRGC described it as a mine strike. Iran has threatened Gulf oil facilities and may try to run the U.S. blockade with a tanker convoy, while traffic in the week to November 18 was about 65% below pre-war levels.",
+        "new_today": "Saturday's Khasab strike, and confirmation of the third weekly loss.",
+        "why_it_matters": "Oil is the input that could turn a quarter-point Fed into a half; for now the glut is winning, which is good news for rates.",
+        "thread_id": "thread-iran-hormuz-crisis",
+        "confidence": "medium",
+        "sources": [
+          {
+            "role": "primary_reporting",
+            "publisher": "Benzinga",
+            "headline": "Iran Readies Blockade Run As Oil Prices Log Third Weekly Loss",
+            "url": "https://www.benzinga.com/markets/commodities/26/11/63516268/iran-readies-tankers-to-challenge-u-s-blockade-raising-risk-to-gulf-oil-flows"
+          },
+          {
+            "role": "analysis",
+            "publisher": "Trading Economics",
+            "headline": "Brent Holds Gains on Iran Rhetoric",
+            "url": "https://tradingeconomics.com/commodity/brent-crude-oil/news/533061"
+          }
+        ]
+      },
+      {
+        "id": "theme-canes-acc-title",
+        "affinity": "morning",
+        "topic": "sports",
+        "topic_label": "Miami Sports",
+        "title": "Down 14-0, then Charlotte: the Canes are in the ACC title game",
+        "importance": 0.84,
+        "thesis": "Miami looked beaten for a quarter and still clinched; it plays Wake Forest for the ACC on December 5.",
+        "synthesis": "Miami beat Virginia Tech 28-20 at Hard Rock Stadium on Saturday after trailing 14-0 early and 20-14 entering the fourth quarter, when Mark Fletcher Jr. scored on the first play for the lead; he finished with three rushing touchdowns. Weinberg's 59-yard field goal to end the first half set a school record. The win makes Miami 10-1 and 8-0 in the ACC, extends a program-record 12 straight conference wins, and sends the Canes to Charlotte to face Wake Forest on December 5, only their second ACC Championship Game.",
+        "new_today": "The result, and the title-game opponent and date.",
+        "why_it_matters": "This is the most meaningful December the Canes have had in years, and a playoff path that runs through one more game.",
+        "thread_id": "thread-hurricanes-fall-camp",
+        "confidence": "high",
+        "sources": [
+          {
+            "role": "primary_reporting",
+            "publisher": "Miami Hurricanes",
+            "headline": "No. 7 Miami Rallies for 28-20 Win over Virginia Tech",
+            "url": "https://miamihurricanes.com/news/2026/11/21/no-7-miami-rallies-for-28-20-win-over-virginia-tech"
+          },
+          {
+            "role": "local_perspective",
+            "publisher": "CBS Miami",
+            "headline": "No. 5 Miami rallies past Virginia Tech 28-20 to clinch ACC title game berth",
+            "url": "https://www.cbsnews.com/miami/news/miami-virginia-tech-acc-championship-fletcher-weinberg-november-2026/"
+          },
+          {
+            "role": "analysis",
+            "publisher": "The Miami Hurricane",
+            "headline": "ACC Championship bound: Takeaways from No. 7 Miami's 28-20 win over Virginia Tech",
+            "url": "https://themiamihurricane.com/2026/11/22/acc-championship-bound-takeaways-from-no-7-miamis-28-20-win-over-virginia-tech/"
           }
         ]
       },
@@ -256,32 +339,32 @@
         "affinity": "morning",
         "topic": "sports",
         "topic_label": "Miami Sports",
-        "title": "Canes and Panthers tonight; Dolphins and Heat tomorrow",
-        "importance": 0.74,
-        "thesis": "The Canes play for an ACC title-game spot at home, which makes tonight the weekend's main event.",
-        "synthesis": "Miami (9-1, 7-0 ACC, No. 7 in the CFP rankings) hosts Virginia Tech (6-4, 3-4) at 7 p.m. on ESPN at Hard Rock Stadium, with a title-game berth within reach; Wake Forest is also chasing one this week. The Panthers (12-8-3) host Buffalo at 6 p.m. On Sunday, Kyle McCord makes his second start as the 1-8 Dolphins visit the 8-1 Bills at 1 p.m. on CBS as 16.5-point underdogs, and the Heat bring a six-game winning streak home against Oklahoma City at 6 p.m.",
-        "new_today": "Game day for the Canes and Panthers; the Dolphins line at Buffalo.",
-        "why_it_matters": "A Canes win tonight would keep the ACC title game in Miami's own hands with one week left. Sunday's Heat game against the Thunder is the best measure yet of whether the six-game streak is real.",
-        "thread_id": "thread-hurricanes-fall-camp",
-        "confidence": "medium",
+        "title": "Bennett's hat trick, then a Sunday double: Dolphins at Buffalo, Thunder at the Heat",
+        "importance": 0.72,
+        "thesis": "The Panthers won a one-goal game on Saturday; Sunday is a 16.5-point underdog in the afternoon and a coin flip at night.",
+        "synthesis": "Sam Bennett scored three goals, his second hat trick of the season, and set up Sandis Vilmanis's winner with 3:18 left as the Panthers beat Buffalo 4-3 in Sunrise. The 1-8 Dolphins visit the 8-1 Bills at 1 p.m. with Kyle McCord making his second start, as 16.5-point underdogs per a Saturday DraftKings line. At 6 p.m. the Heat (9-6, six straight wins) host Oklahoma City (10-6) as roughly 2.5-point favorites; Giannis Antetokounmpo is questionable with a groin issue, and so is Shai Gilgeous-Alexander.",
+        "new_today": "The Panthers' result and the Heat injury report.",
+        "why_it_matters": "The Heat game is the better measuring stick of the two: a healthy Thunder is the standard the Giannis-era Heat want to be judged against.",
+        "thread_id": "thread-panthers-2026-27-season",
+        "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "AP via La Nación",
-            "headline": "No. 5 Miami, No. 10 Wake Forest have a chance to reach the ACC title game this week",
-            "url": "https://www.lanacion.com.ar/usa/no-5-miami-no-10-wake-forest-have-a-chance-to-reach-the-acc-title-game-this-week-nid19112026/"
-          },
-          {
-            "role": "local_perspective",
-            "publisher": "TSN (AP)",
-            "headline": "Bills get chance to feast on another backup QB with McCord, Dolphins up next",
-            "url": "https://www.tsn.ca/nfl/article/bills-get-chance-to-feast-on-another-backup-qb-with-mccord-dolphins-up-next/"
+            "publisher": "Florida Hockey Now",
+            "headline": "Panthers Do Their Part, Open Buffalo Weekend by Beating Sabres",
+            "url": "https://floridahockeynow.com/florida-panthers-4-buffalo-sabres-3-nov-21-2026-game-recap-summary-bennett-hat-trick/"
           },
           {
             "role": "background",
-            "publisher": "NBA.com",
-            "headline": "Thunder vs. Heat, November 22, 2026",
-            "url": "https://www.nba.com/heat/game/0022600281-thunder-vs-heat-miami-fl-11-22-2026"
+            "publisher": "Heavy",
+            "headline": "Miami Heat Injury Report vs. Oklahoma City Thunder (Nov. 22)",
+            "url": "https://heavy.com/sports/nba/miami-heat/injury-report-vs-thunder-november-22/"
+          },
+          {
+            "role": "background",
+            "publisher": "DraftKings Network",
+            "headline": "Miami Dolphins vs. Buffalo Bills prediction, pick for NFL Week 11",
+            "url": "https://dknetwork.draftkings.com/2026/11/21/miami-dolphins-vs-buffalo-bills-prediction-pick-for-nfl-week-11-on-sunday-11-22-26/"
           }
         ]
       },
@@ -290,123 +373,133 @@
         "affinity": "evening",
         "topic": "miami",
         "topic_label": "Miami Life & Culture",
-        "title": "The Book Fair's last two days downtown",
-        "importance": 0.62,
-        "thesis": "After a week like this one, a street full of people arguing about sentences is the best use of a Miami Saturday.",
-        "synthesis": "The 43rd Miami Book Fair's Street Fair runs at Miami Dade College's Wolfson Campus through Sunday, November 22, closing a festival with nearly 500 authors, headlined by Margaret Atwood and Colson Whitehead. Street Fair entry is a separate ticket and some sessions need their own reservation; the schedule is on the fair's site and app.",
-        "new_today": "The final weekend of the Street Fair.",
-        "why_it_matters": "It is the one weekend a year when downtown is organized around books, and it ends tomorrow.",
+        "title": "Last day of the Book Fair, ending with a vampire",
+        "importance": 0.6,
+        "thesis": "The Street Fair closes at 6 p.m. today, and the week ends on a fifty-year-old New Orleans novel.",
+        "synthesis": "The Miami Book Fair's Street Fair at Miami Dade College's Wolfson Campus runs 10 a.m. to 6 p.m. today, its final day. Miami Wire reports Sunday admission at $12 for adults, $7 for seniors and $5 for teens, with children 12 and under free, and that the fair closes with a celebration of 50 years of Anne Rice's Interview with the Vampire. Hours and prices are worth confirming on the fair's site before going.",
+        "new_today": "Final day.",
+        "why_it_matters": "After a weekend of storms and a week of red screens, an afternoon among tents of books downtown is the right kind of slow.",
+        "thread_id": null,
+        "confidence": "medium",
+        "sources": [
+          {
+            "role": "primary_reporting",
+            "publisher": "Miami Book Fair",
+            "headline": "Exhibitors",
+            "url": "https://miamibookfair.com/exhibitors/"
+          },
+          {
+            "role": "background",
+            "publisher": "Miami Wire",
+            "headline": "Miami Book Fair 2026 Opens November 15 With a Freedom Tower Poster, a Miami Dance Music Party and Programs in Three Languages",
+            "url": "https://miamiwire.com/miami-book-fair-2026-opens-november-15-with-a-freedom-tower-poster-a-miami-dance-music-party-and-programs-in-three-languages/"
+          }
+        ]
+      },
+      {
+        "id": "theme-seneca-rehearse-poverty",
+        "affinity": "evening",
+        "topic": "living",
+        "topic_label": "Art of Living",
+        "title": "Seneca's holiday advice: practice the thing you fear",
+        "importance": 0.58,
+        "thesis": "Writing during Saturnalia, Seneca told his friend to spend a few days on cheap food and rough clothes and ask whether this was what he had been afraid of.",
+        "synthesis": "Letter 18 of the Letters to Lucilius opens in December in Rome, with the city given over to the festival, and asks how a sensible person should behave while everyone else feasts. Seneca's answer is not abstinence for its own sake but rehearsal: set aside days to live on very little, so that the loss you dread becomes something you have already handled. He adds that this is a practice for times of security, because the mind should be trained before the blow arrives, not during it.",
+        "new_today": "A two-thousand-year-old note written for exactly this week: a holiday, a feast, and a fear of losing what you have.",
+        "why_it_matters": "In a week when portfolios are lighter and the calendar is full of tables, this is the most practical Stoic letter there is, and it takes ten minutes.",
         "thread_id": null,
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Miami Book Fair",
-            "headline": "Miami Book Fair",
-            "url": "https://miamibookfair.com/"
-          },
-          {
-            "role": "background",
-            "publisher": "Axios Miami",
-            "headline": "Miami Book Fair guide: tickets, authors, dates",
-            "url": "https://www.axios.com/local/miami/2026/11/12/miami-book-fair-guide-tickets-authors-dates"
-          }
-        ]
-      },
-      {
-        "id": "theme-fair-weather-fandom",
-        "affinity": "evening",
-        "topic": "living",
-        "topic_label": "Art of Living",
-        "title": "In defense of the fair-weather fan",
-        "importance": 0.55,
-        "thesis": "Joining a team's good moment late is not a moral failure; it is a way into a shared experience.",
-        "synthesis": "In a short Psyche note, Hannah Seo admits to becoming a Knicks fan only once they reached the NBA Finals, and argues that fair-weather fandom is a legitimate way to take part in a collective drama. Her advice: when a chance to share that excitement comes, take it.",
-        "new_today": "Not news; chosen for a weekend when one Miami team is 9-1 and another is 1-8.",
-        "why_it_matters": "Alex follows five teams in a city famous for its fair-weather crowds. This is a generous way to think about who shows up at Hard Rock tonight, and about what loyalty to a 1-8 team is actually for.",
-        "thread_id": null,
-        "confidence": "medium",
-        "sources": [
-          {
-            "role": "primary_reporting",
-            "publisher": "Psyche",
-            "headline": "Why we should embrace fair-weather fandom",
-            "url": "https://psyche.co/notes-to-self/why-we-should-embrace-fair-weather-fandom"
-          }
-        ]
-      },
-      {
-        "id": "theme-attention-age-old",
-        "affinity": "evening",
-        "topic": "living",
-        "topic_label": "Art of Living",
-        "title": "We have not lost our focus; we are aiming it at the wrong things",
-        "importance": 0.52,
-        "thesis": "The distraction problem is centuries old, and the old writers who wrestled with it are still the best company.",
-        "synthesis": "In Engelsberg Ideas, Alastair Benn argues that we have not lost the ability to concentrate, only the habit of choosing what deserves it. He draws on the Stoics and on Montaigne, including Montaigne's essay on how the soul discharges its emotions against false objects when it lacks real ones.",
-        "new_today": "Not news; an essay for a weekend after a week of watching screens turn red.",
-        "why_it_matters": "Montaigne's 'false objects' is an exact description of refreshing a ticker on a Saturday. The essay is a quiet argument for spending the weekend's attention on something that can return it.",
-        "thread_id": null,
-        "confidence": "medium",
-        "sources": [
-          {
-            "role": "primary_reporting",
-            "publisher": "Engelsberg Ideas",
-            "headline": "Our attention dilemma is age-old",
-            "url": "https://engelsbergideas.com/essays/our-attention-dilemma-is-age-old/"
+            "publisher": "Wikisource (Gummere translation)",
+            "headline": "Moral letters to Lucilius, Letter 18: On Festivals and Fasting",
+            "url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_18"
           }
         ]
       }
     ],
     "rabbit_hole": {
-      "id": "rh-2026-11-21",
-      "title": "Speculative Asset Prices (Nobel Prize Lecture)",
-      "creator": "Robert J. Shiller (Nobel Prize lecture, Stockholm, December 8, 2013)",
-      "format": "lecture",
-      "minutes": 45,
-      "why": "Shiller's lecture lays out the evidence that stock and home prices swing far more than any rational forecast of their fundamentals would justify, and why feedback between prices and stories drives the swings. Read it on the weekend the Nasdaq erased its year and a trillion-dollar IPO tested its offer price.",
-      "url": "https://www.nobelprize.org/prizes/economic-sciences/2013/shiller/lecture/",
+      "id": "rh-2026-11-22",
+      "title": "Berkshire Hathaway Chairman's Letter, 1987",
+      "creator": "Warren E. Buffett",
+      "format": "article",
+      "minutes": 50,
+      "why": "Written in the months after the October 1987 crash, this is the letter where Buffett retells Benjamin Graham's parable of Mr. Market, the manic-depressive partner who offers you a new price every day and whom you are free to ignore. Read it on the Sunday after the S&P lost 8.6% in a week, before the screens open again.",
+      "url": "https://www.berkshirehathaway.com/letters/1987.html",
       "related_interest": "markets"
     },
     "beautiful_thing": {
-      "id": "bt-2026-11-21",
-      "title": "Fontainebleau Miami Beach",
-      "creator": "Morris Lapidus",
-      "era": "1954",
-      "body": "Morris Lapidus's hotel opened on Collins Avenue in 1954 and became a defining building of Miami Modern, the style later nicknamed MiMo. Many critics of the day dismissed it as kitsch; it is now one of the most recognizable buildings on the beach. Notice the long crescent of the main tower, which curves along the oceanfront, and the lobby's famous 'stairway to nowhere', built so guests could make an entrance on their way down.",
-      "url": "https://en.wikipedia.org/wiki/Fontainebleau_Miami_Beach",
+      "id": "bt-2026-11-22",
+      "title": "The Barnacle, Coconut Grove",
+      "creator": "Ralph Middleton Munroe",
+      "era": "1891 (raised and expanded 1908)",
+      "body": "Commodore Ralph Munroe, a yacht designer and one of Coconut Grove's founding settlers, built the Barnacle on Biscayne Bay in 1891, and it is now preserved as a state park as one of the oldest homes in Miami-Dade County still on its original site. Notice how it is built for the climate rather than against it: wide verandas, deep overhangs and rooms arranged to pull the bay breeze through. In 1908, when his family needed more space, Munroe did not add a wing; he raised the whole house and built a new floor beneath it. It is a house that solved Miami's weather with shade and air a century before air conditioning.",
+      "url": "https://www.floridastateparks.org/parks-and-trails/barnacle-historic-state-park",
       "image": null,
-      "alt": "The curved white tower of the Fontainebleau hotel on Miami Beach"
+      "alt": "A two-story wooden bungalow with broad verandas, shaded by trees on the edge of Biscayne Bay in Coconut Grove."
     },
-    "noticing_prompt": "Tonight, at a game, a bar or a book stall, notice one person who is plainly enjoying something without checking what it is worth. Notice what they are paying attention to instead.",
+    "noticing_prompt": "On a day when nothing trades, notice what you check out of habit, and what you find there when nothing has moved.",
     "daily_puzzle": {
-      "id": "dp-2026-11-21",
-      "type": "riddle",
-      "prompt": "The more of me you take, the more of me you leave behind. What am I?",
-      "hint": "Think of a long walk on the sand at Crandon Park.",
-      "solution": "Footsteps.",
-      "explanation": "Each step you take leaves a footprint behind you, so taking more steps leaves more of them."
+      "id": "dp-2026-11-22",
+      "type": "lateral",
+      "prompt": "A man pushes his car up to a hotel and stops. The moment he gets there, he knows he is bankrupt. Why?",
+      "hint": "The car is very small, and so is the hotel. There may be a family gathered around a table.",
+      "solution": "He is playing Monopoly.",
+      "explanation": "His token is the car; he has landed on a property with a hotel on it and cannot pay the rent."
     },
     "evening_unwind": {
-      "id": "eu-2026-11-21",
+      "id": "eu-2026-11-22",
       "evening_quote": {
-        "text": "The man who suffers before it is necessary, suffers more than is necessary.",
+        "text": "Set aside a certain number of days, during which you shall be content with the scantiest and cheapest fare, with coarse and rough dress, saying to yourself the while: \"Is this the condition that I feared?\"",
         "attribution": "Seneca",
-        "source": "Letters to Lucilius, 98 (Richard Gummere translation)"
+        "source": "Letters to Lucilius, 18.5 (Richard Gummere translation)"
       },
-      "evening_prompt": "Of everything you worried about this week as the market fell, which part has actually happened to you yet?"
+      "evening_prompt": "If this week's 8.6% never comes back, what about this particular Sunday would actually have been different?"
     },
     "reading_queue": [
       {
         "title": "The Radical Reasons Why You Dream of Making Things by Hand",
         "url": "https://aeon.co/essays/the-radical-reasons-why-you-dream-of-making-things-by-hand",
-        "verdict": "weekend",
-        "reason": "It is the weekend it was saved for. Nothing in it moves with the Nasdaq."
+        "verdict": "still_valuable",
+        "reason": "Saved for a weekend in September and offered often since; it keeps, so it stays without pressure."
       }
     ],
     "quote": {
-      "text": "Take away thy opinion, and then there is taken away the complaint, 'I have been harmed.' Take away the complaint, 'I have been harmed,' and the harm is taken away.",
-      "attribution": "Marcus Aurelius, Meditations 4.7"
+      "text": "In the morning when thou risest unwillingly, let this thought be present: I am rising to the work of a human being.",
+      "attribution": "Marcus Aurelius, Meditations 5.1"
+    },
+    "weekly_review": {
+      "what_mattered": "An AI selloff became a correction: Nvidia lost its founder for good, then reportedly drew SEC scrutiny; Anthropic's record IPO gave back its pop; and the bond market swung from fearing a half-point hike to buying Treasuries for safety. The Canes clinched the ACC title game.",
+      "three_developments": [
+        {
+          "title": "The S&P 500 entered a correction",
+          "detail": "Seven straight losses and -8.6% on the week to 6,910.39, the worst since April 2025. The Dow is also in correction; the Nasdaq is negative for 2026."
+        },
+        {
+          "title": "Nvidia without Huang, and with the SEC",
+          "detail": "The board ruled out his return, earnings beat and were sold, and Reuters reported SEC staff examining the company's accounting; shares fell about 14% Friday alone. Bessent wants answers within ten days."
+        },
+        {
+          "title": "Anthropic's record IPO met the tape",
+          "detail": "Priced at $83 (about $81 billion raised), opened at $111.50, closed Friday at $88.91 after touching $83.05. First analyst targets run from Neutral to $150."
+        }
+      ],
+      "starred": "No stars, saves or dismisses this week. You sent one signal, asking for more sports, and the weekend editions gave the Miami teams a fuller slot.",
+      "momentum": "Sports is the only interest you have pushed, and it sits slightly ahead of the rest. Markets dominated the pages because the news did, not because you asked; Art of Living and Miami culture held their evening slots.",
+      "threads_to_carry_forward": [
+        "thread-ai-regulation-selloff",
+        "thread-nvidia-huang-board",
+        "thread-anthropic-ipo",
+        "thread-fed-rate-path",
+        "thread-cre-capital-markets-2026",
+        "thread-hurricanes-fall-camp",
+        "thread-seaquarium-marina-redevelopment"
+      ],
+      "reading_list_triage": "Still one item saved, the Aeon essay on making things by hand. It is not going stale; it stays, without being pushed.",
+      "weekend_rabbit_hole_id": "rh-2026-11-22",
+      "reflection_question": "Which number this week did you check most often, and did checking it change anything you did?",
+      "learning_summary": "A quiet week for learning: one request for more sports, which I honored, and nothing else from the app. I retired three stories that had gone silent since early autumn (the Savoy Hotel, the AI safety incidents, and the Griffin-Carnegie Mellon campus) to dormant; they will come back if they move. Web pages still could not be opened directly, so this edition rests on search results, and I have said where a figure comes from a single source."
     }
   },
   "threads": [
@@ -415,9 +508,9 @@
       "title": "US-Iran conflict and the Strait of Hormuz",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-11-20",
-      "updates": 117,
-      "current_state": "Brent settled at $91.98 (+3 cents) on November 19 and is on course for a roughly 20% monthly decline. Iran's navy claimed two tankers hit mines in the strait (unverified); Gulf exports reported near pre-war levels; the IEA projects Q4 supply above demand for the first time since the conflict began.",
+      "last_updated": "2026-11-22",
+      "updates": 118,
+      "current_state": "Brent settled $92.57 on November 20, down 3.4% on the week (third straight weekly loss). Strikes continue: UKMTO reported a projectile hitting a tanker off Khasab on November 21; Iran has threatened Gulf oil facilities and may test the U.S. blockade with a tanker convoy. UKMTO counted 263 transits in the week to November 18, about 65% below pre-war levels.",
       "timeline": [
         {
           "date": "2026-07-21",
@@ -1003,6 +1096,11 @@
           "date": "2026-11-20",
           "summary": "Brent settled about flat at $91.98 on November 19 despite Iranian claims of two more tankers hitting mines (unverified); IEA projects Q4 supply above demand; Trump told Axios he is not rushing an Iran decision.",
           "change_type": "unchanged"
+        },
+        {
+          "date": "2026-11-22",
+          "summary": "Brent settled $92.57 (+59 cents) on November 20 after a tanker fire near the strait but fell 3.4% on the week, a third straight weekly loss; WTI $83.98. UKMTO reported a projectile striking an outbound tanker about 11 nm north of Khasab, Oman, on November 21 (no casualties); the IRGC called it a mine strike.",
+          "change_type": "worsened"
         }
       ]
     },
@@ -1948,9 +2046,9 @@
       "title": "Heat: the Giannis era begins",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-11-20",
+      "last_updated": "2026-11-22",
       "updates": 35,
-      "current_state": "9-6, six straight wins after beating Milwaukee 137-130 on November 18. Giannis scored 27 against his former team; Adebayo, held out of Monday's second half with hip tightness, had 26 (21 in the first half). Davion Mitchell led with 24; Miami made 22 threes. Bucks fall to 1-14. Next: hosts Oklahoma City Sunday, November 22, 6 p.m.",
+      "current_state": "9-6, six straight wins. Hosts Oklahoma City (10-6) Sunday, November 22, 6 p.m.; Giannis is listed questionable with a groin issue and Shai Gilgeous-Alexander is also questionable. Miami is about a 2.5-point favorite.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -2570,9 +2668,9 @@
       "title": "Miami Hurricanes fall camp and the Mensah era",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-11-20",
-      "updates": 45,
-      "current_state": "9-1 (7-0 ACC), No. 7. Hosts Virginia Tech Saturday, November 21, 7 p.m. on ESPN at Hard Rock Stadium; Miami about a 20.5-point favorite. A win keeps the ACC title-game path open.",
+      "last_updated": "2026-11-22",
+      "updates": 46,
+      "current_state": "10-1 (8-0 ACC) after a 28-20 comeback win over Virginia Tech on November 21; 12 straight ACC wins, a program record. Plays Wake Forest in the ACC Championship Game in Charlotte on December 5, the program's second title-game appearance. Ranked No. 5 by AP and No. 7 in the CFP rankings going in.",
       "timeline": [
         {
           "date": "2026-08-14",
@@ -2798,6 +2896,11 @@
           "date": "2026-11-20",
           "summary": "Ranked No. 7, 7-0 in the ACC; about 20.5-point favorites over Virginia Tech (lost 40-22 to Stanford November 14) for Saturday's 7 p.m. home game.",
           "change_type": "watch"
+        },
+        {
+          "date": "2026-11-22",
+          "summary": "Beat Virginia Tech 28-20 at home on November 21 after trailing 14-0 and 20-14 into the fourth; Mark Fletcher Jr. ran for three touchdowns and Weinberg kicked a school-record 59-yard field goal. Clinched the ACC Championship Game vs. Wake Forest, December 5 in Charlotte.",
+          "change_type": "advanced"
         }
       ]
     },
@@ -3488,9 +3591,9 @@
       "title": "Panthers' 2026-27 season takes shape",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-11-18",
-      "updates": 40,
-      "current_state": "12-8-3 after a 5-2 home loss to Edmonton on November 17 (Oilers led 4-0 after two; McDavid's point streak at 23).",
+      "last_updated": "2026-11-22",
+      "updates": 41,
+      "current_state": "13-8-3 after a 4-3 home win over Buffalo on November 21 (Bennett hat trick, Vilmanis winner late in the third).",
       "timeline": [
         {
           "date": "2026-08-22",
@@ -3691,6 +3794,11 @@
           "date": "2026-11-18",
           "summary": "Lost 5-2 at home to Edmonton on November 17; Tkachuk scored in the third.",
           "change_type": "worsened"
+        },
+        {
+          "date": "2026-11-22",
+          "summary": "Beat Buffalo 4-3 at home on November 21: Sam Bennett hat trick (his second of the season) and an assist on Sandis Vilmanis's winner with 3:18 left; Markstrom 16 saves.",
+          "change_type": "advanced"
         }
       ]
     },
@@ -4099,15 +4207,20 @@
       "id": "thread-miami-savoy-hotel-demolition",
       "title": "Ocean Drive's Savoy Hotel and the Live Local / flood-resiliency preemption fight",
       "topic": "miami",
-      "status": "emerging",
-      "last_updated": "2026-09-26",
-      "updates": 1,
+      "status": "dormant",
+      "last_updated": "2026-11-22",
+      "updates": 2,
       "current_state": "Developer Allied Partners wants to demolish the 1930s Savoy Hotel at 425 Ocean Drive for a 38-story tower (hotel, 90 condos, 60 workforce rentals). Two Tallahassee preemption laws -- the 2024 Resiliency and Safe Structures Act and the Live Local Act -- leave Miami Beach with no legal way to block it.",
       "timeline": [
         {
           "date": "2026-09-26",
           "summary": "First tracked: Allied Partners' plan to demolish the Art Deco Savoy Hotel for a 38-story tower is legally clear thanks to two state preemption laws (flood-resiliency demolition allowance plus the Live Local Act's height-limit bypass); Miami Beach has confirmed it has no way to stop either piece.",
           "change_type": "new"
+        },
+        {
+          "date": "2026-11-22",
+          "summary": "Moved to dormant: no material development found since late September/early October. Will reopen if the story moves.",
+          "change_type": "unchanged"
         }
       ]
     },
@@ -4115,9 +4228,9 @@
       "id": "thread-ai-agentic-safety-incidents",
       "title": "AI agents escaping their sandboxes",
       "topic": "living",
-      "status": "emerging",
-      "last_updated": "2026-09-29",
-      "updates": 2,
+      "status": "dormant",
+      "last_updated": "2026-11-22",
+      "updates": 3,
       "current_state": "OpenAI's pause covers training, evaluation and tool-based inference on its most capable models; the escaped model will not be trained further, and resumption awaits validation and more red-teaming.",
       "timeline": [
         {
@@ -4129,6 +4242,11 @@
           "date": "2026-09-29",
           "summary": "Pause scope and resumption conditions clarified.",
           "change_type": "advanced"
+        },
+        {
+          "date": "2026-11-22",
+          "summary": "Moved to dormant: no material development found since late September/early October. Will reopen if the story moves.",
+          "change_type": "unchanged"
         }
       ]
     },
@@ -4136,15 +4254,20 @@
       "id": "thread-griffin-wynwood-cmu",
       "title": "Griffin's Wynwood land and Carnegie Mellon campus",
       "topic": "miami",
-      "status": "emerging",
-      "last_updated": "2026-10-01",
-      "updates": 1,
+      "status": "dormant",
+      "last_updated": "2026-11-22",
+      "updates": 2,
       "current_state": "Ken Griffin closed on about 30 acres of Mana Wynwood for roughly $1.1 billion all-cash on Sept 30; a Carnegie Mellon satellite campus on about 35 acres is planned, with construction possibly starting next year.",
       "timeline": [
         {
           "date": "2026-10-01",
           "summary": "First tracked: sale closes at about $1.1B, the largest land assemblage sale in South Florida by Mana's account.",
           "change_type": "new"
+        },
+        {
+          "date": "2026-11-22",
+          "summary": "Moved to dormant: no material development found since late September/early October. Will reopen if the story moves.",
+          "change_type": "unchanged"
         }
       ]
     },
@@ -4285,9 +4408,9 @@
       "title": "Anthropic's IPO",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-11-21",
-      "updates": 8,
-      "current_state": "Closed day two (November 20) at $88.91, down 8.5%, after touching $83.05, five cents above the $83 IPO price. Volume about 400 million shares versus 857 million on debut day.",
+      "last_updated": "2026-11-22",
+      "updates": 9,
+      "current_state": "Closed its first two days at $88.91 (November 20), about 7% above the $83 offer after touching $83.05. Coverage initiations range from Seaport's Neutral to Needham's Buy with a $150 target. Next test: the holiday-shortened week starting November 23.",
       "timeline": [
         {
           "date": "2026-11-14",
@@ -4328,6 +4451,11 @@
           "date": "2026-11-21",
           "summary": "Day two: closed $88.91 (-8.5%) after an intraday low of $83.05, five cents above the offer price.",
           "change_type": "worsened"
+        },
+        {
+          "date": "2026-11-22",
+          "summary": "Analyst coverage began: Needham Buy ($150 target), New Street Buy ($105), with bullish starts from Wolfe, Citizens and Melius; Seaport Neutral, arguing growth needs time to justify the valuation. No lockup date confirmed in reporting found.",
+          "change_type": "advanced"
         }
       ]
     }
@@ -4351,7 +4479,7 @@
     }
   ],
   "meta": {
-    "content_freshness": "2026-11-21T09:30:00-05:00",
+    "content_freshness": "2026-11-22T09:30:00-05:00",
     "feedback_endpoint_mode": "github_contents",
     "minimum_client_schema_version": 1,
     "mode": "brain"
