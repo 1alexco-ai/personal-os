@@ -1,171 +1,225 @@
 {
   "schema_version": 2,
   "edition": {
-    "id": "2026-11-23",
-    "date": "2026-11-23",
+    "id": "2026-11-24",
+    "date": "2026-11-24",
     "type": "weekday",
-    "generated_at": "2026-11-23T09:30:00-05:00",
+    "generated_at": "2026-11-24T09:30:00-05:00",
     "timezone": "America/New_York",
     "title": "Personal OS",
     "front_page_letter": {
       "greeting": "Good morning",
       "body_paragraphs": [
-        "Good morning. Monday, November 23, the start of a short week.",
-        "The market got the weekend it needed. After seven straight losses and the worst week since April 2025, futures opened Sunday night up about 2% for the S&P and closer to 3% for the Nasdaq. That is a bounce in futures, not a turn, and the week gives it two quick tests. On Wednesday, October PCE lands at 8:30, and the same day Nvidia's board hits the end of the ten-day window Treasury gave it to explain how its chips reached China. A soft print and a clean answer could make Friday look like a flush. Anything else could turn it into a first leg down.",
-        "The risk the market is ignoring is oil. CNN counts more attacks on Hormuz shipping than at any point in the war, yet Brent has fallen three weeks running. Inflation is what the Fed is hiking against, and energy feeds straight into it.",
-        "At home, the Heat won their seventh straight without Giannis, on Bam's triple-double. The Dolphins scored nine points in Buffalo and are 1-9.",
-        "Worth your attention: Wednesday morning, not this morning."
+        "Good morning. Tuesday, November 24.",
+        "Nvidia's board did on Monday what its chair said last Wednesday it would not do: it brought Jensen Huang back. The stock rose about 31%, the S&P 4.7% and the Nasdaq 6.5%, the best day for both since April 2025. Most of last week's loss is gone. The reasons for it are not. The foreign-intelligence inquiry continues, three House committees still want Huang on December 1, and the board said \"senior levels of the US government\" weighed in, which is now its own question.",
+        "Two things did not rally with the stocks. The 10-year sat at 4.92%, and John Williams, usually the Fed's plainest voice, said he would not rule out hiking at consecutive meetings. December is priced. January is now the debate, and Wednesday's PCE is the evidence. Oil, at a three-month low despite reported mines in the strait, is the one input helping.",
+        "Closer to home, a flood watch starts at 7 tonight and runs through Wednesday, on wet ground with king tides.",
+        "Worth your attention: the bond market's answer to PCE, not the Nasdaq's."
       ],
       "read_only_three": [
         {
           "target_type": "theme",
-          "target_id": "theme-ai-selloff-sixth-day",
-          "label": "The futures bounce"
+          "target_id": "theme-nvidia-sec-probe",
+          "label": "The Huang reversal"
         },
         {
           "target_type": "theme",
           "target_id": "theme-fed-minutes",
-          "label": "Why PCE is the week"
+          "label": "Williams and January"
         },
         {
           "target_type": "rabbit_hole",
-          "target_id": "rh-2026-11-23",
-          "label": "Seneca on giving and gratitude"
+          "target_id": "rh-2026-11-24",
+          "label": "Kimmerer on the gift economy"
         }
       ]
     },
     "market_context": [
       {
         "label": "S&P 500",
-        "value": "6,910.39",
-        "change": "-3.7% Friday; futures about +2.1% Sunday night",
-        "observed": "Close, Friday, November 20, 2026; futures as of 9:16 p.m. ET, Sunday, November 22 (Fortune)",
-        "note": "In correction after seven straight losses and an 8.6% week. Futures readings varied through the evening; CNBC showed up to +2.76%."
+        "value": "7,237.17",
+        "change": "+4.73% Monday; futures about -0.2% early Tuesday",
+        "observed": "Close, Monday, November 23, 2026; futures pre-open Tuesday, November 24 (Stocktwits)",
+        "note": "Best day since April 2025; every sector up except energy and staples."
       },
       {
         "label": "Nasdaq Composite",
-        "value": "22,617.73",
-        "change": "-5.28% Friday; Nasdaq futures about +2.75% Sunday night",
-        "observed": "Close, Friday, November 20, 2026; futures as of 9:16 p.m. ET, Sunday, November 22 (Fortune)",
-        "note": "Negative for 2026 at Friday's close."
+        "value": "24,089.56",
+        "change": "+6.51% Monday; Nasdaq-100 futures about -0.6% early Tuesday",
+        "observed": "Close, Monday, November 23, 2026",
+        "note": "Nvidia +31% on the day; about -4% premarket Tuesday."
       },
       {
         "label": "10-year Treasury",
         "value": "about 4.92%",
-        "change": "down roughly 10 bp Friday",
-        "observed": "Close, Friday, November 20, 2026 (no fresh quote found this morning)",
-        "note": "Below 5% on a flight to safety."
+        "change": "roughly unchanged Monday; about 4.91% Tuesday morning",
+        "observed": "Close, November 23, 2026; Tuesday reading per CNBC, November 24",
+        "note": "The 2-year rose on Williams's hike signal."
       },
       {
         "label": "Brent crude",
-        "value": "$92.57",
-        "change": "-3.4% on the week",
-        "observed": "Settle, Friday, November 20, 2026",
-        "note": "Has not yet traded on the weekend's Hormuz incidents."
+        "value": "about $88.50-$89",
+        "change": "down more than 3% Monday to a three-month low",
+        "observed": "Early trading, Tuesday, November 24, 2026 (multiple reports)",
+        "note": "Monday's exact settlement not confirmed in sources found."
       },
       {
         "label": "FOMC",
-        "value": "3.75%-4.00%; decision December 9 (16 days)",
-        "change": "Quarter-point hike about 93%-99% priced; half-point odds near zero",
-        "observed": "CME FedWatch as cited by CNBC (November 20) and other reports through November 23",
+        "value": "3.75%-4.00%; decision December 9 (15 days)",
+        "change": "Quarter-point hike about 96%-98% priced; no half-point priced",
+        "observed": "Fed funds futures as cited by CNBC and Trading Economics, November 23-24",
         "note": "Not read from CME directly. October PCE Wednesday, November 25, 8:30 a.m. ET."
       }
     ],
     "public_day_context": {
-      "date_label": "Monday, November 23, 2026",
-      "weather": "Pleasant after Sunday's front: lower humidity and slightly cooler Monday, mostly sunny (WSVN outlook, November 22). Another system brings showers Wednesday; a second front should leave Thanksgiving dry and cooler, with highs near the low 70s. King tides are expected through November 28, so watch for coastal flooding at high tide.",
-      "public_event": "Markets open a holiday-shortened week: October PCE Wednesday 8:30 a.m.; closed Thursday for Thanksgiving; 1 p.m. close Friday. Canes vs. Wake Forest for the ACC title, Saturday, December 5, noon, ABC."
+      "date_label": "Tuesday, November 24, 2026",
+      "weather": "Drier start, then a Gulf low arrives tonight: flood watch for coastal and metro Miami-Dade, Broward and Palm Beach from 7 p.m. Tuesday to 1 a.m. Thursday (NBC 6). Wednesday rain chances 80%-90% with a low risk of strong storms; full moon and king tides through November 28. Thanksgiving mostly dry, highs near 80; cooler and drier by Friday.",
+      "public_event": "Fed's preferred inflation gauge, October PCE, Wednesday 8:30 a.m. ET; markets closed Thursday, 1 p.m. close Friday. Heat vs. 76ers and Panthers vs. Sabres on Wednesday."
     },
     "what_changed": [
       {
-        "id": "delta-futures-rebound",
+        "id": "delta-nvidia-reinstated",
+        "thread_id": "thread-nvidia-huang-board",
+        "change_type": "reversed",
+        "title": "Nvidia reinstates Jensen Huang as CEO",
+        "previous_state": "Colette Kress was interim CEO, the chair had said Huang would not return, and the stock had fallen about 14% on Friday.",
+        "current_state": "The board unanimously reinstated Huang on November 23, citing input from senior US officials; the stock rose about 31%.",
+        "why_it_matters": "It drove Monday's whole market, and the investigations behind the resignation are still open.",
+        "confidence": "high",
+        "source": {
+          "publisher": "NVIDIA Newsroom",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director"
+        }
+      },
+      {
+        "id": "delta-market-rebound",
         "thread_id": "thread-ai-regulation-selloff",
         "change_type": "improved",
-        "title": "Futures rebound about 2% after the correction week",
-        "previous_state": "The S&P 500 closed Friday at 6,910.39 after seven straight losses and an 8.6% weekly drop.",
-        "current_state": "Sunday-evening S&P futures were up about 2.1% and Nasdaq futures about 2.75% (9:16 p.m. ET); no cash session yet.",
-        "why_it_matters": "It is a bounce in futures, not yet a turn; PCE on Wednesday is the real test.",
-        "confidence": "medium",
+        "title": "Futures bounce became a cash rally",
+        "previous_state": "Sunday-night futures were up about 2% after the S&P closed Friday at 6,910.39.",
+        "current_state": "The S&P closed Monday up 4.73% at 7,237.17 and the Nasdaq up 6.51%; Tuesday futures are slightly lower.",
+        "why_it_matters": "Most of the correction-week loss is undone, but on one stock's news.",
+        "confidence": "high",
         "source": {
-          "publisher": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/22/stock-market-today-live-updates.html"
+          "publisher": "NBC News",
+          "url": "https://www.nbcnews.com/business/markets/stocks-rebound-ai-tech-selloff-nvidia-rcna610833"
         }
       },
       {
-        "id": "delta-heat-okc",
-        "thread_id": "thread-heat-giannis-era",
+        "id": "delta-williams-consecutive",
+        "thread_id": "thread-fed-rate-path",
         "change_type": "advanced",
-        "title": "Heat beat the Thunder without Giannis, seven straight",
-        "previous_state": "9-6 on a six-game streak, with Giannis questionable against Oklahoma City.",
-        "current_state": "10-6 after a 123-113 win; Giannis sat (groin) and Adebayo had a triple-double.",
-        "why_it_matters": "Winning without him is new evidence about the roster around him.",
+        "title": "Williams opens the door to hikes at consecutive meetings",
+        "previous_state": "A quarter-point December hike was fully priced; January was barely discussed.",
+        "current_state": "Williams called inflation too high and said he would not exclude moving at consecutive meetings.",
+        "why_it_matters": "It shifts the debate to January, raising the stakes on Wednesday's PCE.",
         "confidence": "high",
         "source": {
-          "publisher": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/adebayo-triple-double-giannis-absence-012400107.html"
+          "publisher": "Kitco (Reuters wire)",
+          "url": "https://www.kitco.com/news/off-the-wire/2026-11-23/feds-williams-says-inflation-still-too-high-signals-more-rate-hikes"
         }
       },
       {
-        "id": "delta-dolphins-buffalo",
-        "thread_id": "thread-dolphins-hafley-rebuild",
-        "change_type": "worsened",
-        "title": "Dolphins lose 26-9 at Buffalo and fall to 1-9",
-        "previous_state": "1-8, with McCord making his second start at Buffalo.",
-        "current_state": "1-9 after McCord went 12 of 33 for 102 yards; four straight losses.",
-        "why_it_matters": "The rest of the season is about the draft and the quarterback decision.",
-        "confidence": "high",
-        "source": {
-          "publisher": "ESPN",
-          "url": "https://www.espn.com/nfl/recap?gameId=401873070"
-        }
-      },
-      {
-        "id": "delta-hormuz-peak",
+        "id": "delta-oil-three-month-low",
         "thread_id": "thread-iran-hormuz-crisis",
-        "change_type": "worsened",
-        "title": "Hormuz shipping attacks reach their highest level of the war",
-        "previous_state": "One tanker reported struck off Khasab on November 21; Brent down a third week.",
-        "current_state": "CNN counts the most attacks since the war began; two tankers hit off Khasab and a Gulf of Oman incident near Chabahar on November 22.",
-        "why_it_matters": "Oil has priced out the risk just as it is rising.",
+        "change_type": "advanced",
+        "title": "Brent falls to a three-month low despite reported mine strikes",
+        "previous_state": "Brent settled at $92.57 on November 20 and had not yet traded on the weekend's attacks.",
+        "current_state": "Brent fell more than 3% Monday to its lowest settlement since August 31 and traded near $88.50 to $89 early Tuesday.",
+        "why_it_matters": "Lower energy prices ease the inflation picture the Fed is reacting to.",
         "confidence": "medium",
         "source": {
-          "publisher": "CNN",
-          "url": "https://www.cnn.com/2026/11/22/middleeast/hormuz-attacks-highest-levels-iran-war-intl"
+          "publisher": "OilPrice.com",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Hold-Near-Three-Month-Lows-Despite-Hormuz-Mine-Claims.html"
+        }
+      },
+      {
+        "id": "delta-miami-flood-watch",
+        "thread_id": null,
+        "change_type": "worsened",
+        "title": "Wednesday showers became a flood watch",
+        "previous_state": "The outlook called for showers Wednesday and a dry, cooler Thanksgiving.",
+        "current_state": "A flood watch covers Miami-Dade, Broward and Palm Beach from 7 p.m. Tuesday to 1 a.m. Thursday.",
+        "why_it_matters": "Heavy rain on saturated ground at king-tide season, on a travel day.",
+        "confidence": "medium",
+        "source": {
+          "publisher": "NBC 6 Miami",
+          "url": "https://www.nbcmiami.com/weather/stories-weather/flood-watch-more-rain-expected-thanksgiving-week/3892041/"
         }
       }
     ],
     "themes": [
       {
+        "id": "theme-nvidia-sec-probe",
+        "affinity": "morning",
+        "topic": "markets",
+        "topic_label": "Markets & Macro",
+        "title": "Nvidia takes Huang back, and gets a trillion dollars with him",
+        "importance": 0.95,
+        "thesis": "Eleven days after he stepped down and five days after its chair said he would not return, Nvidia's board reinstated Jensen Huang, and the market paid it handsomely for the reversal.",
+        "synthesis": "The board said on November 23 it voted unanimously to restore Huang as president, CEO and director after a series of meetings left it satisfied with his candor and ability to lead, and that it had received input from senior levels of the US government; President Trump said he made the deal. The stock rose about 31%, adding close to $1 trillion in value, then traded about 4% lower before Tuesday's open. The independent committee investigating reports that Huang was the target of a foreign intelligence effort will continue, and three House committees still plan closed-door interviews with him on December 1, with senators of both parties asking who in government weighed in.",
+        "new_today": "The reversal itself, a 31% one-day move, and the first congressional pushback.",
+        "why_it_matters": "The largest company in the index now carries a governance question that is unresolved rather than gone: the probe, the December 1 interviews and the reported SEC scrutiny all still sit ahead. A board that reverses under political pressure is a different kind of risk than one that holds.",
+        "thread_id": "thread-nvidia-huang-board",
+        "confidence": "high",
+        "sources": [
+          {
+            "role": "primary_reporting",
+            "publisher": "NVIDIA Newsroom",
+            "headline": "NVIDIA Board Reinstates Jensen Huang as President, CEO and Board Director",
+            "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director"
+          },
+          {
+            "role": "analysis",
+            "publisher": "NBC News",
+            "headline": "Congress reacts with anger and skepticism about Jensen Huang reinstatement",
+            "url": "https://www.nbcnews.com/politics/congress/congress-criticism-jensen-huang-nvidia-reinstated-ceo-trump-rcna610926"
+          },
+          {
+            "role": "counterpoint",
+            "publisher": "The Hill",
+            "headline": "GOP lawmakers decry White House involvement in Nvidia CEO Jensen Huang reinstatement",
+            "url": "https://thehill.com/homenews/senate/6237271-republicans-investigate-nvidia-national-security/"
+          },
+          {
+            "role": "background",
+            "publisher": "Al Jazeera",
+            "headline": "Nvidia board reinstates Jensen Huang as CEO",
+            "url": "https://www.aljazeera.com/economy/2026/11/23/nvidia-board-reinstates-jensen-huang-as-ceo"
+          }
+        ]
+      },
+      {
         "id": "theme-ai-selloff-sixth-day",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Futures bounce hard after the worst week since April 2025",
-        "importance": 0.92,
-        "thesis": "Sunday night bought back about a quarter of Friday's damage in futures; the cash market gets its say at 9:30.",
-        "synthesis": "After seven straight losses and an 8.6% weekly drop that put the S&P 500 and Dow in correction, stock futures opened Sunday evening sharply higher: by 9:16 p.m. ET, S&P futures were up about 2.1%, Nasdaq futures about 2.75% and Dow futures roughly 800 points, per Fortune; CNBC showed similar moves. Earlier snapshots were smaller, so the size of the bounce moved through the evening. The week is four and a half sessions, with October PCE on Wednesday at 8:30 a.m. and markets shut Thursday.",
-        "new_today": "The first trading since Friday's rout: an overnight futures rebound of roughly 2% to 2.75%.",
-        "why_it_matters": "A relief rally in a thin holiday week tells you little on its own; whether it holds through PCE says more about whether this is a correction or the start of something longer. Either way, the 10-year under 5% is the number that matters for CRE.",
+        "title": "The best day since April 2025, and a softer open behind it",
+        "importance": 0.9,
+        "thesis": "Monday erased most of Friday's damage in one session; Tuesday's futures suggest the market knows one headline did most of the work.",
+        "synthesis": "The S&P 500 rose 4.73% to 7,237.17 and the Nasdaq 6.51% to 24,089.56, both their best days since April 2025, while the Dow gained about 3% to 49,595.31. Every S&P sector rose except energy and consumer staples. Before Tuesday's open, Nasdaq-100 futures were down about 0.6% and S&P futures about 0.2%, with Nvidia off about 4%; economists quoted by CNN and others called Monday's move mechanical and warned of a dead-cat bounce.",
+        "new_today": "The cash-market rebound: S&P back above 7,200 after a correction week.",
+        "why_it_matters": "The S&P has recovered Friday's entire drop but is still about 2.4% under its November 16 close. A rally that rests on one company's board vote has not answered the questions that started the selloff.",
         "thread_id": "thread-ai-regulation-selloff",
-        "confidence": "medium",
+        "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "CNBC",
-            "headline": "Nasdaq 100 futures rebound sharply to rise 3%, kick-starting shortened week after tech rout: Live updates",
-            "url": "https://www.cnbc.com/2026/11/22/stock-market-today-live-updates.html"
+            "publisher": "NBC News",
+            "headline": "Stocks' best day since 2025 after Jensen Huang's Nvidia return",
+            "url": "https://www.nbcnews.com/business/markets/stocks-rebound-ai-tech-selloff-nvidia-rcna610833"
           },
           {
             "role": "analysis",
-            "publisher": "Yahoo Finance",
-            "headline": "Nasdaq, Dow, S&P 500 futures jump nearly 2% after brutal tech selloff last week",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-dow-p-500-futures-030139659.html"
+            "publisher": "ABC News",
+            "headline": "Stock market rebounds sharply after sell-off, Nvidia closes up more than 31%",
+            "url": "https://abcnews.com/Business/stock-market-rebounds-sharply-after-selloff/story?id=138373790"
           },
           {
             "role": "background",
-            "publisher": "Yahoo Finance",
-            "headline": "Tech and AI sentiment, Thanksgiving and other key things to watch this week",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/tech-ai-sentiment-thanksgiving-other-180003267.html"
+            "publisher": "Fox Business",
+            "headline": "US stocks rebound as battered AI and chip stocks rally after correction",
+            "url": "https://www.foxbusiness.com/markets/stocks-november-23-2026"
           }
         ]
       },
@@ -174,60 +228,32 @@
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Wednesday's PCE is the only number this week",
-        "importance": 0.8,
-        "thesis": "A December hike is priced; PCE decides whether January gets priced too.",
-        "synthesis": "October PCE lands Wednesday at 8:30 a.m. ET; previews expect core prices up 0.3% on the month, the same as September, with one preview looking for the annual rate to tick up to 3.2%. Futures put a quarter-point hike on December 9 at roughly 93% to 99% depending on the reading, and half-point odds have fallen to about zero. Several reports put odds of a further hike in January at around 60% to 67%, a figure a cool print could quickly cut.",
-        "new_today": "No new Fed speakers since Friday; the week's calendar is set, and January odds are the open question.",
-        "why_it_matters": "Hikes in December and January would push floating-rate debt costs higher into 2027, and refinancing math gets harder. A soft PCE is the cleanest path to a rally that holds.",
+        "title": "Williams leaves the door open to back-to-back hikes",
+        "importance": 0.84,
+        "thesis": "The New York Fed president, usually the leadership's voice, called inflation too high on the eve of PCE and declined to rule out hiking again in January.",
+        "synthesis": "Speaking November 23 at the University of Mount Saint Vincent, John Williams said the Fed must act to return inflation to 2% \"in a timely manner and on a sustained basis\" and that he \"would not exclude\" moving at consecutive meetings. He expects inflation to end the year at 3.5% and unemployment, now 4.1%, to drift toward 4%. Futures price a quarter-point December 9 hike at roughly 96% to 98% and no half-point. October PCE arrives Wednesday at 8:30 a.m.",
+        "new_today": "A senior Fed official explicitly floating consecutive hikes.",
+        "why_it_matters": "December is settled; the question now is January, and that is what moves the 10-year and the cost of every refinancing on your desk. A hot PCE on Wednesday would make Williams sound like guidance rather than caution.",
         "thread_id": "thread-fed-rate-path",
-        "confidence": "medium",
+        "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "FXEmpire",
-            "headline": "The Week Ahead: PCE in focus after AI sell-off in holiday-shortened week",
-            "url": "https://www.fxempire.com/forecasts/article/the-week-ahead-pce-in-focus-after-ai-sell-off-in-holiday-shortened-week-1646337"
+            "publisher": "Kitco (Reuters wire)",
+            "headline": "Fed's Williams says inflation still too high, signals more rate hikes possible",
+            "url": "https://www.kitco.com/news/off-the-wire/2026-11-23/feds-williams-says-inflation-still-too-high-signals-more-rate-hikes"
           },
           {
             "role": "analysis",
-            "publisher": "24/7 Wall St.",
-            "headline": "Traders now see a 95% chance the Fed hikes rates in December",
-            "url": "https://247wallst.com/investing/2026/11/18/traders-now-see-a-95-chance-the-fed-hikes-rates-in-december/"
-          }
-        ]
-      },
-      {
-        "id": "theme-nvidia-sec-probe",
-        "affinity": "morning",
-        "topic": "markets",
-        "topic_label": "Markets & Macro",
-        "title": "Nvidia's ten-day clock runs out midweek",
-        "importance": 0.82,
-        "thesis": "The board owes Washington answers on China-bound chips around November 25, the same day as PCE.",
-        "synthesis": "On November 15 Treasury Secretary Scott Bessent asked Nvidia's board and its outside counsel to answer within ten days whether the company ignored warning signs that its chips were reaching China through shell companies, and said the next CEO should come from outside. Ten days from that Sunday is Wednesday, November 25. Separately, the WSJ (November 17) and Reuters (November 20) reported SEC scrutiny of its disclosures and accounting; neither the SEC nor Nvidia has confirmed, and there are no charges. Colette Kress remains interim CEO while the board picks a search firm.",
-        "new_today": "No new reporting over the weekend; the deadline is now this week.",
-        "why_it_matters": "Nvidia carried this year's index gains, so a messy answer to Treasury could undo any Monday bounce. The CEO search is the longer story.",
-        "thread_id": "thread-nvidia-huang-board",
-        "confidence": "medium",
-        "sources": [
-          {
-            "role": "primary_reporting",
-            "publisher": "Yahoo Finance",
-            "headline": "Nvidia stock extends rout as SEC probe reportedly investigates its accounting",
-            "url": "https://finance.yahoo.com/markets/article/nvidia-stock-extends-25-trillion-rout-as-sec-probe-reportedly-investigates-its-accounting-194945274.html"
-          },
-          {
-            "role": "analysis",
-            "publisher": "investingLive",
-            "headline": "Weekend: Bessent urges Nvidia to hire an outsider CEO, pouring cold water on a Huang comeback",
-            "url": "https://investinglive.com/stocks/weekend-bessent-urges-nvidia-to-hire-an-outsider-ceo-pouring-cold-water-on-a-huang-comeback/"
+            "publisher": "CNBC",
+            "headline": "Treasury yields lower after inflation warning from New York Fed's Williams, investors await 5-year auction",
+            "url": "https://www.cnbc.com/2026/11/24/treasury-yields-bonds-inflation.html"
           },
           {
             "role": "background",
-            "publisher": "InvestmentNews",
-            "headline": "Embattled Nvidia faces SEC probe as California attorney general mulls action",
-            "url": "https://www.investmentnews.com/equities/embattled-nvidia-faces-sec-probe-as-california-attorney-general-mulls-action/269054"
+            "publisher": "CNBC",
+            "headline": "2-year Treasury yield jumps as stocks rebound, investors await New York Fed President Williams speech",
+            "url": "https://www.cnbc.com/2026/11/23/treasury-yields-bonds-fed.html"
           }
         ]
       },
@@ -236,32 +262,60 @@
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Hormuz attacks hit a wartime high while oil keeps falling",
-        "importance": 0.68,
-        "thesis": "Shipping risk is at its worst of the war, and the oil price has stopped believing it matters.",
-        "synthesis": "CNN reported Sunday that Iranian attacks on commercial shipping around the strait are at their highest level since the war began, with at least 22 incidents in November. Two outbound tankers using the Omani-side corridor, which Iran calls unauthorized, were hit off Khasab on Saturday morning, and on Sunday UKMTO reported a tanker incident \"involving military forces\" in the Gulf of Oman near Chabahar; Iranian media said two supertankers struck mines, and it is unclear whether the reports describe the same event. No casualties have been reported. Brent still fell for a third straight week to $92.57.",
-        "new_today": "The CNN tally and Sunday's Gulf of Oman incident; oil has not traded on either yet.",
-        "why_it_matters": "Higher energy prices feed straight into the inflation numbers the Fed is hiking on. A market that has priced out the risk is the one most exposed to a real disruption.",
+        "title": "Mines in the Strait, and oil at a three-month low anyway",
+        "importance": 0.7,
+        "thesis": "Brent fell more than 3% on a day Iran said three tankers hit mines; the market is pricing surplus and a quieter Washington, not the strait.",
+        "synthesis": "Iran's Revolutionary Guards said three tankers caught fire after striking mines in the Strait of Hormuz, a claim not independently verified, yet Brent and WTI each fell more than 3% on November 23 to their lowest settlements since August 31. Early Tuesday Brent traded near $88.50 to $89 and WTI near $79.60. Analysts point to rising inventories and to Trump's comment that he would discuss renewed strikes \"after the beginning of the year\".",
+        "new_today": "A three-month low in crude and a decision on new strikes pushed into 2027.",
+        "why_it_matters": "Cheaper oil is the one input working in the Fed's favor this week. It is also the one most exposed to a single bad night in the Gulf, and the market has stopped pricing that.",
         "thread_id": "thread-iran-hormuz-crisis",
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "CNN",
-            "headline": "Iranian attacks in the Strait of Hormuz are at the highest levels since the conflict began",
-            "url": "https://www.cnn.com/2026/11/22/middleeast/hormuz-attacks-highest-levels-iran-war-intl"
+            "publisher": "OilPrice.com",
+            "headline": "Oil Prices Hold Near Three-Month Lows Despite Hormuz Mine Claims",
+            "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Hold-Near-Three-Month-Lows-Despite-Hormuz-Mine-Claims.html"
           },
           {
             "role": "analysis",
-            "publisher": "The Maritime Executive",
-            "headline": "Two more tankers hit off Oman as Houthis threaten Saudi Red Sea ports",
-            "url": "https://maritime-executive.com/article/two-more-tankers-hit-off-oman-as-houthis-threaten-saudi-red-sea-ports"
+            "publisher": "Invezz",
+            "headline": "Why are oil prices falling despite fresh attacks in the Strait of Hormuz?",
+            "url": "https://invezz.com/news/2026/11/24/oil-price-today-brent-below-89-supply-glut-hormuz/"
           },
           {
             "role": "background",
-            "publisher": "Euronews",
-            "headline": "Tanker incident \"involving military forces\" reported in Strait of Hormuz",
-            "url": "https://www.euronews.com/2026/11/22/tanker-incident-involving-military-forces-reported-in-strait-of-hormuz"
+            "publisher": "RTE",
+            "headline": "Trump to decide on renewed strikes on Iran in early 2027",
+            "url": "https://www.rte.ie/news/middle-east/2026/1119/1599925-us-iran/"
+          }
+        ]
+      },
+      {
+        "id": "theme-miami-flood-watch",
+        "affinity": "morning",
+        "topic": "miami",
+        "topic_label": "Miami Life & Culture",
+        "title": "Flood watch from tonight, with king tides on top",
+        "importance": 0.72,
+        "thesis": "A Gulf low reaches South Florida this evening, onto saturated ground and a full-moon high tide.",
+        "synthesis": "NBC 6 reports a flood watch for coastal and metro Miami-Dade, Broward and Palm Beach from 7 p.m. Tuesday to 1 a.m. Thursday. The National Weather Service in Miami names flooding and some severe weather as the main concerns as the low passes late Tuesday into Wednesday evening, with rain chances of 80% to 90% Wednesday. Ground is already wet from last week's rain, and Tuesday's full moon adds to the king tides already expected through November 28. Thanksgiving itself looks mostly dry, with drier, cooler air by Friday.",
+        "new_today": "The watch upgrades Monday's outlook of Wednesday showers.",
+        "why_it_matters": "Wednesday is also travel day and PCE day. Plan low-lying routes, garage parking and any airport run around the overnight and Wednesday rain.",
+        "thread_id": null,
+        "confidence": "medium",
+        "sources": [
+          {
+            "role": "primary_reporting",
+            "publisher": "NBC 6 Miami",
+            "headline": "Flood watch in effect Thanksgiving week as more rain expected in South Florida",
+            "url": "https://www.nbcmiami.com/weather/stories-weather/flood-watch-more-rain-expected-thanksgiving-week/3892041/"
+          },
+          {
+            "role": "local_perspective",
+            "publisher": "National Weather Service Miami",
+            "headline": "Miami - South Florida forecast office",
+            "url": "https://www.weather.gov/mfl"
           }
         ]
       },
@@ -270,32 +324,26 @@
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "ANT's second week starts six dollars above the floor",
-        "importance": 0.7,
-        "thesis": "After a week of round-tripping its pop, Anthropic trades as a high-beta AI stock, not a special case.",
-        "synthesis": "Anthropic closed Friday at $88.91, about 7% above its $83 offer after falling from a $111.50 debut, and was quoted at $87.80 after hours. Published targets so far average somewhere between about $118 and $134 depending on the tally, from Needham's Buy at $150 to Seaport's Hold with no target. The underwriters' own research is not out yet; one source expects it to start around November 30.",
-        "new_today": "Nothing company-specific since Friday; it opens into a rebound in AI futures.",
-        "why_it_matters": "The $83 offer price is now a visible line in the market. How ANT trades around it in a holiday week will show whether IPO buyers are holders or tourists.",
+        "title": "ANT sits out the rally",
+        "importance": 0.58,
+        "thesis": "On the best Nasdaq day in nineteen months, the newest large AI listing barely moved.",
+        "synthesis": "Anthropic traded between about $84.61 and $94.24 on November 23 and closed near $87.64, roughly 5.6% above its $83 offer, while the Nasdaq rose 6.5%. Coverage framed it as money rotating back into battered chip names rather than into the new listing; options were expected to begin trading.",
+        "new_today": "A third session that diverged from the market.",
+        "why_it_matters": "A stock that falls with the sector and does not rise with it is telling you where holders sit. It stays a good read on appetite for the AI trade beyond the chipmakers.",
         "thread_id": "thread-anthropic-ipo",
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Yahoo Finance",
-            "headline": "Anthropic stock: why are analysts divided after record IPO?",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-stock-why-analysts-divided-214241303.html"
+            "publisher": "The Motley Fool",
+            "headline": "Anthropic Stock Is Off to a Shaky Start. Here's What Could Happen Next.",
+            "url": "https://www.fool.com/investing/2026/11/23/anthropic-stock-off-shaky-start-what-could-happen-next/"
           },
           {
             "role": "analysis",
-            "publisher": "The Motley Fool",
-            "headline": "Anthropic stock could soar by 72%, according to this Wall Street analyst",
-            "url": "https://www.fool.com/investing/2026/11/22/anthropic-stock-could-soar-by-72-according-to-this-wall-street-analyst/"
-          },
-          {
-            "role": "background",
-            "publisher": "CNBC",
-            "headline": "Anthropic falls nearly 9% in first full day of trading as tech stocks get shellacked",
-            "url": "https://www.cnbc.com/2026/11/20/anthropic-stock-ai-amd-nvidia.html"
+            "publisher": "24/7 Wall St.",
+            "headline": "Anthropic Fizzles While the Market Sizzles",
+            "url": "https://247wallst.com/investing/2026/11/23/anthropic-fizzles-while-the-market-sizzles-is-ant-stock-headed-for-75-or-even-50/"
           }
         ]
       },
@@ -304,38 +352,26 @@
         "affinity": "morning",
         "topic": "sports",
         "topic_label": "Miami Sports",
-        "title": "Bam's triple-double, McCord's 102 yards",
-        "importance": 0.8,
-        "thesis": "The Heat won without their star; the Dolphins lost with their whole offense.",
-        "synthesis": "The Heat beat Oklahoma City 123-113 Sunday night, never trailing, with Giannis Antetokounmpo out (right groin, his first missed game in Miami) and the Thunder missing Gilgeous-Alexander, Holmgren and Jalen Williams. Bam Adebayo's triple-double was his ninth, tying LeBron James for second in franchise history; Pelle Larsson scored a season-high 21. In Orchard Park, the Dolphins lost 26-9: Kyle McCord was 12 of 33 for 102 yards and an interception, Miami went 2 of 14 on third down, and Daniel Carlson's three field goals were the only points. The Canes' ACC title game against Wake Forest is confirmed for noon on December 5 on ABC.",
-        "new_today": "Both Sunday results, and the Canes' kickoff time.",
-        "why_it_matters": "The Heat are 10-6 on a seven-game streak and finding a second gear without Giannis. The Dolphins at 1-9 are now a draft-position story, and the coaching staff is being judged on effort, not results.",
-        "thread_id": "thread-heat-giannis-era",
-        "confidence": "high",
+        "title": "Quiet Tuesday, busy Wednesday",
+        "importance": 0.6,
+        "thesis": "No local games last night; the Heat and Panthers both play Wednesday, and the Dolphins turn to the Jets.",
+        "synthesis": "Jeff Hafley said Malik Willis (groin, injured reserve) does not need surgery for now, and Kyle McCord will start again in Week 12 against the Jets after going 12 of 33 for 102 yards in Buffalo. The Heat (10-6, seven straight) play Philadelphia (14-3) on Wednesday, Giannis's groin status the question. The Panthers (13-8-3) host Buffalo again on Wednesday at 7 p.m.",
+        "new_today": "Willis avoids surgery for now; McCord confirmed as the starter.",
+        "why_it_matters": "With the Dolphins at 1-9, Willis has nothing to rush back for; the season is now about evaluating McCord. The Heat's streak meets the East's best record.",
+        "thread_id": "thread-dolphins-hafley-rebuild",
+        "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
             "publisher": "Yahoo Sports",
-            "headline": "Adebayo's triple-double in Giannis absence helps lift Heat over injury-ravaged Thunder",
-            "url": "https://sports.yahoo.com/articles/adebayo-triple-double-giannis-absence-012400107.html"
-          },
-          {
-            "role": "primary_reporting",
-            "publisher": "ESPN",
-            "headline": "Bills 26-9 Dolphins (Nov 22, 2026) game recap",
-            "url": "https://www.espn.com/nfl/recap?gameId=401873070"
-          },
-          {
-            "role": "local_perspective",
-            "publisher": "Yahoo Sports",
-            "headline": "Kelly: Talent gap between Dolphins and Bills remains wide",
-            "url": "https://sports.yahoo.com/articles/kelly-talent-gap-between-dolphins-212156306.html"
+            "headline": "Dolphins HC Jeff Hafley Shares Crucial Malik Willis Injury News",
+            "url": "https://sports.yahoo.com/articles/dolphins-hc-jeff-hafley-shares-201732982.html"
           },
           {
             "role": "background",
-            "publisher": "Atlantic Coast Conference",
-            "headline": "No. 7 Miami, No. 11 Wake Forest clinch berths in the 2026 ACC Football Championship Game",
-            "url": "https://theacc.com/news/2026/11/22/no-7-miami-no-11-wake-forest-clinch-berths-in-the-2026-acc-football-championship-game.aspx"
+            "publisher": "NBA.com",
+            "headline": "Miami Heat team page",
+            "url": "https://www.nba.com/team/1610612748/heat"
           }
         ]
       },
@@ -344,89 +380,95 @@
         "affinity": "evening",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "While stocks fell, Miami lenders kept writing checks",
-        "importance": 0.62,
-        "thesis": "November's South Florida deal sheets show a credit market that is open but selective: refinancings for well-leased assets, construction money for downtown.",
-        "synthesis": "RFR Realty landed a $101 million refinancing for 100 Biscayne Boulevard, a roughly 317,000-square-foot downtown office tower about 90% occupied, from Derby Lane Partners and Axonic Capital. Centennial Bank provided a $145 million construction loan for the Riverside Wharf project downtown, and Ralgo Group paid $53.5 million, about $200,000 a unit, for the 267-unit Treetop Apartments in Kendall. All of these were reported before last week's selloff; the question for December is whether lenders keep pricing them the same way after it.",
-        "new_today": "Nothing new since last week; these are the month's deals collected for a slower read.",
-        "why_it_matters": "These are the comps for your work: debt funds rather than banks financing older office, and Kendall multifamily trading near $200,000 a unit at about 94% occupancy. Compare them with the 10-year at 4.92%.",
+        "title": "Stocks jumped 4.7%. The 10-year did not move.",
+        "importance": 0.6,
+        "thesis": "Monday's rally changed the equity mood without changing the rate that sets cap rates and refinancing math.",
+        "synthesis": "The 10-year ended November 23 near 4.92%, where it closed Friday, and eased to about 4.91% Tuesday morning after Williams spoke; the 2-year rose on the hike signal. A flatter curve with a Fed still hiking is the opposite of the relief CRE borrowers were hoping for this fall. The bond market, not the Nasdaq, is the thing to watch after Wednesday's PCE.",
+        "new_today": "Confirmation that the equity rebound did not reach long rates.",
+        "why_it_matters": "For underwriting, nothing improved on Monday: exit-cap and refi assumptions should still be run off a 10-year near 4.9% with upside risk if January comes into play.",
         "thread_id": "thread-cre-capital-markets-2026",
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Bisnow",
-            "headline": "RFR lands $101M refi for Miami office tower: The South Florida Deal Sheet",
-            "url": "https://www.bisnow.com/news/south-florida/deal-sheet/rfr-lands-101m-refi-for-miami-office-tower-south-florida-deal-sheet"
+            "publisher": "CNBC",
+            "headline": "Treasury yields lower after inflation warning from New York Fed's Williams, investors await 5-year auction",
+            "url": "https://www.cnbc.com/2026/11/24/treasury-yields-bonds-inflation.html"
+          },
+          {
+            "role": "background",
+            "publisher": "Federal Reserve Board",
+            "headline": "H.15 Selected Interest Rates (Daily)",
+            "url": "https://www.federalreserve.gov/releases/h15/"
           }
         ]
       },
       {
-        "id": "theme-marchant-now",
+        "id": "theme-gratitude-attention",
         "affinity": "evening",
         "topic": "living",
         "topic_label": "Art of Living",
-        "title": "What, exactly, is \"now\"?",
-        "importance": 0.58,
-        "thesis": "Jo Marchant's In Search of Now argues that the present moment, the one thing we seem to own, is the hardest thing to pin down.",
-        "synthesis": "Science writer Jo Marchant's In Search of Now: The Science of the Present Moment (Canongate and Liveright, 2026) surveys how physics, neuroscience, psychology and anthropology each define the present, and finds they do not agree. Maria Popova wrote about it at The Marginalian on November 10, and Aeon has posted Marchant's Royal Institution talk on the same material. It is a good counterweight to a week of minute-by-minute charts.",
-        "new_today": "An evening read and a talk, not news.",
-        "why_it_matters": "It sits squarely in your interest in the philosophy of time, and it is useful in a week that will keep pulling your attention into the next tick.",
+        "title": "Gratitude as a discipline, not a mood",
+        "importance": 0.55,
+        "thesis": "The psychologist David DeSteno argues that gratitude is less a feeling to wait for than a practice that changes how people behave.",
+        "synthesis": "In an essay for Aeon, DeSteno describes experiments in which people who had just recalled feeling grateful were about half as likely to cheat on a task (27% against almost 49%). Read beside Aeon's older essay on attention as an art, it makes a simple case for the week: gratitude starts with noticing, and noticing is a skill. Both are short; neither is new.",
+        "new_today": "An evergreen evening read for Thanksgiving week, not news.",
+        "why_it_matters": "It fits your interest in the philosophy of living and pairs with tonight's rabbit hole on gift economies.",
         "thread_id": null,
         "confidence": "medium",
         "sources": [
           {
             "role": "analysis",
-            "publisher": "The Marginalian",
-            "headline": "Jo Marchant on the science of now",
-            "url": "https://www.themarginalian.org/2026/11/10/jo-marchant-now/"
+            "publisher": "Aeon",
+            "headline": "The fast track to a life well lived is feeling grateful",
+            "url": "https://aeon.co/ideas/the-fast-track-to-a-life-well-lived-is-feeling-grateful"
           },
           {
             "role": "background",
             "publisher": "Aeon",
-            "headline": "Always with us yet ever elusive: on the knottiness of now",
-            "url": "https://aeon.co/videos/always-with-us-yet-ever-elusive-on-the-knottiness-of-now"
+            "headline": "Paying close attention is an art and an act of the spirit",
+            "url": "https://aeon.co/essays/paying-close-attention-is-an-art-and-an-act-of-the-spirit"
           }
         ]
       }
     ],
     "rabbit_hole": {
-      "id": "rh-2026-11-23",
-      "title": "On Benefits, Books I and II",
-      "creator": "Seneca (Aubrey Stewart translation, 1887)",
+      "id": "rh-2026-11-24",
+      "title": "The Serviceberry: An Economy of Abundance",
+      "creator": "Robin Wall Kimmerer (Emergence Magazine)",
       "format": "essay",
-      "minutes": 45,
-      "why": "Seneca's long treatise on giving, receiving and gratitude is the classical text for a week built around a thank-you meal; the first two books cover how a gift should be given and why the manner matters as much as the thing. It is also a quiet rebuttal to a market week spent tallying what was lost.",
-      "url": "https://www.gutenberg.org/files/3794/3794-h/3794-h.htm",
+      "minutes": 30,
+      "why": "A botanist uses a wild shrub that gives its fruit away to ask what an economy built on gifts and reciprocity would look like, and what market economies leave out. Read it in a week when one board vote added a trillion dollars of market value and ends at a table built on the opposite logic.",
+      "url": "https://emergencemagazine.org/essay/the-serviceberry/",
       "related_interest": "living"
     },
     "beautiful_thing": {
-      "id": "bt-2026-11-23",
-      "title": "Coral Castle, Homestead",
-      "creator": "Edward Leedskalnin (1887-1951)",
-      "era": "1920s-1940s",
-      "body": "Despite the name, it is not coral but oolite, the porous limestone that underlies much of South Florida, quarried and carved by a single Latvian immigrant. Leedskalnin built his first site, Rock Gate, in Florida City, then moved the pieces about ten miles north to the plot outside Homestead around 1936. Notice how much of it is furniture and astronomy rather than walls: chairs, tables, a sundial, a telescope sighted on the sky. It was listed on the National Register of Historic Places in 1984 under its original name, Rock Gate.",
-      "url": "https://en.wikipedia.org/wiki/Coral_Castle",
+      "id": "bt-2026-11-24",
+      "title": "The Fish",
+      "creator": "Elizabeth Bishop (1911-1979)",
+      "era": "Key West years; collected in North & South (1946)",
+      "body": "Bishop wrote much of her first book, North & South, while living in Key West, and this is its best-known poem: seventy-six lines of free verse about catching a \"tremendous fish\" and looking at it. Notice how slowly the poem looks. It moves from the skin \"like ancient wallpaper\" to the gills, the eyes, and then the five old pieces of fishing line hanging from its lip \"like medals,\" each a fight the fish already won. The poem's only real event is attention, and its last line is a decision. Bishop grew so tired of being asked to anthologize it that she called it \"that damned Fish.\"",
+      "url": "https://poets.org/poem/fish-2",
       "image": null,
-      "alt": "Carved oolite limestone tables, chairs and walls in a garden at Coral Castle, Homestead, Florida"
+      "alt": "Text of Elizabeth Bishop's poem The Fish"
     },
-    "noticing_prompt": "Notice one thing someone does for you today without being asked, and whether you say so. Seneca thought the way a favor is received counts as much as the way it is given.",
+    "noticing_prompt": "Count how many confident explanations of Monday's rally you hear today, and how many of the same voices explained Friday's rout just as confidently.",
     "daily_puzzle": {
-      "id": "dp-2026-11-23",
-      "type": "logic",
-      "prompt": "You need to baste the turkey after exactly 15 minutes. All you have are two sand timers: one runs for 7 minutes, the other for 11. How do you measure exactly 15 minutes?",
-      "hint": "Start both timers at the same moment. The trick happens when the 11-minute timer runs out.",
-      "solution": "Start both. When the 7-minute timer runs out (minute 7), flip it. When the 11-minute timer runs out (minute 11), the 7-minute timer has run for 4 minutes since you flipped it, so flip it again: it holds exactly 4 minutes of sand and runs out at minute 15.",
-      "explanation": "Flipping a partly run timer measures exactly the time that has already passed in it. Another way: when the 7 runs out, start counting; the 11 has 4 minutes left, then flip it for 11 more, which makes 15."
+      "id": "dp-2026-11-24",
+      "type": "wordplay",
+      "prompt": "Find a common nine-letter English word that contains each of the five vowels A, E, I, O and U exactly once, and in alphabetical order.",
+      "hint": "It describes the kind of remark at the holiday table that is meant as a joke and lands badly.",
+      "solution": "FACETIOUS",
+      "explanation": "f-A-c-E-t-I-O-U-s: each vowel once, in order. ABSTEMIOUS does the same but has ten letters."
     },
     "evening_unwind": {
-      "id": "eu-2026-11-23",
+      "id": "eu-2026-11-24",
       "evening_quote": {
-        "text": "Never say of anything, \"I have lost it\"; but, \"I have restored it.\"",
-        "attribution": "Epictetus",
-        "source": "Enchiridion, 11 (Elizabeth Carter translation)"
+        "text": "If thou art pained by any external thing, it is not this thing that disturbs thee, but thy own judgement about it. And it is in thy power to wipe out this judgement now.",
+        "attribution": "Marcus Aurelius",
+        "source": "Meditations, 8.47 (George Long translation)"
       },
-      "evening_prompt": "How many times did you check the market today, and which of those checks changed anything you actually did?"
+      "evening_prompt": "Between Friday's close and tonight, which of your judgements about the market changed, and did anything you actually own change with them?"
     },
     "reading_queue": [
       {
@@ -437,8 +479,8 @@
       }
     ],
     "quote": {
-      "text": "Let not future things disturb thee, for thou wilt come to them, if it shall be necessary, having with thee the same reason which now thou usest for present things.",
-      "attribution": "Marcus Aurelius, Meditations 7.8"
+      "text": "There are more things, Lucilius, likely to frighten us than there are to crush us; we suffer more often in imagination than in reality.",
+      "attribution": "Seneca, Letters to Lucilius 13"
     }
   },
   "threads": [
@@ -447,9 +489,9 @@
       "title": "US-Iran conflict and the Strait of Hormuz",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-11-23",
-      "updates": 119,
-      "current_state": "Brent settled $92.57 on November 20 (third straight weekly loss). CNN reported November 22 that Iranian attacks on shipping are at their highest level since the war began; two outbound tankers were hit off Khasab, Oman, on November 21, and UKMTO reported a tanker incident 'involving military forces' in the Gulf of Oman near Chabahar on November 22. At least 22 incidents in November so far. Oil has not yet traded on the weekend news.",
+      "last_updated": "2026-11-24",
+      "updates": 120,
+      "current_state": "Brent fell more than 3% on November 23 to its lowest settlement since August 31 even after Iran's Revolutionary Guards said three tankers caught fire after hitting mines in the Strait (unverified), and traded near $88.50-$89 early Tuesday. Analysts cite rising inventories and Trump's statement that he would decide on renewed strikes 'after the beginning of the year'. Attacks on shipping remain at wartime highs.",
       "timeline": [
         {
           "date": "2026-07-21",
@@ -1045,6 +1087,11 @@
           "date": "2026-11-23",
           "summary": "CNN: attacks on Hormuz shipping at their highest level since the war began. Two tankers hit off Khasab on November 21; a Gulf of Oman tanker incident 'involving military forces' near Chabahar on November 22 (Iranian media reported mine strikes; unclear if linked). No casualties reported.",
           "change_type": "worsened"
+        },
+        {
+          "date": "2026-11-24",
+          "summary": "Oil falls to a three-month low despite reported mine strikes on three tankers; Trump pushes any decision on new strikes into 2027.",
+          "change_type": "advanced"
         }
       ]
     },
@@ -1053,9 +1100,9 @@
       "title": "Federal Reserve rate path",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-11-21",
-      "updates": 120,
-      "current_state": "December 8-9 meeting: a quarter-point hike from 3.75%-4.00% is about 99% priced (CNBC citing CME FedWatch, November 20), and the half-point bets that reached about 10% midweek have largely unwound as stocks fell. The 10-year closed near 4.92%, below 5% for the first time this week.",
+      "last_updated": "2026-11-24",
+      "updates": 121,
+      "current_state": "New York Fed President John Williams said on November 23 that inflation is 'too high' and that he would not exclude hiking at consecutive meetings; he expects inflation to end 2026 at 3.5%. A quarter-point hike from 3.75%-4.00% on December 9 is roughly 96%-98% priced (CNBC, Trading Economics citing futures); no half-point is priced. October PCE Wednesday, November 25, 8:30 a.m. ET. The 10-year ended Monday near 4.92%.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -1651,6 +1698,11 @@
           "date": "2026-11-21",
           "summary": "Half-point odds unwind as stocks crash; CNBC/FedWatch shows a quarter-point hike about 99% priced; 10-year closes near 4.92% on a safe-haven bid.",
           "change_type": "reversed"
+        },
+        {
+          "date": "2026-11-24",
+          "summary": "Williams: inflation 'too high', consecutive hikes not excluded; December quarter-point near fully priced.",
+          "change_type": "advanced"
         }
       ]
     },
@@ -2176,9 +2228,9 @@
       "title": "Dolphins rebuild under Hafley",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-11-23",
+      "last_updated": "2026-11-24",
       "updates": 87,
-      "current_state": "1-9 after a 26-9 loss at Buffalo on November 22, the fourth straight defeat. McCord went 12 of 33 for 102 yards with an interception in his second start; Miami was 2 of 14 on third down and scored only on three Carlson field goals. Buffalo is 9-1.",
+      "current_state": "1-9 after a 26-9 loss at Buffalo, four straight losses. Hafley said Malik Willis (groin, injured reserve) does not need surgery for now; Kyle McCord starts again in Week 12 against the Jets. Sieler, Phillips and Biggers are out for the season.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -3015,9 +3067,9 @@
       "title": "2026 CRE capital markets under pressure",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-11-21",
+      "last_updated": "2026-11-24",
       "updates": 61,
-      "current_state": "10-year closed near 4.92% on November 20 after a flight to safety, below 5% for the first time in days, while the S&P and Dow entered correction. Miami-Dade sales +4% YTD through October but October slipped with mortgage rates at 7.42%.",
+      "current_state": "The 10-year held near 4.92% on November 23 even as stocks posted their best day since April 2025, and dipped to about 4.91% Tuesday morning after Williams's remarks. The 2-year rose on the hike signal. Miami-Dade sales +4% YTD through October; mortgage rates near 7.42% in October.",
       "timeline": [
         {
           "date": "2026-07-24",
@@ -4230,9 +4282,9 @@
       "title": "AI-regulation selloff",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-11-23",
-      "updates": 14,
-      "current_state": "Seven straight S&P 500 losses through November 20 left the S&P at 6,910.39 (-8.6% on the week) and the Nasdaq at 22,617.73, negative for 2026. Sunday-evening futures rebounded sharply: S&P futures about +2.1% and Nasdaq futures about +2.75% at 9:16 p.m. ET (Fortune). Cash markets open Monday; PCE Wednesday; closed Thursday, 1 p.m. close Friday.",
+      "last_updated": "2026-11-24",
+      "updates": 15,
+      "current_state": "Monday, November 23: S&P 500 +4.73% to 7,237.17 and Nasdaq +6.51% to 24,089.56, the best day for both since April 2025, led by Nvidia; Dow +3% to 49,595.31. Every S&P sector rose except energy and consumer staples. Tuesday premarket, futures were modestly lower (Nasdaq-100 about -0.6%) as Nvidia gave back about 4%. PCE Wednesday; closed Thursday.",
       "timeline": [
         {
           "date": "2026-11-06",
@@ -4303,6 +4355,11 @@
           "date": "2026-11-23",
           "summary": "Futures rebound Sunday night after the worst week since April 2025: S&P futures about +2%, Nasdaq futures about +2.75%, Dow futures up roughly 800 points (Fortune, 9:16 p.m. ET). Futures only; no cash session yet.",
           "change_type": "watch"
+        },
+        {
+          "date": "2026-11-24",
+          "summary": "Best day since April 2025: S&P +4.73%, Nasdaq +6.51% on Huang's return; Tuesday futures slip.",
+          "change_type": "improved"
         }
       ]
     },
@@ -4311,9 +4368,9 @@
       "title": "Nvidia after Jensen Huang",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-11-21",
-      "updates": 9,
-      "current_state": "Fell about 14% on November 20, its worst day since the January 2025 DeepSeek rout, after Reuters reported SEC enforcement staff are examining its accounting (on top of the WSJ's November 17 report of a probe into whether disclosures misled investors). Neither the SEC nor Nvidia has confirmed; no charges. Kress remains interim CEO.",
+      "last_updated": "2026-11-24",
+      "updates": 10,
+      "current_state": "Reversed: on November 23 the board unanimously reinstated Jensen Huang as president, CEO and director, saying it was satisfied with his candor and had received input from senior levels of the US government; President Trump took credit. Shares rose about 31% Monday, the third-best day on record, then traded about 4% lower before Tuesday's open. An independent board committee's investigation into reports that Huang was targeted by a foreign intelligence effort continues, and three House committees still plan closed-door interviews with him on December 1. Reported SEC scrutiny of disclosures is unconfirmed and unresolved.",
       "timeline": [
         {
           "date": "2026-11-12",
@@ -4359,6 +4416,11 @@
           "date": "2026-11-21",
           "summary": "Reuters reports SEC scrutiny of Nvidia's accounting; shares fall about 14%, roughly $485 billion of market value lost in a day.",
           "change_type": "worsened"
+        },
+        {
+          "date": "2026-11-24",
+          "summary": "Board reverses itself and reinstates Huang as CEO; stock +31% in a day. Foreign-intelligence probe continues; House committees still plan December 1 interviews.",
+          "change_type": "reversed"
         }
       ]
     },
@@ -4367,9 +4429,9 @@
       "title": "Anthropic's IPO",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-11-22",
-      "updates": 9,
-      "current_state": "Closed its first two days at $88.91 (November 20), about 7% above the $83 offer after touching $83.05. Coverage initiations range from Seaport's Neutral to Needham's Buy with a $150 target. Next test: the holiday-shortened week starting November 23.",
+      "last_updated": "2026-11-24",
+      "updates": 10,
+      "current_state": "Lagged Monday's rally: traded between roughly $84.61 and $94.24 on November 23 and closed near $87.64 (about 5.6% above the $83 offer) while the Nasdaq rose 6.5%. Listed options were expected to begin trading. Lockup date still unconfirmed.",
       "timeline": [
         {
           "date": "2026-11-14",
@@ -4415,6 +4477,11 @@
           "date": "2026-11-22",
           "summary": "Analyst coverage began: Needham Buy ($150 target), New Street Buy ($105), with bullish starts from Wolfe, Citizens and Melius; Seaport Neutral, arguing growth needs time to justify the valuation. No lockup date confirmed in reporting found.",
           "change_type": "advanced"
+        },
+        {
+          "date": "2026-11-24",
+          "summary": "Third session: ANT ends near $87.64, flat-to-down while the Nasdaq rises 6.5%; options listing expected.",
+          "change_type": "unchanged"
         }
       ]
     }
@@ -4438,7 +4505,7 @@
     }
   ],
   "meta": {
-    "content_freshness": "2026-11-23T09:30:00-05:00",
+    "content_freshness": "2026-11-24T09:30:00-05:00",
     "feedback_endpoint_mode": "github_contents",
     "minimum_client_schema_version": 1,
     "mode": "brain"
