@@ -1,37 +1,36 @@
 {
   "schema_version": 2,
   "edition": {
-    "id": "2026-11-26",
-    "date": "2026-11-26",
+    "id": "2026-11-27",
+    "date": "2026-11-27",
     "type": "weekday",
-    "generated_at": "2026-11-26T09:30:00-05:00",
+    "generated_at": "2026-11-27T09:30:00-05:00",
     "timezone": "America/New_York",
     "title": "Personal OS",
     "front_page_letter": {
       "greeting": "Good morning",
       "body_paragraphs": [
-        "Good morning, and happy Thanksgiving.",
-        "Inflation ran a little hotter than forecast yesterday: core PCE was 3.3%, the highest since 2023. A December 9 hike is now as close to certain as these things get. The odd part is what bonds did next. The 10-year fell to about 4.84%, its lowest in roughly two and a half months, because investors were running from AI stocks, not because inflation looked better.",
-        "That running now shows up in credit too. The cost of insuring debt from Oracle, CoreWeave and other AI borrowers hit records, and Nvidia fell another 3.9%. The Dow dropped more than 1,100 points during the day and still closed up. Oil went the other way: an unconfirmed Houthi strike on a Saudi refinery pushed Brent back up to about $94.61.",
-        "For property, the long end finally gave a little, but on fear. That is a window, not a trend.",
-        "At home, the front has cleared the rain, and today should be dry and in the 70s. The Heat’s streak ended in Philadelphia; the Panthers got Barkov and Marchand back and won.",
-        "Markets are closed today. Read Lincoln’s Thanksgiving proclamation, which was written in a far worse year, and let the rest wait until Friday."
+        "Good morning. While New York was carving turkey, the rest of the world bought the dip. Tokyo, Taipei and Frankfurt all rallied on Thursday, and U.S. futures were up about half a percent. That is a better start than Wednesday deserved, when the Nasdaq 100 briefly fell into bear-market territory. But today's session ends at 1 p.m. on thin volume, so treat it as weather, not climate.",
+        "The more lasting news slipped out on Wednesday under the inflation print. The administration proposed tariffs on 14 trading partners, with China facing 20% and up to 45% on some goods. These are proposals for next year and the rates will move, but they land on the same goods that go into buildings, and they arrive just as the Fed is about to raise rates.",
+        "Oil is the other thing pushing the wrong way. Brent was reportedly above $96 yesterday, ahead of Sunday's OPEC+ meeting.",
+        "Put together: long rates are still a window, and materials just got a question mark.",
+        "At home, the Panthers play at 3 and the Heat at 7. Tomorrow the Canes can finish 9-0 in the ACC. Tonight, read Veblen on why we buy what we buy."
       ],
       "read_only_three": [
         {
           "target_type": "theme",
-          "target_id": "theme-fed-minutes",
-          "label": "Hot PCE, falling yields"
+          "target_id": "theme-tariffs-section-301",
+          "label": "The tariff proposal"
         },
         {
           "target_type": "theme",
-          "target_id": "theme-ai-credit-stress",
-          "label": "AI doubt reaches credit"
+          "target_id": "theme-miami-cre-refis",
+          "label": "Rates vs. materials"
         },
         {
-          "target_type": "theme",
-          "target_id": "theme-thanksgiving-proclamation",
-          "label": "Lincoln, 1863"
+          "target_type": "rabbit_hole",
+          "target_id": "rh-2026-11-27",
+          "label": "Veblen for Black Friday"
         }
       ]
     },
@@ -40,147 +39,119 @@
         "label": "S&P 500",
         "value": "7,182.78",
         "change": "-0.25% Wednesday",
-        "observed": "Close, Wednesday, November 25, 2026 (GSM News; other outlets cite about 7,186)",
-        "note": "Recovered most of a steep early loss. Markets closed Thursday; 1 p.m. close Friday."
+        "observed": "Close, Wednesday, November 25, 2026 (last session; markets closed Thursday)",
+        "note": "Had been down as much as 3.2% intraday. S&P futures were up about 0.5% early Thursday (AP). Stocks close at 1 p.m. today."
       },
       {
         "label": "Nasdaq Composite",
         "value": "23,585.80",
         "change": "-0.62% Wednesday",
-        "observed": "Close, Wednesday, November 25, 2026 (GSM News)",
-        "note": "Nvidia -3.9% to $149.30; VIX +7.3% to 28.29. Dow +0.33% to 50,182.95 after an intraday drop of more than 1,100 points."
+        "observed": "Close, Wednesday, November 25, 2026",
+        "note": "The Nasdaq 100 briefly sat about 20% below its closing high Wednesday before recovering. Nvidia closed at $149.30."
       },
       {
         "label": "10-year Treasury",
-        "value": "about 4.84%",
-        "change": "down roughly 3-8 basis points",
-        "observed": "November 25, 2026; outlets report 4.82%-4.87% depending on time",
-        "note": "CNBC intraday: 2-year 4.65%, 30-year 5.254%. Bond market closed Thursday; 2 p.m. close Friday."
+        "value": "about 4.84%-4.86%",
+        "change": "little changed in holiday futures trade",
+        "observed": "Last cash close November 25, 2026; futures-implied yields edged lower November 26",
+        "note": "Cash bond market was closed Thursday; 2 p.m. close today."
       },
       {
         "label": "Brent crude",
-        "value": "about $94.61",
-        "change": "+3.5% Wednesday",
-        "observed": "Settlement, November 25, 2026 (as reported citing Reuters); some outlets cite different contract months",
-        "note": "WTI about $83.68. OPEC+ meets Sunday, November 29."
+        "value": "above $96 (reported)",
+        "change": "up from about $94.61 Wednesday",
+        "observed": "Intraday, November 26, 2026, per Bloomberg markets wrap (via Swissinfo); not a settlement",
+        "note": "Single source; other outlets quoted crude near $84, likely WTI. OPEC+ meets Sunday, November 29."
       },
       {
         "label": "FOMC",
-        "value": "3.75%-4.00%; decision December 9 (13 days)",
+        "value": "3.75%-4.00%; decision December 9 (12 days)",
         "change": "Quarter-point hike priced near 94%-98%",
         "observed": "CME FedWatch as cited by several outlets, November 25-26, 2026",
-        "note": "Not read from CME directly. January hike odds reported anywhere from about 40% to 73%; unsettled."
+        "note": "Not read from CME directly; no update found this morning."
       }
     ],
     "public_day_context": {
-      "date_label": "Thursday, November 26, 2026 (Thanksgiving)",
-      "weather": "Flood watch expired; a cold front brings clearing skies by afternoon, highs in the 70s, lows upper 50s to mid 60s, with 50s possible Friday and Saturday mornings (NBC 6, local forecasts).",
-      "public_event": "Thanksgiving: U.S. stock and bond markets closed; stocks close 1 p.m., bonds 2 p.m. Friday. Canes host Boston College Saturday, noon (ESPN); Dolphins host the Jets Sunday, 1 p.m.; OPEC+ meets Sunday."
+      "date_label": "Friday, November 27, 2026 (Black Friday)",
+      "weather": "No fresh Miami forecast could be verified this morning. Thursday's forecasts (NBC 6, local outlets) called for dry post-frontal air, with lows possibly in the 50s Friday and Saturday mornings and highs in the 70s.",
+      "public_event": "Black Friday: stocks close 1 p.m., bonds 2 p.m. Panthers at Capitals 3 p.m.; Heat at Knicks 7 p.m. (NBA Cup). Saturday: Canes host Boston College, noon (ESPN). Sunday: OPEC+ meets; Dolphins host the Jets, 1 p.m."
     },
     "what_changed": [
       {
-        "id": "delta-pce-hot",
-        "thread_id": "thread-fed-rate-path",
-        "change_type": "worsened",
-        "title": "Core PCE prints 3.3%, above forecast",
-        "previous_state": "Forecasters expected core PCE at 3.2% year over year, up from 3.1% in September.",
-        "current_state": "It came in at 3.3%, the highest since 2023, with headline PCE at 3.8%; a December hike is now priced near 94%-98%.",
-        "why_it_matters": "December is settled; the open question is January.",
+        "id": "delta-tariffs-301",
+        "thread_id": "thread-tariffs-section-301",
+        "change_type": "new",
+        "title": "A new tariff round is on the table",
+        "previous_state": "Trade risk centered on the U.S.-China truce expiring January 10, with no new tariff action announced.",
+        "current_state": "On November 25 the administration proposed a 20% tariff on many Chinese goods (45% for some, stacked) and separate rates for 14 partners including the EU, Japan and Taiwan, effective next year.",
+        "why_it_matters": "It adds a goods-inflation risk to 2027 just as the Fed is hiking, and it lands on construction materials.",
         "confidence": "high",
         "source": {
-          "publisher": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html"
+          "publisher": "NBC News",
+          "url": "https://www.nbcnews.com/business/economy/trump-country-specific-tariffs-excess-capacity-rcna611087"
         }
       },
       {
-        "id": "delta-10y-falls",
-        "thread_id": "thread-cre-capital-markets-2026",
+        "id": "delta-global-rebound",
+        "thread_id": "thread-ai-regulation-selloff",
         "change_type": "improved",
-        "title": "The 10-year breaks lower",
-        "previous_state": "The 10-year had held near 4.9% through two days of equity swings.",
-        "current_state": "It fell to roughly 4.84% on November 25 on a flight to safety, despite the hot inflation print.",
-        "why_it_matters": "Cheaper long money, though for reasons that can reverse.",
-        "confidence": "medium",
-        "source": {
-          "publisher": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/25/treasury-yields-bonds-inflation.html"
-        }
-      },
-      {
-        "id": "delta-oil-reverses",
-        "thread_id": "thread-iran-hormuz-crisis",
-        "change_type": "reversed",
-        "title": "Oil jumps back above $94",
-        "previous_state": "Brent traded near $89.80 early Wednesday, close to a three-month low, despite wider sanctions.",
-        "current_state": "It settled near $94.61, up about 3.5%, after the Houthis claimed an attack on Saudi Arabia’s Ras Tanura refinery.",
-        "why_it_matters": "The one inflation input that was easing gave back much of its relief.",
-        "confidence": "medium",
-        "source": {
-          "publisher": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/25/oil-wti-brent-hormuz-middle-east.html"
-        }
-      },
-      {
-        "id": "delta-nvidia-149",
-        "thread_id": "thread-nvidia-huang-board",
-        "change_type": "worsened",
-        "title": "Nvidia falls again, to $149.30",
-        "previous_state": "Nvidia closed at $155.38 on November 24 after giving back 5.9%.",
-        "current_state": "It fell another 3.9% on November 25, after being down as much as 8%, while record credit-default-swap costs spread across AI borrowers.",
-        "why_it_matters": "The doubt has moved from the share price into the credit market.",
-        "confidence": "medium",
-        "source": {
-          "publisher": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/25/nvidia-ai-stock-tech-selloff.html"
-        }
-      },
-      {
-        "id": "delta-heat-streak-ends",
-        "thread_id": "thread-heat-giannis-era",
-        "change_type": "reversed",
-        "title": "Heat win streak ends at seven",
-        "previous_state": "The Heat were 10-6 on a seven-game winning streak.",
-        "current_state": "They lost 111-104 at Philadelphia despite 32 points and 14 rebounds from Giannis; 10-7.",
-        "why_it_matters": "A road loss to the East’s best record, not a crisis.",
+        "title": "The world bought the dip while New York was closed",
+        "previous_state": "Wednesday ended with the S&P 500 down 0.25% after a 3.2% intraday plunge and Nvidia down 3.9%.",
+        "current_state": "Thursday the Nikkei rose 0.9%, the Taiex 2.5%, and Germany's DAX about 1.9% early; S&P futures were up about 0.5%.",
+        "why_it_matters": "It sets a firmer tone for today's short session, though holiday volume makes it a thin signal.",
         "confidence": "high",
         "source": {
-          "publisher": "ESPN",
-          "url": "https://www.espn.com/nba/recap?gameId=401909317"
+          "publisher": "ABC News (AP)",
+          "url": "https://abcnews.com/Business/wireStory/global-stocks-rise-tech-shares-rebound-us-closes-138462620"
+        }
+      },
+      {
+        "id": "delta-brent-96",
+        "thread_id": "thread-iran-hormuz-crisis",
+        "change_type": "worsened",
+        "title": "Brent keeps climbing, reportedly above $96",
+        "previous_state": "Brent settled near $94.61 on November 25 after the Houthi refinery claim.",
+        "current_state": "Bloomberg's Thursday wrap had it above $96; Saudi Arabia had not confirmed damage in the reporting found.",
+        "why_it_matters": "Two up days into Sunday's OPEC+ meeting erode the oil relief that had been the one soft input into this hiking cycle.",
+        "confidence": "medium",
+        "source": {
+          "publisher": "Swissinfo (Bloomberg)",
+          "url": "https://www.swissinfo.ch/eng/asian-stock-futures-signal-gains,-oil-climbs-again:-markets-wrap/92446051"
         }
       }
     ],
     "themes": [
       {
-        "id": "theme-fed-minutes",
+        "id": "theme-tariffs-section-301",
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Core PCE runs hot at 3.3%, and bonds rally anyway",
-        "importance": 0.9,
-        "thesis": "October core PCE came in a tenth above forecast at 3.3%, its highest since 2023, yet the 10-year fell to roughly 4.84% as money ran from AI stocks into Treasuries.",
-        "synthesis": "Core PCE rose 0.3% for the month, in line, but 3.3% from a year earlier against a 3.2% consensus; headline PCE was 3.8%, as expected, and reports noted real spending slipping. A December 9 quarter-point hike now sits at roughly 94% to 98% in CME FedWatch readings cited after the release. Odds of a second hike in January are reported anywhere from about 40% to 73% depending on the source and time of day, so treat that number as unsettled.",
-        "new_today": "The print itself: core 3.3% y/y versus 3.2% expected; December hike near certain.",
-        "why_it_matters": "The bond market is doing two jobs at once: pricing a hiking Fed and buying protection against an equity scare. For anyone carrying floating-rate debt, December is settled; the useful question over the long weekend is whether January stays a coin flip.",
-        "thread_id": "thread-fed-rate-path",
-        "confidence": "medium",
+        "title": "Fourteen countries, fourteen rates",
+        "importance": 0.85,
+        "thesis": "The administration has proposed country-by-country tariffs on 14 of its largest trading partners, with China facing a 20% 'deal rate' that reaches 45% on some goods once stacked.",
+        "synthesis": "The action follows a Section 301 finding on industrial overcapacity. Trade Representative Greer said the levies will not be blanket tariffs but rates set for each partner, including the EU, Japan, South Korea, Taiwan and India. The White House framed China's 20% as a starting point that could rise or fall with talks; the U.S.-China truce expires January 10. The EU rejected the premise that it is a source of overcapacity, and Beijing said trade wars serve neither side. The measures are proposals, would take effect next year, and the final rates may change.",
+        "new_today": "New to this edition: announced November 25, overshadowed by the PCE print and the AI selloff.",
+        "why_it_matters": "Tariffs are a cost on the steel, aluminum, glass and fixtures that go into buildings, and a second-order inflation risk the Fed would have to price into 2027. For a construction budget or a development pro forma, this is the start of a negotiation, not a number to plug in yet.",
+        "thread_id": "thread-tariffs-section-301",
+        "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "CNBC",
-            "headline": "PCE inflation report October 2026: Fed's preferred inflation gauge accelerated to 3.8%",
-            "url": "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html"
+            "publisher": "NBC News",
+            "headline": "Trump proposes a new wave of tariffs on China, E.U. and other trade partners",
+            "url": "https://www.nbcnews.com/business/economy/trump-country-specific-tariffs-excess-capacity-rcna611087"
           },
           {
             "role": "analysis",
-            "publisher": "CNBC",
-            "headline": "10-year Treasury yield slides despite sticky inflation data as investors buy bonds for protection",
-            "url": "https://www.cnbc.com/2026/11/25/treasury-yields-bonds-inflation.html"
+            "publisher": "Yahoo Finance",
+            "headline": "US announces new tariffs of up to 20% on China, the EU, and 12 other nations",
+            "url": "https://finance.yahoo.com/markets/article/us-announces-new-tariffs-of-up-to-20-on-china-the-eu-and-12-other-nations-131802359.html"
           },
           {
-            "role": "background",
-            "publisher": "investingLive",
-            "headline": "US October PCE core inflation +0.3% m/m vs +0.3% expected",
-            "url": "https://investinglive.com/news/us-october-pce-core-inflation-m-m-vs-0-3-expected/"
+            "role": "counterpoint",
+            "publisher": "ABC News (AP)",
+            "headline": "US plans to hike tariffs on China, EU, Brazil and others over subsidized production",
+            "url": "https://abcnews.com/US/wireStory/us-plans-hike-tariffs-china-eu-brazil-subsidized-138438618"
           }
         ]
       },
@@ -189,66 +160,26 @@
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Down 1,100, then up 164: the Dow climbs out of the hole",
-        "importance": 0.86,
-        "thesis": "Wednesday opened as a rout and closed as a split: the Dow erased an intraday loss of more than 1,100 points while Nvidia fell another 3.9%.",
-        "synthesis": "The Dow finished up 0.33% at about 50,183; the S&P 500 fell 0.25% to about 7,183 and the Nasdaq Composite 0.62% to about 23,586 (closing figures vary slightly by outlet). Nvidia closed at $149.30, down 3.9% after falling as much as 8% intraday, with no company news behind it; reports blamed the hot PCE print, AI spending doubts and credit worries. The VIX rose about 7% to 28.3. Markets are closed today and close at 1 p.m. Friday.",
-        "new_today": "An intraday crash reversed into a mixed close; Nvidia now about 40% of the way back down from its reinstatement rally.",
-        "why_it_matters": "Three days of whipsaw in a holiday week, with thin trading on Friday still to come. The pattern is consistent: buyers want the index, not the AI premium inside it.",
-        "thread_id": "thread-ai-regulation-selloff",
-        "confidence": "medium",
-        "sources": [
-          {
-            "role": "primary_reporting",
-            "publisher": "Yahoo Finance",
-            "headline": "Stock market today: Dow erases losses to end positive, S&P 500 and Nasdaq recover ground amid AI sell-off",
-            "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html"
-          },
-          {
-            "role": "analysis",
-            "publisher": "CNBC",
-            "headline": "Nvidia leads tech sell-off as Huang comeback rally fizzles and AI concerns return",
-            "url": "https://www.cnbc.com/2026/11/25/nvidia-ai-stock-tech-selloff.html"
-          },
-          {
-            "role": "background",
-            "publisher": "ABC News",
-            "headline": "Stocks close mixed after Wall Street erases sharp decline: Nvidia drops 4%",
-            "url": "https://abcnews.com/Business/stocks-tumble-tech-sell-off-resumes-nvidia-falls/story?id=138442070"
-          }
-        ]
-      },
-      {
-        "id": "theme-ai-credit-stress",
-        "affinity": "morning",
-        "topic": "markets",
-        "topic_label": "Markets & Macro",
-        "title": "The AI trade moves into the credit market",
+        "title": "The world bought the dip on Thanksgiving",
         "importance": 0.8,
-        "thesis": "The cost of insuring the debt of AI builders, Oracle, CoreWeave and, by some reports, Nvidia itself, hit record highs this week.",
-        "synthesis": "Reports citing S&P Global Market Intelligence data put five-year credit default swap spreads at records for Oracle, Alphabet, SpaceX and CoreWeave, with CoreWeave posting what one data provider called its largest one-day jump on record. Exact levels differ widely across outlets, so treat the specific numbers with caution; the direction is not in dispute. The worry is the one that has hung over the selloff for weeks: that debt-financed data centers will earn their returns too slowly to service the debt.",
-        "new_today": "New: credit spreads, not just share prices, now carrying the AI doubt.",
-        "why_it_matters": "When a story moves from equity to credit, it starts touching lenders, and lenders are the ones who also fund real estate. Data-center debt is a large slice of recent CRE and infrastructure lending, so this is worth watching for spillover into spreads you care about.",
-        "thread_id": "thread-ai-credit-stress",
-        "confidence": "medium",
+        "thesis": "With New York closed, Asia and Europe rallied on AI-linked buying, and U.S. futures pointed higher into today's half-session.",
+        "synthesis": "Japan's Nikkei rose 0.9% to 57,499.16, Taiwan's Taiex 2.5%, and South Korea's Kospi 0.3% after a 6.2% drop the day before; Germany's DAX was up about 1.9% and France's CAC 40 about 1.8% in early trading. S&P 500 futures rose about 0.5% early Thursday. The backdrop is Wednesday, when the Nasdaq 100 briefly sat roughly 20% below its closing high, bear-market territory for a few hours, before buyers stepped in. AP noted profit-taking late in the Asian day and new caution over the tariff plan.",
+        "new_today": "Improved: a global rebound after Wednesday's intraday plunge.",
+        "why_it_matters": "Today is a 1 p.m. close on thin volume, so whatever happens is weak evidence either way. The more useful test is Monday, with full liquidity and the OPEC+ result in hand.",
+        "thread_id": "thread-ai-regulation-selloff",
+        "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "Yahoo Finance (via The Motley Fool)",
-            "headline": "Why Nvidia Stock Is Falling Again",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/why-nvidia-stock-falling-again-185302235.html"
-          },
-          {
-            "role": "analysis",
-            "publisher": "Longbridge",
-            "headline": "AI Debt Risks Intensify! CoreWeave and NVIDIA Credit Default Swap Indicators Hit Record Highs",
-            "url": "https://longbridge.com/en/news/306824689"
+            "publisher": "ABC News (AP)",
+            "headline": "Global stocks rise and tech shares rebound as US closes for Thanksgiving",
+            "url": "https://abcnews.com/Business/wireStory/global-stocks-rise-tech-shares-rebound-us-closes-138462620"
           },
           {
             "role": "background",
-            "publisher": "Yahoo Finance",
-            "headline": "Explainer: What are credit default swaps and why are they in focus?",
-            "url": "https://finance.yahoo.com/news/explainer-credit-default-swaps-why-181141919.html"
+            "publisher": "U.S. News (AP)",
+            "headline": "Global Stocks Rise and Tech Shares Rebound as US Closes for Thanksgiving",
+            "url": "https://www.usnews.com/news/us/articles/2026-11-26/asian-shares-rebound-led-by-ai-stocks-after-wall-street-pares-sharp-losses"
           }
         ]
       },
@@ -257,60 +188,26 @@
         "affinity": "morning",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Oil snaps back above $94",
-        "importance": 0.7,
-        "thesis": "A day after sitting near a three-month low, Brent jumped about 3.5% to settle near $94.61 after the Houthis claimed an attack on Saudi Arabia's Ras Tanura refinery.",
-        "synthesis": "The Houthis also claimed a strike on Riyadh's financial district; neither claim had been independently confirmed in the reporting found. Iran's navy said two more tankers were set ablaze in the Strait. WTI rose about 2% to $83.68. Traders also cited short-covering before the holiday and uncertainty ahead of an OPEC+ meeting on Sunday, November 29, on 2027 output.",
-        "new_today": "Reversal: Brent from under $90 to about $94.61 in one session.",
-        "why_it_matters": "Tuesday's edition noted that oil was the one input easing into a hiking cycle. One unconfirmed refinery claim took a third of that relief back, which says the market's surplus thesis is thinner than the price implied.",
+        "title": "Oil keeps going the wrong way",
+        "importance": 0.68,
+        "thesis": "Brent reportedly pushed above $96 on Thursday, a second up day after the Houthi claim of a strike on Ras Tanura.",
+        "synthesis": "Bloomberg's markets wrap put Brent above $96 a barrel; that is a single intraday account in thin holiday trade, and one regional newswire quoted crude near $84, which is likely the WTI benchmark. Saudi Arabia had not confirmed damage at the refinery in the reporting found. OPEC+ meets Sunday, November 29, on 2027 output.",
+        "new_today": "Worsened: from about $94.61 to above $96, reported.",
+        "why_it_matters": "Earlier this month oil was the one input easing into a hiking cycle. Two days have given back much of that, and Sunday's meeting decides whether it sticks.",
         "thread_id": "thread-iran-hormuz-crisis",
         "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "CNBC",
-            "headline": "Oil prices rise after Houthis say they attacked Saudi refinery",
-            "url": "https://www.cnbc.com/2026/11/25/oil-wti-brent-hormuz-middle-east.html"
-          },
-          {
-            "role": "analysis",
-            "publisher": "OilPrice.com",
-            "headline": "Oil Rallies as Hormuz Mine Strikes Rattle Global Markets",
-            "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Rallies-as-Hormuz-Mine-Strikes-Rattle-Global-Markets.html"
+            "publisher": "Swissinfo (Bloomberg)",
+            "headline": "Asian Stock Futures Signal Gains, Oil Climbs Again: Markets Wrap",
+            "url": "https://www.swissinfo.ch/eng/asian-stock-futures-signal-gains,-oil-climbs-again:-markets-wrap/92446051"
           },
           {
             "role": "background",
-            "publisher": "Nation Thailand",
-            "headline": "Brent up 3.5% on 25 Nov as Houthis claim Saudi refinery attack",
-            "url": "https://www.nationthailand.com/news/world/40073934"
-          }
-        ]
-      },
-      {
-        "id": "theme-miami-flood-watch",
-        "affinity": "morning",
-        "topic": "miami",
-        "topic_label": "Miami Life & Culture",
-        "title": "The front clears the rain out for the holiday",
-        "importance": 0.6,
-        "thesis": "The flood watch expired overnight, and a cold front is pushing drier, cooler air through South Florida on Thanksgiving Day.",
-        "synthesis": "Wednesday brought the heavy rain on top of the final king tides. Forecasters expect lingering clouds to clear by this afternoon, highs from the low to upper 70s, and lows in the upper 50s to mid 60s, with mornings in the 50s possible Friday and Saturday.",
-        "new_today": "The watch is over; the front arrives today.",
-        "why_it_matters": "An outdoor table works this afternoon. Expect standing water to linger in low coastal streets this morning.",
-        "thread_id": null,
-        "confidence": "medium",
-        "sources": [
-          {
-            "role": "primary_reporting",
-            "publisher": "NBC 6 South Florida",
-            "headline": "LIVE RADAR: Flood watch in South Florida; storms could bring tornado threat day before Thanksgiving",
-            "url": "https://www.nbcmiami.com/weather/stories-weather/live-radar-south-florida-under-flood-watch-severe-storms-tornados/3892670/"
-          },
-          {
-            "role": "local_perspective",
-            "publisher": "Yahoo News",
-            "headline": "Flooding a growing concern as heavy rain drenches South Florida ahead of Thanksgiving",
-            "url": "https://www.yahoo.com/news/weather-news/articles/flooding-growing-concern-heavy-rain-165400294.html"
+            "publisher": "gCaptain",
+            "headline": "How the Houthis are Helping Iran Turn Saudi Arabia Into a Pressure Point",
+            "url": "https://gcaptain.com/yemens-houthis-say-they-hit-saudi-ras-tanura-oil-refinery-with-missile/"
           }
         ]
       },
@@ -319,32 +216,32 @@
         "affinity": "morning",
         "topic": "sports",
         "topic_label": "Miami Sports",
-        "title": "Heat streak ends in Philly; Barkov and Marchand return with a win",
-        "importance": 0.62,
-        "thesis": "The Heat's seven-game run ended 111-104 at Philadelphia despite 32 points from Giannis, while the Panthers beat Ottawa 5-3 with both stars back.",
-        "synthesis": "LeBron James posted his first triple-double for Philadelphia (25 points, 12 assists, 10 rebounds) and Tyrese Maxey scored 30; Giannis added 14 rebounds, playing through the groin issue, and Davion Mitchell scored 20. Miami is 10-7. In Sunrise, Brad Marchand had three assists in his return from injury, Barkov scored into an empty net, and Markstrom made 25 saves; Florida moves to 14-8-3. The Hurricanes host Boston College (5-6) on Saturday at noon on ESPN before the ACC title game, and the Dolphins host the Jets Sunday at 1 p.m.",
-        "new_today": "Heat streak over; Panthers healthier; Canes finale Saturday.",
-        "why_it_matters": "The Panthers getting Barkov and Marchand back at once matters more for the season than one Heat loss on the road to the East leader. Saturday is the Canes’ last chance to tidy up before Charlotte.",
-        "thread_id": "thread-heat-giannis-era",
+        "title": "Four games, three days, one perfect season on the line",
+        "importance": 0.72,
+        "thesis": "The Panthers and Heat play today, the Canes go for their first 9-0 ACC regular season tomorrow, and the Dolphins host the Jets Sunday.",
+        "synthesis": "The Panthers (14-8-3) visit Washington at 3 p.m.; the Capitals are 11-11-0 and have lost five straight. The Heat (10-7) close NBA Cup group play at the Knicks at 7 p.m. on Prime Video, then go to Cleveland Sunday. Miami (10-1, No. 7 in the CFP rankings) hosts Boston College (5-6) Saturday at noon on ESPN, already booked for the ACC title game against Wake Forest on December 5 in Charlotte; BC needs the win for bowl eligibility. The Dolphins (1-9) host the Jets Sunday at 1 p.m.",
+        "new_today": "Schedule and stakes for the holiday weekend; no new results since Wednesday.",
+        "why_it_matters": "Saturday is the game with something real on it: a clean conference sweep going into Charlotte, and seeding in a playoff where Miami and Wake Forest look likely to both get in if they win this weekend.",
+        "thread_id": "thread-hurricanes-fall-camp",
         "confidence": "high",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "ESPN",
-            "headline": "76ers 111-104 Heat (Nov 25, 2026) Game Recap",
-            "url": "https://www.espn.com/nba/recap?gameId=401909317"
+            "publisher": "CBS Sports",
+            "headline": "Miami chases first ACC sweep, CFP push against Boston College",
+            "url": "https://www.cbssports.com/college-football/news/miami-chases-first-acc-sweep-cfp-push-against-boston-college/"
           },
           {
             "role": "local_perspective",
-            "publisher": "NHL.com",
-            "headline": "Panthers get past Senators in Marchand, Barkov return",
-            "url": "https://www.nhl.com/news/ottawa-senators-florida-panthers-game-recap-november-25-2026"
+            "publisher": "NHL.com (Florida Panthers)",
+            "headline": "PREVIEW: Panthers clash with Capitals on Black Friday",
+            "url": "https://www.nhl.com/panthers/news/preview-panthers-clash-with-capitals-on-black-friday"
           },
           {
             "role": "background",
-            "publisher": "Sports Illustrated",
-            "headline": "How to Watch No. 4 Miami's Regular Season Finale Against Boston College",
-            "url": "https://www.si.com/college/miami/football/how-to-watch-no-4-miami-regular-season-finale-against-boston-college"
+            "publisher": "NBA.com",
+            "headline": "Emirates NBA Cup 2026: East Group B preview",
+            "url": "https://www.nba.com/news/emirates-nba-cup-2026-east-group-b-preview"
           }
         ]
       },
@@ -353,12 +250,12 @@
         "affinity": "evening",
         "topic": "markets",
         "topic_label": "Markets & Macro",
-        "title": "Cheaper long money, for the wrong reason",
-        "importance": 0.58,
-        "thesis": "The 10-year fell to roughly 4.84%, around its lowest in two and a half months, on a day inflation came in hot.",
-        "synthesis": "Yields dropped because equity and credit investors went looking for safety, not because the inflation picture improved; one account also credits strong demand at a 10-year auction, a detail worth verifying. Closing levels vary by outlet, from about 4.82% to 4.87%, with the 2-year near 4.65% and the 30-year near 5.25% in CNBC’s intraday snapshot.",
-        "new_today": "Long rates finally moved, down, after holding near 4.9% through the equity swings.",
-        "why_it_matters": "A flight-to-safety rally can reverse as fast as it came, so it is a window rather than a trend. If a refinancing or rate lock is in motion, the next few sessions may be the cheapest long money before the December 9 hike.",
+        "title": "Cheap long money meets dear materials",
+        "importance": 0.6,
+        "thesis": "The rate window opened by Wednesday's flight to safety is still there, but this week also put a tariff question on top of every construction budget.",
+        "synthesis": "The 10-year last closed around 4.84%-4.86%, near a two-and-a-half-month low, and futures drifted slightly lower over the holiday, while a December 9 hike is priced as near-certain. That is a strange combination: short rates going up, long rates coming down, because investors fear AI-driven losses more than inflation. The proposed Section 301 tariffs complicate it from the other side: they would not take effect until next year, and the rates are not final, but they point at the imported materials that new buildings depend on.",
+        "new_today": "Synthesis: rates and the tariff proposal read together.",
+        "why_it_matters": "For a refinancing, the window still argues for locking long money sooner. For a ground-up deal, it argues for pricing materials contingency more conservatively until the tariff rates settle. The two pressures run in opposite directions, so the net depends on which side of that line a deal sits.",
         "thread_id": "thread-cre-capital-markets-2026",
         "confidence": "medium",
         "sources": [
@@ -370,90 +267,90 @@
           },
           {
             "role": "analysis",
-            "publisher": "ROIC.ai",
-            "headline": "Treasury Yields Slide as Tech Rout Fuels Safe-Haven Bid",
-            "url": "https://www.roic.ai/news/treasury-yields-slide-as-tech-rout-fuels-safe-haven-bid-11-25-2026"
+            "publisher": "NBC News",
+            "headline": "Trump proposes a new wave of tariffs on China, E.U. and other trade partners",
+            "url": "https://www.nbcnews.com/business/economy/trump-country-specific-tariffs-excess-capacity-rcna611087"
           }
         ]
       },
       {
-        "id": "theme-thanksgiving-proclamation",
+        "id": "theme-black-friday-forecasts",
         "affinity": "evening",
         "topic": "living",
         "topic_label": "Art of Living",
-        "title": "Lincoln’s Thanksgiving, written in a year of war",
+        "title": "The weekend that is supposed to grow twice as fast as the season",
         "importance": 0.5,
-        "thesis": "The proclamation that fixed the national holiday was issued on October 3, 1863, three months after Gettysburg, and it gives thanks without pretending the year had gone well.",
-        "synthesis": "Lincoln set aside the last Thursday of November after years of lobbying by the editor Sarah Josepha Hale; Secretary of State William Seward countersigned it, and some historians credit him with the draft. The text lists harvests, peace abroad and a growing population, and sets them against \"a civil war of unequaled magnitude and severity.\" It takes about five minutes to read.",
-        "new_today": "An evergreen read for the day itself, not news.",
-        "why_it_matters": "It is a model of gratitude that does not need things to be fine first, which suits a week when markets, weather and a ballgame all went sideways.",
+        "thesis": "Forecasters expect Black Friday through Cyber Monday to outgrow the holiday season by nearly two to one, even as surveys show shoppers planning to spend less per person.",
+        "synthesis": "Bain projects the five days will top $85 billion, up 8.75% from last year, against 4.5% growth for the season. Adobe expects $12.9 billion online today alone, up 9.2%, and $15.1 billion on Cyber Monday. But PwC's survey puts average gift spending down 2%, Deloitte's (from March) has weekend budgets down 4%, and Bain says more than half of consumers plan to change their holiday spending, with prices a top reason. The forecasts come from different firms and methods, so read them as direction, not arithmetic.",
+        "new_today": "Evergreen-ish: the forecasts are weeks old, but today is the day they get tested.",
+        "why_it_matters": "The two sets of numbers are not contradictory: people are spending less overall and concentrating more of it into a few discount days. That is a story about prices and about attention, how a calendar teaches a whole country when to want things.",
         "thread_id": null,
-        "confidence": "high",
+        "confidence": "medium",
         "sources": [
           {
             "role": "primary_reporting",
-            "publisher": "American Battlefield Trust",
-            "headline": "Abraham Lincoln's Proclamation of Thanksgiving",
-            "url": "https://www.battlefields.org/learn/primary-sources/abraham-lincolns-proclamation-thanksgiving"
+            "publisher": "Bain & Company",
+            "headline": "Black Friday 2026 sales forecast",
+            "url": "https://www.bain.com/insights/black-friday-2026-sales-forecast-infographic/"
           },
           {
-            "role": "background",
-            "publisher": "Teaching American History",
-            "headline": "Proclamation for Thanksgiving",
-            "url": "https://teachingamericanhistory.org/document/proclamation-for-thanksgiving/"
+            "role": "analysis",
+            "publisher": "Adobe",
+            "headline": "Holiday shopping report",
+            "url": "https://business.adobe.com/resources/holiday-shopping-report.html"
           }
         ]
       }
     ],
     "rabbit_hole": {
-      "id": "rh-2026-11-26",
-      "title": "Walking",
-      "creator": "Henry David Thoreau (Project Gutenberg)",
-      "format": "essay",
-      "minutes": 45,
-      "why": "Thoreau’s essay, first given as a lecture in 1851 and published in 1862, argues for walking as a vocation rather than exercise: afternoons of \"sauntering\" with no errand, and a wildness he thought every life needed. Read it today, then take the advice tomorrow morning, when the front leaves the first cool, dry air of the season.",
-      "url": "https://www.gutenberg.org/ebooks/1022",
+      "id": "rh-2026-11-27",
+      "title": "The Theory of the Leisure Class (Chapter IV, 'Conspicuous Consumption')",
+      "creator": "Thorstein Veblen (Project Gutenberg)",
+      "format": "book",
+      "minutes": 50,
+      "why": "Veblen's 1899 book coined 'conspicuous consumption' and argued that much of what people buy is bought to be seen buying it; the fourth chapter stands on its own in under an hour. Read it on the one day of the year built entirely around buying, and notice how much of his satire about the 1890s still describes a checkout page.",
+      "url": "https://www.gutenberg.org/ebooks/833",
       "related_interest": "living"
     },
     "beautiful_thing": {
-      "id": "bt-2026-11-26",
-      "title": "América",
-      "creator": "Richard Blanco",
-      "era": "From City of a Hundred Fires (1998)",
-      "body": "Blanco, who grew up in a Cuban exile family in Miami and later read \"One Today\" at the 2013 presidential inauguration, wrote this poem about his family’s attempts to adopt Thanksgiving. Notice how the table keeps both countries at once: pork alongside the turkey, black beans, yuca, plantain chips, and a pumpkin pie that gets a cool reception. Blanco has said his mother still calls the holiday \"San Giving.\" The comedy is affectionate, and the longing underneath it is real: the boy wants the family from television, and the poem ends up describing an American table more accurately than television did.",
-      "url": "https://poets.org/poem/america-4",
+      "id": "bt-2026-11-27",
+      "title": "The Stone Barge at Vizcaya",
+      "creator": "Sculpture by A. Stirling Calder; estate designed by F. Burrall Hoffman with Paul Chalfin for James Deering",
+      "era": "Vizcaya completed 1916; gardens finished in the early 1920s",
+      "body": "Just off Vizcaya's terrace in Biscayne Bay sits a breakwater carved in the shape of a ship, decorated with figures by the sculptor A. Stirling Calder, father of the mobile-maker Alexander Calder. It is a boat that goes nowhere: it protects the house from waves while pretending to be about to sail. Notice how it frames the view from the house, giving the eye a foreground on open water, and how weather and salt have softened the carving over a century. Deering built the estate as a winter residence; Miami-Dade County has owned it since the 1950s, and it is open to the public.",
+      "url": "https://vizcaya.org/",
       "image": null,
-      "alt": "Text of the poem América by Richard Blanco"
+      "alt": "The carved stone barge breakwater in Biscayne Bay in front of Vizcaya's main house"
     },
-    "noticing_prompt": "At today’s table, notice which dish no one would ever let you drop, and what it is actually standing in for.",
+    "noticing_prompt": "Today, notice one thing you want that you did not want yesterday, and try to name where the wanting came from.",
     "daily_puzzle": {
-      "id": "dp-2026-11-26",
-      "type": "riddle",
-      "prompt": "I am taken from a mine and shut up in a wooden case, from which I am never released, and yet I am used by almost everybody. What am I?",
-      "hint": "You probably held one in school, and sharpened it.",
-      "solution": "Pencil lead (graphite).",
-      "explanation": "Graphite is mined, sealed inside a wooden casing it never leaves, and still does its work through the end of a pencil."
+      "id": "dp-2026-11-27",
+      "type": "logic",
+      "prompt": "You have two fuses and a lighter. Each fuse takes exactly 60 minutes to burn from one end to the other, but they burn unevenly, so half a fuse does not take 30 minutes. You cannot cut them. How do you measure exactly 45 minutes?",
+      "hint": "A fuse lit at both ends burns out in exactly half its time, however uneven it is.",
+      "solution": "Light fuse A at both ends and fuse B at one end, at the same moment. When A burns out, 30 minutes have passed; immediately light the other end of B. B now has 30 minutes of burning left, lit from both ends, so it finishes in 15 more minutes: 45 in total.",
+      "explanation": "Two flames always meet after half the remaining burn time, no matter where along the fuse they meet."
     },
     "evening_unwind": {
-      "id": "eu-2026-11-26",
+      "id": "eu-2026-11-27",
       "evening_quote": {
-        "text": "Think not so much of what thou hast not as of what thou hast: but of the things which thou hast select the best, and then reflect how eagerly they would have been sought, if thou hadst them not.",
-        "attribution": "Marcus Aurelius",
-        "source": "Meditations, 7.27 (George Long translation)"
+        "text": "You ask me to say what you should consider it particularly important to avoid. My answer is this: a mingled crowd.",
+        "attribution": "Seneca",
+        "source": "Letters to Lucilius, 7.1 (Richard Gummere translation)"
       },
-      "evening_prompt": "Of the people at today’s table, whose absence would you have felt first if they had not come?"
+      "evening_prompt": "Of everything you bought, or nearly bought, today, which would you still have chosen if no one were ever going to see it?"
     },
     "reading_queue": [
       {
         "title": "The Radical Reasons Why You Dream of Making Things by Hand",
         "url": "https://aeon.co/essays/the-radical-reasons-why-you-dream-of-making-things-by-hand",
         "verdict": "weekend",
-        "reason": "Saved for a weekend; the four-day weekend starts today."
+        "reason": "Still saved for a weekend; this is the long one."
       }
     ],
     "quote": {
-      "text": "Men are disturbed not by the things which happen, but by the opinions about the things.",
-      "attribution": "Epictetus, Enchiridion 5 (George Long translation)"
+      "text": "If you live according to nature, you will never be poor; if you live according to opinion, you will never be rich.",
+      "attribution": "Seneca, Letters to Lucilius 16 (Richard Gummere translation)"
     }
   },
   "threads": [
@@ -462,9 +359,9 @@
       "title": "US-Iran conflict and the Strait of Hormuz",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-11-26",
-      "updates": 122,
-      "current_state": "Brent jumped about 3.5% to settle near $94.61 on November 25 after the Houthis claimed an attack on Saudi Arabia's Ras Tanura refinery and Riyadh's financial district (unconfirmed); Iran's navy said two more tankers were set ablaze in the Strait. OPEC+ meets November 29 on 2027 output. Treasury widened sanctions November 24. Trump has said any decision on renewed strikes comes after the new year.",
+      "last_updated": "2026-11-27",
+      "updates": 123,
+      "current_state": "Bloomberg's markets wrap (via Swissinfo) had Brent above $96 on November 26, extending the November 25 jump to about $94.61 on the Houthi claim of a strike on Ras Tanura; Saudi Arabia had not confirmed damage in the reporting found. Some outlets quoted crude near $84 (likely WTI). OPEC+ meets Sunday, November 29.",
       "timeline": [
         {
           "date": "2026-07-21",
@@ -1075,6 +972,11 @@
           "date": "2026-11-26",
           "summary": "Brent +3.5% to about $94.61 on a Houthi claim of an attack on Ras Tanura; two more tankers reported ablaze.",
           "change_type": "reversed"
+        },
+        {
+          "date": "2026-11-27",
+          "summary": "Brent pushes above $96 in holiday trade (single wire account, medium confidence).",
+          "change_type": "worsened"
         }
       ]
     },
@@ -1083,9 +985,9 @@
       "title": "Federal Reserve rate path",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-11-26",
+      "last_updated": "2026-11-27",
       "updates": 122,
-      "current_state": "October core PCE (released November 25) rose 0.3% m/m and 3.3% y/y versus 3.2% expected, the highest since 2023; headline 3.8%. December 9 quarter-point hike from 3.75%-4.00% priced near 94%-98% (CME FedWatch as cited); January hike odds reported from about 40% to 73%, unsettled. 10-year fell to roughly 4.84% on a flight to safety; 2-year near 4.65%.",
+      "current_state": "December 9 quarter-point hike to 4.00%-4.25% priced near 94%-98% (CME FedWatch as cited November 25-26). New tariff proposals add an upside inflation risk for 2027 that the Fed will have to weigh. No new data until after the holiday.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -2030,9 +1932,9 @@
       "title": "Heat: the Giannis era begins",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-11-26",
+      "last_updated": "2026-11-27",
       "updates": 37,
-      "current_state": "10-7 after a 111-104 NBA Cup loss at Philadelphia (15-4) on November 25 ended a seven-game streak; Giannis 32 points, 14 rebounds; Davion Mitchell 20. LeBron James had his first 76ers triple-double.",
+      "current_state": "10-7. NBA Cup East Group B finale at the Knicks tonight, November 27, 7 p.m. ET (Prime Video); then at Cleveland Sunday, November 29, 6 p.m.",
       "timeline": [
         {
           "date": "2026-07-18",
@@ -2667,9 +2569,9 @@
       "title": "Miami Hurricanes fall camp and the Mensah era",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-11-26",
+      "last_updated": "2026-11-27",
       "updates": 46,
-      "current_state": "10-1 (8-0 ACC), No. 7 in the CFP rankings. Regular-season finale Saturday, November 28, noon ET on ESPN at Hard Rock Stadium against Boston College (5-6). ACC Championship Game vs. Wake Forest Saturday, December 5, noon ET on ABC in Charlotte; Miami won the September 18 meeting 33-20.",
+      "current_state": "10-1 (8-0 ACC), No. 7 in the CFP rankings, already in the ACC Championship Game against Wake Forest (December 5, Charlotte). Host Boston College (5-6) Saturday, November 28, noon ET on ESPN; a win completes Miami's first 9-0 ACC regular season.",
       "timeline": [
         {
           "date": "2026-08-14",
@@ -3060,9 +2962,9 @@
       "title": "2026 CRE capital markets under pressure",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-11-26",
+      "last_updated": "2026-11-27",
       "updates": 62,
-      "current_state": "The 10-year fell to roughly 4.84% on November 25 (outlets cite 4.82%-4.87%), around a two-and-a-half-month low, on a flight to safety from AI stocks despite hot PCE; 30-year near 5.25%. Record CDS spreads on AI borrowers raise spillover risk for data-center lending. Miami-Dade sales +4% YTD through October; mortgage rates near 7.42% in October.",
+      "current_state": "10-year about 4.84%-4.86% (last cash close November 25; futures-implied yields edged lower November 26). December 9 hike priced near-certain. New overlay: proposed Section 301 tariffs (announced November 25, effective next year) add a cost-of-materials question to construction budgets. Bonds close 2 p.m. November 27.",
       "timeline": [
         {
           "date": "2026-07-24",
@@ -3595,9 +3497,9 @@
       "title": "Panthers' 2026-27 season takes shape",
       "topic": "sports",
       "status": "active",
-      "last_updated": "2026-11-26",
+      "last_updated": "2026-11-27",
       "updates": 42,
-      "current_state": "14-8-3 after a 5-3 home win over Ottawa on November 25: Barkov (empty-netter) and Marchand (three assists) both returned from injury; Markstrom 25 saves; ended Ottawa's nine-game point streak.",
+      "current_state": "14-8-3, in a wild-card spot. At Washington (11-11-0, five straight losses) today, November 27, 3 p.m. ET (Scripps, ESPN+).",
       "timeline": [
         {
           "date": "2026-08-22",
@@ -4285,9 +4187,9 @@
       "title": "AI-regulation selloff",
       "topic": "markets",
       "status": "active",
-      "last_updated": "2026-11-26",
-      "updates": 17,
-      "current_state": "November 25: the Dow erased an intraday drop of more than 1,100 points to close +0.33% at about 50,183; S&P 500 -0.25% to about 7,183; Nasdaq -0.62% to about 23,586; VIX 28.29. Drivers: hot PCE, AI spending doubts, record AI credit-default-swap costs. Markets closed November 26; 1 p.m. close November 27.",
+      "last_updated": "2026-11-27",
+      "updates": 18,
+      "current_state": "With U.S. markets shut on November 26, Asia and Europe rebounded: Nikkei +0.9% to 57,499.16, Taiex +2.5%, Kospi +0.3% after a 6.2% drop the day before; DAX about +1.9% and CAC about +1.8% in early trade; S&P 500 futures about +0.5% early (AP). Wednesday's Nasdaq 100 had briefly sat about 20% below its closing high before recovering. U.S. stocks reopen November 27 for a 1 p.m. close.",
       "timeline": [
         {
           "date": "2026-11-06",
@@ -4373,6 +4275,11 @@
           "date": "2026-11-26",
           "summary": "Intraday rout reverses into a split close: Dow +0.33% after a 1,100-point hole; S&P and Nasdaq slightly lower.",
           "change_type": "advanced"
+        },
+        {
+          "date": "2026-11-27",
+          "summary": "Overseas dip-buying on Thanksgiving: Asia and Europe rally, U.S. futures up about 0.5% early.",
+          "change_type": "improved"
         }
       ]
     },
@@ -4528,6 +4435,22 @@
           "change_type": "new"
         }
       ]
+    },
+    {
+      "id": "thread-tariffs-section-301",
+      "title": "Section 301 overcapacity tariffs",
+      "topic": "markets",
+      "status": "emerging",
+      "last_updated": "2026-11-27",
+      "updates": 1,
+      "current_state": "Proposed November 25: a 20% 'deal rate' on many Chinese goods (45% for some once stacked on existing duties) and individually set rates for 14 large trading partners including the EU, Japan, South Korea, Taiwan and India, after a Section 301 finding on overcapacity. Effective next year; the U.S.-China truce expires January 10. EU and China rejected the premise.",
+      "timeline": [
+        {
+          "date": "2026-11-27",
+          "summary": "USTR proposes country-specific tariffs on 14 partners; China faces 20% (up to 45% stacked).",
+          "change_type": "new"
+        }
+      ]
     }
   ],
   "topic_filters": [
@@ -4549,7 +4472,7 @@
     }
   ],
   "meta": {
-    "content_freshness": "2026-11-26T09:30:00-05:00",
+    "content_freshness": "2026-11-27T09:30:00-05:00",
     "feedback_endpoint_mode": "github_contents",
     "minimum_client_schema_version": 1,
     "mode": "brain"
